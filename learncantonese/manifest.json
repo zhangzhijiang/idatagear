@@ -1,12 +1,12 @@
 {
-    "name": "Learn Cantonese - AI Language Learning",
+    "name": "Learn Cantonese",
     "short_name": "Learn Cantonese",
-    "start_url": ".",
+    "start_url": "/learncantonese/",
     "display": "standalone",
-    "background_color": "#5170FD",
-    "theme_color": "#5170FD",
-    "description": "Learn Cantonese with AI technology - Interactive language learning app with speech recognition and text-to-speech",
-    "orientation": "any",
+    "background_color": "#5C7CFA",
+    "theme_color": "#5C7CFA",
+    "description": "Learn Cantonese - Interactive app to learn Cantonese characters, phrases, and pronunciation with speaking and listening practice.",
+    "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
         {
