@@ -1,0 +1,14 @@
+<svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="lcGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff9fb2"/>
+      <stop offset="100%" stop-color="#ff6f61"/>
+    </linearGradient>
+  </defs>
+  <circle cx="60" cy="60" r="58" fill="url(#lcGrad)" stroke="rgba(255,255,255,0.25)" stroke-width="4"/>
+  <text x="50%" y="54%" dominant-baseline="middle" text-anchor="middle"
+        font-family="Inter, 'Segoe UI', sans-serif" font-size="34" font-weight="700" fill="#ffffff">ZH</text>
+  <text x="50%" y="72%" dominant-baseline="middle" text-anchor="middle"
+        font-family="Inter, 'Segoe UI', sans-serif" font-size="18" font-weight="600" fill="rgba(255,255,255,0.85)">Learn</text>
+</svg>
+

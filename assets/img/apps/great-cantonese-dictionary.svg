@@ -1,0 +1,12 @@
+<svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gcdGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7dffcb"/>
+      <stop offset="100%" stop-color="#38d7a9"/>
+    </linearGradient>
+  </defs>
+  <rect x="6" y="6" width="108" height="108" rx="28" fill="url(#gcdGrad)" stroke="rgba(255,255,255,0.3)" stroke-width="4"/>
+  <text x="50%" y="60%" dominant-baseline="middle" text-anchor="middle"
+        font-family="Inter, 'Segoe UI', sans-serif" font-size="32" font-weight="700" fill="#041627">GCD</text>
+</svg>
+
