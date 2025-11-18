@@ -1,0 +1,755 @@
+[
+  {
+    "article_id": 23,
+    "langLevel": "HSK3",
+    "sentences": [
+      {
+        "zh": "A: 按照你的计划，我们必须在下周前完成这个任务。",
+        "pinyin": "A: Ànzhào nǐ de jìhuà, wǒmen bìxū zài xià zhōu qián wánchéng zhège rènwu.",
+        "translations": {
+          "en": "A: According to your plan, we must complete this task before next week.",
+          "es": "A: Según tu plan, debemos completar esta tarea antes de la próxima semana.",
+          "ko": "A: 당신의 계획에 따라, 우리는 다음 주 전에 이 임무를 완성해야 합니다.",
+          "ja": "A: あなたの計画によると、私たちは来週までにこの任務を完了しなければなりません。",
+          "vi": "A: Theo kế hoạch của bạn, chúng ta phải hoàn thành nhiệm vụ này trước tuần sau."
+        }
+      },
+      {
+        "zh": "B: 我理解，我已经安排了调查工作。这对我来说是很简单的。",
+        "pinyin": "B: Wǒ lǐjiě, wǒ yǐjīng ānpái le diàochá gōngzuò. Zhè duì wǒ lái shuō shì hěn jiǎndān de.",
+        "translations": {
+          "en": "B: I understand, I have already arranged the investigation work. This is quite simple for me.",
+          "es": "B: Lo entiendo, ya he organizado el trabajo de investigación. Esto es bastante simple para mí.",
+          "ko": "B: 저는 이해합니다, 저는 이미 조사 업무를 배치했습니다. 이것은 저에게는 매우 간단합니다.",
+          "ja": "B: 私は理解しています、すでに調査作業を手配しました。これは私にとって非常に簡単です。",
+          "vi": "B: Tôi hiểu, tôi đã sắp xếp công việc điều tra. Việc này khá đơn giản với tôi."
+        }
+      },
+      {
+        "zh": "A: 太好了。上次的经验告诉我们，及时讨论非常重要。",
+        "pinyin": "A: Tài hǎo le. Shàng cì de jīngyàn gàosù wǒmen, jíshí tǎolùn fēicháng zhòngyào.",
+        "translations": {
+          "en": "A: That's great. The last experience tells us that timely discussion is very important.",
+          "es": "A: Genial. La experiencia anterior nos dice que la discusión a tiempo es muy importante.",
+          "ko": "A: 잘됐네요. 지난번 경험은 우리에게 시의적절한 토론이 매우 중요하다는 것을 알려줍니다.",
+          "ja": "A: それは良かったです。前回の経験は、私たちにタイムリーな議論が非常に重要であることを教えてくれます。",
+          "vi": "A: Tuyệt vời. Kinh nghiệm lần trước cho chúng ta biết rằng thảo luận kịp thời là rất quan trọng."
+        }
+      },
+      {
+        "zh": "B: 确实。我们应该共同负责，保证项目成功。",
+        "pinyin": "B: Quèshí. Wǒmen yīnggāi gòngtóng fùzé, bǎozhèng xiàngmù chénggōng.",
+        "translations": {
+          "en": "B: Indeed. We should be jointly responsible and guarantee the success of the project.",
+          "es": "B: Ciertamente. Debemos ser conjuntamente responsables y garantizar el éxito del proyecto.",
+          "ko": "B: 확실히요. 우리는 공동으로 책임지고 프로젝트의 성공을 보장해야 합니다.",
+          "ja": "B: 全くです。私たちは共に責任を負い、プロジェクトの成功を保証すべきです。",
+          "vi": "B: Quả thực. Chúng ta nên cùng nhau chịu trách nhiệm, đảm bảo dự án thành công."
+        }
+      },
+      {
+        "zh": "A: 我相信我们能解决任何问题。毕竟，这关系到我们城市未来的发展。",
+        "pinyin": "A: Wǒ xiāngxìn wǒmen néng jiějué rènhé wèntí. Bìjìng, zhè guānxì dào wǒmen chéngshì wèilái de fāzhǎn.",
+        "translations": {
+          "en": "A: I believe we can solve any problem. After all, this relates to the future development of our city.",
+          "es": "A: Creo que podemos resolver cualquier problema. Después de todo, esto se relaciona con el futuro desarrollo de nuestra ciudad.",
+          "ko": "A: 저는 우리가 어떤 문제라도 해결할 수 있다고 믿습니다. 결국, 이것은 우리 도시의 미래 발전에 관계된 일입니다.",
+          "ja": "A: 私たちはどんな問題でも解決できると信じています。結局のところ、これは私たちの都市の将来の発展に関わることです。",
+          "vi": "A: Tôi tin rằng chúng ta có thể giải quyết bất kỳ vấn đề nào. Xét cho cùng, điều này liên quan đến sự phát triển tương lai của thành phố chúng ta."
+        }
+      },
+      {
+        "zh": "B: 没错。我们都希望看到好的变化。",
+        "pinyin": "B: Méi cuò. Wǒmen dōu xīwàng kàndào hǎo de biànhuà.",
+        "translations": {
+          "en": "B: That's right. We all hope to see positive changes.",
+          "es": "B: Así es. Todos esperamos ver cambios positivos.",
+          "ko": "B: 맞아요. 우리 모두 좋은 변화를 보기를 희망합니다.",
+          "ja": "B: その通りです。私たちは皆、良い変化を見ることを望んでいます。",
+          "vi": "B: Đúng vậy. Tất cả chúng ta đều hy vọng thấy những thay đổi tích cực."
+        }
+      }
+    ]
+  },
+  {
+    "article_id": 24,
+    "langLevel": "HSK3",
+    "sentences": [
+      {
+        "zh": "A: 你好，你觉得去北京旅游应该注意什么？",
+        "pinyin": "A: Nǐ hǎo, nǐ juéde qù Běijīng lǚyóu yīnggāi zhùyì shénme?",
+        "translations": {
+          "en": "A: Hello, what do you think we should pay attention to when traveling to Beijing?",
+          "es": "A: Hola, ¿qué crees que debemos tener en cuenta al viajar a Beijing?",
+          "ko": "A: 안녕하세요, 베이징 여행할 때 무엇을 주의해야 한다고 생각하세요?",
+          "ja": "A: こんにちは、北京への旅行で何を注意すべきだと思いますか？",
+          "vi": "A: Chào bạn, bạn nghĩ chúng ta nên chú ý điều gì khi đi du lịch Bắc Kinh?"
+        }
+      },
+      {
+        "zh": "B: 首先，你需要带够衣服，因为天气变化很大。",
+        "pinyin": "B: Shǒuxiān, nǐ xūyào dài gòu yīfu, yīnwèi tiānqì biànhuà hěn dà.",
+        "translations": {
+          "en": "B: First of all, you need to bring enough clothes, because the weather changes a lot.",
+          "es": "B: En primer lugar, necesitas llevar suficiente ropa, porque el clima cambia mucho.",
+          "ko": "B: 우선, 날씨 변화가 크기 때문에 옷을 충분히 가져가야 합니다.",
+          "ja": "B: まず、天気が大きく変わるので、十分な服を持っていく必要があります。",
+          "vi": "B: Trước hết, bạn cần mang đủ quần áo, vì thời tiết thay đổi rất lớn."
+        }
+      },
+      {
+        "zh": "B: 其次，你应该提前在网上买票，这样可以参观更多地方。",
+        "pinyin": "B: Qícì, nǐ yīnggāi tíqián zài wǎngshàng mǎi piào, zhèyàng kěyǐ cānguān gèng duō dìfang.",
+        "translations": {
+          "en": "B: Secondly, you should buy tickets online in advance, so you can visit more places.",
+          "es": "B: En segundo lugar, deberías comprar entradas por internet con antelación, así podrás visitar más lugares.",
+          "ko": "B: 다음으로, 온라인으로 미리 표를 사야 더 많은 곳을 참관할 수 있습니다.",
+          "ja": "B: 次に、事前にオンラインでチケットを買うべきです、そうすればより多くの場所を見学できます。",
+          "vi": "B: Thứ hai, bạn nên mua vé trực tuyến trước, như vậy có thể tham quan được nhiều nơi hơn."
+        }
+      },
+      {
+        "zh": "A: 谢谢你的意见。你觉得最好的旅行经历是什么？",
+        "pinyin": "A: Xièxie nǐ de yìjiàn. Nǐ juéde zuì hǎo de lǚxíng jīnglì shì shénme?",
+        "translations": {
+          "en": "A: Thank you for your advice. What do you think is the best travel experience?",
+          "es": "A: Gracias por tu opinión. ¿Cuál crees que es la mejor experiencia de viaje?",
+          "ko": "A: 당신의 의견에 감사합니다. 가장 좋았던 여행 경험은 무엇이었나요?",
+          "ja": "A: あなたの意見をありがとう。最高の旅行経験は何だと思いますか？",
+          "vi": "A: Cảm ơn ý kiến của bạn. Bạn nghĩ trải nghiệm du lịch tốt nhất là gì?"
+        }
+      },
+      {
+        "zh": "B: 是在长城上看日出，那感觉真的很难忘。",
+        "pinyin": "B: Shì zài Chángchéng shàng kàn rìchū, nà gǎnjué zhēnde hěn nánwàng.",
+        "translations": {
+          "en": "B: It was watching the sunrise on the Great Wall, that feeling is truly unforgettable.",
+          "es": "B: Fue ver el amanecer en la Gran Muralla, esa sensación es realmente inolvidable.",
+          "ko": "B: 만리장성에서 해가 뜨는 것을 본 것이요, 그 느낌은 정말 잊을 수 없습니다.",
+          "ja": "B: それは万里の長城で日の出を見たことです、その感覚は本当に忘れられません。",
+          "vi": "B: Đó là xem mặt trời mọc trên Vạn Lý Trường Thành, cảm giác đó thực sự khó quên."
+        }
+      }
+    ]
+  },
+  {
+    "article_id": 25,
+    "langLevel": "HSK3",
+    "sentences": [
+      {
+        "zh": "A: 我觉得保护环境是我们每个人的责任。",
+        "pinyin": "A: Wǒ juéde bǎohù huánjìng shì wǒmen měi ge rén de zérèn.",
+        "translations": {
+          "en": "A: I think protecting the environment is the responsibility of every one of us.",
+          "es": "A: Creo que proteger el medio ambiente es responsabilidad de cada uno de nosotros.",
+          "ko": "A: 저는 환경 보호가 우리 각자의 책임이라고 생각합니다.",
+          "ja": "A: 環境を保護することは、私たち一人ひとりの責任だと思います。",
+          "vi": "A: Tôi nghĩ bảo vệ môi trường là trách nhiệm của mỗi người chúng ta."
+        }
+      },
+      {
+        "zh": "B: 说得对。例如，我们应该节约用电和水。",
+        "pinyin": "B: Shuō de duì. Lìrú, wǒmen yīnggāi jiéyuē yòng diàn hé shuǐ.",
+        "translations": {
+          "en": "B: That's right. For example, we should conserve electricity and water.",
+          "es": "B: Es cierto. Por ejemplo, deberíamos ahorrar electricidad y agua.",
+          "ko": "B: 맞는 말입니다. 예를 들어, 우리는 전기와 물 사용을 절약해야 합니다.",
+          "ja": "B: その通りです。例えば、私たちは電気と水を節約して使うべきです。",
+          "vi": "B: Đúng vậy. Ví dụ, chúng ta nên tiết kiệm điện và nước."
+        }
+      },
+      {
+        "zh": "A: 是的。否则，地球的变化会越来越大，这对我们的生活有很大的影响。",
+        "pinyin": "A: Shì de. Fǒuzé, dìqiú de biànhuà huì yuè lái yuè dà, zhè duì wǒmen de shēnghuó yǒu hěn dà de yǐngxiǎng.",
+        "translations": {
+          "en": "A: Yes. Otherwise, the changes on Earth will become greater and greater, which has a huge impact on our life.",
+          "es": "A: Sí. De lo contrario, los cambios en la Tierra serán cada vez mayores, lo que tiene un gran impacto en nuestra vida.",
+          "ko": "A: 맞습니다. 그렇지 않으면, 지구의 변화가 점점 더 커질 것이고, 이것은 우리 생활에 큰 영향을 미칩니다.",
+          "ja": "A: はい。さもなければ、地球の変化はますます大きくなり、これは私たちの生活に大きな影響を与えます。",
+          "vi": "A: Đúng vậy. Nếu không, thay đổi của Trái đất sẽ ngày càng lớn, điều này có ảnh hưởng rất lớn đến cuộc sống của chúng ta."
+        }
+      },
+      {
+        "zh": "B: 没错。即使是很小的行动，值得我们坚持去做。",
+        "pinyin": "B: Méi cuò. Jíshǐ shì hěn xiǎo de xíngdòng, zhíde wǒmen jiānchí qù zuò.",
+        "translations": {
+          "en": "B: That's right. Even if it is a very small action, it is worth our while to persist in doing it.",
+          "es": "B: Así es. Aunque sea una acción muy pequeña, vale la pena que persistamos en hacerla.",
+          "ko": "B: 맞아요. 비록 아주 작은 행동일지라도, 우리가 계속 하는 것은 가치 있는 일입니다.",
+          "ja": "B: その通りです。たとえ非常に小さな行動でも、堅持して行う価値があります。",
+          "vi": "B: Đúng vậy. Ngay cả hành động rất nhỏ, chúng ta cũng đáng kiên trì thực hiện."
+        }
+      }
+    ]
+  },
+  {
+    "article_id": 26,
+    "langLevel": "HSK3",
+    "sentences": [
+      {
+        "zh": "这座城市在过去的二十年里发生了很大的变化。",
+        "pinyin": "Zhè zuò chéngshì zài guòqù de èr shí nián lǐ fāshēng le hěn dà de biànhuà.",
+        "translations": {
+          "en": "This city has undergone great changes in the past twenty years.",
+          "es": "Esta ciudad ha experimentado grandes cambios en los últimos veinte años.",
+          "ko": "이 도시는 지난 20년 동안 큰 변화가 발생했습니다.",
+          "ja": "この都市は過去20年間で大きな変化が発生しました。",
+          "vi": "Thành phố này đã xảy ra thay đổi lớn trong hai mươi năm qua."
+        }
+      },
+      {
+        "zh": "它曾经是一个小渔村，如今已经发展成一个国际大都市。",
+        "pinyin": "Tā céngjīng shì yī ge xiǎo yú cūn, rú jīn yǐjīng fāzhǎn chéng yī ge guójì dà dūshì.",
+        "translations": {
+          "en": "It used to be a small fishing village, but now it has developed into a large international city.",
+          "es": "Solía ser un pequeño pueblo de pescadores, pero ahora se ha desarrollado hasta convertirse en una gran metrópolis internacional.",
+          "ko": "그곳은 예전에는 작은 어촌이었지만, 지금은 국제적인 대도시로 발전했습니다.",
+          "ja": "そこはかつて小さな漁村でしたが、今では国際的な大都市に発展しました。",
+          "vi": "Nó từng là một làng chài nhỏ, nhưng giờ đây đã phát triển thành một đô thị quốc tế lớn."
+        }
+      },
+      {
+        "zh": "政府专门为了经济发展制定了新的计划。",
+        "pinyin": "Zhèngfǔ zhuānmén wèile jīngjì fāzhǎn zhìdìng le xīn de jìhuà.",
+        "translations": {
+          "en": "The government specifically formulated a new plan for economic development.",
+          "es": "El gobierno formuló especialmente un nuevo plan para el desarrollo económico.",
+          "ko": "정부는 특히 경제 발전을 위해 새로운 계획을 세웠습니다.",
+          "ja": "政府は経済発展のために専門的に新しい計画を策定しました。",
+          "vi": "Chính phủ đã đặc biệt xây dựng một kế hoạch mới cho sự phát triển kinh tế."
+        }
+      },
+      {
+        "zh": "这个变化引起了许多人的兴趣，他们都想知道究竟发生了什么。",
+        "pinyin": "Zhège biànhuà yǐnqǐ le xǔduō rén de xìngqù, tāmen dōu xiǎng zhīdào jiūjìng fāshēng le shénme.",
+        "translations": {
+          "en": "This change aroused many people's interest; they all want to know exactly what happened.",
+          "es": "Este cambio despertó el interés de muchas personas; todos quieren saber exactamente qué pasó.",
+          "ko": "이 변화는 많은 사람들의 관심을 불러일으켰고, 그들은 도대체 무슨 일이 일어났는지 알고 싶어 합니다.",
+          "ja": "この変化は多くの人々の興味を引き起こし、彼らは一体何が起こったのかを知りたがっています。",
+          "vi": "Thay đổi này đã gây ra sự hứng thú cho nhiều người; họ đều muốn biết rốt cuộc điều gì đã xảy ra."
+        }
+      },
+      {
+        "zh": "城里的很多建筑都代表了不同的历史时期，给人留下了深刻的印象。",
+        "pinyin": "Chéng lǐ de hěn duō jiànzhù dōu dàibiǎo le bùtóng de lìshǐ shíqī, gěi rén liú xià le shēnkè de yìnxiàng.",
+        "translations": {
+          "en": "Many buildings in the city represent different historical periods, leaving people with a deep impression.",
+          "es": "Muchos edificios en la ciudad representan diferentes períodos históricos, dejando una impresión profunda en la gente.",
+          "ko": "도시의 많은 건물들은 서로 다른 역사 시기를 대표하며, 사람들에게 깊은 인상을 남깁니다.",
+          "ja": "市内の多くの建物は異なる歴史的時期を代表しており、人々に深い印象を残しています。",
+          "vi": "Nhiều tòa nhà trong thành phố đại diện cho các thời kỳ lịch sử khác nhau, để lại ấn tượng sâu sắc cho mọi người."
+        }
+      },
+      {
+        "zh": "虽然它的价格越来越高，但吸引了很多年轻人来这里工作。",
+        "pinyin": "Suīrán tā de jiàgé yuè lái yuè gāo, dàn xīyǐn le hěn duō niánqīng rén lái zhèlǐ gōngzuò.",
+        "translations": {
+          "en": "Although its price is getting higher and higher, it attracts many young people to come here to work.",
+          "es": "Aunque su precio es cada vez más alto, atrae a mucha gente joven a venir aquí a trabajar.",
+          "ko": "비록 그 가격이 점점 높아지고 있지만, 많은 젊은 사람들이 이곳에 일하러 오는 것을 끌어들입니다.",
+          "ja": "にもかかわらず、価格はどんどん高くなっていますが、多くの若い人々をここに仕事に来るように引きつけています。",
+          "vi": "Mặc dù giá cả của nó ngày càng cao, nhưng nó thu hút rất nhiều người trẻ đến đây làm việc."
+        }
+      },
+      {
+        "zh": "总之，这座城市的发展证明了一切都可能。",
+        "pinyin": "Zǒngzhī, zhè zuò chéngshì de fāzhǎn zhèngmíng le yīqiè dōu kěnéng.",
+        "translations": {
+          "en": "In short, the development of this city proves that everything is possible.",
+          "es": "En resumen, el desarrollo de esta ciudad demuestra que todo es posible.",
+          "ko": "요컨대, 이 도시의 발전은 모든 것이 가능하다는 것을 증명합니다.",
+          "ja": "要するに、この都市の発展はすべてが可能であることを証明しています。",
+          "vi": "Tóm lại, sự phát triển của thành phố này chứng minh rằng mọi thứ đều có thể."
+        }
+      }
+    ]
+  },
+  {
+    "article_id": 27,
+    "langLevel": "HSK3",
+    "sentences": [
+      {
+        "zh": "A: 你终于要搬家了！你对新家比较满意吗？",
+        "pinyin": "A: Nǐ zhōngyú yào bānjiā le! Nǐ duì xīn jiā bǐjiào mǎnyì ma?",
+        "translations": {
+          "en": "A: You are finally moving house! Are you relatively satisfied with the new place?",
+          "es": "A: ¡Finalmente te mudas! ¿Estás relativamente satisfecho con la nueva casa?",
+          "ko": "A: 너 드디어 이사하는구나! 새집에 비교적 만족하니?",
+          "ja": "A: ついに引っ越しだね！新しい家には比較的満足しているかい？",
+          "vi": "A: Bạn cuối cùng cũng chuyển nhà rồi! Bạn có tương đối hài lòng với ngôi nhà mới không?"
+        }
+      },
+      {
+        "zh": "B: 我很满意。虽然新家距离公司远了一点，但是附近很安静。",
+        "pinyin": "B: Wǒ hěn mǎnyì. Suīrán xīn jiā jùlí gōngsī yuǎn le yī diǎn, dànshì fùjìn hěn ānjìng.",
+        "translations": {
+          "en": "B: I am very satisfied. Although the new place is a bit far in distance from the company, the vicinity is very quiet.",
+          "es": "B: Estoy muy satisfecho. Aunque la casa nueva está un poco lejos en distancia de la empresa, el vecindario es muy tranquilo.",
+          "ko": "B: 저는 아주 만족해요. 새집이 회사에서 거리가 조금 멀지만, 근처는 매우 조용해요.",
+          "ja": "B: とても満足しています。新しい家は会社から距離が少し遠いですが、近くはとても静かです。",
+          "vi": "B: Tôi rất hài lòng. Mặc dù nhà mới hơi xa công ty, nhưng khu vực lân cận rất yên tĩnh."
+        }
+      },
+      {
+        "zh": "A: 是吗？你安排好搬家公司了吗？上次搬家的经验告诉我，一定要提前安排。",
+        "pinyin": "A: Shì ma? Nǐ ānpái hǎo bānjiā gōngsī le ma? Shàng cì bānjiā de jīngyàn gàosù wǒ, yīdìng yào tíqián ānpái.",
+        "translations": {
+          "en": "A: Really? Have you arranged the moving company? The experience from last time I moved told me to arrange it in advance.",
+          "es": "A: ¿En serio? ¿Ya organizaste la empresa de mudanzas? La experiencia de la última mudanza me dijo que hay que organizar con antelación.",
+          "ko": "A: 그래요? 이삿짐센터를 배치했어요? 지난번 이사 경험이 저에게는 미리 준비해야 한다고 알려줬어요。",
+          "ja": "A: そうですか？引っ越し業者を手配しましたか？前回の引っ越し経験から、必ず事前に手配する必要があると教訓を得ました。",
+          "vi": "A: Thật sao? Bạn đã sắp xếp công ty chuyển nhà chưa? Kinh nghiệm chuyển nhà lần trước nói với tôi rằng nhất định phải sắp xếp trước."
+        }
+      },
+      {
+        "zh": "B: 我已经安排好了。他们保证明天上午及时到达。",
+        "pinyin": "B: Wǒ yǐjīng ānpái hǎo le. Tāmen bǎozhèng míngtiān shàngwǔ jíshí dàodá.",
+        "translations": {
+          "en": "B: I have already arranged it. They guarantee to arrive on time tomorrow morning.",
+          "es": "B: Ya lo he organizado. Garantizan llegar a tiempo mañana por la mañana.",
+          "ko": "B: 이미 배치했어요. 그들은 내일 오전에 시간 맞춰 도착할 것을 보증했습니다.",
+          "ja": "B: もう手配しました。彼らは明日の午前中に時間通りに到着することを保証しました。",
+          "vi": "B: Tôi đã sắp xếp xong rồi. Họ đảm bảo đến đúng giờ vào sáng mai."
+        }
+      },
+      {
+        "zh": "A: 那太好了。你对这个旧房子有什么感情吗？毕竟你住了很长时间。",
+        "pinyin": "A: Nà tài hǎo le. Nǐ duì zhège jiù fángzi yǒu shénme gǎnqíng ma? Bìjìng nǐ zhùle hěn cháng shíjiān.",
+        "translations": {
+          "en": "A: That's great. Do you have any feelings for this old house? After all, you lived here for a long time.",
+          "es": "A: Qué bien. ¿Tienes algún sentimiento por esta vieja casa? Después de todo, viviste aquí por mucho tiempo.",
+          "ko": "A: 잘됐네요. 이 오래된 집에 어떤 감정이 있나요? 결국 당신은 여기서 오랫동안 살았잖아요。",
+          "ja": "A: それは良かったです。この古い家に何か感情はありますか？結局、あなたは長い時間ここに住んでいたのですから。",
+          "vi": "A: Tuyệt vời. Bạn có tình cảm gì với căn nhà cũ này không? Dù sao thì bạn cũng đã sống ở đây một thời gian dài."
+        }
+      },
+      {
+        "zh": "B: 当然有感情，但是为了更好的生活，改变是必要的选择。",
+        "pinyin": "B: Dāngrán yǒu gǎnqíng, dànshì wèile gèng hǎo de shēnghuó, gǎibiàn shì bìyào de xuǎnzé.",
+        "translations": {
+          "en": "B: Of course I have feelings, but for a better life, change is a necessary choice.",
+          "es": "B: Por supuesto que tengo sentimientos, pero para una mejor vida, el cambio es una elección necesaria.",
+          "ko": "B: 물론 감정이 있죠, 하지만 더 나은 생활을 위해 변화는 필요한 선택입니다。",
+          "ja": "B: もちろん感情はありますが、より良い生活のためには、変化は必要な選択です。",
+          "vi": "B: Tất nhiên là có tình cảm, nhưng vì một cuộc sống tốt hơn, thay đổi là một lựa chọn cần thiết."
+        }
+      },
+      {
+        "zh": "A: 祝你新家幸福，希望一切顺利！",
+        "pinyin": "A: Zhù nǐ xīn jiā xìngfú, xīwàng yīqiè shùnlì!",
+        "translations": {
+          "en": "A: I wish you happiness in your new home, hope everything goes well!",
+          "es": "A: ¡Te deseo felicidad en tu nuevo hogar, espero que todo vaya bien!",
+          "ko": "A: 새집에서 행복하시고, 모든 일이 순조롭기를 바랍니다！",
+          "ja": "A: 新しい家での幸福を祈っています、すべてがうまくいくように！",
+          "vi": "A: Chúc bạn hạnh phúc trong ngôi nhà mới, hy vọng mọi việc thuận lợi!"
+        }
+      }
+    ]
+  },
+  {
+    "article_id": 28,
+    "langLevel": "HSK3",
+    "sentences": [
+      {
+        "zh": "小李今年通过了入学考试，申请了一所著名的大学。",
+        "pinyin": "Xiǎo Lǐ jīnnián tōngguò le rùxué kǎoshì, shēnqǐng le yī suǒ zhùmíng de dàxué.",
+        "translations": {
+          "en": "Xiao Li passed the entrance examination this year and applied to a famous university.",
+          "es": "Xiao Li aprobó el examen de ingreso este año y solicitó ingreso a una universidad famosa.",
+          "ko": "샤오리는 올해 입학시험을 통과하고 유명한 대학교에 신청했습니다.",
+          "ja": "李さんは今年、入学試験に合格し、ある有名な大学に申請しました。",
+          "vi": "Tiểu Lý năm nay đã vượt qua kỳ thi tuyển sinh và nộp đơn vào một trường đại học nổi tiếng."
+        }
+      },
+      {
+        "zh": "在大学里，他积极参加各种活动，和队友们互相学习。",
+        "pinyin": "Zài dàxué lǐ, tā jījí cānjiā gè zhǒng huódòng, hé duìyǒu men hùxiāng xuéxí.",
+        "translations": {
+          "en": "In university, he actively participated in various activities and learned mutually with his teammates.",
+          "es": "En la universidad, él participó activamente en diversas actividades y aprendió mutuamente con sus compañeros de equipo.",
+          "ko": "대학에서, 그는 다양한 활동에 적극적으로 참여했고, 팀원들과 서로 공부했습니다.",
+          "ja": "大学で、彼はさまざまな活動に積極的に参加し、チームメイトとお互いに学びました。",
+          "vi": "Ở đại học, anh ấy tích cực tham gia các loại hoạt động và học hỏi lẫn nhau với đồng đội."
+        }
+      },
+      {
+        "zh": "虽然他的学习压力比较大，但他觉得每天都很有意思。",
+        "pinyin": "Suīrán tā de xuéxí yālì bǐjiào dà, dàn tā juéde měitiān dōu hěn yǒuyìsi.",
+        "translations": {
+          "en": "Although his study pressure is relatively great, he feels that every day is very interesting.",
+          "es": "Aunque su presión de estudio es relativamente alta, siente que cada día es muy interesante.",
+          "ko": "비록 그의 학습 압력이 비교적 크지만, 그는 매일이 매우 재미있다고 느낍니다.",
+          "ja": "たとえ彼の学習プレッシャーが比較的大きくても、彼は毎日とても面白いと感じています。",
+          "vi": "Mặc dù áp lực học tập của anh ấy tương đối lớn, nhưng anh ấy cảm thấy mỗi ngày đều rất thú vị."
+        }
+      },
+      {
+        "zh": "上个周末，学校举行了一个大型的比赛。",
+        "pinyin": "Shàng ge zhōumò, xuéxiào jǔxíng le yī ge dàxíng de bǐsài.",
+        "translations": {
+          "en": "Last weekend, the school held a large-scale competition.",
+          "es": "El fin de semana pasado, la escuela celebró una competición a gran escala.",
+          "ko": "지난 주말, 학교에서 대규모 시합을 거행했습니다.",
+          "ja": "先週末、学校は大規模な試合を開催しました。",
+          "vi": "Cuối tuần trước, trường học đã tổ chức một cuộc thi lớn."
+        }
+      },
+      {
+        "zh": "他和其他人经过努力，终于取得了成功。",
+        "pinyin": "Tā hé qítā rén jīngguò nǔlì, zhōngyú qǔdé le chénggōng.",
+        "translations": {
+          "en": "After hard work, he and others finally achieved success.",
+          "es": "Después de un gran esfuerzo, él y otros finalmente lograron el éxito.",
+          "ko": "그는 다른 사람들과 노력을 경험한 후, 마침내 성공을 얻었습니다.",
+          "ja": "彼と他の人々は努力を経て、ついに成功を収めました。",
+          "vi": "Sau những nỗ lực, anh ấy và những người khác cuối cùng đã đạt được thành công."
+        }
+      },
+      {
+        "zh": "这次经验证明了团队合作的重要性，也给了他更多的机会。",
+        "pinyin": "Zhè cì jīngyàn zhèngmíng le tuánduì hézuò de zhòngyàoxìng, yě gěi le tā gèng duō de jīhuì.",
+        "translations": {
+          "en": "This experience proved the importance of team cooperation and also gave him more opportunities.",
+          "es": "Esta experiencia demostró la importancia de la cooperación en equipo y también le dio más oportunidades.",
+          "ko": "이번 경험은 팀 협력의 중요성을 증명했으며, 그에게 더 많은 기회를 주었습니다.",
+          "ja": "この経験はチームワークの重要性を証明し、彼により多くの機会を与えました。",
+          "vi": "/Kinh nghiệm này đã chứng minh tầm quan trọng của hợp tác đồng đội và cũng mang lại cho anh ấy nhiều cơ hội hơn."
+        }
+      },
+      {
+        "zh": "他希望自己能好好把握这四年的大学生活。",
+        "pinyin": "Tā xīwàng zìjǐ néng hǎo hǎo bǎwò zhè sì nián de dàxué shēnghuó.",
+        "translations": {
+          "en": "He hopes he can fully grasp these four years of college life.",
+          "es": "Él espera poder aprovechar bien estos cuatro años de vida universitaria.",
+          "ko": "그는 이 4년의 대학 생활을 잘 파악할 수 있기를 희망합니다.",
+          "ja": "彼はこの4年間の大学生活をしっかり把握できることを希望しています。",
+          "vi": "Anh ấy hy vọng mình có thể nắm bắt tốt bốn năm đời sống đại học này."
+        }
+      }
+    ]
+  },
+  {
+    "article_id": 29,
+    "langLevel": "HSK3",
+    "sentences": [
+      {
+        "zh": "李娜在上海生活了三年，对这里的交通已经很熟悉了。",
+        "pinyin": "Lǐ Nà zài Shànghǎi shēnghuó le sān nián, duì zhèlǐ de jiāotōng yǐjīng hěn shúxī le.",
+        "translations": {
+          "en": "Li Na has lived in Shanghai for three years and is already very familiar with the transportation here.",
+          "es": "Li Na ha vivido en Shanghái durante tres años y ya está muy familiarizada con el transporte aquí.",
+          "ko": "리나는 상하이에서 3년 동안 살았으며, 이곳의 교통에 이미 매우 익숙합니다.",
+          "ja": "李娜は上海に3年間住んでおり、ここの交通にすでによく慣れています。",
+          "vi": "Lý Na đã sống ở Thượng Hải được ba năm và đã rất quen thuộc với giao thông ở đây."
+        }
+      },
+      {
+        "zh": "她每天早上都要乘坐地铁去上班。",
+        "pinyin": "Tā měitiān zǎoshang dōu yào chéngzuò dìtiě qù shàngbān.",
+        "translations": {
+          "en": "She has to take the subway to work every day morning.",
+          "es": "Ella tiene que tomar el metro para ir a trabajar todas las mañanas.",
+          "ko": "그녀는 매일 아침 지하철을 타고 출근해야 합니다.",
+          "ja": "彼女は毎日朝、地下鉄に乗って出勤します。",
+          "vi": "Cô ấy phải đi tàu điện ngầm để làm việc mỗi ngày."
+        }
+      },
+      {
+        "zh": "她住的地方离地铁站的距离很近，走路只需要五分钟。",
+        "pinyin": "Tā zhù de dìfang lí dìtiě zhàn de jùlí hěn jìn, zǒulù zhǐ xūyào wǔ fēnzhōng.",
+        "translations": {
+          "en": "The distance from where she lives to the subway station is very close; it only takes five minutes to walk.",
+          "es": "La distancia desde donde vive hasta la estación de metro es muy corta; solo necesita cinco minutos a pie.",
+          "ko": "그녀가 사는 곳은 지하철 역에서 거리가 매우 가까워, 걸어서 5분밖에 걸리지 않습니다.",
+          "ja": "彼女が住んでいる場所は地下鉄の駅から距離が非常に近く、歩いてわずか5分で済みます。",
+          "vi": "Khoảng cách từ nơi cô ấy sống đến ga tàu điện ngầm rất gần, chỉ mất năm phút đi bộ."
+        }
+      },
+      {
+        "zh": "上海的公共交通非常方便，并且价格也比较便宜。",
+        "pinyin": "Shànghǎi de gōnggòng jiāotōng fēicháng fāngbiàn, bìngqiě jiàgé yě bǐjiào piányi.",
+        "translations": {
+          "en": "Shanghai's public transportation is very convenient, and the price is also relatively cheap.",
+          "es": "El transporte público de Shanghái es muy conveniente, y el precio también es relativamente barato.",
+          "ko": "상하이의 대중 교통은 매우 편리하고, 게다가가격도 비교적 저렴합니다.",
+          "ja": "上海の公共交通は非常に便利で、さらに価格も比較的安いです。",
+          "vi": "Giao thông công cộng ở Thượng Hải rất thuận tiện, hơn nữa giá cả cũng tương đối rẻ."
+        }
+      },
+      {
+        "zh": "另外，她发现用手机支付车票很简单，几乎不用带现金。",
+        "pinyin": "Lìngwài, tā fāxiàn yòng shǒujī zhīfù chēpiào hěn jiǎndān, jīhū bù yòng dài xiànjīn.",
+        "translations": {
+          "en": "In addition, she found that paying for tickets with a mobile phone is very simple; she almost never needs to carry cash.",
+          "es": "Además, descubrió que pagar los billetes con el móvil es muy sencillo; casi nunca necesita llevar efectivo.",
+          "ko": "게다가, 그녀는 휴대폰으로 차표를 지불하는 것이 매우 간단하며, 거의현금을 들고 다닐 필요가 없다는 것을 발견했습니다.",
+          "ja": "その他に、彼女は携帯電話で切符を支払うのが非常に簡単で、ほとんど現金を持ち歩く必要がないことを発見しました。",
+          "vi": "Ngoài ra, cô ấy phát hiện việc thanh toán vé xe bằng điện thoại rất đơn giản; cô ấy hầu như không cần mang theo tiền mặt."
+        }
+      },
+      {
+        "zh": "不过，在上下班时间，地铁里总是挤满了人。",
+        "pinyin": "Búguò, zài shàng xià bān shíjiān, dìtiě lǐ zǒng shì jǐmǎn le rén.",
+        "translations": {
+          "en": "However, during rush hour, the subway is always packed with people.",
+          "es": "Sin embargo, durante la hora pico, el metro siempre está abarrotado de gente.",
+          "ko": "하지만, 출퇴근 시간에는 지하철 안에 항상 사람들이 가득합니다。",
+          "ja": "しかし、ラッシュアワーでは、地下鉄の中はいつも人でごった返しています。",
+          "vi": "Tuy nhiên, vào thời gian tan ca, tàu điện ngầm luôn chật kín người."
+        }
+      },
+      {
+        "zh": "尽管如此，她仍然满意目前的生活，因为城市的发展带给她很多机会。",
+        "pinyin": "Jǐnguǎn rúcǐ, tā réngrán mǎnyì mùqián de shēnghuó, yīnwèi chéngshì de fāzhǎn dài gěi tā hěn duō jīhuì.",
+        "translations": {
+          "en": "Despite this, she is still satisfied with her current life, because the development of the city brings her many opportunities.",
+          "es": "A pesar de esto, ella todavía está satisfecha con su vida actual, porque el desarrollo de la ciudad le trae muchas oportunidades.",
+          "ko": "그럼에도 불구하고, 그녀는 도시의 발전이 그녀에게 많은 기회를 가져다주기 때문에, 여전히 현재의 삶에 만족합니다.",
+          "ja": "それにもかかわらず、都市の発展が彼女に多くの機会をもたらすため、彼女は依然として現在の生活に満足しています。",
+          "vi": "Mặc dù vậy, cô ấy vẫn hài lòng với cuộc sống hiện tại, vì sự phát triển của thành phố mang lại cho cô ấy nhiều cơ hội."
+        }
+      }
+    ]
+  },
+  {
+    "article_id": 30,
+    "langLevel": "HSK3",
+    "sentences": [
+      {
+        "zh": "来中国以后，我发现城市生活和我的家乡有很大的变化。",
+        "pinyin": "Lái Zhōngguó yǐhòu, wǒ fāxiàn chéngshì shēnghuó hé wǒ de jiāxiāng yǒu hěn dà de biànhuà.",
+        "translations": {
+          "en": "After coming to China, I discovered that city life has big changes compared to my hometown.",
+          "es": "Después de venir a China, descubrí que la vida en la ciudad tiene grandes cambios en comparación con mi pueblo natal.",
+          "ko": "중국에 온 후, 저는 도시 생활이 제 고향과 큰 변화가 있다는 것을 발견했습니다.",
+          "ja": "中国に来てから、都市生活は私の故郷と比べて大きな変化があることを発見しました。",
+          "vi": "Sau khi đến Trung Quốc, tôi nhận thấy cuộc sống thành phố có thay đổi lớn so với quê hương tôi."
+        }
+      },
+      {
+        "zh": "首先，我需要时间去适应这里的交通和热闹的环境。",
+        "pinyin": "Shǒuxiān, wǒ xūyào shíjiān qù shìyìng zhèlǐ de jiāotōng hé rènao de huánjìng.",
+        "translations": {
+          "en": "First of all, I need time to adapt to the traffic and the bustling environment here.",
+          "es": "En primer lugar, necesito tiempo para adaptarme al tráfico y al animado ambiente de aquí.",
+          "ko": "우선, 저는 이곳의 교통과 떠들썩한 환경에 적응할 시간이 필요합니다.",
+          "ja": "まず、私はここの交通と賑やかな環境に適応する時間が必要です。",
+          "vi": "Trước hết, tôi cần thời gian để thích nghi với giao thông và môi trường nhộn nhịp ở đây."
+        }
+      },
+      {
+        "zh": "不过，这里的生活非常方便，各种服务都提供。",
+        "pinyin": "Búguò, zhèlǐ de shēnghuó fēicháng fāngbiàn, gè zhǒng fúwù dōu tígōng.",
+        "translations": {
+          "en": "However, the life here is very convenient, and all kinds of services are provided.",
+          "es": "Sin embargo, la vida aquí es muy conveniente y se ofrecen todo tipo de servicios.",
+          "ko": "하지만, 이곳의 생활은 매우 편리하고, 다양한 서비스를 제공합니다.",
+          "ja": "しかし、ここの生活は非常に便利で、あらゆる種類のサービスが提供されています。",
+          "vi": "Tuy nhiên, cuộc sống ở đây rất tiện lợi, và mọi loại dịch vụ đều được cung cấp."
+        }
+      },
+      {
+        "zh": "特别是中国菜，真的非常丰富，每种菜系都有不同的味道。",
+        "pinyin": "Tèbié shì Zhōngguó cài, zhēnde fēicháng fēngfù, měi zhǒng càixì dōu yǒu bùtóng de wèidào.",
+        "translations": {
+          "en": "Especially Chinese cuisine, it is truly very rich, and every cuisine type has a different flavor.",
+          "es": "Especialmente la comida china, es verdaderamente muy rica, y cada tipo de cocina tiene un sabor diferente.",
+          "ko": "특히 중국 요리는 정말 매우 풍부하고, 모든 요리 계열은 다른 맛을 가지고 있습니다.",
+          "ja": "特に中華料理は、本当に非常に豊富で、どの料理系統も異なる味があります。",
+          "vi": "Đặc biệt là món ăn Trung Quốc, thực sự rấtphong phú, mỗi loại ẩm thực đều có hương vị khác nhau."
+        }
+      },
+      {
+        "zh": "例如，四川菜比较辣，但是吃起来很香，值得一试。",
+        "pinyin": "Lìrú, Sìchuān cài bǐjiào là, dànshì chī qǐlái hěn xiāng, zhíde yī shì.",
+        "translations": {
+          "en": "For example, Sichuan cuisine is relatively spicy, but it smells very fragrant when you eat it, and it is worth a try.",
+          "es": "Por ejemplo, la comida de Sichuan es relativamente picante, pero huele muy fragante al comerla, y vale la pena probarla.",
+          "ko": "예를 들어, 쓰촨 요리는 비교적 맵지만, 먹을 때 향이 좋고, 시도해 볼 만합니다.",
+          "ja": "例えば、四川料理は比較的辛いですが、食べるととても香ばしく、試す価値があります。",
+          "vi": "Ví dụ, món Tứ Xuyên khá cay, nhưng khi ăn lại rất thơm, đáng để thử một lần."
+        }
+      },
+      {
+        "zh": "我专门找了一家饭店学习做包子，希望回国后能给朋友做。",
+        "pinyin": "Wǒ zhuānmén zhǎo le yī jiā fàndiàn xuéxí zuò bāozi, xīwàng huí guó hòu néng gěi péngyou zuò.",
+        "translations": {
+          "en": "I specially found a restaurant to learn how to make baozi (steamed buns), hoping to make them for my friends after returning home.",
+          "es": "Busqué especialmente un restaurante para aprender a hacer baozi (panecillos al vapor), con la esperanza de hacerlos para mis amigos después de volver a casa.",
+          "ko": "저는 특별히 한 식당을 찾아 만두 만드는 것을 배웠고, 귀국 후 친구들에게 만들어 줄 수 있기를 희망합니다.",
+          "ja": "私は専門にあるレストランを探して包子（肉まん）の作り方を学びました、帰国後友達に作ってあげたいと思っています。",
+          "vi": "Tôi đặc biệt tìm một nhà hàng để học làm bánh bao, hy vọng có thể làm cho bạn bè sau khi về nước."
+        }
+      },
+      {
+        "zh": "尽管开始有点难，但我会坚持下去，因为学习做菜也是一种经历。",
+        "pinyin": "Jǐnguǎn kāishǐ yǒu diǎn nán, dàn wǒ huì jiānchí xiàqù, yīnwèi xuéxí zuò cài yě shì yī zhǒng jīnglì.",
+        "translations": {
+          "en": "Although it was a bit difficult at first, I will persist, because learning to cook is also a type of experience.",
+          "es": "Aunque al principio fue un poco difícil, persistiré, porque aprender a cocinar también es una experiencia.",
+          "ko": "비록 처음에는 좀 어려웠지만, 저는 계속 견지할 것입니다. 왜냐하면 요리를 배우는 것도 하나의 경험이기 때문입니다.",
+          "ja": "にもかかわらず、最初は少し難しかったですが、料理を学ぶことも一種の経験なので、やり続けます。",
+          "vi": "Mặc dù ban đầu hơi khó, nhưng tôi sẽ kiên trì tiếp tục, bởi vì học nấu ăn cũng là một loại trải nghiệm."
+        }
+      }
+    ]
+  },
+  {
+    "article_id": 31,
+    "langLevel": "HSK3",
+    "sentences": [
+      {
+        "zh": "小李来中国已经半年了，他每天都努力适应这里的生活。",
+        "pinyin": "Xiǎo Lǐ lái Zhōngguó yǐjīng bàn nián le, tā měitiān dōu nǔlì shìyìng zhèlǐ de shēnghuó.",
+        "translations": {
+          "en": "Xiao Li has been in China for half a year, and he works hard to adapt to life here every day.",
+          "es": "Xiao Li ha estado en China durante medio año, y se esfuerza por adaptarse a la vida aquí todos los días.",
+          "ko": "샤오리는 중국에 온 지 이미 반년이 되었고, 그는 매일 이곳 생활에 적응하기 위해 노력합니다.",
+          "ja": "李さんは中国に来てもう半年になりますが、毎日ここの生活に適応しようと努力しています。",
+          "vi": "Tiểu Lý đã đến Trung Quốc được nửa năm, anh ấy nỗ lực thích nghi với cuộc sống ở đây mỗi ngày."
+        }
+      },
+      {
+        "zh": "首先，他发现语言是最大的挑战，即使他的汉语比较好。",
+        "pinyin": "Shǒuxiān, tā fāxiàn yǔyán shì zuì dà de tiǎozhàn, jíshǐ tā de Hànyǔ bǐjiào hǎo.",
+        "translations": {
+          "en": "First of all, he found that language is the biggest challenge, even though his Chinese is relatively good.",
+          "es": "En primer lugar, descubrió que el idioma es el mayor desafío, a pesar de que su chino es relativamente bueno.",
+          "ko": "우선, 그는 언어가 가장 큰 도전이라는 것을 발견했는데, 비록 그의 중국어는 비교적 나은 편입니다.",
+          "ja": "まず、彼は中国語が比較的上手であるにもかかわらず、言語が最大の挑戦であることに気づきました。",
+          "vi": "Trước hết, anh ấy nhận thấy ngôn ngữ là thử thách lớn nhất, mặc dù tiếng Hán của anh ấy tương đối tốt."
+        }
+      },
+      {
+        "zh": "他知道想要流利地交流，就必须多说。",
+        "pinyin": "Tā zhīdào xiǎng yào liúlì de jiāoliú, jiù bìxū duō shuō.",
+        "translations": {
+          "en": "He knows that to communicate fluently, he must speak more.",
+          "es": "Sabe que para comunicarse con fluidez, debe hablar más.",
+          "ko": "그는 유창하게 교류하려면, 반드시 말을 많이 해야 한다는 것을 알고 있습니다.",
+          "ja": "彼は流暢に交流したければ、必ずもっと話さなければならないことを知っています。",
+          "vi": "Anh ấy biết muốn giao tiếp lưu loát, thì nhất định phải nói nhiều hơn."
+        }
+      },
+      {
+        "zh": "在商店买东西时，他经常听不懂一些复杂的条件。",
+        "pinyin": "Zài shāngdiàn mǎi dōngxi shí, tā jīngcháng tīng bù dǒng yīxiē fùzá de tiáojiàn.",
+        "translations": {
+          "en": "When buying things in the store, he often doesn't understand some complex terms.",
+          "es": "Al comprar cosas en la tienda, a menudo no entiende algunos términos complejos.",
+          "ko": "상점에서 물건을 살 때, 그는 자주 몇 가지 복잡한 조건을 이해하지 못했습니다.",
+          "ja": "店で物を買うとき、彼はしばしばいくつかの複雑な条件が聞き取れませんでした。",
+          "vi": "Khi mua đồ ở cửa hàng, anh ấy thường không hiểu một số điều kiện phức tạp."
+        }
+      },
+      {
+        "zh": "他的老师总是鼓励他，并且说他进步很快。",
+        "pinyin": "Tā de lǎoshī zǒngshì gǔlì tā, bìngqiě shuō tā jìnbù hěn kuài.",
+        "translations": {
+          "en": "His teacher always encourages him, and says he is making fast progress.",
+          "es": "Su profesor siempre lo anima, y dice que está progresando rápidamente.",
+          "ko": "그의 선생님은 항상 그를 격려하고, 또한 그가 발전이 빠르다고 말합니다.",
+          "ja": "彼の先生はいつも彼を励まし、そして進歩が速いと言います。",
+          "vi": "Giáo viên của anh ấy luôn khuyến khích anh ấy, và nói rằng anh ấy tiến bộ rất nhanh."
+        }
+      },
+      {
+        "zh": "无论遇到什么问题，他都告诉自己要坚持。",
+        "pinyin": "Wúlùn yù dào shénme wèntí, tā dōu gàosù zìjǐ yào jiānchí.",
+        "translations": {
+          "en": "No matter what problem he encounters, he tells himself to persevere.",
+          "es": "No importa qué problema encuentre, se dice a sí mismo que debe persistir.",
+          "ko": "어떤 문제에 직면하더라도, 그는 자신에게 계속해야 한다고 말합니다.",
+          "ja": "どんな問題に遭遇しても、彼は堅持しなければならないと自分に言い聞かせます。",
+          "vi": "Bất kể gặp phải vấn đề gì, anh ấy đều tự nhủ phải kiên trì."
+        }
+      },
+      {
+        "zh": "终于，他现在可以比较顺利地完成日常任务了。",
+        "pinyin": "Zhōngyú, tā xiànzài kěyǐ bǐjiào shùnlì de wánchéng rìcháng rènwu le.",
+        "translations": {
+          "en": "Finally, he can now complete his daily tasks relatively smoothly.",
+          "es": "Finalmente, ahora puede completar sus tareas diarias de forma relativamente fluida.",
+          "ko": "마침내, 그는 이제 일상 임무를 비교적 순조롭게 완수할 수 있게 되었습니다.",
+          "ja": "ついに、彼は今、日常の任務を比較的順調に完了することができます。",
+          "vi": "Cuối cùng, giờ đây anh ấy có thể hoàn thành nhiệm vụ hàng ngày một cách tương đối suôn sẻ."
+        }
+      }
+    ]
+  },
+  {
+    "article_id": 32,
+    "langLevel": "HSK3",
+    "sentences": [
+      {
+        "zh": "A: 今年中秋节，你打算怎么过？听说学校要举行一个晚会。",
+        "pinyin": "A: Jīnnián Zhōngqiū Jié, nǐ dǎsuan zěnme guò? Tīngshuō xuéxiào yào jǔxíng yī ge wǎnhuì.",
+        "translations": {
+          "en": "A: What are you planning for the Mid-Autumn Festival this year? I heard the school is holding an evening party.",
+          "es": "A: ¿Qué planeas hacer para el Festival del Medio Otoño este año? Escuché que la escuela va a celebrar una fiesta nocturna.",
+          "ko": "A: 올해 중추절에 어떻게 지낼 계획이야? 학교에서 저녁 파티를 개최한다고 들었어.",
+          "ja": "A: 今年の中秋節は、どう過ごすつもりですか？学校で夜会が開催されると聞きました。",
+          "vi": "A: Tết Trung Thu năm nay, bạn dự định đón như thế nào? Tôi nghe nói trường sẽ tổ chức một buổi dạ hội."
+        }
+      },
+      {
+        "zh": "B: 对，但是我要先给家里打电话，问问他们的情况。",
+        "pinyin": "B: Duì, dànshì wǒ yào xiān gěi jiālǐ dǎ diànhuà, wènwen tāmen de qíngkuàng.",
+        "translations": {
+          "en": "B: Yes, but I need to call my family first to ask about their situation.",
+          "es": "B: Sí, pero primero necesito llamar a mi familia para preguntar sobre su situación.",
+          "ko": "B: 맞아, 하지만 나는 먼저 집에 전화해서 그들의 상황을 물어봐야 해.",
+          "ja": "B: そうです、でもまず家族に電話して彼らの状況を尋ねる必要があります。",
+          "vi": "B: Đúng vậy, nhưng tôi cần gọi điện về nhà trước để hỏi tình hình của họ."
+        }
+      },
+      {
+        "zh": "A: 按照中国的传统，这天大家都要吃月饼，并且一家人要团聚。",
+        "pinyin": "A: Ànzhào Zhōngguó de chuántǒng, zhè tiān dàjiā dōu yào chī yuèbǐng, bìngqiě yī jiā rén yào tuánjù.",
+        "translations": {
+          "en": "A: According to Chinese tradition, everyone eats mooncakes on this day, and the whole family gathers.",
+          "es": "A: Según la tradición china, todos comen pasteles de luna este día, y toda la familia se reúne.",
+          "ko": "A: 중국의 전통에 따르면, 이 날은 모두 월병을 먹고, 게다가 온 가족이 단란하게 모여야 해.",
+          "ja": "A: 中国の伝統に基づいて、この日は皆が月餅を食べ、そして家族全員が集まることになっています。",
+          "vi": "A: Theo truyền thống Trung Quốc, mọi người đều ăn bánh trung thu vào ngày này, và cả gia đình phải đoàn tụ."
+        }
+      },
+      {
+        "zh": "B: 我很喜欢月饼，不过我妈妈做的味道最好。她几乎每年都会寄给我。",
+        "pinyin": "B: Wǒ hěn xǐhuan yuèbǐng, búguò wǒ māma zuò de wèidào zuì hǎo. Tā jīhū měi nián dōu huì jì gěi wǒ.",
+        "translations": {
+          "en": "B: I really like mooncakes, but the taste of the ones my mother makes is the best. She almost sends them to me every year.",
+          "es": "B: Me encantan los pasteles de luna, pero el sabor de los que hace mi madre es el mejor. Casi me los envía todos los años.",
+          "ko": "B: 저는 월병을 아주 좋아해요, 하지만 우리 엄마가 만든 맛이 최고예요. 그녀는 거의 매년 저에게 보내줍니다.",
+          "ja": "B: 私は月餅がとても好きですが、母が作る味が一番です。彼女はほとんど毎年私に送ってくれます。",
+          "vi": "B: Tôi rất thích bánh trung thu, nhưng hương vị mẹ tôi làm là ngon nhất. Bà hầu như gửi cho tôi mỗi năm."
+        }
+      },
+      {
+        "zh": "A: 这值得我们学习。无论我们在哪里，都不应该忘记家和亲人。",
+        "pinyin": "A: Zhè zhíde wǒmen xuéxí. Wúlùn wǒmen zài nǎlǐ, dōu bù yìnggāi wàngjì jiā hé qīnrén.",
+        "translations": {
+          "en": "A: This is worth us learning. Regardless of where we are, we should not forget our home and relatives.",
+          "es": "A: Esto merece que aprendamos. Donde sea que estemos, no debemos olvidar el hogar y a los seres queridos.",
+          "ko": "A: 이것은 우리가 배울 가치가 있습니다. 우리가 어디에 있든 상관없이, 집과 친척을 잊어서는 안 됩니다.",
+          "ja": "A: これは私たちが学ぶ価値があります。どこにいても、家と親戚を忘れてはいけません。",
+          "vi": "A: Điều này đáng để chúng ta học hỏi. Bất kể chúng ta ở đâu, cũng không nên quên gia đình và người thân."
+        }
+      },
+      {
+        "zh": "B: 我相信那晚会很热闹。如果你有空，我们一起去参加吧！",
+        "pinyin": "B: Wǒ xiāngxìn nà wǎnhuì hěn rènao. Rúguǒ nǐ yǒu kòng, wǒmen yīqǐ qù cānjiā ba!",
+        "translations": {
+          "en": "B: I believe that evening party will be very lively. If you have time, let's go participate together!",
+          "es": "B: Creo que esa fiesta nocturna será muy animada. Si tienes tiempo, ¡vamos a participar juntos!",
+          "ko": "B: 저는 그 저녁 파티가 매우 시끌벅적할 거라고 믿습니다. 시간이 있다면, 우리 같이 참가해요!",
+          "ja": "B: あの夜会はとてもにぎやかだと信じています。もし暇なら、一緒に参加しましょう！",
+          "vi": "B: Tôi tin rằng buổi dạ hội đó sẽ rất náo nhiệt. Nếu bạn rảnh, chúng ta cùng đi tham gia nhé!"
+        }
+      }
+    ]
+  }
+]

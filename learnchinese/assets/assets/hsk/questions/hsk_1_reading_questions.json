@@ -1,0 +1,3122 @@
+[
+  {
+    "question_id": 1,
+    "provider_id": "system",
+    "question_text": {
+      "en": "What does 你好 mean?",
+      "es": "¿Qué significa 你好?",
+      "ja": "你好は何という意味ですか。",
+      "ko": "你好는 무슨 의미인가요?",
+      "vi": "你好 có nghĩa là gì?"
+    },
+    "question_type": "MCQ",
+    "category": "HSK 1",
+    "langLevel": "HSK1",
+    "status": "Approved",
+
+    "explanation": {
+      "en": "你好 (nǐ hǎo) is the most common way to say 'hello' in Chinese.",
+      "es": "你好 (nǐ hǎo) es la forma más común de decir 'hola' en chino.",
+      "ja": "你好（nǐ hǎo）は中国語で「こんにちは」を言う最も一般的な方法です。",
+      "ko": "你好(nǐ hǎo)는 중국어로 '안녕'을 말하는 가장 일반적인 방법입니다.",
+      "vi": "你好 (nǐ hǎo) là cách phổ biến nhất để nói 'xin chào' trong tiếng Trung."
+    },
+    "options_json": {
+      "en": "[{\"id\":\"A\",\"text\":\"Hello\"},{\"id\":\"B\",\"text\":\"Goodbye\"},{\"id\":\"C\",\"text\":\"Thank you\"},{\"id\":\"D\",\"text\":\"Please\"}]",
+      "es": "[{\"id\": \"A\", \"text\": \"Hola\"}, {\"id\": \"B\", \"text\": \"Adiós\"}, {\"id\": \"C\", \"text\": \"Gracias\"}, {\"id\": \"D\", \"text\": \"Por favor\"}]",
+      "ja": "[{\"id\": \"A\", \"text\": \"こんにちは\"}, {\"id\": \"B\", \"text\": \"さようなら\"}, {\"id\": \"C\", \"text\": \"ありがとう\"}, {\"id\": \"D\", \"text\": \"お願いします\"}]",
+      "ko": "[{\"id\": \"A\", \"text\": \"안녕하세요\"}, {\"id\": \"B\", \"text\": \"안녕히 가세요\"}, {\"id\": \"C\", \"text\": \"감사합니다\"}, {\"id\": \"D\", \"text\": \"부탁합니다\"}]",
+      "vi": "[{\"id\": \"A\", \"text\": \"Xin chào\"}, {\"id\": \"B\", \"text\": \"Tạm biệt\"}, {\"id\": \"C\", \"text\": \"Cảm ơn\"}, {\"id\": \"D\", \"text\": \"Vui lòng\"}]"
+    },
+    "correct_answer_value": "A",
+    "test_types": ["Reading", "Listening"]
+  },
+  {
+    "question_id": 2,
+    "provider_id": "system",
+    "question_text": {
+      "en": "他是我爸爸。What does this mean?",
+      "es": "他是我爸爸。¿Qué significa esto?",
+      "ja": "他是我爸爸。これは何という意味ですか。",
+      "ko": "他是我爸爸。이것은 무슨 의미인가요?",
+      "vi": "他是我爸爸。Câu này có nghĩa là gì?"
+    },
+    "question_type": "MCQ",
+    "category": "HSK 1",
+    "langLevel": "HSK1",
+    "status": "Approved",
+
+    "explanation": {
+      "en": "他是我爸爸 (tā shì wǒ bàba) means 'He is my father.'",
+      "es": "他是我爸爸 (tā shì wǒ bàba) significa 'Él es mi padre.'",
+      "ja": "他是我爸爸（tā shì wǒ bàba）は「彼は私の父です」という意味です。",
+      "ko": "他是我爸爸(tā shì wǒ bàba)는 '그는 내 아버지입니다'를 의미합니다.",
+      "vi": "他是我爸爸 (tā shì wǒ bàba) có nghĩa là 'Ông ấy là bố tôi.'"
+    },
+    "options_json": {
+      "en": "[{\"id\":\"A\",\"text\":\"He is my father.\"},{\"id\":\"B\",\"text\":\"She is my teacher.\"},{\"id\":\"C\",\"text\":\"He is my brother.\"},{\"id\":\"D\",\"text\":\"She is my mother.\"}]",
+      "es": "[{\"id\": \"A\", \"text\": \"Él es mi padre.\"}, {\"id\": \"B\", \"text\": \"Ella es mi maestra.\"}, {\"id\": \"C\", \"text\": \"Él es mi hermano.\"}, {\"id\": \"D\", \"text\": \"Ella es mi madre.\"}]",
+      "ja": "[{\"id\": \"A\", \"text\": \"彼は私の父です。\"}, {\"id\": \"B\", \"text\": \"彼女は私の教師です。\"}, {\"id\": \"C\", \"text\": \"彼は私の兄弟です。\"}, {\"id\": \"D\", \"text\": \"彼女は私の母です。\"}]",
+      "ko": "[{\"id\": \"A\", \"text\": \"그는 내 아버지입니다.\"}, {\"id\": \"B\", \"text\": \"그녀는 내 선생님입니다.\"}, {\"id\": \"C\", \"text\": \"그는 내 형제입니다.\"}, {\"id\": \"D\", \"text\": \"그녀는 내 어머니입니다.\"}]",
+      "vi": "[{\"id\": \"A\", \"text\": \"Ông ấy là bố tôi.\"}, {\"id\": \"B\", \"text\": \"Cô ấy là giáo viên của tôi.\"}, {\"id\": \"C\", \"text\": \"Anh ấy là anh trai tôi.\"}, {\"id\": \"D\", \"text\": \"Bà ấy là mẹ tôi.\"}]"
+    },
+    "correct_answer_value": "A",
+    "test_types": ["Reading", "Listening"]
+  },
+  {
+    "question_id": 3,
+    "provider_id": "system",
+    "question_text": {
+      "en": "小猫在桌子上。What is the cat doing?",
+      "es": "小猫在桌子上。¿Qué está haciendo el gato?",
+      "ja": "小猫在桌子上。猫は何をしていますか。",
+      "ko": "小猫在桌子上。고양이가 무엇을 하고 있나요?",
+      "vi": "小猫在桌子上。Mèo đang làm gì?"
+    },
+    "question_type": "MCQ",
+    "category": "HSK 1",
+    "langLevel": "HSK1",
+    "status": "Approved",
+    "explanation": {
+      "en": "在...上 means 'on'; the cat is on the table.",
+      "es": "在...上 significa 'sobre'; el gato está sobre la mesa.",
+      "ja": "在...上は「上に」という意味です。猫はテーブルの上にいます。",
+      "ko": "在...上是 '위에'를 의미합니다. 고양이가 테이블 위에 있습니다.",
+      "vi": "在...上 nghĩa là 'trên'; con mèo đang ở trên bàn."
+    },
+    "options_json": {
+      "en": "[{\"id\":\"A\",\"text\":\"The cat is under the table.\"},{\"id\":\"B\",\"text\":\"The cat is on the table.\"},{\"id\":\"C\",\"text\":\"The cat is in the box.\"},{\"id\":\"D\",\"text\":\"The cat is behind the door.\"}]",
+      "es": "[{\"id\": \"A\", \"text\": \"El gato está debajo de la mesa.\"}, {\"id\": \"B\", \"text\": \"El gato está sobre la mesa.\"}, {\"id\": \"C\", \"text\": \"El gato está en la caja.\"}, {\"id\": \"D\", \"text\": \"El gato está detrás de la puerta.\"}]",
+      "ja": "[{\"id\": \"A\", \"text\": \"猫はテーブルの下にいます。\"}, {\"id\": \"B\", \"text\": \"猫はテーブルの上にいます。\"}, {\"id\": \"C\", \"text\": \"猫は箱の中にいます。\"}, {\"id\": \"D\", \"text\": \"猫はドアの後ろにいます。\"}]",
+      "ko": "[{\"id\": \"A\", \"text\": \"고양이가 테이블 아래에 있습니다.\"}, {\"id\": \"B\", \"text\": \"고양이가 테이블 위에 있습니다.\"}, {\"id\": \"C\", \"text\": \"고양이가 상자 안에 있습니다.\"}, {\"id\": \"D\", \"text\": \"고양이가 문 뒤에 있습니다.\"}]",
+      "vi": "[{\"id\": \"A\", \"text\": \"Con mèo ở dưới bàn.\"}, {\"id\": \"B\", \"text\": \"Con mèo ở trên bàn.\"}, {\"id\": \"C\", \"text\": \"Con mèo ở trong hộp.\"}, {\"id\": \"D\", \"text\": \"Con mèo ở sau cửa.\"}]"
+    },
+    "correct_answer_value": "B",
+    "test_types": ["Reading", "Listening"]
+  },
+  {
+    "question_id": 4,
+    "provider_id": "system",
+    "question_text": {
+      "en": "我喜欢喝茶。What does the speaker like to drink?",
+      "es": "我喜欢喝茶。¿Qué le gusta beber al hablante?",
+      "ja": "我喜欢喝茶。話者は何を飲むことが好きですか。",
+      "ko": "我喜欢喝茶。화자는 무엇을 마시는 것을 좋아하나요?",
+      "vi": "我喜欢喝茶。Người nói thích uống gì?"
+    },
+    "question_type": "MCQ",
+    "category": "HSK 1",
+    "langLevel": "HSK1",
+    "status": "Approved",
+    "explanation": {
+      "en": "喜欢 (xǐhuan) means 'to like'; 茶 (chá) means 'tea'.",
+      "es": "喜欢 (xǐhuan) significa 'gustar'; 茶 (chá) significa 'té'.",
+      "ja": "喜欢（xǐhuan）は「好き」という意味です。茶（chá）は「お茶」という意味です。",
+      "ko": "喜欢(xǐhuan)은 '좋아하다'를 의미합니다. 茶(chá)는 '차'를 의미합니다.",
+      "vi": "喜欢 (xǐhuan) có nghĩa là 'thích'; 茶 (chá) có nghĩa là 'trà'."
+    },
+    "options_json": {
+      "en": "[{\"id\":\"A\",\"text\":\"Coffee\"},{\"id\":\"B\",\"text\":\"Tea\"},{\"id\":\"C\",\"text\":\"Juice\"},{\"id\":\"D\",\"text\":\"Milk\"}]",
+      "es": "[{\"id\": \"A\", \"text\": \"Café\"}, {\"id\": \"B\", \"text\": \"Té\"}, {\"id\": \"C\", \"text\": \"Jugo\"}, {\"id\": \"D\", \"text\": \"Leche\"}]",
+      "ja": "[{\"id\": \"A\", \"text\": \"コーヒー\"}, {\"id\": \"B\", \"text\": \"お茶\"}, {\"id\": \"C\", \"text\": \"ジュース\"}, {\"id\": \"D\", \"text\": \"牛乳\"}]",
+      "ko": "[{\"id\": \"A\", \"text\": \"커피\"}, {\"id\": \"B\", \"text\": \"차\"}, {\"id\": \"C\", \"text\": \"주스\"}, {\"id\": \"D\", \"text\": \"우유\"}]",
+      "vi": "[{\"id\": \"A\", \"text\": \"Cà phê\"}, {\"id\": \"B\", \"text\": \"Trà\"}, {\"id\": \"C\", \"text\": \"Nước ép\"}, {\"id\": \"D\", \"text\": \"Sữa\"}]"
+    },
+    "correct_answer_value": "B",
+    "test_types": ["Reading", "Listening"]
+  },
+  {
+    "question_id": 5,
+    "provider_id": "system",
+    "question_text": {
+      "en": "今天星期几？",
+      "es": "今天星期几？",
+      "ja": "今天星期几？",
+      "ko": "今天星期几？",
+      "vi": "今天星期几？"
+    },
+    "question_type": "MCQ",
+    "category": "HSK 1",
+    "langLevel": "HSK1",
+    "status": "Approved",
+    "explanation": {
+      "en": "This asks 'What day is it today?'",
+      "es": "Esto pregunta '¿Qué día es hoy?'",
+      "ja": "これは「今日は何曜日ですか？」と尋ねています。",
+      "ko": "이것은 '오늘은 무슨 요일인가요?'를 묻습니다.",
+      "vi": "Đây hỏi 'Hôm nay là thứ mấy?'"
+    },
+    "options_json": {
+      "en": "[{\"id\":\"A\",\"text\":\"What time is it?\"},{\"id\":\"B\",\"text\":\"What day is it today?\"},{\"id\":\"C\",\"text\":\"How’s the weather?\"},{\"id\":\"D\",\"text\":\"What are you doing?\"}]",
+      "es": "[{\"id\": \"A\", \"text\": \"¿Qué hora es?\"}, {\"id\": \"B\", \"text\": \"¿Qué día es hoy?\"}, {\"id\": \"C\", \"text\": \"How’s the weather?\"}, {\"id\": \"D\", \"text\": \"¿Qué estás haciendo?\"}]",
+      "ja": "[{\"id\": \"A\", \"text\": \"今何時ですか？\"}, {\"id\": \"B\", \"text\": \"今日は何曜日ですか？\"}, {\"id\": \"C\", \"text\": \"How’s the weather?\"}, {\"id\": \"D\", \"text\": \"何をしていますか？\"}]",
+      "ko": "[{\"id\": \"A\", \"text\": \"지금 몇 시예요?\"}, {\"id\": \"B\", \"text\": \"오늘은 무슨 요일인가요?\"}, {\"id\": \"C\", \"text\": \"How’s the weather?\"}, {\"id\": \"D\", \"text\": \"무엇을 하고 있나요?\"}]",
+      "vi": "[{\"id\": \"A\", \"text\": \"Bây giờ là mấy giờ?\"}, {\"id\": \"B\", \"text\": \"Hôm nay là thứ mấy?\"}, {\"id\": \"C\", \"text\": \"How’s the weather?\"}, {\"id\": \"D\", \"text\": \"Bạn đang làm gì?\"}]"
+    },
+    "correct_answer_value": "B",
+    "test_types": ["Reading", "Listening"]
+  },
+  {
+    "question_id": 6,
+    "provider_id": "system",
+    "question_text": {
+      "en": "这是谁的电脑？",
+      "es": "这是谁的电脑？",
+      "ja": "这是谁的电脑？",
+      "ko": "这是谁的电脑？",
+      "vi": "这是谁的电脑？"
+    },
+    "question_type": "MCQ",
+    "category": "HSK 1",
+    "langLevel": "HSK1",
+    "status": "Approved",
+    "explanation": {
+      "en": "谁的 (shéi de) means 'whose'; 电脑 means 'computer'.",
+      "es": "谁的 (shéi de) significa 'de quién'; 电脑 significa 'computadora'.",
+      "ja": "谁的（shéi de）は「誰の」という意味です。电脑は「コンピューター」という意味です。",
+      "ko": "谁的(shéi de)는 '누구의'를 의미합니다. 电脑는 '컴퓨터'를 의미합니다.",
+      "vi": "谁的 (shéi de) có nghĩa là 'của ai'; 电脑 có nghĩa là 'máy tính'."
+    },
+    "options_json": {
+      "en": "[{\"id\":\"A\",\"text\":\"What is this?\"},{\"id\":\"B\",\"text\":\"Whose computer is this?\"},{\"id\":\"C\",\"text\":\"Where is the computer?\"},{\"id\":\"D\",\"text\":\"Who is using the computer?\"}]",
+      "es": "[{\"id\": \"A\", \"text\": \"¿Qué es esto?\"}, {\"id\": \"B\", \"text\": \"¿De quién es esta computadora?\"}, {\"id\": \"C\", \"text\": \"¿Dónde está la computadora?\"}, {\"id\": \"D\", \"text\": \"¿Quién está usando la computadora?\"}]",
+      "ja": "[{\"id\": \"A\", \"text\": \"これは何ですか？\"}, {\"id\": \"B\", \"text\": \"これは誰のコンピューターですか？\"}, {\"id\": \"C\", \"text\": \"コンピューターはどこですか？\"}, {\"id\": \"D\", \"text\": \"誰がコンピューターを使っていますか？\"}]",
+      "ko": "[{\"id\": \"A\", \"text\": \"이것은 무엇인가요?\"}, {\"id\": \"B\", \"text\": \"이것은 누구의 컴퓨터인가요?\"}, {\"id\": \"C\", \"text\": \"컴퓨터가 어디에 있나요?\"}, {\"id\": \"D\", \"text\": \"누가 컴퓨터를 사용하고 있나요?\"}]",
+      "vi": "[{\"id\": \"A\", \"text\": \"Đây là gì?\"}, {\"id\": \"B\", \"text\": \"Đây là máy tính của ai?\"}, {\"id\": \"C\", \"text\": \"Máy tính ở đâu?\"}, {\"id\": \"D\", \"text\": \"Ai đang sử dụng máy tính?\"}]"
+    },
+    "correct_answer_value": "B",
+    "test_types": ["Reading", "Listening"]
+  },
+  {
+    "question_id": 7,
+    "provider_id": "system",
+    "question_text": {
+      "en": "我会说汉语。",
+      "es": "我会说汉语。",
+      "ja": "我会说汉语。",
+      "ko": "我会说汉语。",
+      "vi": "我会说汉语。"
+    },
+    "question_type": "MCQ",
+    "category": "HSK 1",
+    "langLevel": "HSK1",
+    "status": "Approved",
+    "explanation": {
+      "en": "会说汉语 means 'can speak Chinese'.",
+      "es": "会说汉语 significa 'puede hablar chino'.",
+      "ja": "会说汉语は「中国語を話すことができます」という意味です。",
+      "ko": "会说汉语는 '중국어를 할 수 있습니다'를 의미합니다.",
+      "vi": "会说汉语 nghĩa là 'có thể nói tiếng Trung'."
+    },
+    "options_json": {
+      "en": "[{\"id\":\"A\",\"text\":\"I can speak Chinese.\"},{\"id\":\"B\",\"text\":\"I can write Chinese.\"},{\"id\":\"C\",\"text\":\"I study English.\"},{\"id\":\"D\",\"text\":\"I don’t speak Chinese.\"}]",
+      "es": "[{\"id\": \"A\", \"text\": \"Puedo hablar chino.\"}, {\"id\": \"B\", \"text\": \"Puedo escribir chino.\"}, {\"id\": \"C\", \"text\": \"Estudio inglés.\"}, {\"id\": \"D\", \"text\": \"I don’t speak Chinese.\"}]",
+      "ja": "[{\"id\": \"A\", \"text\": \"私は中国語を話すことができます。\"}, {\"id\": \"B\", \"text\": \"私は中国語を書くことができます。\"}, {\"id\": \"C\", \"text\": \"私は英語を勉強しています。\"}, {\"id\": \"D\", \"text\": \"I don’t speak Chinese.\"}]",
+      "ko": "[{\"id\": \"A\", \"text\": \"저는 중국어를 할 수 있습니다.\"}, {\"id\": \"B\", \"text\": \"저는 중국어를 쓸 수 있습니다.\"}, {\"id\": \"C\", \"text\": \"저는 영어를 공부합니다.\"}, {\"id\": \"D\", \"text\": \"I don’t speak Chinese.\"}]",
+      "vi": "[{\"id\": \"A\", \"text\": \"Tôi có thể nói tiếng Trung.\"}, {\"id\": \"B\", \"text\": \"Tôi có thể viết tiếng Trung.\"}, {\"id\": \"C\", \"text\": \"Tôi học tiếng Anh.\"}, {\"id\": \"D\", \"text\": \"I don’t speak Chinese.\"}]"
+    },
+    "correct_answer_value": "A",
+    "test_types": ["Reading", "Listening"]
+  },
+  {
+    "question_id": 8,
+    "provider_id": "system",
+    "question_text": {
+      "en": "我不喜欢下雨天。",
+      "es": "我不喜欢下雨天。",
+      "ja": "我不喜欢下雨天。",
+      "ko": "我不喜欢下雨天。",
+      "vi": "我不喜欢下雨天。"
+    },
+    "question_type": "MCQ",
+    "category": "HSK 1",
+    "langLevel": "HSK1",
+    "status": "Approved",
+    "explanation": {
+      "en": "不喜欢 means 'don’t like'; 下雨天 means 'rainy days'.",
+      "es": "不喜欢 means 'don’t like'; 下雨天 means 'rainy days'.",
+      "ja": "不喜欢 means 'don’t like'; 下雨天 means 'rainy days'.",
+      "ko": "不喜欢 means 'don’t like'; 下雨天 means 'rainy days'.",
+      "vi": "不喜欢 means 'don’t like'; 下雨天 means 'rainy days'."
+    },
+    "options_json": {
+      "en": "[{\"id\":\"A\",\"text\":\"I like rainy days.\"},{\"id\":\"B\",\"text\":\"I don’t like rainy days.\"},{\"id\":\"C\",\"text\":\"It rains a lot.\"},{\"id\":\"D\",\"text\":\"I like sunny days.\"}]",
+      "es": "[{\"id\": \"A\", \"text\": \"Me gustan los días lluviosos.\"}, {\"id\": \"B\", \"text\": \"I don’t like rainy days.\"}, {\"id\": \"C\", \"text\": \"Llueve mucho.\"}, {\"id\": \"D\", \"text\": \"Me gustan los días soleados.\"}]",
+      "ja": "[{\"id\": \"A\", \"text\": \"私は雨の日が好きです。\"}, {\"id\": \"B\", \"text\": \"I don’t like rainy days.\"}, {\"id\": \"C\", \"text\": \"雨がたくさん降ります。\"}, {\"id\": \"D\", \"text\": \"私は晴れた日が好きです。\"}]",
+      "ko": "[{\"id\": \"A\", \"text\": \"저는 비오는 날을 좋아합니다.\"}, {\"id\": \"B\", \"text\": \"I don’t like rainy days.\"}, {\"id\": \"C\", \"text\": \"비가 많이 옵니다.\"}, {\"id\": \"D\", \"text\": \"저는 맑은 날을 좋아합니다.\"}]",
+      "vi": "[{\"id\": \"A\", \"text\": \"Tôi thích những ngày mưa.\"}, {\"id\": \"B\", \"text\": \"I don’t like rainy days.\"}, {\"id\": \"C\", \"text\": \"Trời mưa nhiều.\"}, {\"id\": \"D\", \"text\": \"Tôi thích những ngày nắng.\"}]"
+    },
+    "correct_answer_value": "B",
+    "test_types": ["Reading", "Listening"]
+  },
+  {
+    "question_id": 9,
+    "provider_id": "system",
+    "question_text": {
+      "en": "她是老师吗？",
+      "es": "她是老师吗？",
+      "ja": "她是老师吗？",
+      "ko": "她是老师吗？",
+      "vi": "她是老师吗？"
+    },
+    "question_type": "MCQ",
+    "category": "HSK 1",
+    "langLevel": "HSK1",
+    "status": "Approved",
+    "explanation": {
+      "en": "吗 indicates a yes/no question: 'Is she a teacher?'",
+      "es": "吗 indica una pregunta de sí/no: '¿Es ella maestra?'",
+      "ja": "吗ははい/いいえの質問を示します：「彼女は教師ですか？」",
+      "ko": "吗는 예/아니오 질문을 나타냅니다: '그녀는 선생님인가요?'",
+      "vi": "吗 biểu thị câu hỏi có/không: 'Cô ấy có phải là giáo viên không?'"
+    },
+    "options_json": {
+      "en": "[{\"id\":\"A\",\"text\":\"Is she a teacher?\"},{\"id\":\"B\",\"text\":\"She is a teacher.\"},{\"id\":\"C\",\"text\":\"Who is the teacher?\"},{\"id\":\"D\",\"text\":\"Where is the teacher?\"}]",
+      "es": "[{\"id\": \"A\", \"text\": \"¿Es ella maestra?\"}, {\"id\": \"B\", \"text\": \"Ella es maestra.\"}, {\"id\": \"C\", \"text\": \"¿Quién es el profesor?\"}, {\"id\": \"D\", \"text\": \"¿Dónde está el profesor?\"}]",
+      "ja": "[{\"id\": \"A\", \"text\": \"彼女は教師ですか？\"}, {\"id\": \"B\", \"text\": \"彼女は教師です。\"}, {\"id\": \"C\", \"text\": \"教師は誰ですか？\"}, {\"id\": \"D\", \"text\": \"教師はどこですか？\"}]",
+      "ko": "[{\"id\": \"A\", \"text\": \"그녀는 선생님인가요?\"}, {\"id\": \"B\", \"text\": \"그녀는 선생님입니다.\"}, {\"id\": \"C\", \"text\": \"선생님이 누구인가요?\"}, {\"id\": \"D\", \"text\": \"선생님이 어디에 있나요?\"}]",
+      "vi": "[{\"id\": \"A\", \"text\": \"Cô ấy có phải là giáo viên không?\"}, {\"id\": \"B\", \"text\": \"Cô ấy là giáo viên.\"}, {\"id\": \"C\", \"text\": \"Giáo viên là ai?\"}, {\"id\": \"D\", \"text\": \"Giáo viên ở đâu?\"}]"
+    },
+    "correct_answer_value": "A",
+    "test_types": ["Reading", "Listening"]
+  },
+  {
+    "question_id": 10,
+    "provider_id": "system",
+    "question_text": {
+      "en": "你家有几口人？",
+      "es": "你家有几口人？",
+      "ja": "你家有几口人？",
+      "ko": "你家有几口人？",
+      "vi": "你家有几口人？"
+    },
+    "question_type": "MCQ",
+    "category": "HSK 1",
+    "langLevel": "HSK1",
+    "status": "Approved",
+    "explanation": {
+      "en": "几口人 means 'how many people (in your family)'.",
+      "es": "几口人 significa 'cuántas personas (en tu familia)'.",
+      "ja": "几口人は「何人（あなたの家族））」という意味です。",
+      "ko": "几口人는 '몇 명(당신의 가족)'을 의미합니다.",
+      "vi": "几口人 nghĩa là 'bao nhiêu người (trong gia đình của bạn)'."
+    },
+    "options_json": {
+      "en": "[{\"id\":\"A\",\"text\":\"Where do you live?\"},{\"id\":\"B\",\"text\":\"How many people are in your family?\"},{\"id\":\"C\",\"text\":\"Do you have a house?\"},{\"id\":\"D\",\"text\":\"Who is your family?\"}]",
+      "es": "[{\"id\": \"A\", \"text\": \"¿Dónde vives?\"}, {\"id\": \"B\", \"text\": \"¿Cuántas personas hay en tu familia?\"}, {\"id\": \"C\", \"text\": \"¿Tienes una casa?\"}, {\"id\": \"D\", \"text\": \"¿Quién es tu familia?\"}]",
+      "ja": "[{\"id\": \"A\", \"text\": \"あなたはどこに住んでいますか？\"}, {\"id\": \"B\", \"text\": \"あなたの家族には何人いますか？\"}, {\"id\": \"C\", \"text\": \"あなたは家を持っていますか？\"}, {\"id\": \"D\", \"text\": \"あなたの家族は誰ですか？\"}]",
+      "ko": "[{\"id\": \"A\", \"text\": \"당신은 어디에 살고 있나요?\"}, {\"id\": \"B\", \"text\": \"당신의 가족에는 몇 명이 있나요?\"}, {\"id\": \"C\", \"text\": \"당신은 집이 있나요?\"}, {\"id\": \"D\", \"text\": \"당신의 가족은 누구인가요?\"}]",
+      "vi": "[{\"id\": \"A\", \"text\": \"Bạn sống ở đâu?\"}, {\"id\": \"B\", \"text\": \"Gia đình bạn có bao nhiêu người?\"}, {\"id\": \"C\", \"text\": \"Bạn có nhà không?\"}, {\"id\": \"D\", \"text\": \"Gia đình bạn là ai?\"}]"
+    },
+    "correct_answer_value": "B",
+    "test_types": ["Reading", "Listening"]
+  },
+  {
+    "question_id": 11,
+    "provider_id": "system",
+    "question_text": {
+      "en": "我早上七点起床。",
+      "es": "我早上七点起床。",
+      "ja": "我早上七点起床。",
+      "ko": "我早上七点起床。",
+      "vi": "我早上七点起床。"
+    },
+    "question_type": "MCQ",
+    "category": "HSK 1",
+    "langLevel": "HSK1",
+    "status": "Approved",
+    "explanation": {
+      "en": "早上七点起床 means 'get up at 7 in the morning'.",
+      "es": "早上七点起床 significa 'levantarse a las 7 de la mañana'.",
+      "ja": "早上七点起床は「朝7時に起きる」という意味です。",
+      "ko": "早上七点起床는 '아침 7시에 일어나다'를 의미합니다.",
+      "vi": "早上七点起床 nghĩa là 'thức dậy lúc 7 giờ sáng'."
+    },
+    "options_json": {
+      "en": "[{\"id\":\"A\",\"text\":\"I sleep at 7 a.m.\"},{\"id\":\"B\",\"text\":\"I get up at 7 a.m.\"},{\"id\":\"C\",\"text\":\"I eat breakfast at 7 a.m.\"},{\"id\":\"D\",\"text\":\"I go to school at 7 a.m.\"}]",
+      "es": "[{\"id\": \"A\", \"text\": \"Duermo a las 7 a.m.\"}, {\"id\": \"B\", \"text\": \"Me levanto a las 7 a.m.\"}, {\"id\": \"C\", \"text\": \"Desayuno a las 7 a.m.\"}, {\"id\": \"D\", \"text\": \"Voy a la escuela a las 7 a.m.\"}]",
+      "ja": "[{\"id\": \"A\", \"text\": \"私は午前7時に寝ます。\"}, {\"id\": \"B\", \"text\": \"私は午前7時に起きます。\"}, {\"id\": \"C\", \"text\": \"私は午前7時に朝食を食べます。\"}, {\"id\": \"D\", \"text\": \"私は午前7時に学校に行きます。\"}]",
+      "ko": "[{\"id\": \"A\", \"text\": \"저는 오전 7시에 잡니다.\"}, {\"id\": \"B\", \"text\": \"저는 오전 7시에 일어납니다.\"}, {\"id\": \"C\", \"text\": \"저는 오전 7시에 아침을 먹습니다.\"}, {\"id\": \"D\", \"text\": \"저는 오전 7시에 학교에 갑니다.\"}]",
+      "vi": "[{\"id\": \"A\", \"text\": \"Tôi ngủ lúc 7 giờ sáng.\"}, {\"id\": \"B\", \"text\": \"Tôi thức dậy lúc 7 giờ sáng.\"}, {\"id\": \"C\", \"text\": \"Tôi ăn sáng lúc 7 giờ sáng.\"}, {\"id\": \"D\", \"text\": \"Tôi đi học lúc 7 giờ sáng.\"}]"
+    },
+    "correct_answer_value": "B",
+    "test_types": ["Reading", "Listening"]
+  },
+  {
+    "question_id": 12,
+    "provider_id": "system",
+    "question_text": {
+      "en": "他在看书。",
+      "es": "他在看书。",
+      "ja": "他在看书。",
+      "ko": "他在看书。",
+      "vi": "他在看书。"
+    },
+    "question_type": "MCQ",
+    "category": "HSK 1",
+    "langLevel": "HSK1",
+    "status": "Approved",
+    "explanation": {
+      "en": "在看书 means 'is reading a book'.",
+      "es": "在看书 significa 'está leyendo un libro'.",
+      "ja": "在看书は「本を読んでいる」という意味です。",
+      "ko": "在看书는 '책을 읽고 있습니다'를 의미합니다.",
+      "vi": "在看书 nghĩa là 'đang đọc sách'."
+    },
+    "options_json": {
+      "en": "[{\"id\":\"A\",\"text\":\"He is reading a book.\"},{\"id\":\"B\",\"text\":\"He is sleeping.\"},{\"id\":\"C\",\"text\":\"He is writing.\"},{\"id\":\"D\",\"text\":\"He is cooking.\"}]",
+      "es": "[{\"id\": \"A\", \"text\": \"Él está leyendo un libro.\"}, {\"id\": \"B\", \"text\": \"Él está durmiendo.\"}, {\"id\": \"C\", \"text\": \"Él está escribiendo.\"}, {\"id\": \"D\", \"text\": \"Él está cocinando.\"}]",
+      "ja": "[{\"id\": \"A\", \"text\": \"彼は本を読んでいます。\"}, {\"id\": \"B\", \"text\": \"彼は眠っています。\"}, {\"id\": \"C\", \"text\": \"彼は書いています。\"}, {\"id\": \"D\", \"text\": \"彼は料理しています。\"}]",
+      "ko": "[{\"id\": \"A\", \"text\": \"그는 책을 읽고 있습니다.\"}, {\"id\": \"B\", \"text\": \"그는 자고 있습니다.\"}, {\"id\": \"C\", \"text\": \"그는 쓰고 있습니다.\"}, {\"id\": \"D\", \"text\": \"그는 요리하고 있습니다.\"}]",
+      "vi": "[{\"id\": \"A\", \"text\": \"Anh ấy đang đọc sách.\"}, {\"id\": \"B\", \"text\": \"Anh ấy đang ngủ.\"}, {\"id\": \"C\", \"text\": \"Anh ấy đang viết.\"}, {\"id\": \"D\", \"text\": \"Anh ấy đang nấu ăn.\"}]"
+    },
+    "correct_answer_value": "A",
+    "test_types": ["Reading", "Listening"]
+  },
+  {
+    "question_id": 13,
+    "provider_id": "system",
+    "question_text": {
+      "en": "今天太热了！",
+      "es": "今天太热了！",
+      "ja": "今天太热了！",
+      "ko": "今天太热了！",
+      "vi": "今天太热了！"
+    },
+    "question_type": "MCQ",
+    "category": "HSK 1",
+    "langLevel": "HSK1",
+    "status": "Approved",
+    "explanation": {
+      "en": "太热了 means 'too hot'; expressing today is very hot.",
+      "es": "太热了 significa 'demasiado caliente'; expresando que hoy hace mucho calor.",
+      "ja": "太热了は「暑すぎる」という意味で、今日がとても暑いことを表しています。",
+      "ko": "太热了는 '너무 덥다'를 의미하며 오늘이 매우 덥다는 것을 표현합니다.",
+      "vi": "太热了 nghĩa là 'quá nóng'; diễn đạt hôm nay rất nóng."
+    },
+    "options_json": {
+      "en": "[{\"id\":\"A\",\"text\":\"It’s too hot today!\"},{\"id\":\"B\",\"text\":\"It’s too cold today!\"},{\"id\":\"C\",\"text\":\"It’s raining today!\"},{\"id\":\"D\",\"text\":\"It’s sunny today!\"}]",
+      "es": "[{\"id\": \"A\", \"text\": \"It’s too hot today!\"}, {\"id\": \"B\", \"text\": \"It’s too cold today!\"}, {\"id\": \"C\", \"text\": \"It’s raining today!\"}, {\"id\": \"D\", \"text\": \"It’s sunny today!\"}]",
+      "ja": "[{\"id\": \"A\", \"text\": \"It’s too hot today!\"}, {\"id\": \"B\", \"text\": \"It’s too cold today!\"}, {\"id\": \"C\", \"text\": \"It’s raining today!\"}, {\"id\": \"D\", \"text\": \"It’s sunny today!\"}]",
+      "ko": "[{\"id\": \"A\", \"text\": \"It’s too hot today!\"}, {\"id\": \"B\", \"text\": \"It’s too cold today!\"}, {\"id\": \"C\", \"text\": \"It’s raining today!\"}, {\"id\": \"D\", \"text\": \"It’s sunny today!\"}]",
+      "vi": "[{\"id\": \"A\", \"text\": \"It’s too hot today!\"}, {\"id\": \"B\", \"text\": \"It’s too cold today!\"}, {\"id\": \"C\", \"text\": \"It’s raining today!\"}, {\"id\": \"D\", \"text\": \"It’s sunny today!\"}]"
+    },
+    "correct_answer_value": "A",
+    "test_types": ["Reading", "Listening"]
+  },
+  {
+    "question_id": 14,
+    "provider_id": "system",
+    "question_text": {
+      "en": "我买了一本书。",
+      "es": "我买了一本书。",
+      "ja": "我买了一本书。",
+      "ko": "我买了一本书。",
+      "vi": "我买了一本书。"
+    },
+    "question_type": "MCQ",
+    "category": "HSK 1",
+    "langLevel": "HSK1",
+    "status": "Approved",
+    "explanation": {
+      "en": "买 means 'to buy'; 一本书 means 'a book'.",
+      "es": "买 significa 'comprar'; 一本书 significa 'un libro'.",
+      "ja": "买は「買う」という意味です。一本书は「本」という意味です。",
+      "ko": "买는 '사다'를 의미합니다. 一本书는 '책 한 권'을 의미합니다.",
+      "vi": "买 nghĩa là 'mua'; 一本书 nghĩa là 'một quyển sách'."
+    },
+    "options_json": {
+      "en": "[{\"id\":\"A\",\"text\":\"I read a book.\"},{\"id\":\"B\",\"text\":\"I bought a book.\"},{\"id\":\"C\",\"text\":\"I lost a book.\"},{\"id\":\"D\",\"text\":\"I wrote a book.\"}]",
+      "es": "[{\"id\": \"A\", \"text\": \"Leí un libro.\"}, {\"id\": \"B\", \"text\": \"Compré un libro.\"}, {\"id\": \"C\", \"text\": \"Perdí un libro.\"}, {\"id\": \"D\", \"text\": \"Escribí un libro.\"}]",
+      "ja": "[{\"id\": \"A\", \"text\": \"私は本を読みました。\"}, {\"id\": \"B\", \"text\": \"私は本を買いました。\"}, {\"id\": \"C\", \"text\": \"私は本を失くしました。\"}, {\"id\": \"D\", \"text\": \"私は本を書きました。\"}]",
+      "ko": "[{\"id\": \"A\", \"text\": \"저는 책을 읽었습니다.\"}, {\"id\": \"B\", \"text\": \"저는 책을 샀습니다.\"}, {\"id\": \"C\", \"text\": \"저는 책을 잃어버렸습니다.\"}, {\"id\": \"D\", \"text\": \"저는 책을 썼습니다.\"}]",
+      "vi": "[{\"id\": \"A\", \"text\": \"Tôi đã đọc một quyển sách.\"}, {\"id\": \"B\", \"text\": \"Tôi đã mua một quyển sách.\"}, {\"id\": \"C\", \"text\": \"Tôi đã mất một quyển sách.\"}, {\"id\": \"D\", \"text\": \"Tôi đã viết một quyển sách.\"}]"
+    },
+    "correct_answer_value": "B",
+    "test_types": ["Reading", "Listening"]
+  },
+  {
+    "question_id": 15,
+    "provider_id": "system",
+    "question_text": {
+      "en": "明天你去不去学校？",
+      "es": "明天你去不去学校？",
+      "ja": "明天你去不去学校？",
+      "ko": "明天你去不去学校？",
+      "vi": "明天你去不去学校？"
+    },
+    "question_type": "MCQ",
+    "category": "HSK 1",
+    "langLevel": "HSK1",
+    "status": "Approved",
+    "explanation": {
+      "en": "去不去 is an A-not-A structure meaning 'Will you go or not?'.",
+      "es": "去不去 es una estructura A-no-A que significa '¿Irás o no?'",
+      "ja": "去不去はA-not-A構造で「行きますか行きませんか？」という意味です。",
+      "ko": "去不去는 A-not-A 구조로 '가거나 가지 않거나?'를 의미합니다.",
+      "vi": "去不去 là cấu trúc A-not-A có nghĩa là 'Bạn sẽ đi hay không đi?'"
+    },
+    "options_json": {
+      "en": "[{\"id\":\"A\",\"text\":\"Are you going to school tomorrow?\"},{\"id\":\"B\",\"text\":\"Do you like your school?\"},{\"id\":\"C\",\"text\":\"Where is your school?\"},{\"id\":\"D\",\"text\":\"When do you go to school?\"}]",
+      "es": "[{\"id\": \"A\", \"text\": \"¿Vas a ir a la escuela mañana?\"}, {\"id\": \"B\", \"text\": \"¿Te gusta tu escuela?\"}, {\"id\": \"C\", \"text\": \"¿Dónde está tu escuela?\"}, {\"id\": \"D\", \"text\": \"¿Cuándo vas a la escuela?\"}]",
+      "ja": "[{\"id\": \"A\", \"text\": \"明日学校に行きますか？\"}, {\"id\": \"B\", \"text\": \"あなたの学校は好きですか？\"}, {\"id\": \"C\", \"text\": \"あなたの学校はどこですか？\"}, {\"id\": \"D\", \"text\": \"いつ学校に行きますか？\"}]",
+      "ko": "[{\"id\": \"A\", \"text\": \"내일 학교에 가나요?\"}, {\"id\": \"B\", \"text\": \"당신의 학교를 좋아하나요?\"}, {\"id\": \"C\", \"text\": \"당신의 학교는 어디에 있나요?\"}, {\"id\": \"D\", \"text\": \"언제 학교에 가나요?\"}]",
+      "vi": "[{\"id\": \"A\", \"text\": \"Ngày mai bạn có đi học không?\"}, {\"id\": \"B\", \"text\": \"Bạn có thích trường của bạn không?\"}, {\"id\": \"C\", \"text\": \"Trường của bạn ở đâu?\"}, {\"id\": \"D\", \"text\": \"Bạn đi học lúc nào?\"}]"
+    },
+    "correct_answer_value": "A",
+    "test_types": ["Reading", "Listening"]
+  },
+  {
+    "question_id": 16,
+    "provider_id": "system",
+    "question_text": {
+      "en": "他工作很忙。",
+      "es": "他工作很忙。",
+      "ja": "他工作很忙。",
+      "ko": "他工作很忙。",
+      "vi": "他工作很忙。"
+    },
+    "question_type": "MCQ",
+    "category": "HSK 1",
+    "langLevel": "HSK1",
+    "status": "Approved",
+    "explanation": {
+      "en": "很忙 means 'very busy'.",
+      "es": "很忙 significa 'muy ocupado'.",
+      "ja": "很忙は「とても忙しい」という意味です。",
+      "ko": "很忙는 '매우 바쁘다'를 의미합니다.",
+      "vi": "很忙 nghĩa là 'rất bận'."
+    },
+    "options_json": {
+      "en": "[{\"id\":\"A\",\"text\":\"He is very busy at work.\"},{\"id\":\"B\",\"text\":\"He doesn’t like his job.\"},{\"id\":\"C\",\"text\":\"He works at a school.\"},{\"id\":\"D\",\"text\":\"He is not working.\"}]",
+      "es": "[{\"id\": \"A\", \"text\": \"Él está muy ocupado en el trabajo.\"}, {\"id\": \"B\", \"text\": \"He doesn’t like his job.\"}, {\"id\": \"C\", \"text\": \"Él trabaja en una escuela.\"}, {\"id\": \"D\", \"text\": \"Él no está trabajando.\"}]",
+      "ja": "[{\"id\": \"A\", \"text\": \"彼は仕事でとても忙しいです。\"}, {\"id\": \"B\", \"text\": \"He doesn’t like his job.\"}, {\"id\": \"C\", \"text\": \"彼は学校で働いています。\"}, {\"id\": \"D\", \"text\": \"彼は働いていません。\"}]",
+      "ko": "[{\"id\": \"A\", \"text\": \"그는 일에 매우 바쁩니다.\"}, {\"id\": \"B\", \"text\": \"He doesn’t like his job.\"}, {\"id\": \"C\", \"text\": \"그는 학교에서 일합니다.\"}, {\"id\": \"D\", \"text\": \"그는 일하지 않고 있습니다.\"}]",
+      "vi": "[{\"id\": \"A\", \"text\": \"Anh ấy rất bận ở nơi làm việc.\"}, {\"id\": \"B\", \"text\": \"He doesn’t like his job.\"}, {\"id\": \"C\", \"text\": \"Anh ấy làm việc ở một trường học.\"}, {\"id\": \"D\", \"text\": \"Anh ấy không làm việc.\"}]"
+    },
+    "correct_answer_value": "A",
+    "test_types": ["Reading", "Listening"]
+  },
+  {
+    "question_id": 17,
+    "provider_id": "system",
+    "question_text": {
+      "en": "我爱吃中国菜。",
+      "es": "我爱吃中国菜。",
+      "ja": "我爱吃中国菜。",
+      "ko": "我爱吃中国菜。",
+      "vi": "我爱吃中国菜。"
+    },
+    "question_type": "MCQ",
+    "category": "HSK 1",
+    "langLevel": "HSK1",
+    "status": "Approved",
+    "explanation": {
+      "en": "爱吃 means 'love to eat'; 中国菜 means 'Chinese food'.",
+      "es": "爱吃 significa 'adorar comer'; 中国菜 significa 'comida china'.",
+      "ja": "爱吃は「食べることが大好き」という意味です。中国菜は「中華料理」という意味です。",
+      "ko": "爱吃는 '먹는 것을 좋아하다'를 의미합니다. 中国菜는 '중국 요리'를 의미합니다.",
+      "vi": "爱吃 nghĩa là 'thích ăn'; 中国菜 nghĩa là 'đồ ăn Trung Quốc'."
+    },
+    "options_json": {
+      "en": "[{\"id\":\"A\",\"text\":\"I love Chinese food.\"},{\"id\":\"B\",\"text\":\"I cook Chinese food.\"},{\"id\":\"C\",\"text\":\"I don’t like Chinese food.\"},{\"id\":\"D\",\"text\":\"I eat in China.\"}]",
+      "es": "[{\"id\": \"A\", \"text\": \"Me encanta la comida china.\"}, {\"id\": \"B\", \"text\": \"Cocino comida china.\"}, {\"id\": \"C\", \"text\": \"I don’t like Chinese food.\"}, {\"id\": \"D\", \"text\": \"Como en China.\"}]",
+      "ja": "[{\"id\": \"A\", \"text\": \"私は中華料理が大好きです。\"}, {\"id\": \"B\", \"text\": \"私は中華料理を作ります。\"}, {\"id\": \"C\", \"text\": \"I don’t like Chinese food.\"}, {\"id\": \"D\", \"text\": \"私は中国で食べます。\"}]",
+      "ko": "[{\"id\": \"A\", \"text\": \"저는 중국 요리를 좋아합니다.\"}, {\"id\": \"B\", \"text\": \"저는 중국 요리를 만듭니다.\"}, {\"id\": \"C\", \"text\": \"I don’t like Chinese food.\"}, {\"id\": \"D\", \"text\": \"저는 중국에서 먹습니다.\"}]",
+      "vi": "[{\"id\": \"A\", \"text\": \"Tôi yêu thích đồ ăn Trung Quốc.\"}, {\"id\": \"B\", \"text\": \"Tôi nấu đồ ăn Trung Quốc.\"}, {\"id\": \"C\", \"text\": \"I don’t like Chinese food.\"}, {\"id\": \"D\", \"text\": \"Tôi ăn ở Trung Quốc.\"}]"
+    },
+    "correct_answer_value": "A",
+    "test_types": ["Reading", "Listening"]
+  },
+  {
+    "question_id": 18,
+    "provider_id": "system",
+    "question_text": {
+      "en": "我的朋友在医院工作。",
+      "es": "我的朋友在医院工作。",
+      "ja": "我的朋友在医院工作。",
+      "ko": "我的朋友在医院工作。",
+      "vi": "我的朋友在医院工作。"
+    },
+    "question_type": "MCQ",
+    "category": "HSK 1",
+    "langLevel": "HSK1",
+    "status": "Approved",
+    "explanation": {
+      "en": "医院 means 'hospital'; 在...工作 means 'work at'.",
+      "es": "医院 significa 'hospital'; 在...工作 significa 'trabajar en'.",
+      "ja": "医院は「病院」という意味です。在...工作は「で働く」という意味です。",
+      "ko": "医院는 '병원'을 의미합니다. 在...工作는 '~에서 일하다'를 의미합니다.",
+      "vi": "医院 nghĩa là 'bệnh viện'; 在...工作 nghĩa là 'làm việc ở'."
+    },
+    "options_json": {
+      "en": "[{\"id\":\"A\",\"text\":\"My friend works at a hospital.\"},{\"id\":\"B\",\"text\":\"My friend is sick.\"},{\"id\":\"C\",\"text\":\"My friend studies at school.\"},{\"id\":\"D\",\"text\":\"My friend is a teacher.\"}]",
+      "es": "[{\"id\": \"A\", \"text\": \"Mi amigo trabaja en un hospital.\"}, {\"id\": \"B\", \"text\": \"Mi amigo está enfermo.\"}, {\"id\": \"C\", \"text\": \"Mi amigo estudia en la escuela.\"}, {\"id\": \"D\", \"text\": \"Mi amigo es profesor.\"}]",
+      "ja": "[{\"id\": \"A\", \"text\": \"私の友達は病院で働いています。\"}, {\"id\": \"B\", \"text\": \"私の友達は病気です。\"}, {\"id\": \"C\", \"text\": \"私の友達は学校で勉強しています。\"}, {\"id\": \"D\", \"text\": \"私の友達は教師です。\"}]",
+      "ko": "[{\"id\": \"A\", \"text\": \"내 친구는 병원에서 일합니다.\"}, {\"id\": \"B\", \"text\": \"내 친구는 아팁니다.\"}, {\"id\": \"C\", \"text\": \"내 친구는 학교에서 공부합니다.\"}, {\"id\": \"D\", \"text\": \"내 친구는 선생님입니다.\"}]",
+      "vi": "[{\"id\": \"A\", \"text\": \"Bạn tôi làm việc ở bệnh viện.\"}, {\"id\": \"B\", \"text\": \"Bạn tôi bị ốm.\"}, {\"id\": \"C\", \"text\": \"Bạn tôi học ở trường.\"}, {\"id\": \"D\", \"text\": \"Bạn tôi là giáo viên.\"}]"
+    },
+    "correct_answer_value": "A",
+    "test_types": ["Reading", "Listening"]
+  },
+  {
+    "question_id": 19,
+    "provider_id": "system",
+    "question_text": {
+      "en": "桌子上有三本书。",
+      "es": "桌子上有三本书。",
+      "ja": "桌子上有三本书。",
+      "ko": "桌子上有三本书。",
+      "vi": "桌子上有三本书。"
+    },
+    "question_type": "MCQ",
+    "category": "HSK 1",
+    "langLevel": "HSK1",
+    "status": "Approved",
+    "explanation": {
+      "en": "上 means 'on'; 三本书 means 'three books'.",
+      "es": "上 significa 'sobre'; 三本书 significa 'tres libros'.",
+      "ja": "上は「上に」という意味です。三本书は「3冊の本」という意味です。",
+      "ko": "上는 '위에'를 의미합니다. 三本书는 '책 세 권'을 의미합니다.",
+      "vi": "上 nghĩa là 'trên'; 三本书 nghĩa là 'ba quyển sách'."
+    },
+    "options_json": {
+      "en": "[{\"id\":\"A\",\"text\":\"There are three books on the table.\"},{\"id\":\"B\",\"text\":\"There are three chairs under the table.\"},{\"id\":\"C\",\"text\":\"The books are in the bag.\"},{\"id\":\"D\",\"text\":\"The table has three legs.\"}]",
+      "es": "[{\"id\": \"A\", \"text\": \"Hay tres libros sobre la mesa.\"}, {\"id\": \"B\", \"text\": \"Hay tres sillas debajo de la mesa.\"}, {\"id\": \"C\", \"text\": \"Los libros están en la bolsa.\"}, {\"id\": \"D\", \"text\": \"La mesa tiene tres patas.\"}]",
+      "ja": "[{\"id\": \"A\", \"text\": \"テーブルの上に本が3冊あります。\"}, {\"id\": \"B\", \"text\": \"テーブルの下に椅子が3脚あります。\"}, {\"id\": \"C\", \"text\": \"本は鞄の中にあります。\"}, {\"id\": \"D\", \"text\": \"テーブルには脚が3本あります。\"}]",
+      "ko": "[{\"id\": \"A\", \"text\": \"테이블 위에 책 세 권이 있습니다.\"}, {\"id\": \"B\", \"text\": \"테이블 아래에 의자 세 개가 있습니다.\"}, {\"id\": \"C\", \"text\": \"책들이 가방 안에 있습니다.\"}, {\"id\": \"D\", \"text\": \"테이블에는 다리가 세 개 있습니다.\"}]",
+      "vi": "[{\"id\": \"A\", \"text\": \"Có ba quyển sách trên bàn.\"}, {\"id\": \"B\", \"text\": \"Có ba chiếc ghế dưới bàn.\"}, {\"id\": \"C\", \"text\": \"Những quyển sách ở trong túi.\"}, {\"id\": \"D\", \"text\": \"Chiếc bàn có ba chân.\"}]"
+    },
+    "correct_answer_value": "A",
+    "test_types": ["Reading", "Listening"]
+  },
+  {
+    "question_id": 20,
+    "provider_id": "system",
+    "question_text": {
+      "en": "你会不会开车？",
+      "es": "你会不会开车？",
+      "ja": "你会不会开车？",
+      "ko": "你会不会开车？",
+      "vi": "你会不会开车？"
+    },
+    "question_type": "MCQ",
+    "category": "HSK 1",
+    "langLevel": "HSK1",
+    "status": "Approved",
+    "explanation": {
+      "en": "会不会 asks 'Can you or not'; 开车 means 'drive a car'.",
+      "es": "会不会 pregunta '¿Puedes o no?'; 开车 significa 'manejar un auto'.",
+      "ja": "会不会は「できますかできませんか」と尋ねます。开车は「車を運転する」という意味です。",
+      "ko": "会不会는 '할 수 있거나 없거나?'를 묻습니다. 开车는 '차를 운전하다'를 의미합니다.",
+      "vi": "会不会 hỏi 'Bạn có thể không'; 开车 nghĩa là 'lái xe'."
+    },
+    "options_json": {
+      "en": "[{\"id\":\"A\",\"text\":\"Can you drive?\"},{\"id\":\"B\",\"text\":\"Do you have a car?\"},{\"id\":\"C\",\"text\":\"Where is your car?\"},{\"id\":\"D\",\"text\":\"When do you drive?\"}]",
+      "es": "[{\"id\": \"A\", \"text\": \"¿Puedes manejar?\"}, {\"id\": \"B\", \"text\": \"¿Tienes un auto?\"}, {\"id\": \"C\", \"text\": \"¿Dónde está tu auto?\"}, {\"id\": \"D\", \"text\": \"¿Cuándo manejas?\"}]",
+      "ja": "[{\"id\": \"A\", \"text\": \"運転できますか？\"}, {\"id\": \"B\", \"text\": \"車を持っていますか？\"}, {\"id\": \"C\", \"text\": \"あなたの車はどこですか？\"}, {\"id\": \"D\", \"text\": \"いつ運転しますか？\"}]",
+      "ko": "[{\"id\": \"A\", \"text\": \"운전할 수 있나요?\"}, {\"id\": \"B\", \"text\": \"차가 있나요?\"}, {\"id\": \"C\", \"text\": \"당신의 차는 어디에 있나요?\"}, {\"id\": \"D\", \"text\": \"언제 운전하나요?\"}]",
+      "vi": "[{\"id\": \"A\", \"text\": \"Bạn có thể lái xe không?\"}, {\"id\": \"B\", \"text\": \"Bạn có xe hơi không?\"}, {\"id\": \"C\", \"text\": \"Xe của bạn ở đâu?\"}, {\"id\": \"D\", \"text\": \"Bạn lái xe khi nào?\"}]"
+    },
+    "correct_answer_value": "A",
+    "test_types": ["Reading", "Listening"]
+  },
+  {
+    "question_id": 21,
+    "provider_id": "system",
+    "question_text": {
+      "en": "我的猫在椅子上。",
+      "es": "我的猫在椅子上。",
+      "ja": "我的猫在椅子上。",
+      "ko": "我的猫在椅子上。",
+      "vi": "我的猫在椅子上。"
+    },
+    "question_type": "TF",
+    "category": "HSK 1",
+    "langLevel": "HSK1",
+    "status": "Approved",
+    "image_url": "assets/images/hsk/questions/hsk_HSK1_question_21.png",
+    "explanation": {
+      "en": "在…上 means 'on'; the cat is indeed on the chair.",
+      "es": "在…上 significa 'sobre'; el gato está realmente sobre la silla.",
+      "ja": "在…上は「上に」という意味です。猫は確かに椅子の上にいます。",
+      "ko": "在…上은 '위에'를 의미합니다. 고양이는 실제로 의자 위에 있습니다.",
+      "vi": "在…上 nghĩa là 'trên'; con mèo thực sự đang ở trên ghế."
+    },
+    "options_json": {
+      "en": "[{\"id\":\"A\",\"text\":\"True\"},{\"id\":\"B\",\"text\":\"False\"}]",
+      "es": "[{\"id\": \"A\", \"text\": \"Verdadero\"}, {\"id\": \"B\", \"text\": \"Falso\"}]",
+      "ja": "[{\"id\": \"A\", \"text\": \"正しい\"}, {\"id\": \"B\", \"text\": \"間違い\"}]",
+      "ko": "[{\"id\": \"A\", \"text\": \"맞음\"}, {\"id\": \"B\", \"text\": \"틀림\"}]",
+      "vi": "[{\"id\": \"A\", \"text\": \"Đúng\"}, {\"id\": \"B\", \"text\": \"Sai\"}]"
+    },
+    "correct_answer_value": "A",
+    "test_types": ["Reading", "Listening"]
+  },
+  {
+    "question_id": 22,
+    "provider_id": "system",
+    "question_text": {
+      "en": "男人在吃饭。",
+      "es": "男人在吃饭。",
+      "ja": "男人在吃饭。",
+      "ko": "男人在吃饭。",
+      "vi": "男人在吃饭。"
+    },
+    "question_type": "TF",
+    "category": "HSK 1",
+    "langLevel": "HSK1",
+    "status": "Approved",
+    "image_url": "assets/images/hsk/questions/hsk_HSK1_question_22.png",
+    "explanation": {
+      "en": "吃饭 means 'eat a meal'; picture matches the sentence.",
+      "es": "吃饭 significa 'comer una comida'; la imagen coincide con la oración.",
+      "ja": "吃饭は「食事をする」という意味です。写真は文と一致しています。",
+      "ko": "吃饭는 '식사를 하다'를 의미합니다. 그림이 문장과 일치합니다.",
+      "vi": "吃饭 nghĩa là 'ăn cơm'; hình ảnh khớp với câu."
+    },
+    "options_json": {
+      "en": "[{\"id\":\"A\",\"text\":\"True\"},{\"id\":\"B\",\"text\":\"False\"}]",
+      "es": "[{\"id\": \"A\", \"text\": \"Verdadero\"}, {\"id\": \"B\", \"text\": \"Falso\"}]",
+      "ja": "[{\"id\": \"A\", \"text\": \"正しい\"}, {\"id\": \"B\", \"text\": \"間違い\"}]",
+      "ko": "[{\"id\": \"A\", \"text\": \"맞음\"}, {\"id\": \"B\", \"text\": \"틀림\"}]",
+      "vi": "[{\"id\": \"A\", \"text\": \"Đúng\"}, {\"id\": \"B\", \"text\": \"Sai\"}]"
+    },
+    "correct_answer_value": "A",
+    "test_types": ["Reading", "Listening"]
+  },
+  {
+    "question_id": 23,
+    "provider_id": "system",
+    "question_text": {
+      "en": "她在看书。",
+      "es": "她在看书。",
+      "ja": "她在看书。",
+      "ko": "她在看书。",
+      "vi": "她在看书。"
+    },
+    "question_type": "TF",
+    "category": "HSK 1",
+    "langLevel": "HSK1",
+    "status": "Approved",
+    "image_url": "assets/images/hsk/questions/hsk_HSK1_question_23.png",
+    "explanation": {
+      "en": "看书 means 'reading a book'; she is sleeping, so false.",
+      "es": "看书 significa 'leer un libro'; ella está durmiendo, por lo tanto es falso.",
+      "ja": "看书は「本を読む」という意味です。彼女は寝ているので間違いです。",
+      "ko": "看书는 '책을 읽다'를 의미합니다. 그녀는 자고 있으므로 틀렸습니다.",
+      "vi": "看书 nghĩa là 'đọc sách'; cô ấy đang ngủ nên sai."
+    },
+    "options_json": {
+      "en": "[{\"id\":\"A\",\"text\":\"True\"},{\"id\":\"B\",\"text\":\"False\"}]",
+      "es": "[{\"id\": \"A\", \"text\": \"Verdadero\"}, {\"id\": \"B\", \"text\": \"Falso\"}]",
+      "ja": "[{\"id\": \"A\", \"text\": \"正しい\"}, {\"id\": \"B\", \"text\": \"間違い\"}]",
+      "ko": "[{\"id\": \"A\", \"text\": \"맞음\"}, {\"id\": \"B\", \"text\": \"틀림\"}]",
+      "vi": "[{\"id\": \"A\", \"text\": \"Đúng\"}, {\"id\": \"B\", \"text\": \"Sai\"}]"
+    },
+    "correct_answer_value": "B",
+    "test_types": ["Reading", "Listening"]
+  },
+  {
+    "question_id": 24,
+    "provider_id": "system",
+    "question_text": {
+      "en": "老师在上课。",
+      "es": "老师在上课。",
+      "ja": "老师在上课。",
+      "ko": "老师在上课。",
+      "vi": "老师在上课。"
+    },
+    "question_type": "TF",
+    "category": "HSK 1",
+    "langLevel": "HSK1",
+    "status": "Approved",
+    "image_url": "assets/images/hsk/questions/hsk_HSK1_question_24.png",
+    "explanation": {
+      "en": "上课 means 'having a class'; picture matches the sentence.",
+      "es": "上课 significa 'tener una clase'; la imagen coincide con la oración.",
+      "ja": "上课は「授業をする」という意味です。写真は文と一致しています。",
+      "ko": "上课는 '수업을 하다'를 의미합니다. 그림이 문장과 일치합니다.",
+      "vi": "上课 nghĩa là 'có lớp học'; hình ảnh khớp với câu."
+    },
+    "options_json": {
+      "en": "[{\"id\":\"A\",\"text\":\"True\"},{\"id\":\"B\",\"text\":\"False\"}]",
+      "es": "[{\"id\": \"A\", \"text\": \"Verdadero\"}, {\"id\": \"B\", \"text\": \"Falso\"}]",
+      "ja": "[{\"id\": \"A\", \"text\": \"正しい\"}, {\"id\": \"B\", \"text\": \"間違い\"}]",
+      "ko": "[{\"id\": \"A\", \"text\": \"맞음\"}, {\"id\": \"B\", \"text\": \"틀림\"}]",
+      "vi": "[{\"id\": \"A\", \"text\": \"Đúng\"}, {\"id\": \"B\", \"text\": \"Sai\"}]"
+    },
+    "correct_answer_value": "A",
+    "test_types": ["Reading", "Listening"]
+  },
+  {
+    "question_id": 25,
+    "provider_id": "system",
+    "question_text": {
+      "en": "苹果。",
+      "es": "苹果。",
+      "ja": "苹果。",
+      "ko": "苹果。",
+      "vi": "苹果。"
+    },
+    "question_type": "Picture-Word Matching",
+    "category": "HSK 1",
+    "langLevel": "HSK1",
+    "status": "Approved",
+    "image_url": "assets/images/hsk/questions/hsk_HSK1_question_25.png",
+    "explanation": {
+      "en": "苹果 (píngguǒ) means 'apple'; matches the picture.",
+      "es": "苹果 (píngguǒ) significa 'manzana'; coincide con la imagen.",
+      "ja": "苹果（píngguǒ）は「りんご」という意味です。写真と一致しています。",
+      "ko": "苹果(píngguǒ)는 '사과'를 의미합니다. 그림과 일치합니다.",
+      "vi": "苹果 (píngguǒ) có nghĩa là 'táo'; khớp với hình ảnh."
+    },
+    "options_json": {
+      "en": "[{\"id\":\"A\",\"text\":\"Match\"},{\"id\":\"B\",\"text\":\"No match\"}]",
+      "es": "[{\"id\": \"A\", \"text\": \"Coincide\"}, {\"id\": \"B\", \"text\": \"No coincide\"}]",
+      "ja": "[{\"id\": \"A\", \"text\": \"一致する\"}, {\"id\": \"B\", \"text\": \"一致しない\"}]",
+      "ko": "[{\"id\": \"A\", \"text\": \"일치\"}, {\"id\": \"B\", \"text\": \"불일치\"}]",
+      "vi": "[{\"id\": \"A\", \"text\": \"Khớp\"}, {\"id\": \"B\", \"text\": \"Không khớp\"}]"
+    },
+    "correct_answer_value": "A",
+    "test_types": ["Reading", "Listening"]
+  },
+  {
+    "question_id": 26,
+    "provider_id": "system",
+    "question_text": {
+      "en": "走路。",
+      "es": "走路。",
+      "ja": "走路。",
+      "ko": "走路。",
+      "vi": "走路。"
+    },
+    "question_type": "Picture-Word Matching",
+    "category": "HSK 1",
+    "langLevel": "HSK1",
+    "status": "Approved",
+    "image_url": "assets/images/hsk/questions/hsk_HSK1_question_26.png",
+    "explanation": {
+      "en": "走路 means 'to walk'; running is not walking.",
+      "es": "走路 significa 'caminar'; correr no es caminar.",
+      "ja": "走路は「歩く」という意味です。走ることは歩くことではありません。",
+      "ko": "走路는 '걷다'를 의미합니다. 뛰는 것은 걷는 것이 아닙니다.",
+      "vi": "走路 nghĩa là 'đi bộ'; chạy không phải là đi bộ."
+    },
+    "options_json": {
+      "en": "[{\"id\":\"A\",\"text\":\"Match\"},{\"id\":\"B\",\"text\":\"No match\"}]",
+      "es": "[{\"id\": \"A\", \"text\": \"Coincide\"}, {\"id\": \"B\", \"text\": \"No coincide\"}]",
+      "ja": "[{\"id\": \"A\", \"text\": \"一致する\"}, {\"id\": \"B\", \"text\": \"一致しない\"}]",
+      "ko": "[{\"id\": \"A\", \"text\": \"일치\"}, {\"id\": \"B\", \"text\": \"불일치\"}]",
+      "vi": "[{\"id\": \"A\", \"text\": \"Khớp\"}, {\"id\": \"B\", \"text\": \"Không khớp\"}]"
+    },
+    "correct_answer_value": "A",
+    "test_types": ["Reading", "Listening"]
+  },
+  {
+    "question_id": 27,
+    "provider_id": "system",
+    "question_text": {
+      "en": "飞机。",
+      "es": "飞机。",
+      "ja": "飞机。",
+      "ko": "飞机。",
+      "vi": "飞机。"
+    },
+    "question_type": "Picture-Word Matching",
+    "category": "HSK 1",
+    "langLevel": "HSK1",
+    "status": "Approved",
+    "image_url": "assets/images/hsk/questions/hsk_HSK1_question_27.png",
+    "explanation": {
+      "en": "飞机 (fēijī) means 'airplane'; matches the picture.",
+      "es": "飞机 (fēijī) significa 'avión'; coincide con la imagen.",
+      "ja": "飞机（fēijī）は「飛行機」という意味です。写真と一致しています。",
+      "ko": "飞机(fēijī)는 '비행기'를 의미합니다. 그림과 일치합니다.",
+      "vi": "飞机 (fēijī) có nghĩa là 'máy bay'; khớp với hình ảnh."
+    },
+    "options_json": {
+      "en": "[{\"id\":\"A\",\"text\":\"Match\"},{\"id\":\"B\",\"text\":\"No match\"}]",
+      "es": "[{\"id\": \"A\", \"text\": \"Coincide\"}, {\"id\": \"B\", \"text\": \"No coincide\"}]",
+      "ja": "[{\"id\": \"A\", \"text\": \"一致する\"}, {\"id\": \"B\", \"text\": \"一致しない\"}]",
+      "ko": "[{\"id\": \"A\", \"text\": \"일치\"}, {\"id\": \"B\", \"text\": \"불일치\"}]",
+      "vi": "[{\"id\": \"A\", \"text\": \"Khớp\"}, {\"id\": \"B\", \"text\": \"Không khớp\"}]"
+    },
+    "correct_answer_value": "A",
+    "test_types": ["Reading", "Listening"]
+  },
+  {
+    "question_id": 28,
+    "provider_id": "system",
+    "question_text": {
+      "en": "她在喝茶。",
+      "es": "她在喝茶。",
+      "ja": "她在喝茶。",
+      "ko": "她在喝茶。",
+      "vi": "她在喝茶。"
+    },
+    "question_type": "TF",
+    "category": "HSK 1",
+    "langLevel": "HSK1",
+    "status": "Approved",
+    "image_url": "assets/images/hsk/questions/hsk_HSK1_question_28.png",
+    "explanation": {
+      "en": "喝茶 means 'drink tea'; picture shows water, so false.",
+      "es": "喝茶 significa 'beber té'; la imagen muestra agua, por lo tanto es falso.",
+      "ja": "喝茶は「お茶を飲む」という意味です。写真には水が写っているので間違いです。",
+      "ko": "喝茶는 '차를 마시다'를 의미합니다. 그림에 물이 나와 있으므로 틀렸습니다.",
+      "vi": "喝茶 nghĩa là 'uống trà'; hình ảnh cho thấy nước nên sai."
+    },
+    "options_json": {
+      "en": "[{\"id\":\"A\",\"text\":\"True\"},{\"id\":\"B\",\"text\":\"False\"}]",
+      "es": "[{\"id\": \"A\", \"text\": \"Verdadero\"}, {\"id\": \"B\", \"text\": \"Falso\"}]",
+      "ja": "[{\"id\": \"A\", \"text\": \"正しい\"}, {\"id\": \"B\", \"text\": \"間違い\"}]",
+      "ko": "[{\"id\": \"A\", \"text\": \"맞음\"}, {\"id\": \"B\", \"text\": \"틀림\"}]",
+      "vi": "[{\"id\": \"A\", \"text\": \"Đúng\"}, {\"id\": \"B\", \"text\": \"Sai\"}]"
+    },
+    "correct_answer_value": "B",
+    "test_types": ["Reading", "Listening"]
+  },
+  {
+    "question_id": 29,
+    "provider_id": "system",
+    "question_text": {
+      "en": "今天很冷。",
+      "es": "今天很冷。",
+      "ja": "今天很冷。",
+      "ko": "今天很冷。",
+      "vi": "今天很冷。"
+    },
+    "question_type": "TF",
+    "category": "HSK 1",
+    "langLevel": "HSK1",
+    "status": "Approved",
+    "image_url": "assets/images/hsk/questions/hsk_HSK1_question_29.png",
+    "explanation": {
+      "en": "很冷 means 'very cold'; sunny warm day is false.",
+      "es": "很冷 significa 'muy frío'; un día soleado y cálido es falso.",
+      "ja": "很冷は「とても寒い」という意味です。晴れて暖かい日は間違いです。",
+      "ko": "很冷는 '매우 춥다'를 의미합니다. 맑고 따뜻한 날은 틀렸습니다.",
+      "vi": "很冷 nghĩa là 'rất lạnh'; ngày nắng ấm là sai."
+    },
+    "options_json": {
+      "en": "[{\"id\":\"A\",\"text\":\"True\"},{\"id\":\"B\",\"text\":\"False\"}]",
+      "es": "[{\"id\": \"A\", \"text\": \"Verdadero\"}, {\"id\": \"B\", \"text\": \"Falso\"}]",
+      "ja": "[{\"id\": \"A\", \"text\": \"正しい\"}, {\"id\": \"B\", \"text\": \"間違い\"}]",
+      "ko": "[{\"id\": \"A\", \"text\": \"맞음\"}, {\"id\": \"B\", \"text\": \"틀림\"}]",
+      "vi": "[{\"id\": \"A\", \"text\": \"Đúng\"}, {\"id\": \"B\", \"text\": \"Sai\"}]"
+    },
+    "correct_answer_value": "B",
+    "test_types": ["Reading", "Listening"]
+  },
+  {
+    "question_id": 30,
+    "provider_id": "system",
+    "question_text": {
+      "en": "公共汽车在车站。",
+      "es": "公共汽车在车站。",
+      "ja": "公共汽车在车站。",
+      "ko": "公共汽车在车站。",
+      "vi": "公共汽车在车站。"
+    },
+    "question_type": "TF",
+    "category": "HSK 1",
+    "langLevel": "HSK1",
+    "status": "Approved",
+    "image_url": "assets/images/hsk/questions/hsk_HSK1_question_30.png",
+    "explanation": {
+      "en": "车站 means 'station'; picture and sentence match.",
+      "es": "车站 significa 'estación'; la imagen y la oración coinciden.",
+      "ja": "车站は「駅」という意味です。写真と文が一致しています。",
+      "ko": "车站는 '정거장'을 의미합니다. 그림과 문장이 일치합니다.",
+      "vi": "车站 nghĩa là 'trạm xe'; hình ảnh và câu khớp nhau."
+    },
+    "options_json": {
+      "en": "[{\"id\":\"A\",\"text\":\"True\"},{\"id\":\"B\",\"text\":\"False\"}]",
+      "es": "[{\"id\": \"A\", \"text\": \"Verdadero\"}, {\"id\": \"B\", \"text\": \"Falso\"}]",
+      "ja": "[{\"id\": \"A\", \"text\": \"正しい\"}, {\"id\": \"B\", \"text\": \"間違い\"}]",
+      "ko": "[{\"id\": \"A\", \"text\": \"맞음\"}, {\"id\": \"B\", \"text\": \"틀림\"}]",
+      "vi": "[{\"id\": \"A\", \"text\": \"Đúng\"}, {\"id\": \"B\", \"text\": \"Sai\"}]"
+    },
+    "correct_answer_value": "A",
+    "test_types": ["Reading", "Listening"]
+  },
+  {
+    "question_id": 31,
+    "provider_id": "system",
+    "question_text": {
+      "en": "我{blank}学生",
+      "es": "我{blank}学生",
+      "ja": "我{blank}学生",
+      "ko": "我{blank}学生",
+      "vi": "我{blank}学生"
+    },
+    "question_type": "FillBlank",
+    "category": "HSK 1",
+    "langLevel": "HSK1",
+    "status": "Approved",
+    "explanation": {
+      "en": "Use 是 to link the subject and noun: 'I am a student.'",
+      "es": "Usa 是 para unir sujeto y sustantivo: 'Yo soy estudiante.'",
+      "ja": "主語と名詞をつなぐには『是』を使います：『私は学生です』。",
+      "ko": "주어와 명사를 연결할 때는 '是'를 사용합니다: '나는 학생입니다.'",
+      "vi": "Dùng 是 để nối chủ ngữ và danh từ: 'Tôi là học sinh.'"
+    },
+    "options_json": {
+      "en": "[{\"id\":\"A\",\"text\":\"在\"},{\"id\":\"B\",\"text\":\"买\"},{\"id\":\"C\",\"text\":\"是\"},{\"id\":\"D\",\"text\":\"好\"}]",
+      "es": "[{\"id\":\"A\",\"text\":\"在\"},{\"id\":\"B\",\"text\":\"买\"},{\"id\":\"C\",\"text\":\"是\"},{\"id\":\"D\",\"text\":\"好\"}]",
+      "ja": "[{\"id\":\"A\",\"text\":\"在\"},{\"id\":\"B\",\"text\":\"买\"},{\"id\":\"C\",\"text\":\"是\"},{\"id\":\"D\",\"text\":\"好\"}]",
+      "ko": "[{\"id\":\"A\",\"text\":\"在\"},{\"id\":\"B\",\"text\":\"买\"},{\"id\":\"C\",\"text\":\"是\"},{\"id\":\"D\",\"text\":\"好\"}]",
+      "vi": "[{\"id\":\"A\",\"text\":\"在\"},{\"id\":\"B\",\"text\":\"买\"},{\"id\":\"C\",\"text\":\"是\"},{\"id\":\"D\",\"text\":\"好\"}]"
+    },
+    "correct_answer_value": "C",
+    "test_types": ["Reading"]
+  },
+  {
+    "question_id": 32,
+    "provider_id": "system",
+    "question_text": {
+      "en": "这是什么？",
+      "es": "这是什么？",
+      "ja": "这是什么？",
+      "ko": "这是什么？",
+      "vi": "这是什么？"
+    },
+    "question_type": "MCQ",
+    "category": "HSK 1",
+    "langLevel": "HSK1",
+    "status": "Approved",
+    "image_url": "assets/images/hsk/questions/hsk_HSK1_question_32.png",
+    "explanation": {
+      "en": "Picture shows an airplane: 飞机.",
+      "es": "La imagen muestra un avión: 飞机.",
+      "ja": "画像は飛行機を示します：飞机。",
+      "ko": "그림은 비행기를 보여줍니다: 飞机.",
+      "vi": "Hình cho thấy một chiếc máy bay: 飞机."
+    },
+    "options_json": {
+      "en": "[{\"id\":\"A\",\"text\":\"飞机\"},{\"id\":\"B\",\"text\":\"火车\"},{\"id\":\"C\",\"text\":\"轮船\"},{\"id\":\"D\",\"text\":\"汽车\"}]",
+      "es": "[{\"id\":\"A\",\"text\":\"飞机\"},{\"id\":\"B\",\"text\":\"火车\"},{\"id\":\"C\",\"text\":\"轮船\"},{\"id\":\"D\",\"text\":\"汽车\"}]",
+      "ja": "[{\"id\":\"A\",\"text\":\"飞机\"},{\"id\":\"B\",\"text\":\"火车\"},{\"id\":\"C\",\"text\":\"轮船\"},{\"id\":\"D\",\"text\":\"汽车\"}]",
+      "ko": "[{\"id\":\"A\",\"text\":\"飞机\"},{\"id\":\"B\",\"text\":\"火车\"},{\"id\":\"C\",\"text\":\"轮船\"},{\"id\":\"D\",\"text\":\"汽车\"}]",
+      "vi": "[{\"id\":\"A\",\"text\":\"飞机\"},{\"id\":\"B\",\"text\":\"火车\"},{\"id\":\"C\",\"text\":\"轮船\"},{\"id\":\"D\",\"text\":\"汽车\"}]"
+    },
+    "correct_answer_value": "A",
+    "test_types": ["Reading", "Listening"]
+  },
+  {
+    "question_id": 33,
+    "provider_id": "system",
+    "question_text": {
+      "en": "他在喝水。 What is he doing?",
+      "es": "他在喝水。 ¿Qué está haciendo?",
+      "ja": "他在喝水。 何をしていますか。",
+      "ko": "他在喝水。 무엇을 하고 있나요?",
+      "vi": "他在喝水。 Anh ấy đang làm gì?"
+    },
+    "question_type": "MCQ",
+    "category": "HSK 1",
+    "langLevel": "HSK1",
+    "status": "Approved",
+    "explanation": {
+      "en": "喝水 means 'drink water'.",
+      "es": "喝水 significa 'beber agua'.",
+      "ja": "喝水は『水を飲む』という意味です。",
+      "ko": "喝水는 '물을 마시다'를 의미합니다.",
+      "vi": "喝水 nghĩa là 'uống nước'."
+    },
+    "options_json": {
+      "en": "[{\"id\":\"A\",\"text\":\"writing\"},{\"id\":\"B\",\"text\":\"watching TV\"},{\"id\":\"C\",\"text\":\"drinking water\"},{\"id\":\"D\",\"text\":\"reading\"}]",
+      "es": "[{\"id\":\"A\",\"text\":\"escribir\"},{\"id\":\"B\",\"text\":\"ver la tele\"},{\"id\":\"C\",\"text\":\"beber agua\"},{\"id\":\"D\",\"text\":\"leer\"}]",
+      "ja": "[{\"id\":\"A\",\"text\":\"書いている\"},{\"id\":\"B\",\"text\":\"テレビを見ている\"},{\"id\":\"C\",\"text\":\"水を飲んでいる\"},{\"id\":\"D\",\"text\":\"読んでいる\"}]",
+      "ko": "[{\"id\":\"A\",\"text\":\"쓰고 있다\"},{\"id\":\"B\",\"text\":\"TV를 보고 있다\"},{\"id\":\"C\",\"text\":\"물을 마시고 있다\"},{\"id\":\"D\",\"text\":\"읽고 있다\"}]",
+      "vi": "[{\"id\":\"A\",\"text\":\"đang viết\"},{\"id\":\"B\",\"text\":\"đang xem tivi\"},{\"id\":\"C\",\"text\":\"đang uống nước\"},{\"id\":\"D\",\"text\":\"đang đọc\"}]"
+    },
+    "correct_answer_value": "C",
+    "test_types": ["Reading", "Listening"]
+  },
+  {
+    "question_id": 34,
+    "provider_id": "system",
+    "question_text": {
+      "en": "我们在学校。 Where are we?",
+      "es": "我们在学校。 ¿Dónde estamos?",
+      "ja": "我们在学校。 私たちはどこにいますか。",
+      "ko": "我们在学校。 우리는 어디에 있나요?",
+      "vi": "我们在学校。 Chúng tôi đang ở đâu?"
+    },
+    "question_type": "MCQ",
+    "category": "HSK 1",
+    "langLevel": "HSK1",
+    "status": "Approved",
+    "explanation": {
+      "en": "在学校 means 'at school'.",
+      "es": "在学校 significa 'en la escuela'.",
+      "ja": "在学校は『学校に』という意味です。",
+      "ko": "在学校는 '학교에'를 의미합니다.",
+      "vi": "在学校 nghĩa là 'ở trường'."
+    },
+    "options_json": {
+      "en": "[{\"id\":\"A\",\"text\":\"at home\"},{\"id\":\"B\",\"text\":\"at school\"},{\"id\":\"C\",\"text\":\"in Beijing\"},{\"id\":\"D\",\"text\":\"at the cinema\"}]",
+      "es": "[{\"id\":\"A\",\"text\":\"en casa\"},{\"id\":\"B\",\"text\":\"en la escuela\"},{\"id\":\"C\",\"text\":\"en Pekín\"},{\"id\":\"D\",\"text\":\"en el cine\"}]",
+      "ja": "[{\"id\":\"A\",\"text\":\"家に\"},{\"id\":\"B\",\"text\":\"学校に\"},{\"id\":\"C\",\"text\":\"北京に\"},{\"id\":\"D\",\"text\":\"映画館に\"}]",
+      "ko": "[{\"id\":\"A\",\"text\":\"집에\"},{\"id\":\"B\",\"text\":\"학교에\"},{\"id\":\"C\",\"text\":\"베이징에\"},{\"id\":\"D\",\"text\":\"영화관에\"}]",
+      "vi": "[{\"id\":\"A\",\"text\":\"ở nhà\"},{\"id\":\"B\",\"text\":\"ở trường\"},{\"id\":\"C\",\"text\":\"ở Bắc Kinh\"},{\"id\":\"D\",\"text\":\"ở rạp chiếu phim\"}]"
+    },
+    "correct_answer_value": "B",
+    "test_types": ["Reading", "Listening"]
+  },
+  {
+    "question_id": 35,
+    "provider_id": "system",
+    "question_text": {
+      "en": "他喜欢看电影。 What does he like to do?",
+      "es": "他喜欢看电影。 ¿Qué le gusta hacer?",
+      "ja": "他喜欢看电影。 彼は何をするのが好きですか。",
+      "ko": "他喜欢看电影。 그는 무엇을 하는 것을 좋아하나요?",
+      "vi": "他喜欢看电影。 Anh ấy thích làm gì?"
+    },
+    "question_type": "MCQ",
+    "category": "HSK 1",
+    "langLevel": "HSK1",
+    "status": "Approved",
+    "explanation": {
+      "en": "看电影 means 'watch movies'.",
+      "es": "看电影 significa 'ver películas'.",
+      "ja": "看电影は『映画を見る』という意味です。",
+      "ko": "看电影는 '영화를 보다'를 의미합니다.",
+      "vi": "看电影 nghĩa là 'xem phim'."
+    },
+    "options_json": {
+      "en": "[{\"id\":\"A\",\"text\":\"watch TV\"},{\"id\":\"B\",\"text\":\"watch movies\"},{\"id\":\"C\",\"text\":\"eat rice\"},{\"id\":\"D\",\"text\":\"buy apples\"}]",
+      "es": "[{\"id\":\"A\",\"text\":\"ver la tele\"},{\"id\":\"B\",\"text\":\"ver películas\"},{\"id\":\"C\",\"text\":\"comer arroz\"},{\"id\":\"D\",\"text\":\"comprar manzanas\"}]",
+      "ja": "[{\"id\":\"A\",\"text\":\"テレビを見る\"},{\"id\":\"B\",\"text\":\"映画を見る\"},{\"id\":\"C\",\"text\":\"ご飯を食べる\"},{\"id\":\"D\",\"text\":\"りんごを買う\"}]",
+      "ko": "[{\"id\":\"A\",\"text\":\"TV를 보다\"},{\"id\":\"B\",\"text\":\"영화를 보다\"},{\"id\":\"C\",\"text\":\"밥을 먹다\"},{\"id\":\"D\",\"text\":\"사과를 사다\"}]",
+      "vi": "[{\"id\":\"A\",\"text\":\"xem tivi\"},{\"id\":\"B\",\"text\":\"xem phim\"},{\"id\":\"C\",\"text\":\"ăn cơm\"},{\"id\":\"D\",\"text\":\"mua táo\"}]"
+    },
+    "correct_answer_value": "B",
+    "test_types": ["Reading", "Listening"]
+  },
+  {
+    "question_id": 36,
+    "provider_id": "system",
+    "question_text": {
+      "en": "今天{blank}冷。",
+      "es": "今天{blank}冷。",
+      "ja": "今天{blank}冷。",
+      "ko": "今天{blank}冷。",
+      "vi": "今天{blank}冷。"
+    },
+    "question_type": "FillBlank",
+    "category": "HSK 1",
+    "langLevel": "HSK1",
+    "status": "Approved",
+    "explanation": {
+      "en": "Use 很 to say 'very cold today'.",
+      "es": "Usa 很 para decir 'hoy hace mucho frío'.",
+      "ja": "『很』を使って『今日はとても寒い』と言います。",
+      "ko": "'오늘 매우 춥다'를 말할 때 很을 사용합니다.",
+      "vi": "Dùng 很 để nói 'hôm nay rất lạnh'."
+    },
+    "options_json": {
+      "en": "[{\"id\":\"A\",\"text\":\"很\"},{\"id\":\"B\",\"text\":\"不\"},{\"id\":\"C\",\"text\":\"是\"},{\"id\":\"D\",\"text\":\"在\"}]",
+      "es": "[{\"id\":\"A\",\"text\":\"很\"},{\"id\":\"B\",\"text\":\"不\"},{\"id\":\"C\",\"text\":\"是\"},{\"id\":\"D\",\"text\":\"在\"}]",
+      "ja": "[{\"id\":\"A\",\"text\":\"很\"},{\"id\":\"B\",\"text\":\"不\"},{\"id\":\"C\",\"text\":\"是\"},{\"id\":\"D\",\"text\":\"在\"}]",
+      "ko": "[{\"id\":\"A\",\"text\":\"很\"},{\"id\":\"B\",\"text\":\"不\"},{\"id\":\"C\",\"text\":\"是\"},{\"id\":\"D\",\"text\":\"在\"}]",
+      "vi": "[{\"id\":\"A\",\"text\":\"很\"},{\"id\":\"B\",\"text\":\"不\"},{\"id\":\"C\",\"text\":\"是\"},{\"id\":\"D\",\"text\":\"在\"}]"
+    },
+    "correct_answer_value": "A",
+    "test_types": ["Reading"]
+  },
+  {
+    "question_id": 37,
+    "provider_id": "system",
+    "question_text": {
+      "en": "书在桌子上。 Where is the book?",
+      "es": "书在桌子上。 ¿Dónde está el libro?",
+      "ja": "书在桌子上。 本はどこにありますか。",
+      "ko": "书在桌子上。 책은 어디에 있나요?",
+      "vi": "书在桌子上。 Cuốn sách ở đâu?"
+    },
+    "question_type": "MCQ",
+    "category": "HSK 1",
+    "langLevel": "HSK1",
+    "status": "Approved",
+    "explanation": {
+      "en": "在…上 means 'on'.",
+      "es": "在…上 significa 'encima'.",
+      "ja": "在…上は『上に』という意味です。",
+      "ko": "在…上는 '위에'를 의미합니다.",
+      "vi": "在…上 nghĩa là 'trên'."
+    },
+    "options_json": {
+      "en": "[{\"id\":\"A\",\"text\":\"on the chair\"},{\"id\":\"B\",\"text\":\"on the table\"},{\"id\":\"C\",\"text\":\"in the bag\"},{\"id\":\"D\",\"text\":\"under the table\"}]",
+      "es": "[{\"id\":\"A\",\"text\":\"en la silla\"},{\"id\":\"B\",\"text\":\"en la mesa\"},{\"id\":\"C\",\"text\":\"en la bolsa\"},{\"id\":\"D\",\"text\":\"debajo de la mesa\"}]",
+      "ja": "[{\"id\":\"A\",\"text\":\"いすの上\"},{\"id\":\"B\",\"text\":\"テーブルの上\"},{\"id\":\"C\",\"text\":\"かばんの中\"},{\"id\":\"D\",\"text\":\"テーブルの下\"}]",
+      "ko": "[{\"id\":\"A\",\"text\":\"의자 위에\"},{\"id\":\"B\",\"text\":\"테이블 위에\"},{\"id\":\"C\",\"text\":\"가방 안에\"},{\"id\":\"D\",\"text\":\"테이블 아래에\"}]",
+      "vi": "[{\"id\":\"A\",\"text\":\"trên ghế\"},{\"id\":\"B\",\"text\":\"trên bàn\"},{\"id\":\"C\",\"text\":\"trong túi\"},{\"id\":\"D\",\"text\":\"dưới bàn\"}]"
+    },
+    "correct_answer_value": "B",
+    "test_types": ["Reading", "Listening"]
+  },
+  {
+    "question_id": 38,
+    "provider_id": "system",
+    "question_text": {
+      "en": "她是医生吗？",
+      "es": "她是医生吗？",
+      "ja": "她是医生吗？",
+      "ko": "她是医生吗？",
+      "vi": "她是医生吗？"
+    },
+    "question_type": "MCQ",
+    "category": "HSK 1",
+    "langLevel": "HSK1",
+    "status": "Approved",
+    "explanation": {
+      "en": "吗 indicates a yes/no question.",
+      "es": "吗 indica una pregunta de sí/no.",
+      "ja": "吗ははい/いいえの質問を示します。",
+      "ko": "吗는 예/아니오 의문문을 나타냅니다.",
+      "vi": "吗 biểu thị câu hỏi có/không."
+    },
+    "options_json": {
+      "en": "[{\"id\":\"A\",\"text\":\"Yes\"},{\"id\":\"B\",\"text\":\"No\"}]",
+      "es": "[{\"id\":\"A\",\"text\":\"Sí\"},{\"id\":\"B\",\"text\":\"No\"}]",
+      "ja": "[{\"id\":\"A\",\"text\":\"はい\"},{\"id\":\"B\",\"text\":\"いいえ\"}]",
+      "ko": "[{\"id\":\"A\",\"text\":\"예\"},{\"id\":\"B\",\"text\":\"아니요\"}]",
+      "vi": "[{\"id\":\"A\",\"text\":\"Có\"},{\"id\":\"B\",\"text\":\"Không\"}]"
+    },
+    "correct_answer_value": "A",
+    "test_types": ["Reading", "Listening"]
+  },
+  {
+    "question_id": 39,
+    "provider_id": "system",
+    "question_text": {
+      "en": "我们{blank}家。",
+      "es": "我们{blank}家。",
+      "ja": "我们{blank}家。",
+      "ko": "我们{blank}家。",
+      "vi": "我们{blank}家。"
+    },
+    "question_type": "FillBlank",
+    "category": "HSK 1",
+    "langLevel": "HSK1",
+    "status": "Approved",
+    "explanation": {
+      "en": "Use 回 to mean 'go back home'.",
+      "es": "Usa 回 para 'volver a casa'.",
+      "ja": "『回』を使って『家に帰る』を表します。",
+      "ko": "집에 돌아가다를 표현할 때 回를 사용합니다.",
+      "vi": "Dùng 回 để nói 'về nhà'."
+    },
+    "options_json": {
+      "en": "[{\"id\":\"A\",\"text\":\"去\"},{\"id\":\"B\",\"text\":\"回\"},{\"id\":\"C\",\"text\":\"来\"},{\"id\":\"D\",\"text\":\"坐\"}]",
+      "es": "[{\"id\":\"A\",\"text\":\"去\"},{\"id\":\"B\",\"text\":\"回\"},{\"id\":\"C\",\"text\":\"来\"},{\"id\":\"D\",\"text\":\"坐\"}]",
+      "ja": "[{\"id\":\"A\",\"text\":\"去\"},{\"id\":\"B\",\"text\":\"回\"},{\"id\":\"C\",\"text\":\"来\"},{\"id\":\"D\",\"text\":\"坐\"}]",
+      "ko": "[{\"id\":\"A\",\"text\":\"去\"},{\"id\":\"B\",\"text\":\"回\"},{\"id\":\"C\",\"text\":\"来\"},{\"id\":\"D\",\"text\":\"坐\"}]",
+      "vi": "[{\"id\":\"A\",\"text\":\"去\"},{\"id\":\"B\",\"text\":\"回\"},{\"id\":\"C\",\"text\":\"来\"},{\"id\":\"D\",\"text\":\"坐\"}]"
+    },
+    "correct_answer_value": "B",
+    "test_types": ["Reading"]
+  },
+  {
+    "question_id": 40,
+    "provider_id": "system",
+    "question_text": {
+      "en": "她在写字。 What is she doing?",
+      "es": "她在写字。 ¿Qué está haciendo?",
+      "ja": "她在写字。 彼女は何をしていますか。",
+      "ko": "她在写字。 무엇을 하고 있나요?",
+      "vi": "她在写字。 Cô ấy đang làm gì?"
+    },
+    "question_type": "MCQ",
+    "category": "HSK 1",
+    "langLevel": "HSK1",
+    "status": "Approved",
+    "explanation": {
+      "en": "写字 means 'write characters'.",
+      "es": "写字 significa 'escribir caracteres'.",
+      "ja": "写字は『字を書く』という意味です。",
+      "ko": "写字는 '글자를 쓰다'를 의미합니다.",
+      "vi": "写字 nghĩa là 'viết chữ'."
+    },
+    "options_json": {
+      "en": "[{\"id\":\"A\",\"text\":\"watch TV\"},{\"id\":\"B\",\"text\":\"write characters\"},{\"id\":\"C\",\"text\":\"speak\"},{\"id\":\"D\",\"text\":\"read\"}]",
+      "es": "[{\"id\":\"A\",\"text\":\"ver la tele\"},{\"id\":\"B\",\"text\":\"escribir caracteres\"},{\"id\":\"C\",\"text\":\"hablar\"},{\"id\":\"D\",\"text\":\"leer\"}]",
+      "ja": "[{\"id\":\"A\",\"text\":\"テレビを見る\"},{\"id\":\"B\",\"text\":\"字を書く\"},{\"id\":\"C\",\"text\":\"話す\"},{\"id\":\"D\",\"text\":\"読む\"}]",
+      "ko": "[{\"id\":\"A\",\"text\":\"TV를 보다\"},{\"id\":\"B\",\"text\":\"글자를 쓰다\"},{\"id\":\"C\",\"text\":\"말하다\"},{\"id\":\"D\",\"text\":\"읽다\"}]",
+      "vi": "[{\"id\":\"A\",\"text\":\"xem tivi\"},{\"id\":\"B\",\"text\":\"viết chữ\"},{\"id\":\"C\",\"text\":\"nói\"},{\"id\":\"D\",\"text\":\"đọc\"}]"
+    },
+    "correct_answer_value": "B",
+    "test_types": ["Reading", "Listening"]
+  },
+  {
+    "question_id": 41,
+    "provider_id": "system",
+    "question_text": {
+      "en": "他在{blank}电视。",
+      "es": "他在{blank}电视。",
+      "ja": "他在{blank}电视。",
+      "ko": "他在{blank}电视。",
+      "vi": "他在{blank}电视。"
+    },
+    "question_type": "FillBlank",
+    "category": "HSK 1",
+    "langLevel": "HSK1",
+    "status": "Approved",
+    "explanation": {
+      "en": "Use 看 for 'watch TV'.",
+      "es": "Usa 看 para 'ver la tele'.",
+      "ja": "テレビを見るには『看』を使います。",
+      "ko": "TV를 볼 때는 看을 사용합니다.",
+      "vi": "Dùng 看 để 'xem tivi'."
+    },
+    "options_json": {
+      "en": "[{\"id\":\"A\",\"text\":\"看\"},{\"id\":\"B\",\"text\":\"写\"},{\"id\":\"C\",\"text\":\"买\"},{\"id\":\"D\",\"text\":\"说\"}]",
+      "es": "[{\"id\":\"A\",\"text\":\"看\"},{\"id\":\"B\",\"text\":\"写\"},{\"id\":\"C\",\"text\":\"买\"},{\"id\":\"D\",\"text\":\"说\"}]",
+      "ja": "[{\"id\":\"A\",\"text\":\"看\"},{\"id\":\"B\",\"text\":\"写\"},{\"id\":\"C\",\"text\":\"买\"},{\"id\":\"D\",\"text\":\"说\"}]",
+      "ko": "[{\"id\":\"A\",\"text\":\"看\"},{\"id\":\"B\",\"text\":\"写\"},{\"id\":\"C\",\"text\":\"买\"},{\"id\":\"D\",\"text\":\"说\"}]",
+      "vi": "[{\"id\":\"A\",\"text\":\"看\"},{\"id\":\"B\",\"text\":\"写\"},{\"id\":\"C\",\"text\":\"买\"},{\"id\":\"D\",\"text\":\"说\"}]"
+    },
+    "correct_answer_value": "A",
+    "test_types": ["Reading"]
+  },
+  {
+    "question_id": 42,
+    "provider_id": "system",
+    "question_text": {
+      "en": "他们坐公共汽车。 What are they doing?",
+      "es": "他们坐公共汽车。 ¿Qué están haciendo?",
+      "ja": "他们坐公共汽车。 彼らは何をしていますか。",
+      "ko": "他们坐公共汽车。 무엇을 하고 있나요?",
+      "vi": "他们坐公共汽车。 Họ đang làm gì?"
+    },
+    "question_type": "MCQ",
+    "category": "HSK 1",
+    "langLevel": "HSK1",
+    "status": "Approved",
+    "explanation": {
+      "en": "坐公共汽车 means 'ride the bus'.",
+      "es": "坐公共汽车 significa 'ir en autobús'.",
+      "ja": "坐公共汽车は『バスに乗る』という意味です。",
+      "ko": "坐公共汽车는 '버스를 타다'를 의미합니다.",
+      "vi": "坐公共汽车 nghĩa là 'đi xe buýt'."
+    },
+    "options_json": {
+      "en": "[{\"id\":\"A\",\"text\":\"ride the bus\"},{\"id\":\"B\",\"text\":\"watch a movie\"},{\"id\":\"C\",\"text\":\"drink water\"},{\"id\":\"D\",\"text\":\"write\"}]",
+      "es": "[{\"id\":\"A\",\"text\":\"ir en autobús\"},{\"id\":\"B\",\"text\":\"ver una película\"},{\"id\":\"C\",\"text\":\"beber agua\"},{\"id\":\"D\",\"text\":\"escribir\"}]",
+      "ja": "[{\"id\":\"A\",\"text\":\"バスに乗る\"},{\"id\":\"B\",\"text\":\"映画を見る\"},{\"id\":\"C\",\"text\":\"水を飲む\"},{\"id\":\"D\",\"text\":\"書く\"}]",
+      "ko": "[{\"id\":\"A\",\"text\":\"버스를 타다\"},{\"id\":\"B\",\"text\":\"영화를 보다\"},{\"id\":\"C\",\"text\":\"물을 마시다\"},{\"id\":\"D\",\"text\":\"쓰다\"}]",
+      "vi": "[{\"id\":\"A\",\"text\":\"đi xe buýt\"},{\"id\":\"B\",\"text\":\"xem phim\"},{\"id\":\"C\",\"text\":\"uống nước\"},{\"id\":\"D\",\"text\":\"viết\"}]"
+    },
+    "correct_answer_value": "A",
+    "test_types": ["Reading", "Listening"]
+  },
+  {
+    "question_id": 43,
+    "provider_id": "system",
+    "question_text": {
+      "en": "这是什么？",
+      "es": "这是什么？",
+      "ja": "这是什么？",
+      "ko": "这是什么？",
+      "vi": "这是什么？"
+    },
+    "question_type": "MCQ",
+    "category": "HSK 1",
+    "langLevel": "HSK1",
+    "status": "Approved",
+    "image_url": "assets/images/hsk/questions/hsk_HSK1_question_43.png",
+    "explanation": {
+      "en": "Picture shows a bowl of rice: 米饭.",
+      "es": "La imagen muestra un cuenco de arroz: 米饭.",
+      "ja": "画像はご飯を示します：米饭。",
+      "ko": "그림은 밥을 보여줍니다: 米饭.",
+      "vi": "Hình cho thấy một bát cơm: 米饭."
+    },
+    "options_json": {
+      "en": "[{\"id\":\"A\",\"text\":\"面条\"},{\"id\":\"B\",\"text\":\"鸡蛋\"},{\"id\":\"C\",\"text\":\"米饭\"},{\"id\":\"D\",\"text\":\"苹果\"}]",
+      "es": "[{\"id\":\"A\",\"text\":\"面条\"},{\"id\":\"B\",\"text\":\"鸡蛋\"},{\"id\":\"C\",\"text\":\"米饭\"},{\"id\":\"D\",\"text\":\"苹果\"}]",
+      "ja": "[{\"id\":\"A\",\"text\":\"面条\"},{\"id\":\"B\",\"text\":\"鸡蛋\"},{\"id\":\"C\",\"text\":\"米饭\"},{\"id\":\"D\",\"text\":\"苹果\"}]",
+      "ko": "[{\"id\":\"A\",\"text\":\"面条\"},{\"id\":\"B\",\"text\":\"鸡蛋\"},{\"id\":\"C\",\"text\":\"米饭\"},{\"id\":\"D\",\"text\":\"苹果\"}]",
+      "vi": "[{\"id\":\"A\",\"text\":\"面条\"},{\"id\":\"B\",\"text\":\"鸡蛋\"},{\"id\":\"C\",\"text\":\"米饭\"},{\"id\":\"D\",\"text\":\"苹果\"}]"
+    },
+    "correct_answer_value": "C",
+    "test_types": ["Reading", "Listening"]
+  },
+  {
+    "question_id": 44,
+    "provider_id": "system",
+    "question_text": {
+      "en": "我{blank}北京。",
+      "es": "我{blank}北京。",
+      "ja": "我{blank}北京。",
+      "ko": "我{blank}北京。",
+      "vi": "我{blank}北京。"
+    },
+    "question_type": "FillBlank",
+    "category": "HSK 1",
+    "langLevel": "HSK1",
+    "status": "Approved",
+    "explanation": {
+      "en": "Use 住 to say 'live in Beijing'.",
+      "es": "Usa 住 para decir 'vivo en Pekín'.",
+      "ja": "『住』を使って『北京に住んでいる』と言います。",
+      "ko": "베이징에 산다고 말할 때 住를 사용합니다.",
+      "vi": "Dùng 住 để nói 'sống ở Bắc Kinh'."
+    },
+    "options_json": {
+      "en": "[{\"id\":\"A\",\"text\":\"住\"},{\"id\":\"B\",\"text\":\"吃\"},{\"id\":\"C\",\"text\":\"坐\"},{\"id\":\"D\",\"text\":\"买\"}]",
+      "es": "[{\"id\":\"A\",\"text\":\"住\"},{\"id\":\"B\",\"text\":\"吃\"},{\"id\":\"C\",\"text\":\"坐\"},{\"id\":\"D\",\"text\":\"买\"}]",
+      "ja": "[{\"id\":\"A\",\"text\":\"住\"},{\"id\":\"B\",\"text\":\"吃\"},{\"id\":\"C\",\"text\":\"坐\"},{\"id\":\"D\",\"text\":\"买\"}]",
+      "ko": "[{\"id\":\"A\",\"text\":\"住\"},{\"id\":\"B\",\"text\":\"吃\"},{\"id\":\"C\",\"text\":\"坐\"},{\"id\":\"D\",\"text\":\"买\"}]",
+      "vi": "[{\"id\":\"A\",\"text\":\"住\"},{\"id\":\"B\",\"text\":\"吃\"},{\"id\":\"C\",\"text\":\"坐\"},{\"id\":\"D\",\"text\":\"买\"}]"
+    },
+    "correct_answer_value": "A",
+    "test_types": ["Reading"]
+  },
+  {
+    "question_id": 45,
+    "provider_id": "system",
+    "question_text": {
+      "en": "你叫什么名字？",
+      "es": "你叫什么名字？",
+      "ja": "你叫什么名字？",
+      "ko": "你叫什么名字？",
+      "vi": "你叫什么名字？"
+    },
+    "question_type": "MCQ",
+    "category": "HSK 1",
+    "langLevel": "HSK1",
+    "status": "Approved",
+    "explanation": {
+      "en": "叫…名字 asks someone's name.",
+      "es": "叫…名字 pregunta el nombre de alguien.",
+      "ja": "叫…名字は名前を尋ねる表現です。",
+      "ko": "叫…名字는 이름을 묻는 표현입니다.",
+      "vi": "叫…名字 là cách hỏi tên ai đó."
+    },
+    "options_json": {
+      "en": "[{\"id\":\"A\",\"text\":\"I am a student.\"},{\"id\":\"B\",\"text\":\"I am eating.\"},{\"id\":\"C\",\"text\":\"My name is Mark.\"},{\"id\":\"D\",\"text\":\"I am fine.\"}]",
+      "es": "[{\"id\":\"A\",\"text\":\"Soy estudiante.\"},{\"id\":\"B\",\"text\":\"Estoy comiendo.\"},{\"id\":\"C\",\"text\":\"Me llamo Mark.\"},{\"id\":\"D\",\"text\":\"Estoy bien.\"}]",
+      "ja": "[{\"id\":\"A\",\"text\":\"私は学生です。\"},{\"id\":\"B\",\"text\":\"私は食事中です。\"},{\"id\":\"C\",\"text\":\"私の名前はマークです。\"},{\"id\":\"D\",\"text\":\"元気です。\"}]",
+      "ko": "[{\"id\":\"A\",\"text\":\"저는 학생입니다.\"},{\"id\":\"B\",\"text\":\"저는 밥 먹는 중입니다.\"},{\"id\":\"C\",\"text\":\"제 이름은 마크입니다.\"},{\"id\":\"D\",\"text\":\"저는 잘 지냅니다.\"}]",
+      "vi": "[{\"id\":\"A\",\"text\":\"Tôi là học sinh.\"},{\"id\":\"B\",\"text\":\"Tôi đang ăn.\"},{\"id\":\"C\",\"text\":\"Tôi tên là Mark.\"},{\"id\":\"D\",\"text\":\"Tôi khỏe.\"}]"
+    },
+    "correct_answer_value": "C",
+    "test_types": ["Reading", "Listening"]
+  },
+  {
+    "question_id": 46,
+    "provider_id": "system",
+    "question_text": {
+      "en": "我妈妈在家。 Where is she?",
+      "es": "我妈妈在家。 ¿Dónde está ella?",
+      "ja": "我妈妈在家。 彼女はどこにいますか。",
+      "ko": "我妈妈在家。 그녀는 어디에 있나요?",
+      "vi": "我妈妈在家。 Bà ấy ở đâu?"
+    },
+    "question_type": "MCQ",
+    "category": "HSK 1",
+    "langLevel": "HSK1",
+    "status": "Approved",
+    "explanation": {
+      "en": "在家 means 'at home'.",
+      "es": "在家 significa 'en casa'.",
+      "ja": "在家は『家に』という意味です。",
+      "ko": "在家는 '집에'를 의미합니다.",
+      "vi": "在家 nghĩa là 'ở nhà'."
+    },
+    "options_json": {
+      "en": "[{\"id\":\"A\",\"text\":\"at home\"},{\"id\":\"B\",\"text\":\"at school\"},{\"id\":\"C\",\"text\":\"in Beijing\"},{\"id\":\"D\",\"text\":\"at the cinema\"}]",
+      "es": "[{\"id\":\"A\",\"text\":\"en casa\"},{\"id\":\"B\",\"text\":\"en la escuela\"},{\"id\":\"C\",\"text\":\"en Pekín\"},{\"id\":\"D\",\"text\":\"en el cine\"}]",
+      "ja": "[{\"id\":\"A\",\"text\":\"家に\"},{\"id\":\"B\",\"text\":\"学校に\"},{\"id\":\"C\",\"text\":\"北京に\"},{\"id\":\"D\",\"text\":\"映画館に\"}]",
+      "ko": "[{\"id\":\"A\",\"text\":\"집에\"},{\"id\":\"B\",\"text\":\"학교에\"},{\"id\":\"C\",\"text\":\"베이징에\"},{\"id\":\"D\",\"text\":\"영화관에\"}]",
+      "vi": "[{\"id\":\"A\",\"text\":\"ở nhà\"},{\"id\":\"B\",\"text\":\"ở trường\"},{\"id\":\"C\",\"text\":\"ở Bắc Kinh\"},{\"id\":\"D\",\"text\":\"ở rạp chiếu phim\"}]"
+    },
+    "correct_answer_value": "A",
+    "test_types": ["Reading", "Listening"]
+  },
+  {
+    "question_id": 47,
+    "provider_id": "system",
+    "question_text": {
+      "en": "他{blank}中国人。",
+      "es": "他{blank}中国人。",
+      "ja": "他{blank}中国人。",
+      "ko": "他{blank}中国人。",
+      "vi": "他{blank}中国人。"
+    },
+    "question_type": "FillBlank",
+    "category": "HSK 1",
+    "langLevel": "HSK1",
+    "status": "Approved",
+    "explanation": {
+      "en": "Use 是 to state identity: 'He is Chinese'.",
+      "es": "Usa 是 para identidad: 'Él es chino'.",
+      "ja": "身分を表すには『是』を使います：『彼は中国人です』。",
+      "ko": "정체성을 말할 때 是를 사용합니다: '그는 중국인입니다'.",
+      "vi": "Dùng 是 để nói thân phận: 'Anh ấy là người Trung Quốc'."
+    },
+    "options_json": {
+      "en": "[{\"id\":\"A\",\"text\":\"是\"},{\"id\":\"B\",\"text\":\"在\"},{\"id\":\"C\",\"text\":\"买\"},{\"id\":\"D\",\"text\":\"写\"}]",
+      "es": "[{\"id\":\"A\",\"text\":\"是\"},{\"id\":\"B\",\"text\":\"在\"},{\"id\":\"C\",\"text\":\"买\"},{\"id\":\"D\",\"text\":\"写\"}]",
+      "ja": "[{\"id\":\"A\",\"text\":\"是\"},{\"id\":\"B\",\"text\":\"在\"},{\"id\":\"C\",\"text\":\"买\"},{\"id\":\"D\",\"text\":\"写\"}]",
+      "ko": "[{\"id\":\"A\",\"text\":\"是\"},{\"id\":\"B\",\"text\":\"在\"},{\"id\":\"C\",\"text\":\"买\"},{\"id\":\"D\",\"text\":\"写\"}]",
+      "vi": "[{\"id\":\"A\",\"text\":\"是\"},{\"id\":\"B\",\"text\":\"在\"},{\"id\":\"C\",\"text\":\"买\"},{\"id\":\"D\",\"text\":\"写\"}]"
+    },
+    "correct_answer_value": "A",
+    "test_types": ["Reading"]
+  },
+  {
+    "question_id": 48,
+    "provider_id": "system",
+    "question_text": {
+      "en": "他们是朋友吗？",
+      "es": "他们是朋友吗？",
+      "ja": "他们是朋友吗？",
+      "ko": "他们是朋友吗？",
+      "vi": "他们是朋友吗？"
+    },
+    "question_type": "MCQ",
+    "category": "HSK 1",
+    "langLevel": "HSK1",
+    "status": "Approved",
+    "explanation": {
+      "en": "Yes/No question with 吗.",
+      "es": "Pregunta de sí/no con 吗.",
+      "ja": "吗を使ったはい/いいえの質問。",
+      "ko": "吗를 사용한 예/아니오 질문입니다.",
+      "vi": "Câu hỏi có/không với 吗."
+    },
+    "options_json": {
+      "en": "[{\"id\":\"A\",\"text\":\"Yes\"},{\"id\":\"B\",\"text\":\"No\"}]",
+      "es": "[{\"id\":\"A\",\"text\":\"Sí\"},{\"id\":\"B\",\"text\":\"No\"}]",
+      "ja": "[{\"id\":\"A\",\"text\":\"はい\"},{\"id\":\"B\",\"text\":\"いいえ\"}]",
+      "ko": "[{\"id\":\"A\",\"text\":\"예\"},{\"id\":\"B\",\"text\":\"아니요\"}]",
+      "vi": "[{\"id\":\"A\",\"text\":\"Có\"},{\"id\":\"B\",\"text\":\"Không\"}]"
+    },
+    "correct_answer_value": "A",
+    "test_types": ["Reading", "Listening"]
+  },
+  {
+    "question_id": 49,
+    "provider_id": "system",
+    "question_text": {
+      "en": "我{blank}汉语。",
+      "es": "我{blank}汉语。",
+      "ja": "我{blank}汉语。",
+      "ko": "我{blank}汉语。",
+      "vi": "我{blank}汉语。"
+    },
+    "question_type": "FillBlank",
+    "category": "HSK 1",
+    "langLevel": "HSK1",
+    "status": "Approved",
+    "explanation": {
+      "en": "Use 会 to express ability: 'I can (speak) Chinese'.",
+      "es": "Usa 会 para expresar habilidad: 'Puedo (hablar) chino'.",
+      "ja": "能力を表すには『会』を使います。『私は中国語が（話せ）ます。』",
+      "ko": "능력을 표현할 때 会를 사용합니다: '나는 중국어를 (할 수) 있습니다'.",
+      "vi": "Dùng 会 để diễn đạt khả năng: 'Tôi có thể (nói) tiếng Trung'."
+    },
+    "options_json": {
+      "en": "[{\"id\":\"A\",\"text\":\"会\"},{\"id\":\"B\",\"text\":\"看\"},{\"id\":\"C\",\"text\":\"买\"},{\"id\":\"D\",\"text\":\"坐\"}]",
+      "es": "[{\"id\":\"A\",\"text\":\"会\"},{\"id\":\"B\",\"text\":\"看\"},{\"id\":\"C\",\"text\":\"买\"},{\"id\":\"D\",\"text\":\"坐\"}]",
+      "ja": "[{\"id\":\"A\",\"text\":\"会\"},{\"id\":\"B\",\"text\":\"看\"},{\"id\":\"C\",\"text\":\"买\"},{\"id\":\"D\",\"text\":\"坐\"}]",
+      "ko": "[{\"id\":\"A\",\"text\":\"会\"},{\"id\":\"B\",\"text\":\"看\"},{\"id\":\"C\",\"text\":\"买\"},{\"id\":\"D\",\"text\":\"坐\"}]",
+      "vi": "[{\"id\":\"A\",\"text\":\"会\"},{\"id\":\"B\",\"text\":\"看\"},{\"id\":\"C\",\"text\":\"买\"},{\"id\":\"D\",\"text\":\"坐\"}]"
+    },
+    "correct_answer_value": "A",
+    "test_types": ["Reading"]
+  },
+  {
+    "question_id": 50,
+    "provider_id": "system",
+    "question_text": {
+      "en": "他们在看电视吗？",
+      "es": "他们在看电视吗？",
+      "ja": "他们在看电视吗？",
+      "ko": "他们在看电视吗？",
+      "vi": "他们在看电视吗？"
+    },
+    "question_type": "MCQ",
+    "category": "HSK 1",
+    "langLevel": "HSK1",
+    "status": "Approved",
+    "image_url": "assets/images/hsk/questions/hsk_HSK1_question_50.png",
+    "explanation": {
+      "en": "The image shows people watching TV.",
+      "es": "La imagen muestra personas viendo la televisión.",
+      "ja": "画像はテレビを見ている人々を示します。",
+      "ko": "그림은 TV를 보는 사람들을 보여줍니다.",
+      "vi": "Hình cho thấy mọi người đang xem tivi."
+    },
+    "options_json": {
+      "en": "[{\"id\":\"A\",\"text\":\"Yes\"},{\"id\":\"B\",\"text\":\"No\"}]",
+      "es": "[{\"id\":\"A\",\"text\":\"Sí\"},{\"id\":\"B\",\"text\":\"No\"}]",
+      "ja": "[{\"id\":\"A\",\"text\":\"はい\"},{\"id\":\"B\",\"text\":\"いいえ\"}]",
+      "ko": "[{\"id\":\"A\",\"text\":\"예\"},{\"id\":\"B\",\"text\":\"아니요\"}]",
+      "vi": "[{\"id\":\"A\",\"text\":\"Có\"},{\"id\":\"B\",\"text\":\"Không\"}]"
+    },
+    "correct_answer_value": "A",
+    "test_types": ["Reading", "Listening"]
+  },
+  {
+    "question_id": 51,
+    "provider_id": "system",
+    "question_text": {
+      "en": "你{blank}老师吗？",
+      "es": "你{blank}老师吗？",
+      "ja": "你{blank}老师吗？",
+      "ko": "你{blank}老师吗？",
+      "vi": "你{blank}老师吗？"
+    },
+    "question_type": "FillBlank",
+    "category": "HSK 1",
+    "langLevel": "HSK1",
+    "status": "Approved",
+    "explanation": {
+      "en": "Use 是 to ask 'Are you a teacher?'.",
+      "es": "Usa 是 para preguntar '¿Eres profesor(a)?'.",
+      "ja": "『是』を使って『あなたは先生ですか？』と尋ねます。",
+      "ko": "'是'를 사용해 '당신은 선생님입니까?'라고 묻습니다.",
+      "vi": "Dùng 是 để hỏi 'Bạn có phải là giáo viên không?'."
+    },
+    "options_json": {
+      "en": "[{\"id\":\"A\",\"text\":\"在\"},{\"id\":\"B\",\"text\":\"买\"},{\"id\":\"C\",\"text\":\"是\"},{\"id\":\"D\",\"text\":\"会\"}]",
+      "es": "[{\"id\":\"A\",\"text\":\"在\"},{\"id\":\"B\",\"text\":\"买\"},{\"id\":\"C\",\"text\":\"是\"},{\"id\":\"D\",\"text\":\"会\"}]",
+      "ja": "[{\"id\":\"A\",\"text\":\"在\"},{\"id\":\"B\",\"text\":\"买\"},{\"id\":\"C\",\"text\":\"是\"},{\"id\":\"D\",\"text\":\"会\"}]",
+      "ko": "[{\"id\":\"A\",\"text\":\"在\"},{\"id\":\"B\",\"text\":\"买\"},{\"id\":\"C\",\"text\":\"是\"},{\"id\":\"D\",\"text\":\"会\"}]",
+      "vi": "[{\"id\":\"A\",\"text\":\"在\"},{\"id\":\"B\",\"text\":\"买\"},{\"id\":\"C\",\"text\":\"是\"},{\"id\":\"D\",\"text\":\"会\"}]"
+    },
+    "correct_answer_value": "C",
+    "test_types": ["Reading"]
+  },
+  {
+    "question_id": 52,
+    "provider_id": "system",
+    "question_text": {
+      "en": "他在家。他在哪里？",
+      "es": "他在家。 ¿Dónde está?",
+      "ja": "彼は家にいます。どこにいますか。",
+      "ko": "그는 집에 있습니다. 그는 어디에 있나요?",
+      "vi": "Anh ấy ở nhà. Anh ấy ở đâu?"
+    },
+    "question_type": "MCQ",
+    "category": "HSK 1",
+    "langLevel": "HSK1",
+    "status": "Approved",
+    "explanation": {
+      "en": "在家 means 'at home'.",
+      "es": "在家 significa 'en casa'.",
+      "ja": "在家は『家に』という意味です。",
+      "ko": "在家는 '집에'를 의미합니다.",
+      "vi": "在家 nghĩa là 'ở nhà'."
+    },
+    "options_json": {
+      "en": "[{\"id\":\"A\",\"text\":\"at home\"},{\"id\":\"B\",\"text\":\"at school\"},{\"id\":\"C\",\"text\":\"in Beijing\"},{\"id\":\"D\",\"text\":\"at the cinema\"}]",
+      "es": "[{\"id\":\"A\",\"text\":\"en casa\"},{\"id\":\"B\",\"text\":\"en la escuela\"},{\"id\":\"C\",\"text\":\"en Pekín\"},{\"id\":\"D\",\"text\":\"en el cine\"}]",
+      "ja": "[{\"id\":\"A\",\"text\":\"家に\"},{\"id\":\"B\",\"text\":\"学校に\"},{\"id\":\"C\",\"text\":\"北京に\"},{\"id\":\"D\",\"text\":\"映画館に\"}]",
+      "ko": "[{\"id\":\"A\",\"text\":\"집에\"},{\"id\":\"B\",\"text\":\"학교에\"},{\"id\":\"C\",\"text\":\"베이징에\"},{\"id\":\"D\",\"text\":\"영화관에\"}]",
+      "vi": "[{\"id\":\"A\",\"text\":\"ở nhà\"},{\"id\":\"B\",\"text\":\"ở trường\"},{\"id\":\"C\",\"text\":\"ở Bắc Kinh\"},{\"id\":\"D\",\"text\":\"ở rạp chiếu phim\"}]"
+    },
+    "correct_answer_value": "A",
+    "test_types": ["Reading", "Listening"]
+  },
+  {
+    "question_id": 53,
+    "provider_id": "system",
+    "question_text": {
+      "en": "他在喝茶。",
+      "es": "他在喝茶。",
+      "ja": "他在喝茶。",
+      "ko": "他在喝茶。",
+      "vi": "他在喝茶。"
+    },
+    "question_type": "TF",
+    "category": "HSK 1",
+    "langLevel": "HSK1",
+    "status": "Approved",
+    "image_url": "assets/images/hsk/questions/hsk_HSK1_question_53.png",
+    "explanation": {
+      "en": "喝茶 means 'drink tea'; judge by the picture.",
+      "es": "喝茶 significa 'beber té'; juzga por la imagen.",
+      "ja": "喝茶は『お茶を飲む』という意味です。画像で判断します。",
+      "ko": "喝茶는 '차를 마시다'를 의미합니다. 그림으로 판단하세요.",
+      "vi": "喝茶 nghĩa là 'uống trà'; xem hình để quyết định."
+    },
+    "options_json": {
+      "en": "[{\"id\":\"A\",\"text\":\"True\"},{\"id\":\"B\",\"text\":\"False\"}]",
+      "es": "[{\"id\":\"A\",\"text\":\"Verdadero\"},{\"id\":\"B\",\"text\":\"Falso\"}]",
+      "ja": "[{\"id\":\"A\",\"text\":\"正しい\"},{\"id\":\"B\",\"text\":\"間違い\"}]",
+      "ko": "[{\"id\":\"A\",\"text\":\"맞음\"},{\"id\":\"B\",\"text\":\"틀림\"}]",
+      "vi": "[{\"id\":\"A\",\"text\":\"Đúng\"},{\"id\":\"B\",\"text\":\"Sai\"}]"
+    },
+    "correct_answer_value": "A",
+    "test_types": ["Reading", "Listening"]
+  },
+  {
+    "question_id": 54,
+    "provider_id": "system",
+    "question_text": {
+      "en": "医院。",
+      "es": "医院。",
+      "ja": "医院。",
+      "ko": "医院。",
+      "vi": "医院。"
+    },
+    "question_type": "Picture-Word Matching",
+    "category": "HSK 1",
+    "langLevel": "HSK1",
+    "status": "Approved",
+    "image_url": "assets/images/hsk/questions/hsk_HSK1_question_54.png",
+    "explanation": {
+      "en": "医院 means 'hospital'; match the correct image.",
+      "es": "医院 significa 'hospital'; empareja la imagen correcta.",
+      "ja": "医院は『病院』という意味です。正しい画像を選びます。",
+      "ko": "医院는 '병원'을 의미합니다. 올바른 이미지를 고르세요.",
+      "vi": "医院 nghĩa là 'bệnh viện'; chọn hình đúng."
+    },
+    "options_json": {
+      "en": "[{\"id\":\"A\",\"text\":\"医院\"},{\"id\":\"B\",\"text\":\"学校\"},{\"id\":\"C\",\"text\":\"商店\"},{\"id\":\"D\",\"text\":\"图书馆\"}]",
+      "es": "[{\"id\":\"A\",\"text\":\"医院\"},{\"id\":\"B\",\"text\":\"学校\"},{\"id\":\"C\",\"text\":\"商店\"},{\"id\":\"D\",\"text\":\"图书馆\"}]",
+      "ja": "[{\"id\":\"A\",\"text\":\"医院\"},{\"id\":\"B\",\"text\":\"学校\"},{\"id\":\"C\",\"text\":\"商店\"},{\"id\":\"D\",\"text\":\"图书馆\"}]",
+      "ko": "[{\"id\":\"A\",\"text\":\"医院\"},{\"id\":\"B\",\"text\":\"学校\"},{\"id\":\"C\",\"text\":\"商店\"},{\"id\":\"D\",\"text\":\"图书馆\"}]",
+      "vi": "[{\"id\":\"A\",\"text\":\"医院\"},{\"id\":\"B\",\"text\":\"学校\"},{\"id\":\"C\",\"text\":\"商店\"},{\"id\":\"D\",\"text\":\"图书馆\"}]"
+    },
+    "correct_answer_value": "A",
+    "test_types": ["Reading", "Listening"]
+  },
+  {
+    "question_id": 55,
+    "provider_id": "system",
+    "question_text": {
+      "en": "他们坐下。他们在做什么？",
+      "es": "他们坐下。 ¿Qué están haciendo?",
+      "ja": "彼らは座りました。何をしていますか。",
+      "ko": "그들은 앉았습니다. 무엇을 하고 있나요?",
+      "vi": "Họ ngồi xuống. Họ đang làm gì?"
+    },
+    "question_type": "MCQ",
+    "category": "HSK 1",
+    "langLevel": "HSK1",
+    "status": "Approved",
+    "explanation": {
+      "en": "坐下 means 'sit down'.",
+      "es": "坐下 significa 'sentarse'.",
+      "ja": "坐下は『座る』という意味です。",
+      "ko": "坐下는 '앉다'를 의미합니다.",
+      "vi": "坐下 nghĩa là 'ngồi xuống'."
+    },
+    "options_json": {
+      "en": "[{\"id\":\"A\",\"text\":\"sit down\"},{\"id\":\"B\",\"text\":\"stand up\"},{\"id\":\"C\",\"text\":\"drink water\"},{\"id\":\"D\",\"text\":\"watch TV\"}]",
+      "es": "[{\"id\":\"A\",\"text\":\"sentarse\"},{\"id\":\"B\",\"text\":\"levantarse\"},{\"id\":\"C\",\"text\":\"beber agua\"},{\"id\":\"D\",\"text\":\"ver la tele\"}]",
+      "ja": "[{\"id\":\"A\",\"text\":\"座る\"},{\"id\":\"B\",\"text\":\"立つ\"},{\"id\":\"C\",\"text\":\"水を飲む\"},{\"id\":\"D\",\"text\":\"テレビを見る\"}]",
+      "ko": "[{\"id\":\"A\",\"text\":\"앉다\"},{\"id\":\"B\",\"text\":\"일어나다\"},{\"id\":\"C\",\"text\":\"물을 마시다\"},{\"id\":\"D\",\"text\":\"TV를 보다\"}]",
+      "vi": "[{\"id\":\"A\",\"text\":\"ngồi xuống\"},{\"id\":\"B\",\"text\":\"đứng lên\"},{\"id\":\"C\",\"text\":\"uống nước\"},{\"id\":\"D\",\"text\":\"xem tivi\"}]"
+    },
+    "correct_answer_value": "A",
+    "test_types": ["Reading", "Listening"]
+  },
+  {
+    "question_id": 56,
+    "provider_id": "system",
+    "question_text": {
+      "en": "今天{blank}热。",
+      "es": "今天{blank}热。",
+      "ja": "今天{blank}热。",
+      "ko": "今天{blank}热。",
+      "vi": "今天{blank}热。"
+    },
+    "question_type": "FillBlank",
+    "category": "HSK 1",
+    "langLevel": "HSK1",
+    "status": "Approved",
+    "explanation": {
+      "en": "Use 很 to say 'very hot today'.",
+      "es": "Usa 很 para decir 'hoy hace mucho calor'.",
+      "ja": "『很』を使って『今日はとても暑い』と言います。",
+      "ko": "'오늘 매우 덥다'를 말할 때 很을 사용합니다.",
+      "vi": "Dùng 很 để nói 'hôm nay rất nóng'."
+    },
+    "options_json": {
+      "en": "[{\"id\":\"A\",\"text\":\"很\"},{\"id\":\"B\",\"text\":\"不\"},{\"id\":\"C\",\"text\":\"是\"},{\"id\":\"D\",\"text\":\"在\"}]",
+      "es": "[{\"id\":\"A\",\"text\":\"很\"},{\"id\":\"B\",\"text\":\"不\"},{\"id\":\"C\",\"text\":\"是\"},{\"id\":\"D\",\"text\":\"在\"}]",
+      "ja": "[{\"id\":\"A\",\"text\":\"很\"},{\"id\":\"B\",\"text\":\"不\"},{\"id\":\"C\",\"text\":\"是\"},{\"id\":\"D\",\"text\":\"在\"}]",
+      "ko": "[{\"id\":\"A\",\"text\":\"很\"},{\"id\":\"B\",\"text\":\"不\"},{\"id\":\"C\",\"text\":\"是\"},{\"id\":\"D\",\"text\":\"在\"}]",
+      "vi": "[{\"id\":\"A\",\"text\":\"很\"},{\"id\":\"B\",\"text\":\"不\"},{\"id\":\"C\",\"text\":\"是\"},{\"id\":\"D\",\"text\":\"在\"}]"
+    },
+    "correct_answer_value": "A",
+    "test_types": ["Reading"]
+  },
+  {
+    "question_id": 57,
+    "provider_id": "system",
+    "question_text": {
+      "en": "他会说汉语。他会做什么？",
+      "es": "他会说汉语。 ¿Qué puede hacer?",
+      "ja": "彼は中国語が話せます。何ができますか。",
+      "ko": "그는 중국어를 할 수 있습니다. 무엇을 할 수 있나요?",
+      "vi": "Anh ấy có thể nói tiếng Trung. Anh ấy có thể làm gì?"
+    },
+    "question_type": "MCQ",
+    "category": "HSK 1",
+    "langLevel": "HSK1",
+    "status": "Approved",
+    "explanation": {
+      "en": "会说汉语 means 'can speak Chinese'.",
+      "es": "会说汉语 significa 'puede hablar chino'.",
+      "ja": "『会说汉语』は『中国語を話すことができる』という意味です。",
+      "ko": "'会说汉语'는 '중국어를 할 수 있다'는 뜻입니다.",
+      "vi": "'会说汉语' nghĩa là 'có thể nói tiếng Trung'."
+    },
+    "options_json": {
+      "en": "[{\"id\":\"A\",\"text\":\"speak Chinese\"},{\"id\":\"B\",\"text\":\"write a letter\"},{\"id\":\"C\",\"text\":\"eat rice\"},{\"id\":\"D\",\"text\":\"buy apples\"}]",
+      "es": "[{\"id\":\"A\",\"text\":\"hablar chino\"},{\"id\":\"B\",\"text\":\"escribir una carta\"},{\"id\":\"C\",\"text\":\"comer arroz\"},{\"id\":\"D\",\"text\":\"comprar manzanas\"}]",
+      "ja": "[{\"id\":\"A\",\"text\":\"中国語を話す\"},{\"id\":\"B\",\"text\":\"手紙を書く\"},{\"id\":\"C\",\"text\":\"ご飯を食べる\"},{\"id\":\"D\",\"text\":\"りんごを買う\"}]",
+      "ko": "[{\"id\":\"A\",\"text\":\"중국어를 말하다\"},{\"id\":\"B\",\"text\":\"편지를 쓰다\"},{\"id\":\"C\",\"text\":\"밥을 먹다\"},{\"id\":\"D\",\"text\":\"사과를 사다\"}]",
+      "vi": "[{\"id\":\"A\",\"text\":\"nói tiếng Trung\"},{\"id\":\"B\",\"text\":\"viết thư\"},{\"id\":\"C\",\"text\":\"ăn cơm\"},{\"id\":\"D\",\"text\":\"mua táo\"}]"
+    },
+    "correct_answer_value": "A",
+    "test_types": ["Reading", "Listening"]
+  },
+  {
+    "question_id": 58,
+    "provider_id": "system",
+    "question_text": {
+      "en": "这是什么？",
+      "es": "这是什么？",
+      "ja": "这是什么？",
+      "ko": "这是什么？",
+      "vi": "这是什么？"
+    },
+    "question_type": "MCQ",
+    "category": "HSK 1",
+    "langLevel": "HSK1",
+    "status": "Approved",
+    "image_url": "assets/images/hsk/questions/hsk_HSK1_question_58.png",
+    "explanation": {
+      "en": "Picture shows a book: 书.",
+      "es": "La imagen muestra un libro: 书.",
+      "ja": "画像は本を示します：书。",
+      "ko": "그림은 책을 보여줍니다: 书.",
+      "vi": "Hình cho thấy một quyển sách: 书."
+    },
+    "options_json": {
+      "en": "[{\"id\":\"A\",\"text\":\"书\"},{\"id\":\"B\",\"text\":\"手机\"},{\"id\":\"C\",\"text\":\"树\"},{\"id\":\"D\",\"text\":\"电视\"}]",
+      "es": "[{\"id\":\"A\",\"text\":\"书\"},{\"id\":\"B\",\"text\":\"手机\"},{\"id\":\"C\",\"text\":\"树\"},{\"id\":\"D\",\"text\":\"电视\"}]",
+      "ja": "[{\"id\":\"A\",\"text\":\"书\"},{\"id\":\"B\",\"text\":\"手机\"},{\"id\":\"C\",\"text\":\"树\"},{\"id\":\"D\",\"text\":\"电视\"}]",
+      "ko": "[{\"id\":\"A\",\"text\":\"书\"},{\"id\":\"B\",\"text\":\"手机\"},{\"id\":\"C\",\"text\":\"树\"},{\"id\":\"D\",\"text\":\"电视\"}]",
+      "vi": "[{\"id\":\"A\",\"text\":\"书\"},{\"id\":\"B\",\"text\":\"手机\"},{\"id\":\"C\",\"text\":\"树\"},{\"id\":\"D\",\"text\":\"电视\"}]"
+    },
+    "correct_answer_value": "A",
+    "test_types": ["Reading", "Listening"]
+  },
+  {
+    "question_id": 59,
+    "provider_id": "system",
+    "question_text": {
+      "en": "他是学生。",
+      "es": "他是学生。",
+      "ja": "他是学生。",
+      "ko": "他是学生。",
+      "vi": "他是学生。"
+    },
+    "question_type": "TF",
+    "category": "HSK 1",
+    "langLevel": "HSK1",
+    "status": "Approved",
+    "image_url": "assets/images/hsk/questions/hsk_HSK1_question_59.png",
+    "explanation": {
+      "en": "学生 means 'student'; judge by the picture.",
+      "es": "学生 significa 'estudiante'; juzga por la imagen.",
+      "ja": "学生は『学生』という意味です。画像で判断します。",
+      "ko": "学生는 '학생'을 의미합니다. 그림으로 판단하세요.",
+      "vi": "学生 nghĩa là 'học sinh/sinh viên'; xem hình để quyết định."
+    },
+    "options_json": {
+      "en": "[{\"id\":\"A\",\"text\":\"True\"},{\"id\":\"B\",\"text\":\"False\"}]",
+      "es": "[{\"id\":\"A\",\"text\":\"Verdadero\"},{\"id\":\"B\",\"text\":\"Falso\"}]",
+      "ja": "[{\"id\":\"A\",\"text\":\"正しい\"},{\"id\":\"B\",\"text\":\"間違い\"}]",
+      "ko": "[{\"id\":\"A\",\"text\":\"맞음\"},{\"id\":\"B\",\"text\":\"틀림\"}]",
+      "vi": "[{\"id\":\"A\",\"text\":\"Đúng\"},{\"id\":\"B\",\"text\":\"Sai\"}]"
+    },
+    "correct_answer_value": "A",
+    "test_types": ["Reading", "Listening"]
+  },
+  {
+    "question_id": 60,
+    "provider_id": "system",
+    "question_text": {
+      "en": "老师。",
+      "es": "老师。",
+      "ja": "老师。",
+      "ko": "老师。",
+      "vi": "老师。"
+    },
+    "question_type": "Picture-Word Matching",
+    "category": "HSK 1",
+    "langLevel": "HSK1",
+    "status": "Approved",
+    "image_url": "assets/images/hsk/questions/hsk_HSK1_question_60.png",
+    "explanation": {
+      "en": "老师 means 'teacher'; match the correct image.",
+      "es": "老师 significa 'profesor(a)'; empareja la imagen correcta.",
+      "ja": "老师は『先生』という意味です。正しい画像を選びます。",
+      "ko": "老师는 '선생님'을 의미합니다. 올바른 이미지를 고르세요.",
+      "vi": "老师 nghĩa là 'giáo viên'; chọn hình đúng."
+    },
+    "options_json": {
+      "en": "[{\"id\":\"A\",\"text\":\"老师\"},{\"id\":\"B\",\"text\":\"学生\"},{\"id\":\"C\",\"text\":\"医生\"},{\"id\":\"D\",\"text\":\"朋友\"}]",
+      "es": "[{\"id\":\"A\",\"text\":\"老师\"},{\"id\":\"B\",\"text\":\"学生\"},{\"id\":\"C\",\"text\":\"医生\"},{\"id\":\"D\",\"text\":\"朋友\"}]",
+      "ja": "[{\"id\":\"A\",\"text\":\"老师\"},{\"id\":\"B\",\"text\":\"学生\"},{\"id\":\"C\",\"text\":\"医生\"},{\"id\":\"D\",\"text\":\"朋友\"}]",
+      "ko": "[{\"id\":\"A\",\"text\":\"老师\"},{\"id\":\"B\",\"text\":\"学生\"},{\"id\":\"C\",\"text\":\"医生\"},{\"id\":\"D\",\"text\":\"朋友\"}]",
+      "vi": "[{\"id\":\"A\",\"text\":\"老师\"},{\"id\":\"B\",\"text\":\"学生\"},{\"id\":\"C\",\"text\":\"医生\"},{\"id\":\"D\",\"text\":\"朋友\"}]"
+    },
+    "correct_answer_value": "A",
+    "test_types": ["Reading", "Listening"]
+  },
+  {
+    "question_id": 61,
+    "provider_id": "system",
+    "question_text": {
+      "en": "他是老师。 What does this mean?",
+      "es": "他是老师。 ¿Qué significa?",
+      "ja": "他是老师。 どういう意味ですか。",
+      "ko": "他是老师。 무슨 뜻인가요?",
+      "vi": "他是老师。 Có nghĩa là gì?"
+    },
+    "question_type": "MCQ",
+    "category": "HSK 1",
+    "langLevel": "HSK1",
+    "status": "Approved",
+    "explanation": {
+      "en": "是 links subject and noun: 'He is a teacher'.",
+      "es": "是 une sujeto y sustantivo: 'Él es profesor'.",
+      "ja": "『是』で主語と名詞をつなぐ：『彼は先生です』。",
+      "ko": "是는 주어와 명사를 연결: '그는 선생님입니다'.",
+      "vi": "是 nối chủ ngữ và danh từ: 'Anh ấy là giáo viên'."
+    },
+    "options_json": {
+      "en": "[{\"id\":\"A\",\"text\":\"He is a teacher.\"},{\"id\":\"B\",\"text\":\"She is a student.\"},{\"id\":\"C\",\"text\":\"He is a doctor.\"},{\"id\":\"D\",\"text\":\"She is my mom.\"}]",
+      "es": "[{\"id\":\"A\",\"text\":\"Él es profesor.\"},{\"id\":\"B\",\"text\":\"Ella es estudiante.\"},{\"id\":\"C\",\"text\":\"Él es médico.\"},{\"id\":\"D\",\"text\":\"Ella es mi madre.\"}]",
+      "ja": "[{\"id\":\"A\",\"text\":\"彼は先生です。\"},{\"id\":\"B\",\"text\":\"彼女は学生です。\"},{\"id\":\"C\",\"text\":\"彼は医者です。\"},{\"id\":\"D\",\"text\":\"彼女は私の母です。\"}]",
+      "ko": "[{\"id\":\"A\",\"text\":\"그는 선생님입니다.\"},{\"id\":\"B\",\"text\":\"그녀는 학생입니다.\"},{\"id\":\"C\",\"text\":\"그는 의사입니다.\"},{\"id\":\"D\",\"text\":\"그녀는 제 어머니입니다.\"}]",
+      "vi": "[{\"id\":\"A\",\"text\":\"Anh ấy là giáo viên.\"},{\"id\":\"B\",\"text\":\"Cô ấy là học sinh.\"},{\"id\":\"C\",\"text\":\"Anh ấy là bác sĩ.\"},{\"id\":\"D\",\"text\":\"Cô ấy là mẹ tôi.\"}]"
+    },
+    "correct_answer_value": "A",
+    "test_types": ["Reading", "Listening"]
+  },
+  {
+    "question_id": 62,
+    "provider_id": "system",
+    "question_text": {
+      "en": "她在看书。 What is she doing?",
+      "es": "她在看书。 ¿Qué está haciendo?",
+      "ja": "她在看书。 何をしていますか。",
+      "ko": "她在看书。 무엇을 하고 있나요?",
+      "vi": "她在看书。 Cô ấy đang làm gì?"
+    },
+    "question_type": "MCQ",
+    "category": "HSK 1",
+    "langLevel": "HSK1",
+    "status": "Approved",
+    "explanation": {
+      "en": "看书 means 'read a book'.",
+      "es": "看书 significa 'leer un libro'.",
+      "ja": "看书は『本を読む』という意味です。",
+      "ko": "看书는 '책을 읽다'를 의미합니다.",
+      "vi": "看书 nghĩa là 'đọc sách'."
+    },
+    "options_json": {
+      "en": "[{\"id\":\"A\",\"text\":\"watch TV\"},{\"id\":\"B\",\"text\":\"read a book\"},{\"id\":\"C\",\"text\":\"drink tea\"},{\"id\":\"D\",\"text\":\"write\"}]",
+      "es": "[{\"id\":\"A\",\"text\":\"ver la tele\"},{\"id\":\"B\",\"text\":\"leer un libro\"},{\"id\":\"C\",\"text\":\"beber té\"},{\"id\":\"D\",\"text\":\"escribir\"}]",
+      "ja": "[{\"id\":\"A\",\"text\":\"テレビを見る\"},{\"id\":\"B\",\"text\":\"本を読む\"},{\"id\":\"C\",\"text\":\"お茶を飲む\"},{\"id\":\"D\",\"text\":\"書く\"}]",
+      "ko": "[{\"id\":\"A\",\"text\":\"TV를 보다\"},{\"id\":\"B\",\"text\":\"책을 읽다\"},{\"id\":\"C\",\"text\":\"차를 마시다\"},{\"id\":\"D\",\"text\":\"쓰다\"}]",
+      "vi": "[{\"id\":\"A\",\"text\":\"xem tivi\"},{\"id\":\"B\",\"text\":\"đọc sách\"},{\"id\":\"C\",\"text\":\"uống trà\"},{\"id\":\"D\",\"text\":\"viết\"}]"
+    },
+    "correct_answer_value": "B",
+    "test_types": ["Reading", "Listening"]
+  },
+  {
+    "question_id": 63,
+    "provider_id": "system",
+    "question_text": {
+      "en": "他们在中国。 Where are they?",
+      "es": "他们在中国。 ¿Dónde están?",
+      "ja": "他们在中国。 彼らはどこにいますか。",
+      "ko": "他们在中国。 그들은 어디에 있나요?",
+      "vi": "他们在中国。 Họ ở đâu?"
+    },
+    "question_type": "MCQ",
+    "category": "HSK 1",
+    "langLevel": "HSK1",
+    "status": "Approved",
+    "explanation": {
+      "en": "在中国 means 'in China'.",
+      "es": "在中国 significa 'en China'.",
+      "ja": "在中国は『中国に』という意味です。",
+      "ko": "在中国는 '중국에'를 의미합니다.",
+      "vi": "在中国 nghĩa là 'ở Trung Quốc'."
+    },
+    "options_json": {
+      "en": "[{\"id\":\"A\",\"text\":\"China\"},{\"id\":\"B\",\"text\":\"Beijing\"},{\"id\":\"C\",\"text\":\"home\"},{\"id\":\"D\",\"text\":\"school\"}]",
+      "es": "[{\"id\":\"A\",\"text\":\"China\"},{\"id\":\"B\",\"text\":\"Pekín\"},{\"id\":\"C\",\"text\":\"casa\"},{\"id\":\"D\",\"text\":\"escuela\"}]",
+      "ja": "[{\"id\":\"A\",\"text\":\"中国\"},{\"id\":\"B\",\"text\":\"北京\"},{\"id\":\"C\",\"text\":\"家\"},{\"id\":\"D\",\"text\":\"学校\"}]",
+      "ko": "[{\"id\":\"A\",\"text\":\"중국\"},{\"id\":\"B\",\"text\":\"베이징\"},{\"id\":\"C\",\"text\":\"집\"},{\"id\":\"D\",\"text\":\"학교\"}]",
+      "vi": "[{\"id\":\"A\",\"text\":\"Trung Quốc\"},{\"id\":\"B\",\"text\":\"Bắc Kinh\"},{\"id\":\"C\",\"text\":\"nhà\"},{\"id\":\"D\",\"text\":\"trường học\"}]"
+    },
+    "correct_answer_value": "A",
+    "test_types": ["Reading", "Listening"]
+  },
+  {
+    "question_id": 64,
+    "provider_id": "system",
+    "question_text": {
+      "en": "今天星期几？ What does this ask?",
+      "es": "今天星期几？ ¿Qué pregunta?",
+      "ja": "今天星期几？ 何を聞いていますか。",
+      "ko": "今天星期几？ 무엇을 묻나요?",
+      "vi": "今天星期几？ Hỏi điều gì?"
+    },
+    "question_type": "MCQ",
+    "category": "HSK 1",
+    "langLevel": "HSK1",
+    "status": "Approved",
+    "explanation": {
+      "en": "It asks for the day of the week.",
+      "es": "Pregunta por el día de la semana.",
+      "ja": "曜日を尋ねています。",
+      "ko": "무슨 요일인지 묻습니다.",
+      "vi": "Hỏi hôm nay là thứ mấy."
+    },
+    "options_json": {
+      "en": "[{\"id\":\"A\",\"text\":\"What time is it now?\"},{\"id\":\"B\",\"text\":\"What day is it today?\"},{\"id\":\"C\",\"text\":\"How’s the weather?\"},{\"id\":\"D\",\"text\":\"Where are you?\"}]",
+      "es": "[{\"id\":\"A\",\"text\":\"¿Qué hora es ahora?\"},{\"id\":\"B\",\"text\":\"¿Qué día es hoy?\"},{\"id\":\"C\",\"text\":\"¿Cómo está el clima?\"},{\"id\":\"D\",\"text\":\"¿Dónde estás?\"}]",
+      "ja": "[{\"id\":\"A\",\"text\":\"今何時ですか？\"},{\"id\":\"B\",\"text\":\"今日は何曜日ですか？\"},{\"id\":\"C\",\"text\":\"天気はどうですか？\"},{\"id\":\"D\",\"text\":\"どこにいますか？\"}]",
+      "ko": "[{\"id\":\"A\",\"text\":\"지금 몇 시예요?\"},{\"id\":\"B\",\"text\":\"오늘은 무슨 요일인가요?\"},{\"id\":\"C\",\"text\":\"날씨가 어때요?\"},{\"id\":\"D\",\"text\":\"어디에 있어요?\"}]",
+      "vi": "[{\"id\":\"A\",\"text\":\"Bây giờ là mấy giờ?\"},{\"id\":\"B\",\"text\":\"Hôm nay là thứ mấy?\"},{\"id\":\"C\",\"text\":\"Thời tiết thế nào?\"},{\"id\":\"D\",\"text\":\"Bạn ở đâu?\"}]"
+    },
+    "correct_answer_value": "B",
+    "test_types": ["Reading", "Listening"]
+  },
+  {
+    "question_id": 65,
+    "provider_id": "system",
+    "question_text": {
+      "en": "我喜欢喝茶。 What does the speaker like?",
+      "es": "我喜欢喝茶。 ¿Qué le gusta al hablante?",
+      "ja": "我喜欢喝茶。 話者は何が好きですか。",
+      "ko": "我喜欢喝茶。 화자는 무엇을 좋아하나요?",
+      "vi": "我喜欢喝茶。 Người nói thích gì?"
+    },
+    "question_type": "MCQ",
+    "category": "HSK 1",
+    "langLevel": "HSK1",
+    "status": "Approved",
+    "explanation": {
+      "en": "喜欢…喝茶 = likes to drink tea.",
+      "es": "喜欢…喝茶 = le gusta beber té.",
+      "ja": "喜欢…喝茶＝お茶を飲むのが好き。",
+      "ko": "喜欢…喝茶 = 차 마시는 것을 좋아함.",
+      "vi": "喜欢…喝茶 = thích uống trà."
+    },
+    "options_json": {
+      "en": "[{\"id\":\"A\",\"text\":\"tea\"},{\"id\":\"B\",\"text\":\"coffee\"},{\"id\":\"C\",\"text\":\"water\"},{\"id\":\"D\",\"text\":\"juice\"}]",
+      "es": "[{\"id\":\"A\",\"text\":\"té\"},{\"id\":\"B\",\"text\":\"café\"},{\"id\":\"C\",\"text\":\"agua\"},{\"id\":\"D\",\"text\":\"jugo\"}]",
+      "ja": "[{\"id\":\"A\",\"text\":\"お茶\"},{\"id\":\"B\",\"text\":\"コーヒー\"},{\"id\":\"C\",\"text\":\"水\"},{\"id\":\"D\",\"text\":\"ジュース\"}]",
+      "ko": "[{\"id\":\"A\",\"text\":\"차\"},{\"id\":\"B\",\"text\":\"커피\"},{\"id\":\"C\",\"text\":\"물\"},{\"id\":\"D\",\"text\":\"주스\"}]",
+      "vi": "[{\"id\":\"A\",\"text\":\"trà\"},{\"id\":\"B\",\"text\":\"cà phê\"},{\"id\":\"C\",\"text\":\"nước\"},{\"id\":\"D\",\"text\":\"nước ép\"}]"
+    },
+    "correct_answer_value": "A",
+    "test_types": ["Reading", "Listening"]
+  },
+  {
+    "question_id": 66,
+    "provider_id": "system",
+    "question_text": {
+      "en": "她在学校。 Where is she?",
+      "es": "她在学校。 ¿Dónde está ella?",
+      "ja": "她在学校。 彼女はどこにいますか。",
+      "ko": "她在学校。 그녀는 어디에 있나요?",
+      "vi": "她在学校。 Cô ấy ở đâu?"
+    },
+    "question_type": "MCQ",
+    "category": "HSK 1",
+    "langLevel": "HSK1",
+    "status": "Approved",
+    "explanation": {
+      "en": "在学校 means 'at school'.",
+      "es": "在学校 significa 'en la escuela'.",
+      "ja": "在学校は『学校に』という意味です。",
+      "ko": "在学校는 '학교에'를 의미합니다.",
+      "vi": "在学校 nghĩa là 'ở trường'."
+    },
+    "options_json": {
+      "en": "[{\"id\":\"A\",\"text\":\"at school\"},{\"id\":\"B\",\"text\":\"at home\"},{\"id\":\"C\",\"text\":\"in Beijing\"},{\"id\":\"D\",\"text\":\"at the cinema\"}]",
+      "es": "[{\"id\":\"A\",\"text\":\"en la escuela\"},{\"id\":\"B\",\"text\":\"en casa\"},{\"id\":\"C\",\"text\":\"en Pekín\"},{\"id\":\"D\",\"text\":\"en el cine\"}]",
+      "ja": "[{\"id\":\"A\",\"text\":\"学校に\"},{\"id\":\"B\",\"text\":\"家に\"},{\"id\":\"C\",\"text\":\"北京に\"},{\"id\":\"D\",\"text\":\"映画館に\"}]",
+      "ko": "[{\"id\":\"A\",\"text\":\"학교에\"},{\"id\":\"B\",\"text\":\"집에\"},{\"id\":\"C\",\"text\":\"베이징에\"},{\"id\":\"D\",\"text\":\"영화관에\"}]",
+      "vi": "[{\"id\":\"A\",\"text\":\"ở trường\"},{\"id\":\"B\",\"text\":\"ở nhà\"},{\"id\":\"C\",\"text\":\"ở Bắc Kinh\"},{\"id\":\"D\",\"text\":\"ở rạp chiếu phim\"}]"
+    },
+    "correct_answer_value": "A",
+    "test_types": ["Reading", "Listening"]
+  },
+  {
+    "question_id": 67,
+    "provider_id": "system",
+    "question_text": {
+      "en": "你叫什么名字？ What is being asked?",
+      "es": "你叫什么名字？ ¿Qué se pregunta?",
+      "ja": "你叫什么名字？ 何を聞いていますか。",
+      "ko": "你叫什么名字？ 무엇을 묻고 있나요?",
+      "vi": "你叫什么名字？ Đang hỏi điều gì?"
+    },
+    "question_type": "MCQ",
+    "category": "HSK 1",
+    "langLevel": "HSK1",
+    "status": "Approved",
+    "explanation": {
+      "en": "Asks for someone's name.",
+      "es": "Pregunta por el nombre.",
+      "ja": "名前を尋ねています。",
+      "ko": "이름을 묻습니다.",
+      "vi": "Hỏi tên."
+    },
+    "options_json": {
+      "en": "[{\"id\":\"A\",\"text\":\"What is your name?\"},{\"id\":\"B\",\"text\":\"Where do you live?\"},{\"id\":\"C\",\"text\":\"Are you a student?\"},{\"id\":\"D\",\"text\":\"How old are you?\"}]",
+      "es": "[{\"id\":\"A\",\"text\":\"¿Cómo te llamas?\"},{\"id\":\"B\",\"text\":\"¿Dónde vives?\"},{\"id\":\"C\",\"text\":\"¿Eres estudiante?\"},{\"id\":\"D\",\"text\":\"¿Cuántos años tienes?\"}]",
+      "ja": "[{\"id\":\"A\",\"text\":\"お名前は何ですか？\"},{\"id\":\"B\",\"text\":\"どこに住んでいますか？\"},{\"id\":\"C\",\"text\":\"学生ですか？\"},{\"id\":\"D\",\"text\":\"何歳ですか？\"}]",
+      "ko": "[{\"id\":\"A\",\"text\":\"이름이 무엇인가요?\"},{\"id\":\"B\",\"text\":\"어디에 살아요?\"},{\"id\":\"C\",\"text\":\"학생인가요?\"},{\"id\":\"D\",\"text\":\"몇 살이에요?\"}]",
+      "vi": "[{\"id\":\"A\",\"text\":\"Bạn tên là gì?\"},{\"id\":\"B\",\"text\":\"Bạn sống ở đâu?\"},{\"id\":\"C\",\"text\":\"Bạn có phải là học sinh không?\"},{\"id\":\"D\",\"text\":\"Bạn bao nhiêu tuổi?\"}]"
+    },
+    "correct_answer_value": "A",
+    "test_types": ["Reading", "Listening"]
+  },
+  {
+    "question_id": 68,
+    "provider_id": "system",
+    "question_text": {
+      "en": "请坐。 What does this mean?",
+      "es": "请坐。 ¿Qué significa?",
+      "ja": "请坐。 どういう意味ですか。",
+      "ko": "请坐。 무슨 뜻인가요?",
+      "vi": "请坐。 Có nghĩa là gì?"
+    },
+    "question_type": "MCQ",
+    "category": "HSK 1",
+    "langLevel": "HSK1",
+    "status": "Approved",
+    "explanation": {
+      "en": "请坐 = Please sit.",
+      "es": "请坐 = Por favor siéntate.",
+      "ja": "请坐＝お座りください。",
+      "ko": "请坐 = 앉으세요.",
+      "vi": "请坐 = Mời ngồi."
+    },
+    "options_json": {
+      "en": "[{\"id\":\"A\",\"text\":\"Please sit.\"},{\"id\":\"B\",\"text\":\"Please stand.\"},{\"id\":\"C\",\"text\":\"Please drink.\"},{\"id\":\"D\",\"text\":\"Please write.\"}]",
+      "es": "[{\"id\":\"A\",\"text\":\"Por favor siéntate.\"},{\"id\":\"B\",\"text\":\"Por favor levántate.\"},{\"id\":\"C\",\"text\":\"Por favor bebe.\"},{\"id\":\"D\",\"text\":\"Por favor escribe.\"}]",
+      "ja": "[{\"id\":\"A\",\"text\":\"お座りください。\"},{\"id\":\"B\",\"text\":\"立ってください。\"},{\"id\":\"C\",\"text\":\"飲んでください。\"},{\"id\":\"D\",\"text\":\"書いてください。\"}]",
+      "ko": "[{\"id\":\"A\",\"text\":\"앉으세요.\"},{\"id\":\"B\",\"text\":\"일어나세요.\"},{\"id\":\"C\",\"text\":\"마시세요.\"},{\"id\":\"D\",\"text\":\"쓰세요.\"}]",
+      "vi": "[{\"id\":\"A\",\"text\":\"Mời ngồi.\"},{\"id\":\"B\",\"text\":\"Mời đứng lên.\"},{\"id\":\"C\",\"text\":\"Mời uống.\"},{\"id\":\"D\",\"text\":\"Mời viết.\"}]"
+    },
+    "correct_answer_value": "A",
+    "test_types": ["Reading", "Listening"]
+  },
+  {
+    "question_id": 69,
+    "provider_id": "system",
+    "question_text": {
+      "en": "他会说汉语吗？ What is being asked?",
+      "es": "他会说汉语吗？ ¿Qué se pregunta?",
+      "ja": "他会说汉语吗？ 何を聞いていますか。",
+      "ko": "他会说汉语吗？ 무엇을 묻고 있나요?",
+      "vi": "他会说汉语吗？ Đang hỏi điều gì?"
+    },
+    "question_type": "MCQ",
+    "category": "HSK 1",
+    "langLevel": "HSK1",
+    "status": "Approved",
+    "explanation": {
+      "en": "Asks if he can speak Chinese.",
+      "es": "Pregunta si él puede hablar chino.",
+      "ja": "彼が中国語を話せるかどうかを尋ねています。",
+      "ko": "그가 중국어를 할 수 있는지 묻습니다.",
+      "vi": "Hỏi anh ấy có thể nói tiếng Trung không."
+    },
+    "options_json": {
+      "en": "[{\"id\":\"A\",\"text\":\"Can he speak Chinese?\"},{\"id\":\"B\",\"text\":\"Does he like Chinese?\"},{\"id\":\"C\",\"text\":\"Where is he from?\"},{\"id\":\"D\",\"text\":\"What is his name?\"}]",
+      "es": "[{\"id\":\"A\",\"text\":\"¿Puede hablar chino?\"},{\"id\":\"B\",\"text\":\"¿Le gusta el chino?\"},{\"id\":\"C\",\"text\":\"¿De dónde es?\"},{\"id\":\"D\",\"text\":\"¿Cómo se llama?\"}]",
+      "ja": "[{\"id\":\"A\",\"text\":\"中国語を話せますか？\"},{\"id\":\"B\",\"text\":\"中国語が好きですか？\"},{\"id\":\"C\",\"text\":\"どこ出身ですか？\"},{\"id\":\"D\",\"text\":\"名前は何ですか？\"}]",
+      "ko": "[{\"id\":\"A\",\"text\":\"중국어를 할 수 있나요?\"},{\"id\":\"B\",\"text\":\"중국어를 좋아하나요?\"},{\"id\":\"C\",\"text\":\"어디 출신인가요?\"},{\"id\":\"D\",\"text\":\"이름이 무엇인가요?\"}]",
+      "vi": "[{\"id\":\"A\",\"text\":\"Anh ấy có thể nói tiếng Trung không?\"},{\"id\":\"B\",\"text\":\"Anh ấy có thích tiếng Trung không?\"},{\"id\":\"C\",\"text\":\"Anh ấy đến từ đâu?\"},{\"id\":\"D\",\"text\":\"Anh ấy tên là gì?\"}]"
+    },
+    "correct_answer_value": "A",
+    "test_types": ["Reading", "Listening"]
+  },
+  {
+    "question_id": 70,
+    "provider_id": "system",
+    "question_text": {
+      "en": "我们都是学生。 Who are we?",
+      "es": "我们都是学生。 ¿Quiénes somos?",
+      "ja": "我们都是学生。 私たちは誰ですか。",
+      "ko": "我们都是学生。 우리는 누구인가요?",
+      "vi": "我们都是学生。 Chúng tôi là ai?"
+    },
+    "question_type": "MCQ",
+    "category": "HSK 1",
+    "langLevel": "HSK1",
+    "status": "Approved",
+    "explanation": {
+      "en": "都是学生 = all are students.",
+      "es": "都是学生 = todos son estudiantes.",
+      "ja": "都是学生＝みんな学生です。",
+      "ko": "都是学生 = 모두 학생입니다.",
+      "vi": "都是学生 = đều là học sinh/sinh viên."
+    },
+    "options_json": {
+      "en": "[{\"id\":\"A\",\"text\":\"students\"},{\"id\":\"B\",\"text\":\"teachers\"},{\"id\":\"C\",\"text\":\"doctors\"},{\"id\":\"D\",\"text\":\"friends\"}]",
+      "es": "[{\"id\":\"A\",\"text\":\"estudiantes\"},{\"id\":\"B\",\"text\":\"profesores\"},{\"id\":\"C\",\"text\":\"médicos\"},{\"id\":\"D\",\"text\":\"amigos\"}]",
+      "ja": "[{\"id\":\"A\",\"text\":\"学生\"},{\"id\":\"B\",\"text\":\"先生\"},{\"id\":\"C\",\"text\":\"医者\"},{\"id\":\"D\",\"text\":\"友達\"}]",
+      "ko": "[{\"id\":\"A\",\"text\":\"학생들\"},{\"id\":\"B\",\"text\":\"선생님들\"},{\"id\":\"C\",\"text\":\"의사들\"},{\"id\":\"D\",\"text\":\"친구들\"}]",
+      "vi": "[{\"id\":\"A\",\"text\":\"học sinh\"},{\"id\":\"B\",\"text\":\"giáo viên\"},{\"id\":\"C\",\"text\":\"bác sĩ\"},{\"id\":\"D\",\"text\":\"bạn bè\"}]"
+    },
+    "correct_answer_value": "A",
+    "test_types": ["Reading", "Listening"]
+  },
+  {
+    "question_id": 71,
+    "provider_id": "system",
+    "question_text": {
+      "en": "她买了三本书。 What did she buy?",
+      "es": "她买了三本书。 ¿Qué compró?",
+      "ja": "她买了三本书。 何を買いましたか。",
+      "ko": "她买了三本书。 무엇을 샀나요?",
+      "vi": "她买了三本书。 Cô ấy mua gì?"
+    },
+    "question_type": "MCQ",
+    "category": "HSK 1",
+    "langLevel": "HSK1",
+    "status": "Approved",
+    "explanation": {
+      "en": "三本书 = three books.",
+      "es": "三本书 = tres libros.",
+      "ja": "三本书＝本三冊。",
+      "ko": "三本书 = 책 세 권.",
+      "vi": "三本书 = ba quyển sách."
+    },
+    "options_json": {
+      "en": "[{\"id\":\"A\",\"text\":\"three books\"},{\"id\":\"B\",\"text\":\"three apples\"},{\"id\":\"C\",\"text\":\"three cups of tea\"},{\"id\":\"D\",\"text\":\"three TVs\"}]",
+      "es": "[{\"id\":\"A\",\"text\":\"tres libros\"},{\"id\":\"B\",\"text\":\"tres manzanas\"},{\"id\":\"C\",\"text\":\"tres tazas de té\"},{\"id\":\"D\",\"text\":\"tres televisores\"}]",
+      "ja": "[{\"id\":\"A\",\"text\":\"本三冊\"},{\"id\":\"B\",\"text\":\"りんご三つ\"},{\"id\":\"C\",\"text\":\"お茶三杯\"},{\"id\":\"D\",\"text\":\"テレビ三台\"}]",
+      "ko": "[{\"id\":\"A\",\"text\":\"책 세 권\"},{\"id\":\"B\",\"text\":\"사과 세 개\"},{\"id\":\"C\",\"text\":\"차 세 잔\"},{\"id\":\"D\",\"text\":\"TV 세 대\"}]",
+      "vi": "[{\"id\":\"A\",\"text\":\"ba quyển sách\"},{\"id\":\"B\",\"text\":\"ba quả táo\"},{\"id\":\"C\",\"text\":\"ba ly trà\"},{\"id\":\"D\",\"text\":\"ba cái TV\"}]"
+    },
+    "correct_answer_value": "A",
+    "test_types": ["Reading", "Listening"]
+  },
+  {
+    "question_id": 72,
+    "provider_id": "system",
+    "question_text": {
+      "en": "他们在说话。 What are they doing?",
+      "es": "他们在说话。 ¿Qué están haciendo?",
+      "ja": "他们在说话。 何をしていますか。",
+      "ko": "他们在说话。 무엇을 하고 있나요?",
+      "vi": "他们在说话。 Họ đang làm gì?"
+    },
+    "question_type": "MCQ",
+    "category": "HSK 1",
+    "langLevel": "HSK1",
+    "status": "Approved",
+    "explanation": {
+      "en": "说话 = talk/speak.",
+      "es": "说话 = hablar.",
+      "ja": "说话＝話す。",
+      "ko": "说话 = 말하다.",
+      "vi": "说话 = nói chuyện."
+    },
+    "options_json": {
+      "en": "[{\"id\":\"A\",\"text\":\"talking\"},{\"id\":\"B\",\"text\":\"eating\"},{\"id\":\"C\",\"text\":\"writing\"},{\"id\":\"D\",\"text\":\"sleeping\"}]",
+      "es": "[{\"id\":\"A\",\"text\":\"hablando\"},{\"id\":\"B\",\"text\":\"comiendo\"},{\"id\":\"C\",\"text\":\"escribiendo\"},{\"id\":\"D\",\"text\":\"durmiendo\"}]",
+      "ja": "[{\"id\":\"A\",\"text\":\"話している\"},{\"id\":\"B\",\"text\":\"食べている\"},{\"id\":\"C\",\"text\":\"書いている\"},{\"id\":\"D\",\"text\":\"寝ている\"}]",
+      "ko": "[{\"id\":\"A\",\"text\":\"말하고 있다\"},{\"id\":\"B\",\"text\":\"먹고 있다\"},{\"id\":\"C\",\"text\":\"쓰고 있다\"},{\"id\":\"D\",\"text\":\"자고 있다\"}]",
+      "vi": "[{\"id\":\"A\",\"text\":\"đang nói chuyện\"},{\"id\":\"B\",\"text\":\"đang ăn\"},{\"id\":\"C\",\"text\":\"đang viết\"},{\"id\":\"D\",\"text\":\"đang ngủ\"}]"
+    },
+    "correct_answer_value": "A",
+    "test_types": ["Reading", "Listening"]
+  },
+  {
+    "question_id": 73,
+    "provider_id": "system",
+    "question_text": {
+      "en": "我住在中国。 Where do I live?",
+      "es": "我住在中国。 ¿Dónde vivo?",
+      "ja": "我住在中国。 どこに住んでいますか。",
+      "ko": "我住在中国。 어디에 살아요?",
+      "vi": "我住在中国。 Tôi sống ở đâu?"
+    },
+    "question_type": "MCQ",
+    "category": "HSK 1",
+    "langLevel": "HSK1",
+    "status": "Approved",
+    "explanation": {
+      "en": "住在中国 = live in China.",
+      "es": "住在中国 = vivir en China.",
+      "ja": "住在中国＝中国に住んでいる。",
+      "ko": "住在中国 = 중국에 산다.",
+      "vi": "住在中国 = sống ở Trung Quốc."
+    },
+    "options_json": {
+      "en": "[{\"id\":\"A\",\"text\":\"in China\"},{\"id\":\"B\",\"text\":\"at school\"},{\"id\":\"C\",\"text\":\"at home\"},{\"id\":\"D\",\"text\":\"in Beijing\"}]",
+      "es": "[{\"id\":\"A\",\"text\":\"en China\"},{\"id\":\"B\",\"text\":\"en la escuela\"},{\"id\":\"C\",\"text\":\"en casa\"},{\"id\":\"D\",\"text\":\"en Pekín\"}]",
+      "ja": "[{\"id\":\"A\",\"text\":\"中国に\"},{\"id\":\"B\",\"text\":\"学校に\"},{\"id\":\"C\",\"text\":\"家に\"},{\"id\":\"D\",\"text\":\"北京に\"}]",
+      "ko": "[{\"id\":\"A\",\"text\":\"중국에\"},{\"id\":\"B\",\"text\":\"학교에\"},{\"id\":\"C\",\"text\":\"집에\"},{\"id\":\"D\",\"text\":\"베이징에\"}]",
+      "vi": "[{\"id\":\"A\",\"text\":\"ở Trung Quốc\"},{\"id\":\"B\",\"text\":\"ở trường\"},{\"id\":\"C\",\"text\":\"ở nhà\"},{\"id\":\"D\",\"text\":\"ở Bắc Kinh\"}]"
+    },
+    "correct_answer_value": "A",
+    "test_types": ["Reading", "Listening"]
+  },
+  {
+    "question_id": 74,
+    "provider_id": "system",
+    "question_text": {
+      "en": "现在几点？ What does this ask?",
+      "es": "现在几点？ ¿Qué pregunta?",
+      "ja": "现在几点？ 何を聞いていますか。",
+      "ko": "现在几点？ 무엇을 묻나요?",
+      "vi": "现在几点？ Hỏi gì?"
+    },
+    "question_type": "MCQ",
+    "category": "HSK 1",
+    "langLevel": "HSK1",
+    "status": "Approved",
+    "explanation": {
+      "en": "Asks for current time.",
+      "es": "Pregunta la hora actual.",
+      "ja": "今の時間を聞いています。",
+      "ko": "현재 시간을 묻습니다.",
+      "vi": "Hỏi bây giờ là mấy giờ."
+    },
+    "options_json": {
+      "en": "[{\"id\":\"A\",\"text\":\"What time is it now?\"},{\"id\":\"B\",\"text\":\"Where are you now?\"},{\"id\":\"C\",\"text\":\"What day is it?\"},{\"id\":\"D\",\"text\":\"How is the weather?\"}]",
+      "es": "[{\"id\":\"A\",\"text\":\"¿Qué hora es ahora?\"},{\"id\":\"B\",\"text\":\"¿Dónde estás ahora?\"},{\"id\":\"C\",\"text\":\"¿Qué día es?\"},{\"id\":\"D\",\"text\":\"¿Cómo está el tiempo?\"}]",
+      "ja": "[{\"id\":\"A\",\"text\":\"今何時ですか？\"},{\"id\":\"B\",\"text\":\"今どこにいますか？\"},{\"id\":\"C\",\"text\":\"今日は何曜日ですか？\"},{\"id\":\"D\",\"text\":\"天気はどうですか？\"}]",
+      "ko": "[{\"id\":\"A\",\"text\":\"지금 몇 시예요?\"},{\"id\":\"B\",\"text\":\"지금 어디에 있어요?\"},{\"id\":\"C\",\"text\":\"오늘은 무슨 요일이에요?\"},{\"id\":\"D\",\"text\":\"날씨가 어때요?\"}]",
+      "vi": "[{\"id\":\"A\",\"text\":\"Bây giờ là mấy giờ?\"},{\"id\":\"B\",\"text\":\"Bây giờ bạn ở đâu?\"},{\"id\":\"C\",\"text\":\"Hôm nay là thứ mấy?\"},{\"id\":\"D\",\"text\":\"Thời tiết thế nào?\"}]"
+    },
+    "correct_answer_value": "A",
+    "test_types": ["Reading", "Listening"]
+  },
+  {
+    "question_id": 75,
+    "provider_id": "system",
+    "question_text": {
+      "en": "爸爸在家吗？ What is being asked?",
+      "es": "爸爸在家吗？ ¿Qué se pregunta?",
+      "ja": "爸爸在家吗？ 何を聞いていますか。",
+      "ko": "爸爸在家吗？ 무엇을 묻고 있나요?",
+      "vi": "爸爸在家吗？ Đang hỏi điều gì?"
+    },
+    "question_type": "MCQ",
+    "category": "HSK 1",
+    "langLevel": "HSK1",
+    "status": "Approved",
+    "explanation": {
+      "en": "Asks if dad is at home.",
+      "es": "Pregunta si papá está en casa.",
+      "ja": "お父さんが家にいるかどうかを尋ねています。",
+      "ko": "아빠가 집에 있는지 묻습니다.",
+      "vi": "Hỏi bố có ở nhà không."
+    },
+    "options_json": {
+      "en": "[{\"id\":\"A\",\"text\":\"Is dad at home?\"},{\"id\":\"B\",\"text\":\"Is dad a teacher?\"},{\"id\":\"C\",\"text\":\"Where is dad?\"},{\"id\":\"D\",\"text\":\"Who is dad?\"}]",
+      "es": "[{\"id\":\"A\",\"text\":\"¿Papá está en casa?\"},{\"id\":\"B\",\"text\":\"¿Papá es profesor?\"},{\"id\":\"C\",\"text\":\"¿Dónde está papá?\"},{\"id\":\"D\",\"text\":\"¿Quién es papá?\"}]",
+      "ja": "[{\"id\":\"A\",\"text\":\"お父さんは家にいますか？\"},{\"id\":\"B\",\"text\":\"お父さんは先生ですか？\"},{\"id\":\"C\",\"text\":\"お父さんはどこですか？\"},{\"id\":\"D\",\"text\":\"お父さんは誰ですか？\"}]",
+      "ko": "[{\"id\":\"A\",\"text\":\"아빠는 집에 있나요?\"},{\"id\":\"B\",\"text\":\"아빠는 선생님인가요?\"},{\"id\":\"C\",\"text\":\"아빠는 어디에 있나요?\"},{\"id\":\"D\",\"text\":\"아빠는 누구인가요?\"}]",
+      "vi": "[{\"id\":\"A\",\"text\":\"Bố có ở nhà không?\"},{\"id\":\"B\",\"text\":\"Bố có phải là giáo viên không?\"},{\"id\":\"C\",\"text\":\"Bố ở đâu?\"},{\"id\":\"D\",\"text\":\"Bố là ai?\"}]"
+    },
+    "correct_answer_value": "A",
+    "test_types": ["Reading", "Listening"]
+  },
+  {
+    "question_id": 76,
+    "provider_id": "system",
+    "question_text": {
+      "en": "我明天去北京。 When am I going?",
+      "es": "我明天去北京。 ¿Cuándo voy?",
+      "ja": "我明天去北京。 いつ行きますか。",
+      "ko": "我明天去北京。 언제 가요?",
+      "vi": "我明天去北京。 Tôi đi khi nào?"
+    },
+    "question_type": "MCQ",
+    "category": "HSK 1",
+    "langLevel": "HSK1",
+    "status": "Approved",
+    "explanation": {
+      "en": "明天 = tomorrow.",
+      "es": "明天 = mañana.",
+      "ja": "明天＝明日。",
+      "ko": "明天 = 내일.",
+      "vi": "明天 = ngày mai."
+    },
+    "options_json": {
+      "en": "[{\"id\":\"A\",\"text\":\"yesterday\"},{\"id\":\"B\",\"text\":\"today\"},{\"id\":\"C\",\"text\":\"tomorrow\"},{\"id\":\"D\",\"text\":\"last year\"}]",
+      "es": "[{\"id\":\"A\",\"text\":\"ayer\"},{\"id\":\"B\",\"text\":\"hoy\"},{\"id\":\"C\",\"text\":\"mañana\"},{\"id\":\"D\",\"text\":\"el año pasado\"}]",
+      "ja": "[{\"id\":\"A\",\"text\":\"昨日\"},{\"id\":\"B\",\"text\":\"今日\"},{\"id\":\"C\",\"text\":\"明日\"},{\"id\":\"D\",\"text\":\"去年\"}]",
+      "ko": "[{\"id\":\"A\",\"text\":\"어제\"},{\"id\":\"B\",\"text\":\"오늘\"},{\"id\":\"C\",\"text\":\"내일\"},{\"id\":\"D\",\"text\":\"작년\"}]",
+      "vi": "[{\"id\":\"A\",\"text\":\"hôm qua\"},{\"id\":\"B\",\"text\":\"hôm nay\"},{\"id\":\"C\",\"text\":\"ngày mai\"},{\"id\":\"D\",\"text\":\"năm ngoái\"}]"
+    },
+    "correct_answer_value": "C",
+    "test_types": ["Reading", "Listening"]
+  },
+  {
+    "question_id": 77,
+    "provider_id": "system",
+    "question_text": {
+      "en": "他喜欢中国菜。 What does he like?",
+      "es": "他喜欢中国菜。 ¿Qué le gusta?",
+      "ja": "他喜欢中国菜。 彼は何が好きですか。",
+      "ko": "他喜欢中国菜。 그는 무엇을 좋아하나요?",
+      "vi": "他喜欢中国菜。 Anh ấy thích gì?"
+    },
+    "question_type": "MCQ",
+    "category": "HSK 1",
+    "langLevel": "HSK1",
+    "status": "Approved",
+    "explanation": {
+      "en": "中国菜 = Chinese food.",
+      "es": "中国菜 = comida china.",
+      "ja": "中国菜＝中華料理。",
+      "ko": "中国菜 = 중국 음식.",
+      "vi": "中国菜 = món ăn Trung Quốc."
+    },
+    "options_json": {
+      "en": "[{\"id\":\"A\",\"text\":\"Chinese food\"},{\"id\":\"B\",\"text\":\"tea\"},{\"id\":\"C\",\"text\":\"water\"},{\"id\":\"D\",\"text\":\"apples\"}]",
+      "es": "[{\"id\":\"A\",\"text\":\"comida china\"},{\"id\":\"B\",\"text\":\"té\"},{\"id\":\"C\",\"text\":\"agua\"},{\"id\":\"D\",\"text\":\"manzanas\"}]",
+      "ja": "[{\"id\":\"A\",\"text\":\"中華料理\"},{\"id\":\"B\",\"text\":\"お茶\"},{\"id\":\"C\",\"text\":\"水\"},{\"id\":\"D\",\"text\":\"りんご\"}]",
+      "ko": "[{\"id\":\"A\",\"text\":\"중국 음식\"},{\"id\":\"B\",\"text\":\"차\"},{\"id\":\"C\",\"text\":\"물\"},{\"id\":\"D\",\"text\":\"사과\"}]",
+      "vi": "[{\"id\":\"A\",\"text\":\"món Trung Quốc\"},{\"id\":\"B\",\"text\":\"trà\"},{\"id\":\"C\",\"text\":\"nước\"},{\"id\":\"D\",\"text\":\"táo\"}]"
+    },
+    "correct_answer_value": "A",
+    "test_types": ["Reading", "Listening"]
+  },
+  {
+    "question_id": 78,
+    "provider_id": "system",
+    "question_text": {
+      "en": "我们八点上课。 When do we have class?",
+      "es": "我们八点上课。 ¿A qué hora tenemos clase?",
+      "ja": "我们八点上课。 何時に授業がありますか。",
+      "ko": "我们八点上课。 몇 시에 수업이 있나요?",
+      "vi": "我们八点上课。 Chúng ta học lúc mấy giờ?"
+    },
+    "question_type": "MCQ",
+    "category": "HSK 1",
+    "langLevel": "HSK1",
+    "status": "Approved",
+    "explanation": {
+      "en": "八点 = eight o'clock.",
+      "es": "八点 = las ocho.",
+      "ja": "八点＝8時。",
+      "ko": "八点 = 8시.",
+      "vi": "八点 = tám giờ."
+    },
+    "options_json": {
+      "en": "[{\"id\":\"A\",\"text\":\"seven o’clock\"},{\"id\":\"B\",\"text\":\"eight o’clock\"},{\"id\":\"C\",\"text\":\"nine o’clock\"},{\"id\":\"D\",\"text\":\"ten o’clock\"}]",
+      "es": "[{\"id\":\"A\",\"text\":\"las siete\"},{\"id\":\"B\",\"text\":\"las ocho\"},{\"id\":\"C\",\"text\":\"las nueve\"},{\"id\":\"D\",\"text\":\"las diez\"}]",
+      "ja": "[{\"id\":\"A\",\"text\":\"7時\"},{\"id\":\"B\",\"text\":\"8時\"},{\"id\":\"C\",\"text\":\"9時\"},{\"id\":\"D\",\"text\":\"10時\"}]",
+      "ko": "[{\"id\":\"A\",\"text\":\"7시\"},{\"id\":\"B\",\"text\":\"8시\"},{\"id\":\"C\",\"text\":\"9시\"},{\"id\":\"D\",\"text\":\"10시\"}]",
+      "vi": "[{\"id\":\"A\",\"text\":\"bảy giờ\"},{\"id\":\"B\",\"text\":\"tám giờ\"},{\"id\":\"C\",\"text\":\"chín giờ\"},{\"id\":\"D\",\"text\":\"mười giờ\"}]"
+    },
+    "correct_answer_value": "B",
+    "test_types": ["Reading", "Listening"]
+  },
+  {
+    "question_id": 79,
+    "provider_id": "system",
+    "question_text": {
+      "en": "她在写汉字。 What is she writing?",
+      "es": "她在写汉字。 ¿Qué está escribiendo?",
+      "ja": "她在写汉字。 何を書いていますか。",
+      "ko": "她在写汉字。 무엇을 쓰고 있나요?",
+      "vi": "她在写汉字。 Cô ấy đang viết gì?"
+    },
+    "question_type": "MCQ",
+    "category": "HSK 1",
+    "langLevel": "HSK1",
+    "status": "Approved",
+    "explanation": {
+      "en": "汉字 = Chinese characters.",
+      "es": "汉字 = caracteres chinos.",
+      "ja": "汉字＝漢字。",
+      "ko": "汉字 = 한자(중국 문자).",
+      "vi": "汉字 = chữ Hán."
+    },
+    "options_json": {
+      "en": "[{\"id\":\"A\",\"text\":\"Chinese characters\"},{\"id\":\"B\",\"text\":\"English words\"},{\"id\":\"C\",\"text\":\"numbers\"},{\"id\":\"D\",\"text\":\"letters\"}]",
+      "es": "[{\"id\":\"A\",\"text\":\"caracteres chinos\"},{\"id\":\"B\",\"text\":\"palabras en inglés\"},{\"id\":\"C\",\"text\":\"números\"},{\"id\":\"D\",\"text\":\"letras\"}]",
+      "ja": "[{\"id\":\"A\",\"text\":\"漢字\"},{\"id\":\"B\",\"text\":\"英単語\"},{\"id\":\"C\",\"text\":\"数字\"},{\"id\":\"D\",\"text\":\"アルファベット\"}]",
+      "ko": "[{\"id\":\"A\",\"text\":\"한자\"},{\"id\":\"B\",\"text\":\"영어 단어\"},{\"id\":\"C\",\"text\":\"숫자\"},{\"id\":\"D\",\"text\":\"알파벳\"}]",
+      "vi": "[{\"id\":\"A\",\"text\":\"chữ Hán\"},{\"id\":\"B\",\"text\":\"từ tiếng Anh\"},{\"id\":\"C\",\"text\":\"số\"},{\"id\":\"D\",\"text\":\"chữ cái\"}]"
+    },
+    "correct_answer_value": "A",
+    "test_types": ["Reading", "Listening"]
+  },
+  {
+    "question_id": 80,
+    "provider_id": "system",
+    "question_text": {
+      "en": "他在看电视。 What is he doing?",
+      "es": "他在看电视。 ¿Qué está haciendo?",
+      "ja": "他在看电视。 何をしていますか。",
+      "ko": "他在看电视。 무엇을 하고 있나요?",
+      "vi": "他在看电视。 Anh ấy đang làm gì?"
+    },
+    "question_type": "MCQ",
+    "category": "HSK 1",
+    "langLevel": "HSK1",
+    "status": "Approved",
+    "explanation": {
+      "en": "看电视 = watch TV.",
+      "es": "看电视 = ver la tele.",
+      "ja": "看电视＝テレビを見る。",
+      "ko": "看电视 = TV를 보다.",
+      "vi": "看电视 = xem tivi."
+    },
+    "options_json": {
+      "en": "[{\"id\":\"A\",\"text\":\"watching TV\"},{\"id\":\"B\",\"text\":\"reading a book\"},{\"id\":\"C\",\"text\":\"drinking water\"},{\"id\":\"D\",\"text\":\"writing\"}]",
+      "es": "[{\"id\":\"A\",\"text\":\"viendo la tele\"},{\"id\":\"B\",\"text\":\"leyendo un libro\"},{\"id\":\"C\",\"text\":\"bebiendo agua\"},{\"id\":\"D\",\"text\":\"escribiendo\"}]",
+      "ja": "[{\"id\":\"A\",\"text\":\"テレビを見ている\"},{\"id\":\"B\",\"text\":\"本を読んでいる\"},{\"id\":\"C\",\"text\":\"水を飲んでいる\"},{\"id\":\"D\",\"text\":\"書いている\"}]",
+      "ko": "[{\"id\":\"A\",\"text\":\"TV를 보고 있다\"},{\"id\":\"B\",\"text\":\"책을 읽고 있다\"},{\"id\":\"C\",\"text\":\"물을 마시고 있다\"},{\"id\":\"D\",\"text\":\"쓰고 있다\"}]",
+      "vi": "[{\"id\":\"A\",\"text\":\"đang xem tivi\"},{\"id\":\"B\",\"text\":\"đang đọc sách\"},{\"id\":\"C\",\"text\":\"đang uống nước\"},{\"id\":\"D\",\"text\":\"đang viết\"}]"
+    },
+    "correct_answer_value": "A",
+    "test_types": ["Reading", "Listening"]
+  },
+  {
+    "question_id": 81,
+    "provider_id": "system",
+    "question_text": {
+      "en": "他打电话呢。 What is he doing?",
+      "es": "他打电话呢。 ¿Qué está haciendo?",
+      "ja": "他打电话呢。 何をしていますか。",
+      "ko": "他打电话呢。 무엇을 하고 있나요?",
+      "vi": "他打电话呢。 Anh ấy đang làm gì?"
+    },
+    "question_type": "MCQ",
+    "category": "HSK 1",
+    "langLevel": "HSK1",
+    "status": "Approved",
+    "explanation": {
+      "en": "打电话 means 'make a phone call'.",
+      "es": "打电话 significa 'hacer una llamada'.",
+      "ja": "打电话は『電話をかける』という意味です。",
+      "ko": "打电话는 '전화하다'를 의미합니다.",
+      "vi": "打电话 nghĩa là 'gọi điện thoại'."
+    },
+    "options_json": {
+      "en": "[{\"id\":\"A\",\"text\":\"making a phone call\"},{\"id\":\"B\",\"text\":\"reading a book\"},{\"id\":\"C\",\"text\":\"sleeping\"},{\"id\":\"D\",\"text\":\"eating\"}]",
+      "es": "[{\"id\":\"A\",\"text\":\"haciendo una llamada\"},{\"id\":\"B\",\"text\":\"leyendo un libro\"},{\"id\":\"C\",\"text\":\"durmiendo\"},{\"id\":\"D\",\"text\":\"comiendo\"}]",
+      "ja": "[{\"id\":\"A\",\"text\":\"電話をかけている\"},{\"id\":\"B\",\"text\":\"本を読んでいる\"},{\"id\":\"C\",\"text\":\"寝ている\"},{\"id\":\"D\",\"text\":\"食べている\"}]",
+      "ko": "[{\"id\":\"A\",\"text\":\"전화하고 있다\"},{\"id\":\"B\",\"text\":\"책을 읽고 있다\"},{\"id\":\"C\",\"text\":\"자고 있다\"},{\"id\":\"D\",\"text\":\"먹고 있다\"}]",
+      "vi": "[{\"id\":\"A\",\"text\":\"đang gọi điện thoại\"},{\"id\":\"B\",\"text\":\"đang đọc sách\"},{\"id\":\"C\",\"text\":\"đang ngủ\"},{\"id\":\"D\",\"text\":\"đang ăn\"}]"
+    },
+    "correct_answer_value": "A",
+    "test_types": ["Reading", "Listening"]
+  },
+  {
+    "question_id": 82,
+    "provider_id": "system",
+    "question_text": {
+      "en": "我想买一杯水。 What does the speaker want to do?",
+      "es": "我想买一杯水。 ¿Qué quiere hacer el hablante?",
+      "ja": "我想买一杯水。 話し手は何をしたいですか。",
+      "ko": "我想买一杯水。 화자는 무엇을 하고 싶나요?",
+      "vi": "我想买一杯水。 Người nói muốn làm gì?"
+    },
+    "question_type": "MCQ",
+    "category": "HSK 1",
+    "langLevel": "HSK1",
+    "status": "Approved",
+    "explanation": {
+      "en": "买一杯水 = buy a cup of water.",
+      "es": "买一杯水 = comprar un vaso de agua.",
+      "ja": "买一杯水＝水を一杯買う。",
+      "ko": "买一杯水 = 물 한 컵을 사다.",
+      "vi": "买一杯水 = mua một cốc nước."
+    },
+    "options_json": {
+      "en": "[{\"id\":\"A\",\"text\":\"buy a cup of water\"},{\"id\":\"B\",\"text\":\"buy a TV\"},{\"id\":\"C\",\"text\":\"drink tea\"},{\"id\":\"D\",\"text\":\"sit down\"}]",
+      "es": "[{\"id\":\"A\",\"text\":\"comprar un vaso de agua\"},{\"id\":\"B\",\"text\":\"comprar una tele\"},{\"id\":\"C\",\"text\":\"beber té\"},{\"id\":\"D\",\"text\":\"sentarse\"}]",
+      "ja": "[{\"id\":\"A\",\"text\":\"水を一杯買う\"},{\"id\":\"B\",\"text\":\"テレビを買う\"},{\"id\":\"C\",\"text\":\"お茶を飲む\"},{\"id\":\"D\",\"text\":\"座る\"}]",
+      "ko": "[{\"id\":\"A\",\"text\":\"물 한 컵을 사다\"},{\"id\":\"B\",\"text\":\"TV를 사다\"},{\"id\":\"C\",\"text\":\"차를 마시다\"},{\"id\":\"D\",\"text\":\"앉다\"}]",
+      "vi": "[{\"id\":\"A\",\"text\":\"mua một cốc nước\"},{\"id\":\"B\",\"text\":\"mua TV\"},{\"id\":\"C\",\"text\":\"uống trà\"},{\"id\":\"D\",\"text\":\"ngồi xuống\"}]"
+    },
+    "correct_answer_value": "A",
+    "test_types": ["Reading", "Listening"]
+  },
+  {
+    "question_id": 83,
+    "provider_id": "system",
+    "question_text": {
+      "en": "这件衣服很贵吗？ What is being asked?",
+      "es": "这件衣服很贵吗？ ¿Qué se pregunta?",
+      "ja": "这件衣服很贵吗？ 何を聞いていますか。",
+      "ko": "这件衣服很贵吗？ 무엇을 묻고 있나요?",
+      "vi": "这件衣服很贵吗？ Đang hỏi điều gì?"
+    },
+    "question_type": "MCQ",
+    "category": "HSK 1",
+    "langLevel": "HSK1",
+    "status": "Approved",
+    "explanation": {
+      "en": "贵 asks about price being expensive.",
+      "es": "贵 pregunta si es caro.",
+      "ja": "『贵』は高いかどうかを尋ねます。",
+      "ko": "贵는 비싼지 묻습니다.",
+      "vi": "贵 dùng để hỏi có đắt không."
+    },
+    "options_json": {
+      "en": "[{\"id\":\"A\",\"text\":\"Is it expensive?\"},{\"id\":\"B\",\"text\":\"Where to buy it?\"},{\"id\":\"C\",\"text\":\"What color is it?\"},{\"id\":\"D\",\"text\":\"Is it cheap?\"}]",
+      "es": "[{\"id\":\"A\",\"text\":\"¿Es caro?\"},{\"id\":\"B\",\"text\":\"¿Dónde comprarlo?\"},{\"id\":\"C\",\"text\":\"¿De qué color es?\"},{\"id\":\"D\",\"text\":\"¿Es barato?\"}]",
+      "ja": "[{\"id\":\"A\",\"text\":\"高いですか？\"},{\"id\":\"B\",\"text\":\"どこで買いますか？\"},{\"id\":\"C\",\"text\":\"何色ですか？\"},{\"id\":\"D\",\"text\":\"安いですか？\"}]",
+      "ko": "[{\"id\":\"A\",\"text\":\"비싸요?\"},{\"id\":\"B\",\"text\":\"어디서 사요?\"},{\"id\":\"C\",\"text\":\"무슨 색이에요?\"},{\"id\":\"D\",\"text\":\"싸요?\"}]",
+      "vi": "[{\"id\":\"A\",\"text\":\"Có đắt không?\"},{\"id\":\"B\",\"text\":\"Mua ở đâu?\"},{\"id\":\"C\",\"text\":\"Màu gì?\"},{\"id\":\"D\",\"text\":\"Có rẻ không?\"}]"
+    },
+    "correct_answer_value": "A",
+    "test_types": ["Reading", "Listening"]
+  },
+  {
+    "question_id": 84,
+    "provider_id": "system",
+    "question_text": {
+      "en": "你有几个妹妹？ What is being asked?",
+      "es": "你有几个妹妹？ ¿Qué se pregunta?",
+      "ja": "你有几个妹妹？ 何を聞いていますか。",
+      "ko": "你有几个妹妹？ 무엇을 묻고 있나요?",
+      "vi": "你有几个妹妹？ Đang hỏi điều gì?"
+    },
+    "question_type": "MCQ",
+    "category": "HSK 1",
+    "langLevel": "HSK1",
+    "status": "Approved",
+    "explanation": {
+      "en": "Asks the number of younger sisters.",
+      "es": "Pregunta el número de hermanas menores.",
+      "ja": "妹の人数を尋ねています。",
+      "ko": "여동생이 몇 명인지 묻습니다.",
+      "vi": "Hỏi có mấy em gái."
+    },
+    "options_json": {
+      "en": "[{\"id\":\"A\",\"text\":\"How many younger sisters do you have?\"},{\"id\":\"B\",\"text\":\"How old is your sister?\"},{\"id\":\"C\",\"text\":\"Where is your sister?\"},{\"id\":\"D\",\"text\":\"Who is your sister?\"}]",
+      "es": "[{\"id\":\"A\",\"text\":\"¿Cuántas hermanas menores tienes?\"},{\"id\":\"B\",\"text\":\"¿Cuántos años tiene tu hermana?\"},{\"id\":\"C\",\"text\":\"¿Dónde está tu hermana?\"},{\"id\":\"D\",\"text\":\"¿Quién es tu hermana?\"}]",
+      "ja": "[{\"id\":\"A\",\"text\":\"妹は何人いますか？\"},{\"id\":\"B\",\"text\":\"妹は何歳ですか？\"},{\"id\":\"C\",\"text\":\"妹はどこですか？\"},{\"id\":\"D\",\"text\":\"妹は誰ですか？\"}]",
+      "ko": "[{\"id\":\"A\",\"text\":\"여동생이 몇 명 있나요?\"},{\"id\":\"B\",\"text\":\"여동생은 몇 살이에요?\"},{\"id\":\"C\",\"text\":\"여동생은 어디에 있어요?\"},{\"id\":\"D\",\"text\":\"여동생은 누구예요?\"}]",
+      "vi": "[{\"id\":\"A\",\"text\":\"Bạn có mấy em gái?\"},{\"id\":\"B\",\"text\":\"Em gái bạn bao nhiêu tuổi?\"},{\"id\":\"C\",\"text\":\"Em gái bạn ở đâu?\"},{\"id\":\"D\",\"text\":\"Ai là em gái bạn?\"}]"
+    },
+    "correct_answer_value": "A",
+    "test_types": ["Reading", "Listening"]
+  },
+  {
+    "question_id": 85,
+    "provider_id": "system",
+    "question_text": {
+      "en": "我饿了，想吃米饭。 What does the speaker want?",
+      "es": "我饿了，想吃米饭。 ¿Qué quiere el hablante?",
+      "ja": "我饿了，想吃米饭。 話し手は何を望んでいますか。",
+      "ko": "我饿了，想吃米饭。 화자는 무엇을 원하나요?",
+      "vi": "我饿了，想吃米饭。 Người nói muốn gì?"
+    },
+    "question_type": "MCQ",
+    "category": "HSK 1",
+    "langLevel": "HSK1",
+    "status": "Approved",
+    "explanation": {
+      "en": "饿…想吃米饭 = hungry…wants to eat rice.",
+      "es": "饿…想吃米饭 = tiene hambre…quiere comer arroz.",
+      "ja": "お腹がすいて…ご飯を食べたいという意味です。",
+      "ko": "배고파…밥을 먹고 싶다의 의미입니다.",
+      "vi": "Đói…muốn ăn cơm."
+    },
+    "options_json": {
+      "en": "[{\"id\":\"A\",\"text\":\"eat rice\"},{\"id\":\"B\",\"text\":\"drink water\"},{\"id\":\"C\",\"text\":\"sleep\"},{\"id\":\"D\",\"text\":\"go to school\"}]",
+      "es": "[{\"id\":\"A\",\"text\":\"comer arroz\"},{\"id\":\"B\",\"text\":\"beber agua\"},{\"id\":\"C\",\"text\":\"dormir\"},{\"id\":\"D\",\"text\":\"ir a la escuela\"}]",
+      "ja": "[{\"id\":\"A\",\"text\":\"ご飯を食べる\"},{\"id\":\"B\",\"text\":\"水を飲む\"},{\"id\":\"C\",\"text\":\"寝る\"},{\"id\":\"D\",\"text\":\"学校へ行く\"}]",
+      "ko": "[{\"id\":\"A\",\"text\":\"밥을 먹다\"},{\"id\":\"B\",\"text\":\"물을 마시다\"},{\"id\":\"C\",\"text\":\"자다\"},{\"id\":\"D\",\"text\":\"학교에 가다\"}]",
+      "vi": "[{\"id\":\"A\",\"text\":\"ăn cơm\"},{\"id\":\"B\",\"text\":\"uống nước\"},{\"id\":\"C\",\"text\":\"ngủ\"},{\"id\":\"D\",\"text\":\"đi học\"}]"
+    },
+    "correct_answer_value": "A",
+    "test_types": ["Reading", "Listening"]
+  },
+  {
+    "question_id": 86,
+    "provider_id": "system",
+    "question_text": {
+      "en": "今天下雨，我们不去。 What is the weather today?",
+      "es": "今天下雨，我们不去。 ¿Qué tiempo hace hoy?",
+      "ja": "今天下雨，我们不去。 今日はどんな天気ですか。",
+      "ko": "今天下雨，我们不去。 오늘 날씨가 어때요?",
+      "vi": "今天下雨，我们不去。 Thời tiết hôm nay thế nào?"
+    },
+    "question_type": "MCQ",
+    "category": "HSK 1",
+    "langLevel": "HSK1",
+    "status": "Approved",
+    "explanation": {
+      "en": "下雨 = it's raining.",
+      "es": "下雨 = está lloviendo.",
+      "ja": "下雨＝雨が降っています。",
+      "ko": "下雨 = 비가 옵니다.",
+      "vi": "下雨 = trời mưa."
+    },
+    "options_json": {
+      "en": "[{\"id\":\"A\",\"text\":\"It is raining.\"},{\"id\":\"B\",\"text\":\"It is windy.\"},{\"id\":\"C\",\"text\":\"It is hot.\"},{\"id\":\"D\",\"text\":\"It is cold.\"}]",
+      "es": "[{\"id\":\"A\",\"text\":\"Está lloviendo.\"},{\"id\":\"B\",\"text\":\"Hace viento.\"},{\"id\":\"C\",\"text\":\"Hace calor.\"},{\"id\":\"D\",\"text\":\"Hace frío.\"}]",
+      "ja": "[{\"id\":\"A\",\"text\":\"雨が降っています\"},{\"id\":\"B\",\"text\":\"風が強いです\"},{\"id\":\"C\",\"text\":\"暑いです\"},{\"id\":\"D\",\"text\":\"寒いです\"}]",
+      "ko": "[{\"id\":\"A\",\"text\":\"비가 옵니다\"},{\"id\":\"B\",\"text\":\"바람이 붑니다\"},{\"id\":\"C\",\"text\":\"덥습니다\"},{\"id\":\"D\",\"text\":\"춥습니다\"}]",
+      "vi": "[{\"id\":\"A\",\"text\":\"Trời mưa.\"},{\"id\":\"B\",\"text\":\"Có gió.\"},{\"id\":\"C\",\"text\":\"Trời nóng.\"},{\"id\":\"D\",\"text\":\"Trời lạnh.\"}]"
+    },
+    "correct_answer_value": "A",
+    "test_types": ["Reading", "Listening"]
+  },
+  {
+    "question_id": 87,
+    "provider_id": "system",
+    "question_text": {
+      "en": "他在图书馆学习。 Where is he?",
+      "es": "他在图书馆学习。 ¿Dónde está?",
+      "ja": "他在图书馆学习。 どこにいますか。",
+      "ko": "他在图书馆学习。 그는 어디에 있나요?",
+      "vi": "他在图书馆学习。 Anh ấy ở đâu?"
+    },
+    "question_type": "MCQ",
+    "category": "HSK 1",
+    "langLevel": "HSK1",
+    "status": "Approved",
+    "explanation": {
+      "en": "在图书馆 = at the library.",
+      "es": "在图书馆 = en la biblioteca.",
+      "ja": "在图书馆＝図書館に。",
+      "ko": "在图书馆 = 도서관에.",
+      "vi": "在图书馆 = ở thư viện."
+    },
+    "options_json": {
+      "en": "[{\"id\":\"A\",\"text\":\"at the library\"},{\"id\":\"B\",\"text\":\"at home\"},{\"id\":\"C\",\"text\":\"at school\"},{\"id\":\"D\",\"text\":\"at the hospital\"}]",
+      "es": "[{\"id\":\"A\",\"text\":\"en la biblioteca\"},{\"id\":\"B\",\"text\":\"en casa\"},{\"id\":\"C\",\"text\":\"en la escuela\"},{\"id\":\"D\",\"text\":\"en el hospital\"}]",
+      "ja": "[{\"id\":\"A\",\"text\":\"図書館に\"},{\"id\":\"B\",\"text\":\"家に\"},{\"id\":\"C\",\"text\":\"学校に\"},{\"id\":\"D\",\"text\":\"病院に\"}]",
+      "ko": "[{\"id\":\"A\",\"text\":\"도서관에\"},{\"id\":\"B\",\"text\":\"집에\"},{\"id\":\"C\",\"text\":\"학교에\"},{\"id\":\"D\",\"text\":\"병원에\"}]",
+      "vi": "[{\"id\":\"A\",\"text\":\"ở thư viện\"},{\"id\":\"B\",\"text\":\"ở nhà\"},{\"id\":\"C\",\"text\":\"ở trường\"},{\"id\":\"D\",\"text\":\"ở bệnh viện\"}]"
+    },
+    "correct_answer_value": "A",
+    "test_types": ["Reading", "Listening"]
+  },
+  {
+    "question_id": 88,
+    "provider_id": "system",
+    "question_text": {
+      "en": "我有两杯茶。 How many cups of tea do I have?",
+      "es": "我有两杯茶。 ¿Cuántas tazas de té tengo?",
+      "ja": "我有两杯茶。 お茶は何杯ありますか。",
+      "ko": "我有两杯茶。 차가 몇 잔 있나요?",
+      "vi": "我有两杯茶。 Tôi có mấy cốc trà?"
+    },
+    "question_type": "MCQ",
+    "category": "HSK 1",
+    "langLevel": "HSK1",
+    "status": "Approved",
+    "explanation": {
+      "en": "两杯茶 = two cups of tea.",
+      "es": "两杯茶 = dos tazas de té.",
+      "ja": "两杯茶＝お茶二杯。",
+      "ko": "两杯茶 = 차 두 잔.",
+      "vi": "两杯茶 = hai cốc trà."
+    },
+    "options_json": {
+      "en": "[{\"id\":\"A\",\"text\":\"two\"},{\"id\":\"B\",\"text\":\"three\"},{\"id\":\"C\",\"text\":\"one\"},{\"id\":\"D\",\"text\":\"four\"}]",
+      "es": "[{\"id\":\"A\",\"text\":\"dos\"},{\"id\":\"B\",\"text\":\"tres\"},{\"id\":\"C\",\"text\":\"uno\"},{\"id\":\"D\",\"text\":\"cuatro\"}]",
+      "ja": "[{\"id\":\"A\",\"text\":\"二\"},{\"id\":\"B\",\"text\":\"三\"},{\"id\":\"C\",\"text\":\"一\"},{\"id\":\"D\",\"text\":\"四\"}]",
+      "ko": "[{\"id\":\"A\",\"text\":\"둘\"},{\"id\":\"B\",\"text\":\"셋\"},{\"id\":\"C\",\"text\":\"하나\"},{\"id\":\"D\",\"text\":\"넷\"}]",
+      "vi": "[{\"id\":\"A\",\"text\":\"hai\"},{\"id\":\"B\",\"text\":\"ba\"},{\"id\":\"C\",\"text\":\"một\"},{\"id\":\"D\",\"text\":\"bốn\"}]"
+    },
+    "correct_answer_value": "A",
+    "test_types": ["Reading", "Listening"]
+  },
+  {
+    "question_id": 89,
+    "provider_id": "system",
+    "question_text": {
+      "en": "这儿有洗手间吗？ What is being asked?",
+      "es": "这儿有洗手间吗？ ¿Qué se pregunta?",
+      "ja": "这儿有洗手间吗？ 何を聞いていますか。",
+      "ko": "这儿有洗手间吗？ 무엇을 묻고 있나요?",
+      "vi": "这儿有洗手间吗？ Đang hỏi điều gì?"
+    },
+    "question_type": "MCQ",
+    "category": "HSK 1",
+    "langLevel": "HSK1",
+    "status": "Approved",
+    "explanation": {
+      "en": "Asks whether there's a restroom here.",
+      "es": "Pregunta si hay baño aquí.",
+      "ja": "ここにトイレがあるかどうかを尋ねています。",
+      "ko": "여기에 화장실이 있는지 묻습니다.",
+      "vi": "Hỏi có nhà vệ sinh ở đây không."
+    },
+    "options_json": {
+      "en": "[{\"id\":\"A\",\"text\":\"Is there a restroom here?\"},{\"id\":\"B\",\"text\":\"Where is the hospital?\"},{\"id\":\"C\",\"text\":\"What time is it?\"},{\"id\":\"D\",\"text\":\"How much is it?\"}]",
+      "es": "[{\"id\":\"A\",\"text\":\"¿Hay un baño aquí?\"},{\"id\":\"B\",\"text\":\"¿Dónde está el hospital?\"},{\"id\":\"C\",\"text\":\"¿Qué hora es?\"},{\"id\":\"D\",\"text\":\"¿Cuánto cuesta?\"}]",
+      "ja": "[{\"id\":\"A\",\"text\":\"ここにトイレはありますか？\"},{\"id\":\"B\",\"text\":\"病院はどこですか？\"},{\"id\":\"C\",\"text\":\"今何時ですか？\"},{\"id\":\"D\",\"text\":\"いくらですか？\"}]",
+      "ko": "[{\"id\":\"A\",\"text\":\"여기에 화장실이 있나요?\"},{\"id\":\"B\",\"text\":\"병원은 어디에 있나요?\"},{\"id\":\"C\",\"text\":\"지금 몇 시예요?\"},{\"id\":\"D\",\"text\":\"얼마예요?\"}]",
+      "vi": "[{\"id\":\"A\",\"text\":\"Ở đây có nhà vệ sinh không?\"},{\"id\":\"B\",\"text\":\"Bệnh viện ở đâu?\"},{\"id\":\"C\",\"text\":\"Mấy giờ rồi?\"},{\"id\":\"D\",\"text\":\"Bao nhiêu tiền?\"}]"
+    },
+    "correct_answer_value": "A",
+    "test_types": ["Reading", "Listening"]
+  },
+  {
+    "question_id": 90,
+    "provider_id": "system",
+    "question_text": {
+      "en": "她在商店买东西。 Where is she?",
+      "es": "她在商店买东西。 ¿Dónde está?",
+      "ja": "她在商店买东西。 どこにいますか。",
+      "ko": "她在商店买东西。 그녀는 어디에 있나요?",
+      "vi": "她在商店买东西。 Cô ấy ở đâu?"
+    },
+    "question_type": "MCQ",
+    "category": "HSK 1",
+    "langLevel": "HSK1",
+    "status": "Approved",
+    "explanation": {
+      "en": "在商店 = at the shop/store.",
+      "es": "在商店 = en la tienda.",
+      "ja": "在商店＝店で。",
+      "ko": "在商店 = 가게에.",
+      "vi": "在商店 = ở cửa hàng."
+    },
+    "options_json": {
+      "en": "[{\"id\":\"A\",\"text\":\"at the shop\"},{\"id\":\"B\",\"text\":\"at the airport\"},{\"id\":\"C\",\"text\":\"at the library\"},{\"id\":\"D\",\"text\":\"at home\"}]",
+      "es": "[{\"id\":\"A\",\"text\":\"en la tienda\"},{\"id\":\"B\",\"text\":\"en el aeropuerto\"},{\"id\":\"C\",\"text\":\"en la biblioteca\"},{\"id\":\"D\",\"text\":\"en casa\"}]",
+      "ja": "[{\"id\":\"A\",\"text\":\"店で\"},{\"id\":\"B\",\"text\":\"空港で\"},{\"id\":\"C\",\"text\":\"図書館で\"},{\"id\":\"D\",\"text\":\"家で\"}]",
+      "ko": "[{\"id\":\"A\",\"text\":\"가게에\"},{\"id\":\"B\",\"text\":\"공항에\"},{\"id\":\"C\",\"text\":\"도서관에\"},{\"id\":\"D\",\"text\":\"집에\"}]",
+      "vi": "[{\"id\":\"A\",\"text\":\"ở cửa hàng\"},{\"id\":\"B\",\"text\":\"ở sân bay\"},{\"id\":\"C\",\"text\":\"ở thư viện\"},{\"id\":\"D\",\"text\":\"ở nhà\"}]"
+    },
+    "correct_answer_value": "A",
+    "test_types": ["Reading", "Listening"]
+  },
+  {
+    "question_id": 91,
+    "provider_id": "system",
+    "question_text": {
+      "en": "他们在车站等。 Where are they?",
+      "es": "他们在车站等。 ¿Dónde están?",
+      "ja": "他们在车站等。 どこにいますか。",
+      "ko": "他们在车站等。 그들은 어디에 있나요?",
+      "vi": "他们在车站等。 Họ ở đâu?"
+    },
+    "question_type": "MCQ",
+    "category": "HSK 1",
+    "langLevel": "HSK1",
+    "status": "Approved",
+    "explanation": {
+      "en": "在车站 = at the station.",
+      "es": "在车站 = en la estación.",
+      "ja": "在车站＝駅で。",
+      "ko": "在车站 = 역에서.",
+      "vi": "在车站 = ở nhà ga."
+    },
+    "options_json": {
+      "en": "[{\"id\":\"A\",\"text\":\"at the station\"},{\"id\":\"B\",\"text\":\"at school\"},{\"id\":\"C\",\"text\":\"at the cinema\"},{\"id\":\"D\",\"text\":\"at the restaurant\"}]",
+      "es": "[{\"id\":\"A\",\"text\":\"en la estación\"},{\"id\":\"B\",\"text\":\"en la escuela\"},{\"id\":\"C\",\"text\":\"en el cine\"},{\"id\":\"D\",\"text\":\"en el restaurante\"}]",
+      "ja": "[{\"id\":\"A\",\"text\":\"駅で\"},{\"id\":\"B\",\"text\":\"学校で\"},{\"id\":\"C\",\"text\":\"映画館で\"},{\"id\":\"D\",\"text\":\"レストランで\"}]",
+      "ko": "[{\"id\":\"A\",\"text\":\"역에서\"},{\"id\":\"B\",\"text\":\"학교에서\"},{\"id\":\"C\",\"text\":\"영화관에서\"},{\"id\":\"D\",\"text\":\"식당에서\"}]",
+      "vi": "[{\"id\":\"A\",\"text\":\"ở nhà ga\"},{\"id\":\"B\",\"text\":\"ở trường\"},{\"id\":\"C\",\"text\":\"ở rạp chiếu phim\"},{\"id\":\"D\",\"text\":\"ở nhà hàng\"}]"
+    },
+    "correct_answer_value": "A",
+    "test_types": ["Reading", "Listening"]
+  },
+  {
+    "question_id": 92,
+    "provider_id": "system",
+    "question_text": {
+      "en": "他不会开车。 What can’t he do?",
+      "es": "他不会开车。 ¿Qué no puede hacer?",
+      "ja": "他不会开车。 何ができませんか。",
+      "ko": "他不会开车。 무엇을 못하나요?",
+      "vi": "他不会开车。 Anh ấy không thể làm gì?"
+    },
+    "question_type": "MCQ",
+    "category": "HSK 1",
+    "langLevel": "HSK1",
+    "status": "Approved",
+    "explanation": {
+      "en": "不会开车 = cannot drive.",
+      "es": "不会开车 = no puede conducir.",
+      "ja": "不会开车＝運転できない。",
+      "ko": "不会开车 = 운전할 수 없다.",
+      "vi": "不会开车 = không biết lái xe."
+    },
+    "options_json": {
+      "en": "[{\"id\":\"A\",\"text\":\"drive a car\"},{\"id\":\"B\",\"text\":\"read a book\"},{\"id\":\"C\",\"text\":\"sing\"},{\"id\":\"D\",\"text\":\"eat\"}]",
+      "es": "[{\"id\":\"A\",\"text\":\"conducir un coche\"},{\"id\":\"B\",\"text\":\"leer un libro\"},{\"id\":\"C\",\"text\":\"cantar\"},{\"id\":\"D\",\"text\":\"comer\"}]",
+      "ja": "[{\"id\":\"A\",\"text\":\"車を運転する\"},{\"id\":\"B\",\"text\":\"本を読む\"},{\"id\":\"C\",\"text\":\"歌う\"},{\"id\":\"D\",\"text\":\"食べる\"}]",
+      "ko": "[{\"id\":\"A\",\"text\":\"차를 운전하다\"},{\"id\":\"B\",\"text\":\"책을 읽다\"},{\"id\":\"C\",\"text\":\"노래하다\"},{\"id\":\"D\",\"text\":\"먹다\"}]",
+      "vi": "[{\"id\":\"A\",\"text\":\"lái xe\"},{\"id\":\"B\",\"text\":\"đọc sách\"},{\"id\":\"C\",\"text\":\"hát\"},{\"id\":\"D\",\"text\":\"ăn\"}]"
+    },
+    "correct_answer_value": "A",
+    "test_types": ["Reading", "Listening"]
+  },
+  {
+    "question_id": 93,
+    "provider_id": "system",
+    "question_text": {
+      "en": "请问，图书馆怎么走？ What is being asked?",
+      "es": "请问，图书馆怎么走？ ¿Qué se pregunta?",
+      "ja": "请问，图书馆怎么走？ 何を聞いていますか。",
+      "ko": "请问，图书馆怎么走？ 무엇을 묻고 있나요?",
+      "vi": "请问，图书馆怎么走？ Đang hỏi điều gì?"
+    },
+    "question_type": "MCQ",
+    "category": "HSK 1",
+    "langLevel": "HSK1",
+    "status": "Approved",
+    "explanation": {
+      "en": "Asks for directions to the library.",
+      "es": "Pregunta cómo ir a la biblioteca.",
+      "ja": "図書館への行き方を尋ねています。",
+      "ko": "도서관에 가는 길을 묻습니다.",
+      "vi": "Hỏi đường đến thư viện."
+    },
+    "options_json": {
+      "en": "[{\"id\":\"A\",\"text\":\"How to get to the library?\"},{\"id\":\"B\",\"text\":\"How much is the book?\"},{\"id\":\"C\",\"text\":\"What time is it?\"},{\"id\":\"D\",\"text\":\"Where is home?\"}]",
+      "es": "[{\"id\":\"A\",\"text\":\"¿Cómo llegar a la biblioteca?\"},{\"id\":\"B\",\"text\":\"¿Cuánto cuesta el libro?\"},{\"id\":\"C\",\"text\":\"¿Qué hora es?\"},{\"id\":\"D\",\"text\":\"¿Dónde está casa?\"}]",
+      "ja": "[{\"id\":\"A\",\"text\":\"図書館へはどう行きますか？\"},{\"id\":\"B\",\"text\":\"本はいくらですか？\"},{\"id\":\"C\",\"text\":\"今何時ですか？\"},{\"id\":\"D\",\"text\":\"家はどこですか？\"}]",
+      "ko": "[{\"id\":\"A\",\"text\":\"도서관에는 어떻게 가요?\"},{\"id\":\"B\",\"text\":\"책은 얼마예요?\"},{\"id\":\"C\",\"text\":\"지금 몇 시예요?\"},{\"id\":\"D\",\"text\":\"집은 어디예요?\"}]",
+      "vi": "[{\"id\":\"A\",\"text\":\"Đi thư viện như thế nào?\"},{\"id\":\"B\",\"text\":\"Cuốn sách giá bao nhiêu?\"},{\"id\":\"C\",\"text\":\"Mấy giờ rồi?\"},{\"id\":\"D\",\"text\":\"Nhà ở đâu?\"}]"
+    },
+    "correct_answer_value": "A",
+    "test_types": ["Reading", "Listening"]
+  },
+  {
+    "question_id": 94,
+    "provider_id": "system",
+    "question_text": {
+      "en": "你今年几岁？ What is being asked?",
+      "es": "你今年几岁？ ¿Qué se pregunta?",
+      "ja": "你今年几岁？ 何を聞いていますか。",
+      "ko": "你今年几岁？ 무엇을 묻고 있나요?",
+      "vi": "你今年几岁？ Đang hỏi điều gì?"
+    },
+    "question_type": "MCQ",
+    "category": "HSK 1",
+    "langLevel": "HSK1",
+    "status": "Approved",
+    "explanation": {
+      "en": "Asks someone's age this year.",
+      "es": "Pregunta la edad de esta persona este año.",
+      "ja": "今年の年齢を尋ねています。",
+      "ko": "올해 나이를 묻습니다.",
+      "vi": "Hỏi tuổi năm nay."
+    },
+    "options_json": {
+      "en": "[{\"id\":\"A\",\"text\":\"How old are you this year?\"},{\"id\":\"B\",\"text\":\"What is your name?\"},{\"id\":\"C\",\"text\":\"Where do you live?\"},{\"id\":\"D\",\"text\":\"Are you a student?\"}]",
+      "es": "[{\"id\":\"A\",\"text\":\"¿Cuántos años tienes este año?\"},{\"id\":\"B\",\"text\":\"¿Cómo te llamas?\"},{\"id\":\"C\",\"text\":\"¿Dónde vives?\"},{\"id\":\"D\",\"text\":\"¿Eres estudiante?\"}]",
+      "ja": "[{\"id\":\"A\",\"text\":\"今年は何歳ですか？\"},{\"id\":\"B\",\"text\":\"お名前は何ですか？\"},{\"id\":\"C\",\"text\":\"どこに住んでいますか？\"},{\"id\":\"D\",\"text\":\"学生ですか？\"}]",
+      "ko": "[{\"id\":\"A\",\"text\":\"올해 몇 살이에요?\"},{\"id\":\"B\",\"text\":\"이름이 무엇인가요?\"},{\"id\":\"C\",\"text\":\"어디에 살아요?\"},{\"id\":\"D\",\"text\":\"학생인가요?\"}]",
+      "vi": "[{\"id\":\"A\",\"text\":\"Năm nay bạn bao nhiêu tuổi?\"},{\"id\":\"B\",\"text\":\"Bạn tên là gì?\"},{\"id\":\"C\",\"text\":\"Bạn sống ở đâu?\"},{\"id\":\"D\",\"text\":\"Bạn có phải là học sinh không?\"}]"
+    },
+    "correct_answer_value": "A",
+    "test_types": ["Reading", "Listening"]
+  },
+  {
+    "question_id": 95,
+    "provider_id": "system",
+    "question_text": {
+      "en": "现在十点二十分。 What time is it now?",
+      "es": "现在十点二十分。 ¿Qué hora es ahora?",
+      "ja": "现在十点二十分。 今何時ですか。",
+      "ko": "现在十点二十分。 지금 몇 시예요?",
+      "vi": "现在十点二十分。 Bây giờ là mấy giờ?"
+    },
+    "question_type": "MCQ",
+    "category": "HSK 1",
+    "langLevel": "HSK1",
+    "status": "Approved",
+    "explanation": {
+      "en": "十点二十(分) = 10:20.",
+      "es": "十点二十(分) = 10:20.",
+      "ja": "十時二十分＝10:20。",
+      "ko": "열 시 이십(분) = 10:20.",
+      "vi": "10 giờ 20 phút = 10:20."
+    },
+    "options_json": {
+      "en": "[{\"id\":\"A\",\"text\":\"10:20\"},{\"id\":\"B\",\"text\":\"10:02\"},{\"id\":\"C\",\"text\":\"2:10\"},{\"id\":\"D\",\"text\":\"9:20\"}]",
+      "es": "[{\"id\":\"A\",\"text\":\"10:20\"},{\"id\":\"B\",\"text\":\"10:02\"},{\"id\":\"C\",\"text\":\"2:10\"},{\"id\":\"D\",\"text\":\"9:20\"}]",
+      "ja": "[{\"id\":\"A\",\"text\":\"10:20\"},{\"id\":\"B\",\"text\":\"10:02\"},{\"id\":\"C\",\"text\":\"2:10\"},{\"id\":\"D\",\"text\":\"9:20\"}]",
+      "ko": "[{\"id\":\"A\",\"text\":\"10:20\"},{\"id\":\"B\",\"text\":\"10:02\"},{\"id\":\"C\",\"text\":\"2:10\"},{\"id\":\"D\",\"text\":\"9:20\"}]",
+      "vi": "[{\"id\":\"A\",\"text\":\"10:20\"},{\"id\":\"B\",\"text\":\"10:02\"},{\"id\":\"C\",\"text\":\"2:10\"},{\"id\":\"D\",\"text\":\"9:20\"}]"
+    },
+    "correct_answer_value": "A",
+    "test_types": ["Reading", "Listening"]
+  },
+  {
+    "question_id": 96,
+    "provider_id": "system",
+    "question_text": {
+      "en": "我在医院看病。 Where am I?",
+      "es": "我在医院看病。 ¿Dónde estoy?",
+      "ja": "我在医院看病。 どこにいますか。",
+      "ko": "我在医院看病。 저는 어디에 있나요?",
+      "vi": "我在医院看病。 Tôi đang ở đâu?"
+    },
+    "question_type": "MCQ",
+    "category": "HSK 1",
+    "langLevel": "HSK1",
+    "status": "Approved",
+    "explanation": {
+      "en": "在医院 = at the hospital.",
+      "es": "在医院 = en el hospital.",
+      "ja": "在医院＝病院に。",
+      "ko": "在医院 = 병원에.",
+      "vi": "在医院 = ở bệnh viện."
+    },
+    "options_json": {
+      "en": "[{\"id\":\"A\",\"text\":\"at the hospital\"},{\"id\":\"B\",\"text\":\"at the school\"},{\"id\":\"C\",\"text\":\"at the shop\"},{\"id\":\"D\",\"text\":\"at home\"}]",
+      "es": "[{\"id\":\"A\",\"text\":\"en el hospital\"},{\"id\":\"B\",\"text\":\"en la escuela\"},{\"id\":\"C\",\"text\":\"en la tienda\"},{\"id\":\"D\",\"text\":\"en casa\"}]",
+      "ja": "[{\"id\":\"A\",\"text\":\"病院に\"},{\"id\":\"B\",\"text\":\"学校に\"},{\"id\":\"C\",\"text\":\"店に\"},{\"id\":\"D\",\"text\":\"家に\"}]",
+      "ko": "[{\"id\":\"A\",\"text\":\"병원에\"},{\"id\":\"B\",\"text\":\"학교에\"},{\"id\":\"C\",\"text\":\"가게에\"},{\"id\":\"D\",\"text\":\"집에\"}]",
+      "vi": "[{\"id\":\"A\",\"text\":\"ở bệnh viện\"},{\"id\":\"B\",\"text\":\"ở trường\"},{\"id\":\"C\",\"text\":\"ở cửa hàng\"},{\"id\":\"D\",\"text\":\"ở nhà\"}]"
+    },
+    "correct_answer_value": "A",
+    "test_types": ["Reading", "Listening"]
+  },
+  {
+    "question_id": 97,
+    "provider_id": "system",
+    "question_text": {
+      "en": "她在饭店吃面条儿。 What is she eating?",
+      "es": "她在饭店吃面条儿。 ¿Qué está comiendo?",
+      "ja": "她在饭店吃面条儿。 何を食べていますか。",
+      "ko": "她在饭店吃面条儿。 무엇을 먹고 있나요?",
+      "vi": "她在饭店吃面条儿。 Cô ấy đang ăn gì?"
+    },
+    "question_type": "MCQ",
+    "category": "HSK 1",
+    "langLevel": "HSK1",
+    "status": "Approved",
+    "explanation": {
+      "en": "面条儿 = noodles.",
+      "es": "面条儿 = fideos.",
+      "ja": "面条儿＝麺。",
+      "ko": "面条儿 = 국수.",
+      "vi": "面条儿 = mì sợi."
+    },
+    "options_json": {
+      "en": "[{\"id\":\"A\",\"text\":\"noodles\"},{\"id\":\"B\",\"text\":\"rice\"},{\"id\":\"C\",\"text\":\"apples\"},{\"id\":\"D\",\"text\":\"eggs\"}]",
+      "es": "[{\"id\":\"A\",\"text\":\"fideos\"},{\"id\":\"B\",\"text\":\"arroz\"},{\"id\":\"C\",\"text\":\"manzanas\"},{\"id\":\"D\",\"text\":\"huevos\"}]",
+      "ja": "[{\"id\":\"A\",\"text\":\"麺\"},{\"id\":\"B\",\"text\":\"ご飯\"},{\"id\":\"C\",\"text\":\"りんご\"},{\"id\":\"D\",\"text\":\"卵\"}]",
+      "ko": "[{\"id\":\"A\",\"text\":\"국수\"},{\"id\":\"B\",\"text\":\"밥\"},{\"id\":\"C\",\"text\":\"사과\"},{\"id\":\"D\",\"text\":\"달걀\"}]",
+      "vi": "[{\"id\":\"A\",\"text\":\"mì\"},{\"id\":\"B\",\"text\":\"cơm\"},{\"id\":\"C\",\"text\":\"táo\"},{\"id\":\"D\",\"text\":\"trứng\"}]"
+    },
+    "correct_answer_value": "A",
+    "test_types": ["Reading", "Listening"]
+  },
+  {
+    "question_id": 98,
+    "provider_id": "system",
+    "question_text": {
+      "en": "他的手机在桌子上。 Where is his phone?",
+      "es": "他的手机在桌子上。 ¿Dónde está su móvil?",
+      "ja": "他的手机在桌子上。 彼の携帯はどこにありますか。",
+      "ko": "他的手机在桌子上。 그의 휴대폰은 어디에 있나요?",
+      "vi": "他的手机在桌子上。 Điện thoại của anh ấy ở đâu?"
+    },
+    "question_type": "MCQ",
+    "category": "HSK 1",
+    "langLevel": "HSK1",
+    "status": "Approved",
+    "explanation": {
+      "en": "在桌子上 = on the table.",
+      "es": "在桌子上 = sobre la mesa.",
+      "ja": "在桌子上＝机の上。",
+      "ko": "在桌子上 = 책상 위에.",
+      "vi": "在桌子上 = trên bàn."
+    },
+    "options_json": {
+      "en": "[{\"id\":\"A\",\"text\":\"on the table\"},{\"id\":\"B\",\"text\":\"under the chair\"},{\"id\":\"C\",\"text\":\"in the bag\"},{\"id\":\"D\",\"text\":\"on the bed\"}]",
+      "es": "[{\"id\":\"A\",\"text\":\"sobre la mesa\"},{\"id\":\"B\",\"text\":\"debajo de la silla\"},{\"id\":\"C\",\"text\":\"en la mochila\"},{\"id\":\"D\",\"text\":\"en la cama\"}]",
+      "ja": "[{\"id\":\"A\",\"text\":\"机の上\"},{\"id\":\"B\",\"text\":\"いすの下\"},{\"id\":\"C\",\"text\":\"かばんの中\"},{\"id\":\"D\",\"text\":\"ベッドの上\"}]",
+      "ko": "[{\"id\":\"A\",\"text\":\"책상 위\"},{\"id\":\"B\",\"text\":\"의자 아래\"},{\"id\":\"C\",\"text\":\"가방 안\"},{\"id\":\"D\",\"text\":\"침대 위\"}]",
+      "vi": "[{\"id\":\"A\",\"text\":\"trên bàn\"},{\"id\":\"B\",\"text\":\"dưới ghế\"},{\"id\":\"C\",\"text\":\"trong cặp\"},{\"id\":\"D\",\"text\":\"trên giường\"}]"
+    },
+    "correct_answer_value": "A",
+    "test_types": ["Reading", "Listening"]
+  },
+  {
+    "question_id": 99,
+    "provider_id": "system",
+    "question_text": {
+      "en": "我们明年回家。 When will we go home?",
+      "es": "我们明年回家。 ¿Cuándo volveremos a casa?",
+      "ja": "我们明年回家。 いつ家に帰りますか。",
+      "ko": "我们明年回家。 우리는 언제 집에 돌아가나요?",
+      "vi": "我们明年回家。 Khi nào chúng ta về nhà?"
+    },
+    "question_type": "MCQ",
+    "category": "HSK 1",
+    "langLevel": "HSK1",
+    "status": "Approved",
+    "explanation": {
+      "en": "明年 = next year.",
+      "es": "明年 = el próximo año.",
+      "ja": "明年＝来年。",
+      "ko": "明年 = 내년.",
+      "vi": "明年 = năm sau."
+    },
+    "options_json": {
+      "en": "[{\"id\":\"A\",\"text\":\"next year\"},{\"id\":\"B\",\"text\":\"yesterday\"},{\"id\":\"C\",\"text\":\"today\"},{\"id\":\"D\",\"text\":\"tomorrow\"}]",
+      "es": "[{\"id\":\"A\",\"text\":\"el próximo año\"},{\"id\":\"B\",\"text\":\"ayer\"},{\"id\":\"C\",\"text\":\"hoy\"},{\"id\":\"D\",\"text\":\"mañana\"}]",
+      "ja": "[{\"id\":\"A\",\"text\":\"来年\"},{\"id\":\"B\",\"text\":\"昨日\"},{\"id\":\"C\",\"text\":\"今日\"},{\"id\":\"D\",\"text\":\"明日\"}]",
+      "ko": "[{\"id\":\"A\",\"text\":\"내년\"},{\"id\":\"B\",\"text\":\"어제\"},{\"id\":\"C\",\"text\":\"오늘\"},{\"id\":\"D\",\"text\":\"내일\"}]",
+      "vi": "[{\"id\":\"A\",\"text\":\"năm sau\"},{\"id\":\"B\",\"text\":\"hôm qua\"},{\"id\":\"C\",\"text\":\"hôm nay\"},{\"id\":\"D\",\"text\":\"ngày mai\"}]"
+    },
+    "correct_answer_value": "A",
+    "test_types": ["Reading", "Listening"]
+  },
+  {
+    "question_id": 100,
+    "provider_id": "system",
+    "question_text": {
+      "en": "他给我打了电话。 What did he do?",
+      "es": "他给我打了电话。 ¿Qué hizo?",
+      "ja": "他给我打了电话。 何をしましたか。",
+      "ko": "他给我打了电话。 그는 무엇을 했나요?",
+      "vi": "他给我打了电话。 Anh ấy đã làm gì?"
+    },
+    "question_type": "MCQ",
+    "category": "HSK 1",
+    "langLevel": "HSK1",
+    "status": "Approved",
+    "explanation": {
+      "en": "给…打电话 = call someone.",
+      "es": "给…打电话 = llamar a alguien.",
+      "ja": "给…打电话＝（人に）電話をかける。",
+      "ko": "给…打电话 = 누구에게 전화하다.",
+      "vi": "给…打电话 = gọi điện cho ai đó."
+    },
+    "options_json": {
+      "en": "[{\"id\":\"A\",\"text\":\"He called me.\"},{\"id\":\"B\",\"text\":\"He wrote to me.\"},{\"id\":\"C\",\"text\":\"He bought me tea.\"},{\"id\":\"D\",\"text\":\"He saw me yesterday.\"}]",
+      "es": "[{\"id\":\"A\",\"text\":\"Él me llamó.\"},{\"id\":\"B\",\"text\":\"Él me escribió.\"},{\"id\":\"C\",\"text\":\"Él me compró té.\"},{\"id\":\"D\",\"text\":\"Él me vio ayer.\"}]",
+      "ja": "[{\"id\":\"A\",\"text\":\"彼は私に電話をかけた。\"},{\"id\":\"B\",\"text\":\"彼は私に手紙を書いた。\"},{\"id\":\"C\",\"text\":\"彼は私にお茶を買った。\"},{\"id\":\"D\",\"text\":\"彼は昨日私に会った。\"}]",
+      "ko": "[{\"id\":\"A\",\"text\":\"그는 나에게 전화했다.\"},{\"id\":\"B\",\"text\":\"그는 나에게 글을 썼다.\"},{\"id\":\"C\",\"text\":\"그는 나에게 차를 사줬다.\"},{\"id\":\"D\",\"text\":\"그는 어제 나를 봤다.\"}]",
+      "vi": "[{\"id\":\"A\",\"text\":\"Anh ấy đã gọi cho tôi.\"},{\"id\":\"B\",\"text\":\"Anh ấy đã viết cho tôi.\"},{\"id\":\"C\",\"text\":\"Anh ấy đã mua trà cho tôi.\"},{\"id\":\"D\",\"text\":\"Anh ấy đã gặp tôi hôm qua.\"}]"
+    },
+    "correct_answer_value": "A",
+    "test_types": ["Reading", "Listening"]
+  }
+]

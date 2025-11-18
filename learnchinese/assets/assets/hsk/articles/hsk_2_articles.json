@@ -1,0 +1,1147 @@
+[
+  {
+    "article_id": 11,
+    "langLevel": "HSK2",
+    "sentences": [
+      {
+        "zh": "A: 周末我们去看电影，怎么样？",
+        "pinyin": "A: Zhōumò wǒmen qù kàn diànyǐng, zěnmeyàng?",
+        "translations": {
+          "en": "A: How about we go see a movie this weekend?",
+          "es": "A: ¿Qué te parece si vamos a ver una película este fin de semana?",
+          "ko": "A: 주말에 우리 영화 보러 가는 거 어때요?",
+          "ja": "A: 週末に映画を見に行くのはどうですか？",
+          "vi": "A: Cuối tuần chúng ta đi xem phim nhé, thế nào?"
+        }
+      },
+      {
+        "zh": "B: 不太好。我已经看过了，而且昨天下了很大的雨。",
+        "pinyin": "B: Bú tài hǎo. Wǒ yǐjīng kàn guo le, érqiě zuótiān xià le hěn dà de yǔ.",
+        "translations": {
+          "en": "B: Not so good. I've already seen it, and it rained heavily yesterday.",
+          "es": "B: No muy bien. Ya la he visto, y además ayer llovió mucho.",
+          "ko": "B: 별로예요. 저는 이미 봤고, 게다가 어제 비가 많이 왔어요.",
+          "ja": "B: あまり良くないです。もう見ましたし、それに昨日大雨が降りました。",
+          "vi": "B: Không hay lắm. Tôi đã xem rồi, hơn nữa hôm qua trời mưa rất to."
+        }
+      },
+      {
+        "zh": "A: 那我们去运动吧。你觉得篮球怎么样？",
+        "pinyin": "A: Nà wǒmen qù yùndòng ba. Nǐ juéde lánqiú zěnmeyàng?",
+        "translations": {
+          "en": "A: Then let's go do some exercise. What do you think about basketball?",
+          "es": "A: Entonces vayamos a hacer ejercicio. ¿Qué te parece el baloncesto?",
+          "ko": "A: 그럼 운동하러 갑시다. 농구는 어때요?",
+          "ja": "A: じゃあ、運動に行きましょう。バスケットボールはどうですか？",
+          "vi": "A: Vậy chúng ta đi tập thể thao đi. Bạn thấy bóng rổ thế nào?"
+        }
+      },
+      {
+        "zh": "B: 好主意！我以前常跟朋友们一起打篮球。",
+        "pinyin": "B: Hǎo zhǔyì! Wǒ yǐqián cháng gēn péngyoumen yīqǐ dǎ lánqiú.",
+        "translations": {
+          "en": "B: Good idea! I used to often play basketball with friends.",
+          "es": "B: ¡Buena idea! Antes solía jugar baloncesto con mis amigos.",
+          "ko": "B: 좋은 생각이에요! 저는 예전에 친구들과 자주 농구를 했어요.",
+          "ja": "B: いい考えですね！私は以前、よく友達と一緒にバスケットボールをしました。",
+          "vi": "B: Ý kiến hay đấy! Trước đây tôi thường chơi bóng rổ cùng bạn bè."
+        }
+      },
+      {
+        "zh": "A: 我们找一个离家近的运动场，三点半出发。",
+        "pinyin": "A: Wǒmen zhǎo yī ge lí jiā jìn de yùndòngchǎng, sān diǎn bàn chūfā.",
+        "translations": {
+          "en": "A: Let's find a sports field close to home and depart at 3:30.",
+          "es": "A: Busquemos un campo de deportes cerca de casa y salgamos a las 3:30.",
+          "ko": "A: 우리 집에서 가까운 운동장을 찾아서, 세 시 반에 출발해요.",
+          "ja": "A: 家から近い運動場を見つけて、3時半に出発しましょう。",
+          "vi": "A: Chúng ta tìm một sân vận động gần nhà, 3 giờ rưỡi xuất phát."
+        }
+      },
+      {
+        "zh": "B: 太好了，到时候我给你打电话。",
+        "pinyin": "B: Tài hǎo le, dào shíhou wǒ gěi nǐ dǎ diànhuà.",
+        "translations": {
+          "en": "B: That's great, I'll call you then.",
+          "es": "B: ¡Genial! Te llamaré en ese momento.",
+          "ko": "B: 정말 잘됐네요, 그때 제가 당신에게 전화할게요.",
+          "ja": "B: それは良かったです、その時になったらあなたに電話します。",
+          "vi": "B: Tuyệt quá, đến lúc đó tôi sẽ gọi điện cho bạn."
+        }
+      },
+      {
+        "zh": "A: 没问题，记得带上你的水。",
+        "pinyin": "A: Méi wèntí, jìde dài shàng nǐ de shuǐ.",
+        "translations": {
+          "en": "A: No problem, remember to bring your water.",
+          "es": "A: No hay problema, recuerda traer tu agua.",
+          "ko": "A: 문제없어요, 물 가져오는 거 잊지 마세요.",
+          "ja": "A: 問題ありません、あなたの水を持ってくるのを覚えておいてください。",
+          "vi": "A: Không vấn đề gì, nhớ mang theo nước của bạn."
+        }
+      }
+    ]
+  },
+  {
+    "article_id": 12,
+    "langLevel": "HSK2",
+    "sentences": [
+      {
+        "zh": "先生，您好！请问您要买什么？",
+        "pinyin": "Xiānshēng, nín hǎo! Qǐngwèn nín yào mǎi shénme?",
+        "translations": {
+          "en": "Hello, sir! May I ask what you want to buy?",
+          "es": "¡Hola, señor! ¿Puedo preguntar qué desea comprar?",
+          "ko": "손님, 안녕하세요! 무엇을 구매하시겠어요?",
+          "ja": "いらっしゃいませ！何を買いたいですか？",
+          "vi": "Chào ngài! Xin hỏi ngài muốn mua gì?"
+        }
+      },
+      {
+        "zh": "我想买一件白色的衬衫，最好是棉的。",
+        "pinyin": "Wǒ xiǎng mǎi yī jiàn báisè de chènshān, zuì hǎo shì mián de.",
+        "translations": {
+          "en": "I want to buy a white shirt, preferably cotton.",
+          "es": "Quiero comprar una camisa blanca, preferiblemente de algodón.",
+          "ko": "저는 흰색 셔츠 한 벌을 사고 싶은데, 면으로 된 것이 가장 좋아요.",
+          "ja": "白いシャツを一枚買いたいのですが、できれば綿のものがいいです。",
+          "vi": "Tôi muốn mua một chiếc áo sơ mi trắng, tốt nhất là bằng cotton."
+        }
+      },
+      {
+        "zh": "这件不错，您觉得它的颜色怎么样？",
+        "pinyin": "Zhè jiàn búcuò, nín juéde tā de yánsè zěnmeyàng?",
+        "translations": {
+          "en": "This one is nice, what do you think of its color?",
+          "es": "Esta está bien, ¿qué le parece su color?",
+          "ko": "이것 괜찮네요, 이 색깔은 어떠세요?",
+          "ja": "これは悪くないですね、この色はいかがですか？",
+          "vi": "Cái này không tệ, ngài thấy màu sắc của nó thế nào?"
+        }
+      },
+      {
+        "zh": "颜色很好，但是这件衣服有点儿长。",
+        "pinyin": "Yánsè hěn hǎo, dànshì zhè jiàn yīfu yǒudiǎnr cháng.",
+        "translations": {
+          "en": "The color is great, but this piece of clothing is a bit long.",
+          "es": "El color es muy bueno, pero esta prenda es un poco larga.",
+          "ko": "색깔은 아주 좋은데, 이 옷은 좀 길어요.",
+          "ja": "色はとても良いですが、この服は少し長すぎます。",
+          "vi": "Màu sắc rất tốt, nhưng chiếc áo này hơi dài."
+        }
+      },
+      {
+        "zh": "没关系，我们有您穿的最小号。",
+        "pinyin": "Méi guānxi, wǒmen yǒu nín chuān de zuì xiǎo hào.",
+        "translations": {
+          "en": "No problem, we have the smallest size for you to wear.",
+          "es": "No importa, tenemos la talla más pequeña para que se la pruebe.",
+          "ko": "괜찮습니다, 손님께서 입으실 수 있는 가장 작은 사이즈가 있어요.",
+          "ja": "大丈夫です、お客様が着るための最小のサイズがございます。",
+          "vi": "Không sao, chúng tôi có size nhỏ nhất để ngài mặc thử."
+        }
+      },
+      {
+        "zh": "请问我可以在哪里试穿呢？",
+        "pinyin": "Qǐngwèn wǒ kěyǐ zài nǎlǐ shì chuān ne?",
+        "translations": {
+          "en": "May I ask where I can try it on?",
+          "es": "¿Puedo preguntar dónde puedo probármela?",
+          "ko": "어디에서 입어 볼 수 있나요?",
+          "ja": "どこで試着できますか？",
+          "vi": "Xin hỏi tôi có thể mặc thử ở đâu?"
+        }
+      },
+      {
+        "zh": "试衣间在那个桌子旁边，请您往右边走。",
+        "pinyin": "Shìyījiān zài nà ge zhuōzi pángbiān, qǐng nín wǎng yòubiān zǒu.",
+        "translations": {
+          "en": "The fitting room is next to that table, please walk to the right side.",
+          "es": "El probador está al lado de esa mesa, por favor, camine hacia la derecha.",
+          "ko": "탈의실은 저 테이블 옆에 있어요, 오른쪽으로 가세요.",
+          "ja": "試着室はあのテーブルの隣です、右の方へお進みください。",
+          "vi": "Phòng thử đồ ở cạnh cái bàn kia, xin mời ngài đi về bên phải."
+        }
+      },
+      {
+        "zh": "好的，如果合适，我就买这件。",
+        "pinyin": "Hǎo de, rúguǒ héshì, wǒ jiù mǎi zhè jiàn.",
+        "translations": {
+          "en": "Okay, if it fits, I will buy this one.",
+          "es": "De acuerdo, si me queda bien, compraré esta.",
+          "ko": "좋아요, 만약 맞으면, 저는 이것을 살 거예요.",
+          "ja": "はい、もし合えば、これを買います。",
+          "vi": "Được rồi, nếu vừa, tôi sẽ mua cái này."
+        }
+      }
+    ]
+  },
+  {
+    "article_id": 13,
+    "langLevel": "HSK2",
+    "sentences": [
+      {
+        "zh": "请问，去火车站怎么走？我有一张票。",
+        "pinyin": "Qǐngwèn, qù huǒchēzhàn zěnme zǒu? Wǒ yǒu yī zhāng piào.",
+        "translations": {
+          "en": "Excuse me, how do I get to the train station? I have a ticket.",
+          "es": "¿Disculpe, cómo voy a la estación de tren? Tengo un billete.",
+          "ko": "실례합니다, 기차역에 어떻게 가나요? 저에게 표가 한 장 있어요.",
+          "ja": "すみません、駅へはどう行けばいいですか？切符が1枚あります。",
+          "vi": "Xin hỏi, đi đến ga xe lửa bằng cách nào? Tôi có một tấm vé."
+        }
+      },
+      {
+        "zh": "火车站离这儿不远，大概有两千米。",
+        "pinyin": "Huǒchēzhàn lí zhèr bù yuǎn, dàgài yǒu liǎng qiān mǐ.",
+        "translations": {
+          "en": "The train station is not far from here, about two kilometers.",
+          "es": "La estación de tren no está lejos de aquí, aproximadamente a dos kilómetros.",
+          "ko": "기차역은 여기서 멀지 않고, 대략 2킬로미터 정도예요.",
+          "ja": "駅はここから遠くなく、およそ2キロメートルあります。",
+          "vi": "Ga xe lửa không xa lắm, khoảng hai nghìn mét (hai kilomet)."
+        }
+      },
+      {
+        "zh": "你应该往前面一直走，然后到路口向左转。",
+        "pinyin": "Nǐ yīnggāi wǎng qiánmiàn yīzhí zǒu, ránhòu dào lùkǒu xiàng zuǒ zhuǎn.",
+        "translations": {
+          "en": "You should walk straight ahead, and then turn left at the intersection.",
+          "es": "Debe seguir recto y luego girar a la izquierda en el cruce.",
+          "ko": "앞으로 계속 걸어가다가, 길모퉁이에서 왼쪽으로 돌아야 해요.",
+          "ja": "あなたは前方にまっすぐ歩き続け、それから交差点で左に曲がるべきです。",
+          "vi": "Bạn nên đi thẳng về phía trước, sau đó rẽ trái ở ngã tư."
+        }
+      },
+      {
+        "zh": "路口？是第二个路口吗？",
+        "pinyin": "Lùkǒu? Shì dì èr ge lùkǒu ma?",
+        "translations": {
+          "en": "Intersection? Is it the second intersection?",
+          "es": "¿Cruce? ¿Es el segundo cruce?",
+          "ko": "길모퉁이요? 두 번째 길모퉁이인가요?",
+          "ja": "交差点ですか？二つ目の交差点ですか？",
+          "vi": "Ngã tư à? Là ngã tư thứ hai sao?"
+        }
+      },
+      {
+        "zh": "不是，是第一个。火车站就在你左边。",
+        "pinyin": "Bú shì, shì dì yī ge. Huǒchēzhàn jiù zài nǐ zuǒbian.",
+        "translations": {
+          "en": "No, it's the first one. The train station is right on your left.",
+          "es": "No, es el primero. La estación de tren está justo a tu izquierda.",
+          "ko": "아니요, 첫 번째예요. 기차역은 바로 당신 왼쪽에 있을 거예요.",
+          "ja": "いいえ、一つ目です。駅はあなたの左側にあります。",
+          "vi": "Không phải, là cái thứ nhất. Ga xe lửa ở ngay bên trái bạn."
+        }
+      },
+      {
+        "zh": "我懂了。谢谢你帮我。",
+        "pinyin": "Wǒ dǒng le. Xièxie nǐ bāng wǒ.",
+        "translations": {
+          "en": "I understand. Thank you for helping me.",
+          "es": "Lo entiendo. Gracias por ayudarme.",
+          "ko": "알겠습니다. 도와줘서 고마워요.",
+          "ja": "分かりました。助けてくれてありがとうございます。",
+          "vi": "Tôi hiểu rồi. Cảm ơn bạn đã giúp tôi."
+        }
+      },
+      {
+        "zh": "不客气，祝你旅途愉快！",
+        "pinyin": "Bú kèqi, zhù nǐ lǚtú yúkuài!",
+        "translations": {
+          "en": "You're welcome, I wish you a pleasant journey!",
+          "es": "De nada, ¡le deseo un viaje agradable!",
+          "ko": "천만에요, 즐거운 여행 되세요!",
+          "ja": "どういたしまして、楽しい旅を！",
+          "vi": "Không có gì, chúc bạn một chuyến đi vui vẻ!"
+        }
+      }
+    ]
+  },
+  {
+    "article_id": 14,
+    "langLevel": "HSK2",
+    "sentences": [
+      {
+        "zh": "今天天气真不错，温度正好，不冷也不热。",
+        "pinyin": "Jīntiān tiānqì zhēn búcuò, wēndù zhènghǎo, bù lěng yě bú rè.",
+        "translations": {
+          "en": "The weather is really nice today, the temperature is just right, neither cold nor hot.",
+          "es": "El clima de hoy es realmente bueno, la temperatura es perfecta, ni fría ni caliente.",
+          "ko": "오늘 날씨 정말 좋네요, 온도가 딱 맞고 춥지도 덥지도 않아요.",
+          "ja": "今日は本当に天気が良いですね、温度もちょうど良く、寒くも暑くもありません。",
+          "vi": "Thời tiết hôm nay thực sự không tồi, nhiệt độ vừa phải, không lạnh cũng không nóng."
+        }
+      },
+      {
+        "zh": "是啊，我最喜欢秋天，因为它很舒服。",
+        "pinyin": "Shì a, wǒ zuì xǐhuan qiūtiān, yīnwèi tā hěn shūfu.",
+        "translations": {
+          "en": "Yes, I like autumn the most because it is very comfortable.",
+          "es": "Sí, lo que más me gusta es el otoño porque es muy cómodo.",
+          "ko": "맞아요, 저는 가을을 가장 좋아해요. 왜냐하면 아주 쾌적하거든요.",
+          "ja": "そうですね、私は秋が一番好きです。なぜならとても快適だからです。",
+          "vi": "Đúng vậy, tôi thích mùa thu nhất vì nó rất dễ chịu."
+        }
+      },
+      {
+        "zh": "冬天下雪的时候虽然很漂亮，但是太冷了。",
+        "pinyin": "Dōngtiān xià xuě de shíhou suīrán hěn piàoliang, dànshì tài lěng le.",
+        "translations": {
+          "en": "Although it's beautiful when it snows in winter, it's too cold.",
+          "es": "Aunque es hermoso cuando nieva en invierno, hace demasiado frío.",
+          "ko": "겨울에 눈이 올 때는 비록 예쁘지만, 너무 추워요.",
+          "ja": "冬に雪が降る時は綺麗ですが、寒すぎます。",
+          "vi": "Mặc dù trời tuyết rơi vào mùa đông rất đẹp, nhưng quá lạnh."
+        }
+      },
+      {
+        "zh": "你觉得夏天怎么样？我听说北方夏天很热。",
+        "pinyin": "Nǐ juéde xiàtiān zěnmeyàng? Wǒ tīngshuō běifāng xiàtiān hěn rè.",
+        "translations": {
+          "en": "What do you think of summer? I heard summer in the north is very hot.",
+          "es": "¿Qué piensas del verano? Escuché que el verano en el norte es muy caluroso.",
+          "ko": "여름은 어때요? 북방의 여름은 매우 덥다고 들었어요.",
+          "ja": "夏についてどう思いますか？北方の夏はとても暑いと聞きました。",
+          "vi": "Bạn thấy mùa hè thế nào? Tôi nghe nói mùa hè ở miền Bắc rất nóng."
+        }
+      },
+      {
+        "zh": "夏天很长，我常常去游泳，所以我不怕热。",
+        "pinyin": "Xiàtiān hěn cháng, wǒ chángcháng qù yóuyǒng, suǒyǐ wǒ bú pà rè.",
+        "translations": {
+          "en": "Summer is long, and I often go swimming, so I am not afraid of the heat.",
+          "es": "El verano es largo, y a menudo voy a nadar, por eso no le temo al calor.",
+          "ko": "여름은 길고, 저는 자주 수영하러 가기 때문에 더위를 무서워하지 않아요.",
+          "ja": "夏は長く、私はよく泳ぎに行くので、暑さを恐れません。",
+          "vi": "Mùa hè rất dài, tôi thường đi bơi, vì vậy tôi không sợ nóng."
+        }
+      },
+      {
+        "zh": "下周天气会变化吗？你看了今天的报纸吗？",
+        "pinyin": "Xià zhōu tiānqì huì biànhuà ma? Nǐ kàn le jīntiān de bàozhǐ ma?",
+        "translations": {
+          "en": "Will the weather change next week? Did you read today's newspaper?",
+          "es": "¿Cambiará el tiempo la próxima semana? ¿Leíste el periódico de hoy?",
+          "ko": "다음 주 날씨가 변할까요? 오늘 신문을 봤어요?",
+          "ja": "来週天気は変わりますか？今日の新聞を読みましたか？",
+          "vi": "Thời tiết tuần sau sẽ thay đổi không? Bạn đã đọc báo hôm nay chưa?"
+        }
+      },
+      {
+        "zh": "我没看。不过没关系，明天早上我会再查一次。",
+        "pinyin": "Wǒ méi kàn. Búguò méi guānxi, míngtiān zǎoshang wǒ huì zài chá yī cì.",
+        "translations": {
+          "en": "I haven't read it. But it doesn't matter, I will check again tomorrow morning.",
+          "es": "No lo he leído. Pero no importa, lo revisaré de nuevo mañana por la mañana.",
+          "ko": "안 봤어요. 하지만 괜찮아요, 내일 아침에 제가 다시 한번 확인할 거예요.",
+          "ja": "見ていません。しかし、大丈夫です。明日の朝にもう一度確認します。",
+          "vi": "Tôi chưa xem. Nhưng không sao, sáng mai tôi sẽ kiểm tra lại một lần nữa."
+        }
+      }
+    ]
+  },
+  {
+    "article_id": 15,
+    "langLevel": "HSK2",
+    "sentences": [
+      {
+        "zh": "服务员，请给我们一份菜单。",
+        "pinyin": "Fúwùyuán, qǐng gěi wǒmen yī fèn càidān.",
+        "translations": {
+          "en": "Waiter, please give us a menu.",
+          "es": "Camarero, por favor, denos un menú.",
+          "ko": "종업원, 저희에게 메뉴판 하나 주세요.",
+          "ja": "店員さん、メニューを一部ください。",
+          "vi": "Nhân viên phục vụ, xin cho chúng tôi một thực đơn."
+        }
+      },
+      {
+        "zh": "好的，你们想吃什么？今天我们有新菜。",
+        "pinyin": "Hǎo de, nǐmen xiǎng chī shénme? Jīntiān wǒmen yǒu xīn cài.",
+        "translations": {
+          "en": "Sure, what would you like to eat? We have new dishes today.",
+          "es": "Claro, ¿qué les gustaría comer? Hoy tenemos platos nuevos.",
+          "ko": "네, 무엇을 드시고 싶으세요? 오늘 저희는 새로운 요리가 있어요.",
+          "ja": "はい、何を食べたいですか？今日は新しい料理があります。",
+          "vi": "Vâng, quý vị muốn ăn gì? Hôm nay chúng tôi có món mới."
+        }
+      },
+      {
+        "zh": "我听说这里的西餐味道不错，给我来一份牛排。",
+        "pinyin": "Wǒ tīngshuō zhèlǐ de xīcān wèidào búcuò, gěi wǒ lái yī fèn niúpái.",
+        "translations": {
+          "en": "I heard the Western food here tastes good, bring me a steak.",
+          "es": "Escuché que la comida occidental aquí sabe bien, tráigame un filete.",
+          "ko": "여기 서양 음식 맛이 괜찮다고 들었어요, 저에게 스테이크 하나 주세요.",
+          "ja": "ここの西洋料理は味が良いと聞きました、私にステーキを一つください。",
+          "vi": "Tôi nghe nói món Tây ở đây hương vị không tồi, cho tôi một phần bít tết."
+        }
+      },
+      {
+        "zh": "我要一个鸡蛋炒饭和一个汤，谢谢。",
+        "pinyin": "Wǒ yào yī ge jīdàn chǎofàn hé yī ge tāng, xièxie.",
+        "translations": {
+          "en": "I want an egg fried rice and a soup, thank you.",
+          "es": "Quiero un arroz frito con huevo y una sopa, gracias.",
+          "ko": "저는 계란 볶음밥 하나와 수프 하나를 원해요, 감사합니다.",
+          "ja": "私は卵チャーハンとスープを一つください、ありがとう。",
+          "vi": "Tôi muốn một phần cơm chiên trứng và một chén canh, cảm ơn."
+        }
+      },
+      {
+        "zh": "好的，一共是八十八块钱。你们要牛奶吗？",
+        "pinyin": "Hǎo de, yīgòng shì bāshíbā kuài qián. Nǐmen yào niúnǎi ma?",
+        "translations": {
+          "en": "Okay, the total is 88 yuan. Do you want milk?",
+          "es": "De acuerdo, el total es de 88 yuanes. ¿Quieren leche?",
+          "ko": "네, 총 88위안입니다. 우유 드시겠어요?",
+          "ja": "かしこまりました、合計88元です。牛乳はいかがですか？",
+          "vi": "Vâng, tổng cộng là 88 đồng. Quý vị có muốn sữa không?"
+        }
+      },
+      {
+        "zh": "不用了，给我们两碗米饭就行。",
+        "pinyin": "Bú yòng le, gěi wǒmen liǎng wǎn mǐfàn jiù xíng.",
+        "translations": {
+          "en": "No need, just give us two bowls of rice.",
+          "es": "No es necesario, solo denos dos cuencos de arroz.",
+          "ko": "필요 없어요, 저희에게 밥 두 공기만 주시면 돼요.",
+          "ja": "結構です、ご飯を二杯だけください。",
+          "vi": "Không cần, chỉ cần cho chúng tôi hai chén cơm là được."
+        }
+      },
+      {
+        "zh": "请问您要付现金还是刷卡？",
+        "pinyin": "Qǐngwèn nín yào fù xiànjīn háishì shuākǎ?",
+        "translations": {
+          "en": "May I ask if you want to pay with cash or swipe your card?",
+          "es": "¿Puedo preguntar si desea pagar en efectivo o con tarjeta?",
+          "ko": "현금으로 계산하시겠어요 아니면 카드로 계산하시겠어요?",
+          "ja": "現金でお支払いですか、それともカードをご利用になりますか？",
+          "vi": "Xin hỏi ngài muốn trả tiền mặt hay quẹt thẻ?"
+        }
+      }
+    ]
+  },
+  {
+    "article_id": 16,
+    "langLevel": "HSK2",
+    "sentences": [
+      {
+        "zh": "医生，我最近总是觉得很累，晚上睡不好。",
+        "pinyin": "Yīshēng, wǒ zuìjìn zǒngshì juéde hěn lèi, wǎnshang shuì bù hǎo.",
+        "translations": {
+          "en": "Doctor, I always feel very tired recently and can't sleep well at night.",
+          "es": "Doctor, últimamente siempre me siento muy cansado y no puedo dormir bien por la noche.",
+          "ko": "의사 선생님, 저는 최근에 늘 피곤하고 밤에 잠을 잘 못 자요.",
+          "ja": "先生、私は最近いつも疲れていて、夜よく眠れません。",
+          "vi": "Bác sĩ, gần đây tôi luôn cảm thấy rất mệt, buổi tối ngủ không ngon."
+        }
+      },
+      {
+        "zh": "你每天几点起床？工作多吗？",
+        "pinyin": "Nǐ měitiān jǐ diǎn qǐchuáng? Gōngzuò duō ma?",
+        "translations": {
+          "en": "What time do you get up every day? Is your work heavy?",
+          "es": "¿A qué hora se levanta todos los días? ¿Tiene mucho trabajo?",
+          "ko": "매일 몇 시에 일어나세요? 일이 많나요?",
+          "ja": "毎日何時に起きますか？仕事は多いですか？",
+          "vi": "Mỗi ngày bạn thức dậy lúc mấy giờ? Công việc có nhiều không?"
+        }
+      },
+      {
+        "zh": "我早上七点半才起来，最近的工作确实很多，常常要加班两个小时。",
+        "pinyin": "Wǒ zǎoshang qī diǎn bàn cái qǐlái, zuìjìn de gōngzuò quèshí hěn duō, chángcháng yào jiābān liǎng ge xiǎoshí.",
+        "translations": {
+          "en": "I only get up at 7:30 in the morning, the work recently is indeed a lot, often having to work overtime for two hours.",
+          "es": "Solo me levanto a las 7:30 de la mañana, el trabajo reciente es de hecho mucho, a menudo tengo que hacer horas extras por dos horas.",
+          "ko": "저는 아침 7시 반에야 일어나요. 최근에 일이 정말 많아서, 자주 두 시간씩 야근해야 해요.",
+          "ja": "朝は7時半にやっと起きます。最近の仕事は確かに多く、よく2時間残業しなければなりません。",
+          "vi": "Buổi sáng tôi mãi đến 7 giờ rưỡi mới thức dậy, công việc gần đây quả thực rất nhiều, thường xuyên phải tăng ca hai tiếng."
+        }
+      },
+      {
+        "zh": "你必须注意自己的身体，要多运动。",
+        "pinyin": "Nǐ bìxū zhùyì zìjǐ de shēntǐ, yào duō yùndòng.",
+        "translations": {
+          "en": "You must pay attention to your own health, and you need to exercise more.",
+          "es": "Debe prestar atención a su propia salud y necesita hacer más ejercicio.",
+          "ko": "자신의 건강에 주의해야 하고, 운동을 더 많이 해야 해요.",
+          "ja": "あなたは自分の体に注意を払う必要があり、もっと運動しなければなりません。",
+          "vi": "Bạn phải chú ý đến sức khỏe của mình, cần tập thể dục nhiều hơn."
+        }
+      },
+      {
+        "zh": "从明天开始，我每天早上七点以前要去跑步。",
+        "pinyin": "Cóng míngtiān kāishǐ, wǒ měitiān zǎoshang qī diǎn yǐqián yào qù pǎobù.",
+        "translations": {
+          "en": "Starting from tomorrow, I will go running before 7 a.m. every day.",
+          "es": "A partir de mañana, iré a correr antes de las 7 de la mañana todos los días.",
+          "ko": "내일부터, 저는 매일 아침 7시 이전에 달리기를 하러 갈 거예요.",
+          "ja": "明日から、私は毎日朝7時前に走りに行きます。",
+          "vi": "Từ ngày mai, tôi sẽ đi chạy bộ trước 7 giờ sáng mỗi ngày."
+        }
+      },
+      {
+        "zh": "这个办法不错，希望你会慢慢习惯。",
+        "pinyin": "Zhè ge bànfǎ búcuò, xīwàng nǐ huì mànman xíguàn.",
+        "translations": {
+          "en": "This method is good, I hope you will slowly get used to it.",
+          "es": "Este método no está mal, espero que se acostumbre poco a poco.",
+          "ko": "이 방법 괜찮네요, 당신이 천천히 익숙해지기를 바라요.",
+          "ja": "この方法は良いですね、あなたがゆっくりと慣れることを願っています。",
+          "vi": "Cách này không tệ, hy vọng bạn sẽ từ từ quen với nó."
+        }
+      },
+      {
+        "zh": "谢谢医生，我懂了！",
+        "pinyin": "Xièxie yīshēng, wǒ dǒng le!",
+        "translations": {
+          "en": "Thank you, doctor, I understand!",
+          "es": "¡Gracias doctor, lo entiendo!",
+          "ko": "감사합니다, 선생님, 알겠습니다!",
+          "ja": "先生ありがとう、分かりました！",
+          "vi": "Cảm ơn bác sĩ, tôi đã hiểu rồi!"
+        }
+      }
+    ]
+  },
+  {
+    "article_id": 17,
+    "langLevel": "HSK2",
+    "sentences": [
+      {
+        "zh": "你上周去旅游的那个地方，听说很漂亮。",
+        "pinyin": "Nǐ shàng zhōu qù lǚyóu de nà ge dìfang, tīngshuō hěn piàoliang.",
+        "translations": {
+          "en": "I heard the place you traveled to last week is very beautiful.",
+          "es": "Escuché que el lugar al que viajaste la semana pasada es muy hermoso.",
+          "ko": "당신이 지난주에 여행 갔던 그곳은 아주 예쁘다고 들었어요.",
+          "ja": "先週あなたが旅行に行った場所は、とても美しいと聞きました。",
+          "vi": "Nghe nói nơi bạn đi du lịch tuần trước rất đẹp."
+        }
+      },
+      {
+        "zh": "是啊，那儿的山很高，水也很干净。",
+        "pinyin": "Shì a, nàr de shān hěn gāo, shuǐ yě hěn gānjìng.",
+        "translations": {
+          "en": "Yes, the mountains there are very high, and the water is also very clean.",
+          "es": "Sí, las montañas allí son muy altas y el agua también está muy limpia.",
+          "ko": "맞아요, 그곳의 산은 매우 높고, 물도 아주 깨끗해요.",
+          "ja": "そうです、そこの山はとても高く、水もきれいです。",
+          "vi": "Đúng vậy, núi ở đó rất cao, và nước cũng rất sạch."
+        }
+      },
+      {
+        "zh": "你们是怎么去的？坐火车还是坐飞机？",
+        "pinyin": "Nǐmen shì zěnme qù de? Zuò huǒchē háishì zuò fēijī?",
+        "translations": {
+          "en": "How did you all get there? By train or by plane?",
+          "es": "¿Cómo llegaron allí? ¿En tren o en avión?",
+          "ko": "어떻게 가셨어요? 기차를 타고 갔어요 아니면 비행기를 타고 갔어요?",
+          "ja": "あなたたちはどうやって行きましたか？電車で行きましたか、それとも飛行機ですか？",
+          "vi": "Các bạn đã đi bằng cách nào? Đi bằng tàu hỏa hay máy bay?"
+        }
+      },
+      {
+        "zh": "我们买了飞机票，因为飞机比火车快得多。",
+        "pinyin": "Wǒmen mǎi le fēijī piào, yīnwèi fēijī bǐ huǒchē kuài de duō.",
+        "translations": {
+          "en": "We bought plane tickets because the plane is much faster than the train.",
+          "es": "Compramos billetes de avión, porque el avión es mucho más rápido que el tren.",
+          "ko": "우리는 비행기 표를 샀어요, 왜냐하면 비행기가 기차보다 훨씬 빠르기 때문이에요.",
+          "ja": "私たちは飛行機の切符を買いました。なぜなら飛行機は電車よりずっと速いからです。",
+          "vi": "Chúng tôi đã mua vé máy bay, bởi vì máy bay nhanh hơn tàu hỏa rất nhiều."
+        }
+      },
+      {
+        "zh": "你觉得这次旅游最大的不同是什么？",
+        "pinyin": "Nǐ juéde zhè cì lǚyóu zuì dà de bù tóng shì shénme?",
+        "translations": {
+          "en": "What do you think is the biggest difference in this trip?",
+          "es": "¿Cuál crees que es la mayor diferencia en este viaje?",
+          "ko": "이번 여행에서 가장 큰 차이점은 무엇이라고 생각하세요?",
+          "ja": "今回の旅行で最も大きな違いは何だと思いますか？",
+          "vi": "Bạn cảm thấy điểm khác biệt lớn nhất trong chuyến du lịch lần này là gì?"
+        }
+      },
+      {
+        "zh": "最大的不同是我认识了很多新朋友，他们都很热情。",
+        "pinyin": "Zuì dà de bù tóng shì wǒ rènshi le hěn duō xīn péngyou, tāmen dōu hěn rèqíng.",
+        "translations": {
+          "en": "The biggest difference is that I got to know many new friends, and they were all very warm.",
+          "es": "La mayor diferencia es que conocí a muchos amigos nuevos, y todos fueron muy entusiastas.",
+          "ko": "가장 큰 차이점은 제가 새로운 친구들을 많이 알게 되었고, 그들이 모두 아주 친절했다는 거예요.",
+          "ja": "一番の違いは、たくさんの新しい友達と知り合い、彼らが皆とても親切だったことです。",
+          "vi": "Điểm khác biệt lớn nhất là tôi đã quen rất nhiều bạn mới, họ đều rất nhiệt tình."
+        }
+      },
+      {
+        "zh": "真好！希望我以后也有机会去。",
+        "pinyin": "Zhēn hǎo! Xīwàng wǒ yǐhòu yě yǒu jīhuì qù.",
+        "translations": {
+          "en": "That's great! I hope I also have a chance to go in the future.",
+          "es": "¡Qué bien! Espero tener la oportunidad de ir también en el futuro.",
+          "ko": "정말 좋네요! 저도 나중에 갈 기회가 있기를 바라요.",
+          "ja": "本当に良いですね！私も将来行く機会があればいいなと思います。",
+          "vi": "Thật tốt! Hy vọng sau này tôi cũng có cơ hội đi."
+        }
+      }
+    ]
+  },
+  {
+    "article_id": 18,
+    "langLevel": "HSK2",
+    "sentences": [
+      {
+        "zh": "你觉得今天的汉语考试难吗？",
+        "pinyin": "Nǐ juéde jīntiān de Hànyǔ kǎoshì nán ma?",
+        "translations": {
+          "en": "Do you think today's Chinese exam was difficult?",
+          "es": "¿Crees que el examen de chino de hoy fue difícil?",
+          "ko": "오늘 중국어 시험이 어렵다고 생각하세요?",
+          "ja": "今日の中国語の試験は難しいと思いましたか？",
+          "vi": "Bạn cảm thấy kỳ thi Hán ngữ hôm nay có khó không?"
+        }
+      },
+      {
+        "zh": "不太难，我觉得比上一次容易多了。",
+        "pinyin": "Bú tài nán, wǒ juéde bǐ shàng yī cì róngyì duō le.",
+        "translations": {
+          "en": "Not too difficult, I think it was much easier than the last time.",
+          "es": "No muy difícil, creo que fue mucho más fácil que la última vez.",
+          "ko": "별로 어렵지 않았어요, 지난번보다 훨씬 쉬웠다고 생각해요.",
+          "ja": "あまり難しくありません、前回よりずっと簡単だったと思います。",
+          "vi": "Không khó lắm, tôi cảm thấy dễ hơn lần trước nhiều."
+        }
+      },
+      {
+        "zh": "是吗？我还有两个句子不明白，可能要做错了。",
+        "pinyin": "Shì ma? Wǒ hái yǒu liǎng ge jùzi bù míngbai, kěnéng yào zuò cuò le.",
+        "translations": {
+          "en": "Really? I still don't understand two sentences, I might have made mistakes.",
+          "es": "¿En serio? Todavía no entiendo dos frases, podría haberme equivocado.",
+          "ko": "그래요? 저는 아직 두 문장을 이해하지 못해서, 아마 틀렸을 것 같아요.",
+          "ja": "そうですか？私はまだ二つの文が分からず、間違っているかもしれません。",
+          "vi": "Thật sao? Tôi vẫn còn hai câu không hiểu, có lẽ đã làm sai rồi."
+        }
+      },
+      {
+        "zh": "没关系，我们下来可以一起查一下词语，然后重复练习。",
+        "pinyin": "Méi guānxi, wǒmen xiàlai kěyǐ yīqǐ chá yīxià cíyǔ, ránhòu chóngfù liànxí.",
+        "translations": {
+          "en": "It's okay, later we can check the vocabulary together and then practice repeatedly.",
+          "es": "No importa, después podemos consultar el vocabulario juntos y luego practicar repetidamente.",
+          "ko": "괜찮아요, 이따가 저희 함께 단어를 확인하고 반복해서 연습할 수 있어요.",
+          "ja": "大丈夫です、後で一緒に語彙を調べて、それから繰り返し練習できます。",
+          "vi": "Không sao, lát nữa chúng ta có thể cùng nhau tra từ vựng, sau đó lặp lại luyện tập."
+        }
+      },
+      {
+        "zh": "你总是学得很认真，我应该向你学习。",
+        "pinyin": "Nǐ zǒngshì xué de hěn rènzhēn, wǒ yīnggāi xiàng nǐ xuéxí.",
+        "translations": {
+          "en": "You always study very conscientiously, I should learn from you.",
+          "es": "Siempre estudias muy seriamente, debería aprender de ti.",
+          "ko": "당신은 항상 아주 열심히 공부해요, 저는 당신에게 배워야 해요.",
+          "ja": "あなたはいつも真面目に勉強していて、私はあなたから学ぶべきです。",
+          "vi": "Bạn luôn học rất chăm chỉ, tôi nên học hỏi từ bạn."
+        }
+      },
+      {
+        "zh": "别这么说，我们互相帮助，一起进步。",
+        "pinyin": "Bié zhème shuō, wǒmen hùxiāng bāngzhù, yīqǐ jìnbù.",
+        "translations": {
+          "en": "Don't say that, we help each other and make progress together.",
+          "es": "No digas eso, nos ayudamos mutuamente y progresamos juntos.",
+          "ko": "그렇게 말하지 마세요, 우리 서로 돕고 함께 발전해요.",
+          "ja": "そう言わないでください、私たちは助け合い、一緒に進歩しましょう。",
+          "vi": "Đừng nói vậy, chúng ta giúp đỡ lẫn nhau và cùng nhau tiến bộ."
+        }
+      },
+      {
+        "zh": "今天下午你有时间吗？去我家做作业吧。",
+        "pinyin": "Jīntiān xiàwǔ nǐ yǒu shíjiān ma? Qù wǒ jiā zuò zuòyè ba.",
+        "translations": {
+          "en": "Do you have time this afternoon? Let's go to my house to do homework.",
+          "es": "¿Tienes tiempo esta tarde? Vamos a mi casa a hacer la tarea.",
+          "ko": "오늘 오후에 시간 있어요? 우리 집에 가서 숙제해요.",
+          "ja": "今日の午後、時間がありますか？私の家に行って宿題をしましょう。",
+          "vi": "Chiều nay bạn có thời gian không? Đến nhà tôi làm bài tập đi."
+        }
+      }
+    ]
+  },
+  {
+    "article_id": 19,
+    "langLevel": "HSK2",
+    "sentences": [
+      {
+        "zh": "小王，你明天有空吗？我想请你去吃饭。",
+        "pinyin": "Xiǎo Wáng, nǐ míngtiān yǒu kòng ma? Wǒ xiǎng qǐng nǐ qù chīfàn.",
+        "translations": {
+          "en": "Xiao Wang, are you free tomorrow? I want to invite you to dinner.",
+          "es": "Xiao Wang, ¿estás libre mañana? Quiero invitarte a comer.",
+          "ko": "샤오왕, 내일 시간 있어요? 제가 당신에게 밥을 사주고 싶어요.",
+          "ja": "小王さん、明日暇ですか？あなたを食事に招待したいです。",
+          "vi": "Tiểu Vương, ngày mai bạn có rảnh không? Tôi muốn mời bạn đi ăn cơm."
+        }
+      },
+      {
+        "zh": "明天是我的生日，所以我要在家准备晚会。",
+        "pinyin": "Míngtiān shì wǒ de shēngrì, suǒyǐ wǒ yào zài jiā zhǔnbèi wǎnhuì.",
+        "translations": {
+          "en": "Tomorrow is my birthday, so I need to prepare a party at home.",
+          "es": "Mañana es mi cumpleaños, así que tengo que preparar una fiesta en casa.",
+          "ko": "내일은 제 생일이라서, 집에서 저녁 파티를 준비해야 해요.",
+          "ja": "明日は私の誕生日なので、家でパーティーを準備しなければなりません。",
+          "vi": "Ngày mai là sinh nhật của tôi, vì vậy tôi phải chuẩn bị tiệc tối ở nhà."
+        }
+      },
+      {
+        "zh": "啊，生日快乐！我不知道是你的生日！",
+        "pinyin": "A, shēngrì kuàilè! Wǒ bù zhīdào shì nǐ de shēngrì!",
+        "translations": {
+          "en": "Ah, happy birthday! I didn't know it was your birthday!",
+          "es": "¡Ah, feliz cumpleaños! ¡No sabía que era tu cumpleaños!",
+          "ko": "아, 생일 축하해요! 당신 생일인 줄 몰랐어요!",
+          "ja": "ああ、お誕生日おめでとう！あなたの誕生日だとは知りませんでした！",
+          "vi": "À, chúc mừng sinh nhật! Tôi không biết là sinh nhật bạn!"
+        }
+      },
+      {
+        "zh": "没关系。你为什么想请我吃饭？有什么事吗？",
+        "pinyin": "Méi guānxi. Nǐ wèishénme xiǎng qǐng wǒ chīfàn? Yǒu shénme shì ma?",
+        "translations": {
+          "en": "It's okay. Why did you want to invite me to dinner? Is something the matter?",
+          "es": "No importa. ¿Por qué querías invitarme a comer? ¿Pasa algo?",
+          "ko": "괜찮아요. 왜 저에게 밥을 사주고 싶었어요? 무슨 일 있어요?",
+          "ja": "大丈夫です。どうして私を食事に招待したかったのですか？何か用事がありますか？",
+          "vi": "Không sao. Tại sao bạn lại muốn mời tôi đi ăn? Có chuyện gì à?"
+        }
+      },
+      {
+        "zh": "我想感谢你上次给我的帮助，那件事对我来说非常重要。",
+        "pinyin": "Wǒ xiǎng gǎnxiè nǐ shàng cì gěi wǒ de bāngzhù, nà jiàn shì duì wǒ lái shuō fēicháng zhòngyào.",
+        "translations": {
+          "en": "I want to thank you for the help you gave me last time, that matter was very important to me.",
+          "es": "Quiero agradecerte por la ayuda que me diste la última vez, ese asunto fue muy importante para mí.",
+          "ko": "지난번에 저에게 주신 도움에 감사드리고 싶어요, 그 일은 저에게 있어서 매우 중요했어요.",
+          "ja": "前回あなたが私にしてくれた助けに感謝したいです、その件は私にとって非常に重要でした。",
+          "vi": "Tôi muốn cảm ơn bạn vì sự giúp đỡ lần trước, chuyện đó rất quan trọng với tôi."
+        }
+      },
+      {
+        "zh": "不用谢！你能不能来我的晚会？",
+        "pinyin": "Bú yòng xiè! Nǐ néng bu néng lái wǒ de wǎnhuì?",
+        "translations": {
+          "en": "You're welcome! Can you come to my party?",
+          "es": "¡De nada! ¿Puedes venir a mi fiesta?",
+          "ko": "천만에요! 제 파티에 올 수 있어요?",
+          "ja": "どういたしまして！私のパーティーに来られますか？",
+          "vi": "Không cần cảm ơn! Bạn có thể đến dự tiệc tối của tôi không?"
+        }
+      },
+      {
+        "zh": "当然可以，我给你准备了一个小小的礼物。",
+        "pinyin": "Dāngrán kěyǐ, wǒ gěi nǐ zhǔnbèi le yī ge xiǎoxiǎo de lǐwù.",
+        "translations": {
+          "en": "Of course, I prepared a small gift for you.",
+          "es": "Por supuesto, te preparé un pequeño regalo.",
+          "ko": "당연히 갈 수 있죠, 제가 당신에게 작은 선물을 하나 준비했어요.",
+          "ja": "もちろんです、あなたのためにささやかなプレゼントを用意しました。",
+          "vi": "Tất nhiên rồi, tôi đã chuẩn bị một món quà nhỏ cho bạn."
+        }
+      }
+    ]
+  },
+  {
+    "article_id": 20,
+    "langLevel": "HSK2",
+    "sentences": [
+      {
+        "zh": "A: 喂，小李，你现在在哪儿？",
+        "pinyin": "A: Wèi, Xiǎo Lǐ, nǐ xiànzài zài nǎr?",
+        "translations": {
+          "en": "A: Hello, Xiao Li, where are you now?",
+          "es": "A: Hola, Xiao Li, ¿dónde estás ahora?",
+          "ko": "A: 여보세요, 샤오리, 지금 어디에 있어요?",
+          "ja": "A: もしもし、小李さん、今どこにいますか？",
+          "vi": "A: Ê, Tiểu Lý, bây giờ bạn đang ở đâu?"
+        }
+      },
+      {
+        "zh": "B: 我在去机场的出租车上，我的航班马上要起飞了。",
+        "pinyin": "B: Wǒ zài qù jīchǎng de chūzūchē shàng, wǒ de hángbān mǎshàng yào qǐfēi le.",
+        "translations": {
+          "en": "B: I'm in a taxi going to the airport, my flight is about to take off.",
+          "es": "B: Estoy en un taxi camino al aeropuerto, mi vuelo está a punto de despegar.",
+          "ko": "B: 저는 공항으로 가는 택시 안에 있어요, 제 항공편이 곧 이륙할 거예요.",
+          "ja": "B: 私は空港へ行くタクシーに乗っていて、私のフライトはもうすぐ離陸します。",
+          "vi": "B: Tôi đang ở trên xe taxi đi sân bay, chuyến bay của tôi sắp cất cánh rồi."
+        }
+      },
+      {
+        "zh": "A: 这么快？你到了以后，别忘了给我发个信息。",
+        "pinyin": "A: Zhème kuài? Nǐ dào le yǐhòu, bié wàng le gěi wǒ fā ge xìnxī.",
+        "translations": {
+          "en": "A: That fast? After you arrive, don't forget to send me a message.",
+          "es": "A: ¿Tan rápido? Después de que llegues, no olvides enviarme un mensaje.",
+          "ko": "A: 그렇게 빨라요? 도착한 후에, 저에게 메시지 보내는 것을 잊지 마세요.",
+          "ja": "A: そんなに速いのですか？到着したら、私にメッセージを送るのを忘れないでください。",
+          "vi": "A: Nhanh vậy sao? Sau khi bạn đến, đừng quên gửi tin nhắn cho tôi."
+        }
+      },
+      {
+        "zh": "B: 好的，你现在应该已经回到办公室了吧？",
+        "pinyin": "B: Hǎo de, nǐ xiànzài yīnggāi yǐjīng huí dào bàngōngshì le ba?",
+        "translations": {
+          "en": "B: Okay, you should have already returned to the office by now, right?",
+          "es": "B: De acuerdo, ya deberías haber regresado a la oficina, ¿verdad?",
+          "ko": "B: 네, 당신은 지금쯤 이미 사무실로 돌아갔겠죠?",
+          "ja": "B: はい、あなたは今頃もうオフィスに戻っているはずですよね？",
+          "vi": "B: Được rồi, bây giờ bạn chắc đã về văn phòng rồi nhỉ?"
+        }
+      },
+      {
+        "zh": "A: 我到了。上次开会的时候，你的笔记本忘在这儿了。",
+        "pinyin": "A: Wǒ dào le. Shàng cì kāihuì de shíhou, nǐ de bǐjìběn wàng zài zhèr le.",
+        "translations": {
+          "en": "A: I've arrived. Last time we had a meeting, you forgot your notebook here.",
+          "es": "A: Llegué. La última vez que tuvimos una reunión, olvidaste tu cuaderno aquí.",
+          "ko": "A: 저는 도착했어요. 지난번 회의했을 때, 당신의 공책을 여기에 두고 갔어요.",
+          "ja": "A: 着きました。前回会議をしたとき、あなたのノートをここに忘れていましたよ。",
+          "vi": "A: Tôi đã đến. Lần trước họp, bạn đã quên sổ ghi chép ở đây rồi."
+        }
+      },
+      {
+        "zh": "B: 啊，太感谢你了！你能帮我放在桌子上吗？",
+        "pinyin": "B: Ā, tài gǎnxiè nǐ le! Nǐ néng bāng wǒ fàng zài zhuōzi shàng ma?",
+        "translations": {
+          "en": "B: Ah, thank you so much! Can you help me put it on the desk?",
+          "es": "B: ¡Ah, muchísimas gracias! ¿Puedes ayudarme a ponerlo sobre la mesa?",
+          "ko": "B: 아, 정말 고마워요! 저를 위해 책상 위에 놓아줄 수 있어요?",
+          "ja": "B: ああ、本当にありがとう！私のために机の上に置いてもらえますか？",
+          "vi": "B: À, cảm ơn bạn rất nhiều! Bạn có thể giúp tôi đặt nó lên bàn không?"
+        }
+      },
+      {
+        "zh": "A: 没问题，下次回来记得带走。",
+        "pinyin": "A: Méi wèntí, xià cì huílái jìde dài zǒu.",
+        "translations": {
+          "en": "A: No problem, remember to take it with you when you come back next time.",
+          "es": "A: No hay problema, recuerda llevártelo la próxima vez que vuelvas.",
+          "ko": "A: 문제없어요, 다음에 돌아올 때 가져가는 것을 잊지 마세요.",
+          "ja": "A: 問題ありません、次回戻ってきたときに持って帰るのを忘れないでください。",
+          "vi": "A: Không vấn đề gì, lần sau quay lại nhớ mang nó đi."
+        }
+      }
+    ]
+  },
+  {
+    "article_id": 21,
+    "langLevel": "HSK2",
+    "sentences": [
+      {
+        "zh": "请问，去经理的办公室怎么走？",
+        "pinyin": "Qǐngwèn, qù jīnglǐ de bàngōngshì zěnme zǒu?",
+        "translations": {
+          "en": "Excuse me, how do I get to the manager's office?",
+          "es": "¿Disculpe, cómo llego a la oficina del gerente?",
+          "ko": "실례합니다, 부장님 사무실에 어떻게 가나요?",
+          "ja": "すみません、マネージャーのオフィスへはどう行けばいいですか？",
+          "vi": "Xin hỏi, đi đến văn phòng giám đốc bằng cách nào?"
+        }
+      },
+      {
+        "zh": "不好意思，我刚来，不清楚他的办公室在哪儿。",
+        "pinyin": "Bù hǎoyìsi, wǒ gāng lái, bù qīngchu tā de bàngōngshì zài nǎr.",
+        "translations": {
+          "en": "I'm sorry, I just arrived and I'm not sure where his office is.",
+          "es": "Lo siento, acabo de llegar y no estoy seguro de dónde está su oficina.",
+          "ko": "죄송하지만, 제가 방금 와서 그의 사무실이 어디 있는지 잘 모르겠어요.",
+          "ja": "すみません、私は来たばかりで、彼のオフィスがどこにあるか分かりません。",
+          "vi": "Xin lỗi, tôi mới đến, tôi không rõ văn phòng của anh ấy ở đâu."
+        }
+      },
+      {
+        "zh": "没关系。你知道今天下午的会议几点开始吗？",
+        "pinyin": "Méi guānxi. Nǐ zhīdào jīntiān xiàwǔ de huìyì jǐ diǎn kāishǐ ma?",
+        "translations": {
+          "en": "No worries. Do you know what time today's afternoon meeting starts?",
+          "es": "No importa. ¿Sabes a qué hora empieza la reunión de esta tarde?",
+          "ko": "괜찮아요. 오늘 오후 회의가 몇 시에 시작하는지 아세요?",
+          "ja": "大丈夫です。今日の午後の会議は何時に始まりますか？",
+          "vi": "Không sao. Bạn có biết cuộc họp chiều nay bắt đầu lúc mấy giờ không?"
+        }
+      },
+      {
+        "zh": "听说正好是三点，在三楼的大会议室举行。",
+        "pinyin": "Tīngshuō zhènghǎo shì sān diǎn, zài sān lóu de dà huìyì shì jǔxíng.",
+        "translations": {
+          "en": "I heard it's exactly three o'clock, held in the large conference room on the third floor.",
+          "es": "Escuché que es justo a las tres, se celebrará en la gran sala de conferencias del tercer piso.",
+          "ko": "듣기로는 마침 세 시에, 3층의 큰 회의실에서 열린다고 해요.",
+          "ja": "ちょうど3時に、3階の大会議室で開かれるそうです。",
+          "vi": "Nghe nói đúng 3 giờ, tổ chức tại phòng họp lớn ở tầng ba."
+        }
+      },
+      {
+        "zh": "太好了，我必须参加这个重要的活动。",
+        "pinyin": "Tài hǎo le, wǒ bìxū cānjiā zhè ge zhòngyào de huódòng.",
+        "translations": {
+          "en": "That's great, I must attend this important event.",
+          "es": "¡Qué bien! Debo asistir a este evento importante.",
+          "ko": "정말 잘됐네요, 저는 이 중요한 행사에 꼭 참석해야 해요.",
+          "ja": "良かったです、私はこの重要な活動に参加しなければなりません。",
+          "vi": "Tuyệt quá, tôi phải tham gia hoạt động quan trọng này."
+        }
+      },
+      {
+        "zh": "你打算做些什么准备呢？",
+        "pinyin": "Nǐ dǎsuan zuò xiē shénme zhǔnbèi ne?",
+        "translations": {
+          "en": "What preparations do you plan to make?",
+          "es": "¿Qué preparativos tienes pensado hacer?",
+          "ko": "어떤 준비를 할 계획이에요?",
+          "ja": "どんな準備をするつもりですか？",
+          "vi": "Bạn dự định chuẩn bị những gì?"
+        }
+      },
+      {
+        "zh": "我需要查一些资料，然后把报告打印出来。",
+        "pinyin": "Wǒ xūyào chá yīxiē zīliào, ránhòu bǎ bàogào dǎyìn chūlái.",
+        "translations": {
+          "en": "I need to check some materials and then print out the report.",
+          "es": "Necesito consultar algunos materiales y luego imprimir el informe.",
+          "ko": "저는 자료를 좀 확인하고 보고서를 출력해야 해요.",
+          "ja": "資料をいくつか調べて、それからレポートを印刷する必要があります。",
+          "vi": "Tôi cần kiểm tra một số tài liệu và sau đó in báo cáo ra."
+        }
+      },
+      {
+        "zh": "如果需要帮助，你可以随时告诉我。",
+        "pinyin": "Rúguǒ xūyào bāngzhù, nǐ kěyǐ suíshí gàosu wǒ.",
+        "translations": {
+          "en": "If you need help, you can tell me anytime.",
+          "es": "Si necesitas ayuda, puedes decírmelo en cualquier momento.",
+          "ko": "만약 도움이 필요하면, 언제든지 저에게 말해 주세요.",
+          "ja": "もし手伝いが必要なら、いつでも私に言ってください。",
+          "vi": "Nếu bạn cần giúp đỡ, bạn có thể nói với tôi bất cứ lúc nào."
+        }
+      },
+      {
+        "zh": "非常感谢你！",
+        "pinyin": "Fēicháng gǎnxiè nǐ!",
+        "translations": {
+          "en": "Thank you very much!",
+          "es": "¡Muchas gracias!",
+          "ko": "정말 감사합니다!",
+          "ja": "どうもありがとうございます！",
+          "vi": "Cảm ơn bạn rất nhiều!"
+        }
+      }
+    ]
+  },
+  {
+    "article_id": 22,
+    "langLevel": "HSK2",
+    "sentences": [
+      {
+        "zh": "今天天气特别好，外面是晴天。",
+        "pinyin": "Jīntiān tiānqì tèbié hǎo, wàimiàn shì qíngtiān.",
+        "translations": {
+          "en": "The weather is especially good today, it's a sunny day outside.",
+          "es": "Hoy hace un tiempo especialmente bueno, afuera está soleado.",
+          "ko": "오늘 날씨가 특별히 좋고, 밖은 맑은 날씨예요.",
+          "ja": "今日は天気がとても良く、外は晴れです。",
+          "vi": "Hôm nay thời tiết đặc biệt tốt, bên ngoài là trời nắng."
+        }
+      },
+      {
+        "zh": "我跟朋友打算去动物园玩。",
+        "pinyin": "Wǒ gēn péngyǒu dǎsuan qù dòngwùyuán wán.",
+        "translations": {
+          "en": "My friend and I plan to go to the zoo.",
+          "es": "Mi amigo y yo planeamos ir al zoológico.",
+          "ko": "저는 친구와 동물원에 놀러 갈 계획이에요.",
+          "ja": "私は友達と動物園へ遊びに行くつもりです。",
+          "vi": "Tôi dự định cùng bạn bè đi chơi ở sở thú."
+        }
+      },
+      {
+        "zh": "我们坐地铁去，因为地铁比公共汽车方便。",
+        "pinyin": "Wǒmen zuò dìtiě qù, yīnwèi dìtiě bǐ gōnggòng qìchē fāngbiàn.",
+        "translations": {
+          "en": "We are going by subway, because the subway is more convenient than the public bus.",
+          "es": "Iremos en metro porque el metro es más conveniente que el autobús público.",
+          "ko": "우리는 지하철을 타고 가요. 왜냐하면 지하철이 공공버스보다 편리해요.",
+          "ja": "私たちは地下鉄で行きます、なぜなら地下鉄は公共バスより便利だからです。",
+          "vi": "Chúng tôi đi bằng tàu điện ngầm, vì tàu điện ngầm thuận tiện hơn xe buýt công cộng."
+        }
+      },
+      {
+        "zh": "在动物园里，我们看到了很多可爱的动物。",
+        "pinyin": "Zài dòngwùyuán lǐ, wǒmen kàndào le hěn duō kě'ài de dòngwù.",
+        "translations": {
+          "en": "In the zoo, we saw many adorable animals.",
+          "es": "En el zoológico, vimos muchos animales adorables.",
+          "ko": "동물원에서, 우리는 아주 많은 귀여운 동물들을 봤어요.",
+          "ja": "動物園で、私たちはたくさんの可愛い動物を見ました。",
+          "vi": "Ở sở thú, chúng tôi đã thấy rất nhiều loài động vật dễ thương."
+        }
+      },
+      {
+        "zh": "比如说，大象的个子很大，长得很特别。",
+        "pinyin": "Bǐrú shuō, dàxiàng de gèzi hěn dà, zhǎng de hěn tèbié.",
+        "translations": {
+          "en": "For example, the elephant's size is very large and it looks very unique.",
+          "es": "Por ejemplo, el tamaño del elefante es muy grande y se ve muy único.",
+          "ko": "예를 들어, 코끼리는 키가 아주 크고 생김새가 매우 독특해요.",
+          "ja": "例えば、象の背丈はとても大きく、非常に特別に見えます。",
+          "vi": "Ví dụ, con voi có thân hình rất lớn và trông rất đặc biệt."
+        }
+      },
+      {
+        "zh": "我们还看到了熊猫，它们的颜色是白色和黑色。",
+        "pinyin": "Wǒmen hái kàndào le xióngmāo, tāmen de yánsè shì báisè hé hēisè.",
+        "translations": {
+          "en": "We also saw pandas, their colors are white and black.",
+          "es": "También vimos pandas, sus colores son blanco y negro.",
+          "ko": "우리는 또 판다를 봤는데, 그들의 색깔은 흰색과 검은색이에요.",
+          "ja": "私たちはパンダも見ました、彼らの色は白と黒です。",
+          "vi": "Chúng tôi còn thấy gấu trúc, màu sắc của chúng là trắng và đen."
+        }
+      },
+      {
+        "zh": "大家看到这些动物都感到很开心、很快乐。",
+        "pinyin": "Dàjiā kàndào zhè xiē dòngwù dōu gǎndào hěn kāixīn, hěn kuàilè.",
+        "translations": {
+          "en": "Everyone felt very happy and joyful when they saw these animals.",
+          "es": "Todos se sintieron muy contentos y felices al ver a estos animales.",
+          "ko": "모두가 이 동물들을 보고 아주 기쁘고 즐거워했어요.",
+          "ja": "みんな、これらの動物を見てとても嬉しく、楽しそうでした。",
+          "vi": "Mọi người đều cảm thấy rất vui vẻ và hạnh phúc khi nhìn thấy những con vật này."
+        }
+      },
+      {
+        "zh": "我们拍了很多照片，准备以后经常来这儿。",
+        "pinyin": "Wǒmen pāi le hěn duō zhàopiàn, zhǔnbèi yǐhòu jīngcháng lái zhèr.",
+        "translations": {
+          "en": "We took many photos and plan to come here often in the future.",
+          "es": "Tomamos muchas fotos y planeamos venir aquí a menudo en el futuro.",
+          "ko": "우리는 사진을 많이 찍었고, 앞으로 자주 여기에 올 준비를 하고 있어요.",
+          "ja": "私たちはたくさんの写真を撮り、今後も頻繁にここに来る予定です。",
+          "vi": "Chúng tôi đã chụp rất nhiều ảnh và dự định sau này sẽ thường xuyên đến đây."
+        }
+      }
+    ]
+  },
+  {
+    "article_id": 23,
+    "langLevel": "HSK2",
+    "sentences": [
+      {
+        "zh": "请问，我想查一下我预订的房间。",
+        "pinyin": "Qǐngwèn, wǒ xiǎng chá yīxià wǒ yùdìng de fángjiān.",
+        "translations": {
+          "en": "Excuse me, I'd like to check my reserved room.",
+          "es": "Disculpe, me gustaría consultar mi habitación reservada.",
+          "ko": "실례합니다, 제가 예약한 방을 확인하고 싶어요.",
+          "ja": "すみません、予約した部屋を確認したいのですが。",
+          "vi": "Xin hỏi, tôi muốn kiểm tra phòng tôi đã đặt trước."
+        }
+      },
+      {
+        "zh": "好的，请您出示您的护照和订单信息。",
+        "pinyin": "Hǎo de, qǐng nín chūshì nín de hùzhào hé dìngdān xìnxī.",
+        "translations": {
+          "en": "All right, please show your passport and order information.",
+          "es": "De acuerdo, por favor, muestre su pasaporte y la información de la reserva.",
+          "ko": "네, 여권과 주문 정보를 제시해 주세요.",
+          "ja": "かしこまりました、パスポートと予約情報をご提示ください。",
+          "vi": "Vâng, xin vui lòng xuất trình hộ chiếu và thông tin đơn đặt hàng của bạn."
+        }
+      },
+      {
+        "zh": "我正在找我的护照，不一会儿就能找到。",
+        "pinyin": "Wǒ zhèngzài zhǎo wǒ de hùzhào, bù yīhuǐr jiù néng zhǎodào.",
+        "translations": {
+          "en": "I am currently looking for my passport, I'll find it in a moment.",
+          "es": "Ahora mismo estoy buscando mi pasaporte, lo encontraré en un momento.",
+          "ko": "저는 지금 여권을 찾고 있어요, 곧 찾을 수 있을 거예요.",
+          "ja": "私は今パスポートを探しているところで、すぐにそれを見つけられるでしょう。",
+          "vi": "Tôi đang tìm hộ chiếu của mình, sẽ tìm thấy ngay thôi."
+        }
+      },
+      {
+        "zh": "对了，您是来这儿旅游的吗？",
+        "pinyin": "Duì le, nín shì lái zhèr lǚyóu de ma?",
+        "translations": {
+          "en": "By the way, are you here for tourism?",
+          "es": "Por cierto, ¿está aquí de turismo?",
+          "ko": "그런데, 여기로 여행 오신 건가요?",
+          "ja": "ところで、あなたはここに旅行に来たのですか？",
+          "vi": "À, đúng rồi, ông/bà đến đây du lịch phải không?"
+        }
+      },
+      {
+        "zh": "是的，我打算在这儿住一个星期。",
+        "pinyin": "Shì de, wǒ dǎsuan zài zhèr zhù yī ge xīngqī.",
+        "translations": {
+          "en": "Yes, I plan to stay here for one week.",
+          "es": "Sí, planeo quedarme aquí por una semana.",
+          "ko": "네, 저는 여기에 일주일 동안 머무를 계획이에요.",
+          "ja": "はい、ここに一週間滞在するつもりです。",
+          "vi": "Vâng, tôi dự định ở lại đây một tuần."
+        }
+      },
+      {
+        "zh": "很高兴听到这个消息，希望您在这里过得愉快。",
+        "pinyin": "Hěn gāoxìng tīngdào zhè ge xiāoxi, xīwàng nín zài zhèlǐ guò de yúkuài.",
+        "translations": {
+          "en": "I'm very happy to hear that news, I hope you enjoy your stay here.",
+          "es": "Me alegra mucho escuchar eso, espero que disfrute su estancia aquí.",
+          "ko": "이 소식을 듣게 되어 매우 기쁩니다. 여기서 즐거운 시간을 보내시길 바라요.",
+          "ja": "その知らせを聞いてとても嬉しいです、ここで楽しく過ごされることを願っています。",
+          "vi": "Rất vui khi nghe tin này, hy vọng ông/bà có kỳ nghỉ vui vẻ ở đây."
+        }
+      },
+      {
+        "zh": "谢谢！附近有没有什么可以买报纸的超市？",
+        "pinyin": "Xièxie! Fùjìn yǒu méiyǒu shénme kěyǐ mǎi bàozhǐ de chāoshì?",
+        "translations": {
+          "en": "Thank you! Are there any supermarkets nearby where I can buy a newspaper?",
+          "es": "¡Gracias! ¿Hay algún supermercado cerca donde pueda comprar un periódico?",
+          "ko": "감사합니다! 근처에 신문을 살 수 있는 슈퍼마켓이 있나요?",
+          "ja": "ありがとうございます！近くに新聞を買えるスーパーはありますか？",
+          "vi": "Cảm ơn! Gần đây có siêu thị nào bán báo không?"
+        }
+      },
+      {
+        "zh": "有，从酒店大门出去，往右走就有一个大的超市。",
+        "pinyin": "Yǒu, cóng jiǔdiàn dàmén chūqù, wǎng yòu zǒu jiù yǒu yī ge dà de chāoshì.",
+        "translations": {
+          "en": "Yes, go out of the hotel main entrance and walk to the right, there is a large supermarket.",
+          "es": "Sí, salga por la entrada principal del hotel y camine a la derecha, hay un supermercado grande.",
+          "ko": "네, 호텔 정문으로 나가서 오른쪽으로 걸어가면 큰 슈퍼마켓이 하나 있어요.",
+          "ja": "はい、ホテルの正面玄関を出て右に歩くと、大きなスーパーがあります。",
+          "vi": "Có, đi ra khỏi cổng chính khách sạn, đi về bên phải là có một siêu thị lớn."
+        }
+      },
+      {
+        "zh": "那太方便了，我马上去买。",
+        "pinyin": "Nà tài fāngbiàn le, wǒ mǎshàng qù mǎi.",
+        "translations": {
+          "en": "That's very convenient, I'll go buy it right away.",
+          "es": "Eso es muy conveniente, iré a comprarlo de inmediato.",
+          "ko": "그것 참 편리하네요, 저는 바로 사러 갈게요.",
+          "ja": "それはとても便利です、すぐに買いに行きます。",
+          "vi": "Tiện quá, tôi đi mua ngay đây."
+        }
+      }
+    ]
+  }
+]
