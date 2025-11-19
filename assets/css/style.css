@@ -517,6 +517,22 @@ p {
   color: var(--text);
 }
 
+.mclearn-mark {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 0.15rem;
+  font-weight: inherit;
+  letter-spacing: 0.02em;
+}
+
+.mclearn-mark::after {
+  content: '®';
+  font-size: 0.55em;
+  line-height: 1;
+  margin-left: 0.05rem;
+  font-weight: 600;
+}
+
 .nav-product-links {
   display: flex;
   gap: 0.75rem;
