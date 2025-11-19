@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+Disallow: /assets/vendor/
+Disallow: /*.json$
+Disallow: /*.bin$
+
+# Sitemap
+Sitemap: https://idatagear.com/sitemap.xml
+
+# Crawl-delay (optional, adjust as needed)
+Crawl-delay: 1
+
