@@ -84,5 +84,8 @@
       closeNav();
     }
   });
+
+  // Native lazy loading handles image visibility automatically
+  // No additional JavaScript needed for lazy loading
 })();
 

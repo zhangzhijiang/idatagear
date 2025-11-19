@@ -50,16 +50,6 @@ img {
   border-width: 0;
 }
 
-/* Image optimization */
-img[loading="lazy"] {
-  opacity: 0;
-  transition: opacity 0.3s;
-}
-
-img[loading="lazy"].loaded {
-  opacity: 1;
-}
-
 a {
   color: inherit;
   text-decoration: none;
