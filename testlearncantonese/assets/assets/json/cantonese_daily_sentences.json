@@ -1,0 +1,5588 @@
+[
+  {
+    "sentenceId": 101,
+    "cantonese": "早晨，你今日點啊？",
+    "jyutping": "zou2 san4, nei5 gam1 jat6 dim2 aa3?",
+    "english": "Good morning, how are you today?",
+    "tags": ["questions", "travel"]
+  },
+  {
+    "sentenceId": 102,
+    "cantonese": "我想叫一杯凍奶茶。",
+    "jyutping": "ngo5 soeng2 giu3 jat1 bui1 dung3 naai5 caa4.",
+    "english": "I'd like to order an iced milk tea.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 103,
+    "cantonese": "唔該，幾多錢？",
+    "jyutping": "m4 goi1, gei2 do1 cin2?",
+    "english": "Excuse me, how much is it?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 104,
+    "cantonese": "你食咗飯未呀？",
+    "jyutping": "nei5 sik6 zo2 faan6 mei6 aa3?",
+    "english": "Have you eaten yet?",
+    "tags": ["questions", "food"]
+  },
+  {
+    "sentenceId": 105,
+    "cantonese": "我哋一齊去睇戲好唔好？",
+    "jyutping": "ngo5 dei6 jat1 cai4 heoi3 tai2 hei3 hou2 m4 hou2?",
+    "english": "Shall we go see a movie together?",
+    "tags": ["questions", "travel"]
+  },
+  {
+    "sentenceId": 106,
+    "cantonese": "呢度有冇Wi-Fi？",
+    "jyutping": "ni1 dou6 jau5 mou5 Wi-Fi?",
+    "english": "Is there Wi-Fi here?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 107,
+    "cantonese": "請問廁所喺邊度？",
+    "jyutping": "cing2 man6 ci3 so2 hai2 bin1 dou6?",
+    "english": "Excuse me, where is the toilet?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 108,
+    "cantonese": "今日好熱啊！",
+    "jyutping": "gam1 jat6 hou2 jit6 aa3!",
+    "english": "It's so hot today!",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 109,
+    "cantonese": "你鍾意食咩嘢？",
+    "jyutping": "nei5 zung1 ji3 sik6 me1 je5?",
+    "english": "What do you like to eat?",
+    "tags": ["questions", "food"]
+  },
+  {
+    "sentenceId": 110,
+    "cantonese": "我唔該要一杯熱咖啡。",
+    "jyutping": "ngo5 m4 goi1 jiu3 jat1 bui1 jit6 gaa3 fe1.",
+    "english": "I'd like a cup of hot coffee, please.",
+    "tags": ["requests", "social"]
+  },
+  {
+    "sentenceId": 111,
+    "cantonese": "你住喺邊區？",
+    "jyutping": "nei5 zyu6 hai2 bin1 keoi1?",
+    "english": "Which district do you live in?",
+    "tags": ["greetings", "social"]
+  },
+  {
+    "sentenceId": 112,
+    "cantonese": "呢班車去唔去銅鑼灣？",
+    "jyutping": "ni1 baan1 ce1 heoi3 m4 heoi3 tung4 lok6 waan1?",
+    "english": "Does this bus go to Causeway Bay?",
+    "tags": ["greetings", "travel"]
+  },
+  {
+    "sentenceId": 113,
+    "cantonese": "可唔可以平啲？",
+    "jyutping": "ho2 m4 ho2 ji5 peng4 di1?",
+    "english": "Can it be cheaper?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 114,
+    "cantonese": "我聽日要去深圳。",
+    "jyutping": "ngo5 ting1 jat6 jiu3 heoi3 sam1 zan3.",
+    "english": "I need to go to Shenzhen tomorrow.",
+    "tags": ["information", "travel"]
+  },
+  {
+    "sentenceId": 115,
+    "cantonese": "你電話幾號？",
+    "jyutping": "nei5 din6 waa2 gei2 hou6?",
+    "english": "What's your phone number?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 116,
+    "cantonese": "呢度有冇英文餐牌？",
+    "jyutping": "ni1 dou6 jau5 mou5 jing1 man4 caan1 paai2?",
+    "english": "Do you have an English menu here?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 117,
+    "cantonese": "我唔識講廣東話。",
+    "jyutping": "ngo5 m4 sik1 gong2 gwong2 dung1 waa2.",
+    "english": "I don't know how to speak Cantonese.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 118,
+    "cantonese": "你幾時得閒？",
+    "jyutping": "nei5 gei2 si4 dak1 haan4?",
+    "english": "When are you free?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 119,
+    "cantonese": "我遲到咗，對唔住。",
+    "jyutping": "ngo5 ci4 dou3 zo2, deoi3 m4 zyu6.",
+    "english": "I'm late, sorry.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 120,
+    "cantonese": "今晚去邊度食飯？",
+    "jyutping": "gam1 maan5 heoi3 bin1 dou6 sik6 faan6?",
+    "english": "Where shall we eat tonight?",
+    "tags": ["questions", "food"]
+  },
+  {
+    "sentenceId": 121,
+    "cantonese": "你覺得點？",
+    "jyutping": "nei5 gok3 dak1 dim2?",
+    "english": "What do you think?",
+    "tags": ["greetings", "social"]
+  },
+  {
+    "sentenceId": 122,
+    "cantonese": "我唔明。",
+    "jyutping": "ngo5 m4 ming4.",
+    "english": "I don't understand.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 123,
+    "cantonese": "可唔可以講多次？",
+    "jyutping": "ho2 m4 ho2 ji5 gong2 do1 ci3?",
+    "english": "Can you say it again?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 124,
+    "cantonese": "我頭先好忙。",
+    "jyutping": "ngo5 tau4 sin1 hou2 mong4.",
+    "english": "I was very busy earlier.",
+    "tags": ["information", "travel"]
+  },
+  {
+    "sentenceId": 125,
+    "cantonese": "你返工返幾點？",
+    "jyutping": "nei5 faan1 gung1 faan1 gei2 dim2?",
+    "english": "What time do you work until?",
+    "tags": ["questions", "work"]
+  },
+  {
+    "sentenceId": 126,
+    "cantonese": "呢件衫好靚！",
+    "jyutping": "ni1 gin6 saam1 hou2 leng3!",
+    "english": "This shirt is very nice!",
+    "tags": ["greetings", "social"]
+  },
+  {
+    "sentenceId": 127,
+    "cantonese": "我哋幾時再見？",
+    "jyutping": "ngo5 dei6 gei2 si4 zoi3 gin3?",
+    "english": "When will we meet again?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 128,
+    "cantonese": "你生日快樂！",
+    "jyutping": "nei5 saang1 jat6 faai3 lok6!",
+    "english": "Happy birthday to you!",
+    "tags": ["feelings", "social"]
+  },
+  {
+    "sentenceId": 129,
+    "cantonese": "小心啲！",
+    "jyutping": "siu2 sam1 di1!",
+    "english": "Be careful!",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 130,
+    "cantonese": "我好掛住你。",
+    "jyutping": "ngo5 hou2 gwaa3 zyu6 nei5.",
+    "english": "I miss you very much.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 131,
+    "cantonese": "你最近點呀？",
+    "jyutping": "nei5 zeoi3 gan6 dim2 aa3?",
+    "english": "How have you been recently?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 132,
+    "cantonese": "我唔舒服。",
+    "jyutping": "ngo5 m4 syu1 fuk6.",
+    "english": "I'm not feeling well.",
+    "tags": ["feelings", "social"]
+  },
+  {
+    "sentenceId": 133,
+    "cantonese": "去睇醫生啦！",
+    "jyutping": "heoi3 tai2 ji1 sang1 laa1!",
+    "english": "Go see a doctor!",
+    "tags": ["information", "travel"]
+  },
+  {
+    "sentenceId": 134,
+    "cantonese": "今日係星期幾？",
+    "jyutping": "gam1 jat6 hai6 sing1 kei4 gei2?",
+    "english": "What day is it today?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 135,
+    "cantonese": "我愛你。",
+    "jyutping": "ngo5 oi3 nei5.",
+    "english": "I love you.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 136,
+    "cantonese": "你叫咩名？",
+    "jyutping": "nei5 giu3 me1 meng2?",
+    "english": "What's your name?",
+    "tags": ["introductions", "social"]
+  },
+  {
+    "sentenceId": 137,
+    "cantonese": "我來自加拿大。",
+    "jyutping": "ngo5 loi4 zi6 gaa1 naa4 daai6.",
+    "english": "I'm from Canada.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 138,
+    "cantonese": "你識唔識講英文？",
+    "jyutping": "nei5 sik1 m4 sik1 gong2 jing1 man4?",
+    "english": "Do you speak English?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 139,
+    "cantonese": "幫我影張相啦！",
+    "jyutping": "bong1 ngo5 jing2 zoeng1 soeng2 laa1!",
+    "english": "Please take a photo for me!",
+    "tags": ["requests", "social"]
+  },
+  {
+    "sentenceId": 140,
+    "cantonese": "邊度有超市？",
+    "jyutping": "bin1 dou6 jau5 ciu1 si5?",
+    "english": "Where is there a supermarket?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 141,
+    "cantonese": "我唔要辣。",
+    "jyutping": "ngo5 m4 jiu3 laat6.",
+    "english": "I don't want it spicy.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 142,
+    "cantonese": "呢度好多人。",
+    "jyutping": "ni1 dou6 hou2 do1 jan4.",
+    "english": "There are many people here.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 143,
+    "cantonese": "你嘅廣東話好好！",
+    "jyutping": "nei5 ge3 gwong2 dung1 waa2 hou2 hou2!",
+    "english": "Your Cantonese is very good!",
+    "tags": ["information", "travel"]
+  },
+  {
+    "sentenceId": 144,
+    "cantonese": "我唔記得帶銀包。",
+    "jyutping": "ngo5 m4 gei3 dak1 daai3 ngan4 baau1.",
+    "english": "I forgot to bring my wallet.",
+    "tags": ["information", "travel"]
+  },
+  {
+    "sentenceId": 145,
+    "cantonese": "而家幾點？",
+    "jyutping": "ji4 gaa1 gei2 dim2?",
+    "english": "What time is it now?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 146,
+    "cantonese": "我肚餓。",
+    "jyutping": "ngo5 tou5 ngo6.",
+    "english": "I'm hungry.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 147,
+    "cantonese": "我口渴。",
+    "jyutping": "ngo5 hau2 hot3.",
+    "english": "I'm thirsty.",
+    "tags": ["greetings", "social"]
+  },
+  {
+    "sentenceId": 148,
+    "cantonese": "好耐冇見！",
+    "jyutping": "hou2 noi6 mou5 gin3!",
+    "english": "Long time no see!",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 149,
+    "cantonese": "你幾歲呀？",
+    "jyutping": "nei5 gei2 seoi3 aa3?",
+    "english": "How old are you?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 150,
+    "cantonese": "我廿五歲。",
+    "jyutping": "ngo5 jaa6 ng5 seoi3.",
+    "english": "I'm 25 years old.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 151,
+    "cantonese": "我哋做朋友啦！",
+    "jyutping": "ngo5 dei6 zou6 pang4 jau5 laa1!",
+    "english": "Let's be friends!",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 152,
+    "cantonese": "祝你旅途愉快！",
+    "jyutping": "zuk1 nei5 leoi5 tou4 jyu6 faai3!",
+    "english": "Have a pleasant trip!",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 153,
+    "cantonese": "你結婚未？",
+    "jyutping": "nei5 git3 fan1 mei6?",
+    "english": "Are you married?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 154,
+    "cantonese": "我單身。",
+    "jyutping": "ngo5 daan1 san1.",
+    "english": "I'm single.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 155,
+    "cantonese": "你嘅職業係咩？",
+    "jyutping": "nei5 ge3 zik1 jip6 hai6 me1?",
+    "english": "What's your occupation?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 156,
+    "cantonese": "我係老師。",
+    "jyutping": "ngo5 hai6 lou5 si1.",
+    "english": "I'm a teacher.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 157,
+    "cantonese": "今日天氣點？",
+    "jyutping": "gam1 jat6 tin1 hei3 dim2?",
+    "english": "How's the weather today?",
+    "tags": ["questions", "food"]
+  },
+  {
+    "sentenceId": 158,
+    "cantonese": "落緊雨。",
+    "jyutping": "lok6 gan2 jyu5.",
+    "english": "It's raining.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 159,
+    "cantonese": "帶遮啦！",
+    "jyutping": "daai3 ze1 laa1!",
+    "english": "Bring an umbrella!",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 160,
+    "cantonese": "好大風！",
+    "jyutping": "hou2 daai6 fung1!",
+    "english": "It's very windy!",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 161,
+    "cantonese": "我哋去行街啦！",
+    "jyutping": "ngo5 dei6 heoi3 haang4 gaai1 laa1!",
+    "english": "Let's go shopping!",
+    "tags": ["information", "shopping"]
+  },
+  {
+    "sentenceId": 162,
+    "cantonese": "我想買件衫。",
+    "jyutping": "ngo5 soeng2 maai5 gin6 saam1.",
+    "english": "I want to buy a shirt.",
+    "tags": ["greetings", "shopping"]
+  },
+  {
+    "sentenceId": 163,
+    "cantonese": "有冇折扣？",
+    "jyutping": "jau5 mou5 zit3 kau3?",
+    "english": "Is there any discount?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 164,
+    "cantonese": "太貴啦！",
+    "jyutping": "taai3 gwai3 laa1!",
+    "english": "It's too expensive!",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 165,
+    "cantonese": "我要試吓呢對鞋。",
+    "jyutping": "ngo5 jiu3 si3 haa5 ni1 deoi3 haai4.",
+    "english": "I want to try on this pair of shoes.",
+    "tags": ["greetings", "social"]
+  },
+  {
+    "sentenceId": 166,
+    "cantonese": "啱唔啱身？",
+    "jyutping": "ngaam1 m4 ngaam1 san1?",
+    "english": "Does it fit?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 167,
+    "cantonese": "有冇細一個碼？",
+    "jyutping": "jau5 mou5 sai3 jat1 go3 maa5?",
+    "english": "Do you have one size smaller?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 168,
+    "cantonese": "我要呢個。",
+    "jyutping": "ngo5 jiu3 ni1 go3.",
+    "english": "I'll take this one.",
+    "tags": ["greetings", "social"]
+  },
+  {
+    "sentenceId": 169,
+    "cantonese": "可唔可以退貨？",
+    "jyutping": "ho2 m4 ho2 ji5 teoi3 fo3?",
+    "english": "Can I return this?",
+    "tags": ["greetings", "social"]
+  },
+  {
+    "sentenceId": 170,
+    "cantonese": "請畀個袋我。",
+    "jyutping": "cing2 bei2 go3 doi6 ngo5.",
+    "english": "Please give me a bag.",
+    "tags": ["requests", "social"]
+  },
+  {
+    "sentenceId": 171,
+    "cantonese": "邊度有廁所？",
+    "jyutping": "bin1 dou6 jau5 ci3 so2?",
+    "english": "Where is the toilet?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 172,
+    "cantonese": "直行轉左。",
+    "jyutping": "zik6 haang4 zyun2 zo2.",
+    "english": "Go straight and turn left.",
+    "tags": ["information", "travel"]
+  },
+  {
+    "sentenceId": 173,
+    "cantonese": "喺右手邊。",
+    "jyutping": "hai2 jau6 sau2 bin1.",
+    "english": "It's on the right side.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 174,
+    "cantonese": "我迷路咗。",
+    "jyutping": "ngo5 mai4 lou6 zo2.",
+    "english": "I'm lost.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 175,
+    "cantonese": "幫我叫的士。",
+    "jyutping": "bong1 ngo5 giu3 dik1 si2.",
+    "english": "Please call a taxi for me.",
+    "tags": ["introductions", "social"]
+  },
+  {
+    "sentenceId": 176,
+    "cantonese": "去機場要幾耐？",
+    "jyutping": "heoi3 gei1 coeng4 jiu3 gei2 noi6?",
+    "english": "How long does it take to get to the airport?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 177,
+    "cantonese": "前面塞車。",
+    "jyutping": "cin4 min6 sak1 ce1.",
+    "english": "There's a traffic jam ahead.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 178,
+    "cantonese": "呢度有冇地鐵站？",
+    "jyutping": "ni1 dou6 jau5 mou5 dei6 tit3 zaam6?",
+    "english": "Is there an MTR station here?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 179,
+    "cantonese": "我要去中環。",
+    "jyutping": "ngo5 jiu3 heoi3 zung1 waan4.",
+    "english": "I need to go to Central.",
+    "tags": ["information", "travel"]
+  },
+  {
+    "sentenceId": 180,
+    "cantonese": "邊條線去尖沙咀？",
+    "jyutping": "bin1 tiu4 sin3 heoi3 zim1 saa1 zeoi2?",
+    "english": "Which line goes to Tsim Sha Tsui?",
+    "tags": ["greetings", "travel"]
+  },
+  {
+    "sentenceId": 181,
+    "cantonese": "請讓座畀老人家。",
+    "jyutping": "cing2 joeng6 zo6 bei2 lou5 jan4 gaa1.",
+    "english": "Please give up your seat to the elderly.",
+    "tags": ["requests", "food"]
+  },
+  {
+    "sentenceId": 182,
+    "cantonese": "落車請按鐘。",
+    "jyutping": "lok6 ce1 cing2 on3 zung1.",
+    "english": "Please press the bell when you want to get off.",
+    "tags": ["requests", "social"]
+  },
+  {
+    "sentenceId": 183,
+    "cantonese": "呢架車去邊？",
+    "jyutping": "ni1 gaa3 ce1 heoi3 bin1?",
+    "english": "Where is this bus going?",
+    "tags": ["greetings", "travel"]
+  },
+  {
+    "sentenceId": 184,
+    "cantonese": "請開窗。",
+    "jyutping": "cing2 hoi1 coeng1.",
+    "english": "Please open the window.",
+    "tags": ["requests", "social"]
+  },
+  {
+    "sentenceId": 185,
+    "cantonese": "我暈車浪。",
+    "jyutping": "ngo5 wan4 ce1 long6.",
+    "english": "I get carsick.",
+    "tags": ["information", "health"]
+  },
+  {
+    "sentenceId": 186,
+    "cantonese": "邊度有停車場？",
+    "jyutping": "bin1 dou6 jau5 ting4 ce1 coeng4?",
+    "english": "Where is there a parking lot?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 187,
+    "cantonese": "我租一日車。",
+    "jyutping": "ngo5 zou1 jat1 jat6 ce1.",
+    "english": "I want to rent a car for one day.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 188,
+    "cantonese": "請打錶。",
+    "jyutping": "cing2 daa2 biu1.",
+    "english": "Please turn on the meter.",
+    "tags": ["requests", "social"]
+  },
+  {
+    "sentenceId": 189,
+    "cantonese": "前面有交通意外。",
+    "jyutping": "cin4 min6 jau5 gaau1 tung1 ji3 ngoi6.",
+    "english": "There's a traffic accident ahead.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 190,
+    "cantonese": "請開快啲。",
+    "jyutping": "cing2 hoi1 faai3 di1.",
+    "english": "Please drive faster.",
+    "tags": ["requests", "social"]
+  },
+  {
+    "sentenceId": 191,
+    "cantonese": "我約咗朋友。",
+    "jyutping": "ngo5 joek3 zo2 pang4 jau5.",
+    "english": "I've made an appointment with a friend.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 192,
+    "cantonese": "我遲到咗。",
+    "jyutping": "ngo5 ci4 dou3 zo2.",
+    "english": "I'm late.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 193,
+    "cantonese": "你等咗好耐？",
+    "jyutping": "nei5 dang2 zo2 hou2 noi6?",
+    "english": "Have you been waiting long?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 194,
+    "cantonese": "我哋去邊度食飯？",
+    "jyutping": "ngo5 dei6 heoi3 bin1 dou6 sik6 faan6?",
+    "english": "Where shall we go for dinner?",
+    "tags": ["questions", "travel"]
+  },
+  {
+    "sentenceId": 195,
+    "cantonese": "我請你食飯。",
+    "jyutping": "ngo5 ceng2 nei5 sik6 faan6.",
+    "english": "I'll treat you to dinner.",
+    "tags": ["information", "food"]
+  },
+  {
+    "sentenceId": 196,
+    "cantonese": "你想食咩？",
+    "jyutping": "nei5 soeng2 sik6 me1?",
+    "english": "What would you like to eat?",
+    "tags": ["questions", "food"]
+  },
+  {
+    "sentenceId": 197,
+    "cantonese": "我冇所謂。",
+    "jyutping": "ngo5 mou5 so2 wai6.",
+    "english": "I don't mind.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 198,
+    "cantonese": "我鍾意食辣。",
+    "jyutping": "ngo5 zung1 ji3 sik6 laat6.",
+    "english": "I like spicy food.",
+    "tags": ["information", "food"]
+  },
+  {
+    "sentenceId": 199,
+    "cantonese": "我對海鮮敏感。",
+    "jyutping": "ngo5 deoi3 hoi2 sin1 man5 gam2.",
+    "english": "I'm allergic to seafood.",
+    "tags": ["information", "food"]
+  },
+  {
+    "sentenceId": 200,
+    "cantonese": "我要一碗白飯。",
+    "jyutping": "ngo5 jiu3 jat1 wun2 baak6 faan6.",
+    "english": "I'd like a bowl of rice.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 201,
+    "cantonese": "唔該畀杯水我。",
+    "jyutping": "m4 goi1 bei2 bui1 seoi2 ngo5.",
+    "english": "Please give me a glass of water.",
+    "tags": ["requests", "social"]
+  },
+  {
+    "sentenceId": 202,
+    "cantonese": "好飽呀！",
+    "jyutping": "hou2 baau2 aa3!",
+    "english": "I'm so full!",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 203,
+    "cantonese": "埋單！",
+    "jyutping": "maai4 daan1!",
+    "english": "Check, please!",
+    "tags": ["requests", "social"]
+  },
+  {
+    "sentenceId": 204,
+    "cantonese": "分開單。",
+    "jyutping": "fan1 hoi1 daan1.",
+    "english": "Separate bills, please.",
+    "tags": ["requests", "social"]
+  },
+  {
+    "sentenceId": 205,
+    "cantonese": "有冇折扣？",
+    "jyutping": "jau5 mou5 zit3 kau3?",
+    "english": "Is there any discount?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 206,
+    "cantonese": "收唔收信用卡？",
+    "jyutping": "sau1 m4 sau1 seon3 jung6 kaat1?",
+    "english": "Do you accept credit cards?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 207,
+    "cantonese": "畀現金。",
+    "jyutping": "bei2 jin6 gam1.",
+    "english": "I'll pay cash.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 208,
+    "cantonese": "多謝款待。",
+    "jyutping": "do1 ze6 fun2 doi6.",
+    "english": "Thank you for the meal.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 209,
+    "cantonese": "好味！",
+    "jyutping": "hou2 mei6!",
+    "english": "Delicious!",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 210,
+    "cantonese": "我下次再嚟。",
+    "jyutping": "ngo5 haa6 ci3 zoi3 lei4.",
+    "english": "I'll come again next time.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 211,
+    "cantonese": "你住邊度？",
+    "jyutping": "nei5 zyu6 bin1 dou6?",
+    "english": "Where do you live?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 212,
+    "cantonese": "我住喺九龍。",
+    "jyutping": "ngo5 zyu6 hai2 gau2 lung4.",
+    "english": "I live in Kowloon.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 213,
+    "cantonese": "你屋企有幾多人？",
+    "jyutping": "nei5 uk1 kei2 jau5 gei2 do1 jan4?",
+    "english": "How many people are in your family?",
+    "tags": ["questions", "home"]
+  },
+  {
+    "sentenceId": 214,
+    "cantonese": "我同父母住。",
+    "jyutping": "ngo5 tung4 fu6 mou5 zyu6.",
+    "english": "I live with my parents.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 215,
+    "cantonese": "你有冇兄弟姊妹？",
+    "jyutping": "nei5 jau5 mou5 hing1 dai6 zi2 mui6?",
+    "english": "Do you have any siblings?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 216,
+    "cantonese": "我有一個細佬。",
+    "jyutping": "ngo5 jau5 jat1 go3 sai3 lou2.",
+    "english": "I have a younger brother.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 217,
+    "cantonese": "你養寵物嗎？",
+    "jyutping": "nei5 joeng5 cung2 mat6 maa1?",
+    "english": "Do you have any pets?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 218,
+    "cantonese": "我養咗隻狗。",
+    "jyutping": "ngo5 joeng5 zo2 zek3 gau2.",
+    "english": "I have a dog.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 219,
+    "cantonese": "你鍾意你嘅工作嗎？",
+    "jyutping": "nei5 zung1 ji3 nei5 ge3 gung1 zok3 maa1?",
+    "english": "Do you like your job?",
+    "tags": ["questions", "work"]
+  },
+  {
+    "sentenceId": 220,
+    "cantonese": "我返朝九晚五。",
+    "jyutping": "ngo5 faan1 ziu1 gau2 maan5 ng5.",
+    "english": "I work from 9 to 5.",
+    "tags": ["information", "work"]
+  },
+  {
+    "sentenceId": 221,
+    "cantonese": "你放工去邊？",
+    "jyutping": "nei5 fong3 gung1 heoi3 bin1?",
+    "english": "Where do you go after work?",
+    "tags": ["questions", "travel"]
+  },
+  {
+    "sentenceId": 222,
+    "cantonese": "我通常返屋企。",
+    "jyutping": "ngo5 tung1 soeng4 faan1 uk1 kei2.",
+    "english": "I usually go home.",
+    "tags": ["information", "travel"]
+  },
+  {
+    "sentenceId": 223,
+    "cantonese": "你週末做咩？",
+    "jyutping": "nei5 zau1 mut6 zou6 me1?",
+    "english": "What do you do on weekends?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 224,
+    "cantonese": "我鍾意睇戲。",
+    "jyutping": "ngo5 zung1 ji3 tai2 hei3.",
+    "english": "I like watching movies.",
+    "tags": ["greetings", "social"]
+  },
+  {
+    "sentenceId": 225,
+    "cantonese": "你睇咩書？",
+    "jyutping": "nei5 tai2 me1 syu1?",
+    "english": "What books do you read?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 226,
+    "cantonese": "我睇小說。",
+    "jyutping": "ngo5 tai2 siu2 syut3.",
+    "english": "I read novels.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 227,
+    "cantonese": "你聽咩音樂？",
+    "jyutping": "nei5 teng1 me1 jam1 ngok6?",
+    "english": "What music do you listen to?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 228,
+    "cantonese": "我鍾意流行曲。",
+    "jyutping": "ngo5 zung1 ji3 lau4 hang4 kuk1.",
+    "english": "I like pop music.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 229,
+    "cantonese": "你有冇運動？",
+    "jyutping": "nei5 jau5 mou5 wan6 dung6?",
+    "english": "Do you exercise?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 230,
+    "cantonese": "我每朝跑步。",
+    "jyutping": "ngo5 mui5 ziu1 paau2 bou6.",
+    "english": "I jog every morning.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 231,
+    "cantonese": "你識唔識游水？",
+    "jyutping": "nei5 sik1 m4 sik1 jau4 seoi2?",
+    "english": "Can you swim?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 232,
+    "cantonese": "我識少少。",
+    "jyutping": "ngo5 sik1 siu2 siu2.",
+    "english": "I can a little.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 233,
+    "cantonese": "你鍾意旅行嗎？",
+    "jyutping": "nei5 zung1 ji3 leoi5 hang4 maa1?",
+    "english": "Do you like traveling?",
+    "tags": ["questions", "travel"]
+  },
+  {
+    "sentenceId": 234,
+    "cantonese": "我去過日本。",
+    "jyutping": "ngo5 heoi3 gwo3 jat6 bun2.",
+    "english": "I've been to Japan.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 235,
+    "cantonese": "你最鍾意邊個城市？",
+    "jyutping": "nei5 zeoi3 zung1 ji3 bin1 go3 sing4 si5?",
+    "english": "Which city do you like the most?",
+    "tags": ["greetings", "social"]
+  },
+  {
+    "sentenceId": 236,
+    "cantonese": "我鍾意巴黎。",
+    "jyutping": "ngo5 zung1 ji3 baa1 lai4.",
+    "english": "I like Paris.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 237,
+    "cantonese": "你識煮飯嗎？",
+    "jyutping": "nei5 sik1 zyu2 faan6 maa1?",
+    "english": "Can you cook?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 238,
+    "cantonese": "我識煮簡單嘅餸。",
+    "jyutping": "ngo5 sik1 zyu2 gaan2 daan1 ge3 sung3.",
+    "english": "I can cook simple dishes.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 239,
+    "cantonese": "你最鍾意食咩餸？",
+    "jyutping": "nei5 zeoi3 zung1 ji3 sik6 me1 sung3?",
+    "english": "What's your favorite dish?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 240,
+    "cantonese": "我鍾意食咕嚕肉。",
+    "jyutping": "ngo5 zung1 ji3 sik6 gu1 lou1 juk6.",
+    "english": "I like sweet and sour pork.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 241,
+    "cantonese": "你飲唔飲酒？",
+    "jyutping": "nei5 jam2 m4 jam2 zau2?",
+    "english": "Do you drink alcohol?",
+    "tags": ["questions", "food"]
+  },
+  {
+    "sentenceId": 242,
+    "cantonese": "我間中飲啤酒。",
+    "jyutping": "ngo5 gaan1 zung1 jam2 be1 zau2.",
+    "english": "I occasionally drink beer.",
+    "tags": ["information", "food"]
+  },
+  {
+    "sentenceId": 243,
+    "cantonese": "你吸煙嗎？",
+    "jyutping": "nei5 kap1 jin1 maa1?",
+    "english": "Do you smoke?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 244,
+    "cantonese": "我唔食煙。",
+    "jyutping": "ngo5 m4 sik6 jin1.",
+    "english": "I don't smoke.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 245,
+    "cantonese": "你幾點瞓覺？",
+    "jyutping": "nei5 gei2 dim2 fan3 gaau3?",
+    "english": "What time do you go to bed?",
+    "tags": ["questions", "travel"]
+  },
+  {
+    "sentenceId": 246,
+    "cantonese": "我通常十一點瞓。",
+    "jyutping": "ngo5 tung1 soeng4 sap6 jat1 dim2 fan3.",
+    "english": "I usually sleep at 11.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 247,
+    "cantonese": "你瞓得好嗎？",
+    "jyutping": "nei5 fan3 dak1 hou2 maa1?",
+    "english": "Do you sleep well?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 248,
+    "cantonese": "我成日失眠。",
+    "jyutping": "ngo5 sing4 jat6 sat1 min4.",
+    "english": "I often have insomnia.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 249,
+    "cantonese": "你發夢嗎？",
+    "jyutping": "nei5 faat3 mung6 maa1?",
+    "english": "Do you dream?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 250,
+    "cantonese": "我成日發夢。",
+    "jyutping": "ngo5 sing4 jat6 faat3 mung6.",
+    "english": "I dream often.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 251,
+    "cantonese": "你信唔信命運？",
+    "jyutping": "nei5 seon3 m4 seon3 ming6 wan6?",
+    "english": "Do you believe in fate?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 252,
+    "cantonese": "我信努力。",
+    "jyutping": "ngo5 seon3 nou5 lik6.",
+    "english": "I believe in hard work.",
+    "tags": ["opinions", "work"]
+  },
+  {
+    "sentenceId": 253,
+    "cantonese": "你有冇夢想？",
+    "jyutping": "nei5 jau5 mou5 mung6 soeng2?",
+    "english": "Do you have any dreams?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 254,
+    "cantonese": "我想環遊世界。",
+    "jyutping": "ngo5 soeng2 waan4 jau4 sai3 gaai3.",
+    "english": "I want to travel around the world.",
+    "tags": ["information", "travel"]
+  },
+  {
+    "sentenceId": 255,
+    "cantonese": "你最驚咩？",
+    "jyutping": "nei5 zeoi3 geng1 me1?",
+    "english": "What are you most afraid of?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 256,
+    "cantonese": "我驚曱甴。",
+    "jyutping": "ngo5 geng1 gaat6 zaat6.",
+    "english": "I'm afraid of cockroaches.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 257,
+    "cantonese": "你覺得人生點先有意義？",
+    "jyutping": "nei5 gok3 dak1 jan4 sang1 dim2 sin1 jau5 ji3 ji6?",
+    "english": "What do you think makes life meaningful?",
+    "tags": ["greetings", "social"]
+  },
+  {
+    "sentenceId": 258,
+    "cantonese": "做自己鍾意嘅事。",
+    "jyutping": "zou6 zi6 gei2 zung1 ji3 ge3 si6.",
+    "english": "Do what you love.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 259,
+    "cantonese": "你覺得幸福係咩？",
+    "jyutping": "nei5 gok3 dak1 hang6 fuk1 hai6 me1?",
+    "english": "What do you think happiness is?",
+    "tags": ["greetings", "social"]
+  },
+  {
+    "sentenceId": 260,
+    "cantonese": "同家人一齊。",
+    "jyutping": "tung4 gaa1 jan4 jat1 cai4.",
+    "english": "Being with family.",
+    "tags": ["information", "home"]
+  },
+  {
+    "sentenceId": 261,
+    "cantonese": "你點減壓？",
+    "jyutping": "nei5 dim2 gaam2 aat3?",
+    "english": "How do you relieve stress?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 262,
+    "cantonese": "我聽音樂。",
+    "jyutping": "ngo5 teng1 jam1 ngok6.",
+    "english": "I listen to music.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 263,
+    "cantonese": "你有冇養寵物？",
+    "jyutping": "nei5 jau5 mou5 joeng5 cung2 mat6?",
+    "english": "Do you have any pets?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 264,
+    "cantonese": "我養咗隻貓。",
+    "jyutping": "ngo5 joeng5 zo2 zek3 maau1.",
+    "english": "I have a cat.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 265,
+    "cantonese": "你鍾意狗定貓？",
+    "jyutping": "nei5 zung1 ji3 gau2 ding6 maau1?",
+    "english": "Do you prefer dogs or cats?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 266,
+    "cantonese": "我鍾意狗多啲。",
+    "jyutping": "ngo5 zung1 ji3 gau2 do1 di1.",
+    "english": "I prefer dogs.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 267,
+    "cantonese": "你有冇睇過呢套戲？",
+    "jyutping": "nei5 jau5 mou5 tai2 gwo3 ni1 tou3 hei3?",
+    "english": "Have you seen this movie?",
+    "tags": ["greetings", "social"]
+  },
+  {
+    "sentenceId": 268,
+    "cantonese": "未睇過。",
+    "jyutping": "mei6 tai2 gwo3.",
+    "english": "I haven't seen it.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 269,
+    "cantonese": "你鍾意咩類型嘅戲？",
+    "jyutping": "nei5 zung1 ji3 me1 leoi6 jing4 ge3 hei3?",
+    "english": "What type of movies do you like?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 270,
+    "cantonese": "我鍾意科幻片。",
+    "jyutping": "ngo5 zung1 ji3 fo1 gun3 pin2.",
+    "english": "I like sci-fi movies.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 271,
+    "cantonese": "你最近睇咩書？",
+    "jyutping": "nei5 zeoi3 gan6 tai2 me1 syu1?",
+    "english": "What book are you reading recently?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 272,
+    "cantonese": "我睇緊小說。",
+    "jyutping": "ngo5 tai2 gan2 siu2 syut3.",
+    "english": "I'm reading a novel.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 273,
+    "cantonese": "你鍾意咩作家？",
+    "jyutping": "nei5 zung1 ji3 me1 zok3 gaa1?",
+    "english": "Which author do you like?",
+    "tags": ["greetings", "social"]
+  },
+  {
+    "sentenceId": 274,
+    "cantonese": "我鍾意金庸。",
+    "jyutping": "ngo5 zung1 ji3 gam1 jung4.",
+    "english": "I like Jin Yong.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 275,
+    "cantonese": "你有冇寫日記？",
+    "jyutping": "nei5 jau5 mou5 se2 jat6 gei3?",
+    "english": "Do you keep a diary?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 276,
+    "cantonese": "我間中寫。",
+    "jyutping": "ngo5 gaan1 zung1 se2.",
+    "english": "I write occasionally.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 277,
+    "cantonese": "你鍾意咩顏色？",
+    "jyutping": "nei5 zung1 ji3 me1 ngaan4 sik1?",
+    "english": "What color do you like?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 278,
+    "cantonese": "我鍾意藍色。",
+    "jyutping": "ngo5 zung1 ji3 laam4 sik1.",
+    "english": "I like blue.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 279,
+    "cantonese": "你識唔識畫畫？",
+    "jyutping": "nei5 sik1 m4 sik1 waa2 waa2?",
+    "english": "Can you draw?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 280,
+    "cantonese": "我畫得好差。",
+    "jyutping": "ngo5 waa2 dak1 hou2 caa1.",
+    "english": "I draw very poorly.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 281,
+    "cantonese": "你鍾意影相嗎？",
+    "jyutping": "nei5 zung1 ji3 jing2 soeng2 maa1?",
+    "english": "Do you like taking photos?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 282,
+    "cantonese": "我成日自拍。",
+    "jyutping": "ngo5 sing4 jat6 zi6 paak3.",
+    "english": "I often take selfies.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 283,
+    "cantonese": "你玩咩運動？",
+    "jyutping": "nei5 waan2 me1 wan6 dung6?",
+    "english": "What sports do you play?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 284,
+    "cantonese": "我打籃球。",
+    "jyutping": "ngo5 daa2 laam4 kau4.",
+    "english": "I play basketball.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 285,
+    "cantonese": "你支持邊隊波？",
+    "jyutping": "nei5 zi1 ci4 bin1 deoi6 bo1?",
+    "english": "Which football team do you support?",
+    "tags": ["greetings", "social"]
+  },
+  {
+    "sentenceId": 286,
+    "cantonese": "我支持曼聯。",
+    "jyutping": "ngo5 zi1 ci4 maan6 lyun4.",
+    "english": "I support Manchester United.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 287,
+    "cantonese": "你睇奧運會嗎？",
+    "jyutping": "nei5 tai2 ou3 wan6 wui2 maa1?",
+    "english": "Do you watch the Olympics?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 288,
+    "cantonese": "我鍾意睇跳水。",
+    "jyutping": "ngo5 zung1 ji3 tai2 tiu3 seoi2.",
+    "english": "I like watching diving.",
+    "tags": ["greetings", "social"]
+  },
+  {
+    "sentenceId": 289,
+    "cantonese": "你有冇玩電子遊戲？",
+    "jyutping": "nei5 jau5 mou5 waan2 din6 zi2 jau4 hei3?",
+    "english": "Do you play video games?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 290,
+    "cantonese": "我間中玩手機遊戲。",
+    "jyutping": "ngo5 gaan1 zung1 waan2 sau2 gei1 jau4 hei3.",
+    "english": "I occasionally play mobile games.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 291,
+    "cantonese": "你鍾意咩遊戲？",
+    "jyutping": "nei5 zung1 ji3 me1 jau4 hei3?",
+    "english": "What games do you like?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 292,
+    "cantonese": "我鍾意角色扮演遊戲。",
+    "jyutping": "ngo5 zung1 ji3 gok3 sik1 bin6 jin6 jau4 hei3.",
+    "english": "I like RPGs.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 293,
+    "cantonese": "你打機打到幾點？",
+    "jyutping": "nei5 daa2 gei1 daa2 dou3 gei2 dim2?",
+    "english": "Until what time do you play games?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 294,
+    "cantonese": "我通常玩到十一點。",
+    "jyutping": "ngo5 tung1 soeng4 waan2 dou3 sap6 jat1 dim2.",
+    "english": "I usually play until 11.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 295,
+    "cantonese": "你有冇上網購物？",
+    "jyutping": "nei5 jau5 mou5 soeng5 mong5 kau3 mat6?",
+    "english": "Do you shop online?",
+    "tags": ["questions", "shopping"]
+  },
+  {
+    "sentenceId": 296,
+    "cantonese": "我成日淘寶。",
+    "jyutping": "ngo5 sing4 jat6 tou4 bou2.",
+    "english": "I often shop on Taobao.",
+    "tags": ["information", "shopping"]
+  },
+  {
+    "sentenceId": 297,
+    "cantonese": "你鍾意咩社交媒體？",
+    "jyutping": "nei5 zung1 ji3 me1 se5 gaau1 mui4 tai2?",
+    "english": "What social media do you like?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 298,
+    "cantonese": "我鍾意用Instagram。",
+    "jyutping": "ngo5 zung1 ji3 jung6 Instagram.",
+    "english": "I like using Instagram.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 299,
+    "cantonese": "你有冇追星？",
+    "jyutping": "nei5 jau5 mou5 zeoi1 sing1?",
+    "english": "Are you a fan of any celebrities?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 300,
+    "cantonese": "我鍾意周杰倫。",
+    "jyutping": "ngo5 zung1 ji3 zau1 git6 leon4.",
+    "english": "I like Jay Chou.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 301,
+    "cantonese": "你睇電視嗎？",
+    "jyutping": "nei5 tai2 din6 si6 maa1?",
+    "english": "Do you watch TV?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 302,
+    "cantonese": "我睇Netflix多。",
+    "jyutping": "ngo5 tai2 Netflix do1.",
+    "english": "I watch Netflix more.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 303,
+    "cantonese": "你鍾意咩節目？",
+    "jyutping": "nei5 zung1 ji3 me1 zit3 muk6?",
+    "english": "What shows do you like?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 304,
+    "cantonese": "我鍾意睇紀錄片。",
+    "jyutping": "ngo5 zung1 ji3 tai2 gei3 luk6 pin2.",
+    "english": "I like watching documentaries.",
+    "tags": ["greetings", "social"]
+  },
+  {
+    "sentenceId": 305,
+    "cantonese": "你有冇睇新聞？",
+    "jyutping": "nei5 jau5 mou5 tai2 san1 man4?",
+    "english": "Do you watch the news?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 306,
+    "cantonese": "我每日睇。",
+    "jyutping": "ngo5 mui5 jat6 tai2.",
+    "english": "I watch it every day.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 307,
+    "cantonese": "你覺得而家經濟點？",
+    "jyutping": "nei5 gok3 dak1 ji4 gaa1 ging1 zai3 dim2?",
+    "english": "How do you think the economy is now?",
+    "tags": ["greetings", "social"]
+  },
+  {
+    "sentenceId": 308,
+    "cantonese": "唔係幾好。",
+    "jyutping": "m4 hai6 gei2 hou2.",
+    "english": "Not very good.",
+    "tags": ["information", "travel"]
+  },
+  {
+    "sentenceId": 309,
+    "cantonese": "你投票未？",
+    "jyutping": "nei5 tau4 piu3 mei6?",
+    "english": "Have you voted?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 310,
+    "cantonese": "我投咗票啦。",
+    "jyutping": "ngo5 tau4 zo2 piu3 laa1.",
+    "english": "I've already voted.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 311,
+    "cantonese": "你關心政治嗎？",
+    "jyutping": "nei5 gwaan1 sam1 zing3 zi6 maa1?",
+    "english": "Are you interested in politics?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 312,
+    "cantonese": "我唔太關心。",
+    "jyutping": "ngo5 m4 taai3 gwaan1 sam1.",
+    "english": "I'm not very interested.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 313,
+    "cantonese": "你覺得環保重要嗎？",
+    "jyutping": "nei5 gok3 dak1 waan4 bou2 zung6 jiu3 maa1?",
+    "english": "Do you think environmental protection is important?",
+    "tags": ["greetings", "social"]
+  },
+  {
+    "sentenceId": 314,
+    "cantonese": "好重要！",
+    "jyutping": "hou2 zung6 jiu3!",
+    "english": "Very important!",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 315,
+    "cantonese": "你有冇做回收？",
+    "jyutping": "nei5 jau5 mou5 zou6 wui4 sau1?",
+    "english": "Do you recycle?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 316,
+    "cantonese": "我盡量做。",
+    "jyutping": "ngo5 zeon6 loeng6 zou6.",
+    "english": "I try my best.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 317,
+    "cantonese": "你食素嗎？",
+    "jyutping": "nei5 sik6 sou3 maa1?",
+    "english": "Are you vegetarian?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 318,
+    "cantonese": "我唔係素食者。",
+    "jyutping": "ngo5 m4 hai6 sou3 sik6 ze2.",
+    "english": "I'm not a vegetarian.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 319,
+    "cantonese": "你有冇養車？",
+    "jyutping": "nei5 jau5 mou5 joeng5 ce1?",
+    "english": "Do you own a car?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 320,
+    "cantonese": "我搭公共交通工具。",
+    "jyutping": "ngo5 daap3 gung1 gung6 gaau1 tung1 gung1 gei6.",
+    "english": "I take public transportation.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 321,
+    "cantonese": "你鍾意咩車？",
+    "jyutping": "nei5 zung1 ji3 me1 ce1?",
+    "english": "What car do you like?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 322,
+    "cantonese": "我鍾意電動車。",
+    "jyutping": "ngo5 zung1 ji3 din6 dung6 ce1.",
+    "english": "I like electric cars.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 323,
+    "cantonese": "你有冇車牌？",
+    "jyutping": "nei5 jau5 mou5 ce1 paai2?",
+    "english": "Do you have a driver's license?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 324,
+    "cantonese": "我考緊車牌。",
+    "jyutping": "ngo5 haau2 gan2 ce1 paai2.",
+    "english": "I'm getting my driver's license.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 325,
+    "cantonese": "你揸車小心啲！",
+    "jyutping": "nei5 zaa1 ce1 siu2 sam1 di1!",
+    "english": "Drive carefully!",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 326,
+    "cantonese": "我會㗎啦！",
+    "jyutping": "ngo5 wui5 gaa3 laa1!",
+    "english": "I will!",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 327,
+    "cantonese": "你有冇去過外國？",
+    "jyutping": "nei5 jau5 mou5 heoi3 gwo3 ngoi6 gwok3?",
+    "english": "Have you been abroad?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 328,
+    "cantonese": "我去過歐洲。",
+    "jyutping": "ngo5 heoi3 gwo3 au1 zau1.",
+    "english": "I've been to Europe.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 329,
+    "cantonese": "你最鍾意邊個國家？",
+    "jyutping": "nei5 zeoi3 zung1 ji3 bin1 go3 gwok3 gaa1?",
+    "english": "Which country do you like the most?",
+    "tags": ["greetings", "social"]
+  },
+  {
+    "sentenceId": 330,
+    "cantonese": "我鍾意日本。",
+    "jyutping": "ngo5 zung1 ji3 jat6 bun2.",
+    "english": "I like Japan.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 331,
+    "cantonese": "你識幾多種語言？",
+    "jyutping": "nei5 sik1 gei2 do1 zung2 jyu5 jin4?",
+    "english": "How many languages do you know?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 332,
+    "cantonese": "我識三種。",
+    "jyutping": "ngo5 sik1 saam1 zung2.",
+    "english": "I know three.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 333,
+    "cantonese": "你學緊咩語言？",
+    "jyutping": "nei5 hok6 gan2 me1 jyu5 jin4?",
+    "english": "What language are you learning?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 334,
+    "cantonese": "我學緊法文。",
+    "jyutping": "ngo5 hok6 gan2 faat3 man4.",
+    "english": "I'm learning French.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 335,
+    "cantonese": "你覺得邊種語言最難？",
+    "jyutping": "nei5 gok3 dak1 bin1 zung2 jyu5 jin4 zeoi3 naan4?",
+    "english": "Which language do you think is the most difficult?",
+    "tags": ["greetings", "social"]
+  },
+  {
+    "sentenceId": 336,
+    "cantonese": "我覺得中文最難。",
+    "jyutping": "ngo5 gok3 dak1 zung1 man4 zeoi3 naan4.",
+    "english": "I think Chinese is the most difficult.",
+    "tags": ["greetings", "social"]
+  },
+  {
+    "sentenceId": 337,
+    "cantonese": "你點樣學語言？",
+    "jyutping": "nei5 dim2 joeng2 hok6 jyu5 jin4?",
+    "english": "How do you learn languages?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 338,
+    "cantonese": "我睇電影學。",
+    "jyutping": "ngo5 tai2 din6 jing2 hok6.",
+    "english": "I learn by watching movies.",
+    "tags": ["greetings", "social"]
+  },
+  {
+    "sentenceId": 339,
+    "cantonese": "你有冇語言天份？",
+    "jyutping": "nei5 jau5 mou5 jyu5 jin4 tin1 fan6?",
+    "english": "Do you have a talent for languages?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 340,
+    "cantonese": "我冇㗎。",
+    "jyutping": "ngo5 mou5 gaa3.",
+    "english": "I don't.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 341,
+    "cantonese": "你覺得廣東話難學嗎？",
+    "jyutping": "nei5 gok3 dak1 gwong2 dung1 waa2 naan4 hok6 maa1?",
+    "english": "Do you think Cantonese is difficult to learn?",
+    "tags": ["greetings", "social"]
+  },
+  {
+    "sentenceId": 342,
+    "cantonese": "聲調好難。",
+    "jyutping": "seng1 diu6 hou2 naan4.",
+    "english": "The tones are very difficult.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 343,
+    "cantonese": "你學咗幾耐廣東話？",
+    "jyutping": "nei5 hok6 zo2 gei2 noi6 gwong2 dung1 waa2?",
+    "english": "How long have you been learning Cantonese?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 344,
+    "cantonese": "我學咗半年。",
+    "jyutping": "ngo5 hok6 zo2 bun3 nin4.",
+    "english": "I've been learning for half a year.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 345,
+    "cantonese": "你點樣練習？",
+    "jyutping": "nei5 dim2 joeng2 lin6 zaap6?",
+    "english": "How do you practice?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 346,
+    "cantonese": "我同朋友傾偈。",
+    "jyutping": "ngo5 tung4 pang4 jau5 king1 gai2.",
+    "english": "I chat with friends.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 347,
+    "cantonese": "你覺得自己進步咗嗎？",
+    "jyutping": "nei5 gok3 dak1 zi6 gei2 zeon3 bou6 zo2 maa1?",
+    "english": "Do you think you've improved?",
+    "tags": ["greetings", "social"]
+  },
+  {
+    "sentenceId": 348,
+    "cantonese": "有少少進步。",
+    "jyutping": "jau5 siu2 siu2 zeon3 bou6.",
+    "english": "A little bit.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 349,
+    "cantonese": "你有冇睇粵語劇？",
+    "jyutping": "nei5 jau5 mou5 tai2 jyut6 jyu5 kek6?",
+    "english": "Do you watch Cantonese dramas?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 350,
+    "cantonese": "我成日睇TVB。",
+    "jyutping": "ngo5 sing4 jat6 tai2 TVB.",
+    "english": "I often watch TVB.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 351,
+    "cantonese": "你聽粵語歌嗎？",
+    "jyutping": "nei5 teng1 jyut6 jyu5 go1 maa1?",
+    "english": "Do you listen to Cantonese songs?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 352,
+    "cantonese": "我鍾意陳奕迅。",
+    "jyutping": "ngo5 zung1 ji3 can4 jik6 seon3.",
+    "english": "I like Eason Chan.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 353,
+    "cantonese": "你有冇廣東話老師？",
+    "jyutping": "nei5 jau5 mou5 gwong2 dung1 waa2 lou5 si1?",
+    "english": "Do you have a Cantonese teacher?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 354,
+    "cantonese": "我自學。",
+    "jyutping": "ngo5 zi6 hok6.",
+    "english": "I self-study.",
+    "tags": ["information", "school"]
+  },
+  {
+    "sentenceId": 355,
+    "cantonese": "你覺得學語言最難係咩？",
+    "jyutping": "nei5 gok3 dak1 hok6 jyu5 jin4 zeoi3 naan4 hai6 me1?",
+    "english": "What do you think is the hardest part of learning a language?",
+    "tags": ["greetings", "social"]
+  },
+  {
+    "sentenceId": 356,
+    "cantonese": "發音最難。",
+    "jyutping": "faat3 jam1 zeoi3 naan4.",
+    "english": "Pronunciation is the hardest.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 357,
+    "cantonese": "你有冇語言交換？",
+    "jyutping": "nei5 jau5 mou5 jyu5 jin4 gaau1 wun6?",
+    "english": "Do you do language exchange?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 358,
+    "cantonese": "我有個語言伙伴。",
+    "jyutping": "ngo5 jau5 go3 jyu5 jin4 fo2 bun6.",
+    "english": "I have a language partner.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 359,
+    "cantonese": "你每日學幾耐？",
+    "jyutping": "nei5 mui5 jat6 hok6 gei2 noi6?",
+    "english": "How long do you study every day?",
+    "tags": ["questions", "school"]
+  },
+  {
+    "sentenceId": 360,
+    "cantonese": "我每日學一個鐘。",
+    "jyutping": "ngo5 mui5 jat6 hok6 jat1 go3 zung1.",
+    "english": "I study one hour every day.",
+    "tags": ["information", "school"]
+  },
+  {
+    "sentenceId": 361,
+    "cantonese": "你覺得自己講得點？",
+    "jyutping": "nei5 gok3 dak1 zi6 gei2 gong2 dak1 dim2?",
+    "english": "How do you think your speaking is?",
+    "tags": ["greetings", "social"]
+  },
+  {
+    "sentenceId": 362,
+    "cantonese": "我講得唔好。",
+    "jyutping": "ngo5 gong2 dak1 m4 hou2.",
+    "english": "I don't speak well.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 363,
+    "cantonese": "你明唔明我講咩？",
+    "jyutping": "nei5 ming4 m4 ming4 ngo5 gong2 me1?",
+    "english": "Do you understand what I'm saying?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 364,
+    "cantonese": "我明少少。",
+    "jyutping": "ngo5 ming4 siu2 siu2.",
+    "english": "I understand a little.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 365,
+    "cantonese": "你可唔可以講慢啲？",
+    "jyutping": "nei5 ho2 m4 ho2 ji5 gong2 maan6 di1?",
+    "english": "Can you speak slower?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 366,
+    "cantonese": "冇問題！",
+    "jyutping": "mou5 man6 tai4!",
+    "english": "No problem!",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 367,
+    "cantonese": "多謝你教我。",
+    "jyutping": "do1 ze6 nei5 gaau3 ngo5.",
+    "english": "Thank you for teaching me.",
+    "tags": ["greetings", "social"]
+  },
+  {
+    "sentenceId": 368,
+    "cantonese": "唔使客氣！",
+    "jyutping": "m4 sai2 haak3 hei3!",
+    "english": "You're welcome!",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 369,
+    "cantonese": "我哋做朋友啦！",
+    "jyutping": "ngo5 dei6 zou6 pang4 jau5 laa1!",
+    "english": "Let's be friends!",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 370,
+    "cantonese": "好呀！",
+    "jyutping": "hou2 aa3!",
+    "english": "Okay!",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 371,
+    "cantonese": "你電話幾號？",
+    "jyutping": "nei5 din6 waa2 gei2 hou6?",
+    "english": "What's your phone number?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 372,
+    "cantonese": "我WhatsApp你。",
+    "jyutping": "ngo5 WhatsApp nei5.",
+    "english": "I'll WhatsApp you.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 373,
+    "cantonese": "你有冇Facebook？",
+    "jyutping": "nei5 jau5 mou5 Facebook?",
+    "english": "Do you have Facebook?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 374,
+    "cantonese": "有，我add你。",
+    "jyutping": "jau5, ngo5 add nei5.",
+    "english": "Yes, I'll add you.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 375,
+    "cantonese": "你通常幾時得閒？",
+    "jyutping": "nei5 tung1 soeng4 gei2 si4 dak1 haan4?",
+    "english": "When are you usually free?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 376,
+    "cantonese": "週末得閒。",
+    "jyutping": "zau1 mut6 dak1 haan4.",
+    "english": "I'm free on weekends.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 377,
+    "cantonese": "我哋一齊食飯啦！",
+    "jyutping": "ngo5 dei6 jat1 cai4 sik6 faan6 laa1!",
+    "english": "Let's eat together!",
+    "tags": ["information", "food"]
+  },
+  {
+    "sentenceId": 378,
+    "cantonese": "好主意！",
+    "jyutping": "hou2 zyu2 ji3!",
+    "english": "Good idea!",
+    "tags": ["information", "travel"]
+  },
+  {
+    "sentenceId": 379,
+    "cantonese": "你想去邊度食？",
+    "jyutping": "nei5 soeng2 heoi3 bin1 dou6 sik6?",
+    "english": "Where would you like to eat?",
+    "tags": ["questions", "food"]
+  },
+  {
+    "sentenceId": 380,
+    "cantonese": "你話事啦！",
+    "jyutping": "nei5 waa6 si6 laa1!",
+    "english": "You decide!",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 381,
+    "cantonese": "我哋去飲茶啦！",
+    "jyutping": "ngo5 dei6 heoi3 jam2 caa4 laa1!",
+    "english": "Let's go for dim sum!",
+    "tags": ["information", "travel"]
+  },
+  {
+    "sentenceId": 382,
+    "cantonese": "我最鍾意食點心！",
+    "jyutping": "ngo5 zeoi3 zung1 ji3 sik6 dim2 sam1!",
+    "english": "I love dim sum the most!",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 383,
+    "cantonese": "你鍾意食咩點心？",
+    "jyutping": "nei5 zung1 ji3 sik6 me1 dim2 sam1?",
+    "english": "What dim sum do you like?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 384,
+    "cantonese": "我鍾意蝦餃。",
+    "jyutping": "ngo5 zung1 ji3 haa1 gaau2.",
+    "english": "I like shrimp dumplings.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 385,
+    "cantonese": "叫多啲嘢食啦！",
+    "jyutping": "giu3 do1 di1 je5 sik6 laa1!",
+    "english": "Order more food!",
+    "tags": ["information", "food"]
+  },
+  {
+    "sentenceId": 386,
+    "cantonese": "我哋食唔晒㗎！",
+    "jyutping": "ngo5 dei6 sik6 m4 saai3 gaa3!",
+    "english": "We can't finish it all!",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 387,
+    "cantonese": "打包啦！",
+    "jyutping": "daa2 baau1 laa1!",
+    "english": "Let's take it away!",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 388,
+    "cantonese": "慳錢又環保！",
+    "jyutping": "haan1 cin2 jau6 waan4 bou2!",
+    "english": "Save money and be eco-friendly!",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 389,
+    "cantonese": "下次再約！",
+    "jyutping": "haa6 ci3 zoi3 joek3!",
+    "english": "Let's meet again next time!",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 390,
+    "cantonese": "一定！",
+    "jyutping": "jat1 ding6!",
+    "english": "Definitely!",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 391,
+    "cantonese": "保重！",
+    "jyutping": "bou2 zung6!",
+    "english": "Take care!",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 392,
+    "cantonese": "你都要保重！",
+    "jyutping": "nei5 dou1 jiu3 bou2 zung6!",
+    "english": "You take care too!",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 393,
+    "cantonese": "再見！",
+    "jyutping": "zoi3 gin3!",
+    "english": "Goodbye!",
+    "tags": ["greetings", "travel"]
+  },
+  {
+    "sentenceId": 394,
+    "cantonese": "拜拜！",
+    "jyutping": "baai1 baai3!",
+    "english": "Bye bye!",
+    "tags": ["greetings", "social"]
+  },
+  {
+    "sentenceId": 395,
+    "cantonese": "聽日見！",
+    "jyutping": "ting1 jat6 gin3!",
+    "english": "See you tomorrow!",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 396,
+    "cantonese": "遲啲見！",
+    "jyutping": "ci4 di1 gin3!",
+    "english": "See you later!",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 397,
+    "cantonese": "保持聯絡！",
+    "jyutping": "bou2 ci4 lyun4 lok3!",
+    "english": "Keep in touch!",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 398,
+    "cantonese": "我會㗎啦！",
+    "jyutping": "ngo5 wui5 gaa3 laa1!",
+    "english": "I will!",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 399,
+    "cantonese": "祝你今日過得愉快！",
+    "jyutping": "zuk1 nei5 gam1 jat6 gwo3 dak1 jyu6 faai3!",
+    "english": "Have a nice day!",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 400,
+    "cantonese": "多謝！你都係！",
+    "jyutping": "do1 ze6! nei5 dou1 hai6!",
+    "english": "Thank you! You too!",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 401,
+    "cantonese": "你返幾點？",
+    "jyutping": "nei5 faan1 gei2 dim2?",
+    "english": "What time do you start work?",
+    "tags": ["questions", "work"]
+  },
+  {
+    "sentenceId": 402,
+    "cantonese": "我朝早九點返工。",
+    "jyutping": "ngo5 ziu1 zou2 gau2 dim2 faan1 gung1.",
+    "english": "I start work at 9am.",
+    "tags": ["information", "work"]
+  },
+  {
+    "sentenceId": 403,
+    "cantonese": "今日要加班。",
+    "jyutping": "gam1 jat6 jiu3 gaa1 baan1.",
+    "english": "I need to work overtime today.",
+    "tags": ["information", "work"]
+  },
+  {
+    "sentenceId": 404,
+    "cantonese": "你放工未？",
+    "jyutping": "nei5 fong3 gung1 mei6?",
+    "english": "Are you off work yet?",
+    "tags": ["questions", "work"]
+  },
+  {
+    "sentenceId": 405,
+    "cantonese": "我仲有好多嘢做。",
+    "jyutping": "ngo5 zung6 jau5 hou2 do1 je5 zou6.",
+    "english": "I still have a lot of work to do.",
+    "tags": ["information", "work"]
+  },
+  {
+    "sentenceId": 406,
+    "cantonese": "個會議幾點開始？",
+    "jyutping": "go3 wui2 ji5 gei2 dim2 hoi1 ci2?",
+    "english": "What time does the meeting start?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 407,
+    "cantonese": "會議室喺邊度？",
+    "jyutping": "wui2 ji5 sat1 hai2 bin1 dou6?",
+    "english": "Where is the meeting room?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 408,
+    "cantonese": "請準備份報告。",
+    "jyutping": "cing2 zeon2 bei6 fan6 bou3 gou3.",
+    "english": "Please prepare the report.",
+    "tags": ["requests", "social"]
+  },
+  {
+    "sentenceId": 409,
+    "cantonese": "份文件趕唔趕？",
+    "jyutping": "fan6 man4 gin6 gon2 m4 gon2?",
+    "english": "Is the document urgent?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 410,
+    "cantonese": "聽日deadline。",
+    "jyutping": "ting1 jat6 deadline.",
+    "english": "Tomorrow is the deadline.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 411,
+    "cantonese": "可唔可以幫我print份文件？",
+    "jyutping": "ho2 m4 ho2 ji5 bong1 ngo5 print fan6 man4 gin6?",
+    "english": "Can you help me print the document?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 412,
+    "cantonese": "影印機壞咗。",
+    "jyutping": "jing2 jaap3 gei1 waai6 zo2.",
+    "english": "The photocopier is broken.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 413,
+    "cantonese": "電腦當機。",
+    "jyutping": "din6 nou5 dong1 gei1.",
+    "english": "The computer crashed.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 414,
+    "cantonese": "IT部門電話幾號？",
+    "jyutping": "IT bou6 mun4 din6 waa2 gei2 hou6?",
+    "english": "What's the IT department's phone number?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 415,
+    "cantonese": "我個password鎖咗。",
+    "jyutping": "ngo5 go3 password so3 zo2.",
+    "english": "My password is locked.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 416,
+    "cantonese": "今日lunch食咩？",
+    "jyutping": "gam1 jat6 lunch sik6 me1?",
+    "english": "What's for lunch today?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 417,
+    "cantonese": "一齊去食飯好嗎？",
+    "jyutping": "jat1 cai4 heoi3 sik6 faan6 hou2 maa1?",
+    "english": "Shall we go for lunch together?",
+    "tags": ["questions", "travel"]
+  },
+  {
+    "sentenceId": 418,
+    "cantonese": "我想請半日假。",
+    "jyutping": "ngo5 soeng2 ceng2 bun3 jat6 gaa3.",
+    "english": "I want to take half day leave.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 419,
+    "cantonese": "填咗放假申請表未？",
+    "jyutping": "tin4 zo2 fong3 gaa3 san1 cing2 biu1 mei6?",
+    "english": "Have you filled out the leave application form?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 420,
+    "cantonese": "老細搵你。",
+    "jyutping": "lou5 sai3 wan2 nei5.",
+    "english": "The boss is looking for you.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 421,
+    "cantonese": "個project進度點？",
+    "jyutping": "go3 project zeon3 dou6 dim2?",
+    "english": "How's the project progress?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 422,
+    "cantonese": "我哋要開會傾下。",
+    "jyutping": "ngo5 dei6 jiu3 hoi1 wui2 king1 haa5.",
+    "english": "We need to have a meeting to discuss.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 423,
+    "cantonese": "send email畀我。",
+    "jyutping": "send email bei2 ngo5.",
+    "english": "Send me an email.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 424,
+    "cantonese": "check下你個inbox。",
+    "jyutping": "check haa5 nei5 go3 inbox.",
+    "english": "Check your inbox.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 425,
+    "cantonese": "個file save咗喺邊？",
+    "jyutping": "go3 file save zo2 hai2 bin1?",
+    "english": "Where did you save the file?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 426,
+    "cantonese": "upload去shared folder。",
+    "jyutping": "upload heoi3 shared folder.",
+    "english": "Upload it to the shared folder.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 427,
+    "cantonese": "個printer冇墨。",
+    "jyutping": "go3 printer mou5 mak6.",
+    "english": "The printer is out of ink.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 428,
+    "cantonese": "邊個用晒啲A4紙？",
+    "jyutping": "bin1 go3 jung6 saai3 di1 A4 zi2?",
+    "english": "Who used up all the A4 paper?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 429,
+    "cantonese": "訂多啲文具啦。",
+    "jyutping": "deng6 do1 di1 man4 geoi6 laa1.",
+    "english": "Order more stationery.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 430,
+    "cantonese": "公司個Wi-Fi密碼係咩？",
+    "jyutping": "gung1 si1 go3 Wi-Fi mat6 maa5 hai6 me1?",
+    "english": "What's the company Wi-Fi password?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 431,
+    "cantonese": "新同事今日返工。",
+    "jyutping": "san1 tung4 si6 gam1 jat6 faan1 gung1.",
+    "english": "The new colleague starts work today.",
+    "tags": ["information", "work"]
+  },
+  {
+    "sentenceId": 432,
+    "cantonese": "介紹下你自己啦。",
+    "jyutping": "gaai3 siu6 haa5 nei5 zi6 gei2 laa1.",
+    "english": "Please introduce yourself.",
+    "tags": ["requests", "social"]
+  },
+  {
+    "sentenceId": 433,
+    "cantonese": "你負責咩部門？",
+    "jyutping": "nei5 fu6 zaak3 me1 bou6 mun4?",
+    "english": "Which department are you in charge of?",
+    "tags": ["greetings", "social"]
+  },
+  {
+    "sentenceId": 434,
+    "cantonese": "我係市場部嘅。",
+    "jyutping": "ngo5 hai6 si5 coeng4 bou6 ge3.",
+    "english": "I'm from the marketing department.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 435,
+    "cantonese": "呢個係你嘅工作枱。",
+    "jyutping": "ni1 go3 hai6 nei5 ge3 gung1 zok3 toi2.",
+    "english": "This is your workstation.",
+    "tags": ["greetings", "work"]
+  },
+  {
+    "sentenceId": 436,
+    "cantonese": "公司幾號出糧？",
+    "jyutping": "gung1 si1 gei2 hou6 ceot1 loeng4?",
+    "english": "When does the company pay salaries?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 437,
+    "cantonese": "月尾出糧。",
+    "jyutping": "jyut6 mei5 ceot1 loeng4.",
+    "english": "Salaries are paid at month end.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 438,
+    "cantonese": "填咗timesheet未？",
+    "jyutping": "tin4 zo2 timesheet mei6?",
+    "english": "Have you filled out your timesheet?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 439,
+    "cantonese": "今個月有bonus。",
+    "jyutping": "gam1 go3 jyut6 jau5 bonus.",
+    "english": "There's bonus this month.",
+    "tags": ["greetings", "social"]
+  },
+  {
+    "sentenceId": 440,
+    "cantonese": "我要申請加人工。",
+    "jyutping": "ngo5 jiu3 san1 cing2 gaa1 jan4 gung1.",
+    "english": "I want to apply for a salary increase.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 441,
+    "cantonese": "公司annual dinner幾時？",
+    "jyutping": "gung1 si1 annual dinner gei2 si4?",
+    "english": "When is the company annual dinner?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 442,
+    "cantonese": "記得報名參加。",
+    "jyutping": "gei3 dak1 bou3 meng2 caam1 gaa1.",
+    "english": "Remember to register for participation.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 443,
+    "cantonese": "今日着casual wear。",
+    "jyutping": "gam1 jat6 zoek3 casual wear.",
+    "english": "It's casual wear today.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 444,
+    "cantonese": "聽日見客要着formal啲。",
+    "jyutping": "ting1 jat6 gin3 haak3 jiu3 zoek3 formal di1.",
+    "english": "Dress more formally tomorrow for client meeting.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 445,
+    "cantonese": "個客改咗appointment。",
+    "jyutping": "go3 haak3 goi2 zo2 appointment.",
+    "english": "The client changed the appointment.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 446,
+    "cantonese": "準備好presentation未？",
+    "jyutping": "zeon2 bei6 hou2 presentation mei6?",
+    "english": "Is the presentation ready?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 447,
+    "cantonese": "個proposal要改。",
+    "jyutping": "go3 proposal jiu3 goi2.",
+    "english": "The proposal needs revision.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 448,
+    "cantonese": "send畀client睇過未？",
+    "jyutping": "send bei2 client tai2 gwo3 mei6?",
+    "english": "Have you sent it to the client for review?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 449,
+    "cantonese": "個deal傾成點？",
+    "jyutping": "go3 deal king1 sing4 dim2?",
+    "english": "How's the deal negotiation going?",
+    "tags": ["questions", "travel"]
+  },
+  {
+    "sentenceId": 450,
+    "cantonese": "客戶好滿意。",
+    "jyutping": "haak3 wu6 hou2 mun5 ji3.",
+    "english": "The client is very satisfied.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 451,
+    "cantonese": "要follow up個case。",
+    "jyutping": "jiu3 follow up go3 case.",
+    "english": "Need to follow up on this case.",
+    "tags": ["greetings", "social"]
+  },
+  {
+    "sentenceId": 452,
+    "cantonese": "記低喺calendar。",
+    "jyutping": "gei3 dai1 hai2 calendar.",
+    "english": "Note it down in the calendar.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 453,
+    "cantonese": "set個reminder。",
+    "jyutping": "set go3 reminder.",
+    "english": "Set a reminder.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 454,
+    "cantonese": "我聽日去business trip。",
+    "jyutping": "ngo5 ting1 jat6 heoi3 business trip.",
+    "english": "I'm going on a business trip tomorrow.",
+    "tags": ["information", "travel"]
+  },
+  {
+    "sentenceId": 455,
+    "cantonese": "book咗酒店未？",
+    "jyutping": "book zo2 zau2 dim3 mei6?",
+    "english": "Have you booked the hotel?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 456,
+    "cantonese": "記得拎收據返嚟claim。",
+    "jyutping": "gei3 dak1 ling1 sau1 geoi3 faan1 lei4 claim.",
+    "english": "Remember to bring receipts back for reimbursement.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 457,
+    "cantonese": "公司policy點講？",
+    "jyutping": "gung1 si1 policy dim2 gong2?",
+    "english": "What does company policy say?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 458,
+    "cantonese": "睇吓employee handbook。",
+    "jyutping": "tai2 haa5 employee handbook.",
+    "english": "Check the employee handbook.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 459,
+    "cantonese": "我要請sick leave。",
+    "jyutping": "ngo5 jiu3 ceng2 sick leave.",
+    "english": "I need to take sick leave.",
+    "tags": ["information", "health"]
+  },
+  {
+    "sentenceId": 460,
+    "cantonese": "睇醫生未？",
+    "jyutping": "tai2 ji1 sang1 mei6?",
+    "english": "Have you seen a doctor?",
+    "tags": ["questions", "health"]
+  },
+  {
+    "sentenceId": 461,
+    "cantonese": "記得拎醫生紙。",
+    "jyutping": "gei3 dak1 ling1 ji1 sang1 zi2.",
+    "english": "Remember to get a doctor's note.",
+    "tags": ["information", "health"]
+  },
+  {
+    "sentenceId": 462,
+    "cantonese": "我聽日work from home。",
+    "jyutping": "ngo5 ting1 jat6 work from home.",
+    "english": "I'll work from home tomorrow.",
+    "tags": ["information", "work"]
+  },
+  {
+    "sentenceId": 463,
+    "cantonese": "有咩事電話聯絡。",
+    "jyutping": "jau5 me1 si6 din6 waa2 lyun4 lok3.",
+    "english": "Contact me by phone if anything comes up.",
+    "tags": ["greetings", "social"]
+  },
+  {
+    "sentenceId": 464,
+    "cantonese": "check下你嘅email。",
+    "jyutping": "check haa5 nei5 ge3 email.",
+    "english": "Check your email.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 465,
+    "cantonese": "個server down咗。",
+    "jyutping": "go3 server down zo2.",
+    "english": "The server is down.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 466,
+    "cantonese": "IT support幾時整好？",
+    "jyutping": "IT support gei2 si4 zing2 hou2?",
+    "english": "When will IT support fix it?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 467,
+    "cantonese": "我個account lock咗。",
+    "jyutping": "ngo5 go3 account lock zo2.",
+    "english": "My account is locked.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 468,
+    "cantonese": "reset個password。",
+    "jyutping": "reset go3 password.",
+    "english": "Reset the password.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 469,
+    "cantonese": "公司轉新system。",
+    "jyutping": "gung1 si1 zyun2 san1 system.",
+    "english": "The company is switching to a new system.",
+    "tags": ["greetings", "social"]
+  },
+  {
+    "sentenceId": 470,
+    "cantonese": "要參加training。",
+    "jyutping": "jiu3 caam1 gaa1 training.",
+    "english": "Need to attend training.",
+    "tags": ["information", "travel"]
+  },
+  {
+    "sentenceId": 471,
+    "cantonese": "填training evaluation form。",
+    "jyutping": "tin4 training evaluation form.",
+    "english": "Fill out the training evaluation form.",
+    "tags": ["information", "travel"]
+  },
+  {
+    "sentenceId": 472,
+    "cantonese": "今個quarter目標係咩？",
+    "jyutping": "gam1 go3 quarter muk6 biu1 hai6 me1?",
+    "english": "What are this quarter's targets?",
+    "tags": ["greetings", "social"]
+  },
+  {
+    "sentenceId": 473,
+    "cantonese": "要meet KPI。",
+    "jyutping": "jiu3 meet KPI.",
+    "english": "Need to meet KPI.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 474,
+    "cantonese": "個sales target差少少。",
+    "jyutping": "go3 sales target caa1 siu2 siu2.",
+    "english": "The sales target is slightly short.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 475,
+    "cantonese": "要諗計improve performance。",
+    "jyutping": "jiu3 lam2 gai3 improve performance.",
+    "english": "Need to think of ways to improve performance.",
+    "tags": ["greetings", "social"]
+  },
+  {
+    "sentenceId": 476,
+    "cantonese": "聽日performance review。",
+    "jyutping": "ting1 jat6 performance review.",
+    "english": "Performance review tomorrow.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 477,
+    "cantonese": "我今年想升職。",
+    "jyutping": "ngo5 gam1 nin4 soeng2 sing1 zik1.",
+    "english": "I want to get promoted this year.",
+    "tags": ["greetings", "social"]
+  },
+  {
+    "sentenceId": 478,
+    "cantonese": "你要enhance多啲skills。",
+    "jyutping": "nei5 jiu3 enhance do1 di1 skills.",
+    "english": "You need to enhance your skills more.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 479,
+    "cantonese": "公司有internal transfer機會。",
+    "jyutping": "gung1 si1 jau5 internal transfer gei1 wui2.",
+    "english": "There's internal transfer opportunity in the company.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 480,
+    "cantonese": "我想轉department。",
+    "jyutping": "ngo5 soeng2 zyun2 department.",
+    "english": "I want to switch departments.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 481,
+    "cantonese": "有冇career path？",
+    "jyutping": "jau5 mou5 career path?",
+    "english": "Is there a career path?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 482,
+    "cantonese": "公司有mentorship program。",
+    "jyutping": "gung1 si1 jau5 mentorship program.",
+    "english": "The company has mentorship program.",
+    "tags": ["greetings", "social"]
+  },
+  {
+    "sentenceId": 483,
+    "cantonese": "我要update CV。",
+    "jyutping": "ngo5 jiu3 update CV.",
+    "english": "I need to update my CV.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 484,
+    "cantonese": "準備好interview未？",
+    "jyutping": "zeon2 bei6 hou2 interview mei6?",
+    "english": "Are you prepared for the interview?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 485,
+    "cantonese": "我諗住轉工。",
+    "jyutping": "ngo5 lam2 zyu6 zyun2 gung1.",
+    "english": "I'm thinking of changing jobs.",
+    "tags": ["greetings", "work"]
+  },
+  {
+    "sentenceId": 486,
+    "cantonese": "遞咗resignation letter未？",
+    "jyutping": "dai6 zo2 resignation letter mei6?",
+    "english": "Have you submitted the resignation letter?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 487,
+    "cantonese": "一個月notice period。",
+    "jyutping": "jat1 go3 jyut6 notice period.",
+    "english": "One month notice period.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 488,
+    "cantonese": "最後一日返工。",
+    "jyutping": "zeoi3 hau6 jat1 jat6 faan1 gung1.",
+    "english": "Last day at work.",
+    "tags": ["information", "work"]
+  },
+  {
+    "sentenceId": 489,
+    "cantonese": "farewell lunch去邊度食？",
+    "jyutping": "farewell lunch heoi3 bin1 dou6 sik6?",
+    "english": "Where to go for farewell lunch?",
+    "tags": ["questions", "travel"]
+  },
+  {
+    "sentenceId": 490,
+    "cantonese": "祝你新工作順利！",
+    "jyutping": "zuk1 nei5 san1 gung1 zok3 seon6 lei6!",
+    "english": "Wish you success in your new job!",
+    "tags": ["information", "work"]
+  },
+  {
+    "sentenceId": 491,
+    "cantonese": "今日好忙。",
+    "jyutping": "gam1 jat6 hou2 mong4.",
+    "english": "I'm very busy today.",
+    "tags": ["information", "travel"]
+  },
+  {
+    "sentenceId": 492,
+    "cantonese": "壓力好大。",
+    "jyutping": "aat3 lik6 hou2 daai6.",
+    "english": "The pressure is huge.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 493,
+    "cantonese": "我要抖抖。",
+    "jyutping": "ngo5 jiu3 dau2 dau2.",
+    "english": "I need to take a break.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 494,
+    "cantonese": "去pantry沖杯咖啡。",
+    "jyutping": "heoi3 pantry cung1 bui1 gaa3 fe1.",
+    "english": "Go to pantry to make a coffee.",
+    "tags": ["information", "travel"]
+  },
+  {
+    "sentenceId": 495,
+    "cantonese": "食個tea break。",
+    "jyutping": "sik6 go3 tea break.",
+    "english": "Have a tea break.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 496,
+    "cantonese": "放工去happy hour。",
+    "jyutping": "fong3 gung1 heoi3 happy hour.",
+    "english": "Go for happy hour after work.",
+    "tags": ["feelings", "travel"]
+  },
+  {
+    "sentenceId": 497,
+    "cantonese": "同事farewell party。",
+    "jyutping": "tung4 si6 farewell party.",
+    "english": "Colleague's farewell party.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 498,
+    "cantonese": "公司annual dinner有抽獎。",
+    "jyutping": "gung1 si1 annual dinner jau5 cau1 zoeng2.",
+    "english": "There's lucky draw at company annual dinner.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 499,
+    "cantonese": "我中咗頭獎！",
+    "jyutping": "ngo5 zung1 zo2 tau4 zoeng2!",
+    "english": "I won the first prize!",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 500,
+    "cantonese": "聽日唔使返工，假期愉快！",
+    "jyutping": "ting1 jat6 m4 sai2 faan1 gung1, gaa3 kei4 jyu6 faai3!",
+    "english": "No work tomorrow, happy holidays!",
+    "tags": ["feelings", "work"]
+  },
+  {
+    "sentenceId": 501,
+    "cantonese": "今日有幾多樣功課？",
+    "jyutping": "gam1 jat6 jau5 gei2 do1 joeng6 gung1 fo3?",
+    "english": "How many assignments do we have today?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 502,
+    "cantonese": "聽日要交數學作業。",
+    "jyutping": "ting1 jat6 jiu3 gaau1 sou3 hok6 zok3 jip6.",
+    "english": "We need to submit math homework tomorrow.",
+    "tags": ["information", "work"]
+  },
+  {
+    "sentenceId": 503,
+    "cantonese": "你做完功課未？",
+    "jyutping": "nei5 zou6 jyun4 gung1 fo3 mei6?",
+    "english": "Have you finished your homework?",
+    "tags": ["questions", "work"]
+  },
+  {
+    "sentenceId": 504,
+    "cantonese": "借我抄下你嘅答案。",
+    "jyutping": "ze3 ngo5 caau1 haa5 nei5 ge3 daap3 on3.",
+    "english": "Let me copy your answers.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 505,
+    "cantonese": "今朝有冇帶書？",
+    "jyutping": "gam1 ziu1 jau5 mou5 daai3 syu1?",
+    "english": "Did you bring your textbook this morning?",
+    "tags": ["greetings", "social"]
+  },
+  {
+    "sentenceId": 506,
+    "cantonese": "第一堂係咩科？",
+    "jyutping": "dai6 jat1 tong4 hai6 me1 fo1?",
+    "english": "What's the first period?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 507,
+    "cantonese": "下堂要轉課室。",
+    "jyutping": "haa6 tong4 jiu3 zyun2 fo3 sat1.",
+    "english": "We need to change classrooms next period.",
+    "tags": ["information", "school"]
+  },
+  {
+    "sentenceId": 508,
+    "cantonese": "帶齊畫具未？今日有美術堂。",
+    "jyutping": "daai3 cai4 waa6 geoi6 mei6? gam1 jat6 jau5 mei5 seot6 tong4.",
+    "english": "Have you brought all your art supplies? We have art class today.",
+    "tags": ["questions", "school"]
+  },
+  {
+    "sentenceId": 509,
+    "cantonese": "小測範圍係邊幾課？",
+    "jyutping": "siu2 cak1 faan6 wai4 hai6 bin1 gei2 fo3?",
+    "english": "Which lessons are included in the quiz?",
+    "tags": ["greetings", "social"]
+  },
+  {
+    "sentenceId": 510,
+    "cantonese": "考試溫到邊度？",
+    "jyutping": "haau2 si3 wan1 dou2 bin1 dou6?",
+    "english": "How far have you studied for the exam?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 511,
+    "cantonese": "今次考試好難。",
+    "jyutping": "gam1 ci3 haau2 si3 hou2 naan4.",
+    "english": "This exam is very difficult.",
+    "tags": ["greetings", "social"]
+  },
+  {
+    "sentenceId": 512,
+    "cantonese": "你今次測驗幾分？",
+    "jyutping": "nei5 gam1 ci3 cak1 jim6 gei2 fan1?",
+    "english": "What score did you get on this test?",
+    "tags": ["greetings", "social"]
+  },
+  {
+    "sentenceId": 513,
+    "cantonese": "我中文不合格。",
+    "jyutping": "ngo5 zung1 man4 bat1 hap6 gaak3.",
+    "english": "I failed Chinese.",
+    "tags": ["greetings", "social"]
+  },
+  {
+    "sentenceId": 514,
+    "cantonese": "放學去邊度溫書？",
+    "jyutping": "fong3 hok6 heoi3 bin1 dou6 wan1 syu1?",
+    "english": "Where shall we study after school?",
+    "tags": ["questions", "school"]
+  },
+  {
+    "sentenceId": 515,
+    "cantonese": "圖書館靜過自修室。",
+    "jyutping": "tou4 syu1 gun2 zing6 gwo3 zi6 sau1 sat1.",
+    "english": "The library is quieter than the study room.",
+    "tags": ["information", "school"]
+  },
+  {
+    "sentenceId": 516,
+    "cantonese": "借本筆記俾我睇下。",
+    "jyutping": "ze3 bun2 bat1 gei3 bei2 ngo5 tai2 haa5.",
+    "english": "Lend me your notebook to take a look.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 517,
+    "cantonese": "今個semester有幾多科？",
+    "jyutping": "gam1 go3 semester jau5 gei2 do1 fo1?",
+    "english": "How many subjects do we have this semester?",
+    "tags": ["greetings", "social"]
+  },
+  {
+    "sentenceId": 518,
+    "cantonese": "你最鍾意邊科？",
+    "jyutping": "nei5 zeoi3 zung1 ji3 bin1 fo1?",
+    "english": "Which subject do you like most?",
+    "tags": ["greetings", "social"]
+  },
+  {
+    "sentenceId": 519,
+    "cantonese": "我憎死物理科。",
+    "jyutping": "ngo5 zang1 sei2 mat6 lei5 fo1.",
+    "english": "I hate physics so much.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 520,
+    "cantonese": "班主任好惡。",
+    "jyutping": "bun1 jam6 seon1 hou2 ok3.",
+    "english": "The homeroom teacher is very strict.",
+    "tags": ["information", "home"]
+  },
+  {
+    "sentenceId": 521,
+    "cantonese": "Miss Chan今日請假。",
+    "jyutping": "Miss Chan gam1 jat6 ceng2 gaa3.",
+    "english": "Miss Chan is on leave today.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 522,
+    "cantonese": "代課老師好好人。",
+    "jyutping": "doi6 fo3 lou5 si1 hou2 hou2 jan4.",
+    "english": "The substitute teacher is very nice.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 523,
+    "cantonese": "舉手答問題。",
+    "jyutping": "geoi2 sau2 daap3 man6 tai4.",
+    "english": "Raise your hand to answer questions.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 524,
+    "cantonese": "我唔識答呢條題目。",
+    "jyutping": "ngo5 m4 sik1 daap3 ni1 tiu4 tai4 muk6.",
+    "english": "I don't know how to answer this question.",
+    "tags": ["greetings", "social"]
+  },
+  {
+    "sentenceId": 525,
+    "cantonese": "邊個同學想試下？",
+    "jyutping": "bin1 go3 tung4 hok6 soeng2 si3 haa5?",
+    "english": "Which classmate wants to try?",
+    "tags": ["greetings", "school"]
+  },
+  {
+    "sentenceId": 526,
+    "cantonese": "小組討論時間。",
+    "jyutping": "siu2 zou2 tou2 leon6 si4 gaan1.",
+    "english": "Time for group discussion.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 527,
+    "cantonese": "分組做project。",
+    "jyutping": "fan1 zou2 zou6 project.",
+    "english": "Work in groups for the project.",
+    "tags": ["information", "work"]
+  },
+  {
+    "sentenceId": 528,
+    "cantonese": "我同你一組啦！",
+    "jyutping": "ngo5 tung4 nei5 jat1 zou2 laa1!",
+    "english": "Let's be in the same group!",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 529,
+    "cantonese": "今次presentation你負責邊part？",
+    "jyutping": "gam1 ci3 presentation nei5 fu6 zaak3 bin1 part?",
+    "english": "Which part are you responsible for in this presentation?",
+    "tags": ["greetings", "social"]
+  },
+  {
+    "sentenceId": 530,
+    "cantonese": "做PPT定係poster？",
+    "jyutping": "zou6 PPT ding6 hai6 poster?",
+    "english": "Should we make a PPT or a poster?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 531,
+    "cantonese": "記得帶實驗報告。",
+    "jyutping": "gei3 dak1 daai3 sat6 jim6 bou3 gou3.",
+    "english": "Remember to bring your lab report.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 532,
+    "cantonese": "化學實驗好危險。",
+    "jyutping": "faa3 hok6 sat6 jim6 hou2 ngai4 him2.",
+    "english": "Chemistry experiments are quite dangerous.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 533,
+    "cantonese": "着白袍做實驗。",
+    "jyutping": "zoek3 baak6 pou4 zou6 sat6 jim6.",
+    "english": "Wear lab coats for experiments.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 534,
+    "cantonese": "電腦室要着鞋套。",
+    "jyutping": "din6 nou5 sat1 jiu3 zoek3 haai4 tou3.",
+    "english": "We need to wear shoe covers in the computer lab.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 535,
+    "cantonese": "體育堂着運動服。",
+    "jyutping": "tai2 juk6 tong4 zoek3 wan6 dung6 fuk6.",
+    "english": "Wear PE uniforms for physical education class.",
+    "tags": ["information", "school"]
+  },
+  {
+    "sentenceId": 536,
+    "cantonese": "今日跑幾多個圈？",
+    "jyutping": "gam1 jat6 paau2 gei2 do1 go3 hyun1?",
+    "english": "How many laps do we run today?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 537,
+    "cantonese": "我唔舒服，想請假唔上PE堂。",
+    "jyutping": "ngo5 m4 syu1 fuk6, soeng2 ceng2 gaa3 m4 soeng5 PE tong4.",
+    "english": "I'm not feeling well, I want to skip PE class.",
+    "tags": ["feelings", "school"]
+  },
+  {
+    "sentenceId": 538,
+    "cantonese": "小息去小食部買嘢食。",
+    "jyutping": "siu2 sik1 heoi3 siu2 sik6 bou6 maai5 je5 sik6.",
+    "english": "Let's go to the tuck shop during recess.",
+    "tags": ["information", "shopping"]
+  },
+  {
+    "sentenceId": 539,
+    "cantonese": "飯堂今日食咩餸？",
+    "jyutping": "faan6 tong4 gam1 jat6 sik6 me1 sung3?",
+    "english": "What's for lunch in the canteen today?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 540,
+    "cantonese": "我帶咗飯盒。",
+    "jyutping": "ngo5 daai3 zo2 faan6 hap6.",
+    "english": "I brought my lunch box.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 541,
+    "cantonese": "借張紙巾俾我。",
+    "jyutping": "ze3 zoeng1 zi2 gan1 bei2 ngo5.",
+    "english": "Lend me a tissue.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 542,
+    "cantonese": "你個筆盒好靚。",
+    "jyutping": "nei5 go3 bat1 hap6 hou2 leng3.",
+    "english": "Your pencil case is very pretty.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 543,
+    "cantonese": "邊個偷咗我嘅擦膠？",
+    "jyutping": "bin1 go3 tau1 zo2 ngo5 ge3 caat3 gaau1?",
+    "english": "Who stole my eraser?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 544,
+    "cantonese": "借支原子筆俾我。",
+    "jyutping": "ze3 zi1 jyun4 zi2 bat1 bei2 ngo5.",
+    "english": "Lend me a ballpoint pen.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 545,
+    "cantonese": "我本手冊呢？",
+    "jyutping": "ngo5 bun2 sau2 caak3 ne1?",
+    "english": "Where's my student handbook?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 546,
+    "cantonese": "學生證要掛喺心口。",
+    "jyutping": "hok6 sang1 zing3 jiu3 gwaa3 hai2 sam1 hau2.",
+    "english": "Student ID must be worn on the chest.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 547,
+    "cantonese": "你參加咩課外活動？",
+    "jyutping": "nei5 caam1 gaa1 me1 fo1 ngoi6 wut6 dung6?",
+    "english": "What extracurricular activities do you join?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 548,
+    "cantonese": "我係籃球隊成員。",
+    "jyutping": "ngo5 hai6 laam4 kau4 deoi6 sing4 jyun4.",
+    "english": "I'm a member of the basketball team.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 549,
+    "cantonese": "放學後有合唱團練習。",
+    "jyutping": "fong3 hok6 hau6 jau5 hap6 coeng1 tyun4 lin6 zaap6.",
+    "english": "There's choir practice after school.",
+    "tags": ["information", "school"]
+  },
+  {
+    "sentenceId": 550,
+    "cantonese": "下星期有校際比賽。",
+    "jyutping": "haa6 sing1 kei4 jau5 haau6 zai3 bei2 coi3.",
+    "english": "There's an inter-school competition next week.",
+    "tags": ["information", "school"]
+  },
+  {
+    "sentenceId": 551,
+    "cantonese": "開放日要返學校幫手。",
+    "jyutping": "hoi1 fong3 jat6 jiu3 faan1 hok6 haau6 bong1 sau2.",
+    "english": "We need to come back to school to help on Open Day.",
+    "tags": ["information", "school"]
+  },
+  {
+    "sentenceId": 552,
+    "cantonese": "畢業禮要着校服。",
+    "jyutping": "bat1 jip6 lai5 jiu3 zoek3 haau6 fuk6.",
+    "english": "We need to wear school uniforms for graduation ceremony.",
+    "tags": ["information", "school"]
+  },
+  {
+    "sentenceId": 553,
+    "cantonese": "你諗住揀咩選修科？",
+    "jyutping": "nei5 lam2 zyu6 gaan2 me1 syun2 sau1 fo1?",
+    "english": "What elective subjects are you thinking of choosing?",
+    "tags": ["greetings", "social"]
+  },
+  {
+    "sentenceId": 554,
+    "cantonese": "我想讀經濟同地理。",
+    "jyutping": "ngo5 soeng2 duk6 ging1 zai3 tung4 dei6 lei5.",
+    "english": "I want to study economics and geography.",
+    "tags": ["information", "school"]
+  },
+  {
+    "sentenceId": 555,
+    "cantonese": "你大學想讀咩科？",
+    "jyutping": "nei5 daai6 hok6 soeng2 duk6 me1 fo1?",
+    "english": "What do you want to study in university?",
+    "tags": ["questions", "school"]
+  },
+  {
+    "sentenceId": 556,
+    "cantonese": "我仲未諗清楚。",
+    "jyutping": "ngo5 zung6 mei6 lam2 cing1 co2.",
+    "english": "I haven't thought it through yet.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 557,
+    "cantonese": "要開始準備DSE。",
+    "jyutping": "jiu3 hoi1 ci2 zeon2 bei6 DSE.",
+    "english": "Need to start preparing for the HKDSE.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 558,
+    "cantonese": "補習社幾錢一堂？",
+    "jyutping": "bou2 zaap6 se5 gei2 cin4 jat1 tong4?",
+    "english": "How much per session at the tutorial center?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 559,
+    "cantonese": "我阿媽請咗個補習老師。",
+    "jyutping": "ngo5 aa3 maa1 ceng2 zo2 go3 bou2 zaap6 lou5 si1.",
+    "english": "My mom hired a tutor for me.",
+    "tags": ["greetings", "social"]
+  },
+  {
+    "sentenceId": 560,
+    "cantonese": "呢題數點計？",
+    "jyutping": "ni1 tai4 sou3 dim2 gai3?",
+    "english": "How to solve this math problem?",
+    "tags": ["greetings", "social"]
+  },
+  {
+    "sentenceId": 561,
+    "cantonese": "你明唔明老師講咩？",
+    "jyutping": "nei5 ming4 m4 ming4 lou5 si1 gong2 me1?",
+    "english": "Do you understand what the teacher is saying?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 562,
+    "cantonese": "可唔可以解釋多次？",
+    "jyutping": "ho2 m4 ho2 ji5 gaai2 sik1 do1 ci3?",
+    "english": "Can you explain it again?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 563,
+    "cantonese": "我仲係唔明。",
+    "jyutping": "ngo5 zung6 hai6 m4 ming4.",
+    "english": "I still don't understand.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 564,
+    "cantonese": "放學後可唔可以教我？",
+    "jyutping": "fong3 hok6 hau6 ho2 m4 ho2 ji5 gaau3 ngo5?",
+    "english": "Can you teach me after school?",
+    "tags": ["questions", "school"]
+  },
+  {
+    "sentenceId": 565,
+    "cantonese": "呢份notes借俾你。",
+    "jyutping": "ni1 fan6 notes ze3 bei2 nei5.",
+    "english": "I'll lend you these notes.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 566,
+    "cantonese": "多謝你幫我溫書。",
+    "jyutping": "do1 ze6 nei5 bong1 ngo5 wan1 syu1.",
+    "english": "Thank you for helping me study.",
+    "tags": ["information", "school"]
+  },
+  {
+    "sentenceId": 567,
+    "cantonese": "我哋一齊溫書啦！",
+    "jyutping": "ngo5 dei6 jat1 cai4 wan1 syu1 laa1!",
+    "english": "Let's study together!",
+    "tags": ["information", "school"]
+  },
+  {
+    "sentenceId": 568,
+    "cantonese": "你溫習計劃點樣？",
+    "jyutping": "nei5 wan1 zaap6 gai3 waak6 dim2 joeng2?",
+    "english": "What's your study plan?",
+    "tags": ["questions", "school"]
+  },
+  {
+    "sentenceId": 569,
+    "cantonese": "每日溫兩個鐘。",
+    "jyutping": "mui5 jat6 wan1 loeng5 go3 zung1.",
+    "english": "Study two hours every day.",
+    "tags": ["information", "school"]
+  },
+  {
+    "sentenceId": 570,
+    "cantonese": "考試前要早啲瞓。",
+    "jyutping": "haau2 si3 cin4 jiu3 zou2 di1 fan3.",
+    "english": "Need to sleep earlier before exams.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 571,
+    "cantonese": "我好驚聽日嘅oral test。",
+    "jyutping": "ngo5 hou2 geng1 ting1 jat6 ge3 oral test.",
+    "english": "I'm so scared of tomorrow's oral test.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 572,
+    "cantonese": "放鬆啲，你可以嘅！",
+    "jyutping": "fong3 sung1 di1, nei5 ho2 ji5 ge3!",
+    "english": "Relax, you can do it!",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 573,
+    "cantonese": "今次考試我好努力。",
+    "jyutping": "gam1 ci3 haau2 si3 ngo5 hou2 nou5 lik6.",
+    "english": "I worked very hard for this exam.",
+    "tags": ["greetings", "work"]
+  },
+  {
+    "sentenceId": 574,
+    "cantonese": "希望今次合格。",
+    "jyutping": "hei1 mong6 gam1 ci3 hap6 gaak3.",
+    "english": "I hope I pass this time.",
+    "tags": ["greetings", "social"]
+  },
+  {
+    "sentenceId": 575,
+    "cantonese": "成績表出咗未？",
+    "jyutping": "sing4 zik1 biu1 ceot1 zo2 mei6?",
+    "english": "Has the report card been released?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 576,
+    "cantonese": "我全班第五。",
+    "jyutping": "ngo5 cyun4 baan1 dai6 ng5.",
+    "english": "I ranked fifth in class.",
+    "tags": ["information", "school"]
+  },
+  {
+    "sentenceId": 577,
+    "cantonese": "你進步咗好多！",
+    "jyutping": "nei5 zeon3 bou6 zo2 hou2 do1!",
+    "english": "You've improved a lot!",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 578,
+    "cantonese": "今次派卷好低分。",
+    "jyutping": "gam1 ci3 paai3 gyun2 hou2 dai1 fan1.",
+    "english": "I got very low marks on this test.",
+    "tags": ["greetings", "travel"]
+  },
+  {
+    "sentenceId": 579,
+    "cantonese": "下次再努力過！",
+    "jyutping": "haa6 ci3 zoi3 nou5 lik6 gwo3!",
+    "english": "Work harder next time!",
+    "tags": ["information", "work"]
+  },
+  {
+    "sentenceId": 580,
+    "cantonese": "老師話我上堂唔專心。",
+    "jyutping": "lou5 si1 waa6 ngo5 soeng5 tong4 m4 zyun1 sam1.",
+    "english": "The teacher said I wasn't paying attention in class.",
+    "tags": ["information", "school"]
+  },
+  {
+    "sentenceId": 581,
+    "cantonese": "你成日傾計。",
+    "jyutping": "nei5 sing4 jat6 king1 gai2.",
+    "english": "You're always chatting.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 582,
+    "cantonese": "俾老師罰留堂。",
+    "jyutping": "bei2 lou5 si1 fat6 lau4 tong4.",
+    "english": "Got detention from the teacher.",
+    "tags": ["information", "travel"]
+  },
+  {
+    "sentenceId": 583,
+    "cantonese": "抄書十次當懲罰。",
+    "jyutping": "caau1 syu1 sap6 ci3 dong3 cing4 fat6.",
+    "english": "Copy the text ten times as punishment.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 584,
+    "cantonese": "我遲到咗三次。",
+    "jyutping": "ngo5 ci4 dou3 zo2 saam1 ci3.",
+    "english": "I was late three times.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 585,
+    "cantonese": "訓導主任好惡。",
+    "jyutping": "fan3 dou6 zyu2 jam6 hou2 ok3.",
+    "english": "The discipline master is very strict.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 586,
+    "cantonese": "你犯咗校規。",
+    "jyutping": "nei5 faan6 zo2 haau6 kwai1.",
+    "english": "You broke school rules.",
+    "tags": ["information", "school"]
+  },
+  {
+    "sentenceId": 587,
+    "cantonese": "記你一個小過。",
+    "jyutping": "gei3 nei5 jat1 go3 siu2 gwo3.",
+    "english": "You get a demerit.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 588,
+    "cantonese": "我要見家長。",
+    "jyutping": "ngo5 jiu3 gin3 gaa1 zoeng2.",
+    "english": "I need to meet your parents.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 589,
+    "cantonese": "唔好再犯同樣嘅錯。",
+    "jyutping": "m4 hou2 zoi3 faan6 tung4 joeng6 ge3 co3.",
+    "english": "Don't make the same mistake again.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 590,
+    "cantonese": "我會改過自新。",
+    "jyutping": "ngo5 wui5 goi2 gwo3 zi6 san1.",
+    "english": "I will turn over a new leaf.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 591,
+    "cantonese": "你同班長好friend喎。",
+    "jyutping": "nei5 tung4 baan1 zoeng2 hou2 friend wo3.",
+    "english": "You're very close with the class monitor.",
+    "tags": ["information", "school"]
+  },
+  {
+    "sentenceId": 592,
+    "cantonese": "我哋成班都好團結。",
+    "jyutping": "ngo5 dei6 sing4 baan1 dou1 hou2 tyun4 git3.",
+    "english": "Our whole class is very united.",
+    "tags": ["information", "school"]
+  },
+  {
+    "sentenceId": 593,
+    "cantonese": "班會選舉開始提名。",
+    "jyutping": "baan1 wui2 syun2 geoi2 hoi1 ci2 tai4 meng4.",
+    "english": "Class committee election nominations begin.",
+    "tags": ["information", "school"]
+  },
+  {
+    "sentenceId": 594,
+    "cantonese": "我想做文書。",
+    "jyutping": "ngo5 soeng2 zou6 man4 syu1.",
+    "english": "I want to be the secretary.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 595,
+    "cantonese": "投票選班長。",
+    "jyutping": "tau4 piu3 syun2 baan1 zoeng2.",
+    "english": "Vote for class monitor.",
+    "tags": ["information", "school"]
+  },
+  {
+    "sentenceId": 596,
+    "cantonese": "我支持你參選！",
+    "jyutping": "ngo5 zi1 ci4 nei5 caam1 syun2!",
+    "english": "I support your candidacy!",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 597,
+    "cantonese": "班旅行去邊度好？",
+    "jyutping": "baan1 leoi5 hang1 heoi3 bin1 dou6 hou2?",
+    "english": "Where should we go for class outing?",
+    "tags": ["questions", "travel"]
+  },
+  {
+    "sentenceId": 598,
+    "cantonese": "夾錢買畢業禮物。",
+    "jyutping": "gaap3 cin4 maai5 bat1 jip6 lai5 mat6.",
+    "english": "Pool money to buy graduation gifts.",
+    "tags": ["information", "shopping"]
+  },
+  {
+    "sentenceId": 599,
+    "cantonese": "影張全班相留念。",
+    "jyutping": "jing2 zoeng1 cyun4 baan1 soeng2 lau4 nim6.",
+    "english": "Take a class photo as memento.",
+    "tags": ["information", "school"]
+  },
+  {
+    "sentenceId": 600,
+    "cantonese": "我會掛住我哋班。",
+    "jyutping": "ngo5 wui5 gwaa3 zyu6 ngo5 dei6 baan1.",
+    "english": "I'll miss our class.",
+    "tags": ["information", "school"]
+  },
+  {
+    "sentenceId": 601,
+    "cantonese": "呢間餐廳有咩好食？",
+    "jyutping": "ni1 gaan1 caan1 teng1 jau5 me1 hou2 sik6?",
+    "english": "What's good to eat at this restaurant?",
+    "tags": ["greetings", "food"]
+  },
+  {
+    "sentenceId": 602,
+    "cantonese": "有冇二人套餐？",
+    "jyutping": "jau5 mou5 ji6 jan4 tou3 caan1?",
+    "english": "Do you have set meals for two?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 603,
+    "cantonese": "我想睇下餐牌。",
+    "jyutping": "ngo5 soeng2 tai2 haa5 caan1 paai2.",
+    "english": "I'd like to see the menu.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 604,
+    "cantonese": "今日有咩推介？",
+    "jyutping": "gam1 jat6 jau5 me1 teoi1 gaai3?",
+    "english": "What do you recommend today?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 605,
+    "cantonese": "要等幾多位？",
+    "jyutping": "jiu3 dang2 gei2 do1 wai2?",
+    "english": "How many people are waiting?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 606,
+    "cantonese": "三位，唔該。",
+    "jyutping": "saam1 wai2, m4 goi1.",
+    "english": "Table for three, please.",
+    "tags": ["requests", "social"]
+  },
+  {
+    "sentenceId": 607,
+    "cantonese": "呢張枱得唔得？",
+    "jyutping": "ni1 zoeng1 toi2 dak1 m4 dak1?",
+    "english": "Is this table okay?",
+    "tags": ["greetings", "social"]
+  },
+  {
+    "sentenceId": 608,
+    "cantonese": "我想要杯熱水。",
+    "jyutping": "ngo5 soeng2 jiu3 bui1 jit6 seoi2.",
+    "english": "I'd like a cup of hot water.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 609,
+    "cantonese": "唔該畀張紙巾我。",
+    "jyutping": "m4 goi1 bei2 zoeng1 zi2 gan1 ngo5.",
+    "english": "Please give me a tissue.",
+    "tags": ["requests", "social"]
+  },
+  {
+    "sentenceId": 610,
+    "cantonese": "有冇BB凳？",
+    "jyutping": "jau5 mou5 BB dang3?",
+    "english": "Do you have high chairs for babies?",
+    "tags": ["greetings", "social"]
+  },
+  {
+    "sentenceId": 611,
+    "cantonese": "我想要一壺茶。",
+    "jyutping": "ngo5 soeng2 jiu3 jat1 wu4 caa4.",
+    "english": "I'd like a pot of tea.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 612,
+    "cantonese": "普洱定香片？",
+    "jyutping": "pou2 nei5 ding6 hoeng1 pin2?",
+    "english": "Pu'er or jasmine tea?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 613,
+    "cantonese": "菊花茶都得。",
+    "jyutping": "guk1 faa1 caa4 dou1 dak1.",
+    "english": "Chrysanthemum tea is fine too.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 614,
+    "cantonese": "點心紙喺邊？",
+    "jyutping": "dim2 sam1 zi2 hai2 bin1?",
+    "english": "Where is the dim sum order sheet?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 615,
+    "cantonese": "蝦餃燒賣各一籠。",
+    "jyutping": "haa1 gaau2 siu1 maai2 gok3 jat1 lung4.",
+    "english": "One basket each of shrimp dumplings and siu mai.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 616,
+    "cantonese": "叉燒包同流沙包。",
+    "jyutping": "caa1 siu1 baau1 tung4 lau4 saa1 baau1.",
+    "english": "Barbecue pork buns and custard buns.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 617,
+    "cantonese": "腸粉要牛肉嘅。",
+    "jyutping": "coeng4 fan2 jiu3 ngau4 juk6 ge3.",
+    "english": "I want beef rice noodle rolls.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 618,
+    "cantonese": "鳳爪排骨飯。",
+    "jyutping": "fung6 zaau2 paai4 gwat1 faan6.",
+    "english": "Chicken feet with spare ribs rice.",
+    "tags": ["greetings", "social"]
+  },
+  {
+    "sentenceId": 619,
+    "cantonese": "唔該加多籠蝦餃。",
+    "jyutping": "m4 goi1 gaa1 do1 lung4 haa1 gaau2.",
+    "english": "Please add one more basket of shrimp dumplings.",
+    "tags": ["requests", "social"]
+  },
+  {
+    "sentenceId": 620,
+    "cantonese": "要碗皮蛋瘦肉粥。",
+    "jyutping": "jiu3 wun2 pei4 daan2 sau3 juk6 zuk1.",
+    "english": "I'd like a bowl of century egg and pork congee.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 621,
+    "cantonese": "炒麵定炒飯？",
+    "jyutping": "caau2 min6 ding6 caau2 faan6?",
+    "english": "Fried noodles or fried rice?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 622,
+    "cantonese": "乾炒牛河走青。",
+    "jyutping": "gon1 caau2 ngau4 ho2 zau2 ceng1.",
+    "english": "Dry-fried beef rice noodles without scallions.",
+    "tags": ["introductions", "social"]
+  },
+  {
+    "sentenceId": 623,
+    "cantonese": "呢個菜式辣唔辣？",
+    "jyutping": "ni1 go3 coi3 sik1 laat6 m4 laat6?",
+    "english": "Is this dish spicy?",
+    "tags": ["greetings", "social"]
+  },
+  {
+    "sentenceId": 624,
+    "cantonese": "可唔可以少辣？",
+    "jyutping": "ho2 m4 ho2 ji5 siu2 laat6?",
+    "english": "Can you make it less spicy?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 625,
+    "cantonese": "走葱走芫荽。",
+    "jyutping": "zau2 cung1 zau2 jyun4 seoi1.",
+    "english": "No scallions or cilantro.",
+    "tags": ["introductions", "social"]
+  },
+  {
+    "sentenceId": 626,
+    "cantonese": "要碗白飯。",
+    "jyutping": "jiu3 wun2 baak6 faan6.",
+    "english": "I'd like a bowl of white rice.",
+    "tags": ["greetings", "social"]
+  },
+  {
+    "sentenceId": 627,
+    "cantonese": "加多個例湯。",
+    "jyutping": "gaa1 do1 go3 lai6 tong1.",
+    "english": "Add one more daily soup.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 628,
+    "cantonese": "今日老火湯係咩？",
+    "jyutping": "gam1 jat6 lou5 fo2 tong1 hai6 me1?",
+    "english": "What's the slow-boiled soup today?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 629,
+    "cantonese": "要凍檸茶少甜。",
+    "jyutping": "jiu3 dung3 ling2 caa4 siu2 tim4.",
+    "english": "Iced lemon tea with less sugar.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 630,
+    "cantonese": "熱奶茶走糖。",
+    "jyutping": "jit6 naai5 caa4 zau2 tong4.",
+    "english": "Hot milk tea without sugar.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 631,
+    "cantonese": "快餐店有咩套餐？",
+    "jyutping": "faai3 caan1 dim3 jau5 me1 tou3 caan1?",
+    "english": "What set meals does the fast food restaurant have?",
+    "tags": ["questions", "food"]
+  },
+  {
+    "sentenceId": 632,
+    "cantonese": "要個漢堡包餐。",
+    "jyutping": "jiu3 go3 hon3 bou2 baau1 caan1.",
+    "english": "I'd like a hamburger meal.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 633,
+    "cantonese": "薯條加大。",
+    "jyutping": "syu4 tiu4 gaa1 daai6.",
+    "english": "Large fries, please.",
+    "tags": ["requests", "social"]
+  },
+  {
+    "sentenceId": 634,
+    "cantonese": "可樂走冰。",
+    "jyutping": "ho2 lok6 zau2 bing1.",
+    "english": "Coke without ice.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 635,
+    "cantonese": "雞翼要辣嘅。",
+    "jyutping": "gai1 jik6 jiu3 laat6 ge3.",
+    "english": "I want spicy chicken wings.",
+    "tags": ["greetings", "social"]
+  },
+  {
+    "sentenceId": 636,
+    "cantonese": "要個開心樂園餐。",
+    "jyutping": "jiu3 go3 hoi1 sam1 lok6 jyun4 caan1.",
+    "english": "I'd like a happy meal.",
+    "tags": ["feelings", "social"]
+  },
+  {
+    "sentenceId": 637,
+    "cantonese": "加多個蘋果批。",
+    "jyutping": "gaa1 do1 go3 ping4 gwo2 pai1.",
+    "english": "Add one more apple pie.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 638,
+    "cantonese": "雪糕要朱古力味。",
+    "jyutping": "syut3 gou1 jiu3 zyu1 gu1 lik1 mei6.",
+    "english": "I want chocolate flavor ice cream.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 639,
+    "cantonese": "外賣定堂食？",
+    "jyutping": "ngoi6 maai2 ding6 tong4 sik6?",
+    "english": "Takeaway or dine in?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 640,
+    "cantonese": "呢度食，唔該。",
+    "jyutping": "ni1 dou6 sik6, m4 goi1.",
+    "english": "For here, please.",
+    "tags": ["requests", "social"]
+  },
+  {
+    "sentenceId": 641,
+    "cantonese": "要個外賣盒。",
+    "jyutping": "jiu3 go3 ngoi6 maai2 hap6.",
+    "english": "I need a takeaway box.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 642,
+    "cantonese": "唔該打包。",
+    "jyutping": "m4 goi1 daa2 baau1.",
+    "english": "Please pack the leftovers.",
+    "tags": ["requests", "social"]
+  },
+  {
+    "sentenceId": 643,
+    "cantonese": "幾多錢？",
+    "jyutping": "gei2 do1 cin2?",
+    "english": "How much is it?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 644,
+    "cantonese": "收唔收八達通？",
+    "jyutping": "sau1 m4 sau1 baat3 daat6 tung1?",
+    "english": "Do you accept Octopus card?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 645,
+    "cantonese": "分開單定一張過？",
+    "jyutping": "fan1 hoi1 daan1 ding6 jat1 zoeng1 gwo3?",
+    "english": "Separate bills or one bill?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 646,
+    "cantonese": "有冇學生優惠？",
+    "jyutping": "jau5 mou5 hok6 sang1 jau1 wai6?",
+    "english": "Do you have student discounts?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 647,
+    "cantonese": "長者係咪有折？",
+    "jyutping": "coeng4 ze2 hai6 mai6 jau5 zit3?",
+    "english": "Do seniors get a discount?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 648,
+    "cantonese": "要張收據。",
+    "jyutping": "jiu3 zoeng1 sau1 geoi3.",
+    "english": "I need a receipt.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 649,
+    "cantonese": "找少咗錢。",
+    "jyutping": "zaau2 siu2 zo2 cin2.",
+    "english": "You gave me incorrect change.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 650,
+    "cantonese": "唔該找多個五蚊。",
+    "jyutping": "m4 goi1 zaau2 do1 go3 ng5 man1.",
+    "english": "Please give me back five more dollars.",
+    "tags": ["requests", "social"]
+  },
+  {
+    "sentenceId": 651,
+    "cantonese": "碗湯唔夠熱。",
+    "jyutping": "wun2 tong1 m4 gau3 jit6.",
+    "english": "The soup is not hot enough.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 652,
+    "cantonese": "碟菜有條頭髮。",
+    "jyutping": "dip6 coi3 jau5 tiu4 tau4 faat3.",
+    "english": "There's a hair in this dish.",
+    "tags": ["greetings", "social"]
+  },
+  {
+    "sentenceId": 653,
+    "cantonese": "可唔可以換過？",
+    "jyutping": "ho2 m4 ho2 ji5 wun6 gwo3?",
+    "english": "Can I get a replacement?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 654,
+    "cantonese": "我冇叫過呢個餸。",
+    "jyutping": "ngo5 mou5 giu3 gwo3 ni1 go3 sung3.",
+    "english": "I didn't order this dish.",
+    "tags": ["greetings", "social"]
+  },
+  {
+    "sentenceId": 655,
+    "cantonese": "漏咗我杯飲品。",
+    "jyutping": "lau6 zo2 ngo5 bui1 jam2 ban2.",
+    "english": "You forgot my drink.",
+    "tags": ["information", "food"]
+  },
+  {
+    "sentenceId": 656,
+    "cantonese": "仲未上我哋嘅菜。",
+    "jyutping": "zung6 mei6 soeng5 ngo5 dei6 ge3 coi3.",
+    "english": "Our dishes haven't been served yet.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 657,
+    "cantonese": "等咗好耐啦。",
+    "jyutping": "dang2 zo2 hou2 noi6 laa1.",
+    "english": "We've been waiting for a long time.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 658,
+    "cantonese": "可唔可以催下單？",
+    "jyutping": "ho2 m4 ho2 ji5 ceoi1 haa5 daan1?",
+    "english": "Can you check on our order?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 659,
+    "cantonese": "我哋趕時間。",
+    "jyutping": "ngo5 dei6 gon2 si4 gaan1.",
+    "english": "We're in a hurry.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 660,
+    "cantonese": "要取消呢個餸。",
+    "jyutping": "jiu3 ceoi2 siu1 ni1 go3 sung3.",
+    "english": "I want to cancel this dish.",
+    "tags": ["greetings", "social"]
+  },
+  {
+    "sentenceId": 661,
+    "cantonese": "呢度嘅招牌菜係咩？",
+    "jyutping": "ni1 dou6 ge3 ziu1 paai4 coi3 hai6 me1?",
+    "english": "What's the signature dish here?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 662,
+    "cantonese": "有冇今日特價菜？",
+    "jyutping": "jau5 mou5 gam1 jat6 dak6 gaa3 coi3?",
+    "english": "Do you have today's special?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 663,
+    "cantonese": "海鮮新鮮嗎？",
+    "jyutping": "hoi2 sin1 san1 sin1 maa1?",
+    "english": "Is the seafood fresh?",
+    "tags": ["questions", "food"]
+  },
+  {
+    "sentenceId": 664,
+    "cantonese": "呢條魚幾多斤？",
+    "jyutping": "ni1 tiu4 jyu4 gei2 do1 gan1?",
+    "english": "How much does this fish weigh?",
+    "tags": ["greetings", "social"]
+  },
+  {
+    "sentenceId": 665,
+    "cantonese": "清蒸定紅燒？",
+    "jyutping": "cing1 zing1 ding6 hung4 siu1?",
+    "english": "Steamed or braised?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 666,
+    "cantonese": "要條細啲嘅魚。",
+    "jyutping": "jiu3 tiu4 sai3 di1 ge3 jyu4.",
+    "english": "I want a smaller fish.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 667,
+    "cantonese": "龍蝦點樣計？",
+    "jyutping": "lung4 haa1 dim2 joeng2 gai3?",
+    "english": "How is the lobster priced?",
+    "tags": ["questions", "shopping"]
+  },
+  {
+    "sentenceId": 668,
+    "cantonese": "蟹要薑葱炒。",
+    "jyutping": "haai5 jiu3 goeng1 cung1 caau2.",
+    "english": "I want the crab stir-fried with ginger and scallions.",
+    "tags": ["introductions", "social"]
+  },
+  {
+    "sentenceId": 669,
+    "cantonese": "鮑魚幾多錢一隻？",
+    "jyutping": "baau1 jyu4 gei2 do1 cin2 jat1 zek3?",
+    "english": "How much for one abalone?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 670,
+    "cantonese": "要半隻燒鵝。",
+    "jyutping": "jiu3 bun3 zek3 siu1 ngo4.",
+    "english": "I'd like half a roast goose.",
+    "tags": ["information", "travel"]
+  },
+  {
+    "sentenceId": 671,
+    "cantonese": "白切雞要髀位。",
+    "jyutping": "baak6 cit3 gai1 jiu3 bei2 wai2.",
+    "english": "I want the thigh part for the poached chicken.",
+    "tags": ["greetings", "social"]
+  },
+  {
+    "sentenceId": 672,
+    "cantonese": "乳鴿要即炸。",
+    "jyutping": "jyu5 gaap3 jiu3 zik1 zaa3.",
+    "english": "I want the pigeon deep-fried to order.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 673,
+    "cantonese": "咕嚕肉走甜椒。",
+    "jyutping": "gu1 lou1 juk6 zau2 tim4 ziu1.",
+    "english": "Sweet and sour pork without bell peppers.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 674,
+    "cantonese": "西蘭花炒牛肉。",
+    "jyutping": "sai1 laan4 faa1 caau2 ngau4 juk6.",
+    "english": "Stir-fried broccoli with beef.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 675,
+    "cantonese": "豆腐要煎香啲。",
+    "jyutping": "dau6 fu6 jiu3 zin1 hoeng1 di1.",
+    "english": "I want the tofu pan-fried crispier.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 676,
+    "cantonese": "菜心要蒜蓉炒。",
+    "jyutping": "coi3 sam1 jiu3 syun3 jung4 caau2.",
+    "english": "I want the choy sum stir-fried with garlic.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 677,
+    "cantonese": "例湯係咩湯？",
+    "jyutping": "lai6 tong1 hai6 me1 tong1?",
+    "english": "What's the soup of the day?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 678,
+    "cantonese": "要個燉湯。",
+    "jyutping": "jiu3 go3 dan6 tong1.",
+    "english": "I'd like a double-boiled soup.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 679,
+    "cantonese": "椰子竹絲雞湯。",
+    "jyutping": "je4 zi2 zuk1 si1 gai1 tong1.",
+    "english": "Coconut with black chicken soup.",
+    "tags": ["greetings", "social"]
+  },
+  {
+    "sentenceId": 680,
+    "cantonese": "加多個炒飯。",
+    "jyutping": "gaa1 do1 go3 caau2 faan6.",
+    "english": "Add one more fried rice.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 681,
+    "cantonese": "揚州炒飯走火腿。",
+    "jyutping": "joeng4 zau1 caau2 faan6 zau2 fo2 teoi2.",
+    "english": "Yangzhou fried rice without ham.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 682,
+    "cantonese": "星洲炒米少辣。",
+    "jyutping": "sing1 zau1 caau2 mai5 siu2 laat6.",
+    "english": "Singapore-style fried vermicelli, less spicy.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 683,
+    "cantonese": "乾燒伊麵走韭黃。",
+    "jyutping": "gon1 siu1 ji1 min6 zau2 gau2 wong4.",
+    "english": "Dry-fried e-fu noodles without chives.",
+    "tags": ["greetings", "social"]
+  },
+  {
+    "sentenceId": 684,
+    "cantonese": "要碗雲吞麵。",
+    "jyutping": "jiu3 wun2 wan4 tan1 min6.",
+    "english": "I'd like a bowl of wonton noodles.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 685,
+    "cantonese": "水餃麵走蔥。",
+    "jyutping": "seoi2 gaau2 min6 zau2 cung1.",
+    "english": "Dumpling noodles without scallions.",
+    "tags": ["introductions", "social"]
+  },
+  {
+    "sentenceId": 686,
+    "cantonese": "牛腩麵要粗麵。",
+    "jyutping": "ngau4 naam5 min6 jiu3 cou1 min6.",
+    "english": "Beef brisket noodles with thick noodles.",
+    "tags": ["greetings", "social"]
+  },
+  {
+    "sentenceId": 687,
+    "cantonese": "魚蛋粉加辣油。",
+    "jyutping": "jyu4 daan2 fan2 gaa1 laat6 jau4.",
+    "english": "Fish ball noodles with chili oil.",
+    "tags": ["greetings", "social"]
+  },
+  {
+    "sentenceId": 688,
+    "cantonese": "粥要炸兩。",
+    "jyutping": "zuk1 jiu3 zaa3 loeng2.",
+    "english": "I want fried dough sticks with my congee.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 689,
+    "cantonese": "腸粉要豉油多。",
+    "jyutping": "coeng4 fan2 jiu3 si6 jau4 do1.",
+    "english": "I want more soy sauce on my rice noodle rolls.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 690,
+    "cantonese": "燒味雙拼飯。",
+    "jyutping": "siu1 mei6 soeng1 ping3 faan6.",
+    "english": "Roast meat double combo rice.",
+    "tags": ["information", "food"]
+  },
+  {
+    "sentenceId": 691,
+    "cantonese": "叉燒油雞飯。",
+    "jyutping": "caa1 siu1 jau4 gai1 faan6.",
+    "english": "BBQ pork with soy sauce chicken rice.",
+    "tags": ["greetings", "social"]
+  },
+  {
+    "sentenceId": 692,
+    "cantonese": "燒鴨瀨粉。",
+    "jyutping": "siu1 aap3 laai6 fan2.",
+    "english": "Roast duck with rice noodles.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 693,
+    "cantonese": "乳豬要腩位。",
+    "jyutping": "jyu5 zyu1 jiu3 naam5 wai2.",
+    "english": "I want the belly part for the roast suckling pig.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 694,
+    "cantonese": "切雞要翼位。",
+    "jyutping": "cit3 gai1 jiu3 jik6 wai2.",
+    "english": "I want the wing part for the chopped chicken.",
+    "tags": ["greetings", "social"]
+  },
+  {
+    "sentenceId": 695,
+    "cantonese": "燒肉要半肥瘦。",
+    "jyutping": "siu1 juk6 jiu3 bun3 fei4 sau3.",
+    "english": "I want the roast pork with half fat and half lean.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 696,
+    "cantonese": "鹵水拼盤。",
+    "jyutping": "lou5 seoi2 ping3 pun4.",
+    "english": "Assorted marinated meats platter.",
+    "tags": ["information", "food"]
+  },
+  {
+    "sentenceId": 697,
+    "cantonese": "凍檸賓少甜。",
+    "jyutping": "dung3 ling2 ban1 siu2 tim4.",
+    "english": "Iced lemon honey with less sweetness.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 698,
+    "cantonese": "熱好立克。",
+    "jyutping": "jit6 hou2 lap6 hak1.",
+    "english": "Hot Horlicks.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 699,
+    "cantonese": "凍鴛鴦走糖。",
+    "jyutping": "dung3 jyun1 joeng1 zau2 tong4.",
+    "english": "Iced coffee with tea, no sugar.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 700,
+    "cantonese": "要杯紅豆冰。",
+    "jyutping": "jiu3 bui1 hung4 dau2 bing1.",
+    "english": "I'd like a glass of red bean with ice.",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 701,
+    "cantonese": "你好",
+    "jyutping": "nei5 hao2",
+    "english": "Hello",
+    "tags": ["greetings", "social"]
+  },
+  {
+    "sentenceId": 702,
+    "cantonese": "返工",
+    "jyutping": "faan1 gung1",
+    "english": "Go to work",
+    "tags": ["information", "travel"]
+  },
+  {
+    "sentenceId": 703,
+    "cantonese": "傾計",
+    "jyutping": "king1 gai3",
+    "english": "Chat / Talk",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 704,
+    "cantonese": "好嘅!",
+    "jyutping": "hou2 ge1",
+    "english": "Okay",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 705,
+    "cantonese": "點解?",
+    "jyutping": "dim2 gaai2",
+    "english": "Why?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 706,
+    "cantonese": "系呀",
+    "jyutping": "hai6 aa1",
+    "english": "Yes",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 707,
+    "cantonese": "點呀?",
+    "jyutping": "dim2 aa3",
+    "english": "How are you?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 708,
+    "cantonese": "冇事",
+    "jyutping": "mou5 si6",
+    "english": "It's okay / No worries",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 709,
+    "cantonese": "幾好",
+    "jyutping": "gei1 hou2",
+    "english": "Pretty good",
+    "tags": ["information", "travel"]
+  },
+  {
+    "sentenceId": 710,
+    "cantonese": "我請客",
+    "jyutping": "ngo5 ceng2 haak3",
+    "english": "My treat / I'll pay",
+    "tags": ["information", "food"]
+  },
+  {
+    "sentenceId": 711,
+    "cantonese": "下午茶",
+    "jyutping": "haa5 ng5 caa4",
+    "english": "Afternoon tea / Dim sum",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 712,
+    "cantonese": "應該嘅!",
+    "jyutping": "jing1 goi1 ge3",
+    "english": "Of course",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 713,
+    "cantonese": "對唔住",
+    "jyutping": "deoi3 m4 zyu6",
+    "english": "Sorry",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 714,
+    "cantonese": "唔緊要",
+    "jyutping": "m4 gan2 jiu3",
+    "english": "No problem",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 715,
+    "cantonese": "唔使唔該!",
+    "jyutping": "m4 sai2 m4 goi1",
+    "english": "No need to thank",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 716,
+    "cantonese": "好耐冇見",
+    "jyutping": "hou2 noi6 mou5 gin3",
+    "english": "Long time no see",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 717,
+    "cantonese": "我愛你!",
+    "jyutping": "ngo5 oi3 nei5",
+    "english": "I love you!",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 718,
+    "cantonese": "太好啦!",
+    "jyutping": "taai3 hou2 laa1",
+    "english": "That's great!",
+    "tags": ["information", "food"]
+  },
+  {
+    "sentenceId": 719,
+    "cantonese": "你最近點啊?",
+    "jyutping": "nei5 zeoi3 gan6 dim6 aa1",
+    "english": "How have you been lately?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 720,
+    "cantonese": "好有品味",
+    "jyutping": "hou2 jau5 ban2 mei6",
+    "english": "Very tasteful",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 721,
+    "cantonese": "我好掛住你啊!",
+    "jyutping": "ngo5 hou2 gwaa3 zyu6 nei5 aa1",
+    "english": "I miss you so much!",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 722,
+    "cantonese": "屋企人點啊?",
+    "jyutping": "uk1 kei5 jan4 dim2 aa1",
+    "english": "How is your family?",
+    "tags": ["questions", "home"]
+  },
+  {
+    "sentenceId": 723,
+    "cantonese": "都幾好,多謝!",
+    "jyutping": "dou1 gei2 hou2, do1 ze6",
+    "english": "All good, thanks!",
+    "tags": ["information", "travel"]
+  },
+  {
+    "sentenceId": 724,
+    "cantonese": "唔該曬你!",
+    "jyutping": "m4 goi1 saai3 nei5",
+    "english": "Thanks a lot!",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 725,
+    "cantonese": "食咗飯未呀?",
+    "jyutping": "sik6 zo2 faan6 mei6 aa3",
+    "english": "Have you eaten yet?",
+    "tags": ["questions", "food"]
+  },
+  {
+    "sentenceId": 726,
+    "cantonese": "想唔想食嘢?",
+    "jyutping": "soeng3 m4 soeng2 sik6 je5",
+    "english": "Do you want to eat something?",
+    "tags": ["greetings", "food"]
+  },
+  {
+    "sentenceId": 727,
+    "cantonese": "多謝曬你!",
+    "jyutping": "do1 ze6 saai3 nei5",
+    "english": "Thank you!",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 728,
+    "cantonese": "濕濕碎啦!",
+    "jyutping": "sap1 sap1 seoi3 laa1",
+    "english": "No problem / Don't mention it",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 729,
+    "cantonese": "飲早茶",
+    "jyutping": "jam2 zou2 caa4",
+    "english": "Have morning tea / Dim sum",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 730,
+    "cantonese": "唔該,點菜",
+    "jyutping": "m4 goi1 , dim2 coi3",
+    "english": "Please order (food)",
+    "tags": ["requests", "food"]
+  },
+  {
+    "sentenceId": 731,
+    "cantonese": "唔該,埋單",
+    "jyutping": "m4 goi1 , maai4 daan1",
+    "english": "Please bring the bill",
+    "tags": ["requests", "social"]
+  },
+  {
+    "sentenceId": 732,
+    "cantonese": "慢慢食!",
+    "jyutping": "maan6 maan6 sik6",
+    "english": "Enjoy your meal",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 733,
+    "cantonese": "請你飲嘢",
+    "jyutping": "ceng2 nei5 jam2 je5",
+    "english": "Please have a drink",
+    "tags": ["requests", "food"]
+  },
+  {
+    "sentenceId": 734,
+    "cantonese": "唔使客氣",
+    "jyutping": "m4 sai4 haak3 hei3",
+    "english": "You're welcome",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 735,
+    "cantonese": "你幾好嗎?",
+    "jyutping": "nei5 gei1 hou2 maa1",
+    "english": "How are you?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 736,
+    "cantonese": "麻麻哋啦!",
+    "jyutping": "maa4 maa4 dei2 laa1",
+    "english": "So-so",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 737,
+    "cantonese": "梗系啦!",
+    "jyutping": "gang2 hai6 laa3",
+    "english": "Of course!",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 738,
+    "cantonese": "早晨",
+    "jyutping": "zou2 san4",
+    "english": "Good morning",
+    "tags": ["information", "travel"]
+  },
+  {
+    "sentenceId": 739,
+    "cantonese": "早唞",
+    "jyutping": "zou2 tau2",
+    "english": "Good night",
+    "tags": ["information", "travel"]
+  },
+  {
+    "sentenceId": 740,
+    "cantonese": "早上",
+    "jyutping": "zou2 soeng5",
+    "english": "Morning",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 741,
+    "cantonese": "中午",
+    "jyutping": "zung1ng5",
+    "english": "Noon",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 742,
+    "cantonese": "點算",
+    "jyutping": "dim2 syun3",
+    "english": "What to do?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 743,
+    "cantonese": "攪掂",
+    "jyutping": "gaau2 dim6",
+    "english": "All done / Settled",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 744,
+    "cantonese": "我好鐘意",
+    "jyutping": "ngo5 hou2 zung1 ji3",
+    "english": "I like it a lot",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 745,
+    "cantonese": "我鐘意你!",
+    "jyutping": "ngo5 zung1 ji3 nei5",
+    "english": "I like you!",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 746,
+    "cantonese": "得唔得呀?",
+    "jyutping": "dak1 m4 dak1 aa3",
+    "english": "Is it okay?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 747,
+    "cantonese": "你點睇?",
+    "jyutping": "nei5 dim2 tai2",
+    "english": "What do you think?",
+    "tags": ["greetings", "social"]
+  },
+  {
+    "sentenceId": 748,
+    "cantonese": "慳錢",
+    "jyutping": "haan1 cin4",
+    "english": "Save money",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 749,
+    "cantonese": "有錢",
+    "jyutping": "jau5 cin4",
+    "english": "Rich",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 750,
+    "cantonese": "做得好!",
+    "jyutping": "zou6 dak1 hou2",
+    "english": "Good job / Well done",
+    "tags": ["information", "travel"]
+  },
+  {
+    "sentenceId": 751,
+    "cantonese": "拜拜",
+    "jyutping": "baai3 baai3",
+    "english": "Goodbye / Bye-bye",
+    "tags": ["greetings", "travel"]
+  },
+  {
+    "sentenceId": 752,
+    "cantonese": "恭喜!",
+    "jyutping": "gung1 hei1",
+    "english": "Congratulations!",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 753,
+    "cantonese": "祝你新年快樂!",
+    "jyutping": "zuk1 nei5 san1 nin4 faai3 lok6",
+    "english": "Happy New Year!",
+    "tags": ["feelings", "social"]
+  },
+  {
+    "sentenceId": 754,
+    "cantonese": "聖誕快樂!",
+    "jyutping": "sing2 daan3 faai3 lok6",
+    "english": "Merry Christmas!",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 755,
+    "cantonese": "我好開心",
+    "jyutping": "ngo5 hou2 hoi1 sam1 (好快就跳過,沒有發音!!)",
+    "english": "I'm very happy",
+    "tags": ["feelings", "social"]
+  },
+  {
+    "sentenceId": 756,
+    "cantonese": "好得意",
+    "jyutping": "hou2 dak1 ji3",
+    "english": "So cute",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 757,
+    "cantonese": "你有心喇!",
+    "jyutping": "nei5 jau5 sam1 laa3",
+    "english": "You're so thoughtful",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 758,
+    "cantonese": "打個電話",
+    "jyutping": "daa1 go3 din6 waa6",
+    "english": "Make a phone call",
+    "tags": ["introductions", "social"]
+  },
+  {
+    "sentenceId": 759,
+    "cantonese": "快D喇!",
+    "jyutping": "faai3 D laa3",
+    "english": "Hurry up!",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 760,
+    "cantonese": "你好靚!",
+    "jyutping": "nei5 hou2 leng3",
+    "english": "You're beautiful",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 761,
+    "cantonese": "你話事啦",
+    "jyutping": "nei5 waa6 si6 laa1",
+    "english": "It's up to you",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 762,
+    "cantonese": "一齊去玩啦!",
+    "jyutping": "jat1 cai4 heoi3 waan2 laa1",
+    "english": "Let's go out and play",
+    "tags": ["information", "travel"]
+  },
+  {
+    "sentenceId": 763,
+    "cantonese": "好啊! 幾點去?",
+    "jyutping": "hou2 aa1 gei2 dim2 heoi3",
+    "english": "Sure, what time shall we go?",
+    "tags": ["questions", "travel"]
+  },
+  {
+    "sentenceId": 764,
+    "cantonese": "我可能趕唔切",
+    "jyutping": "ngo5 ho2 nang4 gon2 m4 cit3",
+    "english": "I might not make it",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 765,
+    "cantonese": "我唔得閒",
+    "jyutping": "ngo5 m4 dak1 haan4",
+    "english": "I'm not free",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 766,
+    "cantonese": "冇問題",
+    "jyutping": "mou5 man6 tai4",
+    "english": "No problem",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 767,
+    "cantonese": "下次啦",
+    "jyutping": "haa6 ci3 laa1",
+    "english": "Next time",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 768,
+    "cantonese": "玩得開心D!",
+    "jyutping": "waan4 dak1 hoi1 sam1 dik1",
+    "english": "Have fun!",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 769,
+    "cantonese": "你系邊阿?",
+    "jyutping": "nei5 hai6 bin1 aa3",
+    "english": "Where are you?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 770,
+    "cantonese": "唔得閒",
+    "jyutping": "m4 dak1 haan4",
+    "english": "I'm not free / busy",
+    "tags": ["information", "travel"]
+  },
+  {
+    "sentenceId": 771,
+    "cantonese": "算啦",
+    "jyutping": "syun3 laa1",
+    "english": "Forget it",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 772,
+    "cantonese": "收聲",
+    "jyutping": "sau1 seng1",
+    "english": "Shut up",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 773,
+    "cantonese": "唔好嘈",
+    "jyutping": "m4 hou2 cou4",
+    "english": "Be quiet",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 774,
+    "cantonese": "一路順風!",
+    "jyutping": "jat1 lou6 seon6 fung3",
+    "english": "Have a safe trip!",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 775,
+    "cantonese": "你系邊位呀?",
+    "jyutping": "nei5 hai6 bin1 wai6 aa3",
+    "english": "Who are you?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 776,
+    "cantonese": "唔關你事",
+    "jyutping": "m4 gwaan1 nei5 si6",
+    "english": "None of your business",
+    "tags": ["information", "travel"]
+  },
+  {
+    "sentenceId": 777,
+    "cantonese": "唔知",
+    "jyutping": "m4 zi1",
+    "english": "I don't know",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 778,
+    "cantonese": "而家",
+    "jyutping": "ji4 gaa1",
+    "english": "Now",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 779,
+    "cantonese": "今日",
+    "jyutping": "gam1 jat6",
+    "english": "Today",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 780,
+    "cantonese": "聽日",
+    "jyutping": "ting1 jat6",
+    "english": "Tomorrow",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 781,
+    "cantonese": "尋日",
+    "jyutping": "cam4 jat6",
+    "english": "Yesterday",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 782,
+    "cantonese": "後日",
+    "jyutping": "hau6 jat6",
+    "english": "The day after tomorrow",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 783,
+    "cantonese": "早D訓",
+    "jyutping": "zou2 D fan3",
+    "english": "Go to bed earlier",
+    "tags": ["information", "travel"]
+  },
+  {
+    "sentenceId": 784,
+    "cantonese": "做緊咩呀?",
+    "jyutping": "zou6 gan2 me1 aa3",
+    "english": "What are you doing?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 785,
+    "cantonese": "我信你",
+    "jyutping": "ngo5 seon3 nei5",
+    "english": "I believe you",
+    "tags": ["opinions", "social"]
+  },
+  {
+    "sentenceId": 786,
+    "cantonese": "第日見",
+    "jyutping": "dai6 jat6 gin3",
+    "english": "See you another day",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 787,
+    "cantonese": "唔該借借",
+    "jyutping": "m4 goi1 ze3",
+    "english": "Excuse me, let me pass",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 788,
+    "cantonese": "阻你一陣",
+    "jyutping": "zo2 nei5 jat1 zan6",
+    "english": "Sorry to bother you",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 789,
+    "cantonese": "我幫唔到你",
+    "jyutping": "ngo5 bong1 m4 dou3 nei5",
+    "english": "I can't help you",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 790,
+    "cantonese": "收到",
+    "jyutping": "sau1 dou3",
+    "english": "Got it / Understood",
+    "tags": ["information", "travel"]
+  },
+  {
+    "sentenceId": 791,
+    "cantonese": "你要邊樣?",
+    "jyutping": "nei5 jiu3 bin1 joeng6",
+    "english": "Which one do you want?",
+    "tags": ["greetings", "social"]
+  },
+  {
+    "sentenceId": 792,
+    "cantonese": "我唔鐘意",
+    "jyutping": "ngo5 m4 zung1 ji3",
+    "english": "I don't like it",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 793,
+    "cantonese": "真系唔話得!",
+    "jyutping": "zan1 hai6 m4 waa6 dak1",
+    "english": "Thank you so much!",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 794,
+    "cantonese": "有乜嘢計畫?",
+    "jyutping": "yau5 mat1 ye5 gai3 waak6 (影片拼音錯誤)",
+    "english": "Do you have any plans?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 795,
+    "cantonese": "去游水",
+    "jyutping": "heoi3 jau4 seoi2",
+    "english": "Go swimming",
+    "tags": ["information", "travel"]
+  },
+  {
+    "sentenceId": 796,
+    "cantonese": "唔該幾多錢呀?",
+    "jyutping": "m4 goi1 gei1 do1 cin4 aa1",
+    "english": "How much is it?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 797,
+    "cantonese": "可唔可以幫下我?",
+    "jyutping": "ho2  m4 ho2 ji5 bong1 haa5 ngo5",
+    "english": "Can you help me?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 798,
+    "cantonese": "呢度點去呀?",
+    "jyutping": "nei1 dou6 dim2 heoi2 aa1",
+    "english": "How do I get there?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 799,
+    "cantonese": "請問你叫咩名?",
+    "jyutping": "ceng2 man6 nei5 giu3 me1 meng2",
+    "english": "What's your name?",
+    "tags": ["introductions", "social"]
+  },
+  {
+    "sentenceId": 800,
+    "cantonese": "我叫李波",
+    "jyutping": "ngo5 giu3 lei5 bo1",
+    "english": "My name is Li Bo",
+    "tags": ["introductions", "social"]
+  },
+  {
+    "sentenceId": 801,
+    "cantonese": "請問你貴姓呀?",
+    "jyutping": "ceng2 man6 nei5 gwai3 sing3 aa1",
+    "english": "What's your surname?",
+    "tags": ["introductions", "social"]
+  },
+  {
+    "sentenceId": 802,
+    "cantonese": "我姓王",
+    "jyutping": "ngo5 sing3 wong4",
+    "english": "My surname is Wang",
+    "tags": ["introductions", "social"]
+  },
+  {
+    "sentenceId": 803,
+    "cantonese": "先生，點稱呼你呀?",
+    "jyutping": "sin1 saang1 , dim2 cing1 fu1 nei5 aa1",
+    "english": "How should I address you?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 804,
+    "cantonese": "你系邊度人?",
+    "jyutping": "nei5 hai6 bin1 dok6 jan4",
+    "english": "Where are you from?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 805,
+    "cantonese": "我系廣東人",
+    "jyutping": "ngo5 hai6 gwong2 dung1 jan4",
+    "english": "I'm from Guangdong",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 806,
+    "cantonese": "我唔識講廣東話",
+    "jyutping": "ngo5 m4 sik1 gong2 gwong2 dung1 waa6 (東的拼音不確定對不對)",
+    "english": "I can't speak Cantonese",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 807,
+    "cantonese": "可唔可以教我講白話?",
+    "jyutping": "ho2 ng6 ho2 ji5 gaau1 ngo5 gong2 baak6 waa6",
+    "english": "Can you teach me Cantonese?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 808,
+    "cantonese": "拜拜!聽日見!",
+    "jyutping": "baai1 baai1 , ting1 jat gin!(日見的拼音不確定對不對)",
+    "english": "Bye, see you tomorrow!",
+    "tags": ["greetings", "social"]
+  },
+  {
+    "sentenceId": 809,
+    "cantonese": "而家幾點鐘?",
+    "jyutping": "ji4 gaa1 gei2 dim2 zung1",
+    "english": "What time is it now?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 810,
+    "cantonese": "十點五個字",
+    "jyutping": "sap6 dim2 ng5 go3 zi6",
+    "english": "10:25",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 811,
+    "cantonese": "12345",
+    "jyutping": "jat1 ji6 saam1 sei3 ng5",
+    "english": "12345",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 812,
+    "cantonese": "6789 10",
+    "jyutping": "luk6 cat1 baat3 gau2 dap6",
+    "english": "6 7 8 9 10",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 813,
+    "cantonese": "11 12 13",
+    "jyutping": "sap6 jat3 . sap6 ji6 . sap6 saam1",
+    "english": "11 12 13",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 814,
+    "cantonese": "20 30 40",
+    "jyutping": "ji6 sap6 . saam1 sap6 . sei3 sap6",
+    "english": "20 30 40",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 815,
+    "cantonese": "21 22",
+    "jyutping": "ji6 sap6 jat1 . ji6 sap6 ji6",
+    "english": "21 22",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 816,
+    "cantonese": "100 200 300",
+    "jyutping": "jat1 baak3  . loeng5 baak3 . saam1 baak3",
+    "english": "100 200 300",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 817,
+    "cantonese": "10000 20000 30000",
+    "jyutping": "jat1 maan6 . loeng5 maan6 . saam1 maan6",
+    "english": "10000 20000 30000",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 818,
+    "cantonese": "星期一 星期二",
+    "jyutping": "sing1 kei4 jat1 . sing1 kei4 ji6",
+    "english": "Monday, Tuesday",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 819,
+    "cantonese": "星期三 星期四",
+    "jyutping": "sing1 kei4 saam1 . sing1 kei4 sei3",
+    "english": "Wednesday, Thursday",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 820,
+    "cantonese": "星期五 星期六",
+    "jyutping": "sing1 kei4 ng5 . sing1 kei4 luk6",
+    "english": "Friday, Saturday",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 821,
+    "cantonese": "星期日",
+    "jyutping": "sing1 kei4 jat6",
+    "english": "Sunday",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 822,
+    "cantonese": "今日星期幾?",
+    "jyutping": "gam1 jat6 sing1 kei4 gei1",
+    "english": "What day is today?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 823,
+    "cantonese": "今天星期三",
+    "jyutping": "gam1 jat6 sing1 kei4 saam1",
+    "english": "Today is Wednesday",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 824,
+    "cantonese": "得閒再傾",
+    "jyutping": "dak1 haan4 zoi3 king1",
+    "english": "Talk later when free",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 825,
+    "cantonese": "拜拜",
+    "jyutping": "baai3 baai3",
+    "english": "Goodbye",
+    "tags": ["greetings", "travel"]
+  },
+  {
+    "sentenceId": 826,
+    "cantonese": "最近點呀?",
+    "jyutping": "zeoi3 gan6 dim2 aa1",
+    "english": "How are you recently?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 827,
+    "cantonese": "聽日得唔得閒?",
+    "jyutping": "ting1 jat6 dak1 m4 dak1 haan4",
+    "english": "Are you free tomorrow?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 828,
+    "cantonese": "出去行嚇",
+    "jyutping": "ceot1 heoi3 hang4 haak3",
+    "english": "Go for a walk",
+    "tags": ["information", "travel"]
+  },
+  {
+    "sentenceId": 829,
+    "cantonese": "一齊出去",
+    "jyutping": "jat1cai4 ceot1 heoi3",
+    "english": "Let's go out together",
+    "tags": ["information", "travel"]
+  },
+  {
+    "sentenceId": 830,
+    "cantonese": "生日快樂!",
+    "jyutping": "saang1 jat6 faai3 lok6",
+    "english": "Happy Birthday!",
+    "tags": ["feelings", "social"]
+  },
+  {
+    "sentenceId": 831,
+    "cantonese": "呌一陣",
+    "jyutping": "tau2 jat1 zan6",
+    "english": "Take a break",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 832,
+    "cantonese": "睇嚟幾好",
+    "jyutping": "tai2 lai4 gei2 hou2",
+    "english": "Looks good",
+    "tags": ["information", "travel"]
+  },
+  {
+    "sentenceId": 833,
+    "cantonese": "一齊去買嘢",
+    "jyutping": "jat1 cai4 heoi3 maai5 je5",
+    "english": "Let's go shopping",
+    "tags": ["information", "shopping"]
+  },
+  {
+    "sentenceId": 834,
+    "cantonese": "好多謝你",
+    "jyutping": "hou2 do1 ze6 nei5",
+    "english": "Thank you very much",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 835,
+    "cantonese": "你太好人喇",
+    "jyutping": "nei5 taai3 hou2 jan4 laa3",
+    "english": "You're too kind",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 836,
+    "cantonese": "你好大方",
+    "jyutping": "nei5 hou2 daai6 fong1",
+    "english": "You're generous",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 837,
+    "cantonese": "我玩得好開心",
+    "jyutping": "ngo5 waan2 dak1 hou2 hoi1 sam1",
+    "english": "I had fun",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 838,
+    "cantonese": "等我一陣",
+    "jyutping": "dang2 ngo5 jat1 zan6",
+    "english": "Wait for me a moment",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 839,
+    "cantonese": "祝你好運!",
+    "jyutping": "zuk1 nei5 hou2 wan6",
+    "english": "Good luck!",
+    "tags": ["information", "travel"]
+  },
+  {
+    "sentenceId": 840,
+    "cantonese": "唔該等一陣",
+    "jyutping": "m4 goi1 dang2 jat1 zan6",
+    "english": "Please wait a moment",
+    "tags": ["requests", "social"]
+  },
+  {
+    "sentenceId": 841,
+    "cantonese": "系我錯咗",
+    "jyutping": "hai6 ngo5 co3 zo2",
+    "english": "It's my fault",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 842,
+    "cantonese": "我太唔小心",
+    "jyutping": "ngo5 taai3 m4 siu2 sam1",
+    "english": "I was too careless",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 843,
+    "cantonese": "對唔住，遲到咗",
+    "jyutping": "deoi3 m4 zyu6 ci4 dou3 zo2",
+    "english": "Sorry, I'm late",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 844,
+    "cantonese": "要你等咁耐",
+    "jyutping": "jiu3 nei5 dang2 gam3 noi6",
+    "english": "Sorry to keep you waiting",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 845,
+    "cantonese": "我有冇嘈住你呀?",
+    "jyutping": "ngo5 jau5 mou5 cou4 zyu6 nei5 aa3",
+    "english": "Did I disturb you?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 846,
+    "cantonese": "可唔可以幫嚇我?",
+    "jyutping": "ho2 m4 ho2 ji5 bong1 haak3 ngo5",
+    "english": "Can you help me?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 847,
+    "cantonese": "解決呢個問題",
+    "jyutping": "gaai2 kyut3 nei1 go3 man6 tai4",
+    "english": "Solve this problem",
+    "tags": ["greetings", "social"]
+  },
+  {
+    "sentenceId": 848,
+    "cantonese": "你頭先講咗乜嘢",
+    "jyutping": "nei5 tau4 sin1 gong2 zo2 mat1 je5",
+    "english": "What did you just say?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 849,
+    "cantonese": "可唔可以在講一次!",
+    "jyutping": "ho2 m4mho2 ji5 zoi3 gong2 jat1 ci3",
+    "english": "Can you say it again?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 850,
+    "cantonese": "唔好意思",
+    "jyutping": "m4 hou2 ji3 si1",
+    "english": "Sorry / Excuse me",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 851,
+    "cantonese": "唔該，講多一次!",
+    "jyutping": "m4 goi1 gong2 do1 jat1 ci3",
+    "english": "Please say it again",
+    "tags": ["requests", "social"]
+  },
+  {
+    "sentenceId": 852,
+    "cantonese": "可唔可以講慢D",
+    "jyutping": "ho2 m4 ho2 ji5 gong2 maan6 D",
+    "english": "Please speak slower",
+    "tags": ["requests", "social"]
+  },
+  {
+    "sentenceId": 853,
+    "cantonese": "呢樣系乜嘢?",
+    "jyutping": "nei1 joeng6 hai6 mat1 je5",
+    "english": "What is this?",
+    "tags": ["greetings", "social"]
+  },
+  {
+    "sentenceId": 854,
+    "cantonese": "乜嘢意思?",
+    "jyutping": "mat1 je5 ji3 si1",
+    "english": "What does it mean?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 855,
+    "cantonese": "明唔明白啊?",
+    "jyutping": "ming4 m4 ming4 baak6 aa1",
+    "english": "Do you understand?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 856,
+    "cantonese": "同我一齊嚟",
+    "jyutping": "tung4 ngo5 jat1 cai4 lai4",
+    "english": "Come with me",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 857,
+    "cantonese": "借錢",
+    "jyutping": "ze3 cin2",
+    "english": "Borrow money",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 858,
+    "cantonese": "借只筆畀我",
+    "jyutping": "ze3 zi2 bat1 bei2 ngo5",
+    "english": "Lend me a pen",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 859,
+    "cantonese": "可唔可以睇嚇?",
+    "jyutping": "ho2 m4 ho2 ji5 tai2 haak3",
+    "english": "Can I have a look?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 860,
+    "cantonese": "可唔可以幫我寄信?",
+    "jyutping": "ho2 m4 ho2 ji5 bong1 ngo5 gei3 seon3",
+    "english": "Can you help me mail a letter?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 861,
+    "cantonese": "落車",
+    "jyutping": "lok6 ce1",
+    "english": "Get off (the vehicle)",
+    "tags": ["greetings", "social"]
+  },
+  {
+    "sentenceId": 862,
+    "cantonese": "可唔可以加我微信?",
+    "jyutping": "ho2 m4 ho2 ji5 gaa1 ngo5 mei4 seon3",
+    "english": "Can you add me on WeChat?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 863,
+    "cantonese": "呢度好靚",
+    "jyutping": "ne1 dou6 hou2 leng3",
+    "english": "This place is beautiful",
+    "tags": ["greetings", "social"]
+  },
+  {
+    "sentenceId": 864,
+    "cantonese": "你叫乜嘢名?",
+    "jyutping": "nei5 giu3 mat1 je5 meng2",
+    "english": "What's your name?",
+    "tags": ["introductions", "social"]
+  },
+  {
+    "sentenceId": 865,
+    "cantonese": "你同邊個一齊?",
+    "jyutping": "nei5 tung4 bin1 go3 jat1 cai4",
+    "english": "Who are you with?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 866,
+    "cantonese": "我自己一個人",
+    "jyutping": "ngo5 zi6 gei2 jat1 go3 jan4",
+    "english": "I'm alone",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 867,
+    "cantonese": "太蠢啦!",
+    "jyutping": "taai3 ceon2 laa1",
+    "english": "Too stupid!",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 868,
+    "cantonese": "你由邊度嚟架?",
+    "jyutping": "nei5 jau4 bin1 dou6 lai4 gaa3",
+    "english": "Where are you from?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 869,
+    "cantonese": "我由美國嚟",
+    "jyutping": "ngo5 jau4 mei5 gwok3 lai4",
+    "english": "I'm from the USA",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 870,
+    "cantonese": "邊個城市?",
+    "jyutping": "bin1 go3 sing4 si5",
+    "english": "Which city?",
+    "tags": ["greetings", "social"]
+  },
+  {
+    "sentenceId": 871,
+    "cantonese": "你去過美國未?",
+    "jyutping": "nei5 heio3 gwo3 mei5 gwok3 mei6",
+    "english": "Have you been to the USA?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 872,
+    "cantonese": "你有冇仔女?",
+    "jyutping": "nei5 jau5 mou5 zai2 neoi5",
+    "english": "Do you have kids?",
+    "tags": ["questions", "social"]
+  },
+  {
+    "sentenceId": 873,
+    "cantonese": "你做乜嘢工作呀?",
+    "jyutping": "nei5 zou6 mat1 je5 gung1 zok3 aa3",
+    "english": "What do you do for work?",
+    "tags": ["questions", "work"]
+  },
+  {
+    "sentenceId": 874,
+    "cantonese": "我系學生",
+    "jyutping": "ngo5 hai6 hok6 saang1",
+    "english": "I'm a student",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 875,
+    "cantonese": "我系嚟應聘嘅",
+    "jyutping": "ngo5 hai6 lai4 jing1 ping3 ge3",
+    "english": "I'm here for a job interview",
+    "tags": ["information", "work"]
+  },
+  {
+    "sentenceId": 876,
+    "cantonese": "我啱啱畢業",
+    "jyutping": "ngo5 ngaan5 ngaan5 bat1 jip6",
+    "english": "I just graduated",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 877,
+    "cantonese": "我會喺呢度留一日",
+    "jyutping": "ngo5 wui6 hai2 ne1 dou6 lau4 jat1 jat6",
+    "english": "I'll stay here one day",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 878,
+    "cantonese": "我聽日走",
+    "jyutping": "ngo5 ting1 jat6 zau2",
+    "english": "I'm leaving tomorrow",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 879,
+    "cantonese": "我禮拜一走",
+    "jyutping": "ngo5 lai5 baai3 jat1 zau2",
+    "english": "I'm leaving Monday",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 880,
+    "cantonese": "好靚啊!",
+    "jyutping": "hou2 leng3 aa1",
+    "english": "So beautiful!",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 881,
+    "cantonese": "太神奇啦!",
+    "jyutping": "taai3 san4 kei4 laa1",
+    "english": "So amazing!",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 882,
+    "cantonese": "好唔開心",
+    "jyutping": "hou2 m4 hoi1 sam1",
+    "english": "I'm unhappy",
+    "tags": ["feelings", "social"]
+  },
+  {
+    "sentenceId": 883,
+    "cantonese": "你好討厭",
+    "jyutping": "nei5 hou2 tou2 jim3",
+    "english": "You're annoying",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 884,
+    "cantonese": "你系啱嘅",
+    "jyutping": "nei5 hai6 ngaam1 ge3",
+    "english": "You're right",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 885,
+    "cantonese": "冷靜D!",
+    "jyutping": "laang5 zing6 D!",
+    "english": "Calm down!",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 886,
+    "cantonese": "唔使驚!",
+    "jyutping": "m4 sai2 ging1!",
+    "english": "Don't be afraid!",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 887,
+    "cantonese": "唔好緊張!",
+    "jyutping": "m4 hou2 gan2 zoeng1",
+    "english": "Don't be nervous!",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 888,
+    "cantonese": "祝你早日康復!",
+    "jyutping": "zuk1 nei5 zou2 jat6 hong1 fuk6",
+    "english": "Get well soon!",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 889,
+    "cantonese": "唔清楚",
+    "jyutping": "m4 cing1 co2",
+    "english": "Not clear",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 890,
+    "cantonese": "我覺得唔系咁樣",
+    "jyutping": "ngo5 gaau3 dak1 m4 hai6 gam3 joeng2",
+    "english": "I don't think so",
+    "tags": ["greetings", "social"]
+  },
+  {
+    "sentenceId": 891,
+    "cantonese": "唔好理佢講乜嘢",
+    "jyutping": "m4 hou2 lei5 keoi5 gong2 mat1 je5",
+    "english": "Don't mind what he says",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 892,
+    "cantonese": "慢慢嚟!",
+    "jyutping": "maan6 maan6 lai4!",
+    "english": "Take your time!",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 893,
+    "cantonese": "開心D啦!",
+    "jyutping": "hoi1 sam1 D laa1!",
+    "english": "Cheer up!",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 894,
+    "cantonese": "真系好好彩!",
+    "jyutping": "zan1 hai6 hou2 hou2 coi2!",
+    "english": "So lucky!",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 895,
+    "cantonese": "真系估唔到!",
+    "jyutping": "zan1 hai6 gu2 m4 dou3",
+    "english": "Unexpected!",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 896,
+    "cantonese": "天啊!",
+    "jyutping": "tin1 aa2!",
+    "english": "Oh my god!",
+    "tags": ["information", "travel"]
+  },
+  {
+    "sentenceId": 897,
+    "cantonese": "乾杯!",
+    "jyutping": "gon1 biu1",
+    "english": "Cheers!",
+    "tags": ["information", "social"]
+  },
+  {
+    "sentenceId": 898,
+    "cantonese": "祝你好運!",
+    "jyutping": "zuk1 nei5 hou2 wan6",
+    "english": "Good luck!",
+    "tags": ["information", "travel"]
+  }
+]

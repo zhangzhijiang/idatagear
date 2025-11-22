@@ -1,0 +1,968 @@
+[
+  {
+    "sentenceId": 1,
+    "cantonese": "早晨，你今日點啊？",
+    "jyutping": "zou2 san4, nei5 gam1 jat6 dim2 aa3?",
+    "english": "Good morning, how are you today?",
+    "tags": [
+      "CRAT",
+      "GREET"
+    ]
+  },
+  {
+    "sentenceId": 2,
+    "cantonese": "我想叫一杯凍奶茶。",
+    "jyutping": "ngo5 soeng2 giu3 jat1 bui1 dung3 naai5 caa4.",
+    "english": "I'd like to order an iced milk tea.",
+    "tags": [
+      "CRAT",
+      "FOOD"
+    ]
+  },
+  {
+    "sentenceId": 3,
+    "cantonese": "呢個幾多錢？",
+    "jyutping": "ni1 go3 gei2 do1 cin2?",
+    "english": "How much is this?",
+    "tags": [
+      "CRAT",
+      "SHOP"
+    ]
+  },
+  {
+    "sentenceId": 4,
+    "cantonese": "可唔可以俾張紙巾我？",
+    "jyutping": "ho2 m4 ho2 ji5 bei2 zoeng1 zi2 gan1 ngo5?",
+    "english": "Can you give me a tissue?",
+    "tags": [
+      "CRAT",
+      "REQUEST"
+    ]
+  },
+  {
+    "sentenceId": 5,
+    "cantonese": "我聽日要返工。",
+    "jyutping": "ngo5 ting1 jat6 jiu3 faan1 gung1.",
+    "english": "I have to work tomorrow.",
+    "tags": [
+      "CRAT",
+      "WORK"
+    ]
+  },
+  {
+    "sentenceId": 6,
+    "cantonese": "你食咗午餐未？",
+    "jyutping": "nei5 sik6 zo2 ng5 caan1 mei6?",
+    "english": "Have you eaten lunch yet?",
+    "tags": [
+      "CRAT",
+      "FOOD"
+    ]
+  },
+  {
+    "sentenceId": 7,
+    "cantonese": "呢度有冇充電位？",
+    "jyutping": "ni1 dou6 jau5 mou5 cung1 din6 wai2?",
+    "english": "Is there a charging spot here?",
+    "tags": [
+      "CRAT",
+      "TECH"
+    ]
+  },
+  {
+    "sentenceId": 8,
+    "cantonese": "我唔該要一個外賣盒。",
+    "jyutping": "ngo5 m4 goi1 jiu3 jat1 go3 ngo6 maai6 hap6.",
+    "english": "Can I have a takeaway box, please?",
+    "tags": [
+      "CRAT",
+      "REQUEST"
+    ]
+  },
+  {
+    "sentenceId": 9,
+    "cantonese": "你鍾意食咩嘢？",
+    "jyutping": "nei5 zung1 ji3 sik6 me1 je5?",
+    "english": "What do you like to eat?",
+    "tags": [
+      "CRAT",
+      "FOOD"
+    ]
+  },
+  {
+    "sentenceId": 10,
+    "cantonese": "我哋今晚去邊度食飯？",
+    "jyutping": "ngo5 dei6 gam1 maan5 heoi3 bin1 dou6 sik6 faan6?",
+    "english": "Where should we eat tonight?",
+    "tags": [
+      "CRAT",
+      "FOOD",
+      "SOCIAL"
+    ]
+  },
+  {
+    "sentenceId": 11,
+    "cantonese": "地鐵站點行過去？",
+    "jyutping": "dei6 tit3 zaam6 dim2 haang4 gwo3 heoi3?",
+    "english": "How do I walk to the MTR station?",
+    "tags": [
+      "CRAT",
+      "TRANSIT"
+    ]
+  },
+  {
+    "sentenceId": 12,
+    "cantonese": "呢件衫有冇大一個碼？",
+    "jyutping": "ni1 gin6 saam1 jau5 mou5 daai6 jat1 go3 maa5?",
+    "english": "Does this shirt come in a larger size?",
+    "tags": [
+      "CRAT",
+      "SHOP"
+    ]
+  },
+  {
+    "sentenceId": 13,
+    "cantonese": "我嘅電話冇電啦！",
+    "jyutping": "ngo5 ge3 din6 waa2 mou5 din6 laa1!",
+    "english": "My phone is out of battery!",
+    "tags": [
+      "CRAT",
+      "TECH"
+    ]
+  },
+  {
+    "sentenceId": 14,
+    "cantonese": "你今晚得唔得閒？",
+    "jyutping": "nei5 gam1 maan5 dak1 m4 dak1 haan4?",
+    "english": "Are you free tonight?",
+    "tags": [
+      "CRAT",
+      "SOCIAL"
+    ]
+  },
+  {
+    "sentenceId": 15,
+    "cantonese": "我想預約聽日剪頭髮。",
+    "jyutping": "ngo5 soeng2 jyu6 joek3 ting1 jat6 zin2 tau4 faat3.",
+    "english": "I'd like to book a haircut for tomorrow.",
+    "tags": [
+      "CRAT",
+      "SOCIAL"
+    ]
+  },
+  {
+    "sentenceId": 16,
+    "cantonese": "呢個字點讀？",
+    "jyutping": "ni1 go3 zi6 dim2 duk6?",
+    "english": "How do you pronounce this word?",
+    "tags": [
+      "CRAT"
+    ]
+  },
+  {
+    "sentenceId": 17,
+    "cantonese": "我唔明你講乜嘢。",
+    "jyutping": "ngo5 m4 ming4 nei5 gong2 mat1 je5.",
+    "english": "I don't understand what you're saying.",
+    "tags": [
+      "CRAT"
+    ]
+  },
+  {
+    "sentenceId": 18,
+    "cantonese": "你住喺邊度？",
+    "jyutping": "nei5 zyu6 hai2 bin1 dou6?",
+    "english": "Where do you live?",
+    "tags": [
+      "CRAT"
+    ]
+  },
+  {
+    "sentenceId": 19,
+    "cantonese": "我哋幾時再見？",
+    "jyutping": "ngo5 dei6 gei2 si4 zoi3 gin3?",
+    "english": "When will we meet again?",
+    "tags": [
+      "CRAT",
+      "SOCIAL"
+    ]
+  },
+  {
+    "sentenceId": 20,
+    "cantonese": "今日天氣好熱！",
+    "jyutping": "gam1 jat6 tin1 hei3 hou2 jit6!",
+    "english": "The weather is so hot today!",
+    "tags": [
+      "CRAT"
+    ]
+  },
+  {
+    "sentenceId": 21,
+    "cantonese": "你鍾意睇咩電影？",
+    "jyutping": "nei5 zung1 ji3 tai2 me1 din6 jing2?",
+    "english": "What kind of movies do you like?",
+    "tags": [
+      "CRAT",
+      "SOCIAL"
+    ]
+  },
+  {
+    "sentenceId": 22,
+    "cantonese": "我嘅廣東話唔係幾好。",
+    "jyutping": "ngo5 ge3 gwong2 dung1 waa2 m4 hai6 gei2 hou2.",
+    "english": "My Cantonese isn't very good.",
+    "tags": [
+      "CRAT"
+    ]
+  },
+  {
+    "sentenceId": 23,
+    "cantonese": "呢個地方好靚！",
+    "jyutping": "ni1 go3 dei6 fong1 hou2 leng3!",
+    "english": "This place is beautiful!",
+    "tags": [
+      "CRAT"
+    ]
+  },
+  {
+    "sentenceId": 24,
+    "cantonese": "我聽日要早起。",
+    "jyutping": "ngo5 ting1 jat6 jiu3 zou2 hei2.",
+    "english": "I have to wake up early tomorrow.",
+    "tags": [
+      "CRAT"
+    ]
+  },
+  {
+    "sentenceId": 25,
+    "cantonese": "你覺得呢間餐廳點？",
+    "jyutping": "nei5 gok3 dak1 ni1 gaan1 caan1 teng1 dim2?",
+    "english": "What do you think of this restaurant?",
+    "tags": [
+      "CRAT",
+      "FOOD"
+    ]
+  },
+  {
+    "sentenceId": 26,
+    "cantonese": "我而家好攰。",
+    "jyutping": "ngo5 ji4 gaa1 hou2 gui6.",
+    "english": "I'm very tired now.",
+    "tags": [
+      "CRAT"
+    ]
+  },
+  {
+    "sentenceId": 27,
+    "cantonese": "呢條褲太長咗。",
+    "jyutping": "ni1 tiu4 fu3 taai3 coeng4 zo2.",
+    "english": "These pants are too long.",
+    "tags": [
+      "CRAT"
+    ]
+  },
+  {
+    "sentenceId": 28,
+    "cantonese": "你識唔識講英文？",
+    "jyutping": "nei5 sik1 m4 sik1 gong2 jing1 man2?",
+    "english": "Can you speak English?",
+    "tags": [
+      "CRAT"
+    ]
+  },
+  {
+    "sentenceId": 29,
+    "cantonese": "我唔食辣嘢。",
+    "jyutping": "ngo5 m4 sik6 laat6 je5.",
+    "english": "I don't eat spicy food.",
+    "tags": [
+      "CRAT",
+      "FOOD"
+    ]
+  },
+  {
+    "sentenceId": 30,
+    "cantonese": "請問廁所喺邊？",
+    "jyutping": "cing2 man6 ci3 so2 hai2 bin1?",
+    "english": "Excuse me, where's the toilet?",
+    "tags": [
+      "CRAT",
+      "REQUEST"
+    ]
+  },
+  {
+    "sentenceId": 31,
+    "cantonese": "我嘅朋友聽日結婚。",
+    "jyutping": "ngo5 ge3 pang4 jau5 ting1 jat6 git3 fan1.",
+    "english": "My friend is getting married tomorrow.",
+    "tags": [
+      "CRAT",
+      "SOCIAL"
+    ]
+  },
+  {
+    "sentenceId": 32,
+    "cantonese": "你幾時開始放工？",
+    "jyutping": "nei5 gei2 si4 hoi1 ci2 fong3 gung1?",
+    "english": "When do you finish work?",
+    "tags": [
+      "CRAT",
+      "WORK"
+    ]
+  },
+  {
+    "sentenceId": 33,
+    "cantonese": "呢度嘅Wi-Fi密碼係咩？",
+    "jyutping": "ni1 dou6 ge3 Wi-Fi mat6 maa5 hai6 me1?",
+    "english": "What's the Wi-Fi password here?",
+    "tags": [
+      "CRAT",
+      "SHOP",
+      "TECH"
+    ]
+  },
+  {
+    "sentenceId": 34,
+    "cantonese": "我鍾意行街買嘢。",
+    "jyutping": "ngo5 zung1 ji3 haang4 gaai1 maai5 je5.",
+    "english": "I like shopping.",
+    "tags": [
+      "CRAT",
+      "SHOP"
+    ]
+  },
+  {
+    "sentenceId": 35,
+    "cantonese": "你嘅電話號碼係幾多？",
+    "jyutping": "nei5 ge3 din6 waa2 hou6 maa5 hai6 gei2 do1?",
+    "english": "What's your phone number?",
+    "tags": [
+      "CRAT",
+      "SHOP",
+      "TECH"
+    ]
+  },
+  {
+    "sentenceId": 36,
+    "cantonese": "我唔記得帶銀包。",
+    "jyutping": "ngo5 m4 gei3 dak1 daai3 ngan4 baau1.",
+    "english": "I forgot to bring my wallet.",
+    "tags": [
+      "CRAT"
+    ]
+  },
+  {
+    "sentenceId": 37,
+    "cantonese": "呢班車去唔去銅鑼灣？",
+    "jyutping": "ni1 baan1 ce1 heoi3 m4 heoi3 tung4 lo4 waan1?",
+    "english": "Does this bus go to Causeway Bay?",
+    "tags": [
+      "CRAT",
+      "TRANSIT"
+    ]
+  },
+  {
+    "sentenceId": 38,
+    "cantonese": "你生日係幾月幾號？",
+    "jyutping": "nei5 saang1 jat6 hai6 gei2 jyut6 gei2 hou6?",
+    "english": "When is your birthday?",
+    "tags": [
+      "CRAT",
+      "SOCIAL"
+    ]
+  },
+  {
+    "sentenceId": 39,
+    "cantonese": "我哋不如睇戲啦！",
+    "jyutping": "ngo5 dei6 bat1 jyu4 tai2 hei3 laa1!",
+    "english": "Let's go watch a movie!",
+    "tags": [
+      "CRAT"
+    ]
+  },
+  {
+    "sentenceId": 40,
+    "cantonese": "呢杯咖啡太甜啦。",
+    "jyutping": "ni1 bui1 gaa3 fe1 taai3 tim4 laa1.",
+    "english": "This coffee is too sweet.",
+    "tags": [
+      "CRAT",
+      "FOOD"
+    ]
+  },
+  {
+    "sentenceId": 41,
+    "cantonese": "你今日著得好靚！",
+    "jyutping": "nei5 gam1 jat6 zoek3 dak1 hou2 leng3!",
+    "english": "You look very nice today!",
+    "tags": [
+      "CRAT"
+    ]
+  },
+  {
+    "sentenceId": 42,
+    "cantonese": "我唔舒服，想請假。",
+    "jyutping": "ngo5 m4 syu1 fuk6, soeng2 ceng2 gaa3.",
+    "english": "I'm not feeling well and want to take leave.",
+    "tags": [
+      "CRAT",
+      "WORK",
+      "HEALTH"
+    ]
+  },
+  {
+    "sentenceId": 43,
+    "cantonese": "呢間酒店好貴。",
+    "jyutping": "ni1 gaan1 zau2 dim3 hou2 gwai3.",
+    "english": "This hotel is very expensive.",
+    "tags": [
+      "CRAT"
+    ]
+  },
+  {
+    "sentenceId": 44,
+    "cantonese": "你平時做咩運動？",
+    "jyutping": "nei5 ping4 si4 zou6 me1 wan6 dung6?",
+    "english": "What exercise do you usually do?",
+    "tags": [
+      "CRAT"
+    ]
+  },
+  {
+    "sentenceId": 45,
+    "cantonese": "我嘅電腦壞咗。",
+    "jyutping": "ngo5 ge3 din6 nou5 waai6 zo2.",
+    "english": "My computer is broken.",
+    "tags": [
+      "CRAT",
+      "TECH"
+    ]
+  },
+  {
+    "sentenceId": 46,
+    "cantonese": "呢本書好有趣。",
+    "jyutping": "ni1 bun2 syu1 hou2 jau5 ceoi3.",
+    "english": "This book is very interesting.",
+    "tags": [
+      "CRAT"
+    ]
+  },
+  {
+    "sentenceId": 47,
+    "cantonese": "你知唔知邊度有超市？",
+    "jyutping": "nei5 zi1 m4 zi1 bin1 dou6 jau5 ciu1 si5?",
+    "english": "Do you know where there's a supermarket?",
+    "tags": [
+      "CRAT"
+    ]
+  },
+  {
+    "sentenceId": 48,
+    "cantonese": "我聽日要去銀行。",
+    "jyutping": "ngo5 ting1 jat6 jiu3 heoi3 ngan4 hong4.",
+    "english": "I need to go to the bank tomorrow.",
+    "tags": [
+      "CRAT"
+    ]
+  },
+  {
+    "sentenceId": 49,
+    "cantonese": "你鍾意食咩生果？",
+    "jyutping": "nei5 zung1 ji3 sik6 me1 saang1 gwo2?",
+    "english": "What fruits do you like to eat?",
+    "tags": [
+      "CRAT",
+      "FOOD"
+    ]
+  },
+  {
+    "sentenceId": 50,
+    "cantonese": "我而家好肚餓。",
+    "jyutping": "ngo5 ji4 gaa1 hou2 tou5 ngo6.",
+    "english": "I'm very hungry now.",
+    "tags": [
+      "CRAT"
+    ]
+  },
+  {
+    "sentenceId": 51,
+    "cantonese": "呢個位有冇人坐？",
+    "jyutping": "ni1 go3 wai2 jau5 mou5 jan4 co5?",
+    "english": "Is this seat taken?",
+    "tags": [
+      "CRAT"
+    ]
+  },
+  {
+    "sentenceId": 52,
+    "cantonese": "你最近忙唔忙？",
+    "jyutping": "nei5 zeoi3 gan6 mong4 m4 mong4?",
+    "english": "Have you been busy lately?",
+    "tags": [
+      "CRAT"
+    ]
+  },
+  {
+    "sentenceId": 53,
+    "cantonese": "我想學多啲廣東話。",
+    "jyutping": "ngo5 soeng2 hok6 do1 di1 gwong2 dung1 waa2.",
+    "english": "I want to learn more Cantonese.",
+    "tags": [
+      "CRAT"
+    ]
+  },
+  {
+    "sentenceId": 54,
+    "cantonese": "呢間舖頭幾點關門？",
+    "jyutping": "ni1 gaan1 pou3 tau4 gei2 dim2 gwaan1 mun4?",
+    "english": "What time does this shop close?",
+    "tags": [
+      "CRAT",
+      "SHOP"
+    ]
+  },
+  {
+    "sentenceId": 55,
+    "cantonese": "你覺得香港點樣？",
+    "jyutping": "nei5 gok3 dak1 hoeng1 gong2 dim2 joeng2?",
+    "english": "What do you think of Hong Kong?",
+    "tags": [
+      "CRAT",
+      "SOCIAL"
+    ]
+  },
+  {
+    "sentenceId": 56,
+    "cantonese": "我唔識用呢部機。",
+    "jyutping": "ngo5 m4 sik1 jung6 ni1 bou6 gei1.",
+    "english": "I don't know how to use this machine.",
+    "tags": [
+      "CRAT",
+      "TECH"
+    ]
+  },
+  {
+    "sentenceId": 57,
+    "cantonese": "你平時幾點瞓覺？",
+    "jyutping": "nei5 ping4 si4 gei2 dim2 fan3 gaau3?",
+    "english": "What time do you usually sleep?",
+    "tags": [
+      "CRAT"
+    ]
+  },
+  {
+    "sentenceId": 58,
+    "cantonese": "呢條街好多人。",
+    "jyutping": "ni1 tiu4 gaai1 hou2 do1 jan4.",
+    "english": "This street is very crowded.",
+    "tags": [
+      "CRAT"
+    ]
+  },
+  {
+    "sentenceId": 59,
+    "cantonese": "我鍾意睇香港電影。",
+    "jyutping": "ngo5 zung1 ji3 tai2 hoeng1 gong2 din6 jing2.",
+    "english": "I like watching Hong Kong movies.",
+    "tags": [
+      "CRAT",
+      "SOCIAL"
+    ]
+  },
+  {
+    "sentenceId": 60,
+    "cantonese": "你嘅普通話好標準！",
+    "jyutping": "nei5 ge3 pou2 tung1 waa2 hou2 biu1 zeon2!",
+    "english": "Your Mandarin is very standard!",
+    "tags": [
+      "CRAT"
+    ]
+  },
+  {
+    "sentenceId": 61,
+    "cantonese": "我想買張八達通。",
+    "jyutping": "ngo5 soeng2 maai5 zoeng1 baat3 daat6 tung1.",
+    "english": "I want to buy an Octopus card.",
+    "tags": [
+      "CRAT",
+      "SHOP"
+    ]
+  },
+  {
+    "sentenceId": 62,
+    "cantonese": "呢度可唔可以影相？",
+    "jyutping": "ni1 dou6 ho2 m4 ho2 ji5 jing2 soeng2?",
+    "english": "Can I take photos here?",
+    "tags": [
+      "CRAT",
+      "REQUEST"
+    ]
+  },
+  {
+    "sentenceId": 63,
+    "cantonese": "你知唔知邊度有藥房？",
+    "jyutping": "nei5 zi1 m4 zi1 bin1 dou6 jau5 joek6 fong2?",
+    "english": "Do you know where there's a pharmacy?",
+    "tags": [
+      "CRAT",
+      "HEALTH"
+    ]
+  },
+  {
+    "sentenceId": 64,
+    "cantonese": "我嘅鎖匙唔見咗。",
+    "jyutping": "ngo5 ge3 so2 si4 m4 gin3 zo2.",
+    "english": "I lost my keys.",
+    "tags": [
+      "CRAT",
+      "SOCIAL"
+    ]
+  },
+  {
+    "sentenceId": 65,
+    "cantonese": "呢間公司請唔請人？",
+    "jyutping": "ni1 gaan1 gung1 si1 ceng2 m4 ceng2 jan4?",
+    "english": "Is this company hiring?",
+    "tags": [
+      "CRAT",
+      "WORK"
+    ]
+  },
+  {
+    "sentenceId": 66,
+    "cantonese": "你嘅工作忙唔忙？",
+    "jyutping": "nei5 ge3 gung1 zok3 mong4 m4 mong4?",
+    "english": "Is your job busy?",
+    "tags": [
+      "CRAT",
+      "WORK"
+    ]
+  },
+  {
+    "sentenceId": 67,
+    "cantonese": "我想換港幣。",
+    "jyutping": "ngo5 soeng2 wun6 gong2 bai6.",
+    "english": "I want to exchange Hong Kong dollars.",
+    "tags": [
+      "CRAT"
+    ]
+  },
+  {
+    "sentenceId": 68,
+    "cantonese": "呢個公園好舒服。",
+    "jyutping": "ni1 go3 gung1 jyun2 hou2 syu1 fuk6.",
+    "english": "This park is very comfortable.",
+    "tags": [
+      "CRAT",
+      "SOCIAL"
+    ]
+  },
+  {
+    "sentenceId": 69,
+    "cantonese": "你平時搭咩車返工？",
+    "jyutping": "nei5 ping4 si4 daap3 me1 ce1 faan1 gung1?",
+    "english": "What transportation do you take to work?",
+    "tags": [
+      "CRAT",
+      "TRANSIT",
+      "WORK"
+    ]
+  },
+  {
+    "sentenceId": 70,
+    "cantonese": "我嘅眼鏡跌爛咗。",
+    "jyutping": "ngo5 ge3 ngaan5 geng3 dit3 laan6 zo2.",
+    "english": "My glasses broke.",
+    "tags": [
+      "CRAT"
+    ]
+  },
+  {
+    "sentenceId": 71,
+    "cantonese": "呢間書店有冇英文書？",
+    "jyutping": "ni1 gaan1 syu1 dim3 jau5 mou5 jing1 man2 syu1?",
+    "english": "Does this bookstore have English books?",
+    "tags": [
+      "CRAT"
+    ]
+  },
+  {
+    "sentenceId": 72,
+    "cantonese": "你鍾意咩顏色？",
+    "jyutping": "nei5 zung1 ji3 me1 ngaan4 sik1?",
+    "english": "What color do you like?",
+    "tags": [
+      "CRAT"
+    ]
+  },
+  {
+    "sentenceId": 73,
+    "cantonese": "我聽日要去睇醫生。",
+    "jyutping": "ngo5 ting1 jat6 jiu3 heoi3 tai2 ji1 sang1.",
+    "english": "I need to see a doctor tomorrow.",
+    "tags": [
+      "CRAT",
+      "HEALTH"
+    ]
+  },
+  {
+    "sentenceId": 74,
+    "cantonese": "呢度有冇免費Wi-Fi？",
+    "jyutping": "ni1 dou6 jau5 mou5 min5 fai3 Wi-Fi?",
+    "english": "Is there free Wi-Fi here?",
+    "tags": [
+      "CRAT",
+      "TECH"
+    ]
+  },
+  {
+    "sentenceId": 75,
+    "cantonese": "你嘅屋企有幾多人？",
+    "jyutping": "nei5 ge3 uk1 kei2 jau5 gei2 do1 jan4?",
+    "english": "How many people are in your family?",
+    "tags": [
+      "CRAT"
+    ]
+  },
+  {
+    "sentenceId": 76,
+    "cantonese": "我想寄封信去英國。",
+    "jyutping": "ngo5 soeng2 gei3 fung1 seon3 heoi3 jing1 gwok3.",
+    "english": "I want to mail a letter to the UK.",
+    "tags": [
+      "CRAT"
+    ]
+  },
+  {
+    "sentenceId": 77,
+    "cantonese": "呢個app點用㗎？",
+    "jyutping": "ni1 go3 app dim2 jung6 gaa3?",
+    "english": "How do I use this app?",
+    "tags": [
+      "CRAT",
+      "TECH"
+    ]
+  },
+  {
+    "sentenceId": 78,
+    "cantonese": "你鍾意食咩甜品？",
+    "jyutping": "nei5 zung1 ji3 sik6 me1 tim4 ban2?",
+    "english": "What desserts do you like?",
+    "tags": [
+      "CRAT",
+      "FOOD"
+    ]
+  },
+  {
+    "sentenceId": 79,
+    "cantonese": "我嘅手機冇晒電。",
+    "jyutping": "ngo5 ge3 sau2 gei1 mou5 saai3 din6.",
+    "english": "My phone ran out of battery.",
+    "tags": [
+      "CRAT",
+      "TECH"
+    ]
+  },
+  {
+    "sentenceId": 80,
+    "cantonese": "呢間學校好出名。",
+    "jyutping": "ni1 gaan1 hok6 haau6 hou2 ceot1 meng2.",
+    "english": "This school is very famous.",
+    "tags": [
+      "CRAT"
+    ]
+  },
+  {
+    "sentenceId": 81,
+    "cantonese": "你平時幾點起身？",
+    "jyutping": "nei5 ping4 si4 gei2 dim2 hei2 san1?",
+    "english": "What time do you usually wake up?",
+    "tags": [
+      "CRAT"
+    ]
+  },
+  {
+    "sentenceId": 82,
+    "cantonese": "我想買個新銀包。",
+    "jyutping": "ngo5 soeng2 maai5 go3 san1 ngan4 baau1.",
+    "english": "I want to buy a new wallet.",
+    "tags": [
+      "CRAT",
+      "SHOP"
+    ]
+  },
+  {
+    "sentenceId": 83,
+    "cantonese": "呢個商場好大。",
+    "jyutping": "ni1 go3 soeng1 coeng4 hou2 daai6.",
+    "english": "This mall is very big.",
+    "tags": [
+      "CRAT",
+      "SHOP"
+    ]
+  },
+  {
+    "sentenceId": 84,
+    "cantonese": "你嘅普通話好叻！",
+    "jyutping": "nei5 ge3 pou2 tung1 waa2 hou2 lek1!",
+    "english": "Your Mandarin is excellent!",
+    "tags": [
+      "CRAT"
+    ]
+  },
+  {
+    "sentenceId": 85,
+    "cantonese": "我鍾意食日本菜。",
+    "jyutping": "ngo5 zung1 ji3 sik6 jat6 bun2 coi3.",
+    "english": "I like Japanese food.",
+    "tags": [
+      "CRAT",
+      "FOOD"
+    ]
+  },
+  {
+    "sentenceId": 86,
+    "cantonese": "呢間café嘅咖啡好正。",
+    "jyutping": "ni1 gaan1 café ge3 gaa3 fe1 hou2 zeng3.",
+    "english": "The coffee at this café is great.",
+    "tags": [
+      "CRAT",
+      "FOOD"
+    ]
+  },
+  {
+    "sentenceId": 87,
+    "cantonese": "你知唔知邊度有ATM？",
+    "jyutping": "nei5 zi1 m4 zi1 bin1 dou6 jau5 ATM?",
+    "english": "Do you know where there's an ATM?",
+    "tags": [
+      "CRAT",
+      "TECH"
+    ]
+  },
+  {
+    "sentenceId": 88,
+    "cantonese": "我嘅車泊咗喺停車場。",
+    "jyutping": "ngo5 ge3 ce1 paak3 zo2 hai2 ting4 ce1 coeng4.",
+    "english": "My car is parked in the parking lot.",
+    "tags": [
+      "CRAT",
+      "TRANSIT"
+    ]
+  },
+  {
+    "sentenceId": 89,
+    "cantonese": "呢個app好有用。",
+    "jyutping": "ni1 go3 app hou2 jau5 jung6.",
+    "english": "This app is very useful.",
+    "tags": [
+      "CRAT",
+      "TECH"
+    ]
+  },
+  {
+    "sentenceId": 90,
+    "cantonese": "你鍾意咩類型嘅音樂？",
+    "jyutping": "nei5 zung1 ji3 me1 leoi6 jing4 ge3 jam1 ngok6?",
+    "english": "What type of music do you like?",
+    "tags": [
+      "CRAT"
+    ]
+  },
+  {
+    "sentenceId": 91,
+    "cantonese": "我聽日要交報告。",
+    "jyutping": "ngo5 ting1 jat6 jiu3 gaau1 bou3 gou3.",
+    "english": "I need to submit a report tomorrow.",
+    "tags": [
+      "CRAT",
+      "WORK"
+    ]
+  },
+  {
+    "sentenceId": 92,
+    "cantonese": "呢間餐廳嘅服務好好。",
+    "jyutping": "ni1 gaan1 caan1 teng1 ge3 fuk6 mou6 hou2 hou2.",
+    "english": "The service at this restaurant is very good.",
+    "tags": [
+      "CRAT",
+      "FOOD"
+    ]
+  },
+  {
+    "sentenceId": 93,
+    "cantonese": "你嘅英文好流利。",
+    "jyutping": "nei5 ge3 jing1 man2 hou2 lau4 lei6.",
+    "english": "Your English is very fluent.",
+    "tags": [
+      "CRAT"
+    ]
+  },
+  {
+    "sentenceId": 94,
+    "cantonese": "我想學煮廣東菜。",
+    "jyutping": "ngo5 soeng2 hok6 zyu2 gwong2 dung1 coi3.",
+    "english": "I want to learn to cook Cantonese food.",
+    "tags": [
+      "CRAT"
+    ]
+  },
+  {
+    "sentenceId": 95,
+    "cantonese": "呢個公園好適合跑步。",
+    "jyutping": "ni1 go3 gung1 jyun2 hou2 sik1 hap6 paau2 bou6.",
+    "english": "This park is great for jogging.",
+    "tags": [
+      "CRAT",
+      "SOCIAL"
+    ]
+  },
+  {
+    "sentenceId": 96,
+    "cantonese": "你嘅建議好有用。",
+    "jyutping": "nei5 ge3 gin3 ji5 hou2 jau5 jung6.",
+    "english": "Your suggestion is very helpful.",
+    "tags": [
+      "CRAT"
+    ]
+  },
+  {
+    "sentenceId": 97,
+    "cantonese": "我鍾意睇香港嘅夜景。",
+    "jyutping": "ngo5 zung1 ji3 tai2 hoeng1 gong2 ge3 je6 ging2.",
+    "english": "I like seeing Hong Kong's night views.",
+    "tags": [
+      "CRAT",
+      "SOCIAL"
+    ]
+  },
+  {
+    "sentenceId": 98,
+    "cantonese": "呢間酒店有冇游泳池？",
+    "jyutping": "ni1 gaan1 zau2 dim3 jau5 mou5 jau4 wing6 ci4?",
+    "english": "Does this hotel have a swimming pool?",
+    "tags": [
+      "CRAT"
+    ]
+  },
+  {
+    "sentenceId": 99,
+    "cantonese": "你嘅普通話進步咗好多！",
+    "jyutping": "nei5 ge3 pou2 tung1 waa2 zeon3 bou6 zo2 hou2 do1!",
+    "english": "Your Mandarin has improved a lot!",
+    "tags": [
+      "CRAT"
+    ]
+  },
+  {
+    "sentenceId": 100,
+    "cantonese": "我哋下次再約出嚟食飯！",
+    "jyutping": "ngo5 dei6 haa6 ci3 zoi3 joek3 ceot1 lei4 sik6 faan6!",
+    "english": "Let's meet up for dinner again next time!",
+    "tags": [
+      "CRAT",
+      "FOOD",
+      "SOCIAL"
+    ]
+  }
+]
