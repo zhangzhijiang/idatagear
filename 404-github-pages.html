@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Redirecting...</title>
+  <script>
+    // GitHub Pages SPA routing workaround
+    // This file should be renamed to 404.html when deploying to GitHub Pages
+    
+    (function() {
+      var path = window.location.pathname;
+      var search = window.location.search;
+      var hash = window.location.hash;
+      
+      // Remove leading/trailing slashes for cleaner matching
+      path = path.replace(/^\/+|\/+$/g, '');
+      
+      // Check which app the path belongs to
+      if (path.startsWith('learnchinese')) {
+        window.location.replace('/learnchinese/index.html' + search + hash);
+      } else if (path.startsWith('learncantonese')) {
+        window.location.replace('/learncantonese/index.html' + search + hash);
+      } else if (path.startsWith('gcd')) {
+        window.location.replace('/gcd/index.html' + search + hash);
+      } else if (path.startsWith('testlearnchinese')) {
+        window.location.replace('/testlearnchinese/index.html' + search + hash);
+      } else if (path.startsWith('testlearncantonese')) {
+        window.location.replace('/testlearncantonese/index.html' + search + hash);
+      } else if (path === '' || path === 'index.html') {
+        // Root path - stay on main site
+        window.location.replace('/index.html' + search + hash);
+      } else {
+        // Unknown path - try to redirect to main site
+        window.location.replace('/index.html' + search + hash);
+      }
+    })();
+  </script>
+</head>
+<body>
+  <div style="text-align: center; padding: 50px; font-family: Arial, sans-serif;">
+    <h1>Redirecting...</h1>
+    <p>If you are not redirected automatically, <a href="/">click here</a>.</p>
+  </div>
+</body>
+</html>
+
