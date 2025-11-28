@@ -85,19 +85,36 @@
             showStatus('Loading HanziWriter...');
             
             // If JS was injected directly, it should be available immediately
-            // Wait a moment to check
-            setTimeout(function() {
+            // Check multiple times with increasing delays to account for script evaluation
+            let checkCount = 0;
+            const maxChecks = 10;
+            
+            function checkForInjectedScript() {
                 if (typeof HanziWriter !== 'undefined') {
                     handleScriptLoad();
                     return;
                 }
-                
-                // If not injected, try loading from CDN as fallback
-                const cdnUrls = [
-                    'https://unpkg.com/hanzi-writer@4.0/dist/hanzi-writer.min.js',
-                    'https://cdn.jsdelivr.net/npm/hanzi-writer@4.0/dist/hanzi-writer.min.js',
-                    'https://cdnjs.cloudflare.com/ajax/libs/hanzi-writer/4.0/hanzi-writer.min.js'
-                ];
+                checkCount++;
+                if (checkCount < maxChecks) {
+                    setTimeout(checkForInjectedScript, 200);
+                } else {
+                    // If not injected after checking, try loading from CDN as fallback
+                    tryLoadFromCDN();
+                }
+            }
+            
+            // Start checking after a short delay
+            setTimeout(checkForInjectedScript, 100);
+        }
+        
+        function tryLoadFromCDN() {
+            // Try loading from CDN as fallback
+            const cdnUrls = [
+                'https://unpkg.com/hanzi-writer@4/dist/hanzi-writer.min.js',
+                'https://cdn.jsdelivr.net/npm/hanzi-writer@4/dist/hanzi-writer.min.js',
+                'https://cdnjs.cloudflare.com/ajax/libs/hanzi-writer/4.0.0/hanzi-writer.min.js',
+                'https://unpkg.com/hanzi-writer@latest/dist/hanzi-writer.min.js'
+            ];
                 
                 let currentIndex = 0;
                 
@@ -131,7 +148,6 @@
                 }
                 
                 tryLoadScript(0);
-            }, 100);
         }
 
         // Handle script load
@@ -142,8 +158,10 @@
                     if (typeof HanziWriter !== 'undefined') {
                         hanziWriterLoaded = true;
                         showStatus('HanziWriter loaded');
-                        // If there's a pending initialization, run it now
-                        if (pendingInit) {
+                        // Auto-initialize if character is set
+                        if (window.autoInitCharacter) {
+                            initHanziWriter(window.autoInitCharacter);
+                        } else if (pendingInit) {
                             initHanziWriter(pendingInit);
                             pendingInit = null;
                         }
@@ -155,8 +173,10 @@
             }
             hanziWriterLoaded = true;
             showStatus('HanziWriter loaded');
-            // If there's a pending initialization, run it now
-            if (pendingInit) {
+            // Auto-initialize if character is set
+            if (window.autoInitCharacter) {
+                initHanziWriter(window.autoInitCharacter);
+            } else if (pendingInit) {
                 initHanziWriter(pendingInit);
                 pendingInit = null;
             }
@@ -204,8 +224,11 @@
 
         // Initialize HanziWriter with a character
         function initHanziWriter(character) {
+            console.log('initHanziWriter called with character:', character);
+            
             // Check if HanziWriter is loaded
             if (!checkHanziWriter()) {
+                console.log('HanziWriter not loaded yet, setting pending init');
                 showStatus('Loading HanziWriter...');
                 pendingInit = character;
                 return;
@@ -214,13 +237,26 @@
             currentCharacter = character;
             const targetDiv = document.getElementById('character-target-div');
             
+            if (!targetDiv) {
+                console.error('Target div not found!');
+                showStatus('Error: Target div not found');
+                return;
+            }
+            
+            console.log('Target div found, creating HanziWriter instance');
+            
             // Clear previous writer if exists
             if (writer) {
-                writer = null;
+                try {
+                    writer = null;
+                } catch (e) {
+                    console.error('Error clearing previous writer:', e);
+                }
             }
             
             try {
                 // Create new writer instance
+                console.log('Creating HanziWriter with character:', character);
                 writer = HanziWriter.create('character-target-div', character, {
                 width: Math.min(window.innerWidth - 40, 400),
                 height: Math.min(window.innerHeight - 200, 400),
@@ -274,14 +310,16 @@
                 }
                 });
                 
+                console.log('HanziWriter created successfully');
                 showStatus('Character loaded: ' + character);
             } catch (error) {
                 console.error('Error creating HanziWriter:', error);
-                showStatus('Error: ' + error.message);
+                console.error('Error stack:', error.stack);
+                showStatus('Error: ' + (error.message || 'Unknown error'));
                 if (window.FlutterChannel) {
                     FlutterChannel.postMessage(JSON.stringify({
                         type: 'error',
-                        message: 'Failed to create HanziWriter: ' + error.message
+                        message: 'Failed to create HanziWriter: ' + (error.message || 'Unknown error')
                     }));
                 }
             }
@@ -366,7 +404,31 @@
             }, 2000);
         }
 
-        // Listen for messages from Flutter
+        // Listen for messages from Flutter (for web iframe)
+        window.addEventListener('message', function(event) {
+            // Accept messages from any origin (since we control both)
+            const data = event.data;
+            if (data && typeof data === 'object') {
+                switch (data.type) {
+                    case 'initHanziWriter':
+                        if (data.character) {
+                            initHanziWriter(data.character);
+                        }
+                        break;
+                    case 'animateCharacter':
+                        animateCharacter();
+                        break;
+                    case 'startQuiz':
+                        startQuiz();
+                        break;
+                    case 'resetCharacter':
+                        resetCharacter();
+                        break;
+                }
+            }
+        });
+
+        // Listen for messages from Flutter WebView
         window.addEventListener('flutter_inappwebview_platform_ready', function(event) {
             console.log('Flutter WebView ready');
         });
