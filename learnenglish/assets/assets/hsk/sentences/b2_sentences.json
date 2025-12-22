@@ -1,0 +1,4554 @@
+{
+  "sentences": [
+    {
+      "sentence_id": 1961,
+      "english": "The accountant noticed a significant gap in the annual budget during the audit.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "会计师在审计过程中发现年度预算中存在重大缺口。",
+        "es": "El contador notó una brecha significativa en el presupuesto anual durante la auditoría."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["work", "finance", "business"]
+    },
+    {
+      "sentence_id": 1962,
+      "english": "She was reluctant to acknowledge her mistake, even though the evidence was apparent.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "尽管证据显而易见，她仍不愿承认自己的错误。",
+        "es": "Ella se mostraba reacia a reconocer su error, a pesar de que la evidencia era aparente."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["social", "communication", "personality"]
+    },
+    {
+      "sentence_id": 1963,
+      "english": "The agricultural sector has to adapt to the changing climate to ensure food security.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "农业部门必须适应不断变化的气候，以确保粮食安全。",
+        "es": "El sector agrícola tiene que adaptarse al cambio climático para garantizar la seguridad alimentaria."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["environment", "agriculture", "science"]
+    },
+    {
+      "sentence_id": 1964,
+      "english": "Winning the championship was an astonishing achievement for such a young athlete.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "对于这样一位年轻的运动员来说，赢得冠军是一项令人惊讶的成就。",
+        "es": "Ganar el campeonato fue un logro asombroso para un atleta tan joven."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["sports", "success", "achievement"]
+    },
+    {
+      "sentence_id": 1965,
+      "english": "There is a widespread concern regarding the long-term effects of social media addiction.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "人们普遍担心社交媒体成瘾的长期影响。",
+        "es": "Existe una preocupación generalizada sobre los efectos a largo plazo de la adicción a las redes sociales."
+      },
+      "difficulty": "Advanced",
+      "tags": ["society", "health", "technology"]
+    },
+    {
+      "sentence_id": 1966,
+      "english": "The witness provided a detailed description of the suspect to the detective.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "证人向侦探提供了嫌疑人的详细描述。",
+        "es": "El testigo proporcionó una descripción detallada del sospechoso al detective."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["crime", "law", "description"]
+    },
+    {
+      "sentence_id": 1967,
+      "english": "We need to clarify the terms of the contract before we officially sign it.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "在正式签署合同之前，我们需要澄清合同条款。",
+        "es": "Necesitamos aclarar los términos del contrato antes de firmarlo oficialmente."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["business", "legal", "work"]
+    },
+    {
+      "sentence_id": 1968,
+      "english": "The professor emphasized the importance of academic integrity in his lecture.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "教授在讲座中强调了学术诚信的重要性。",
+        "es": "El profesor enfatizó la importancia de la integridad académica en su conferencia."
+      },
+      "difficulty": "Advanced",
+      "tags": ["school", "education", "ethics"]
+    },
+    {
+      "sentence_id": 1969,
+      "english": "Despite the constant noise, he managed to maintain his concentration during the exam.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "尽管噪音不断，他还是在考试期间保持了注意力集中。",
+        "es": "A pesar del ruido constante, logró mantener su concentración durante el examen."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["school", "study", "challenges"]
+    },
+    {
+      "sentence_id": 1970,
+      "english": "The government is under pressure to reduce carbon emissions to protect the environment.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "政府面临减少碳排放以保护环境的压力。",
+        "es": "El gobierno está bajo presión para reducir las emisiones de carbono para proteger el medio ambiente."
+      },
+      "difficulty": "Advanced",
+      "tags": ["environment", "politics", "science"]
+    },
+    {
+      "sentence_id": 1971,
+      "english": "It’s a bizarre coincidence that we both ended up in the same remote village.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "我们最终都来到了同一个偏远的村庄，这真是一个离奇的巧合。",
+        "es": "Es una coincidencia extraña que ambos termináramos en el mismo pueblo remoto."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["travel", "social", "chance"]
+    },
+    {
+      "sentence_id": 1972,
+      "english": "Her creative approach to problem-solving is highly valued by the corporation.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "她解决问题的创新方法深受公司看重。",
+        "es": "Su enfoque creativo para la resolución de problemas es muy valorado por la corporación."
+      },
+      "difficulty": "Advanced",
+      "tags": ["work", "creativity", "business"]
+    },
+    {
+      "sentence_id": 1973,
+      "english": "The historian gave a fascinating account of how the ancient civilization collapsed.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "历史学家对那个古代文明是如何崩溃的做了精彩的叙述。",
+        "es": "El historiador dio un relato fascinante de cómo colapsó la civilización antigua."
+      },
+      "difficulty": "Advanced",
+      "tags": ["history", "academic", "culture"]
+    },
+    {
+      "sentence_id": 1974,
+      "english": "The entrepreneur had to overcome numerous obstacles before her startup became profitable.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "这位企业家在她的初创公司盈利之前必须克服无数障碍。",
+        "es": "La emprendedora tuvo que superar numerosos obstáculos antes de que su startup fuera rentable."
+      },
+      "difficulty": "Advanced",
+      "tags": ["business", "success", "work"]
+    },
+    {
+      "sentence_id": 1975,
+      "english": "Doctors are optimistic that the new medication will help patients recover faster.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "医生们对这种新药将帮助患者更快康复持乐观态度。",
+        "es": "Los médicos son optimistas de que el nuevo medicamento ayudará a los pacientes a recuperarse más rápido."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["health", "science", "medicine"]
+    },
+    {
+      "sentence_id": 1976,
+      "english": "The sudden decrease in sales led to a temporary suspension of the project.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "销售额的突然下降导致该项目暂时中止。",
+        "es": "La disminución repentina de las ventas provocó una suspensión temporal del proyecto."
+      },
+      "difficulty": "Advanced",
+      "tags": ["work", "business", "economy"]
+    },
+    {
+      "sentence_id": 1977,
+      "english": "It is fundamental to establish a daily routine if you want to be productive.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "如果你想提高效率，建立日常习惯是至关重要的。",
+        "es": "Es fundamental establecer una rutina diaria si quieres ser productivo."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["lifestyle", "routine", "advice"]
+    },
+    {
+      "sentence_id": 1978,
+      "english": "The charity relies on generous donations from the public to continue its work.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "该慈善机构依靠公众的慷慨捐款来继续其工作。",
+        "es": "La organización benéfica depende de las generosas donaciones del público para continuar su trabajo."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["society", "charity", "help"]
+    },
+    {
+      "sentence_id": 1979,
+      "english": "The chef added a unique blend of spices to enhance the flavor of the dish.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "厨师加入了一种独特的香料组合，以提升菜肴的风味。",
+        "es": "El chef añadió una mezcla única de especias para realzar el sabor del plato."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["food", "cooking", "hobbies"]
+    },
+    {
+      "sentence_id": 1980,
+      "english": "The investigation revealed that the fire was caused by a faulty electrical circuit.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "调查显示，火灾是由电路故障引起的。",
+        "es": "La investigación reveló que el incendio fue causado por un circuito eléctrico defectuoso."
+      },
+      "difficulty": "Advanced",
+      "tags": ["news", "safety", "investigation"]
+    },
+    {
+      "sentence_id": 1981,
+      "english": "Parents often struggle to strike a balance between discipline and encouragement.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "父母经常在管教和鼓励之间努力寻找平衡。",
+        "es": "Los padres a menudo luchan por encontrar un equilibrio entre la disciplina y el aliento."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["family", "parenting", "psychology"]
+    },
+    {
+      "sentence_id": 1982,
+      "english": "The software update will automatically activate several new security features.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "软件更新将自动激活几个新的安全功能。",
+        "es": "La actualización de software activará automáticamente varias funciones de seguridad nuevas."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["technology", "security", "computers"]
+    },
+    {
+      "sentence_id": 1983,
+      "english": "She felt a sense of relief after she finally submitted her doctoral thesis.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "在终于提交了博士论文后，她感到一阵轻松。",
+        "es": "Sintió una sensación de alivio después de que finalmente entregó su tesis doctoral."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["school", "education", "emotions"]
+    },
+    {
+      "sentence_id": 1984,
+      "english": "The company’s reputation was ruined after the corruption scandal was exposed.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "腐败丑闻曝光后，该公司的名誉毁于一旦。",
+        "es": "La reputación de la empresa se arruinó después de que se expusiera el escándalo de corrupción."
+      },
+      "difficulty": "Advanced",
+      "tags": ["business", "ethics", "news"]
+    },
+    {
+      "sentence_id": 1985,
+      "english": "He was accused of misleading the jury during the high-profile trial.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "他被指控在备受关注的审判中误导陪审团。",
+        "es": "Fue acusado de engañar al jurado durante el juicio de alto perfil."
+      },
+      "difficulty": "Advanced",
+      "tags": ["law", "crime", "justice"]
+    },
+    {
+      "sentence_id": 1986,
+      "english": "The architecture of the building is a mix of contemporary and traditional styles.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "这座建筑的设计融合了现代和传统风格。",
+        "es": "La arquitectura del edificio es una mezcla de estilos contemporáneos y tradicionales."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["art", "design", "culture"]
+    },
+    {
+      "sentence_id": 1987,
+      "english": "It is highly probable that the interest rates will remain stable for the next year.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "明年的利率极有可能保持稳定。",
+        "es": "Es muy probable que las tasas de interés se mantengan estables durante el próximo año."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["economy", "finance", "prediction"]
+    },
+    {
+      "sentence_id": 1988,
+      "english": "The artist used vibrant colors to convey a sense of joy and energy.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "艺术家使用鲜艳的色彩来传达快乐和活力的感觉。",
+        "es": "El artista utilizó colores vibrantes para transmitir una sensación de alegría y energía."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["art", "emotions", "description"]
+    },
+    {
+      "sentence_id": 1989,
+      "english": "There is no doubt that technology has transformed the way we communicate.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "毫无疑问，技术已经改变了我们交流的方式。",
+        "es": "No hay duda de que la tecnología ha transformado la forma en que nos comunicamos."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["technology", "society", "communication"]
+    },
+    {
+      "sentence_id": 1990,
+      "english": "The principal announced that the school would implement a new discipline policy.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "校长宣布学校将实施新的纪律政策。",
+        "es": "El director anunció que la escuela implementaría una nueva política de disciplina."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["school", "education", "management"]
+    },
+    {
+      "sentence_id": 1991,
+      "english": "He had to cope with a lot of stress during the first month of his new job.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "在上班的第一个月里，他不得不应对巨大的压力。",
+        "es": "Tuvo que lidiar con mucho estrés durante el primer mes de su nuevo trabajo."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["work", "health", "emotions"]
+    },
+    {
+      "sentence_id": 1992,
+      "english": "The survey results indicate a shift in consumer preferences toward organic food.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "调查结果显示，消费者对有机食品的偏好发生了转变。",
+        "es": "Los resultados de la encuesta indican un cambio en las preferencias de los consumidores hacia los alimentos orgánicos."
+      },
+      "difficulty": "Advanced",
+      "tags": ["business", "food", "research"]
+    },
+    {
+      "sentence_id": 1993,
+      "english": "She was deeply moved by the sincere apology her friend offered.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "她被朋友真诚的道歉深深感动了。",
+        "es": "Se sintió profundamente conmovida por la sincera disculpa que le ofreció su amigo."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["social", "emotions", "friendship"]
+    },
+    {
+      "sentence_id": 1994,
+      "english": "Heavy rain caused the river to overflow, threatening the nearby residents.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "暴雨导致河流泛滥，威胁到附近的居民。",
+        "es": "La fuerte lluvia hizo que el río se desbordara, amenazando a los residentes cercanos."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["weather", "environment", "news"]
+    },
+    {
+      "sentence_id": 1995,
+      "english": "The company offers a generous pension scheme to its long-term employees.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "公司为长期员工提供优厚的养老金计划。",
+        "es": "La empresa ofrece un generoso plan de pensiones a sus empleados a largo plazo."
+      },
+      "difficulty": "Advanced",
+      "tags": ["work", "finance", "benefits"]
+    },
+    {
+      "sentence_id": 1996,
+      "english": "You should seek professional advice before making any major financial investments.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "在进行任何重大的金融投资之前，你应该寻求专业建议。",
+        "es": "Debe buscar asesoramiento profesional antes de realizar cualquier inversión financiera importante."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["finance", "advice", "work"]
+    },
+    {
+      "sentence_id": 1997,
+      "english": "The museum exhibits a wide range of artifacts from various ethnic groups.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "博物馆展示了来自不同民族的各种文物。",
+        "es": "El museo exhibe una amplia gama de artefactos de diversos grupos étnicos."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["culture", "history", "art"]
+    },
+    {
+      "sentence_id": 1998,
+      "english": "It is essential to distinguish between fact and opinion when reading the news.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "阅读新闻时，区分事实和观点至关重要。",
+        "es": "Es esencial distinguir entre hecho y opinión al leer las noticias."
+      },
+      "difficulty": "Advanced",
+      "tags": ["media", "critical thinking", "education"]
+    },
+    {
+      "sentence_id": 1999,
+      "english": "The athlete showed great determination to win despite her recent injury.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "尽管最近受伤，这位运动员仍表现出夺冠的坚定决心。",
+        "es": "La atleta mostró una gran determinación por ganar a pesar de su reciente lesión."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["sports", "personality", "health"]
+    },
+    {
+      "sentence_id": 2000,
+      "english": "The government has introduced stricter regulations to prevent environmental pollution.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "政府出台了更严格的法规来防止环境污染。",
+        "es": "El gobierno ha introducido regulaciones más estrictas para prevenir la contaminación ambiental."
+      },
+      "difficulty": "Advanced",
+      "tags": ["environment", "politics", "law"]
+    },
+    {
+      "sentence_id": 2001,
+      "english": "She has a tendency to exaggerate her achievements when she meets new people.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "她在结识新朋友时往往会夸大自己的成就。",
+        "es": "Ella tiene tendencia a exagerar sus logros cuando conoce a gente nueva."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["social", "personality", "behavior"]
+    },
+    {
+      "sentence_id": 2002,
+      "english": "The new infrastructure project aims to improve transportation in the urban area.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "新的基础设施项目旨在改善市区的交通。",
+        "es": "El nuevo proyecto de infraestructura tiene como objetivo mejorar el transporte en el área urbana."
+      },
+      "difficulty": "Advanced",
+      "tags": ["city", "politics", "transport"]
+    },
+    {
+      "sentence_id": 2003,
+      "english": "He was reluctant to participate in the seminar because he felt unprepared.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "他不愿参加研讨会，因为他觉得没准备好。",
+        "es": "Se mostró reacio a participar en el seminario porque se sentía poco preparado."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["school", "work", "emotions"]
+    },
+    {
+      "sentence_id": 2004,
+      "english": "The findings of the research were consistent with previous studies on the topic.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "研究结果与之前关于该主题的研究一致。",
+        "es": "Los hallazgos de la investigación fueron consistentes con estudios previos sobre el tema."
+      },
+      "difficulty": "Advanced",
+      "tags": ["science", "academic", "research"]
+    },
+    {
+      "sentence_id": 2005,
+      "english": "The mayor promised to address the issue of affordable housing in the city.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "市长承诺解决该市的经济适用房问题。",
+        "es": "El alcalde prometió abordar el tema de la vivienda asequible en la ciudad."
+      },
+      "difficulty": "Advanced",
+      "tags": ["politics", "society", "city"]
+    },
+    {
+      "sentence_id": 2006,
+      "english": "It took several months for the economy to recover from the deep recession.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "经济花了几个月的时间才从深度衰退中恢复过来。",
+        "es": "La economía tardó varios meses en recuperarse de la profunda recesión."
+      },
+      "difficulty": "Advanced",
+      "tags": ["economy", "business", "history"]
+    },
+    {
+      "sentence_id": 2007,
+      "english": "The singer’s performance was truly magnificent, leaving the audience in awe.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "歌手的表演真是华丽夺目，让观众惊叹不已。",
+        "es": "La actuación del cantante fue verdaderamente magnífica, dejando al público asombrado."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["entertainment", "music", "art"]
+    },
+    {
+      "sentence_id": 2008,
+      "english": "The suspect was released from jail after new evidence proved his innocence.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "在新的证据证明他的清白后，嫌疑人被从监狱释放。",
+        "es": "El sospechoso fue liberado de la cárcel después de que nuevas pruebas demostraran su inocencia."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["law", "crime", "news"]
+    },
+    {
+      "sentence_id": 2009,
+      "english": "We must consider the potential consequences before we implement such a drastic change.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "在实施如此激烈的变革之前，我们必须考虑潜在的后果。",
+        "es": "Debemos considerar las posibles consecuencias antes de implementar un cambio tan drástico."
+      },
+      "difficulty": "Advanced",
+      "tags": ["work", "management", "logic"]
+    },
+    {
+      "sentence_id": 2010,
+      "english": "She felt a sharp pain in her wrist after falling during the tennis match.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "在网球比赛中摔倒后，她感到手腕剧痛。",
+        "es": "Sintió un dolor agudo en la muñeca después de caerse durante el partido de tenis."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["health", "sports", "accident"]
+    },
+    {
+      "sentence_id": 2011,
+      "english": "They had to abandon the old house after the storm severely damaged the roof.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "暴风雨严重损坏屋顶后，他们不得不放弃那座旧房子。",
+        "es": "Tuvieron que abandonar la vieja casa después de que la tormenta dañara gravemente el techo."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["housing", "disaster", "actions"]
+    },
+    {
+      "sentence_id": 2012,
+      "english": "It is an absolute necessity to wear a helmet while riding a motorcycle for your safety.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "为了安全，骑摩托车时佩戴头盔是绝对必要的。",
+        "es": "Es una necesidad absoluta usar un casco mientras se conduce una motocicleta por tu seguridad."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["safety", "transport", "advice"]
+    },
+    {
+      "sentence_id": 2013,
+      "english": "Plants absorb water and essential nutrients through their roots in the soil.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "植物通过土壤中的根吸收水分和必需的养分。",
+        "es": "Las plantas absorben agua y nutrientes esenciales a través de sus raíces en el suelo."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["nature", "science", "biology"]
+    },
+    {
+      "sentence_id": 2014,
+      "english": "The gallery features several abstract paintings that are quite difficult to interpret.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "画廊展出了几幅很难解读的抽象画。",
+        "es": "La galería presenta varias pinturas abstractas que son bastante difíciles de interpretar."
+      },
+      "difficulty": "Advanced",
+      "tags": ["art", "culture", "description"]
+    },
+    {
+      "sentence_id": 2015,
+      "english": "He spoke English with a slight French accent, which sounded very charming.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "他说英语带有轻微的法国口音，听起来非常有魅力。",
+        "es": "Hablaba inglés con un ligero acento francés, lo que sonaba muy encantador."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["language", "communication", "personality"]
+    },
+    {
+      "sentence_id": 2016,
+      "english": "It is no longer acceptable to smoke in public buildings in most modern countries.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "在大多数现代国家，在公共建筑内吸烟已不再被接受。",
+        "es": "Ya no es aceptable fumar en edificios públicos en la mayoría de los países modernos."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["society", "health", "rules"]
+    },
+    {
+      "sentence_id": 2017,
+      "english": "I accidentally deleted the important file while I was cleaning up my desktop yesterday.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "昨天我在清理桌面时，不小心删除了那个重要的文件。",
+        "es": "Borré accidentalmente el archivo importante mientras limpiaba mi escritorio ayer."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["technology", "mistakes", "work"]
+    },
+    {
+      "sentence_id": 2018,
+      "english": "The conference center can accommodate up to three hundred guests for the annual gala.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "会议中心可容纳多达三百名客人参加年度盛会。",
+        "es": "El centro de conferencias puede acomodar hasta trescientos invitados para la gala anual."
+      },
+      "difficulty": "Advanced",
+      "tags": ["business", "events", "capacity"]
+    },
+    {
+      "sentence_id": 2019,
+      "english": "Finding affordable accommodation in the city center is a major challenge for many students.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "在市中心寻找经济实惠的住宿对许多学生来说是一个重大挑战。",
+        "es": "Encontrar alojamiento asequible en el centro de la ciudad es un gran desafío para muchos estudiantes."
+      },
+      "difficulty": "Advanced",
+      "tags": ["housing", "school", "money"]
+    },
+    {
+      "sentence_id": 2020,
+      "english": "Young children must be accompanied by an adult when visiting the interactive museum.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "幼儿在参观互动博物馆时必须由成人陪同。",
+        "es": "Los niños pequeños deben estar acompañados por un adulto al visitar el museo interactivo."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["family", "rules", "culture"]
+    },
+    {
+      "sentence_id": 2021,
+      "english": "We managed to accomplish all our sales goals for the month ahead of schedule.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "我们设法提前完成了当月所有的销售目标。",
+        "es": "Logramos cumplir todos nuestros objetivos de ventas del mes antes de lo previsto."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["work", "success", "business"]
+    },
+    {
+      "sentence_id": 2022,
+      "english": "The accuracy of the weather forecast has improved significantly due to satellite data.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "由于卫星数据，天气预报的准确性得到了显著提高。",
+        "es": "La precisión del pronóstico del tiempo ha mejorado significativamente debido a los datos satelitales."
+      },
+      "difficulty": "Advanced",
+      "tags": ["science", "weather", "technology"]
+    },
+    {
+      "sentence_id": 2023,
+      "english": "The corporation plans to acquire several smaller firms to expand its market share.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "该集团计划收购几家较小的公司以扩大其市场份额。",
+        "es": "La corporación planea adquirir varias firmas más pequeñas para expandir su cuota de mercado."
+      },
+      "difficulty": "Advanced",
+      "tags": ["business", "finance", "growth"]
+    },
+    {
+      "sentence_id": 2024,
+      "english": "The local farmer owns over fifty acres of land where he primarily grows wheat.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "当地农民拥有五十多英亩土地，主要种植小麦。",
+        "es": "El granjero local posee más de cincuenta acres de tierra donde cultiva principalmente trigo."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["agriculture", "nature", "work"]
+    },
+    {
+      "sentence_id": 2025,
+      "english": "It took him a few weeks to adjust to the humid climate after moving from Canada.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "从加拿大搬来后，他花了几周时间才适应这里潮湿的气候。",
+        "es": "Le tomó unas semanas adaptarse al clima húmedo después de mudarse de Canadá."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["travel", "lifestyle", "weather"]
+    },
+    {
+      "sentence_id": 2026,
+      "english": "The school administration is planning to introduce a new curriculum next semester.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "学校管理层计划在下学期引入新的课程体系。",
+        "es": "La administración de la escuela planea introducir un nuevo currículo el próximo semestre."
+      },
+      "difficulty": "Advanced",
+      "tags": ["school", "education", "management"]
+    },
+    {
+      "sentence_id": 2027,
+      "english": "The committee decided to adopt the new safety guidelines after a thorough review.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "委员会在经过彻底审查后，决定采用新的安全准则。",
+        "es": "El comité decidió adoptar las nuevas pautas de seguridad tras una revisión exhaustiva."
+      },
+      "difficulty": "Advanced",
+      "tags": ["work", "rules", "decisions"]
+    },
+    {
+      "sentence_id": 2028,
+      "english": "We strongly recommend that you book your flight tickets in advance during peak season.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "我们强烈建议您在旺季提前预订机票。",
+        "es": "Recomendamos encarecidamente que reserves tus boletos de avión con anticipación durante la temporada alta."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["travel", "advice", "shopping"]
+    },
+    {
+      "sentence_id": 2029,
+      "english": "The diplomat was called back to explain his involvement in the controversial affair.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "这位外交官被召回以解释他参与那起有争议事件的情况。",
+        "es": "El diplomático fue llamado de regreso para explicar su participación en el polémico asunto."
+      },
+      "difficulty": "Advanced",
+      "tags": ["politics", "news", "work"]
+    },
+    {
+      "sentence_id": 2030,
+      "english": "We went for a long walk in the park and had a delicious dinner afterwards.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "我们在公园里散了很长时间步，然后吃了一顿丰盛的晚餐。",
+        "es": "Fuimos a dar un largo paseo por el parque y cenamos algo delicioso después."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["daily", "lifestyle", "food"]
+    },
+    {
+      "sentence_id": 2031,
+      "english": "The community center provides various social activities for people aged sixty and over.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "社区中心为 60 岁及以上的老年人提供各种社交活动。",
+        "es": "El centro comunitario ofrece diversas actividades sociales para personas de sesenta años o más."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["society", "community", "lifestyle"]
+    },
+    {
+      "sentence_id": 2032,
+      "english": "She works for a global agency that specializes in environmental protection.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "她在一家专门从事环境保护的全球性机构工作。",
+        "es": "Ella trabaja para una agencia global que se especializa en la protección del medio ambiente."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["work", "environment", "business"]
+    },
+    {
+      "sentence_id": 2033,
+      "english": "The most important item on today's agenda is the discussion of the marketing budget.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "今天议程上最重要的一项是讨论营销预算。",
+        "es": "El punto más importante de la agenda de hoy es la discusión del presupuesto de marketing."
+      },
+      "difficulty": "Advanced",
+      "tags": ["business", "work", "management"]
+    },
+    {
+      "sentence_id": 2034,
+      "english": "Some wild animals can become quite aggressive if they feel their territory is threatened.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "如果一些野生动物觉得领地受到威胁，它们会变得非常有攻击性。",
+        "es": "Algunos animales salvajes pueden volverse muy agresivos si sienten que su territorio está amenazado."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["nature", "animals", "behavior"]
+    },
+    {
+      "sentence_id": 2035,
+      "english": "Many international organizations provided emergency aid to the victims of the flood.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "许多国际组织向洪灾灾民提供了紧急援助。",
+        "es": "Muchas organizaciones internacionales proporcionaron ayuda de emergencia a las víctimas de la inundación."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["news", "charity", "society"]
+    },
+    {
+      "sentence_id": 2036,
+      "english": "The pilot performed a final safety check on the aircraft before takeoff.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "起飞前，飞行员对飞机进行了最后的安全检查。",
+        "es": "El piloto realizó una última comprobación de seguridad en la aeronave antes del despegue."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["transport", "travel", "safety"]
+    },
+    {
+      "sentence_id": 2037,
+      "english": "I forgot to set my alarm last night, so I ended up waking up much later than intended.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "昨晚我忘了定闹钟，结果醒得比计划晚得多。",
+        "es": "Olvidé poner mi alarma anoche, así que terminé despertándome mucho más tarde de lo previsto."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["daily", "mistakes", "time"]
+    },
+    {
+      "sentence_id": 2038,
+      "english": "The science fiction movie tells the story of an alien trying to return to its home planet.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "这部科幻电影讲述了一个外星人试图返回其母星的故事。",
+        "es": "La película de ciencia ficción cuenta la historia de un alienígena que intenta regresar a su planeta de origen."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["entertainment", "movies", "fantasy"]
+    },
+    {
+      "sentence_id": 2039,
+      "english": "You can easily alter the privacy settings on your social media account.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "你可以轻松修改社交媒体账户的隐私设置。",
+        "es": "Puedes alterar fácilmente la configuración de privacidad en tu cuenta de redes sociales."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["technology", "privacy", "actions"]
+    },
+    {
+      "sentence_id": 2040,
+      "english": "I found the long lecture to be altogether confusing and hard to follow.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "我觉得那场漫长的讲座完全令人困惑，很难听懂。",
+        "es": "La larga conferencia me pareció totalmente confusa y difícil de seguir."
+      },
+      "difficulty": "Advanced",
+      "tags": ["school", "emotions", "description"]
+    },
+    {
+      "sentence_id": 2041,
+      "english": "The young architect has an ambitious plan to build the world's tallest sustainable tower.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "这位年轻的建筑师有一个雄心勃勃的计划，要建造世界上最高的永续塔楼。",
+        "es": "El joven arquitecto tiene el ambicioso plan de construir la torre sostenible más alta del mundo."
+      },
+      "difficulty": "Advanced",
+      "tags": ["work", "success", "architecture"]
+    },
+    {
+      "sentence_id": 2042,
+      "english": "The ambulance arrived within minutes to take the injured cyclist to the nearest hospital.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "救护车在几分钟内赶到，将受伤的骑行者送往最近的医院。",
+        "es": "La ambulancia llegó en pocos minutos para llevar al ciclista herido al hospital más cercano."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["health", "emergency", "transport"]
+    },
+    {
+      "sentence_id": 2043,
+      "english": "The host shared an amusing anecdote about his childhood during the dinner party.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "晚宴期间，主人分享了一个关于他童年的有趣轶事。",
+        "es": "El anfitrión compartió una anécdota divertida sobre su infancia durante la cena."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["social", "entertainment", "storytelling"]
+    },
+    {
+      "sentence_id": 2044,
+      "english": "The financial analyst predicted that the global market would recover by next year.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "金融分析师预测全球市场将在明年恢复。",
+        "es": "El analista financiero predijo que el mercado global se recuperaría para el próximo año."
+      },
+      "difficulty": "Advanced",
+      "tags": ["business", "finance", "economy"]
+    },
+    {
+      "sentence_id": 2045,
+      "english": "She recently discovered that one of her ancestors was a famous explorer from the 18th century.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "她最近发现她的祖先之一是18世纪著名的探险家。",
+        "es": "Recientemente descubrió que uno de sus antepasados fue un famoso explorador del siglo XVIII."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["family", "history", "discovery"]
+    },
+    {
+      "sentence_id": 2046,
+      "english": "It is healthy to express your anger in a constructive way rather than keeping it inside.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "以建设性的方式表达愤怒，而不是闷在心里，对健康有益。",
+        "es": "Es saludable expresar tu enojo de manera constructiva en lugar de guardártelo."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["health", "psychology", "emotions"]
+    },
+    {
+      "sentence_id": 2047,
+      "english": "The photographer spent hours trying to find the perfect angle to capture the sunset.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "摄影师花了几个小时试图找到拍摄落日的完美角度。",
+        "es": "El fotógrafo pasó horas tratando de encontrar el ángulo perfecto para capturar la puesta de sol."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["hobbies", "art", "nature"]
+    },
+    {
+      "sentence_id": 2048,
+      "english": "Modern animation has become so realistic that it’s often hard to distinguish from real life.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "现代动画已经变得如此逼真，以至于通常很难与现实生活区分开来。",
+        "es": "La animación moderna se ha vuelto tan realista que a menudo es difícil distinguirla de la vida real."
+      },
+      "difficulty": "Advanced",
+      "tags": ["technology", "entertainment", "art"]
+    },
+    {
+      "sentence_id": 2049,
+      "english": "They decided to travel to Italy to celebrate their twenty-fifth wedding anniversary.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "他们决定去意大利旅行，以庆祝他们的结婚二十五周年纪念日。",
+        "es": "Decidieron viajar a Italia para celebrar su vigésimo quinto aniversario de bodas."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["family", "travel", "celebration"]
+    },
+    {
+      "sentence_id": 2050,
+      "english": "The local jazz festival is held annually in the town square every summer.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "当地的爵士音乐节每年夏天都在镇广场举行。",
+        "es": "El festival de jazz local se celebra anualmente en la plaza del pueblo cada verano."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["culture", "events", "music"]
+    },
+    {
+      "sentence_id": 2051,
+      "english": "The team didn't anticipate such strong resistance from their opponents in the final match.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "该队没有料到在决赛中会遇到对手如此强烈的抵抗。",
+        "es": "El equipo no anticipó una resistencia tan fuerte de sus oponentes en el partido final."
+      },
+      "difficulty": "Advanced",
+      "tags": ["sports", "challenges", "competition"]
+    },
+    {
+      "sentence_id": 2052,
+      "english": "Speaking in public is a common source of anxiety for many university students.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "公开演讲是许多大学生常见的焦虑来源。",
+        "es": "Hablar en público es una fuente común de ansiedad para muchos estudiantes universitarios."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["school", "psychology", "communication"]
+    },
+    {
+      "sentence_id": 2053,
+      "english": "She was anxious about the job interview results and checked her email every hour.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "她对面试结果感到焦虑，每小时都会查看一次邮件。",
+        "es": "Estaba ansiosa por los resultados de la entrevista de trabajo y revisaba su correo cada hora."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["work", "emotions", "daily"]
+    },
+    {
+      "sentence_id": 2054,
+      "english": "Each applicant must undergo a series of tests before being considered for the scholarship.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "每位申请人在获得奖学金考虑之前，都必须经过一系列测试。",
+        "es": "Cada solicitante debe someterse a una serie de pruebas antes de ser considerado para la beca."
+      },
+      "difficulty": "Advanced",
+      "tags": ["school", "education", "rules"]
+    },
+    {
+      "sentence_id": 2055,
+      "english": "Please ensure that you dress appropriately for the formal business dinner tonight.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "请确保你今晚的商务正餐穿着得体。",
+        "es": "Por favor, asegúrate de vestir apropiadamente para la cena de negocios formal de esta noche."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["work", "social", "advice"]
+    },
+    {
+      "sentence_id": 2056,
+      "english": "The proposed construction project is still waiting for the formal approval of the city council.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "拟议的建设项目仍在等待市议会的正式批准。",
+        "es": "El proyecto de construcción propuesto todavía está esperando la aprobación formal del ayuntamiento."
+      },
+      "difficulty": "Advanced",
+      "tags": ["politics", "business", "city"]
+    },
+    {
+      "sentence_id": 2057,
+      "english": "Difficulties may arise if you do not follow the safety instructions carefully.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "如果你不仔细遵守安全指示，可能会遇到困难。",
+        "es": "Pueden surgir dificultades si no sigues las instrucciones de seguridad cuidadosamente."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["safety", "logic", "advice"]
+    },
+    {
+      "sentence_id": 2058,
+      "english": "The museum is protected by several armed guards who patrol the building at night.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "博物馆由几名在夜间巡逻整栋建筑的武装警卫保护。",
+        "es": "El museo está protegido por varios guardias armados que patrullan el edificio por la noche."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["security", "culture", "crime"]
+    },
+    {
+      "sentence_id": 2059,
+      "english": "Follow the red arrows on the floor to find the nearest emergency exit.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "按照地板上的红色箭头找到最近的紧急出口。",
+        "es": "Sigue las flechas rojas en el suelo para encontrar la salida de emergencia más cercana."
+      },
+      "difficulty": "Beginner",
+      "tags": ["safety", "direction", "public"]
+    },
+    {
+      "sentence_id": 2060,
+      "english": "Many modern snacks contain artificial colors that some parents prefer to avoid.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "许多现代零食含有一些父母宁愿避开的人造色素。",
+        "es": "Muchos aperitivos modernos contienen colores artificiales que algunos padres prefieren evitar."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["health", "food", "family"]
+    },
+    {
+      "sentence_id": 2061,
+      "english": "She displayed her artistic talent by painting a mural on the side of the school building.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "她在学校大楼侧面画了一幅壁画，展示了她的艺术才华。",
+        "es": "Ella mostró su talento artístico pintando un mural en el costado del edificio de la escuela."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["art", "school", "talents"]
+    },
+    {
+      "sentence_id": 2062,
+      "english": "He felt deeply ashamed of his behavior after yelling at his younger brother.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "在对他弟弟大吼大叫后，他对自己行为感到深深的羞愧。",
+        "es": "Se sintió profundamente avergonzado de su comportamiento después de gritarle a su hermano menor."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["family", "emotions", "behavior"]
+    },
+    {
+      "sentence_id": 2063,
+      "english": "One important aspect of the job is the ability to work well under pressure.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "这项工作的一个重要方面是在压力下良好工作的能力。",
+        "es": "Un aspecto importante del trabajo es la capacidad de trabajar bien bajo presión."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["work", "skills", "description"]
+    },
+    {
+      "sentence_id": 2064,
+      "english": "The teacher needs to assess the students' progress before the end of the term.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "老师需要在学期结束前评估学生的进步。",
+        "es": "El maestro necesita evaluar el progreso de los estudiantes antes del final del trimestre."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["school", "education", "work"]
+    },
+    {
+      "sentence_id": 2065,
+      "english": "Her ability to speak four languages is a valuable asset to our international company.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "她会说四种语言的能力是我们这家国际公司的宝贵资产。",
+        "es": "Su capacidad para hablar cuatro idiomas es un activo valioso para nuestra empresa internacional."
+      },
+      "difficulty": "Advanced",
+      "tags": ["work", "skills", "business"]
+    },
+    {
+      "sentence_id": 2066,
+      "english": "The manager decided to assign the most difficult task to the senior developer.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "经理决定将最困难的任务分配给高级开发人员。",
+        "es": "El gerente decidió asignar la tarea más difícil al desarrollador senior."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["work", "management", "business"]
+    },
+    {
+      "sentence_id": 2067,
+      "english": "If you require any assistance with your luggage, please let the hotel staff know.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "如果您需要行李方面的任何协助，请告知酒店工作人员。",
+        "es": "Si necesita ayuda con su equipaje, hágaselo saber al personal del hotel."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["travel", "service", "polite"]
+    },
+    {
+      "sentence_id": 2068,
+      "english": "She is a business associate who has worked with our firm for over a decade.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "她是一位与我们公司合作了十多年的业务伙伴。",
+        "es": "Ella es una socia comercial que ha trabajado con nuestra firma durante más de una década."
+      },
+      "difficulty": "Advanced",
+      "tags": ["work", "business", "relationships"]
+    },
+    {
+      "sentence_id": 2069,
+      "english": "The local residents formed an association to protect the nearby forest from development.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "当地居民成立了一个协会，以保护附近的森林免受开发。",
+        "es": "Los residentes locales formaron una asociación para proteger el bosque cercano del desarrollo."
+      },
+      "difficulty": "Advanced",
+      "tags": ["society", "environment", "community"]
+    },
+    {
+      "sentence_id": 2070,
+      "english": "It is a common assumption that wealth leads to happiness, but that isn't always true.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "人们通常认为财富会带来幸福，但这并不总是正确的。",
+        "es": "Es una suposición común que la riqueza conduce a la felicidad, pero eso no siempre es cierto."
+      },
+      "difficulty": "Advanced",
+      "tags": ["philosophy", "lifestyle", "society"]
+    },
+    {
+      "sentence_id": 2071,
+      "english": "The technician gave us an assurance that the internet would be restored by noon.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "技术人员向我们保证，网络将在中午前恢复。",
+        "es": "El técnico nos dio la seguridad de que el internet se restablecería al mediodía."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["technology", "service", "work"]
+    },
+    {
+      "sentence_id": 2072,
+      "english": "Please send the document as an email attachment so I can review it tonight.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "请将文件作为电子邮件附件发送，以便我今晚审阅。",
+        "es": "Por favor, envíe el documento como un archivo adjunto de correo electrónico para que pueda revisarlo esta noche."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["work", "technology", "communication"]
+    },
+    {
+      "sentence_id": 2073,
+      "english": "The climber made a final attempt to reach the summit before the storm arrived.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "登山者在暴风雨到来之前进行了最后一次登顶尝试。",
+        "es": "El escalador hizo un último intento de llegar a la cima antes de que llegara la tormenta."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["sports", "nature", "challenges"]
+    },
+    {
+      "sentence_id": 2074,
+      "english": "The campaign aims to raise awareness about the importance of mental health.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "该运动旨在提高人们对心理健康重要性的认识。",
+        "es": "La campaña tiene como objetivo aumentar la conciencia sobre la importancia de la salud mental."
+      },
+      "difficulty": "Advanced",
+      "tags": ["health", "society", "psychology"]
+    },
+    {
+      "sentence_id": 2075,
+      "english": "There was an awkward silence after he accidentally revealed the surprise party.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "在他不小心透露了惊喜派对后，现场陷入了一阵尴尬的沉默。",
+        "es": "Hubo un silencio incómodo después de que accidentalmente revelara la fiesta sorpresa."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["social", "emotions", "mistakes"]
+    },
+    {
+      "sentence_id": 2076,
+      "english": "Washing your hands frequently is the best way to prevent the spread of harmful bacteria.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "经常洗手是防止有害细菌传播的最佳方法。",
+        "es": "Lavarse las manos con frecuencia es la mejor manera de prevenir la propagación de bacterias dañinas."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["health", "science", "daily"]
+    },
+    {
+      "sentence_id": 2077,
+      "english": "A balanced diet and regular exercise are key components of a healthy lifestyle.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "均衡的饮食和规律的锻炼是健康生活的关键组成部分。",
+        "es": "Una dieta equilibrada y el ejercicio regular son componentes clave de un estilo de vida saludable."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["health", "lifestyle", "food"]
+    },
+    {
+      "sentence_id": 2078,
+      "english": "She has been practicing ballet since she was five years old and hopes to turn professional.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "她从五岁起就开始练习芭蕾舞，并希望能成为专业演员。",
+        "es": "Ha estado practicando ballet desde que tenía cinco años y espera convertirse en profesional."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["art", "hobbies", "career"]
+    },
+    {
+      "sentence_id": 2079,
+      "english": "They released hundreds of colorful balloons into the sky to celebrate the grand opening.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "他们向天空释放了数百个彩色的气球来庆祝盛大开业。",
+        "es": "Soltaron cientos de globos coloridos al cielo para celebrar la gran inauguración."
+      },
+      "difficulty": "Beginner",
+      "tags": ["events", "celebration", "business"]
+    },
+    {
+      "sentence_id": 2080,
+      "english": "The music was so loud that I could barely hear what my friend was saying.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "音乐声太大了，我几乎听不见我朋友在说什么。",
+        "es": "La música estaba tan fuerte que apenas podía escuchar lo que decía mi amigo."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["social", "senses", "daily"]
+    },
+    {
+      "sentence_id": 2081,
+      "english": "She found a real bargain at the flea market, buying a vintage watch for only ten dollars.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "她在跳蚤市场捡到了大便宜，仅用10美元就买到了一块复古手表。",
+        "es": "Encontró una verdadera ganga en el mercado de pulgas, comprando un reloj antiguo por solo diez dólares."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["shopping", "money", "hobbies"]
+    },
+    {
+      "sentence_id": 2082,
+      "english": "The language barrier made it difficult for the tourists to order food at the local restaurant.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "语言障碍使得游客在当地餐馆点餐变得困难。",
+        "es": "La barrera del idioma dificultó que los turistas pidieran comida en el restaurante local."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["travel", "language", "communication"]
+    },
+    {
+      "sentence_id": 2083,
+      "english": "During the winter, we store our garden furniture in the basement to protect it from the snow.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "冬天，我们将花园家具存放在地下室，以防止被雪损坏。",
+        "es": "Durante el invierno, guardamos nuestros muebles de jardín en el sótano para protegerlos de la nieve."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["home", "weather", "lifestyle"]
+    },
+    {
+      "sentence_id": 2084,
+      "english": "I need to buy a new battery for my laptop because it no longer holds a charge.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "我需要给笔记本电脑买块新电池，因为它已经充不进电了。",
+        "es": "Necesito comprar una batería nueva para mi computadora portátil porque ya no mantiene la carga."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["technology", "shopping", "work"]
+    },
+    {
+      "sentence_id": 2085,
+      "english": "The lawyer accepted the case on behalf of the families affected by the disaster.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "律师代表受灾家庭接受了这起案件。",
+        "es": "El abogado aceptó el caso en nombre de las familias afectadas por el desastre."
+      },
+      "difficulty": "Advanced",
+      "tags": ["law", "society", "work"]
+    },
+    {
+      "sentence_id": 2086,
+      "english": "The teacher told the students that they must behave themselves during the field trip.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "老师告诉学生们，在实地考察期间必须表现得体。",
+        "es": "El maestro les dijo a los estudiantes que debían comportarse bien durante la excursión."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["school", "behavior", "rules"]
+    },
+    {
+      "sentence_id": 2087,
+      "english": "Psychologists study human behavior to understand how people interact with one another.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "心理学家研究人类行为，以了解人与人之间是如何互动的。",
+        "es": "Los psicólogos estudian el comportamiento humano para comprender cómo las personas interactúan entre sí."
+      },
+      "difficulty": "Advanced",
+      "tags": ["science", "psychology", "society"]
+    },
+    {
+      "sentence_id": 2088,
+      "english": "It is her firm belief that education is the most powerful tool to change the world.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "她坚信教育是改变世界最强大的工具。",
+        "es": "Es su firme creencia que la educación es la herramienta más poderosa para cambiar el mundo."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["education", "philosophy", "society"]
+    },
+    {
+      "sentence_id": 2089,
+      "english": "She felt devastated when she discovered that her best friend had betrayed her secret.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "当她发现最好的朋友背叛了她的秘密时，她感到非常沮丧。",
+        "es": "Se sintió devastada cuando descubrió que su mejor amiga había traicionado su secreto."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["social", "emotions", "relationships"]
+    },
+    {
+      "sentence_id": 2090,
+      "english": "The judge was accused of bias after making several unfair comments during the trial.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "法官在审判期间发表了几次不公平的言论后，被指控有偏见。",
+        "es": "El juez fue acusado de parcialidad después de hacer varios comentarios injustos durante el juicio."
+      },
+      "difficulty": "Advanced",
+      "tags": ["law", "ethics", "justice"]
+    },
+    {
+      "sentence_id": 2091,
+      "english": "He decided to major in biology because he was fascinated by how living organisms function.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "他决定主修生物学，因为他对他对生物体如何运作很着迷。",
+        "es": "Decidió especializarse en biología porque le fascinaba cómo funcionan los organismos vivos."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["school", "science", "education"]
+    },
+    {
+      "sentence_id": 2092,
+      "english": "The coffee had a bitter taste because it had been sitting on the heater for too long.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "咖啡味道很苦，因为它在加热器上放得太久了。",
+        "es": "El café tenía un sabor amargo porque había estado en el calentador durante demasiado tiempo."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["food", "daily", "senses"]
+    },
+    {
+      "sentence_id": 2093,
+      "english": "The manager refused to take the blame for the project's failure, instead pointing at his team.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "经理拒绝为项目失败承担责任，而是指责他的团队。",
+        "es": "El gerente se negó a asumir la culpa por el fracaso del proyecto, señalando en cambio a su equipo."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["work", "management", "behavior"]
+    },
+    {
+      "sentence_id": 2094,
+      "english": "A blast of cold air hit my face as soon as I stepped out of the warm airport terminal.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "我一走出温暖的机场航站楼，一阵冷风就扑面而来。",
+        "es": "Una ráfaga de aire frío me golpeó la cara tan pronto como salí de la cálida terminal del aeropuerto."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["weather", "travel", "description"]
+    },
+    {
+      "sentence_id": 2095,
+      "english": "If the wound continues to bleed after applying pressure, you should seek medical attention.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "如果伤口在按压后继续流血，你应该寻求医疗帮助。",
+        "es": "Si la herida continúa sangrando después de aplicar presión, debes buscar atención médica."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["health", "safety", "advice"]
+    },
+    {
+      "sentence_id": 2096,
+      "english": "The politician likes to boast about his achievements, which many people find annoying.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "这位政治家喜欢夸耀自己的成就，这让很多人感到厌烦。",
+        "es": "Al político le gusta alardear de sus logros, lo que a mucha gente le resulta molesto."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["politics", "personality", "behavior"]
+    },
+    {
+      "sentence_id": 2097,
+      "english": "The government introduced tax cuts in an effort to boost consumer spending.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "政府实施了减税政策，旨在刺激消费支出。",
+        "es": "El gobierno introdujo recortes de impuestos en un esfuerzo por impulsar el gasto de los consumidores."
+      },
+      "difficulty": "Advanced",
+      "tags": ["economy", "politics", "business"]
+    },
+    {
+      "sentence_id": 2098,
+      "english": "As an athlete, he is bound to face some physical challenges throughout his career.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "作为一名运动员，他在职业生涯中必然会面临一些身体上的挑战。",
+        "es": "Como atleta, está destinado a enfrentar algunos desafíos físicos a lo largo de su carrera."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["sports", "career", "challenges"]
+    },
+    {
+      "sentence_id": 2099,
+      "english": "The company decided to open a new branch in Tokyo to better serve its Asian clients.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "公司决定在东京开设新分公司，以便更好地服务亚洲客户。",
+        "es": "La empresa decidió abrir una nueva sucursal en Tokio para atender mejor a sus clientes asiáticos."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["business", "work", "travel"]
+    },
+    {
+      "sentence_id": 2100,
+      "english": "The supermarket sells a wide variety of cereal, but I always stick to my favorite brand.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "超市里卖各种各样的麦片，但我总是买我最喜欢的品牌。",
+        "es": "El supermercado vende una gran variedad de cereales, pero siempre me quedo con mi marca favorita."
+      },
+      "difficulty": "Beginner",
+      "tags": ["shopping", "food", "daily"]
+    },
+    {
+      "sentence_id": 2101,
+      "english": "The brave firefighter entered the burning building to rescue the trapped cat.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "勇敢的消防员进入着火的大楼救出了被困的小猫。",
+        "es": "El valiente bombero entró en el edificio en llamas para rescatar al gato atrapado."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["work", "safety", "personality"]
+    },
+    {
+      "sentence_id": 2102,
+      "english": "Farmers select the strongest animals to breed in order to improve the quality of their livestock.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "农民选择最强壮的动物进行繁殖，以提高牲畜的质量。",
+        "es": "Los granjeros seleccionan a los animales más fuertes para la cría con el fin de mejorar la calidad de su ganado."
+      },
+      "difficulty": "Advanced",
+      "tags": ["agriculture", "science", "animals"]
+    },
+    {
+      "sentence_id": 2103,
+      "english": "The CEO gave a brief speech at the beginning of the annual general meeting.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "首席执行官在年度股东大会开始时发表了简短的讲话。",
+        "es": "El director ejecutivo dio un breve discurso al comienzo de la junta general anual."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["work", "business", "communication"]
+    },
+    {
+      "sentence_id": 2104,
+      "english": "She is a brilliant scientist who has published several papers in prestigious journals.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "她是一位才华横溢的科学家，在著名期刊上发表过几篇论文。",
+        "es": "Es una científica brillante que ha publicado varios artículos en revistas prestigiosas."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["science", "work", "academic"]
+    },
+    {
+      "sentence_id": 2105,
+      "english": "The local radio station will broadcast the final match of the tournament live tonight.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "当地广播电台将在今晚直播锦标赛的决赛。",
+        "es": "La estación de radio local transmitirá en vivo el partido final del torneo esta noche."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["sports", "media", "entertainment"]
+    },
+    {
+      "sentence_id": 2106,
+      "english": "Taking care of an elderly relative can be a heavy emotional burden for many families.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "照顾年迈的亲戚对许多家庭来说可能是沉重的感性负担。",
+        "es": "Cuidar a un pariente anciano puede ser una pesada carga emocional para muchas familias."
+      },
+      "difficulty": "Advanced",
+      "tags": ["family", "emotions", "society"]
+    },
+    {
+      "sentence_id": 2107,
+      "english": "The pipe suddenly burst, causing water to flood the entire kitchen floor.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "水管突然爆裂，导致水淹没了整个厨房地面。",
+        "es": "La tubería estalló repentinamente, haciendo que el agua inundara todo el suelo de la cocina."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["home", "accident", "daily"]
+    },
+    {
+      "sentence_id": 2108,
+      "english": "Ancient civilizations used to bury their kings with gold and other precious items.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "古代文明过去常常将他们的国王与黄金和其他珍贵物品一起埋葬。",
+        "es": "Las civilizaciones antiguas solían enterrar a sus reyes con oro y otros artículos preciosos."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["history", "culture", "archaeology"]
+    },
+    {
+      "sentence_id": 2109,
+      "english": "According to my calculation, we should have enough money for the trip next month.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "根据我的计算，我们应该有足够的钱参加下个月的旅行。",
+        "es": "Según mi cálculo, deberíamos tener suficiente dinero para el viaje del próximo mes."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["math", "finance", "travel"]
+    },
+    {
+      "sentence_id": 2110,
+      "english": "The environmental group launched a campaign to reduce plastic waste in the ocean.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "环保组织发起了一项旨在减少海洋塑料垃圾的运动。",
+        "es": "El grupo ambientalista lanzó una campaña para reducir los desechos plásticos en el océano."
+      },
+      "difficulty": "Advanced",
+      "tags": ["environment", "society", "activism"]
+    },
+    {
+      "sentence_id": 2111,
+      "english": "The project was a disaster because the initial budget was not adequate for the materials needed.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "由于最初的预算不足以支付所需的材料，这个项目成了一场灾难。",
+        "es": "El proyecto fue un desastre porque el presupuesto inicial no era adecuado para los materiales necesarios."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["work", "finance", "business"]
+    },
+    {
+      "sentence_id": 2112,
+      "english": "Additionally, the company provides health insurance for all full-time employees.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "此外，公司还为所有全职员工提供医疗保险。",
+        "es": "Adicionalmente, la empresa ofrece seguro médico para todos los empleados de tiempo completo."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["work", "benefits", "business"]
+    },
+    {
+      "sentence_id": 2113,
+      "english": "The lawyer's primary appeal was based on the fact that the evidence was gathered illegally.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "律师的主要上诉理由是证据是由于非法手段收集的。",
+        "es": "La apelación principal del abogado se basó en el hecho de que las pruebas se obtuvieron ilegalmente."
+      },
+      "difficulty": "Advanced",
+      "tags": ["law", "justice", "formal"]
+    },
+    {
+      "sentence_id": 2114,
+      "english": "Scientists must conduct a thorough assessment of the risks before beginning the experiment.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "科学家在开始实验之前必须对风险进行全面评估。",
+        "es": "Los científicos deben realizar una evaluación exhaustiva de los riesgos antes de comenzar el experimento."
+      },
+      "difficulty": "Advanced",
+      "tags": ["science", "academic", "safety"]
+    },
+    {
+      "sentence_id": 2115,
+      "english": "The athlete has a very athletic build, which helps her excel in various sports.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "这位运动员体格健壮，这有助于她在各种运动中脱颖而出。",
+        "es": "La atleta tiene una complexión muy atlética, lo que la ayuda a destacar en varios deportes."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["sports", "health", "description"]
+    },
+    {
+      "sentence_id": 2116,
+      "english": "She wears a small badge on her uniform to show her rank in the police force.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "她在制服上戴着一个小徽章，以显示她在警队中的级别。",
+        "es": "Ella lleva una pequeña insignia en su uniforme para mostrar su rango en la fuerza policial."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["work", "uniform", "description"]
+    },
+    {
+      "sentence_id": 2117,
+      "english": "The suspect tried to bribe the officer to avoid getting a speeding ticket.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "嫌疑人试图贿赂警官以避免收到超速罚单。",
+        "es": "El sospechoso intentó sobornar al oficial para evitar recibir una multa por exceso de velocidad."
+      },
+      "difficulty": "Advanced",
+      "tags": ["crime", "law", "ethics"]
+    },
+    {
+      "sentence_id": 2118,
+      "english": "You should use a broad range of vocabulary to achieve a high score on the writing exam.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "你应该使用广泛的词汇，以便在写作考试中获得高分。",
+        "es": "Deberías usar una amplia gama de vocabulario para lograr una puntuación alta en el examen de escritura."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["education", "language", "study"]
+    },
+    {
+      "sentence_id": 2119,
+      "english": "The local council has approved the construction of a new bridge over the river.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "当地议会已批准在河上建造一座新桥。",
+        "es": "El consejo local ha aprobado la construcción de un nuevo puente sobre el río."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["city", "politics", "infrastructure"]
+    },
+    {
+      "sentence_id": 2120,
+      "english": "The museum contains a large collection of ancient bronze statues.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "博物馆藏有大量古代青铜雕像。",
+        "es": "El museo contiene una gran colección de estatuas de bronce antiguas."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["history", "art", "museum"]
+    },
+    {
+      "sentence_id": 2121,
+      "english": "He used a small brush to clean the dust off the delicate electronic components.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "他用一把小刷子清除精细电子元件上的灰尘。",
+        "es": "Usó un cepillo pequeño para limpiar el polvo de los delicados componentes electrónicos."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["technology", "tools", "daily"]
+    },
+    {
+      "sentence_id": 2122,
+      "english": "The CEO decided to cancel the meeting due to a sudden conflict in his schedule.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "由于日程安排突然发生冲突，首席执行官决定取消会议。",
+        "es": "El director ejecutivo decidió cancelar la reunión debido a un conflicto repentino en su agenda."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["business", "work", "time"]
+    },
+    {
+      "sentence_id": 2123,
+      "english": "The candidate has a lot of charisma, which makes him very popular with voters.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "这位候选人非常有魅力，这使他在选民中很受欢迎。",
+        "es": "El candidato tiene mucho carisma, lo que lo hace muy popular entre los votantes."
+      },
+      "difficulty": "Advanced",
+      "tags": ["politics", "personality", "description"]
+    },
+    {
+      "sentence_id": 2124,
+      "english": "The charity organization works hard to provide clean water to remote villages.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "该慈善组织致力于为偏远村庄提供清洁饮水。",
+        "es": "La organización benéfica trabaja duro para proporcionar agua limpia a aldeas remotas."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["society", "charity", "global"]
+    },
+    {
+      "sentence_id": 2125,
+      "english": "The classic novel has been translated into more than fifty different languages.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "这部经典小说已被翻译成五十多种不同的语言。",
+        "es": "La novela clásica ha sido traducida a más de cincuenta idiomas diferentes."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["literature", "culture", "language"]
+    },
+    {
+      "sentence_id": 2126,
+      "english": "The scientists are trying to find a way to combat the spread of the new virus.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "科学家们正试图找到一种方法来对抗这种新病毒的传播。",
+        "es": "Los científicos están tratando de encontrar una manera de combatir la propagación del nuevo virus."
+      },
+      "difficulty": "Advanced",
+      "tags": ["science", "health", "global"]
+    },
+    {
+      "sentence_id": 2127,
+      "english": "The comedian's performance was hilarious and kept the audience laughing all night.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "喜剧演员的表演非常滑稽，让观众笑了一整晚。",
+        "es": "La actuación del comediante fue hilarante y mantuvo a la audiencia riendo toda la noche."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["entertainment", "humor", "social"]
+    },
+    {
+      "sentence_id": 2128,
+      "english": "The company face tough competition from international firms in the tech industry.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "该公司面临来自科技行业国际公司的激烈竞争。",
+        "es": "La empresa enfrenta una dura competencia de firmas internacionales en la industria tecnológica."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["business", "work", "technology"]
+    },
+    {
+      "sentence_id": 2129,
+      "english": "She is a complex character with many different motivations for her actions.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "她是一个复杂的角色，其行为有许多不同的动机。",
+        "es": "Ella es un personaje complejo con muchas motivaciones diferentes para sus acciones."
+      },
+      "difficulty": "Advanced",
+      "tags": ["literature", "personality", "description"]
+    },
+    {
+      "sentence_id": 2130,
+      "english": "The instructions were so complicated that I had to read them three times.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "说明书太复杂了，我不得不读了三遍。",
+        "es": "Las instrucciones eran tan complicadas que tuve que leerlas tres veces."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["daily", "education", "problems"]
+    },
+    {
+      "sentence_id": 2131,
+      "english": "The teacher asked the students to compose a short poem about nature.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "老师要求学生写一首关于大自然的小诗。",
+        "es": "El maestro les pidió a los alumnos que compusieran un poema corto sobre la naturaleza."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["school", "art", "education"]
+    },
+    {
+      "sentence_id": 2132,
+      "english": "You need to have a lot of confidence to stand up and speak in front of a large crowd.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "你需要有很大的信心才能站在一大群人面前讲话。",
+        "es": "Necesitas tener mucha confianza para pararte y hablar frente a una gran multitud."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["personality", "communication", "psychology"]
+    },
+    {
+      "sentence_id": 2133,
+      "english": "The company's profits have been consistent over the last five years.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "在过去的五年里，公司的利润一直保持稳定。",
+        "es": "Las ganancias de la empresa han sido consistentes durante los últimos cinco años."
+      },
+      "difficulty": "Advanced",
+      "tags": ["business", "finance", "economy"]
+    },
+    {
+      "sentence_id": 2134,
+      "english": "The constant noise from the construction site made it impossible to sleep.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "建筑工地不断的噪音让人无法入睡。",
+        "es": "El ruido constante del sitio de construcción hacía imposible dormir."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["daily", "problems", "city"]
+    },
+    {
+      "sentence_id": 2135,
+      "english": "We need to consume more vegetables and fruit to maintain a healthy diet.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "我们需要摄入更多的蔬菜和水果来保持健康的饮食。",
+        "es": "Necesitamos consumir más verduras y frutas para mantener una dieta saludable."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["health", "food", "lifestyle"]
+    },
+    {
+      "sentence_id": 2136,
+      "english": "The controversy surrounding the new law led to many protests in the capital.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "围绕新法律的争议引发了首都的许多抗议活动。",
+        "es": "La controversia que rodea la nueva ley provocó muchas protestas en la capital."
+      },
+      "difficulty": "Advanced",
+      "tags": ["politics", "news", "society"]
+    },
+    {
+      "sentence_id": 2137,
+      "english": "The chef used a combination of traditional and modern cooking techniques.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "厨师结合了传统和现代的烹饪技法。",
+        "es": "El chef utilizó una combinación de técnicas de cocina tradicionales y modernas."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["food", "cooking", "art"]
+    },
+    {
+      "sentence_id": 2138,
+      "english": "It is crucial that we finish the report before the deadline tomorrow morning.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "我们必须在明早截止日期前完成报告，这至关重要。",
+        "es": "Es crucial que terminemos el informe antes de la fecha límite mañana por la mañana."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["work", "time", "business"]
+    },
+    {
+      "sentence_id": 2139,
+      "english": "The curious child asked her parents hundreds of questions during the car trip.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "在乘车旅行期间，那个好奇的孩子问了父母几百个问题。",
+        "es": "La niña curiosa les hizo a sus padres cientos de preguntas durante el viaje en auto."
+      },
+      "difficulty": "Beginner",
+      "tags": ["family", "personality", "travel"]
+    },
+    {
+      "sentence_id": 2140,
+      "english": "The current economic situation has forced many small businesses to close down.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "当前的经济形势迫使许多小企业倒闭。",
+        "es": "La situación económica actual ha obligado a muchas pequeñas empresas a cerrar."
+      },
+      "difficulty": "Advanced",
+      "tags": ["economy", "business", "news"]
+    },
+    {
+      "sentence_id": 2141,
+      "english": "There is a severe shortage of decent housing in this part of the city.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "该市这一地区的体面住房严重短缺。",
+        "es": "Hay una grave escasez de viviendas decentes en esta parte de la ciudad."
+      },
+      "difficulty": "Advanced",
+      "tags": ["society", "housing", "city"]
+    },
+    {
+      "sentence_id": 2142,
+      "english": "The government made a deliberate decision to increase funding for public schools.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "政府做出了增加公立学校资金的慎重决定。",
+        "es": "El gobierno tomó la decisión deliberada de aumentar la financiación de las escuelas públicas."
+      },
+      "difficulty": "Advanced",
+      "tags": ["politics", "education", "decisions"]
+    },
+    {
+      "sentence_id": 2143,
+      "english": "The delicate flowers need to be handled with extreme care during transport.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "这些娇嫩的花朵在运输过程中需要极其小心地处理。",
+        "es": "Las flores delicadas deben manejarse con sumo cuidado durante el transporte."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["nature", "work", "description"]
+    },
+    {
+      "sentence_id": 2144,
+      "english": "The restaurant is famous for its delicious desserts, especially the chocolate cake.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "这家餐厅以其美味的甜点而闻名，尤其是巧克力蛋糕。",
+        "es": "El restaurante es famoso por sus deliciosos postres, especialmente el pastel de chocolate."
+      },
+      "difficulty": "Beginner",
+      "tags": ["food", "daily", "lifestyle"]
+    },
+    {
+      "sentence_id": 2145,
+      "english": "The teacher decided to demonstrate the experiment before letting the students try it.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "老师决定在让学生尝试之前先演示实验。",
+        "es": "El maestro decidió demostrar el experimento antes de dejar que los alumnos lo intentaran."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["school", "science", "education"]
+    },
+    {
+      "sentence_id": 2146,
+      "english": "The athlete showed great desire to win the gold medal at the Olympic Games.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "这位运动员表现出了在奥运会上赢得金牌的强烈欲望。",
+        "es": "El atleta mostró un gran deseo de ganar la medalla de oro en los Juegos Olímpicos."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["sports", "emotions", "success"]
+    },
+    {
+      "sentence_id": 2147,
+      "english": "The detective managed to find a vital clue that led to the arrest of the criminal.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "侦探成功找到了一个关键线索，导致了罪犯的被捕。",
+        "es": "El detective logró encontrar una pista vital que condujo al arresto del criminal."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["crime", "law", "news"]
+    },
+    {
+      "sentence_id": 2148,
+      "english": "The company's primary objective is to provide high-quality service to its customers.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "公司的主要目标是为客户提供高质量的服务。",
+        "es": "El objetivo principal de la empresa es proporcionar un servicio de alta calidad a sus clientes."
+      },
+      "difficulty": "Advanced",
+      "tags": ["business", "work", "service"]
+    },
+    {
+      "sentence_id": 2149,
+      "english": "The technician needs to diagnose the problem with the engine before it can be fixed.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "技术人员需要先诊断发动机的问题，然后才能进行修理。",
+        "es": "El técnico necesita diagnosticar el problema del motor antes de que pueda ser reparado."
+      },
+      "difficulty": "Advanced",
+      "tags": ["technology", "work", "logic"]
+    },
+    {
+      "sentence_id": 2150,
+      "english": "The small town has a distinct atmosphere that sets it apart from larger cities.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "这个小镇有一种独特的氛围，使其与大城市区别开来。",
+        "es": "El pequeño pueblo tiene una atmósfera distinta que lo diferencia de las ciudades más grandes."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["travel", "description", "city"]
+    },
+    {
+      "sentence_id": 2151,
+      "english": "The doctor explained that stress can have a negative impact on your physical health.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "医生解释说，压力会对你的身体健康产生负面影响。",
+        "es": "El médico explicó que el estrés puede tener un impacto negativo en tu salud física."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["health", "psychology", "lifestyle"]
+    },
+    {
+      "sentence_id": 2152,
+      "english": "The company has an efficient system for processing customer orders quickly.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "公司有一套高效的系统，可以快速处理客户订单。",
+        "es": "La empresa tiene un sistema eficiente para procesar los pedidos de los clientes rápidamente."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["business", "work", "technology"]
+    },
+    {
+      "sentence_id": 2153,
+      "english": "The politician made an elaborate speech about the future of the country's economy.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "这位政治家就国家经济的未来发表了详尽的演讲。",
+        "es": "El político pronunció un discurso elaborado sobre el futuro de la economía del país."
+      },
+      "difficulty": "Advanced",
+      "tags": ["politics", "economy", "formal"]
+    },
+    {
+      "sentence_id": 2154,
+      "english": "The young student is very eager to learn about space exploration and science.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "这位年轻的学生非常渴望学习太空探索和科学知识。",
+        "es": "El joven estudiante está muy ansioso por aprender sobre la exploración espacial y la ciencia."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["school", "science", "personality"]
+    },
+    {
+      "sentence_id": 2155,
+      "english": "The earthquake caused widespread destruction across the coastal region.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "地震造成了沿海地区的广泛破坏。",
+        "es": "El terremoto causó una destrucción generalizada en toda la región costera."
+      },
+      "difficulty": "Advanced",
+      "tags": ["news", "environment", "nature"]
+    },
+    {
+      "sentence_id": 2156,
+      "english": "The editor decided to eliminate several paragraphs from the article to make it shorter.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "编辑决定删除文章中的几个段落，使其更短一点。",
+        "es": "El editor decidió eliminar varios párrafos del artículo para hacerlo más corto."
+      },
+      "difficulty": "Advanced",
+      "tags": ["work", "writing", "media"]
+    },
+    {
+      "sentence_id": 2157,
+      "english": "The company uses an elaborate security system to protect its sensitive data.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "公司使用一套复杂的安全系统来保护其敏感数据。",
+        "es": "La empresa utiliza un elaborado sistema de seguridad para proteger sus datos confidenciales."
+      },
+      "difficulty": "Advanced",
+      "tags": ["technology", "security", "business"]
+    },
+    {
+      "sentence_id": 2158,
+      "english": "She felt embarrassed when she realized she had been wearing her shirt inside out all day.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "当她意识到自己一整天都把衬衫穿反了时，她感到很尴尬。",
+        "es": "Se sintió avergonzada cuando se dio cuenta de que había llevado la camisa al revés todo el día."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["emotions", "social", "daily"]
+    },
+    {
+      "sentence_id": 2159,
+      "english": "The government is trying to encourage more people to use public transportation.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "政府正试图鼓励更多的人使用公共交通。",
+        "es": "El gobierno está tratando de animar a más personas a utilizar el transporte público."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["politics", "city", "environment"]
+    },
+    {
+      "sentence_id": 2160,
+      "english": "The athlete had to endure many hours of training every day to prepare for the race.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "为了准备比赛，这位运动员每天不得不忍受数小时的训练。",
+        "es": "El atleta tuvo que soportar muchas horas de entrenamiento cada día para prepararse para la carrera."
+      },
+      "difficulty": "Advanced",
+      "tags": ["sports", "health", "challenges"]
+    },
+    {
+      "sentence_id": 2161,
+      "english": "The detective found a vital clue that helped solve the mysterious case.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "侦探发现了一个关键线索，有助于解决这起神秘的案件。",
+        "es": "El detective encontró una pista vital que ayudó a resolver el misterioso caso."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["crime", "logic"]
+    },
+    {
+      "sentence_id": 2162,
+      "english": "Many families live in the suburb and commute to the city center for work.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "许多家庭住在郊区，通勤到市中心上班。",
+        "es": "Muchas familias viven en el suburbio y viajan al centro de la ciudad para trabajar."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["city", "lifestyle"]
+    },
+    {
+      "sentence_id": 2163,
+      "english": "The government is promoting sustainable energy to protect the environment.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "政府正在推广可持续能源以保护环境。",
+        "es": "El gobierno está promoviendo la energía sostenible para proteger el medio ambiente."
+      },
+      "difficulty": "Advanced",
+      "tags": ["environment", "politics"]
+    },
+    {
+      "sentence_id": 2164,
+      "english": "She felt a sense of relief after she finished her final exams.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "期末考试结束后，她感到一阵轻松。",
+        "es": "Sintió una sensación de alivio después de terminar sus exámenes finales."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["emotions", "school"]
+    },
+    {
+      "sentence_id": 2165,
+      "english": "The museum features a magnificent collection of ancient artifacts.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "博物馆展示了宏伟的古代文物收藏。",
+        "es": "El museo cuenta con una magnífica colección de artefactos antiguos."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["history", "art"]
+    },
+    {
+      "sentence_id": 2166,
+      "english": "The sudden collapse of the bridge caused a major traffic jam.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "大桥的突然坍塌导致了严重的交通拥堵。",
+        "es": "El colapso repentino del puente provocó un gran atasco de tráfico."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["accident", "city"]
+    },
+    {
+      "sentence_id": 2167,
+      "english": "He had to undergo surgery to repair his injured knee.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "他不得不接受手术来修复受伤的膝盖。",
+        "es": "Tuvo que someterse a una cirugía para reparar su rodilla lesionada."
+      },
+      "difficulty": "Advanced",
+      "tags": ["health", "medical"]
+    },
+    {
+      "sentence_id": 2168,
+      "english": "The company's revenue increased significantly over the last quarter.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "公司的营收在上个季度大幅增加。",
+        "es": "Los ingresos de la empresa aumentaron significativamente durante el último trimestre."
+      },
+      "difficulty": "Advanced",
+      "tags": ["business", "finance"]
+    },
+    {
+      "sentence_id": 2169,
+      "english": "The teacher gave us a thorough explanation of the new grammar rules.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "老师对新的语法规则给了我们彻底的解释。",
+        "es": "El maestro nos dio una explicación exhaustiva de las nuevas reglas gramaticales."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["school", "education"]
+    },
+    {
+      "sentence_id": 2170,
+      "english": "She has a unique style that makes her stand out from the crowd.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "她有一种独特的风格，使她在人群中脱颖而出。",
+        "es": "Ella tiene un estilo único que la hace destacar entre la multitud."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["personality", "fashion"]
+    },
+    {
+      "sentence_id": 2171,
+      "english": "The hikers were warned about the potential danger of the steep cliff.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "徒步旅行者被警告陡峭悬崖的潜在危险。",
+        "es": "Se advirtió a los excursionistas sobre el peligro potencial del acantilado escarpado."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["nature", "safety"]
+    },
+    {
+      "sentence_id": 2172,
+      "english": "The new legislation aims to eliminate discrimination in the workplace.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "新立法旨在消除职场歧视。",
+        "es": "La nueva legislación tiene como objetivo eliminar la discriminación en el lugar de trabajo."
+      },
+      "difficulty": "Advanced",
+      "tags": ["law", "work"]
+    },
+    {
+      "sentence_id": 2173,
+      "english": "He made a sincere apology for his rude behavior at the party.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "他为自己在派对上的粗鲁行为表示了真诚的歉意。",
+        "es": "Pidió una disculpa sincera por su comportamiento grosero en la fiesta."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["social", "emotions"]
+    },
+    {
+      "sentence_id": 2174,
+      "english": "The athlete won a silver medal in the swimming championship.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "这位运动员在游泳锦标赛中获得了一枚银牌。",
+        "es": "El atleta ganó una medalla de plata en el campeonato de natación."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["sports", "success"]
+    },
+    {
+      "sentence_id": 2175,
+      "english": "The researchers conducted a survey to gather data on consumer habits.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "研究人员进行了一项调查，以收集有关消费者习惯的数据。",
+        "es": "Los investigadores realizaron una encuesta para recopilar datos sobre los hábitos de consumo."
+      },
+      "difficulty": "Advanced",
+      "tags": ["science", "business"]
+    },
+    {
+      "sentence_id": 2176,
+      "english": "The old castle is a famous landmark that attracts many tourists.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "这座古堡是一个吸引许多游客的著名地标。",
+        "es": "El antiguo castillo es un lugar emblemático que atrae a muchos turistas."
+      },
+      "difficulty": "Beginner",
+      "tags": ["travel", "history"]
+    },
+    {
+      "sentence_id": 2177,
+      "english": "She has a passion for journalism and wants to work for a major newspaper.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "她对新闻事业充满热情，想在一家大报社工作。",
+        "es": "Tiene pasión por el periodismo y quiere trabajar para un periódico importante."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["career", "media"]
+    },
+    {
+      "sentence_id": 2178,
+      "english": "The company offers a generous pension scheme for its employees.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "公司为员工提供丰厚的养老金计划。",
+        "es": "La empresa ofrece un generoso plan de pensiones para sus empleados."
+      },
+      "difficulty": "Advanced",
+      "tags": ["work", "finance"]
+    },
+    {
+      "sentence_id": 2179,
+      "english": "The little girl was delighted with the colorful balloons at the fair.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "小女孩对集市上五颜六色的气球感到很高兴。",
+        "es": "La niña estaba encantada con los globos de colores en la feria."
+      },
+      "difficulty": "Beginner",
+      "tags": ["emotions", "kids"]
+    },
+    {
+      "sentence_id": 2180,
+      "english": "He is a very ambitious person who always strives for success.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "他是一个非常有野心的人，总是努力争取成功。",
+        "es": "Es una persona muy ambiciosa que siempre lucha por el éxito."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["personality", "career"]
+    },
+    {
+      "sentence_id": 2181,
+      "english": "The witness provided a detailed description of the suspect.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "证人提供了嫌疑人的详细描述。",
+        "es": "El testigo proporcionó una descripción detallada del sospechoso."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["crime", "law"]
+    },
+    {
+      "sentence_id": 2182,
+      "english": "The weather forecast predicts heavy rain and strong winds tomorrow.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "天气预报预测明天会有大雨和强风。",
+        "es": "El pronóstico del tiempo predice fuertes lluvias y vientos fuertes para mañana."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["weather", "daily"]
+    },
+    {
+      "sentence_id": 2183,
+      "english": "The organization provides assistance to refugees fleeing from war zones.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "该组织为逃离战争地区的难民提供援助。",
+        "es": "La organización brinda asistencia a los refugiados que huyen de las zonas de guerra."
+      },
+      "difficulty": "Advanced",
+      "tags": ["society", "global"]
+    },
+    {
+      "sentence_id": 2184,
+      "english": "She found the movie very amusing and couldn't stop laughing.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "她觉得那部电影很有趣，笑个不停。",
+        "es": "La película le pareció muy divertida y no podía dejar de reír."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["entertainment", "emotions"]
+    },
+    {
+      "sentence_id": 2185,
+      "english": "The factory produces a wide range of electronic components.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "这家工厂生产各种各样的电子元件。",
+        "es": "La fábrica produce una amplia gama de componentes electrónicos."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["business", "technology"]
+    },
+    {
+      "sentence_id": 2186,
+      "english": "The child felt ashamed of his mistake and apologized to his teacher.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "孩子对自己的错误感到羞愧，并向老师道歉。",
+        "es": "El niño se sintió avergonzado de su error y se disculpó con su maestro."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["emotions", "kids"]
+    },
+    {
+      "sentence_id": 2187,
+      "english": "The new law will restrict the use of plastic bags in supermarkets.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "新法律将限制在超市使用塑料袋。",
+        "es": "La nueva ley restringirá el uso de bolsas de plástico en los supermercados."
+      },
+      "difficulty": "Advanced",
+      "tags": ["environment", "law"]
+    },
+    {
+      "sentence_id": 2188,
+      "english": "He has a broad knowledge of many different subjects.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "他在许多不同的学科都有广泛的知识。",
+        "es": "Tiene un amplio conocimiento de muchos temas diferentes."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["education", "personality"]
+    },
+    {
+      "sentence_id": 2189,
+      "english": "The charity depends on voluntary donations to fund its work.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "该慈善机构依靠自愿捐款来资助其工作。",
+        "es": "La organización benéfica depende de donaciones voluntarias para financiar su trabajo."
+      },
+      "difficulty": "Advanced",
+      "tags": ["charity", "finance"]
+    },
+    {
+      "sentence_id": 2190,
+      "english": "The doctor explained the risks and benefits of the medication.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "医生解释了该药物的风险和益处。",
+        "es": "El médico explicó los riesgos y beneficios del medicamento."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["health", "medical"]
+    },
+    {
+      "sentence_id": 2191,
+      "english": "The city has an efficient public transport system that is easy to use.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "这座城市有一套高效且易于使用的公共交通系统。",
+        "es": "La ciudad cuenta con un sistema de transporte público eficiente que es fácil de usar."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["city", "daily"]
+    },
+    {
+      "sentence_id": 2192,
+      "english": "The researchers found a link between diet and certain types of cancer.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "研究人员发现了饮食与某些类型的癌症之间的联系。",
+        "es": "Los investigadores encontraron un vínculo entre la dieta y ciertos tipos de cáncer."
+      },
+      "difficulty": "Advanced",
+      "tags": ["health", "science"]
+    },
+    {
+      "sentence_id": 2193,
+      "english": "The company aims to expand its operations into international markets.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "公司旨在将其业务扩展到国际市场。",
+        "es": "La empresa pretende expandir sus operaciones a mercados internacionales."
+      },
+      "difficulty": "Advanced",
+      "tags": ["business", "growth"]
+    },
+    {
+      "sentence_id": 2194,
+      "english": "She was confused by the complicated instructions on the new machine.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "她被新机器上复杂的说明弄糊涂了。",
+        "es": "Estaba confundida por las complicadas instrucciones de la nueva máquina."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["daily", "technology"]
+    },
+    {
+      "sentence_id": 2195,
+      "english": "The local council is planning to build a new community center.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "当地议会计划建造一个新的社区中心。",
+        "es": "El consejo local planea construir un nuevo centro comunitario."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["politics", "city"]
+    },
+    {
+      "sentence_id": 2196,
+      "english": "The athlete showed great determination to overcome his injury.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "这位运动员表现出了克服伤病的巨大决心。",
+        "es": "El atleta mostró una gran determinación para superar su lesión."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["sports", "personality"]
+    },
+    {
+      "sentence_id": 2197,
+      "english": "The museum offers a diverse range of exhibits for visitors to explore.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "博物馆为游客提供了各种各样的展品供其探索。",
+        "es": "El museo ofrece una amplia gama de exhibiciones para que los visitantes las exploren."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["art", "travel"]
+    },
+    {
+      "sentence_id": 2198,
+      "english": "The manager decided to delegate some of his tasks to his assistant.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "经理决定将他的一些任务委派给他的助手。",
+        "es": "El gerente decidió delegar algunas de sus tareas a su asistente."
+      },
+      "difficulty": "Advanced",
+      "tags": ["work", "business"]
+    },
+    {
+      "sentence_id": 2199,
+      "english": "The child was eager to show her parents the drawing she had made.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "孩子急于向父母展示她画的画。",
+        "es": "La niña estaba ansiosa por mostrarles a sus padres el dibujo que había hecho."
+      },
+      "difficulty": "Beginner",
+      "tags": ["kids", "emotions"]
+    },
+    {
+      "sentence_id": 2200,
+      "english": "The company's profits have been steady for the past few years.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "在过去的几年里，公司的利润一直很稳定。",
+        "es": "Las ganancias de la empresa han sido constantes durante los últimos años."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["business", "finance"]
+    },
+    {
+      "sentence_id": 2201,
+      "english": "The teacher encouraged the students to ask questions during the lesson.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "老师鼓励学生在课上提问。",
+        "es": "El maestro animó a los estudiantes a hacer preguntas durante la lección."
+      },
+      "difficulty": "Beginner",
+      "tags": ["school", "education"]
+    },
+    {
+      "sentence_id": 2202,
+      "english": "The organization works to promote human rights and social justice.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "该组织致力于促进人权和社会正义。",
+        "es": "La organización trabaja para promover los derechos humanos y la justicia social."
+      },
+      "difficulty": "Advanced",
+      "tags": ["society", "politics"]
+    },
+    {
+      "sentence_id": 2203,
+      "english": "He felt very proud of his achievements in the music competition.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "他对自己在音乐比赛中取得的成就感到非常自豪。",
+        "es": "Se sintió muy orgulloso de sus logros en el concurso de música."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["success", "emotions"]
+    },
+    {
+      "sentence_id": 2204,
+      "english": "The doctor advised the patient to reduce his intake of salt and sugar.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "医生建议病人减少盐和糖的摄入量。",
+        "es": "El médico le aconsejó al paciente que redujera su consumo de sal y azúcar."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["health", "advice"]
+    },
+    {
+      "sentence_id": 2205,
+      "english": "The company is facing intense competition from its rivals in the market.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "该公司正面临市场竞争对手的激烈竞争。",
+        "es": "La empresa se enfrenta a una intensa competencia de sus rivales en el mercado."
+      },
+      "difficulty": "Advanced",
+      "tags": ["business", "work"]
+    },
+    {
+      "sentence_id": 2206,
+      "english": "The new software is designed to improve the efficiency of the workflow.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "新软件旨在提高工作流程的效率。",
+        "es": "El nuevo software está diseñado para mejorar la eficiencia del flujo de trabajo."
+      },
+      "difficulty": "Advanced",
+      "tags": ["technology", "work"]
+    },
+    {
+      "sentence_id": 2207,
+      "english": "The scientist conducted experiments to test his hypothesis about the virus.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "科学家进行了实验，以测试他关于病毒的假设。",
+        "es": "El científico realizó experimentos para probar su hipótesis sobre el virus."
+      },
+      "difficulty": "Advanced",
+      "tags": ["science", "health"]
+    },
+    {
+      "sentence_id": 2208,
+      "english": "She has a gentle nature and is always willing to help others.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "她天性温柔，总是乐于助人。",
+        "es": "Tiene una naturaleza gentil y siempre está dispuesta a ayudar a los demás."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["personality", "social"]
+    },
+    {
+      "sentence_id": 2209,
+      "english": "The old building was restored to its former glory after a long renovation.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "经过长时间的翻新，这座古老的建筑恢复了往日的辉煌。",
+        "es": "El antiguo edificio fue restaurado a su antigua gloria después de una larga renovación."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["history", "art"]
+    },
+    {
+      "sentence_id": 2210,
+      "english": "The city council voted to increase the budget for public schools.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "市议会投票决定增加公立学校的预算。",
+        "es": "El ayuntamiento votó a favor de aumentar el presupuesto para las escuelas públicas."
+      },
+      "difficulty": "Advanced",
+      "tags": ["politics", "education"]
+    },
+    {
+      "sentence_id": 2211,
+      "english": "The detective had to abandon the search when the storm became too dangerous.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "当暴风雨变得过于危险时，侦探不得不放弃搜寻。",
+        "es": "El detective tuvo que abandonar la búsqueda cuando la tormenta se volvió demasiado peligrosa."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["action", "nature"],
+      "word_used": "abandon"
+    },
+    {
+      "sentence_id": 2212,
+      "english": "It is an absolute necessity to wear a helmet while riding a motorcycle.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "骑摩托车时戴头盔是绝对必要的。",
+        "es": "Es una necesidad absoluta usar casco mientras se conduce una motocicleta."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["safety", "rules"],
+      "word_used": "absolute"
+    },
+    {
+      "sentence_id": 2213,
+      "english": "Plants absorb nutrients and water through their roots to grow healthy.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "植物通过根部吸收养分和水分，以健康生长。",
+        "es": "Las plantas absorben nutrientes y agua a través de sus raíces para crecer sanas."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["science", "nature"],
+      "word_used": "absorb"
+    },
+    {
+      "sentence_id": 2214,
+      "english": "The gallery features many abstract paintings that challenge the viewer's imagination.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "美术馆展出了许多挑战观众想象力的抽象画。",
+        "es": "La galería presenta muchas pinturas abstractas que desafían la imaginación del espectador."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["art", "culture"],
+      "word_used": "abstract"
+    },
+    {
+      "sentence_id": 2215,
+      "english": "She has achieved great academic success throughout her years at university.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "在大学期间，她取得了巨大的学术成就。",
+        "es": "Ha logrado un gran éxito académico a lo largo de sus años en la universidad."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["education", "success"],
+      "word_used": "academic"
+    },
+    {
+      "sentence_id": 2216,
+      "english": "The hotel was large enough to accommodate all the guests for the wedding.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "这家酒店足够大，可以容纳所有参加婚礼的客人。",
+        "es": "El hotel era lo suficientemente grande como para acomodar a todos los invitados de la boda."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["travel", "events"],
+      "word_used": "accommodate"
+    },
+    {
+      "sentence_id": 2217,
+      "english": "The children must be accompanied by an adult to enter the theme park.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "儿童必须由成人陪同才能进入主题公园。",
+        "es": "Los niños deben estar acompañados por un adulto para entrar al parque temático."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["rules", "family"],
+      "word_used": "accompany"
+    },
+    {
+      "sentence_id": 2218,
+      "english": "He felt a great sense of pride after he managed to accomplish his goals.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "在成功实现目标后，他感到非常自豪。",
+        "es": "Sintió un gran orgullo después de lograr cumplir sus metas."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["emotions", "success"],
+      "word_used": "accomplish"
+    },
+    {
+      "sentence_id": 2219,
+      "english": "The accountant spent all afternoon checking the company's financial records.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "会计整个下午都在检查公司的财务记录。",
+        "es": "El contador pasó toda la tarde revisando los registros financieros de la empresa."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["work", "finance"],
+      "word_used": "accountant"
+    },
+    {
+      "sentence_id": 2220,
+      "english": "Scientists use sophisticated tools to ensure the accuracy of their measurements.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "科学家使用先进工具来确保测量结果的准确性。",
+        "es": "Los científicos utilizan herramientas sofisticadas para garantizar la precisión de sus mediciones."
+      },
+      "difficulty": "Advanced",
+      "tags": ["science", "work"],
+      "word_used": "accuracy"
+    },
+    {
+      "sentence_id": 2221,
+      "english": "It is unfair to accuse someone of a crime without having any proof.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "在没有任何证据的情况下指控某人犯罪是不公平的。",
+        "es": "Es injusto acusar a alguien de un delito sin tener ninguna prueba."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["justice", "law"],
+      "word_used": "accuse"
+    },
+    {
+      "sentence_id": 2222,
+      "english": "The company was quick to acknowledge the mistake and offer a full refund.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "公司迅速承认了错误并提供了全额退款。",
+        "es": "La empresa se apresuró a reconocer el error y ofrecer un reembolso completo."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["business", "communication"],
+      "word_used": "acknowledge"
+    },
+    {
+      "sentence_id": 2223,
+      "english": "The farm covers over a hundred acres of beautiful green countryside.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "农场占地一百多英亩，拥有美丽的绿色乡村风光。",
+        "es": "La granja abarca más de cien acres de hermosa campiña verde."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["nature", "agriculture"],
+      "word_used": "acre"
+    },
+    {
+      "sentence_id": 2224,
+      "english": "You need to enter a code to activate your new credit card.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "您需要输入代码来激活您的新信用卡。",
+        "es": "Debe ingresar un código para activar su nueva tarjeta de crédito."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["finance", "technology"],
+      "word_used": "activate"
+    },
+    {
+      "sentence_id": 2225,
+      "english": "The actual cost of the repairs was much higher than the original estimate.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "维修的实际成本远高于最初的估算。",
+        "es": "El costo real de las reparaciones fue mucho mayor que la estimación original."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["money", "daily"],
+      "word_used": "actual"
+    },
+    {
+      "sentence_id": 2226,
+      "english": "Animals often have to adapt to changes in their environment to survive.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "动物往往必须适应环境的变化才能生存。",
+        "es": "Los animales a menudo tienen que adaptarse a los cambios en su entorno para sobrevivir."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["nature", "science"],
+      "word_used": "adapt"
+    },
+    {
+      "sentence_id": 2227,
+      "english": "The city provides resources to help people struggling with drug addiction.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "该市提供资源帮助挣扎于毒瘾的人们。",
+        "es": "La ciudad ofrece recursos para ayudar a las personas que luchan contra la drogadicción."
+      },
+      "difficulty": "Advanced",
+      "tags": ["health", "society"],
+      "word_used": "addiction"
+    },
+    {
+      "sentence_id": 2228,
+      "english": "You can find additional information about the course on our website.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "您可以在我们的网站上找到有关该课程的更多信息。",
+        "es": "Puede encontrar información adicional sobre el curso en nuestro sitio web."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["education", "information"],
+      "word_used": "additional"
+    },
+    {
+      "sentence_id": 2229,
+      "english": "Please write your home address clearly on the registration form.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "请在登记表上写清楚您的家庭住址。",
+        "es": "Por favor, escriba claramente su dirección particular en el formulario de registro."
+      },
+      "difficulty": "Beginner",
+      "tags": ["daily", "writing"],
+      "word_used": "address"
+    },
+    {
+      "sentence_id": 2230,
+      "english": "It took him a few weeks to adjust to his new life in a different country.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "他花了几周时间才适应在异国他乡的新生活。",
+        "es": "Le tomó unas semanas adaptarse a su nueva vida en un país diferente."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["lifestyle", "travel"],
+      "word_used": "adjust"
+    },
+    {
+      "sentence_id": 2231,
+      "english": "The school administration is responsible for organizing the annual graduation ceremony.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "学校行政部门负责组织每年的毕业典礼。",
+        "es": "La administración de la escuela es responsable de organizar la ceremonia de graduación anual."
+      },
+      "difficulty": "Advanced",
+      "tags": ["education", "work"],
+      "word_used": "administration"
+    },
+    {
+      "sentence_id": 2232,
+      "english": "The couple decided to adopt a child after years of trying to start a family.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "这对夫妇在尝试多年组建家庭后决定收养一个孩子。",
+        "es": "La pareja decidió adoptar a un niño después de años de intentar formar una familia."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["family", "social"],
+      "word_used": "adopt"
+    },
+    {
+      "sentence_id": 2233,
+      "english": "Technological advances have changed the way we communicate with each other.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "技术进步改变了我们彼此交流的方式。",
+        "es": "Los avances tecnológicos han cambiado la forma en que nos comunicamos entre nosotros."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["technology", "communication"],
+      "word_used": "advance"
+    },
+    {
+      "sentence_id": 2234,
+      "english": "The scandal regarding his private affairs ruined the politician's career.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "关于他私人事务的丑闻毁了这位政治家的职业生涯。",
+        "es": "El escándalo relacionado con sus asuntos privados arruinó la carrera del político."
+      },
+      "difficulty": "Advanced",
+      "tags": ["politics", "news"],
+      "word_used": "affair"
+    },
+    {
+      "sentence_id": 2235,
+      "english": "The government is trying to provide more affordable housing for young families.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "政府正努力为年轻家庭提供更多负担得起的住房。",
+        "es": "El gobierno está tratando de proporcionar viviendas más asequibles para las familias jóvenes."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["society", "money"],
+      "word_used": "affordable"
+    },
+    {
+      "sentence_id": 2236,
+      "english": "The manager set the agenda for the meeting to ensure everything was discussed.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "经理设定了会议议程，以确保讨论了所有事项。",
+        "es": "El gerente fijó la agenda de la reunión para asegurar que se discutiera todo."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["work", "business"],
+      "word_used": "agenda"
+    },
+    {
+      "sentence_id": 2237,
+      "english": "Some animals become aggressive when they feel that their territory is threatened.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "有些动物在感到领地受到威胁时会变得具有攻击性。",
+        "es": "Algunos animales se vuelven agresivos cuando sienten que su territorio está amenazado."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["nature", "behavior"],
+      "word_used": "aggressive"
+    },
+    {
+      "sentence_id": 2238,
+      "english": "Modern agriculture relies on new technology to increase crop production.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "现代农业依靠新技术来增加农作物产量。",
+        "es": "La agricultura moderna depende de las nuevas tecnologías para aumentar la producción de cultivos."
+      },
+      "difficulty": "Advanced",
+      "tags": ["agriculture", "science"],
+      "word_used": "agriculture"
+    },
+    {
+      "sentence_id": 2239,
+      "english": "The international community sent emergency aid to the earthquake victims.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "国际社会向地震灾民发送了紧急援助。",
+        "es": "La comunidad internacional envió ayuda de emergencia a las víctimas del terremoto."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["global", "social"],
+      "word_used": "aid"
+    },
+    {
+      "sentence_id": 2240,
+      "english": "The pilot safely landed the aircraft despite the engine problems.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "尽管发动机出了问题，飞行员还是让飞机安全降落了。",
+        "es": "El piloto aterrizó la aeronave de manera segura a pesar de los problemas con el motor."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["travel", "transport"],
+      "word_used": "aircraft"
+    },
+    {
+      "sentence_id": 2241,
+      "english": "I forgot to set my alarm, so I woke up late for work this morning.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "我忘了定闹钟，所以今天早上上班迟到了。",
+        "es": "Olvidé poner mi alarma, así que me desperté tarde para el trabajo esta mañana."
+      },
+      "difficulty": "Beginner",
+      "tags": ["daily", "work"],
+      "word_used": "alarm"
+    },
+    {
+      "sentence_id": 2242,
+      "english": "In many science fiction movies, aliens come to Earth to meet humans.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "在许多科幻电影中，外星人来到地球与人类会面。",
+        "es": "En muchas películas de ciencia ficción, los extraterrestres vienen a la Tierra para encontrarse con los humanos."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["entertainment", "space"],
+      "word_used": "alien"
+    },
+    {
+      "sentence_id": 2243,
+      "english": "You can find many shops and cafes alongside the river in the city center.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "在市中心的河边，你可以找到许多商店和咖啡馆。",
+        "es": "Puedes encontrar muchas tiendas y cafés a lo largo del río en el centro de la ciudad."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["city", "daily"],
+      "word_used": "alongside prep"
+    },
+    {
+      "sentence_id": 2244,
+      "english": "She decided to alter her dress because it was a bit too long for her.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "她决定修改她的裙子，因为对她来说有点太长了。",
+        "es": "Decidió alterar su vestido porque le quedaba un poco largo."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["fashion", "daily"],
+      "word_used": "alter"
+    },
+    {
+      "sentence_id": 2245,
+      "english": "The news was altogether surprising, and no one expected such an outcome.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "这个消息完全出人意料，没有人预料到会有这样的结果。",
+        "es": "La noticia fue totalmente sorprendente y nadie esperaba tal resultado."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["emotions", "description"],
+      "word_used": "altogether"
+    },
+    {
+      "sentence_id": 2246,
+      "english": "The loud siren of the ambulance could be heard from blocks away.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "在几个街区外就能听到救护车响亮的警报声。",
+        "es": "La fuerte sirena de la ambulancia se podía escuchar desde cuadras de distancia."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["health", "city"],
+      "word_used": "ambulance"
+    },
+    {
+      "sentence_id": 2247,
+      "english": "The financial analyst predicted a growth in the stock market next year.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "财务分析师预测明年股市将会增长。",
+        "es": "El analista financiero predijo un crecimiento en el mercado de valores el próximo año."
+      },
+      "difficulty": "Advanced",
+      "tags": ["finance", "work"],
+      "word_used": "analyst"
+    },
+    {
+      "sentence_id": 2248,
+      "english": "He is very interested in history and wants to learn more about his ancestors.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "他对历史非常感兴趣，想更多地了解他的祖先。",
+        "es": "Está muy interesado en la historia y quiere aprender más sobre sus antepasados."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["history", "family"],
+      "word_used": "ancestor"
+    },
+    {
+      "sentence_id": 2249,
+      "english": "It is difficult for him to control his anger when things go wrong.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "当事情出错时，他很难控制自己的愤怒。",
+        "es": "Le resulta difícil controlar su ira cuando las cosas salen mal."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["emotions", "behavior"],
+      "word_used": "anger"
+    },
+    {
+      "sentence_id": 2250,
+      "english": "The photographer tried to find the best angle to capture the sunset.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "摄影师试图寻找拍摄日落的最佳角度。",
+        "es": "El fotógrafo trató de encontrar el mejor ángulo para capturar la puesta de sol."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["art", "nature"],
+      "word_used": "angle"
+    },
+    {
+      "sentence_id": 2251,
+      "english": "The movie uses amazing animation to bring the characters to life.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "这部电影使用惊人的动画效果让角色栩栩如生。",
+        "es": "La película utiliza una animación increíble para dar vida a los personajes."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["entertainment", "art"],
+      "word_used": "animation"
+    },
+    {
+      "sentence_id": 2252,
+      "english": "They celebrated their tenth wedding anniversary with a trip to Paris.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "他们去巴黎旅行庆祝了结婚十周年纪念日。",
+        "es": "Celebraron su décimo aniversario de bodas con un viaje a París."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["family", "travel"],
+      "word_used": "anniversary"
+    },
+    {
+      "sentence_id": 2253,
+      "english": "The company holds an annual meeting to discuss the goals for the next year.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "公司每年举行一次年度会议，讨论明年的目标。",
+        "es": "La empresa celebra una reunión anual para discutir los objetivos del próximo año."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["business", "work"],
+      "word_used": "annual"
+    },
+    {
+      "sentence_id": 2254,
+      "english": "We anticipate that the new product will be a huge success in the market.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "我们预料这种新产品在市场上会取得巨大成功。",
+        "es": "Anticipamos que el nuevo producto será un gran éxito en el mercado."
+      },
+      "difficulty": "Advanced",
+      "tags": ["business", "success"],
+      "word_used": "anticipate"
+    },
+    {
+      "sentence_id": 2255,
+      "english": "Many students feel a lot of anxiety before their final university exams.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "许多学生在大学期末考试前感到非常焦虑。",
+        "es": "Muchos estudiantes sienten mucha ansiedad antes de sus exámenes finales de la universidad."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["emotions", "education"],
+      "word_used": "anxiety"
+    },
+    {
+      "sentence_id": 2256,
+      "english": "The parents were anxious about their child's safety during the school trip.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "父母对孩子在学校旅行期间的安全感到焦虑。",
+        "es": "Los padres estaban ansiosos por la seguridad de sus hijos durante el viaje escolar."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["family", "emotions"],
+      "word_used": "anxious"
+    },
+    {
+      "sentence_id": 2257,
+      "english": "It was apparent from her smile that she was very happy with the results.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "从她的微笑可以明显看出，她对结果非常满意。",
+        "es": "Era evidente por su sonrisa que estaba muy feliz con los resultados."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["emotions", "description"],
+      "word_used": "apparent"
+    },
+    {
+      "sentence_id": 2258,
+      "english": "The job applicant was nervous but managed to answer all the questions well.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "求职者很紧张，但成功地回答好了所有问题。",
+        "es": "El solicitante de empleo estaba nervioso pero logró responder bien a todas las preguntas."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["work", "career"],
+      "word_used": "applicant"
+    },
+    {
+      "sentence_id": 2259,
+      "english": "It is important to use appropriate language when writing a formal letter.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "写正式信函时，使用适当的语言很重要。",
+        "es": "Es importante usar un lenguaje apropiado al escribir una carta formal."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["writing", "communication"],
+      "word_used": "appropriate"
+    },
+    {
+      "sentence_id": 2260,
+      "english": "The project needs the manager's final approval before we can start.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "项目需要经理的最终批准后我们才能开始。",
+        "es": "El proyecto necesita la aprobación final del gerente antes de que podamos comenzar."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["work", "business"],
+      "word_used": "approval"
+    },
+    {
+      "sentence_id": 2261,
+      "english": "The detective decided to arise early to catch the suspect before he could escape.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "侦探决定早起，以便在嫌疑人逃跑前将其抓获。",
+        "es": "El detective decidió levantarse temprano para atrapar al sospechoso antes de que pudiera escapar."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["action", "crime"],
+      "word_used": "arise"
+    },
+    {
+      "sentence_id": 2262,
+      "english": "The archer pulled back the string and released the arrow toward the target.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "弓箭手向后拉弦，将箭射向目标。",
+        "es": "El arquero tiró de la cuerda y soltó la flecha hacia el objetivo."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["sports", "action"],
+      "word_used": "arrow"
+    },
+    {
+      "sentence_id": 2263,
+      "english": "In the future, many people believe that artificial intelligence will perform most manual labor.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "未来，许多人相信人工智能将承担大部分体力劳动。",
+        "es": "En el futuro, muchas personas creen que la inteligencia artificial realizará la mayor parte del trabajo manual."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["technology", "future"],
+      "word_used": "artificial"
+    },
+    {
+      "sentence_id": 2264,
+      "english": "She showed great artistic talent from a very young age, winning several local competitions.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "她从小就展现出极高的艺术天赋，赢得了多次当地比赛。",
+        "es": "Mostró un gran talento artístico desde muy joven, ganando varios concursos locales."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["art", "ability"],
+      "word_used": "artistic"
+    },
+    {
+      "sentence_id": 2265,
+      "english": "The museum displays original artwork created by famous painters from the last century.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "博物馆展示了上个世纪著名画家创作的原作。",
+        "es": "El museo exhibe obras de arte originales creadas por pintores famosos del siglo pasado."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["art", "culture"],
+      "word_used": "artwork"
+    },
+    {
+      "sentence_id": 2266,
+      "english": "Religion is an important aspect of life for many people around the world.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "对世界上许多人来说，宗教是生活的一个重要方面。",
+        "es": "La religión es un aspecto importante de la vida para muchas personas en todo el mundo."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["society", "culture"],
+      "word_used": "aspect"
+    },
+    {
+      "sentence_id": 2267,
+      "english": "The manager needs to assess the team's performance before the end of the year.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "经理需要在年底前评估团队的表现。",
+        "es": "El gerente necesita evaluar el desempeño del equipo antes de fin de año."
+      },
+      "difficulty": "Advanced",
+      "tags": ["work", "business"],
+      "word_used": "assess"
+    },
+    {
+      "sentence_id": 2268,
+      "english": "The company's greatest asset is its loyal and hardworking workforce.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "公司最大的资产是其忠诚且勤奋的员工队伍。",
+        "es": "El mayor activo de la empresa es su fuerza laboral leal y trabajadora."
+      },
+      "difficulty": "Advanced",
+      "tags": ["business", "work"],
+      "word_used": "asset"
+    },
+    {
+      "sentence_id": 2269,
+      "english": "The teacher will assign a new project to the students next Monday morning.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "老师将在下周一早上给学生布置一个新项目。",
+        "es": "El profesor asignará un nuevo proyecto a los estudiantes el próximo lunes por la mañana."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["education", "school"],
+      "word_used": "assign"
+    },
+    {
+      "sentence_id": 2270,
+      "english": "Many people associate the smell of fresh bread with a happy childhood home.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "许多人将新鲜面包的味道与快乐的童年家庭联系在一起。",
+        "es": "Muchas personas asocian el olor a pan fresco con un hogar de infancia feliz."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["emotions", "memory"],
+      "word_used": "associate"
+    },
+    {
+      "sentence_id": 2271,
+      "english": "Never assume that someone is angry just because they are being quiet.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "永远不要仅仅因为某人保持安静就认为他在生气。",
+        "es": "Nunca asumas que alguien está enojado solo porque está callado."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["social", "psychology"],
+      "word_used": "assume"
+    },
+    {
+      "sentence_id": 2272,
+      "english": "The scientist's theory was based on a false assumption about the planet's atmosphere.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "科学家的理论是基于对该行星大气层的一个错误假设。",
+        "es": "La teoría del científico se basó en una suposición falsa sobre la atmósfera del planeta."
+      },
+      "difficulty": "Advanced",
+      "tags": ["science", "logic"],
+      "word_used": "assumption"
+    },
+    {
+      "sentence_id": 2273,
+      "english": "I can assure you that everything will be ready in time for the ceremony.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "我可以向你保证，一切都会在典礼前准备就绪。",
+        "es": "Puedo asegurarte que todo estará listo a tiempo para la ceremonia."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["communication", "promise"],
+      "word_used": "assure"
+    },
+    {
+      "sentence_id": 2274,
+      "english": "The view from the top of the mountain was absolutely astonishing to the hikers.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "山顶的景色让徒步旅行者感到绝对惊叹。",
+        "es": "La vista desde la cima de la montaña fue absolutamente asombrosa para los excursionistas."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["nature", "emotions"],
+      "word_used": "astonishing"
+    },
+    {
+      "sentence_id": 2275,
+      "english": "Please send the file as an email attachment so I can review it.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "请将文件作为电子邮件附件发送，以便我审阅。",
+        "es": "Por favor, envíe el archivo como un archivo adjunto de correo electrónico para que pueda revisarlo."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["technology", "work"],
+      "word_used": "attachment"
+    },
+    {
+      "sentence_id": 2276,
+      "english": "The climber made a brave attempt to reach the summit during the storm.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "登山者在风暴中勇敢尝试登上顶峰。",
+        "es": "El escalador hizo un valiente intento de llegar a la cima durante la tormenta."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["sports", "challenges"],
+      "word_used": "attempt"
+    },
+    {
+      "sentence_id": 2277,
+      "english": "The speaker used various audio clips to make his presentation more interesting.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "演讲者使用了各种音频剪辑，使他的演示更有趣。",
+        "es": "El orador utilizó varios clips de audio para hacer su presentación más interesante."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["technology", "education"],
+      "word_used": "audio"
+    },
+    {
+      "sentence_id": 2278,
+      "english": "Public awareness about the importance of recycling has grown in recent years.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "近年来，公众对回收重要性的认识有所提高。",
+        "es": "La conciencia pública sobre la importancia del reciclaje ha crecido en los últimos años."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["society", "environment"],
+      "word_used": "awareness"
+    },
+    {
+      "sentence_id": 2279,
+      "english": "There was an awkward silence in the room after he made the joke.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "他开完那个玩笑后，房间里陷入了尴尬的沉默。",
+        "es": "Hubo un silencio incómodo en la habitación después de que él hizo el chiste."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["social", "emotions"],
+      "word_used": "awkward"
+    },
+    {
+      "sentence_id": 2280,
+      "english": "A microscope is necessary to see the tiny bacteria living in the water.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "显微镜是观察水中生活的微小细菌所必需的。",
+        "es": "Un microscopio es necesario para ver las diminutas bacterias que viven en el agua."
+      },
+      "difficulty": "Advanced",
+      "tags": ["science", "health"],
+      "word_used": "bacteria"
+    },
+    {
+      "sentence_id": 2281,
+      "english": "It is essential to maintain a balanced diet to stay healthy and strong.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "保持平衡的饮食对于保持健康和强壮至关重要。",
+        "es": "Es esencial mantener una dieta equilibrada para mantenerse sano y fuerte."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["health", "food"],
+      "word_used": "balanced"
+    },
+    {
+      "sentence_id": 2282,
+      "english": "She has been practicing ballet since she was five years old and dreams of being a star.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "她从五岁起就开始练习芭蕾舞，梦想成为一名明星。",
+        "es": "Ha estado practicando ballet desde que tenía cinco años y sueña con ser una estrella."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["art", "hobbies"],
+      "word_used": "ballet"
+    },
+    {
+      "sentence_id": 2283,
+      "english": "I could barely hear what the speaker was saying because of the loud music.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "由于音乐声很大，我几乎听不清演讲者在说什么。",
+        "es": "Apenas podía oír lo que decía el orador debido a la música a todo volumen."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["daily", "senses"],
+      "word_used": "barely"
+    },
+    {
+      "sentence_id": 2284,
+      "english": "He managed to find a real bargain at the market, buying the jacket for half price.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "他成功在市场上找到了一个真正的便宜货，以半价买下了这件夹克。",
+        "es": "Logró encontrar una verdadera ganga en el mercado, comprando la chaqueta a mitad de precio."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["shopping", "money"],
+      "word_used": "bargain"
+    },
+    {
+      "sentence_id": 2285,
+      "english": "Language can sometimes be a barrier to communication when traveling abroad.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "出国旅行时，语言有时会成为沟通的障碍。",
+        "es": "El idioma a veces puede ser una barrera para la comunicación cuando se viaja al extranjero."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["language", "travel"],
+      "word_used": "barrier"
+    },
+    {
+      "sentence_id": 2286,
+      "english": "We keep all of our old holiday decorations in boxes in the basement.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "我们把所有旧的节日装饰品都放在地下室的盒子里。",
+        "es": "Guardamos todas nuestras viejas decoraciones navideñas en cajas en el sótano."
+      },
+      "difficulty": "Beginner",
+      "tags": ["home", "daily"],
+      "word_used": "basement"
+    },
+    {
+      "sentence_id": 2287,
+      "english": "The movie is basically a love story, although it has some action scenes too.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "这部电影基本上是一个爱情故事，尽管它也有一些动作场景。",
+        "es": "La película es básicamente una historia de amor, aunque también tiene algunas escenas de acción."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["entertainment", "description"],
+      "word_used": "basically"
+    },
+    {
+      "sentence_id": 2288,
+      "english": "The player swung the bat and hit the ball high into the air.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "球手挥动球棒，将球击向高空。",
+        "es": "El jugador balanceó el bate y golpeó la pelota hacia lo alto."
+      },
+      "difficulty": "Beginner",
+      "tags": ["sports", "action"],
+      "word_used": "bat"
+    },
+    {
+      "sentence_id": 2289,
+      "english": "The soldiers fought a long and difficult battle to protect the city.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "士兵们为了保卫城市进行了一场漫长而艰难的战斗。",
+        "es": "Los soldados libraron una larga y difícil batalla para proteger la ciudad."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["history", "military"],
+      "word_used": "battle"
+    },
+    {
+      "sentence_id": 2290,
+      "english": "I can't bear the thought of losing my dog; he is my best friend.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "我无法忍受失去我的狗的想法；他是我最好的朋友。",
+        "es": "No puedo soportar la idea de perder a mi perro; es mi mejor amigo."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["emotions", "animals"],
+      "word_used": "bear (deal with)"
+    },
+    {
+      "sentence_id": 2291,
+      "english": "He was so desperate that he started to beg for money on the street.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "他太绝望了，开始在街上乞讨。",
+        "es": "Estaba tan desesperado que empezó a pedir dinero en la calle."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["social", "money"],
+      "word_used": "beg"
+    },
+    {
+      "sentence_id": 2292,
+      "english": "Regular exercise is beneficial for both your physical and mental health.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "定期锻炼对身心健康都有好处。",
+        "es": "El ejercicio regular es beneficioso tanto para la salud física como para la mental."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["health", "lifestyle"],
+      "word_used": "beneficial"
+    },
+    {
+      "sentence_id": 2293,
+      "english": "The old metal gate was bent and wouldn't close properly anymore.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "旧铁门弯曲了，再也无法正常关闭。",
+        "es": "La vieja puerta de metal estaba doblada y ya no cerraba correctamente."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["description", "home"],
+      "word_used": "bent"
+    },
+    {
+      "sentence_id": 2294,
+      "english": "I like to sit beside the window so I can watch the people passing by.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "我喜欢坐在窗边，这样我就可以看着路过的人。",
+        "es": "Me gusta sentarme al lado de la ventana para poder ver a la gente que pasa."
+      },
+      "difficulty": "Beginner",
+      "tags": ["daily", "position"],
+      "word_used": "beside prep"
+    },
+    {
+      "sentence_id": 2295,
+      "english": "Besides the price, you should also consider the quality of the product.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "除了价格，你还应该考虑产品的质量。",
+        "es": "Además del precio, también debes considerar la calidad del producto."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["shopping", "logic"],
+      "word_used": "besides prep"
+    },
+    {
+      "sentence_id": 2296,
+      "english": "The beauty of the universe is beyond what human language can describe.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "宇宙之美超出了人类语言所能描述的范围。",
+        "es": "La belleza del universo está más allá de lo que el lenguaje humano puede describir."
+      },
+      "difficulty": "Advanced",
+      "tags": ["science", "philosophy"],
+      "word_used": "beyond"
+    },
+    {
+      "sentence_id": 2297,
+      "english": "The judge was accused of bias because he was a close friend of the lawyer.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "法官被指控有偏见，因为他是那位律师的好朋友。",
+        "es": "El juez fue acusado de parcialidad porque era un amigo cercano del abogado."
+      },
+      "difficulty": "Advanced",
+      "tags": ["law", "justice"],
+      "word_used": "bias"
+    },
+    {
+      "sentence_id": 2298,
+      "english": "The company put in a high bid to win the contract for the new bridge.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "公司提出了高价竞标，以赢得新桥的合同。",
+        "es": "La empresa presentó una oferta alta para ganar el contrato del nuevo puente."
+      },
+      "difficulty": "Advanced",
+      "tags": ["business", "money"],
+      "word_used": "bid"
+    },
+    {
+      "sentence_id": 2299,
+      "english": "The biological process of aging is something that everyone must experience.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "衰老的生物学过程是每个人都必须经历的。",
+        "es": "El proceso biológico del envejecimiento es algo que todo el mundo debe experimentar."
+      },
+      "difficulty": "Advanced",
+      "tags": ["science", "health"],
+      "word_used": "biological"
+    },
+    {
+      "sentence_id": 2300,
+      "english": "The medicine had a very bitter taste, so I drank some juice afterward.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "药味很苦，所以我随后喝了些果汁。",
+        "es": "La medicina tenía un sabor muy amargo, así que bebí un poco de jugo después."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["health", "senses"],
+      "word_used": "bitter"
+    },
+    {
+      "sentence_id": 2301,
+      "english": "It is easy to blame others for your mistakes, but it is better to take responsibility.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "把错误归咎于别人很容易，但最好还是承担责任。",
+        "es": "Es fácil culpar a los demás de tus errores, pero es mejor asumir la responsabilidad."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["personality", "ethics"],
+      "word_used": "blame"
+    },
+    {
+      "sentence_id": 2302,
+      "english": "He put an extra blanket on the bed because the night was very cold.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "他在床上多加了一条毯子，因为晚上非常冷。",
+        "es": "Puso una manta extra en la cama porque la noche estaba muy fría."
+      },
+      "difficulty": "Beginner",
+      "tags": ["home", "daily"],
+      "word_used": "blanket"
+    },
+    {
+      "sentence_id": 2303,
+      "english": "The bright sun was so strong that it almost made me feel blind for a second.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "明亮的阳光太强烈了，几乎让我感到瞬间失明。",
+        "es": "El sol brillante era tan fuerte que casi me hizo sentir ciego por un segundo."
+      },
+      "difficulty": "Beginner",
+      "tags": ["nature", "senses"],
+      "word_used": "blind"
+    },
+    {
+      "sentence_id": 2304,
+      "english": "You need to be bold and take risks if you want to be a successful entrepreneur.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "如果你想成为一名成功的企业家，你需要大胆并承担风险。",
+        "es": "Necesitas ser audaz y correr riesgos si quieres ser un emprendedor exitoso."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["personality", "business"],
+      "word_used": "bold"
+    },
+    {
+      "sentence_id": 2305,
+      "english": "The tragic bombing in the city center left many people injured and homeless.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "市中心悲惨的炸弹袭击导致许多人受伤并无家可归。",
+        "es": "El trágico bombardeo en el centro de la ciudad dejó a muchas personas heridas y sin hogar."
+      },
+      "difficulty": "Advanced",
+      "tags": ["news", "tragedy"],
+      "word_used": "bombing"
+    },
+    {
+      "sentence_id": 2306,
+      "english": "There is a very strong bond between the mother and her newborn baby.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "母亲和她的新生儿之间有着非常强烈的纽带。",
+        "es": "Hay un vínculo muy fuerte entre la madre y su bebé recién nacido."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["family", "emotions"],
+      "word_used": "bond"
+    },
+    {
+      "sentence_id": 2307,
+      "english": "The new advertising campaign helped to boost the company's sales significantly.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "新的广告活动有助于显著提高公司的销售额。",
+        "es": "La nueva campaña publicitaria ayudó a impulsar significativamente las ventas de la empresa."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["business", "marketing"],
+      "word_used": "boost"
+    },
+    {
+      "sentence_id": 2308,
+      "english": "We had to show our passports when we crossed the border into the next country.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "当我们越过边境进入下一个国家时，我们不得不出示护照。",
+        "es": "Tuvimos que mostrar nuestros pasaportes cuando cruzamos la frontera hacia el siguiente país."
+      },
+      "difficulty": "Beginner",
+      "tags": ["travel", "rules"],
+      "word_used": "border"
+    },
+    {
+      "sentence_id": 2309,
+      "english": "The mountain range is bound to be covered in snow during the winter months.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "在冬季的几个月里，山脉肯定会被雪覆盖。",
+        "es": "Es seguro que la cordillera estará cubierta de nieve durante los meses de invierno."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["nature", "weather"],
+      "word_used": "bound"
+    },
+    {
+      "sentence_id": 2310,
+      "english": "Medical research shows that breast milk provides essential nutrients for babies.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "医学研究表明，母乳为婴儿提供必需的营养成分。",
+        "es": "La investigación médica muestra que la leche materna proporciona nutrientes esenciales para los bebés."
+      },
+      "difficulty": "Advanced",
+      "tags": ["health", "science"],
+      "word_used": "breast"
+    },
+    {
+      "sentence_id": 2311,
+      "english": "The construction workers used heavy red bricks to build the garden wall.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "建筑工人们用沉重的红砖建造了花园围墙。",
+        "es": "Los trabajadores de la construcción utilizaron pesados ladrillos rojos para construir el muro del jardín."
+      },
+      "difficulty": "Beginner",
+      "tags": ["construction", "home"],
+      "word_used": "brick"
+    },
+    {
+      "sentence_id": 2312,
+      "english": "The professor gave a brief introduction to the topic before starting the lecture.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "教授在开始讲座前对该主题做了简短的介绍。",
+        "es": "El profesor hizo una breve introducción al tema antes de comenzar la conferencia."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["education", "communication"],
+      "word_used": "brief"
+    },
+    {
+      "sentence_id": 2313,
+      "english": "The news was broadcast live to millions of viewers across the country.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "新闻向全国数百万观众进行了现场直播。",
+        "es": "La noticia fue transmitida en vivo a millones de espectadores en todo el país."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["media", "technology"],
+      "word_used": "broadcast"
+    },
+    {
+      "sentence_id": 2314,
+      "english": "She has a very broad range of interests, from classical music to mountain climbing.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "她的兴趣非常广泛，从古典音乐到登山都有。",
+        "es": "Tiene una gama muy amplia de intereses, desde la música clásica hasta el alpinismo."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["personality", "hobbies"],
+      "word_used": "broad"
+    },
+    {
+      "sentence_id": 2315,
+      "english": "The family has a very tight budget this month, so they are not eating out.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "这个家庭本月的预算非常紧张，所以他们不在外面吃饭。",
+        "es": "La familia tiene un presupuesto muy ajustado este mes, por lo que no van a comer fuera."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["money", "daily"],
+      "word_used": "budget"
+    },
+    {
+      "sentence_id": 2316,
+      "english": "A small green bug was crawling slowly across the kitchen table.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "一只绿色的小虫子正慢慢地在厨房桌子上爬行。",
+        "es": "Un pequeño bicho verde se arrastraba lentamente por la mesa de la cocina."
+      },
+      "difficulty": "Beginner",
+      "tags": ["nature", "animals"],
+      "word_used": "bug"
+    },
+    {
+      "sentence_id": 2317,
+      "english": "He bought a large bunch of bananas and some apples at the grocery store.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "他在杂货店买了一大串香蕉和一些苹果。",
+        "es": "Compró un gran racimo de plátanos y algunas manzanas en la tienda de comestibles."
+      },
+      "difficulty": "Beginner",
+      "tags": ["food", "shopping"],
+      "word_used": "bunch"
+    },
+    {
+      "sentence_id": 2318,
+      "english": "The small wooden cabin in the mountains was the perfect place for a quiet holiday.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "山里的小木屋是度过安静假期的理想场所。",
+        "es": "La pequeña cabaña de madera en las montañas era el lugar perfecto para unas vacaciones tranquilas."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["travel", "home"],
+      "word_used": "cabin"
+    },
+    {
+      "sentence_id": 2319,
+      "english": "The electrician had to replace the old cable to fix the internet connection.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "电工不得不更换旧电缆以修复网络连接。",
+        "es": "El electricista tuvo que reemplazar el cable viejo para arreglar la conexión a Internet."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["technology", "work"],
+      "word_used": "cable"
+    },
+    {
+      "sentence_id": 2320,
+      "english": "Scientists need to calculate the exact distance between the two stars.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "科学家们需要计算出这两颗恒星之间的准确距离。",
+        "es": "Los científicos necesitan calcular la distancia exacta entre las dos estrellas."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["science", "math"],
+      "word_used": "calculate"
+    },
+    {
+      "sentence_id": 2321,
+      "english": "The ancient canal was once used for transporting goods across the region.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "古老的运河曾被用于在该地区运输货物。",
+        "es": "El antiguo canal se utilizó una vez para transportar mercancías por toda la región."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["history", "transport"],
+      "word_used": "canal"
+    },
+    {
+      "sentence_id": 2322,
+      "english": "The flight was delayed, so the business meeting had to be canceled.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "航班延误了，所以商务会议不得不取消。",
+        "es": "El vuelo se retrasó, por lo que la reunión de negocios tuvo que ser cancelada."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["work", "travel"],
+      "word_used": "cancel"
+    },
+    {
+      "sentence_id": 2323,
+      "english": "Early detection is crucial for successfully treating many types of cancer.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "早期发现对于成功治疗多种类型的癌症至关重要。",
+        "es": "La detección temprana es crucial para tratar con éxito muchos tipos de cáncer."
+      },
+      "difficulty": "Advanced",
+      "tags": ["health", "science"],
+      "word_used": "cancer"
+    },
+    {
+      "sentence_id": 2324,
+      "english": "She lit a small candle to create a romantic atmosphere in the dining room.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "她点燃了一支小蜡烛，在餐厅里营造出浪漫的气氛。",
+        "es": "Encendió una pequeña vela para crear un ambiente romántico en el comedor."
+      },
+      "difficulty": "Beginner",
+      "tags": ["home", "daily"],
+      "word_used": "candle"
+    },
+    {
+      "sentence_id": 2325,
+      "english": "With enough training, he will be capable of completing the marathon.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "经过足够的训练，他将能够完成马拉松比赛。",
+        "es": "Con el entrenamiento suficiente, será capaz de completar el maratón."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["sports", "ability"],
+      "word_used": "capable"
+    },
+    {
+      "sentence_id": 2326,
+      "english": "The stadium has a maximum capacity of fifty thousand people.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "该体育场的最大容量为五万人。",
+        "es": "El estadio tiene una capacidad máxima de cincuenta mil personas."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["city", "sports"],
+      "word_used": "capacity"
+    },
+    {
+      "sentence_id": 2327,
+      "english": "The photographer managed to capture the exact moment the bird took flight.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "摄影师成功捕捉到了小鸟起飞的准确瞬间。",
+        "es": "El fotógrafo logró capturar el momento exacto en que el pájaro emprendió el vuelo."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["art", "nature"],
+      "word_used": "capture"
+    },
+    {
+      "sentence_id": 2328,
+      "english": "Reducing carbon emissions is a major goal for many international environmental groups.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "减少碳排放是许多国际环保组织的主要目标。",
+        "es": "Reducir las emisiones de carbono es un objetivo importante para muchos grupos ambientales internacionales."
+      },
+      "difficulty": "Advanced",
+      "tags": ["environment", "global"],
+      "word_used": "carbon"
+    },
+    {
+      "sentence_id": 2329,
+      "english": "The director chose a very talented cast for his new theater production.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "导演为他的新剧目选择了一批非常有才华的演员。",
+        "es": "El director eligió un elenco muy talentoso para su nueva producción teatral."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["art", "entertainment"],
+      "word_used": "cast"
+    },
+    {
+      "sentence_id": 2330,
+      "english": "Friday is usually a casual day at the office, so people wear jeans.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "周五通常是办公室的便装日，所以人们穿牛仔裤。",
+        "es": "El viernes suele ser un día informal en la oficina, por lo que la gente usa jeans."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["work", "lifestyle"],
+      "word_used": "casual"
+    },
+    {
+      "sentence_id": 2331,
+      "english": "Deep inside the cave, explorers found ancient paintings on the walls.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "在洞穴深处，探险家们在墙壁上发现了古代绘画。",
+        "es": "En lo profundo de la cueva, los exploradores encontraron pinturas antiguas en las paredes."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["nature", "history"],
+      "word_used": "cave"
+    },
+    {
+      "sentence_id": 2332,
+      "english": "Every living organism is made up of at least one microscopic cell.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "每一个生物体都由至少一个微小的细胞组成。",
+        "es": "Todo organismo vivo está formado por al menos una célula microscópica."
+      },
+      "difficulty": "Advanced",
+      "tags": ["science", "nature"],
+      "word_used": "cell"
+    },
+    {
+      "sentence_id": 2333,
+      "english": "There is no certainty that the weather will be clear enough for the hike.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "不能确定天气是否晴朗到可以徒步旅行。",
+        "es": "No hay certeza de que el tiempo esté lo suficientemente despejado para la caminata."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["logic", "weather"],
+      "word_used": "certainty"
+    },
+    {
+      "sentence_id": 2334,
+      "english": "She received a certificate after completing the advanced English language course.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "她在完成高级英语课程后获得了一份证书。",
+        "es": "Recibió un certificado después de completar el curso de inglés avanzado."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["education", "success"],
+      "word_used": "certificate"
+    },
+    {
+      "sentence_id": 2335,
+      "english": "The bicycle was locked to the fence with a strong metal chain.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "自行车用一条坚固的金属链锁在栅栏上。",
+        "es": "La bicicleta estaba encadenada a la valla con una fuerte cadena de metal."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["daily", "transport"],
+      "word_used": "chain"
+    },
+    {
+      "sentence_id": 2336,
+      "english": "The chairman of the board opened the annual meeting with a positive speech.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "董事会主席以积极的演讲开启了年度会议。",
+        "es": "El presidente de la junta abrió la reunión anual con un discurso positivo."
+      },
+      "difficulty": "Advanced",
+      "tags": ["business", "work"],
+      "word_used": "chairman"
+    },
+    {
+      "sentence_id": 2337,
+      "english": "Learning a new language is a big challenge, but it is very rewarding.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "学习一门新语言是一个巨大的挑战，但非常有意义。",
+        "es": "Aprender un nuevo idioma es un gran desafío, pero es muy gratificante."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["education", "psychology"],
+      "word_used": "challenge"
+    },
+    {
+      "sentence_id": 2338,
+      "english": "The new project is quite challenging and requires a lot of hard work.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "这个新项目很有挑战性，需要付出很多努力。",
+        "es": "El nuevo proyecto es bastante desafiante y requiere mucho trabajo duro."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["work", "difficulty"],
+      "word_used": "challenging"
+    },
+    {
+      "sentence_id": 2339,
+      "english": "One characteristic of this bird is its bright yellow feathers and long tail.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "这种鸟的一个特征是它亮黄色的羽毛和长尾巴。",
+        "es": "Una característica de esta ave son sus plumas de color amarillo brillante y su cola larga."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["nature", "animals"],
+      "word_used": "characteristic"
+    },
+    {
+      "sentence_id": 2340,
+      "english": "The old town center is very charming with its narrow streets and small cafes.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "老城镇中心狭窄的街道和小咖啡馆非常有魅力。",
+        "es": "El centro del casco antiguo es muy encantador con sus calles estrechas y pequeños cafés."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["travel", "city"],
+      "word_used": "charming"
+    },
+    {
+      "sentence_id": 2341,
+      "english": "The sales chart shows that the new product is becoming more popular every month.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "销售图表显示，这款新产品正变得逐月更受欢迎。",
+        "es": "El gráfico de ventas muestra que el nuevo producto se está volviendo más popular cada mes."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["business", "information"],
+      "word_used": "chart"
+    },
+    {
+      "sentence_id": 2342,
+      "english": "The police had to chase the thief down the street for several minutes.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "警察不得不沿街追赶小偷好几分钟。",
+        "es": "La policía tuvo que perseguir al ladrón por la calle durante varios minutos."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["crime", "action"],
+      "word_used": "chase"
+    },
+    {
+      "sentence_id": 2343,
+      "english": "The little boy had chocolate on his cheek after eating the dessert.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "小男孩吃完甜点后脸上沾了巧克力。",
+        "es": "El niño tenía chocolate en la mejilla después de comer el postre."
+      },
+      "difficulty": "Beginner",
+      "tags": ["body", "kids"],
+      "word_used": "cheek"
+    },
+    {
+      "sentence_id": 2344,
+      "english": "The crowd began to cheer loudly when the home team scored a goal.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "当主队进球时，人群开始大声欢呼。",
+        "es": "La multitud comenzó a vitorear ruidosamente cuando el equipo local marcó un gol."
+      },
+      "difficulty": "Beginner",
+      "tags": ["sports", "emotions"],
+      "word_used": "cheer"
+    },
+    {
+      "sentence_id": 2345,
+      "english": "The chief executive of the company announced a new strategy for growth.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "公司首席执行官宣布了新的增长战略。",
+        "es": "El director ejecutivo de la empresa anunció una nueva estrategia de crecimiento."
+      },
+      "difficulty": "Advanced",
+      "tags": ["business", "work"],
+      "word_used": "chief"
+    },
+    {
+      "sentence_id": 2346,
+      "english": "Please chop the vegetables into small pieces before adding them to the soup.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "请在把蔬菜放入汤里之前将其剁成小块。",
+        "es": "Por favor, pique las verduras en trozos pequeños antes de agregarlas a la sopa."
+      },
+      "difficulty": "Beginner",
+      "tags": ["food", "daily"],
+      "word_used": "chop"
+    },
+    {
+      "sentence_id": 2347,
+      "english": "The computer's internal circuit was damaged during the power outage.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "电脑的内部电路在停电期间损坏了。",
+        "es": "El circuito interno de la computadora se dañó durante el corte de energía."
+      },
+      "difficulty": "Advanced",
+      "tags": ["technology", "science"],
+      "word_used": "circuit"
+    },
+    {
+      "sentence_id": 2348,
+      "english": "Under no circumstances should you open the door to a stranger at night.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "在任何情况下，你都不应该在晚上给陌生人开门。",
+        "es": "Bajo ninguna circunstancia debes abrirle la puerta a un extraño por la noche."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["rules", "safety"],
+      "word_used": "circumstance"
+    },
+    {
+      "sentence_id": 2349,
+      "english": "You must cite all the sources you used in your research paper correctly.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "你必须在研究论文中正确引用所有使用的资料来源。",
+        "es": "Debes citar correctamente todas las fuentes que utilizaste en tu trabajo de investigación."
+      },
+      "difficulty": "Advanced",
+      "tags": ["education", "writing"],
+      "word_used": "cite"
+    },
+    {
+      "sentence_id": 2350,
+      "english": "The government is encouraging every citizen to vote in the upcoming election.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "政府正鼓励每一位公民在即将到来的选举中投票。",
+        "es": "El gobierno está animando a todos los ciudadanos a votar en las próximas elecciones."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["politics", "society"],
+      "word_used": "citizen"
+    },
+    {
+      "sentence_id": 2351,
+      "english": "The lawyer specializes in civil law, dealing with contracts and property disputes.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "这位律师专门从事民法，处理合同和财产纠纷。",
+        "es": "El abogado se especializa en derecho civil, tratando contratos y disputas de propiedad."
+      },
+      "difficulty": "Advanced",
+      "tags": ["law", "work"],
+      "word_used": "civil"
+    },
+    {
+      "sentence_id": 2352,
+      "english": "Ancient Egypt was one of the greatest civilizations in human history.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "古埃及是人类历史上最伟大的文明之一。",
+        "es": "El antiguo Egipto fue una de las civilizaciones más grandes de la historia de la humanidad."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["history", "culture"],
+      "word_used": "civilization"
+    },
+    {
+      "sentence_id": 2353,
+      "english": "The teacher asked the student to clarify his point with a more specific example.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "老师要求学生用更具体的例子来阐明他的观点。",
+        "es": "El profesor le pidió al estudiante que aclarara su punto con un ejemplo más específico."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["education", "communication"],
+      "word_used": "clarify"
+    },
+    {
+      "sentence_id": 2354,
+      "english": "This movie is a classic example of a 1950s Hollywood musical.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "这部电影是20世纪50年代好莱坞歌舞片的经典范例。",
+        "es": "Esta película es un ejemplo clásico de un musical de Hollywood de los años 50."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["entertainment", "culture"],
+      "word_used": "classic"
+    },
+    {
+      "sentence_id": 2355,
+      "english": "In biology class, we learned how to classify animals based on their diet.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "在生物课上，我们学习了如何根据动物的饮食习惯对它们进行分类。",
+        "es": "En la clase de biología, aprendimos a clasificar a los animales según su dieta."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["science", "education"],
+      "word_used": "classify"
+    },
+    {
+      "sentence_id": 2356,
+      "english": "The clinic provides free healthcare services to residents in the local community.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "该诊所为当地社区居民提供免费医疗服务。",
+        "es": "La clínica brinda servicios de atención médica gratuitos a los residentes de la comunidad local."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["health", "society"],
+      "word_used": "clinic"
+    },
+    {
+      "sentence_id": 2357,
+      "english": "The short video clip of the cat playing with the dog went viral online.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "这段猫狗玩耍的短视频片段在网上疯传。",
+        "es": "El breve videoclip del gato jugando con el perro se volvió viral en línea."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["media", "daily"],
+      "word_used": "clip"
+    },
+    {
+      "sentence_id": 2358,
+      "english": "The two friends worked closely together to finish the project on time.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "这两个朋友紧密合作，按时完成了项目。",
+        "es": "Los dos amigos trabajaron estrechamente para terminar el proyecto a tiempo."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["work", "social"],
+      "word_used": "closely"
+    },
+    {
+      "sentence_id": 2359,
+      "english": "It was a total coincidence that we both wore the same shirt to the party.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "我们两人在派对上穿了同样的衬衫完全是个巧合。",
+        "es": "Fue una total coincidencia que ambos usáramos la misma camisa para la fiesta."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["social", "daily"],
+      "word_used": "coincidence"
+    },
+    {
+      "sentence_id": 2360,
+      "english": "He is a serious coin collector and has pieces from over fifty different countries.",
+      "langLevel": "B2",
+      "translations": {
+        "zh": "他是一个认真的硬币收藏家，拥有来自五十多个不同国家的硬币。",
+        "es": "Es un serio coleccionista de monedas y tiene piezas de más de cincuenta países diferentes."
+      },
+      "difficulty": "Intermediate",
+      "tags": ["hobbies", "money"],
+      "word_used": "collector"
+    }
+  ]
+}
