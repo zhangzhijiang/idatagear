@@ -90518,7 +90518,7 @@ q.w=!0
 A.bh(B.a5,"StrokeOrderPage","Web view factory registered for: hanzi-writer-iframe")}catch(h){o=A.X(h)
 q.w=!0
 A.bh(B.bK,"StrokeOrderPage","Web view factory registration threw (ignoring): "+A.j(o))}if(q.f==null&&q.c!=null)q.a0(new A.auk(q))
-n=A.aAU().S("assets/web/hanzi_bridge.html").k(0)
+n=A.aAU().S("assets/assets/web/hanzi_bridge.html").k(0)
 k=q.r
 i=n
 k.b=!1
@@ -92095,7 +92095,7 @@ A.axR.prototype={
 $0(){var s=0,r=A.x(t.hO),q,p,o,n,m,l,k
 var $async$$0=A.y(function(a,b){if(a===1)return A.u(b,r)
 for(;;)switch(s){case 0:s=3
-return A.m(A.akM(A.aAU().S("assets/sqlite/sqlite3.wasm")),$async$$0)
+return A.m(A.akM(A.aAU().S("assets/assets/sqlite/sqlite3.wasm")),$async$$0)
 case 3:m=b
 s=4
 return A.m(A.Mp("xiezi_db"),$async$$0)
