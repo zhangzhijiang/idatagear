@@ -1,5 +1,5 @@
 // Service Worker for Great Cantonese Dictionary PWA
-const CACHE_NAME = 'gcd-v2.0.0';
+const CACHE_NAME = 'gcd-v2.0.1';
 const RUNTIME_CACHE = 'gcd-runtime';
 
 // Assets to cache on install
