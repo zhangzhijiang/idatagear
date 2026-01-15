@@ -1,38 +1,187 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-  <!--
-    If you are serving your web app in a path other than the root, change the
-    href value below to reflect the base path you are serving from.
-
-    The path provided below has to start and end with a slash "/" in order for
-    it to work correctly.
-
-    For more details:
-    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
-
-    This is a placeholder for base href that will be replaced by the value of
-    the `--base-href` argument provided to `flutter build`.
-  -->
   <base href="/gcd/">
 
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
-  <meta name="description" content="A new Flutter project.">
+  <meta name="description"
+    content="Great Cantonese Dictionary - Learn Cantonese with comprehensive dictionary, Jyutping pronunciation, and examples.">
+  <meta name="theme-color" content="#DE2910">
 
-  <!-- iOS meta tags & icons -->
+  <!-- PWA Meta Tags -->
   <meta name="mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="apple-mobile-web-app-title" content="great_cantonese_dictionary">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="GCD">
   <link rel="apple-touch-icon" href="icons/Icon-192.png">
 
   <!-- Favicon -->
-  <link rel="icon" type="image/png" href="favicon.png"/>
+  <link rel="icon" type="image/png" href="favicon.png" />
 
-  <title>great_cantonese_dictionary</title>
+  <title>Great Cantonese Dictionary</title>
   <link rel="manifest" href="manifest.json">
+
+  <!-- Loading Screen Styles -->
+  <style>
+    #loading {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(135deg, #ffffff 0%, #f5f5f5 100%);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      z-index: 9999;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    }
+
+    #loading .logo {
+      width: 120px;
+      height: 120px;
+      background: linear-gradient(135deg, #DE2910 0%, #C41E3A 100%);
+      border-radius: 24px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 48px;
+      color: white;
+      font-weight: bold;
+      box-shadow: 0 10px 30px rgba(222, 41, 16, 0.3);
+      margin-bottom: 24px;
+      animation: pulse 2s ease-in-out infinite;
+    }
+
+    #loading .title {
+      font-size: 24px;
+      font-weight: 600;
+      color: #DE2910;
+      margin-bottom: 8px;
+    }
+
+    #loading .subtitle {
+      font-size: 14px;
+      color: #666;
+      margin-bottom: 32px;
+    }
+
+    #loading .spinner {
+      width: 40px;
+      height: 40px;
+      border: 4px solid #f3f3f3;
+      border-top: 4px solid #DE2910;
+      border-radius: 50%;
+      animation: spin 1s linear infinite;
+    }
+
+    #loading .status {
+      margin-top: 16px;
+      font-size: 14px;
+      color: #666;
+      font-weight: 500;
+    }
+
+    #loading .notice {
+      margin-top: 24px;
+      padding: 12px 24px;
+      background: rgba(222, 41, 16, 0.1);
+      border-radius: 8px;
+      max-width: 400px;
+      text-align: center;
+    }
+
+    #loading .notice-title {
+      font-size: 13px;
+      font-weight: 600;
+      color: #DE2910;
+      margin-bottom: 6px;
+    }
+
+    #loading .notice-text {
+      font-size: 12px;
+      color: #666;
+      line-height: 1.5;
+    }
+
+    @keyframes spin {
+      0% {
+        transform: rotate(0deg);
+      }
+
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+
+    @keyframes pulse {
+
+      0%,
+      100% {
+        transform: scale(1);
+      }
+
+      50% {
+        transform: scale(1.05);
+      }
+    }
+  </style>
 </head>
+
 <body>
+  <!-- Loading Screen -->
+  <div id="loading">
+    <div class="logo">粵</div>
+    <div class="title">粵語大詞典</div>
+    <div class="subtitle">Great Cantonese Dictionary</div>
+    <div class="spinner"></div>
+    <div class="status">
+      正在載入... / Loading...
+    </div>
+    <div class="notice">
+      <div class="notice-title">
+        💡 首次載入需要較長時間 / First-time loading takes longer
+      </div>
+      <div class="notice-text">
+        下次訪問將立即載入！<br>
+        Next visit will load instantly!
+      </div>
+    </div>
+  </div>
+
+  <!-- Service Worker Registration -->
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('sw.js')
+          .then((registration) => {
+            console.log('✅ ServiceWorker registered:', registration.scope);
+          })
+          .catch((error) => {
+            console.log('⚠️ ServiceWorker registration failed:', error);
+          });
+      });
+    }
+  </script>
+
+  <!-- Flutter Bootstrap -->
   <script src="flutter_bootstrap.js" async></script>
+
+  <!-- Hide loading screen once Flutter is ready -->
+  <script>
+    window.addEventListener('flutter-first-frame', () => {
+      const loading = document.getElementById('loading');
+      if (loading) {
+        loading.style.opacity = '0';
+        loading.style.transition = 'opacity 0.3s ease';
+        setTimeout(() => loading.remove(), 300);
+      }
+    });
+  </script>
 </body>
+
 </html>

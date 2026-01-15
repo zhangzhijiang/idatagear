@@ -1,13 +1,21 @@
 {
-    "name": "great_cantonese_dictionary",
-    "short_name": "great_cantonese_dictionary",
+    "name": "Great Cantonese Dictionary - 粵語大詞典",
+    "short_name": "GCD",
     "start_url": ".",
     "display": "standalone",
-    "background_color": "#ffffff",
-    "theme_color": "#2196F3",
-    "description": "A new Flutter project.",
+    "background_color": "#FFFFFF",
+    "theme_color": "#DE2910",
+    "description": "Great Cantonese Dictionary - Learn Cantonese with comprehensive dictionary, Jyutping pronunciation, examples, and more.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
+    "scope": ".",
+    "lang": "en-US",
+    "dir": "ltr",
+    "categories": [
+        "education",
+        "reference",
+        "productivity"
+    ],
     "icons": [
         {
             "src": "icons/Icon-192.png",
@@ -31,5 +39,7 @@
             "type": "image/png",
             "purpose": "maskable"
         }
-    ]
+    ],
+    "screenshots": [],
+    "shortcuts": []
 }
