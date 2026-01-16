@@ -5584,5 +5584,705 @@
     "jyutping": "zuk1 nei5 hou2 wan6",
     "english": "Good luck!",
     "tags": ["information", "travel"]
+  },
+  {
+    "sentenceId": 899,
+    "cantonese": "唔該，我想問下呢度附近有無藥房？",
+    "jyutping": "m4 goi1, ngo5 soeng2 man6 haa5 ni1 dou6 fu6 gan6 jau5 mou5 joek6 fong4?",
+    "english": "Excuse me, I want to ask if there is a pharmacy nearby?",
+    "tags": ["life", "travel"]
+  },
+  {
+    "sentenceId": 900,
+    "cantonese": "你今日忙唔忙呀？不如一齊食午飯？",
+    "jyutping": "nei5 gam1 jat6 mong4 m4 mong4 aa3? bat1 jyu4 jat1 cai4 sik6 ng5 faan6?",
+    "english": "Are you busy today? How about having lunch together?",
+    "tags": ["work", "dining"]
+  },
+  {
+    "sentenceId": 901,
+    "cantonese": "呢件衫有無大碼呀？我想試下。",
+    "jyutping": "ni1 gin6 saam1 jau5 mou5 daai6 maa5 aa3? ngo5 soeng2 si3 haa5.",
+    "english": "Does this shirt come in a large size? I'd like to try it on.",
+    "tags": ["shopping"]
+  },
+  {
+    "sentenceId": 902,
+    "cantonese": "我聽日要早啲返公司開會。",
+    "jyutping": "ngo5 ting1 jat1 jiu3 zou2 di1 faan1 gung1 si1 hoi1 wui6.",
+    "english": "I need to go back to the office earlier tomorrow for a meeting.",
+    "tags": ["work"]
+  },
+  {
+    "sentenceId": 903,
+    "cantonese": "唔該，一個番茄牛腩麵，走蔥。",
+    "jyutping": "m4 goi1, jat1 go3 faan1 ke2 ngau4 naam4 min6, zau2 cung1.",
+    "english": "Excuse me, one tomato beef brisket noodles, no green onions.",
+    "tags": ["dining"]
+  },
+  {
+    "sentenceId": 904,
+    "cantonese": "請問地鐵站點樣行呀？",
+    "jyutping": "cing2 man6 dei6 tit3 zaam6 dim2 joeng2 hang4 aa3?",
+    "english": "Excuse me, how do I get to the MTR station?",
+    "tags": ["travel", "transport"]
+  },
+  {
+    "sentenceId": 905,
+    "cantonese": "我最近開始學廣東話，覺得好得意。",
+    "jyutping": "ngo5 zeoi3 gan6 hoi1 ci2 hok6 gwong2 dung1 waa6, gok3 dak1 hou2 dak1 ji3.",
+    "english": "I started learning Cantonese recently, and I find it very interesting.",
+    "tags": ["learning"]
+  },
+  {
+    "sentenceId": 906,
+    "cantonese": "今晚去唔去打羽毛球呀？",
+    "jyutping": "gam1 maan5 heoi3 m4 heoi3 daa2 jyu5 mou4 kau4 aa3?",
+    "english": "Are we going to play badminton tonight?",
+    "tags": ["sports"]
+  },
+  {
+    "sentenceId": 907,
+    "cantonese": "呢度收唔收信用卡呀？",
+    "jyutping": "ni1 dou6 sau1 m4 sau1 seon3 jung6 kaa1 aa3?",
+    "english": "Do you accept credit cards here?",
+    "tags": ["shopping", "information"]
+  },
+  {
+    "sentenceId": 908,
+    "cantonese": "我感冒咗，今日想請病假。",
+    "jyutping": "ngo5 gam2 mou6 zo2, gam1 jat6 soeng2 cing2 beng6 gaa3.",
+    "english": "I have a cold and would like to take sick leave today.",
+    "tags": ["work", "life"]
+  },
+  {
+    "sentenceId": 909,
+    "cantonese": "等陣間喺門口見啦。",
+    "jyutping": "dang2 zan6 gaan1 hai2 mun4 hau2 gin3 laa1.",
+    "english": "See you at the entrance in a moment.",
+    "tags": ["social", "life"]
+  },
+  {
+    "sentenceId": 910,
+    "cantonese": "呢間餐廳嘅點心好出名。",
+    "jyutping": "ni1 gaan1 caan1 jing3 ge3 dim2 sam1 hou2 ceot1 ming4.",
+    "english": "The dim sum at this restaurant is very famous.",
+    "tags": ["dining", "travel"]
+  },
+  {
+    "sentenceId": 911,
+    "cantonese": "麻煩你幫我影印呢份文件。",
+    "jyutping": "maa4 faan1 nei5 bong1 ngo5 jing2 jan3 ni1 fan6 man4 gin2.",
+    "english": "Please help me photocopy this document.",
+    "tags": ["work"]
+  },
+  {
+    "sentenceId": 912,
+    "cantonese": "聽日天氣好似會轉冷。",
+    "jyutping": "ting1 jat1 tin1 hei3 hou2 ci5 wui5 zyun2 laang5.",
+    "english": "It seems the weather will turn cold tomorrow.",
+    "tags": ["life", "information"]
+  },
+  {
+    "sentenceId": 913,
+    "cantonese": "我想買張八達通，唔該。",
+    "jyutping": "ngo5 soeng2 maai5 zoeng1 baat3 daat6 tung1, m4 goi1.",
+    "english": "I'd like to buy an Octopus card, please.",
+    "tags": ["travel", "transport"]
+  },
+  {
+    "sentenceId": 914,
+    "cantonese": "份功課好難，你可以教我嗎？",
+    "jyutping": "fan6 gung1 fo3 hou2 naan4, nei5 ho2 ji5 gaau3 ngo5 maa1?",
+    "english": "The homework is very difficult, can you teach me?",
+    "tags": ["learning"]
+  },
+  {
+    "sentenceId": 915,
+    "cantonese": "埋單，唔該！分開畀呀。",
+    "jyutping": "maai4 daan1, m4 goi1! fan1 hoi1 bei2 aa3.",
+    "english": "Check, please! We're paying separately.",
+    "tags": ["dining", "social"]
+  },
+  {
+    "sentenceId": 916,
+    "cantonese": "部電腦壞咗，整極都唔得。",
+    "jyutping": "bou6 din6 nou5 waai6 zo2, zing2 gik6 dou1 m4 dak1.",
+    "english": "The computer is broken; it won't work no matter how I try to fix it.",
+    "tags": ["work", "life"]
+  },
+  {
+    "sentenceId": 917,
+    "cantonese": "好耐無見，最近忙緊咩呀？",
+    "jyutping": "hou2 noi6 mou4 gin3, zeoi3 gan6 mong4 gan2 me1 aa3?",
+    "english": "Long time no see, what have you been busy with lately?",
+    "tags": ["social"]
+  },
+  {
+    "sentenceId": 918,
+    "cantonese": "我想去圖書館借書。",
+    "jyutping": "ngo5 soeng2 heoi3 tou4 syu1 gwun2 ze3 syu1.",
+    "english": "I want to go to the library to borrow books.",
+    "tags": ["learning", "life"]
+  },
+  {
+    "sentenceId": 919,
+    "cantonese": "呢度有無 WiFi 密碼呀？",
+    "jyutping": "ni1 dou6 jau5 mou5 wai1 fai1 mat6 maa5 aa3?",
+    "english": "Is there a WiFi password here?",
+    "tags": ["information", "travel"]
+  },
+  {
+    "sentenceId": 920,
+    "cantonese": "前面路口轉左就到喇。",
+    "jyutping": "cin4 min6 lou6 hau2 zyun3 zo2 zau6 dou3 laa3.",
+    "english": "Turn left at the intersection ahead and you'll be there.",
+    "tags": ["travel", "transport"]
+  },
+  {
+    "sentenceId": 921,
+    "cantonese": "你鍾意食辣定係唔辣呀？",
+    "jyutping": "nei5 zung1 ji3 sik6 laat6 ding6 hai6 m4 laat6 aa3?",
+    "english": "Do you like spicy or non-spicy food?",
+    "tags": ["dining"]
+  },
+  {
+    "sentenceId": 922,
+    "cantonese": "我聽晚要去機場接朋友。",
+    "jyutping": "ngo5 ting1 maan5 jiu3 heoi3 gei1 coeng4 zip3 pang4 jau5.",
+    "english": "I need to go to the airport to pick up a friend tomorrow night.",
+    "tags": ["travel", "social"]
+  },
+  {
+    "sentenceId": 923,
+    "cantonese": "辛苦晒你，下次請你食飯！",
+    "jyutping": "san1 fu2 saai3 nei5, haa6 ci3 cing2 nei5 sik6 faan6!",
+    "english": "Thank you for your hard work, I'll treat you to dinner next time!",
+    "tags": ["social", "work"]
+  },
+  {
+    "sentenceId": 924,
+    "cantonese": "唔好意思，我遲咗少少。",
+    "jyutping": "m4 hou2 ji3 si1, ngo5 ci4 zo2 siu2 siu2.",
+    "english": "I'm sorry, I'm a little bit late.",
+    "tags": ["social", "work"]
+  },
+  {
+    "sentenceId": 925,
+    "cantonese": "呢部相機影相好靚。",
+    "jyutping": "ni1 bou6 soeng2 gei1 jing2 soeng2 hou2 leng3.",
+    "english": "This camera takes very beautiful photos.",
+    "tags": ["shopping", "entertainment"]
+  },
+  {
+    "sentenceId": 926,
+    "cantonese": "我平時放假鍾意去行山。",
+    "jyutping": "ngo5 ping4 si4 fong3 gaa3 zung1 ji3 heoi3 hang4 saan1.",
+    "english": "I usually like going hiking on my days off.",
+    "tags": ["sports", "life"]
+  },
+  {
+    "sentenceId": 927,
+    "cantonese": "唔該，我想退咗呢件貨。",
+    "jyutping": "m4 goi1, ngo5 soeng2 teoi3 zo2 ni1 gin6 fo3.",
+    "english": "Excuse me, I'd like to return this item.",
+    "tags": ["shopping"]
+  },
+  {
+    "sentenceId": 928,
+    "cantonese": "你要唔要加埋柔順劑洗衫？",
+    "jyutping": "nei5 jiu3 m4 jiu3 gaa1 maai4 jau4 seon6 zai1 sai2 saam1?",
+    "english": "Do you want to add fabric softener to the laundry?",
+    "tags": ["life"]
+  },
+  {
+    "sentenceId": 929,
+    "cantonese": "呢個計劃書仲要改下。",
+    "jyutping": "ni1 go3 gai3 waak6 syu1 zung6 jiu3 goi2 haa5.",
+    "english": "This proposal still needs some changes.",
+    "tags": ["work"]
+  },
+  {
+    "sentenceId": 930,
+    "cantonese": "恭喜晒，祝你新婚快樂！",
+    "jyutping": "gung1 hei2 saai3, zuk1 nei5 san1 fan1 faai3 lok6!",
+    "english": "Congratulations, I wish you a happy wedding!",
+    "tags": ["social"]
+  },
+  {
+    "sentenceId": 931,
+    "cantonese": "我有啲頭暈，想休息下。",
+    "jyutping": "ngo5 jau5 di1 tau4 wan4, soeng2 jau1 sik6 haa5.",
+    "english": "I feel a bit dizzy and want to rest.",
+    "tags": ["life"]
+  },
+  {
+    "sentenceId": 932,
+    "cantonese": "呢對鞋好舒服，係咩牌子？",
+    "jyutping": "ni1 deoi3 haai4 hou2 syu1 fuk6, hai6 me1 paai4 zi2?",
+    "english": "These shoes are very comfortable, what brand are they?",
+    "tags": ["shopping", "sports"]
+  },
+  {
+    "sentenceId": 933,
+    "cantonese": "我決定下個月去日本旅行。",
+    "jyutping": "ngo5 kyut3 ding6 haa6 go3 jyut6 heoi3 jat6 bun2 leoi5 hang4.",
+    "english": "I've decided to travel to Japan next month.",
+    "tags": ["travel"]
+  },
+  {
+    "sentenceId": 934,
+    "cantonese": "早晨，今日心情幾好喎！",
+    "jyutping": "zou2 san1, gam1 jat6 sam1 cing4 gei2 hou2 wo3!",
+    "english": "Good morning, you seem to be in a good mood today!",
+    "tags": ["social"]
+  },
+  {
+    "sentenceId": 935,
+    "cantonese": "唔該，幫我攞杯暖水。",
+    "jyutping": "m4 goi1, bong1 ngo5 lo2 bui1 nyun5 seoi2.",
+    "english": "Please get me a glass of warm water.",
+    "tags": ["dining", "life"]
+  },
+  {
+    "sentenceId": 936,
+    "cantonese": "你有無聽過呢個歌手嘅歌？",
+    "jyutping": "nei5 jau5 mou5 ting1 gwo3 ni1 go3 go1 sau2 ge3 go1?",
+    "english": "Have you heard this singer's songs?",
+    "tags": ["entertainment", "social"]
+  },
+  {
+    "sentenceId": 937,
+    "cantonese": "呢個週末你有咩活動？",
+    "jyutping": "ni1 go3 zau1 mut6 nei5 jau5 me1 wut6 dung6?",
+    "english": "What are your plans for this weekend?",
+    "tags": ["social", "life"]
+  },
+  {
+    "sentenceId": 938,
+    "cantonese": "我想搵份兼職做下。",
+    "jyutping": "ngo5 soeng2 wan2 fan6 gim1 zik1 zou6 haa5.",
+    "english": "I want to find a part-time job.",
+    "tags": ["work", "learning"]
+  },
+  {
+    "sentenceId": 939,
+    "cantonese": "小心呀，地上面好滑。",
+    "jyutping": "siu2 sam1 aa3, dei6 soeng6 min6 hou2 waat6.",
+    "english": "Be careful, the floor is very slippery.",
+    "tags": ["life", "information"]
+  },
+  {
+    "sentenceId": 940,
+    "cantonese": "呢個芒果好甜，你要唔要試下？",
+    "jyutping": "ni1 go3 mong1 gwo2 hou2 tim4, nei5 jiu3 m4 jiu3 si3 haa5?",
+    "english": "This mango is very sweet, do you want to try it?",
+    "tags": ["dining"]
+  },
+  {
+    "sentenceId": 941,
+    "cantonese": "我唔見咗張身分證，點算好？",
+    "jyutping": "ngo5 m4 gin3 zo2 zoeng1 san1 fan6 zing3, dim2 syun3 hou2?",
+    "english": "I've lost my ID card, what should I do?",
+    "tags": ["life", "information"]
+  },
+  {
+    "sentenceId": 942,
+    "cantonese": "一齊去游水啦，今日好熱。",
+    "jyutping": "jat1 cai4 heoi3 jau4 seoi2 laa1, gam1 jat6 hou2 jit6.",
+    "english": "Let's go swimming together; it's very hot today.",
+    "tags": ["sports", "life"]
+  },
+  {
+    "sentenceId": 943,
+    "cantonese": "麻煩幫我轉告佢，我會準時到。",
+    "jyutping": "maa4 faan1 bong1 ngo5 zyun2 gou3 keoi5, ngo5 wui5 zeon2 si4 dou3.",
+    "english": "Please tell him that I will be there on time.",
+    "tags": ["social", "work"]
+  },
+  {
+    "sentenceId": 944,
+    "cantonese": "呢本雜誌係最新一期。",
+    "jyutping": "ni1 bun2 zaap6 zi3 hai6 zeoi3 san1 jat1 kei4.",
+    "english": "This magazine is the latest issue.",
+    "tags": ["entertainment", "learning"]
+  },
+  {
+    "sentenceId": 945,
+    "cantonese": "你平時幾點收工架？",
+    "jyutping": "nei5 ping4 si4 gei2 dim2 sau1 gung1 gaa3?",
+    "english": "What time do you usually get off work?",
+    "tags": ["work", "social"]
+  },
+  {
+    "sentenceId": 946,
+    "cantonese": "我好鍾意飲台式奶茶。",
+    "jyutping": "ngo5 hou2 zung1 ji3 jam2 toi4 sik1 naai5 caa4.",
+    "english": "I really like drinking Taiwanese style milk tea.",
+    "tags": ["dining"]
+  },
+  {
+    "sentenceId": 947,
+    "cantonese": "前面有落，唔該司機！",
+    "jyutping": "cin4 min6 jau5 lok6, m4 goi1 si1 gei1!",
+    "english": "Stop ahead, please driver!",
+    "tags": ["travel", "transport"]
+  },
+  {
+    "sentenceId": 948,
+    "cantonese": "你份人真係好有幽默感。",
+    "jyutping": "nei5 fan6 jan4 zan1 hai6 hou2 jau5 jau1 mak6 gam2.",
+    "english": "You really have a great sense of humor.",
+    "tags": ["social"]
+  },
+  {
+    "sentenceId": 949,
+    "cantonese": "唔該，我想換啲零錢。",
+    "jyutping": "m4 goi1, ngo5 soeng2 wun6 di1 ling4 cin2.",
+    "english": "Excuse me, I'd like to exchange some small change.",
+    "tags": ["life", "shopping"]
+  },
+  {
+    "sentenceId": 950,
+    "cantonese": "今晚有波睇，你睇唔睇呀？",
+    "jyutping": "gam1 maan5 jau5 bo1 tai2, nei5 tai2 m4 tai2 aa3?",
+    "english": "There's a match tonight, are you watching?",
+    "tags": ["entertainment", "sports"]
+  },
+  {
+    "sentenceId": 951,
+    "cantonese": "呢部戲評價好高，一齊去睇啦。",
+    "jyutping": "ni1 bou6 hei3 ping4 gaa3 hou2 gou1, jat1 cai4 heoi3 tai2 laa1.",
+    "english": "This movie has high reviews, let's go see it together.",
+    "tags": ["entertainment", "social"]
+  },
+  {
+    "sentenceId": 952,
+    "cantonese": "我想報名參加馬拉松。",
+    "jyutping": "ngo5 soeng2 bou3 ming4 caam1 gaa1 maa5 laai1 cung4.",
+    "english": "I want to sign up for the marathon.",
+    "tags": ["sports"]
+  },
+  {
+    "sentenceId": 953,
+    "cantonese": "呢度環境好舒服，好啱休息。",
+    "jyutping": "ni1 dou6 waan4 ging2 hou2 syu1 fuk6, hou2 ngaam1 jau1 sik6.",
+    "english": "The environment here is very comfortable, perfect for resting.",
+    "tags": ["life", "travel"]
+  },
+  {
+    "sentenceId": 954,
+    "cantonese": "你可唔可以幫我翻譯呢句？",
+    "jyutping": "nei5 ho2 m4 ho2 ji5 bong1 ngo5 faan1 jik6 ni1 geoi3?",
+    "english": "Can you help me translate this sentence?",
+    "tags": ["learning", "social"]
+  },
+  {
+    "sentenceId": 955,
+    "cantonese": "唔該，我想喺呢度寄存行李。",
+    "jyutping": "m4 goi1, ngo5 soeng2 hai2 ni1 dou6 gei3 cyun4 hang4 lei5.",
+    "english": "Excuse me, I'd like to store my luggage here.",
+    "tags": ["travel"]
+  },
+  {
+    "sentenceId": 956,
+    "cantonese": "今日好曬，記得查防曬。",
+    "jyutping": "gam1 jat6 hou2 saai3, gei3 dak1 caa4 fong4 saai3.",
+    "english": "It's very sunny today, remember to apply sunscreen.",
+    "tags": ["life", "travel"]
+  },
+  {
+    "sentenceId": 957,
+    "cantonese": "呢個蛋糕係我親手整架。",
+    "jyutping": "ni1 go3 daan6 gou1 hai6 ngo5 can1 sau2 zing2 gaa3.",
+    "english": "I made this cake myself.",
+    "tags": ["dining", "social"]
+  },
+  {
+    "sentenceId": 958,
+    "cantonese": "你最近有無睇中咩新產品？",
+    "jyutping": "nei5 zeoi3 gan6 jau5 mou5 tai2 zung3 me1 san1 caan2 ban2?",
+    "english": "Have you had your eye on any new products lately?",
+    "tags": ["shopping", "social"]
+  },
+  {
+    "sentenceId": 959,
+    "cantonese": "我打算聽日去剪頭髮。",
+    "jyutping": "ngo5 daat2 syun3 ting1 jat1 heoi3 zin2 tau4 faat3.",
+    "english": "I plan to get a haircut tomorrow.",
+    "tags": ["life"]
+  },
+  {
+    "sentenceId": 960,
+    "cantonese": "呢部打印機成日卡紙。",
+    "jyutping": "ni1 bou6 daa2 jan3 gei1 seng4 jat6 kaa1 zi2.",
+    "english": "This printer jams all the time.",
+    "tags": ["work"]
+  },
+  {
+    "sentenceId": 961,
+    "cantonese": "一齊去超市買啲日用品啦。",
+    "jyutping": "jat1 cai4 heoi3 ciu1 si5 maai5 di1 jat6 jung6 ban2 laa1.",
+    "english": "Let's go to the supermarket to buy some daily necessities.",
+    "tags": ["shopping", "life"]
+  },
+  {
+    "sentenceId": 962,
+    "cantonese": "我想搵個私人教練學健身。",
+    "jyutping": "ngo5 soeng2 wan2 go3 si1 jan4 gaau3 lin6 hok6 gin3 san1.",
+    "english": "I want to find a personal trainer to learn fitness.",
+    "tags": ["sports", "learning"]
+  },
+  {
+    "sentenceId": 963,
+    "cantonese": "呢條裙好襯你，好有氣質。",
+    "jyutping": "ni1 tiu4 kwan4 hou2 can3 nei5, hou2 jau5 hei3 zat1.",
+    "english": "This dress suits you well; you look very elegant.",
+    "tags": ["social", "shopping"]
+  },
+  {
+    "sentenceId": 964,
+    "cantonese": "唔好意思，借借呀。",
+    "jyutping": "m4 hou2 ji3 si1, ze3 ze3 aa3.",
+    "english": "Excuse me, coming through.",
+    "tags": ["social", "travel"]
+  },
+  {
+    "sentenceId": 965,
+    "cantonese": "我今日忙到連飯都無時間食。",
+    "jyutping": "ngo5 gam1 jat6 mong4 dou3 lin4 faan6 dou1 mou4 si4 gaan3 sik6.",
+    "english": "I was so busy today I didn't even have time to eat.",
+    "tags": ["work", "life"]
+  },
+  {
+    "sentenceId": 966,
+    "cantonese": "呢度啲風景真係百看不厭。",
+    "jyutping": "ni1 dou6 di1 fung1 ging2 zan1 hai6 baak3 hon3 bat1 jim3.",
+    "english": "The scenery here is truly something I never get tired of looking at.",
+    "tags": ["travel", "life"]
+  },
+  {
+    "sentenceId": 967,
+    "cantonese": "我想訂聽晚兩位，七點鐘。",
+    "jyutping": "ngo5 soeng2 deng6 ting1 maan5 loeng5 wai2, cat1 dim2 zung1.",
+    "english": "I'd like to book a table for two tomorrow night at seven o'clock.",
+    "tags": ["dining"]
+  },
+  {
+    "sentenceId": 968,
+    "cantonese": "部冷氣好似唔係幾凍。",
+    "jyutping": "bou6 laang5 hei3 hou2 ci5 m4 hai6 gei2 dung3.",
+    "english": "The air conditioner doesn't seem very cold.",
+    "tags": ["life"]
+  },
+  {
+    "sentenceId": 969,
+    "cantonese": "你平時用開邊隻牌子嘅化妝品？",
+    "jyutping": "nei5 ping4 si4 jung6 hoi1 bin1 zek3 paai4 zi2 ge3 faa3 zong1 ban2?",
+    "english": "Which brand of cosmetics do you usually use?",
+    "tags": ["shopping", "social"]
+  },
+  {
+    "sentenceId": 970,
+    "cantonese": "今日好攰，想早啲訓。",
+    "jyutping": "gam1 jat6 hou2 gui6, soeng2 zou2 di1 fan3.",
+    "english": "I'm very tired today and want to go to sleep early.",
+    "tags": ["life"]
+  },
+  {
+    "sentenceId": 971,
+    "cantonese": "我喺網上買咗啲嘢，未送到。",
+    "jyutping": "ngo5 hai2 mong5 soeng6 maai5 zo2 di1 je5, mei6 sung3 dou3.",
+    "english": "I bought some things online, but they haven't been delivered yet.",
+    "tags": ["shopping"]
+  },
+  {
+    "sentenceId": 972,
+    "cantonese": "呢個課題我仲有啲地方唔明。",
+    "jyutping": "ni1 go3 fo3 tai4 ngo5 zung6 jau5 di1 dei6 fong1 m4 ming4.",
+    "english": "There are still some parts of this topic I don't understand.",
+    "tags": ["learning"]
+  },
+  {
+    "sentenceId": 973,
+    "cantonese": "唔該，我想開個新戶口。",
+    "jyutping": "m4 goi1, ngo5 soeng2 hoi1 go3 san1 wu6 hau2.",
+    "english": "Excuse me, I'd like to open a new account.",
+    "tags": ["life", "information"]
+  },
+  {
+    "sentenceId": 974,
+    "cantonese": "一齊去唱 K 囉，好耐無去喇。",
+    "jyutping": "jat1 cai4 heoi3 coeng3 kei1 lo1, hou2 noi6 mou4 heoi3 laa3.",
+    "english": "Let's go to karaoke; it's been a long time.",
+    "tags": ["entertainment", "social"]
+  },
+  {
+    "sentenceId": 975,
+    "cantonese": "呢度啲叉燒飯好有水準。",
+    "jyutping": "ni1 dou6 di1 caa1 siu1 faan6 hou2 jau5 seoi2 zeon2.",
+    "english": "The BBQ pork rice here is of a high standard.",
+    "tags": ["dining"]
+  },
+  {
+    "sentenceId": 976,
+    "cantonese": "你要唔要帶埋把遮？好似想落雨。",
+    "jyutping": "nei5 jiu3 m4 jiu3 daai3 maai4 baa2 ze1? hou2 ci5 soeng2 lok6 jyu5.",
+    "english": "Do you want to bring an umbrella? It looks like it's going to rain.",
+    "tags": ["life", "information"]
+  },
+  {
+    "sentenceId": 977,
+    "cantonese": "我聽日要去見工，有啲緊張。",
+    "jyutping": "ngo5 ting1 jat1 jiu3 heoi3 gin3 gung1, jau5 di1 gan2 zoeng1.",
+    "english": "I have a job interview tomorrow, and I'm a bit nervous.",
+    "tags": ["work", "social"]
+  },
+  {
+    "sentenceId": 978,
+    "cantonese": "呢個耳機音質幾好，幾錢呀？",
+    "jyutping": "ni1 go3 ji5 gei1 jam1 zat1 gei2 hou2, gei2 cin2 aa3?",
+    "english": "The sound quality of these headphones is good, how much are they?",
+    "tags": ["shopping", "entertainment"]
+  },
+  {
+    "sentenceId": 979,
+    "cantonese": "我想學游水，你有無好介紹？",
+    "jyutping": "ngo5 soeng2 hok6 jau4 seoi2, nei5 jau5 mou5 hou2 gaai3 siu3?",
+    "english": "I want to learn swimming, do you have any recommendations?",
+    "tags": ["sports", "learning"]
+  },
+  {
+    "sentenceId": 980,
+    "cantonese": "呢度可以影相，但唔可以用閃光燈。",
+    "jyutping": "ni1 dou6 ho2 ji5 jing2 soeng2, daan6 m4 ho2 ji5 jung6 sim2 gwong1 dang1.",
+    "english": "You can take photos here, but you can't use a flash.",
+    "tags": ["travel", "information"]
+  },
+  {
+    "sentenceId": 981,
+    "cantonese": "我啱啱搬咗新屋，得閒嚟坐啦。",
+    "jyutping": "ngo5 ngaam1 ngaam1 bun1 zo2 san1 uk1, dak1 haan4 lei4 co5 laa1.",
+    "english": "I just moved into a new place, come over when you're free.",
+    "tags": ["social", "life"]
+  },
+  {
+    "sentenceId": 982,
+    "cantonese": "呢杯咖啡好香，你要唔要試下？",
+    "jyutping": "ni1 bui1 gaa3 fe1 hou2 hoeng1, nei5 jiu3 m4 jiu3 si3 haa5?",
+    "english": "This coffee smells great, do you want to try it?",
+    "tags": ["dining"]
+  },
+  {
+    "sentenceId": 983,
+    "cantonese": "我有份報告要趕，今晚要加班。",
+    "jyutping": "ngo5 jau5 fan6 bou3 gou3 jiu3 gon2, gam1 maan5 jiu3 gaa1 baan1.",
+    "english": "I have a report to finish, so I need to work overtime tonight.",
+    "tags": ["work"]
+  },
+  {
+    "sentenceId": 984,
+    "cantonese": "呢個公仔好打耳，我想買一個。",
+    "jyutping": "ni1 go3 gung1 zai2 hou2 daa2 ji5, ngo5 soeng2 maai5 jat1 go3.",
+    "english": "This plushie is so cute, I want to buy one.",
+    "tags": ["shopping"]
+  },
+  {
+    "sentenceId": 985,
+    "cantonese": "你平時係咪搭地鐵返工架？",
+    "jyutping": "nei5 ping4 si4 hai6 mai6 daap3 dei6 tit3 faan1 gung1 gaa3?",
+    "english": "Do you usually take the MTR to work?",
+    "tags": ["work", "transport"]
+  },
+  {
+    "sentenceId": 986,
+    "cantonese": "今日好大風，記得著多件衫。",
+    "jyutping": "gam1 jat6 hou2 daai6 fung1, gei3 dak1 zoek3 do1 gin6 saam1.",
+    "english": "It's very windy today, remember to wear more clothes.",
+    "tags": ["life", "information"]
+  },
+  {
+    "sentenceId": 987,
+    "cantonese": "我想換個新嘅手機殼。",
+    "jyutping": "ngo5 soeng2 wun6 go3 san1 ge3 sau2 gei1 hok3.",
+    "english": "I want to change to a new phone case.",
+    "tags": ["shopping"]
+  },
+  {
+    "sentenceId": 988,
+    "cantonese": "呢間戲院啲櫈幾舒服。",
+    "jyutping": "ni1 gaan1 hei3 jyun2 di1 dang3 gei2 syu1 fuk6.",
+    "english": "The seats in this cinema are quite comfortable.",
+    "tags": ["entertainment"]
+  },
+  {
+    "sentenceId": 989,
+    "cantonese": "我下個禮拜要出差，去上海。",
+    "jyutping": "ngo5 haa6 go3 lai5 baai3 jiu3 ceot1 caai1, heoi3 soeng6 hoi2.",
+    "english": "I need to go on a business trip to Shanghai next week.",
+    "tags": ["work", "travel"]
+  },
+  {
+    "sentenceId": 990,
+    "cantonese": "呢度啲海鮮好新鮮，好出名。",
+    "jyutping": "ni1 dou6 di1 hoi2 sin1 hou2 san1 sin1, hou2 ceot1 ming4.",
+    "english": "The seafood here is very fresh and famous.",
+    "tags": ["dining", "travel"]
+  },
+  {
+    "sentenceId": 991,
+    "cantonese": "你要唔要幫手搬呢啲嘢？",
+    "jyutping": "nei5 jiu3 m4 jiu3 bong1 sau2 bun1 ni1 di1 je5?",
+    "english": "Do you need help moving these things?",
+    "tags": ["social", "life"]
+  },
+  {
+    "sentenceId": 992,
+    "cantonese": "我今日心情好差，唔想講嘢。",
+    "jyutping": "ngo5 gam1 jat6 sam1 cing4 hou2 caa1, m4 soeng2 gong2 je5.",
+    "english": "I'm in a very bad mood today and don't want to talk.",
+    "tags": ["social", "life"]
+  },
+  {
+    "sentenceId": 993,
+    "cantonese": "呢個手袋幾靚，但係太貴喇。",
+    "jyutping": "ni1 go3 sau2 doi6 gei2 leng3, daan6 hai6 taai3 gwai3 laa3.",
+    "english": "This handbag is quite pretty, but it's too expensive.",
+    "tags": ["shopping"]
+  },
+  {
+    "sentenceId": 994,
+    "cantonese": "我想報名學法文，你有無推薦？",
+    "jyutping": "ngo5 soeng2 bou3 ming4 hok6 faat3 man4, nei5 jau5 mou5 teoi1 zin3?",
+    "english": "I want to sign up to learn French, do you have any recommendations?",
+    "tags": ["learning"]
+  },
+  {
+    "sentenceId": 995,
+    "cantonese": "呢度嘅服務態度真係幾好。",
+    "jyutping": "ni1 dou6 ge3 fuk6 mou6 taai3 dou6 zan1 hai6 gei2 hou2.",
+    "english": "The service attitude here is really quite good.",
+    "tags": ["dining", "shopping"]
+  },
+  {
+    "sentenceId": 996,
+    "cantonese": "我打算買份禮物畀媽咪。",
+    "jyutping": "ngo5 daat2 syun3 maai5 fan6 lai5 mat6 bei2 maa1 mi1.",
+    "english": "I plan to buy a gift for my mom.",
+    "tags": ["shopping", "social"]
+  },
+  {
+    "sentenceId": 997,
+    "cantonese": "你平時食飯鍾意去茶餐廳定係酒樓？",
+    "jyutping": "nei5 ping4 si4 sik6 faan6 zung1 ji3 heoi3 caa4 caan1 jing3 ding6 hai6 zau2 lau4?",
+    "english": "When you eat out, do you prefer tea restaurants or Chinese restaurants?",
+    "tags": ["dining", "social"]
+  },
+  {
+    "sentenceId": 998,
+    "cantonese": "我聽日要早起，所以要早啲訓。",
+    "jyutping": "ngo5 ting1 jat1 jiu3 zou2 hei2, so2 ji5 jiu3 zou2 di1 fan3.",
+    "english": "I have to get up early tomorrow, so I need to sleep early.",
+    "tags": ["life"]
   }
 ]
