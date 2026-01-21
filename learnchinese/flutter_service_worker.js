@@ -3,8 +3,8 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 
-const RESOURCES = {"assets/AssetManifest.bin": "29d2dd237056a7a285a2c3094b2448aa",
-"assets/AssetManifest.bin.json": "c161b1a4d7ece0946cf2f0c9d80240ef",
+const RESOURCES = {"assets/AssetManifest.bin": "53bef209d58db725c142e192658da80f",
+"assets/AssetManifest.bin.json": "50da119b444584e93529f61dcb40770c",
 "assets/assets/hsk/articles/hsk_1_articles.json": "01b3ce438e84cd7f89c7debaecc03518",
 "assets/assets/hsk/articles/hsk_2_articles.json": "ffb23d788d4a0f0903e56c03c3dda1df",
 "assets/assets/hsk/articles/hsk_3_articles.json": "94db1dd06bfcf1e57e1929d997bdf363",
@@ -80,7 +80,6 @@ const RESOURCES = {"assets/AssetManifest.bin": "29d2dd237056a7a285a2c3094b2448aa
 "assets/assets/images/hsk/questions/hsk_HSK2_question_136_D.png": "bf6a0b29e915be1ff8117a30a1e7d7ea",
 "assets/assets/images/hsk/questions/hsk_HSK2_question_140.png": "dabd40cb87dfd3314f76bc4f2d782f36",
 "assets/assets/images/hsk/questions/hsk_HSK2_question_143.png": "ca16789a7e8e4f429ab2303283d79427",
-"assets/assets/sqlite/sqlite3.wasm": "fa7637a49a0e434f2a98f9981856d118",
 "assets/assets/web/hanzi-writer.min.js": "a7e0dc40fe55526f51d4d125a361ee36",
 "assets/assets/web/hanzi_bridge.html": "14ed99c184d0ed188121aaa4ad4f330a",
 "assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
@@ -103,14 +102,14 @@ const RESOURCES = {"assets/AssetManifest.bin": "29d2dd237056a7a285a2c3094b2448aa
 "canvaskit/skwasm_heavy.wasm": "b0be7910760d205ea4e011458df6ee01",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "flutter.js": "24bc71911b75b5f8135c949e27a2984e",
-"flutter_bootstrap.js": "558bb9b572844347de3ed1373e6fe97c",
+"flutter_bootstrap.js": "83bbb8300890dd38c3b07e9edfc1d783",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
-"index.html": "df2960f11a1a092805727cd8ae218923",
-"/": "df2960f11a1a092805727cd8ae218923",
-"main.dart.js": "cb01b7e56a131f909a997372eabb9dac",
+"index.html": "d4b37c7c8ae3992867593f5d8f200442",
+"/": "d4b37c7c8ae3992867593f5d8f200442",
+"main.dart.js": "f9a3b602aa92d4d0f25b1ba6c4031a20",
 "manifest.json": "911d2288c87b2e1090716d2fdc7fa5e6",
 "sqlite3.wasm": "fa7637a49a0e434f2a98f9981856d118",
 "version.json": "4ff663ca8100813e72ef03d2f7e9ad07"};
