@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <head>
   <!--
     If you are serving your web app in a path other than the root, change the
@@ -16,29 +15,27 @@
     the `--base-href` argument provided to `flutter build`.
   -->
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8396981938969998"
-    crossorigin="anonymous"></script>
-
+  crossorigin="anonymous"></script>
+  
   <base href="/learnchinese/">
   <meta name="google-adsense-account" content="ca-pub-8396981938969998">
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description"
-    content="Learn Mandarin Chinese with HSK 1-3 preparation. Interactive vocabulary, pronunciation practice, reading comprehension exercises, and structured learning paths. Master Chinese characters and grammar with our comprehensive web and Android app.">
-  <meta name="keywords"
-    content="learn Chinese, Mandarin Chinese, HSK preparation, Chinese vocabulary, Chinese pronunciation, learn Mandarin, Chinese learning app, HSK 1, HSK 2, HSK 3, Chinese characters">
-
+  <meta name="description" content="Learn Mandarin Chinese with HSK 1-3 preparation. Interactive vocabulary, pronunciation practice, reading comprehension exercises, and structured learning paths. Master Chinese characters and grammar with our comprehensive web and Android app.">
+  <meta name="keywords" content="learn Chinese, Mandarin Chinese, HSK preparation, Chinese vocabulary, Chinese pronunciation, learn Mandarin, Chinese learning app, HSK 1, HSK 2, HSK 3, Chinese characters">
+  
   <!-- iOS meta tags & icons -->
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   <meta name="apple-mobile-web-app-title" content="Learn Chinese">
   <link rel="apple-touch-icon" href="icons/Icon-192.png">
-
+  
   <!-- Favicon -->
-  <link rel="icon" type="image/png" href="favicon.png" />
-
+  <link rel="icon" type="image/png" href="favicon.png"/>
+  
   <title>Learn Chinese | McLearn® - Master Mandarin with HSK Preparation | iDataGear</title>
-
+  
   <!-- Structured Data for Web Application -->
   <script type="application/ld+json">
   {
@@ -62,110 +59,19 @@
   }
   </script>
   <link rel="manifest" href="manifest.json">
-  <style>
-    /* 
-      Layout for AdSense sidebars 
-    */
-    body {
-      background-color: #fafafa;
-      margin: 0;
-      padding: 0;
-      overflow: hidden;
-    }
-
-    /* Fixed sidebars for vertical ads */
-    .ad-sidebar {
-      position: fixed;
-      top: 0;
-      height: 100vh;
-      width: 180px;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      background-color: #fafafa;
-      z-index: 999;
-      /* Ensure ads stay on top of app layers */
-      overflow: hidden;
-      padding: 10px;
-      box-sizing: border-box;
-      pointer-events: none;
-      /* Allow clicks through empty areas to the app */
-    }
-
-    .ad-sidebar ins {
-      pointer-events: auto;
-      /* Ensure ads themselves remain clickable */
-    }
-
-    .ad-sidebar-left {
-      left: 0;
-      border-right: 1px solid #eeeeee;
-    }
-
-    .ad-sidebar-right {
-      right: 0;
-      border-left: 1px solid #eeeeee;
-    }
-
-    /* Hide sidebars on screens smaller than 1350px to prevent overlapping narrowed 900px centered content */
-    @media (max-width: 1349px) {
-      .ad-sidebar {
-        display: none !important;
-      }
-    }
-  </style>
 </head>
-
 <body>
   <script>
     // Error handler to catch initialization errors
-    window.addEventListener('error', function (e) {
+    window.addEventListener('error', function(e) {
       console.error('Global error:', e.error);
       document.body.innerHTML = '<div style="padding: 20px; font-family: Arial; text-align: center;"><h1>Loading Error</h1><p>Please check the browser console for details.</p><p>Error: ' + (e.error ? e.error.toString() : 'Unknown error') + '</p></div>';
     });
-
-    window.addEventListener('unhandledrejection', function (e) {
+    
+    window.addEventListener('unhandledrejection', function(e) {
       console.error('Unhandled promise rejection:', e.reason);
     });
-
-    var sidebarsInitialized = false;
-
-    // Toggle ad sidebar visibility
-    window.setAdSidebarsVisible = function (visible) {
-      const left = document.getElementById('ad-sidebar-left');
-      const right = document.getElementById('ad-sidebar-right');
-      const display = visible ? 'flex' : 'none';
-      if (left) left.style.setProperty('display', display, 'important');
-      if (right) right.style.setProperty('display', display, 'important');
-
-      // Initialize ads only once when sidebars first become visible and screen is wide enough
-      if (visible && !sidebarsInitialized && window.innerWidth >= 1350) {
-        sidebarsInitialized = true;
-        try {
-          (adsbygoogle = window.adsbygoogle || []).push({});
-          (adsbygoogle = window.adsbygoogle || []).push({});
-        } catch (e) {
-          console.error("Sidebars Adsense error:", e);
-        }
-      }
-    };
   </script>
-
-  <!-- Left Side Ad Sidebar -->
-  <div id="ad-sidebar-left" class="ad-sidebar ad-sidebar-left" style="display:none;">
-    <!-- LearnChinese_LEFT -->
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-8396981938969998" data-ad-slot="6051007568"
-      data-ad-format="vertical" data-full-width-responsive="true"></ins>
-  </div>
-
-  <!-- Right Side Ad Sidebar -->
-  <div id="ad-sidebar-right" class="ad-sidebar ad-sidebar-right" style="display:none;">
-    <!-- LearnChinese_RIGHT -->
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-8396981938969998" data-ad-slot="6740245038"
-      data-ad-format="vertical" data-full-width-responsive="true"></ins>
-  </div>
   <script src="flutter_bootstrap.js" async></script>
 </body>
-
 </html>
