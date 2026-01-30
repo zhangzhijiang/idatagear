@@ -7,6 +7,10 @@ Disallow: /*.bin$
 # Sitemap
 Sitemap: https://idatagear.com/sitemap.xml
 
+# AI / LLM discovery (llms.txt, llms-full.txt)
+# Allow: /llms.txt
+# Allow: /llms-full.txt
+
 # Crawl-delay (optional, adjust as needed)
 Crawl-delay: 1
 
