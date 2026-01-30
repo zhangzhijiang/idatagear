@@ -1,0 +1,689 @@
+[
+  {
+    "article_id": 1,
+    "langLevel": "HSK1",
+    "sentences": [
+      {
+        "zh": "你好！",
+        "pinyin": "Nǐ hǎo!",
+        "translations": {
+          "en": "Hello!",
+          "es": "¡Hola!",
+          "ko": "안녕하세요!",
+          "ja": "こんにちは！",
+          "vi": "Xin chào!"
+        }
+      },
+      {
+        "zh": "你好吗？",
+        "pinyin": "Nǐ hǎo ma?",
+        "translations": {
+          "en": "How are you?",
+          "es": "¿Cómo estás?",
+          "ko": "어떻게 지내세요?",
+          "ja": "元気ですか？",
+          "vi": "Bạn khỏe không?"
+        }
+      },
+      {
+        "zh": "我很好，谢谢。",
+        "pinyin": "Wǒ hěn hǎo, xièxie.",
+        "translations": {
+          "en": "I'm very well, thank you.",
+          "es": "Muy bien, gracias.",
+          "ko": "저는 아주 잘 지내요, 감사합니다.",
+          "ja": "とても元気です、ありがとう。",
+          "vi": "Tôi rất khỏe, cảm ơn bạn."
+        }
+      },
+      {
+        "zh": "你叫什么名字？",
+        "pinyin": "Nǐ jiào shénme míngzi?",
+        "translations": {
+          "en": "What's your name?",
+          "es": "¿Cómo te llamas?",
+          "ko": "이름이 뭐예요?",
+          "ja": "お名前は何ですか？",
+          "vi": "Bạn tên gì?"
+        }
+      },
+      {
+        "zh": "我叫小明。",
+        "pinyin": "Wǒ jiào Xiǎomíng.",
+        "translations": {
+          "en": "My name is Xiaoming.",
+          "es": "Me llamo Xiaoming.",
+          "ko": "저는 샤오밍입니다.",
+          "ja": "私は小明です。",
+          "vi": "Tôi tên là Tiểu Minh."
+        }
+      },
+      {
+        "zh": "很高兴认识你。",
+        "pinyin": "Hěn gāoxìng rènshi nǐ.",
+        "translations": {
+          "en": "Nice to meet you.",
+          "es": "Encantado de conocerte.",
+          "ko": "만나서 반갑습니다.",
+          "ja": "お会いできて嬉しいです。",
+          "vi": "Rất vui được gặp bạn."
+        }
+      }
+    ]
+  },
+  {
+    "article_id": 2,
+    "langLevel": "HSK1",
+    "sentences": [
+      {
+        "zh": "今天天气很好。",
+        "pinyin": "Jīntiān tiānqì hěn hǎo.",
+        "translations": {
+          "en": "Today the weather is very good.",
+          "es": "Hoy hace muy buen tiempo.",
+          "ko": "오늘 날씨가 아주 좋아요.",
+          "ja": "今日は天気がとても良いです。",
+          "vi": "Hôm nay thời tiết rất đẹp."
+        }
+      },
+      {
+        "zh": "太阳很大。",
+        "pinyin": "Tàiyáng hěn dà.",
+        "translations": {
+          "en": "The sun is very big.",
+          "es": "El sol es muy grande.",
+          "ko": "태양이 아주 커요.",
+          "ja": "太陽がとても大きいです。",
+          "vi": "Mặt trời rất lớn."
+        }
+      },
+      {
+        "zh": "我们出去吧。",
+        "pinyin": "Wǒmen chūqù ba.",
+        "translations": {
+          "en": "Let's go out.",
+          "es": "Vamos afuera.",
+          "ko": "나가요.",
+          "ja": "出かけましょう。",
+          "vi": "Chúng ta đi ra ngoài nhé."
+        }
+      },
+      {
+        "zh": "好！",
+        "pinyin": "Hǎo!",
+        "translations": {
+          "en": "Good!",
+          "es": "¡Bien!",
+          "ko": "좋아요!",
+          "ja": "いいですね！",
+          "vi": "Tốt!"
+        }
+      },
+      {
+        "zh": "我们走路去。",
+        "pinyin": "Wǒmen zǒulù qù.",
+        "translations": {
+          "en": "We'll walk there.",
+          "es": "Vamos caminando.",
+          "ko": "걸어서 가요.",
+          "ja": "歩いて行きます。",
+          "vi": "Chúng ta đi bộ đi."
+        }
+      }
+    ]
+  },
+  {
+    "article_id": 3,
+    "langLevel": "HSK1",
+    "sentences": [
+      {
+        "zh": "我是学生。",
+        "pinyin": "Wǒ shì xuéshēng.",
+        "translations": {
+          "en": "I am a student.",
+          "es": "Soy estudiante.",
+          "ko": "저는 학생입니다.",
+          "ja": "私は学生です。",
+          "vi": "Tôi là học sinh."
+        }
+      },
+      {
+        "zh": "我在学校学习中文。",
+        "pinyin": "Wǒ zài xuéxiào xuéxí Zhōngwén.",
+        "translations": {
+          "en": "I study Chinese at school.",
+          "es": "Estudio chino en la escuela.",
+          "ko": "저는 학교에서 중국어를 배워요.",
+          "ja": "私は学校で中国語を勉強しています。",
+          "vi": "Tôi học tiếng Trung ở trường."
+        }
+      },
+      {
+        "zh": "我的老师很好。",
+        "pinyin": "Wǒ de lǎoshī hěn hǎo.",
+        "translations": {
+          "en": "My teacher is very good.",
+          "es": "Mi maestro es muy bueno.",
+          "ko": "제 선생님이 아주 좋으세요.",
+          "ja": "私の先生はとても良いです。",
+          "vi": "Giáo viên của tôi rất tốt."
+        }
+      },
+      {
+        "zh": "我喜欢读书。",
+        "pinyin": "Wǒ xǐhuan dúshū.",
+        "translations": {
+          "en": "I like reading books.",
+          "es": "Me gusta leer libros.",
+          "ko": "저는 책 읽기를 좋아해요.",
+          "ja": "私は本を読むのが好きです。",
+          "vi": "Tôi thích đọc sách."
+        }
+      },
+      {
+        "zh": "今天我们有课。",
+        "pinyin": "Jīntiān wǒmen yǒu kè.",
+        "translations": {
+          "en": "Today we have class.",
+          "es": "Hoy tenemos clase.",
+          "ko": "오늘 우리는 수업이 있어요.",
+          "ja": "今日は授業があります。",
+          "vi": "Hôm nay chúng tôi có lớp."
+        }
+      },
+      {
+        "zh": "我们一起去上学吧。",
+        "pinyin": "Wǒmen yīqǐ qù shàngxué ba.",
+        "translations": {
+          "en": "Let's go to school together.",
+          "es": "Vamos a la escuela juntos.",
+          "ko": "함께 학교에 가요.",
+          "ja": "一緒に学校に行きましょう。",
+          "vi": "Chúng ta cùng đi học nhé."
+        }
+      }
+    ]
+  },
+  {
+    "article_id": 4,
+    "langLevel": "HSK1",
+    "sentences": [
+      {
+        "zh": "我爸爸是工人。",
+        "pinyin": "Wǒ bàba shì gōngrén.",
+        "translations": {
+          "en": "My father is a worker.",
+          "es": "Mi papá es trabajador.",
+          "ko": "제 아버지는 노동자예요.",
+          "ja": "私の父は労働者です。",
+          "vi": "Bố tôi là công nhân."
+        }
+      },
+      {
+        "zh": "他每天工作。",
+        "pinyin": "Tā měitiān gōngzuò.",
+        "translations": {
+          "en": "He works every day.",
+          "es": "Él trabaja todos los días.",
+          "ko": "그는 매일 일해요.",
+          "ja": "彼は毎日働きます。",
+          "vi": "Ông ấy làm việc mỗi ngày."
+        }
+      },
+      {
+        "zh": "我妈妈也是工人。",
+        "pinyin": "Wǒ māma yě shì gōngrén.",
+        "translations": {
+          "en": "My mother is also a worker.",
+          "es": "Mi mamá también es trabajadora.",
+          "ko": "제 어머니도 노동자예요.",
+          "ja": "私の母も労働者です。",
+          "vi": "Mẹ tôi cũng là công nhân."
+        }
+      },
+      {
+        "zh": "他们都很忙。",
+        "pinyin": "Tāmen dōu hěn máng.",
+        "translations": {
+          "en": "They are all very busy.",
+          "es": "Todos están muy ocupados.",
+          "ko": "그들은 모두 아주 바빠요.",
+          "ja": "彼らは皆とても忙しいです。",
+          "vi": "Họ đều rất bận."
+        }
+      },
+      {
+        "zh": "我帮助他们。",
+        "pinyin": "Wǒ bāngzhù tāmen.",
+        "translations": {
+          "en": "I help them.",
+          "es": "Los ayudo.",
+          "ko": "저는 그들을 도와줘요.",
+          "ja": "私は彼らを手伝います。",
+          "vi": "Tôi giúp đỡ họ."
+        }
+      }
+    ]
+  },
+  {
+    "article_id": 5,
+    "langLevel": "HSK1",
+    "sentences": [
+      {
+        "zh": "我想去北京。",
+        "pinyin": "Wǒ xiǎng qù Běijīng.",
+        "translations": {
+          "en": "I want to go to Beijing.",
+          "es": "Quiero ir a Beijing.",
+          "ko": "저는 베이징에 가고 싶어요.",
+          "ja": "私は北京に行きたいです。",
+          "vi": "Tôi muốn đi Bắc Kinh."
+        }
+      },
+      {
+        "zh": "我们坐飞机去。",
+        "pinyin": "Wǒmen zuò fēijī qù.",
+        "translations": {
+          "en": "We'll go by plane.",
+          "es": "Iremos en avión.",
+          "ko": "우리는 비행기로 가요.",
+          "ja": "飛行機で行きます。",
+          "vi": "Chúng tôi đi bằng máy bay."
+        }
+      },
+      {
+        "zh": "北京很大。",
+        "pinyin": "Běijīng hěn dà.",
+        "translations": {
+          "en": "Beijing is very big.",
+          "es": "Beijing es muy grande.",
+          "ko": "베이징은 아주 커요.",
+          "ja": "北京はとても大きいです。",
+          "vi": "Bắc Kinh rất lớn."
+        }
+      },
+      {
+        "zh": "那里有很多人。",
+        "pinyin": "Nàlǐ yǒu hěnduō rén.",
+        "translations": {
+          "en": "There are many people there.",
+          "es": "Hay muchas personas allí.",
+          "ko": "거기에는 사람이 많아요.",
+          "ja": "そこには人がたくさんいます。",
+          "vi": "Ở đó có rất nhiều người."
+        }
+      },
+      {
+        "zh": "我想看那里。",
+        "pinyin": "Wǒ xiǎng kàn nàlǐ.",
+        "translations": {
+          "en": "I want to see there.",
+          "es": "Quiero ver allí.",
+          "ko": "저는 거기를 보고 싶어요.",
+          "ja": "私はそこを見たいです。",
+          "vi": "Tôi muốn xem nơi đó."
+        }
+      },
+      {
+        "zh": "我们一起去吧。",
+        "pinyin": "Wǒmen yīqǐ qù ba.",
+        "translations": {
+          "en": "Let's go together.",
+          "es": "Vamos juntos.",
+          "ko": "함께 가요.",
+          "ja": "一緒に行きましょう。",
+          "vi": "Chúng ta cùng đi nhé."
+        }
+      }
+    ]
+  },
+  {
+    "article_id": 6,
+    "langLevel": "HSK1",
+    "sentences": [
+      {
+        "zh": "现在是早上。",
+        "pinyin": "Xiànzài shì zǎoshang.",
+        "translations": {
+          "en": "It's morning now.",
+          "es": "Ahora es por la mañana.",
+          "ko": "지금은 아침이에요.",
+          "ja": "今は朝です。",
+          "vi": "Bây giờ là buổi sáng."
+        }
+      },
+      {
+        "zh": "我吃早饭。",
+        "pinyin": "Wǒ chī zǎofàn.",
+        "translations": {
+          "en": "I eat breakfast.",
+          "es": "Desayuno.",
+          "ko": "저는 아침을 먹어요.",
+          "ja": "朝ご飯を食べます。",
+          "vi": "Tôi ăn sáng."
+        }
+      },
+      {
+        "zh": "我喝牛奶。",
+        "pinyin": "Wǒ hē niúnǎi.",
+        "translations": {
+          "en": "I drink milk.",
+          "es": "Bebo leche.",
+          "ko": "저는 우유를 마셔요.",
+          "ja": "牛乳を飲みます。",
+          "vi": "Tôi uống sữa."
+        }
+      },
+      {
+        "zh": "然后我去学校。",
+        "pinyin": "Ránhòu wǒ qù xuéxiào.",
+        "translations": {
+          "en": "Then I go to school.",
+          "es": "Luego voy a la escuela.",
+          "ko": "그리고 나서 학교에 가요.",
+          "ja": "それから学校に行きます。",
+          "vi": "Sau đó tôi đi học."
+        }
+      },
+      {
+        "zh": "我学习中文。",
+        "pinyin": "Wǒ xuéxí Zhōngwén.",
+        "translations": {
+          "en": "I study Chinese.",
+          "es": "Estudio chino.",
+          "ko": "저는 중국어를 배워요.",
+          "ja": "中国語を勉強します。",
+          "vi": "Tôi học tiếng Trung."
+        }
+      },
+      {
+        "zh": "晚上我回家。",
+        "pinyin": "Wǎnshang wǒ huí jiā.",
+        "translations": {
+          "en": "In the evening I go home.",
+          "es": "Por la noche vuelvo a casa.",
+          "ko": "저녁에 집에 가요.",
+          "ja": "夜に家に帰ります。",
+          "vi": "Buổi tối tôi về nhà."
+        }
+      }
+    ]
+  },
+  {
+    "article_id": 7,
+    "langLevel": "HSK1",
+    "sentences": [
+      {
+        "zh": "这是我的家。",
+        "pinyin": "Zhè shì wǒ de jiā.",
+        "translations": {
+          "en": "This is my home.",
+          "es": "Esta es mi casa.",
+          "ko": "이것은 제 집이에요.",
+          "ja": "これは私の家です。",
+          "vi": "Đây là nhà của tôi."
+        }
+      },
+      {
+        "zh": "我家有五个人。",
+        "pinyin": "Wǒ jiā yǒu wǔ ge rén.",
+        "translations": {
+          "en": "There are five people in my family.",
+          "es": "Hay cinco personas en mi familia.",
+          "ko": "우리 가족은 다섯 명이에요.",
+          "ja": "私の家族は五人です。",
+          "vi": "Gia đình tôi có năm người."
+        }
+      },
+      {
+        "zh": "我爸爸、妈妈、哥哥、姐姐和我。",
+        "pinyin": "Wǒ bàba, māma, gēge, jiějie hé wǒ.",
+        "translations": {
+          "en": "My father, mother, older brother, older sister, and me.",
+          "es": "Mi papá, mamá, hermano mayor, hermana mayor y yo.",
+          "ko": "제 아버지, 어머니, 형, 누나, 그리고 저예요.",
+          "ja": "私の父、母、兄、姉、そして私です。",
+          "vi": "Bố tôi, mẹ tôi, anh trai, chị gái, và tôi."
+        }
+      },
+      {
+        "zh": "我们都很高兴。",
+        "pinyin": "Wǒmen dōu hěn gāoxìng.",
+        "translations": {
+          "en": "We are all very happy.",
+          "es": "Todos estamos muy contentos.",
+          "ko": "우리는 모두 아주 행복해요.",
+          "ja": "私たちは皆とても幸せです。",
+          "vi": "Chúng tôi đều rất vui."
+        }
+      },
+      {
+        "zh": "我们一起吃饭。",
+        "pinyin": "Wǒmen yīqǐ chīfàn.",
+        "translations": {
+          "en": "We eat together.",
+          "es": "Comemos juntos.",
+          "ko": "우리는 함께 식사해요.",
+          "ja": "一緒に食事をします。",
+          "vi": "Chúng tôi ăn cùng nhau."
+        }
+      }
+    ]
+  },
+  {
+    "article_id": 8,
+    "langLevel": "HSK1",
+    "sentences": [
+      {
+        "zh": "今天是星期天。",
+        "pinyin": "Jīntiān shì xīngqītiān.",
+        "translations": {
+          "en": "Today is Sunday.",
+          "es": "Hoy es domingo.",
+          "ko": "오늘은 일요일이에요.",
+          "ja": "今日は日曜日です。",
+          "vi": "Hôm nay là Chủ nhật."
+        }
+      },
+      {
+        "zh": "我不去学校。",
+        "pinyin": "Wǒ bú qù xuéxiào.",
+        "translations": {
+          "en": "I don't go to school.",
+          "es": "No voy a la escuela.",
+          "ko": "저는 학교에 안 가요.",
+          "ja": "学校に行きません。",
+          "vi": "Tôi không đi học."
+        }
+      },
+      {
+        "zh": "我在家。",
+        "pinyin": "Wǒ zài jiā.",
+        "translations": {
+          "en": "I'm at home.",
+          "es": "Estoy en casa.",
+          "ko": "저는 집에 있어요.",
+          "ja": "家にいます。",
+          "vi": "Tôi ở nhà."
+        }
+      },
+      {
+        "zh": "我看电视。",
+        "pinyin": "Wǒ kàn diànshì.",
+        "translations": {
+          "en": "I watch TV.",
+          "es": "Veo la televisión.",
+          "ko": "저는 텔레비전을 봐요.",
+          "ja": "テレビを見ます。",
+          "vi": "Tôi xem TV."
+        }
+      },
+      {
+        "zh": "我也看书。",
+        "pinyin": "Wǒ yě kànshū.",
+        "translations": {
+          "en": "I also read books.",
+          "es": "También leo libros.",
+          "ko": "저는 책도 읽어요.",
+          "ja": "本も読みます。",
+          "vi": "Tôi cũng đọc sách."
+        }
+      },
+      {
+        "zh": "今天很好。",
+        "pinyin": "Jīntiān hěn hǎo.",
+        "translations": {
+          "en": "Today is very good.",
+          "es": "Hoy es muy bueno.",
+          "ko": "오늘은 아주 좋아요.",
+          "ja": "今日はとても良いです。",
+          "vi": "Hôm nay rất tốt."
+        }
+      }
+    ]
+  },
+  {
+    "article_id": 9,
+    "langLevel": "HSK1",
+    "sentences": [
+      {
+        "zh": "我饿了。",
+        "pinyin": "Wǒ è le.",
+        "translations": {
+          "en": "I'm hungry.",
+          "es": "Tengo hambre.",
+          "ko": "저는 배고파요.",
+          "ja": "お腹がすきました。",
+          "vi": "Tôi đói rồi."
+        }
+      },
+      {
+        "zh": "我们去饭店吧。",
+        "pinyin": "Wǒmen qù fàndiàn ba.",
+        "translations": {
+          "en": "Let's go to the restaurant.",
+          "es": "Vamos al restaurante.",
+          "ko": "식당에 가요.",
+          "ja": "レストランに行きましょう。",
+          "vi": "Chúng ta đi nhà hàng nhé."
+        }
+      },
+      {
+        "zh": "你想吃什么？",
+        "pinyin": "Nǐ xiǎng chī shénme?",
+        "translations": {
+          "en": "What do you want to eat?",
+          "es": "¿Qué quieres comer?",
+          "ko": "뭐 먹고 싶어요?",
+          "ja": "何を食べたいですか？",
+          "vi": "Bạn muốn ăn gì?"
+        }
+      },
+      {
+        "zh": "我想吃米饭。",
+        "pinyin": "Wǒ xiǎng chī mǐfàn.",
+        "translations": {
+          "en": "I want to eat rice.",
+          "es": "Quiero comer arroz.",
+          "ko": "저는 밥을 먹고 싶어요.",
+          "ja": "ご飯を食べたいです。",
+          "vi": "Tôi muốn ăn cơm."
+        }
+      },
+      {
+        "zh": "我也想吃菜。",
+        "pinyin": "Wǒ yě xiǎng chī cài.",
+        "translations": {
+          "en": "I also want to eat vegetables.",
+          "es": "También quiero comer verduras.",
+          "ko": "저는 채소도 먹고 싶어요.",
+          "ja": "野菜も食べたいです。",
+          "vi": "Tôi cũng muốn ăn rau."
+        }
+      },
+      {
+        "zh": "我们点菜吧。",
+        "pinyin": "Wǒmen diǎn cài ba.",
+        "translations": {
+          "en": "Let's order food.",
+          "es": "Pedimos comida.",
+          "ko": "음식을 주문해요.",
+          "ja": "料理を注文しましょう。",
+          "vi": "Chúng ta gọi món nhé."
+        }
+      }
+    ]
+  },
+  {
+    "article_id": 10,
+    "langLevel": "HSK1",
+    "sentences": [
+      {
+        "zh": "现在是晚上。",
+        "pinyin": "Xiànzài shì wǎnshang.",
+        "translations": {
+          "en": "It's evening now.",
+          "es": "Ahora es por la noche.",
+          "ko": "지금은 저녁이에요.",
+          "ja": "今は夜です。",
+          "vi": "Bây giờ là buổi tối."
+        }
+      },
+      {
+        "zh": "天黑了。",
+        "pinyin": "Tiān hēi le.",
+        "translations": {
+          "en": "It's dark outside.",
+          "es": "Está oscuro.",
+          "ko": "하늘이 어두워졌어요.",
+          "ja": "暗くなりました。",
+          "vi": "Trời đã tối rồi."
+        }
+      },
+      {
+        "zh": "我累了。",
+        "pinyin": "Wǒ lèi le.",
+        "translations": {
+          "en": "I'm tired.",
+          "es": "Estoy cansado.",
+          "ko": "저는 피곤해요.",
+          "ja": "疲れました。",
+          "vi": "Tôi mệt rồi."
+        }
+      },
+      {
+        "zh": "我要睡觉了。",
+        "pinyin": "Wǒ yào shuìjiào le.",
+        "translations": {
+          "en": "I'm going to sleep.",
+          "es": "Voy a dormir.",
+          "ko": "저는 잠을 자러 가요.",
+          "ja": "寝ます。",
+          "vi": "Tôi đi ngủ đây."
+        }
+      },
+      {
+        "zh": "晚上好！",
+        "pinyin": "Wǎnshang hǎo!",
+        "translations": {
+          "en": "Good evening!",
+          "es": "¡Buenas noches!",
+          "ko": "안녕하세요!",
+          "ja": "こんばんは！",
+          "vi": "Chào buổi tối!"
+        }
+      },
+      {
+        "zh": "明天见！",
+        "pinyin": "Míngtiān jiàn!",
+        "translations": {
+          "en": "See you tomorrow!",
+          "es": "¡Hasta mañana!",
+          "ko": "내일 봐요!",
+          "ja": "また明日！",
+          "vi": "Hẹn gặp lại ngày mai!"
+        }
+      }
+    ]
+  }
+]

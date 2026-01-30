@@ -1,0 +1,4490 @@
+[
+  {
+    "dialogueId": 1,
+    "type": "social",
+    "typeCantonese": "社交",
+    "title": "Formal Greetings",
+    "titleCantonese": "正式問候",
+    "sentences": [
+      {
+        "id": 1,
+        "speaker": "James",
+        "cantonese": "早晨，Austin教授，你好嗎？",
+        "jyutping": "zou2 san4, Austin gaau3 sau6, nei5 hou2 maa3?",
+        "english": "Good morning, Professor Austin, how are you doing?"
+      },
+      {
+        "id": 2,
+        "speaker": "Professor Austin",
+        "cantonese": "早晨，James。我好好，多謝。你呢？",
+        "jyutping": "zou2 san4, James. ngo5 hou2 hou2, do1 ze6. nei5 ne1?",
+        "english": "Good morning, James. I am doing well. And you?"
+      },
+      {
+        "id": 3,
+        "speaker": "James",
+        "cantonese": "我好好，多謝你。呢位係我嘅朋友Emma。佢考慮報讀呢間大學，有啲問題想問你，可唔可以同我哋講下申請流程？",
+        "jyutping": "ngo5 hou2 hou2, do1 ze6 nei5. ni1 wai2 hai6 ngo5 ge3 pang4 jau5 Emma. keoi5 haau2 leoi6 bou3 duk6 ni1 gaan1 daai6 hok6, jau5 di1 man6 tai4 soeng2 man6 nei5, ho2 m4 ho2 ji5 tung4 ngo5 dei6 gong2 haa5 san1 cing2 lau4 cing4?",
+        "english": "I’m great, thank you. This is my friend Emma. She is thinking about applying to this college. She has a few questions. Would you mind telling us about the process, please?"
+      },
+      {
+        "id": 4,
+        "speaker": "Professor Austin",
+        "cantonese": "你好，Emma！好開心識到你。我非常樂意同你傾。下星期嚟我辦公室啦。",
+        "jyutping": "nei5 hou2, Emma! hou2 hoi1 sam1 sik1 dou2 nei5. ngo5 fei1 soeng4 lok6 ji3 tung4 nei5 king1. haa6 sing1 kei4 lei4 ngo5 baan6 gung1 sat1 laa1.",
+        "english": "Hello, Emma! It’s a pleasure to meet you. I’m more than happy to speak with you. Please stop by my office next week."
+      },
+      {
+        "id": 5,
+        "speaker": "Emma",
+        "cantonese": "教授，見到你好開心，多謝你幫我哋。",
+        "jyutping": "gaau3 sau6, gin3 dou2 nei5 hou2 hoi1 sam1, do1 ze6 nei5 bong1 ngo5 dei6.",
+        "english": "It’s a pleasure to meet you, professor. Thank you so much for helping us."
+      },
+      {
+        "id": 6,
+        "speaker": "Professor Austin",
+        "cantonese": "唔使客氣，希望到時可以解答到你嘅問題！",
+        "jyutping": "m4 sai2 haak3 hei3, hei1 mong6 dou3 si4 ho2 ji5 gaai2 daap3 dou2 nei5 ge3 man6 tai4!",
+        "english": "Don’t mention it. Hopefully, I will be able to answer your questions!"
+      }
+    ]
+  },
+  {
+    "dialogueId": 2,
+    "type": "social",
+    "typeCantonese": "社交",
+    "title": "Informal Greetings and Farewells",
+    "titleCantonese": "非正式問候同道別",
+    "sentences": [
+      {
+        "id": 1,
+        "speaker": "Jane",
+        "cantonese": "嗨，Helen！最近點呀？",
+        "jyutping": "haai1, Helen! zeoi3 gan6 dim2 aa3?",
+        "english": "Hi, Helen! How’s it going?"
+      },
+      {
+        "id": 2,
+        "speaker": "Helen",
+        "cantonese": "我幾好，多謝，你呢？",
+        "jyutping": "ngo5 gei2 hou2, do1 ze6, nei5 ne1?",
+        "english": "Fine, thanks — and you?"
+      },
+      {
+        "id": 3,
+        "speaker": "Jane",
+        "cantonese": "我都好好。你而家要去邊呀？",
+        "jyutping": "ngo5 dou1 hou2 hou2. nei5 ji4 gaa1 jiu3 heoi3 bin1 aa3?",
+        "english": "Just fine. Where are you off to?"
+      },
+      {
+        "id": 4,
+        "speaker": "Helen",
+        "cantonese": "去圖書館。我下星期有歷史考試，要開始溫書，唉。",
+        "jyutping": "heoi3 tou4 syu1 gun2. ngo5 haa6 sing1 kei4 jau5 lik6 si2 haau2 si3, jiu3 hoi1 ci2 wan1 syu1, aai1.",
+        "english": "To the library. I’ve got a history exam next week and need to start studying. Ugh."
+      },
+      {
+        "id": 5,
+        "speaker": "Jane",
+        "cantonese": "哦係咁呀。咁我遲啲見你啦，祝你好運！",
+        "jyutping": "o4 hai6 gam2 aa3. gam2 ngo5 ci4 di1 gin3 nei5 laa1, zuk1 nei5 hou2 wan6!",
+        "english": "Oh, no. Well, I’ll see you later then. Good luck!"
+      },
+      {
+        "id": 6,
+        "speaker": "Helen",
+        "cantonese": "多謝，你遲啲見。",
+        "jyutping": "do1 ze6, nei5 ci4 di1 gin3.",
+        "english": "Thanks. See you later."
+      }
+    ]
+  },
+  {
+    "dialogueId": 3,
+    "type": "social",
+    "typeCantonese": "社交",
+    "title": "Formal Introductions",
+    "titleCantonese": "正式介紹",
+    "sentences": [
+      {
+        "id": 1,
+        "speaker": "Margaret",
+        "cantonese": "Wilson先生，我想介紹你識 Edward Smith博士。",
+        "jyutping": "Wilson sin1 saang1, ngo5 soeng2 gaai3 siu6 nei5 sik1 Edward Smith bok3 si1.",
+        "english": "Mr. Wilson, I’d like you to meet Dr. Edward Smith."
+      },
+      {
+        "id": 2,
+        "speaker": "Mr. Wilson",
+        "cantonese": "好高興認識你，Smith博士。",
+        "jyutping": "hou2 gou1 hing3 jing6 sik1 nei5, Smith bok3 si1.",
+        "english": "It’s nice to meet you, Dr. Smith."
+      },
+      {
+        "id": 3,
+        "speaker": "Dr. Smith",
+        "cantonese": "我都好高興認識你。",
+        "jyutping": "ngo5 dou1 hou2 gou1 hing3 jing6 sik1 nei5.",
+        "english": "Pleasure to meet you, too."
+      },
+      {
+        "id": 4,
+        "speaker": "Margaret",
+        "cantonese": "Smith博士係位經濟學家，佢啱啱寫完一本關於國際貿易嘅書。",
+        "jyutping": "Smith bok3 si1 hai6 wai2 ging1 zai3 hok6 gaa1, keoi5 aam1 aam1 se2 jyun4 jat1 bun2 gwaan1 jyu1 gwok3 zai3 mau6 jik6 ge3 syu1.",
+        "english": "Dr. Smith is an economist. He just finished writing a book on international trade."
+      },
+      {
+        "id": 5,
+        "speaker": "Mr. Wilson",
+        "cantonese": "哦？呢個都係我嘅範疇。我喺聯合國做嘢。",
+        "jyutping": "o4? ni1 go3 dou1 hai6 ngo5 ge3 faan6 cau4. ngo5 hai2 lyun4 hap6 gwok3 zou6 je5.",
+        "english": "Oh? That’s my field, too. I work for the United Nations."
+      },
+      {
+        "id": 6,
+        "speaker": "Dr. Smith",
+        "cantonese": "係咪喺發展計劃署做嘢呀？",
+        "jyutping": "hai6 mai6 hai2 faat3 zin2 gai3 waak6 cyu5 zou6 je5 aa3?",
+        "english": "In the Development Program, by any chance?"
+      },
+      {
+        "id": 7,
+        "speaker": "Mr. Wilson",
+        "cantonese": "係呀，你點知㗎？",
+        "jyutping": "hai6 aa3, nei5 dim2 zi1 gaa3?",
+        "english": "Yes. How did you guess?"
+      },
+      {
+        "id": 8,
+        "speaker": "Dr. Smith",
+        "cantonese": "我睇過你寫嘅技術援助嘅文章，好精彩。",
+        "jyutping": "ngo5 tai2 gwo3 nei5 se2 ge3 gei6 seot6 wun4 zo6 ge3 man4 zoeng1, hou2 zing1 coi2.",
+        "english": "I’ve read your articles on technical assistance. They’re excellent."
+      }
+    ]
+  },
+  {
+    "dialogueId": 4,
+    "type": "social",
+    "typeCantonese": "社交",
+    "title": "Informal Introductions",
+    "titleCantonese": "非正式介紹",
+    "sentences": [
+      {
+        "id": 1,
+        "speaker": "Jim",
+        "cantonese": "嗰個企喺Barbara隔離嘅高個女人係邊個呀？",
+        "jyutping": "go2 go3 kei5 hai2 Barbara gaak3 lei4 ge3 gou1 go3 neoi5 jan2 hai6 bin1 go3 aa3?",
+        "english": "Who’s the tall woman next to Barbara?"
+      },
+      {
+        "id": 2,
+        "speaker": "Charles",
+        "cantonese": "嗰個係佢嘅朋友Mary。你唔係喺Steve個派對見過佢咩？",
+        "jyutping": "go2 go3 hai6 keoi5 ge3 pang4 jau5 Mary. nei5 m4 hai6 hai2 Steve go3 paai3 deoi3 gin3 gwo3 keoi5 me1?",
+        "english": "That’s her friend Mary. Didn’t you meet her at Steve’s party?"
+      },
+      {
+        "id": 3,
+        "speaker": "Jim",
+        "cantonese": "冇呀，我冇去Steve個派對。",
+        "jyutping": "mou5 aa3, ngo5 mou5 heoi3 Steve go3 paai3 deoi3.",
+        "english": "No, I wasn’t at Steve’s party."
+      },
+      {
+        "id": 4,
+        "speaker": "Charles",
+        "cantonese": "哦！咁而家介紹你哋識啦。Mary，呢位係我朋友Jim。",
+        "jyutping": "o4! gam2 ji4 gaa1 gaai3 siu6 nei5 dei6 sik1 laa1. Mary, ni1 wai2 hai6 ngo5 pang4 jau5 Jim.",
+        "english": "Oh! Then let me introduce you to her now. Mary, this is my friend Jim."
+      },
+      {
+        "id": 5,
+        "speaker": "Mary",
+        "cantonese": "嗨，Jim。好開心識到你。",
+        "jyutping": "haai1, Jim. hou2 hoi1 sam1 sik1 dou2 nei5.",
+        "english": "Hi, Jim. Nice to meet you."
+      },
+      {
+        "id": 6,
+        "speaker": "Jim",
+        "cantonese": "我都係。你想唔想飲啲嘢？",
+        "jyutping": "ngo5 dou1 hai6. nei5 soeng2 m4 soeng2 jam2 di1 je5?",
+        "english": "You, too. Would you like a drink?"
+      },
+      {
+        "id": 7,
+        "speaker": "Mary",
+        "cantonese": "好呀，我哋去攞嘢飲啦。",
+        "jyutping": "hou2 aa3, ngo5 dei6 heoi3 lo2 je5 jam2 laa1.",
+        "english": "Sure, let’s go get one."
+      }
+    ]
+  },
+  {
+    "dialogueId": 5,
+    "type": "daily_life",
+    "typeCantonese": "日常生活",
+    "title": "What Time Is It?",
+    "titleCantonese": "而家幾點？",
+    "sentences": [
+      {
+        "id": 1,
+        "speaker": "Natasha",
+        "cantonese": "而家幾點呀？我哋就快遲到啦！",
+        "jyutping": "ji4 gaa1 gei2 dim2 aa3? ngo5 dei6 zau6 faai3 ci4 dou3 laa1!",
+        "english": "What time is it? We’re going to be late!"
+      },
+      {
+        "id": 2,
+        "speaker": "Tony",
+        "cantonese": "而家七點一刻。我哋啱啱好，唔使驚。",
+        "jyutping": "ji4 gaa1 cat1 dim2 jat1 hak1. ngo5 dei6 aam1 aam1 hou2, m4 sai2 geng1.",
+        "english": "It’s a quarter after seven. We’re on time. Don’t panic."
+      },
+      {
+        "id": 3,
+        "speaker": "Natasha",
+        "cantonese": "但我以為我哋七點半就要到餐廳㗎喎。咁大晚高峰，我哋一定去唔切㗎啦！",
+        "jyutping": "daan6 ngo5 ji5 wai4 ngo5 dei6 cat1 dim2 bun3 zau6 jiu3 dou3 caan1 teng1 gaa3 wo3. gam2 daai6 maan5 gou1 fung1, ngo5 dei6 jat1 ding6 heoi3 m4 cit3 gaa3 laa1!",
+        "english": "But I thought we had to be at the restaurant by 7:30 for the surprise party. We’ll never make it there with all this evening traffic!"
+      },
+      {
+        "id": 4,
+        "speaker": "Tony",
+        "cantonese": "唔使啦，趕得切嘅。晚高峰就快過啦。不過我需要你幫我導航。可唔可以打去餐廳問下停車場喺邊？",
+        "jyutping": "m4 sai2 laa1, gon2 dak1 cit3 ge3. maan5 gou1 fung1 zau6 faai3 gwo3 laa1. bat1 gwo3 ngo5 seoi1 jiu3 nei5 bong1 ngo5 dou6 hong4. ho2 m4 ho2 ji5 daa2 heoi3 caan1 teng1 man6 haa5 ting4 ce1 coeng4 hai2 bin1?",
+        "english": "Sure we will. Rush hour is almost over. Anyway, the party starts at 8:00. But I do need help with directions. Can you call the restaurant and ask them where we park our car?"
+      }
+    ]
+  },
+  {
+    "dialogueId": 6,
+    "type": "communication",
+    "typeCantonese": "溝通",
+    "title": "A Telephone Call",
+    "titleCantonese": "一個電話對話",
+    "sentences": [
+      {
+        "id": 1,
+        "speaker": "John",
+        "cantonese": "嗨，Alice，我係John。你好嗎？",
+        "jyutping": "haai1, Alice, ngo5 hai6 John. nei5 hou2 maa3?",
+        "english": "Hi, Alice, it’s John. How are you?"
+      },
+      {
+        "id": 2,
+        "speaker": "Alice",
+        "cantonese": "哎呀，John！我啱啱先諗起你。",
+        "jyutping": "ai1 jaa3, John! ngo5 aam1 aam1 sin1 lam2 hei2 nei5.",
+        "english": "Oh, hi, John! I was just thinking about you."
+      },
+      {
+        "id": 3,
+        "speaker": "John",
+        "cantonese": "太好啦。我想問你今晚想唔想一齊去睇戲？",
+        "jyutping": "taai3 hou2 laa1. ngo5 soeng2 man6 nei5 gam1 maan5 soeng2 m4 soeng2 jat1 cai4 heoi3 tai2 hei3?",
+        "english": "That’s nice. I was wondering if you’d like to go to a movie tonight."
+      },
+      {
+        "id": 4,
+        "speaker": "Alice",
+        "cantonese": "好呀，我好願意！有咩戲上映呀？",
+        "jyutping": "hou2 aa3, ngo5 hou2 jyun6 ji3! jau5 me1 hei3 soeng5 jing2 aa3?",
+        "english": "Sure, I’d love to! What’s playing?"
+      },
+      {
+        "id": 5,
+        "speaker": "John",
+        "cantonese": "我諗住睇嗰套新喜劇《Lights Out》。你覺得點？",
+        "jyutping": "ngo5 lam2 zyu6 tai2 go2 tou3 san1 hei2 kek6 'Lights Out'. nei5 gok3 dak1 dim2?",
+        "english": "I was thinking about that new comedy Lights Out. What do you think?"
+      },
+      {
+        "id": 6,
+        "speaker": "Alice",
+        "cantonese": "聽落好正喎！",
+        "jyutping": "teng1 lok6 hou2 zeng3 wo3!",
+        "english": "Sounds great!"
+      },
+      {
+        "id": 7,
+        "speaker": "John",
+        "cantonese": "好，我七點半嚟接你。套戲八點開場。",
+        "jyutping": "hou2, ngo5 cat1 dim2 bun3 lai4 zip3 nei5. tou3 hei3 baat3 dim2 hoi1 coeng4.",
+        "english": "OK, I’ll pick you up around 7:30. The movie starts at 8:00."
+      },
+      {
+        "id": 8,
+        "speaker": "Alice",
+        "cantonese": "咁到時見啦，Bye！",
+        "jyutping": "gam2 dou3 si4 gin3 laa1, bai1!",
+        "english": "See you then. Bye!"
+      }
+    ]
+  },
+  {
+    "dialogueId": 7,
+    "type": "communication",
+    "typeCantonese": "溝通",
+    "title": "Can You Say That Again?",
+    "titleCantonese": "你可以再講一次嗎？",
+    "sentences": [
+      {
+        "id": 1,
+        "speaker": "Luke",
+        "cantonese": "喂？嗨，Stephanie，公司嗰邊點呀？",
+        "jyutping": "wai3? haai1, Stephanie, gung1 si1 go2 bin1 dim2 aa3?",
+        "english": "Hello? Hi, Stephanie, how are things at the office?"
+      },
+      {
+        "id": 2,
+        "speaker": "Stephanie",
+        "cantonese": "嗨，Luke！你好嗎？你可唔可以順便買多啲打印紙？",
+        "jyutping": "haai1, Luke! nei5 hou2 maa3? nei5 ho2 m4 ho2 ji5 seon6 bin2 maai5 do1 di1 daa2 jan2 zi2?",
+        "english": "Hi, Luke! How are you? Can you please stop and pick up extra paper for the computer printer?"
+      },
+      {
+        "id": 3,
+        "speaker": "Luke",
+        "cantonese": "你講咩呀？可以再講一次嗎？你係咪話買墨水？唉，個電話斷斷續續。",
+        "jyutping": "nei5 gong2 me1 aa3? ho2 ji5 zoi3 gong2 jat1 ci3 maa3? nei5 hai6 mai6 waa6 maai5 mak6 seoi2? aai1, go3 din6 waa2 tyun5 tyun5 zuk6 zuk6.",
+        "english": "What did you say? Can you repeat that, please? Did you say to pick up ink for the printer? Sorry, the phone is cutting out."
+      },
+      {
+        "id": 4,
+        "speaker": "Stephanie",
+        "cantonese": "而家聽到嗎？唔係，我係要電腦用紙。算啦，我發短訊畀你。多謝你，Luke，遲啲再講。",
+        "jyutping": "ji4 gaa1 teng1 dou2 maa3? m4 hai6, ngo5 hai6 jiu3 din6 nou5 jung6 zi2. syun3 laa1, ngo5 faat3 dyun2 seon3 bei2 nei5. do1 ze6 nei5, Luke, ci4 di1 zoi3 gong2.",
+        "english": "Can you hear me now? No, I need more computer paper. Listen, I’ll text you exactly what I need. Thanks, Luke. Talk to you later."
+      },
+      {
+        "id": 5,
+        "speaker": "Luke",
+        "cantonese": "多謝你，Stephanie。唔好意思，我呢度個訊號好差。",
+        "jyutping": "do1 ze6 nei5, Stephanie. m4 hou2 ji3 si1, ngo5 ni1 dou6 go3 seon3 hou6 hou2 caa1.",
+        "english": "Thanks, Stephanie. Sorry, my phone has really bad reception here."
+      }
+    ]
+  },
+  {
+    "dialogueId": 8,
+    "type": "social",
+    "typeCantonese": "社交",
+    "title": "Coincidences",
+    "titleCantonese": "咁啱得咁橋",
+    "sentences": [
+      {
+        "id": 1,
+        "speaker": "Meg",
+        "cantonese": "哎呀，Julia！好耐冇見呀！",
+        "jyutping": "ai1 jaa3, Julia! hou2 noi6 mou5 gin3 aa3!",
+        "english": "Well, hello there, Julia! Long time no see!"
+      },
+      {
+        "id": 2,
+        "speaker": "Julia",
+        "cantonese": "Meg！嗨！真係好巧合呀！我好耐冇見你啦！你喺度做咩呀？",
+        "jyutping": "Meg! haai1! zan1 hai6 hou2 hiu2 hap6 aa3! ngo5 hou2 noi6 mou5 gin3 nei5 laa1! nei5 hai2 dou6 zou6 me1 aa3?",
+        "english": "Meg! Hi! What a coincidence! I haven’t seen you in ages! What are you doing here?"
+      },
+      {
+        "id": 3,
+        "speaker": "Meg",
+        "cantonese": "我啱啱喺城入面搵到份新工，所以嚟買啲衫。喂，你覺得呢件衫點呀？",
+        "jyutping": "ngo5 aam1 aam1 hai2 sing4 jap6 min6 wan2 dou2 fan6 san1 gung1, so2 ji5 lei4 maai5 di1 saam1. wai3, nei5 gok3 dak1 ni1 gin6 saam1 dim2 aa3?",
+        "english": "I just got a new job in the city, so I’m shopping for some clothes. Hey, what do you think of this shirt?"
+      },
+      {
+        "id": 4,
+        "speaker": "Julia",
+        "cantonese": "嗯……你知啦，我好鍾意藍色。你睇？我都有一件一樣嘅！",
+        "jyutping": "ng4... nei5 zi1 laa1, ngo5 hou2 zung1 ji3 laam4 sik1. nei5 tai2? ngo5 dou1 jau5 jat1 gin6 jat1 joeng6 ge3!",
+        "english": "Hmmm … well, you know how much I love blue. See? I’ve got the same shirt!"
+      },
+      {
+        "id": 5,
+        "speaker": "Meg",
+        "cantonese": "你一向都好有品味！真係世界細！",
+        "jyutping": "nei5 jat1 hoeng3 dou1 hou2 jau5 ban2 mei6! zan1 hai6 sai3 gaai3 sai3!",
+        "english": "You always did have good taste! What a small world."
+      }
+    ]
+  },
+  {
+    "dialogueId": 9,
+    "type": "daily_life",
+    "typeCantonese": "日常生活",
+    "title": "Weather Report",
+    "titleCantonese": "天氣報告",
+    "sentences": [
+      {
+        "id": 1,
+        "speaker": "Jennifer",
+        "cantonese": "出面凍到死！點解天氣報告話個冷鋒會過咗㗎？",
+        "jyutping": "ceot1 min6 dung3 dou3 sei2! dim2 gaai2 tin1 hei3 bou3 gou3 waa6 go3 laang5 fung1 wui5 gwo3 zo2 gaa3?",
+        "english": "It’s freezing outside! What happened to the weather report? I thought this cold front was supposed to pass."
+      },
+      {
+        "id": 2,
+        "speaker": "Gabriela",
+        "cantonese": "係呀，我都以為係咁。我今朝上網睇都係咁講。",
+        "jyutping": "hai6 aa3, ngo5 dou1 ji5 wai4 hai6 gam2. ngo5 gam1 ziu1 soeng5 mong5 tai2 dou1 hai6 gam2 gong2.",
+        "english": "Yeah, I thought so too. That’s what I read online this morning."
+      },
+      {
+        "id": 3,
+        "speaker": "Jennifer",
+        "cantonese": "可能係風寒效應令到體感溫度跌咗咁多。",
+        "jyutping": "ho2 nang4 hai6 fung1 hon4 haau6 jing3 ling6 dou3 tai2 gam2 wan1 dou6 dit3 zo2 gam3 do1.",
+        "english": "I guess the wind chill is really driving down the temperature."
+      },
+      {
+        "id": 4,
+        "speaker": "Gabriela",
+        "cantonese": "不如我哋入去啦？我覺得我隻腳趾都開始冇知覺啦。",
+        "jyutping": "bat1 jyu4 ngo5 dei6 jap6 heoi3 laa1? ngo5 gok3 dak1 ngo5 zek3 goek3 zi2 dou1 hoi1 ci2 mou5 zi1 gok3 laa1.",
+        "english": "Can we go inside? I feel like my toes are starting to go numb."
+      }
+    ]
+  },
+  {
+    "dialogueId": 10,
+    "type": "social",
+    "typeCantonese": "社交",
+    "title": "Congratulations!",
+    "titleCantonese": "恭喜你！",
+    "sentences": [
+      {
+        "id": 1,
+        "speaker": "Jane",
+        "cantonese": "嗨，Margaret，聽講你升職喇？恭喜你！",
+        "jyutping": "haai1, Margaret, teng1 gong2 nei5 sing1 zik1 laa3? gung1 hei2 nei5!",
+        "english": "Hi, Margaret. I heard you got a promotion. Congratulations!"
+      },
+      {
+        "id": 2,
+        "speaker": "Margaret",
+        "cantonese": "多謝！我都好開心。",
+        "jyutping": "do1 ze6! ngo5 dou1 hou2 hoi1 sam1.",
+        "english": "Thanks! I’m really happy about it."
+      },
+      {
+        "id": 3,
+        "speaker": "Jane",
+        "cantonese": "梗係啦，你一直都好努力。",
+        "jyutping": "gang2 hai6 laa1, nei5 jat1 zik6 dou1 hou2 nou5 lik6.",
+        "english": "Of course! You’ve worked hard for it."
+      },
+      {
+        "id": 4,
+        "speaker": "Margaret",
+        "cantonese": "係呀，不過我而家就要應付更多責任喇。",
+        "jyutping": "hai6 aa3, bat1 gwo3 ngo5 ji4 gaa1 zau6 jiu3 jing3 fu6 gang1 do1 zaak3 jam6 laa3.",
+        "english": "Yes, but now I’ll be taking on more responsibility."
+      },
+      {
+        "id": 5,
+        "speaker": "Jane",
+        "cantonese": "我相信你一定做得好好㗎！",
+        "jyutping": "ngo5 soeng1 seon3 nei5 jat1 ding6 zou6 dak1 hou2 hou2 gaa3!",
+        "english": "I’m sure you’ll do a wonderful job."
+      },
+      {
+        "id": 6,
+        "speaker": "Margaret",
+        "cantonese": "你咁講真係好多謝你呀。",
+        "jyutping": "nei5 gam2 gong2 zan1 hai6 hou2 do1 ze6 nei5 aa3.",
+        "english": "That’s very kind of you to say."
+      }
+    ]
+  },
+  {
+    "dialogueId": 11,
+    "type": "social",
+    "typeCantonese": "社交",
+    "title": "Invitations",
+    "titleCantonese": "邀請對話",
+    "sentences": [
+      {
+        "id": 1,
+        "speaker": "Sherry",
+        "cantonese": "嗨，Tom，你星期六有冇時間？我生日，想請你嚟我屋企開派對。",
+        "jyutping": "haai1, Tom, nei5 sing1 kei4 luk6 jau5 mou5 si4 gaan3? ngo5 saang1 jat6, soeng2 cing2 nei5 lei4 ngo5 uk1 kei2 hoi1 paai3 deoi3.",
+        "english": "Hi, Tom. Are you free on Saturday? It’s my birthday and I’m having a party at my house."
+      },
+      {
+        "id": 2,
+        "speaker": "Tom",
+        "cantonese": "哦，聽落好正喎！幾點開始呀？",
+        "jyutping": "o4, teng1 lok6 hou2 zeng3 wo3! gei2 dim2 hoi1 ci2 aa3?",
+        "english": "Oh, that sounds great! What time does it start?"
+      },
+      {
+        "id": 3,
+        "speaker": "Sherry",
+        "cantonese": "大概七點鐘。不過你想早啲嚟都得。",
+        "jyutping": "daai6 koi3 cat1 dim2 zung1. bat1 gwo3 nei5 soeng2 zou2 di1 lei4 dou1 dak1.",
+        "english": "Around seven o’clock. But you can come earlier if you want."
+      },
+      {
+        "id": 4,
+        "speaker": "Tom",
+        "cantonese": "好呀，我一定會嚟㗎！要唔要我帶啲咩嚟？",
+        "jyutping": "hou2 aa3, ngo5 jat1 ding6 wui5 lei4 gaa3! jiu3 m4 jiu3 ngo5 daai3 di1 me1 lei4?",
+        "english": "Sure, I’d love to! Should I bring anything?"
+      },
+      {
+        "id": 5,
+        "speaker": "Sherry",
+        "cantonese": "唔使喇，只要你嚟就得啦！",
+        "jyutping": "m4 sai2 laa3, zi2 jiu3 nei5 lei4 zau6 dak1 laa1!",
+        "english": "No, just bring yourself!"
+      },
+      {
+        "id": 6,
+        "speaker": "Tom",
+        "cantonese": "咁好，到時見啦！同埋生日快樂！",
+        "jyutping": "gam2 hou2, dou3 si4 gin3 laa1! tung4 maai4 saang1 jat6 faai3 lok6!",
+        "english": "Great! See you then — and happy birthday!"
+      },
+      {
+        "id": 7,
+        "speaker": "Sherry",
+        "cantonese": "多謝你！星期六見！",
+        "jyutping": "do1 ze6 nei5! sing1 kei4 luk6 gin3!",
+        "english": "Thanks! See you on Saturday!"
+      }
+    ]
+  },
+  {
+    "dialogueId": 12,
+    "type": "daily_life",
+    "typeCantonese": "日常生活",
+    "title": "Ordering a Meal",
+    "titleCantonese": "點餐",
+    "sentences": [
+      {
+        "id": 1,
+        "speaker": "Waiter",
+        "cantonese": "你好，我今日會為你哋服務。要唔要先點啲飲品？",
+        "jyutping": "nei5 hou2, ngo5 gam1 jat6 wui5 wai6 nei5 dei6 fuk6 mou6. jiu3 m4 jiu3 sin1 dim2 di1 jam2 ban2?",
+        "english": "Hello, I’ll be your waiter today. Can I start you off with something to drink?"
+      },
+      {
+        "id": 2,
+        "speaker": "Ralph",
+        "cantonese": "要，請畀我一杯凍茶。",
+        "jyutping": "jiu3, cing2 bei2 ngo5 jat1 bui1 dung3 caa4.",
+        "english": "Yes. I’ll have iced tea, please."
+      },
+      {
+        "id": 3,
+        "speaker": "Anna",
+        "cantonese": "我要檸檬水。",
+        "jyutping": "ngo5 jiu3 ning4 mung1 seoi2.",
+        "english": "And I’ll have lemonade."
+      },
+      {
+        "id": 4,
+        "speaker": "Waiter",
+        "cantonese": "好，咁你哋而家想落單定係要幾分鐘先？",
+        "jyutping": "hou2, gam2 nei5 dei6 ji4 gaa1 soeng2 lok6 daan1 ding6 hai6 jiu3 gei2 fan1 zung1 sin1?",
+        "english": "OK. Are you ready to order, or do you need a few minutes?"
+      },
+      {
+        "id": 5,
+        "speaker": "Ralph",
+        "cantonese": "我哋準備好啦。我前菜要蕃茄湯，主菜要烤牛肉配薯蓉同埋青豆。",
+        "jyutping": "ngo5 dei6 zeon2 bei6 hou2 laa1. ngo5 cin4 coi3 jiu3 faan1 ke2 tong1, zyu2 coi3 jiu3 haau1 ngau4 juk6 pui3 syu4 jung4 tung4 maai4 cing1 dau6.",
+        "english": "I think we’re ready. I’ll have the tomato soup to start, and the roast beef with mashed potatoes and peas."
+      },
+      {
+        "id": 6,
+        "speaker": "Waiter",
+        "cantonese": "你想要幾成熟嘅牛肉？生、五成熟、定係全熟？",
+        "jyutping": "nei5 soeng2 jiu3 gei2 sing4 suk6 ge3 ngau4 juk6? saang1, ng5 sing4 suk6, ding6 hai6 cyun4 suk6?",
+        "english": "How do you want the beef — rare, medium, or well done?"
+      },
+      {
+        "id": 7,
+        "speaker": "Ralph",
+        "cantonese": "全熟，唔該。",
+        "jyutping": "cyun4 suk6, m4 goi1.",
+        "english": "Well done, please."
+      },
+      {
+        "id": 8,
+        "speaker": "Anna",
+        "cantonese": "我就淨係要魚，配薯仔同沙律。",
+        "jyutping": "ngo5 zau6 zing6 hai6 jiu3 jyu2, pui3 syu4 zai2 tung4 saa1 leot6.",
+        "english": "And I’ll just have the fish, with potatoes and a salad."
+      }
+    ]
+  },
+  {
+    "dialogueId": 13,
+    "type": "health",
+    "typeCantonese": "健康",
+    "title": "At the Doctor’s Office",
+    "titleCantonese": "睇醫生",
+    "sentences": [
+      {
+        "id": 1,
+        "speaker": "Doctor",
+        "cantonese": "有咩問題呀？",
+        "jyutping": "jau5 me1 man6 tai4 aa3?",
+        "english": "What seems to be the problem?"
+      },
+      {
+        "id": 2,
+        "speaker": "Cathy",
+        "cantonese": "嗯，我有好嚴重嘅咳嗽，喉嚨痛，仲有頭痛。",
+        "jyutping": "ng4, ngo5 jau5 hou2 jim4 zung6 ge3 kat1 sau3, hau4 lung4 tung3, zung6 jau5 tau4 tung3.",
+        "english": "Well, I have a bad cough and a sore throat. I also have a headache."
+      },
+      {
+        "id": 3,
+        "speaker": "Doctor",
+        "cantonese": "你有呢啲症狀幾耐啦？",
+        "jyutping": "nei5 jau5 ni1 di1 zing3 zong6 gei2 noi6 laa1?",
+        "english": "How long have you had these symptoms?"
+      },
+      {
+        "id": 4,
+        "speaker": "Cathy",
+        "cantonese": "大概三日啦。我仲好攰。",
+        "jyutping": "daai6 koi3 saam1 jat6 laa1. ngo5 zung6 hou2 gui6.",
+        "english": "About three days now. And I’m really tired, too."
+      },
+      {
+        "id": 5,
+        "speaker": "Doctor",
+        "cantonese": "嗯，聽落去你好似中咗流感。每四個鐘食一次阿士匹靈，休息多啲，記得多啲飲水。如果下星期仲未好就打畀我。",
+        "jyutping": "ng4, teng1 lok6 heoi3 nei5 hou2 ci5 zung3 zo2 lau4 gam2. mui5 sei3 go3 zung1 sik6 jat1 ci3 aa3 si6 pat1 ling4, jau1 sik1 do1 di1, gei3 dak1 do1 di1 jam2 seoi2. jyu4 gwo2 haa6 sing1 kei4 zung6 mei6 hou2 zau6 daa2 bei2 ngo5.",
+        "english": "Hmm. It sounds like you’ve got the flu. Take aspirin every four hours and get plenty of rest. Make sure you drink lots of fluids. Call me if you’re still sick next week."
+      },
+      {
+        "id": 6,
+        "speaker": "Cathy",
+        "cantonese": "好，多謝你。",
+        "jyutping": "hou2, do1 ze6 nei5.",
+        "english": "OK, thanks."
+      }
+    ]
+  },
+  {
+    "dialogueId": 14,
+    "type": "daily_life",
+    "typeCantonese": "日常生活",
+    "title": "Asking Directions",
+    "titleCantonese": "問路",
+    "sentences": [
+      {
+        "id": 1,
+        "speaker": "Mark",
+        "cantonese": "唔好意思，你可唔可以話我知圖書館喺邊度？",
+        "jyutping": "m4 hou2 ji3 si1, nei5 ho2 m4 ho2 ji5 waa6 ngo5 zi1 tou4 syu1 gun2 hai2 bin1 dou6?",
+        "english": "Excuse me. Could you tell me where the library is?"
+      },
+      {
+        "id": 2,
+        "speaker": "Nancy",
+        "cantonese": "可以呀，係嗰邊。你行三條街去到華盛頓街，然後轉右。喺街角，銀行對面就係。",
+        "jyutping": "ho2 ji5 aa3, hai6 go2 bin1. nei5 haang4 saam1 tiu4 gaai1 heoi3 dou3 waa4 sing6 deon6 gaai1, jin4 hau6 zyun2 jau6. hai2 gaai1 gok3, ngan4 hong4 deoi3 min6 zau6 hai6.",
+        "english": "Yes, it’s that way. You go three blocks to Washington Street, then turn right. It’s on the corner, across from the bank."
+      },
+      {
+        "id": 3,
+        "speaker": "Mark",
+        "cantonese": "多謝呀！我啱啱嚟到冇幾日，所以我仲未熟路。",
+        "jyutping": "do1 ze6 aa3! ngo5 aam1 aam1 lei4 dou3 mou5 gei2 jat6, so2 ji5 ngo5 zung6 mei6 suk6 lou6.",
+        "english": "Thanks! I’ve only been in town a few days, so I really don’t know my way around yet."
+      },
+      {
+        "id": 4,
+        "speaker": "Nancy",
+        "cantonese": "哦，我明你嘅感受。我哋搬嚟一年啦，我都仲未熟晒啲地方！",
+        "jyutping": "o4, ngo5 ming4 nei5 ge3 gam2 sau6. ngo5 dei6 bun1 lei4 jat1 nin4 laa1, ngo5 dou1 zung6 mei6 suk6 saai3 di1 dei6 fong1!",
+        "english": "Oh, I know how you feel. We moved here a year ago, and I still don’t know where everything is!"
+      }
+    ]
+  },
+  {
+    "dialogueId": 15,
+    "type": "health",
+    "typeCantonese": "健康",
+    "title": "Calling for Help",
+    "titleCantonese": "求救",
+    "sentences": [
+      {
+        "id": 1,
+        "speaker": "Peter",
+        "cantonese": "喂！嗰架車啱啱闖紅燈撞咗嗰架貨車！",
+        "jyutping": "wai3! go2 gaa3 ce1 aam1 aam1 cong2 hung4 dang1 zong6 zo2 go2 gaa3 fo3 ce1!",
+        "english": "Hey! That car just ran a red light and hit that truck!"
+      },
+      {
+        "id": 2,
+        "speaker": "Gail",
+        "cantonese": "有人受傷嗎？",
+        "jyutping": "jau5 jan4 sau6 soeng1 maa3?",
+        "english": "Is anyone hurt?"
+      },
+      {
+        "id": 3,
+        "speaker": "Peter",
+        "cantonese": "我唔清楚……我哋打911啦。… 喂？我想報告一單車禍，喺查爾斯街郵局附近。好似有個男人受傷。係，啱啱發生嘅。好，多謝。再見。",
+        "jyutping": "ngo5 m4 cing1 co2... ngo5 dei6 daa2 gau2 jat1 jat1 jat1 laa1. ... wai3? ngo5 soeng2 bou3 gou3 jat1 daan1 ce1 wo6, hai2 chaa4 ji5 si1 gaai1 jau4 guk6 fu6 gan6. hou2 ci5 jau5 go3 naam4 jan4 sau6 soeng1. hai6, aam1 aam1 faat3 sang1 ge3. hou2, do1 ze6. zoi3 gin3.",
+        "english": "I don’t know … let’s call 911. … Hello? I’d like to report a car accident near the post office on Charles Street. It looks like a man is hurt. Yes, it just happened. OK, thanks. Bye."
+      },
+      {
+        "id": 4,
+        "speaker": "Gail",
+        "cantonese": "佢哋點講？",
+        "jyutping": "keoi5 dei6 dim2 gong2?",
+        "english": "What did they say?"
+      },
+      {
+        "id": 5,
+        "speaker": "Peter",
+        "cantonese": "佢哋會即刻派救護車同警車嚟。",
+        "jyutping": "keoi5 dei6 wui5 zik1 hak1 paai3 gau3 wu6 ce1 tung4 ging2 ce1 lei4.",
+        "english": "They’re going to send an ambulance and a police car right away."
+      },
+      {
+        "id": 6,
+        "speaker": "Gail",
+        "cantonese": "好，佢哋嚟到喇。希望嗰個男人冇事。",
+        "jyutping": "hou2, keoi5 dei6 lei4 dou3 laa3. hei1 mong6 go2 go3 naam4 jan4 mou5 si6.",
+        "english": "Good, they’re here. I hope the man is OK."
+      },
+      {
+        "id": 7,
+        "speaker": "Peter",
+        "cantonese": "係呀，開車真係要小心啲。",
+        "jyutping": "hai6 aa3, hoi1 ce1 zan1 hai6 jiu3 siu2 sam1 di1.",
+        "english": "I know. You have to be so careful when you’re driving."
+      }
+    ]
+  },
+  {
+    "dialogueId": 16,
+    "type": "daily_life",
+    "typeCantonese": "日常生活",
+    "title": "Shopping for Clothes",
+    "titleCantonese": "買衫",
+    "sentences": [
+      {
+        "id": 1,
+        "speaker": "Salesperson",
+        "cantonese": "你好，需要幫手嗎？",
+        "jyutping": "nei5 hou2, seoi1 jiu3 bong1 sau2 maa3?",
+        "english": "Hello. May I help you?"
+      },
+      {
+        "id": 2,
+        "speaker": "Donna",
+        "cantonese": "係呀，我想買件新外套。",
+        "jyutping": "hai6 aa3, ngo5 soeng2 maai5 gin6 san1 ngoi6 tou3.",
+        "english": "Yes, I’m looking for a new jacket."
+      },
+      {
+        "id": 3,
+        "speaker": "Salesperson",
+        "cantonese": "咁你想要咩款式？",
+        "jyutping": "gam2 nei5 soeng2 jiu3 me1 fun2 sik1?",
+        "english": "What style are you interested in?"
+      },
+      {
+        "id": 4,
+        "speaker": "Donna",
+        "cantonese": "嗯……要暖啲嘅，因為冬天好凍。",
+        "jyutping": "ng4... jiu3 nyun5 di1 ge3, jan1 wai6 dung1 tin1 hou2 dung3.",
+        "english": "Well, something warm because it gets cold in the winter."
+      },
+      {
+        "id": 5,
+        "speaker": "Salesperson",
+        "cantonese": "呢件好受歡迎，仲有唔同嘅顏色。",
+        "jyutping": "ni1 gin6 hou2 sau6 fun1 jing4, zung6 jau5 m4 tung4 ge3 ngaan4 sik1.",
+        "english": "This one is very popular, and it comes in several colors."
+      },
+      {
+        "id": 6,
+        "speaker": "Donna",
+        "cantonese": "嗯……我鍾意藍色。可以試吓嗎？",
+        "jyutping": "ng4... ngo5 zung1 ji3 laam4 sik1. ho2 ji5 si3 haa5 maa3?",
+        "english": "Hmm … I like the blue one. Can I try it on?"
+      },
+      {
+        "id": 7,
+        "speaker": "Salesperson",
+        "cantonese": "當然可以！更衣室喺度。",
+        "jyutping": "dong1 jin4 ho2 ji5! gang1 ji1 sat1 hai2 dou6.",
+        "english": "Of course! The fitting room is right over there."
+      },
+      {
+        "id": 8,
+        "speaker": "Donna",
+        "cantonese": "呢件好啱尺寸。我就要呢件啦，多謝你！",
+        "jyutping": "ni1 gin6 hou2 aam1 cek3 cyun3. ngo5 zau6 jiu3 ni1 gin6 laa1, do1 ze6 nei5!",
+        "english": "It fits perfectly. I’ll take it. Thank you!"
+      }
+    ]
+  },
+  {
+    "dialogueId": 17,
+    "type": "communication",
+    "typeCantonese": "溝通",
+    "title": "Making a Phone Call",
+    "titleCantonese": "打電話",
+    "sentences": [
+      {
+        "id": 1,
+        "speaker": "Tom",
+        "cantonese": "喂，Linda？我係Tom。我想問下你今晚有冇空？",
+        "jyutping": "wai3, Linda? ngo5 hai6 Tom. ngo5 soeng2 man6 haa5 nei5 gam1 maan5 jau5 mou5 hung1?",
+        "english": "Hello, Linda? This is Tom. I was wondering if you’re free tonight."
+      },
+      {
+        "id": 2,
+        "speaker": "Linda",
+        "cantonese": "哦，嗨，Tom。我今晚應該得閒。點解呀？",
+        "jyutping": "o4, haai1, Tom. ngo5 gam1 maan5 jing1 goi1 dak1 haan4. dim2 gaai2 aa3?",
+        "english": "Oh, hi Tom. I think I’m free tonight. Why?"
+      },
+      {
+        "id": 3,
+        "speaker": "Tom",
+        "cantonese": "我想知你想唔想一齊去睇場電影？",
+        "jyutping": "ngo5 soeng2 zi1 nei5 soeng2 m4 soeng2 jat1 cai4 heoi3 tai2 coeng4 din6 jing2?",
+        "english": "I wanted to know if you’d like to go see a movie with me."
+      },
+      {
+        "id": 4,
+        "speaker": "Linda",
+        "cantonese": "聽落幾好喎！但你想睇咩戲？",
+        "jyutping": "teng1 lok6 gei2 hou2 wo3! daan6 nei5 soeng2 tai2 me1 hei3?",
+        "english": "That sounds great! But what movie do you want to see?"
+      },
+      {
+        "id": 5,
+        "speaker": "Tom",
+        "cantonese": "我聽講新嗰套動作片好正。你點睇？",
+        "jyutping": "ngo5 teng1 gong2 san1 go2 tou3 dung6 zok3 pin2 hou2 zeng3. nei5 dim2 tai2?",
+        "english": "I heard the new action movie is really good. What do you think?"
+      },
+      {
+        "id": 6,
+        "speaker": "Linda",
+        "cantonese": "嗯……我平時唔太睇動作片，不過試下都可以。",
+        "jyutping": "ng4... ngo5 ping4 si4 m4 taai3 tai2 dung6 zok3 pin2, bat1 gwo3 si3 haa5 dou1 ho2 ji5.",
+        "english": "Hmm … I don’t usually watch action movies, but I guess I could try it."
+      },
+      {
+        "id": 7,
+        "speaker": "Tom",
+        "cantonese": "太好啦！我七點半嚟接你，得唔得？",
+        "jyutping": "taai3 hou2 laa1! ngo5 cat1 dim2 bun3 lei4 zip3 nei5, dak1 m4 dak1?",
+        "english": "Great! I’ll pick you up at 7:30, OK?"
+      },
+      {
+        "id": 8,
+        "speaker": "Linda",
+        "cantonese": "得呀，到時見！",
+        "jyutping": "dak1 aa3, dou3 si4 gin3!",
+        "english": "Sure. See you then!"
+      }
+    ]
+  },
+  {
+    "dialogueId": 18,
+    "type": "entertainment",
+    "typeCantonese": "娛樂",
+    "title": "Planning a Trip",
+    "titleCantonese": "計劃旅行",
+    "sentences": [
+      {
+        "id": 1,
+        "speaker": "Sarah",
+        "cantonese": "我好期待下個月嘅假期！你有冇諗過我哋想去邊度？",
+        "jyutping": "ngo5 hou2 kei4 doi6 haa6 go3 jyut6 ge3 gaa3 kei4! nei5 jau5 mou5 nam2 gwo3 ngo5 dei6 soeng2 heoi3 bin1 dou6?",
+        "english": "I’m really looking forward to our vacation next month! Have you thought about where we should go?"
+      },
+      {
+        "id": 2,
+        "speaker": "Kevin",
+        "cantonese": "我諗過呀。我覺得我哋應該去海邊！天氣會啱曬。",
+        "jyutping": "ngo5 nam2 gwo3 aa3. ngo5 gok3 dak1 ngo5 dei6 jing1 goi1 heoi3 hoi2 bin1! tin1 hei3 wui5 aam1 saai3.",
+        "english": "Yeah, I’ve been thinking. I think we should go to the beach! The weather will be perfect."
+      },
+      {
+        "id": 3,
+        "speaker": "Sarah",
+        "cantonese": "聽落好正喎！我都想曬太陽放鬆下。",
+        "jyutping": "teng1 lok6 hou2 zeng3 wo3! ngo5 dou1 soeng2 saai3 taai3 joeng4 fong3 sung1 haa5.",
+        "english": "That sounds great! I’d love to relax and get some sun."
+      },
+      {
+        "id": 4,
+        "speaker": "Kevin",
+        "cantonese": "我哋可以租架車，咁樣去唔同嘅地方會方便好多。",
+        "jyutping": "ngo5 dei6 ho2 ji5 zou1 gaa3 ce1, gam2 joeng6 heoi3 m4 tung4 ge3 dei6 fong1 wui5 fong1 bin6 hou2 do1.",
+        "english": "We could rent a car. That way we can visit lots of different places easily."
+      },
+      {
+        "id": 5,
+        "speaker": "Sarah",
+        "cantonese": "好主意！不過我哋最好早啲book酒店，唔係會冇房。",
+        "jyutping": "hou2 zyu2 ji3! bat1 gwo3 ngo5 dei6 zeoi3 hou2 zou2 di1 buk1 zau2 dim3, m4 hai6 wui5 mou5 fong4.",
+        "english": "Good idea! But we should book a hotel soon or there won’t be any rooms left."
+      },
+      {
+        "id": 6,
+        "speaker": "Kevin",
+        "cantonese": "啱啱，我今晚就查下酒店同租車嘅價錢。",
+        "jyutping": "aam1 aam1, ngo5 gam1 maan5 zau6 caa4 haa5 zau2 dim3 tung4 zou1 ce1 ge3 gaa3 cin2.",
+        "english": "You’re right. I’ll check hotel and car rental prices tonight."
+      },
+      {
+        "id": 7,
+        "speaker": "Sarah",
+        "cantonese": "太好啦！我哋一定會有個好開心嘅旅行。",
+        "jyutping": "taai3 hou2 laa1! ngo5 dei6 jat1 ding6 wui5 jau5 go3 hou2 hoi1 sam1 ge3 leoi5 hang4.",
+        "english": "Perfect! We’re going to have a wonderful trip."
+      }
+    ]
+  },
+  {
+    "dialogueId": 19,
+    "type": "daily_life",
+    "typeCantonese": "日常生活",
+    "title": "At the Bank",
+    "titleCantonese": "去銀行辦事",
+    "sentences": [
+      {
+        "id": 1,
+        "speaker": "Clerk",
+        "cantonese": "你好，我可以幫你嗎？",
+        "jyutping": "nei5 hou2, ngo5 ho2 ji5 bong1 nei5 maa3?",
+        "english": "Hello. How can I help you?"
+      },
+      {
+        "id": 2,
+        "speaker": "Henry",
+        "cantonese": "我想開一個新嘅儲蓄戶口。",
+        "jyutping": "ngo5 soeng2 hoi1 jat1 go3 san1 ge3 cyu5 cuk1 wu6 hau2.",
+        "english": "I’d like to open a new savings account."
+      },
+      {
+        "id": 3,
+        "speaker": "Clerk",
+        "cantonese": "可以，請你出示身份證同住址證明。",
+        "jyutping": "ho2 ji5, cing2 nei5 ceot1 si6 san1 fan6 zing3 tung4 zyu6 zi2 zing3 ming4.",
+        "english": "Sure. I’ll need your ID and proof of address."
+      },
+      {
+        "id": 4,
+        "speaker": "Henry",
+        "cantonese": "喺度，呢啲係我嘅文件。",
+        "jyutping": "hai2 dou6, ni1 di1 hai6 ngo5 ge3 man4 gin2.",
+        "english": "Here you go. These are my documents."
+      },
+      {
+        "id": 5,
+        "speaker": "Clerk",
+        "cantonese": "多謝。我會幫你處理。你都可以加張提款卡，免費嘅。",
+        "jyutping": "do1 ze6. ngo5 wui5 bong1 nei5 cyu5 lei5. nei5 dou1 ho2 ji5 gaa1 zoeng1 tai4 fun2 kaat1, min5 fai3 ge3.",
+        "english": "Thank you. I’ll process this for you. You can also get a debit card. It’s free."
+      },
+      {
+        "id": 6,
+        "speaker": "Henry",
+        "cantonese": "咁好呀，我要一張，多謝。",
+        "jyutping": "gam2 hou2 aa3, ngo5 jiu3 jat1 zoeng1, do1 ze6.",
+        "english": "That’s great. I’ll take one. Thanks."
+      },
+      {
+        "id": 7,
+        "speaker": "Clerk",
+        "cantonese": "好啦，全部搞掂，你嘅新戶口已經開好啦！",
+        "jyutping": "hou2 laa1, cyun4 bou6 gaau2 dim6, nei5 ge3 san1 wu6 hau2 ji5 ging1 hoi1 hou2 laa1!",
+        "english": "All right, everything is set. Your new account is now open!"
+      }
+    ]
+  },
+  {
+    "dialogueId": 20,
+    "type": "education",
+    "typeCantonese": "教育",
+    "title": "Talking About School",
+    "titleCantonese": "講學校嘅事",
+    "sentences": [
+      {
+        "id": 1,
+        "speaker": "Emily",
+        "cantonese": "你今日喺學校點呀？",
+        "jyutping": "nei5 gam1 jat6 hai2 hok6 haau6 dim2 aa3?",
+        "english": "How was school today?"
+      },
+      {
+        "id": 2,
+        "speaker": "Josh",
+        "cantonese": "嗯……都OK，不過我哋有個突擊測驗！",
+        "jyutping": "ng4... dou1 OK, bat1 gwo3 ngo5 dei6 jau5 go3 dat6 gik1 caak1 jim6!",
+        "english": "Uh… it was fine, but we had a surprise quiz!"
+      },
+      {
+        "id": 3,
+        "speaker": "Emily",
+        "cantonese": "哎吔！你覺得考成點？",
+        "jyutping": "ai1 jaa3! nei5 gok3 dak1 haau2 sing4 dim2?",
+        "english": "Oh no! How do you think you did?"
+      },
+      {
+        "id": 4,
+        "speaker": "Josh",
+        "cantonese": "我諗我應該合格，不過唔係好有信心。",
+        "jyutping": "ngo5 nam2 ngo5 jing1 goi1 hap6 gaak3, bat1 gwo3 m4 hai6 hou2 jau5 seon3 sam1.",
+        "english": "I think I passed, but I’m not totally sure."
+      },
+      {
+        "id": 5,
+        "speaker": "Emily",
+        "cantonese": "唔緊要啦，你平時都讀得好好。",
+        "jyutping": "m4 gan2 jiu3 laa1, nei5 ping4 si4 dou1 duk6 dak1 hou2 hou2.",
+        "english": "Don’t worry. You usually do really well."
+      },
+      {
+        "id": 6,
+        "speaker": "Josh",
+        "cantonese": "希望啦。另外，我下星期要做個科學報告。",
+        "jyutping": "hei1 mong6 laa1. ling6 ngoi6, ngo5 haa6 sing1 kei4 jiu3 zou6 go3 fo1 hok6 bou3 gou3.",
+        "english": "I hope so. Also, I have to do a science report next week."
+      },
+      {
+        "id": 7,
+        "speaker": "Emily",
+        "cantonese": "講咩嘢嘅？",
+        "jyutping": "gong2 me1 je5 ge3?",
+        "english": "What’s it about?"
+      },
+      {
+        "id": 8,
+        "speaker": "Josh",
+        "cantonese": "講火山爆發。我仲要做模型添。",
+        "jyutping": "gong2 fo2 saan1 baau3 faat3. ngo5 zung6 jiu3 zou6 mou4 jing4 tim1.",
+        "english": "Volcanoes. And I have to build a model."
+      },
+      {
+        "id": 9,
+        "speaker": "Emily",
+        "cantonese": "哇，咁好玩！如果你需要幫手就同我講。",
+        "jyutping": "waa1, gam3 hou2 waan2! jyu4 gwo2 nei5 seoi1 jiu3 bong1 sau2 zau6 tung4 ngo5 gong2.",
+        "english": "Wow, that sounds fun! Let me know if you need help."
+      }
+    ]
+  },
+  {
+    "dialogueId": 21,
+    "type": "daily_life",
+    "typeCantonese": "日常生活",
+    "title": "Talking About the Weather",
+    "titleCantonese": "講天氣",
+    "sentences": [
+      {
+        "id": 1,
+        "speaker": "Olivia",
+        "cantonese": "今日真係好熱呀！我差啲中暑添！",
+        "jyutping": "gam1 jat6 zan1 hai6 hou2 jit6 aa3! ngo5 caa1 di1 zung3 syu2 tim1!",
+        "english": "It’s really hot today! I almost got heatstroke!"
+      },
+      {
+        "id": 2,
+        "speaker": "Ben",
+        "cantonese": "係囉，溫度好似去到三十七度。",
+        "jyutping": "hai6 lo1, wan1 dou6 hou2 ci5 heoi3 dou3 saam1 sap6 cat1 dou6.",
+        "english": "I know. The temperature is supposed to reach 37 degrees."
+      },
+      {
+        "id": 3,
+        "speaker": "Olivia",
+        "cantonese": "希望聽日可以涼返啲啦，我等唔到秋天！",
+        "jyutping": "hei1 mong6 ting1 jat6 ho2 ji5 loeng4 faan1 di1 laa1, ngo5 dang2 m4 dou2 cau1 tin1!",
+        "english": "I just hope it cools down tomorrow. I can’t wait for fall!"
+      },
+      {
+        "id": 4,
+        "speaker": "Ben",
+        "cantonese": "但係我聽講之後幾日仲會落大雨添。",
+        "jyutping": "daan6 hai6 ngo5 teng1 gong2 zi1 hau6 gei2 jat6 zung6 wui5 lok6 daai6 jyu5 tim1.",
+        "english": "But I heard it’s going to rain heavily for the next few days."
+      },
+      {
+        "id": 5,
+        "speaker": "Olivia",
+        "cantonese": "吓？真係？咁我就要記得帶雨傘啦。",
+        "jyutping": "haa2? zan1 hai6? gam2 ngo5 zau6 jiu3 gei3 dak1 daai3 jyu5 saan3 laa1.",
+        "english": "What? Really? Then I’d better remember to bring an umbrella."
+      },
+      {
+        "id": 6,
+        "speaker": "Ben",
+        "cantonese": "係呀，你最好帶件薄褸，以防萬一會凍返轉頭。",
+        "jyutping": "hai6 aa3, nei5 zeoi3 hou2 daai3 gin6 bok6 lau1, ji5 fong4 maan6 jat1 wui5 dung3 faan1 zyun2 tau4.",
+        "english": "Yeah, and maybe a light jacket, just in case it suddenly gets cold again."
+      },
+      {
+        "id": 7,
+        "speaker": "Olivia",
+        "cantonese": "天氣真係好難捉摸！",
+        "jyutping": "tin1 hei3 zan1 hai6 hou2 naan4 zuk1 mo2!",
+        "english": "The weather is so unpredictable!"
+      }
+    ]
+  },
+  {
+    "dialogueId": 22,
+    "type": "daily_life",
+    "typeCantonese": "日常生活",
+    "title": "At the Supermarket",
+    "titleCantonese": "喺超市買嘢",
+    "sentences": [
+      {
+        "id": 1,
+        "speaker": "Maria",
+        "cantonese": "我哋要買啲咩先？",
+        "jyutping": "ngo5 dei6 jiu3 maai5 di1 me1 sin1?",
+        "english": "What do we need to buy?"
+      },
+      {
+        "id": 2,
+        "speaker": "Sam",
+        "cantonese": "我哋要牛奶、麵包、同埋雞蛋。",
+        "jyutping": "ngo5 dei6 jiu3 ngau4 naai5, min6 baau1, tung4 maai4 gai1 daan2.",
+        "english": "We need milk, bread, and eggs."
+      },
+      {
+        "id": 3,
+        "speaker": "Maria",
+        "cantonese": "咁仲要買啲水果嗎？",
+        "jyutping": "gam2 zung6 jiu3 maai5 di1 seoi2 gwo2 maa3?",
+        "english": "Should we get some fruit too?"
+      },
+      {
+        "id": 4,
+        "speaker": "Sam",
+        "cantonese": "係呀，我哋買啲蘋果同香蕉啦。",
+        "jyutping": "hai6 aa3, ngo5 dei6 maai5 di1 ping4 gwo2 tung4 hoeng1 ziu1 laa1.",
+        "english": "Yes, let’s get some apples and bananas."
+      },
+      {
+        "id": 5,
+        "speaker": "Maria",
+        "cantonese": "你仲需要買肉類嗎？",
+        "jyutping": "nei5 zung6 seoi1 jiu3 maai5 juk6 leoi6 maa3?",
+        "english": "Do you need to buy any meat?"
+      },
+      {
+        "id": 6,
+        "speaker": "Sam",
+        "cantonese": "我要買少少雞肉，今晚煮。",
+        "jyutping": "ngo5 jiu3 maai5 siu2 siu2 gai1 juk6, gam1 maan5 zyu2.",
+        "english": "I want to get some chicken for dinner tonight."
+      },
+      {
+        "id": 7,
+        "speaker": "Maria",
+        "cantonese": "好呀。咁我哋買完肉就可以去結帳。",
+        "jyutping": "hou2 aa3. gam2 ngo5 dei6 maai5 jyun4 juk6 zau6 ho2 ji5 heoi3 git3 zoeng3.",
+        "english": "Okay. After we get the chicken, we can go to the checkout."
+      },
+      {
+        "id": 8,
+        "speaker": "Sam",
+        "cantonese": "好，我哋快啲啦。今日超市好多人。",
+        "jyutping": "hou2, ngo5 dei6 faai3 di1 laa1. gam1 jat6 ciu1 si5 hou2 do1 jan4.",
+        "english": "Great. Let’s hurry. The supermarket is really crowded today."
+      }
+    ]
+  },
+  {
+    "dialogueId": 23,
+    "type": "daily_life",
+    "typeCantonese": "日常生活",
+    "title": "Running Errands",
+    "titleCantonese": "出去辦啲雜事",
+    "sentences": [
+      {
+        "id": 1,
+        "speaker": "Linda",
+        "cantonese": "你今日有冇時間幫我跑幾樣嘢？",
+        "jyutping": "nei5 gam1 jat6 jau5 mou5 si4 gaan3 bong1 ngo5 paau2 gei2 joeng6 je5?",
+        "english": "Do you have time today to help me run a few errands?"
+      },
+      {
+        "id": 2,
+        "speaker": "Mark",
+        "cantonese": "應該可以，你要做啲咩？",
+        "jyutping": "jing1 goi1 ho2 ji5, nei5 jiu3 zou6 di1 me1?",
+        "english": "I think so. What do you need to do?"
+      },
+      {
+        "id": 3,
+        "speaker": "Linda",
+        "cantonese": "我需要去郵局寄封信，之後要去藥房攞啲藥。",
+        "jyutping": "ngo5 seoi1 jiu3 heoi3 jau4 guk6 gei3 fung1 seon3, zi1 hau6 jiu3 heoi3 joek6 fong4 lo2 di1 joek6.",
+        "english": "I need to go to the post office to mail a letter, and then I have to pick up some medicine from the pharmacy."
+      },
+      {
+        "id": 4,
+        "speaker": "Mark",
+        "cantonese": "咁我哋可以先去郵局，再去藥房。",
+        "jyutping": "gam2 ngo5 dei6 ho2 ji5 sin1 heoi3 jau4 guk6, zoi3 heoi3 joek6 fong4.",
+        "english": "Then we can go to the post office first and then to the pharmacy."
+      },
+      {
+        "id": 5,
+        "speaker": "Linda",
+        "cantonese": "仲有一樣嘢，我哋要順便去超市買啲食物。",
+        "jyutping": "zung6 jau5 jat1 joeng6 je5, ngo5 dei6 jiu3 seon6 bin2 heoi3 ciu1 si5 maai5 di1 sik6 mat6.",
+        "english": "There’s one more thing—I also need to stop by the supermarket to get some groceries."
+      },
+      {
+        "id": 6,
+        "speaker": "Mark",
+        "cantonese": "得呀，我哋可以一齊去。你有冇買嘢清單？",
+        "jyutping": "dak1 aa3, ngo5 dei6 ho2 ji5 jat1 cai4 heoi3. nei5 jau5 mou5 maai5 je5 cing1 daan1?",
+        "english": "Sure, we can do all of that together. Do you have a shopping list?"
+      },
+      {
+        "id": 7,
+        "speaker": "Linda",
+        "cantonese": "有呀，就喺我袋入面。多謝你幫手！",
+        "jyutping": "jau5 aa3, zau6 hai2 ngo5 doi2 jap6 min6. do1 ze6 nei5 bong1 sau2!",
+        "english": "Yes, it’s in my bag. Thanks for helping me!"
+      },
+      {
+        "id": 8,
+        "speaker": "Mark",
+        "cantonese": "唔使客氣，我哋走啦！",
+        "jyutping": "m4 sai2 haak3 hei3, ngo5 dei6 zau2 laa1!",
+        "english": "No problem. Let’s get going!"
+      }
+    ]
+  },
+  {
+    "dialogueId": 24,
+    "type": "daily_life",
+    "typeCantonese": "日常生活",
+    "title": "At the Post Office",
+    "titleCantonese": "去郵局",
+    "sentences": [
+      {
+        "id": 1,
+        "speaker": "Clerk",
+        "cantonese": "你好，需要幫手嗎？",
+        "jyutping": "nei5 hou2, seoi1 jiu3 bong1 sau2 maa3?",
+        "english": "Hello. May I help you?"
+      },
+      {
+        "id": 2,
+        "speaker": "Susan",
+        "cantonese": "係，我想寄呢個包裹去加拿大。",
+        "jyutping": "hai6, ngo5 soeng2 gei3 ni1 go3 baau1 gwo2 heoi3 gaa1 naa4 daai6.",
+        "english": "Yes, I’d like to mail this package to Canada."
+      },
+      {
+        "id": 3,
+        "speaker": "Clerk",
+        "cantonese": "你想用普通郵寄定係快遞？",
+        "jyutping": "nei5 soeng2 jung6 pou2 tung1 jau4 gei3 ding6 hai6 faai3 dai6?",
+        "english": "Would you like regular mail or express?"
+      },
+      {
+        "id": 4,
+        "speaker": "Susan",
+        "cantonese": "快遞要幾錢呀？",
+        "jyutping": "faai3 dai6 jiu3 gei2 cin2 aa3?",
+        "english": "How much is express?"
+      },
+      {
+        "id": 5,
+        "speaker": "Clerk",
+        "cantonese": "大概三十蚊，三日到。",
+        "jyutping": "daai6 koi3 saam1 sap6 man1, saam1 jat6 dou3.",
+        "english": "About thirty dollars, and it takes three days."
+      },
+      {
+        "id": 6,
+        "speaker": "Susan",
+        "cantonese": "咁普通郵寄要幾耐先到？",
+        "jyutping": "gam2 pou2 tung1 jau4 gei3 jiu3 gei2 noi6 sin1 dou3?",
+        "english": "And how long does regular mail take?"
+      },
+      {
+        "id": 7,
+        "speaker": "Clerk",
+        "cantonese": "差唔多要一個星期。",
+        "jyutping": "caa1 m4 do1 jiu3 jat1 go3 sing1 kei4.",
+        "english": "It takes about a week."
+      },
+      {
+        "id": 8,
+        "speaker": "Susan",
+        "cantonese": "咁我用普通郵寄啦，多謝你。",
+        "jyutping": "gam2 ngo5 jung6 pou2 tung1 jau4 gei3 laa1, do1 ze6 nei5.",
+        "english": "Then I’ll use regular mail. Thank you."
+      },
+      {
+        "id": 9,
+        "speaker": "Clerk",
+        "cantonese": "唔使客氣。請填呢張表格。",
+        "jyutping": "m4 sai2 haak3 hei3. cing2 tin4 ni1 zoeng1 biu2 gaak3.",
+        "english": "You’re welcome. Please fill out this form."
+      }
+    ]
+  },
+  {
+    "dialogueId": 25,
+    "type": "education",
+    "typeCantonese": "教育",
+    "title": "Catching Up After Class",
+    "titleCantonese": "放堂後傾偈",
+    "sentences": [
+      {
+        "id": 1,
+        "speaker": "Mia",
+        "cantonese": "嗨，Jason！你覺得今日堂點呀？",
+        "jyutping": "haai1, Jason! nei5 gok3 dak1 gam1 jat6 tong4 dim2 aa3?",
+        "english": "Hey, Jason! What did you think of today’s class?"
+      },
+      {
+        "id": 2,
+        "speaker": "Jason",
+        "cantonese": "唔錯呀，不過我覺得老師講得好快，我差啲跟唔上。",
+        "jyutping": "m4 co3 aa3, bat1 gwo3 ngo5 gok3 dak1 lou5 si1 gong2 dak1 hou2 faai3, ngo5 caa1 di1 gan1 m4 soeng5.",
+        "english": "It wasn’t bad, but I think the teacher talked really fast. I could barely keep up."
+      },
+      {
+        "id": 3,
+        "speaker": "Mia",
+        "cantonese": "係呀，佢今日真係特別快。你做唔做到嗰份練習？",
+        "jyutping": "hai6 aa3, keoi5 gam1 jat6 zan1 hai6 dak6 bit6 faai3. nei5 zou6 m4 zou6 dou2 go2 fan6 lin6 zaap6?",
+        "english": "Yeah, she was especially fast today. Were you able to finish the exercise?"
+      },
+      {
+        "id": 4,
+        "speaker": "Jason",
+        "cantonese": "做到一半咋。我想返屋企再做。",
+        "jyutping": "zou6 dou2 jat1 bun3 zaa3. ngo5 soeng2 faan1 uk1 kei2 zoi3 zou6.",
+        "english": "I only got halfway through it. I want to finish it at home."
+      },
+      {
+        "id": 5,
+        "speaker": "Mia",
+        "cantonese": "如果你要，我可以發我嘅notes畀你。",
+        "jyutping": "jyu4 gwo2 nei5 jiu3, ngo5 ho2 ji5 faat3 ngo5 ge3 notes bei2 nei5.",
+        "english": "If you want, I can send you my notes."
+      },
+      {
+        "id": 6,
+        "speaker": "Jason",
+        "cantonese": "嘩，咁就太好啦！多謝你，Mia！",
+        "jyutping": "waa1, gam2 zau6 taai3 hou2 laa1! do1 ze6 nei5, Mia!",
+        "english": "Wow, that would be great! Thank you, Mia!"
+      },
+      {
+        "id": 7,
+        "speaker": "Mia",
+        "cantonese": "唔使客氣！你今晚仲有其他功課要做嗎？",
+        "jyutping": "m4 sai2 haak3 hei3! nei5 gam1 maan5 zung6 jau5 kei4 taa1 gung1 fo3 jiu3 zou6 maa3?",
+        "english": "You’re welcome! Do you have any other homework to do tonight?"
+      },
+      {
+        "id": 8,
+        "speaker": "Jason",
+        "cantonese": "仲有數學同英文。不過應該搞得掂。",
+        "jyutping": "zung6 jau5 sou3 hok6 tung4 jing1 man4. bat1 gwo3 jing1 goi1 gaau2 dak1 dim6.",
+        "english": "Just math and English. But I think I can finish it."
+      },
+      {
+        "id": 9,
+        "speaker": "Mia",
+        "cantonese": "好呀，加油！我返屋企先啦。",
+        "jyutping": "hou2 aa3, gaa1 jau2! ngo5 faan1 uk1 kei2 sin1 laa1.",
+        "english": "Great, good luck! I’m heading home now."
+      },
+      {
+        "id": 10,
+        "speaker": "Jason",
+        "cantonese": "好，再見！",
+        "jyutping": "hou2, zoi3 gin3!",
+        "english": "Okay, see you!"
+      }
+    ]
+  },
+  {
+    "dialogueId": 26,
+    "type": "daily_life",
+    "typeCantonese": "日常生活",
+    "title": "Shopping",
+    "titleCantonese": "買嘢",
+    "sentences": [
+      {
+        "id": 1,
+        "speaker": "Jenny",
+        "cantonese": "你覺得呢件衫點呀？",
+        "jyutping": "nei5 gok3 dak1 ni1 gin6 saam1 dim2 aa3?",
+        "english": "What do you think of this shirt?"
+      },
+      {
+        "id": 2,
+        "speaker": "Laura",
+        "cantonese": "幾好喎，但係好似有啲貴。",
+        "jyutping": "gei2 hou2 wo3, daan6 hai6 hou2 ci5 jau5 di1 gwai3.",
+        "english": "It’s nice, but it seems a bit expensive."
+      },
+      {
+        "id": 3,
+        "speaker": "Jenny",
+        "cantonese": "係喎，不過佢哋話有八折。",
+        "jyutping": "hai6 wo3, bat1 gwo3 keoi5 dei6 waa6 jau5 baat3 zit3.",
+        "english": "True, but they said it’s 20% off."
+      },
+      {
+        "id": 4,
+        "speaker": "Laura",
+        "cantonese": "咁就抵買啦！你想試吓嗎？",
+        "jyutping": "gam2 zau6 dai2 maai5 laa1! nei5 soeng2 si3 haa5 maa3?",
+        "english": "Then it’s worth it! Do you want to try it on?"
+      },
+      {
+        "id": 5,
+        "speaker": "Jenny",
+        "cantonese": "係呀，我想試吓。更衣室喺邊？",
+        "jyutping": "hai6 aa3, ngo5 soeng2 si3 haa5. gang1 ji1 sat1 hai2 bin1?",
+        "english": "Yes, I do. Where’s the fitting room?"
+      },
+      {
+        "id": 6,
+        "speaker": "Laura",
+        "cantonese": "喺嗰邊，收銀處隔離。",
+        "jyutping": "hai2 go2 bin1, sau1 ngan2 cyu3 gaak3 lei4.",
+        "english": "Over there, next to the cashier."
+      },
+      {
+        "id": 7,
+        "speaker": "Jenny",
+        "cantonese": "我試完啦！你覺得點？",
+        "jyutping": "ngo5 si3 jyun4 laa1! nei5 gok3 dak1 dim2?",
+        "english": "I’m done trying it on! What do you think?"
+      },
+      {
+        "id": 8,
+        "speaker": "Laura",
+        "cantonese": "好啱你喎！顏色同款式都好襯你。",
+        "jyutping": "hou2 aam1 nei5 wo3! ngaan4 sik1 tung4 fun2 sik1 dou1 hou2 can3 nei5.",
+        "english": "It looks great on you! The color and style really suit you."
+      },
+      {
+        "id": 9,
+        "speaker": "Jenny",
+        "cantonese": "咁我買啦，多謝你陪我！",
+        "jyutping": "gam2 ngo5 maai5 laa1, do1 ze6 nei5 pui4 ngo5!",
+        "english": "Then I’ll buy it. Thanks for coming with me!"
+      },
+      {
+        "id": 10,
+        "speaker": "Laura",
+        "cantonese": "唔使客氣！買嘢真係好開心！",
+        "jyutping": "m4 sai2 haak3 hei3! maai5 je5 zan1 hai6 hou2 hoi1 sam1!",
+        "english": "You’re welcome! Shopping is always fun!"
+      }
+    ]
+  },
+  {
+    "dialogueId": 27,
+    "type": "daily_life",
+    "typeCantonese": "日常生活",
+    "title": "Transportation",
+    "titleCantonese": "交通方式",
+    "sentences": [
+      {
+        "id": 1,
+        "speaker": "Alex",
+        "cantonese": "你通常點樣返學㗎？",
+        "jyutping": "nei5 tung1 soeng4 dim2 joeng6 faan1 hok6 gaa3?",
+        "english": "How do you usually get to school?"
+      },
+      {
+        "id": 2,
+        "speaker": "Nina",
+        "cantonese": "我通常搭巴士，因為我屋企離學校幾遠。",
+        "jyutping": "ngo5 tung1 soeng4 daap3 baa1 si2, jan1 wai6 ngo5 uk1 kei2 lei4 hok6 haau6 gei2 jyun5.",
+        "english": "I usually take the bus because my house is pretty far from school."
+      },
+      {
+        "id": 3,
+        "speaker": "Alex",
+        "cantonese": "哦，我就行路返學，只係要十五分鐘。",
+        "jyutping": "o4, ngo5 zau6 haang4 lou6 faan1 hok6, zi2 hai6 jiu3 sap6 ng5 fan1 zung1.",
+        "english": "Oh, I walk to school. It only takes about fifteen minutes."
+      },
+      {
+        "id": 4,
+        "speaker": "Nina",
+        "cantonese": "好方便喎！你會唔會有時搭單車返學？",
+        "jyutping": "hou2 fong1 bin6 wo3! nei5 wui5 m4 wui5 jau5 si4 daap3 daan1 ce1 faan1 hok6?",
+        "english": "That’s convenient! Do you ever ride your bike to school?"
+      },
+      {
+        "id": 5,
+        "speaker": "Alex",
+        "cantonese": "有呀，天氣好嘅時候我會踩單車。",
+        "jyutping": "jau5 aa3, tin1 hei3 hou2 ge3 si4 hau6 ngo5 wui5 caai2 daan1 ce1.",
+        "english": "Yeah, I do when the weather is nice."
+      },
+      {
+        "id": 6,
+        "speaker": "Nina",
+        "cantonese": "我想試吓踩單車返學，但係我有啲驚馬路太繁忙。",
+        "jyutping": "ngo5 soeng2 si3 haa5 caai2 daan1 ce1 faan1 hok6, daan6 hai6 ngo5 jau5 di1 geng1 maa5 lou6 taai3 faan4 mong4.",
+        "english": "I’d like to try biking to school, but I’m a little afraid the streets are too busy."
+      },
+      {
+        "id": 7,
+        "speaker": "Alex",
+        "cantonese": "如果你想試，我可以陪你踩一次。",
+        "jyutping": "jyu4 gwo2 nei5 soeng2 si3, ngo5 ho2 ji5 pui4 nei5 caai2 jat1 ci3.",
+        "english": "If you want to try, I can ride with you once."
+      },
+      {
+        "id": 8,
+        "speaker": "Nina",
+        "cantonese": "好呀，多謝你！咁我哋聽日一齊返學啦！",
+        "jyutping": "hou2 aa3, do1 ze6 nei5! gam2 ngo5 dei6 ting1 jat6 jat1 cai4 faan1 hok6 laa1!",
+        "english": "Great, thank you! Let’s go to school together tomorrow then!"
+      }
+    ]
+  },
+  {
+    "dialogueId": 28,
+    "type": "daily_life",
+    "typeCantonese": "日常生活",
+    "title": "Going to the Mall",
+    "titleCantonese": "去商場",
+    "sentences": [
+      {
+        "id": 1,
+        "speaker": "A",
+        "cantonese": "我哋應該搭的士定係搭巴士去商場？",
+        "jyutping": "ngo5 dei6 jing1 goi1 daap3 dik1 si2 ding6 hai6 daap3 baa1 si2 heoi3 soeng1 coeng4?",
+        "english": "Should we take a taxi or a bus to the mall?"
+      },
+      {
+        "id": 2,
+        "speaker": "B",
+        "cantonese": "搭巴士啦。繁忙時間根本截唔到的士。",
+        "jyutping": "daap3 baa1 si2 laa1. faan4 mong4 si4 gaan3 gan1 bun2 zit3 m4 dou2 dik1 si2.",
+        "english": "Let’s take a bus. It’s impossible to get a taxi during rush hour."
+      },
+      {
+        "id": 3,
+        "speaker": "A",
+        "cantonese": "嗰邊唔係有個巴士站咩？",
+        "jyutping": "go2 bin1 m4 hai6 jau5 go3 baa1 si2 zaam6 me1?",
+        "english": "Isn’t that a bus stop over there?"
+      },
+      {
+        "id": 4,
+        "speaker": "B",
+        "cantonese": "係呀… 哦！巴士嚟啦。我哋要跑先追到。",
+        "jyutping": "hai6 aa3... o4! baa1 si2 lei4 laa1. ngo5 dei6 jiu3 paau2 sin1 zeoi1 dou2.",
+        "english": "Yes… Oh! There’s a bus now. We’ll have to run to catch it."
+      },
+      {
+        "id": 5,
+        "speaker": "A",
+        "cantonese": "唉唷，唔好啦！我哋啱啱錯過咗。",
+        "jyutping": "ai1 joek3, m4 hou2 laa1! ngo5 dei6 aam1 aam1 co3 gwo3 zo2.",
+        "english": "Oh, no! We just missed it."
+      },
+      {
+        "id": 6,
+        "speaker": "B",
+        "cantonese": "唔緊要，十分鐘之後仲有一班。",
+        "jyutping": "m4 gan2 jiu3, sap6 fan1 zung1 zi1 hau6 zung6 jau5 jat1 baan1.",
+        "english": "No problem. There’ll be another one in 10 minutes."
+      }
+    ]
+  },
+  {
+    "dialogueId": 29,
+    "type": "daily_life",
+    "typeCantonese": "日常生活",
+    "title": "Buying a Sweater",
+    "titleCantonese": "買冷衫",
+    "sentences": [
+      {
+        "id": 1,
+        "speaker": "Salesperson",
+        "cantonese": "我可以幫你嗎？",
+        "jyutping": "ngo5 ho2 ji5 bong1 nei5 maa3?",
+        "english": "Can I help you?"
+      },
+      {
+        "id": 2,
+        "speaker": "Gloria",
+        "cantonese": "可以呀，我想搵一件冷衫——中碼。",
+        "jyutping": "ho2 ji5 aa3, ngo5 soeng2 wan2 jat1 gin6 laang5 saam1 — zung1 maa5.",
+        "english": "Yes, I’m looking for a sweater — in a size medium."
+      },
+      {
+        "id": 3,
+        "speaker": "Salesperson",
+        "cantonese": "睇吓先… 呢件白色嘅幾靚喎，你覺得點？",
+        "jyutping": "tai2 haa5 sin1... ni1 gin6 baak6 sik1 ge3 gei2 leng3 wo3, nei5 gok3 dak1 dim2?",
+        "english": "Let’s see… here’s a nice white one. What do you think?"
+      },
+      {
+        "id": 4,
+        "speaker": "Gloria",
+        "cantonese": "我想要藍色多啲。",
+        "jyutping": "ngo5 soeng2 jiu3 laam4 sik1 do1 di1.",
+        "english": "I think I’d rather have it in blue."
+      },
+      {
+        "id": 5,
+        "speaker": "Salesperson",
+        "cantonese": "好呀… 呢度有藍色，中碼。你想試吓嗎？",
+        "jyutping": "hou2 aa3... ni1 dou6 jau5 laam4 sik1, zung1 maa5. nei5 soeng2 si3 haa5 maa3?",
+        "english": "OK… here’s blue, in a medium. Would you like to try it on?"
+      },
+      {
+        "id": 6,
+        "speaker": "Gloria",
+        "cantonese": "好呀… 嘩，我好鍾意！啱啱好，幾啱身形。",
+        "jyutping": "hou2 aa3... waa1, ngo5 hou2 zung1 ji3! aam1 aam1 hou2, gei2 aam1 san1 jing4.",
+        "english": "OK… yes, I love it. It fits perfectly."
+      },
+      {
+        "id": 7,
+        "speaker": "Gloria",
+        "cantonese": "幾錢呀？",
+        "jyutping": "gei2 cin2 aa3?",
+        "english": "How much is it?"
+      },
+      {
+        "id": 8,
+        "speaker": "Salesperson",
+        "cantonese": "五十蚊，加埋稅就五十三蚊。",
+        "jyutping": "ng5 sap6 man1, gaa1 maai4 seoi3 zau6 ng5 sap6 saam1 man1.",
+        "english": "It’s $50. It will be $53, with tax."
+      },
+      {
+        "id": 9,
+        "speaker": "Gloria",
+        "cantonese": "好！我要呢件。",
+        "jyutping": "hou2! ngo5 jiu3 ni1 gin6.",
+        "english": "Perfect! I’ll take it."
+      }
+    ]
+  },
+  {
+    "dialogueId": 30,
+    "type": "education",
+    "typeCantonese": "教育",
+    "title": "After the Exam",
+    "titleCantonese": "考試之後",
+    "sentences": [
+      {
+        "id": 1,
+        "speaker": "Linda",
+        "cantonese": "喂！你嘅物理考試考成點呀？",
+        "jyutping": "wai3! nei5 ge3 mat6 lei5 haau2 si3 haau2 sing4 dim2 aa3?",
+        "english": "Hey! How did your physics exam go?"
+      },
+      {
+        "id": 2,
+        "speaker": "Frank",
+        "cantonese": "都唔差，多謝。我而家只係覺得終於完咗好開心！你呢…你嘅報告做成點？",
+        "jyutping": "dou1 m4 caa1, do1 ze6. ngo5 ji4 gaa1 zi2 hai6 gok3 dak1 zung1 jyu1 jyun4 zo2 hou2 hoi1 sam1! nei5 ne1... nei5 ge3 bou3 gou3 zou6 sing4 dim2?",
+        "english": "Not bad, thanks. I’m just glad it’s over! How about you… how’d your presentation go?"
+      },
+      {
+        "id": 3,
+        "speaker": "Linda",
+        "cantonese": "哦，做得好好呀。多謝你幫我準備！",
+        "jyutping": "o4, zou6 dak1 hou2 hou2 aa3. do1 ze6 nei5 bong1 ngo5 zeon2 bei6!",
+        "english": "Oh, it went really well. Thanks for helping me with it!"
+      },
+      {
+        "id": 4,
+        "speaker": "Frank",
+        "cantonese": "唔使客氣。咁…聽日想唔想一齊溫習數學？",
+        "jyutping": "m4 sai2 haak3 hei3. gam2... ting1 jat6 soeng2 m4 soeng2 jat1 cai4 wan1 zaap6 sou3 hok6?",
+        "english": "No problem. So… do you feel like studying tomorrow for our math exam?"
+      },
+      {
+        "id": 5,
+        "speaker": "Linda",
+        "cantonese": "好呀，冇問題！十點過嚟啦，食完早餐之後。",
+        "jyutping": "hou2 aa3, mou5 man6 tai4! sap6 dim2 gwo3 lei4 laa1, sik6 jyun4 zou2 caan1 zi1 hau6.",
+        "english": "Yeah, sure! Come over around 10:00, after breakfast."
+      },
+      {
+        "id": 6,
+        "speaker": "Frank",
+        "cantonese": "好，冇問題。我帶埋我嘅筆記。",
+        "jyutping": "hou2, mou5 man6 tai4. ngo5 daai3 maai4 ngo5 ge3 bat1 gei3.",
+        "english": "All right. I’ll bring my notes."
+      }
+    ]
+  },
+  {
+    "dialogueId": 31,
+    "type": "daily_life",
+    "typeCantonese": "日常生活",
+    "title": "Mailing a Package",
+    "titleCantonese": "寄包裹",
+    "sentences": [
+      {
+        "id": 1,
+        "speaker": "Postal Clerk",
+        "cantonese": "今日我可以幫到你啲乜嘢？",
+        "jyutping": "gam1 jat6 ngo5 ho2 ji5 bong1 dou2 nei5 di1 mat1 je5?",
+        "english": "What can I do for you today?"
+      },
+      {
+        "id": 2,
+        "speaker": "Carol",
+        "cantonese": "我想寄呢個包裹去紐約，唔該。",
+        "jyutping": "ngo5 soeng2 gei3 ni1 go3 baau1 gwo2 heoi3 nau2 joek3, m4 goi1.",
+        "english": "I need to mail this package to New York, please."
+      },
+      {
+        "id": 3,
+        "speaker": "Postal Clerk",
+        "cantonese": "好，睇吓有幾重先……大概五磅。如果你寄特快，聽日就到。或者寄優先郵遞，星期六會到。",
+        "jyutping": "hou2, tai2 haa5 jau5 gei2 cung5 sin1... daai6 koi3 ng5 bong6. jyu4 gwo2 nei5 gei3 dak6 faai3, ting1 jat6 zau6 dou3. waak6 ze2 gei3 jau1 sin1 jau4 dai6, sing1 kei4 luk6 wui5 dou3.",
+        "english": "OK, let’s see how much it weighs… it’s about five pounds. If you send it express, it will get there tomorrow. Or you can send it priority and it will get there by Saturday."
+      },
+      {
+        "id": 4,
+        "speaker": "Carol",
+        "cantonese": "星期六到就可以啦。幾錢？",
+        "jyutping": "sing1 kei4 luk6 dou3 zau6 ho2 ji5 laa1. gei2 cin2?",
+        "english": "Saturday is fine. How much will that be?"
+      },
+      {
+        "id": 5,
+        "speaker": "Postal Clerk",
+        "cantonese": "$11.35。你仲需要其他嘢嗎？",
+        "jyutping": "sap6 jat1 man1 saam1 sap6 ng5. nei5 zung6 seoi1 jiu3 kei4 taa1 je5 maa3?",
+        "english": "$11.35. Do you need anything else?"
+      },
+      {
+        "id": 6,
+        "speaker": "Carol",
+        "cantonese": "哦，係喎，我差啲唔記得。我仲要一本郵票。",
+        "jyutping": "o4, hai6 wo3, ngo5 caa1 di1 m4 gei3 dak1. ngo5 zung6 jiu3 jat1 bun2 jau4 piu3.",
+        "english": "Oh, yeah! I almost forgot. I need a book of stamps, too."
+      },
+      {
+        "id": 7,
+        "speaker": "Postal Clerk",
+        "cantonese": "好，你嘅總數係$20.35。",
+        "jyutping": "hou2, nei5 ge3 zung2 sou3 hai6 ji6 sap6 man1 saam1 sap6 ng5.",
+        "english": "OK, your total comes to $20.35."
+      }
+    ]
+  },
+  {
+    "dialogueId": 32,
+    "type": "daily_life",
+    "typeCantonese": "日常生活",
+    "title": "Getting Things Done in Town",
+    "titleCantonese": "喺城入面辦啲嘢",
+    "sentences": [
+      {
+        "id": 1,
+        "speaker": "Hotel Receptionist",
+        "cantonese": "你好，有咩可以幫到你？",
+        "jyutping": "nei5 hou2, jau5 me1 ho2 ji5 bong1 dou2 nei5?",
+        "english": "Hi, there. How can I help you?"
+      },
+      {
+        "id": 2,
+        "speaker": "Claire",
+        "cantonese": "我嚟到呢度玩幾日，但係都要搞幾樣嘢。",
+        "jyutping": "ngo5 lei4 dou3 ni1 dou6 waan2 gei2 jat6, daan6 hai6 dou1 jiu3 gaau2 gei2 joeng6 je5.",
+        "english": "Well, I’m in town visiting for a few days, and I need to get some things done while I’m here."
+      },
+      {
+        "id": 3,
+        "speaker": "Hotel Receptionist",
+        "cantonese": "冇問題，你需要啲乜嘢？",
+        "jyutping": "mou5 man6 tai4, nei5 seoi1 jiu3 di1 mat1 je5?",
+        "english": "Sure. What do you need?"
+      },
+      {
+        "id": 4,
+        "speaker": "Claire",
+        "cantonese": "我想剪頭髮，仲有我要整短條新褲嘅褲腳。",
+        "jyutping": "ngo5 soeng2 zin2 tau4 faat3, zung6 jau5 ngo5 jiu3 zing2 dyun2 tiu4 san1 fu3 ge3 fu3 goek3.",
+        "english": "I need to get my hair cut. I also need to have my new pants hemmed."
+      },
+      {
+        "id": 5,
+        "speaker": "Hotel Receptionist",
+        "cantonese": "好，呢度有張地圖。呢度有間好好嘅髮型屋，就喺前面一個街口。仲有間裁縫店就喺呢度。仲有冇其他嘢？",
+        "jyutping": "hou2, ni1 dou6 jau5 zoeng1 dei6 tou4. ni1 dou6 jau5 gaan1 hou2 hou2 ge3 faat3 jing4 uk1, zau6 hai2 cin4 min6 jat1 go3 gaai1 hau2. zung6 jau5 gaan1 coi4 fung4 dim3 zau6 hai2 ni1 dou6. zung6 jau5 mou5 kei4 taa1 je5?",
+        "english": "OK. Here’s a map of the city. There’s a good hair salon here, which is just a block away. And there’s a tailor right here. Is there anything else?"
+      },
+      {
+        "id": 6,
+        "speaker": "Claire",
+        "cantonese": "有呀。我返屋企之前仲要送架車去做檢查。",
+        "jyutping": "jau5 aa3. ngo5 faan1 uk1 kei2 zi1 cin4 zung6 jiu3 sung3 gaa3 ce1 heoi3 zou6 gim2 caa4.",
+        "english": "Yes. I’ll need to have my car serviced before my long drive home!"
+      },
+      {
+        "id": 7,
+        "speaker": "Hotel Receptionist",
+        "cantonese": "冇問題。附近幾條街之外有個好嘅車房。",
+        "jyutping": "mou5 man6 tai4. fu6 gan6 gei2 tiu4 gaai1 zi1 ngoi6 jau5 go3 hou2 ge3 ce1 fong4.",
+        "english": "No problem. There’s a good mechanic a few blocks away."
+      }
+    ]
+  },
+  {
+    "dialogueId": 33,
+    "type": "daily_life",
+    "typeCantonese": "日常生活",
+    "title": "Baking Cookies",
+    "titleCantonese": "焗曲奇",
+    "sentences": [
+      {
+        "id": 1,
+        "speaker": "Louise",
+        "cantonese": "喂，Julia…睇吓嗰啲甜品！今日焗曲奇好唔好呀？",
+        "jyutping": "wai3, Julia... tai2 haa5 go2 di1 tim4 ban2! gam1 jat6 guk6 kuk1 kei4 hou2 m4 hou2 aa3?",
+        "english": "Hey, Julia… Look at those desserts! How about baking some cookies today?"
+      },
+      {
+        "id": 2,
+        "speaker": "Julia",
+        "cantonese": "唔…好呀，呢個主意好正！既然嚟到超市，順便買埋材料啦。",
+        "jyutping": "m4... hou2 aa3, ni1 go3 zyu2 ji3 hou2 zing3! gei3 jin4 lei4 dou3 ciu1 si5, seon6 bin2 maai5 maai4 coi2 liu4 laa1.",
+        "english": "Hmm… Yeah, that’s a great idea! While we’re here, let’s pick up the ingredients."
+      },
+      {
+        "id": 3,
+        "speaker": "Louise",
+        "cantonese": "好呀，我哋要啲乜嘢？",
+        "jyutping": "hou2 aa3, ngo5 dei6 jiu3 di1 mat1 je5?",
+        "english": "OK, what do we need?"
+      },
+      {
+        "id": 4,
+        "speaker": "Julia",
+        "cantonese": "食譜話要麵粉、糖同牛油。哦，仲要雞蛋同朱古力粒。",
+        "jyutping": "sik6 pou2 waa6 jiu3 min6 fan2, tong4 tung4 ngau4 jau4. o4, zung6 jiu3 gai1 daan2 tung4 zyu1 gu1 lik1 nap1.",
+        "english": "The recipe calls for flour, sugar and butter. Oh, and we also need eggs and chocolate chips."
+      },
+      {
+        "id": 5,
+        "speaker": "Louise",
+        "cantonese": "不如你去攞奶類嗰啲嘢啦？喺後面嘅雪櫃區。乾貨我去攞啦——喺十號通道。",
+        "jyutping": "bat1 jyu4 nei5 heoi3 lo2 naai5 leoi6 go2 di1 je5 laa1? hai2 hau6 min6 ge3 syut3 kwai6 keoi1. gon1 fo3 ngo5 heoi3 lo2 laa1 — hai2 sap6 hou6 tung1 dou6.",
+        "english": "Why don’t you get the dairy ingredients? You’ll find those in the refrigerated section in the back of the store. I’ll get the dry ingredients — they’re in aisle 10."
+      },
+      {
+        "id": 6,
+        "speaker": "Julia",
+        "cantonese": "好呀！咁我哋喺收銀度見啦。",
+        "jyutping": "hou2 aa3! gam2 ngo5 dei6 hai2 sau1 ngan2 dou6 gin3 laa1.",
+        "english": "Great! Let’s meet at the checkout."
+      },
+      {
+        "id": 7,
+        "speaker": "Louise",
+        "cantonese": "好，待會見。",
+        "jyutping": "hou2, doi6 wui2 gin3.",
+        "english": "OK. See you there."
+      }
+    ]
+  },
+  {
+    "dialogueId": 34,
+    "type": "health",
+    "typeCantonese": "健康",
+    "title": "Car Accident",
+    "titleCantonese": "交通意外",
+    "sentences": [
+      {
+        "id": 1,
+        "speaker": "Peter",
+        "cantonese": "喂！嗰架車剛剛衝紅燈撞到嗰架貨車！",
+        "jyutping": "wai3! go2 gaa3 ce1 gong1 gong1 cung1 hung4 dang1 zong6 dou2 go2 gaa3 fo3 ce1!",
+        "english": "Hey! That car just ran a red light and hit that truck!"
+      },
+      {
+        "id": 2,
+        "speaker": "Gail",
+        "cantonese": "有冇人受傷呀？",
+        "jyutping": "jau5 mou5 jan4 sau6 soeng1 aa3?",
+        "english": "Is anyone hurt?"
+      },
+      {
+        "id": 3,
+        "speaker": "Peter",
+        "cantonese": "我唔清楚… 我哋打911啦。… 喂？我想報告一單交通意外，就喺Charles Street郵局附近。好似有個男人受傷。係，啱啱發生。好，多謝，再見。",
+        "jyutping": "ngo5 m4 cing1 co2... ngo5 dei6 daa2 gau2 jat1 jat1 jat1 laa1. ... wai3? ngo5 soeng2 bou3 gou3 jat1 daan1 gaau1 tung1 ji3 ngo6, zau6 hai2 Charles Street jau4 guk6 fu6 gan6. hou2 ci5 jau5 go3 naam4 jan4 sau6 soeng1. hai6, aam1 aam1 faat3 sang1. hou2, do1 ze6, zoi3 gin3.",
+        "english": "I don’t know… let’s call 911. … Hello? I’d like to report a car accident near the post office on Charles Street. It looks like a man is hurt. Yes, it just happened. OK, thanks. Bye."
+      },
+      {
+        "id": 4,
+        "speaker": "Gail",
+        "cantonese": "佢哋點講？",
+        "jyutping": "keoi5 dei6 dim2 gong2?",
+        "english": "What did they say?"
+      },
+      {
+        "id": 5,
+        "speaker": "Peter",
+        "cantonese": "佢哋會即刻派救護車同差人車過嚟。",
+        "jyutping": "keoi5 dei6 wui5 zik1 hak1 paai3 gau3 wu6 ce1 tung4 caai1 jan4 ce1 gwo3 lei4.",
+        "english": "They’re going to send an ambulance and a police car right away."
+      },
+      {
+        "id": 6,
+        "speaker": "Gail",
+        "cantonese": "好，佢哋嚟到啦。我希望個男人冇事啦。",
+        "jyutping": "hou2, keoi5 dei6 lei4 dou3 laa1. ngo5 hei1 mong6 go3 naam4 jan4 mou5 si6 laa1.",
+        "english": "Good, they’re here. I hope the man is OK."
+      },
+      {
+        "id": 7,
+        "speaker": "Peter",
+        "cantonese": "係呀。開車真係要好小心。",
+        "jyutping": "hai6 aa3. hoi1 ce1 zan1 hai6 jiu3 hou2 siu2 sam1.",
+        "english": "I know. You have to be so careful when you’re driving."
+      }
+    ]
+  },
+  {
+    "dialogueId": 35,
+    "type": "daily_life",
+    "typeCantonese": "日常生活",
+    "title": "Asking for Directions",
+    "titleCantonese": "問路去圖書館",
+    "sentences": [
+      {
+        "id": 1,
+        "speaker": "Mark",
+        "cantonese": "唔好意思，你可唔可以同我講圖書館喺邊度？",
+        "jyutping": "m4 hou2 ji3 si1, nei5 ho2 m4 ho2 ji5 tung4 ngo5 gong2 tou4 syu1 gun2 hai2 bin1 dou6?",
+        "english": "Excuse me. Could you tell me where the library is?"
+      },
+      {
+        "id": 2,
+        "speaker": "Nancy",
+        "cantonese": "可以呀，向嗰邊走。行三個街口到Washington Street，之後轉右。圖書館就喺個街角，銀行對面。",
+        "jyutping": "ho2 ji5 aa3, hoeng3 go2 bin1 zau2. haang4 saam1 go3 gaai1 hau2 dou3 Washington Street, zi1 hau6 zyun3 jau6. tou4 syu1 gun2 zau6 hai2 go3 gaai1 gok3, ngon4 hong4 deoi3 min6.",
+        "english": "Yes, it’s that way. You go three blocks to Washington Street, then turn right. It’s on the corner, across from the bank."
+      },
+      {
+        "id": 3,
+        "speaker": "Mark",
+        "cantonese": "多謝！我啱啱先嚟到呢個城市幾日，所以仲唔係好熟路。",
+        "jyutping": "do1 ze6! ngo5 aam1 aam1 sin1 lei4 dou3 ni1 go3 sing4 si5 gei2 jat6, so2 ji5 zung6 m4 hai6 hou2 suk6 lou6.",
+        "english": "Thanks! I’ve only been in town a few days, so I really don’t know my way around yet."
+      },
+      {
+        "id": 4,
+        "speaker": "Nancy",
+        "cantonese": "哦，我明白你嘅感受。我哋搬嚟嘅時候都係咁。",
+        "jyutping": "o4, ngo5 ming4 baak6 nei5 ge3 gam2 sau6. ngo5 dei6 bun1 lei4 ge3 si4 hau6 dou1 hai6 gam2.",
+        "english": "Oh, I know how you feel. We moved here and felt the same way."
+      }
+    ]
+  },
+  {
+    "dialogueId": 36,
+    "type": "health",
+    "typeCantonese": "健康",
+    "title": "Visiting the Doctor",
+    "titleCantonese": "睇醫生",
+    "sentences": [
+      {
+        "id": 1,
+        "speaker": "Doctor",
+        "cantonese": "你覺得有咩問題？",
+        "jyutping": "nei5 gok3 dak1 jau5 me1 man6 tai4?",
+        "english": "What seems to be the problem?"
+      },
+      {
+        "id": 2,
+        "speaker": "Cathy",
+        "cantonese": "嗯，我咳得好厲害，喉嚨又痛，仲有頭痛。",
+        "jyutping": "ng6, ngo5 kat1 dak1 hou2 lai6 hoi6, hau4 lung4 jau6 tung3, zung6 jau5 tau4 tung3.",
+        "english": "Well, I have a bad cough and a sore throat. I also have a headache."
+      },
+      {
+        "id": 3,
+        "speaker": "Doctor",
+        "cantonese": "你有呢啲症狀幾耐啦？",
+        "jyutping": "nei5 jau5 ni1 di1 zing3 zong6 gei2 noi6 laa1?",
+        "english": "How long have you had these symptoms?"
+      },
+      {
+        "id": 4,
+        "speaker": "Cathy",
+        "cantonese": "差唔多三日啦，而且我好攰。",
+        "jyutping": "caa1 m4 do1 saam1 jat6 laa1, ji4 ce2 ngo5 hou2 gui6.",
+        "english": "About three days now. And I’m really tired, too."
+      },
+      {
+        "id": 5,
+        "speaker": "Doctor",
+        "cantonese": "嗯，聽落好似係流感。四個鐘頭食一次阿士匹靈，多啲休息，記住飲多啲水。如果下星期仲未好，打畀我。",
+        "jyutping": "ng6, teng1 lok6 hou2 ci5 hai6 lau4 gam2. sei3 go3 zung1 tau4 sik6 jat1 ci3 aa3 si6 pat1 ling4, do1 di1 jau1 sik1, gei3 zyu6 jam2 do1 di1 seoi2. jyu4 gwo2 haa6 sing1 kei4 zung6 mei6 hou2, daa2 bei2 ngo5.",
+        "english": "Hmm. It sounds like you’ve got the flu. Take aspirin every four hours and get plenty of rest. Make sure you drink lots of fluids. Call me if you’re still sick next week."
+      },
+      {
+        "id": 6,
+        "speaker": "Cathy",
+        "cantonese": "好，多謝醫生。",
+        "jyutping": "hou2, do1 ze6 ji1 sang1.",
+        "english": "OK, thanks."
+      }
+    ]
+  },
+  {
+    "dialogueId": 37,
+    "type": "daily_life",
+    "typeCantonese": "日常生活",
+    "title": "Ordering at a Restaurant",
+    "titleCantonese": "喺餐廳落單",
+    "sentences": [
+      {
+        "id": 1,
+        "speaker": "Waiter",
+        "cantonese": "你好，我會係今日嘅服務員。想先飲啲咩？",
+        "jyutping": "nei5 hou2, ngo5 wui5 hai6 gam1 jat6 ge3 fuk6 mou6 jyun4. soeng2 sin1 jam2 di1 me1?",
+        "english": "Hello, I’ll be your waiter today. Can I start you off with something to drink?"
+      },
+      {
+        "id": 2,
+        "speaker": "Ralph",
+        "cantonese": "要，麻煩畀我一杯凍茶。",
+        "jyutping": "jiu3, maa4 faan4 bei2 ngo5 jat1 bui1 dung3 caa4.",
+        "english": "Yes. I’ll have iced tea, please."
+      },
+      {
+        "id": 3,
+        "speaker": "Anna",
+        "cantonese": "我要檸檬水。",
+        "jyutping": "ngo5 jiu3 ning4 mung1 seoi2.",
+        "english": "And I’ll have lemonade."
+      },
+      {
+        "id": 4,
+        "speaker": "Waiter",
+        "cantonese": "好。你哋準備好落單未？定係要多幾分鐘？",
+        "jyutping": "hou2. nei5 dei6 zeon2 bei6 hou2 lok6 daan1 mei6? ding6 hai6 jiu3 do1 gei2 fan1 zung1?",
+        "english": "OK. Are you ready to order, or do you need a few minutes?"
+      },
+      {
+        "id": 5,
+        "speaker": "Ralph",
+        "cantonese": "我諗我哋準備好啦。我想要番茄湯做頭盤，之後要烤牛肉，配薯蓉同豌豆。",
+        "jyutping": "ngo5 lam2 ngo5 dei6 zeon2 bei6 hou2 laa1. ngo5 soeng2 jiu3 faan1 ke2 tong1 zou6 tau4 pun2, zi1 hau6 jiu3 haau1 ngau4 juk6, pui3 syu4 jung4 tung4 wun1 dau6.",
+        "english": "I think we’re ready. I’ll have the tomato soup to start, and the roast beef with mashed potatoes and peas."
+      },
+      {
+        "id": 6,
+        "speaker": "Waiter",
+        "cantonese": "你想烤牛肉幾成熟？一成熟、半成熟，定係全熟？",
+        "jyutping": "nei5 soeng2 haau1 ngau4 juk6 gei2 sing4 suk6? jat1 sing4 suk6, bun3 sing4 suk6, ding6 hai6 cyun4 suk6?",
+        "english": "How do you want the beef — rare, medium, or well done?"
+      },
+      {
+        "id": 7,
+        "speaker": "Ralph",
+        "cantonese": "全熟，唔該。",
+        "jyutping": "cyun4 suk6, m4 goi1.",
+        "english": "Well done, please."
+      },
+      {
+        "id": 8,
+        "speaker": "Anna",
+        "cantonese": "而我就要魚，加薯仔同沙律。",
+        "jyutping": "ji4 ngo5 zau6 jiu3 jyu2, gaa1 syu4 zai2 tung4 saa1 leot6.",
+        "english": "And I’ll just have the fish, with potatoes and a salad."
+      }
+    ]
+  },
+  {
+    "dialogueId": 38,
+    "type": "social",
+    "typeCantonese": "社交",
+    "title": "How Old Are You?",
+    "titleCantonese": "你幾多歲？",
+    "sentences": [
+      {
+        "id": 1,
+        "speaker": "Emma",
+        "cantonese": "你今年幾多歲呀？",
+        "jyutping": "nei5 gam1 nin4 gei2 do1 seoi3 aa3?",
+        "english": "How old are you this year?"
+      },
+      {
+        "id": 2,
+        "speaker": "Lucas",
+        "cantonese": "我今年二十歲，你呢？",
+        "jyutping": "ngo5 gam1 nin4 ji6 sap6 seoi3, nei5 ne1?",
+        "english": "I’m twenty this year. How about you?"
+      },
+      {
+        "id": 3,
+        "speaker": "Emma",
+        "cantonese": "我十九歲，差唔多啦。",
+        "jyutping": "ngo5 sap6 gau2 seoi3, caa1 m4 do1 laa1.",
+        "english": "I’m nineteen. Almost the same."
+      },
+      {
+        "id": 4,
+        "speaker": "Lucas",
+        "cantonese": "係呀，我哋都係同一代人。",
+        "jyutping": "hai6 aa3, ngo5 dei6 dou1 hai6 tung4 jat1 doi6 jan4.",
+        "english": "Yeah, we’re basically the same generation."
+      }
+    ]
+  },
+  {
+    "dialogueId": 39,
+    "type": "entertainment",
+    "typeCantonese": "娛樂",
+    "title": "At the Movies",
+    "titleCantonese": "喺戲院",
+    "sentences": [
+      {
+        "id": 1,
+        "speaker": "Kevin",
+        "cantonese": "你睇過呢套新戲未？",
+        "jyutping": "nei5 tai2 gwo3 ni1 tou3 san1 hei3 mei6?",
+        "english": "Have you seen this new movie yet?"
+      },
+      {
+        "id": 2,
+        "speaker": "Nora",
+        "cantonese": "未呀，不過聽講好好睇。",
+        "jyutping": "mei6 aa3, bat1 gwo3 teng1 gong2 hou2 hou2 tai2.",
+        "english": "Not yet, but I’ve heard it’s really good."
+      },
+      {
+        "id": 3,
+        "speaker": "Kevin",
+        "cantonese": "咁我哋買七點嗰場啦？",
+        "jyutping": "gam2 ngo5 dei6 maai5 cat1 dim2 go2 coeng4 laa1?",
+        "english": "Then should we get tickets for the 7 pm showing?"
+      },
+      {
+        "id": 4,
+        "speaker": "Nora",
+        "cantonese": "好呀，買埋爆谷啦！",
+        "jyutping": "hou2 aa3, maai5 maai4 baau3 guk1 laa1!",
+        "english": "Sure—and let’s get popcorn too!"
+      }
+    ]
+  },
+  {
+    "dialogueId": 40,
+    "type": "education",
+    "typeCantonese": "教育",
+    "title": "What Are You Good At?",
+    "titleCantonese": "你擅長啲乜？",
+    "sentences": [
+      {
+        "id": 1,
+        "speaker": "Sophie",
+        "cantonese": "你覺得自己最叻啲乜嘢？",
+        "jyutping": "nei5 gok3 dak1 zi6 gei2 zeoi3 lek1 di1 mat1 je5?",
+        "english": "What do you think you're best at?"
+      },
+      {
+        "id": 2,
+        "speaker": "Daniel",
+        "cantonese": "我打籃球幾叻㗎，你呢？",
+        "jyutping": "ngo5 daa2 laam4 kau4 gei2 lek1 gaa3, nei5 ne1?",
+        "english": "I’m pretty good at basketball. How about you?"
+      },
+      {
+        "id": 3,
+        "speaker": "Sophie",
+        "cantonese": "我就叻彈琴，多數係幫學校表演。",
+        "jyutping": "ngo5 zau6 lek1 taan4 kam4, do1 sou3 hai6 bong1 hok6 haau6 biu2 jin2.",
+        "english": "I’m good at playing the piano. I usually perform for school events."
+      }
+    ]
+  },
+  {
+    "dialogueId": 41,
+    "type": "entertainment",
+    "typeCantonese": "娛樂",
+    "title": "What’s Your Favorite Sport?",
+    "titleCantonese": "你最鍾意嘅運動係乜？",
+    "sentences": [
+      {
+        "id": 1,
+        "speaker": "Leo",
+        "cantonese": "你最鍾意邊種運動？",
+        "jyutping": "nei5 zeoi3 zung1 ji3 bin1 zung2 wan6 dung6?",
+        "english": "What’s your favorite sport?"
+      },
+      {
+        "id": 2,
+        "speaker": "Holly",
+        "cantonese": "我最鍾意游水，夏天成日去泳池。",
+        "jyutping": "ngo5 zeoi3 zung1 ji3 jau4 seoi2, haa6 tin1 seng4 jat6 heoi3 wing6 ci4.",
+        "english": "I love swimming. I go to the pool all the time in the summer."
+      },
+      {
+        "id": 3,
+        "speaker": "Leo",
+        "cantonese": "我鍾意跑步，感覺好放鬆。",
+        "jyutping": "ngo5 zung1 ji3 paau2 bou6, gam2 gok3 hou2 fong3 sung1.",
+        "english": "I like running. It helps me relax."
+      }
+    ]
+  },
+  {
+    "dialogueId": 42,
+    "type": "entertainment",
+    "typeCantonese": "娛樂",
+    "title": "A Night at the Theater",
+    "titleCantonese": "喺劇院嘅一晚",
+    "sentences": [
+      {
+        "id": 1,
+        "speaker": "Megan",
+        "cantonese": "呢套舞台劇真係好精彩！",
+        "jyutping": "ni1 tou3 mou5 toi4 kek6 zan1 hai6 hou2 zing1 coi2!",
+        "english": "This stage play is really amazing!"
+      },
+      {
+        "id": 2,
+        "speaker": "Grant",
+        "cantonese": "係呀，演員演得好投入。",
+        "jyutping": "hai6 aa3, jin2 jyun4 jin2 dak1 hou2 tau4 jap6.",
+        "english": "Yeah, the actors are really into it."
+      },
+      {
+        "id": 3,
+        "speaker": "Megan",
+        "cantonese": "我好期待下一幕。",
+        "jyutping": "ngo5 hou2 kei4 doi6 haa6 jat1 mok6.",
+        "english": "I can’t wait for the next scene."
+      }
+    ]
+  },
+  {
+    "dialogueId": 43,
+    "type": "entertainment",
+    "typeCantonese": "娛樂",
+    "title": "Taking a Vacation",
+    "titleCantonese": "去旅行",
+    "sentences": [
+      {
+        "id": 1,
+        "speaker": "Olivia",
+        "cantonese": "你暑假有冇打算去邊度玩？",
+        "jyutping": "nei5 syu2 gaa3 jau5 mou5 daa2 syun3 heoi3 bin1 dou6 waan2?",
+        "english": "Do you have any plans for summer vacation?"
+      },
+      {
+        "id": 2,
+        "speaker": "Ben",
+        "cantonese": "我想去台灣食嘢同行山。",
+        "jyutping": "ngo5 soeng2 heoi3 toi4 waan1 sik6 je5 tung4 haang4 saan1.",
+        "english": "I’m thinking of going to Taiwan for food and hiking."
+      },
+      {
+        "id": 3,
+        "speaker": "Olivia",
+        "cantonese": "嘩，正呀！記住影多啲相返嚟。",
+        "jyutping": "waa1, zing3 aa3! gei3 zyu6 jing2 do1 di1 soeng2 faan1 lei4.",
+        "english": "Wow, nice! Remember to bring back lots of photos."
+      }
+    ]
+  },
+  {
+    "dialogueId": 44,
+    "type": "daily_life",
+    "typeCantonese": "日常生活",
+    "title": "At the Pet Store",
+    "titleCantonese": "喺寵物店",
+    "sentences": [
+      {
+        "id": 1,
+        "speaker": "Chloe",
+        "cantonese": "你覺得買邊種寵物好？",
+        "jyutping": "nei5 gok3 dak1 maai5 bin1 zung2 cung2 mat6 hou2?",
+        "english": "What kind of pet do you think I should get?"
+      },
+      {
+        "id": 2,
+        "speaker": "Ethan",
+        "cantonese": "如果你想容易照顧，可以養倉鼠。",
+        "jyutping": "jyu4 gwo2 nei5 soeng2 jung6 ji2 ziu3 gu3, ho2 ji5 joeng5 cong1 syu2.",
+        "english": "If you want something easy to care for, you could get a hamster."
+      },
+      {
+        "id": 3,
+        "speaker": "Chloe",
+        "cantonese": "但我鍾意狗呀。或者收養一隻流浪狗都得。",
+        "jyutping": "daan6 ngo5 zung1 ji3 gau2 aa3. waak6 ze2 sau1 joeng5 jat1 zek3 lau4 long6 gau2 dou1 dak1.",
+        "english": "But I love dogs. Maybe I could adopt a stray dog."
+      }
+    ]
+  },
+  {
+    "dialogueId": 45,
+    "type": "social",
+    "typeCantonese": "社交",
+    "title": "Giving Your Opinion",
+    "titleCantonese": "講你嘅睇法",
+    "sentences": [
+      {
+        "id": 1,
+        "speaker": "Nate",
+        "cantonese": "你覺得今次嘅活動好唔好？",
+        "jyutping": "nei5 gok3 dak1 gam1 ci3 ge3 wut6 dung6 hou2 m4 hou2?",
+        "english": "What do you think of this event?"
+      },
+      {
+        "id": 2,
+        "speaker": "Iris",
+        "cantonese": "我覺得好有趣，不過有啲嘈。",
+        "jyutping": "ngo5 gok3 dak1 hou2 jau5 ceoi3, bat1 gwo3 jau5 di1 cou4.",
+        "english": "I think it’s interesting, but a little noisy."
+      },
+      {
+        "id": 3,
+        "speaker": "Nate",
+        "cantonese": "係呀，人太多啦。",
+        "jyutping": "hai6 aa3, jan4 taai3 do1 laa1.",
+        "english": "Yeah, there are too many people."
+      }
+    ]
+  },
+  {
+    "dialogueId": 46,
+    "type": "entertainment",
+    "typeCantonese": "娛樂",
+    "title": "Hobbies",
+    "titleCantonese": "興趣",
+    "sentences": [
+      {
+        "id": 1,
+        "speaker": "Harper",
+        "cantonese": "你平時鍾意做啲乜嘢消遣？",
+        "jyutping": "nei5 ping4 si4 zung1 ji3 zou6 di1 mat1 je5 siu1 hin2?",
+        "english": "What do you like to do for fun?"
+      },
+      {
+        "id": 2,
+        "speaker": "Owen",
+        "cantonese": "我鍾意畫畫，你呢？",
+        "jyutping": "ngo5 zung1 ji3 waak6 waa2, nei5 ne1?",
+        "english": "I like drawing. What about you?"
+      },
+      {
+        "id": 3,
+        "speaker": "Harper",
+        "cantonese": "我最鍾意煮嘢食，同朋友試新食譜。",
+        "jyutping": "ngo5 zeoi3 zung1 ji3 zyu2 je5 sik6, tung4 pang4 jau5 si3 san1 sik6 pou2.",
+        "english": "I love cooking and trying new recipes with friends."
+      }
+    ]
+  },
+  {
+    "dialogueId": 47,
+    "type": "social",
+    "typeCantonese": "社交",
+    "title": "Weddings",
+    "titleCantonese": "婚禮",
+    "sentences": [
+      {
+        "id": 1,
+        "speaker": "Ella",
+        "cantonese": "你聽日會唔會去婚禮？",
+        "jyutping": "nei5 ting1 jat6 wui5 m4 wui5 heoi3 fan1 lai5?",
+        "english": "Are you going to the wedding tomorrow?"
+      },
+      {
+        "id": 2,
+        "speaker": "Mason",
+        "cantonese": "會呀，我係伴郎之一。",
+        "jyutping": "wui5 aa3, ngo5 hai6 bun6 long4 zi1 jat1.",
+        "english": "Yes, I’m one of the groomsmen."
+      },
+      {
+        "id": 3,
+        "speaker": "Ella",
+        "cantonese": "嘩，咁就要打扮得靚啲啦！",
+        "jyutping": "waa1, gam2 zau6 jiu3 daa2 baan6 dak1 leng3 di1 laa1!",
+        "english": "Wow, then you need to dress nicely!"
+      }
+    ]
+  },
+  {
+    "dialogueId": 48,
+    "type": "education",
+    "typeCantonese": "教育",
+    "title": "Giving Advice",
+    "titleCantonese": "畀意見",
+    "sentences": [
+      {
+        "id": 1,
+        "speaker": "Tina",
+        "cantonese": "我最近壓力好大，點算好？",
+        "jyutping": "ngo5 zeoi3 gan6 aat3 lik6 hou2 daai6, dim2 syun3 hou2?",
+        "english": "I’ve been really stressed lately. What should I do?"
+      },
+      {
+        "id": 2,
+        "speaker": "Marlon",
+        "cantonese": "不如試吓做運動，或者搵時間休息吓。",
+        "jyutping": "bat1 jyu4 si3 haa5 zou6 wan6 dung6, waak6 ze2 wan2 si4 gaan3 jau1 sik1 haa5.",
+        "english": "Try exercising, or find some time to rest."
+      },
+      {
+        "id": 3,
+        "speaker": "Tina",
+        "cantonese": "係喎，我應該安排吓自己。",
+        "jyutping": "hai6 wo3, ngo5 jing1 goi1 on1 paai4 haa5 zi6 gei2.",
+        "english": "You’re right. I should take better care of myself."
+      }
+    ]
+  },
+  {
+    "dialogueId": 49,
+    "type": "social",
+    "typeCantonese": "社交",
+    "title": "Aunt Mary’s Surprise Party",
+    "titleCantonese": "Mary阿姨嘅驚喜生日會",
+    "sentences": [
+      {
+        "id": 1,
+        "speaker": "Patty",
+        "cantonese": "我好期待今日下午Mary阿姨嘅驚喜生日會！你係咪都好興奮？",
+        "jyutping": "ngo5 hou2 kei4 doi6 gam1 jat6 haa6 ng5 Mary aa3 ji1 ge3 ging1 hei2 saang1 jat6 wui2! nei5 hai6 mai6 dou1 hou2 hing1 fan5?",
+        "english": "I’m really excited for Aunt Mary’s surprise birthday party this afternoon! Aren’t you?"
+      },
+      {
+        "id": 2,
+        "speaker": "Susan",
+        "cantonese": "係呀！佢今年幾多歲呀？",
+        "jyutping": "hai6 aa3! keoi5 gam1 nin4 gei2 do1 seoi3 aa3?",
+        "english": "Yeah! How old is she?"
+      },
+      {
+        "id": 3,
+        "speaker": "Patty",
+        "cantonese": "佢五月十四號就五十五歲啦。",
+        "jyutping": "keoi5 ng5 jyut6 sap6 sei3 hou6 zau6 ng5 sap6 ng5 seoi3 laa1.",
+        "english": "She’ll be 55 on May 14."
+      },
+      {
+        "id": 4,
+        "speaker": "Susan",
+        "cantonese": "嘩！我都唔知原來我媽仲大啲——佢九月二號就五十七歲啦。無論點，Mary阿姨見到我哋一定好驚喜！",
+        "jyutping": "waa1! ngo5 dou1 m4 zi1 jyun4 loi4 ngo5 maa1 zung6 daai6 di1 — keoi5 gau2 jyut6 ji6 hou6 zau6 ng5 sap6 cat1 seoi3 laa1. mou4 leon6 dim2, Mary aa3 ji1 gin3 dou2 ngo5 dei6 jat1 ding6 hou2 ging1 hei2!",
+        "english": "Wow! I didn’t know that my mom was older — she’s going to be 57 on September 2. Anyway, Aunt Mary’s going to be so surprised to see us all here!"
+      },
+      {
+        "id": 5,
+        "speaker": "Patty",
+        "cantonese": "係呀！但佢未到之前我哋要快啲擺好啲食物。",
+        "jyutping": "hai6 aa3! daan6 keoi5 mei6 dou3 zi1 cin4 ngo5 dei6 jiu3 faai3 di1 baai2 hou2 di1 sik6 mat6.",
+        "english": "I know! But we still have to get all the food set up before she gets here…"
+      },
+      {
+        "id": 6,
+        "speaker": "All",
+        "cantonese": "好啦！我哋準備好啦。噤聲！佢到啦！",
+        "jyutping": "hou2 laa1! ngo5 dei6 zeon2 bei6 hou2 laa1. sam1! keoi5 dou3 laa1!",
+        "english": "OK! We’re all ready now. Shh! She’s here!"
+      },
+      {
+        "id": 7,
+        "speaker": "All",
+        "cantonese": "驚喜！",
+        "jyutping": "ging1 hei2!",
+        "english": "Surprise!"
+      }
+    ]
+  },
+  {
+    "dialogueId": 50,
+    "type": "entertainment",
+    "typeCantonese": "娛樂",
+    "title": "Buying Movie Tickets",
+    "titleCantonese": "買戲票",
+    "sentences": [
+      {
+        "id": 1,
+        "speaker": "Bob",
+        "cantonese": "我哋想買三點半嗰場嘅兩張飛，唔該。",
+        "jyutping": "ngo5 dei6 soeng2 maai5 saam1 dim2 bun3 go2 coeng4 ge3 loeng5 zoeng1 fei1, m4 goi1.",
+        "english": "We’d like two tickets for the 3:30 show, please."
+      },
+      {
+        "id": 2,
+        "speaker": "Ticket Sales",
+        "cantonese": "畀你哋，請慢慢欣賞套戲！",
+        "jyutping": "bei2 nei5 dei6, cing2 maan6 maan6 jan1 soeng5 tou3 hei3!",
+        "english": "Here you go. Enjoy the movie!"
+      },
+      {
+        "id": 3,
+        "speaker": "Bob",
+        "cantonese": "唔該，你可唔可以移開一個位，等我同朋友可以坐埋一齊？",
+        "jyutping": "m4 goi1, nei5 ho2 m4 ho2 ji5 ji4 hoi1 jat1 go3 wai2, dang2 ngo5 tung4 pang4 jau5 ho2 ji5 co5 maai4 jat1 cai4?",
+        "english": "Would you mind moving over one, so my friend and I can sit together?"
+      },
+      {
+        "id": 4,
+        "speaker": "Woman",
+        "cantonese": "唔介意呀。",
+        "jyutping": "m4 gaai3 ji3 aa3.",
+        "english": "No, not at all."
+      },
+      {
+        "id": 5,
+        "speaker": "Bob",
+        "cantonese": "多謝晒！",
+        "jyutping": "do1 ze6 saai3!",
+        "english": "Thanks a lot!"
+      }
+    ]
+  },
+  {
+    "dialogueId": 51,
+    "type": "education",
+    "typeCantonese": "教育",
+    "title": "What Are You Good At?",
+    "titleCantonese": "你擅長啲乜？",
+    "sentences": [
+      {
+        "id": 1,
+        "speaker": "Sandra",
+        "cantonese": "咁……我哋做啲乜好呢？",
+        "jyutping": "gam2… ngo5 dei6 zou6 di1 mat1 hou2 ne1?",
+        "english": "So… what should we do?"
+      },
+      {
+        "id": 2,
+        "speaker": "Julie",
+        "cantonese": "嗯，我鍾意手作，又好叻畫畫。你覺得點？",
+        "jyutping": "ng6, ngo5 zung1 ji3 sau2 zok3, jau6 hou2 lek1 waak6 waa2. nei5 gok3 dak1 dim2?",
+        "english": "Well, I like to do arts and crafts, and I’m really good at drawing. What do you think?"
+      },
+      {
+        "id": 3,
+        "speaker": "Sandra",
+        "cantonese": "嗯……玩桌上遊戲點呀？咁會好玩啲。",
+        "jyutping": "ng6… waan2 coek3 soeng6 jau4 hei3 dim2 aa3? gam2 wui5 hou2 waan2 di1.",
+        "english": "Hmm… how about playing a board game? That would be more fun."
+      },
+      {
+        "id": 4,
+        "speaker": "Julie",
+        "cantonese": "好啊。玩拼字遊戲啦！我拼字都好叻㗎！",
+        "jyutping": "hou2 aa3. waan2 ping3 zi6 jau4 hei3 laa1! ngo5 ping3 zi6 dou1 hou2 lek1 gaa3!",
+        "english": "OK. Let’s play Scrabble! I’m really good at spelling, too!"
+      },
+      {
+        "id": 5,
+        "speaker": "Sandra",
+        "cantonese": "係咩？咁就睇下你有幾叻啦！",
+        "jyutping": "hai6 me1? gam2 zau6 tai2 haa5 nei5 jau5 gei2 lek1 laa1!",
+        "english": "Oh yeah? We’ll see about that!"
+      }
+    ]
+  },
+  {
+    "dialogueId": 52,
+    "type": "entertainment",
+    "typeCantonese": "娛樂",
+    "title": "What’s Your Favorite Sport?",
+    "titleCantonese": "你最鍾意嘅運動係乜？",
+    "sentences": [
+      {
+        "id": 1,
+        "speaker": "Phil",
+        "cantonese": "嗰場足球比賽幾點開始呀？我以為中午十二點開波㗎。",
+        "jyutping": "go2 coeng4 zuk1 kau4 bei2 coi3 gei2 dim2 hoi1 ci2 aa3? ngo5 ji5 wai4 zung1 ng5 sap6 ji6 dim2 hoi1 bo1 gaa3.",
+        "english": "What time is that soccer game on? I thought it started at noon."
+      },
+      {
+        "id": 2,
+        "speaker": "Jack",
+        "cantonese": "我哋應該記錯時間啦。不過都好啦，我本身都唔係好鍾意足球，我更鍾意籃球。",
+        "jyutping": "ngo5 dei6 jing1 goi1 gei3 co3 si4 gaan3 laa1. bat1 gwo3 dou1 hou2 laa1, ngo5 bun2 san1 dou1 m4 hai6 hou2 zung1 ji3 zuk1 kau4, ngo5 gang1 zung1 ji3 laam4 kau4.",
+        "english": "We must have had the wrong time. Oh well… soccer’s not my favorite sport anyway. I much prefer basketball."
+      },
+      {
+        "id": 3,
+        "speaker": "Phil",
+        "cantonese": "係咩？我以為你最鍾意網球添！我都好鍾意籃球㗎。",
+        "jyutping": "hai6 me1? ngo5 ji5 wai4 nei5 zeoi3 zung1 ji3 mong5 kau4 tim1! ngo5 dou1 hou2 zung1 ji3 laam4 kau4 gaa3.",
+        "english": "Oh, really? I thought your favorite sport was tennis! I’m a big fan of basketball too."
+      },
+      {
+        "id": 4,
+        "speaker": "Jack",
+        "cantonese": "咁遲啲打一場點呀？",
+        "jyutping": "gam2 ci4 di1 daa2 jat1 coeng4 dim2 aa3?",
+        "english": "How about a game sometime?"
+      },
+      {
+        "id": 5,
+        "speaker": "Phil",
+        "cantonese": "冇問題！既然足球比賽無得睇，不如下而家去投籃啦？",
+        "jyutping": "mou5 man6 tai4! gei3 jin4 zuk1 kau4 bei2 coi3 mou4 dak1 tai2, bat1 jyu4 haa6 ji4 gaa1 heoi3 tau4 laam4 laa1?",
+        "english": "Sure thing! Why don’t we go shoot some hoops now since the soccer game isn’t on?"
+      },
+      {
+        "id": 6,
+        "speaker": "Jack",
+        "cantonese": "好主意，走啦！",
+        "jyutping": "hou2 zyu2 ji3, zau2 laa1!",
+        "english": "Excellent idea. Let’s go."
+      }
+    ]
+  },
+  {
+    "dialogueId": 53,
+    "type": "entertainment",
+    "typeCantonese": "娛樂",
+    "title": "A Night at the Theater",
+    "titleCantonese": "喺劇院嘅一晚",
+    "sentences": [
+      {
+        "id": 1,
+        "speaker": "Shannon",
+        "cantonese": "真係一場好精彩嘅演出！多謝你邀請我睇呢套音樂劇。",
+        "jyutping": "zan1 hai6 jat1 coeng4 hou2 zing1 coi2 ge3 jin2 ceot1! do1 ze6 nei5 jiu1 cing2 ngo5 tai2 ni1 tou3 jam1 ngok6 kek6.",
+        "english": "What a fantastic performance! Thank you for inviting me to the musical."
+      },
+      {
+        "id": 2,
+        "speaker": "Elena",
+        "cantonese": "唔使客氣。我好開心你鍾意睇。舞蹈員嘅編舞真係精彩到不得了，令我諗起以前我跳舞嘅時候。",
+        "jyutping": "m4 sai2 haak3 hei3. ngo5 hou2 hoi1 sam1 nei5 zung1 ji3 tai2. mou5 dou6 jyun4 ge3 pin1 mou2 zan1 hai6 zing1 coi2 dou3 bat1 dak1 liu5, ling6 ngo5 lam2 hei2 ji5 cin4 ngo5 tiu3 mou5 ge3 si4 hau6.",
+        "english": "You’re welcome. I’m happy you enjoyed the show. The choreography of the dancers was incredible. It reminds me of when I used to dance."
+      },
+      {
+        "id": 3,
+        "speaker": "Shannon",
+        "cantonese": "我知呀！你以前跳芭蕾舞真係好有天分。你會唔會掛住跳舞？",
+        "jyutping": "ngo5 zi1 aa3! nei5 ji5 cin4 tiu3 baa1 leoi4 mou5 zan1 hai6 hou2 jau5 tin1 fan6. nei5 wui5 m4 wui5 gwaa3 zyu6 tiu3 mou5?",
+        "english": "I know! You were such a talented ballerina. Do you miss dancing?"
+      },
+      {
+        "id": 4,
+        "speaker": "Elena",
+        "cantonese": "哎呀，Shannon，你咁講好窩心。偶爾我都會掛住，不過我永遠都係藝術嘅粉絲。就係因為咁，我好鍾意睇音樂劇——歌、舞、戲劇集於一身，完美嘅組合。",
+        "jyutping": "ai1 jaa3, Shannon, nei5 gam2 gong2 hou2 wo1 sam1. ngau5 ji5 ngo5 dou1 wui5 gwaa3 zyu6, bat1 gwo3 ngo5 wing5 jyun5 dou1 hai6 ngai6 seot6 ge3 fan2 si1. zau6 hai6 jan1 wai6 gam2, ngo5 hou2 zung1 ji3 tai2 jam1 ngok6 kek6 — go1, mou5, hei3 kek6 zaap6 jyu1 jat1 san1, jyun4 mei5 ge3 zou2 hap6.",
+        "english": "Oh, that’s very kind of you, Shannon. I do miss it sometimes. But I will always be a fan of the arts. That’s why I love going to musicals because it’s the perfect combination of song, dance, and theater."
+      },
+      {
+        "id": 5,
+        "speaker": "Shannon",
+        "cantonese": "完全認同！我真係好開心你依然咁鍾意藝術。多謝你嘅邀請。每次同你一齊去睇藝術表演，我都會學到新嘢，真係好享受。",
+        "jyutping": "jyun4 cyun4 jing6 tung4! ngo5 zan1 hai6 hou2 hoi1 sam1 nei5 ji1 jin4 gam3 zung1 ji3 ngai6 seot6. do1 ze6 nei5 ge3 jiu1 cing2. mui5 ci3 tung4 nei5 jat1 cai4 heoi3 tai2 ngai6 seot6 biu2 jin2, ngo5 dou1 wui5 hok6 dou2 san1 je5, zan1 hai6 hou2 hoeng2 sau6.",
+        "english": "Absolutely! I’m glad you are still an art fan too. Thank you for the invitation. It’s always a pleasure to attend an arts event with you and learn something new."
+      }
+    ]
+  },
+  {
+    "dialogueId": 54,
+    "type": "daily_life",
+    "typeCantonese": "日常生活",
+    "title": "At the Pet Store",
+    "titleCantonese": "喺寵物店",
+    "sentences": [
+      {
+        "id": 1,
+        "speaker": "Connie",
+        "cantonese": "嘩！呢隻貓好靚呀。你點睇？",
+        "jyutping": "waa1! ni1 zek3 maau1 hou2 leng3 aa3. nei5 dim2 tai2?",
+        "english": "Oh! What a beautiful cat. What do you think?"
+      },
+      {
+        "id": 2,
+        "speaker": "Gary",
+        "cantonese": "我覺得我寧願養狗。狗比貓忠心啲。",
+        "jyutping": "ngo5 gok3 dak1 ngo5 ling4 jyun2 joeng5 gau2. gau2 bei2 maau1 zung1 sam1 di1.",
+        "english": "I think I’d rather get a dog. Dogs are more loyal than cats."
+      },
+      {
+        "id": 3,
+        "speaker": "Connie",
+        "cantonese": "係呀，但係照顧狗好麻煩㗎！你肯唔肯每日都帶佢散步？仲要執佢嘅便便？",
+        "jyutping": "hai6 aa3, daan6 hai6 ziu3 gu3 gau2 hou2 maa4 faan4 gaa3! nei5 hang2 m4 hang2 mui5 jat6 dou1 daai3 keoi5 saan3 bou6? zung6 jiu3 zap1 keoi5 ge3 bin6 bin6?",
+        "english": "Yes, but they’re so much work! Would you be willing to walk it every single day? And clean up after it?"
+      },
+      {
+        "id": 4,
+        "speaker": "Gary",
+        "cantonese": "嗯…講得啱。咁養雀仔點？或者養魚？",
+        "jyutping": "ng6… gong2 dak1 aam1. gam2 joeng5 zoek3 zai2 dim2? waak6 ze2 joeng5 jyu2?",
+        "english": "Hmm. Good point. What about a bird? Or a fish?"
+      },
+      {
+        "id": 5,
+        "speaker": "Connie",
+        "cantonese": "咁我哋就要花好多錢買籠或者魚缸啦。而且我都唔識點樣照顧雀仔或者魚！",
+        "jyutping": "gam2 ngo5 dei6 zau6 jiu3 faa1 hou2 do1 cin2 maai5 lung4 waak6 ze2 jyu2 gong1 laa1. ji4 ce2 ngo5 dou1 m4 sik1 dim2 joeng2 ziu3 gu3 zoek3 zai2 waak6 ze2 jyu2!",
+        "english": "We’d have to invest a lot of money in a cage or a fish tank. And I don’t really know how to take care of a bird or a fish!"
+      },
+      {
+        "id": 6,
+        "speaker": "Gary",
+        "cantonese": "睇嚟我哋暫時未準備好養寵物喇。",
+        "jyutping": "tai2 lei4 ngo5 dei6 zaam6 si4 mei6 zeon2 bei6 hou2 joeng5 cung2 mat6 laa3.",
+        "english": "Well, we’re obviously not ready to get a pet yet."
+      },
+      {
+        "id": 7,
+        "speaker": "Connie",
+        "cantonese": "你講得啱。不如去飲杯咖啡，再慢慢傾啦。",
+        "jyutping": "nei5 gong2 dak1 aam1. bat1 jyu4 heoi3 jam2 bui1 gaa3 fe1, zoi3 maan6 maan6 king1 laa1.",
+        "english": "Yeah, you’re right. Let’s go grab some coffee and talk about it."
+      }
+    ]
+  },
+  {
+    "dialogueId": 55,
+    "type": "entertainment",
+    "typeCantonese": "娛樂",
+    "title": "Taking a Vacation",
+    "titleCantonese": "去旅行",
+    "sentences": [
+      {
+        "id": 1,
+        "speaker": "Julie",
+        "cantonese": "我啱啱買咗去紐約嘅機票，超級興奮，可以去睇下呢個城市！",
+        "jyutping": "ngo5 aam1 aam1 maai5 zo2 heoi3 nau2 joek3 ge3 gei1 piu3, ciu1 kap1 hing1 fan5, ho2 ji5 heoi3 tai2 haa5 ni1 go3 sing4 si5!",
+        "english": "I just bought a ticket to New York City. I’m so excited to see the city!"
+      },
+      {
+        "id": 2,
+        "speaker": "Sophie",
+        "cantonese": "好嘢！旅行真係好好玩。我最鍾意發掘新嘅地方同新朋友。你幾時出發？",
+        "jyutping": "hou2 je5! leoi5 hang4 zan1 hai6 hou2 hou2 waan2. ngo5 zeoi3 zung1 ji3 faat3 gwat6 san1 ge3 dei6 fong1 tung4 san1 pang4 jau5. nei5 gei2 si4 ceot1 faat3?",
+        "english": "Good for you! Traveling is so much fun. I love discovering new places and new people. When are you leaving?"
+      },
+      {
+        "id": 3,
+        "speaker": "Julie",
+        "cantonese": "下個星期。我搭紅眼機，因為平啲。希望我喺飛機上面瞓到啦。",
+        "jyutping": "haa6 go3 sing1 kei4. ngo5 daap3 hung4 ngaan5 gei1, jan1 wai6 peng4 di1. hei1 mong6 ngo5 hai2 fei1 gei1 soeng6 min6 fan3 dou2 laa1.",
+        "english": "Next week. I’m taking the red eye. It was cheaper. Hopefully, I’ll be able to sleep on the plane."
+      },
+      {
+        "id": 4,
+        "speaker": "Sophie",
+        "cantonese": "我都想同你一齊去呀！紐約係一個好有魔力嘅地方，你一定會玩得好開心。",
+        "jyutping": "ngo5 dou1 soeng2 tung4 nei5 jat1 cai4 heoi3 aa3! nau2 joek3 hai6 jat1 go3 hou2 jau5 mo1 lik6 ge3 dei6 fong1, nei5 jat1 ding6 wui5 waan2 dak1 hou2 hoi1 sam1.",
+        "english": "I wish I could go with you! New York City is a magical place. You will have so much fun."
+      },
+      {
+        "id": 5,
+        "speaker": "Julie",
+        "cantonese": "希望啦。我會探下喺度住嘅哥哥。我會留一個星期，之後搭火車落去華盛頓。",
+        "jyutping": "hei1 mong6 laa1. ngo5 wui5 taam3 haa5 hai2 dou6 zyu6 ge3 go4 go1. ngo5 wui5 lau4 jat1 go3 sing1 kei4, zi1 hau6 daap3 fo2 ce1 lok6 heoi3 waa4 sing6 deon6.",
+        "english": "I hope so. I’m going to visit my brother who lives there. I will stay for a week and then take the train down to Washington, D.C."
+      },
+      {
+        "id": 6,
+        "speaker": "Sophie",
+        "cantonese": "聽落去真係好好嘅假期。我就期待去沙灘度放鬆一個星期，我只係想休息。",
+        "jyutping": "teng1 lok6 heoi3 zan1 hai6 hou2 hou2 ge3 gaa3 kei4. ngo5 zau6 kei4 doi6 heoi3 saa1 taan1 dou6 fong3 sung1 jat1 go3 sing1 kei4, ngo5 zi2 hai6 soeng2 jau1 sik1.",
+        "english": "That sounds like a great vacation. I’m looking forward to a week at the beach for my summer vacation. I just want to relax."
+      }
+    ]
+  },
+  {
+    "dialogueId": 56,
+    "type": "social",
+    "typeCantonese": "社交",
+    "title": "Vacation Planning",
+    "titleCantonese": "計劃旅行",
+    "sentences": [
+      {
+        "id": 1,
+        "speaker": "Jake",
+        "cantonese": "今年我哋應該去邊度度假呢？不如快啲決定啦。",
+        "jyutping": "gam1 nin4 ngo5 dei6 jing1 goi1 heoi3 bin1 dou6 dou6 gaa3 ne1? bat1 jyu4 faai3 di1 kyut3 ding6 laa1.",
+        "english": "Where should we take a vacation this year? Let’s decide soon."
+      },
+      {
+        "id": 2,
+        "speaker": "Melissa",
+        "cantonese": "嗯，我想去啲暖嘅地方。去沙灘點？又或者租間湖邊木屋。",
+        "jyutping": "ng6, ngo5 soeng2 heoi3 di1 nyun5 ge3 dei6 fong1. heoi3 saa1 taan1 dim2? jau6 waak6 ze2 zou1 gaan1 wu4 bin1 muk6 uk1.",
+        "english": "Well, I’d like to go somewhere warm. How about the beach? Or we could rent a cabin on the lake."
+      },
+      {
+        "id": 3,
+        "speaker": "Jake",
+        "cantonese": "你又想去沙灘？我今年冬天想去滑雪喎。不如折衷下？下年四月去歐洲阿爾卑斯山點？可以搵到喺湖邊嘅滑雪度假村。",
+        "jyutping": "nei5 jau6 soeng2 heoi3 saa1 taan1? ngo5 gam1 nin4 dung1 tin1 soeng2 heoi3 waat6 syut3 wo3. bat1 jyu4 zit3 cung1 haa5? haa6 nin4 sei3 jyut6 heoi3 au1 zau1 aa3 ji5 bei1 si1 saan1 dim2? ho2 ji5 wan2 dou2 hai2 wu4 bin1 ge3 waat6 syut3 dou6 gaa3 cyun1.",
+        "english": "You want to go to the beach again? I want to ski this winter. How about a compromise? What about traveling to the Alps in Europe next April? We can find a ski resort on a lake."
+      },
+      {
+        "id": 4,
+        "speaker": "Melissa",
+        "cantonese": "嘩，我哋未試過去歐洲㗎！但係我唔知到時會唔會有陽光同暖啲。我要先做吓資料搜集，咁先可以決定。",
+        "jyutping": "waa1, ngo5 dei6 mei6 si3 gwo3 heoi3 au1 zau1 gaa3! daan6 hai6 ngo5 m4 zi1 dou3 si4 wui5 m4 wui5 jau5 joeng4 gwong1 tung4 nyun5 di1. ngo5 jiu3 sin1 zou6 haa5 zi1 liu2 sau2 zaap6, gam2 sin1 ho2 ji5 kyut3 ding6.",
+        "english": "Oh, we’ve never been to Europe before! But I don’t know if it will be sunny and warm then. I need to do some research first. That will help me make up my mind."
+      }
+    ]
+  },
+  {
+    "dialogueId": 57,
+    "type": "entertainment",
+    "typeCantonese": "娛樂",
+    "title": "Hobbies",
+    "titleCantonese": "興趣",
+    "sentences": [
+      {
+        "id": 1,
+        "speaker": "Ryan",
+        "cantonese": "我真係好開心呢個期中考試星期終於完咗。",
+        "jyutping": "ngo5 zan1 hai6 hou2 hoi1 sam1 ni1 go3 kei4 zung1 haau2 si3 sing1 kei4 zung1 jyu1 jyun4 zo2.",
+        "english": "I’m so happy this week of midterm exams is finished."
+      },
+      {
+        "id": 2,
+        "speaker": "Tyler",
+        "cantonese": "我都係。我好期待呢個週末喺山上放鬆下。我計劃咗喺樹林入面行個小山徑，如果天氣許可仲會划獨木舟順住條河落去。",
+        "jyutping": "ngo5 dou1 hai6. ngo5 hou2 kei4 doi6 ni1 go3 zau1 mut6 hai2 saan1 soeng6 fong3 sung1 haa5. ngo5 gai3 waak6 zo2 hai2 syu6 lam4 jap6 min6 haang4 go3 siu2 saan1 ging3, jyu4 gwo2 tin1 hei3 heoi2 ho2 zung6 wui5 waa4 duk6 muk6 zau1 seon6 zyu6 tiu4 ho4 lok6 heoi3.",
+        "english": "Same here. I’m looking forward to relaxing in the mountains this weekend. I’ve planned a little hike in the woods. And I’m gonna take a canoe trip down the river if the weather cooperates."
+      },
+      {
+        "id": 3,
+        "speaker": "Ryan",
+        "cantonese": "好好玩喎！我就會去密芝根。我會帶埋相機，因為秋天好快到，啲樹葉已經開始變成唔同深淺嘅紅色同橙色。一定會好靚。",
+        "jyutping": "hou2 hou2 waan2 wo3! ngo5 zau6 wui5 heoi3 mat6 zi1 gan1. ngo5 wui5 daai3 maai4 soeng2 gei1, jan1 wai6 cau1 tin1 hou2 faai3 dou3, di1 syu6 jip6 ji5 ging1 hoi1 ci2 bin3 sing4 m4 tung4 sam1 cin2 ge3 hung4 sik1 tung4 caang2 sik1. jat1 ding6 wui5 hou2 leng3.",
+        "english": "Oh, fun! I’m going to Michigan. I’m taking my camera because fall is coming fast. The leaves are already turning all shades of red and orange. It will be awesome."
+      },
+      {
+        "id": 4,
+        "speaker": "Tyler",
+        "cantonese": "下次你再去嘅時候，我都要一齊去。我聽講密芝根係玩獨木舟嘅好地方。",
+        "jyutping": "haa6 ci3 nei5 zoi3 heoi3 ge3 si4 hau6, ngo5 dou1 jiu3 jat1 cai4 heoi3. ngo5 teng1 gong2 mat6 zi1 gan1 hai6 waan2 duk6 muk6 zau1 ge3 hou2 dei6 fong1.",
+        "english": "Next time you go there, I’ll join you. I’ve heard Michigan is a great place to go canoeing."
+      }
+    ]
+  },
+  {
+    "dialogueId": 58,
+    "type": "social",
+    "typeCantonese": "社交",
+    "title": "Weddings",
+    "titleCantonese": "婚禮",
+    "sentences": [
+      {
+        "id": 1,
+        "speaker": "Angelica",
+        "cantonese": "新娘著嗰條婚紗係咪真係好靚？",
+        "jyutping": "san1 noeng2 zoek3 go2 tiu4 fan1 saa1 hai6 mai6 zan1 hai6 hou2 leng3?",
+        "english": "Doesn’t the bride look beautiful in that wedding dress?"
+      },
+      {
+        "id": 2,
+        "speaker": "Maria",
+        "cantonese": "係呀，佢靚到不得了。而且新郎好浪漫。我啱啱聽到佢哋點樣求婚㗎！佢喺倫敦燭光晚餐嗰陣向佢求婚。你知唔知道佢哋喺嗰度讀書？",
+        "jyutping": "hai6 aa3, keoi5 leng3 dou3 bat1 dak1 liu5. ji4 ce2 san1 long4 hou2 long6 maan6. ngo5 aam1 aam1 teng1 dou2 keoi5 dei6 dim2 joeng2 kau4 fan1 gaa3! keoi5 hai2 leon4 deon1 zuk1 gwong1 maan5 caan1 go2 zan6 hoeng3 keoi5 kau4 fan1. nei5 zi1 m4 zi1 dou2 keoi5 dei6 hai2 go2 dou6 duk6 syu1?",
+        "english": "Yes. She looks amazing. And the groom is so romantic. I just heard the story of how they got engaged! He proposed to her during a candlelight dinner in London. Did you know that was where they went to school?"
+      },
+      {
+        "id": 3,
+        "speaker": "Angelica",
+        "cantonese": "哦？真係好浪漫喎。仲有佢哋嘅蜜月！真係好主意！好多新人結婚之後只係去沙灘玩一個星期。但係佢哋就會去加州，駕電單車沿住海岸線旅行。",
+        "jyutping": "o2? zan1 hai6 hou2 long6 maan6 wo3. zung6 jau5 keoi5 dei6 ge3 mat6 jyut6! zan1 hai6 hou2 zyu2 ji3! hou2 do1 san1 jan4 git3 fan1 zi1 hau6 zi2 hai6 heoi3 saa1 taan1 waan2 jat1 go3 sing1 kei4. daan6 hai6 keoi5 dei6 zau6 wui5 heoi3 gaa1 zau1, gaa3 din6 daan1 ce1 jyun4 zyu6 hoi2 ngon6 sin3 leoi5 hang4.",
+        "english": "Oh? Wonderful. And the honeymoon! What a great idea! Most people just go to the beach for a week after they tie the knot. But they plan on heading to California and cruising the coast on their motorcycle."
+      },
+      {
+        "id": 4,
+        "speaker": "Maria",
+        "cantonese": "真係咩！呢個主意太正啦。呢場婚禮係我去過最好嘅一場。",
+        "jyutping": "zan1 hai6 me1! ni1 go3 zyu2 ji3 taai3 zing3 laa1. ni1 coeng4 fan1 lai5 hai6 ngo5 heoi3 gwo3 zeoi3 hou2 ge3 jat1 coeng4.",
+        "english": "Really! What a fantastic idea. This is by far the best wedding I’ve ever been to."
+      }
+    ]
+  },
+  {
+    "dialogueId": 59,
+    "type": "education",
+    "typeCantonese": "教育",
+    "title": "Giving Advice",
+    "titleCantonese": "畀意見",
+    "sentences": [
+      {
+        "id": 1,
+        "speaker": "Layla",
+        "cantonese": "多謝你喺午飯時間同我見面。我真係好感激。",
+        "jyutping": "do1 ze6 nei5 hai2 ng5 faan6 si4 gaan3 tung4 ngo5 gin3 min6. ngo5 zan1 hai6 hou2 gam2 gik1.",
+        "english": "Thanks for meeting with me during your lunch hour. I appreciate it."
+      },
+      {
+        "id": 2,
+        "speaker": "Monica",
+        "cantonese": "唔緊要啦。我樂意幫你。發生咩事呀？",
+        "jyutping": "m4 gan2 jiu3 laa1. ngo5 lok6 ji3 bong1 nei5. faat3 sang1 me1 si6 aa3?",
+        "english": "No problem. I’m happy to help. What’s going on?"
+      },
+      {
+        "id": 3,
+        "speaker": "Layla",
+        "cantonese": "哦，你知㗎啦，都係嗰啲煩惱。究竟應唔應該接呢份新工？定係繼續做而家呢份好？",
+        "jyutping": "o4, nei5 zi1 gaa3 laa1, dou1 hai6 go2 di1 faan4 nou5. gau3 ging2 jing1 m4 jing1 goi1 zip3 ni1 fan6 san1 gung1? ding6 hai6 gai3 zuk6 zou6 ji4 gaa1 ni1 fan6 hou2?",
+        "english": "Oh you know, the usual. Should I take this new job? Or do I stick with my current one?"
+      },
+      {
+        "id": 4,
+        "speaker": "Monica",
+        "cantonese": "我覺得係時候換下環境啦，你唔係咁諗咩？佢哋又出糧遲，你又做得唔開心。",
+        "jyutping": "ngo5 gok3 dak1 hai6 si4 hau6 wun6 haa5 waan4 ging2 laa1, nei5 m4 hai6 gam2 lam2 me1? keoi5 dei6 jau6 ceot1 loeng4 ci4, nei5 jau6 zou6 dak1 m4 hoi1 sam1.",
+        "english": "Well, I think it’s time for a change, don’t you? They pay you late and you are unhappy."
+      },
+      {
+        "id": 5,
+        "speaker": "Layla",
+        "cantonese": "你真係咁諗？",
+        "jyutping": "nei5 zan1 hai6 gam2 lam2?",
+        "english": "Do you really think so?"
+      },
+      {
+        "id": 6,
+        "speaker": "Monica",
+        "cantonese": "梗係啦。我聽你投訴咗成一年喇。相信我，接受嗰份新工啦。你又唔會有咩損失。",
+        "jyutping": "gang2 hai6 laa1. ngo5 teng1 nei5 tau4 sou3 zo2 seng4 jat1 nin4 laa3. soeng1 seon3 ngo5, zip3 sau6 go2 fan6 san1 gung1 laa1. nei5 jau6 m4 wui5 jau5 me1 syun2 sat1.",
+        "english": "I know so. And I’ve been listening to you complain for over a year now. Trust me. Take the job. What do you have to lose?"
+      }
+    ]
+  },
+  {
+    "dialogueId": 60,
+    "type": "dining",
+    "typeCantonese": "飲食",
+    "title": "Ordering Tomato Brisket Noodles",
+    "titleCantonese": "點番茄牛腩麵",
+    "sentences": [
+      {
+        "id": 1,
+        "speaker": "Customer",
+        "cantonese": "唔該，一個番茄牛腩麵，走蔥走辣。",
+        "jyutping": "m4 goi1, jat1 go3 faan1 ke2 ngau4 naam4 min6, zau2 cung1 zau2 laat6.",
+        "english": "Excuse me, one tomato beef brisket noodles, no green onions and not spicy."
+      },
+      {
+        "id": 2,
+        "speaker": "Waiter",
+        "cantonese": "好嘅，要唔要配埋嘢飲？",
+        "jyutping": "hou2 ge3, jiu3 m4 jiu3 pui3 maai4 je5 jam2?",
+        "english": "Okay, do you want a drink with that?"
+      },
+      {
+        "id": 3,
+        "speaker": "Customer",
+        "cantonese": "要杯凍檸茶，少甜，唔該。",
+        "jyutping": "jiu3 bui1 dung3 ning4 caa4, siu2 tim4, m4 goi1.",
+        "english": "I'll have an iced lemon tea, less sugar, please."
+      }
+    ]
+  },
+  {
+    "dialogueId": 61,
+    "type": "work",
+    "typeCantonese": "工作",
+    "title": "Asking for Help with a Report",
+    "titleCantonese": "請教報告寫法",
+    "sentences": [
+      {
+        "id": 1,
+        "speaker": "Alan",
+        "cantonese": "你有無時間幫我睇睇呢份 Report 呀？",
+        "jyutping": "nei5 jau5 mou5 si4 gaan3 bong1 ngo5 tai2 tai2 ni1 fan6 ri6 pot1 aa3?",
+        "english": "Do you have time to help me check this report?"
+      },
+      {
+        "id": 2,
+        "speaker": "Betty",
+        "cantonese": "等我搞埋手頭上啲嘢先，十五分鐘後得嗎？",
+        "jyutping": "dang2 ngo5 gaau2 maai4 sau2 tau4 soeng6 di1 je5 sin1, sap6 ng5 fan1 zung1 hau6 dak1 maa3?",
+        "english": "Let me finish what I'm doing first, is fifteen minutes later okay?"
+      },
+      {
+        "id": 3,
+        "speaker": "Alan",
+        "cantonese": "無問題，辛苦晒你！",
+        "jyutping": "m4 mou4 man6 tai4, san1 fu2 saai3 nei5!",
+        "english": "No problem, thanks a lot for your help!"
+      }
+    ]
+  },
+  {
+    "dialogueId": 62,
+    "type": "shopping",
+    "typeCantonese": "購物",
+    "title": "Asking for a Discount",
+    "titleCantonese": "要求折扣",
+    "sentences": [
+      {
+        "id": 1,
+        "speaker": "Customer",
+        "cantonese": "呢對鞋幾多錢呀？有無折？",
+        "jyutping": "ni1 deoi3 haai4 gei2 do1 cin2 aa3? jau5 mou5 zit3?",
+        "english": "How much are these shoes? Is there a discount?"
+      },
+      {
+        "id": 2,
+        "speaker": "Staff",
+        "cantonese": "而家買兩對有八折，一對就原價。",
+        "jyutping": "ji4 gaa1 maai5 loeng5 deoi3 jau5 baat3 zit3, jat1 deoi3 zau6 jyun4 gaa3.",
+        "english": "If you buy two pairs there's a 20% discount; one pair is full price."
+      },
+      {
+        "id": 3,
+        "speaker": "Customer",
+        "cantonese": "咁太貴喇，我諗下先啦。",
+        "jyutping": "gam3 taai3 gwai3 laa3, ngo5 nam2 haa5 sin1 laa1.",
+        "english": "That's too expensive then, let me think about it first."
+      }
+    ]
+  },
+  {
+    "dialogueId": 63,
+    "type": "travel",
+    "typeCantonese": "旅行",
+    "title": "Asking for Directions",
+    "titleCantonese": "問路",
+    "sentences": [
+      {
+        "id": 1,
+        "speaker": "Tom",
+        "cantonese": "唔該，請問地鐵站點樣行呀？",
+        "jyutping": "m4 goi1, cing2 man6 dei6 tit3 zaam6 dim2 joeng2 hang4 aa3?",
+        "english": "Excuse me, how do I get to the MTR station?"
+      },
+      {
+        "id": 2,
+        "speaker": "Passerby",
+        "cantonese": "行過對面馬路，轉左直行就係。",
+        "jyutping": "hang4 gwo3 deoi3 min6 maa5 lou6, zyun3 zo2 zik6 hang4 zau6 hai6.",
+        "english": "Cross the street, turn left and walk straight, then you're there."
+      },
+      {
+        "id": 3,
+        "speaker": "Tom",
+        "cantonese": "大約要行幾耐呀？",
+        "jyutping": "daai6 joek3 jiu3 hang4 gei2 noi6 aa3?",
+        "english": "About how long does it take to walk?"
+      }
+    ]
+  },
+  {
+    "dialogueId": 64,
+    "type": "social",
+    "typeCantonese": "社交",
+    "title": "Long Time No See",
+    "titleCantonese": "好耐無見",
+    "sentences": [
+      {
+        "id": 1,
+        "speaker": "Chris",
+        "cantonese": "好耐無見！最近點呀？",
+        "jyutping": "hou2 noi6 mou4 gin3! zeoi3 gan6 dim2 aa3?",
+        "english": "Long time no see! How have you been lately?"
+      },
+      {
+        "id": 2,
+        "speaker": "Daisy",
+        "cantonese": "都係咁啦，忙住返工囉。",
+        "jyutping": "dou1 hai6 gam2 laa1, mong4 zyu6 faan1 gung1 lo1.",
+        "english": "The usual, just busy with work."
+      },
+      {
+        "id": 3,
+        "speaker": "Chris",
+        "cantonese": "等遲啲得閒出嚟飲嘢啦！",
+        "jyutping": "dang2 ci4 di1 dak1 haan4 ceot1 lei4 jam2 je5 laa1!",
+        "english": "Let's come out for a drink when you're free later!"
+      }
+    ]
+  },
+  {
+    "dialogueId": 65,
+    "type": "sports",
+    "typeCantonese": "運動",
+    "title": "Going to the Gym",
+    "titleCantonese": "去健身室",
+    "sentences": [
+      {
+        "id": 1,
+        "speaker": "Eric",
+        "cantonese": "你平時一個禮拜做幾多次 Gym？",
+        "jyutping": "nei5 ping4 si4 jat1 go3 lai5 baai3 zou6 gei2 do1 ci3 zim1?",
+        "english": "How many times a week do you usually go to the gym?"
+      },
+      {
+        "id": 2,
+        "speaker": "Frank",
+        "cantonese": "通常三次，每次一個鐘度。",
+        "jyutping": "tung1 soeng4 saam1 ci3, mui5 ci3 jat1 go3 zung1 dou6.",
+        "english": "Usually three times, about an hour each time."
+      },
+      {
+        "id": 3,
+        "speaker": "Eric",
+        "cantonese": "怪唔之得你大隻咗咁多啦！",
+        "jyutping": "gwaai3 m4 zi1 dak1 nei5 daai6 zek3 zo2 gam3 do1 laa1!",
+        "english": "No wonder you've gotten so much more muscular!"
+      }
+    ]
+  },
+  {
+    "dialogueId": 66,
+    "type": "learning",
+    "typeCantonese": "學習",
+    "title": "Learning Cantonese",
+    "titleCantonese": "學廣東話",
+    "sentences": [
+      {
+        "id": 1,
+        "speaker": "Teacher",
+        "cantonese": "你有無聽開粵語歌學廣東話呀？",
+        "jyutping": "nei5 jau5 mou5 ting1 hoi1 jyut6 jyu5 go1 hok6 gwong2 dung1 waa6 aa3?",
+        "english": "Do you listen to Cantonese songs to learn the language?"
+      },
+      {
+        "id": 2,
+        "speaker": "Student",
+        "cantonese": "有呀，但係啲歌詞好深，唔係幾明。",
+        "jyutping": "jau5 aa3, daan6 hai6 di1 go1 ci4 hou2 sam1, m4 hai6 gei2 ming4.",
+        "english": "Yes, but the lyrics are quite deep, I don't really understand them."
+      },
+      {
+        "id": 3,
+        "speaker": "Teacher",
+        "cantonese": "唔緊要，多聽多講就會進步。",
+        "jyutping": "m4 gan2 jiu3, do1 ting1 do1 gong2 zau6 wui5 zeon3 bou6.",
+        "english": "It's okay, you'll improve if you listen and speak more."
+      }
+    ]
+  },
+  {
+    "dialogueId": 67,
+    "type": "daily",
+    "typeCantonese": "生活",
+    "title": "Bad Weather",
+    "titleCantonese": "天氣好差",
+    "sentences": [
+      {
+        "id": 1,
+        "speaker": "A",
+        "cantonese": "出面好似落大雨，你有無帶遮呀？",
+        "jyutping": "ceot1 min6 hou2 ci5 lok6 daai6 jyu5, nei5 jau5 mou5 daai3 ze1 aa3?",
+        "english": "It seems to be raining hard outside, do you have an umbrella?"
+      },
+      {
+        "id": 2,
+        "speaker": "B",
+        "cantonese": "死喇，我擺咗把遮喺公司。",
+        "jyutping": "sei2 laa3, ngo5 baai2 zo2 baa2 ze1 hai2 gung1 si1.",
+        "english": "Oh no, I left my umbrella at the office."
+      },
+      {
+        "id": 3,
+        "speaker": "A",
+        "cantonese": "唔緊要，我借一把畀你先啦。",
+        "jyutping": "m4 gan2 jiu3, ngo5 ze3 jat1 baa2 bei2 nei5 sin1 laa1.",
+        "english": "Never mind, I'll lend you one first."
+      }
+    ]
+  },
+  {
+    "dialogueId": 68,
+    "type": "dining",
+    "typeCantonese": "飲食",
+    "title": "Splitting the Bill",
+    "titleCantonese": "分開埋單",
+    "sentences": [
+      {
+        "id": 1,
+        "speaker": "Grace",
+        "cantonese": "今日餐飯幾多錢？我畀返錢你。",
+        "jyutping": "gam1 jat1 caan1 faan6 gei2 do1 cin2? ngo5 bei2 faan1 cin2 nei5.",
+        "english": "How much was the meal today? I'll pay you back."
+      },
+      {
+        "id": 2,
+        "speaker": "Henry",
+        "cantonese": "總共三百蚊，每人一百五十啦。",
+        "jyutping": "zung2 gung6 saam1 baak1 man1, mui5 jan4 jat1 baak1 ng5 sap6 laa1.",
+        "english": "Three hundred dollars in total, so one hundred and fifty each."
+      },
+      {
+        "id": 3,
+        "speaker": "Grace",
+        "cantonese": "我 PayMe 轉數畀你呀。",
+        "jyutping": "ngo5 PayMe zyun2 sou3 bei2 nei5 aa3.",
+        "english": "I'll transfer the money to you via PayMe."
+      }
+    ]
+  },
+  {
+    "dialogueId": 69,
+    "type": "travel",
+    "typeCantonese": "旅行",
+    "title": "Taking a Taxi",
+    "titleCantonese": "搭的士",
+    "sentences": [
+      {
+        "id": 1,
+        "speaker": "Passenger",
+        "cantonese": "司機，唔該去中環 IFC。",
+        "jyutping": "si1 gei1, m4 goi1 heoi3 zung1 waan4 IFC.",
+        "english": "Driver, please go to IFC in Central."
+      },
+      {
+        "id": 2,
+        "speaker": "Driver",
+        "cantonese": "好，行紅隧定西隧呀？",
+        "jyutping": "hou2, hang4 hung4 seoi6 ding6 sai1 seoi6 aa3?",
+        "english": "Okay, do we take the Cross-Harbor Tunnel or the Western Harbor Crossing?"
+      },
+      {
+        "id": 3,
+        "speaker": "Passenger",
+        "cantonese": "邊條路快啲就走邊條啦。",
+        "jyutping": "bin1 tiu4 lou6 faai3 di1 zau6 zau2 bin1 tiu4 laa1.",
+        "english": "Whichever route is faster."
+      }
+    ]
+  },
+  {
+    "dialogueId": 70,
+    "type": "work",
+    "typeCantonese": "工作",
+    "title": "Starting a Meeting",
+    "titleCantonese": "準備開會",
+    "sentences": [
+      {
+        "id": 1,
+        "speaker": "Boss",
+        "cantonese": "大家準備好未？我哋開會喇。",
+        "jyutping": "daai6 gaa1 zeon2 bei6 hou2 mei6? ngo5 dei6 hoi1 wui6 laa3.",
+        "english": "Is everyone ready? Let's start the meeting."
+      },
+      {
+        "id": 2,
+        "speaker": "Staff",
+        "cantonese": "仲等緊阿明，佢仲講緊電話。",
+        "jyutping": "zung6 dang2 gan2 aa3 ming4, keoi5 zung6 gong2 gan2 din6 waa2.",
+        "english": "We're still waiting for Ming; he's still on the phone."
+      },
+      {
+        "id": 3,
+        "speaker": "Boss",
+        "cantonese": "叫佢快啲，唔好浪費大家時間。",
+        "jyutping": "giu3 keoi5 faai3 di1, m4 hou2 long6 fai3 daai6 gaa1 si4 gaan3.",
+        "english": "Tell him to hurry up; don't waste everyone's time."
+      }
+    ]
+  },
+  {
+    "dialogueId": 71,
+    "type": "shopping",
+    "typeCantonese": "購物",
+    "title": "At the Supermarket",
+    "titleCantonese": "超市買嘢",
+    "sentences": [
+      {
+        "id": 1,
+        "speaker": "A",
+        "cantonese": "唔該，我想問下雞蛋擺喺邊？",
+        "jyutping": "m4 goi1, ngo5 soeng2 man6 haa5 gai1 daan2 baai2 hai2 bin1?",
+        "english": "Excuse me, I'd like to ask where the eggs are located?"
+      },
+      {
+        "id": 2,
+        "speaker": "Staff",
+        "cantonese": "喺最後嗰條巷，雪櫃側邊。",
+        "jyutping": "hai2 zeoi3 hau6 go2 tiu4 hong6, syut3 gwai6 zak1 bin1.",
+        "english": "In the last aisle, next to the refrigerator."
+      },
+      {
+        "id": 3,
+        "speaker": "A",
+        "cantonese": "好嘅，唔該晒你。",
+        "jyutping": "hou2 ge3, m4 goi1 saai3 nei5.",
+        "english": "Okay, thank you very much."
+      }
+    ]
+  },
+  {
+    "dialogueId": 72,
+    "type": "dining",
+    "typeCantonese": "飲食",
+    "title": "Taking Food to Go",
+    "titleCantonese": "外賣攞走",
+    "sentences": [
+      {
+        "id": 1,
+        "speaker": "Customer",
+        "cantonese": "唔該，我要一個星洲炒米，攞走。",
+        "jyutping": "m4 goi1, ngo5 jiu3 jat1 go3 sing1 zau1 caau2 mai5, lo2 zau2.",
+        "english": "Excuse me, I'd like a Singapore Style Fried Rice Vermicelli, to go."
+      },
+      {
+        "id": 2,
+        "speaker": "Waiter",
+        "cantonese": "好，外賣要加兩蚊盒錢喎。",
+        "jyutping": "hou2, ngoi6 maai6 jiu3 gaa1 loeng5 man1 hap2 cin2 wo3.",
+        "english": "Okay, takeout costs an extra two dollars for the box."
+      },
+      {
+        "id": 3,
+        "speaker": "Customer",
+        "cantonese": "無問題，大約要等幾耐？",
+        "jyutping": "m4 mou4 man6 tai4, daai6 joek3 jiu3 dang2 gei2 noi6?",
+        "english": "No problem, about how long do I have to wait?"
+      }
+    ]
+  },
+  {
+    "dialogueId": 73,
+    "type": "daily",
+    "typeCantonese": "生活",
+    "title": "Seeing a Doctor",
+    "titleCantonese": "去睇醫生",
+    "sentences": [
+      {
+        "id": 1,
+        "speaker": "Doctor",
+        "cantonese": "你邊度唔舒服呀？",
+        "jyutping": "nei5 bin1 dou6 m4 syu1 fuk6 aa3?",
+        "english": "Where do you feel unwell?"
+      },
+      {
+        "id": 2,
+        "speaker": "Patient",
+        "cantonese": "我尋晚開始頭痛同埋發燒。",
+        "jyutping": "ngo5 cam4 maan5 hoi1 ci2 tau4 tung3 tung4 maai4 faat3 siu1.",
+        "english": "I started having a headache and fever last night."
+      },
+      {
+        "id": 3,
+        "speaker": "Doctor",
+        "cantonese": "等我同你檢查下，開啲藥畀你。",
+        "jyutping": "dang2 ngo5 tung4 nei5 gim2 caa4 haa5, hoi1 di1 joek6 bei2 nei5.",
+        "english": "Let me examine you and prescribe some medicine."
+      }
+    ]
+  },
+  {
+    "dialogueId": 74,
+    "type": "travel",
+    "typeCantonese": "旅行",
+    "title": "Hotel Check-in",
+    "titleCantonese": "酒店入住",
+    "sentences": [
+      {
+        "id": 1,
+        "speaker": "Guest",
+        "cantonese": "唔該，我預約咗房，個名係陳大文。",
+        "jyutping": "m4 goi1, ngo5 jyu6 joek3 zo2 fong2, go3 ming4 hai6 can4 daai6 man4.",
+        "english": "Excuse me, I booked a room; the name is Chan Tai Man."
+      },
+      {
+        "id": 2,
+        "speaker": "Staff",
+        "cantonese": "幫你查到喇，麻煩畀身份證我登記下。",
+        "jyutping": "bong1 nei5 caa4 dou3 laa3, maa4 faan1 bei2 san1 fan6 zing3 ngo5 dang1 gei3 haa5.",
+        "english": "I've found it; please give me your ID card for registration."
+      },
+      {
+        "id": 3,
+        "speaker": "Guest",
+        "cantonese": "聽日幾點要退房？",
+        "jyutping": "ting1 jat1 gei2 dim2 jiu3 teoi3 fong2?",
+        "english": "What time is check-out tomorrow?"
+      }
+    ]
+  },
+  {
+    "dialogueId": 75,
+    "type": "sports",
+    "typeCantonese": "運動",
+    "title": "Hiking on the Weekend",
+    "titleCantonese": "禮拜六去行山",
+    "sentences": [
+      {
+        "id": 1,
+        "speaker": "Ken",
+        "cantonese": "呢個禮拜六去唔去行山呀？",
+        "jyutping": "ni1 go3 lai5 baai3 luk6 heoi3 m4 heoi3 hang4 saan1 aa3?",
+        "english": "Are you going hiking this Saturday?"
+      },
+      {
+        "id": 2,
+        "speaker": "Leo",
+        "cantonese": "好呀，去邊條路線？",
+        "jyutping": "hou2 aa3, heoi3 bin1 tiu4 lou6 sin3?",
+        "english": "Sure, which trail are we taking?"
+      },
+      {
+        "id": 3,
+        "speaker": "Ken",
+        "cantonese": "不如去龍脊啦，風景好靚。",
+        "jyutping": "bat1 jyu4 heoi3 lung4 zik3 laa1, fung1 ging2 hou2 leng3.",
+        "english": "How about Dragon's Back? The scenery is beautiful."
+      }
+    ]
+  },
+  {
+    "dialogueId": 76,
+    "type": "social",
+    "typeCantonese": "社交",
+    "title": "Asking for a Phone Number",
+    "titleCantonese": "攞電話號碼",
+    "sentences": [
+      {
+        "id": 1,
+        "speaker": "Sam",
+        "cantonese": "可唔可以換個 WhatsApp 呀？方便聯絡。",
+        "jyutping": "ho2 m4 ho2 ji5 wun6 go3 WhatsApp aa3? fong1 bin6 lyun4 lok3.",
+        "english": "Can we exchange WhatsApp? It's easier to stay in touch."
+      },
+      {
+        "id": 2,
+        "speaker": "Ivy",
+        "cantonese": "好呀，你掃我個 QR Code 啦。",
+        "jyutping": "hou2 aa3, nei5 sou3 ngo5 go3 QR Code laa1.",
+        "english": "Sure, just scan my QR code."
+      },
+      {
+        "id": 3,
+        "speaker": "Sam",
+        "cantonese": "加咗喇，遲啲搵你食飯！",
+        "jyutping": "gaa1 zo2 laa3, ci4 di1 wan2 nei5 sik6 faan6!",
+        "english": "Added you! I'll hit you up for dinner later!"
+      }
+    ]
+  },
+  {
+    "dialogueId": 77,
+    "type": "learning",
+    "typeCantonese": "學習",
+    "title": "Difficult Homework",
+    "titleCantonese": "份功課好難",
+    "sentences": [
+      {
+        "id": 1,
+        "speaker": "Student A",
+        "cantonese": "份數學功課好難呀，我唔識做。",
+        "jyutping": "fan6 sou3 hok6 gung1 fo3 hou2 naan4 aa3, ngo5 m4 sik1 zou6.",
+        "english": "This math homework is so hard; I don't know how to do it."
+      },
+      {
+        "id": 2,
+        "speaker": "Student B",
+        "cantonese": "邊一題呀？等我教你啦。",
+        "jyutping": "bin1 jat1 tai4 aa3? dang2 ngo5 gaau3 nei5 laa1.",
+        "english": "Which question? Let me teach you."
+      },
+      {
+        "id": 3,
+        "speaker": "Student A",
+        "cantonese": "多謝你呀！你好醒目呀。",
+        "jyutping": "do1 ze6 nei5 aa3! nei5 hou2 sing2 muk6 aa3.",
+        "english": "Thank you! You are so smart."
+      }
+    ]
+  },
+  {
+    "dialogueId": 78,
+    "type": "dining",
+    "typeCantonese": "飲食",
+    "title": "Too Salty",
+    "titleCantonese": "太鹹喇",
+    "sentences": [
+      {
+        "id": 1,
+        "speaker": "Customer",
+        "cantonese": "唔該，呢碗湯好似太鹹。 ",
+        "jyutping": "m4 goi1, ni1 wun2 tong1 hou2 ci5 taai3 haam4.",
+        "english": "Excuse me, this soup seems to be too salty."
+      },
+      {
+        "id": 2,
+        "speaker": "Waiter",
+        "cantonese": "唔好意思，我幫你換過一碗。",
+        "jyutping": "m4 hou2 ji3 si1, ngo5 bong1 nei5 wun6 gwo3 jat1 wun2.",
+        "english": "I'm sorry, let me replace it with a new bowl for you."
+      },
+      {
+        "id": 3,
+        "speaker": "Customer",
+        "cantonese": "唔該晒，麻煩你喇。",
+        "jyutping": "m4 goi1 saai3, maa4 faan1 nei5 laa3.",
+        "english": "Thanks a lot, sorry for the trouble."
+      }
+    ]
+  },
+  {
+    "dialogueId": 79,
+    "type": "daily",
+    "typeCantonese": "生活",
+    "title": "Waking Up Early",
+    "titleCantonese": "咁早起身",
+    "sentences": [
+      {
+        "id": 1,
+        "speaker": "Mom",
+        "cantonese": "咦？你今日咁早起身嘅？",
+        "jyutping": "ji2? nei5 gam1 jat6 gam3 zou2 hei2 san1 ge2?",
+        "english": "Huh? How come you're up so early today?"
+      },
+      {
+        "id": 2,
+        "speaker": "Son",
+        "cantonese": "係呀，我要早啲返去準備個 Presentation。",
+        "jyutping": "hai6 aa3, ngo5 jiu3 zou2 di1 faan1 heoi3 zeon2 bei6 go3 pri6 zen1 tei1 seon2.",
+        "english": "Yeah, I need to go back early to prepare a presentation."
+      },
+      {
+        "id": 3,
+        "speaker": "Mom",
+        "cantonese": "咁你食咗早餐先至返去啦。",
+        "jyutping": "gam3 nei5 sik6 zo2 zou2 caan1 sin1 zi3 faan1 heoi3 laa1.",
+        "english": "Then eat breakfast before you head back."
+      }
+    ]
+  },
+  {
+    "dialogueId": 80,
+    "type": "work",
+    "typeCantonese": "工作",
+    "title": "Broken Printer",
+    "titleCantonese": "部打印機壞咗",
+    "sentences": [
+      {
+        "id": 1,
+        "speaker": "Office Staff A",
+        "cantonese": "部打印機又卡紙呀，整極都唔得。",
+        "jyutping": "bou6 daa2 jan3 gei1 jau6 kaa1 zi2 aa3, zing2 gik6 dou1 m4 dak1.",
+        "english": "The printer is jammed again; I can't fix it no matter what I do."
+      },
+      {
+        "id": 2,
+        "speaker": "Office Staff B",
+        "cantonese": "等我睇下，可能係入面有塊紙屑。",
+        "jyutping": "dang2 ngo5 tai2 haa5, ho2 nang4 hai6 jap6 min6 jau5 faai3 zi2 sit3.",
+        "english": "Let me see; maybe there's a scrap of paper inside."
+      },
+      {
+        "id": 3,
+        "speaker": "Office Staff A",
+        "cantonese": "搞唔掂就叫維修啦，費事嘥時間。",
+        "jyutping": "gaau2 m4 dim2 zau6 giu3 wai4 sau1 laa1, fai3 si6 saai1 si4 gaan3.",
+        "english": "If you can't fix it, just call maintenance; no point wasting time."
+      }
+    ]
+  },
+  {
+    "dialogueId": 81,
+    "type": "daily",
+    "typeCantonese": "生活",
+    "title": "At the Hair Salon",
+    "titleCantonese": "去髮型屋",
+    "sentences": [
+      {
+        "id": 1,
+        "speaker": "Stylist",
+        "cantonese": "今日想點整呀？剪短定係染髮？",
+        "jyutping": "gam1 jat6 soeng2 dim2 zing2 aa3? zin2 dyun2 ding6 hai6 jim5 faat3?",
+        "english": "How do you want it today? Trim it short or dye it?"
+      },
+      {
+        "id": 2,
+        "speaker": "Customer",
+        "cantonese": "修一修個髮尾就得，唔好剪太短。",
+        "jyutping": "sau1 jat1 sau1 go3 faat3 mei5 zau6 dak1, m4 hou2 zin2 taai3 dyun2.",
+        "english": "Just trim the ends; don't cut it too short."
+      },
+      {
+        "id": 3,
+        "speaker": "Stylist",
+        "cantonese": "明白，前面劉海使唔使剪埋？",
+        "jyutping": "ming4 baak6, cin4 min6 lau4 hoi2 sai2 m4 sai2 zin2 maai4?",
+        "english": "Understood, do you want the bangs trimmed as well?"
+      }
+    ]
+  },
+  {
+    "dialogueId": 82,
+    "type": "entertainment",
+    "typeCantonese": "娛樂",
+    "title": "Going to the Movies",
+    "titleCantonese": "去睇戲",
+    "sentences": [
+      {
+        "id": 1,
+        "speaker": "Jack",
+        "cantonese": "今晚套新戲上畫，一齊去睇囉？",
+        "jyutping": "gam1 maan5 tou3 san1 hei3 soeng5 waa2, jat1 cai4 heoi3 tai2 lo1?",
+        "english": "The new movie is out tonight; shall we go see it together?"
+      },
+      {
+        "id": 2,
+        "speaker": "Rose",
+        "cantonese": "好呀，我上網睇下仲有無飛先。",
+        "jyutping": "hou2 aa3, ngo5 soeng5 mong5 tai2 haa5 zung6 jau5 mou5 fei1 sin1.",
+        "english": "Sure, let me check online if there are still tickets."
+      },
+      {
+        "id": 3,
+        "speaker": "Jack",
+        "cantonese": "最好買中間位，睇得舒服啲。",
+        "jyutping": "zeoi3 hou2 maai5 zung1 gaan1 wai2, tai2 dak1 syu1 fuk6 di1.",
+        "english": "It's best to get middle seats; it's more comfortable to watch."
+      }
+    ]
+  },
+  {
+    "dialogueId": 83,
+    "type": "shopping",
+    "typeCantonese": "購物",
+    "title": "Buying Vegetables at Market",
+    "titleCantonese": "街市買菜",
+    "sentences": [
+      {
+        "id": 1,
+        "speaker": "Customer",
+        "cantonese": "菜心幾多錢一斤呀？",
+        "jyutping": "coi3 sam1 gei2 do1 cin2 jat1 gan1 aa3?",
+        "english": "How much is the choy sum per catty?"
+      },
+      {
+        "id": 2,
+        "speaker": "Vendor",
+        "cantonese": "十二蚊斤，好新鮮，啱啱到貨。",
+        "jyutping": "sap6 joeng6 man1 gan1, hou2 san1 sin1, ngaam1 ngaam1 dou3 fo3.",
+        "english": "Twelve dollars a catty. Very fresh, just arrived."
+      },
+      {
+        "id": 3,
+        "speaker": "Customer",
+        "cantonese": "咁畀兩斤我，搭兩棵蔥得唔得？",
+        "jyutping": "gam3 bei2 loeng5 gan1 ngo5, daap3 loeng5 po1 cung1 dak1 m4 dak1?",
+        "english": "Give me two catties then; can you throw in a couple of spring onions?"
+      }
+    ]
+  },
+  {
+    "dialogueId": 84,
+    "type": "social",
+    "typeCantonese": "社交",
+    "title": "Inviting to a Party",
+    "titleCantonese": "請去派對",
+    "sentences": [
+      {
+        "id": 1,
+        "speaker": "Host",
+        "cantonese": "下個禮拜我生日，我會喺屋企搞 Party。",
+        "jyutping": "haa6 go3 lai5 baai3 ngo5 saang1 jat6, ngo5 wui5 hai2 uk1 kei2 gaau2 paa1 ti1.",
+        "english": "It's my birthday next week; I'm having a party at my place."
+      },
+      {
+        "id": 2,
+        "speaker": "Friend",
+        "cantonese": "係呀？到時一定到，要唔要帶啲嘢食？",
+        "jyutping": "hai6 aa3? dou3 si4 jat1 ding6 dou3, jiu3 m4 jiu3 daai3 di1 je5 sik6?",
+        "english": "Really? I'll definitely be there. Should I bring some food?"
+      },
+      {
+        "id": 3,
+        "speaker": "Host",
+        "cantonese": "帶啲嘢飲就得喇，人嚟就得！",
+        "jyutping": "daai3 di1 je5 jam2 zau6 dak1 laa3, jan4 lei4 zau6 dak1!",
+        "english": "Just bring some drinks. Your presence is enough!"
+      }
+    ]
+  },
+  {
+    "dialogueId": 85,
+    "type": "travel",
+    "typeCantonese": "旅行",
+    "title": "Flight Delay",
+    "titleCantonese": "飛機延誤",
+    "sentences": [
+      {
+        "id": 1,
+        "speaker": "Staff",
+        "cantonese": "唔好意思，因為天氣關係，班機要延遲兩鐘。",
+        "jyutping": "m4 hou2 ji3 si1, jan1 wai6 tin1 hei3 gwaan1 hai6, baan1 gei1 jiu3 jin4 ci4 loeng5 zung1.",
+        "english": "I'm sorry, but due to weather conditions, the flight will be delayed for two hours."
+      },
+      {
+        "id": 2,
+        "speaker": "Traveler",
+        "cantonese": "吓？咁我仲趕唔趕到轉機呀？",
+        "jyutping": "haa2? gam3 ngo5 zung6 gon2 m4 gon2 dou3 zyun2 gei1 aa3?",
+        "english": "What? Will I still make my connecting flight then?"
+      },
+      {
+        "id": 3,
+        "speaker": "Staff",
+        "cantonese": "我哋會幫你聯絡航空公司安排。",
+        "jyutping": "ngo5 dei6 wui5 bong1 nei5 lyun4 lok3 hong4 hung1 gung1 si1 on1 paai4.",
+        "english": "We will help you contact the airline to make arrangements."
+      }
+    ]
+  },
+  {
+    "dialogueId": 86,
+    "type": "dining",
+    "typeCantonese": "飲食",
+    "title": "Dim Sum Lunch",
+    "titleCantonese": "去飲茶",
+    "sentences": [
+      {
+        "id": 1,
+        "speaker": "Grandpa",
+        "cantonese": "今日星期日，一齊去酒樓飲茶囉。",
+        "jyutping": "gam1 jat6 sing1 kei4 jat6, jat1 cai4 heoi3 zau2 lau4 jam2 caa4 lo1.",
+        "english": "It's Sunday; let's go have Dim Sum at the restaurant."
+      },
+      {
+        "id": 2,
+        "speaker": "Grandson",
+        "cantonese": "好呀，我想食蝦餃同埋燒賣。",
+        "jyutping": "hou2 aa3, ngo5 soeng2 sik6 haa1 gaau2 tung4 maai4 siu1 maai6.",
+        "english": "Sure, I want to eat shrimp dumplings and shumai."
+      },
+      {
+        "id": 3,
+        "speaker": "Grandpa",
+        "cantonese": "記得攞位先，假日好多人排隊。",
+        "jyutping": "gei3 dak1 lo2 wai2 sin1, gaa3 jat6 hou2 do1 jan4 paai4 deoi6.",
+        "english": "Remember to get a table first; there are long queues on holidays."
+      }
+    ]
+  },
+  {
+    "dialogueId": 87,
+    "type": "learning",
+    "typeCantonese": "學習",
+    "title": "Borrowing a Book",
+    "titleCantonese": "借書",
+    "sentences": [
+      {
+        "id": 1,
+        "speaker": "A",
+        "cantonese": "你本筆記可唔可以借我影印呀？",
+        "jyutping": "nei5 bun2 bat1 gei3 ho2 m4 ho2 ji5 ze3 ngo5 jing2 jan3 aa3?",
+        "english": "Can I borrow your notes to make a photocopy?"
+      },
+      {
+        "id": 2,
+        "speaker": "B",
+        "cantonese": "可以呀，但我聽日就要用，你要快啲還。",
+        "jyutping": "ho2 ji5 aa3, daan6 ngo5 ting1 jat1 zau6 jiu3 jung6, nei5 jiu3 faai3 di1 waan4.",
+        "english": "Yes, but I need them tomorrow, so you must return them quickly."
+      },
+      {
+        "id": 3,
+        "speaker": "A",
+        "cantonese": "無問題，我下晝就還返畀你。",
+        "jyutping": "m4 mou4 man6 tai4, ngo5 haa6 zau3 zau6 waan4 faan1 bei2 nei5.",
+        "english": "No problem, I'll return them to you this afternoon."
+      }
+    ]
+  },
+  {
+    "dialogueId": 88,
+    "type": "sports",
+    "typeCantonese": "運動",
+    "title": "Playing Badminton",
+    "titleCantonese": "打羽毛球",
+    "sentences": [
+      {
+        "id": 1,
+        "speaker": "A",
+        "cantonese": "我訂咗場打羽毛球，你嚟唔嚟？",
+        "jyutping": "ngo5 deng6 zo2 coeng4 daa2 jyu5 mou4 kau4, nei5 lei4 m4 lei4?",
+        "english": "I've booked a court for badminton; are you coming?"
+      },
+      {
+        "id": 2,
+        "speaker": "B",
+        "cantonese": "我好耐無打過喇，怕技術生疏喎。",
+        "jyutping": "ngo5 hou2 noi6 mou4 daa2 gwo3 laa3, paa3 gei6 seot6 saang1 so1 wo3.",
+        "english": "I haven't played in a long time; I'm afraid I'm a bit rusty."
+      },
+      {
+        "id": 3,
+        "speaker": "A",
+        "cantonese": "做下運動啫，輸贏唔緊要啦！",
+        "jyutping": "zou6 haa5 wan6 dung6 ze1, syu1 jeng4 m4 gan2 jiu3 laa1!",
+        "english": "It's just for exercise; winning or losing doesn't matter!"
+      }
+    ]
+  },
+  {
+    "dialogueId": 89,
+    "type": "daily",
+    "typeCantonese": "生活",
+    "title": "Taking Out Trash",
+    "titleCantonese": "倒垃圾",
+    "sentences": [
+      {
+        "id": 1,
+        "speaker": "Wife",
+        "cantonese": "老公，落樓嗰陣順便幫手倒埋垃圾。",
+        "jyutping": "lou5 gung1, lok6 lau4 go2 zan6 seon6 bin2 bong1 sau2 dou2 maai4 laap6 saap3.",
+        "english": "Honey, help me take out the trash on your way downstairs."
+      },
+      {
+        "id": 2,
+        "speaker": "Husband",
+        "cantonese": "好呀，放喺門口就得喇。",
+        "jyutping": "hou2 aa3, fong3 hai2 mun4 hau2 zau6 dak1 laa3.",
+        "english": "Okay, just leave it by the door."
+      },
+      {
+        "id": 3,
+        "speaker": "Wife",
+        "cantonese": "記得紮好個袋，費事漏汁呀。",
+        "jyutping": "gei3 dak1 zaat3 hou2 go3 doi2, fai3 si6 lau6 zap1 aa3.",
+        "english": "Remember to tie the bag tightly to avoid leaks."
+      }
+    ]
+  },
+  {
+    "dialogueId": 90,
+    "type": "work",
+    "typeCantonese": "工作",
+    "title": "Requesting Stationery",
+    "titleCantonese": "攞辦公室用品",
+    "sentences": [
+      {
+        "id": 1,
+        "speaker": "Staff",
+        "cantonese": "唔該，我想攞兩支原子筆同埋一疊 A4 紙。",
+        "jyutping": "m4 goi1, ngo5 soeng2 lo2 loeng5 zi1 jyun4 zi2 bat1 tung4 maai4 jat1 dip6 A-four zi2.",
+        "english": "Excuse me, I'd like to get two ballpoint pens and a stack of A4 paper."
+      },
+      {
+        "id": 2,
+        "speaker": "Admin",
+        "cantonese": "好，麻煩你喺呢度簽個名登記下。",
+        "jyutping": "hou2, maa4 faan1 nei5 hai2 ni1 dou6 cin1 go3 ming4 dang1 gei3 haa5.",
+        "english": "Sure, please sign your name here for registration."
+      },
+      {
+        "id": 3,
+        "speaker": "Staff",
+        "cantonese": "仲有無釘書機？我嗰部壞咗。",
+        "jyutping": "zung6 jau5 mou5 deng1 syu1 gei1? ngo5 go2 bou6 waai6 zo2.",
+        "english": "Are there any staplers left? Mine is broken."
+      }
+    ]
+  },
+  {
+    "dialogueId": 91,
+    "type": "daily",
+    "typeCantonese": "生活",
+    "title": "Doing the Laundry",
+    "titleCantonese": "洗衫",
+    "sentences": [
+      {
+        "id": 1,
+        "speaker": "A",
+        "cantonese": "咁多衫未洗，部洗衫機裝唔裝得落呀？",
+        "jyutping": "gam3 do1 saam1 mei6 sai2, bou6 sai2 saam1 gei1 zong1 m4 zong1 dak1 lok6 aa3?",
+        "english": "There's so much laundry; can the washing machine fit it all?"
+      },
+      {
+        "id": 2,
+        "speaker": "B",
+        "cantonese": "分兩機洗啦，深色同淺色要分開。",
+        "jyutping": "fan1 loeng5 gei1 sai2 laa1, sam1 sik1 tung4 cin2 sik1 jiu3 fan1 hoi1.",
+        "english": "Let's do two loads; dark and light colors need to be separated."
+      },
+      {
+        "id": 3,
+        "speaker": "A",
+        "cantonese": "記得落埋柔順劑，啲衫會香啲。",
+        "jyutping": "gei3 dak1 lok6 maai4 jau4 seon6 zai1, di1 saam1 wui5 hoeng1 di1.",
+        "english": "Remember to add fabric softener; the clothes will smell better."
+      }
+    ]
+  },
+  {
+    "dialogueId": 92,
+    "type": "dining",
+    "typeCantonese": "飲食",
+    "title": "Hurrying the Food",
+    "titleCantonese": "等咗好耐（催單）",
+    "sentences": [
+      {
+        "id": 1,
+        "speaker": "Customer",
+        "cantonese": "唔該，我個炒飯等咗半個鐘都未到。",
+        "jyutping": "m4 goi1, ngo5 go3 caau2 faan6 dang2 zo2 bun3 go3 zung1 dou6 mei6 dou3.",
+        "english": "Excuse me, I've been waiting for my fried rice for half an hour and it's still not here."
+      },
+      {
+        "id": 2,
+        "speaker": "Waiter",
+        "cantonese": "唔好意思，我幫你入廚房睇下催一催。",
+        "jyutping": "m4 hou2 ji3 si1, ngo5 bong1 nei5 jap6 cyu4 fong2 tai2 haa5 ceoi1 jat1 ceoi1.",
+        "english": "Sorry about that, let me go into the kitchen and check to hurry it up."
+      },
+      {
+        "id": 3,
+        "speaker": "Customer",
+        "cantonese": "如果仲未整，就取消咗佢啦。",
+        "jyutping": "jyu4 gwo2 zung6 mei6 zing2, zau6 ceoi2 siu1 zo2 keoi5 laa1.",
+        "english": "If it hasn't been cooked yet, just cancel it."
+      }
+    ]
+  },
+  {
+    "dialogueId": 93,
+    "type": "learning",
+    "typeCantonese": "學習",
+    "title": "At the Library",
+    "titleCantonese": "喺圖書館",
+    "sentences": [
+      {
+        "id": 1,
+        "speaker": "A",
+        "cantonese": "呢度要保持安靜，唔好大聲講嘢。",
+        "jyutping": "ni1 dou6 jiu3 bou2 ci3 on1 zing6, m4 hou2 daai6 seng1 gong2 je5.",
+        "english": "We need to keep quiet here; don't talk loudly."
+      },
+      {
+        "id": 2,
+        "speaker": "B",
+        "cantonese": "知啦，我哋去嗰邊搵位坐低溫書啦。",
+        "jyutping": "zi1 laa1, ngo5 dei6 heoi3 go2 bin1 wan2 wai2 co5 dai1 wan1 syu1 laa1.",
+        "english": "I know, let's find a seat over there to study."
+      },
+      {
+        "id": 3,
+        "speaker": "A",
+        "cantonese": "我想借多兩本關於設計嘅書返去睇。",
+        "jyutping": "ngo5 soeng2 ze3 do1 loeng5 bun2 gwaan1 jyu1 cit3 gai3 ge3 syu1 faan1 heoi3 tai2.",
+        "english": "I want to borrow two more books about design to read at home."
+      }
+    ]
+  },
+  {
+    "dialogueId": 94,
+    "type": "shopping",
+    "typeCantonese": "購物",
+    "title": "Buying Electronics",
+    "titleCantonese": "買電子產品",
+    "sentences": [
+      {
+        "id": 1,
+        "speaker": "Customer",
+        "cantonese": "呢部平板電腦有幾耐保養？",
+        "jyutping": "ni1 bou6 ping4 baan2 din6 nou5 jau5 gei2 noi6 bou2 joeng5?",
+        "english": "How long is the warranty for this tablet computer?"
+      },
+      {
+        "id": 2,
+        "speaker": "Staff",
+        "cantonese": "原廠保養一年，你可以加錢延長到三年。",
+        "jyutping": "jyun4 cong2 bou2 joeng5 jat1 nin4, nei5 ho2 ji5 gaa1 cin2 jin4 coeng4 dou3 saam1 nin4.",
+        "english": "There's a one-year manufacturer's warranty; you can pay extra to extend it to three years."
+      },
+      {
+        "id": 3,
+        "speaker": "Customer",
+        "cantonese": "可唔可以送埋個保護貼畀我？",
+        "jyutping": "ho2 m4 ho2 ji5 sung3 maai4 go3 bou2 wu6 tip3 bei2 ngo5?",
+        "english": "Can you include a screen protector for free?"
+      }
+    ]
+  },
+  {
+    "dialogueId": 95,
+    "type": "social",
+    "typeCantonese": "社交",
+    "title": "Meeting a New Friend",
+    "titleCantonese": "識新朋友",
+    "sentences": [
+      {
+        "id": 1,
+        "speaker": "May",
+        "cantonese": "你平時有啲咩興趣呀？",
+        "jyutping": "nei5 ping4 si4 jau5 di1 me1 hing3 ceoi3 aa3?",
+        "english": "What kind of hobbies do you usually have?"
+      },
+      {
+        "id": 2,
+        "speaker": "Ben",
+        "cantonese": "我鍾意影相，放假會去唔同地方打卡。",
+        "jyutping": "ngo5 zung1 ji3 jing2 soeng2, fong3 gaa3 wui5 heoi3 m4 tung4 dei6 fong1 daa2 kaa1.",
+        "english": "I like taking photos; I go to different places to take social media pictures on my days off."
+      },
+      {
+        "id": 3,
+        "speaker": "May",
+        "cantonese": "係呀？下次可以帶埋我一齊去呀！",
+        "jyutping": "hai6 aa3? haa6 ci3 ho2 m4 ho2 ji5 daai3 maai4 ngo5 jat1 cai4 heoi3 aa3!",
+        "english": "Really? You should take me with you next time!"
+      }
+    ]
+  },
+  {
+    "dialogueId": 96,
+    "type": "travel",
+    "typeCantonese": "旅行",
+    "title": "At the Duty Free",
+    "titleCantonese": "喺免稅店",
+    "sentences": [
+      {
+        "id": 1,
+        "speaker": "A",
+        "cantonese": "呢度買化妝品好似平過市中心好多。",
+        "jyutping": "ni1 dou6 maai5 faa3 zong1 ban2 hou2 ci5 peng4 gwo3 si5 zung1 sam1 hou2 do1.",
+        "english": "It seems buying cosmetics here is much cheaper than in the city center."
+      },
+      {
+        "id": 2,
+        "speaker": "B",
+        "cantonese": "係呀，因為免稅嘛。我想買支香水。",
+        "jyutping": "hai6 aa3, jan1 wai6 min5 seoi3 maa3. ngo5 soeng2 maai5 zi1 hoeng1 seoi2.",
+        "english": "Yes, because it's duty-free. I want to buy a bottle of perfume."
+      },
+      {
+        "id": 3,
+        "speaker": "A",
+        "cantonese": "快啲揀啦，班機差唔多要上機喇。",
+        "jyutping": "faai3 di1 gaan2 laa1, baan1 gei1 caa1 m4 do1 jiu3 soeng5 gei1 laa3.",
+        "english": "Pick quickly; the flight is about to board."
+      }
+    ]
+  },
+  {
+    "dialogueId": 97,
+    "type": "sports",
+    "typeCantonese": "運動",
+    "title": "Yoga Class",
+    "titleCantonese": "瑜伽班",
+    "sentences": [
+      {
+        "id": 1,
+        "speaker": "Teacher",
+        "cantonese": "大家慢慢呼氣，感受下肌肉嘅伸展。",
+        "jyutping": "daai6 gaa1 maan6 maan6 fu1 hei3, gam2 sau6 haa5 gei1 juk6 ge3 san1 zin2.",
+        "english": "Everyone exhale slowly and feel the stretch in your muscles."
+      },
+      {
+        "id": 2,
+        "speaker": "Student",
+        "cantonese": "老師，呢個動作我覺得有啲辛苦。",
+        "jyutping": "lou5 si1, ni1 go3 dung6 zok3 ngo5 gok3 dak1 jau5 di1 san1 fu2.",
+        "english": "Teacher, I find this move a bit difficult."
+      },
+      {
+        "id": 3,
+        "speaker": "Teacher",
+        "cantonese": "唔好夾硬嚟，跟住自己嘅節奏就得。",
+        "jyutping": "m4 hou2 gaap3 ngaang6 lei4, gan1 zyu6 zi6 gei2 ge3 zit3 zau3 zau6 dak1.",
+        "english": "Don't force it; just follow your own pace."
+      }
+    ]
+  },
+  {
+    "dialogueId": 98,
+    "type": "daily",
+    "typeCantonese": "生活",
+    "title": "Sending a Parcel",
+    "titleCantonese": "寄快遞",
+    "sentences": [
+      {
+        "id": 1,
+        "speaker": "Customer",
+        "cantonese": "我想寄呢件包裹去上海，大約幾多錢？",
+        "jyutping": "ngo5 soeng2 gei3 ni1 gin6 baau1 gwo2 heoi3 soeng6 hoi2, daai6 joek3 gei2 do1 cin2?",
+        "english": "I want to send this parcel to Shanghai; about how much will it cost?"
+      },
+      {
+        "id": 2,
+        "speaker": "Staff",
+        "cantonese": "要先磅下重量，你有無包裝好？",
+        "jyutping": "jiu3 sin1 bong6 haa5 cung5 loeng6, nei5 jau5 mou5 baau1 zong1 hou2?",
+        "english": "I need to weigh it first. Have you packed it properly?"
+      },
+      {
+        "id": 3,
+        "speaker": "Customer",
+        "cantonese": "未呀，你呢度有無紙箱同膠紙提供？",
+        "jyutping": "mei6 aa3, nei5 ni1 dou6 jau5 mou5 zi2 soeng1 tung4 gaau1 zi2 tai4 gung1?",
+        "english": "Not yet, do you have cardboard boxes and tape available here?"
+      }
+    ]
+  },
+  {
+    "dialogueId": 99,
+    "type": "work",
+    "typeCantonese": "工作",
+    "title": "Taking a Coffee Break",
+    "titleCantonese": "飲杯咖啡休息下",
+    "sentences": [
+      {
+        "id": 1,
+        "speaker": "Colleague A",
+        "cantonese": "做咗成朝好攰呀，不如落去飲杯咖啡？",
+        "jyutping": "zou6 zo2 seng4 ziu1 hou2 gui6 aa3, bat1 jyu4 lok6 heoi3 jam2 bui1 gaa3 fe1?",
+        "english": "I'm so tired after working all morning; why don't we go down for a coffee?"
+      },
+      {
+        "id": 2,
+        "speaker": "Colleague B",
+        "cantonese": "好呀，順便行下，個人都醒神啲。",
+        "jyutping": "hou2 aa3, seon6 bin2 hang4 haa5, go3 jan4 dou1 sing2 san4 di1.",
+        "english": "Sure, let's take a walk while we're at it; it'll make us more alert."
+      },
+      {
+        "id": 3,
+        "speaker": "Colleague A",
+        "cantonese": "樓下間咖啡店最近有買一送一優惠。",
+        "jyutping": "lau4 haa6 gaan1 gaa3 fe1 dim3 zeoi3 gan6 jau5 maai5 jat1 sung3 jat1 jau1 wai6.",
+        "english": "The coffee shop downstairs has a buy-one-get-one-free offer lately."
+      }
+    ]
+  },
+  {
+    "dialogueId": 100,
+    "type": "daily",
+    "typeCantonese": "生活",
+    "title": "Opening a Bank Account",
+    "titleCantonese": "喺銀行開戶口",
+    "sentences": [
+      {
+        "id": 1,
+        "speaker": "Customer",
+        "cantonese": "唔該，我想開個儲蓄戶口。",
+        "jyutping": "m4 goi1, ngo5 soeng2 hoi1 go3 cyu5 cuk1 wu6 hau2.",
+        "english": "Excuse me, I'd like to open a savings account."
+      },
+      {
+        "id": 2,
+        "speaker": "Staff",
+        "cantonese": "無問題，請問你有無帶埋住址證明呀？",
+        "jyutping": "m4 mou4 man6 tai4, cing2 man6 nei5 jau5 mou5 daai3 maai4 zyu6 zi2 zing3 ming4 aa3?",
+        "english": "No problem, may I ask if you've brought your proof of address?"
+      },
+      {
+        "id": 3,
+        "speaker": "Customer",
+        "cantonese": "有呀，呢度係我近三個月嘅水費單。",
+        "jyutping": "jau5 aa3, ni1 dou6 hai6 ngo5 gan6 saam1 go3 jyut6 ge3 seoi2 fai3 daan1.",
+        "english": "Yes, here is my water bill from the last three months."
+      }
+    ]
+  },
+  {
+    "dialogueId": 101,
+    "type": "daily",
+    "typeCantonese": "生活",
+    "title": "Fixing a Leaky Faucet",
+    "titleCantonese": "整水喉",
+    "sentences": [
+      {
+        "id": 1,
+        "speaker": "A",
+        "cantonese": "廚房個水龍頭漏水呀，滴到周圍都係。",
+        "jyutping": "cyu4 fong2 go3 seoi2 lung4 tau4 lau6 seoi2 aa3, dik6 dou3 zau1 wai4 dou1 hai6.",
+        "english": "The kitchen faucet is leaking; it's dripping everywhere."
+      },
+      {
+        "id": 2,
+        "speaker": "B",
+        "cantonese": "可能係個墊圈爛咗，要去五金舖買個新嘅。",
+        "jyutping": "ho2 nang4 hai6 go3 din6 hyun1 laan6 zo2, jiu3 heoi3 ng5 gam1 pou3 maai5 go3 san1 ge3.",
+        "english": "Maybe the washer is broken; we need to go to the hardware store to buy a new one."
+      },
+      {
+        "id": 3,
+        "speaker": "A",
+        "cantonese": "咁你快啲去買啦，廢事嘥晒啲水。",
+        "jyutping": "gam3 nei5 faai3 di1 heoi3 maai5 laa1, fai3 si6 saai1 saai3 di1 seoi2.",
+        "english": "Then go buy it quickly so we don't waste water."
+      }
+    ]
+  },
+  {
+    "dialogueId": 102,
+    "type": "daily",
+    "typeCantonese": "生活",
+    "title": "Typhoon Warning",
+    "titleCantonese": "打風喇",
+    "sentences": [
+      {
+        "id": 1,
+        "speaker": "A",
+        "cantonese": "聽講天文台陣間會掛八號風球喎。",
+        "jyutping": "ting1 gong2 tin1 man4 toi4 zan6 gaan1 wui5 gwaa3 baat3 hou2 fung1 kau4 wo3.",
+        "english": "I heard the observatory will hoist the No. 8 typhoon signal shortly."
+      },
+      {
+        "id": 2,
+        "speaker": "B",
+        "cantonese": "係呀？咁大家都要提早收工返屋企喇。",
+        "jyutping": "hai6 aa3? gam3 daai6 gaa1 dou1 jiu3 tai4 zou2 sau1 gung1 faan1 uk1 kei2 laa3.",
+        "english": "Really? Then everyone will have to get off work early and go home."
+      },
+      {
+        "id": 3,
+        "speaker": "A",
+        "cantonese": "記得閂好門窗，外面啲嘢要收返入嚟。",
+        "jyutping": "gei3 dak1 saan1 hou2 mun4 coeng1, ngoi6 min6 di1 je5 jiu3 sau1 faan1 jap6 lei4.",
+        "english": "Remember to close all windows and doors, and bring in the things outside."
+      }
+    ]
+  },
+  {
+    "dialogueId": 103,
+    "type": "entertainment",
+    "typeCantonese": "娛樂",
+    "title": "Taking a Walk in the Park",
+    "titleCantonese": "去公園散步",
+    "sentences": [
+      {
+        "id": 1,
+        "speaker": "A",
+        "cantonese": "今日天氣咁好，不如去公園散下步？",
+        "jyutping": "gam1 jat6 tin1 hei3 gam3 hou2, bat1 jyu4 heoi3 gung1 jyun2 saan3 haa5 bou6?",
+        "english": "The weather is so nice today, how about we go for a walk in the park?"
+      },
+      {
+        "id": 2,
+        "speaker": "B",
+        "cantonese": "好呀，行下草地、吸下新鮮空氣都好。",
+        "jyutping": "hou2 aa3, hang4 haa5 cou2 dei6, kap1 haa5 san1 sin1 hung1 hei3 dou1 hou2.",
+        "english": "Sure, walking on the grass and breathing some fresh air would be great."
+      },
+      {
+        "id": 3,
+        "speaker": "A",
+        "cantonese": "仲可以帶埋隻狗一齊去跑下。",
+        "jyutping": "zung6 ho2 ji5 daai3 maai4 zek3 gau2 jat1 cai4 heoi3 paau2 haa5.",
+        "english": "We can also take the dog along for a run."
+      }
+    ]
+  },
+  {
+    "dialogueId": 104,
+    "type": "dining",
+    "typeCantonese": "飲食",
+    "title": "Asking for the Recommendation",
+    "titleCantonese": "有咩好介紹？",
+    "sentences": [
+      {
+        "id": 1,
+        "speaker": "Customer",
+        "cantonese": "唔該，呢度有咩招牌菜好介紹呀？",
+        "jyutping": "m4 goi1, ni1 dou6 jau5 me1 ziu1 paai4 coi3 hou2 gaai3 siu3 aa3?",
+        "english": "Excuse me, what are the signature dishes you recommend here?"
+      },
+      {
+        "id": 2,
+        "speaker": "Waiter",
+        "cantonese": "我哋嘅避風塘炒蟹同埋咕嚕肉都好出名。",
+        "jyutping": "ngo5 dei6 ge3 bei6 fung1 tong4 caau2 haai5 tung4 maai4 gu1 lou1 juk6 dou1 hou2 ceot1 ming4.",
+        "english": "Our Under Bridge Spicy Crab and Sweet and Sour Pork are very famous."
+      },
+      {
+        "id": 3,
+        "speaker": "Customer",
+        "cantonese": "咁就要一份咕嚕肉試下先。",
+        "jyutping": "gam3 zau6 jiu3 jat1 fan6 gu1 lou1 juk6 si3 haa5 sin1.",
+        "english": "Then I'll try an order of Sweet and Sour Pork first."
+      }
+    ]
+  },
+  {
+    "dialogueId": 105,
+    "type": "work",
+    "typeCantonese": "工作",
+    "title": "Printing Issues",
+    "titleCantonese": "影印機無紙",
+    "sentences": [
+      {
+        "id": 1,
+        "speaker": "Staff A",
+        "cantonese": "影印機好似無晒紙，你有無見到儲存室有？",
+        "jyutping": "jing2 jan3 gei1 hou2 ci5 mou4 saai3 zi2, nei5 jau5 mou5 gin3 dou3 cyu5 cyun4 sat1 jau5?",
+        "english": "The photocopier seems to be out of paper; did you see any in the storage room?"
+      },
+      {
+        "id": 2,
+        "speaker": "Staff B",
+        "cantonese": "最後嗰兩箱尋日用晒喇，要叫人送貨。",
+        "jyutping": "zeoi3 hau6 go2 loeng5 soeng1 cam4 jat1 jung6 saai3 laa3, jiu3 giu3 jan4 sung3 fo3.",
+        "english": "The last two boxes were used up yesterday; we need to order a delivery."
+      },
+      {
+        "id": 3,
+        "speaker": "Staff A",
+        "cantonese": "咁快？咁我要叫 Admin 幫手訂喇。",
+        "jyutping": "gam3 faai3? gam3 ngo5 jiu3 giu3 aa3 min1 bong1 sau2 deng6 laa3.",
+        "english": "So soon? I'll have to ask Admin to help order some then."
+      }
+    ]
+  },
+  {
+    "dialogueId": 106,
+    "type": "shopping",
+    "typeCantonese": "購物",
+    "title": "At the Bakery",
+    "titleCantonese": "喺麵包店",
+    "sentences": [
+      {
+        "id": 1,
+        "speaker": "Customer",
+        "cantonese": "唔該，個菠蘿包係咪啱啱出爐架？",
+        "jyutping": "m4 goi1, go3 bo1 lo4 baau1 hai6 mai6 ngaam1 ngaam1 ceot1 lou4 gaa3?",
+        "english": "Excuse me, are the pineapple buns fresh out of the oven?"
+      },
+      {
+        "id": 2,
+        "speaker": "Staff",
+        "cantonese": "係呀，仲熱辣辣架，要幾個呀？",
+        "jyutping": "hai6 aa3, zung6 jit6 laat6 laat6 gaa3, jiu3 gei2 go3 aa3?",
+        "english": "Yes, they are still piping hot. How many would you like?"
+      },
+      {
+        "id": 3,
+        "speaker": "Customer",
+        "cantonese": "我要兩個，再要一排方包。",
+        "jyutping": "ngo5 jiu3 loeng5 go3, zoi3 jiu3 jat1 paai4 fong1 baau1.",
+        "english": "I'll take two, and a loaf of sliced bread."
+      }
+    ]
+  },
+  {
+    "dialogueId": 107,
+    "type": "travel",
+    "typeCantonese": "旅行",
+    "title": "Finding a Souvenir",
+    "titleCantonese": "買手信",
+    "sentences": [
+      {
+        "id": 1,
+        "speaker": "A",
+        "cantonese": "聽日就返去喇，仲未買到手信畀同事。",
+        "jyutping": "ting1 jat1 zau6 faan1 heoi3 laa3, zung6 mei6 maai5 dou3 sau2 seon3 bei2 tung4 si6.",
+        "english": "Going back tomorrow and I still haven't bought souvenirs for my colleagues."
+      },
+      {
+        "id": 2,
+        "speaker": "B",
+        "cantonese": "不如去呢間舖頭睇下，啲蝴蝶酥好出名。",
+        "jyutping": "bat1 jyu4 heoi3 ni1 gaan1 pou3 tau4 tai2 haa5, di1 wu4 dip6 sou1 hou2 ceot1 ming4.",
+        "english": "Why don't we check this shop? Their butterfly cookies are very famous."
+      },
+      {
+        "id": 3,
+        "speaker": "A",
+        "cantonese": "好呀，包裝幾精美，送禮幾大方。",
+        "jyutping": "hou2 aa3, baau1 zong1 gei2 zing1 mei5, sung3 lai5 gei2 daai6 fong1.",
+        "english": "Sure, the packaging is quite elegant; it makes a nice gift."
+      }
+    ]
+  },
+  {
+    "dialogueId": 108,
+    "type": "social",
+    "typeCantonese": "社交",
+    "title": "Congratulating on a Promotion",
+    "titleCantonese": "恭喜升職",
+    "sentences": [
+      {
+        "id": 1,
+        "speaker": "A",
+        "cantonese": "聽聞你升咗做經理喎，恭喜晒！",
+        "jyutping": "ting1 man4 nei5 sing1 zo2 zou2 ging1 lei5 wo3, gung1 hei2 saai3!",
+        "english": "I heard you got promoted to manager, congratulations!"
+      },
+      {
+        "id": 2,
+        "speaker": "B",
+        "cantonese": "多謝你呀，以後壓力大咗好多喇。",
+        "jyutping": "do1 ze6 nei5 aa3, ji5 hau6 aat3 lik6 daai6 zo2 hou2 do1 laa3.",
+        "english": "Thank you, there's going to be a lot more pressure from now on."
+      },
+      {
+        "id": 3,
+        "speaker": "A",
+        "cantonese": "你有實力，一定搞得掂嘅！",
+        "jyutping": "nei5 jau5 sat6 lik6, jat1 ding6 gaau2 dak1 dim2 ge2!",
+        "english": "You have the ability; you'll definitely be able to handle it!"
+      }
+    ]
+  },
+  {
+    "dialogueId": 109,
+    "type": "sports",
+    "typeCantonese": "運動",
+    "title": "Watching a Football Match",
+    "titleCantonese": "睇波",
+    "sentences": [
+      {
+        "id": 1,
+        "speaker": "A",
+        "cantonese": "今晚決賽你撐邊隊呀？",
+        "jyutping": "gam1 maan5 kyut3 coi3 nei5 caang1 bin1 deoi6 aa3?",
+        "english": "Which team are you rooting for in the final tonight?"
+      },
+      {
+        "id": 2,
+        "speaker": "B",
+        "cantonese": "我一定撐曼聯啦，佢哋最近狀態好惹火。",
+        "jyutping": "ngo5 jat1 ding6 caang1 maan6 lyun4 laa1, keoi5 dei6 zeoi3 gan6 zong6 taai3 hou2 je5 fo2.",
+        "english": "I'm definitely rooting for Manchester United; they've been in fiery form lately."
+      },
+      {
+        "id": 3,
+        "speaker": "A",
+        "cantonese": "未必喎，對手防守都好勁架。",
+        "jyutping": "mei6 bit1 wo3, deoi3 sau2 fong4 sau2 dou1 hou2 ging6 gaa3.",
+        "english": "Not necessarily; their opponent's defense is also very strong."
+      }
+    ]
+  }
+]

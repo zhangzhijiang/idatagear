@@ -1,19 +1,79 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Learn English - Redirecting...</title>
-  <meta name="description" content="Learn English - CEFR-aligned English learning app. Redirecting to idatagear.com/learnenglish/">
-  <link rel="canonical" href="https://idatagear.com/learnenglish/">
+  <!--
+    If you are serving your web app in a path other than the root, change the
+    href value below to reflect the base path you are serving from.
+
+    The path provided below has to start and end with a slash "/" in order for
+    it to work correctly.
+
+    For more details:
+    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+
+    This is a placeholder for base href that will be replaced by the value of
+    the `--base-href` argument provided to `flutter build`.
+    
+    IMPORTANT: For deployment to /english/, build with:
+    flutter build web --base-href /english/
+  -->
+  <!-- Google AdSense -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8396981938969998"
+  crossorigin="anonymous"></script>
+  <base href="/english/">
+  <meta name="google-adsense-account" content="ca-pub-8396981938969998">
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Download Learn English free: CEFR A1–C2 vocabulary, IPA pronunciation, reading. Use on web or Android. Master English with McLearn® by iDataGear.">
+  <meta name="keywords" content="learn English, CEFR preparation, English vocabulary, English pronunciation, English learning app, A1, A2, B1, B2, C1, C2">
+  <link rel="canonical" href="https://idatagear.com/english/">
+  <link rel="alternate" hreflang="en" href="https://idatagear.com/english/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://idatagear.com/english/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://idatagear.com/english/">
+  <link rel="alternate" hreflang="x-default" href="https://idatagear.com/english/">
   
-  <!-- Immediate redirect -->
-  <meta http-equiv="refresh" content="0; url=/learnenglish/">
-  <script>
-    window.location.replace('/learnenglish/');
+  <!-- iOS meta tags & icons -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="AI English">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png"/>
+  
+  <title>AI English | Master English with CEFR Levels</title>
+  
+  <!-- SoftwareApplication schema for AEO -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "Learn English",
+    "applicationCategory": "EducationalApplication",
+    "operatingSystem": "Android, Web",
+    "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+    "description": "Comprehensive English learning platform with CEFR levels A1-C2, interactive vocabulary, IPA pronunciation, and reading comprehension.",
+    "url": "https://idatagear.com/english/",
+    "publisher": { "@type": "Organization", "name": "iDataGear Inc", "url": "https://idatagear.com" },
+    "installUrl": "https://play.google.com/store/apps/details?id=com.idatagear.learn_english"
+  }
   </script>
+  <link rel="manifest" href="manifest.json">
 </head>
 <body>
-  <p>Redirecting to <a href="/learnenglish/">Learn English</a>...</p>
+  <script>
+    // Error handler to catch initialization errors
+    window.addEventListener('error', function(e) {
+      console.error('Global error:', e.error);
+      // Only show error UI if app hasn't loaded (checking flutter root element usually, but here just simple)
+      // document.body.innerHTML = ... // Optional: enable this if needed
+    });
+    
+    window.addEventListener('unhandledrejection', function(e) {
+      console.error('Unhandled promise rejection:', e.reason);
+    });
+  </script>
+  <script src="flutter_bootstrap.js" async></script>
 </body>
 </html>

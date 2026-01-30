@@ -1,0 +1,5540 @@
+{
+  "sentences": [
+    {
+      "sentence_id": 1,
+      "english": "I have two sisters and one brother.",
+      "langLevel": "A1",
+      "translations": {
+        "zh": "我有两个姐姐/妹妹和一个哥哥/弟弟。",
+        "es": "Tengo dos hermanas y un hermano."
+      },
+      "difficulty": "Beginner",
+      "tags": ["family", "numbers", "introduction"]
+    },
+    {
+      "sentence_id": 2,
+      "english": "We go to the cinema on Saturday.",
+      "langLevel": "A1",
+      "translations": {
+        "zh": "我们周六去看电影。",
+        "es": "Vamos al cine el sábado."
+      },
+      "difficulty": "Beginner",
+      "tags": ["hobbies", "daily", "weekend"]
+    },
+    {
+      "sentence_id": 3,
+      "english": "She is a good student at the school.",
+      "langLevel": "A1",
+      "translations": {
+        "zh": "她是学校里的一名好学生。",
+        "es": "Ella es una buena estudiante en la escuela."
+      },
+      "difficulty": "Beginner",
+      "tags": ["school", "description", "people"]
+    },
+    {
+      "sentence_id": 4,
+      "english": "I like to eat a banana for breakfast.",
+      "langLevel": "A1",
+      "translations": {
+        "zh": "我喜欢早餐吃香蕉。",
+        "es": "Me gusta comer un plátano para el desayuno."
+      },
+      "difficulty": "Beginner",
+      "tags": ["food", "daily", "routine"]
+    },
+    {
+      "sentence_id": 5,
+      "english": "He can play the guitar and the piano.",
+      "langLevel": "A1",
+      "translations": {
+        "zh": "他会弹吉他和钢琴。",
+        "es": "Él puede tocar la guitarra y el piano."
+      },
+      "difficulty": "Beginner",
+      "tags": ["hobbies", "skills", "music"]
+    },
+    {
+      "sentence_id": 6,
+      "english": "The cat is small and white.",
+      "langLevel": "A1",
+      "translations": {
+        "zh": "这只猫又小又白。",
+        "es": "El gato es pequeño y blanco."
+      },
+      "difficulty": "Beginner",
+      "tags": ["animals", "description", "colors"]
+    },
+    {
+      "sentence_id": 7,
+      "english": "Can you help me with my homework?",
+      "langLevel": "A1",
+      "translations": {
+        "zh": "你能帮我做家庭作业吗？",
+        "es": "Puedes ayudarme con mi tarea?"
+      },
+      "difficulty": "Beginner",
+      "tags": ["school", "communication", "request"]
+    },
+    {
+      "sentence_id": 8,
+      "english": "The shop is next to the bank.",
+      "langLevel": "A1",
+      "translations": {
+        "zh": "这家商店在银行旁边。",
+        "es": "La tienda está al lado del banco."
+      },
+      "difficulty": "Beginner",
+      "tags": ["location", "shopping", "daily"]
+    },
+    {
+      "sentence_id": 9,
+      "english": "It is very cold in winter.",
+      "langLevel": "A1",
+      "translations": {
+        "zh": "冬天很冷。",
+        "es": "Hace mucho frío en invierno."
+      },
+      "difficulty": "Beginner",
+      "tags": ["weather", "seasons"]
+    },
+    {
+      "sentence_id": 10,
+      "english": "I want to buy a new red dress.",
+      "langLevel": "A1",
+      "translations": {
+        "zh": "我想买一件新的红色连衣裙。",
+        "es": "Quiero comprar un vestido rojo nuevo."
+      },
+      "difficulty": "Beginner",
+      "tags": ["shopping", "clothes", "colors"]
+    },
+    {
+      "sentence_id": 11,
+      "english": "The train leaves at three o'clock.",
+      "langLevel": "A1",
+      "translations": {
+        "zh": "火车三点钟出发。",
+        "es": "El tren sale a las tres en punto."
+      },
+      "difficulty": "Beginner",
+      "tags": ["travel", "time", "routine"]
+    },
+    {
+      "sentence_id": 12,
+      "english": "They are having lunch together now.",
+      "langLevel": "A1",
+      "translations": {
+        "zh": "他们现在正在一起吃午饭。",
+        "es": "Están almorzando juntos ahora."
+      },
+      "difficulty": "Beginner",
+      "tags": ["food", "daily", "present"]
+    },
+    {
+      "sentence_id": 13,
+      "english": "My father is a doctor at the hospital.",
+      "langLevel": "A1",
+      "translations": {
+        "zh": "我的父亲是医院的一名医生。",
+        "es": "Mi padre es médico en el hospital."
+      },
+      "difficulty": "Beginner",
+      "tags": ["family", "work", "people"]
+    },
+    {
+      "sentence_id": 14,
+      "english": "Please open your book on page ten.",
+      "langLevel": "A1",
+      "translations": {
+        "zh": "请打开你的书，翻到第十页。",
+        "es": "Por favor, abre tu libro en la página diez."
+      },
+      "difficulty": "Beginner",
+      "tags": ["school", "instruction", "numbers"]
+    },
+    {
+      "sentence_id": 15,
+      "english": "The baby is asleep in the bedroom.",
+      "langLevel": "A1",
+      "translations": {
+        "zh": "宝宝在卧室里睡着了。",
+        "es": "El bebé está dormido en el dormitorio."
+      },
+      "difficulty": "Beginner",
+      "tags": ["family", "house", "daily"]
+    },
+    {
+      "sentence_id": 16,
+      "english": "I play football with my friends on Sunday.",
+      "langLevel": "A1",
+      "translations": {
+        "zh": "我周日和朋友踢足球。",
+        "es": "Juego al fútbol con mis amigos el domingo."
+      },
+      "difficulty": "Beginner",
+      "tags": ["sports", "friends", "weekend"]
+    },
+    {
+      "sentence_id": 17,
+      "english": "Do you live in a house or a flat?",
+      "langLevel": "A1",
+      "translations": {
+        "zh": "你住在一栋房子里还是一个公寓里？",
+        "es": "¿Vives en una casa o en un piso?"
+      },
+      "difficulty": "Beginner",
+      "tags": ["house", "question", "daily"]
+    },
+    {
+      "sentence_id": 18,
+      "english": "We must be quiet in the library.",
+      "langLevel": "A1",
+      "translations": {
+        "zh": "我们在图书馆必须保持安静。",
+        "es": "Debemos estar tranquilos en la biblioteca."
+      },
+      "difficulty": "Beginner",
+      "tags": ["school", "rule", "public place"]
+    },
+    {
+      "sentence_id": 19,
+      "english": "Can I have some water, please?",
+      "langLevel": "A1",
+      "translations": {
+        "zh": "请给我一些水好吗？",
+        "es": "¿Puedo tomar un poco de agua, por favor?"
+      },
+      "difficulty": "Beginner",
+      "tags": ["food", "communication", "request"]
+    },
+    {
+      "sentence_id": 20,
+      "english": "My favorite colour is green.",
+      "langLevel": "A1",
+      "translations": {
+        "zh": "我最喜欢的颜色是绿色。",
+        "es": "Mi color favorito es el verde."
+      },
+      "difficulty": "Beginner",
+      "tags": ["colors", "personal", "hobbies"]
+    },
+    {
+      "sentence_id": 21,
+      "english": "She arrives at the airport in the morning.",
+      "langLevel": "A1",
+      "translations": {
+        "zh": "她早上到达机场。",
+        "es": "Ella llega al aeropuerto por la mañana."
+      },
+      "difficulty": "Beginner",
+      "tags": ["travel", "time", "daily"]
+    },
+    {
+      "sentence_id": 22,
+      "english": "The book is on the table.",
+      "langLevel": "A1",
+      "translations": {
+        "zh": "这本书在桌子上。",
+        "es": "El libro está en la mesa."
+      },
+      "difficulty": "Beginner",
+      "tags": ["location", "objects", "house"]
+    },
+    {
+      "sentence_id": 23,
+      "english": "They are going on a short trip today.",
+      "langLevel": "A1",
+      "translations": {
+        "zh": "他们今天要去进行一次短途旅行。",
+        "es": "Ellos se van de viaje corto hoy."
+      },
+      "difficulty": "Beginner",
+      "tags": ["travel", "daily", "present"]
+    },
+    {
+      "sentence_id": 24,
+      "english": "I wake up at seven o'clock every day.",
+      "langLevel": "A1",
+      "translations": {
+        "zh": "我每天七点钟醒来。",
+        "es": "Me despierto a las siete en punto todos los días."
+      },
+      "difficulty": "Beginner",
+      "tags": ["routine", "time", "daily"]
+    },
+    {
+      "sentence_id": 25,
+      "english": "Is the chicken delicious?",
+      "langLevel": "A1",
+      "translations": {
+        "zh": "这只鸡肉好吃吗？",
+        "es": "¿Está delicioso el pollo?"
+      },
+      "difficulty": "Beginner",
+      "tags": ["food", "question"]
+    },
+    {
+      "sentence_id": 26,
+      "english": "My mother works in a big company.",
+      "langLevel": "A1",
+      "translations": {
+        "zh": "我的妈妈在一家大公司工作。",
+        "es": "Mi madre trabaja en una gran empresa."
+      },
+      "difficulty": "Beginner",
+      "tags": ["family", "work", "people"]
+    },
+    {
+      "sentence_id": 27,
+      "english": "We walk to the park after lunch.",
+      "langLevel": "A1",
+      "translations": {
+        "zh": "我们午饭后步行去公园。",
+        "es": "Caminamos al parque después del almuerzo."
+      },
+      "difficulty": "Beginner",
+      "tags": ["daily", "routine", "location"]
+    },
+    {
+      "sentence_id": 28,
+      "english": "Do you have a telephone number?",
+      "langLevel": "A1",
+      "translations": {
+        "zh": "你有电话号码吗？",
+        "es": "¿Tienes un número de teléfono?"
+      },
+      "difficulty": "Beginner",
+      "tags": ["communication", "question", "numbers"]
+    },
+    {
+      "sentence_id": 29,
+      "english": "He is running fast to win the game.",
+      "langLevel": "A1",
+      "translations": {
+        "zh": "他跑得很快，想赢得比赛。",
+        "es": "Él está corriendo rápido para ganar el juego."
+      },
+      "difficulty": "Beginner",
+      "tags": ["sports", "action", "present"]
+    },
+    {
+      "sentence_id": 30,
+      "english": "The weather is warm in summer.",
+      "langLevel": "A1",
+      "translations": {
+        "zh": "夏天天气暖和。",
+        "es": "El clima es cálido en verano."
+      },
+      "difficulty": "Beginner",
+      "tags": ["weather", "seasons"]
+    },
+    {
+      "sentence_id": 31,
+      "english": "I need some new shoes and a jacket.",
+      "langLevel": "A1",
+      "translations": {
+        "zh": "我需要一些新鞋和一件夹克。",
+        "es": "Necesito zapatos nuevos y una chaqueta."
+      },
+      "difficulty": "Beginner",
+      "tags": ["shopping", "clothes"]
+    },
+    {
+      "sentence_id": 32,
+      "english": "Let's meet at the cafe at eight.",
+      "langLevel": "A1",
+      "translations": {
+        "zh": "我们八点在咖啡馆见面吧。",
+        "es": "Encontrémonos en el café a las ocho."
+      },
+      "difficulty": "Beginner",
+      "tags": ["meeting", "time", "location"]
+    },
+    {
+      "sentence_id": 33,
+      "english": "They have a lovely garden with many flowers.",
+      "langLevel": "A1",
+      "translations": {
+        "zh": "他们有一个种满了许多花的漂亮花园。",
+        "es": "Tienen un jardín encantador con muchas flores."
+      },
+      "difficulty": "Beginner",
+      "tags": ["house", "description", "nature"]
+    },
+    {
+      "sentence_id": 34,
+      "english": "I usually drink coffee, but today I want tea.",
+      "langLevel": "A1",
+      "translations": {
+        "zh": "我通常喝咖啡，但今天我想喝茶。",
+        "es": "Normalmente bebo café, pero hoy quiero té."
+      },
+      "difficulty": "Beginner",
+      "tags": ["food", "daily", "contrast"]
+    },
+    {
+      "sentence_id": 35,
+      "english": "She is driving her car home from work.",
+      "langLevel": "A1",
+      "translations": {
+        "zh": "她正开车从工作地点回家。",
+        "es": "Ella está conduciendo su coche a casa desde el trabajo."
+      },
+      "difficulty": "Beginner",
+      "tags": ["work", "daily", "travel"]
+    },
+    {
+      "sentence_id": 36,
+      "english": "Do you live near the city centre?",
+      "langLevel": "A1",
+      "translations": {
+        "zh": "你住在市中心附近吗？",
+        "es": "¿Vives cerca del centro de la ciudad?"
+      },
+      "difficulty": "Beginner",
+      "tags": ["location", "daily", "question"]
+    },
+    {
+      "sentence_id": 37,
+      "english": "I am angry because I have to wait a long time.",
+      "langLevel": "A1",
+      "translations": {
+        "zh": "我很生气，因为我不得不等很长时间。",
+        "es": "Estoy enojado porque tengo que esperar mucho tiempo."
+      },
+      "difficulty": "Beginner",
+      "tags": ["feelings", "daily", "time"]
+    },
+    {
+      "sentence_id": 38,
+      "english": "The test is very easy for the students.",
+      "langLevel": "A1",
+      "translations": {
+        "zh": "这个测试对学生来说非常简单。",
+        "es": "La prueba es muy fácil para los estudiantes."
+      },
+      "difficulty": "Beginner",
+      "tags": ["school", "description"]
+    },
+    {
+      "sentence_id": 39,
+      "english": "We want to learn the English language.",
+      "langLevel": "A1",
+      "translations": {
+        "zh": "我们想学习英语。",
+        "es": "Queremos aprender el idioma inglés."
+      },
+      "difficulty": "Beginner",
+      "tags": ["school", "hobbies", "study"]
+    },
+    {
+      "sentence_id": 40,
+      "english": "My grandfather and grandmother are old.",
+      "langLevel": "A1",
+      "translations": {
+        "zh": "我的爷爷/外公和奶奶/外婆年纪大了。",
+        "es": "Mi abuelo y abuela son viejos."
+      },
+      "difficulty": "Beginner",
+      "tags": ["family", "description", "people"]
+    },
+    {
+      "sentence_id": 41,
+      "english": "I need to take a taxi to the airport.",
+      "langLevel": "A1",
+      "translations": {
+        "zh": "我需要乘出租车去机场。",
+        "es": "Necesito tomar un taxi al aeropuerto."
+      },
+      "difficulty": "Beginner",
+      "tags": ["travel", "daily"]
+    },
+    {
+      "sentence_id": 42,
+      "english": "The film begins at half past four.",
+      "langLevel": "A1",
+      "translations": {
+        "zh": "这部电影在四点半开始。",
+        "es": "La película comienza a las cuatro y media."
+      },
+      "difficulty": "Beginner",
+      "tags": ["time", "hobbies"]
+    },
+    {
+      "sentence_id": 43,
+      "english": "She is wearing a blue skirt and a white shirt.",
+      "langLevel": "A1",
+      "translations": {
+        "zh": "她穿着一条蓝色裙子和一件白色衬衫。",
+        "es": "Ella lleva una falda azul y una camisa blanca."
+      },
+      "difficulty": "Beginner",
+      "tags": ["clothes", "description", "colors"]
+    },
+    {
+      "sentence_id": 44,
+      "english": "My birthday is in November.",
+      "langLevel": "A1",
+      "translations": {
+        "zh": "我的生日在十一月。",
+        "es": "Mi cumpleaños es en noviembre."
+      },
+      "difficulty": "Beginner",
+      "tags": ["time", "personal", "celebration"]
+    },
+    {
+      "sentence_id": 45,
+      "english": "The students are reading a story about a snake.",
+      "langLevel": "A1",
+      "translations": {
+        "zh": "学生们正在读一个关于蛇的故事。",
+        "es": "Los estudiantes están leyendo una historia sobre una serpiente."
+      },
+      "difficulty": "Beginner",
+      "tags": ["school", "animals", "reading"]
+    },
+    {
+      "sentence_id": 46,
+      "english": "I think the restaurant has good food.",
+      "langLevel": "A1",
+      "translations": {
+        "zh": "我认为这家餐厅的食物很好。",
+        "es": "Creo que el restaurante tiene buena comida."
+      },
+      "difficulty": "Beginner",
+      "tags": ["food", "opinion", "daily"]
+    },
+    {
+      "sentence_id": 47,
+      "english": "Do you want a sandwich or a salad?",
+      "langLevel": "A1",
+      "translations": {
+        "zh": "你想要三明治还是沙拉？",
+        "es": "¿Quieres un sándwich o una ensalada?"
+      },
+      "difficulty": "Beginner",
+      "tags": ["food", "question", "choice"]
+    },
+    {
+      "sentence_id": 48,
+      "english": "We must go upstairs to the bedroom.",
+      "langLevel": "A1",
+      "translations": {
+        "zh": "我们必须上楼去卧室。",
+        "es": "Debemos subir las escaleras al dormitorio."
+      },
+      "difficulty": "Beginner",
+      "tags": ["house", "movement", "daily"]
+    },
+    {
+      "sentence_id": 49,
+      "english": "The weather is very beautiful today.",
+      "langLevel": "A1",
+      "translations": {
+        "zh": "今天天气非常美丽。",
+        "es": "El clima es muy hermoso hoy."
+      },
+      "difficulty": "Beginner",
+      "tags": ["weather", "daily", "description"]
+    },
+    {
+      "sentence_id": 50,
+      "english": "He is a good football player on the team.",
+      "langLevel": "A1",
+      "translations": {
+        "zh": "他是队里一名优秀的足球运动员。",
+        "es": "Él es un buen jugador de fútbol en el equipo."
+      },
+      "difficulty": "Beginner",
+      "tags": ["sports", "description", "work"]
+    },
+    {
+      "sentences": [
+        {
+          "sentence_id": 51,
+          "english": "We sometimes go to the beach in August.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我们有时八月去海滩。",
+            "es": "A veces vamos a la playa en agosto."
+          },
+          "difficulty": "Beginner",
+          "tags": ["travel", "time", "seasons"]
+        },
+        {
+          "sentence_id": 52,
+          "english": "My aunt is an actress and she is famous.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我的阿姨是一位女演员，她很出名。",
+            "es": "Mi tía es actriz y es famosa."
+          },
+          "difficulty": "Beginner",
+          "tags": ["family", "work", "description"]
+        },
+        {
+          "sentence_id": 53,
+          "english": "It is cold, so put on your coat.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "很冷，所以穿上你的外套。",
+            "es": "Hace frío, así que ponte tu abrigo."
+          },
+          "difficulty": "Beginner",
+          "tags": ["weather", "clothes", "instruction"]
+        },
+        {
+          "sentence_id": 54,
+          "english": "They are building a big new house now.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "他们现在正在建造一座新的大房子。",
+            "es": "Están construyendo una casa nueva y grande ahora."
+          },
+          "difficulty": "Beginner",
+          "tags": ["house", "action", "present"]
+        },
+        {
+          "sentence_id": 55,
+          "english": "We must call the police now.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我们现在必须打电话给警察。",
+            "es": "Debemos llamar a la policía ahora."
+          },
+          "difficulty": "Beginner",
+          "tags": ["communication", "daily", "emergency"]
+        },
+        {
+          "sentence_id": 56,
+          "english": "The river is clean and long.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "这条河很干净也很长。",
+            "es": "El río está limpio y es largo."
+          },
+          "difficulty": "Beginner",
+          "tags": ["nature", "description"]
+        },
+        {
+          "sentence_id": 57,
+          "english": "I get up early on Monday morning.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我周一早上起得很早。",
+            "es": "Me levanto temprano el lunes por la mañana."
+          },
+          "difficulty": "Beginner",
+          "tags": ["routine", "time", "daily"]
+        },
+        {
+          "sentence_id": 58,
+          "english": "The teacher is at the front of the classroom.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "老师在教室的前面。",
+            "es": "El profesor está al frente del aula."
+          },
+          "difficulty": "Beginner",
+          "tags": ["school", "location", "people"]
+        },
+        {
+          "sentence_id": 59,
+          "english": "I need some advice about my career.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我需要一些关于我职业生涯的建议。",
+            "es": "Necesito un poco de consejo sobre mi carrera."
+          },
+          "difficulty": "Beginner",
+          "tags": ["work", "personal", "communication"]
+        },
+        {
+          "sentence_id": 60,
+          "english": "The train goes across the land.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "火车穿过这片土地。",
+            "es": "El tren va a través de la tierra."
+          },
+          "difficulty": "Beginner",
+          "tags": ["travel", "action", "nature"]
+        },
+        {
+          "sentence_id": 61,
+          "english": "I watch a video on my computer every day.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我每天在我的电脑上看一个视频。",
+            "es": "Veo un video en mi computadora todos los días."
+          },
+          "difficulty": "Beginner",
+          "tags": ["technology", "routine", "hobbies"]
+        },
+        {
+          "sentence_id": 62,
+          "english": "She is a kind person and helps me.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "她是一个善良的人，她帮助我。",
+            "es": "Ella es una persona amable y me ayuda."
+          },
+          "difficulty": "Beginner",
+          "tags": ["people", "description", "communication"]
+        },
+        {
+          "sentence_id": 63,
+          "english": "The hotel is expensive, but amazing.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "这家酒店很贵，但是很棒。",
+            "es": "El hotel es caro, pero increíble."
+          },
+          "difficulty": "Beginner",
+          "tags": ["travel", "opinion", "money"]
+        },
+        {
+          "sentence_id": 64,
+          "english": "My cousin has a dark brown horse.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我的堂兄/妹有一匹深棕色的马。",
+            "es": "Mi primo tiene un caballo marrón oscuro."
+          },
+          "difficulty": "Beginner",
+          "tags": ["family", "animals", "colors"]
+        },
+        {
+          "sentence_id": 65,
+          "english": "The music is loud; turn the volume down.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "音乐很大声；把音量调低。",
+            "es": "La música está alta; baja el volumen."
+          },
+          "difficulty": "Beginner",
+          "tags": ["music", "daily", "instruction"]
+        },
+        {
+          "sentence_id": 66,
+          "english": "I can buy a ticket for ten dollars.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我可以花十美元买一张票。",
+            "es": "Puedo comprar un boleto por diez dólares."
+          },
+          "difficulty": "Beginner",
+          "tags": ["shopping", "money", "numbers"]
+        },
+        {
+          "sentence_id": 67,
+          "english": "This story is interesting and not boring.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "这个故事很有趣，一点也不无聊。",
+            "es": "Esta historia es interesante y no aburrida."
+          },
+          "difficulty": "Beginner",
+          "tags": ["reading", "description", "hobbies"]
+        },
+        {
+          "sentence_id": 68,
+          "english": "We agree with your idea.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我们同意你的想法。",
+            "es": "Estamos de acuerdo con tu idea."
+          },
+          "difficulty": "Beginner",
+          "tags": ["communication", "opinion", "work"]
+        },
+        {
+          "sentence_id": 69,
+          "english": "The girl has a bottle of juice.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "这个女孩有一瓶果汁。",
+            "es": "La niña tiene una botella de jugo."
+          },
+          "difficulty": "Beginner",
+          "tags": ["food", "objects", "daily"]
+        },
+        {
+          "sentence_id": 70,
+          "english": "My husband works very hard every day.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我的丈夫每天工作非常努力。",
+            "es": "Mi esposo trabaja muy duro todos los días."
+          },
+          "difficulty": "Beginner",
+          "tags": ["family", "work", "routine"]
+        },
+        {
+          "sentence_id": 71,
+          "english": "We will have a party on Friday evening.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我们将在周五晚上举办一个派对。",
+            "es": "Tendremos una fiesta el viernes por la noche."
+          },
+          "difficulty": "Beginner",
+          "tags": ["time", "social", "weekend"]
+        },
+        {
+          "sentence_id": 72,
+          "english": "I live on an island in the north.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我住在北方的一个岛上。",
+            "es": "Vivo en una isla en el norte."
+          },
+          "difficulty": "Beginner",
+          "tags": ["location", "travel", "nature"]
+        },
+        {
+          "sentence_id": 73,
+          "english": "The doctor is a kind man.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "这位医生是一个善良的人。",
+            "es": "El doctor es un hombre amable."
+          },
+          "difficulty": "Beginner",
+          "tags": ["people", "work", "description"]
+        },
+        {
+          "sentence_id": 74,
+          "english": "Take the lift upstairs to the fourth floor.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "乘电梯上四楼。",
+            "es": "Toma el ascensor arriba al cuarto piso."
+          },
+          "difficulty": "Beginner",
+          "tags": ["movement", "instruction", "numbers"]
+        },
+        {
+          "sentence_id": 75,
+          "english": "I am thirty-three years old.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我三十三岁。",
+            "es": "Tengo treinta y tres años."
+          },
+          "difficulty": "Beginner",
+          "tags": ["personal", "numbers", "introduction"]
+        },
+        {
+          "sentence_id": 76,
+          "english": "The bus is always late in the afternoon.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "公共汽车总是在下午迟到。",
+            "es": "El autobús siempre llega tarde por la tarde."
+          },
+          "difficulty": "Beginner",
+          "tags": ["travel", "time", "routine"]
+        },
+        {
+          "sentence_id": 77,
+          "english": "Do you need a dictionary for this word?",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "你需要一本字典来查这个词吗？",
+            "es": "¿Necesitas un diccionario para esta palabra?"
+          },
+          "difficulty": "Beginner",
+          "tags": ["school", "objects", "question"]
+        },
+        {
+          "sentence_id": 78,
+          "english": "The soup is hot; eat it slowly.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "这汤很烫；慢慢吃。",
+            "es": "La sopa está caliente; cómela lentamente."
+          },
+          "difficulty": "Beginner",
+          "tags": ["food", "instruction", "daily"]
+        },
+        {
+          "sentence_id": 79,
+          "english": "I think it is a big mistake.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我认为这是一个很大的错误。",
+            "es": "Creo que es un gran error."
+          },
+          "difficulty": "Beginner",
+          "tags": ["opinion", "work", "communication"]
+        },
+        {
+          "sentence_id": 80,
+          "english": "My mum likes to go shopping for clothes.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我的妈妈喜欢去买衣服。",
+            "es": "A mi mamá le gusta ir de compras por ropa."
+          },
+          "difficulty": "Beginner",
+          "tags": ["family", "shopping", "hobbies"]
+        },
+        {
+          "sentence_id": 81,
+          "english": "We always wash our hands before a meal.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我们总是在饭前洗手。",
+            "es": "Siempre nos lavamos las manos antes de una comida."
+          },
+          "difficulty": "Beginner",
+          "tags": ["daily", "routine", "health"]
+        },
+        {
+          "sentence_id": 82,
+          "english": "Look at the map to find the city.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "看地图找到这座城市。",
+            "es": "Mira el mapa para encontrar la ciudad."
+          },
+          "difficulty": "Beginner",
+          "tags": ["travel", "instruction", "objects"]
+        },
+        {
+          "sentence_id": 83,
+          "english": "The weather today is better than yesterday.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "今天的天气比昨天好。",
+            "es": "El clima de hoy es mejor que el de ayer."
+          },
+          "difficulty": "Beginner",
+          "tags": ["weather", "time", "comparison"]
+        },
+        {
+          "sentence_id": 84,
+          "english": "I have to send an email to my boss.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我必须给我的老板发送一封电子邮件。",
+            "es": "Tengo que enviar un correo electrónico a mi jefe."
+          },
+          "difficulty": "Beginner",
+          "tags": ["work", "communication", "technology"]
+        },
+        {
+          "sentence_id": 85,
+          "english": "The artist is drawing a picture of a cow.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "这位艺术家正在画一幅牛的画。",
+            "es": "El artista está dibujando un cuadro de una vaca."
+          },
+          "difficulty": "Beginner",
+          "tags": ["art", "animals", "hobbies"]
+        },
+        {
+          "sentence_id": 86,
+          "english": "We want to join the sports club.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我们想加入这个体育俱乐部。",
+            "es": "Queremos unirnos al club deportivo."
+          },
+          "difficulty": "Beginner",
+          "tags": ["sports", "hobbies", "social"]
+        },
+        {
+          "sentence_id": 87,
+          "english": "The boy broke his arm playing football.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "这个男孩踢足球时摔断了胳膊。",
+            "es": "El chico se rompió el brazo jugando al fútbol."
+          },
+          "difficulty": "Beginner",
+          "tags": ["sports", "health", "action"]
+        },
+        {
+          "sentence_id": 88,
+          "english": "I need one hundred euros for the trip.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我需要一百欧元去旅行。",
+            "es": "Necesito cien euros para el viaje."
+          },
+          "difficulty": "Beginner",
+          "tags": ["travel", "money", "numbers"]
+        },
+        {
+          "sentence_id": 89,
+          "english": "She is listening to the radio in the kitchen.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "她正在厨房里听收音机。",
+            "es": "Ella está escuchando la radio en la cocina."
+          },
+          "difficulty": "Beginner",
+          "tags": ["house", "hobbies", "daily"]
+        },
+        {
+          "sentence_id": 90,
+          "english": "I think this topic is very important.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我认为这个话题非常重要。",
+            "es": "Creo que este tema es muy importante."
+          },
+          "difficulty": "Beginner",
+          "tags": ["school", "opinion", "communication"]
+        },
+        {
+          "sentence_id": 91,
+          "english": "We often talk about the future.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我们经常谈论未来。",
+            "es": "A menudo hablamos del futuro."
+          },
+          "difficulty": "Beginner",
+          "tags": ["communication", "daily", "time"]
+        },
+        {
+          "sentence_id": 92,
+          "english": "The aeroplane is flying high above the clouds.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "飞机在高高的云层之上飞行。",
+            "es": "El avión está volando alto sobre las nubes."
+          },
+          "difficulty": "Beginner",
+          "tags": ["travel", "nature", "action"]
+        },
+        {
+          "sentence_id": 93,
+          "english": "My boyfriend is a pilot.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我的男朋友是一名飞行员。",
+            "es": "Mi novio es piloto."
+          },
+          "difficulty": "Beginner",
+          "tags": ["family", "work", "people"]
+        },
+        {
+          "sentence_id": 94,
+          "english": "The children want a chocolate cake.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "孩子们想要一个巧克力蛋糕。",
+            "es": "Los niños quieren un pastel de chocolate."
+          },
+          "difficulty": "Beginner",
+          "tags": ["food", "family", "request"]
+        },
+        {
+          "sentence_id": 95,
+          "english": "I am tired; I need to sleep now.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我累了；我现在需要睡觉。",
+            "es": "Estoy cansado; necesito dormir ahora."
+          },
+          "difficulty": "Beginner",
+          "tags": ["feelings", "daily", "health"]
+        },
+        {
+          "sentence_id": 96,
+          "english": "She is wearing trousers, not a skirt.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "她穿着长裤，而不是裙子。",
+            "es": "Ella lleva pantalones, no una falda."
+          },
+          "difficulty": "Beginner",
+          "tags": ["clothes", "description", "comparison"]
+        },
+        {
+          "sentence_id": 97,
+          "english": "Is there a train station near here?",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "这附近有火车站吗？",
+            "es": "¿Hay una estación de tren cerca de aquí?"
+          },
+          "difficulty": "Beginner",
+          "tags": ["travel", "location", "question"]
+        },
+        {
+          "sentence_id": 98,
+          "english": "The lion is a big, strong animal.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "狮子是一种又大又强壮的动物。",
+            "es": "El león es un animal grande y fuerte."
+          },
+          "difficulty": "Beginner",
+          "tags": ["animals", "description", "nature"]
+        },
+        {
+          "sentence_id": 99,
+          "english": "I often study history at university.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我经常在大学学习历史。",
+            "es": "A menudo estudio historia en la universidad."
+          },
+          "difficulty": "Beginner",
+          "tags": ["school", "routine", "study"]
+        },
+        {
+          "sentence_id": 100,
+          "english": "Can you check the price of this product?",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "你能查看一下这个产品的价格吗？",
+            "es": "¿Puedes comprobar el precio de este producto?"
+          },
+          "difficulty": "Beginner",
+          "tags": ["shopping", "work", "money"]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "sentence_id": 101,
+          "english": "My office is above the bank.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我的办公室在银行上面。",
+            "es": "Mi oficina está encima del banco."
+          },
+          "difficulty": "Beginner",
+          "tags": ["location", "work", "daily"]
+        },
+        {
+          "sentence_id": 102,
+          "english": "We must decide before December.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我们必须在十二月之前做出决定。",
+            "es": "Debemos decidir antes de diciembre."
+          },
+          "difficulty": "Beginner",
+          "tags": ["time", "work", "planning"]
+        },
+        {
+          "sentence_id": 103,
+          "english": "I like cream in my coffee.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我喜欢在咖啡里加奶油。",
+            "es": "Me gusta la crema en mi café."
+          },
+          "difficulty": "Beginner",
+          "tags": ["food", "daily", "routine"]
+        },
+        {
+          "sentence_id": 104,
+          "english": "There are eight small boats on the sea.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "海上有八艘小船。",
+            "es": "Hay ocho botes pequeños en el mar."
+          },
+          "difficulty": "Beginner",
+          "tags": ["nature", "numbers", "travel"]
+        },
+        {
+          "sentence_id": 105,
+          "english": "Do you remember my name?",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "你记得我的名字吗？",
+            "es": "¿Recuerdas mi nombre?"
+          },
+          "difficulty": "Beginner",
+          "tags": ["communication", "question", "introduction"]
+        },
+        {
+          "sentence_id": 106,
+          "english": "I hope to see my boyfriend tomorrow.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我希望能明天见到我的男朋友。",
+            "es": "Espero ver a mi novio mañana."
+          },
+          "difficulty": "Beginner",
+          "tags": ["family", "time", "feelings"]
+        },
+        {
+          "sentence_id": 107,
+          "english": "The boy is standing behind the car.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "那个男孩站在车后面。",
+            "es": "El niño está de pie detrás del coche."
+          },
+          "difficulty": "Beginner",
+          "tags": ["location", "movement", "daily"]
+        },
+        {
+          "sentence_id": 108,
+          "english": "Can you spell the word for me?",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "你能为我拼写这个单词吗？",
+            "es": "¿Puedes deletrear la palabra para mí?"
+          },
+          "difficulty": "Beginner",
+          "tags": ["school", "communication", "request"]
+        },
+        {
+          "sentence_id": 109,
+          "english": "I like to talk about art and culture.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我喜欢谈论艺术和文化。",
+            "es": "Me gusta hablar sobre arte y cultura."
+          },
+          "difficulty": "Beginner",
+          "tags": ["hobbies", "study", "communication"]
+        },
+        {
+          "sentence_id": 110,
+          "english": "The weather is different in the north and south.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "北方和南方的天气不同。",
+            "es": "El clima es diferente en el norte y el sur."
+          },
+          "difficulty": "Beginner",
+          "tags": ["weather", "location", "comparison"]
+        },
+        {
+          "sentence_id": 111,
+          "english": "My mum will prepare a healthy meal.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我的妈妈会准备一顿健康的饭菜。",
+            "es": "Mi mamá preparará una comida saludable."
+          },
+          "difficulty": "Beginner",
+          "tags": ["family", "food", "health"]
+        },
+        {
+          "sentence_id": 112,
+          "english": "We bought a new picture for the wall.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我们买了一张新画挂在墙上。",
+            "es": "Compramos un cuadro nuevo para la pared."
+          },
+          "difficulty": "Beginner",
+          "tags": ["shopping", "house", "objects"]
+        },
+        {
+          "sentence_id": 113,
+          "english": "The train leaves the station at ten.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "火车十点离开车站。",
+            "es": "El tren sale de la estación a las diez."
+          },
+          "difficulty": "Beginner",
+          "tags": ["travel", "time", "routine"]
+        },
+        {
+          "sentence_id": 114,
+          "english": "It is fun to play games with my friend.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "和我的朋友一起玩游戏很有趣。",
+            "es": "Es divertido jugar a juegos con mi amigo."
+          },
+          "difficulty": "Beginner",
+          "tags": ["friends", "hobbies", "social"]
+        },
+        {
+          "sentence_id": 115,
+          "english": "I want to explain my problem.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我想解释我的问题。",
+            "es": "Quiero explicar mi problema."
+          },
+          "difficulty": "Beginner",
+          "tags": ["communication", "work", "daily"]
+        },
+        {
+          "sentence_id": 116,
+          "english": "They have ninety cents in the bank.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "他们银行里有九十美分。",
+            "es": "Tienen noventa centavos en el banco."
+          },
+          "difficulty": "Beginner",
+          "tags": ["numbers", "money", "daily"]
+        },
+        {
+          "sentence_id": 117,
+          "english": "I will buy milk, butter, and cheese at the market.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我将在市场购买牛奶、黄油和奶酪。",
+            "es": "Compraré leche, mantequilla y queso en el mercado."
+          },
+          "difficulty": "Beginner",
+          "tags": ["shopping", "food", "daily"]
+        },
+        {
+          "sentence_id": 118,
+          "english": "The dog is below the desk now.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "这只狗现在在书桌下面。",
+            "es": "El perro está debajo del escritorio ahora."
+          },
+          "difficulty": "Beginner",
+          "tags": ["animals", "location", "house"]
+        },
+        {
+          "sentence_id": 119,
+          "english": "The class will finish in one hour.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "这节课将在一个小时内结束。",
+            "es": "La clase terminará en una hora."
+          },
+          "difficulty": "Beginner",
+          "tags": ["school", "time", "routine"]
+        },
+        {
+          "sentence_id": 120,
+          "english": "I want a cup of hot tea now.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我现在想要一杯热茶。",
+            "es": "Quiero una taza de té caliente ahora."
+          },
+          "difficulty": "Beginner",
+          "tags": ["food", "request", "daily"]
+        },
+        {
+          "sentence_id": 121,
+          "english": "It is often cold in February.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "二月通常很冷。",
+            "es": "A menudo hace frío en febrero."
+          },
+          "difficulty": "Beginner",
+          "tags": ["weather", "time", "seasons"]
+        },
+        {
+          "sentence_id": 122,
+          "english": "He needs to pay the bill for the dinner.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "他需要支付晚餐的账单。",
+            "es": "Él necesita pagar la cuenta de la cena."
+          },
+          "difficulty": "Beginner",
+          "tags": ["money", "daily", "food"]
+        },
+        {
+          "sentence_id": 123,
+          "english": "The film is about a beautiful horse.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "这部电影是关于一匹美丽的马。",
+            "es": "La película es sobre un caballo hermoso."
+          },
+          "difficulty": "Beginner",
+          "tags": ["animals", "hobbies", "description"]
+        },
+        {
+          "sentence_id": 124,
+          "english": "I always forget to bring my umbrella.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我总是忘记带我的伞。",
+            "es": "Siempre olvido traer mi paraguas."
+          },
+          "difficulty": "Beginner",
+          "tags": ["daily", "routine", "objects"]
+        },
+        {
+          "sentence_id": 125,
+          "english": "Can we meet between three and four?",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我们可以在三点到四点之间见面吗？",
+            "es": "¿Podemos encontrarnos entre las tres y las cuatro?"
+          },
+          "difficulty": "Beginner",
+          "tags": ["time", "communication", "question"]
+        },
+        {
+          "sentence_id": 126,
+          "english": "The dancer is very famous in this town.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "这位舞者在这个城镇非常有名。",
+            "es": "El bailarín es muy famoso en este pueblo."
+          },
+          "difficulty": "Beginner",
+          "tags": ["people", "art", "work"]
+        },
+        {
+          "sentence_id": 127,
+          "english": "I have a lot of chocolate in my bag.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我的包里有很多巧克力。",
+            "es": "Tengo mucho chocolate en mi bolso."
+          },
+          "difficulty": "Beginner",
+          "tags": ["food", "objects", "daily"]
+        },
+        {
+          "sentence_id": 128,
+          "english": "The student has to write a short report.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "这名学生必须写一份简短的报告。",
+            "es": "El estudiante tiene que escribir un informe corto."
+          },
+          "difficulty": "Beginner",
+          "tags": ["school", "study", "work"]
+        },
+        {
+          "sentence_id": 129,
+          "english": "He has a busy weekend, so he is tired.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "他有一个忙碌的周末，所以他很累。",
+            "es": "Él tiene un fin de semana ocupado, por lo que está cansado."
+          },
+          "difficulty": "Beginner",
+          "tags": ["weekend", "feelings", "daily"]
+        },
+        {
+          "sentence_id": 130,
+          "english": "My flat has a door and six windows.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我的公寓有一扇门和六扇窗户。",
+            "es": "Mi piso tiene una puerta y seis ventanas."
+          },
+          "difficulty": "Beginner",
+          "tags": ["house", "numbers", "description"]
+        },
+        {
+          "sentence_id": 131,
+          "english": "The cat will only eat fish and not meat.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "这只猫只吃鱼，不吃肉。",
+            "es": "El gato solo comerá pescado y no carne."
+          },
+          "difficulty": "Beginner",
+          "tags": ["animals", "food", "comparison"]
+        },
+        {
+          "sentence_id": 132,
+          "english": "We must turn left at the traffic light.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我们必须在交通灯处左转。",
+            "es": "Debemos girar a la izquierda en el semáforo."
+          },
+          "difficulty": "Beginner",
+          "tags": ["travel", "instruction", "daily"]
+        },
+        {
+          "sentence_id": 133,
+          "english": "The river is near the small village.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "这条河在这个小村庄附近。",
+            "es": "El río está cerca del pequeño pueblo."
+          },
+          "difficulty": "Beginner",
+          "tags": ["location", "nature", "travel"]
+        },
+        {
+          "sentence_id": 134,
+          "english": "I am looking for a job in the city.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我正在这座城市找一份工作。",
+            "es": "Estoy buscando un trabajo en la ciudad."
+          },
+          "difficulty": "Beginner",
+          "tags": ["work", "daily", "present"]
+        },
+        {
+          "sentence_id": 135,
+          "english": "Please use your blue pen to write.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "请用你的蓝笔写字。",
+            "es": "Por favor, usa tu bolígrafo azul para escribir."
+          },
+          "difficulty": "Beginner",
+          "tags": ["school", "objects", "colors"]
+        },
+        {
+          "sentence_id": 136,
+          "english": "Is the floor clean or dirty?",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "地板是干净的还是脏的？",
+            "es": "¿Está limpio o sucio el suelo?"
+          },
+          "difficulty": "Beginner",
+          "tags": ["house", "question", "description"]
+        },
+        {
+          "sentence_id": 137,
+          "english": "We read a fantastic story about a king.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我们读了一个关于国王的精彩故事。",
+            "es": "Leemos una historia fantástica sobre un rey."
+          },
+          "difficulty": "Beginner",
+          "tags": ["reading", "hobbies", "description"]
+        },
+        {
+          "sentence_id": 138,
+          "english": "He needs a new passport to travel.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "他需要一本新护照才能旅行。",
+            "es": "Necesita un pasaporte nuevo para viajar."
+          },
+          "difficulty": "Beginner",
+          "tags": ["travel", "objects", "daily"]
+        },
+        {
+          "sentence_id": 139,
+          "english": "My house is far from the school.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我的房子离学校很远。",
+            "es": "Mi casa está lejos de la escuela."
+          },
+          "difficulty": "Beginner",
+          "tags": ["location", "school", "daily"]
+        },
+        {
+          "sentence_id": 140,
+          "english": "I will visit my uncle in January.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我将在明年一月拜访我的叔叔/伯父/舅舅。",
+            "es": "Visitaré a mi tío en enero."
+          },
+          "difficulty": "Beginner",
+          "tags": ["family", "time", "travel"]
+        },
+        {
+          "sentence_id": 141,
+          "english": "The weather is wet, take your boots.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "天气很湿，带上你的靴子。",
+            "es": "El clima está húmedo, lleva tus botas."
+          },
+          "difficulty": "Beginner",
+          "tags": ["weather", "clothes", "instruction"]
+        },
+        {
+          "sentence_id": 142,
+          "english": "I like to talk to my neighbours.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我喜欢和我的邻居们交谈。",
+            "es": "Me gusta hablar con mis vecinos."
+          },
+          "difficulty": "Beginner",
+          "tags": ["social", "communication", "daily"]
+        },
+        {
+          "sentence_id": 143,
+          "english": "Do you need a bag for your sandwich?",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "你的三明治需要一个袋子吗？",
+            "es": "¿Necesitas una bolsa para tu sándwich?"
+          },
+          "difficulty": "Beginner",
+          "tags": ["food", "shopping", "question"]
+        },
+        {
+          "sentence_id": 144,
+          "english": "I think the opposite is true.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我认为相反的情况是真的。",
+            "es": "Creo que lo opuesto es verdad."
+          },
+          "difficulty": "Beginner",
+          "tags": ["opinion", "communication", "abstract"]
+        },
+        {
+          "sentence_id": 145,
+          "english": "We must agree with the rule.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我们必须同意这个规则。",
+            "es": "Debemos estar de acuerdo con la regla."
+          },
+          "difficulty": "Beginner",
+          "tags": ["school", "communication", "abstract"]
+        },
+        {
+          "sentence_id": 146,
+          "english": "The girl is eighteen years old.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "这个女孩十八岁了。",
+            "es": "La niña tiene dieciocho años."
+          },
+          "difficulty": "Beginner",
+          "tags": ["numbers", "people", "introduction"]
+        },
+        {
+          "sentence_id": 147,
+          "english": "I have to send the message by post.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我必须通过邮件发送这条消息。",
+            "es": "Tengo que enviar el mensaje por correo."
+          },
+          "difficulty": "Beginner",
+          "tags": ["communication", "daily", "work"]
+        },
+        {
+          "sentence_id": 148,
+          "english": "The snake is quite dangerous.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "这条蛇非常危险。",
+            "es": "La serpiente es bastante peligrosa."
+          },
+          "difficulty": "Beginner",
+          "tags": ["animals", "description", "nature"]
+        },
+        {
+          "sentence_id": 149,
+          "english": "Can you guess my favourite colour?",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "你能猜出我最喜欢的颜色吗？",
+            "es": "¿Puedes adivinar mi color favorito?"
+          },
+          "difficulty": "Beginner",
+          "tags": ["colors", "question", "hobbies"]
+        },
+        {
+          "sentence_id": 150,
+          "english": "We will take a photo with my new camera.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我们将用我的新相机拍一张照片。",
+            "es": "Tomaremos una foto con mi cámara nueva."
+          },
+          "difficulty": "Beginner",
+          "tags": ["hobbies", "objects", "social"]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "sentence_id": 151,
+          "english": "We go to the theatre in November.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我们十一月去看戏。",
+            "es": "Vamos al teatro en noviembre."
+          },
+          "difficulty": "Beginner",
+          "tags": ["hobbies", "time", "culture"]
+        },
+        {
+          "sentence_id": 152,
+          "english": "This is a statement from the doctor.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "这是医生的一份声明。",
+            "es": "Esta es una declaración del doctor."
+          },
+          "difficulty": "Beginner",
+          "tags": ["communication", "work", "health"]
+        },
+        {
+          "sentence_id": 153,
+          "english": "He has a black T-shirt and white trousers.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "他有一件黑色T恤和白色长裤。",
+            "es": "Él tiene una camiseta negra y pantalones blancos."
+          },
+          "difficulty": "Beginner",
+          "tags": ["clothes", "colors", "description"]
+        },
+        {
+          "sentence_id": 154,
+          "english": "Do you speak another language?",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "你会说另一种语言吗？",
+            "es": "¿Hablas otro idioma?"
+          },
+          "difficulty": "Beginner",
+          "tags": ["communication", "question", "study"]
+        },
+        {
+          "sentence_id": 155,
+          "english": "The weather is hot and sunny today.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "今天天气又热又阳光明媚。",
+            "es": "El clima está cálido y soleado hoy."
+          },
+          "difficulty": "Beginner",
+          "tags": ["weather", "nature", "daily"]
+        },
+        {
+          "sentence_id": 156,
+          "english": "I want to take a taxi to the building.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我想乘出租车去那栋大楼。",
+            "es": "Quiero tomar un taxi al edificio."
+          },
+          "difficulty": "Beginner",
+          "tags": ["travel", "location", "daily"]
+        },
+        {
+          "sentence_id": 157,
+          "english": "My grandfather is a terrible driver.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我的爷爷/外公是一个糟糕的司机。",
+            "es": "Mi abuelo es un conductor terrible."
+          },
+          "difficulty": "Beginner",
+          "tags": ["family", "description", "travel"]
+        },
+        {
+          "sentence_id": 158,
+          "english": "I think this plan is a success.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我认为这个计划是成功的。",
+            "es": "Creo que este plan es un éxito."
+          },
+          "difficulty": "Beginner",
+          "tags": ["work", "opinion", "abstract"]
+        },
+        {
+          "sentence_id": 159,
+          "english": "We must stop before the red traffic light.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我们必须在红色交通灯前停下来。",
+            "es": "Debemos detenernos ante la luz roja del tráfico."
+          },
+          "difficulty": "Beginner",
+          "tags": ["travel", "instruction", "daily"]
+        },
+        {
+          "sentence_id": 160,
+          "english": "He is waiting for the bus at the station.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "他正在车站等公共汽车。",
+            "es": "Él está esperando el autobús en la estación."
+          },
+          "difficulty": "Beginner",
+          "tags": ["travel", "daily", "location"]
+        },
+        {
+          "sentence_id": 161,
+          "english": "Do you often cook with tomato and sugar?",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "你经常用西红柿和糖烹饪吗？",
+            "es": "¿A menudo cocinas con tomate y azúcar?"
+          },
+          "difficulty": "Beginner",
+          "tags": ["food", "routine", "question"]
+        },
+        {
+          "sentence_id": 162,
+          "english": "They are going to travel through Europe.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "他们将穿越欧洲旅行。",
+            "es": "Ellos van a viajar a través de Europa."
+          },
+          "difficulty": "Beginner",
+          "tags": ["travel", "action", "location"]
+        },
+        {
+          "sentence_id": 163,
+          "english": "I will buy a newspaper and an article.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我将买一份报纸和一篇文章。",
+            "es": "Compraré un periódico y un artículo."
+          },
+          "difficulty": "Beginner",
+          "tags": ["shopping", "reading", "objects"]
+        },
+        {
+          "sentence_id": 164,
+          "english": "The children are playing outside in the garden.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "孩子们正在花园里外面玩耍。",
+            "es": "Los niños están jugando afuera en el jardín."
+          },
+          "difficulty": "Beginner",
+          "tags": ["family", "house", "hobbies"]
+        },
+        {
+          "sentence_id": 165,
+          "english": "My favourite subject at school is history.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我最喜欢的学校科目是历史。",
+            "es": "Mi asignatura favorita en la escuela es historia."
+          },
+          "difficulty": "Beginner",
+          "tags": ["school", "study", "personal"]
+        },
+        {
+          "sentence_id": 166,
+          "english": "We always use a towel after the bath.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我们总是在洗澡后使用毛巾。",
+            "es": "Siempre usamos una toalla después del baño."
+          },
+          "difficulty": "Beginner",
+          "tags": ["daily", "house", "routine"]
+        },
+        {
+          "sentence_id": 167,
+          "english": "Do you need a tin of beans?",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "你需要一罐豆子吗？",
+            "es": "¿Necesitas una lata de frijoles?"
+          },
+          "difficulty": "Beginner",
+          "tags": ["food", "shopping", "question"]
+        },
+        {
+          "sentence_id": 168,
+          "english": "The weather is very wet in the autumn.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "秋天的天气非常潮湿。",
+            "es": "El clima es muy húmedo en otoño."
+          },
+          "difficulty": "Beginner",
+          "tags": ["weather", "seasons", "nature"]
+        },
+        {
+          "sentence_id": 169,
+          "english": "I will tell you the answer soon.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我很快就会告诉你答案。",
+            "es": "Te diré la respuesta pronto."
+          },
+          "difficulty": "Beginner",
+          "tags": ["communication", "time", "abstract"]
+        },
+        {
+          "sentence_id": 170,
+          "english": "They are going to buy a thousand books.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "他们将购买一千本书。",
+            "es": "Ellos van a comprar mil libros."
+          },
+          "difficulty": "Beginner",
+          "tags": ["numbers", "shopping", "objects"]
+        },
+        {
+          "sentence_id": 171,
+          "english": "The big box is on the floor.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "那个大箱子在地板上。",
+            "es": "La caja grande está en el suelo."
+          },
+          "difficulty": "Beginner",
+          "tags": ["house", "objects", "location"]
+        },
+        {
+          "sentence_id": 172,
+          "english": "My son is a quiet teenager.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我的儿子是一个安静的少年。",
+            "es": "Mi hijo es un adolescente tranquilo."
+          },
+          "difficulty": "Beginner",
+          "tags": ["family", "people", "description"]
+        },
+        {
+          "sentence_id": 173,
+          "english": "I feel tired and thirsty today.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我今天感到又累又渴。",
+            "es": "Me siento cansado y sediento hoy."
+          },
+          "difficulty": "Beginner",
+          "tags": ["feelings", "health", "daily"]
+        },
+        {
+          "sentence_id": 174,
+          "english": "The aeroplane is not coming to the airport.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "飞机不会来机场。",
+            "es": "El avión no viene al aeropuerto."
+          },
+          "difficulty": "Beginner",
+          "tags": ["travel", "action", "location"]
+        },
+        {
+          "sentence_id": 175,
+          "english": "Can I have some tea with milk?",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我可以喝一些加牛奶的茶吗？",
+            "es": "¿Puedo tomar un poco de té con leche?"
+          },
+          "difficulty": "Beginner",
+          "tags": ["food", "request", "daily"]
+        },
+        {
+          "sentence_id": 176,
+          "english": "She can sing a beautiful song.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "她能唱一首美丽的歌。",
+            "es": "Ella puede cantar una canción hermosa."
+          },
+          "difficulty": "Beginner",
+          "tags": ["hobbies", "music", "skills"]
+        },
+        {
+          "sentence_id": 177,
+          "english": "The clock says it is a quarter to ten.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "时钟显示现在是九点三刻（差一刻十点）。",
+            "es": "El reloj dice que son las diez menos cuarto."
+          },
+          "difficulty": "Beginner",
+          "tags": ["time", "numbers", "daily"]
+        },
+        {
+          "sentence_id": 178,
+          "english": "My family will stay at home all day.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我的家人将一整天待在家里。",
+            "es": "Mi familia se quedará en casa todo el día."
+          },
+          "difficulty": "Beginner",
+          "tags": ["family", "house", "daily"]
+        },
+        {
+          "sentence_id": 179,
+          "english": "I need to teach the alphabet to the class.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我需要教班级字母表。",
+            "es": "Necesito enseñar el alfabeto a la clase."
+          },
+          "difficulty": "Beginner",
+          "tags": ["school", "study", "work"]
+        },
+        {
+          "sentence_id": 180,
+          "english": "The tourist wants to travel to another country.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "这位游客想去另一个国家旅行。",
+            "es": "El turista quiere viajar a otro país."
+          },
+          "difficulty": "Beginner",
+          "tags": ["travel", "people", "location"]
+        },
+        {
+          "sentence_id": 181,
+          "english": "What is the title of the article?",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "这篇文章的标题是什么？",
+            "es": "¿Cuál es el título del artículo?"
+          },
+          "difficulty": "Beginner",
+          "tags": ["reading", "question", "school"]
+        },
+        {
+          "sentence_id": 182,
+          "english": "I want to have a tooth that is strong.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我想要一颗强壮的牙齿。",
+            "es": "Quiero tener un diente que sea fuerte."
+          },
+          "difficulty": "Beginner",
+          "tags": ["health", "body", "description"]
+        },
+        {
+          "sentence_id": 183,
+          "english": "We often take a photo of the trees.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我们经常给树拍照。",
+            "es": "A menudo tomamos una foto de los árboles."
+          },
+          "difficulty": "Beginner",
+          "tags": ["hobbies", "nature", "routine"]
+        },
+        {
+          "sentence_id": 184,
+          "english": "The table is very short and dirty.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "这张桌子很矮而且很脏。",
+            "es": "La mesa es muy corta y sucia."
+          },
+          "difficulty": "Beginner",
+          "tags": ["house", "description", "objects"]
+        },
+        {
+          "sentence_id": 185,
+          "english": "I need to go to the toilet now.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我现在需要去洗手间。",
+            "es": "Necesito ir al baño ahora."
+          },
+          "difficulty": "Beginner",
+          "tags": ["daily", "house", "request"]
+        },
+        {
+          "sentence_id": 186,
+          "english": "The time is half past six.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "现在是六点半。",
+            "es": "Son las seis y media."
+          },
+          "difficulty": "Beginner",
+          "tags": ["time", "numbers", "daily"]
+        },
+        {
+          "sentence_id": 187,
+          "english": "He has skill and style on the tennis court.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "他在网球场上很有技巧和风采。",
+            "es": "Él tiene habilidad y estilo en la cancha de tenis."
+          },
+          "difficulty": "Beginner",
+          "tags": ["sports", "description", "hobbies"]
+        },
+        {
+          "sentence_id": 188,
+          "english": "I am thirty-one years old.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我三十一岁。",
+            "es": "Tengo treinta y un años."
+          },
+          "difficulty": "Beginner",
+          "tags": ["personal", "numbers", "introduction"]
+        },
+        {
+          "sentence_id": 189,
+          "english": "She is sad because she has no money.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "她很伤心，因为她没有钱。",
+            "es": "Ella está triste porque no tiene dinero."
+          },
+          "difficulty": "Beginner",
+          "tags": ["feelings", "money", "daily"]
+        },
+        {
+          "sentence_id": 190,
+          "english": "The school is on this street.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "学校在这条街上。",
+            "es": "La escuela está en esta calle."
+          },
+          "difficulty": "Beginner",
+          "tags": ["location", "school", "daily"]
+        },
+        {
+          "sentence_id": 191,
+          "english": "We must try to be better.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我们必须努力做得更好。",
+            "es": "Debemos intentar ser mejores."
+          },
+          "difficulty": "Beginner",
+          "tags": ["abstract", "instruction", "personal"]
+        },
+        {
+          "sentence_id": 192,
+          "english": "The man is still standing.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "那个人仍然站着。",
+            "es": "El hombre sigue de pie."
+          },
+          "difficulty": "Beginner",
+          "tags": ["action", "daily", "people"]
+        },
+        {
+          "sentence_id": 193,
+          "english": "I want to spend time with my daughter.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我想花时间陪我的女儿。",
+            "es": "Quiero pasar tiempo con mi hija."
+          },
+          "difficulty": "Beginner",
+          "tags": ["family", "time", "hobbies"]
+        },
+        {
+          "sentence_id": 194,
+          "english": "The dog is sleeping in the sun.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "这只狗在阳光下睡觉。",
+            "es": "El perro está durmiendo al sol."
+          },
+          "difficulty": "Beginner",
+          "tags": ["animals", "nature", "daily"]
+        },
+        {
+          "sentence_id": 195,
+          "english": "The supermarket is in the town.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "超市在这个城镇里。",
+            "es": "El supermercado está en el pueblo."
+          },
+          "difficulty": "Beginner",
+          "tags": ["location", "shopping", "daily"]
+        },
+        {
+          "sentence_id": 196,
+          "english": "Is he a tall or short man?",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "他是一个高个子还是矮个子男人？",
+            "es": "¿Es un hombre alto o bajo?"
+          },
+          "difficulty": "Beginner",
+          "tags": ["people", "description", "question"]
+        },
+        {
+          "sentence_id": 197,
+          "english": "I will wear a sweater today.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我今天会穿一件毛衣。",
+            "es": "Voy a usar un suéter hoy."
+          },
+          "difficulty": "Beginner",
+          "tags": ["clothes", "daily", "action"]
+        },
+        {
+          "sentence_id": 198,
+          "english": "The small bird is in a tree.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "这只小鸟在树上。",
+            "es": "El pájaro pequeño está en un árbol."
+          },
+          "difficulty": "Beginner",
+          "tags": ["animals", "nature", "location"]
+        },
+        {
+          "sentence_id": 199,
+          "english": "Can anyone answer the question?",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "有人能回答这个问题吗？",
+            "es": "¿Alguien puede responder la pregunta?"
+          },
+          "difficulty": "Beginner",
+          "tags": ["communication", "question", "school"]
+        },
+        {
+          "sentence_id": 200,
+          "english": "We can go for a swim in the sea.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我们可以去海里游泳。",
+            "es": "Podemos ir a nadar en el mar."
+          },
+          "difficulty": "Beginner",
+          "tags": ["sports", "nature", "hobbies"]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "sentence_id": 201,
+          "english": "My birthday is in May.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我的生日在五月。",
+            "es": "Mi cumpleaños es en mayo."
+          },
+          "difficulty": "Beginner",
+          "tags": ["time", "personal", "daily"]
+        },
+        {
+          "sentence_id": 202,
+          "english": "We must close the door of the bathroom.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我们必须关上浴室的门。",
+            "es": "Debemos cerrar la puerta del baño."
+          },
+          "difficulty": "Beginner",
+          "tags": ["house", "instruction", "daily"]
+        },
+        {
+          "sentence_id": 203,
+          "english": "I want to become a successful artist.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我想成为一名成功的艺术家。",
+            "es": "Quiero convertirme en un artista exitoso."
+          },
+          "difficulty": "Beginner",
+          "tags": ["work", "hobbies", "personal"]
+        },
+        {
+          "sentence_id": 204,
+          "english": "The cat is sleeping on my bed.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "这只猫睡在我的床上。",
+            "es": "El gato está durmiendo en mi cama."
+          },
+          "difficulty": "Beginner",
+          "tags": ["animals", "house", "daily"]
+        },
+        {
+          "sentence_id": 205,
+          "english": "There are six apples in the bag.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "袋子里有六个苹果。",
+            "es": "Hay seis manzanas en la bolsa."
+          },
+          "difficulty": "Beginner",
+          "tags": ["food", "numbers", "shopping"]
+        },
+        {
+          "sentence_id": 206,
+          "english": "She likes to read a magazine after work.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "她喜欢下班后阅读杂志。",
+            "es": "A ella le gusta leer una revista después del trabajo."
+          },
+          "difficulty": "Beginner",
+          "tags": ["hobbies", "routine", "reading"]
+        },
+        {
+          "sentence_id": 207,
+          "english": "The children feel happy and healthy.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "孩子们感到快乐和健康。",
+            "es": "Los niños se sienten felices y saludables."
+          },
+          "difficulty": "Beginner",
+          "tags": ["feelings", "health", "family"]
+        },
+        {
+          "sentence_id": 208,
+          "english": "Can you ask the teacher for the answer?",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "你能向老师询问答案吗？",
+            "es": "¿Puedes preguntarle al profesor por la respuesta?"
+          },
+          "difficulty": "Beginner",
+          "tags": ["school", "communication", "request"]
+        },
+        {
+          "sentence_id": 209,
+          "english": "The sun is shining in July.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "七月阳光普照。",
+            "es": "El sol brilla en julio."
+          },
+          "difficulty": "Beginner",
+          "tags": ["weather", "time", "nature"]
+        },
+        {
+          "sentence_id": 210,
+          "english": "I hope you believe my statement.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我希望你相信我的陈述。",
+            "es": "Espero que creas mi declaración."
+          },
+          "difficulty": "Beginner",
+          "tags": ["communication", "feelings", "abstract"]
+        },
+        {
+          "sentence_id": 211,
+          "english": "The small lamp is on the table.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "那盏小灯在桌子上。",
+            "es": "La pequeña lámpara está sobre la mesa."
+          },
+          "difficulty": "Beginner",
+          "tags": ["house", "objects", "location"]
+        },
+        {
+          "sentence_id": 212,
+          "english": "My father is fifty years old.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我的父亲五十岁了。",
+            "es": "Mi padre tiene cincuenta años."
+          },
+          "difficulty": "Beginner",
+          "tags": ["family", "numbers", "introduction"]
+        },
+        {
+          "sentence_id": 213,
+          "english": "We must add the price to the bill.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我们必须把价格加到账单上。",
+            "es": "Debemos añadir el precio a la cuenta."
+          },
+          "difficulty": "Beginner",
+          "tags": ["shopping", "money", "instruction"]
+        },
+        {
+          "sentence_id": 214,
+          "english": "I have to draw a picture of a monkey.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我必须画一只猴子的图片。",
+            "es": "Tengo que dibujar un dibujo de un mono."
+          },
+          "difficulty": "Beginner",
+          "tags": ["hobbies", "animals", "art"]
+        },
+        {
+          "sentence_id": 215,
+          "english": "It is not a big area for a garden.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "这不是一个适合花园的大区域。",
+            "es": "No es una zona grande para un jardín."
+          },
+          "difficulty": "Beginner",
+          "tags": ["location", "house", "nature"]
+        },
+        {
+          "sentence_id": 216,
+          "english": "Please give me the key to the door.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "请把门的钥匙给我。",
+            "es": "Por favor, dame la llave de la puerta."
+          },
+          "difficulty": "Beginner",
+          "tags": ["house", "objects", "request"]
+        },
+        {
+          "sentence_id": 217,
+          "english": "The match will begin at four o'clock.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "比赛将在四点钟开始。",
+            "es": "El partido comenzará a las cuatro en punto."
+          },
+          "difficulty": "Beginner",
+          "tags": ["sports", "time", "planning"]
+        },
+        {
+          "sentence_id": 218,
+          "english": "I do not believe the weather will be hot.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我不相信天气会很热。",
+            "es": "No creo que el clima vaya a ser cálido."
+          },
+          "difficulty": "Beginner",
+          "tags": ["weather", "opinion", "abstract"]
+        },
+        {
+          "sentence_id": 219,
+          "english": "The tree will grow very tall here.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "这棵树会在这里长得很高。",
+            "es": "El árbol crecerá muy alto aquí."
+          },
+          "difficulty": "Beginner",
+          "tags": ["nature", "description", "location"]
+        },
+        {
+          "sentence_id": 220,
+          "english": "He has a lot of courage to fly.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "他有很大的勇气去飞翔。",
+            "es": "Él tiene mucho coraje para volar."
+          },
+          "difficulty": "Beginner",
+          "tags": ["feelings", "abstract", "travel"]
+        },
+        {
+          "sentence_id": 221,
+          "english": "I have twelve cousins in the family.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我在这个家庭里有十二个堂/表兄弟姐妹。",
+            "es": "Tengo doce primos en la familia."
+          },
+          "difficulty": "Beginner",
+          "tags": ["family", "numbers", "introduction"]
+        },
+        {
+          "sentence_id": 222,
+          "english": "We must finish our coffee and go.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我们必须喝完咖啡然后走。",
+            "es": "Debemos terminar nuestro café e irnos."
+          },
+          "difficulty": "Beginner",
+          "tags": ["daily", "food", "instruction"]
+        },
+        {
+          "sentence_id": 223,
+          "english": "The children will break the toy.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "孩子们会弄坏这个玩具的。",
+            "es": "Los niños romperán el juguete."
+          },
+          "difficulty": "Beginner",
+          "tags": ["family", "action", "objects"]
+        },
+        {
+          "sentence_id": 224,
+          "english": "My mum will wear a coat in October.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我的妈妈会在十月穿一件外套。",
+            "es": "Mi mamá usará un abrigo en octubre."
+          },
+          "difficulty": "Beginner",
+          "tags": ["clothes", "family", "time"]
+        },
+        {
+          "sentence_id": 225,
+          "english": "The school is on the corner of the street.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "学校在街道的拐角处。",
+            "es": "La escuela está en la esquina de la calle."
+          },
+          "difficulty": "Beginner",
+          "tags": ["location", "school", "daily"]
+        },
+        {
+          "sentence_id": 226,
+          "english": "I have sixty minutes before I must leave.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我必须离开之前有六十分钟。",
+            "es": "Tengo sesenta minutos antes de que deba irme."
+          },
+          "difficulty": "Beginner",
+          "tags": ["time", "numbers", "daily"]
+        },
+        {
+          "sentence_id": 227,
+          "english": "The ball is flying above the ceiling.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "球正在天花板上方飞翔。",
+            "es": "La pelota está volando sobre el techo."
+          },
+          "difficulty": "Beginner",
+          "tags": ["house", "action", "location"]
+        },
+        {
+          "sentence_id": 228,
+          "english": "I do not think the food is bad.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我不认为食物很差。",
+            "es": "No creo que la comida sea mala."
+          },
+          "difficulty": "Beginner",
+          "tags": ["food", "opinion", "description"]
+        },
+        {
+          "sentence_id": 229,
+          "english": "We must not run in the kitchen.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我们不能在厨房里跑。",
+            "es": "No debemos correr en la cocina."
+          },
+          "difficulty": "Beginner",
+          "tags": ["house", "rule", "instruction"]
+        },
+        {
+          "sentence_id": 230,
+          "english": "The driver wants to stop the bus.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "司机想停下公共汽车。",
+            "es": "El conductor quiere detener el autobús."
+          },
+          "difficulty": "Beginner",
+          "tags": ["travel", "work", "action"]
+        },
+        {
+          "sentence_id": 231,
+          "english": "I will wear a hat in the sun.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我会在阳光下戴一顶帽子。",
+            "es": "Usaré un sombrero bajo el sol."
+          },
+          "difficulty": "Beginner",
+          "tags": ["clothes", "weather", "daily"]
+        },
+        {
+          "sentence_id": 232,
+          "english": "He needs to fill the glass with water.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "他需要用水装满这个玻璃杯。",
+            "es": "Él necesita llenar el vaso con agua."
+          },
+          "difficulty": "Beginner",
+          "tags": ["food", "objects", "daily"]
+        },
+        {
+          "sentence_id": 233,
+          "english": "Is there a hospital near the church?",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "教堂附近有医院吗？",
+            "es": "¿Hay un hospital cerca de la iglesia?"
+          },
+          "difficulty": "Beginner",
+          "tags": ["location", "health", "question"]
+        },
+        {
+          "sentence_id": 234,
+          "english": "We are playing football in the field.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我们正在田野里踢足球。",
+            "es": "Estamos jugando al fútbol en el campo."
+          },
+          "difficulty": "Beginner",
+          "tags": ["sports", "location", "hobbies"]
+        },
+        {
+          "sentence_id": 235,
+          "english": "My uncle is a famous fighter.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我的叔叔/伯父/舅舅是一位著名的拳击手。",
+            "es": "Mi tío es un luchador famoso."
+          },
+          "difficulty": "Beginner",
+          "tags": ["family", "work", "sports"]
+        },
+        {
+          "sentence_id": 236,
+          "english": "I always listen to the radio at night.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我总是在晚上听收音机。",
+            "es": "Siempre escucho la radio por la noche."
+          },
+          "difficulty": "Beginner",
+          "tags": ["routine", "hobbies", "time"]
+        },
+        {
+          "sentence_id": 237,
+          "english": "The children are eating soup.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "孩子们正在喝汤。",
+            "es": "Los niños están comiendo sopa."
+          },
+          "difficulty": "Beginner",
+          "tags": ["food", "family", "daily"]
+        },
+        {
+          "sentence_id": 238,
+          "english": "I need to talk to somebody about my job.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我需要和某人谈谈我的工作。",
+            "es": "Necesito hablar con alguien sobre mi trabajo."
+          },
+          "difficulty": "Beginner",
+          "tags": ["work", "communication", "request"]
+        },
+        {
+          "sentence_id": 239,
+          "english": "She is wearing a beautiful gold ring.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "她戴着一枚漂亮的金戒指。",
+            "es": "Ella lleva un hermoso anillo de oro."
+          },
+          "difficulty": "Beginner",
+          "tags": ["clothes", "objects", "description"]
+        },
+        {
+          "sentence_id": 240,
+          "english": "The hotel has a swimming pool.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "这家酒店有一个游泳池。",
+            "es": "El hotel tiene una piscina."
+          },
+          "difficulty": "Beginner",
+          "tags": ["travel", "sports", "location"]
+        },
+        {
+          "sentence_id": 241,
+          "english": "The weather is sometimes nice in March.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "三月的天气有时很好。",
+            "es": "El clima a veces es agradable en marzo."
+          },
+          "difficulty": "Beginner",
+          "tags": ["weather", "time", "seasons"]
+        },
+        {
+          "sentence_id": 242,
+          "english": "Can you remember the beginning of the story?",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "你还记得故事的开头吗？",
+            "es": "¿Puedes recordar el principio de la historia?"
+          },
+          "difficulty": "Beginner",
+          "tags": ["reading", "question", "abstract"]
+        },
+        {
+          "sentence_id": 243,
+          "english": "I am not afraid of the dark.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我不害怕黑暗。",
+            "es": "No tengo miedo a la oscuridad."
+          },
+          "difficulty": "Beginner",
+          "tags": ["feelings", "abstract", "daily"]
+        },
+        {
+          "sentence_id": 244,
+          "english": "He will use the lift to go up.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "他将使用电梯上楼。",
+            "es": "Él usará el ascensor para subir."
+          },
+          "difficulty": "Beginner",
+          "tags": ["house", "action", "daily"]
+        },
+        {
+          "sentence_id": 245,
+          "english": "The police believe the man is guilty.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "警方相信这个人有罪。",
+            "es": "La policía cree que el hombre es culpable."
+          },
+          "difficulty": "Beginner",
+          "tags": ["work", "opinion", "people"]
+        },
+        {
+          "sentence_id": 246,
+          "english": "I have to send fifty cards for Christmas.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我必须寄五十张圣诞卡。",
+            "es": "Tengo que enviar cincuenta tarjetas para Navidad."
+          },
+          "difficulty": "Beginner",
+          "tags": ["numbers", "communication", "celebration"]
+        },
+        {
+          "sentence_id": 247,
+          "english": "We must bring an egg for the meal.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我们必须为这顿饭带一个鸡蛋。",
+            "es": "Debemos traer un huevo para la comida."
+          },
+          "difficulty": "Beginner",
+          "tags": ["food", "instruction", "daily"]
+        },
+        {
+          "sentence_id": 248,
+          "english": "I feel lonely when I stay at home.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "当我待在家里时，我感到孤独。",
+            "es": "Me siento solo cuando me quedo en casa."
+          },
+          "difficulty": "Beginner",
+          "tags": ["feelings", "house", "daily"]
+        },
+        {
+          "sentence_id": 249,
+          "english": "The clock is showing four o'clock.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "时钟显示是四点。",
+            "es": "El reloj está mostrando las cuatro en punto."
+          },
+          "difficulty": "Beginner",
+          "tags": ["time", "numbers", "objects"]
+        },
+        {
+          "sentence_id": 250,
+          "english": "I will wear a brown shirt and jeans.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我将穿一件棕色衬衫和牛仔裤。",
+            "es": "Usaré una camisa marrón y pantalones vaqueros."
+          },
+          "difficulty": "Beginner",
+          "tags": ["clothes", "colors", "daily"]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "sentence_id": 251,
+          "english": "My flat is in an apartment building.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我的公寓在一栋公寓楼里。",
+            "es": "Mi piso está en un edificio de apartamentos."
+          },
+          "difficulty": "Beginner",
+          "tags": ["house", "location", "daily"]
+        },
+        {
+          "sentence_id": 252,
+          "english": "The test is very easy, not difficult.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "这个测试很容易，不难。",
+            "es": "El examen es muy fácil, no difícil."
+          },
+          "difficulty": "Beginner",
+          "tags": ["school", "study", "description"]
+        },
+        {
+          "sentence_id": 253,
+          "english": "She is wearing a beautiful ring on her finger.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "她的手指上戴着一枚漂亮的戒指。",
+            "es": "Ella lleva un hermoso anillo en su dedo."
+          },
+          "difficulty": "Beginner",
+          "tags": ["clothes", "body", "description"]
+        },
+        {
+          "sentence_id": 254,
+          "english": "The weather is very hot in August.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "八月的天气非常炎热。",
+            "es": "El clima es muy cálido en agosto."
+          },
+          "difficulty": "Beginner",
+          "tags": ["weather", "time", "seasons"]
+        },
+        {
+          "sentence_id": 255,
+          "english": "I want to take a short holiday next week.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我想下周去度一个短假。",
+            "es": "Quiero tomar unas vacaciones cortas la próxima semana."
+          },
+          "difficulty": "Beginner",
+          "tags": ["travel", "time", "planning"]
+        },
+        {
+          "sentence_id": 256,
+          "english": "The children are playing with a ball.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "孩子们正在玩一个球。",
+            "es": "Los niños están jugando con una pelota."
+          },
+          "difficulty": "Beginner",
+          "tags": ["family", "hobbies", "action"]
+        },
+        {
+          "sentence_id": 257,
+          "english": "Do you prefer a chicken sandwich or a salad?",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "你更喜欢鸡肉三明治还是沙拉？",
+            "es": "¿Prefieres un sándwich de pollo o una ensalada?"
+          },
+          "difficulty": "Beginner",
+          "tags": ["food", "question", "choice"]
+        },
+        {
+          "sentence_id": 258,
+          "english": "My grandmother is eighty-eight years old.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我的奶奶/外婆八十八岁了。",
+            "es": "Mi abuela tiene ochenta y ocho años."
+          },
+          "difficulty": "Beginner",
+          "tags": ["family", "numbers", "introduction"]
+        },
+        {
+          "sentence_id": 259,
+          "english": "The price of the bicycle is a hundred dollars.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "这辆自行车的价格是一百美元。",
+            "es": "El precio de la bicicleta es de cien dólares."
+          },
+          "difficulty": "Beginner",
+          "tags": ["shopping", "money", "numbers"]
+        },
+        {
+          "sentence_id": 260,
+          "english": "I always use my phone for social media.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我总是用我的手机来进行社交媒体。",
+            "es": "Siempre uso mi teléfono para las redes sociales."
+          },
+          "difficulty": "Beginner",
+          "tags": ["technology", "routine", "hobbies"]
+        },
+        {
+          "sentence_id": 261,
+          "english": "We will meet again on Friday.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我们将在周五再次见面。",
+            "es": "Nos reuniremos de nuevo el viernes."
+          },
+          "difficulty": "Beginner",
+          "tags": ["time", "social", "planning"]
+        },
+        {
+          "sentence_id": 262,
+          "english": "The weather is changing quickly today.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "今天天气变化很快。",
+            "es": "El clima está cambiando rápidamente hoy."
+          },
+          "difficulty": "Beginner",
+          "tags": ["weather", "time", "action"]
+        },
+        {
+          "sentence_id": 263,
+          "english": "My house has a small garden and a big yard.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我的房子有一个小花园和一个大院子。",
+            "es": "Mi casa tiene un jardín pequeño y un patio grande."
+          },
+          "difficulty": "Beginner",
+          "tags": ["house", "description", "location"]
+        },
+        {
+          "sentence_id": 264,
+          "english": "The manager has to speak to the staff.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "经理必须和员工说话。",
+            "es": "El gerente tiene que hablar con el personal."
+          },
+          "difficulty": "Beginner",
+          "tags": ["work", "communication", "people"]
+        },
+        {
+          "sentence_id": 265,
+          "english": "I want to have a pet dog.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我想要一只宠物狗。",
+            "es": "Quiero tener un perro mascota."
+          },
+          "difficulty": "Beginner",
+          "tags": ["animals", "family", "request"]
+        },
+        {
+          "sentence_id": 266,
+          "english": "The table is made of wood.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "这张桌子是用木头做的。",
+            "es": "La mesa está hecha de madera."
+          },
+          "difficulty": "Beginner",
+          "tags": ["objects", "house", "description"]
+        },
+        {
+          "sentence_id": 267,
+          "english": "We must not tell a lie.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我们绝不能说谎。",
+            "es": "No debemos decir una mentira."
+          },
+          "difficulty": "Beginner",
+          "tags": ["abstract", "instruction", "communication"]
+        },
+        {
+          "sentence_id": 268,
+          "english": "I feel much better today than yesterday.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我今天感觉比昨天好多了。",
+            "es": "Me siento mucho mejor hoy que ayer."
+          },
+          "difficulty": "Beginner",
+          "tags": ["feelings", "health", "comparison"]
+        },
+        {
+          "sentence_id": 269,
+          "english": "The plane is flying to Europe in April.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "这架飞机将在四月飞往欧洲。",
+            "es": "El avión está volando a Europa en abril."
+          },
+          "difficulty": "Beginner",
+          "tags": ["travel", "time", "location"]
+        },
+        {
+          "sentence_id": 270,
+          "english": "Do you know anything about the news?",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "你知道关于新闻的任何事情吗？",
+            "es": "¿Sabes algo sobre las noticias?"
+          },
+          "difficulty": "Beginner",
+          "tags": ["communication", "question", "daily"]
+        },
+        {
+          "sentence_id": 271,
+          "english": "My girlfriend is a police officer.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我的女朋友是一名警察。",
+            "es": "Mi novia es una oficial de policía."
+          },
+          "difficulty": "Beginner",
+          "tags": ["family", "work", "people"]
+        },
+        {
+          "sentence_id": 272,
+          "english": "I love to eat fruit every day.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我喜欢每天吃水果。",
+            "es": "Me encanta comer fruta todos los días."
+          },
+          "difficulty": "Beginner",
+          "tags": ["food", "routine", "health"]
+        },
+        {
+          "sentence_id": 273,
+          "english": "The car stopped at the side of the road.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "汽车停在了路边。",
+            "es": "El coche se detuvo al lado de la carretera."
+          },
+          "difficulty": "Beginner",
+          "tags": ["travel", "location", "action"]
+        },
+        {
+          "sentence_id": 274,
+          "english": "She is listening to her favourite band.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "她正在听她最喜欢的乐队。",
+            "es": "Ella está escuchando a su banda favorita."
+          },
+          "difficulty": "Beginner",
+          "tags": ["music", "hobbies", "present"]
+        },
+        {
+          "sentence_id": 275,
+          "english": "I want to learn about Spanish culture.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我想了解西班牙文化。",
+            "es": "Quiero aprender sobre la cultura española."
+          },
+          "difficulty": "Beginner",
+          "tags": ["study", "travel", "hobbies"]
+        },
+        {
+          "sentence_id": 276,
+          "english": "Can you bring me a cup of tea?",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "你能给我带一杯茶吗？",
+            "es": "¿Puedes traerme una taza de té?"
+          },
+          "difficulty": "Beginner",
+          "tags": ["food", "request", "daily"]
+        },
+        {
+          "sentence_id": 277,
+          "english": "The big ship is sailing on the sea.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "这艘大船正在海上航行。",
+            "es": "El gran barco está navegando en el mar."
+          },
+          "difficulty": "Beginner",
+          "tags": ["travel", "nature", "action"]
+        },
+        {
+          "sentence_id": 278,
+          "english": "He has a lot of energy to work.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "他有很大的精力来工作。",
+            "es": "Él tiene mucha energía para trabajar."
+          },
+          "difficulty": "Beginner",
+          "tags": ["work", "health", "description"]
+        },
+        {
+          "sentence_id": 279,
+          "english": "I often walk on the beach on Saturday.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我经常在周六去海滩散步。",
+            "es": "A menudo camino por la playa el sábado."
+          },
+          "difficulty": "Beginner",
+          "tags": ["routine", "nature", "weekend"]
+        },
+        {
+          "sentence_id": 280,
+          "english": "The film starts at eight thirty.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "这部电影八点半开始。",
+            "es": "La película comienza a las ocho y media."
+          },
+          "difficulty": "Beginner",
+          "tags": ["time", "hobbies", "numbers"]
+        },
+        {
+          "sentence_id": 281,
+          "english": "We must be polite when we speak.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我们说话时必须礼貌。",
+            "es": "Debemos ser educados cuando hablamos."
+          },
+          "difficulty": "Beginner",
+          "tags": ["communication", "abstract", "instruction"]
+        },
+        {
+          "sentence_id": 282,
+          "english": "My house is between the park and the church.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我的房子在公园和教堂之间。",
+            "es": "Mi casa está entre el parque y la iglesia."
+          },
+          "difficulty": "Beginner",
+          "tags": ["location", "house", "daily"]
+        },
+        {
+          "sentence_id": 283,
+          "english": "Do you like to go skiing in winter?",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "你喜欢在冬天去滑雪吗？",
+            "es": "¿Te gusta ir a esquiar en invierno?"
+          },
+          "difficulty": "Beginner",
+          "tags": ["sports", "seasons", "question"]
+        },
+        {
+          "sentence_id": 284,
+          "english": "I have seventeen new books to read.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我有十七本新书要读。",
+            "es": "Tengo diecisiete libros nuevos para leer."
+          },
+          "difficulty": "Beginner",
+          "tags": ["numbers", "reading", "hobbies"]
+        },
+        {
+          "sentence_id": 285,
+          "english": "The artist is painting a beautiful picture.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "这位艺术家正在画一幅美丽的图画。",
+            "es": "El artista está pintando un hermoso cuadro."
+          },
+          "difficulty": "Beginner",
+          "tags": ["art", "hobbies", "work"]
+        },
+        {
+          "sentence_id": 286,
+          "english": "I think this is a silly mistake.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我认为这是一个愚蠢的错误。",
+            "es": "Creo que este es un error tonto."
+          },
+          "difficulty": "Beginner",
+          "tags": ["opinion", "abstract", "communication"]
+        },
+        {
+          "sentence_id": 287,
+          "english": "My sister has long, blonde hair.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我的姐姐/妹妹有长长的金发。",
+            "es": "Mi hermana tiene el pelo largo y rubio."
+          },
+          "difficulty": "Beginner",
+          "tags": ["family", "body", "description"]
+        },
+        {
+          "sentence_id": 288,
+          "english": "The train leaves at a quarter past one.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "火车在一点十五分（一刻）离开。",
+            "es": "El tren sale a la una y cuarto."
+          },
+          "difficulty": "Beginner",
+          "tags": ["travel", "time", "numbers"]
+        },
+        {
+          "sentence_id": 289,
+          "english": "We need to study every subject at school.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我们需要学习学校的每一个科目。",
+            "es": "Necesitamos estudiar cada asignatura en la escuela."
+          },
+          "difficulty": "Beginner",
+          "tags": ["school", "study", "routine"]
+        },
+        {
+          "sentence_id": 290,
+          "english": "The children are safe in the garden.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "孩子们在花园里很安全。",
+            "es": "Los niños están a salvo en el jardín."
+          },
+          "difficulty": "Beginner",
+          "tags": ["family", "house", "feelings"]
+        },
+        {
+          "sentence_id": 291,
+          "english": "I love to listen to the sound of the rain.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我喜欢听雨的声音。",
+            "es": "Me encanta escuchar el sonido de la lluvia."
+          },
+          "difficulty": "Beginner",
+          "tags": ["nature", "hobbies", "weather"]
+        },
+        {
+          "sentence_id": 292,
+          "english": "The lift is full; we must wait.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "电梯满了；我们必须等待。",
+            "es": "El ascensor está lleno; debemos esperar."
+          },
+          "difficulty": "Beginner",
+          "tags": ["daily", "house", "action"]
+        },
+        {
+          "sentence_id": 293,
+          "english": "I need some new toothpaste and a brush.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我需要一些新牙膏和一把刷子。",
+            "es": "Necesito pasta de dientes nueva y un cepillo."
+          },
+          "difficulty": "Beginner",
+          "tags": ["shopping", "objects", "daily"]
+        },
+        {
+          "sentence_id": 294,
+          "english": "Can you drive your car to the park?",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "你能把你的车开到公园吗？",
+            "es": "¿Puedes conducir tu coche al parque?"
+          },
+          "difficulty": "Beginner",
+          "tags": ["travel", "action", "question"]
+        },
+        {
+          "sentence_id": 295,
+          "english": "I want to have a special holiday in July.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我想在七月度过一个特别的假期。",
+            "es": "Quiero tener unas vacaciones especiales en julio."
+          },
+          "difficulty": "Beginner",
+          "tags": ["travel", "time", "personal"]
+        },
+        {
+          "sentence_id": 296,
+          "english": "There are three thousand people in the town.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "这个镇上有三千人。",
+            "es": "Hay tres mil personas en el pueblo."
+          },
+          "difficulty": "Beginner",
+          "tags": ["numbers", "location", "people"]
+        },
+        {
+          "sentence_id": 297,
+          "english": "We usually eat lunch at twelve thirty.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我们通常在十二点半吃午饭。",
+            "es": "Generalmente almorzamos a las doce y media."
+          },
+          "difficulty": "Beginner",
+          "tags": ["food", "routine", "time"]
+        },
+        {
+          "sentence_id": 298,
+          "english": "I have never seen an elephant before.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我以前从未见过大象。",
+            "es": "Nunca he visto un elefante antes."
+          },
+          "difficulty": "Beginner",
+          "tags": ["animals", "personal", "travel"]
+        },
+        {
+          "sentence_id": 299,
+          "english": "Can you remember your grandmother's address?",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "你能记住你奶奶/外婆的地址吗？",
+            "es": "¿Puedes recordar la dirección de tu abuela?"
+          },
+          "difficulty": "Beginner",
+          "tags": ["family", "location", "question"]
+        },
+        {
+          "sentence_id": 300,
+          "english": "We must stand up when the teacher arrives.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "老师到达时，我们必须站起来。",
+            "es": "Debemos ponernos de pie cuando el profesor llega."
+          },
+          "difficulty": "Beginner",
+          "tags": ["school", "instruction", "action"]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "sentence_id": 301,
+          "english": "My father drives a new black car.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我的父亲开着一辆新的黑色汽车。",
+            "es": "Mi padre conduce un coche negro nuevo."
+          },
+          "difficulty": "Beginner",
+          "tags": ["family", "travel", "colors"]
+        },
+        {
+          "sentence_id": 302,
+          "english": "She is going to have a party on Saturday.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "她将在周六举办一个派对。",
+            "es": "Ella va a tener una fiesta el sábado."
+          },
+          "difficulty": "Beginner",
+          "tags": ["time", "social", "weekend"]
+        },
+        {
+          "sentence_id": 303,
+          "english": "I will buy a bottle of water and bread.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我将买一瓶水和面包。",
+            "es": "Compraré una botella de agua y pan."
+          },
+          "difficulty": "Beginner",
+          "tags": ["shopping", "food", "objects"]
+        },
+        {
+          "sentence_id": 304,
+          "english": "The weather is very wet, and it is snowing.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "天气非常潮湿，而且正在下雪。",
+            "es": "El clima está muy húmedo y está nevando."
+          },
+          "difficulty": "Beginner",
+          "tags": ["weather", "nature", "present"]
+        },
+        {
+          "sentence_id": 305,
+          "english": "The boy is riding his bike in the park.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "那个男孩正在公园里骑自行车。",
+            "es": "El niño está montando su bicicleta en el parque."
+          },
+          "difficulty": "Beginner",
+          "tags": ["hobbies", "action", "travel"]
+        },
+        {
+          "sentence_id": 306,
+          "english": "Can I have some more beer?",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我能再来点啤酒吗？",
+            "es": "¿Puedo tomar un poco más de cerveza?"
+          },
+          "difficulty": "Beginner",
+          "tags": ["food", "request", "daily"]
+        },
+        {
+          "sentence_id": 307,
+          "english": "The small dog is now a big animal.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "这条小狗现在是一只大动物了。",
+            "es": "El perro pequeño ahora es un animal grande."
+          },
+          "difficulty": "Beginner",
+          "tags": ["animals", "description", "time"]
+        },
+        {
+          "sentence_id": 308,
+          "english": "I will write a short text to my brother.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我将给我的兄弟写一条简短的短信。",
+            "es": "Le escribiré un mensaje de texto corto a mi hermano."
+          },
+          "difficulty": "Beginner",
+          "tags": ["family", "communication", "technology"]
+        },
+        {
+          "sentence_id": 309,
+          "english": "We must turn off the television now.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我们现在必须关掉电视。",
+            "es": "Debemos apagar la televisión ahora."
+          },
+          "difficulty": "Beginner",
+          "tags": ["house", "instruction", "daily"]
+        },
+        {
+          "sentence_id": 310,
+          "english": "The weather is changing from sun to rain.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "天气正在从阳光变为下雨。",
+            "es": "El clima está cambiando de sol a lluvia."
+          },
+          "difficulty": "Beginner",
+          "tags": ["weather", "nature", "action"]
+        },
+        {
+          "sentence_id": 311,
+          "english": "I have a terrible pain in my head.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我的头有剧烈的疼痛。",
+            "es": "Tengo un dolor terrible en mi cabeza."
+          },
+          "difficulty": "Beginner",
+          "tags": ["health", "body", "feelings"]
+        },
+        {
+          "sentence_id": 312,
+          "english": "The student has an exam on Monday.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "这名学生周一有考试。",
+            "es": "El estudiante tiene un examen el lunes."
+          },
+          "difficulty": "Beginner",
+          "tags": ["school", "study", "time"]
+        },
+        {
+          "sentence_id": 313,
+          "english": "My house is far from the supermarket.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我的房子离超市很远。",
+            "es": "Mi casa está lejos del supermercado."
+          },
+          "difficulty": "Beginner",
+          "tags": ["location", "house", "shopping"]
+        },
+        {
+          "sentence_id": 314,
+          "english": "I like to go running in the morning.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我喜欢在早上跑步。",
+            "es": "Me gusta ir a correr por la mañana."
+          },
+          "difficulty": "Beginner",
+          "tags": ["sports", "routine", "time"]
+        },
+        {
+          "sentence_id": 315,
+          "english": "He needs a bigger bottle for the milk.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "他需要一个更大的瓶子装牛奶。",
+            "es": "Él necesita una botella más grande para la leche."
+          },
+          "difficulty": "Beginner",
+          "tags": ["food", "objects", "daily"]
+        },
+        {
+          "sentence_id": 316,
+          "english": "I will wear a hat and a scarf today.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我今天会戴帽子和围巾。",
+            "es": "Usaré un sombrero y una bufanda hoy."
+          },
+          "difficulty": "Beginner",
+          "tags": ["clothes", "daily", "weather"]
+        },
+        {
+          "sentence_id": 317,
+          "english": "My grandfather has a bad back.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我的爷爷/外公背部不好。",
+            "es": "Mi abuelo tiene una espalda mala."
+          },
+          "difficulty": "Beginner",
+          "tags": ["family", "health", "body"]
+        },
+        {
+          "sentence_id": 318,
+          "english": "They have another house in Spain.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "他们在西班牙有另一栋房子。",
+            "es": "Ellos tienen otra casa en España."
+          },
+          "difficulty": "Beginner",
+          "tags": ["house", "location", "travel"]
+        },
+        {
+          "sentence_id": 319,
+          "english": "She is sad because of the bad news.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "她因为这个坏消息而伤心。",
+            "es": "Ella está triste debido a las malas noticias."
+          },
+          "difficulty": "Beginner",
+          "tags": ["feelings", "communication", "daily"]
+        },
+        {
+          "sentence_id": 320,
+          "english": "I am looking for a job in the business.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我正在这个行业找工作。",
+            "es": "Estoy buscando un trabajo en el negocio."
+          },
+          "difficulty": "Beginner",
+          "tags": ["work", "daily", "present"]
+        },
+        {
+          "sentence_id": 321,
+          "english": "We must turn right at the traffic lights.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我们必须在交通灯处右转。",
+            "es": "Debemos girar a la derecha en el semáforo."
+          },
+          "difficulty": "Beginner",
+          "tags": ["travel", "instruction", "daily"]
+        },
+        {
+          "sentence_id": 322,
+          "english": "The girl is wearing a white dress.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "那个女孩穿着一件白色连衣裙。",
+            "es": "La niña está usando un vestido blanco."
+          },
+          "difficulty": "Beginner",
+          "tags": ["clothes", "colors", "description"]
+        },
+        {
+          "sentence_id": 323,
+          "english": "The coffee is too hot to drink.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "这咖啡太烫了，不能喝。",
+            "es": "El café está demasiado caliente para beber."
+          },
+          "difficulty": "Beginner",
+          "tags": ["food", "description", "daily"]
+        },
+        {
+          "sentence_id": 324,
+          "english": "I will buy a postcard for my mum.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我将给我的妈妈买一张明信片。",
+            "es": "Compraré una postal para mi mamá."
+          },
+          "difficulty": "Beginner",
+          "tags": ["shopping", "family", "communication"]
+        },
+        {
+          "sentence_id": 325,
+          "english": "The train is one hour and a half late.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "火车晚点一个半小时。",
+            "es": "El tren lleva una hora y media de retraso."
+          },
+          "difficulty": "Beginner",
+          "tags": ["travel", "time", "numbers"]
+        },
+        {
+          "sentence_id": 326,
+          "english": "We can watch television in the evening.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我们可以在晚上看电视。",
+            "es": "Podemos ver la televisión por la noche."
+          },
+          "difficulty": "Beginner",
+          "tags": ["hobbies", "time", "daily"]
+        },
+        {
+          "sentence_id": 327,
+          "english": "The cat is climbing up the tree.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "这只猫正在爬树。",
+            "es": "El gato está escalando el árbol."
+          },
+          "difficulty": "Beginner",
+          "tags": ["animals", "nature", "action"]
+        },
+        {
+          "sentence_id": 328,
+          "english": "We must remember to take a vacation.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我们必须记得去度假。",
+            "es": "Debemos recordar tomar unas vacaciones."
+          },
+          "difficulty": "Beginner",
+          "tags": ["travel", "health", "planning"]
+        },
+        {
+          "sentence_id": 329,
+          "english": "I have to send forty emails.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我必须发送四十封电子邮件。",
+            "es": "Tengo que enviar cuarenta correos electrónicos."
+          },
+          "difficulty": "Beginner",
+          "tags": ["work", "numbers", "communication"]
+        },
+        {
+          "sentence_id": 330,
+          "english": "The actor is amazing in the film.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "这位男演员在这部电影中很棒。",
+            "es": "El actor es increíble en la película."
+          },
+          "difficulty": "Beginner",
+          "tags": ["art", "hobbies", "description"]
+        },
+        {
+          "sentence_id": 331,
+          "english": "My house is close to the sea.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我的房子靠近大海。",
+            "es": "Mi casa está cerca del mar."
+          },
+          "difficulty": "Beginner",
+          "tags": ["location", "house", "nature"]
+        },
+        {
+          "sentence_id": 332,
+          "english": "We will have dinner with my wife tonight.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我们今晚将和我的妻子共进晚餐。",
+            "es": "Cenaremos con mi esposa esta noche."
+          },
+          "difficulty": "Beginner",
+          "tags": ["family", "food", "time"]
+        },
+        {
+          "sentence_id": 333,
+          "english": "Do you have a question about the test?",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "你对这次考试有什么问题吗？",
+            "es": "¿Tienes una pregunta sobre el examen?"
+          },
+          "difficulty": "Beginner",
+          "tags": ["school", "study", "question"]
+        },
+        {
+          "sentence_id": 334,
+          "english": "I am feeling sick; I need a doctor.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我感觉不舒服；我需要一位医生。",
+            "es": "Me siento enfermo; necesito un doctor."
+          },
+          "difficulty": "Beginner",
+          "tags": ["health", "feelings", "request"]
+        },
+        {
+          "sentence_id": 335,
+          "english": "The bus is leaving soon, so we must run.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "公共汽车很快就要离开了，所以我们必须跑。",
+            "es": "El autobús sale pronto, así que debemos correr."
+          },
+          "difficulty": "Beginner",
+          "tags": ["travel", "time", "action"]
+        },
+        {
+          "sentence_id": 336,
+          "english": "My flat is on the ground floor.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我的公寓在一楼。",
+            "es": "Mi piso está en la planta baja."
+          },
+          "difficulty": "Beginner",
+          "tags": ["house", "location", "daily"]
+        },
+        {
+          "sentence_id": 337,
+          "english": "We will be away in December.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我们十二月会离开/外出。",
+            "es": "Estaremos fuera en diciembre."
+          },
+          "difficulty": "Beginner",
+          "tags": ["travel", "time", "planning"]
+        },
+        {
+          "sentence_id": 338,
+          "english": "The baby is sleeping in the bedroom.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "宝宝正在卧室里睡觉。",
+            "es": "El bebé está durmiendo en el dormitorio."
+          },
+          "difficulty": "Beginner",
+          "tags": ["family", "house", "daily"]
+        },
+        {
+          "sentence_id": 339,
+          "english": "The weather will be better in the summer.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "天气在夏天会更好。",
+            "es": "El clima será mejor en el verano."
+          },
+          "difficulty": "Beginner",
+          "tags": ["weather", "seasons", "comparison"]
+        },
+        {
+          "sentence_id": 340,
+          "english": "I want to have a pet mouse.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我想要一只宠物老鼠。",
+            "es": "Quiero tener un ratón mascota."
+          },
+          "difficulty": "Beginner",
+          "tags": ["animals", "family", "request"]
+        },
+        {
+          "sentence_id": 341,
+          "english": "The tourist is not a nice person.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "这位游客不是一个好人。",
+            "es": "El turista no es una persona agradable."
+          },
+          "difficulty": "Beginner",
+          "tags": ["people", "travel", "description"]
+        },
+        {
+          "sentence_id": 342,
+          "english": "I play tennis with my team.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我和我的团队一起打网球。",
+            "es": "Juego al tenis con mi equipo."
+          },
+          "difficulty": "Beginner",
+          "tags": ["sports", "social", "hobbies"]
+        },
+        {
+          "sentence_id": 343,
+          "english": "We must try to learn something new.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我们必须努力学习一些新的东西。",
+            "es": "Debemos intentar aprender algo nuevo."
+          },
+          "difficulty": "Beginner",
+          "tags": ["study", "abstract", "personal"]
+        },
+        {
+          "sentence_id": 344,
+          "english": "I have to wait for the school bus.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我必须等待校车。",
+            "es": "Tengo que esperar el autobús escolar."
+          },
+          "difficulty": "Beginner",
+          "tags": ["school", "travel", "routine"]
+        },
+        {
+          "sentence_id": 345,
+          "english": "Can you call my phone number?",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "你能打我的电话号码吗？",
+            "es": "¿Puedes llamar a mi número de teléfono?"
+          },
+          "difficulty": "Beginner",
+          "tags": ["communication", "numbers", "request"]
+        },
+        {
+          "sentence_id": 346,
+          "english": "The weather will be sunny tomorrow.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "明天的天气会是晴朗的。",
+            "es": "El clima estará soleado mañana."
+          },
+          "difficulty": "Beginner",
+          "tags": ["weather", "time", "planning"]
+        },
+        {
+          "sentence_id": 347,
+          "english": "My sister is a shy person.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我的姐姐/妹妹是一个害羞的人。",
+            "es": "Mi hermana es una persona tímida."
+          },
+          "difficulty": "Beginner",
+          "tags": ["family", "people", "description"]
+        },
+        {
+          "sentence_id": 348,
+          "english": "I am looking for a job as an engineer.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我正在找一份工程师的工作。",
+            "es": "Estoy buscando un trabajo como ingeniero."
+          },
+          "difficulty": "Beginner",
+          "tags": ["work", "personal", "present"]
+        },
+        {
+          "sentence_id": 349,
+          "english": "The train leaves at half past eight.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "火车在八点半离开。",
+            "es": "El tren sale a las ocho y media."
+          },
+          "difficulty": "Beginner",
+          "tags": ["travel", "time", "numbers"]
+        },
+        {
+          "sentence_id": 350,
+          "english": "Do you need help with your spelling?",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "你的拼写需要帮助吗？",
+            "es": "¿Necesitas ayuda con tu ortografía?"
+          },
+          "difficulty": "Beginner",
+          "tags": ["school", "study", "question"]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "sentence_id": 351,
+          "english": "We must not talk in the cinema.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我们不能在电影院里说话。",
+            "es": "No debemos hablar en el cine."
+          },
+          "difficulty": "Beginner",
+          "tags": ["social", "instruction", "hobbies"]
+        },
+        {
+          "sentence_id": 352,
+          "english": "I will buy a ticket for the theatre.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我将买一张去剧院的票。",
+            "es": "Compraré una entrada para el teatro."
+          },
+          "difficulty": "Beginner",
+          "tags": ["shopping", "culture", "hobbies"]
+        },
+        {
+          "sentence_id": 353,
+          "english": "The soup is much better with cream.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "汤加了奶油会更好喝。",
+            "es": "La sopa es mucho mejor con crema."
+          },
+          "difficulty": "Beginner",
+          "tags": ["food", "comparison", "description"]
+        },
+        {
+          "sentence_id": 354,
+          "english": "The weather is very cold in winter.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "冬天天气非常冷。",
+            "es": "El clima es muy frío en invierno."
+          },
+          "difficulty": "Beginner",
+          "tags": ["weather", "seasons", "nature"]
+        },
+        {
+          "sentence_id": 355,
+          "english": "My house is on a busy, noisy street.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我的房子在一条繁忙、嘈杂的街道上。",
+            "es": "Mi casa está en una calle concurrida y ruidosa."
+          },
+          "difficulty": "Beginner",
+          "tags": ["location", "house", "description"]
+        },
+        {
+          "sentence_id": 356,
+          "english": "The cat is climbing up the wall.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "这只猫正在爬墙。",
+            "es": "El gato está escalando la pared."
+          },
+          "difficulty": "Beginner",
+          "tags": ["animals", "action", "house"]
+        },
+        {
+          "sentence_id": 357,
+          "english": "I think the answer is true.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我认为这个答案是真的。",
+            "es": "Creo que la respuesta es verdad."
+          },
+          "difficulty": "Beginner",
+          "tags": ["abstract", "opinion", "communication"]
+        },
+        {
+          "sentence_id": 358,
+          "english": "My mum will try to arrive at ten.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我的妈妈会努力在十点到达。",
+            "es": "Mi mamá intentará llegar a las diez."
+          },
+          "difficulty": "Beginner",
+          "tags": ["family", "time", "action"]
+        },
+        {
+          "sentence_id": 359,
+          "english": "I have to learn sixty new words.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我必须学习六十个新单词。",
+            "es": "Tengo que aprender sesenta palabras nuevas."
+          },
+          "difficulty": "Beginner",
+          "tags": ["school", "numbers", "study"]
+        },
+        {
+          "sentence_id": 360,
+          "english": "We must not forget to buy butter.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我们绝不能忘记买黄油。",
+            "es": "No debemos olvidar comprar mantequilla."
+          },
+          "difficulty": "Beginner",
+          "tags": ["food", "shopping", "instruction"]
+        },
+        {
+          "sentence_id": 361,
+          "english": "The weather is very bad in October.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "十月的天气非常糟糕。",
+            "es": "El clima es muy malo en octubre."
+          },
+          "difficulty": "Beginner",
+          "tags": ["weather", "time", "seasons"]
+        },
+        {
+          "sentence_id": 362,
+          "english": "Do you prefer a trip to the mountains?",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "你更喜欢去山区旅行吗？",
+            "es": "¿Prefieres un viaje a las montañas?"
+          },
+          "difficulty": "Beginner",
+          "tags": ["travel", "nature", "question"]
+        },
+        {
+          "sentence_id": 363,
+          "english": "My office is on the third floor.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我的办公室在三楼。",
+            "es": "Mi oficina está en el tercer piso."
+          },
+          "difficulty": "Beginner",
+          "tags": ["work", "location", "numbers"]
+        },
+        {
+          "sentence_id": 364,
+          "english": "He has a lot of free time today.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "他今天有很多空闲时间。",
+            "es": "Él tiene mucho tiempo libre hoy."
+          },
+          "difficulty": "Beginner",
+          "tags": ["time", "daily", "description"]
+        },
+        {
+          "sentence_id": 365,
+          "english": "I think the artist is a genius.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我认为这位艺术家是个天才。",
+            "es": "Creo que el artista es un genio."
+          },
+          "difficulty": "Beginner",
+          "tags": ["art", "people", "opinion"]
+        },
+        {
+          "sentence_id": 366,
+          "english": "The clock is showing eleven o'clock.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "时钟显示是十一点。",
+            "es": "El reloj está mostrando las once en punto."
+          },
+          "difficulty": "Beginner",
+          "tags": ["time", "numbers", "objects"]
+        },
+        {
+          "sentence_id": 367,
+          "english": "I must wash my dirty boots.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我必须洗我的脏靴子。",
+            "es": "Debo lavar mis botas sucias."
+          },
+          "difficulty": "Beginner",
+          "tags": ["clothes", "daily", "house"]
+        },
+        {
+          "sentence_id": 368,
+          "english": "We must add the numbers together.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我们必须把这些数字加在一起。",
+            "es": "Debemos sumar los números juntos."
+          },
+          "difficulty": "Beginner",
+          "tags": ["school", "numbers", "study"]
+        },
+        {
+          "sentence_id": 369,
+          "english": "The house has a white ceiling.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "这房子有一个白色的天花板。",
+            "es": "La casa tiene un techo blanco."
+          },
+          "difficulty": "Beginner",
+          "tags": ["house", "colors", "description"]
+        },
+        {
+          "sentence_id": 370,
+          "english": "I am feeling too bored to work.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我感觉太无聊了，不想工作。",
+            "es": "Me siento demasiado aburrido para trabajar."
+          },
+          "difficulty": "Beginner",
+          "tags": ["feelings", "work", "daily"]
+        },
+        {
+          "sentence_id": 371,
+          "english": "The food here is always terrible.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "这里的食物总是很糟糕。",
+            "es": "La comida aquí siempre es terrible."
+          },
+          "difficulty": "Beginner",
+          "tags": ["food", "opinion", "location"]
+        },
+        {
+          "sentence_id": 372,
+          "english": "She is going to become a mum in May.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "她将在五月成为一位妈妈。",
+            "es": "Ella va a convertirse en mamá en mayo."
+          },
+          "difficulty": "Beginner",
+          "tags": ["family", "time", "planning"]
+        },
+        {
+          "sentence_id": 373,
+          "english": "Do you have any advice for my problem?",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "你对我的问题有什么建议吗？",
+            "es": "¿Tienes algún consejo para mi problema?"
+          },
+          "difficulty": "Beginner",
+          "tags": ["communication", "question", "abstract"]
+        },
+        {
+          "sentence_id": 374,
+          "english": "I want to be a teacher of history.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我想成为一名历史老师。",
+            "es": "Quiero ser un profesor de historia."
+          },
+          "difficulty": "Beginner",
+          "tags": ["work", "school", "personal"]
+        },
+        {
+          "sentence_id": 375,
+          "english": "My birthday is in September.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我的生日在九月。",
+            "es": "Mi cumpleaños es en septiembre."
+          },
+          "difficulty": "Beginner",
+          "tags": ["time", "personal", "daily"]
+        },
+        {
+          "sentence_id": 376,
+          "english": "They have a small apartment in the city.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "他们在城市里有一个小公寓。",
+            "es": "Ellos tienen un pequeño apartamento en la ciudad."
+          },
+          "difficulty": "Beginner",
+          "tags": ["house", "location", "description"]
+        },
+        {
+          "sentence_id": 377,
+          "english": "We must close the shop at five.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我们必须在五点关店。",
+            "es": "Debemos cerrar la tienda a las cinco."
+          },
+          "difficulty": "Beginner",
+          "tags": ["work", "time", "instruction"]
+        },
+        {
+          "sentence_id": 378,
+          "english": "The boy has a sad story to tell.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "这个男孩有一个悲伤的故事要讲。",
+            "es": "El niño tiene una historia triste que contar."
+          },
+          "difficulty": "Beginner",
+          "tags": ["communication", "feelings", "reading"]
+        },
+        {
+          "sentence_id": 379,
+          "english": "I will wear a pink skirt and a white top.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我将穿一条粉色裙子和一件白色上衣。",
+            "es": "Usaré una falda rosa y una blusa blanca."
+          },
+          "difficulty": "Beginner",
+          "tags": ["clothes", "colors", "daily"]
+        },
+        {
+          "sentence_id": 380,
+          "english": "The weather is sometimes nice in March.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "三月的天气有时很好。",
+            "es": "El clima a veces es agradable en marzo."
+          },
+          "difficulty": "Beginner",
+          "tags": ["weather", "time", "seasons"]
+        },
+        {
+          "sentence_id": 381,
+          "english": "I believe in the power of music.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我信仰音乐的力量。",
+            "es": "Creo en el poder de la música."
+          },
+          "difficulty": "Beginner",
+          "tags": ["music", "abstract", "opinion"]
+        },
+        {
+          "sentence_id": 382,
+          "english": "The snake is hiding in the corner.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "这条蛇正藏在角落里。",
+            "es": "La serpiente se está escondiendo en la esquina."
+          },
+          "difficulty": "Beginner",
+          "tags": ["animals", "location", "action"]
+        },
+        {
+          "sentence_id": 383,
+          "english": "I am feeling tired and weak.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我感觉又累又虚弱。",
+            "es": "Me siento cansado y débil."
+          },
+          "difficulty": "Beginner",
+          "tags": ["feelings", "health", "daily"]
+        },
+        {
+          "sentence_id": 384,
+          "english": "We will have a nice party next week.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我们下周会有一个美好的派对。",
+            "es": "Tendremos una bonita fiesta la próxima semana."
+          },
+          "difficulty": "Beginner",
+          "tags": ["social", "time", "planning"]
+        },
+        {
+          "sentence_id": 385,
+          "english": "The bus is always slow in the morning.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "公共汽车在早上总是很慢。",
+            "es": "El autobús siempre es lento por la mañana."
+          },
+          "difficulty": "Beginner",
+          "tags": ["travel", "time", "routine"]
+        },
+        {
+          "sentence_id": 386,
+          "english": "Can I borrow your telephone?",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我能借用一下你的电话吗？",
+            "es": "¿Puedo tomar prestado tu teléfono?"
+          },
+          "difficulty": "Beginner",
+          "tags": ["objects", "request", "communication"]
+        },
+        {
+          "sentence_id": 387,
+          "english": "My house is far from the bank.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我的房子离银行很远。",
+            "es": "Mi casa está lejos del banco."
+          },
+          "difficulty": "Beginner",
+          "tags": ["location", "house", "money"]
+        },
+        {
+          "sentence_id": 388,
+          "english": "The actor has a lot of fame.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "这位男演员名气很大。",
+            "es": "El actor tiene mucha fama."
+          },
+          "difficulty": "Beginner",
+          "tags": ["art", "people", "abstract"]
+        },
+        {
+          "sentence_id": 389,
+          "english": "I need to take my medicine now.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我现在需要吃药。",
+            "es": "Necesito tomar mi medicina ahora."
+          },
+          "difficulty": "Beginner",
+          "tags": ["health", "daily", "instruction"]
+        },
+        {
+          "sentence_id": 390,
+          "english": "We must try to be quiet in here.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我们必须努力在这里保持安静。",
+            "es": "Debemos intentar estar tranquilos aquí."
+          },
+          "difficulty": "Beginner",
+          "tags": ["instruction", "abstract", "location"]
+        },
+        {
+          "sentence_id": 391,
+          "english": "The children are playing with water.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "孩子们正在玩水。",
+            "es": "Los niños están jugando con agua."
+          },
+          "difficulty": "Beginner",
+          "tags": ["family", "nature", "hobbies"]
+        },
+        {
+          "sentence_id": 392,
+          "english": "My father is standing in the garden.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我的父亲站在花园里。",
+            "es": "Mi padre está de pie en el jardín."
+          },
+          "difficulty": "Beginner",
+          "tags": ["family", "house", "location"]
+        },
+        {
+          "sentence_id": 393,
+          "english": "I want to eat a piece of cake.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我想吃一块蛋糕。",
+            "es": "Quiero comer un trozo de pastel."
+          },
+          "difficulty": "Beginner",
+          "tags": ["food", "request", "daily"]
+        },
+        {
+          "sentence_id": 394,
+          "english": "The tourist is going to visit the museum.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "这位游客将去参观博物馆。",
+            "es": "El turista va a visitar el museo."
+          },
+          "difficulty": "Beginner",
+          "tags": ["travel", "culture", "location"]
+        },
+        {
+          "sentence_id": 395,
+          "english": "He has a twenty dollar bill.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "他有一张二十美元的钞票。",
+            "es": "Él tiene un billete de veinte dólares."
+          },
+          "difficulty": "Beginner",
+          "tags": ["money", "numbers", "objects"]
+        },
+        {
+          "sentence_id": 396,
+          "english": "The weather is very hot and dry.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "天气又热又干燥。",
+            "es": "El clima es muy cálido y seco."
+          },
+          "difficulty": "Beginner",
+          "tags": ["weather", "nature", "description"]
+        },
+        {
+          "sentence_id": 397,
+          "english": "I need to teach my pet a new trick.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我需要教我的宠物一个新把戏。",
+            "es": "Necesito enseñarle a mi mascota un nuevo truco."
+          },
+          "difficulty": "Beginner",
+          "tags": ["animals", "hobbies", "action"]
+        },
+        {
+          "sentence_id": 398,
+          "english": "The girl is wearing a beautiful yellow dress.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "那个女孩穿着一件漂亮的黄色连衣裙。",
+            "es": "La niña está usando un hermoso vestido amarillo."
+          },
+          "difficulty": "Beginner",
+          "tags": ["clothes", "colors", "description"]
+        },
+        {
+          "sentence_id": 399,
+          "english": "Can we walk to the factory together?",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我们可以一起走到工厂吗？",
+            "es": "¿Podemos caminar juntos hasta la fábrica?"
+          },
+          "difficulty": "Beginner",
+          "tags": ["work", "location", "travel"]
+        },
+        {
+          "sentence_id": 400,
+          "english": "I will buy milk after work.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我下班后会买牛奶。",
+            "es": "Compraré leche después del trabajo."
+          },
+          "difficulty": "Beginner",
+          "tags": ["food", "shopping", "routine"]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "sentence_id": 401,
+          "english": "My father wants to stop smoking.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我的父亲想停止吸烟。",
+            "es": "Mi padre quiere dejar de fumar."
+          },
+          "difficulty": "Beginner",
+          "tags": ["family", "health", "action"]
+        },
+        {
+          "sentence_id": 402,
+          "english": "We must not enter that factory.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我们不能进入那家工厂。",
+            "es": "No debemos entrar en esa fábrica."
+          },
+          "difficulty": "Beginner",
+          "tags": ["work", "instruction", "location"]
+        },
+        {
+          "sentence_id": 403,
+          "english": "I will wear a scarf in the cold air.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我将在冷空气中戴一条围巾。",
+            "es": "Usaré una bufanda en el aire frío."
+          },
+          "difficulty": "Beginner",
+          "tags": ["clothes", "weather", "nature"]
+        },
+        {
+          "sentence_id": 404,
+          "english": "The boat is sailing across the sea.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "这艘船正在横渡大海。",
+            "es": "El barco está navegando a través del mar."
+          },
+          "difficulty": "Beginner",
+          "tags": ["travel", "nature", "action"]
+        },
+        {
+          "sentence_id": 405,
+          "english": "The weather is sometimes nice in Spring.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "春天天气有时很好。",
+            "es": "El clima a veces es agradable en primavera."
+          },
+          "difficulty": "Beginner",
+          "tags": ["weather", "seasons", "time"]
+        },
+        {
+          "sentence_id": 406,
+          "english": "Can you bring me a coffee from the cafe?",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "你能从咖啡馆给我带杯咖啡吗？",
+            "es": "¿Puedes traerme un café del café?"
+          },
+          "difficulty": "Beginner",
+          "tags": ["food", "request", "daily"]
+        },
+        {
+          "sentence_id": 407,
+          "english": "The children have to be quiet now.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "孩子们现在必须保持安静。",
+            "es": "Los niños tienen que estar tranquilos ahora."
+          },
+          "difficulty": "Beginner",
+          "tags": ["family", "instruction", "abstract"]
+        },
+        {
+          "sentence_id": 408,
+          "english": "I have a lot of money in the bank.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我在银行有很多钱。",
+            "es": "Tengo mucho dinero en el banco."
+          },
+          "difficulty": "Beginner",
+          "tags": ["money", "location", "personal"]
+        },
+        {
+          "sentence_id": 409,
+          "english": "We must learn the English alphabet.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我们必须学习英语字母表。",
+            "es": "Debemos aprender el alfabeto inglés."
+          },
+          "difficulty": "Beginner",
+          "tags": ["study", "school", "instruction"]
+        },
+        {
+          "sentence_id": 410,
+          "english": "My house is behind the big park.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我的房子在大公园后面。",
+            "es": "Mi casa está detrás del gran parque."
+          },
+          "difficulty": "Beginner",
+          "tags": ["house", "location", "description"]
+        },
+        {
+          "sentence_id": 411,
+          "english": "She is going to have a baby in December.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "她将在十二月生一个孩子。",
+            "es": "Ella va a tener un bebé en diciembre."
+          },
+          "difficulty": "Beginner",
+          "tags": ["family", "time", "planning"]
+        },
+        {
+          "sentence_id": 412,
+          "english": "I will buy a brush and some toothpaste.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我将买一把刷子和一些牙膏。",
+            "es": "Compraré un cepillo y pasta de dientes."
+          },
+          "difficulty": "Beginner",
+          "tags": ["shopping", "objects", "daily"]
+        },
+        {
+          "sentence_id": 413,
+          "english": "The food is still too hot.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "食物仍然太烫了。",
+            "es": "La comida todavía está demasiado caliente."
+          },
+          "difficulty": "Beginner",
+          "tags": ["food", "description", "time"]
+        },
+        {
+          "sentence_id": 414,
+          "english": "We must not speak on the telephone in here.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我们不能在这里打电话。",
+            "es": "No debemos hablar por teléfono aquí."
+          },
+          "difficulty": "Beginner",
+          "tags": ["communication", "rule", "location"]
+        },
+        {
+          "sentence_id": 415,
+          "english": "I want to take a photo of the church.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我想给教堂拍张照片。",
+            "es": "Quiero tomar una foto de la iglesia."
+          },
+          "difficulty": "Beginner",
+          "tags": ["hobbies", "location", "art"]
+        },
+        {
+          "sentence_id": 416,
+          "english": "My brother is an engineer.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我的兄弟是一位工程师。",
+            "es": "Mi hermano es un ingeniero."
+          },
+          "difficulty": "Beginner",
+          "tags": ["family", "work", "people"]
+        },
+        {
+          "sentence_id": 417,
+          "english": "The clock is showing seven o'clock.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "时钟显示是七点。",
+            "es": "El reloj está mostrando las siete en punto."
+          },
+          "difficulty": "Beginner",
+          "tags": ["time", "numbers", "objects"]
+        },
+        {
+          "sentence_id": 418,
+          "english": "The student needs advice on his study.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "这名学生需要关于他学习的建议。",
+            "es": "El estudiante necesita consejos sobre su estudio."
+          },
+          "difficulty": "Beginner",
+          "tags": ["school", "study", "communication"]
+        },
+        {
+          "sentence_id": 419,
+          "english": "I feel much better after my sleep.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我睡了一觉之后感觉好多了。",
+            "es": "Me siento mucho mejor después de dormir."
+          },
+          "difficulty": "Beginner",
+          "tags": ["health", "feelings", "comparison"]
+        },
+        {
+          "sentence_id": 420,
+          "english": "The weather is very dry in the summer.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "夏天天气非常干燥。",
+            "es": "El clima es muy seco en el verano."
+          },
+          "difficulty": "Beginner",
+          "tags": ["weather", "seasons", "nature"]
+        },
+        {
+          "sentence_id": 421,
+          "english": "I want to buy a big brown bag.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我想买一个大的棕色包。",
+            "es": "Quiero comprar una bolsa grande y marrón."
+          },
+          "difficulty": "Beginner",
+          "tags": ["shopping", "colors", "objects"]
+        },
+        {
+          "sentence_id": 422,
+          "english": "The man is fifty-five years old.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "这名男子五十五岁了。",
+            "es": "El hombre tiene cincuenta y cinco años."
+          },
+          "difficulty": "Beginner",
+          "tags": ["people", "numbers", "introduction"]
+        },
+        {
+          "sentence_id": 423,
+          "english": "The train is going through the tunnel.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "火车正在穿过隧道。",
+            "es": "El tren está pasando por el túnel."
+          },
+          "difficulty": "Beginner",
+          "tags": ["travel", "action", "location"]
+        },
+        {
+          "sentence_id": 424,
+          "english": "She is a very shy teenager.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "她是一个非常害羞的少年。",
+            "es": "Ella es una adolescente muy tímida."
+          },
+          "difficulty": "Beginner",
+          "tags": ["people", "family", "description"]
+        },
+        {
+          "sentence_id": 425,
+          "english": "I like to talk about the weather.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我喜欢谈论天气。",
+            "es": "Me gusta hablar sobre el clima."
+          },
+          "difficulty": "Beginner",
+          "tags": ["communication", "hobbies", "daily"]
+        },
+        {
+          "sentence_id": 426,
+          "english": "We must stand up for our team.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我们必须支持我们的团队。",
+            "es": "Debemos apoyar a nuestro equipo."
+          },
+          "difficulty": "Beginner",
+          "tags": ["sports", "social", "instruction"]
+        },
+        {
+          "sentence_id": 427,
+          "english": "Do you want to eat a banana?",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "你想吃一根香蕉吗？",
+            "es": "¿Quieres comer un plátano?"
+          },
+          "difficulty": "Beginner",
+          "tags": ["food", "question", "daily"]
+        },
+        {
+          "sentence_id": 428,
+          "english": "I feel a strange pain in my leg.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我腿上感到一种奇怪的疼痛。",
+            "es": "Siento un dolor extraño en mi pierna."
+          },
+          "difficulty": "Beginner",
+          "tags": ["health", "body", "feelings"]
+        },
+        {
+          "sentence_id": 429,
+          "english": "The baby is drinking milk from a bottle.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "宝宝正在从瓶子里喝牛奶。",
+            "es": "El bebé está bebiendo leche de un biberón."
+          },
+          "difficulty": "Beginner",
+          "tags": ["family", "food", "objects"]
+        },
+        {
+          "sentence_id": 430,
+          "english": "The school has a lot of good books.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "这所学校有很多好书。",
+            "es": "La escuela tiene muchos libros buenos."
+          },
+          "difficulty": "Beginner",
+          "tags": ["school", "reading", "objects"]
+        },
+        {
+          "sentence_id": 431,
+          "english": "I will buy a postcard for my aunt.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我将给我的阿姨/姑姑买一张明信片。",
+            "es": "Compraré una postal para mi tía."
+          },
+          "difficulty": "Beginner",
+          "tags": ["shopping", "family", "communication"]
+        },
+        {
+          "sentence_id": 432,
+          "english": "Can anyone answer the question now?",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "现在有人能回答这个问题吗？",
+            "es": "¿Alguien puede responder la pregunta ahora?"
+          },
+          "difficulty": "Beginner",
+          "tags": ["communication", "question", "time"]
+        },
+        {
+          "sentence_id": 433,
+          "english": "The mouse is very small and quiet.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "这只老鼠非常小且安静。",
+            "es": "El ratón es muy pequeño y silencioso."
+          },
+          "difficulty": "Beginner",
+          "tags": ["animals", "description", "house"]
+        },
+        {
+          "sentence_id": 434,
+          "english": "I feel great because I am healthy.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我感觉很好，因为我很健康。",
+            "es": "Me siento genial porque estoy sano."
+          },
+          "difficulty": "Beginner",
+          "tags": ["health", "feelings", "description"]
+        },
+        {
+          "sentence_id": 435,
+          "english": "The aeroplane is coming soon.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "飞机很快就要来了。",
+            "es": "El avión viene pronto."
+          },
+          "difficulty": "Beginner",
+          "tags": ["travel", "time", "action"]
+        },
+        {
+          "sentence_id": 436,
+          "english": "We must not tell anyone the secret.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我们不能告诉任何人这个秘密。",
+            "es": "No debemos decirle el secreto a nadie."
+          },
+          "difficulty": "Beginner",
+          "tags": ["communication", "rule", "abstract"]
+        },
+        {
+          "sentence_id": 437,
+          "english": "The actor is standing behind the curtain.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "这位演员站在幕布后面。",
+            "es": "El actor está de pie detrás de la cortina."
+          },
+          "difficulty": "Beginner",
+          "tags": ["art", "location", "people"]
+        },
+        {
+          "sentence_id": 438,
+          "english": "I will wear my new trousers.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我将穿我的新长裤。",
+            "es": "Usaré mis pantalones nuevos."
+          },
+          "difficulty": "Beginner",
+          "tags": ["clothes", "shopping", "daily"]
+        },
+        {
+          "sentence_id": 439,
+          "english": "Do you agree with the statement?",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "你同意这个声明吗？",
+            "es": "¿Estás de acuerdo con la declaración?"
+          },
+          "difficulty": "Beginner",
+          "tags": ["communication", "question", "opinion"]
+        },
+        {
+          "sentence_id": 440,
+          "english": "The tourist wants to travel through Europe.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "这位游客想穿越欧洲旅行。",
+            "es": "El turista quiere viajar a través de Europa."
+          },
+          "difficulty": "Beginner",
+          "tags": ["travel", "people", "location"]
+        },
+        {
+          "sentence_id": 441,
+          "english": "I have to send twenty-two emails.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我必须发送二十二封电子邮件。",
+            "es": "Tengo que enviar veintidós correos electrónicos."
+          },
+          "difficulty": "Beginner",
+          "tags": ["work", "numbers", "communication"]
+        },
+        {
+          "sentence_id": 442,
+          "english": "The film starts at a quarter to nine.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "这部电影在八点四十五分（差一刻九点）开始。",
+            "es": "La película comienza a las nueve menos cuarto."
+          },
+          "difficulty": "Beginner",
+          "tags": ["time", "hobbies", "numbers"]
+        },
+        {
+          "sentence_id": 443,
+          "english": "The yellow bird is on the roof.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "这只黄色的鸟在屋顶上。",
+            "es": "El pájaro amarillo está en el tejado."
+          },
+          "difficulty": "Beginner",
+          "tags": ["animals", "colors", "location"]
+        },
+        {
+          "sentence_id": 444,
+          "english": "We must not talk to strangers.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我们不能和陌生人说话。",
+            "es": "No debemos hablar con extraños."
+          },
+          "difficulty": "Beginner",
+          "tags": ["social", "rule", "people"]
+        },
+        {
+          "sentence_id": 445,
+          "english": "I want to have a pet snake.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我想要一条宠物蛇。",
+            "es": "Quiero tener una serpiente mascota."
+          },
+          "difficulty": "Beginner",
+          "tags": ["animals", "family", "request"]
+        },
+        {
+          "sentence_id": 446,
+          "english": "The school is on the south side of the city.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "学校在城市的南边。",
+            "es": "La escuela está en el lado sur de la ciudad."
+          },
+          "difficulty": "Beginner",
+          "tags": ["school", "location", "daily"]
+        },
+        {
+          "sentence_id": 447,
+          "english": "My father is standing in the kitchen.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我的父亲站在厨房里。",
+            "es": "Mi padre está de pie en la cocina."
+          },
+          "difficulty": "Beginner",
+          "tags": ["family", "house", "location"]
+        },
+        {
+          "sentence_id": 448,
+          "english": "The bus is always slow in the traffic.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "公共汽车在交通中总是很慢。",
+            "es": "El autobús siempre es lento en el tráfico."
+          },
+          "difficulty": "Beginner",
+          "tags": ["travel", "time", "routine"]
+        },
+        {
+          "sentence_id": 449,
+          "english": "I am looking for a job as an artist.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我正在找一份艺术家的工作。",
+            "es": "Estoy buscando un trabajo como artista."
+          },
+          "difficulty": "Beginner",
+          "tags": ["work", "art", "personal"]
+        },
+        {
+          "sentence_id": 450,
+          "english": "Can you spell your name for me?",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "你能为我拼写你的名字吗？",
+            "es": "¿Puedes deletrear tu nombre por mí?"
+          },
+          "difficulty": "Beginner",
+          "tags": ["communication", "question", "personal"]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "sentence_id": 451,
+          "english": "We must try to be strong and healthy.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我们必须努力变得强壮和健康。",
+            "es": "Debemos intentar ser fuertes y saludables."
+          },
+          "difficulty": "Beginner",
+          "tags": ["health", "abstract", "instruction"]
+        },
+        {
+          "sentence_id": 452,
+          "english": "I will buy a nice red sweater.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我将买一件漂亮的红色毛衣。",
+            "es": "Compraré un bonito suéter rojo."
+          },
+          "difficulty": "Beginner",
+          "tags": ["clothes", "shopping", "colors"]
+        },
+        {
+          "sentence_id": 453,
+          "english": "The boy is playing with his toy car.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "那个男孩正在玩他的玩具车。",
+            "es": "El niño está jugando con su coche de juguete."
+          },
+          "difficulty": "Beginner",
+          "tags": ["family", "hobbies", "objects"]
+        },
+        {
+          "sentence_id": 454,
+          "english": "I need to take a bath now.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我现在需要洗澡。",
+            "es": "Necesito tomar un baño ahora."
+          },
+          "difficulty": "Beginner",
+          "tags": ["house", "daily", "time"]
+        },
+        {
+          "sentence_id": 455,
+          "english": "My house is on the north side of the street.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我的房子在街道的北侧。",
+            "es": "Mi casa está en el lado norte de la calle."
+          },
+          "difficulty": "Beginner",
+          "tags": ["location", "house", "description"]
+        },
+        {
+          "sentence_id": 456,
+          "english": "Do you like to go swimming in the sea?",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "你喜欢去海里游泳吗？",
+            "es": "¿Te gusta ir a nadar en el mar?"
+          },
+          "difficulty": "Beginner",
+          "tags": ["sports", "nature", "question"]
+        },
+        {
+          "sentence_id": 457,
+          "english": "I have a lot of sugar for the cake.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我有很多糖可以用来做蛋糕。",
+            "es": "Tengo mucho azúcar para el pastel."
+          },
+          "difficulty": "Beginner",
+          "tags": ["food", "objects", "daily"]
+        },
+        {
+          "sentence_id": 458,
+          "english": "The baby is going to sleep soon.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "宝宝很快就要睡觉了。",
+            "es": "El bebé va a dormir pronto."
+          },
+          "difficulty": "Beginner",
+          "tags": ["family", "time", "action"]
+        },
+        {
+          "sentence_id": 459,
+          "english": "My school is close to the station.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我的学校靠近车站。",
+            "es": "Mi escuela está cerca de la estación."
+          },
+          "difficulty": "Beginner",
+          "tags": ["school", "location", "travel"]
+        },
+        {
+          "sentence_id": 460,
+          "english": "She is carrying a small blue box.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "她正拿着一个小小的蓝色盒子。",
+            "es": "Ella está llevando una pequeña caja azul."
+          },
+          "difficulty": "Beginner",
+          "tags": ["objects", "colors", "action"]
+        },
+        {
+          "sentence_id": 461,
+          "english": "I need to take another short trip.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我需要进行另一次短途旅行。",
+            "es": "Necesito hacer otro viaje corto."
+          },
+          "difficulty": "Beginner",
+          "tags": ["travel", "planning", "daily"]
+        },
+        {
+          "sentence_id": 462,
+          "english": "The lift is full; we must use the stairs.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "电梯满了；我们必须使用楼梯。",
+            "es": "El ascensor está lleno; debemos usar las escaleras."
+          },
+          "difficulty": "Beginner",
+          "tags": ["house", "instruction", "action"]
+        },
+        {
+          "sentence_id": 463,
+          "english": "We must not ask about the money.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我们不能询问关于钱的事情。",
+            "es": "No debemos preguntar sobre el dinero."
+          },
+          "difficulty": "Beginner",
+          "tags": ["money", "rule", "communication"]
+        },
+        {
+          "sentence_id": 464,
+          "english": "He has a lot of style in his clothes.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "他的衣服很有格调。",
+            "es": "Él tiene mucho estilo en su ropa."
+          },
+          "difficulty": "Beginner",
+          "tags": ["clothes", "description", "abstract"]
+        },
+        {
+          "sentence_id": 465,
+          "english": "The weather will be terrible tomorrow.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "明天的天气将非常糟糕。",
+            "es": "El clima será terrible mañana."
+          },
+          "difficulty": "Beginner",
+          "tags": ["weather", "time", "planning"]
+        },
+        {
+          "sentence_id": 466,
+          "english": "I want to try to teach English.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我想尝试教英语。",
+            "es": "Quiero intentar enseñar inglés."
+          },
+          "difficulty": "Beginner",
+          "tags": ["work", "study", "personal"]
+        },
+        {
+          "sentence_id": 467,
+          "english": "My uncle is a police officer.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我的叔叔/伯父/舅舅是一位警察。",
+            "es": "Mi tío es un oficial de policía."
+          },
+          "difficulty": "Beginner",
+          "tags": ["family", "work", "people"]
+        },
+        {
+          "sentence_id": 468,
+          "english": "We will have dinner together tonight.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我们今晚将一起吃晚饭。",
+            "es": "Cenaremos juntos esta noche."
+          },
+          "difficulty": "Beginner",
+          "tags": ["food", "time", "social"]
+        },
+        {
+          "sentence_id": 469,
+          "english": "The tourist needs to take a taxi.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "这位游客需要搭乘出租车。",
+            "es": "El turista necesita tomar un taxi."
+          },
+          "difficulty": "Beginner",
+          "tags": ["travel", "people", "action"]
+        },
+        {
+          "sentence_id": 470,
+          "english": "I need to clean the dirty toilet.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我需要清理这个脏厕所。",
+            "es": "Necesito limpiar el inodoro sucio."
+          },
+          "difficulty": "Beginner",
+          "tags": ["house", "daily", "objects"]
+        },
+        {
+          "sentence_id": 471,
+          "english": "The children are playing outside in the garden.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "孩子们正在花园外面玩耍。",
+            "es": "Los niños están jugando afuera en el jardín."
+          },
+          "difficulty": "Beginner",
+          "tags": ["family", "house", "hobbies"]
+        },
+        {
+          "sentence_id": 472,
+          "english": "I feel afraid of the dark at night.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我晚上害怕黑暗。",
+            "es": "Tengo miedo a la oscuridad por la noche."
+          },
+          "difficulty": "Beginner",
+          "tags": ["feelings", "time", "abstract"]
+        },
+        {
+          "sentence_id": 473,
+          "english": "The bus is always slow in the traffic.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "公共汽车在交通中总是很慢。",
+            "es": "El autobús siempre es lento en el tráfico."
+          },
+          "difficulty": "Beginner",
+          "tags": ["travel", "time", "routine"]
+        },
+        {
+          "sentence_id": 474,
+          "english": "We must not be noisy in the building.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我们不能在这栋楼里吵闹。",
+            "es": "No debemos ser ruidosos en el edificio."
+          },
+          "difficulty": "Beginner",
+          "tags": ["house", "instruction", "rule"]
+        },
+        {
+          "sentence_id": 475,
+          "english": "I will buy a ticket for the football match.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我将买一张足球比赛的门票。",
+            "es": "Compraré una entrada para el partido de fútbol."
+          },
+          "difficulty": "Beginner",
+          "tags": ["sports", "shopping", "hobbies"]
+        },
+        {
+          "sentence_id": 476,
+          "english": "The weather is very wet, and it is raining.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "天气非常潮湿，而且正在下雨。",
+            "es": "El clima está muy húmedo y está lloviendo."
+          },
+          "difficulty": "Beginner",
+          "tags": ["weather", "nature", "present"]
+        },
+        {
+          "sentence_id": 477,
+          "english": "I want to have a special bath tonight.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我今晚想洗一个特别的澡。",
+            "es": "Quiero tomar un baño especial esta noche."
+          },
+          "difficulty": "Beginner",
+          "tags": ["daily", "time", "personal"]
+        },
+        {
+          "sentence_id": 478,
+          "english": "My grandmother is still working.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我的奶奶/外婆仍然在工作。",
+            "es": "Mi abuela todavía está trabajando."
+          },
+          "difficulty": "Beginner",
+          "tags": ["family", "work", "time"]
+        },
+        {
+          "sentence_id": 479,
+          "english": "I want to visit another tourist town.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我想参观另一个旅游小镇。",
+            "es": "Quiero visitar otro pueblo turístico."
+          },
+          "difficulty": "Beginner",
+          "tags": ["travel", "location", "planning"]
+        },
+        {
+          "sentence_id": 480,
+          "english": "We must not open the gate now.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我们现在不能打开大门。",
+            "es": "No debemos abrir la puerta ahora."
+          },
+          "difficulty": "Beginner",
+          "tags": ["house", "rule", "instruction"]
+        },
+        {
+          "sentence_id": 481,
+          "english": "The dinner is ready; please take a seat.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "晚饭准备好了；请坐下。",
+            "es": "La cena está lista; por favor, toma asiento."
+          },
+          "difficulty": "Beginner",
+          "tags": ["food", "instruction", "house"]
+        },
+        {
+          "sentence_id": 482,
+          "english": "She is going to have a beautiful body.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "她将拥有一个美丽的身体。",
+            "es": "Ella va a tener un cuerpo hermoso."
+          },
+          "difficulty": "Beginner",
+          "tags": ["body", "description", "health"]
+        },
+        {
+          "sentence_id": 483,
+          "english": "The cat is climbing up the fence.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "这只猫正在爬围栏。",
+            "es": "El gato está escalando la valla."
+          },
+          "difficulty": "Beginner",
+          "tags": ["animals", "action", "house"]
+        },
+        {
+          "sentence_id": 484,
+          "english": "I have thirty-three books to read.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我有三十三本书要读。",
+            "es": "Tengo treinta y tres libros para leer."
+          },
+          "difficulty": "Beginner",
+          "tags": ["numbers", "reading", "hobbies"]
+        },
+        {
+          "sentence_id": 485,
+          "english": "The price of the shoes is fifty dollars.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "这双鞋的价格是五十美元。",
+            "es": "El precio de los zapatos es de cincuenta dólares."
+          },
+          "difficulty": "Beginner",
+          "tags": ["shopping", "money", "numbers"]
+        },
+        {
+          "sentence_id": 486,
+          "english": "I will buy a ticket for the cinema.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我将买一张电影票。",
+            "es": "Compraré una entrada para el cine."
+          },
+          "difficulty": "Beginner",
+          "tags": ["hobbies", "shopping", "social"]
+        },
+        {
+          "sentence_id": 487,
+          "english": "My house is far from the river.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我的房子离河很远。",
+            "es": "Mi casa está lejos del río."
+          },
+          "difficulty": "Beginner",
+          "tags": ["location", "house", "nature"]
+        },
+        {
+          "sentence_id": 488,
+          "english": "He needs to fill the glass with milk.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "他需要用水装满这个玻璃杯。",
+            "es": "Él necesita llenar el vaso con leche."
+          },
+          "difficulty": "Beginner",
+          "tags": ["food", "objects", "daily"]
+        },
+        {
+          "sentence_id": 489,
+          "english": "I need to teach my dog a new song.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我需要教我的狗一首新歌。",
+            "es": "Necesito enseñarle a mi perro una nueva canción."
+          },
+          "difficulty": "Beginner",
+          "tags": ["animals", "hobbies", "music"]
+        },
+        {
+          "sentence_id": 490,
+          "english": "We must try to remember the past.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我们必须努力记住过去。",
+            "es": "Debemos intentar recordar el pasado."
+          },
+          "difficulty": "Beginner",
+          "tags": ["abstract", "time", "instruction"]
+        },
+        {
+          "sentence_id": 491,
+          "english": "I will wear a nice t-shirt and jeans.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我将穿一件漂亮的T恤和牛仔裤。",
+            "es": "Usaré una bonita camiseta y pantalones vaqueros."
+          },
+          "difficulty": "Beginner",
+          "tags": ["clothes", "daily", "shopping"]
+        },
+        {
+          "sentence_id": 492,
+          "english": "The weather will be sunny on Sunday.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "周日天气将是晴朗的。",
+            "es": "El clima estará soleado el domingo."
+          },
+          "difficulty": "Beginner",
+          "tags": ["weather", "time", "weekend"]
+        },
+        {
+          "sentence_id": 493,
+          "english": "Can you bring me a glass of juice?",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "你能给我带一杯果汁吗？",
+            "es": "¿Puedes traerme un vaso de jugo?"
+          },
+          "difficulty": "Beginner",
+          "tags": ["food", "request", "daily"]
+        },
+        {
+          "sentence_id": 494,
+          "english": "The student has an exam on Thursday.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "这名学生周四有考试。",
+            "es": "El estudiante tiene un examen el jueves."
+          },
+          "difficulty": "Beginner",
+          "tags": ["school", "study", "time"]
+        },
+        {
+          "sentence_id": 495,
+          "english": "I am feeling thirsty; I need a drink.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我感觉口渴；我需要喝水。",
+            "es": "Tengo sed; necesito una bebida."
+          },
+          "difficulty": "Beginner",
+          "tags": ["health", "feelings", "food"]
+        },
+        {
+          "sentence_id": 496,
+          "english": "My house has a small space for the car.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我的房子有一个小空间供汽车停放。",
+            "es": "Mi casa tiene un pequeño espacio para el coche."
+          },
+          "difficulty": "Beginner",
+          "tags": ["house", "location", "travel"]
+        },
+        {
+          "sentence_id": 497,
+          "english": "The boat is far away from the beach.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "这艘船离海滩很远。",
+            "es": "El barco está lejos de la playa."
+          },
+          "difficulty": "Beginner",
+          "tags": ["travel", "location", "nature"]
+        },
+        {
+          "sentence_id": 498,
+          "english": "The man is talking to his son.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "这个男人正在和他的儿子说话。",
+            "es": "El hombre está hablando con su hijo."
+          },
+          "difficulty": "Beginner",
+          "tags": ["family", "people", "communication"]
+        },
+        {
+          "sentence_id": 499,
+          "english": "We must not buy cheap clothes.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "我们不能买便宜的衣服。",
+            "es": "No debemos comprar ropa barata."
+          },
+          "difficulty": "Beginner",
+          "tags": ["clothes", "shopping", "money"]
+        },
+        {
+          "sentence_id": 500,
+          "english": "The actor has a lot of energy to sing.",
+          "langLevel": "A1",
+          "translations": {
+            "zh": "这位演员有很大的精力来唱歌。",
+            "es": "El actor tiene mucha energía para cantar."
+          },
+          "difficulty": "Beginner",
+          "tags": ["art", "music", "health"]
+        }
+      ]
+    }
+  ]
+}

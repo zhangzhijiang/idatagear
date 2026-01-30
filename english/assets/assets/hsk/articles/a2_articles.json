@@ -1,0 +1,2899 @@
+{
+  "articles": [
+    {
+      "article_id": 101,
+      "langLevel": "A2",
+      "sentences": [
+        {
+          "english": "My colleague, Leo, got an award for his work last week.",
+          "translations": {
+            "zh": "我的同事，Leo，上周因工作获得了一个奖项。",
+            "es": "Mi colega, Leo, recibió un premio por su trabajo la semana pasada."
+          }
+        },
+        {
+          "english": "He used his ability to solve a difficult problem at the office.",
+          "translations": {
+            "zh": "他运用自己的能力解决了办公室里一个难题。",
+            "es": "Usó su habilidad para resolver un problema difícil en la oficina."
+          }
+        },
+        {
+          "english": "It was an excellent achievement for the whole team.",
+          "translations": {
+            "zh": "这对整个团队来说是一个了不起的成就。",
+            "es": "Fue un excelente logro para todo el equipo."
+          }
+        },
+        {
+          "english": "He is active and always tries to improve the process.",
+          "translations": {
+            "zh": "他很积极，总是尝试改进流程。",
+            "es": "Es activo y siempre trata de mejorar el proceso."
+          }
+        },
+        {
+          "english": "We will celebrate his success next Friday with a dinner.",
+          "translations": {
+            "zh": "我们下周五将通过晚餐庆祝他的成功。",
+            "es": "Celebraremos su éxito el próximo viernes con una cena."
+          }
+        }
+      ]
+    },
+    {
+      "article_id": 102,
+      "langLevel": "A2",
+      "sentences": [
+        {
+          "english": "I had a bad accident on my bike yesterday afternoon.",
+          "translations": {
+            "zh": "昨天下午我的自行车出了一个严重的事故。",
+            "es": "Ayer por la tarde tuve un accidente grave con mi bicicleta."
+          }
+        },
+        {
+          "english": "I fell off and hurt my ankle and my knee.",
+          "translations": "Me caí y me lastimé el tobillo y la rodilla."
+        },
+        {
+          "english": "I had to call my mum and ask for her help.",
+          "translations": {
+            "zh": "我不得不给我妈妈打电话求助。",
+            "es": "Tuve que llamar a mi mamá y pedir su ayuda."
+          }
+        },
+        {
+          "english": "She said it was awful and she took me to the hospital immediately.",
+          "translations": {
+            "zh": "她说这很糟糕，她立即带我去医院了。",
+            "es": "Dijo que fue terrible y me llevó al hospital inmediatamente."
+          }
+        },
+        {
+          "english": "The doctor said I was very lucky to avoid a broken bone.",
+          "translations": {
+            "zh": "医生说我很幸运避免了骨折。",
+            "es": "El doctor dijo que tuve mucha suerte de evitar un hueso roto."
+          }
+        },
+        {
+          "english": "I have to stay at home for a week, but I feel better now.",
+          "translations": {
+            "zh": "我必须在家待一周，但我现在感觉好多了。",
+            "es": "Tengo que quedarme en casa una semana, pero ahora me siento mejor."
+          }
+        }
+      ]
+    },
+    {
+      "article_id": 103,
+      "langLevel": "A2",
+      "sentences": [
+        {
+          "english": "I need to buy a new mobile phone for my job.",
+          "translations": {
+            "zh": "我需要买一部新的手机用于我的工作。",
+            "es": "Necesito comprar un teléfono móvil nuevo para mi trabajo."
+          }
+        },
+        {
+          "english": "It must be able to download many applications easily.",
+          "translations": {
+            "zh": "它必须能很容易地下载很多应用程序。",
+            "es": "Debe poder descargar muchas aplicaciones fácilmente."
+          }
+        },
+        {
+          "english": "I will check the advertising for the best offer available.",
+          "translations": {
+            "zh": "我将查看广告，寻找最好的可用优惠。",
+            "es": "Revisaré la publicidad para encontrar la mejor oferta disponible."
+          }
+        },
+        {
+          "english": "I always compare the price and the battery life.",
+          "translations": {
+            "zh": "我总是比较价格和电池寿命。",
+            "es": "Siempre comparo el precio y la duración de la batería."
+          }
+        },
+        {
+          "english": "Perhaps I will buy it online or in a large department store.",
+          "translations": {
+            "zh": "也许我会在网上或一家大型百货商店购买它。",
+            "es": "Quizás lo compre en línea o en una gran tienda por departamentos."
+          }
+        }
+      ]
+    },
+    {
+      "article_id": 104,
+      "langLevel": "A2",
+      "sentences": [
+        {
+          "english": "The travel company had a beautiful advertisement for an adventure holiday.",
+          "translations": {
+            "zh": "那家旅行公司有一个关于探险假期的精美广告。",
+            "es": "La compañía de viajes tenía un hermoso anuncio para unas vacaciones de aventura."
+          }
+        },
+        {
+          "english": "The offer included a trip to an ancient castle on the coast.",
+          "translations": {
+            "zh": "优惠包括去海边一座古老城堡的旅行。",
+            "es": "La oferta incluía un viaje a un castillo antiguo en la costa."
+          }
+        },
+        {
+          "english": "The plane was full of passengers from all across the world.",
+          "translations": {
+            "zh": "飞机上载满了来自世界各地的乘客。",
+            "es": "El avión estaba lleno de pasajeros de todo el mundo."
+          }
+        },
+        {
+          "english": "They wanted to discover the history of the region.",
+          "translations": {
+            "zh": "他们想了解这个地区的历史。",
+            "es": "Querían descubrir la historia de la región."
+          }
+        },
+        {
+          "english": "It was an opportunity to learn about the country's culture.",
+          "translations": {
+            "zh": "这是一个了解国家文化的机会。",
+            "es": "Fue una oportunidad para aprender sobre la cultura del país."
+          }
+        },
+        {
+          "english": "The trip will start next Tuesday, and I am very excited.",
+          "translations": {
+            "zh": "这次旅行将于下周二开始，我非常兴奋。",
+            "es": "El viaje comenzará el próximo martes, y estoy muy emocionado."
+          }
+        }
+      ]
+    },
+    {
+      "article_id": 105,
+      "langLevel": "A2",
+      "sentences": [
+        {
+          "english": "Although I am still young, I really enjoy classical music.",
+          "translations": {
+            "zh": "虽然我还年轻，但我真的很喜欢古典音乐。",
+            "es": "Aunque todavía soy joven, realmente disfruto de la música clásica."
+          }
+        },
+        {
+          "english": "Last night, I attended a wonderful concert in the main hall.",
+          "translations": {
+            "zh": "昨晚，我参加了主厅的一场精彩音乐会。",
+            "es": "Anoche, asistí a un concierto maravilloso en el salón principal."
+          }
+        },
+        {
+          "english": "The audience was quiet and showed a lot of attention to the musicians.",
+          "translations": {
+            "zh": "观众很安静，对音乐家们表现出了很多关注。",
+            "es": "El público estaba callado y prestó mucha atención a los músicos."
+          }
+        },
+        {
+          "english": "I often think about becoming a musician or an author.",
+          "translations": {
+            "zh": "我经常考虑成为一名音乐家或作家。",
+            "es": "A menudo pienso en convertirme en músico o autor."
+          }
+        },
+        {
+          "english": "I must try to develop my talent and make a choice.",
+          "translations": {
+            "zh": "我必须努力发展我的才能并做出选择。",
+            "es": "Debo intentar desarrollar mi talento y tomar una decisión."
+          }
+        },
+        {
+          "english": "It is important to follow your dream and not just accept a normal job.",
+          "translations": {
+            "zh": "重要的是追随你的梦想，而不是仅仅接受一份普通的工作。",
+            "es": "Es importante seguir tu sueño y no solo aceptar un trabajo normal."
+          }
+        }
+      ]
+    },
+    {
+      "article_id": 106,
+      "langLevel": "A2",
+      "sentences": [
+        {
+          "english": "The athlete trained hard every day for the big competition.",
+          "translations": {
+            "zh": "那位运动员每天都为这场大型比赛进行刻苦训练。",
+            "es": "El atleta entrenó duro todos los días para la gran competición."
+          }
+        },
+        {
+          "english": "She was able to beat the top runner in the last race.",
+          "translations": {
+            "zh": "她在上一场比赛中击败了顶尖的跑步者。",
+            "es": "Pudo vencer a la mejor corredora en la última carrera."
+          }
+        },
+        {
+          "english": "She felt awful the night before, but she didn't give up.",
+          "translations": {
+            "zh": "前一晚她感觉很糟糕，但她没有放弃。",
+            "es": "Se sintió fatal la noche anterior, pero no se rindió."
+          }
+        },
+        {
+          "english": "Her coach helped her manage the stress and focus on the goal.",
+          "translations": {
+            "zh": "她的教练帮助她管理压力，专注于目标。",
+            "es": "Su entrenador la ayudó a manejar el estrés y a enfocarse en la meta."
+          }
+        },
+        {
+          "english": "Achieving her best result was a huge success for her.",
+          "translations": {
+            "zh": "取得她最好的成绩对她来说是一个巨大的成功。",
+            "es": "Lograr su mejor resultado fue un gran éxito para ella."
+          }
+        }
+      ]
+    },
+    {
+      "article_id": 107,
+      "langLevel": "A2",
+      "sentences": [
+        {
+          "english": "I saw an attractive painting in the gallery near the church.",
+          "translations": {
+            "zh": "我在教堂附近的画廊里看到了一幅有吸引力的画。",
+            "es": "Vi una pintura atractiva en la galería cerca de la iglesia."
+          }
+        },
+        {
+          "english": "The artist used bright colours and a simple pattern.",
+          "translations": {
+            "zh": "这位艺术家使用了鲜艳的颜色和简单的图案。",
+            "es": "El artista usó colores brillantes y un patrón simple."
+          }
+        },
+        {
+          "english": "The background was a dark forest with a small, narrow path.",
+          "translations": {
+            "zh": "背景是一片黑暗的森林，只有一条狭窄的小路。",
+            "es": "El fondo era un bosque oscuro con un camino pequeño y estrecho."
+          }
+        },
+        {
+          "english": "I will try to paint a copy of the picture at home.",
+          "translations": {
+            "zh": "我将尝试在家临摹这幅画。",
+            "es": "Intentaré pintar una copia de la imagen en casa."
+          }
+        },
+        {
+          "english": "I need to buy new brushes and some different material first.",
+          "translations": {
+            "zh": "我首先需要购买新的画笔和一些不同的材料。",
+            "es": "Primero necesito comprar pinceles nuevos y algo de material diferente."
+          }
+        }
+      ]
+    },
+    {
+      "article_id": 108,
+      "langLevel": "A2",
+      "sentences": [
+        {
+          "english": "This belt does not belong to me; it is too big and heavy.",
+          "translations": {
+            "zh": "这条腰带不属于我；它太大了，而且很重。",
+            "es": "Este cinturón no me pertenece; es demasiado grande y pesado."
+          }
+        },
+        {
+          "english": "I found it on the floor between the boss's desk and the wall.",
+          "translations": {
+            "zh": "我在老板的桌子和墙之间的地板上发现了它。",
+            "es": "Lo encontré en el suelo entre el escritorio del jefe y la pared."
+          }
+        },
+        {
+          "english": "I should take it to the reception desk and ask for the owner.",
+          "translations": {
+            "zh": "我应该把它带到接待台，询问主人是谁。",
+            "es": "Debería llevarlo a la recepción y preguntar por el dueño."
+          }
+        },
+        {
+          "english": "It is important to return lost items, according to the rules.",
+          "translations": {
+            "zh": "根据规定，归还遗失物品是很重要的。",
+            "es": "Es importante devolver los artículos perdidos, según las reglas."
+          }
+        },
+        {
+          "english": "I hope the owner is able to collect it very soon.",
+          "translations": {
+            "zh": "我希望失主能很快来领取它。",
+            "es": "Espero que el dueño pueda recogerlo muy pronto."
+          }
+        }
+      ]
+    },
+    {
+      "article_id": 109,
+      "langLevel": "A2",
+      "sentences": [
+        {
+          "english": "The baseball game was nearly finished when the power went out.",
+          "translations": {
+            "zh": "棒球比赛快结束时，停电了。",
+            "es": "El partido de béisbol estaba casi terminado cuando se fue la luz."
+          }
+        },
+        {
+          "english": "Everyone was completely surprised by the sudden darkness.",
+          "translations": {
+            "zh": "所有人都对突如其来的黑暗感到完全惊讶。",
+            "es": "Todos estaban completamente sorprendidos por la oscuridad repentina."
+          }
+        },
+        {
+          "english": "The crowd began to shout and complain loudly about the problem.",
+          "translations": {
+            "zh": "人群开始大声喊叫，抱怨这个问题。",
+            "es": "La multitud comenzó a gritar y quejarse en voz alta sobre el problema."
+          }
+        },
+        {
+          "english": "The manager decided to stop the game because it was too dark.",
+          "translations": {
+            "zh": "经理决定停止比赛，因为它太黑了。",
+            "es": "El gerente decidió detener el juego porque estaba demasiado oscuro."
+          }
+        },
+        {
+          "english": "Fans had to wait for the arrangement of transport back home.",
+          "translations": {
+            "zh": "球迷们不得不等待回家交通的安排。",
+            "es": "Los aficionados tuvieron que esperar la organización del transporte de vuelta a casa."
+          }
+        }
+      ]
+    },
+    {
+      "article_id": 110,
+      "langLevel": "A2",
+      "sentences": [
+        {
+          "english": "The brilliant scientist had an idea to avoid the worst effects of pollution.",
+          "translations": {
+            "zh": "这位杰出的科学家有一个想法来避免污染最严重的影响。",
+            "es": "El brillante científico tuvo una idea para evitar los peores efectos de la contaminación."
+          }
+        },
+        {
+          "english": "His invention could change the way we live on the planet.",
+          "translations": {
+            "zh": "他的发明可以改变我们在这个星球上的生活方式。",
+            "es": "Su invención podría cambiar la forma en que vivimos en el planeta."
+          }
+        },
+        {
+          "english": "It is a complex electrical device that cleans the air effectively.",
+          "translations": {
+            "zh": "这是一个复杂的电子设备，可以有效地清洁空气。",
+            "es": "Es un dispositivo eléctrico complejo que limpia el aire de forma efectiva."
+          }
+        },
+        {
+          "english": "He needs a large amount of money to produce it for the public.",
+          "translations": {
+            "zh": "他需要一大笔钱来为公众生产它。",
+            "es": "Necesita una gran cantidad de dinero para producirlo para el público."
+          }
+        },
+        {
+          "english": "He will talk to the government and ask them to provide support.",
+          "translations": {
+            "zh": "他将与政府交谈，并要求他们提供支持。",
+            "es": "Hablará con el gobierno y les pedirá que brinden apoyo."
+          }
+        }
+      ]
+    },
+    {
+      "article_id": 111,
+      "langLevel": "A2",
+      "sentences": [
+        {
+          "english": "The cafe offers a special benefit for students with their school card.",
+          "translations": {
+            "zh": "这家咖啡馆为持有学生卡的同学提供特别福利。",
+            "es": "El café ofrece un beneficio especial para los estudiantes con su tarjeta escolar."
+          }
+        },
+        {
+          "english": "You can buy a hot drink and a biscuit for a better price.",
+          "translations": {
+            "zh": "你可以以更优惠的价格买到一杯热饮和一块饼干。",
+            "es": "Puedes comprar una bebida caliente y una galleta a un mejor precio."
+          }
+        },
+        {
+          "english": "This deal is only available between three and five every afternoon.",
+          "translations": {
+            "zh": "这个优惠只在每天下午三点到五点之间提供。",
+            "es": "Esta oferta solo está disponible entre las tres y las cinco todas las tardes."
+          }
+        },
+        {
+          "english": "It is a great way to save money and enjoy a small break.",
+          "translations": {
+            "zh": "这是一个省钱和享受短暂休息的好方法。",
+            "es": "Es una excelente manera de ahorrar dinero y disfrutar de un pequeño descanso."
+          }
+        },
+        {
+          "english": "You will certainly enjoy the comfortable chairs and free Wi-Fi.",
+          "translations": {
+            "zh": "你一定会喜欢舒适的椅子和免费无线网络。",
+            "es": "Sin duda disfrutarás de las cómodas sillas y el Wi-Fi gratuito."
+          }
+        }
+      ]
+    },
+    {
+      "article_id": 112,
+      "langLevel": "A2",
+      "sentences": [
+        {
+          "english": "I am looking for a cheap flat in the city centre.",
+          "translations": {
+            "zh": "我正在市中心寻找一间便宜的公寓。",
+            "es": "Estoy buscando un piso barato en el centro de la ciudad."
+          }
+        },
+        {
+          "english": "I will need to borrow money from the bank to cover the cost.",
+          "translations": {
+            "zh": "我需要从银行借钱来支付费用。",
+            "es": "Necesitaré pedir dinero prestado al banco para cubrir el costo."
+          }
+        },
+        {
+          "english": "I plan to save a small amount of money every month.",
+          "translations": {
+            "zh": "我计划每月存少量钱。",
+            "es": "Planeo ahorrar una pequeña cantidad de dinero cada mes."
+          }
+        },
+        {
+          "english": "It is a difficult task, but I need to have my own place.",
+          "translations": {
+            "zh": "这是一项艰巨的任务，但我需要有自己的地方。",
+            "es": "Es una tarea difícil, pero necesito tener mi propio lugar."
+          }
+        },
+        {
+          "english": "I have to learn to manage my finances better, starting today.",
+          "translations": {
+            "zh": "我必须学会更好地管理我的财务，从今天开始。",
+            "es": "Tengo que aprender a manejar mejor mis finanzas, empezando hoy."
+          }
+        }
+      ]
+    },
+    {
+      "article_id": 113,
+      "langLevel": "A2",
+      "sentences": [
+        {
+          "english": "We decided to go camping during the summer break this year.",
+          "translations": {
+            "zh": "我们决定今年暑假去露营。",
+            "es": "Decidimos ir de campamento durante las vacaciones de verano este año."
+          }
+        },
+        {
+          "english": "We will take a tent and sleep outside under the stars.",
+          "translations": {
+            "zh": "我们将带一个帐篷，睡在星空下的户外。",
+            "es": "Llevaremos una tienda y dormiremos afuera bajo las estrellas."
+          }
+        },
+        {
+          "english": "We must be careful not to make too much noise and to recycle our rubbish.",
+          "translations": {
+            "zh": "我们必须小心不要制造太多噪音，并回收我们的垃圾。",
+            "es": "Debemos tener cuidado de no hacer demasiado ruido y de reciclar nuestra basura."
+          }
+        },
+        {
+          "english": "My brother said he would cook over the fire every day.",
+          "translations": {
+            "zh": "我哥哥说他每天都会在火上做饭。",
+            "es": "Mi hermano dijo que cocinaría sobre el fuego todos los días."
+          }
+        },
+        {
+          "english": "I really hope the weather is clear and we don't have to deal with rain.",
+          "translations": {
+            "zh": "我真的希望天气晴朗，我们不必应对下雨。",
+            "es": "Realmente espero que el clima esté despejado y que no tengamos que lidiar con la lluvia."
+          }
+        }
+      ]
+    },
+    {
+      "article_id": 114,
+      "langLevel": "A2",
+      "sentences": [
+        {
+          "english": "My neighbour is a famous celebrity, but she is very quiet.",
+          "translations": {
+            "zh": "我的邻居是一位著名的名人，但她非常安静。",
+            "es": "Mi vecina es una celebridad famosa, pero es muy tranquila."
+          }
+        },
+        {
+          "english": "She bought the large house on the corner of the street last year.",
+          "translations": {
+            "zh": "她去年买下了这条街拐角处的这栋大房子。",
+            "es": "Compró la casa grande en la esquina de la calle el año pasado."
+          }
+        },
+        {
+          "english": "She usually tries to avoid the crowd of people near her gate.",
+          "translations": {
+            "zh": "她通常试图避开她家门口附近的人群。",
+            "es": "Normalmente trata de evitar la multitud de personas cerca de su puerta."
+          }
+        },
+        {
+          "english": "She often works abroad and attends many conferences.",
+          "translations": {
+            "zh": "她经常在国外工作，并参加许多会议。",
+            "es": "A menudo trabaja en el extranjero y asiste a muchas conferencias."
+          }
+        },
+        {
+          "english": "It must be hard for her to live a normal everyday life.",
+          "translations": {
+            "zh": "对她来说，过正常的日常生活一定很困难。",
+            "es": "Debe ser difícil para ella vivir una vida cotidiana normal."
+          }
+        }
+      ]
+    },
+    {
+      "article_id": 115,
+      "langLevel": "A2",
+      "sentences": [
+        {
+          "english": "This drawing is a picture of my favourite animal, a monkey.",
+          "translations": {
+            "zh": "这幅画是我最喜欢的动物——猴子。",
+            "es": "Este dibujo es una imagen de mi animal favorito, un mono."
+          }
+        },
+        {
+          "english": "It is sitting on a branch of a huge tree in the forest.",
+          "translations": {
+            "zh": "它坐在森林里一棵大树的树枝上。",
+            "es": "Está sentado en una rama de un árbol enorme en el bosque."
+          }
+        },
+        {
+          "english": "The small monkey looks sad, and its eyes are almost closed.",
+          "translations": {
+            "zh": "这只小猴子看起来很伤心，眼睛几乎闭着。",
+            "es": "El pequeño mono parece triste, y sus ojos están casi cerrados."
+          }
+        },
+        {
+          "english": "It is probably trying to fall asleep because it is tired.",
+          "translations": {
+            "zh": "它可能很累了，正试图入睡。",
+            "es": "Probablemente está tratando de dormirse porque está cansado."
+          }
+        },
+        {
+          "english": "I will add more detail to the background tomorrow to finish it.",
+          "translations": {
+            "zh": "我明天会给背景添加更多细节来完成它。",
+            "es": "Mañana agregaré más detalles al fondo para terminarlo."
+          }
+        }
+      ]
+    },
+    {
+      "article_id": 116,
+      "langLevel": "A2",
+      "sentences": [
+        {
+          "english": "Last week, I had a discussion with my doctor about my health.",
+          "translations": {
+            "zh": "上周，我和我的医生讨论了我的健康问题。",
+            "es": "La semana pasada, tuve una discusión con mi médico sobre mi salud."
+          }
+        },
+        {
+          "english": "He told me I should start doing more physical exercise.",
+          "translations": {
+            "zh": "他告诉我应该开始做更多的体育锻炼。",
+            "es": "Me dijo que debería empezar a hacer más ejercicio físico."
+          }
+        },
+        {
+          "english": "I decided to join the local gym to help increase my energy.",
+          "translations": {
+            "zh": "我决定加入当地的健身房来帮助增加我的活力。",
+            "es": "Decidí unirme al gimnasio local para ayudar a aumentar mi energía."
+          }
+        },
+        {
+          "english": "I really like to swim and will try to attend a class every day.",
+          "translations": {
+            "zh": "我真的很喜欢游泳，会尝试每天参加一节课。",
+            "es": "Me gusta mucho nadar y trataré de asistir a una clase todos los días."
+          }
+        },
+        {
+          "english": "I expect this will have a very positive effect on my life.",
+          "translations": {
+            "zh": "我期待这会对我的生活产生非常积极的影响。",
+            "es": "Espero que esto tenga un efecto muy positivo en mi vida."
+          }
+        }
+      ]
+    },
+    {
+      "article_id": 117,
+      "langLevel": "A2",
+      "sentences": [
+        {
+          "english": "I was very surprised to find a wallet in the middle of the road.",
+          "translations": {
+            "zh": "我很惊讶在马路中央发现了一个钱包。",
+            "es": "Me sorprendió mucho encontrar una billetera en medio de la carretera."
+          }
+        },
+        {
+          "english": "I picked it up and found the owner's credit card and some cash.",
+          "translations": {
+            "zh": "我捡起来，发现了主人的信用卡和一些现金。",
+            "es": "Lo recogí y encontré la tarjeta de crédito del dueño y algo de dinero en efectivo."
+          }
+        },
+        {
+          "english": "I looked for a name or address, but I could not see any details.",
+          "translations": {
+            "zh": "我找了名字或地址，但看不到任何细节。",
+            "es": "Busqué un nombre o dirección, pero no pude ver ningún detalle."
+          }
+        },
+        {
+          "english": "I decided to report the finding to the police officer immediately.",
+          "translations": {
+            "zh": "我决定立即向警察报告我的发现。",
+            "es": "Decidí reportar el hallazgo al oficial de policía inmediatamente."
+          }
+        },
+        {
+          "english": "I hope the person receives their money back without any trouble.",
+          "translations": {
+            "zh": "我希望那个人能顺利地拿回他们的钱。",
+            "es": "Espero que la persona reciba su dinero de vuelta sin ningún problema."
+          }
+        }
+      ]
+    },
+    {
+      "article_id": 118,
+      "langLevel": "A2",
+      "sentences": [
+        {
+          "english": "The instructions for the new printer were extremely difficult to follow.",
+          "translations": {
+            "zh": "新打印机的说明极其难以理解。",
+            "es": "Las instrucciones para la nueva impresora fueron extremadamente difíciles de seguir."
+          }
+        },
+        {
+          "english": "I tried to connect it to the laptop, but there was an error.",
+          "translations": {
+            "zh": "我试图将它连接到笔记本电脑，但出现了错误。",
+            "es": "Intenté conectarlo a la computadora portátil, pero hubo un error."
+          }
+        },
+        {
+          "english": "I read the information several times, but I did not understand it.",
+          "translations": {
+            "zh": "我阅读了好几次信息，但还是不明白。",
+            "es": "Leí la información varias veces, pero no la entendí."
+          }
+        },
+        {
+          "english": "I was about to throw the whole machine across the room.",
+          "translations": {
+            "zh": "我正要将整台机器扔到房间的另一边。",
+            "es": "Estaba a punto de tirar toda la máquina al otro lado de la habitación."
+          }
+        },
+        {
+          "english": "Then I decided to look online for an easier explanation.",
+          "translations": {
+            "zh": "然后我决定在网上寻找一个更简单的解释。",
+            "es": "Luego decidí buscar en línea una explicación más fácil."
+          }
+        }
+      ]
+    },
+    {
+      "article_id": 119,
+      "langLevel": "A2",
+      "sentences": [
+        {
+          "english": "I received an invitation to a party from a new friend yesterday.",
+          "translations": {
+            "zh": "我昨天收到了一个新朋友的派对邀请函。",
+            "es": "Ayer recibí una invitación a una fiesta de un nuevo amigo."
+          }
+        },
+        {
+          "english": "The party will involve a lot of music, including jazz and pop.",
+          "translations": {
+            "zh": "派对将涉及许多音乐，包括爵士乐和流行音乐。",
+            "es": "La fiesta involucrará mucha música, incluyendo jazz y pop."
+          }
+        },
+        {
+          "english": "I want to attend, but I'm nervous because I will know nobody there.",
+          "translations": {
+            "zh": "我想参加，但我很紧张，因为那里我一个人都不认识。",
+            "es": "Quiero asistir, pero estoy nervioso porque no conoceré a nadie allí."
+          }
+        },
+        {
+          "english": "I must try to be brave and not to let my fear prevent me from going.",
+          "translations": {
+            "zh": "我必须努力勇敢，不让我的恐惧阻止我去。",
+            "es": "Debo intentar ser valiente y no dejar que mi miedo me impida ir."
+          }
+        },
+        {
+          "english": "I will wear a nice shirt and trousers and try to enjoy myself.",
+          "translations": {
+            "zh": "我会穿一件漂亮的衬衫和裤子，并努力享受乐趣。",
+            "es": "Usaré una bonita camisa y pantalones y trataré de disfrutar."
+          }
+        }
+      ]
+    },
+    {
+      "article_id": 120,
+      "langLevel": "A2",
+      "sentences": [
+        {
+          "english": "The architect presented an original design for the new town bridge.",
+          "translations": {
+            "zh": "那位建筑师为新的城镇桥梁提出了一个原创设计。",
+            "es": "El arquitecto presentó un diseño original para el nuevo puente de la ciudad."
+          }
+        },
+        {
+          "english": "The structure will be modern and unlike any other in the country.",
+          "translations": {
+            "zh": "这个结构将是现代化的，与国内任何其他结构都不同。",
+            "es": "La estructura será moderna y diferente a cualquier otra en el país."
+          }
+        },
+        {
+          "english": "His purpose was to create a beautiful symbol for the whole community.",
+          "translations": {
+            "zh": "他的目的是为整个社区创造一个美丽的象征。",
+            "es": "Su propósito era crear un hermoso símbolo para toda la comunidad."
+          }
+        },
+        {
+          "english": "The new manager gave his permission to start the process next month.",
+          "translations": {
+            "zh": "新经理允许下个月开始这个过程。",
+            "es": "El nuevo gerente dio su permiso para comenzar el proceso el próximo mes."
+          }
+        },
+        {
+          "english": "It is a huge project, but they will achieve it easily.",
+          "translations": {
+            "zh": "这是一个巨大的项目，但他们将轻松实现它。",
+            "es": "Es un proyecto enorme, pero lo lograrán fácilmente."
+          }
+        }
+      ]
+    },
+    {
+      "article_id": 121,
+      "langLevel": "A2",
+      "sentences": [
+        {
+          "english": "I really need to tidy my cupboard because it contains too many old items.",
+          "translations": {
+            "zh": "我真的需要整理我的橱柜，因为它里面有太多旧物品。",
+            "es": "Realmente necesito ordenar mi armario porque contiene demasiados artículos viejos."
+          }
+        },
+        {
+          "english": "I found a dirty pair of socks and a cup that was missing.",
+          "translations": {
+            "zh": "我发现了一双脏袜子和一个失踪的杯子。",
+            "es": "Encontré un par de calcetines sucios y una taza que faltaba."
+          }
+        },
+        {
+          "english": "I should put the rest of the old stuff into the bin outside.",
+          "translations": {
+            "zh": "我应该把其余的旧东西扔到外面的垃圾桶里。",
+            "es": "Debería poner el resto de las cosas viejas en el cubo de basura de afuera."
+          }
+        },
+        {
+          "english": "It is time to choose what I need and what I should remove.",
+          "translations": {
+            "zh": "是时候选择我需要什么和我应该移除什么了。",
+            "es": "Es hora de elegir lo que necesito y lo que debo quitar."
+          }
+        },
+        {
+          "english": "The whole job will probably take me at least an hour.",
+          "translations": {
+            "zh": "整个工作可能至少需要我一个小时。",
+            "es": "Todo el trabajo probablemente me tomará al menos una hora."
+          }
+        }
+      ]
+    },
+    {
+      "article_id": 122,
+      "langLevel": "A2",
+      "sentences": [
+        {
+          "english": "My grandfather is getting quite old, but he is still independent.",
+          "translations": {
+            "zh": "我的祖父年纪相当大了，但他仍然很独立。",
+            "es": "Mi abuelo se está haciendo bastante mayor, pero sigue siendo independiente."
+          }
+        },
+        {
+          "english": "He lives alone in a quiet village far away from the big city.",
+          "translations": {
+            "zh": "他一个人住在远离大城市的一个安静的村庄里。",
+            "es": "Vive solo en un pueblo tranquilo lejos de la gran ciudad."
+          }
+        },
+        {
+          "english": "He refuses to ask for help with his everyday tasks.",
+          "translations": {
+            "zh": "他拒绝在日常任务中寻求帮助。",
+            "es": "Se niega a pedir ayuda con sus tareas diarias."
+          }
+        },
+        {
+          "english": "He takes his own dog for a walk across the park daily.",
+          "translations": {
+            "zh": "他每天都带着自己的狗穿过公园散步。",
+            "es": "Él lleva a su propio perro a pasear por el parque diariamente."
+          }
+        },
+        {
+          "english": "I often worry about him, but he seems happy and well.",
+          "translations": {
+            "zh": "我经常担心他，但他看起来很开心，身体也很好。",
+            "es": "A menudo me preocupo por él, pero parece feliz y bien."
+          }
+        }
+      ]
+    },
+    {
+      "article_id": 123,
+      "langLevel": "A2",
+      "sentences": [
+        {
+          "english": "I had a dream last night about finding lost gold in the ocean.",
+          "translations": {
+            "zh": "昨晚我做了一个梦，梦到在海洋里发现了失落的黄金。",
+            "es": "Anoche tuve un sueño sobre encontrar oro perdido en el océano."
+          }
+        },
+        {
+          "english": "I was diving deep down to the bottom of the sea to search for it.",
+          "translations": {
+            "zh": "我潜得很深，到海底去寻找它。",
+            "es": "Estaba buceando muy profundo hasta el fondo del mar para buscarlo."
+          }
+        },
+        {
+          "english": "I found a wooden box, but I was not able to open the lock.",
+          "translations": {
+            "zh": "我发现了一个木箱，但我无法打开锁。",
+            "es": "Encontré una caja de madera, pero no pude abrir la cerradura."
+          }
+        },
+        {
+          "english": "A small fish was swimming around me, trying to communicate something.",
+          "translations": {
+            "zh": "一条小鱼在我身边游来游去，试图传达一些信息。",
+            "es": "Un pequeño pez estaba nadando a mi alrededor, tratando de comunicar algo."
+          }
+        },
+        {
+          "english": "The water became colder, and I woke up suddenly from my dream.",
+          "translations": {
+            "zh": "水变得更冷了，我突然从梦中醒来。",
+            "es": "El agua se puso más fría y me desperté de repente de mi sueño."
+          }
+        }
+      ]
+    },
+    {
+      "article_id": 124,
+      "langLevel": "A2",
+      "sentences": [
+        {
+          "english": "The weather in this country can be extremely varied.",
+          "translations": {
+            "zh": "这个国家的天气可能非常多变。",
+            "es": "El clima en este país puede ser extremadamente variado."
+          }
+        },
+        {
+          "english": "We often have snow in winter and then dry heat in summer.",
+          "translations": {
+            "zh": "我们冬天经常下雪，然后夏天又非常干燥炎热。",
+            "es": "A menudo tenemos nieve en invierno y luego calor seco en verano."
+          }
+        },
+        {
+          "english": "It is difficult to know what clothing to wear each morning.",
+          "translations": {
+            "zh": "很难知道每天早上应该穿什么样的衣服。",
+            "es": "Es difícil saber qué ropa usar cada mañana."
+          }
+        },
+        {
+          "english": "I think I prefer the cold, but some people are different.",
+          "translations": {
+            "zh": "我想我更喜欢寒冷，但有些人则不同。",
+            "es": "Creo que prefiero el frío, pero algunas personas son diferentes."
+          }
+        },
+        {
+          "english": "The important thing is to be ready for any condition.",
+          "translations": {
+            "zh": "重要的是要为任何条件做好准备。",
+            "es": "Lo importante es estar listo para cualquier condición."
+          }
+        }
+      ]
+    },
+    {
+      "article_id": 125,
+      "langLevel": "A2",
+      "sentences": [
+        {
+          "english": "Yesterday, a journalist from a national newspaper visited my area.",
+          "translations": {
+            "zh": "昨天，一位来自国家报纸的记者访问了我的地区。",
+            "es": "Ayer, un periodista de un periódico nacional visitó mi área."
+          }
+        },
+        {
+          "english": "He was preparing a report about the local football team.",
+          "translations": {
+            "zh": "他正在准备一份关于当地足球队的报告。",
+            "es": "Estaba preparando un informe sobre el equipo de fútbol local."
+          }
+        },
+        {
+          "english": "He asked me to comment on their recent good results and score.",
+          "translations": {
+            "zh": "他让我评论他们最近的良好成绩和得分。",
+            "es": "Me pidió que comentara sobre sus recientes buenos resultados y puntuación."
+          }
+        },
+        {
+          "english": "I explained that the team was full of local talent this season.",
+          "translations": {
+            "zh": "我解释说，这个赛季球队充满了本地人才。",
+            "es": "Expliqué que el equipo estaba lleno de talento local esta temporada."
+          }
+        },
+        {
+          "english": "He recorded my voice and promised to publish my name correctly.",
+          "translations": {
+            "zh": "他录下了我的声音，并承诺会正确地公布我的名字。",
+            "es": "Grabó mi voz y prometió publicar mi nombre correctamente."
+          }
+        }
+      ]
+    },
+    {
+      "article_id": 126,
+      "langLevel": "A2",
+      "sentences": [
+        {
+          "english": "I decided to join the army after finishing my time at college.",
+          "translations": {
+            "zh": "我决定在大学毕业后加入军队。",
+            "es": "Decidí unirme al ejército después de terminar mi tiempo en la universidad."
+          }
+        },
+        {
+          "english": "I had to learn how to fight and how to behave correctly.",
+          "translations": {
+            "zh": "我必须学习如何战斗以及如何正确地表现。",
+            "es": "Tuve que aprender a luchar y a comportarme correctamente."
+          }
+        },
+        {
+          "english": "The environment was challenging, but the instruction was excellent.",
+          "translations": {
+            "zh": "环境很有挑战性，但指导非常出色。",
+            "es": "El ambiente era desafiante, pero la instrucción fue excelente."
+          }
+        },
+        {
+          "english": "We learned to work together and to protect ourselves.",
+          "translations": {
+            "zh": "我们学会了如何合作和保护自己。",
+            "es": "Aprendimos a trabajar juntos y a protegernos a nosotros mismos."
+          }
+        },
+        {
+          "english": "We were not always successful, but we never failed completely.",
+          "translations": {
+            "zh": "我们并非总是成功，但我们从未完全失败。",
+            "es": "No siempre tuvimos éxito, pero nunca fallamos por completo."
+          }
+        }
+      ]
+    },
+    {
+      "article_id": 127,
+      "langLevel": "A2",
+      "sentences": [
+        {
+          "english": "I always try to listen carefully to the advice from my father.",
+          "translations": {
+            "zh": "我总是努力仔细听取我父亲的建议。",
+            "es": "Siempre trato de escuchar atentamente los consejos de mi padre."
+          }
+        },
+        {
+          "english": "He is an expert in many fields and always has the best suggestion.",
+          "translations": {
+            "zh": "他是许多领域的专家，并且总是有最好的建议。",
+            "es": "Él es un experto en muchos campos y siempre tiene la mejor sugerencia."
+          }
+        },
+        {
+          "english": "For example, he suggested I should learn a foreign language.",
+          "translations": {
+            "zh": "例如，他建议我应该学习一门外语。",
+            "es": "Por ejemplo, sugirió que debería aprender un idioma extranjero."
+          }
+        },
+        {
+          "english": "He said it would give me more options in my future career.",
+          "translations": {
+            "zh": "他说这会给我的未来职业带来更多选择。",
+            "es": "Dijo que me daría más opciones en mi futura carrera."
+          }
+        },
+        {
+          "english": "I think I will attend a class and learn French next year.",
+          "translations": {
+            "zh": "我想我明年会去上课学法语。",
+            "es": "Creo que asistiré a una clase y aprenderé francés el próximo año."
+          }
+        }
+      ]
+    },
+    {
+      "article_id": 128,
+      "langLevel": "A2",
+      "sentences": [
+        {
+          "english": "I felt very tired and unwell, but I tried to express myself well.",
+          "translations": {
+            "zh": "我感到非常疲倦和不适，但我努力表达清楚。",
+            "es": "Me sentía muy cansado e indispuesto, pero traté de expresarme bien."
+          }
+        },
+        {
+          "english": "I had a bad cough and a headache for a couple of days.",
+          "translations": {
+            "zh": "我咳嗽得很厉害，头痛了两天。",
+            "es": "Tuve una tos fuerte y dolor de cabeza por un par de días."
+          }
+        },
+        {
+          "english": "I knew it was probably just the flu, but I wanted to be sure.",
+          "translations": {
+            "zh": "我知道这可能只是流感，但我想确定一下。",
+            "es": "Sabía que probablemente solo era la gripe, pero quería estar seguro."
+          }
+        },
+        {
+          "english": "The doctor listened to my chest and checked my temperature.",
+          "translations": {
+            "zh": "医生听了我的胸部，并检查了我的体温。",
+            "es": "El médico escuchó mi pecho y verificó mi temperatura."
+          }
+        },
+        {
+          "english": "She told me I needed to rest and drink a lot of water to recover.",
+          "translations": {
+            "zh": "她告诉我需要休息并多喝水才能恢复。",
+            "es": "Me dijo que necesitaba descansar y beber mucha agua para recuperarme."
+          }
+        }
+      ]
+    },
+    {
+      "article_id": 129,
+      "langLevel": "A2",
+      "sentences": [
+        {
+          "english": "My school arranged a great trip for us to a big museum.",
+          "translations": {
+            "zh": "我的学校为我们组织了一次很棒的博物馆之旅。",
+            "es": "Mi escuela organizó un gran viaje para nosotros a un museo grande."
+          }
+        },
+        {
+          "english": "It contains ancient objects from all over the world.",
+          "translations": {
+            "zh": "它收藏了来自世界各地的古代物品。",
+            "es": "Contiene objetos antiguos de todo el mundo."
+          }
+        },
+        {
+          "english": "We saw several huge statues and some lovely jewellery.",
+          "translations": {
+            "zh": "我们看到了几尊巨大的雕像和一些可爱的珠宝。",
+            "es": "Vimos varias estatuas enormes y algunas joyas encantadoras."
+          }
+        },
+        {
+          "english": "One of the things that surprised me most was a bone from a wild animal.",
+          "translations": {
+            "zh": "最让我惊讶的事情之一是一块来自野生动物的骨头。",
+            "es": "Una de las cosas que más me sorprendió fue un hueso de un animal salvaje."
+          }
+        },
+        {
+          "english": "It was an excellent way to learn about the history of the earth.",
+          "translations": {
+            "zh": "这是了解地球历史的一个极好的方式。",
+            "es": "Fue una forma excelente de aprender sobre la historia de la tierra."
+          }
+        }
+      ]
+    },
+    {
+      "article_id": 130,
+      "langLevel": "A2",
+      "sentences": [
+        {
+          "english": "I am looking for a new job where I can earn a higher salary.",
+          "translations": {
+            "zh": "我正在寻找一份可以赚取更高薪水的新工作。",
+            "es": "Estoy buscando un nuevo trabajo donde pueda ganar un salario más alto."
+          }
+        },
+        {
+          "english": "I have already worked in the industry for many years as a waiter.",
+          "translations": {
+            "zh": "我已经在餐饮行业做了很多年的服务员。",
+            "es": "Ya he trabajado en la industria por muchos años como mesero."
+          }
+        },
+        {
+          "english": "I think I have enough experience to become a manager.",
+          "translations": {
+            "zh": "我认为我有足够的经验成为一名经理。",
+            "es": "Creo que tengo suficiente experiencia para convertirme en gerente."
+          }
+        },
+        {
+          "english": "I am sending my CV and application to many companies this week.",
+          "translations": {
+            "zh": "这周我正在向许多公司发送我的简历和申请。",
+            "es": "Esta semana estoy enviando mi currículum y solicitud a muchas empresas."
+          }
+        },
+        {
+          "english": "I really hope someone will call me and invite me for an interview.",
+          "translations": {
+            "zh": "我真的希望有人能给我打电话，邀请我去面试。",
+            "es": "Realmente espero que alguien me llame y me invite a una entrevista."
+          }
+        }
+      ]
+    },
+    {
+      "article_id": 131,
+      "langLevel": "A2",
+      "sentences": [
+        {
+          "english": "My brother's new job requires him to travel abroad often.",
+          "translations": {
+            "zh": "我哥哥的新工作要求他经常出国旅行。",
+            "es": "El nuevo trabajo de mi hermano requiere que viaje al extranjero a menudo."
+          }
+        },
+        {
+          "english": "He had to apply for a new passport and a credit card.",
+          "translations": {
+            "zh": "他必须申请一本新护照和一张信用卡。",
+            "es": "Tuvo que solicitar un pasaporte nuevo y una tarjeta de crédito."
+          }
+        },
+        {
+          "english": "He will be a manager in the international department.",
+          "translations": {
+            "zh": "他将成为国际部门的经理。",
+            "es": "Él será un gerente en el departamento internacional."
+          }
+        },
+        {
+          "english": "He hopes to earn a higher salary than his previous one.",
+          "translations": {
+            "zh": "他希望赚取比以前更高的薪水。",
+            "es": "Espera ganar un salario más alto que el anterior."
+          }
+        },
+        {
+          "english": "He needs to attend a conference next week in Berlin.",
+          "translations": {
+            "zh": "他下周需要参加一个在柏林的会议。",
+            "es": "Necesita asistir a una conferencia la próxima semana en Berlín."
+          }
+        },
+        {
+          "english": "It is a big change in his life, but he is excited.",
+          "translations": {
+            "zh": "这是他生活中的一个重大变化，但他很兴奋。",
+            "es": "Es un gran cambio en su vida, pero está emocionado."
+          }
+        }
+      ]
+    },
+    {
+      "article_id": 132,
+      "langLevel": "A2",
+      "sentences": [
+        {
+          "english": "We read a recent report about the climate and the ocean.",
+          "translations": {
+            "zh": "我们阅读了一份关于气候和海洋的最新报告。",
+            "es": "Leímos un informe reciente sobre el clima y el océano."
+          }
+        },
+        {
+          "english": "The government wants to reduce the amount of pollution from factories.",
+          "translations": {
+            "zh": "政府希望减少来自工厂的污染量。",
+            "es": "El gobierno quiere reducir la cantidad de contaminación de las fábricas."
+          }
+        },
+        {
+          "english": "It is necessary to protect our environment for the future.",
+          "translations": {
+            "zh": "为了未来，保护我们的环境是必要的。",
+            "es": "Es necesario proteger nuestro medio ambiente para el futuro."
+          }
+        },
+        {
+          "english": "I hope their strategy will succeed in making a real difference.",
+          "translations": {
+            "zh": "我希望他们的策略能成功地带来真正的不同。",
+            "es": "Espero que su estrategia tenga éxito en hacer una diferencia real."
+          }
+        },
+        {
+          "english": "We should all recycle our rubbish and save water daily.",
+          "translations": {
+            "zh": "我们每天都应该回收垃圾并节约用水。",
+            "es": "Todos deberíamos reciclar nuestra basura y ahorrar agua diariamente."
+          }
+        }
+      ]
+    },
+    {
+      "article_id": 133,
+      "langLevel": "A2",
+      "sentences": [
+        {
+          "english": "I went to a concert of classical music yesterday evening.",
+          "translations": {
+            "zh": "我昨天晚上去听了一场古典音乐会。",
+            "es": "Fui a un concierto de música clásica ayer por la noche."
+          }
+        },
+        {
+          "english": "The audience was huge and listened carefully to the musician.",
+          "translations": {
+            "zh": "观众人数众多，仔细聆听着音乐家。",
+            "es": "La audiencia era enorme y escuchó atentamente al músico."
+          }
+        },
+        {
+          "english": "The sound of the instrument was extremely lovely and loud.",
+          "translations": {
+            "zh": "乐器的声音极其动听且响亮。",
+            "es": "El sonido del instrumento fue extremadamente encantador y fuerte."
+          }
+        },
+        {
+          "english": "I felt very moved by the expression of the music.",
+          "translations": {
+            "zh": "我被音乐的表达深深感动。",
+            "es": "Me sentí muy conmovido por la expresión de la música."
+          }
+        },
+        {
+          "english": "I realize now that I prefer this sort of art.",
+          "translations": {
+            "zh": "我现在意识到我更喜欢这种类型的艺术。",
+            "es": "Ahora me doy cuenta de que prefiero este tipo de arte."
+          }
+        }
+      ]
+    },
+    {
+      "article_id": 134,
+      "langLevel": "A2",
+      "sentences": [
+        {
+          "english": "My young nephew had a bad accident with his bicycle.",
+          "translations": {
+            "zh": "我年轻的侄子骑自行车时出了一场严重的事故。",
+            "es": "Mi joven sobrino tuvo un accidente grave con su bicicleta."
+          }
+        },
+        {
+          "english": "He fell off and got a serious injury on his knee and shoulder.",
+          "translations": {
+            "zh": "他摔了下来，膝盖和肩膀受了重伤。",
+            "es": "Se cayó y tuvo una lesión grave en la rodilla y el hombro."
+          }
+        },
+        {
+          "english": "His parents took him to the hospital immediately.",
+          "translations": {
+            "zh": "他的父母立刻带他去了医院。",
+            "es": "Sus padres lo llevaron al hospital inmediatamente."
+          }
+        },
+        {
+          "english": "The doctor said there was no broken bone, fortunately.",
+          "translations": {
+            "zh": "医生说幸运的是，没有骨折。",
+            "es": "El doctor dijo que afortunadamente no había hueso roto."
+          }
+        },
+        {
+          "english": "He will need to rest and recover for a couple of weeks.",
+          "translations": {
+            "zh": "他需要休息和康复几周。",
+            "es": "Necesitará descansar y recuperarse por un par de semanas."
+          }
+        }
+      ]
+    },
+    {
+      "article_id": 135,
+      "langLevel": "A2",
+      "sentences": [
+        {
+          "english": "I need to buy a new electronic device to improve my learning.",
+          "translations": {
+            "zh": "我需要购买一个新的电子设备来提高我的学习。",
+            "es": "Necesito comprar un nuevo dispositivo electrónico para mejorar mi aprendizaje."
+          }
+        },
+        {
+          "english": "I will search for a laptop or a tablet on the web.",
+          "translations": {
+            "zh": "我会在网上搜索一台笔记本电脑或平板电脑。",
+            "es": "Buscaré una computadora portátil o una tableta en la web."
+          }
+        },
+        {
+          "english": "I always compare the price and the quality online.",
+          "translations": {
+            "zh": "我总是在网上比较价格和质量。",
+            "es": "Siempre comparo el precio y la calidad en línea."
+          }
+        },
+        {
+          "english": "I hope the store will provide a discount or special deal.",
+          "translations": {
+            "zh": "我希望这家商店能提供折扣或特别优惠。",
+            "es": "Espero que la tienda ofrezca un descuento o una oferta especial."
+          }
+        },
+        {
+          "english": "It is necessary to check if it is able to connect to the network.",
+          "translations": {
+            "zh": "有必要检查它是否能够连接到网络。",
+            "es": "Es necesario verificar si es capaz de conectarse a la red."
+          }
+        }
+      ]
+    },
+    {
+      "article_id": 136,
+      "langLevel": "A2",
+      "sentences": [
+        {
+          "english": "The athlete was nervous before the final race.",
+          "translations": {
+            "zh": "那名运动员在决赛前很紧张。",
+            "es": "El atleta estaba nervioso antes de la carrera final."
+          }
+        },
+        {
+          "english": "She had to focus on her goal and avoid the stress.",
+          "translations": {
+            "zh": "她必须专注于她的目标，避免压力。",
+            "es": "Tenía que concentrarse en su meta y evitar el estrés."
+          }
+        },
+        {
+          "english": "Her coach gave her a strategy to achieve the best time.",
+          "translations": {
+            "zh": "她的教练给了她一个策略，以达到最佳时间。",
+            "es": "Su entrenador le dio una estrategia para lograr el mejor tiempo."
+          }
+        },
+        {
+          "english": "She ran with incredible speed and won the award.",
+          "translations": {
+            "zh": "她以惊人的速度跑完了比赛，并赢得了奖项。",
+            "es": "Corrió con una velocidad increíble y ganó el premio."
+          }
+        },
+        {
+          "english": "It was an excellent example of positive thinking and ability.",
+          "translations": {
+            "zh": "这是积极思考和能力的一个绝佳例子。",
+            "es": "Fue un excelente ejemplo de pensamiento positivo y habilidad."
+          }
+        }
+      ]
+    },
+    {
+      "article_id": 137,
+      "langLevel": "A2",
+      "sentences": [
+        {
+          "english": "My daughter wants to study biology at the university next year.",
+          "translations": {
+            "zh": "我的女儿明年想在大学学习生物学。",
+            "es": "Mi hija quiere estudiar biología en la universidad el próximo año."
+          }
+        },
+        {
+          "english": "She must get a good degree to achieve her dream.",
+          "translations": {
+            "zh": "她必须获得一个好的学位才能实现她的梦想。",
+            "es": "Debe obtener un buen título para lograr su sueño."
+          }
+        },
+        {
+          "english": "We had a discussion about the best option for her career.",
+          "translations": {
+            "zh": "我们讨论了她职业生涯的最佳选择。",
+            "es": "Tuvimos una discusión sobre la mejor opción para su carrera."
+          }
+        },
+        {
+          "english": "The professor gave her some advice about the difficult term.",
+          "translations": {
+            "zh": "教授给了她一些关于这个困难学期的建议。",
+            "es": "El profesor le dio algunos consejos sobre el término difícil."
+          }
+        },
+        {
+          "english": "She is definitely an intelligent and clever student.",
+          "translations": {
+            "zh": "她绝对是一个聪明伶俐的学生。",
+            "es": "Definitivamente es una estudiante inteligente y astuta."
+          }
+        }
+      ]
+    },
+    {
+      "article_id": 138,
+      "langLevel": "A2",
+      "sentences": [
+        {
+          "english": "The washing machine had a serious error and broke down.",
+          "translations": {
+            "zh": "洗衣机出现了一个严重的错误，坏掉了。",
+            "es": "La lavadora tuvo un error grave y se estropeó."
+          }
+        },
+        {
+          "english": "I had to call an engineer to repair the electrical fault.",
+          "translations": {
+            "zh": "我不得不打电话给一位工程师来修理这个电气故障。",
+            "es": "Tuve que llamar a un ingeniero para reparar el fallo eléctrico."
+          }
+        },
+        {
+          "english": "He checked the equipment and gave an explanation of the cause.",
+          "translations": {
+            "zh": "他检查了设备，并解释了原因。",
+            "es": "Él revisó el equipo y dio una explicación de la causa."
+          }
+        },
+        {
+          "english": "Fortunately, he was able to fix it easily instead of replacing it.",
+          "translations": {
+            "zh": "幸运的是，他能够轻松修好它，而不是更换。",
+            "es": "Afortunadamente, pudo arreglarlo fácilmente en lugar de reemplazarlo."
+          }
+        },
+        {
+          "english": "Now I can continue to wash my clothes and save some money.",
+          "translations": {
+            "zh": "现在我可以继续洗衣服并省下一些钱了。",
+            "es": "Ahora puedo seguir lavando mi ropa y ahorrar algo de dinero."
+          }
+        }
+      ]
+    },
+    {
+      "article_id": 139,
+      "langLevel": "A2",
+      "sentences": [
+        {
+          "english": "My family and I are planning a trip to explore an ancient castle.",
+          "translations": {
+            "zh": "我的家人和我正计划一次旅行，去探索一座古老的城堡。",
+            "es": "Mi familia y yo estamos planeando un viaje para explorar un castillo antiguo."
+          }
+        },
+        {
+          "english": "It is located on the coast of the country, near the sea.",
+          "translations": {
+            "zh": "它位于这个国家的海岸，靠近大海。",
+            "es": "Está ubicado en la costa del país, cerca del mar."
+          }
+        },
+        {
+          "english": "The architect used huge stone blocks to build the structure.",
+          "translations": {
+            "zh": "建筑师使用了巨大的石块来建造这个结构。",
+            "es": "El arquitecto usó enormes bloques de piedra para construir la estructura."
+          }
+        },
+        {
+          "english": "We will attend a tour to discover the whole history of the site.",
+          "translations": {
+            "zh": "我们将参加一次旅游，了解这个地方的全部历史。",
+            "es": "Asistiremos a un recorrido para descubrir toda la historia del sitio."
+          }
+        },
+        {
+          "english": "I will take many photographs and record a video on my mobile.",
+          "translations": {
+            "zh": "我将拍很多照片，并用我的手机录制一个视频。",
+            "es": "Tomaré muchas fotografías y grabaré un video en mi móvil."
+          }
+        }
+      ]
+    },
+    {
+      "article_id": 140,
+      "langLevel": "A2",
+      "sentences": [
+        {
+          "english": "I felt unwell yesterday with a terrible headache and the flu.",
+          "translations": {
+            "zh": "我昨天感觉不舒服，得了严重的头痛和流感。",
+            "es": "Me sentí mal ayer con un terrible dolor de cabeza y la gripe."
+          }
+        },
+        {
+          "english": "I had a high temperature and my stomach hurt badly.",
+          "translations": {
+            "zh": "我发高烧，胃疼得很厉害。",
+            "es": "Tenía fiebre alta y me dolía mucho el estómago."
+          }
+        },
+        {
+          "english": "I tried to sleep all day, but I could not lie down happily.",
+          "translations": {
+            "zh": "我试着睡了一整天，但我不能平静地躺下。",
+            "es": "Intenté dormir todo el día, pero no pude acostarme felizmente."
+          }
+        },
+        {
+          "english": "My mum gave me some medicine and a hot drink to help.",
+          "translations": {
+            "zh": "我妈妈给了我一些药和一杯热饮来帮忙。",
+            "es": "Mi mamá me dio algo de medicina y una bebida caliente para ayudar."
+          }
+        },
+        {
+          "english": "I think I will feel better tomorrow and be able to return to work.",
+          "translations": {
+            "zh": "我想我明天会感觉好些，能够回去工作。",
+            "es": "Creo que me sentiré mejor mañana y podré volver al trabajo."
+          }
+        }
+      ]
+    },
+    {
+      "article_id": 141,
+      "langLevel": "A2",
+      "sentences": [
+        {
+          "english": "I want to learn more about the writer and author of this novel.",
+          "translations": {
+            "zh": "我想了解更多关于这部小说作者的信息。",
+            "es": "Quiero aprender más sobre el escritor y autor de esta novela."
+          }
+        },
+        {
+          "english": "He has a very original style and creative imagination.",
+          "translations": {
+            "zh": "他有一个非常原创的风格和创造性的想象力。",
+            "es": "Tiene un estilo muy original y una imaginación creativa."
+          }
+        },
+        {
+          "english": "The main character is a detective who solves a crime.",
+          "translations": {
+            "zh": "主角是一位解决犯罪的侦探。",
+            "es": "El personaje principal es un detective que resuelve un crimen."
+          }
+        },
+        {
+          "english": "The book is fiction, but it involves real places and events.",
+          "translations": {
+            "zh": "这本书是小说，但它涉及真实的地点和事件。",
+            "es": "El libro es ficción, pero involucra lugares y eventos reales."
+          }
+        },
+        {
+          "english": "I recommend it to everybody who enjoys a good story.",
+          "translations": {
+            "zh": "我向所有喜欢好故事的人推荐这本书。",
+            "es": "Lo recomiendo a todos los que disfrutan de una buena historia."
+          }
+        }
+      ]
+    },
+    {
+      "article_id": 142,
+      "langLevel": "A2",
+      "sentences": [
+        {
+          "english": "My goal this year is to increase my physical energy.",
+          "translations": {
+            "zh": "我今年的目标是增加我的体力。",
+            "es": "Mi objetivo este año es aumentar mi energía física."
+          }
+        },
+        {
+          "english": "I will try to develop a new habit of daily exercise.",
+          "translations": {
+            "zh": "我将努力养成每天锻炼的新习惯。",
+            "es": "Intentaré desarrollar un nuevo hábito de ejercicio diario."
+          }
+        },
+        {
+          "english": "I plan to run across the bridge towards the park.",
+          "translations": {
+            "zh": "我计划跑过桥，朝公园方向跑去。",
+            "es": "Planeo correr a través del puente hacia el parque."
+          }
+        },
+        {
+          "english": "I hope to improve my speed and weight in the first month.",
+          "translations": {
+            "zh": "我希望在第一个月内提高我的速度和体重。",
+            "es": "Espero mejorar mi velocidad y peso en el primer mes."
+          }
+        },
+        {
+          "english": "It is an important step to a healthier lifestyle.",
+          "translations": {
+            "zh": "这是迈向更健康生活方式的重要一步。",
+            "es": "Es un paso importante hacia un estilo de vida más saludable."
+          }
+        }
+      ]
+    },
+    {
+      "article_id": 143,
+      "langLevel": "A2",
+      "sentences": [
+        {
+          "english": "I found a missing dog in the middle of the road yesterday.",
+          "translations": {
+            "zh": "我昨天在马路中央发现了一只走失的狗。",
+            "es": "Encontré un perro perdido en el medio de la carretera ayer."
+          }
+        },
+        {
+          "english": "The poor animal was scared and had a cut on its leg.",
+          "translations": {
+            "zh": "这只可怜的动物很害怕，腿上有一个伤口。",
+            "es": "El pobre animal estaba asustado y tenía un corte en la pata."
+          }
+        },
+        {
+          "english": "I looked for the owner and the house where it might belong.",
+          "translations": {
+            "zh": "我寻找主人和它可能所属的房子。",
+            "es": "Busqué al dueño y la casa a la que podría pertenecer."
+          }
+        },
+        {
+          "english": "I called the police and they sent an officer to the scene.",
+          "translations": {
+            "zh": "我报了警，他们派了一名警察到现场。",
+            "es": "Llamé a la policía y enviaron a un oficial a la escena."
+          }
+        },
+        {
+          "english": "I hope the pet is safe and will return to its family.",
+          "translations": {
+            "zh": "我希望这只宠物安全，并能回到它的家人身边。",
+            "es": "Espero que la mascota esté segura y regrese con su familia."
+          }
+        }
+      ]
+    },
+    {
+      "article_id": 144,
+      "langLevel": "A2",
+      "sentences": [
+        {
+          "english": "The instructions for my new oven were difficult to understand.",
+          "translations": {
+            "zh": "我的新烤箱的说明很难理解。",
+            "es": "Las instrucciones para mi nuevo horno fueron difíciles de entender."
+          }
+        },
+        {
+          "english": "The language used a lot of specific words and terms.",
+          "translations": {
+            "zh": "所用的语言使用了许多特定的单词和术语。",
+            "es": "El lenguaje utilizó muchas palabras y términos específicos."
+          }
+        },
+        {
+          "english": "I tried to follow the steps carefully, but there was an error.",
+          "translations": {
+            "zh": "我试图仔细地遵循步骤，但出了一个错误。",
+            "es": "Intenté seguir los pasos cuidadosamente, pero hubo un error."
+          }
+        },
+        {
+          "english": "I called the company and asked for a simpler explanation.",
+          "translations": {
+            "zh": "我给公司打了电话，要求一个更简单的解释。",
+            "es": "Llamé a la compañía y pedí una explicación más simple."
+          }
+        },
+        {
+          "english": "The assistant told me to look at the online guide instead.",
+          "translations": {
+            "zh": "助理告诉我去看在线指南。",
+            "es": "El asistente me dijo que mirara la guía en línea en su lugar."
+          }
+        }
+      ]
+    },
+    {
+      "article_id": 145,
+      "langLevel": "A2",
+      "sentences": [
+        {
+          "english": "I received an invitation to a social event this Saturday.",
+          "translations": {
+            "zh": "我收到了本周六一个社交活动的邀请。",
+            "es": "Recibí una invitación a un evento social este sábado."
+          }
+        },
+        {
+          "english": "The party is being organised by my colleague, Sarah.",
+          "translations": {
+            "zh": "这个派对是由我的同事莎拉组织的。",
+            "es": "La fiesta está siendo organizada por mi colega, Sarah."
+          }
+        },
+        {
+          "english": "I have to decide what kind of clothing I will wear.",
+          "translations": {
+            "zh": "我必须决定我将穿什么样的衣服。",
+            "es": "Tengo que decidir qué tipo de ropa usaré."
+          }
+        },
+        {
+          "english": "It will be a good opportunity to meet several new people.",
+          "translations": {
+            "zh": "这将是一个很好的机会去认识一些新朋友。",
+            "es": "Será una buena oportunidad para conocer a varias personas nuevas."
+          }
+        },
+        {
+          "english": "I hope to chat and communicate with the guest audience.",
+          "translations": {
+            "zh": "我希望与来宾进行交谈和交流。",
+            "es": "Espero charlar y comunicarme con la audiencia invitada."
+          }
+        }
+      ]
+    },
+    {
+      "article_id": 146,
+      "langLevel": "A2",
+      "sentences": [
+        {
+          "english": "My father is a businessman who manages a large factory.",
+          "translations": {
+            "zh": "我的父亲是一位管理着一家大工厂的商人。",
+            "es": "Mi padre es un hombre de negocios que dirige una fábrica grande."
+          }
+        },
+        {
+          "english": "He has many employees who work extremely hard there.",
+          "translations": {
+            "zh": "他有许多员工在那里非常努力地工作。",
+            "es": "Tiene muchos empleados que trabajan extremadamente duro allí."
+          }
+        },
+        {
+          "english": "Sometimes they argue about the process or their schedule.",
+          "translations": {
+            "zh": "他们有时会因为流程或时间表而争吵。",
+            "es": "A veces discuten sobre el proceso o su horario."
+          }
+        },
+        {
+          "english": "He always tries to find a solution and be a fair leader.",
+          "translations": {
+            "zh": "他总是试图找到一个解决方案，并成为一个公平的领导者。",
+            "es": "Él siempre trata de encontrar una solución y ser un líder justo."
+          }
+        },
+        {
+          "english": "His purpose is to produce the highest quality product.",
+          "translations": {
+            "zh": "他的目的是生产最高质量的产品。",
+            "es": "Su propósito es producir el producto de la más alta calidad."
+          }
+        }
+      ]
+    },
+    {
+      "article_id": 147,
+      "langLevel": "A2",
+      "sentences": [
+        {
+          "english": "I had a strange dream last night about a king and a queen.",
+          "translations": {
+            "zh": "昨晚我做了一个关于国王和王后的奇怪的梦。",
+            "es": "Tuve un sueño extraño anoche sobre un rey y una reina."
+          }
+        },
+        {
+          "english": "They were standing on a high tower in an old palace.",
+          "translations": {
+            "zh": "他们站在一座古老宫殿的高塔上。",
+            "es": "Estaban parados en una torre alta en un palacio antiguo."
+          }
+        },
+        {
+          "english": "The king was holding a silver instrument in his hand.",
+          "translations": {
+            "zh": "国王手里拿着一个银色的乐器。",
+            "es": "El rey sostenía un instrumento de plata en su mano."
+          }
+        },
+        {
+          "english": "The queen was singing loudly a lovely song of peace.",
+          "translations": {
+            "zh": "王后大声唱着一首可爱的和平歌曲。",
+            "es": "La reina estaba cantando fuerte una hermosa canción de paz."
+          }
+        },
+        {
+          "english": "I woke up suddenly when a loud noise filled the room.",
+          "translations": {
+            "zh": "当一个巨大的噪音充满了房间时，我突然醒了。",
+            "es": "Me desperté de repente cuando un ruido fuerte llenó la habitación."
+          }
+        }
+      ]
+    },
+    {
+      "article_id": 148,
+      "langLevel": "A2",
+      "sentences": [
+        {
+          "english": "I am looking for a cheap flat to rent in the city centre.",
+          "translations": {
+            "zh": "我正在寻找一间在市中心的便宜公寓出租。",
+            "es": "Estoy buscando un piso barato para alquilar en el centro de la ciudad."
+          }
+        },
+        {
+          "english": "The agent showed me a lovely place on the ground floor.",
+          "translations": {
+            "zh": "中介给我看了一个在一楼的可爱地方。",
+            "es": "El agente me mostró un lugar encantador en la planta baja."
+          }
+        },
+        {
+          "english": "It has a modern kitchen and an empty cupboard.",
+          "translations": {
+            "zh": "它有一个现代化的厨房和一个空柜子。",
+            "es": "Tiene una cocina moderna y un armario vacío."
+          }
+        },
+        {
+          "english": "I will need to carry all my furniture and boxes myself.",
+          "translations": {
+            "zh": "我将需要自己搬运我所有的家具和箱子。",
+            "es": "Necesitaré llevar todos mis muebles y cajas yo mismo."
+          }
+        },
+        {
+          "english": "I hope I can arrange the move for the beginning of July.",
+          "translations": {
+            "zh": "我希望能在七月初安排这次搬家。",
+            "es": "Espero poder organizar la mudanza para principios de julio."
+          }
+        }
+      ]
+    },
+    {
+      "article_id": 149,
+      "langLevel": "A2",
+      "sentences": [
+        {
+          "english": "We took a short trip to the countryside among the hills.",
+          "translations": {
+            "zh": "我们去乡村进行了一次短途旅行，在群山之中。",
+            "es": "Hicimos un viaje corto al campo entre las colinas."
+          }
+        },
+        {
+          "english": "The valley was full of green grass and wild animals.",
+          "translations": {
+            "zh": "山谷里长满了绿色的草和野生动物。",
+            "es": "El valle estaba lleno de hierba verde y animales salvajes."
+          }
+        },
+        {
+          "english": "We walked for an hour to reach the edge of the forest.",
+          "translations": {
+            "zh": "我们走了一个小时才到达森林的边缘。",
+            "es": "Caminamos durante una hora para llegar al borde del bosque."
+          }
+        },
+        {
+          "english": "We saw a bear and a snake, but they were far away.",
+          "translations": {
+            "zh": "我们看到了一只熊和一条蛇，但它们离得很远。",
+            "es": "Vimos un oso y una serpiente, pero estaban lejos."
+          }
+        },
+        {
+          "english": "The air was fresh and the view of nature was incredible.",
+          "translations": {
+            "zh": "空气清新，大自然的景色令人难以置信。",
+            "es": "El aire era fresco y la vista de la naturaleza era increíble."
+          }
+        }
+      ]
+    },
+    {
+      "article_id": 150,
+      "langLevel": "A2",
+      "sentences": [
+        {
+          "english": "A journalist was reporting the recent disaster in the region.",
+          "translations": {
+            "zh": "一名记者正在报道该地区的最新灾难。",
+            "es": "Un periodista estaba informando sobre el reciente desastre en la región."
+          }
+        },
+        {
+          "english": "The heavy storm caused extreme damage to the town.",
+          "translations": {
+            "zh": "这场强烈的风暴对城镇造成了极大的破坏。",
+            "es": "La fuerte tormenta causó un daño extremo a la ciudad."
+          }
+        },
+        {
+          "english": "The wind and rain affected every building on the coast.",
+          "translations": {
+            "zh": "风和雨影响了海岸上的每一栋建筑。",
+            "es": "El viento y la lluvia afectaron a todos los edificios de la costa."
+          }
+        },
+        {
+          "english": "Fortunately, the population was safe and moved to higher land.",
+          "translations": {
+            "zh": "幸运的是，居民们是安全的，并搬到了更高的地方。",
+            "es": "Afortunadamente, la población estaba a salvo y se mudó a tierras más altas."
+          }
+        },
+        {
+          "english": "The charity organisation will provide support to repair the trouble.",
+          "translations": {
+            "zh": "慈善组织将提供支持以修复问题。",
+            "es": "La organización benéfica proporcionará apoyo para reparar el problema."
+          }
+        }
+      ]
+    },
+    {
+      "article_id": 151,
+      "langLevel": "A2",
+      "sentences": [
+        {
+          "english": "My sister wants to become a professional engineer.",
+          "translations": {
+            "zh": "我的姐姐想成为一名专业的工程师。",
+            "es": "Mi hermana quiere convertirse en una ingeniera profesional."
+          }
+        },
+        {
+          "english": "She is studying hard to get a degree in physics.",
+          "translations": {
+            "zh": "她正在努力学习以获得物理学学位。",
+            "es": "Ella está estudiando mucho para obtener un título en física."
+          }
+        },
+        {
+          "english": "She needs to understand the movement and energy of a machine.",
+          "translations": {
+            "zh": "她需要了解机器的运动和能量。",
+            "es": "Necesita entender el movimiento y la energía de una máquina."
+          }
+        },
+        {
+          "english": "She also learns about architecture and structure online.",
+          "translations": {
+            "zh": "她也在网上学习建筑和结构。",
+            "es": "Ella también aprende sobre arquitectura y estructura en línea."
+          }
+        },
+        {
+          "english": "She is an active and intelligent individual at the college.",
+          "translations": {
+            "zh": "她是大学里一个积极而聪明的个体。",
+            "es": "Ella es una persona activa e inteligente en la universidad."
+          }
+        }
+      ]
+    },
+    {
+      "article_id": 152,
+      "langLevel": "A2",
+      "sentences": [
+        {
+          "english": "I hate smoking, and I refuse to allow it in my house.",
+          "translations": {
+            "zh": "我讨厌吸烟，我拒绝允许它进入我的房子。",
+            "es": "Odio fumar y me niego a permitirlo en mi casa."
+          }
+        },
+        {
+          "english": "The smell is awful, and it is bad for your health.",
+          "translations": {
+            "zh": "气味很糟糕，对你的健康不好。",
+            "es": "El olor es horrible y es malo para tu salud."
+          }
+        },
+        {
+          "english": "I suggest you avoid all cigarette smoke and live longer.",
+          "translations": {
+            "zh": "我建议你避免所有香烟烟雾，活得更久。",
+            "es": "Sugiero que evites todo el humo de los cigarrillos y vivas más tiempo."
+          }
+        },
+        {
+          "english": "It is impossible to be safe if you breathe the air.",
+          "translations": {
+            "zh": "如果你呼吸空气，就不可能安全。",
+            "es": "Es imposible estar seguro si respiras el aire."
+          }
+        },
+        {
+          "english": "I think it should be against the law to smoke in public places.",
+          "translations": {
+            "zh": "我认为在公共场所吸烟应该违法。",
+            "es": "Creo que debería estar en contra de la ley fumar en lugares públicos."
+          }
+        }
+      ]
+    },
+    {
+      "article_id": 153,
+      "langLevel": "A2",
+      "sentences": [
+        {
+          "english": "The school hall was full of parents for the presentation.",
+          "translations": {
+            "zh": "学校大厅里挤满了来参加演讲的家长。",
+            "es": "El salón de la escuela estaba lleno de padres para la presentación."
+          }
+        },
+        {
+          "english": "The director gave an introduction to the teaching system.",
+          "translations": {
+            "zh": "主任介绍了教学系统。",
+            "es": "El director dio una introducción al sistema de enseñanza."
+          }
+        },
+        {
+          "english": "He spoke about the advantages of learning at this level.",
+          "translations": {
+            "zh": "他谈到了在这个水平学习的优势。",
+            "es": "Habló sobre las ventajas de aprender a este nivel."
+          }
+        },
+        {
+          "english": "He also showed some recent evidence of the children's progress.",
+          "translations": {
+            "zh": "他还展示了一些孩子们进步的最新证据。",
+            "es": "También mostró algunas pruebas recientes del progreso de los niños."
+          }
+        },
+        {
+          "english": "Everyone agreed it was an excellent education for everybody.",
+          "translations": {
+            "zh": "每个人都同意这对每个人来说都是一次极好的教育。",
+            "es": "Todos estuvieron de acuerdo en que era una excelente educación para todos."
+          }
+        }
+      ]
+    },
+    {
+      "article_id": 154,
+      "langLevel": "A2",
+      "sentences": [
+        {
+          "english": "I tried to identify the thief who stole my mobile phone.",
+          "translations": {
+            "zh": "我试图识别偷走我手机的小偷。",
+            "es": "Intenté identificar al ladrón que robó mi teléfono móvil."
+          }
+        },
+        {
+          "english": "The criminal was a male in a blue jacket and thick trousers.",
+          "translations": {
+            "zh": "这名罪犯是一名穿着蓝色夹克和厚裤子的男子。",
+            "es": "El criminal era un hombre con una chaqueta azul y pantalones gruesos."
+          }
+        },
+        {
+          "english": "I saw his appearance clearly for a second at the station.",
+          "translations": {
+            "zh": "我在车站清楚地看到了他的外表一秒钟。",
+            "es": "Vi su apariencia claramente por un segundo en la estación."
+          }
+        },
+        {
+          "english": "I gave the police officer a full description and information.",
+          "translations": {
+            "zh": "我向警察提供了完整的描述和信息。",
+            "es": "Le di al oficial de policía una descripción e información completa."
+          }
+        },
+        {
+          "english": "I hope they catch him quickly and return my item.",
+          "translations": {
+            "zh": "我希望他们能快速抓住他，并归还我的物品。",
+            "es": "Espero que lo atrapen rápido y devuelvan mi artículo."
+          }
+        }
+      ]
+    },
+    {
+      "article_id": 155,
+      "langLevel": "A2",
+      "sentences": [
+        {
+          "english": "My young niece has a lovely collection of toys.",
+          "translations": {
+            "zh": "我的小侄女有一系列可爱的玩具。",
+            "es": "Mi joven sobrina tiene una hermosa colección de juguetes."
+          }
+        },
+        {
+          "english": "Her favourite is a small monkey with curly brown hair.",
+          "translations": {
+            "zh": "她最喜欢的是一只留着卷曲棕色头发的小猴子。",
+            "es": "Su favorito es un pequeño mono con pelo castaño rizado."
+          }
+        },
+        {
+          "english": "The animal always makes her laugh and smile.",
+          "translations": {
+            "zh": "这只动物总是让她笑和微笑。",
+            "es": "El animal siempre la hace reír y sonreír."
+          }
+        },
+        {
+          "english": "She keeps it safely inside a wooden box with a lock.",
+          "translations": {
+            "zh": "她把它安全地放在一个带锁的木箱里。",
+            "es": "Lo guarda de forma segura dentro de una caja de madera con cerradura."
+          }
+        },
+        {
+          "english": "She wants to become a female zookeeper in the future.",
+          "translations": {
+            "zh": "她希望在将来成为一名女性动物园管理员。",
+            "es": "Ella quiere convertirse en una cuidadora de animales mujer en el futuro."
+          }
+        }
+      ]
+    },
+    {
+      "article_id": 156,
+      "langLevel": "A2",
+      "sentences": [
+        {
+          "english": "I saw an advertisement for a new restaurant in the city.",
+          "translations": {
+            "zh": "我在城里看到了一家新餐馆的广告。",
+            "es": "Vi un anuncio de un nuevo restaurante en la ciudad."
+          }
+        },
+        {
+          "english": "The chef prepares fresh food, including beef and fish.",
+          "translations": {
+            "zh": "厨师准备新鲜的食物，包括牛肉和鱼。",
+            "es": "El chef prepara comida fresca, incluyendo carne de res y pescado."
+          }
+        },
+        {
+          "english": "The menu has a variety of dishes for a normal price.",
+          "translations": {
+            "zh": "菜单上有各种各样的菜肴，价格适中。",
+            "es": "El menú tiene una variedad de platos a un precio normal."
+          }
+        },
+        {
+          "english": "It is located near the main railway station on the north side.",
+          "translations": {
+            "zh": "它位于主火车站的北侧附近。",
+            "es": "Está ubicado cerca de la estación principal de tren en el lado norte."
+          }
+        },
+        {
+          "english": "I will book a table for tomorrow evening with my wife.",
+          "translations": {
+            "zh": "我将为明天晚上和我的妻子预订一张桌子。",
+            "es": "Reservaré una mesa para mañana por la noche con mi esposa."
+          }
+        }
+      ]
+    },
+    {
+      "article_id": 157,
+      "langLevel": "A2",
+      "sentences": [
+        {
+          "english": "I was unfortunately late for my flight to the continent.",
+          "translations": {
+            "zh": "不幸的是，我赶往欧洲大陆的航班迟到了。",
+            "es": "Desafortunadamente, llegué tarde a mi vuelo al continente."
+          }
+        },
+        {
+          "english": "I tried to reach the airport quickly, but the traffic was worse.",
+          "translations": {
+            "zh": "我试图快速到达机场，但交通状况更糟。",
+            "es": "Intenté llegar al aeropuerto rápido, pero el tráfico estaba peor."
+          }
+        },
+        {
+          "english": "The airline officer told me it was impossible to board the plane.",
+          "translations": {
+            "zh": "航空公司工作人员告诉我不可能登机了。",
+            "es": "El oficial de la aerolínea me dijo que era imposible abordar el avión."
+          }
+        },
+        {
+          "english": "I had to accept the fact that I had lost my money.",
+          "translations": {
+            "zh": "我不得不接受我损失了钱这个事实。",
+            "es": "Tuve que aceptar el hecho de que había perdido mi dinero."
+          }
+        },
+        {
+          "english": "I will have to book an alternative flight for another day.",
+          "translations": {
+            "zh": "我将不得不预订另一个日期的替代航班。",
+            "es": "Tendré que reservar un vuelo alternativo para otro día."
+          }
+        }
+      ]
+    },
+    {
+      "article_id": 158,
+      "langLevel": "A2",
+      "sentences": [
+        {
+          "english": "We learned about farming and crops in the science lab.",
+          "translations": {
+            "zh": "我们在科学实验室里学习了农业和农作物。",
+            "es": "Aprendimos sobre agricultura y cultivos en el laboratorio de ciencias."
+          }
+        },
+        {
+          "english": "The professor said a farm is a good source of fresh food.",
+          "translations": {
+            "zh": "教授说农场是新鲜食物的良好来源。",
+            "es": "El profesor dijo que una granja es una buena fuente de alimentos frescos."
+          }
+        },
+        {
+          "english": "We saw an experiment with different sorts of vegetable plant.",
+          "translations": {
+            "zh": "我们看到了一个关于不同种类蔬菜植物的实验。",
+            "es": "Vimos un experimento con diferentes tipos de plantas vegetales."
+          }
+        },
+        {
+          "english": "We found that the temperature had a major effect on the grow.",
+          "translations": {
+            "zh": "我们发现温度对生长有重要影响。",
+            "es": "Encontramos que la temperatura tuvo un efecto importante en el crecimiento."
+          }
+        },
+        {
+          "english": "We wrote an essay about the whole process for homework.",
+          "translations": {
+            "zh": "我们写了一篇关于整个过程的作文作为家庭作业。",
+            "es": "Escribimos un ensayo sobre todo el proceso para la tarea."
+          }
+        }
+      ]
+    },
+    {
+      "article_id": 159,
+      "langLevel": "A2",
+      "sentences": [
+        {
+          "english": "I need to buy a new suit for a formal wedding.",
+          "translations": {
+            "zh": "我需要买一套新西装去参加一个正式的婚礼。",
+            "es": "Necesito comprar un traje nuevo para una boda formal."
+          }
+        },
+        {
+          "english": "I prefer a dark colour, perhaps grey or blue.",
+          "translations": {
+            "zh": "我喜欢深色，也许是灰色或蓝色。",
+            "es": "Prefiero un color oscuro, quizás gris o azul."
+          }
+        },
+        {
+          "english": "I asked the assistant to measure my chest and height.",
+          "translations": {
+            "zh": "我让店员量了我的胸围和身高。",
+            "es": "Le pedí al asistente que midiera mi pecho y altura."
+          }
+        },
+        {
+          "english": "The clothes must fit exactly and be comfortable to wear.",
+          "translations": {
+            "zh": "衣服必须完全合身，穿起来要舒服。",
+            "es": "La ropa debe ajustarse exactamente y ser cómoda de llevar."
+          }
+        },
+        {
+          "english": "I also bought a new belt and a smart pair of shoes.",
+          "translations": {
+            "zh": "我还买了一条新皮带和一双漂亮的鞋子。",
+            "es": "También compré un cinturón nuevo y un par de zapatos elegantes."
+          }
+        }
+      ]
+    },
+    {
+      "article_id": 160,
+      "langLevel": "A2",
+      "sentences": [
+        {
+          "english": "The guide told us about the local tradition of fishing.",
+          "translations": {
+            "zh": "导游告诉我们当地的捕鱼传统。",
+            "es": "El guía nos habló sobre la tradición local de la pesca."
+          }
+        },
+        {
+          "english": "The process uses a long rope and a metal net in the river.",
+          "translations": {
+            "zh": "这个过程使用一根长绳子和一张金属网在河里进行。",
+            "es": "El proceso utiliza una cuerda larga y una red de metal en el río."
+          }
+        },
+        {
+          "english": "The men go out early in the morning to catch fish.",
+          "translations": {
+            "zh": "男人们一大早出去捕鱼。",
+            "es": "Los hombres salen temprano por la mañana a pescar."
+          }
+        },
+        {
+          "english": "They sell the quantity they receive to the best restaurant in the area.",
+          "translations": {
+            "zh": "他们把捕获的数量卖给该地区最好的餐馆。",
+            "es": "Venden la cantidad que reciben al mejor restaurante de la zona."
+          }
+        },
+        {
+          "english": "It is a dangerous task, but it is necessary for their lifestyle.",
+          "translations": {
+            "zh": "这是一项危险的任务，但对他们的生活方式是必要的。",
+            "es": "Es una tarea peligrosa, pero es necesaria para su estilo de vida."
+          }
+        }
+      ]
+    },
+    {
+      "article_id": 161,
+      "langLevel": "A2",
+      "sentences": [
+        {
+          "english": "I lost my wallet somewhere on the way to the market.",
+          "translations": {
+            "zh": "我在去市场的路上把钱包弄丢了。",
+            "es": "Perdí mi billetera en algún lugar de camino al mercado."
+          }
+        },
+        {
+          "english": "It contained my credit card and a small amount of cash.",
+          "translations": {
+            "zh": "里面有我的信用卡和少量现金。",
+            "es": "Contenía mi tarjeta de crédito y una pequeña cantidad de efectivo."
+          }
+        },
+        {
+          "english": "I was unhappy and felt stupid that I did not keep it safe.",
+          "translations": {
+            "zh": "我很不高兴，觉得自己没有保管好它很蠢。",
+            "es": "Estaba infeliz y me sentí estúpido por no mantenerla a salvo."
+          }
+        },
+        {
+          "english": "I searched everywhere, but I could not find it anywhere.",
+          "translations": {
+            "zh": "我到处找了，但哪里也找不到。",
+            "es": "Busqué por todas partes, pero no pude encontrarla en ningún lugar."
+          }
+        },
+        {
+          "english": "I had to report the loss to the reception desk at the store.",
+          "translations": {
+            "zh": "我不得不向商店的接待处报告损失。",
+            "es": "Tuve que reportar la pérdida en el mostrador de recepción de la tienda."
+          }
+        }
+      ]
+    },
+    {
+      "article_id": 162,
+      "langLevel": "A2",
+      "sentences": [
+        {
+          "english": "The local team won the soccer competition on Sunday.",
+          "translations": {
+            "zh": "当地的球队在周日赢得了足球比赛。",
+            "es": "El equipo local ganó la competición de fútbol el domingo."
+          }
+        },
+        {
+          "english": "They beat the leader with a final score of three to zero.",
+          "translations": {
+            "zh": "他们以三比零的最终比分击败了领头羊。",
+            "es": "Vencieron al líder con un marcador final de tres a cero."
+          }
+        },
+        {
+          "english": "The whole crowd was cheering loudly at the stadium.",
+          "translations": {
+            "zh": "所有人群都在体育场大声欢呼。",
+            "es": "Toda la multitud estaba vitoreando ruidosamente en el estadio."
+          }
+        },
+        {
+          "english": "The coach gave a brilliant speech about their successful work.",
+          "translations": {
+            "zh": "教练发表了关于他们成功工作的精彩演讲。",
+            "es": "El entrenador dio un discurso brillante sobre su trabajo exitoso."
+          }
+        },
+        {
+          "english": "They will celebrate their victory at a pub tonight.",
+          "translations": {
+            "zh": "他们今晚将在一家酒吧庆祝胜利。",
+            "es": "Celebrarán su victoria en un pub esta noche."
+          }
+        }
+      ]
+    },
+    {
+      "article_id": 163,
+      "langLevel": "A2",
+      "sentences": [
+        {
+          "english": "I need to pack my bag for the trip to the desert.",
+          "translations": {
+            "zh": "我需要收拾我的包，为沙漠之旅做准备。",
+            "es": "Necesito empacar mi bolsa para el viaje al desierto."
+          }
+        },
+        {
+          "english": "The climate there is extremely hot and dry.",
+          "translations": {
+            "zh": "那里的气候非常炎热和干燥。",
+            "es": "El clima allí es extremadamente caluroso y seco."
+          }
+        },
+        {
+          "english": "I will wear a hat to protect my head from the sun.",
+          "translations": {
+            "zh": "我将戴一顶帽子来保护我的头不受阳光照射。",
+            "es": "Usaré un sombrero para proteger mi cabeza del sol."
+          }
+        },
+        {
+          "english": "It is necessary to carry a large quantity of water.",
+          "translations": {
+            "zh": "携带大量的水是必要的。",
+            "es": "Es necesario llevar una gran cantidad de agua."
+          }
+        },
+        {
+          "english": "I hope to see a variety of animal life in the sand.",
+          "translations": {
+            "zh": "我希望在沙滩上看到各种各样的动物生命。",
+            "es": "Espero ver una variedad de vida animal en la arena."
+          }
+        }
+      ]
+    },
+    {
+      "article_id": 164,
+      "langLevel": "A2",
+      "sentences": [
+        {
+          "english": "I saw a strange man behave badly in the street.",
+          "translations": {
+            "zh": "我看到一个陌生男子在街上表现得很差。",
+            "es": "Vi a un hombre extraño comportarse mal en la calle."
+          }
+        },
+        {
+          "english": "He was shouting loudly and acting in a rude manner.",
+          "translations": {
+            "zh": "他大声喊叫，行为举止粗鲁。",
+            "es": "Estaba gritando fuertemente y actuando de una manera grosera."
+          }
+        },
+        {
+          "english": "He tried to push a woman against a wall.",
+          "translations": {
+            "zh": "他试图将一名女子推向墙壁。",
+            "es": "Intentó empujar a una mujer contra una pared."
+          }
+        },
+        {
+          "english": "I decided to act quickly and call the police.",
+          "translations": {
+            "zh": "我决定迅速行动并报警。",
+            "es": "Decidí actuar rápido y llamar a la policía."
+          }
+        },
+        {
+          "english": "The officer said my response was helpful and thanked me.",
+          "translations": {
+            "zh": "警察说我的反应很有帮助并感谢了我。",
+            "es": "El oficial dijo que mi respuesta fue útil y me dio las gracias."
+          }
+        }
+      ]
+    },
+    {
+      "article_id": 165,
+      "langLevel": "A2",
+      "sentences": [
+        {
+          "english": "I need to tidy the whole house before my guest arrives.",
+          "translations": {
+            "zh": "在我的客人到来之前，我需要整理整个房子。",
+            "es": "Necesito ordenar toda la casa antes de que llegue mi invitado."
+          }
+        },
+        {
+          "english": "There is rubbish on the floor and dust everywhere.",
+          "translations": {
+            "zh": "地板上有垃圾，到处都是灰尘。",
+            "es": "Hay basura en el suelo y polvo por todas partes."
+          }
+        },
+        {
+          "english": "I must wash the dirty windows and clean the carpet.",
+          "translations": {
+            "zh": "我必须清洗脏窗户并清洁地毯。",
+            "es": "Debo lavar las ventanas sucias y limpiar la alfombra."
+          }
+        },
+        {
+          "english": "I will move the armchair to the corner of the room.",
+          "translations": {
+            "zh": "我将把扶手椅搬到房间的角落。",
+            "es": "Moveré el sillón a la esquina de la habitación."
+          }
+        },
+        {
+          "english": "I expect it will look lovely and comfortable in the end.",
+          "translations": {
+            "zh": "我期望它最终看起来既可爱又舒服。",
+            "es": "Espero que al final se vea encantador y cómodo."
+          }
+        }
+      ]
+    },
+    {
+      "article_id": 166,
+      "langLevel": "A2",
+      "sentences": [
+        {
+          "english": "The researcher presented his discovery to the president.",
+          "translations": {
+            "zh": "研究人员向总统展示了他的发现。",
+            "es": "El investigador presentó su descubrimiento al presidente."
+          }
+        },
+        {
+          "english": "He had invented a tool to collect data on the planet.",
+          "translations": {
+            "zh": "他发明了一个工具来收集地球上的数据。",
+            "es": "Él había inventado una herramienta para recopilar datos en el planeta."
+          }
+        },
+        {
+          "english": "The device had an original design and bright screen.",
+          "translations": {
+            "zh": "该设备具有原创的设计和明亮的屏幕。",
+            "es": "El dispositivo tenía un diseño original y una pantalla brillante."
+          }
+        },
+        {
+          "english": "He needs permission to publish his findings nationally.",
+          "translations": {
+            "zh": "他需要许可才能在全国范围内公布他的研究结果。",
+            "es": "Necesita permiso para publicar sus hallazgos a nivel nacional."
+          }
+        },
+        {
+          "english": "The government is considering the major effect of the invention.",
+          "translations": {
+            "zh": "政府正在考虑这项发明的重大影响。",
+            "es": "El gobierno está considerando el efecto principal de la invención."
+          }
+        }
+      ]
+    },
+    {
+      "article_id": 167,
+      "langLevel": "A2",
+      "sentences": [
+        {
+          "english": "I went camping by the lake for a couple of days.",
+          "translations": {
+            "zh": "我在湖边露营了两天。",
+            "es": "Fui de campamento junto al lago por un par de días."
+          }
+        },
+        {
+          "english": "It was a lovely site with a deep valley nearby.",
+          "translations": {
+            "zh": "这是一个可爱的地方，附近有一个深深的山谷。",
+            "es": "Era un sitio encantador con un valle profundo cerca."
+          }
+        },
+        {
+          "english": "I had to boil the water before I could cook my food.",
+          "translations": {
+            "zh": "在做饭之前，我必须烧开水。",
+            "es": "Tuve que hervir el agua antes de poder cocinar mi comida."
+          }
+        },
+        {
+          "english": "I watched the moon and the stars in the sky at night.",
+          "translations": {
+            "zh": "我晚上看着天空中的月亮和星星。",
+            "es": "Vi la luna y las estrellas en el cielo por la noche."
+          }
+        },
+        {
+          "english": "I felt alive and independent for the whole period.",
+          "translations": {
+            "zh": "在整个时期里，我感觉自己很有活力和独立。",
+            "es": "Me sentí vivo e independiente durante todo el período."
+          }
+        }
+      ]
+    },
+    {
+      "article_id": 168,
+      "langLevel": "A2",
+      "sentences": [
+        {
+          "english": "The children were playing soccer in the park happily.",
+          "translations": {
+            "zh": "孩子们在公园里开心地踢足球。",
+            "es": "Los niños estaban jugando al fútbol alegremente en el parque."
+          }
+        },
+        {
+          "english": "One boy tried to kick the ball and fell on the ground.",
+          "translations": {
+            "zh": "一个男孩试图踢球，摔倒在地。",
+            "es": "Un niño intentó patear la pelota y se cayó al suelo."
+          }
+        },
+        {
+          "english": "He had pain in his ankle and started to cry loudly.",
+          "translations": {
+            "zh": "他的脚踝很疼，开始大声哭泣。",
+            "es": "Tenía dolor en el tobillo y comenzó a llorar fuertemente."
+          }
+        },
+        {
+          "english": "His dad gave him a hug and put him on a seat to rest.",
+          "translations": {
+            "zh": "他的爸爸给了他一个拥抱，让他坐在座位上休息。",
+            "es": "Su papá le dio un abrazo y lo puso en un asiento para descansar."
+          }
+        },
+        {
+          "english": "He expected to play again very soon and continue the game.",
+          "translations": {
+            "zh": "他期望很快能再次玩耍，并继续比赛。",
+            "es": "Esperaba jugar de nuevo muy pronto y continuar el juego."
+          }
+        }
+      ]
+    },
+    {
+      "article_id": 169,
+      "langLevel": "A2",
+      "sentences": [
+        {
+          "english": "I used to think mathematics was an impossible subject.",
+          "translations": {
+            "zh": "我过去常常认为数学是一门不可能的学科。",
+            "es": "Solía pensar que las matemáticas eran una asignatura imposible."
+          }
+        },
+        {
+          "english": "However, my instructor found a new method of teaching it.",
+          "translations": {
+            "zh": "然而，我的指导老师找到了一个教这门课的新方法。",
+            "es": "Sin embargo, mi instructor encontró un nuevo método para enseñarla."
+          }
+        },
+        {
+          "english": "He showed us the logic and how to solve each problem.",
+          "translations": {
+            "zh": "他向我们展示了逻辑以及如何解决每个问题。",
+            "es": "Nos mostró la lógica y cómo resolver cada problema."
+          }
+        },
+        {
+          "english": "I began to understand the numbers and the answers easily.",
+          "translations": {
+            "zh": "我开始很容易地理解数字和答案。",
+            "es": "Comencé a entender los números y las respuestas fácilmente."
+          }
+        },
+        {
+          "english": "I realize that having a good teacher is the main factor.",
+          "translations": {
+            "zh": "我意识到拥有一位好老师是主要因素。",
+            "es": "Me doy cuenta de que tener un buen maestro es el factor principal."
+          }
+        }
+      ]
+    },
+    {
+      "article_id": 170,
+      "langLevel": "A2",
+      "sentences": [
+        {
+          "english": "I met a traveller at the bar who told me about an adventure.",
+          "translations": {
+            "zh": "我在酒吧遇到了一个旅行者，他给我讲了一个冒险故事。",
+            "es": "Conocí a un viajero en el bar que me contó una aventura."
+          }
+        },
+        {
+          "english": "He sailed his boat alone across the wide ocean.",
+          "translations": {
+            "zh": "他独自一人驾船横渡了广阔的海洋。",
+            "es": "Navegó su barco solo a través del ancho océano."
+          }
+        },
+        {
+          "english": "He had to fight against a huge storm for several days.",
+          "translations": {
+            "zh": "他不得不与一场巨大的风暴搏斗了好几天。",
+            "es": "Tuvo que luchar contra una enorme tormenta durante varios días."
+          }
+        },
+        {
+          "english": "He refused to give up and continued his journey.",
+          "translations": {
+            "zh": "他拒绝放弃，继续他的旅程。",
+            "es": "Se negó a rendirse y continuó su viaje."
+          }
+        },
+        {
+          "english": "He said the experience made him feel strong and brave.",
+          "translations": {
+            "zh": "他说这段经历让他感到坚强和勇敢。",
+            "es": "Dijo que la experiencia lo hizo sentir fuerte y valiente."
+          }
+        }
+      ]
+    }
+  ]
+}

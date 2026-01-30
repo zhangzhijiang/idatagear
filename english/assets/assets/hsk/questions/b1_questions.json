@@ -1,0 +1,5204 @@
+{
+  "questions": [
+    {
+      "questionId": 671,
+      "providerId": "local",
+      "questionText": {
+        "en": "What does the word 'absolutely' mean in this sentence: 'I am absolutely sure about my decision'?"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Vocabulary",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Absolutely' means completely or totally.",
+        "zh": "'Absolutely' 的意思是完全地、彻底地。",
+        "es": "'Absolutely' significa completamente o totalmente."
+      },
+      "optionsJson": {
+        "A": "partly",
+        "B": "completely",
+        "C": "slowly",
+        "D": "safely"
+      },
+      "correctAnswerValue": "B",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 672,
+      "providerId": "local",
+      "questionText": {
+        "en": "Which word best completes the sentence? 'She finally achieved her biggest  {blank}  when she wrote a book.'"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Vocabulary",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "An 'achievement' is something important that you succeed in doing.",
+        "zh": "“Achievement” 指成功完成的重要事情或成就。",
+        "es": "'Achievement' es algo importante que logras hacer."
+      },
+      "optionsJson": {
+        "A": "achievement",
+        "B": "address",
+        "C": "assignment",
+        "D": "activity"
+      },
+      "correctAnswerValue": "A",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 673,
+      "providerId": "local",
+      "questionText": {
+        "en": "What does 'admit' mean in this sentence: 'He finally admitted that he made a mistake'?"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Vocabulary",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Admit' means to agree that something is true, especially something wrong.",
+        "zh": "“Admit” 的意思是承认某事属实，尤其是承认错误。",
+        "es": "'Admit' significa aceptar que algo es verdad, especialmente algo incorrecto."
+      },
+      "optionsJson": {
+        "A": "to explain",
+        "B": "to deny",
+        "C": "to agree it is true",
+        "D": "to guess"
+      },
+      "correctAnswerValue": "C",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 674,
+      "providerId": "local",
+      "questionText": {
+        "en": "Choose the correct meaning of 'annoyed' in the sentence: 'She was annoyed because the meeting started late.'"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Feelings",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Annoyed' means slightly angry or irritated.",
+        "zh": "“Annoyed” 的意思是有点生气或烦躁。",
+        "es": "'Annoyed' significa un poco enojado o irritado."
+      },
+      "optionsJson": {
+        "A": "very happy",
+        "B": "slightly angry",
+        "C": "confused",
+        "D": "tired"
+      },
+      "correctAnswerValue": "B",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 675,
+      "providerId": "local",
+      "questionText": {
+        "en": "What is the meaning of 'apologise' in this sentence: 'He apologised for being late.'?"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Social",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Apologise' means to say sorry for something you did.",
+        "zh": "“Apologise” 的意思是为自己做的事道歉。",
+        "es": "'Apologise' significa pedir perdón por algo que hiciste."
+      },
+      "optionsJson": {
+        "A": "to explain",
+        "B": "to say sorry",
+        "C": "to shout",
+        "D": "to leave"
+      },
+      "correctAnswerValue": "B",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 676,
+      "providerId": "local",
+      "questionText": {
+        "en": "Choose the correct meaning of 'assignment' in this context: 'The teacher gave us a difficult assignment.'"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "School",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Assignment' means a task or piece of work given to someone.",
+        "zh": "“Assignment” 的意思是分配给某人的工作或任务。",
+        "es": "'Assignment' significa una tarea o trabajo dado a alguien."
+      },
+      "optionsJson": {
+        "A": "holiday",
+        "B": "problem",
+        "C": "task",
+        "D": "game"
+      },
+      "correctAnswerValue": "C",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 677,
+      "providerId": "local",
+      "questionText": {
+        "en": "What does 'atmosphere' mean in this sentence: 'The restaurant has a warm and friendly atmosphere'?"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Environment",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Atmosphere' means the feeling or mood of a place.",
+        "zh": "“Atmosphere” 的意思是一个地方的感觉或氛围。",
+        "es": "'Atmosphere' significa el ambiente o sentimiento de un lugar."
+      },
+      "optionsJson": {
+        "A": "weather",
+        "B": "air pollution",
+        "C": "mood of a place",
+        "D": "sound"
+      },
+      "correctAnswerValue": "C",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 678,
+      "providerId": "local",
+      "questionText": {
+        "en": "What does 'average' mean in this sentence: 'He gets an average of eight hours of sleep each night.'?"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Math & Daily Life",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Average' means the usual or typical amount.",
+        "zh": "“Average” 的意思是通常或典型的数量。",
+        "es": "'Average' significa la cantidad usual o típica."
+      },
+      "optionsJson": {
+        "A": "the lowest amount",
+        "B": "the usual amount",
+        "C": "the fastest amount",
+        "D": "the worst amount"
+      },
+      "correctAnswerValue": "B",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 679,
+      "providerId": "local",
+      "questionText": {
+        "en": "What does 'award' mean in: 'She received an award for her artwork'?"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Achievements",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Award' means a prize given for doing something well.",
+        "zh": "“Award” 的意思是因表现优秀而获得的奖项。",
+        "es": "'Award' significa un premio dado por hacer algo bien."
+      },
+      "optionsJson": {
+        "A": "a bill",
+        "B": "a prize",
+        "C": "a warning",
+        "D": "a letter"
+      },
+      "correctAnswerValue": "B",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 680,
+      "providerId": "local",
+      "questionText": {
+        "en": "What does 'balance' mean in: 'He had trouble keeping his balance on the icy road'?"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Daily Life",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Balance' is the ability to stay steady and not fall.",
+        "zh": "“Balance” 是保持稳定、不跌倒的能力。",
+        "es": "'Balance' es la habilidad de mantenerse estable sin caer."
+      },
+      "optionsJson": {
+        "A": "speed",
+        "B": "weight",
+        "C": "steadiness",
+        "D": "strength"
+      },
+      "correctAnswerValue": "C",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 681,
+      "providerId": "local",
+      "questionText": {
+        "en": "What does 'ban' mean in: 'The school banned mobile phones in class'?"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Rules",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Ban' means officially stop something from being used or done.",
+        "zh": "“Ban” 的意思是正式禁止做某事或使用某物。",
+        "es": "'Ban' significa prohibir oficialmente algo."
+      },
+      "optionsJson": {
+        "A": "allow",
+        "B": "watch",
+        "C": "stop officially",
+        "D": "discuss"
+      },
+      "correctAnswerValue": "C",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 682,
+      "providerId": "local",
+      "questionText": {
+        "en": "What does 'battle' mean in this sentence: 'The two sides prepared for a long battle'?"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "History",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Battle' means a fight between two groups, especially during a war.",
+        "zh": "“Battle” 的意思是两个团体间的战斗，尤其在战争中。",
+        "es": "'Battle' significa una lucha entre dos grupos, especialmente en una guerra."
+      },
+      "optionsJson": {
+        "A": "meeting",
+        "B": "fight",
+        "C": "speech",
+        "D": "celebration"
+      },
+      "correctAnswerValue": "B",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 683,
+      "providerId": "local",
+      "questionText": {
+        "en": "What is a 'benefit' as used in: 'Regular exercise has many benefits'?"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Health",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Benefit' means something good or helpful.",
+        "zh": "“Benefit” 的意思是有益处的事物。",
+        "es": "'Benefit' significa algo bueno o útil."
+      },
+      "optionsJson": {
+        "A": "danger",
+        "B": "difficulty",
+        "C": "advantage",
+        "D": "surprise"
+      },
+      "correctAnswerValue": "C",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 684,
+      "providerId": "local",
+      "questionText": {
+        "en": "Choose the meaning of 'brave' in this sentence: 'The brave firefighter entered the burning building.'"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Personality",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Brave' means showing courage and not being afraid to face danger.",
+        "zh": "“Brave” 指勇敢面对危险。",
+        "es": "'Brave' significa mostrar valentía y no tener miedo del peligro."
+      },
+      "optionsJson": {
+        "A": "angry",
+        "B": "afraid",
+        "C": "courageous",
+        "D": "quiet"
+      },
+      "correctAnswerValue": "C",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 685,
+      "providerId": "local",
+      "questionText": {
+        "en": "What does 'breath' mean in: 'He took a deep breath before speaking'?"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Health",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Breath' is the air you take into your lungs.",
+        "zh": "“Breath” 指吸入肺部的空气。",
+        "es": "'Breath' es el aire que entra a los pulmones."
+      },
+      "optionsJson": {
+        "A": "voice",
+        "B": "air taken in",
+        "C": "movement",
+        "D": "sound"
+      },
+      "correctAnswerValue": "B",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 686,
+      "providerId": "local",
+      "questionText": {
+        "en": "What does 'calm' mean in this sentence: 'She stayed calm during the emergency'?"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Feelings",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Calm' means relaxed and not excited or worried.",
+        "zh": "“Calm” 指冷静、不焦虑。",
+        "es": "'Calm' significa tranquilo, no nervioso ni preocupado."
+      },
+      "optionsJson": {
+        "A": "angry",
+        "B": "excited",
+        "C": "relaxed",
+        "D": "sad"
+      },
+      "correctAnswerValue": "C",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 687,
+      "providerId": "local",
+      "questionText": {
+        "en": "Which is the best meaning of 'campaign' in: 'They launched a campaign to reduce plastic use'?"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Social",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "A 'campaign' is an organized series of actions aimed at a particular goal.",
+        "zh": "“Campaign” 是为达成特定目标而组织的一系列行动。",
+        "es": "'Campaign' es una serie organizada de acciones con un objetivo concreto."
+      },
+      "optionsJson": {
+        "A": "a single event",
+        "B": "a plan of actions",
+        "C": "a private meeting",
+        "D": "a kind of food"
+      },
+      "correctAnswerValue": "B",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 688,
+      "providerId": "local",
+      "questionText": {
+        "en": "What does 'campus' refer to in: 'The university campus is beautiful in autumn'?"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Places",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "A 'campus' is the area and buildings of a college or university.",
+        "zh": "“Campus” 是大学或学院的校园及建筑区域。",
+        "es": "'Campus' es el área y los edificios de una universidad o colegio."
+      },
+      "optionsJson": {
+        "A": "a large stadium",
+        "B": "the buildings and grounds of a university",
+        "C": "a shopping mall",
+        "D": "a hospital"
+      },
+      "correctAnswerValue": "B",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 689,
+      "providerId": "local",
+      "questionText": {
+        "en": "What is a 'candidate' in this sentence: 'She is a candidate for the job'?"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Work",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "A 'candidate' is someone being considered for a job or position.",
+        "zh": "“Candidate” 是正在被考虑担任某职位的人。",
+        "es": "'Candidate' es alguien que está siendo considerado para un puesto."
+      },
+      "optionsJson": {
+        "A": "an employee",
+        "B": "a customer",
+        "C": "a person being considered",
+        "D": "a manager"
+      },
+      "correctAnswerValue": "C",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 690,
+      "providerId": "local",
+      "questionText": {
+        "en": "What does 'ceremony' mean in: 'They attended the graduation ceremony'?"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Events",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "A 'ceremony' is a formal event with traditional actions.",
+        "zh": "“Ceremony” 是带有传统程序的正式活动。",
+        "es": "'Ceremony' es un evento formal con acciones tradicionales."
+      },
+      "optionsJson": {
+        "A": "a casual party",
+        "B": "a formal event",
+        "C": "a sports match",
+        "D": "a rehearsal"
+      },
+      "correctAnswerValue": "B",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 691,
+      "providerId": "local",
+      "questionText": {
+        "en": "In this sentence, 'chain' means: 'A chain of shops opened downtown.' What is a 'chain'?"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Business",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "A 'chain' is a group of shops or businesses owned by the same company.",
+        "zh": "“Chain” 指属于同一公司的连锁店或企业集团。",
+        "es": "'Chain' es un grupo de tiendas o negocios propiedad de la misma empresa."
+      },
+      "optionsJson": {
+        "A": "a single small shop",
+        "B": "a series of related stores",
+        "C": "a broken item",
+        "D": "a delivery service"
+      },
+      "correctAnswerValue": "B",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 692,
+      "providerId": "local",
+      "questionText": {
+        "en": "What does 'challenge' mean in: 'Learning a new language is a challenge'?"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Learning",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "A 'challenge' is something difficult that needs effort to do.",
+        "zh": "“Challenge” 是需要努力完成的困难事情。",
+        "es": "'Challenge' es algo difícil que requiere esfuerzo."
+      },
+      "optionsJson": {
+        "A": "a fun game",
+        "B": "an easy task",
+        "C": "a difficult task",
+        "D": "a reward"
+      },
+      "correctAnswerValue": "C",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 693,
+      "providerId": "local",
+      "questionText": {
+        "en": "What does 'champion' refer to here: 'She became the champion of the competition'?"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Sports",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "A 'champion' is someone who wins first place in a contest or competition.",
+        "zh": "“Champion” 是在比赛中获得第一名的人。",
+        "es": "'Champion' es alguien que gana el primer lugar en una competición."
+      },
+      "optionsJson": {
+        "A": "a participant",
+        "B": "a judge",
+        "C": "the winner",
+        "D": "a trainer"
+      },
+      "correctAnswerValue": "C",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 694,
+      "providerId": "local",
+      "questionText": {
+        "en": "What does 'channel' mean in: 'They watched the news on a different channel'?"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Media",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "A 'channel' is a TV station or a way to broadcast programs.",
+        "zh": "“Channel” 是电视台或广播节目的渠道。",
+        "es": "'Channel' es una estación de TV o un medio para emitir programas."
+      },
+      "optionsJson": {
+        "A": "a newspaper",
+        "B": "a TV station",
+        "C": "a radio host",
+        "D": "a movie theater"
+      },
+      "correctAnswerValue": "B",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 695,
+      "providerId": "local",
+      "questionText": {
+        "en": "Which meaning fits 'charge' in: 'They will charge you for late returns'?"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Business",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Charge' here means to ask someone to pay an amount of money.",
+        "zh": "这里的“Charge” 意思是向某人收取一笔费用。",
+        "es": "'Charge' aquí significa pedir a alguien que pague una cantidad de dinero."
+      },
+      "optionsJson": {
+        "A": "to help",
+        "B": "to pay",
+        "C": "to ask for money",
+        "D": "to delay"
+      },
+      "correctAnswerValue": "C",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 696,
+      "providerId": "local",
+      "questionText": {
+        "en": "What does 'cheap' mean in: 'This shop sells cheap clothes'?"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Shopping",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Cheap' means not expensive.",
+        "zh": "“Cheap” 的意思是不昂贵，便宜。",
+        "es": "'Cheap' significa que no es caro."
+      },
+      "optionsJson": {
+        "A": "expensive",
+        "B": "good quality",
+        "C": "not expensive",
+        "D": "fashionable"
+      },
+      "correctAnswerValue": "C",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 697,
+      "providerId": "local",
+      "questionText": {
+        "en": "What does 'cheat' mean in: 'He decided to cheat on the test'?"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Ethics",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Cheat' means to act dishonestly to gain an advantage.",
+        "zh": "“Cheat” 的意思是不诚实地行动以获取优势。",
+        "es": "'Cheat' significa actuar deshonestamente para obtener una ventaja."
+      },
+      "optionsJson": {
+        "A": "to study hard",
+        "B": "to act fairly",
+        "C": "to act dishonestly",
+        "D": "to help others"
+      },
+      "correctAnswerValue": "C",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 698,
+      "providerId": "local",
+      "questionText": {
+        "en": "What does 'cheerful' mean in: 'She was cheerful all morning'?"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Feelings",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Cheerful' means happy and bright in mood.",
+        "zh": "“Cheerful” 的意思是高兴、愉快的心情。",
+        "es": "'Cheerful' significa alegre y de buen ánimo."
+      },
+      "optionsJson": {
+        "A": "sad",
+        "B": "angry",
+        "C": "happy",
+        "D": "bored"
+      },
+      "correctAnswerValue": "C",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 699,
+      "providerId": "local",
+      "questionText": {
+        "en": "In the sentence 'The lab used a chemical to clean the sample', what is a 'chemical'?"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Science",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "A 'chemical' is a substance used in chemistry or industry.",
+        "zh": "“Chemical” 是在化学或工业中使用的物质。",
+        "es": "'Chemical' es una sustancia usada en química o industria."
+      },
+      "optionsJson": {
+        "A": "a tool",
+        "B": "a person",
+        "C": "a substance",
+        "D": "a container"
+      },
+      "correctAnswerValue": "C",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 700,
+      "providerId": "local",
+      "questionText": {
+        "en": "What does 'childhood' mean in: 'He still remembers his childhood friends'?"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Life",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Childhood' is the period of being a child.",
+        "zh": "“Childhood” 是指童年时期。",
+        "es": "'Childhood' es el período de ser niño."
+      },
+      "optionsJson": {
+        "A": "old age",
+        "B": "adulthood",
+        "C": "child period",
+        "D": "teenage years"
+      },
+      "correctAnswerValue": "C",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 701,
+      "providerId": "local",
+      "questionText": {
+        "en": "What does 'claim' mean in: 'She claims she saw the actor in the cafe'?"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Communication",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Claim' means to say that something is true, often without proof.",
+        "zh": "“Claim” 意味着声称某事属实，常常没有证据。",
+        "es": "'Claim' significa decir que algo es cierto, a menudo sin prueba."
+      },
+      "optionsJson": {
+        "A": "to deny",
+        "B": "to say it is true",
+        "C": "to hide",
+        "D": "to find"
+      },
+      "correctAnswerValue": "B",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 702,
+      "providerId": "local",
+      "questionText": {
+        "en": "In the sentence 'Read the first clause of the contract', what is a 'clause'?"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Legal",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "A 'clause' is a specific section or provision in a legal or formal document.",
+        "zh": "“Clause” 是法律或正式文件中的具体条款或章节。",
+        "es": "'Clause' es una sección o disposición específica en un documento legal o formal."
+      },
+      "optionsJson": {
+        "A": "a sentence in a document",
+        "B": "a place to sit",
+        "C": "a kind of currency",
+        "D": "a tool"
+      },
+      "correctAnswerValue": "A",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 703,
+      "providerId": "local",
+      "questionText": {
+        "en": "What does 'clear' mean in: 'It's clear that we need more time'?"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Understanding",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Clear' here means obvious or easy to understand.",
+        "zh": "这里的“Clear” 表示明显或易于理解。",
+        "es": "Aquí 'clear' significa obvio o fácil de entender."
+      },
+      "optionsJson": {
+        "A": "uncertain",
+        "B": "obvious",
+        "C": "difficult",
+        "D": "hidden"
+      },
+      "correctAnswerValue": "B",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 704,
+      "providerId": "local",
+      "questionText": {
+        "en": "What does 'click' mean in: 'Click the link to open the page'?"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Technology",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Click' means to press a button on a mouse or screen to select something.",
+        "zh": "“Click” 指用鼠标或屏幕按下以选择某物。",
+        "es": "'Click' significa presionar un botón del ratón o pantalla para seleccionar algo."
+      },
+      "optionsJson": {
+        "A": "to ignore",
+        "B": "to press a button",
+        "C": "to type text",
+        "D": "to print"
+      },
+      "correctAnswerValue": "B",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 705,
+      "providerId": "local",
+      "questionText": {
+        "en": "Who is a 'client' in: 'The lawyer met with a new client'?"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Business",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "A 'client' is someone who receives professional services from a person or company.",
+        "zh": "“Client” 是接受某人或公司专业服务的人。",
+        "es": "'Client' es alguien que recibe servicios profesionales de una persona o empresa."
+      },
+      "optionsJson": {
+        "A": "a service provider",
+        "B": "a customer of professional services",
+        "C": "a competitor",
+        "D": "an employee"
+      },
+      "correctAnswerValue": "B",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 706,
+      "providerId": "local",
+      "questionText": {
+        "en": "Which best matches 'climb' in: 'They will climb the mountain tomorrow'?"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Action",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Climb' means to go up something, usually using your feet and hands.",
+        "zh": "“Climb” 意味着向上攀爬，通常用手脚。",
+        "es": "'Climb' significa subir algo, normalmente usando pies y manos."
+      },
+      "optionsJson": {
+        "A": "to swim",
+        "B": "to go up",
+        "C": "to sleep",
+        "D": "to run around"
+      },
+      "correctAnswerValue": "B",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 707,
+      "providerId": "local",
+      "questionText": {
+        "en": "What does 'close' mean in: 'Please close the door'?"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Daily Life",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Close' means to move something so it is not open.",
+        "zh": "“Close” 意味着把某物合上，使之不打开。",
+        "es": "'Close' significa mover algo para que no esté abierto."
+      },
+      "optionsJson": {
+        "A": "open",
+        "B": "shut",
+        "C": "paint",
+        "D": "break"
+      },
+      "correctAnswerValue": "B",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 708,
+      "providerId": "local",
+      "questionText": {
+        "en": "What does 'cloth' mean in: 'She bought a new cloth for cleaning'?"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Household",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Cloth' is a piece of fabric used for cleaning or making clothes.",
+        "zh": "“Cloth” 是用于清洁或制作衣物的一块织物。",
+        "es": "'Cloth' es un trozo de tela usado para limpiar o hacer ropa."
+      },
+      "optionsJson": {
+        "A": "a tool",
+        "B": "a fabric",
+        "C": "a liquid",
+        "D": "a small animal"
+      },
+      "correctAnswerValue": "B",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 709,
+      "providerId": "local",
+      "questionText": {
+        "en": "What is a 'clue' in: 'The detective looked for clues at the scene'?"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Crime",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "A 'clue' is a piece of information that helps solve a problem or mystery.",
+        "zh": "“Clue” 是帮助解决问题或谜团的信息片段。",
+        "es": "'Clue' es un dato que ayuda a resolver un problema o misterio."
+      },
+      "optionsJson": {
+        "A": "a cause",
+        "B": "a helpful hint",
+        "C": "a judgment",
+        "D": "a sentence"
+      },
+      "correctAnswerValue": "B",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 710,
+      "providerId": "local",
+      "questionText": {
+        "en": "Which meaning fits 'coach' in: 'The coach trained the football team'?"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Sports",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "A 'coach' is someone who trains or teaches athletes or a team.",
+        "zh": "“Coach” 是训练或指导运动员或团队的人。",
+        "es": "'Coach' es alguien que entrena o enseña a atletas o un equipo."
+      },
+      "optionsJson": {
+        "A": "a player",
+        "B": "a trainer",
+        "C": "a referee",
+        "D": "a fan"
+      },
+      "correctAnswerValue": "B",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 711,
+      "providerId": "local",
+      "questionText": {
+        "en": "What does 'collection' mean in: 'She has a large collection of stamps'?"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Hobbies",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "A 'collection' is a group of objects gathered by someone because they like them.",
+        "zh": "“Collection” 是因为喜爱而收集的一组物品。",
+        "es": "'Collection' es un grupo de objetos reunidos por alguien porque le gustan."
+      },
+      "optionsJson": {
+        "A": "a sale",
+        "B": "a group of items collected",
+        "C": "a donation",
+        "D": "a museum"
+      },
+      "correctAnswerValue": "B",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 712,
+      "providerId": "local",
+      "questionText": {
+        "en": "What does 'combine' mean in: 'Combine the ingredients in a bowl'?"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Cooking",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Combine' means to mix or join things together.",
+        "zh": "“Combine” 意味着将事物混合或连接在一起。",
+        "es": "'Combine' significa mezclar o unir cosas."
+      },
+      "optionsJson": {
+        "A": "to separate",
+        "B": "to mix together",
+        "C": "to heat",
+        "D": "to clean"
+      },
+      "correctAnswerValue": "B",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 713,
+      "providerId": "local",
+      "questionText": {
+        "en": "What does 'comment' mean in: 'Please leave a comment on the article'?"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Online",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "A 'comment' is a short remark expressing an opinion or reaction.",
+        "zh": "“Comment” 是表达观点或反应的简短评论。",
+        "es": "'Comment' es una observación corta que expresa una opinión o reacción."
+      },
+      "optionsJson": {
+        "A": "a long essay",
+        "B": "a short remark",
+        "C": "a private message",
+        "D": "a photograph"
+      },
+      "correctAnswerValue": "B",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 714,
+      "providerId": "local",
+      "questionText": {
+        "en": "What is a 'commercial' in: 'They made a commercial for the new phone'?"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Advertising",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "A 'commercial' is an advertisement shown on TV, online, or radio.",
+        "zh": "“Commercial” 是在电视、网络或广播上播放的广告。",
+        "es": "'Commercial' es un anuncio mostrado en TV, internet o radio."
+      },
+      "optionsJson": {
+        "A": "a song",
+        "B": "an advertisement",
+        "C": "a news report",
+        "D": "a contest"
+      },
+      "correctAnswerValue": "B",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 715,
+      "providerId": "local",
+      "questionText": {
+        "en": "What does 'commit' mean in: 'She decided to commit to the project'?"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Work",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Commit' means to promise or decide firmly to do something.",
+        "zh": "“Commit” 意味着承诺或坚定决定做某事。",
+        "es": "'Commit' significa prometer o decidir firmemente hacer algo."
+      },
+      "optionsJson": {
+        "A": "to avoid",
+        "B": "to promise to do",
+        "C": "to delay",
+        "D": "to cancel"
+      },
+      "correctAnswerValue": "B",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 716,
+      "providerId": "local",
+      "questionText": {
+        "en": "What does 'communication' refer to in: 'Good communication is essential in teams'?"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Work Skills",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Communication' is the exchange of information or ideas between people.",
+        "zh": "“Communication” 是人与人之间信息或想法的交流。",
+        "es": "'Communication' es el intercambio de información o ideas entre personas."
+      },
+      "optionsJson": {
+        "A": "a secret plan",
+        "B": "exchange of information",
+        "C": "a written law",
+        "D": "a physical object"
+      },
+      "correctAnswerValue": "B",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 717,
+      "providerId": "local",
+      "questionText": {
+        "en": "Which fits 'comparison' in: 'In comparison to last year, sales are higher'?"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Analysis",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Comparison' is examining similarities or differences between two things.",
+        "zh": "“Comparison” 是比较两者的相似点或不同点。",
+        "es": "'Comparison' es examinar similitudes o diferencias entre dos cosas."
+      },
+      "optionsJson": {
+        "A": "a single fact",
+        "B": "examining differences or similarities",
+        "C": "a prediction",
+        "D": "a list of names"
+      },
+      "correctAnswerValue": "B",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 718,
+      "providerId": "local",
+      "questionText": {
+        "en": "Who is a 'competitor' in: 'Our main competitor launched a new product'?"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Business",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "A 'competitor' is another company or person who offers similar products or services.",
+        "zh": "“Competitor” 是提供类似产品或服务的其他公司或个人。",
+        "es": "'Competitor' es otra empresa o persona que ofrece productos o servicios similares."
+      },
+      "optionsJson": {
+        "A": "a supplier",
+        "B": "a partner",
+        "C": "a rival company",
+        "D": "a customer"
+      },
+      "correctAnswerValue": "C",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 719,
+      "providerId": "local",
+      "questionText": {
+        "en": "What does 'complex' mean in: 'The problem is complex and needs time to solve'?"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Problem Solving",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Complex' means made of many parts and not easy to understand or solve.",
+        "zh": "“Complex” 意味着由许多部分组成，难以理解或解决。",
+        "es": "'Complex' significa formado por muchas partes y no fácil de comprender o resolver."
+      },
+      "optionsJson": {
+        "A": "simple",
+        "B": "made of many parts",
+        "C": "quick",
+        "D": "funny"
+      },
+      "correctAnswerValue": "B",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 720,
+      "providerId": "local",
+      "questionText": {
+        "en": "What does 'concentrate' mean in: 'Please concentrate on the task'?"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Study Skills",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Concentrate' means to give all your attention to something.",
+        "zh": "“Concentrate” 意味着把全部注意力集中在某件事上。",
+        "es": "'Concentrate' significa prestar toda tu atención a algo."
+      },
+      "optionsJson": {
+        "A": "to rest",
+        "B": "to pay full attention",
+        "C": "to hurry",
+        "D": "to speak loudly"
+      },
+      "correctAnswerValue": "B",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 721,
+      "providerId": "local",
+      "questionText": {
+        "en": "What does the word 'academic' mean in the sentence: 'She has strong academic skills in science'?"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Education",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Academic' relates to studying or education.",
+        "zh": "'Academic' 指与学习或教育有关的。",
+        "es": "'Academic' se refiere a los estudios o la educación."
+      },
+      "optionsJson": {
+        "A": "physical",
+        "B": "related to studying",
+        "C": "dangerous",
+        "D": "expensive"
+      },
+      "correctAnswerValue": "B",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 722,
+      "providerId": "local",
+      "questionText": {
+        "en": "In this sentence, what does 'access' mean: 'Students have access to the computer lab all day'?"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "School",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Access' means the ability to enter or use something.",
+        "zh": "'Access' 意味着进入或使用某物的权限。",
+        "es": "'Access' significa la capacidad de entrar o usar algo."
+      },
+      "optionsJson": {
+        "A": "fear",
+        "B": "permission to use",
+        "C": "a payment",
+        "D": "a problem"
+      },
+      "correctAnswerValue": "B",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 723,
+      "providerId": "local",
+      "questionText": {
+        "en": "What does 'accommodation' mean in: 'We booked accommodation near the beach'?"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Travel",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Accommodation' means a place to stay, such as a room or hotel.",
+        "zh": "'Accommodation' 指住宿的地方，例如房间或旅馆。",
+        "es": "'Accommodation' significa un lugar para quedarse, como un hotel."
+      },
+      "optionsJson": {
+        "A": "a vehicle",
+        "B": "a meal",
+        "C": "a place to stay",
+        "D": "a ticket"
+      },
+      "correctAnswerValue": "C",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 724,
+      "providerId": "local",
+      "questionText": {
+        "en": "What does 'afford' mean in this sentence: 'I can't afford a new laptop right now'?"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Money",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Afford' means to have enough money to buy something.",
+        "zh": "'Afford' 意味着有足够的钱买某物。",
+        "es": "'Afford' significa tener suficiente dinero para comprar algo."
+      },
+      "optionsJson": {
+        "A": "to borrow",
+        "B": "to design",
+        "C": "to afford means to be able to pay",
+        "D": "to break"
+      },
+      "correctAnswerValue": "C",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 725,
+      "providerId": "local",
+      "questionText": {
+        "en": "What does 'agent' mean in: 'He works as a travel agent'?"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Jobs",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "An 'agent' is someone who helps arrange things for others, such as travel plans.",
+        "zh": "'Agent' 指为他人安排事务的人，如旅行计划。",
+        "es": "'Agent' es alguien que ayuda a organizar cosas para otros."
+      },
+      "optionsJson": {
+        "A": "a driver",
+        "B": "a helper who arranges services",
+        "C": "a builder",
+        "D": "a cook"
+      },
+      "correctAnswerValue": "B",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 726,
+      "providerId": "local",
+      "questionText": {
+        "en": "In the sentence 'She walked ahead of us', what does 'ahead' mean?"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Movement",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Ahead' means in front of someone or something.",
+        "zh": "'Ahead' 的意思是在某人或某物前面。",
+        "es": "'Ahead' significa delante de alguien o algo."
+      },
+      "optionsJson": {
+        "A": "behind",
+        "B": "far away",
+        "C": "in front",
+        "D": "inside"
+      },
+      "correctAnswerValue": "C",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 727,
+      "providerId": "local",
+      "questionText": {
+        "en": "What does 'alarm' mean in: 'The alarm went off at 7 AM'?"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Daily Life",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "An 'alarm' is a device that makes a loud sound to wake you or warn you.",
+        "zh": "'Alarm' 是一种发出响声来提醒或唤醒你的装置。",
+        "es": "'Alarm' es un dispositivo que hace un sonido fuerte para despertar o alertar."
+      },
+      "optionsJson": {
+        "A": "a type of food",
+        "B": "a warning or wake-up sound",
+        "C": "a small bag",
+        "D": "a phone"
+      },
+      "correctAnswerValue": "B",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 728,
+      "providerId": "local",
+      "questionText": {
+        "en": "What does 'alternative' mean in: 'We need an alternative solution'?"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Decision Making",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Alternative' means another choice or option.",
+        "zh": "'Alternative' 意味着其他选择或方案。",
+        "es": "'Alternative' significa otra opción."
+      },
+      "optionsJson": {
+        "A": "a problem",
+        "B": "a mistake",
+        "C": "another option",
+        "D": "a warning"
+      },
+      "correctAnswerValue": "C",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 729,
+      "providerId": "local",
+      "questionText": {
+        "en": "What does 'ambition' mean in: 'His ambition is to become a doctor'?"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Goals",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Ambition' means a strong desire to achieve something.",
+        "zh": "'Ambition' 指强烈的愿望去完成某事。",
+        "es": "'Ambition' significa un fuerte deseo de lograr algo."
+      },
+      "optionsJson": {
+        "A": "fear",
+        "B": "strong desire",
+        "C": "money",
+        "D": "a problem"
+      },
+      "correctAnswerValue": "B",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 730,
+      "providerId": "local",
+      "questionText": {
+        "en": "What does 'analyse' mean in: 'Scientists analyse the results carefully'?"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Science",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Analyse' means to study something in detail.",
+        "zh": "'Analyse' 意味着详细研究某事。",
+        "es": "'Analyse' significa estudiar algo en detalle."
+      },
+      "optionsJson": {
+        "A": "ignore",
+        "B": "study closely",
+        "C": "break physically",
+        "D": "copy"
+      },
+      "correctAnswerValue": "B",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 731,
+      "providerId": "local",
+      "questionText": {
+        "en": "What does 'announcement' mean in: 'The school made an announcement about the new schedule'?"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Communication",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "An 'announcement' is public information shared with everyone.",
+        "zh": "'Announcement' 指公开发布的信息。",
+        "es": "'Announcement' es información comunicada al público."
+      },
+      "optionsJson": {
+        "A": "a secret",
+        "B": "public information",
+        "C": "a game",
+        "D": "a question"
+      },
+      "correctAnswerValue": "B",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 732,
+      "providerId": "local",
+      "questionText": {
+        "en": "What does 'apart' mean in: 'The two houses are 50 meters apart'?"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Distance",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Apart' means separated by a distance.",
+        "zh": "'Apart' 意味着被距离分开。",
+        "es": "'Apart' significa separados por una distancia."
+      },
+      "optionsJson": {
+        "A": "next to",
+        "B": "together",
+        "C": "separated",
+        "D": "inside"
+      },
+      "correctAnswerValue": "C",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 733,
+      "providerId": "local",
+      "questionText": {
+        "en": "What does 'appreciate' mean in this sentence: 'I really appreciate your help today'?"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Social",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Appreciate' means to be thankful for something.",
+        "zh": "'Appreciate' 意味着感激某事。",
+        "es": "'Appreciate' significa estar agradecido por algo."
+      },
+      "optionsJson": {
+        "A": "to complain",
+        "B": "to forget",
+        "C": "to be thankful",
+        "D": "to refuse"
+      },
+      "correctAnswerValue": "C",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 734,
+      "providerId": "local",
+      "questionText": {
+        "en": "What does 'arrest' mean in: 'The police arrested the thief'?"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Law",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Arrest' means to take someone away because they broke the law.",
+        "zh": "'Arrest' 意味着因违法而拘捕某人。",
+        "es": "'Arrest' significa detener a alguien por romper la ley."
+      },
+      "optionsJson": {
+        "A": "to warn someone",
+        "B": "to follow someone",
+        "C": "to take someone into police custody",
+        "D": "to help someone"
+      },
+      "correctAnswerValue": "C",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 735,
+      "providerId": "local",
+      "questionText": {
+        "en": "What does 'assist' mean in: 'Doctors assisted the nurses during the operation'?"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Medical",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Assist' means to help someone.",
+        "zh": "'Assist' 意味着帮助某人。",
+        "es": "'Assist' significa ayudar a alguien."
+      },
+      "optionsJson": {
+        "A": "to hurt",
+        "B": "to ignore",
+        "C": "to help",
+        "D": "to teach"
+      },
+      "correctAnswerValue": "C",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 736,
+      "providerId": "local",
+      "questionText": {
+        "en": "In the sentence 'Her attitude was positive', what does 'attitude' mean?"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Personality",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Attitude' means the way someone thinks or feels about something.",
+        "zh": "'Attitude' 指某人对某事的看法或态度。",
+        "es": "'Attitude' significa la manera en que alguien piensa o siente sobre algo."
+      },
+      "optionsJson": {
+        "A": "clothes",
+        "B": "friend",
+        "C": "way of thinking",
+        "D": "schedule"
+      },
+      "correctAnswerValue": "C",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 737,
+      "providerId": "local",
+      "questionText": {
+        "en": "What does 'attach' mean in: 'Please attach the file to your email'?"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Technology",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Attach' means to connect or add something.",
+        "zh": "'Attach' 意味着连接或附加某物。",
+        "es": "'Attach' significa conectar o agregar algo."
+      },
+      "optionsJson": {
+        "A": "to delete",
+        "B": "to change",
+        "C": "to add or connect",
+        "D": "to hide"
+      },
+      "correctAnswerValue": "C",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 738,
+      "providerId": "local",
+      "questionText": {
+        "en": "What does 'attraction' mean in: 'The Eiffel Tower is a famous attraction'?"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Travel",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "An 'attraction' is something interesting that people want to visit.",
+        "zh": "'Attraction' 指吸引人前往的景点或事物。",
+        "es": "'Attraction' es algo interesante que la gente quiere visitar."
+      },
+      "optionsJson": {
+        "A": "a store",
+        "B": "a boring place",
+        "C": "a place people want to visit",
+        "D": "a job"
+      },
+      "correctAnswerValue": "C",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 739,
+      "providerId": "local",
+      "questionText": {
+        "en": "What does 'authority' mean in: 'Only the city authority can approve this request'?"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Government",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "An 'authority' is an official group or person with power.",
+        "zh": "'Authority' 指拥有官方权力的机构或人员。",
+        "es": "'Authority' es un grupo oficial o persona con poder."
+      },
+      "optionsJson": {
+        "A": "a student",
+        "B": "a friend",
+        "C": "an official group",
+        "D": "a machine"
+      },
+      "correctAnswerValue": "C",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 740,
+      "providerId": "local",
+      "questionText": {
+        "en": "What does 'aware' mean in: 'She was aware of the changes'?"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Understanding",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Aware' means knowing about something.",
+        "zh": "'Aware' 意味着知道某事。",
+        "es": "'Aware' significa estar consciente de algo."
+      },
+      "optionsJson": {
+        "A": "not knowing",
+        "B": "angry",
+        "C": "knowing",
+        "D": "forgetting"
+      },
+      "correctAnswerValue": "C",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 741,
+      "providerId": "local",
+      "questionText": {
+        "en": "What does 'backwards' mean in: 'He walked backwards to see the sign'?"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Movement",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Backwards' means moving in the direction behind you.",
+        "zh": "'Backwards' 意味着向后移动。",
+        "es": "'Backwards' significa moverse hacia atrás."
+      },
+      "optionsJson": {
+        "A": "forward",
+        "B": "backward direction",
+        "C": "quickly",
+        "D": "sideways"
+      },
+      "correctAnswerValue": "B",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 742,
+      "providerId": "local",
+      "questionText": {
+        "en": "What does 'base' mean in: 'This table has a strong metal base'?"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Objects",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Base' means the bottom or foundation of something.",
+        "zh": "'Base' 指某物的底部或基础。",
+        "es": "'Base' significa la parte inferior o fundamento de algo."
+      },
+      "optionsJson": {
+        "A": "top",
+        "B": "middle",
+        "C": "bottom part",
+        "D": "color"
+      },
+      "correctAnswerValue": "C",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 743,
+      "providerId": "local",
+      "questionText": {
+        "en": "What does 'battery' mean in: 'My phone battery is almost empty'?"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Technology",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "A 'battery' is a device that stores power for machines.",
+        "zh": "'Battery' 是为设备储存电力的装置。",
+        "es": "'Battery' es un dispositivo que almacena energía para aparatos."
+      },
+      "optionsJson": {
+        "A": "screen",
+        "B": "keyboard",
+        "C": "power device",
+        "D": "case"
+      },
+      "correctAnswerValue": "C",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 744,
+      "providerId": "local",
+      "questionText": {
+        "en": "In the sentence 'The bee flew around the flowers', what does 'bee' mean?"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Animals",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "A 'bee' is an insect that produces honey.",
+        "zh": "'Bee' 是一种会产蜜的昆虫。",
+        "es": "'Bee' es un insecto que produce miel."
+      },
+      "optionsJson": {
+        "A": "a bird",
+        "B": "a fish",
+        "C": "a honey-producing insect",
+        "D": "a machine"
+      },
+      "correctAnswerValue": "C",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 745,
+      "providerId": "local",
+      "questionText": {
+        "en": "What does 'belief' mean in: 'Her belief in hard work is very strong'?"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Ideas",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Belief' means an idea that someone thinks is true.",
+        "zh": "'Belief' 指某人认为是真实的观点。",
+        "es": "'Belief' significa una idea que alguien cree que es cierta."
+      },
+      "optionsJson": {
+        "A": "a lie",
+        "B": "a doubt",
+        "C": "something someone believes",
+        "D": "a fear"
+      },
+      "correctAnswerValue": "C",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 746,
+      "providerId": "local",
+      "questionText": {
+        "en": "What does 'bite' mean in: 'Be careful, the dog might bite'?"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Animals",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Bite' means to use teeth to cut something.",
+        "zh": "'Bite' 意味着用牙咬某物。",
+        "es": "'Bite' significa usar los dientes para cortar algo."
+      },
+      "optionsJson": {
+        "A": "to jump",
+        "B": "to run",
+        "C": "to use teeth to cut",
+        "D": "to smell"
+      },
+      "correctAnswerValue": "C",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 747,
+      "providerId": "local",
+      "questionText": {
+        "en": "What does 'block' mean in: 'A large truck is blocking the road'?"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Movement",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Block' means to stop something from passing.",
+        "zh": "'Block' 意味着阻止某物通过。",
+        "es": "'Block' significa impedir que algo pase."
+      },
+      "optionsJson": {
+        "A": "to clean",
+        "B": "to allow",
+        "C": "to stop passage",
+        "D": "to drop"
+      },
+      "correctAnswerValue": "C",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 748,
+      "providerId": "local",
+      "questionText": {
+        "en": "What does 'bomb' mean in: 'The bomb exploded in the field'?"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Safety",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "A 'bomb' is an explosive weapon.",
+        "zh": "'Bomb' 是一种爆炸性武器。",
+        "es": "'Bomb' es un arma explosiva."
+      },
+      "optionsJson": {
+        "A": "a vehicle",
+        "B": "a toy",
+        "C": "an explosive device",
+        "D": "a plant"
+      },
+      "correctAnswerValue": "C",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 749,
+      "providerId": "local",
+      "questionText": {
+        "en": "What does 'border' mean in: 'We crossed the border into another country'?"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Geography",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Border' means the line between two countries.",
+        "zh": "'Border' 指两个国家之间的边界。",
+        "es": "'Border' significa la línea entre dos países."
+      },
+      "optionsJson": {
+        "A": "a building",
+        "B": "a river",
+        "C": "a country line",
+        "D": "a park"
+      },
+      "correctAnswerValue": "C",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 750,
+      "providerId": "local",
+      "questionText": {
+        "en": "What does 'branch' mean in: 'Birds sat on the branch of the tree'?"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Nature",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "A 'branch' is a part of a tree that grows from the trunk.",
+        "zh": "'Branch' 是树干上长出的部分。",
+        "es": "'Branch' es una parte del árbol que crece del tronco."
+      },
+      "optionsJson": {
+        "A": "a leaf",
+        "B": "a type of animal",
+        "C": "a part of a tree",
+        "D": "a stone"
+      },
+      "correctAnswerValue": "C",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 751,
+      "providerId": "local",
+      "questionText": {
+        "en": "Choose the best sentence using the word 'brand'."
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Business",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "A 'brand' is a product name that customers recognize.",
+        "zh": "'Brand' 指消费者熟悉的产品名称或品牌。",
+        "es": "'Brand' es un nombre de producto que los clientes reconocen."
+      },
+      "optionsJson": {
+        "A": "She drove the brand across the street.",
+        "B": "This brand of shoes is very popular.",
+        "C": "He brand the paper on the desk.",
+        "D": "The brand slept all night."
+      },
+      "correctAnswerValue": "B",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 752,
+      "providerId": "local",
+      "questionText": {
+        "en": "Fill in the blank: 'Please take a deep   {blank}  before you start speaking.'"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Health",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "The correct word is 'breath,' meaning the air you inhale.",
+        "zh": "正确的词是“breath”，意思是吸入的空气。",
+        "es": "La palabra correcta es 'breath', que significa el aire que inhalas."
+      },
+      "optionsJson": {
+        "A": "break",
+        "B": "bread",
+        "C": "breath",
+        "D": "bright"
+      },
+      "correctAnswerValue": "C",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 753,
+      "providerId": "local",
+      "questionText": {
+        "en": "Which word is closest in meaning to 'calm'?"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Emotions",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Calm' means relaxed and peaceful.",
+        "zh": "'Calm' 意味着冷静和平静。",
+        "es": "'Calm' significa relajado y tranquilo."
+      },
+      "optionsJson": {
+        "A": "nervous",
+        "B": "quiet",
+        "C": "angry",
+        "D": "loud"
+      },
+      "correctAnswerValue": "B",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 754,
+      "providerId": "local",
+      "questionText": {
+        "en": "Choose the correct sentence using the word 'candidate'."
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Politics",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "A 'candidate' is a person trying to get a job or win an election.",
+        "zh": "'Candidate' 指正在争取职位或竞选的人。",
+        "es": "'Candidate' es una persona que intenta conseguir un trabajo o ganar una elección."
+      },
+      "optionsJson": {
+        "A": "He candidate the cup on the table.",
+        "B": "The company interviewed each candidate last Monday.",
+        "C": "The candidate flew in the sky.",
+        "D": "She spilled water on the candidate."
+      },
+      "correctAnswerValue": "B",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 755,
+      "providerId": "local",
+      "questionText": {
+        "en": "Fill the blank: 'The ceremony will   {blank}  at 10 AM in the main hall.'"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Events",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "Ceremonies usually 'take place' at a specific time.",
+        "zh": "仪式通常在特定时间 'take place'（举行）。",
+        "es": "Las ceremonias normalmente 'take place' (tienen lugar) a una hora específica."
+      },
+      "optionsJson": {
+        "A": "take place",
+        "B": "take out",
+        "C": "take over",
+        "D": "take down"
+      },
+      "correctAnswerValue": "A",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 756,
+      "providerId": "local",
+      "questionText": {
+        "en": "Which option correctly uses the word 'challenge'?"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Difficulty",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "A 'challenge' is something difficult that requires effort.",
+        "zh": "'Challenge' 指需要努力才能完成的困难事情。",
+        "es": "'Challenge' es algo difícil que requiere esfuerzo."
+      },
+      "optionsJson": {
+        "A": "Solving the puzzle was a real challenge.",
+        "B": "He challenge the soup for lunch.",
+        "C": "The challenge sang loudly.",
+        "D": "She bought a new challenge at the store."
+      },
+      "correctAnswerValue": "A",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 757,
+      "providerId": "local",
+      "questionText": {
+        "en": "Which sentence uses 'clause' correctly?"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Grammar",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "A 'clause' is part of a sentence containing a subject and a verb.",
+        "zh": "'Clause' 指包含主语和动词的句子部分。",
+        "es": "'Clause' es una parte de una oración con sujeto y verbo."
+      },
+      "optionsJson": {
+        "A": "The lawyer added a new clause to the contract.",
+        "B": "She clause the door open.",
+        "C": "The clause ran quickly.",
+        "D": "He ate a clause for dinner."
+      },
+      "correctAnswerValue": "A",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 758,
+      "providerId": "local",
+      "questionText": {
+        "en": "Fill in the blank: 'Please leave a   {blank}  after the beep.'"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Communication",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "The correct answer is 'message'.",
+        "zh": "正确答案是“message”（留言）。",
+        "es": "La respuesta correcta es 'message'."
+      },
+      "optionsJson": {
+        "A": "message",
+        "B": "mirror",
+        "C": "medicine",
+        "D": "mission"
+      },
+      "correctAnswerValue": "A",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 759,
+      "providerId": "local",
+      "questionText": {
+        "en": "Which option is closest in meaning to 'commercial'?"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Business",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Commercial' refers to activities related to business or trade.",
+        "zh": "'Commercial' 指与商业和贸易有关的。",
+        "es": "'Commercial' se refiere a actividades de comercio o negocios."
+      },
+      "optionsJson": {
+        "A": "business-related",
+        "B": "quiet",
+        "C": "free",
+        "D": "slow"
+      },
+      "correctAnswerValue": "A",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 760,
+      "providerId": "local",
+      "questionText": {
+        "en": "Choose the correct use of the word 'conclusion'."
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Logic",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "A 'conclusion' is the final part or a final decision after thinking.",
+        "zh": "'Conclusion' 指最终部分或经过思考后的决定。",
+        "es": "'Conclusion' es la parte final o una decisión después de pensar."
+      },
+      "optionsJson": {
+        "A": "She wrote a conclusion at the end of her essay.",
+        "B": "The conclusion barked loudly.",
+        "C": "He conclusion the door.",
+        "D": "They cooked a conclusion."
+      },
+      "correctAnswerValue": "A",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 761,
+      "providerId": "local",
+      "questionText": {
+        "en": "Fill in the blank: 'The doctor will   {blank}  the patient to check for injuries.'"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Health",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Examine' means to look at something carefully.",
+        "zh": "“Examine” 的意思是仔细检查。",
+        "es": "'Examine' significa mirar algo con atención."
+      },
+      "optionsJson": {
+        "A": "examine",
+        "B": "exchange",
+        "C": "excite",
+        "D": "extend"
+      },
+      "correctAnswerValue": "A",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 762,
+      "providerId": "local",
+      "questionText": {
+        "en": "Choose the sentence that correctly uses the word 'confident'."
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Emotions",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Confident' means sure of yourself.",
+        "zh": "“Confident” 意味着对自己有信心。",
+        "es": "'Confident' significa estar seguro de ti mismo."
+      },
+      "optionsJson": {
+        "A": "She felt confident before the interview.",
+        "B": "He confident the sandwich.",
+        "C": "The confident was heavy.",
+        "D": "They bought a confident at the store."
+      },
+      "correctAnswerValue": "A",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 763,
+      "providerId": "local",
+      "questionText": {
+        "en": "Which word best completes the sentence? 'There is no clear   {blank}  for the sudden power outage.'"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "General Knowledge",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Explanation' fits the context of giving a reason.",
+        "zh": "“Explanation” 表示给出原因，符合语境。",
+        "es": "'Explanation' encaja porque significa dar una razón."
+      },
+      "optionsJson": {
+        "A": "explanation",
+        "B": "explosion",
+        "C": "explorer",
+        "D": "expense"
+      },
+      "correctAnswerValue": "A",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 764,
+      "providerId": "local",
+      "questionText": {
+        "en": "Choose the correct meaning of 'former' in the sentence: 'She met with a former colleague yesterday.'"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Time/Sequence",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Former' means someone from the past, not current.",
+        "zh": "“Former” 意思是过去的、以前的。",
+        "es": "'Former' significa alguien del pasado, no actual."
+      },
+      "optionsJson": {
+        "A": "current",
+        "B": "previous",
+        "C": "future",
+        "D": "angry"
+      },
+      "correctAnswerValue": "B",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 765,
+      "providerId": "local",
+      "questionText": {
+        "en": "Fill in the blank: 'This restaurant has a good   {blank}  for fresh seafood.'"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Food",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Reputation' means what people generally think about something.",
+        "zh": "“Reputation” 指人们普遍对某事的看法。",
+        "es": "'Reputation' significa lo que la gente piensa de algo."
+      },
+      "optionsJson": {
+        "A": "reputation",
+        "B": "represent",
+        "C": "reflection",
+        "D": "relation"
+      },
+      "correctAnswerValue": "A",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 766,
+      "providerId": "local",
+      "questionText": {
+        "en": "Choose the best option: 'The driver had to take a different   {blank}  because of road construction.'"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Travel",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Route' refers to the path you take from one place to another.",
+        "zh": "“Route” 指从一个地方到另一个地方的路线。",
+        "es": "'Route' se refiere al camino que tomas de un lugar a otro."
+      },
+      "optionsJson": {
+        "A": "route",
+        "B": "routine",
+        "C": "root",
+        "D": "room"
+      },
+      "correctAnswerValue": "A",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 767,
+      "providerId": "local",
+      "questionText": {
+        "en": "Which sentence uses 'impact' correctly?"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "General",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Impact' means strong effect or influence.",
+        "zh": "“Impact” 指强烈的影响。",
+        "es": "'Impact' significa un efecto o influencia fuerte."
+      },
+      "optionsJson": {
+        "A": "The new policy had a big impact on employees.",
+        "B": "He impact a sandwich.",
+        "C": "The impact slept early.",
+        "D": "She bought an impact for dinner."
+      },
+      "correctAnswerValue": "A",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 768,
+      "providerId": "local",
+      "questionText": {
+        "en": "Fill the blank: 'He decided to   {blank}  the offer after thinking about it carefully.'"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Business",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Accept' is the correct verb for agreeing to an offer.",
+        "zh": "“Accept” 是接受提议的正确动词。",
+        "es": "'Accept' es el verbo correcto para aceptar una oferta."
+      },
+      "optionsJson": {
+        "A": "accept",
+        "B": "accuse",
+        "C": "access",
+        "D": "arrange"
+      },
+      "correctAnswerValue": "A",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 769,
+      "providerId": "local",
+      "questionText": {
+        "en": "Choose the correct meaning: 'The temperature will remain stable for the next few days.'"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Weather",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Stable' means not changing or steady.",
+        "zh": "“Stable” 意思是稳定、不变。",
+        "es": "'Stable' significa sin cambios o constante."
+      },
+      "optionsJson": {
+        "A": "keep steady",
+        "B": "drop quickly",
+        "C": "rise sharply",
+        "D": "freeze"
+      },
+      "correctAnswerValue": "A",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 770,
+      "providerId": "local",
+      "questionText": {
+        "en": "Which sentence uses 'variety' correctly?"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "General",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Variety' means many different types.",
+        "zh": "“Variety” 指多种不同的类型。",
+        "es": "'Variety' significa muchos tipos diferentes."
+      },
+      "optionsJson": {
+        "A": "The store sells a wide variety of fruits.",
+        "B": "She variety the door.",
+        "C": "The variety laughed loudly.",
+        "D": "He bought a variety to eat."
+      },
+      "correctAnswerValue": "A",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 771,
+      "providerId": "local",
+      "questionText": {
+        "en": "Fill in the blank: 'The team worked together to   {blank}  the problem.'"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Problem Solving",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Solve' means to find an answer.",
+        "zh": "“Solve” 意思是找到答案。",
+        "es": "'Solve' significa encontrar una solución."
+      },
+      "optionsJson": {
+        "A": "solve",
+        "B": "serve",
+        "C": "save",
+        "D": "sell"
+      },
+      "correctAnswerValue": "A",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 772,
+      "providerId": "local",
+      "questionText": {
+        "en": "Which word best describes someone who is very good at their job: 'She is a   {blank}  worker.'"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Work",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Skilled' means having training or ability.",
+        "zh": "“Skilled” 指有技能或受过训练。",
+        "es": "'Skilled' significa tener habilidad o entrenamiento."
+      },
+      "optionsJson": {
+        "A": "skilled",
+        "B": "silent",
+        "C": "simple",
+        "D": "slow"
+      },
+      "correctAnswerValue": "A",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 773,
+      "providerId": "local",
+      "questionText": {
+        "en": "Choose the best option: 'The book was so   {blank}  that I read it in one day.'"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Reading",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Interesting' means it catches your attention.",
+        "zh": "“Interesting” 表示引人入胜。",
+        "es": "'Interesting' significa que capta tu atención."
+      },
+      "optionsJson": {
+        "A": "interesting",
+        "B": "injured",
+        "C": "inside",
+        "D": "invisible"
+      },
+      "correctAnswerValue": "A",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 774,
+      "providerId": "local",
+      "questionText": {
+        "en": "Which sentence uses 'research' correctly?"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Science",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Research' means studying something to learn more.",
+        "zh": "“Research” 意思是研究某事以了解更多。",
+        "es": "'Research' significa estudiar algo para aprender más."
+      },
+      "optionsJson": {
+        "A": "She did research on climate change.",
+        "B": "He research the sandwich.",
+        "C": "The research slept early.",
+        "D": "They bought a research at the store."
+      },
+      "correctAnswerValue": "A",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 775,
+      "providerId": "local",
+      "questionText": {
+        "en": "Fill the blank: 'The university will   {blank}  more students next year.'"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Education",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Admit' means allow someone to enter.",
+        "zh": "“Admit” 意思是允许进入。",
+        "es": "'Admit' significa permitir la entrada."
+      },
+      "optionsJson": {
+        "A": "admit",
+        "B": "address",
+        "C": "adopt",
+        "D": "add"
+      },
+      "correctAnswerValue": "A",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 776,
+      "providerId": "local",
+      "questionText": {
+        "en": "Which word best fits: 'He felt a strong   {blank}  to visit his hometown again.'"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Feelings",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Desire' means a strong wish.",
+        "zh": "“Desire” 表示强烈的愿望。",
+        "es": "'Desire' significa un fuerte deseo."
+      },
+      "optionsJson": {
+        "A": "desire",
+        "B": "design",
+        "C": "desk",
+        "D": "delay"
+      },
+      "correctAnswerValue": "A",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 777,
+      "providerId": "local",
+      "questionText": {
+        "en": "Choose the correct usage: 'The teacher asked the students to work in   {blank} .'"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "School",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Pairs' means two people working together.",
+        "zh": "“Pairs” 意思是两人一组。",
+        "es": "'Pairs' significa dos personas trabajando juntas."
+      },
+      "optionsJson": {
+        "A": "pairs",
+        "B": "paints",
+        "C": "papers",
+        "D": "paths"
+      },
+      "correctAnswerValue": "A",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 778,
+      "providerId": "local",
+      "questionText": {
+        "en": "Fill the blank: 'The new software is not   {blank}  with older computers.'"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Technology",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Compatible' means able to work together.",
+        "zh": "“Compatible” 意思是能够一起工作。",
+        "es": "'Compatible' significa que puede funcionar junto con algo."
+      },
+      "optionsJson": {
+        "A": "compatible",
+        "B": "comfortable",
+        "C": "complete",
+        "D": "common"
+      },
+      "correctAnswerValue": "A",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 779,
+      "providerId": "local",
+      "questionText": {
+        "en": "Choose the best sentence using 'tradition'."
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Culture",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Tradition' means long-established customs.",
+        "zh": "“Tradition” 指长期形成的习俗。",
+        "es": "'Tradition' significa costumbres establecidas durante mucho tiempo."
+      },
+      "optionsJson": {
+        "A": "It is a family tradition to have dinner together on Sundays.",
+        "B": "He tradition the dog.",
+        "C": "The tradition danced loudly.",
+        "D": "She bought a tradition to eat."
+      },
+      "correctAnswerValue": "A",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 780,
+      "providerId": "local",
+      "questionText": {
+        "en": "Which option correctly completes the sentence? 'They need to   {blank}  the project before Friday.'"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Work",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Complete' means finish something.",
+        "zh": "“Complete” 意思是完成某事。",
+        "es": "'Complete' significa terminar algo."
+      },
+      "optionsJson": {
+        "A": "complete",
+        "B": "compete",
+        "C": "complain",
+        "D": "combine"
+      },
+      "correctAnswerValue": "A",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 781,
+      "providerId": "local",
+      "questionText": {
+        "en": "What does the word 'absolutely' most nearly mean?"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Vocabulary",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Absolutely' means completely or totally.",
+        "zh": "'Absolutely' 意思是完全地、彻底地。",
+        "es": "'Absolutely' significa completamente o totalmente."
+      },
+      "optionsJson": {
+        "A": "Partly",
+        "B": "Completely",
+        "C": "Slowly",
+        "D": "Luckily"
+      },
+      "correctAnswerValue": "B",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 782,
+      "providerId": "local",
+      "questionText": {
+        "en": "Choose the correct meaning of 'academic'."
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Education",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Academic' relates to education or study.",
+        "zh": "'Academic' 与教育或学习有关。",
+        "es": "'Academic' se relaciona con la educación o el estudio."
+      },
+      "optionsJson": {
+        "A": "Related to sports",
+        "B": "Related to study",
+        "C": "Related to travel",
+        "D": "Related to food"
+      },
+      "correctAnswerValue": "B",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 783,
+      "providerId": "local",
+      "questionText": {
+        "en": "What does 'access' mean in this sentence? 'Students have free access to the library.'"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Vocabulary",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Access' means the ability to enter or use something.",
+        "zh": "'Access' 意思是进入或使用某物的能力。",
+        "es": "'Access' significa la posibilidad de entrar o usar algo."
+      },
+      "optionsJson": {
+        "A": "To forget",
+        "B": "To enter or use",
+        "C": "To destroy",
+        "D": "To hide"
+      },
+      "correctAnswerValue": "B",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 784,
+      "providerId": "local",
+      "questionText": {
+        "en": "Which word best completes the sentence? 'The hotel offers comfortable   {blank} _ for guests.'"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Travel",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Accommodation' means a place to stay.",
+        "zh": "'Accommodation' 意思是住宿的地方。",
+        "es": "'Accommodation' significa un lugar para alojarse."
+      },
+      "optionsJson": {
+        "A": "Accommodation",
+        "B": "Adventure",
+        "C": "Attraction",
+        "D": "Announcement"
+      },
+      "correctAnswerValue": "A",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 785,
+      "providerId": "local",
+      "questionText": {
+        "en": "What does 'achievement' describe?"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Personal",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Achievement' is something you successfully do.",
+        "zh": "'Achievement' 是你成功完成的事情。",
+        "es": "'Achievement' es algo que logras con éxito."
+      },
+      "optionsJson": {
+        "A": "A success",
+        "B": "A mistake",
+        "C": "A problem",
+        "D": "A surprise"
+      },
+      "correctAnswerValue": "A",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 786,
+      "providerId": "local",
+      "questionText": {
+        "en": "Which word means 'to say sorry'?"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Vocabulary",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Apologise' means to say sorry.",
+        "zh": "'Apologise' 意思是道歉。",
+        "es": "'Apologise' significa pedir perdón."
+      },
+      "optionsJson": {
+        "A": "Admire",
+        "B": "Apologise",
+        "C": "Announce",
+        "D": "Attach"
+      },
+      "correctAnswerValue": "B",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 787,
+      "providerId": "local",
+      "questionText": {
+        "en": "What does 'appointment' mean?"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Daily Life",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Appointment' is a planned meeting.",
+        "zh": "'Appointment' 是预定的会面。",
+        "es": "'Appointment' es una reunión programada."
+      },
+      "optionsJson": {
+        "A": "A surprise party",
+        "B": "A planned meeting",
+        "C": "A school test",
+        "D": "A phone call"
+      },
+      "correctAnswerValue": "B",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 788,
+      "providerId": "local",
+      "questionText": {
+        "en": "Choose the best word to complete the sentence: 'I really   {blank} _ your help with this project.'"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Expressions",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Appreciate' is used to show thanks for help.",
+        "zh": "'Appreciate' 用来表达对帮助的感谢。",
+        "es": "'Appreciate' se usa para expresar agradecimiento por la ayuda."
+      },
+      "optionsJson": {
+        "A": "access",
+        "B": "appreciate",
+        "C": "attach",
+        "D": "announce"
+      },
+      "correctAnswerValue": "B",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 789,
+      "providerId": "local",
+      "questionText": {
+        "en": "Which sentence uses 'approximately' correctly?"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Usage",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Approximately' means about or around a number.",
+        "zh": "'Approximately' 意思是大约。",
+        "es": "'Approximately' significa aproximadamente."
+      },
+      "optionsJson": {
+        "A": "I approximately my friend.",
+        "B": "It costs approximately $50.",
+        "C": "She approximately happy.",
+        "D": "We approximately now."
+      },
+      "correctAnswerValue": "B",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 790,
+      "providerId": "local",
+      "questionText": {
+        "en": "Listen and choose the correct word: 'The police decided to   {blank}  the thief.'"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["listening", "reading"],
+      "category": "Crime",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Arrest' means to take someone by law for a crime.",
+        "zh": "'Arrest' 意思是逮捕。",
+        "es": "'Arrest' significa arrestar."
+      },
+      "optionsJson": {
+        "A": "arrive",
+        "B": "arrest",
+        "C": "assist",
+        "D": "attract"
+      },
+      "correctAnswerValue": "B",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 791,
+      "providerId": "local",
+      "questionText": {
+        "en": "Which word best fits? 'Please finish your   {blank} _ before the deadline.'"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "School",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Assignment' is school work you must complete.",
+        "zh": "'Assignment' 是作业。",
+        "es": "'Assignment' es una tarea escolar."
+      },
+      "optionsJson": {
+        "A": "atmosphere",
+        "B": "assignment",
+        "C": "agreement",
+        "D": "adventure"
+      },
+      "correctAnswerValue": "B",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 792,
+      "providerId": "local",
+      "questionText": {
+        "en": "Choose the correct meaning in context: 'She helped to assist the old man.'"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Verbs",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Assist' means to help.",
+        "zh": "'Assist' 意思是帮助。",
+        "es": "'Assist' significa ayudar."
+      },
+      "optionsJson": {
+        "A": "Help",
+        "B": "Hide",
+        "C": "Hurt",
+        "D": "Hold"
+      },
+      "correctAnswerValue": "A",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 793,
+      "providerId": "local",
+      "questionText": {
+        "en": "Which word describes the feeling of a place? 'The restaurant had a warm   {blank} .'"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Descriptions",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Atmosphere' means the feeling or mood of a place.",
+        "zh": "'Atmosphere' 意思是氛围。",
+        "es": "'Atmosphere' significa ambiente."
+      },
+      "optionsJson": {
+        "A": "attitude",
+        "B": "atmosphere",
+        "C": "attention",
+        "D": "arrival"
+      },
+      "correctAnswerValue": "B",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 794,
+      "providerId": "local",
+      "questionText": {
+        "en": "Choose the synonym of 'attract'."
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Synonyms",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Attract' means to draw attention.",
+        "zh": "'Attract' 意思是吸引。",
+        "es": "'Attract' significa atraer."
+      },
+      "optionsJson": {
+        "A": "Push away",
+        "B": "Draw attention",
+        "C": "Fall down",
+        "D": "Give up"
+      },
+      "correctAnswerValue": "B",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 795,
+      "providerId": "local",
+      "questionText": {
+        "en": "Fill in the blank: 'He won an   {blank}  for his hard work.'"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Achievements",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Award' is a prize.",
+        "zh": "'Award' 是奖项。",
+        "es": "'Award' es un premio."
+      },
+      "optionsJson": {
+        "A": "alarm",
+        "B": "award",
+        "C": "agent",
+        "D": "album"
+      },
+      "correctAnswerValue": "B",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 796,
+      "providerId": "local",
+      "questionText": {
+        "en": "Which word means 'knowing about something'?"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Awareness",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Aware' means knowing about something.",
+        "zh": "'Aware' 意思是知道。",
+        "es": "'Aware' significa estar consciente."
+      },
+      "optionsJson": {
+        "A": "Aged",
+        "B": "Aware",
+        "C": "Ahead",
+        "D": "Alarm"
+      },
+      "correctAnswerValue": "B",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 797,
+      "providerId": "local",
+      "questionText": {
+        "en": "Choose the best answer: 'Please speak   {blank}  so everyone can hear you.'"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Adverbs",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Clearly' means in an easy-to-understand way.",
+        "zh": "'Clearly' 意思是清楚地。",
+        "es": "'Clearly' significa claramente."
+      },
+      "optionsJson": {
+        "A": "clearly",
+        "B": "careless",
+        "C": "curtain",
+        "D": "currently"
+      },
+      "correctAnswerValue": "A",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 798,
+      "providerId": "local",
+      "questionText": {
+        "en": "Which word best completes the sentence? 'He was very   {blank}  about his exam results.'"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Feelings",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Confident' means feeling sure.",
+        "zh": "'Confident' 意思是自信的。",
+        "es": "'Confident' significa seguro."
+      },
+      "optionsJson": {
+        "A": "confident",
+        "B": "confused",
+        "C": "cruel",
+        "D": "curious"
+      },
+      "correctAnswerValue": "A",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 799,
+      "providerId": "local",
+      "questionText": {
+        "en": "Choose the correct word: 'Please   {blank}  your email before sending it.'"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Technology",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Check' means to look at something carefully.",
+        "zh": "'Check' 意思是检查。",
+        "es": "'Check' significa revisar."
+      },
+      "optionsJson": {
+        "A": "check",
+        "B": "cheat",
+        "C": "charge",
+        "D": "climb"
+      },
+      "correctAnswerValue": "A",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 800,
+      "providerId": "local",
+      "questionText": {
+        "en": "What does 'complaint' mean?"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Customer Service",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Complaint' is when you say you are unhappy about something.",
+        "zh": "'Complaint' 意思是投诉。",
+        "es": "'Complaint' significa queja."
+      },
+      "optionsJson": {
+        "A": "A thank you",
+        "B": "A problem report",
+        "C": "A gift",
+        "D": "A promise"
+      },
+      "correctAnswerValue": "B",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 801,
+      "providerId": "local",
+      "questionText": {
+        "en": "Choose the correct word: 'Water will   {blank}  at 100°C.'"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Science",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Boil' means turning a liquid into gas with heat.",
+        "zh": "'Boil' 意味着液体受热变成气体。",
+        "es": "'Boil' significa hervir."
+      },
+      "optionsJson": {
+        "A": "freeze",
+        "B": "boil",
+        "C": "break",
+        "D": "bend"
+      },
+      "correctAnswerValue": "B",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 802,
+      "providerId": "local",
+      "questionText": {
+        "en": "Which word means 'to make something better'?"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Verbs",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Improve' means to make something better.",
+        "zh": "'Improve' 意思是改进。",
+        "es": "'Improve' significa mejorar."
+      },
+      "optionsJson": {
+        "A": "ignore",
+        "B": "improve",
+        "C": "interrupt",
+        "D": "injure"
+      },
+      "correctAnswerValue": "B",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 803,
+      "providerId": "local",
+      "questionText": {
+        "en": "Complete the sentence: 'He felt very   {blank}  after making the mistake.'"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Emotions",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Embarrassed' means feeling ashamed or shy.",
+        "zh": "'Embarrassed' 意为尴尬。",
+        "es": "'Embarrassed' significa sentirse avergonzado."
+      },
+      "optionsJson": {
+        "A": "embarrassed",
+        "B": "excited",
+        "C": "satisfied",
+        "D": "relaxed"
+      },
+      "correctAnswerValue": "A",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 804,
+      "providerId": "local",
+      "questionText": {
+        "en": "Which word best fits? 'The teacher tried to   {blank}  the students.'"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Education",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Encourage' means to give support or confidence.",
+        "zh": "'Encourage' 表示鼓励。",
+        "es": "'Encourage' significa animar."
+      },
+      "optionsJson": {
+        "A": "escape",
+        "B": "encourage",
+        "C": "examine",
+        "D": "export"
+      },
+      "correctAnswerValue": "B",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 805,
+      "providerId": "local",
+      "questionText": {
+        "en": "What is the best meaning of 'essential'?"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Adjectives",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Essential' means very important or necessary.",
+        "zh": "'Essential' 意味着非常重要或必要。",
+        "es": "'Essential' significa esencial o necesario."
+      },
+      "optionsJson": {
+        "A": "Unimportant",
+        "B": "Necessary",
+        "C": "Strange",
+        "D": "Funny"
+      },
+      "correctAnswerValue": "B",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 806,
+      "providerId": "local",
+      "questionText": {
+        "en": "Choose the best sentence using 'eventually'."
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Adverbs",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Eventually' means after some time.",
+        "zh": "'Eventually' 意味着最终。",
+        "es": "'Eventually' significa finalmente."
+      },
+      "optionsJson": {
+        "A": "Eventually, he found the answer.",
+        "B": "Eventually is blue.",
+        "C": "Eventually very fast.",
+        "D": "Eventually on the table."
+      },
+      "correctAnswerValue": "A",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 807,
+      "providerId": "local",
+      "questionText": {
+        "en": "What does 'explore' mean?"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Travel",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Explore' means to travel and discover new places.",
+        "zh": "'Explore' 意思是探索。",
+        "es": "'Explore' significa explorar."
+      },
+      "optionsJson": {
+        "A": "To hide",
+        "B": "To discover",
+        "C": "To break",
+        "D": "To sell"
+      },
+      "correctAnswerValue": "B",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 808,
+      "providerId": "local",
+      "questionText": {
+        "en": "Which word best fits? 'He felt great   {blank}  with his best friend.'"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Relationships",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Friendship' means a close relationship between friends.",
+        "zh": "'Friendship' 意味着友谊。",
+        "es": "'Friendship' significa amistad."
+      },
+      "optionsJson": {
+        "A": "freedom",
+        "B": "friendship",
+        "C": "function",
+        "D": "fitness"
+      },
+      "correctAnswerValue": "B",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 809,
+      "providerId": "local",
+      "questionText": {
+        "en": "Choose the correct word: 'He was very   {blank}  when he saw the ghost.'"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Feelings",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Frightened' means very scared.",
+        "zh": "'Frightened' 意味着非常害怕。",
+        "es": "'Frightened' significa asustado."
+      },
+      "optionsJson": {
+        "A": "frightened",
+        "B": "fascinated",
+        "C": "friendly",
+        "D": "frozen"
+      },
+      "correctAnswerValue": "A",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 810,
+      "providerId": "local",
+      "questionText": {
+        "en": "Which word best completes? 'The car needs   {blank}  to work properly.'"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Mechanics",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Fuel' is what a car needs to run.",
+        "zh": "'Fuel' 是燃料。",
+        "es": "'Fuel' significa combustible."
+      },
+      "optionsJson": {
+        "A": "flour",
+        "B": "fuel",
+        "C": "frame",
+        "D": "fruit"
+      },
+      "correctAnswerValue": "B",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 811,
+      "providerId": "local",
+      "questionText": {
+        "en": "Which word means 'kind and giving'?"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Personality",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Generous' means kind and willing to give.",
+        "zh": "'Generous' 意味着慷慨。",
+        "es": "'Generous' significa generoso."
+      },
+      "optionsJson": {
+        "A": "gentle",
+        "B": "generous",
+        "C": "guilty",
+        "D": "global"
+      },
+      "correctAnswerValue": "B",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 812,
+      "providerId": "local",
+      "questionText": {
+        "en": "What is the opposite of 'guilty'?"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Opposites",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "The opposite of 'guilty' is 'innocent'.",
+        "zh": "'Guilty' 的反义词是 'innocent'。",
+        "es": "El opuesto de 'guilty' es 'innocent'."
+      },
+      "optionsJson": {
+        "A": "Illegal",
+        "B": "Innocent",
+        "C": "Important",
+        "D": "Indirect"
+      },
+      "correctAnswerValue": "B",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 813,
+      "providerId": "local",
+      "questionText": {
+        "en": "Choose the correct meaning of 'impact'."
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Vocabulary",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Impact' means strong effect.",
+        "zh": "'Impact' 意味着影响。",
+        "es": "'Impact' significa impacto."
+      },
+      "optionsJson": {
+        "A": "A strong effect",
+        "B": "A small sound",
+        "C": "A quick walk",
+        "D": "A light color"
+      },
+      "correctAnswerValue": "A",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 814,
+      "providerId": "local",
+      "questionText": {
+        "en": "Which word completes? 'Fresh air can   {blank}  your mood.'"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Health",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Improve' means make better.",
+        "zh": "'Improve' 意味着改善。",
+        "es": "'Improve' significa mejorar."
+      },
+      "optionsJson": {
+        "A": "ignore",
+        "B": "improve",
+        "C": "injure",
+        "D": "invest"
+      },
+      "correctAnswerValue": "B",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 815,
+      "providerId": "local",
+      "questionText": {
+        "en": "Which word means 'to look into a problem carefully'?"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Verbs",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Investigate' means to examine carefully.",
+        "zh": "'Investigate' 表示调查。",
+        "es": "'Investigate' significa investigar."
+      },
+      "optionsJson": {
+        "A": "Introduce",
+        "B": "Investigate",
+        "C": "Ignore",
+        "D": "Invite"
+      },
+      "correctAnswerValue": "B",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 816,
+      "providerId": "local",
+      "questionText": {
+        "en": "Choose the best answer: 'Please   {blank}  quiet in the library.'"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Commands",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Remain' means to stay.",
+        "zh": "'Remain' 意味着保持。",
+        "es": "'Remain' significa permanecer."
+      },
+      "optionsJson": {
+        "A": "remain",
+        "B": "remove",
+        "C": "repeat",
+        "D": "reject"
+      },
+      "correctAnswerValue": "A",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 817,
+      "providerId": "local",
+      "questionText": {
+        "en": "Which word best fits? 'He made a   {blank}  to fix the problem.'"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Requests",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Request' means to ask for something.",
+        "zh": "'Request' 意味着请求。",
+        "es": "'Request' significa solicitud."
+      },
+      "optionsJson": {
+        "A": "result",
+        "B": "request",
+        "C": "resource",
+        "D": "reaction"
+      },
+      "correctAnswerValue": "B",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 818,
+      "providerId": "local",
+      "questionText": {
+        "en": "Which word means 'to fix something broken'?"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Repairs",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Repair' means to fix something.",
+        "zh": "'Repair' 意味着修理。",
+        "es": "'Repair' significa reparar."
+      },
+      "optionsJson": {
+        "A": "remove",
+        "B": "repair",
+        "C": "replace",
+        "D": "refuse"
+      },
+      "correctAnswerValue": "B",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 819,
+      "providerId": "local",
+      "questionText": {
+        "en": "What is the meaning of 'responsible'?"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Personality",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Responsible' means having a duty to take care of something.",
+        "zh": "'Responsible' 意味着有责任。",
+        "es": "'Responsible' significa responsable."
+      },
+      "optionsJson": {
+        "A": "Careless",
+        "B": "Having a duty",
+        "C": "Very fast",
+        "D": "Very funny"
+      },
+      "correctAnswerValue": "B",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 820,
+      "providerId": "local",
+      "questionText": {
+        "en": "Choose the best word: 'They want to   {blank}  the old house.'"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Actions",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Repair' means to fix something that is broken.",
+        "zh": "'Repair' 意味着修理。",
+        "es": "'Repair' significa reparar."
+      },
+      "optionsJson": {
+        "A": "repair",
+        "B": "refuse",
+        "C": "remove",
+        "D": "return"
+      },
+      "correctAnswerValue": "A",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 821,
+      "providerId": "local",
+      "questionText": {
+        "en": "What does 'risk' mean?"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Vocabulary",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Risk' means the chance of something bad happening.",
+        "zh": "'Risk' 意味着风险。",
+        "es": "'Risk' significa riesgo."
+      },
+      "optionsJson": {
+        "A": "Safety",
+        "B": "Danger chance",
+        "C": "Strong power",
+        "D": "Happy feeling"
+      },
+      "correctAnswerValue": "B",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 822,
+      "providerId": "local",
+      "questionText": {
+        "en": "Choose the correct meaning of 'separate'."
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Verbs",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Separate' means to move things apart.",
+        "zh": "'Separate' 意味着分开。",
+        "es": "'Separate' significa separar."
+      },
+      "optionsJson": {
+        "A": "Join together",
+        "B": "Move apart",
+        "C": "Make noise",
+        "D": "Fall asleep"
+      },
+      "correctAnswerValue": "B",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 823,
+      "providerId": "local",
+      "questionText": {
+        "en": "Which word best fits? 'Please   {blank}  the light when you leave.'"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Daily Actions",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Switch' means to turn on or off.",
+        "zh": "'Switch' 意味着开关。",
+        "es": "'Switch' significa cambiar o apagar."
+      },
+      "optionsJson": {
+        "A": "spread",
+        "B": "switch",
+        "C": "suffer",
+        "D": "support"
+      },
+      "correctAnswerValue": "B",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 824,
+      "providerId": "local",
+      "questionText": {
+        "en": "Choose the best word: 'He felt   {blank}  after running 5 km.'"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Body",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Tired' means needing rest.",
+        "zh": "'Tired' 意味着疲劳。",
+        "es": "'Tired' significa cansado."
+      },
+      "optionsJson": {
+        "A": "tired",
+        "B": "tiny",
+        "C": "tight",
+        "D": "total"
+      },
+      "correctAnswerValue": "A",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 825,
+      "providerId": "local",
+      "questionText": {
+        "en": "Which word means 'to translate words into another language'?"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Language",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Translate' means to change language.",
+        "zh": "'Translate' 意味着翻译。",
+        "es": "'Translate' significa traducir."
+      },
+      "optionsJson": {
+        "A": "transport",
+        "B": "translate",
+        "C": "treat",
+        "D": "travel"
+      },
+      "correctAnswerValue": "B",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 826,
+      "providerId": "local",
+      "questionText": {
+        "en": "What does 'valuable' mean?"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Adjectives",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Valuable' means worth a lot.",
+        "zh": "'Valuable' 意味着有价值。",
+        "es": "'Valuable' significa valioso."
+      },
+      "optionsJson": {
+        "A": "Cheap",
+        "B": "Worth a lot",
+        "C": "Very small",
+        "D": "Very slow"
+      },
+      "correctAnswerValue": "B",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 827,
+      "providerId": "local",
+      "questionText": {
+        "en": "Choose the best word: 'The storm was very   {blank}  last night.'"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Weather",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Violent' means very strong and dangerous.",
+        "zh": "'Violent' 意味着猛烈。",
+        "es": "'Violent' significa violento."
+      },
+      "optionsJson": {
+        "A": "valuable",
+        "B": "violent",
+        "C": "various",
+        "D": "visible"
+      },
+      "correctAnswerValue": "B",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 828,
+      "providerId": "local",
+      "questionText": {
+        "en": "What does 'volunteer' mean?"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Work",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Volunteer' means to help without being paid.",
+        "zh": "'Volunteer' 意味着做志愿者。",
+        "es": "'Volunteer' significa voluntario."
+      },
+      "optionsJson": {
+        "A": "Help for free",
+        "B": "Work for money",
+        "C": "Stay at home",
+        "D": "Travel abroad"
+      },
+      "correctAnswerValue": "A",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 829,
+      "providerId": "local",
+      "questionText": {
+        "en": "Which word best fits? 'Please don’t   {blank}  water.'"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Environment",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Waste' means to use carelessly.",
+        "zh": "'Waste' 意味着浪费。",
+        "es": "'Waste' significa desperdiciar."
+      },
+      "optionsJson": {
+        "A": "warn",
+        "B": "waste",
+        "C": "weigh",
+        "D": "wave"
+      },
+      "correctAnswerValue": "B",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 830,
+      "providerId": "local",
+      "questionText": {
+        "en": "Choose the best meaning of 'worry'."
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Feelings",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Worry' means to feel nervous or anxious.",
+        "zh": "'Worry' 意味着担心。",
+        "es": "'Worry' significa preocuparse."
+      },
+      "optionsJson": {
+        "A": "Feel calm",
+        "B": "Feel anxious",
+        "C": "Feel excited",
+        "D": "Feel proud"
+      },
+      "correctAnswerValue": "B",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 831,
+      "providerId": "local",
+      "questionText": {
+        "en": "Choose the best word: 'She showed great   {blank}  to become a doctor.'"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Motivation",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Ambition' means a strong desire to achieve something.",
+        "zh": "'Ambition' 意味着强烈的目标。",
+        "es": "'Ambition' significa ambición."
+      },
+      "optionsJson": {
+        "A": "ambition",
+        "B": "atmosphere",
+        "C": "admission",
+        "D": "agreement"
+      },
+      "correctAnswerValue": "A",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 832,
+      "providerId": "local",
+      "questionText": {
+        "en": "Which word means 'to say something is true'?"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Communication",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Admit' means to say that something is true.",
+        "zh": "'Admit' 意味着承认。",
+        "es": "'Admit' significa admitir."
+      },
+      "optionsJson": {
+        "A": "admire",
+        "B": "admit",
+        "C": "announce",
+        "D": "attach"
+      },
+      "correctAnswerValue": "B",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 833,
+      "providerId": "local",
+      "questionText": {
+        "en": "Choose the correct word: 'The teacher will   {blank}  the winners tomorrow.'"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "School",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Announce' means to tell something officially.",
+        "zh": "'Announce' 意味着宣布。",
+        "es": "'Announce' significa anunciar."
+      },
+      "optionsJson": {
+        "A": "announce",
+        "B": "analyse",
+        "C": "annoy",
+        "D": "assist"
+      },
+      "correctAnswerValue": "A",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 834,
+      "providerId": "local",
+      "questionText": {
+        "en": "Which word best fits? 'The loud noise really   {blank}  him.'"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Feelings",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Annoy' means to make someone angry.",
+        "zh": "'Annoy' 意味着使人烦恼。",
+        "es": "'Annoy' significa molestar."
+      },
+      "optionsJson": {
+        "A": "annoyed",
+        "B": "annoy",
+        "C": "annoying",
+        "D": "announces"
+      },
+      "correctAnswerValue": "B",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 835,
+      "providerId": "local",
+      "questionText": {
+        "en": "Choose the word that means 'a time you meet the doctor'."
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Health",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Appointment' means a planned meeting.",
+        "zh": "'Appointment' 是预约。",
+        "es": "'Appointment' es una cita."
+      },
+      "optionsJson": {
+        "A": "arrival",
+        "B": "appointment",
+        "C": "application",
+        "D": "apartment"
+      },
+      "correctAnswerValue": "B",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 836,
+      "providerId": "local",
+      "questionText": {
+        "en": "Which word means 'to look at something carefully and think about it'?"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Thinking",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Analyse' means to examine something carefully.",
+        "zh": "'Analyse' 意味着分析。",
+        "es": "'Analyse' significa analizar."
+      },
+      "optionsJson": {
+        "A": "announce",
+        "B": "analyse",
+        "C": "apply",
+        "D": "attach"
+      },
+      "correctAnswerValue": "B",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 837,
+      "providerId": "local",
+      "questionText": {
+        "en": "Choose the correct meaning of 'attraction'."
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Places",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Attraction' means something interesting people want to see.",
+        "zh": "'Attraction' 意味着景点。",
+        "es": "'Attraction' significa atracción."
+      },
+      "optionsJson": {
+        "A": "A boring place",
+        "B": "An interesting place",
+        "C": "A private home",
+        "D": "A loud sound"
+      },
+      "correctAnswerValue": "B",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 838,
+      "providerId": "local",
+      "questionText": {
+        "en": "Choose the best word: 'They reached an   {blank}  after a long discussion.'"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Communication",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Agreement' means people have the same opinion.",
+        "zh": "'Agreement' 意味着达成一致。",
+        "es": "'Agreement' significa acuerdo."
+      },
+      "optionsJson": {
+        "A": "argument",
+        "B": "agreement",
+        "C": "announcement",
+        "D": "advance"
+      },
+      "correctAnswerValue": "B",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 839,
+      "providerId": "local",
+      "questionText": {
+        "en": "Which word means 'a room for sleeping'?"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Home",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Bedroom' means a room for sleeping.",
+        "zh": "'Bedroom' 是卧室。",
+        "es": "'Bedroom' es dormitorio."
+      },
+      "optionsJson": {
+        "A": "bathroom",
+        "B": "bedroom",
+        "C": "basement",
+        "D": "balcony"
+      },
+      "correctAnswerValue": "B",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 840,
+      "providerId": "local",
+      "questionText": {
+        "en": "Which word means 'the natural area outside cities'?"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Nature",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Countryside' means rural areas.",
+        "zh": "'Countryside' 意味着乡村。",
+        "es": "'Countryside' significa campo."
+      },
+      "optionsJson": {
+        "A": "country",
+        "B": "countryside",
+        "C": "campus",
+        "D": "capital"
+      },
+      "correctAnswerValue": "B",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 841,
+      "providerId": "local",
+      "questionText": {
+        "en": "Choose the word that means 'not clean'."
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Descriptions",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Dirty' means not clean.",
+        "zh": "'Dirty' 意味着脏的。",
+        "es": "'Dirty' significa sucio."
+      },
+      "optionsJson": {
+        "A": "daily",
+        "B": "dirty",
+        "C": "deep",
+        "D": "direct"
+      },
+      "correctAnswerValue": "B",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 842,
+      "providerId": "local",
+      "questionText": {
+        "en": "Which word means 'to give money to help'?"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Charity",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Donate' means to give money or items to help others.",
+        "zh": "'Donate' 意味着捐赠。",
+        "es": "'Donate' significa donar."
+      },
+      "optionsJson": {
+        "A": "double",
+        "B": "donate",
+        "C": "divide",
+        "D": "deliver"
+      },
+      "correctAnswerValue": "B",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 843,
+      "providerId": "local",
+      "questionText": {
+        "en": "Choose the correct word: 'He felt   {blank}  after the earthquake.'"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Feelings",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Frightened' means scared.",
+        "zh": "'Frightened' 意味着害怕。",
+        "es": "'Frightened' significa asustado."
+      },
+      "optionsJson": {
+        "A": "frozen",
+        "B": "frightened",
+        "C": "friendly",
+        "D": "fair"
+      },
+      "correctAnswerValue": "B",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 844,
+      "providerId": "local",
+      "questionText": {
+        "en": "Which word means 'the money system of a country'?"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Economy",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Currency' means the money used by a country.",
+        "zh": "'Currency' 意味着货币。",
+        "es": "'Currency' significa moneda."
+      },
+      "optionsJson": {
+        "A": "culture",
+        "B": "currency",
+        "C": "custom",
+        "D": "credit"
+      },
+      "correctAnswerValue": "B",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 845,
+      "providerId": "local",
+      "questionText": {
+        "en": "Choose the correct meaning of 'destination'."
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Travel",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Destination' means the place you are going to.",
+        "zh": "'Destination' 意味着目的地。",
+        "es": "'Destination' significa destino."
+      },
+      "optionsJson": {
+        "A": "Starting point",
+        "B": "Ending place",
+        "C": "Weather report",
+        "D": "Travel bag"
+      },
+      "correctAnswerValue": "B",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 846,
+      "providerId": "local",
+      "questionText": {
+        "en": "Which word means 'to decide something clearly'?"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Decisions",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Determine' means to decide firmly.",
+        "zh": "'Determine' 意味着决定。",
+        "es": "'Determine' significa determinar."
+      },
+      "optionsJson": {
+        "A": "develop",
+        "B": "determine",
+        "C": "deliver",
+        "D": "describe"
+      },
+      "correctAnswerValue": "B",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 847,
+      "providerId": "local",
+      "questionText": {
+        "en": "What does 'diagram' mean?"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Visual",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Diagram' is a simple drawing that shows information.",
+        "zh": "'Diagram' 是简图。",
+        "es": "'Diagram' es un diagrama."
+      },
+      "optionsJson": {
+        "A": "A long story",
+        "B": "A simple drawing",
+        "C": "A song",
+        "D": "A speech"
+      },
+      "correctAnswerValue": "B",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 848,
+      "providerId": "local",
+      "questionText": {
+        "en": "Which word means 'feeling unhappy because something is not as expected'?"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Emotions",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Disappointed' means feeling unhappy about a result.",
+        "zh": "'Disappointed' 意味着失望。",
+        "es": "'Disappointed' significa decepcionado."
+      },
+      "optionsJson": {
+        "A": "disappointed",
+        "B": "delighted",
+        "C": "determined",
+        "D": "developed"
+      },
+      "correctAnswerValue": "A",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 849,
+      "providerId": "local",
+      "questionText": {
+        "en": "Choose the correct word: 'He got a 20%   {blank}  on this jacket.'"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Shopping",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Discount' means a lower price.",
+        "zh": "'Discount' 意味着打折。",
+        "es": "'Discount' significa descuento."
+      },
+      "optionsJson": {
+        "A": "damage",
+        "B": "discount",
+        "C": "document",
+        "D": "delivery"
+      },
+      "correctAnswerValue": "B",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 850,
+      "providerId": "local",
+      "questionText": {
+        "en": "Which word means 'a film about real life'?"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Media",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Documentary' is a film about real events.",
+        "zh": "'Documentary' 意味着纪录片。",
+        "es": "'Documentary' significa documental."
+      },
+      "optionsJson": {
+        "A": "drama",
+        "B": "documentary",
+        "C": "dialogue",
+        "D": "drawing"
+      },
+      "correctAnswerValue": "B",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 851,
+      "providerId": "local",
+      "questionText": {
+        "en": "Choose the best word: 'The heavy rain caused serious   {blank}  in the city.'"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Environment",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Damage' means harm or destruction.",
+        "zh": "'Damage' 意味着损害。",
+        "es": "'Damage' significa daño."
+      },
+      "optionsJson": {
+        "A": "danger",
+        "B": "damage",
+        "C": "demand",
+        "D": "detail"
+      },
+      "correctAnswerValue": "B",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 852,
+      "providerId": "local",
+      "questionText": {
+        "en": "Which word means 'what you need to do or achieve'?"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Work",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Demand' means what is needed or required.",
+        "zh": "'Demand' 意味着需求。",
+        "es": "'Demand' significa demanda."
+      },
+      "optionsJson": {
+        "A": "design",
+        "B": "demand",
+        "C": "decision",
+        "D": "direction"
+      },
+      "correctAnswerValue": "B",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 853,
+      "providerId": "local",
+      "questionText": {
+        "en": "Choose the correct meaning of 'departure'."
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Travel",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Departure' means the act of leaving.",
+        "zh": "'Departure' 意味着离开。",
+        "es": "'Departure' significa salida."
+      },
+      "optionsJson": {
+        "A": "Arrival",
+        "B": "Leaving",
+        "C": "Waiting",
+        "D": "Meeting"
+      },
+      "correctAnswerValue": "B",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 854,
+      "providerId": "local",
+      "questionText": {
+        "en": "Choose the correct word: 'Please   {blank}  this form with your name and address.'"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Office",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Complete' means to finish or fill something.",
+        "zh": "'Complete' 意味着完成或填写。",
+        "es": "'Complete' significa completar."
+      },
+      "optionsJson": {
+        "A": "compare",
+        "B": "complete",
+        "C": "complain",
+        "D": "control"
+      },
+      "correctAnswerValue": "B",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 855,
+      "providerId": "local",
+      "questionText": {
+        "en": "Which word means 'about how things are done in a company'?"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Business",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Procedure' means the way things are done.",
+        "zh": "'Procedure' 意味着流程。",
+        "es": "'Procedure' significa procedimiento."
+      },
+      "optionsJson": {
+        "A": "process",
+        "B": "procedure",
+        "C": "project",
+        "D": "product"
+      },
+      "correctAnswerValue": "B",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 856,
+      "providerId": "local",
+      "questionText": {
+        "en": "Choose the best word: 'He moved to another country for   {blank}  reasons.'"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Life",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Personal' means related to your own life.",
+        "zh": "'Personal' 意味着个人的。",
+        "es": "'Personal' significa personal."
+      },
+      "optionsJson": {
+        "A": "public",
+        "B": "personal",
+        "C": "possible",
+        "D": "present"
+      },
+      "correctAnswerValue": "B",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 857,
+      "providerId": "local",
+      "questionText": {
+        "en": "Which word means 'easy to remember'?"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Memory",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Memorable' means easy to remember.",
+        "zh": "'Memorable' 意味着难忘的。",
+        "es": "'Memorable' significa memorable."
+      },
+      "optionsJson": {
+        "A": "memorable",
+        "B": "memory",
+        "C": "movement",
+        "D": "moment"
+      },
+      "correctAnswerValue": "A",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 858,
+      "providerId": "local",
+      "questionText": {
+        "en": "Choose the correct meaning of 'departure time'."
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Travel",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Departure time' is when something leaves.",
+        "zh": "'Departure time' 是离开的时间。",
+        "es": "'Departure time' es la hora de salida."
+      },
+      "optionsJson": {
+        "A": "Arrival time",
+        "B": "Leaving time",
+        "C": "Waiting time",
+        "D": "Eating time"
+      },
+      "correctAnswerValue": "B",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 859,
+      "providerId": "local",
+      "questionText": {
+        "en": "Which word means 'to say you are not happy about something'?"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Communication",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Complain' means to express dissatisfaction.",
+        "zh": "'Complain' 意味着抱怨。",
+        "es": "'Complain' significa quejarse."
+      },
+      "optionsJson": {
+        "A": "compare",
+        "B": "complain",
+        "C": "complete",
+        "D": "connect"
+      },
+      "correctAnswerValue": "B",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 860,
+      "providerId": "local",
+      "questionText": {
+        "en": "Choose the correct word: 'Please   {blank}  the button to start the machine.'"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Technology",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Press' means to push with your finger.",
+        "zh": "'Press' 意味着按下。",
+        "es": "'Press' significa presionar."
+      },
+      "optionsJson": {
+        "A": "press",
+        "B": "pull",
+        "C": "print",
+        "D": "produce"
+      },
+      "correctAnswerValue": "A",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 861,
+      "providerId": "local",
+      "questionText": {
+        "en": "Which word means 'safe from danger'?"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Safety",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Protected' means safe from harm.",
+        "zh": "'Protected' 意味着被保护的。",
+        "es": "'Protected' significa protegido."
+      },
+      "optionsJson": {
+        "A": "prepared",
+        "B": "protected",
+        "C": "produced",
+        "D": "promised"
+      },
+      "correctAnswerValue": "B",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 862,
+      "providerId": "local",
+      "questionText": {
+        "en": "Choose the correct word: 'The movie gave a strong emotional   {blank} .'"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Media",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Impact' means strong effect.",
+        "zh": "'Impact' 意味着影响。",
+        "es": "'Impact' significa impacto."
+      },
+      "optionsJson": {
+        "A": "importance",
+        "B": "impact",
+        "C": "idea",
+        "D": "image"
+      },
+      "correctAnswerValue": "B",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 863,
+      "providerId": "local",
+      "questionText": {
+        "en": "Which word means 'to make something better'?"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Actions",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Improve' means to make better.",
+        "zh": "'Improve' 意味着改进。",
+        "es": "'Improve' significa mejorar."
+      },
+      "optionsJson": {
+        "A": "increase",
+        "B": "improve",
+        "C": "include",
+        "D": "involve"
+      },
+      "correctAnswerValue": "B",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 864,
+      "providerId": "local",
+      "questionText": {
+        "en": "Choose the best meaning of 'instruction'."
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Education",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Instruction' means information on how to do something.",
+        "zh": "'Instruction' 意味着说明。",
+        "es": "'Instruction' significa instrucción."
+      },
+      "optionsJson": {
+        "A": "Story",
+        "B": "Direction",
+        "C": "Instruction",
+        "D": "Introduction"
+      },
+      "correctAnswerValue": "C",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 865,
+      "providerId": "local",
+      "questionText": {
+        "en": "Which word means 'to take part in an activity'?"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Activities",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Participate' means to take part.",
+        "zh": "'Participate' 意味着参与。",
+        "es": "'Participate' significa participar."
+      },
+      "optionsJson": {
+        "A": "prepare",
+        "B": "participate",
+        "C": "perform",
+        "D": "produce"
+      },
+      "correctAnswerValue": "B",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 866,
+      "providerId": "local",
+      "questionText": {
+        "en": "Choose the correct word: 'He is a very   {blank}  worker and finishes tasks quickly.'"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Work",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Efficient' means working well and quickly.",
+        "zh": "'Efficient' 意味着高效的。",
+        "es": "'Efficient' significa eficiente."
+      },
+      "optionsJson": {
+        "A": "efficient",
+        "B": "expensive",
+        "C": "excited",
+        "D": "exact"
+      },
+      "correctAnswerValue": "A",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 867,
+      "providerId": "local",
+      "questionText": {
+        "en": "Which word means 'a person who buys things'?"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Business",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Customer' means a person who buys goods or services.",
+        "zh": "'Customer' 意味着顾客。",
+        "es": "'Customer' significa cliente."
+      },
+      "optionsJson": {
+        "A": "customer",
+        "B": "creator",
+        "C": "captain",
+        "D": "candidate"
+      },
+      "correctAnswerValue": "A",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 868,
+      "providerId": "local",
+      "questionText": {
+        "en": "Choose the correct meaning of 'emergency'."
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Safety",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Emergency' means a dangerous or unexpected situation.",
+        "zh": "'Emergency' 意味着紧急情况。",
+        "es": "'Emergency' significa emergencia."
+      },
+      "optionsJson": {
+        "A": "A holiday",
+        "B": "A dangerous situation",
+        "C": "A normal day",
+        "D": "A fun game"
+      },
+      "correctAnswerValue": "B",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 869,
+      "providerId": "local",
+      "questionText": {
+        "en": "Which word means 'to create or build something'?"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Creation",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Construct' means to build something.",
+        "zh": "'Construct' 意味着建造。",
+        "es": "'Construct' significa construir."
+      },
+      "optionsJson": {
+        "A": "connect",
+        "B": "construct",
+        "C": "control",
+        "D": "contain"
+      },
+      "correctAnswerValue": "B",
+      "imageUrl": null,
+      "mediaUrl": null
+    },
+    {
+      "questionId": 870,
+      "providerId": "local",
+      "questionText": {
+        "en": "Choose the correct word: 'The teacher gave us some useful   {blank}  before the test.'"
+      },
+      "questionType": "multiple_choice",
+      "testTypes": ["reading", "listening"],
+      "category": "Education",
+      "langLevel": "B1",
+      "status": "active",
+      "explanation": {
+        "en": "'Advice' means suggestions to help someone.",
+        "zh": "'Advice' 意味着建议。",
+        "es": "'Advice' significa consejo."
+      },
+      "optionsJson": {
+        "A": "advices",
+        "B": "advice",
+        "C": "advised",
+        "D": "advising"
+      },
+      "correctAnswerValue": "B",
+      "imageUrl": null,
+      "mediaUrl": null
+    }
+  ]
+}
