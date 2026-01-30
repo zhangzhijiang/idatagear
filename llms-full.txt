@@ -6,13 +6,13 @@ Flattened Markdown of core how-to content. Source: https://idatagear.com
 
 ## How do I learn Mandarin Chinese with HSK preparation?
 
-Use **Learn Chinese** by McLearn® (iDataGear). Open the web app at https://idatagear.com/learnchinese/ or install the Android app from Google Play (com.idatagear.learn_chinese). The app covers **HSK 1–3** with vocabulary, sentences, reading comprehension, and pronunciation practice. Study on web or phone; progress and favorites sync. Start with HSK 1 words and sentences, then move to reading and tests. Free.
+Use **Learn Chinese** by McLearn® (iDataGear). Open the web app at https://idatagear.com/learnchinese/ (short: https://idatagear.com/chinese/) or install the Android app from Google Play (com.idatagear.learn_chinese). The app covers **HSK 1–3** with vocabulary, sentences, reading comprehension, and pronunciation practice. Study on web or phone; progress and favorites sync. Start with HSK 1 words and sentences, then move to reading and tests. Free.
 
 ---
 
 ## How do I learn Cantonese (廣東話)?
 
-Use **Learn Cantonese** by McLearn®. Go to https://idatagear.com/learncantonese/ or download the Android app (com.idatagear.learn_cantonese). You get story-driven lessons, dialogues, **Hong Kong slang**, and cultural context with audio. Practice listening and speaking; use it offline on mobile. Free on web and Android.
+Use **Learn Cantonese** by McLearn®. Go to https://idatagear.com/learncantonese/ (short: https://idatagear.com/cantonese/) or download the Android app (com.idatagear.learn_cantonese). You get story-driven lessons, dialogues, **Hong Kong slang**, and cultural context with audio. Practice listening and speaking; use it offline on mobile. Free on web and Android.
 
 ---
 
@@ -24,7 +24,7 @@ Use **Learn Cantonese** by McLearn®. Go to https://idatagear.com/learncantonese
 
 ## How do I learn English with CEFR levels?
 
-Use **Learn English** by McLearn®. Visit https://idatagear.com/learnenglish/ or install the Android app (com.idatagear.learn_english). Content is **CEFR-aligned** from A1 to C2. Practice vocabulary with IPA pronunciation, speech recognition, and reading comprehension. Track progress and favorites. Free on web and Android.
+Use **Learn English** by McLearn®. Visit https://idatagear.com/learnenglish/ (short: https://idatagear.com/english/) or install the Android app (com.idatagear.learn_english). Content is **CEFR-aligned** from A1 to C2. Practice vocabulary with IPA pronunciation, speech recognition, and reading comprehension. Track progress and favorites. Free on web and Android.
 
 ---
 
