@@ -1,0 +1,5202 @@
+[
+  {
+    "questionId": 1071,
+    "providerId": "local",
+    "questionText": {
+      "en": "The government decided to  {blank}  the outdated law after years of public protest."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "'Abolish' means to formally put an end to a system, practice, or institution.",
+      "zh": "'Abolish' 意为废除（法律、制度等）。",
+      "es": "'Abolish' significa abolir o derogar formalmente una ley o sistema."
+    },
+    "optionsJson": {
+      "A": "abolish",
+      "B": "absent",
+      "C": "accelerate",
+      "D": "accumulate"
+    },
+    "correctAnswerValue": "A",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1072,
+    "providerId": "local",
+    "questionText": {
+      "en": "It is simply  {blank}  to suggest that we can finish this entire project by tomorrow morning."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "'Absurd' describes something that is wildly unreasonable, illogical, or inappropriate.",
+      "zh": "'Absurd' 意为荒谬的，不合理的。",
+      "es": "'Absurd' describe algo que es totalmente irrazonable, ilógico o inapropiado."
+    },
+    "optionsJson": {
+      "A": "acute",
+      "B": "absurd",
+      "C": "adjacent",
+      "D": "aesthetic"
+    },
+    "correctAnswerValue": "B",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1073,
+    "providerId": "local",
+    "questionText": {
+      "en": "The museum is now more  {blank}  to wheelchair users thanks to the new ramp."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "'Accessible' means able to be reached or entered, particularly for people with disabilities.",
+      "zh": "'Accessible' 意为易接近的，可进入的。",
+      "es": "'Accessible' significa que se puede llegar o entrar, especialmente para personas con discapacidades."
+    },
+    "optionsJson": {
+      "A": "applicable",
+      "B": "accountable",
+      "C": "accessible",
+      "D": "administrative"
+    },
+    "correctAnswerValue": "C",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1074,
+    "providerId": "local",
+    "questionText": {
+      "en": "Public officials must be held  {blank}  for their decisions and how they spend taxpayer money."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "'Accountable' means being required or expected to justify actions or decisions; responsible.",
+      "zh": "'Accountable' 意为负有责任的，有解释义务的。",
+      "es": "'Accountable' significa estar obligado o esperar que se justifiquen acciones o decisiones; responsable."
+    },
+    "optionsJson": {
+      "A": "acute",
+      "B": "accountable",
+      "C": "arbitrary",
+      "D": "authentic"
+    },
+    "correctAnswerValue": "B",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1075,
+    "providerId": "local",
+    "questionText": {
+      "en": "The company’s  {blank}  of its rival will allow it to dominate the local market."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "'Acquisition' refers to the act of acquiring or gaining possession of something, like a company.",
+      "zh": "'Acquisition' 意为收购或获得。",
+      "es": "'Acquisition' se refiere al acto de adquirir o ganar la posesión de algo, como una empresa."
+    },
+    "optionsJson": {
+      "A": "accusation",
+      "B": "activation",
+      "C": "acquisition",
+      "D": "adaptation"
+    },
+    "correctAnswerValue": "C",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1076,
+    "providerId": "local",
+    "questionText": {
+      "en": "The patient was admitted to the hospital with  {blank}  chest pain."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "'Acute' describes an unpleasant or unwelcome situation or phenomenon that is present or experienced to a severe or intense degree.",
+      "zh": "'Acute' 意为严重的或剧烈的（通常指疾病或疼痛）。",
+      "es": "'Acute' describe una situación o fenómeno desagradable o inoportuno que se presenta o experimenta en un grado severo o intenso."
+    },
+    "optionsJson": {
+      "A": "adverse",
+      "B": "aesthetic",
+      "C": "acute",
+      "D": "anonymous"
+    },
+    "correctAnswerValue": "C",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1077,
+    "providerId": "local",
+    "questionText": {
+      "en": "You must  {blank}  to the rules of the competition if you wish to participate."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "'Adhere' means to believe in and follow the practices of; to stick to a rule or agreement.",
+      "zh": "'Adhere' 意为坚持，遵守（规则、协议等）。",
+      "es": "'Adhere' significa creer y seguir las prácticas de; apegarse a una regla o acuerdo."
+    },
+    "optionsJson": {
+      "A": "adhere",
+      "B": "allocate",
+      "C": "amend",
+      "D": "assemble"
+    },
+    "correctAnswerValue": "A",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1078,
+    "providerId": "local",
+    "questionText": {
+      "en": "The office building is  {blank}  to the train station, making it very convenient for commuters."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "'Adjacent' means next to or adjoining something else.",
+      "zh": "'Adjacent' 意为毗连的，邻近的。",
+      "es": "'Adjacent' significa al lado o contiguo a algo más."
+    },
+    "optionsJson": {
+      "A": "aligned",
+      "B": "adjacent",
+      "C": "applicable",
+      "D": "aesthetic"
+    },
+    "correctAnswerValue": "B",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1079,
+    "providerId": "local",
+    "questionText": {
+      "en": "The drug was found to have  {blank}  side effects, including nausea and headaches."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "'Adverse' means preventing success or development; harmful or unfavorable.",
+      "zh": "'Adverse' 意为不利的，有害的。",
+      "es": "'Adverse' significa que impide el éxito o el desarrollo; dañino o desfavorable."
+    },
+    "optionsJson": {
+      "A": "appealing",
+      "B": "adverse",
+      "C": "authentic",
+      "D": "arbitrary"
+    },
+    "correctAnswerValue": "B",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1080,
+    "providerId": "local",
+    "questionText": {
+      "en": "She is a fierce  {blank}  for women's rights in the workplace."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "An 'advocate' is a person who publicly supports or recommends a particular cause or policy.",
+      "zh": "'Advocate' 意为拥护者，倡导者。",
+      "es": "Un 'advocate' es una persona que apoya o recomienda públicamente una causa o política en particular."
+    },
+    "optionsJson": {
+      "A": "activist",
+      "B": "administrator",
+      "C": "ambassador",
+      "D": "advocate"
+    },
+    "correctAnswerValue": "D",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1081,
+    "providerId": "local",
+    "questionText": {
+      "en": "The product was chosen for its  {blank}  appeal rather than its practical functionality."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "'Aesthetic' relates to beauty or the appreciation of beauty.",
+      "zh": "'Aesthetic' 意为美学的，审美的。",
+      "es": "'Aesthetic' se relaciona con la belleza o la apreciación de la belleza."
+    },
+    "optionsJson": {
+      "A": "aesthetic",
+      "B": "arbitrary",
+      "C": "acute",
+      "D": "anonymous"
+    },
+    "correctAnswerValue": "A",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1082,
+    "providerId": "local",
+    "questionText": {
+      "en": "The city struggled to recover in the  {blank}  of the devastating earthquake."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "'Aftermath' refers to the consequences or aftereffects of a significant unpleasant event.",
+      "zh": "'Aftermath' 意为（不幸事件后的）后果，余波。",
+      "es": "'Aftermath' se refiere a las consecuencias o efectos posteriores de un evento desagradable significativo."
+    },
+    "optionsJson": {
+      "A": "alignment",
+      "B": "aftermath",
+      "C": "allocation",
+      "D": "allowance"
+    },
+    "correctAnswerValue": "B",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1083,
+    "providerId": "local",
+    "questionText": {
+      "en": "The defense lawyer argued that the  {blank}  was false and lacked evidence."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "An 'allegation' is a claim or assertion that someone has done something illegal or wrong, typically one made without proof.",
+      "zh": "'Allegation' 意为（无证据的）指控，说法。",
+      "es": "Una 'allegation' es una afirmación de que alguien ha hecho algo ilegal o incorrecto, generalmente hecha sin pruebas."
+    },
+    "optionsJson": {
+      "A": "alliance",
+      "B": "allegation",
+      "C": "amendment",
+      "D": "analogy"
+    },
+    "correctAnswerValue": "B",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1084,
+    "providerId": "local",
+    "questionText": {
+      "en": "The council will  {blank}  funds to renovate the local park next year."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "'Allocate' means to distribute resources or duties for a particular purpose.",
+      "zh": "'Allocate' 意为分配，拨给。",
+      "es": "'Allocate' significa distribuir recursos o tareas para un propósito particular."
+    },
+    "optionsJson": {
+      "A": "amend",
+      "B": "appoint",
+      "C": "allocate",
+      "D": "articulate"
+    },
+    "correctAnswerValue": "C",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1085,
+    "providerId": "local",
+    "questionText": {
+      "en": "The Senator proposed an  {blank}  to the bill to include environmental protections."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "An 'amendment' is a minor change or addition designed to improve a text or piece of legislation.",
+      "zh": "'Amendment' 意为修正案，修改。",
+      "es": "Una 'amendment' es un pequeño cambio o adición diseñada para mejorar un texto o una pieza legislativa."
+    },
+    "optionsJson": {
+      "A": "analogy",
+      "B": "amendment",
+      "C": "apparatus",
+      "D": "assertion"
+    },
+    "correctAnswerValue": "B",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1086,
+    "providerId": "local",
+    "questionText": {
+      "en": "To explain how the brain works, the teacher used an  {blank}  comparing it to a computer."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "An 'analogy' is a comparison between two things, typically for the purpose of explanation or clarification.",
+      "zh": "'Analogy' 意为类比，比喻。",
+      "es": "Una 'analogy' es una comparación entre dos cosas, generalmente con el fin de explicar o aclarar."
+    },
+    "optionsJson": {
+      "A": "analogy",
+      "B": "appreciation",
+      "C": "aspiration",
+      "D": "assurance"
+    },
+    "correctAnswerValue": "A",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1087,
+    "providerId": "local",
+    "questionText": {
+      "en": "The donor wished to remain  {blank} , so the hospital did not release their name."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "'Anonymous' means of a person not identified by name; of unknown name.",
+      "zh": "'Anonymous' 意为匿名的。",
+      "es": "'Anonymous' significa que una persona no está identificada por su nombre; de nombre desconocido."
+    },
+    "optionsJson": {
+      "A": "applicable",
+      "B": "authentic",
+      "C": "anonymous",
+      "D": "arbitrary"
+    },
+    "correctAnswerValue": "C",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1088,
+    "providerId": "local",
+    "questionText": {
+      "en": "The manager’s choice of who to promote seemed  {blank}  and not based on performance."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "'Arbitrary' describes something based on random choice or personal whim, rather than any reason or system.",
+      "zh": "'Arbitrary' 意为武断的，随机的。",
+      "es": "'Arbitrary' describe algo basado en una elección aleatoria o un capricho personal, en lugar de cualquier razón o sistema."
+    },
+    "optionsJson": {
+      "A": "arbitrary",
+      "B": "articulate",
+      "C": "authentic",
+      "D": "acute"
+    },
+    "correctAnswerValue": "A",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1089,
+    "providerId": "local",
+    "questionText": {
+      "en": "She is highly  {blank}  and was able to explain the complex theory very clearly."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "'Articulate' means having or showing the ability to speak fluently and coherently.",
+      "zh": "'Articulate' 意为口才好的，表达清晰的。",
+      "es": "'Articulate' significa tener o mostrar la capacidad de hablar con fluidez y coherencia."
+    },
+    "optionsJson": {
+      "A": "anonymous",
+      "B": "applicable",
+      "C": "articulate",
+      "D": "adjacent"
+    },
+    "correctAnswerValue": "C",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1090,
+    "providerId": "local",
+    "questionText": {
+      "en": "The political  {blank}  in the country has been unstable since the last election."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "'Climate' in this context refers to the prevailing trend of public opinion or another aspect of public life (political climate).",
+      "zh": "'Climate' 在此处指（政治、经济等）形势，氛围。",
+      "es": "'Climate' en este contexto se refiere a la tendencia prevaleciente de la opinión pública u otro aspecto de la vida pública (clima político)."
+    },
+    "optionsJson": {
+      "A": "arena",
+      "B": "climate",
+      "C": "assembly",
+      "D": "alliance"
+    },
+    "correctAnswerValue": "B",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1091,
+    "providerId": "local",
+    "questionText": {
+      "en": "The politician's  {blank}  that the tax increase would only affect the wealthy was met with skepticism."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "'Assertion' is a confident and forceful statement of fact or belief.",
+      "zh": "'Assertion' 意为断言，明确肯定的声明。",
+      "es": "'Assertion' es una declaración confiada y contundente de un hecho o creencia."
+    },
+    "optionsJson": {
+      "A": "assertion",
+      "B": "asylum",
+      "C": "atrocity",
+      "D": "attendance"
+    },
+    "correctAnswerValue": "A",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1092,
+    "providerId": "local",
+    "questionText": {
+      "en": "After the civil war, many refugees sought political  {blank}  in neighboring countries."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "'Asylum' is the protection granted by a nation to someone who has left their native country as a political refugee.",
+      "zh": "'Asylum' 意为（政治）避难，庇护。",
+      "es": "'Asylum' es la protección otorgada por una nación a alguien que ha dejado su país de origen como refugiado político."
+    },
+    "optionsJson": {
+      "A": "alliance",
+      "B": "asylum",
+      "C": "auction",
+      "D": "audit"
+    },
+    "correctAnswerValue": "B",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1093,
+    "providerId": "local",
+    "questionText": {
+      "en": "The witness was able to  {blank}  his claims with photographic evidence."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "'Backing' (or 'back up') in this context means to support or prove a claim.",
+      "zh": "'Back up' 意为支持，证实。",
+      "es": "'Back up' en este contexto significa apoyar o probar una afirmación."
+    },
+    "optionsJson": {
+      "A": "betray",
+      "B": "back up",
+      "C": "bind",
+      "D": "blend"
+    },
+    "correctAnswerValue": "B",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1094,
+    "providerId": "local",
+    "questionText": {
+      "en": "The company was forced to file for  {blank}  after its main investor withdrew support."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "'Bankruptcy' is the legal state of being unable to pay outstanding debts.",
+      "zh": "'Bankruptcy' 意为破产。",
+      "es": "'Bankruptcy' es el estado legal de no poder pagar las deudas pendientes."
+    },
+    "optionsJson": {
+      "A": "bankruptcy",
+      "B": "benchmark",
+      "C": "beneficiary",
+      "D": "breach"
+    },
+    "correctAnswerValue": "A",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1095,
+    "providerId": "local",
+    "questionText": {
+      "en": "The results of the  {blank}  showed that the majority of citizens support the new environmental policy."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "A 'ballot' is a system of voting secretly and in writing on a particular issue.",
+      "zh": "'Ballot' 意为投票，选票。",
+      "es": "Un 'ballot' es un sistema de votación secreta y por escrito sobre un tema en particular."
+    },
+    "optionsJson": {
+      "A": "barrier",
+      "B": "ballot",
+      "C": "banner",
+      "D": "batch"
+    },
+    "correctAnswerValue": "B",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1096,
+    "providerId": "local",
+    "questionText": {
+      "en": "The detective noticed a  {blank}  detail in the suspect's story that didn't match the evidence."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "'Bizarre' means very strange or unusual, especially so as to cause interest or amusement.",
+      "zh": "'Bizarre' 意为离奇的，古怪的。",
+      "es": "'Bizarre' significa muy extraño o inusual, especialmente para causar interés o diversión."
+    },
+    "optionsJson": {
+      "A": "brutal",
+      "B": "bizarre",
+      "C": "bare",
+      "D": "bold"
+    },
+    "correctAnswerValue": "B",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1097,
+    "providerId": "local",
+    "questionText": {
+      "en": "Scientists have achieved a major  {blank}  in cancer research that could lead to new treatments."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "A 'breakthrough' is a sudden, dramatic, and important discovery or development.",
+      "zh": "'Breakthrough' 意为突破，重大进展。",
+      "es": "Un 'breakthrough' es un descubrimiento o desarrollo repentino, dramático e importante."
+    },
+    "optionsJson": {
+      "A": "breakdown",
+      "B": "breakthrough",
+      "C": "breach",
+      "D": "broadcast"
+    },
+    "correctAnswerValue": "B",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1098,
+    "providerId": "local",
+    "questionText": {
+      "en": "The increasing complexity of modern  {blank}  can make it difficult for small businesses to operate."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "'Bureaucracy' refers to a system of government or management in which most of the important decisions are taken by state officials rather than by elected representatives.",
+      "zh": "'Bureaucracy' 意为官僚机构，官僚主义。",
+      "es": "'Bureaucracy' se refiere a un sistema de gobierno o gestión en el que la mayoría de las decisiones importantes son tomadas por funcionarios estatales en lugar de representantes electos."
+    },
+    "optionsJson": {
+      "A": "boundary",
+      "B": "bureaucracy",
+      "C": "burden",
+      "D": "benefit"
+    },
+    "correctAnswerValue": "B",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1099,
+    "providerId": "local",
+    "questionText": {
+      "en": "The sudden  {blank}  of the pipe caused extensive flooding in the basement."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "To 'burst' is to break open or apart suddenly and violently, especially as a result of internal pressure.",
+      "zh": "'Burst' 意为爆裂，突发。",
+      "es": "'Burst' es romperse o abrirse repentina y violentamente, especialmente como resultado de una presión interna."
+    },
+    "optionsJson": {
+      "A": "burst",
+      "B": "blend",
+      "C": "blast",
+      "D": "bounce"
+    },
+    "correctAnswerValue": "A",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1100,
+    "providerId": "local",
+    "questionText": {
+      "en": "The  {blank}  met yesterday to discuss the new national security strategy."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "In government, a 'cabinet' is a body of high-ranking state officials, typically consisting of the top leaders of the executive branch.",
+      "zh": "'Cabinet' 意为内阁。",
+      "es": "En el gobierno, un 'cabinet' es un cuerpo de funcionarios estatales de alto rango, que generalmente consiste en los principales líderes del poder ejecutivo."
+    },
+    "optionsJson": {
+      "A": "campaign",
+      "B": "cabinet",
+      "C": "canvas",
+      "D": "capacity"
+    },
+    "correctAnswerValue": "B",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1101,
+    "providerId": "local",
+    "questionText": {
+      "en": "The large ship was carrying a diverse  {blank}  of electronics and machinery across the Atlantic."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "'Cargo' refers to goods carried on a ship, aircraft, or motor vehicle.",
+      "zh": "'Cargo' 意为货物。",
+      "es": "'Cargo' se refiere a las mercancías transportadas en un barco, avión o vehículo de motor."
+    },
+    "optionsJson": {
+      "A": "capital",
+      "B": "carriage",
+      "C": "cargo",
+      "D": "catalog"
+    },
+    "correctAnswerValue": "C",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1102,
+    "providerId": "local",
+    "questionText": {
+      "en": "The explosion resulted in numerous  {blank}  among both soldiers and civilians."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "A 'casualty' is a person killed or injured in a war or accident.",
+      "zh": "'Casualty' 意为伤亡人员。",
+      "es": "Una 'casualty' es una persona muerta o herida en una guerra o accidente."
+    },
+    "optionsJson": {
+      "A": "casualty",
+      "B": "caution",
+      "C": "celebrity",
+      "D": "citizen"
+    },
+    "correctAnswerValue": "A",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1103,
+    "providerId": "local",
+    "questionText": {
+      "en": "The fighting between the two groups did not  {blank}  until a ceasefire was signed."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "To 'cease' means to come to an end or bring to an end.",
+      "zh": "'Cease' 意为停止，终止。",
+      "es": "To 'cease' significa llegar a su fin o poner fin a algo."
+    },
+    "optionsJson": {
+      "A": "cease",
+      "B": "clash",
+      "C": "cling",
+      "D": "curb"
+    },
+    "correctAnswerValue": "A",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1104,
+    "providerId": "local",
+    "questionText": {
+      "en": "The sudden announcement of the bank's failure caused  {blank}  in the financial markets."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "'Chaos' is a state of complete confusion and disorder.",
+      "zh": "'Chaos' 意为混乱。",
+      "es": "'Chaos' es un estado de completa confusión y desorden."
+    },
+    "optionsJson": {
+      "A": "clarity",
+      "B": "chaos",
+      "C": "closure",
+      "D": "cluster"
+    },
+    "correctAnswerValue": "B",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1105,
+    "providerId": "local",
+    "questionText": {
+      "en": "The patient suffered from  {blank}  back pain that lasted for several years."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "'Chronic' describes a condition (especially a disease or pain) persisting for a long time or constantly recurring.",
+      "zh": "'Chronic' 意为慢性的，长期的。",
+      "es": "'Chronic' describe una afección (especialmente una enfermedad o dolor) que persiste durante mucho tiempo o que reaparece constantemente."
+    },
+    "optionsJson": {
+      "A": "chronic",
+      "B": "clinical",
+      "C": "cognitive",
+      "D": "collective"
+    },
+    "correctAnswerValue": "A",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1106,
+    "providerId": "local",
+    "questionText": {
+      "en": "The  {blank}  between the protesters and the police turned violent late last night."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "A 'clash' is a violent confrontation or a serious incompatibility between two things.",
+      "zh": "'Clash' 意为冲突。",
+      "es": "Un 'clash' es una confrontación violenta o una incompatibilidad seria entre dos cosas."
+    },
+    "optionsJson": {
+      "A": "clash",
+      "B": "coalition",
+      "C": "collision",
+      "D": "combat"
+    },
+    "correctAnswerValue": "A",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1107,
+    "providerId": "local",
+    "questionText": {
+      "en": "The two companies decided to  {blank}  on a new research project to develop sustainable energy."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "To 'collaborate' means to work jointly on an activity or project.",
+      "zh": "'Collaborate' 意为合作，协作。",
+      "es": "To 'collaborate' significa trabajar conjuntamente en una actividad o proyecto."
+    },
+    "optionsJson": {
+      "A": "coincide",
+      "B": "collaborate",
+      "C": "commence",
+      "D": "compensate"
+    },
+    "correctAnswerValue": "B",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1108,
+    "providerId": "local",
+    "questionText": {
+      "en": "The factory produces a high-quality  {blank}  that is exported to over fifty countries."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "A 'commodity' is a raw material or primary agricultural product that can be bought and sold, such as copper or coffee.",
+      "zh": "'Commodity' 意为商品，日用品。",
+      "es": "Una 'commodity' es una materia prima o un producto agrícola primario que se puede comprar y vender, como el cobre o el café."
+    },
+    "optionsJson": {
+      "A": "commodity",
+      "B": "composition",
+      "C": "component",
+      "D": "commission"
+    },
+    "correctAnswerValue": "A",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1109,
+    "providerId": "local",
+    "questionText": {
+      "en": "The evidence against him was so  {blank}  that the jury reached a verdict in less than an hour."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "'Compelling' means evoking interest, attention, or admiration in a powerfully irresistible way; convincing.",
+      "zh": "'Compelling' 意为令人信服的，有说服力的。",
+      "es": "'Compelling' significa evocar interés, atención o admiración de una manera poderosamente irresistible; convincente."
+    },
+    "optionsJson": {
+      "A": "comparable",
+      "B": "compelling",
+      "C": "competent",
+      "D": "complex"
+    },
+    "correctAnswerValue": "B",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1110,
+    "providerId": "local",
+    "questionText": {
+      "en": "The company had to  {blank}  the workers for the extra hours they spent on the project."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "To 'compensate' means to give (someone) something, typically money, in recognition of loss, suffering, or injury, or for work done.",
+      "zh": "'Compensate' 意为补偿，酬报。",
+      "es": "To 'compensate' significa dar (a alguien) algo, generalmente dinero, en reconocimiento de una pérdida, sufrimiento o lesión, o por el trabajo realizado."
+    },
+    "optionsJson": {
+      "A": "compile",
+      "B": "comply",
+      "C": "compensate",
+      "D": "compromise"
+    },
+    "correctAnswerValue": "C",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1111,
+    "providerId": "local",
+    "questionText": {
+      "en": "The artist's work is a complex  {blank}  of traditional techniques and modern digital media."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "'Composition' refers to the way in which a whole or mixture is made up.",
+      "zh": "'Composition' 意为成分、构成或作品。",
+      "es": "'Composition' se refiere a la forma en que se constituye un todo o una mezcla."
+    },
+    "optionsJson": {
+      "A": "composition",
+      "B": "compliance",
+      "C": "complication",
+      "D": "compensation"
+    },
+    "correctAnswerValue": "A",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1112,
+    "providerId": "local",
+    "questionText": {
+      "en": "The company was found to be in  {blank}  with all relevant environmental regulations."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "'Compliance' is the action or fact of meeting a set of rules or standards.",
+      "zh": "'Compliance' 意为合规、遵守。",
+      "es": "'Compliance' es la acción o el hecho de cumplir con un conjunto de reglas o estándares."
+    },
+    "optionsJson": {
+      "A": "compromise",
+      "B": "compliance",
+      "C": "concession",
+      "D": "confirmation"
+    },
+    "correctAnswerValue": "B",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1113,
+    "providerId": "local",
+    "questionText": {
+      "en": "After hours of negotiation, both sides reached a  {blank}  that satisfied their primary concerns."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "A 'compromise' is an agreement or settlement of a dispute that is reached by each side making concessions.",
+      "zh": "'Compromise' 意为妥协、折中方案。",
+      "es": "Un 'compromise' es un acuerdo o resolución de una disputa que se alcanza mediante concesiones de cada parte."
+    },
+    "optionsJson": {
+      "A": "conception",
+      "B": "consensus",
+      "C": "compromise",
+      "D": "contention"
+    },
+    "correctAnswerValue": "C",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1114,
+    "providerId": "local",
+    "questionText": {
+      "en": "The magician tried to  {blank}  the secret compartment from the audience's view."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "To 'conceal' means to keep from sight; to hide.",
+      "zh": "'Conceal' 意为隐瞒、隐藏。",
+      "es": "To 'conceal' significa mantener fuera de la vista; esconder."
+    },
+    "optionsJson": {
+      "A": "concede",
+      "B": "conceal",
+      "C": "confront",
+      "D": "confine"
+    },
+    "correctAnswerValue": "B",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1115,
+    "providerId": "local",
+    "questionText": {
+      "en": "It is difficult to  {blank}  how much the world has changed in just a few decades."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "To 'conceive' means to form or devise a plan or idea in the mind; to imagine.",
+      "zh": "'Conceive' 意为想象、构想。",
+      "es": "To 'conceive' significa formar o idear un plan o idea en la mente; imaginar."
+    },
+    "optionsJson": {
+      "A": "conceive",
+      "B": "confer",
+      "C": "conquer",
+      "D": "conserve"
+    },
+    "correctAnswerValue": "A",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1116,
+    "providerId": "local",
+    "questionText": {
+      "en": "The international community was quick to  {blank}  the terrorist attack."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "To 'condemn' means to express complete disapproval of, typically in public; to censure.",
+      "zh": "'Condemn' 意为谴责。",
+      "es": "To 'condemn' significa expresar una desaprobación total, generalmente en público; censurar."
+    },
+    "optionsJson": {
+      "A": "confine",
+      "B": "confront",
+      "C": "condemn",
+      "D": "consolidate"
+    },
+    "correctAnswerValue": "C",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1117,
+    "providerId": "local",
+    "questionText": {
+      "en": "Due to the infectious nature of the disease, patients were  {blank}  to a specific ward."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "To 'confine' means to keep or restrict someone or something within certain limits of space, scope, or time.",
+      "zh": "'Confine' 意为限制、禁闭。",
+      "es": "To 'confine' significa mantener o restringir a alguien o algo dentro de ciertos límites de espacio, alcance o tiempo."
+    },
+    "optionsJson": {
+      "A": "confronted",
+      "B": "confined",
+      "C": "constituted",
+      "D": "contemplated"
+    },
+    "correctAnswerValue": "B",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1118,
+    "providerId": "local",
+    "questionText": {
+      "en": "The athlete showed great  {blank}  by training every day, even when he was tired."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "'Consistency' is the quality of always behaving or performing in a similar way, or of always happening in a similar way.",
+      "zh": "'Consistency' 意为一致性、连贯性。",
+      "es": "'Consistency' es la cualidad de comportarse o actuar siempre de manera similar, o de ocurrir siempre de manera similar."
+    },
+    "optionsJson": {
+      "A": "conscience",
+      "B": "consistency",
+      "C": "constraint",
+      "D": "contempt"
+    },
+    "correctAnswerValue": "B",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1119,
+    "providerId": "local",
+    "questionText": {
+      "en": "The bank plans to  {blank}  its operations by closing several smaller branches."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "To 'consolidate' means to combine (a number of things) into a single more effective or coherent whole.",
+      "zh": "'Consolidate' 意为合并、巩固。",
+      "es": "To 'consolidate' significa combinar (varias cosas) en un solo todo más eficaz o coherente."
+    },
+    "optionsJson": {
+      "A": "constitute",
+      "B": "consolidate",
+      "C": "contend",
+      "D": "coordinate"
+    },
+    "correctAnswerValue": "B",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1120,
+    "providerId": "local",
+    "questionText": {
+      "en": "The major  {blank}  on the project was the lack of sufficient funding."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "A 'constraint' is a limitation or restriction.",
+      "zh": "'Constraint' 意为约束、限制。",
+      "es": "Una 'constraint' es una limitación o restricción."
+    },
+    "optionsJson": {
+      "A": "constraint",
+      "B": "contradiction",
+      "C": "conviction",
+      "D": "correlation"
+    },
+    "correctAnswerValue": "A",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1121,
+    "providerId": "local",
+    "questionText": {
+      "en": "He spent many hours alone,  {blank}  the meaning of life and his future path."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "To 'contemplate' means to look thoughtfully for a long time at; to think profoundly and at length.",
+      "zh": "'Contemplate' 意为沉思、深思熟虑。",
+      "es": "To 'contemplate' significa mirar pensativamente durante mucho tiempo; pensar profunda y extensamente."
+    },
+    "optionsJson": {
+      "A": "contemplating",
+      "B": "contradicting",
+      "C": "corresponding",
+      "D": "corrupting"
+    },
+    "correctAnswerValue": "A",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1122,
+    "providerId": "local",
+    "questionText": {
+      "en": "There is a clear  {blank}  between the witness's statement and the video evidence."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "A 'contradiction' is a combination of statements, ideas, or features of a situation that are opposed to one another.",
+      "zh": "'Contradiction' 意为矛盾、抵触。",
+      "es": "Una 'contradiction' es una combinación de afirmaciones, ideas o características de una situación que se oponen entre sí."
+    },
+    "optionsJson": {
+      "A": "correlation",
+      "B": "correspondence",
+      "C": "contradiction",
+      "D": "conversion"
+    },
+    "correctAnswerValue": "C",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1123,
+    "providerId": "local",
+    "questionText": {
+      "en": "The jury's  {blank}  was based on the overwhelming physical evidence presented by the prosecution."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "In a legal context, a 'conviction' is a formal declaration that someone is guilty of a criminal offense, made by the verdict of a jury or the decision of a judge.",
+      "zh": "'Conviction' 意为定罪、判罪。",
+      "es": "En un contexto legal, una 'conviction' es una declaración formal de que alguien es culpable de un delito penal, realizada mediante el veredicto de un jurado o la decisión de un juez."
+    },
+    "optionsJson": {
+      "A": "conviction",
+      "B": "concession",
+      "C": "confession",
+      "D": "confirmation"
+    },
+    "correctAnswerValue": "A",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1124,
+    "providerId": "local",
+    "questionText": {
+      "en": "The manager acts as a  {blank}  between the executive board and the department staff."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "A 'coordinator' is a person whose job is to organize separate parts of an activity or the people involved in it so that they work together effectively.",
+      "zh": "'Coordinator' 意为协调者。",
+      "es": "Un 'coordinator' es una persona cuyo trabajo es organizar partes separadas de una actividad o las personas involucradas en ella para que trabajen juntas de manera efectiva."
+    },
+    "optionsJson": {
+      "A": "contender",
+      "B": "coordinator",
+      "C": "columnist",
+      "D": "correspondent"
+    },
+    "correctAnswerValue": "B",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1125,
+    "providerId": "local",
+    "questionText": {
+      "en": "High levels of air pollution often  {blank}  with an increase in respiratory illnesses."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "To 'correlate' means to have a mutual relationship or connection, in which one thing affects or depends on another.",
+      "zh": "'Correlate' 意为相关、相互关联。",
+      "es": "To 'correlate' significa tener una relación o conexión mutua, en la que una cosa afecta o depende de otra."
+    },
+    "optionsJson": {
+      "A": "correlate",
+      "B": "correspond",
+      "C": "cooperate",
+      "D": "coordinate"
+    },
+    "correctAnswerValue": "A",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1126,
+    "providerId": "local",
+    "questionText": {
+      "en": "The high cost of living in the city is a major  {blank}  for many young families."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "A 'burden' is a load, typically a heavy one; a cause of hardship, worry, or grief.",
+      "zh": "'Burden' 意为负担、重担。",
+      "es": "Una 'burden' es una carga, generalmente pesada; una causa de dificultad, preocupación o dolor."
+    },
+    "optionsJson": {
+      "A": "burden",
+      "B": "buffer",
+      "C": "bulk",
+      "D": "bonus"
+    },
+    "correctAnswerValue": "A",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1127,
+    "providerId": "local",
+    "questionText": {
+      "en": "The investigation revealed widespread  {blank}  within the local police force."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "'Corruption' is dishonest or fraudulent conduct by those in power, typically involving bribery.",
+      "zh": "'Corruption' 意为腐败、贪污。",
+      "es": "'Corruption' es una conducta deshonesta o fraudulenta por parte de quienes están en el poder, que generalmente implica soborno."
+    },
+    "optionsJson": {
+      "A": "corruption",
+      "B": "contempt",
+      "C": "contention",
+      "D": "correction"
+    },
+    "correctAnswerValue": "A",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1128,
+    "providerId": "local",
+    "questionText": {
+      "en": "It is a matter of common  {blank}  to say 'please' and 'thank you'."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "'Courtesy' is the showing of politeness in one's attitude and behavior toward others.",
+      "zh": "'Courtesy' 意为礼貌、客气。",
+      "es": "'Courtesy' es la muestra de cortesía en la actitud y el comportamiento de uno hacia los demás."
+    },
+    "optionsJson": {
+      "A": "courtesy",
+      "B": "clarity",
+      "C": "curiosity",
+      "D": "charity"
+    },
+    "correctAnswerValue": "A",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1129,
+    "providerId": "local",
+    "questionText": {
+      "en": "The writer received a harsh  {blank}  from the book reviewer, who criticized her latest novel."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "A 'critique' is a detailed analysis and assessment of something, especially a literary, philosophical, or political theory.",
+      "zh": "'Critique' 意为评论、批评性分析。",
+      "es": "Una 'critique' es un análisis y evaluación detallados de algo, especialmente una teoría literaria, filosófica o política."
+    },
+    "optionsJson": {
+      "A": "critique",
+      "B": "commentary",
+      "C": "conviction",
+      "D": "confession"
+    },
+    "correctAnswerValue": "A",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1130,
+    "providerId": "local",
+    "questionText": {
+      "en": "The child watched with  {blank}  as the caterpillar transformed into a butterfly."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "'Curiosity' is a strong desire to know or learn something.",
+      "zh": "'Curiosity' 意为好奇心。",
+      "es": "'Curiosity' es un fuerte deseo de conocer o aprender algo."
+    },
+    "optionsJson": {
+      "A": "curiosity",
+      "B": "custody",
+      "C": "certainty",
+      "D": "charity"
+    },
+    "correctAnswerValue": "A",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1131,
+    "providerId": "local",
+    "questionText": {
+      "en": "The evidence against the suspect was purely  {blank} , as there were no eyewitnesses to the crime."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "'Circumstantial' evidence relies on an inference to connect it to a conclusion of fact, rather than being direct proof.",
+      "zh": "'Circumstantial' 意为间接的、视情况而定的（证据）。",
+      "es": "'Circumstantial' se refiere a evidencia que se basa en inferencias para conectar con una conclusión, en lugar de ser una prueba directa."
+    },
+    "optionsJson": {
+      "A": "categorical",
+      "B": "circumstantial",
+      "C": "conclusive",
+      "D": "concrete"
+    },
+    "correctAnswerValue": "B",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1132,
+    "providerId": "local",
+    "questionText": {
+      "en": "The local council is responsible for the  {blank}  of waste in this district."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "'Disposal' is the action or process of throwing away or getting rid of something.",
+      "zh": "'Disposal' 意为处理、清理（废弃物）。",
+      "es": "'Disposal' es la acción o proceso de tirar o deshacerse de algo."
+    },
+    "optionsJson": {
+      "A": "disposal",
+      "B": "dispersal",
+      "C": "dismissal",
+      "D": "disclosure"
+    },
+    "correctAnswerValue": "A",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1133,
+    "providerId": "local",
+    "questionText": {
+      "en": "Winning the championship was a remarkable  {blank}  for the young team."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "An 'accomplishment' is something that has been achieved successfully.",
+      "zh": "'Accomplishment' 意为成就、成果。",
+      "es": "Un 'accomplishment' es algo que se ha logrado con éxito."
+    },
+    "optionsJson": {
+      "A": "acceleration",
+      "B": "accumulation",
+      "C": "accomplishment",
+      "D": "adaptation"
+    },
+    "correctAnswerValue": "C",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1134,
+    "providerId": "local",
+    "questionText": {
+      "en": "The price of the product was adjusted  {blank}  to reflect the increase in raw material costs."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "'Accordingly' means in a way that is appropriate to the particular circumstances.",
+      "zh": "'Accordingly' 意为相应地、适当地。",
+      "es": "'Accordingly' significa de una manera que es apropiada para las circunstancias particulares."
+    },
+    "optionsJson": {
+      "A": "According",
+      "B": "Accordingly",
+      "C": "Accurately",
+      "D": "Actually"
+    },
+    "correctAnswerValue": "B",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1135,
+    "providerId": "local",
+    "questionText": {
+      "en": "The heavy rain caused an  {blank}  of water in the low-lying areas of the city."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "'Accumulation' is the acquisition or gradual gathering of something.",
+      "zh": "'Accumulation' 意为堆积、累积。",
+      "es": "'Accumulation' es la adquisición o recolección gradual de algo."
+    },
+    "optionsJson": {
+      "A": "accumulation",
+      "B": "activation",
+      "C": "adaptation",
+      "D": "admission"
+    },
+    "correctAnswerValue": "A",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1136,
+    "providerId": "local",
+    "questionText": {
+      "en": "The company faced an  {blank}  of fraud after the internal audit revealed missing funds."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "An 'accusation' is a charge or claim that someone has done something illegal or wrong.",
+      "zh": "'Accusation' 意为控告、指控。",
+      "es": "Una 'accusation' es un cargo o afirmación de que alguien ha hecho algo ilegal o incorrecto."
+    },
+    "optionsJson": {
+      "A": "acquisition",
+      "B": "accusation",
+      "C": "adoption",
+      "D": "admission"
+    },
+    "correctAnswerValue": "B",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1137,
+    "providerId": "local",
+    "questionText": {
+      "en": "The manager is responsible for the  {blank}  of the daily operations within the office."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "'Administration' refers to the process or activity of running a business, organization, etc.",
+      "zh": "'Administration' 意为管理、行政。",
+      "es": "'Administration' se refiere al proceso o actividad de dirigir un negocio, organización, etc."
+    },
+    "optionsJson": {
+      "A": "administration",
+      "B": "admission",
+      "C": "adoption",
+      "D": "adaptation"
+    },
+    "correctAnswerValue": "A",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1138,
+    "providerId": "local",
+    "questionText": {
+      "en": "The transition from childhood to adulthood occurs during the  {blank}  years."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "'Adolescent' relates to the period of life following the onset of puberty during which a young person develops from a child into an adult.",
+      "zh": "'Adolescent' 意为青春期的、青少年的。",
+      "es": "'Adolescent' se relaciona con el período de la vida posterior al inicio de la pubertad en el que una persona joven se desarrolla de niño a adulto."
+    },
+    "optionsJson": {
+      "A": "adolescent",
+      "B": "adult",
+      "C": "ancient",
+      "D": "advanced"
+    },
+    "correctAnswerValue": "A",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1139,
+    "providerId": "local",
+    "questionText": {
+      "en": "The  {blank}  of new technologies has significantly changed the way we communicate."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "'Adoption' in this context refers to the action or fact of beginning to use something new.",
+      "zh": "'Adoption' 意为采用、采纳。",
+      "es": "'Adoption' en este contexto se refiere a la acción o el hecho de comenzar a usar algo nuevo."
+    },
+    "optionsJson": {
+      "A": "adaptation",
+      "B": "adoption",
+      "C": "admission",
+      "D": "addition"
+    },
+    "correctAnswerValue": "B",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1140,
+    "providerId": "local",
+    "questionText": {
+      "en": "He showed great  {blank}  for his grandmother, always making sure she was comfortable."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "'Affection' is a gentle feeling of fondness or liking.",
+      "zh": "'Affection' 意为喜爱、感情。",
+      "es": "'Affection' es un sentimiento suave de cariño o gusto."
+    },
+    "optionsJson": {
+      "A": "affection",
+      "B": "aggression",
+      "C": "ambition",
+      "D": "attention"
+    },
+    "correctAnswerValue": "A",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1141,
+    "providerId": "local",
+    "questionText": {
+      "en": "The player was given a yellow card for his  {blank}  towards the referee."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "'Aggression' is feelings of anger or antipathy resulting in hostile or violent behavior.",
+      "zh": "'Aggression' 意为挑衅、攻击性行为。",
+      "es": "'Aggression' son sentimientos de ira o antipatía que resultan en un comportamiento hostil o violento."
+    },
+    "optionsJson": {
+      "A": "aggression",
+      "B": "affection",
+      "C": "ambition",
+      "D": "assertion"
+    },
+    "correctAnswerValue": "A",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1142,
+    "providerId": "local",
+    "questionText": {
+      "en": "The government provided financial  {blank}  to farmers whose crops were destroyed by the drought."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "An 'aide' (or 'aid' as a noun) is help, typically of a practical or financial nature.",
+      "zh": "'Aid' 意为援助、帮助。",
+      "es": "'Aid' es ayuda, típicamente de naturaleza práctica o financiera."
+    },
+    "optionsJson": {
+      "A": "aid",
+      "B": "aim",
+      "C": "air",
+      "D": "act"
+    },
+    "correctAnswerValue": "A",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1143,
+    "providerId": "local",
+    "questionText": {
+      "en": "The security guard stayed  {blank}  throughout the night to ensure the building was safe."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "'Alert' means quick to notice any unusual and potentially dangerous or difficult circumstances; vigilant.",
+      "zh": "'Alert' 意为警觉的、警惕的。",
+      "es": "'Alert' significa rápido para notar cualquier circunstancia inusual y potencialmente peligrosa o difícil; vigilante."
+    },
+    "optionsJson": {
+      "A": "alert",
+      "B": "alike",
+      "C": "alive",
+      "D": "alone"
+    },
+    "correctAnswerValue": "A",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1144,
+    "providerId": "local",
+    "questionText": {
+      "en": "Although they are sisters, the two girls do not look  {blank}  at all."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "'Alike' means similar to each other.",
+      "zh": "'Alike' 意为相似的、相像的。",
+      "es": "'Alike' significa similar entre sí."
+    },
+    "optionsJson": {
+      "A": "alike",
+      "B": "alive",
+      "C": "alert",
+      "D": "alone"
+    },
+    "correctAnswerValue": "A",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1145,
+    "providerId": "local",
+    "questionText": {
+      "en": "The two countries formed an  {blank}  to protect themselves from potential threats."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "An 'alliance' is a union or association formed for mutual benefit, especially between countries or organizations.",
+      "zh": "'Alliance' 意为联盟、同盟。",
+      "es": "Una 'alliance' es una unión o asociación formada para el beneficio mutuo, especialmente entre países u organizaciones."
+    },
+    "optionsJson": {
+      "A": "alliance",
+      "B": "allowance",
+      "C": "allocation",
+      "D": "allegation"
+    },
+    "correctAnswerValue": "A",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1146,
+    "providerId": "local",
+    "questionText": {
+      "en": "The parents gave their son a weekly  {blank}  to teach him how to manage money."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "An 'allowance' is a sum of money paid regularly to a person, typically to meet specified needs or expenses.",
+      "zh": "'Allowance' 意为津贴、零用钱。",
+      "es": "Una 'allowance' es una suma de dinero que se paga regularmente a una persona, generalmente para cubrir necesidades o gastos específicos."
+    },
+    "optionsJson": {
+      "A": "allowance",
+      "B": "allocation",
+      "C": "alliance",
+      "D": "allegation"
+    },
+    "correctAnswerValue": "A",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1147,
+    "providerId": "local",
+    "questionText": {
+      "en": "The painting was done by an  {blank}  artist, but it looks like the work of a professional."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "An 'amateur' is a person who engages in a pursuit, especially a sport, on an unpaid rather than a professional basis.",
+      "zh": "'Amateur' 意为业余的、外行的。",
+      "es": "Un 'amateur' es una persona que se dedica a una actividad, especialmente un deporte, de forma no remunerada en lugar de profesional."
+    },
+    "optionsJson": {
+      "A": "amateur",
+      "B": "ambassador",
+      "C": "activist",
+      "D": "administrator"
+    },
+    "correctAnswerValue": "A",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1148,
+    "providerId": "local",
+    "questionText": {
+      "en": "The ship dropped its  {blank}  in the harbor to prevent it from drifting away."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "An 'anchor' is a heavy object attached to a cable or chain and used to moor a ship to the sea bottom.",
+      "zh": "'Anchor' 意为锚。",
+      "es": "Un 'anchor' es un objeto pesado unido a un cable o cadena que se utiliza para amarrar un barco al fondo del mar."
+    },
+    "optionsJson": {
+      "A": "anchor",
+      "B": "angel",
+      "C": "archive",
+      "D": "arena"
+    },
+    "correctAnswerValue": "A",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1149,
+    "providerId": "local",
+    "questionText": {
+      "en": "The scientific  {blank}  used in the experiment was extremely sophisticated."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "'Apparatus' refers to the technical equipment or machinery needed for a particular activity or purpose.",
+      "zh": "'Apparatus' 意为器械、设备。",
+      "es": "'Apparatus' se refiere al equipo técnico o maquinaria necesaria para una actividad o propósito particular."
+    },
+    "optionsJson": {
+      "A": "apparatus",
+      "B": "apparel",
+      "C": "archive",
+      "D": "array"
+    },
+    "correctAnswerValue": "A",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1150,
+    "providerId": "local",
+    "questionText": {
+      "en": "The restaurant's menu features an  {blank}  of dishes from around the world."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "An 'array' is an impressive display or range of a particular type of thing.",
+      "zh": "'Array' 意为一系列、大量、排布。",
+      "es": "Un 'array' es una exhibición o gama impresionante de un tipo particular de cosa."
+    },
+    "optionsJson": {
+      "A": "array",
+      "B": "apparatus",
+      "C": "archive",
+      "D": "arena"
+    },
+    "correctAnswerValue": "A",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1151,
+    "providerId": "local",
+    "questionText": {
+      "en": "The politician's  {blank}  was damaged by the scandal, making it hard for him to win the election."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "'Authenticity' refers to the quality of being real or true; in politics, it often relates to a leader's perceived genuineness.",
+      "zh": "'Authenticity' 意为真实性、可靠性。",
+      "es": "'Authenticity' se refiere a la cualidad de ser real o verdadero; en política, a menudo se relaciona con la autenticidad percibida de un líder."
+    },
+    "optionsJson": {
+      "A": "autonomy",
+      "B": "authenticity",
+      "C": "availability",
+      "D": "attachment"
+    },
+    "correctAnswerValue": "B",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1152,
+    "providerId": "local",
+    "questionText": {
+      "en": "The university department was granted greater  {blank}  to design its own curriculum."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "'Autonomy' is the right or condition of self-government; independence in decision-making.",
+      "zh": "'Autonomy' 意为自治权、自主权。",
+      "es": "'Autonomy' es el derecho o la condición de autogobierno; independencia en la toma de decisiones."
+    },
+    "optionsJson": {
+      "A": "autonomy",
+      "B": "assembly",
+      "C": "authority",
+      "D": "audit"
+    },
+    "correctAnswerValue": "A",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1153,
+    "providerId": "local",
+    "questionText": {
+      "en": "The mountains provided a stunning  {blank}  for the outdoor wedding ceremony."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "A 'backdrop' is the setting or background for a scene, event, or situation.",
+      "zh": "'Backdrop' 意为背景、舞台背景。",
+      "es": "Un 'backdrop' es el escenario o fondo de una escena, evento o situación."
+    },
+    "optionsJson": {
+      "A": "backup",
+      "B": "backdrop",
+      "C": "barrier",
+      "D": "batch"
+    },
+    "correctAnswerValue": "B",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1154,
+    "providerId": "local",
+    "questionText": {
+      "en": "The price of gold is often used as a  {blank}  for the health of the global economy."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "A 'benchmark' is a standard or point of reference against which things may be compared or assessed.",
+      "zh": "'Benchmark' 意为基准、参照点。",
+      "es": "Un 'benchmark' es un estándar o punto de referencia con el que se pueden comparar o evaluar las cosas."
+    },
+    "optionsJson": {
+      "A": "beneficiary",
+      "B": "benchmark",
+      "C": "blueprint",
+      "D": "breach"
+    },
+    "correctAnswerValue": "B",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1155,
+    "providerId": "local",
+    "questionText": {
+      "en": "The charity named the local hospital as the primary  {blank}  of the fundraising gala."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "A 'beneficiary' is a person or entity that derives advantage or profit from something, such as a trust or will.",
+      "zh": "'Beneficiary' 意为受益人、受惠者。",
+      "es": "Un 'beneficiary' es una persona o entidad que obtiene una ventaja o beneficio de algo, como un fideicomiso o testamento."
+    },
+    "optionsJson": {
+      "A": "beneficiary",
+      "B": "broadcaster",
+      "C": "bureaucrat",
+      "D": "board"
+    },
+    "correctAnswerValue": "A",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1156,
+    "providerId": "local",
+    "questionText": {
+      "en": "Publishing the private emails was considered a serious  {blank}  of ethics."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "A 'breach' is an act of breaking or failing to observe a law, agreement, or code of conduct.",
+      "zh": "'Breach' 意为违反、破坏（协议、法律等）。",
+      "es": "Una 'breach' es el acto de romper o no cumplir una ley, acuerdo o código de conducta."
+    },
+    "optionsJson": {
+      "A": "buffer",
+      "B": "breach",
+      "C": "burden",
+      "D": "bulk"
+    },
+    "correctAnswerValue": "B",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1157,
+    "providerId": "local",
+    "questionText": {
+      "en": "The regime was criticized for its  {blank}  treatment of political prisoners."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "'Brutal' means savagely violent; unpleasant or harsh.",
+      "zh": "'Brutal' 意为残忍的、野蛮的。",
+      "es": "'Brutal' significa salvajemente violento; desagradable o duro."
+    },
+    "optionsJson": {
+      "A": "brutal",
+      "B": "bold",
+      "C": "bizarre",
+      "D": "brief"
+    },
+    "correctAnswerValue": "A",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1158,
+    "providerId": "local",
+    "questionText": {
+      "en": "Savings from the tax cut will fall to the  {blank}  of the population who earn the most."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "'Bulk' refers to the mass or the greater part of something.",
+      "zh": "'Bulk' 意为大部分、主体。",
+      "es": "'Bulk' se refiere a la masa o la mayor parte de algo."
+    },
+    "optionsJson": {
+      "A": "bulk",
+      "B": "buffer",
+      "C": "burden",
+      "D": "boundary"
+    },
+    "correctAnswerValue": "A",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1159,
+    "providerId": "local",
+    "questionText": {
+      "en": "The new stadium is a massive  {blank}  that can hold up to 80,000 spectators."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "An 'arena' is a level area surrounded by seats for spectators, in which sports or other events take place.",
+      "zh": "'Arena' 意为竞技场、活动场所。",
+      "es": "Una 'arena' es un área nivelada rodeada de asientos para espectadores, en la que se llevan a cabo deportes u otros eventos."
+    },
+    "optionsJson": {
+      "A": "apparatus",
+      "B": "arena",
+      "C": "archive",
+      "D": "array"
+    },
+    "correctAnswerValue": "B",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1160,
+    "providerId": "local",
+    "questionText": {
+      "en": "The government refused to  {blank}  to the kidnappers' demands for a ransom."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "To 'cede' means to give up power or territory; in general context, it means to yield or give in.",
+      "zh": "'Cede' 意为让步、放弃（权力或领土）。",
+      "es": "To 'cede' significa renunciar al poder o al territorio; en un contexto general, significa ceder o rendirse."
+    },
+    "optionsJson": {
+      "A": "cease",
+      "B": "cede",
+      "C": "clash",
+      "D": "curb"
+    },
+    "correctAnswerValue": "B",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1161,
+    "providerId": "local",
+    "questionText": {
+      "en": "The detective followed a  {blank}  of clues that eventually led to the suspect's hideout."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "A 'trail' is a series of signs or objects left by someone or something as they move.",
+      "zh": "'Trail' 意为踪迹、线索。",
+      "es": "Un 'trail' es una serie de signos u objetos dejados por alguien o algo mientras se mueven."
+    },
+    "optionsJson": {
+      "A": "trail",
+      "B": "tactic",
+      "C": "transcript",
+      "D": "tribute"
+    },
+    "correctAnswerValue": "A",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1162,
+    "providerId": "local",
+    "questionText": {
+      "en": "The company’s quarterly  {blank}  recorded a record high in online sales."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "A 'transaction' is an instance of buying or selling something; a business deal.",
+      "zh": "'Transaction' 意为交易、业务。",
+      "es": "Una 'transaction' es una instancia de compra o venta de algo; un trato comercial."
+    },
+    "optionsJson": {
+      "A": "transaction",
+      "B": "transmission",
+      "C": "transformation",
+      "D": "transcription"
+    },
+    "correctAnswerValue": "A",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1163,
+    "providerId": "local",
+    "questionText": {
+      "en": "The digital  {blank}  of data across the network was interrupted by a power surge."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "'Transmission' is the action or process of transmitting something, especially radio or television signals or data.",
+      "zh": "'Transmission' 意为传输、传播。",
+      "es": "'Transmission' es la acción o proceso de transmitir algo, especialmente señales de radio o televisión o datos."
+    },
+    "optionsJson": {
+      "A": "transit",
+      "B": "transmission",
+      "C": "transparency",
+      "D": "transformation"
+    },
+    "correctAnswerValue": "B",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1164,
+    "providerId": "local",
+    "questionText": {
+      "en": "Citizens demand more  {blank}  from the government regarding how tax money is spent."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "'Transparency' is the quality of being done in an open way without secrets, so that people can trust that things are fair.",
+      "zh": "'Transparency' 意为透明度、透明性。",
+      "es": "'Transparency' es la cualidad de hacerse de manera abierta sin secretos, para que las personas puedan confiar en que las cosas son justas."
+    },
+    "optionsJson": {
+      "A": "transparency",
+      "B": "transaction",
+      "C": "tolerance",
+      "D": "testimony"
+    },
+    "correctAnswerValue": "A",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1165,
+    "providerId": "local",
+    "questionText": {
+      "en": "The witness provided a powerful  {blank}  that convinced the jury of the defendant's guilt."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "'Testimony' is a formal written or spoken statement, especially one given in a court of law.",
+      "zh": "'Testimony' 意为证词、证言。",
+      "es": "'Testimony' es una declaración formal escrita u oral, especialmente una dada en un tribunal de justicia."
+    },
+    "optionsJson": {
+      "A": "testimony",
+      "B": "threshold",
+      "C": "tenure",
+      "D": "tactic"
+    },
+    "correctAnswerValue": "A",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1166,
+    "providerId": "local",
+    "questionText": {
+      "en": "The economy has crossed a critical  {blank} , and recovery is now expected to be swift."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "A 'threshold' is a point of entering or beginning; a level at which something starts to happen.",
+      "zh": "'Threshold' 意为门槛、阈值、开端。",
+      "es": "Un 'threshold' es un punto de entrada o comienzo; un nivel en el que algo comienza a suceder."
+    },
+    "optionsJson": {
+      "A": "terrain",
+      "B": "threshold",
+      "C": "tolerance",
+      "D": "turnout"
+    },
+    "correctAnswerValue": "B",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1167,
+    "providerId": "local",
+    "questionText": {
+      "en": "Despite the harsh conditions, the rare desert flowers managed to  {blank} ."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "To 'thrive' means to prosper or flourish; to grow or develop well.",
+      "zh": "'Thrive' 意为繁荣、兴旺、茁壮成长。",
+      "es": "To 'thrive' significa prosperar o florecer; crecer o desarrollarse bien."
+    },
+    "optionsJson": {
+      "A": "tighten",
+      "B": "terminate",
+      "C": "thrive",
+      "D": "toss"
+    },
+    "correctAnswerValue": "C",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1168,
+    "providerId": "local",
+    "questionText": {
+      "en": "The country has a zero- {blank}  policy towards illegal drug trafficking."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "'Tolerance' is the ability or willingness to tolerate something, in particular the existence of opinions or behavior that one does not necessarily agree with.",
+      "zh": "'Tolerance' 意为宽容、忍耐力。",
+      "es": "'Tolerance' es la capacidad o voluntad de tolerar algo, en particular la existencia de opiniones o comportamientos con los que uno no necesariamente está de acuerdo."
+    },
+    "optionsJson": {
+      "A": "tolerance",
+      "B": "texture",
+      "C": "tribute",
+      "D": "tenure"
+    },
+    "correctAnswerValue": "A",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1169,
+    "providerId": "local",
+    "questionText": {
+      "en": "The war has taken a heavy  {blank}  on the civilian population, with thousands displaced."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "To 'take a toll' means to cause harm or damage over time.",
+      "zh": "'Toll' 在此处意为（战争、灾难等造成的）伤亡人数、损失。",
+      "es": "To 'take a toll' significa causar daño o perjuicio con el tiempo."
+    },
+    "optionsJson": {
+      "A": "trail",
+      "B": "toll",
+      "C": "tide",
+      "D": "total"
+    },
+    "correctAnswerValue": "B",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1170,
+    "providerId": "local",
+    "questionText": {
+      "en": "The concert was a  {blank}  success, with critics calling it the performance of the year."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "'Terrific' means of great size, amount, or intensity; or informally, extremely good.",
+      "zh": "'Terrific' 意为极好的、了不起的（或极大的）。",
+      "es": "'Terrific' significa de gran tamaño, cantidad o intensidad; o informalmente, extremadamente bueno."
+    },
+    "optionsJson": {
+      "A": "terrific",
+      "B": "troubled",
+      "C": "toxic",
+      "D": "timely"
+    },
+    "correctAnswerValue": "A",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1171,
+    "providerId": "local",
+    "questionText": {
+      "en": "The witness was asked to  {blank}  in court regarding the events he saw on the night of the crime."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "To 'testify' means to give evidence as a witness in a law court.",
+      "zh": "'Testify' 意为（在法庭上）作证。",
+      "es": "'Testify' significa dar evidencia como testigo en un tribunal de justicia."
+    },
+    "optionsJson": {
+      "A": "testify",
+      "B": "terminate",
+      "C": "tackle",
+      "D": "tempt"
+    },
+    "correctAnswerValue": "A",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1172,
+    "providerId": "local",
+    "questionText": {
+      "en": "The professor's lecture focused on the  {blank}  aspects of quantum physics rather than practical applications."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "'Theoretical' relates to the portion of an area of study that consists of theories rather than practical application.",
+      "zh": "'Theoretical' 意为理论上的。",
+      "es": "'Theoretical' se relaciona con la parte de un área de estudio que consiste en teorías en lugar de aplicaciones prácticas."
+    },
+    "optionsJson": {
+      "A": "theatrical",
+      "B": "thoughtful",
+      "C": "theoretical",
+      "D": "thriving"
+    },
+    "correctAnswerValue": "C",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1173,
+    "providerId": "local",
+    "questionText": {
+      "en": "The contract will  {blank}  automatically at the end of the year unless a renewal is signed."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "To 'terminate' means to bring to an end.",
+      "zh": "'Terminate' 意为终止、结束。",
+      "es": "'Terminate' significa poner fin a algo."
+    },
+    "optionsJson": {
+      "A": "tolerate",
+      "B": "terminate",
+      "C": "tighten",
+      "D": "toss"
+    },
+    "correctAnswerValue": "B",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1174,
+    "providerId": "local",
+    "questionText": {
+      "en": "The rescue team struggled to navigate the rugged  {blank}  during the search for the missing hikers."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "'Terrain' refers to a stretch of land, especially with regard to its physical features.",
+      "zh": "'Terrain' 意为地形、地势。",
+      "es": "'Terrain' se refiere a una extensión de tierra, especialmente con respecto a sus características físicas."
+    },
+    "optionsJson": {
+      "A": "texture",
+      "B": "timber",
+      "C": "terrain",
+      "D": "tide"
+    },
+    "correctAnswerValue": "C",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1175,
+    "providerId": "local",
+    "questionText": {
+      "en": "The decision was made and  {blank}  implemented, leaving no room for further debate."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "'Thereafter' means after that time or event.",
+      "zh": "'Thereafter' 意为此后、在那之后。",
+      "es": "'Thereafter' significa después de ese momento o evento."
+    },
+    "optionsJson": {
+      "A": "Thereby",
+      "B": "Thereafter",
+      "C": "Thankfully",
+      "D": "Timely"
+    },
+    "correctAnswerValue": "B",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1176,
+    "providerId": "local",
+    "questionText": {
+      "en": "The company reduced its workforce,  {blank}  cutting costs but also lowering morale."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "'Thereby' means by that means; as a result of that.",
+      "zh": "'Thereby' 意为从而、因此。",
+      "es": "'Thereby' significa por ese medio; como resultado de eso."
+    },
+    "optionsJson": {
+      "A": "Thereafter",
+      "B": "Thereby",
+      "C": "Thoughtfully",
+      "D": "Tenderly"
+    },
+    "correctAnswerValue": "B",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1177,
+    "providerId": "local",
+    "questionText": {
+      "en": "The building was constructed using sustainable  {blank}  harvested from local forests."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "'Timber' refers to wood prepared for use in building and carpentry.",
+      "zh": "'Timber' 意为木材。",
+      "es": "'Timber' se refiere a la madera preparada para su uso en la construcción y la carpintería."
+    },
+    "optionsJson": {
+      "A": "tide",
+      "B": "timber",
+      "C": "trail",
+      "D": "texture"
+    },
+    "correctAnswerValue": "B",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1178,
+    "providerId": "local",
+    "questionText": {
+      "en": "The intervention was very  {blank} , preventing the situation from escalating into a crisis."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "'Timely' means done or occurring at a favorable or useful time; opportune.",
+      "zh": "'Timely' 意为及时的。",
+      "es": "'Timely' significa hecho u ocurrido en un momento favorable o útil; oportuno."
+    },
+    "optionsJson": {
+      "A": "timely",
+      "B": "toxic",
+      "C": "troubled",
+      "D": "tribal"
+    },
+    "correctAnswerValue": "A",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1179,
+    "providerId": "local",
+    "questionText": {
+      "en": "The chemical waste was found to be highly  {blank} , posing a threat to the local water supply."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "'Toxic' means poisonous or very harmful/unpleasant in a pervasive way.",
+      "zh": "'Toxic' 意为有毒的。",
+      "es": "'Toxic' significa venenoso o muy dañino/desagradable de una manera penetrante."
+    },
+    "optionsJson": {
+      "A": "tough",
+      "B": "toxic",
+      "C": "total",
+      "D": "tender"
+    },
+    "correctAnswerValue": "B",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1180,
+    "providerId": "local",
+    "questionText": {
+      "en": "The company's logo is a registered  {blank}  and cannot be used without permission."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "A 'trademark' is a symbol, word, or words legally registered or established by use as representing a company or product.",
+      "zh": "'Trademark' 意为商标。",
+      "es": "Una 'trademark' es un símbolo, palabra o palabras legalmente registradas o establecidas por el uso como representación de una empresa o producto."
+    },
+    "optionsJson": {
+      "A": "treaty",
+      "B": "transcript",
+      "C": "trademark",
+      "D": "tribute"
+    },
+    "correctAnswerValue": "C",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1181,
+    "providerId": "local",
+    "questionText": {
+      "en": "The student requested a  {blank}  of her grades to include with her university application."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "A 'transcript' is an official record of a student's work, showing courses taken and grades achieved.",
+      "zh": "'Transcript' 意为成绩单、文字记录。",
+      "es": "Una 'transcript' es un registro oficial del trabajo de un estudiante, que muestra los cursos tomados y las calificaciones obtenidas."
+    },
+    "optionsJson": {
+      "A": "tribute",
+      "B": "transcript",
+      "C": "transaction",
+      "D": "transformation"
+    },
+    "correctAnswerValue": "B",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1182,
+    "providerId": "local",
+    "questionText": {
+      "en": "The digital  {blank}  of society has changed the way we work, communicate, and learn."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "'Transformation' is a thorough or dramatic change in form or appearance.",
+      "zh": "'Transformation' 意为转变、变革。",
+      "es": "'Transformation' es un cambio profundo o dramático en la forma o apariencia."
+    },
+    "optionsJson": {
+      "A": "transmission",
+      "B": "transformation",
+      "C": "transaction",
+      "D": "transparency"
+    },
+    "correctAnswerValue": "B",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1183,
+    "providerId": "local",
+    "questionText": {
+      "en": "The two nations signed a peace  {blank}  to end the decades-long conflict."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "A 'treaty' is a formally concluded and ratified agreement between countries.",
+      "zh": "'Treaty' 意为条约、协议。",
+      "es": "Un 'treaty' es un acuerdo formalmente concluido y ratificado entre países."
+    },
+    "optionsJson": {
+      "A": "tribute",
+      "B": "triumph",
+      "C": "treaty",
+      "D": "trustee"
+    },
+    "correctAnswerValue": "C",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1184,
+    "providerId": "local",
+    "questionText": {
+      "en": "The concert was a  {blank}  to the late musician, featuring many of his most famous songs."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "A 'tribute' is an act, statement, or gift that is intended to show gratitude, respect, or admiration.",
+      "zh": "'Tribute' 意为致敬、颂词。",
+      "es": "Un 'tribute' es un acto, declaración o regalo que tiene la intención de mostrar gratitud, respeto o admiración."
+    },
+    "optionsJson": {
+      "A": "triumph",
+      "B": "tribute",
+      "C": "trophy",
+      "D": "testimony"
+    },
+    "correctAnswerValue": "B",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1185,
+    "providerId": "local",
+    "questionText": {
+      "en": "Against all odds, the underdog team achieved a magnificent  {blank}  in the final."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "A 'triumph' is a great victory or achievement.",
+      "zh": "'Triumph' 意为巨大的胜利、成就。",
+      "es": "Un 'triumph' es una gran victoria o logro."
+    },
+    "optionsJson": {
+      "A": "triumph",
+      "B": "trauma",
+      "C": "toll",
+      "D": "tactic"
+    },
+    "correctAnswerValue": "A",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1186,
+    "providerId": "local",
+    "questionText": {
+      "en": "The high cost of  {blank}  is preventing many talented students from attending top universities."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "'Tuition' refers to a sum of money charged for teaching or instruction by a school, college, or university.",
+      "zh": "'Tuition' 意为学费。",
+      "es": "'Tuition' se refiere a una suma de dinero cobrada por la enseñanza o instrucción por parte de una escuela, colegio o universidad."
+    },
+    "optionsJson": {
+      "A": "turnover",
+      "B": "tuition",
+      "C": "trustee",
+      "D": "tribute"
+    },
+    "correctAnswerValue": "B",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1187,
+    "providerId": "local",
+    "questionText": {
+      "en": "The election saw a record  {blank}  of voters, indicating high public interest in the political issues."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "'Turnout' is the number of people who attend or participate in an event, especially an election.",
+      "zh": "'Turnout' 意为（选举时的）投票人数、出席人数。",
+      "es": "'Turnout' es el número de personas que asisten o participan en un evento, especialmente una elección."
+    },
+    "optionsJson": {
+      "A": "turnover",
+      "B": "turnout",
+      "C": "triumph",
+      "D": "threshold"
+    },
+    "correctAnswerValue": "B",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1188,
+    "providerId": "local",
+    "questionText": {
+      "en": "The retail industry often experiences high staff  {blank} , especially during the busy holiday season."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "'Turnover' is the rate at which employees leave a workforce and are replaced.",
+      "zh": "'Turnover' 意为人员流动率、成交量。",
+      "es": "'Turnover' es la tasa a la que los empleados dejan una fuerza laboral y son reemplazados."
+    },
+    "optionsJson": {
+      "A": "turnout",
+      "B": "turnover",
+      "C": "tuition",
+      "D": "transformation"
+    },
+    "correctAnswerValue": "B",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1189,
+    "providerId": "local",
+    "questionText": {
+      "en": "The plot of the movie had an unexpected  {blank}  at the very end that shocked the audience."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "A 'twist' is an unexpected development of events in a story or situation.",
+      "zh": "'Twist' 意为（情节的）转折、意外发展。",
+      "es": "Un 'twist' es un desarrollo inesperado de eventos en una historia o situación."
+    },
+    "optionsJson": {
+      "A": "twist",
+      "B": "trail",
+      "C": "toll",
+      "D": "tide"
+    },
+    "correctAnswerValue": "A",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1190,
+    "providerId": "local",
+    "questionText": {
+      "en": "The Supreme Court ruled that the new law was  {blank}  and must be repealed."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "'Unconstitutional' means not in accordance with a political constitution.",
+      "zh": "'Unconstitutional' 意为违宪的。",
+      "es": "'Unconstitutional' significa que no está de acuerdo con una constitución política."
+    },
+    "optionsJson": {
+      "A": "unprecedented",
+      "B": "underlying",
+      "C": "unconstitutional",
+      "D": "upcoming"
+    },
+    "correctAnswerValue": "C",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1191,
+    "providerId": "local",
+    "questionText": {
+      "en": "The professor warned that the new policy might  {blank}  the academic integrity of the institution."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "To 'undermine' means to lessen the effectiveness, power, or ability of someone or something, especially gradually.",
+      "zh": "'Undermine' 意为暗中破坏、逐渐削弱。",
+      "es": "To 'undermine' significa disminuir la eficacia, el poder o la capacidad de alguien o algo, especialmente de forma gradual."
+    },
+    "optionsJson": {
+      "A": "undermine",
+      "B": "uphold",
+      "C": "unify",
+      "D": "unveil"
+    },
+    "correctAnswerValue": "A",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1192,
+    "providerId": "local",
+    "questionText": {
+      "en": "The tech company plans to  {blank}  its latest smartphone model at the international trade fair next month."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "To 'unveil' means to show or announce publicly for the first time.",
+      "zh": "'Unveil' 意为推出、为...揭幕、公之于众。",
+      "es": "To 'unveil' significa mostrar o anunciar públicamente por primera vez."
+    },
+    "optionsJson": {
+      "A": "upgrade",
+      "B": "utilise",
+      "C": "unveil",
+      "D": "utterly"
+    },
+    "correctAnswerValue": "C",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1193,
+    "providerId": "local",
+    "questionText": {
+      "en": "The court's primary duty is to  {blank}  the law and ensure justice is served for all citizens."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "To 'uphold' means to confirm or support something which has been questioned (like a law or a decision).",
+      "zh": "'Uphold' 意为维护、维持（法律、判决等）。",
+      "es": "To 'uphold' significa confirmar o apoyar algo que ha sido cuestionado (como una ley o una decisión)."
+    },
+    "optionsJson": {
+      "A": "uphold",
+      "B": "violate",
+      "C": "undermine",
+      "D": "vanish"
+    },
+    "correctAnswerValue": "A",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1194,
+    "providerId": "local",
+    "questionText": {
+      "en": "After the scandal, the CEO found his position to be no longer  {blank} , leading to his immediate resignation."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "'Viable' means capable of working successfully; feasible. In this context, it refers to a position that can be maintained.",
+      "zh": "'Viable' 意为可行的、能养活的。在此处指地位或职位是可以维持的。",
+      "es": "'Viable' significa capaz de funcionar con éxito; factible."
+    },
+    "optionsJson": {
+      "A": "vibrant",
+      "B": "viable",
+      "C": "vague",
+      "D": "verbal"
+    },
+    "correctAnswerValue": "B",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1195,
+    "providerId": "local",
+    "questionText": {
+      "en": "The historical documents were stored in a temperature-controlled  {blank}  to prevent decay."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "A 'warehouse' is a large building used for storing goods or archives.",
+      "zh": "'Warehouse' 意为仓库、货栈。",
+      "es": "Un 'warehouse' es un edificio grande utilizado para almacenar mercancías o archivos."
+    },
+    "optionsJson": {
+      "A": "ward",
+      "B": "warehouse",
+      "C": "well-being",
+      "D": "width"
+    },
+    "correctAnswerValue": "B",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1196,
+    "providerId": "local",
+    "questionText": {
+      "en": "The instructions were so  {blank}  that several students misunderstood the assignment entirely."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "'Vague' means of uncertain, indefinite, or unclear character or meaning.",
+      "zh": "'Vague' 意为模糊的、不明确的。",
+      "es": "'Vague' significa de carácter o significado incierto, indefinido o poco claro."
+    },
+    "optionsJson": {
+      "A": "vibrant",
+      "B": "vocal",
+      "C": "vague",
+      "D": "valid"
+    },
+    "correctAnswerValue": "C",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1197,
+    "providerId": "local",
+    "questionText": {
+      "en": "Modern  {blank}  involves advanced technology and cybersecurity measures rather than just physical combat."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "'Warfare' refers to engagement in or the activities of involved in war or conflict.",
+      "zh": "'Warfare' 意为战争、作战状态。",
+      "es": "'Warfare' se refiere a la participación en las actividades involucradas en una guerra o conflicto."
+    },
+    "optionsJson": {
+      "A": "warrant",
+      "B": "warrior",
+      "C": "warfare",
+      "D": "withdrawal"
+    },
+    "correctAnswerValue": "C",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1198,
+    "providerId": "local",
+    "questionText": {
+      "en": "The suspect was released because the police did not have a proper  {blank}  for his arrest."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "A 'warrant' is a document issued by a legal or government official authorizing the police to make an arrest or search premises.",
+      "zh": "'Warrant' 意为执行令、授权令（如逮捕证）。",
+      "es": "Un 'warrant' es un documento emitido por un funcionario legal o gubernamental que autoriza a la policía a realizar un arresto o registrar locales."
+    },
+    "optionsJson": {
+      "A": "warrant",
+      "B": "verdict",
+      "C": "violation",
+      "D": "withdrawal"
+    },
+    "correctAnswerValue": "A",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1199,
+    "providerId": "local",
+    "questionText": {
+      "en": "In many cultures, humility is considered a great  {blank} , while pride is often seen as a flaw."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "A 'virtue' is a behavior showing high moral standards.",
+      "zh": "'Virtue' 意为美德、德行。",
+      "es": "Una 'virtue' es un comportamiento que muestra altos estándares morales."
+    },
+    "optionsJson": {
+      "A": "violation",
+      "B": "verdict",
+      "C": "virtue",
+      "D": "vulnerability"
+    },
+    "correctAnswerValue": "C",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1200,
+    "providerId": "local",
+    "questionText": {
+      "en": "The jury took only two hours to reach a  {blank}  of 'not guilty'."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "A 'verdict' is a decision on a disputed issue in a civil or criminal case.",
+      "zh": "'Verdict' 意为判决、裁定。",
+      "es": "Un 'verdict' es una decisión sobre un tema en disputa en un caso civil o penal."
+    },
+    "optionsJson": {
+      "A": "vow",
+      "B": "verdict",
+      "C": "verse",
+      "D": "validity"
+    },
+    "correctAnswerValue": "B",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1201,
+    "providerId": "local",
+    "questionText": {
+      "en": "The elderly and young children are often the most  {blank}  members of society during a heatwave."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "'Vulnerable' means susceptible to physical or emotional attack or harm.",
+      "zh": "'Vulnerable' 意为脆弱的、易受伤害的。",
+      "es": "'Vulnerable' significa susceptible a un ataque o daño físico o emocional."
+    },
+    "optionsJson": {
+      "A": "vibrant",
+      "B": "vocal",
+      "C": "vulnerable",
+      "D": "variable"
+    },
+    "correctAnswerValue": "C",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1202,
+    "providerId": "local",
+    "questionText": {
+      "en": "The company established a new  {blank}  to provide mental health support for its employees."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "'Well-being' is the state of being comfortable, healthy, or happy.",
+      "zh": "'Well-being' 意为幸福、康乐。",
+      "es": "'Well-being' es el estado de estar cómodo, saludable o feliz."
+    },
+    "optionsJson": {
+      "A": "withdrawal",
+      "B": "well-being",
+      "C": "willingness",
+      "D": "workout"
+    },
+    "correctAnswerValue": "B",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1203,
+    "providerId": "local",
+    "questionText": {
+      "en": "The scientist's theory was  {blank}  rejected by the committee due to a lack of empirical evidence."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "'Utterly' means completely and without qualification; absolutely.",
+      "zh": "'Utterly' 意为完全地、彻底地。",
+      "es": "'Utterly' significa completa y absolutamente; sin reservas."
+    },
+    "optionsJson": {
+      "A": "utterly",
+      "B": "undoubtedly",
+      "C": "uniquely",
+      "D": "urgently"
+    },
+    "correctAnswerValue": "A",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1204,
+    "providerId": "local",
+    "questionText": {
+      "en": "The city's infrastructure is struggling to cope with the  {blank}  in population over the last decade."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "A 'surge' is a sudden powerful forward or upward movement, especially by a crowd or a natural force such as the tide.",
+      "zh": "'Surge' 意为剧增、激增。",
+      "es": "Una 'surge' es un movimiento repentino y potente hacia adelante o hacia arriba."
+    },
+    "optionsJson": {
+      "A": "surge",
+      "B": "surplus",
+      "C": "suspension",
+      "D": "synthesis"
+    },
+    "correctAnswerValue": "A",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1205,
+    "providerId": "local",
+    "questionText": {
+      "en": "The government announced a  {blank}  to help low-income families pay for their heating bills."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "A 'subsidy' is a sum of money granted by the government or a public body to assist an industry or business so that the price of a commodity or service may remain low or competitive.",
+      "zh": "'Subsidy' 意为补贴、津贴。",
+      "es": "Una 'subsidy' es una suma de dinero concedida por el gobierno o un organismo público para ayudar a una industria o empresa."
+    },
+    "optionsJson": {
+      "A": "subscription",
+      "B": "subsidy",
+      "C": "surplus",
+      "D": "submission"
+    },
+    "correctAnswerValue": "B",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1206,
+    "providerId": "local",
+    "questionText": {
+      "en": "The new legislation will  {blank}  local authorities to take more decisive action against pollution."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "To 'empower' means to give (someone) the authority or power to do something.",
+      "zh": "'Empower' 意为授权、使能够。",
+      "es": "To 'empower' significa dar (a alguien) la autoridad o el poder para hacer algo."
+    },
+    "optionsJson": {
+      "A": "enact",
+      "B": "embark",
+      "C": "empower",
+      "D": "enforce"
+    },
+    "correctAnswerValue": "C",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1207,
+    "providerId": "local",
+    "questionText": {
+      "en": "The architect's design was praised for its  {blank}  beauty and functional layout."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "'Aesthetic' refers to the appreciation of beauty or good taste.",
+      "zh": "'Aesthetic' 意为美学的、审美的。",
+      "es": "'Aesthetic' se refiere a la apreciación de la belleza o el buen gusto."
+    },
+    "optionsJson": {
+      "A": "aesthetic",
+      "B": "agricultural",
+      "C": "arbitrary",
+      "D": "authentic"
+    },
+    "correctAnswerValue": "A",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1208,
+    "providerId": "local",
+    "questionText": {
+      "en": "The project failed because the team had  {blank}  resources to complete the final phase."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "'Insufficient' means not enough; inadequate.",
+      "zh": "'Insufficient' 意为不足的、不够的。",
+      "es": "'Insufficient' significa no suficiente; inadecuado."
+    },
+    "optionsJson": {
+      "A": "instrumental",
+      "B": "insufficient",
+      "C": "intact",
+      "D": "integral"
+    },
+    "correctAnswerValue": "B",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1209,
+    "providerId": "local",
+    "questionText": {
+      "en": "The sudden  {blank}  of the virus caught health officials off guard, leading to a nationwide emergency."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "An 'outbreak' is a sudden occurrence of something unwelcome, such as war or disease.",
+      "zh": "'Outbreak' 意为（战争、疾病等的）爆发。",
+      "es": "Un 'outbreak' es una aparición repentina de algo inoportuno, como una guerra o una enfermedad."
+    },
+    "optionsJson": {
+      "A": "outcome",
+      "B": "outlook",
+      "C": "outbreak",
+      "D": "outrage"
+    },
+    "correctAnswerValue": "C",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1210,
+    "providerId": "local",
+    "questionText": {
+      "en": "The treaty was seen as a major  {blank}  in the effort to achieve global peace."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "A 'breakthrough' is a sudden, dramatic, and important discovery or development.",
+      "zh": "'Breakthrough' 意为突破、重大进展。",
+      "es": "Un 'breakthrough' es un descubrimiento o desarrollo repentino, dramático e importante."
+    },
+    "optionsJson": {
+      "A": "breakdown",
+      "B": "breakthrough",
+      "C": "boundary",
+      "D": "benchmark"
+    },
+    "correctAnswerValue": "B",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1211,
+    "providerId": "local",
+    "questionText": {
+      "en": "The government's decision to  {blank}  the old law was met with widespread approval from civil rights groups."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "To 'abolish' means to formally put an end to a system, practice, or institution.",
+      "zh": "'Abolish' 意为废除、废止（法律、制度等）。",
+      "es": "To 'abolish' significa poner fin formalmente a un sistema, práctica o institución."
+    },
+    "optionsJson": {
+      "A": "abolish",
+      "B": "accumulate",
+      "C": "adhere",
+      "D": "administer"
+    },
+    "correctAnswerValue": "A",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1212,
+    "providerId": "local",
+    "questionText": {
+      "en": "The witness was found to be highly  {blank} , as her story remained consistent throughout the cross-examination."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "'Credible' means able to be believed; convincing.",
+      "zh": "'Credible' 意为可靠的、可信的。",
+      "es": "'Credible' significa que puede ser creído; convincente."
+    },
+    "optionsJson": {
+      "A": "cynical",
+      "B": "credible",
+      "C": "crude",
+      "D": "clinical"
+    },
+    "correctAnswerValue": "B",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1213,
+    "providerId": "local",
+    "questionText": {
+      "en": "The unexpected  {blank}  of the peace talks has raised fears of renewed violence in the region."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "A 'breakdown' is a failure of a relationship, strategy, or system.",
+      "zh": "'Breakdown' 在此处意为（关系、谈判等的）破裂、失败。",
+      "es": "Una 'breakdown' es un fallo en una relación, estrategia o sistema."
+    },
+    "optionsJson": {
+      "A": "breakthrough",
+      "B": "breakdown",
+      "C": "breach",
+      "D": "burden"
+    },
+    "correctAnswerValue": "B",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1214,
+    "providerId": "local",
+    "questionText": {
+      "en": "He is a  {blank}  supporter of the movement, having dedicated his entire life to its cause."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "'Dedicated' means devoted to a task or purpose.",
+      "zh": "'Dedicated' 意为一心一意的、尽职尽责的。",
+      "es": "'Dedicated' significa dedicado a una tarea o propósito."
+    },
+    "optionsJson": {
+      "A": "decisive",
+      "B": "delicate",
+      "C": "dedicated",
+      "D": "defensive"
+    },
+    "correctAnswerValue": "C",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1215,
+    "providerId": "local",
+    "questionText": {
+      "en": "The quality of the service has begun to  {blank}  since the new management took over."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "To 'deteriorate' means to become progressively worse.",
+      "zh": "'Deteriorate' 意为恶化、变坏。",
+      "es": "To 'deteriorate' significa empeorar progresivamente."
+    },
+    "optionsJson": {
+      "A": "diminish",
+      "B": "deteriorate",
+      "C": "devastate",
+      "D": "detain"
+    },
+    "correctAnswerValue": "B",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1216,
+    "providerId": "local",
+    "questionText": {
+      "en": "The novel's protagonist is often forced to make a  {blank}  between his personal happiness and his professional duty."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "A 'dilemma' is a situation in which a difficult choice has to be made between two or more alternatives.",
+      "zh": "'Dilemma' 意为进退两难的局面、困境。",
+      "es": "Un 'dilemma' es una situación en la que hay que elegir entre dos o más alternativas difíciles."
+    },
+    "optionsJson": {
+      "A": "dimension",
+      "B": "dilemma",
+      "C": "distinction",
+      "D": "discourse"
+    },
+    "correctAnswerValue": "B",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1217,
+    "providerId": "local",
+    "questionText": {
+      "en": "The earthquake was  {blank} , leaving thousands of people homeless and destroying much of the city's infrastructure."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "'Disastrous' means causing great damage or suffering.",
+      "zh": "'Disastrous' 意为灾难性的、极糟的。",
+      "es": "'Disastrous' significa que causa gran daño o sufrimiento."
+    },
+    "optionsJson": {
+      "A": "distinctive",
+      "B": "disastrous",
+      "C": "disturbing",
+      "D": "defensive"
+    },
+    "correctAnswerValue": "B",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1218,
+    "providerId": "local",
+    "questionText": {
+      "en": "The company was forced to  {blank}  its assets after filing for bankruptcy."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "To 'dissolve' (in a legal/business sense) can mean to close down or dismiss an assembly or partnership; however, 'liquidate' is more common for assets. Within the list, 'dissolve' can refer to the termination of an entity.",
+      "zh": "'Dissolve' 在此处意为解除（合伙关系）、解散。",
+      "es": "To 'dissolve' (en sentido legal/empresarial) puede significar cerrar o disolver una asamblea o sociedad."
+    },
+    "optionsJson": {
+      "A": "discard",
+      "B": "disclose",
+      "C": "dissolve",
+      "D": "distort"
+    },
+    "correctAnswerValue": "C",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1219,
+    "providerId": "local",
+    "questionText": {
+      "en": "The speaker used several metaphors to  {blank}  the complex scientific concepts to the general audience."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "To 'elucidate' (not in list) or 'elaborate' means to develop or present in detail. 'Embody' means to be an expression of or give a tangible form to.",
+      "zh": "'Elaborate' 意为详尽阐述、详细说明。",
+      "es": "'Elaborate' significa desarrollar o presentar en detalle."
+    },
+    "optionsJson": {
+      "A": "elaborate",
+      "B": "embody",
+      "C": "enact",
+      "D": "elevate"
+    },
+    "correctAnswerValue": "A",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1220,
+    "providerId": "local",
+    "questionText": {
+      "en": "Only students from low-income families are  {blank}  to apply for the university's new scholarship program."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "'Eligible' means having the right to do or obtain something; satisfying the appropriate conditions.",
+      "zh": "'Eligible' 意为有资格的、符合条件的。",
+      "es": "'Eligible' significa tener el derecho de hacer u obtener algo; satisfacer las condiciones apropiadas."
+    },
+    "optionsJson": {
+      "A": "eligible",
+      "B": "elite",
+      "C": "explicit",
+      "D": "exceptional"
+    },
+    "correctAnswerValue": "A",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1221,
+    "providerId": "local",
+    "questionText": {
+      "en": "The museum's new wing was designed to  {blank}  the artistic vision of its founder."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "To 'embody' means to be an expression of or give a tangible or visible form to an idea, quality, or feeling.",
+      "zh": "'Embody' 意为体现、使具体化。",
+      "es": "To 'embody' significa ser una expresión de o dar una forma tangible o visible a una idea, cualidad o sentimiento."
+    },
+    "optionsJson": {
+      "A": "embed",
+      "B": "embody",
+      "C": "embrace",
+      "D": "enact"
+    },
+    "correctAnswerValue": "B",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1222,
+    "providerId": "local",
+    "questionText": {
+      "en": "The country's  {blank}  system ensures that all citizens have a voice in the selection of their leaders."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "'Electoral' relates to elections or electors.",
+      "zh": "'Electoral' 意为选举的。",
+      "es": "'Electoral' se relaciona con las elecciones o los electores."
+    },
+    "optionsJson": {
+      "A": "electoral",
+      "B": "empirical",
+      "C": "evolutionary",
+      "D": "exceptional"
+    },
+    "correctAnswerValue": "A",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1223,
+    "providerId": "local",
+    "questionText": {
+      "en": "The study's findings are based on  {blank}  data collected from over 500 participants."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "'Empirical' means based on, concerned with, or verifiable by observation or experience rather than theory or pure logic.",
+      "zh": "'Empirical' 意为以观察或实验为依据的、经验主义的。",
+      "es": "'Empirical' significa basado en, preocupado por o verificable mediante observación o experiencia en lugar de teoría o lógica pura."
+    },
+    "optionsJson": {
+      "A": "empirical",
+      "B": "eternal",
+      "C": "explicit",
+      "D": "electoral"
+    },
+    "correctAnswerValue": "A",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1224,
+    "providerId": "local",
+    "questionText": {
+      "en": "The CEO's  {blank}  of the new environmental policy was a significant step for the company."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "An 'endorsement' is an act of giving one's public approval or support to someone or something.",
+      "zh": "'Endorsement' 意为认可、支持。",
+      "es": "Un 'endorsement' es el acto de dar la aprobación o el apoyo público de alguien a otra persona o cosa."
+    },
+    "optionsJson": {
+      "A": "enforcement",
+      "B": "endorsement",
+      "C": "enactment",
+      "D": "engagement"
+    },
+    "correctAnswerValue": "B",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1225,
+    "providerId": "local",
+    "questionText": {
+      "en": "The police are responsible for the  {blank}  of traffic laws to ensure public safety."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "'Enforcement' is the act of compelling observance of or compliance with a law, rule, or obligation.",
+      "zh": "'Enforcement' 意为（法律、规则等的）强制执行、实施。",
+      "es": "'Enforcement' es el acto de obligar a observar o cumplir una ley, regla u obligación."
+    },
+    "optionsJson": {
+      "A": "endorsement",
+      "B": "enactment",
+      "C": "enforcement",
+      "D": "engagement"
+    },
+    "correctAnswerValue": "C",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1226,
+    "providerId": "local",
+    "questionText": {
+      "en": "The new curriculum is designed to  {blank}  the students' understanding of global history."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "To 'enrich' means to improve or enhance the quality or value of something.",
+      "zh": "'Enrich' 意为充实、使丰富、强化。",
+      "es": "To 'enrich' significa mejorar o aumentar la calidad o el valor de algo."
+    },
+    "optionsJson": {
+      "A": "enrol",
+      "B": "enrich",
+      "C": "encompass",
+      "D": "evoke"
+    },
+    "correctAnswerValue": "B",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1227,
+    "providerId": "local",
+    "questionText": {
+      "en": "The company decided to  {blank}  a new set of rules to improve workplace productivity."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "To 'enact' means to make (a bill or other proposal) law.",
+      "zh": "'Enact' 意为制定（法律）、通过（法案）。",
+      "es": "To 'enact' significa convertir (un proyecto de ley u otra propuesta) en ley."
+    },
+    "optionsJson": {
+      "A": "enact",
+      "B": "embody",
+      "C": "enforce",
+      "D": "embark"
+    },
+    "correctAnswerValue": "A",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1228,
+    "providerId": "local",
+    "questionText": {
+      "en": "The artist's work is characterized by its  {blank}  beauty, capturing the essence of the natural world."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "'Eternal' means lasting or existing forever; without end or beginning.",
+      "zh": "'Eternal' 意为永恒的、不朽的。",
+      "es": "'Eternal' significa que dura o existe para siempre; sin fin ni principio."
+    },
+    "optionsJson": {
+      "A": "exceptional",
+      "B": "eternal",
+      "C": "explicit",
+      "D": "experimental"
+    },
+    "correctAnswerValue": "B",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1229,
+    "providerId": "local",
+    "questionText": {
+      "en": "The old photographs managed to  {blank}  fond memories of her childhood spent by the sea."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "To 'evoke' means to bring or recall to the conscious mind.",
+      "zh": "'Evoke' 意为唤起、引起（回忆、感情等）。",
+      "es": "To 'evoke' significa traer o recordar a la mente consciente."
+    },
+    "optionsJson": {
+      "A": "evoke",
+      "B": "evacuate",
+      "C": "evolve",
+      "D": "exaggerate"
+    },
+    "correctAnswerValue": "A",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1230,
+    "providerId": "local",
+    "questionText": {
+      "en": "The teacher gave  {blank}  instructions on how to complete the project to ensure no one was confused."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "'Explicit' means stated clearly and in detail, leaving no room for confusion or doubt.",
+      "zh": "'Explicit' 意为明确的、清楚的。",
+      "es": "'Explicit' significa expresado con claridad y detalle, sin dejar lugar a confusión o duda."
+    },
+    "optionsJson": {
+      "A": "exceptional",
+      "B": "explicit",
+      "C": "excess",
+      "D": "exclusive"
+    },
+    "correctAnswerValue": "B",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1231,
+    "providerId": "local",
+    "questionText": {
+      "en": "The new software was designed to  {blank}  the process of data entry, making it much faster for the staff."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "To 'facilitate' means to make an action or process easy or easier.",
+      "zh": "'Facilitate' 意为促进、使便利。",
+      "es": "To 'facilitate' significa hacer que una acción o proceso sea fácil o más sencillo."
+    },
+    "optionsJson": {
+      "A": "facilitate",
+      "B": "formulate",
+      "C": "flourish",
+      "D": "foster"
+    },
+    "correctAnswerValue": "A",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1232,
+    "providerId": "local",
+    "questionText": {
+      "en": "The internal  {blank}  within the political party led to a split just before the general election."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "A 'faction' is a small organized dissenting group within a larger one, especially in politics.",
+      "zh": "'Faction' 意为派别、派系、小集团。",
+      "es": "Una 'faction' es un pequeño grupo disidente organizado dentro de uno más grande, especialmente en política."
+    },
+    "optionsJson": {
+      "A": "fraction",
+      "B": "faction",
+      "C": "formula",
+      "D": "franchise"
+    },
+    "correctAnswerValue": "B",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1233,
+    "providerId": "local",
+    "questionText": {
+      "en": "Driving under the influence of alcohol resulted in a  {blank}  accident that claimed three lives."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "'Fatal' means causing death.",
+      "zh": "'Fatal' 意为致命的、毁灭性的。",
+      "es": "'Fatal' significa que causa la muerte."
+    },
+    "optionsJson": {
+      "A": "fierce",
+      "B": "fatal",
+      "C": "flawed",
+      "D": "fragile"
+    },
+    "correctAnswerValue": "B",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1234,
+    "providerId": "local",
+    "questionText": {
+      "en": "Climbing Mount Everest is a remarkable  {blank}  of human endurance and determination."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "A 'feat' is an achievement that requires great courage, skill, or strength.",
+      "zh": "'Feat' 意为功绩、壮举、武艺。",
+      "es": "Un 'feat' es un logro que requiere gran valor, habilidad o fuerza."
+    },
+    "optionsJson": {
+      "A": "fate",
+      "B": "feat",
+      "C": "fibre",
+      "D": "fleet"
+    },
+    "correctAnswerValue": "B",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1235,
+    "providerId": "local",
+    "questionText": {
+      "en": "Armed robbery is classified as a  {blank}  and carries a much harsher prison sentence than a misdemeanor."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "A 'felony' is a crime, typically one involving violence, regarded as more serious than a misdemeanor.",
+      "zh": "'Felony' 意为重罪。",
+      "es": "Una 'felony' es un delito, típicamente uno que involucra violencia, considerado más grave que una falta menor."
+    },
+    "optionsJson": {
+      "A": "felony",
+      "B": "fiscal",
+      "C": "firearm",
+      "D": "flaw"
+    },
+    "correctAnswerValue": "A",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1236,
+    "providerId": "local",
+    "questionText": {
+      "en": "The competition for the scholarship was  {blank} , with thousands of highly qualified applicants."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "'Fierce' means having or displaying an intense or ferocious aggressiveness; in this context, it means very intense.",
+      "zh": "'Fierce' 意为激烈的、凶猛的。",
+      "es": "'Fierce' significa tener o mostrar una agresividad intensa o feroz; en este contexto, significa muy intenso."
+    },
+    "optionsJson": {
+      "A": "fluid",
+      "B": "fierce",
+      "C": "flawed",
+      "D": "forthcoming"
+    },
+    "correctAnswerValue": "B",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1237,
+    "providerId": "local",
+    "questionText": {
+      "en": "The government is introducing new  {blank}  policies to reduce the national deficit."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "'Fiscal' relates to government revenue, especially taxes.",
+      "zh": "'Fiscal' 意为财政的、国库的。",
+      "es": "'Fiscal' se relaciona con los ingresos del gobierno, especialmente los impuestos."
+    },
+    "optionsJson": {
+      "A": "fiscal",
+      "B": "functional",
+      "C": "favourable",
+      "D": "formal"
+    },
+    "correctAnswerValue": "A",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1238,
+    "providerId": "local",
+    "questionText": {
+      "en": "Under the new management, the small bakery began to  {blank}  and soon opened three more branches."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "To 'flourish' means to grow or develop in a healthy or vigorous way.",
+      "zh": "'Flourish' 意为繁荣、兴旺。",
+      "es": "To 'flourish' significa crecer o desarrollarse de manera saludable o vigorosa."
+    },
+    "optionsJson": {
+      "A": "fade",
+      "B": "flee",
+      "C": "flourish",
+      "D": "forge"
+    },
+    "correctAnswerValue": "C",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1239,
+    "providerId": "local",
+    "questionText": {
+      "en": "The plan was  {blank}  from the start because it relied on unrealistic financial projections."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "'Flawed' means having or characterized by a fundamental weakness or imperfection.",
+      "zh": "'Flawed' 意为有缺陷的、有瑕疵的。",
+      "es": "'Flawed' significa que tiene o se caracteriza por una debilidad o imperfección fundamental."
+    },
+    "optionsJson": {
+      "A": "flawed",
+      "B": "fragile",
+      "C": "functional",
+      "D": "frank"
+    },
+    "correctAnswerValue": "A",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1240,
+    "providerId": "local",
+    "questionText": {
+      "en": "To improve international relations, the two leaders agreed to  {blank}  a new strategic alliance."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "To 'forge' means to create (something strong, enduring, or successful).",
+      "zh": "'Forge' 在此处意为锻造、建立（稳固的关系等）。",
+      "es": "To 'forge' significa crear (algo fuerte, duradero o exitoso)."
+    },
+    "optionsJson": {
+      "A": "foster",
+      "B": "forge",
+      "C": "facilitate",
+      "D": "formulate"
+    },
+    "correctAnswerValue": "B",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1241,
+    "providerId": "local",
+    "questionText": {
+      "en": "The university's  {blank}  campaign successfully raised millions for the new science lab."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "'Fundraising' is the seeking of financial support for a charity, cause, or other enterprise.",
+      "zh": "'Fundraising' 意为募捐、筹款。",
+      "es": "'Fundraising' es la búsqueda de apoyo financiero para una organización benéfica, causa u otra empresa."
+    },
+    "optionsJson": {
+      "A": "franchise",
+      "B": "fundraising",
+      "C": "governance",
+      "D": "gathering"
+    },
+    "correctAnswerValue": "B",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1242,
+    "providerId": "local",
+    "questionText": {
+      "en": "The United Nations called for an immediate investigation into reports of  {blank}  in the conflict zone."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "'Genocide' is the deliberate killing of a large group of people, especially those of a particular ethnic group or nation.",
+      "zh": "'Genocide' 意为种族灭绝。",
+      "es": "'Genocide' es el asesinato deliberado de un gran grupo de personas, especialmente aquellas de un grupo étnico o nación en particular."
+    },
+    "optionsJson": {
+      "A": "genocide",
+      "B": "gambling",
+      "C": "guerrilla",
+      "D": "governance"
+    },
+    "correctAnswerValue": "A",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1243,
+    "providerId": "local",
+    "questionText": {
+      "en": "She could tell by the  {blank}  on his face that he was very pleased with the news."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "A 'grin' is a broad smile.",
+      "zh": "'Grin' 意为露齿而笑、咧嘴笑。",
+      "es": "Un 'grin' es una sonrisa amplia."
+    },
+    "optionsJson": {
+      "A": "glance",
+      "B": "glimpse",
+      "C": "grin",
+      "D": "gaze"
+    },
+    "correctAnswerValue": "C",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1244,
+    "providerId": "local",
+    "questionText": {
+      "en": "The nation fell into a state of  {blank}  after the sudden collapse of the government."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "'Chaos' is complete disorder and confusion.",
+      "zh": "'Chaos' 意为混乱、无秩序状态。",
+      "es": "'Chaos' es un desorden y confusión completos."
+    },
+    "optionsJson": {
+      "A": "chaos",
+      "B": "clarity",
+      "C": "closure",
+      "D": "cluster"
+    },
+    "correctAnswerValue": "A",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1245,
+    "providerId": "local",
+    "questionText": {
+      "en": "The elderly woman lived in extreme  {blank} , lacking even the most basic necessities like heating and clean water."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "'Misery' is a state or feeling of great distress or discomfort of mind or body.",
+      "zh": "'Misery' 意为痛苦、苦难、贫困。",
+      "es": "'Misery' es un estado o sentimiento de gran angustia o malestar mental o corporal."
+    },
+    "optionsJson": {
+      "A": "misery",
+      "B": "mobility",
+      "C": "modality",
+      "D": "momentum"
+    },
+    "correctAnswerValue": "A",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1246,
+    "providerId": "local",
+    "questionText": {
+      "en": "Despite the  {blank}  conditions, the team of explorers reached the summit of the mountain."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "'Harsh' means unpleasantly rough or jarring to the senses; cruel or severe.",
+      "zh": "'Harsh' 意为严酷的、恶劣的、严厉的。",
+      "es": "'Harsh' significa desagradablemente áspero o discordante para los sentidos; cruel o severo."
+    },
+    "optionsJson": {
+      "A": "harsh",
+      "B": "handy",
+      "C": "humble",
+      "D": "hostile"
+    },
+    "correctAnswerValue": "A",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1247,
+    "providerId": "local",
+    "questionText": {
+      "en": "The city’s historic district is a protected  {blank}  site, reflecting centuries of local architecture."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "'Heritage' refers to property that is or may be inherited; an inheritance; or valued objects and qualities such as cultural traditions.",
+      "zh": "'Heritage' 意为遗产、传统。",
+      "es": "'Heritage' se refiere a la propiedad que es o puede ser heredada; una herencia; o bienes y cualidades valorados como las tradiciones culturales."
+    },
+    "optionsJson": {
+      "A": "heritage",
+      "B": "hierarchy",
+      "C": "homeland",
+      "D": "horizon"
+    },
+    "correctAnswerValue": "A",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1248,
+    "providerId": "local",
+    "questionText": {
+      "en": "The refugees were in desperate need of  {blank}  aid, including food, medicine, and shelter."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "'Humanitarian' means concerned with or seeking to promote human welfare.",
+      "zh": "'Humanitarian' 意为人道主义的、慈善的。",
+      "es": "'Humanitarian' significa preocupado por o que busca promover el bienestar humano."
+    },
+    "optionsJson": {
+      "A": "humanitarian",
+      "B": "hostile",
+      "C": "humble",
+      "D": "historical"
+    },
+    "correctAnswerValue": "A",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1249,
+    "providerId": "local",
+    "questionText": {
+      "en": "The kidnappers held the businessman  {blank}  for three weeks before a ransom was paid."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "A 'hostage' is a person seized or held as security for the fulfillment of a condition.",
+      "zh": "'Hostage' 意为人质。",
+      "es": "Un 'hostage' es una persona capturada o retenida como seguridad para el cumplimiento de una condición."
+    },
+    "optionsJson": {
+      "A": "hostage",
+      "B": "hazard",
+      "C": "homeland",
+      "D": "handful"
+    },
+    "correctAnswerValue": "A",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1250,
+    "providerId": "local",
+    "questionText": {
+      "en": "The workers are  {blank}  for higher wages and better working conditions."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "To 'strive' means to make great efforts to achieve or obtain something.",
+      "zh": "'Strive' 意为奋斗、努力、争取。",
+      "es": "To 'strive' significa hacer grandes esfuerzos para lograr u obtener algo."
+    },
+    "optionsJson": {
+      "A": "striving",
+      "B": "shrinking",
+      "C": "shrugging",
+      "D": "stumbling"
+    },
+    "correctAnswerValue": "A",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1251,
+    "providerId": "local",
+    "questionText": {
+      "en": "The museum was closed for a week to allow for the  {blank}  of several priceless paintings."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "'Installation' refers to the action or process of installing someone or something.",
+      "zh": "'Installation' 意为安装、设置或（艺术品的）安置。",
+      "es": "'Installation' se refiere a la acción o proceso de instalar a alguien o algo."
+    },
+    "optionsJson": {
+      "A": "inspection",
+      "B": "installation",
+      "C": "intervention",
+      "D": "integration"
+    },
+    "correctAnswerValue": "B",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1252,
+    "providerId": "local",
+    "questionText": {
+      "en": "The artist's work was clearly  {blank}  by the sights and sounds of her native city."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "To be 'inspired' means to be filled with the urge or ability to do or feel something, especially to do something creative.",
+      "zh": "'Inspired' 意为受到启发的、有灵感的。",
+      "es": "Estar 'inspired' significa estar lleno del impulso o la capacidad de hacer o sentir algo, especialmente algo creativo."
+    },
+    "optionsJson": {
+      "A": "inspired",
+      "B": "inherited",
+      "C": "imposed",
+      "D": "isolated"
+    },
+    "correctAnswerValue": "A",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1253,
+    "providerId": "local",
+    "questionText": {
+      "en": "He remains  {blank}  that the project will be finished on time, despite the recent delays."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "'Insistent' means demanding something forcefully, not allowing refusal; here, it implies a strong, unchanging belief.",
+      "zh": "'Insistent' 意为坚持的、坚决要求的。",
+      "es": "'Insistent' significa exigir algo con fuerza, no permitir el rechazo."
+    },
+    "optionsJson": {
+      "A": "intact",
+      "B": "insistent",
+      "C": "instinctive",
+      "D": "indifferent"
+    },
+    "correctAnswerValue": "B",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1254,
+    "providerId": "local",
+    "questionText": {
+      "en": "The village remained  {blank}  for days after the heavy snowstorm blocked all the roads."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "'Isolated' means far away from other places, buildings, or people; remote.",
+      "zh": "'Isolated' 意为孤立的、偏远的、隔绝的。",
+      "es": "'Isolated' significa lejos de otros lugares, edificios o personas; remoto."
+    },
+    "optionsJson": {
+      "A": "isolated",
+      "B": "integrated",
+      "C": "inherited",
+      "D": "inhabited"
+    },
+    "correctAnswerValue": "A",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1255,
+    "providerId": "local",
+    "questionText": {
+      "en": "Reading to children at a young age is  {blank}  for their language development."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "'Instrumental' means serving as a means of pursuing an aim or policy; very important in helping something happen.",
+      "zh": "'Instrumental' 意为起作用的、有帮助的、关键的。",
+      "es": "'Instrumental' significa servir como medio para perseguir un objetivo o política; muy importante para ayudar a que algo suceda."
+    },
+    "optionsJson": {
+      "A": "insufficient",
+      "B": "instrumental",
+      "C": "instinctive",
+      "D": "isolated"
+    },
+    "correctAnswerValue": "B",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1256,
+    "providerId": "local",
+    "questionText": {
+      "en": "Despite the crash, the aircraft's 'black box' data recorder was found  {blank} ."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "'Intact' means not damaged or impaired in any way; complete.",
+      "zh": "'Intact' 意为完好无损的、完整的。",
+      "es": "'Intact' significa que no ha sido dañado ni deteriorado de ninguna manera; completo."
+    },
+    "optionsJson": {
+      "A": "intact",
+      "B": "integral",
+      "C": "intense",
+      "D": "internal"
+    },
+    "correctAnswerValue": "A",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1257,
+    "providerId": "local",
+    "questionText": {
+      "en": "The senator's  {blank}  in the healthcare debate has made her many political enemies."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "'Intervention' is the action or process of intervening, especially in the affairs of another state or in a situation.",
+      "zh": "'Intervention' 意为干预、介入。",
+      "es": "'Intervention' es la acción o proceso de intervenir, especialmente en los asuntos de otro estado o en una situación."
+    },
+    "optionsJson": {
+      "A": "integration",
+      "B": "interaction",
+      "C": "intervention",
+      "D": "indication"
+    },
+    "correctAnswerValue": "C",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1258,
+    "providerId": "local",
+    "questionText": {
+      "en": "Good communication skills are  {blank}  to being a successful manager."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "'Integral' means necessary to make a whole complete; essential or fundamental.",
+      "zh": "'Integral' 意为构成整体所必需的、不可或缺的。",
+      "es": "'Integral' significa necesario para completar un todo; esencial o fundamental."
+    },
+    "optionsJson": {
+      "A": "intact",
+      "B": "integral",
+      "C": "instinctive",
+      "D": "internal"
+    },
+    "correctAnswerValue": "B",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1259,
+    "providerId": "local",
+    "questionText": {
+      "en": "The athlete's  {blank}  reaction allowed him to catch the ball just before it hit the ground."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "'Instinctive' means relating to or prompted by instinct; apparently unconscious or automatic.",
+      "zh": "'Instinctive' 意为本能的、直觉的。",
+      "es": "'Instinctive' significa relacionado con o impulsado por el instinto; aparentemente inconsciente o automático."
+    },
+    "optionsJson": {
+      "A": "instinctive",
+      "B": "intense",
+      "C": "intentional",
+      "D": "insistent"
+    },
+    "correctAnswerValue": "A",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1260,
+    "providerId": "local",
+    "questionText": {
+      "en": "The heat in the desert during the summer months is extremely  {blank} ."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "'Intense' means of extreme force, degree, or strength.",
+      "zh": "'Intense' 意为剧烈的、强烈的。",
+      "es": "'Intense' significa de fuerza, grado o fuerza extremos."
+    },
+    "optionsJson": {
+      "A": "intact",
+      "B": "integral",
+      "C": "intense",
+      "D": "instinctive"
+    },
+    "correctAnswerValue": "C",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1261,
+    "providerId": "local",
+    "questionText": {
+      "en": "The company faced a  {blank}  lawsuit after a defect in their product caused several injuries."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "A 'liability' is a thing for which someone is responsible, especially a debt or financial obligation.",
+      "zh": "'Liability' 在此处意为法律责任、债务。",
+      "es": "Una 'liability' es algo de lo que alguien es responsable, especialmente una deuda o una obligación financiera."
+    },
+    "optionsJson": {
+      "A": "legacy",
+      "B": "liability",
+      "C": "likelihood",
+      "D": "legislation"
+    },
+    "correctAnswerValue": "B",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1262,
+    "providerId": "local",
+    "questionText": {
+      "en": "The new  {blank}  aimed at reducing carbon emissions was passed by a narrow margin."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "'Legislation' refers to laws, considered collectively.",
+      "zh": "'Legislation' 意为立法、法律。",
+      "es": "'Legislation' se refiere a las leyes, consideradas colectivamente."
+    },
+    "optionsJson": {
+      "A": "legacy",
+      "B": "legislation",
+      "C": "liberation",
+      "D": "limitation"
+    },
+    "correctAnswerValue": "B",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1263,
+    "providerId": "local",
+    "questionText": {
+      "en": "The family gathered for the  {blank}  of the will, curious to see who would inherit the estate."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "While 'reading' is used, 'litigation' and 'legislation' are word list terms. Here, 'legacy' refers to an amount of money or property left to someone in a will.",
+      "zh": "'Legacy' 意为遗赠、遗产。",
+      "es": "'Legacy' se refiere a una cantidad de dinero o propiedad dejada a alguien en un testamento."
+    },
+    "optionsJson": {
+      "A": "legacy",
+      "B": "liability",
+      "C": "likelihood",
+      "D": "limitation"
+    },
+    "correctAnswerValue": "A",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1264,
+    "providerId": "local",
+    "questionText": {
+      "en": "The general was praised for the  {blank}  support he provided to the peace negotiations."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "'Logistical' relates to the detailed coordination of a complex operation involving many people, facilities, or supplies.",
+      "zh": "'Logistical' 意为后勤的、物流的。",
+      "es": "'Logistical' se relaciona con la coordinación detallada de una operación compleja que involucra a muchas personas, instalaciones o suministros."
+    },
+    "optionsJson": {
+      "A": "legitimate",
+      "B": "logistical",
+      "C": "linear",
+      "D": "liberal"
+    },
+    "correctAnswerValue": "B",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1265,
+    "providerId": "local",
+    "questionText": {
+      "en": "There is a high  {blank}  that interest rates will rise again before the end of the year."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "'Likelihood' is the state or fact of something's being likely; probability.",
+      "zh": "'Likelihood' 意为可能性。",
+      "es": "'Likelihood' es el estado o hecho de que algo sea probable; probabilidad."
+    },
+    "optionsJson": {
+      "A": "liability",
+      "B": "likelihood",
+      "C": "limitation",
+      "D": "locality"
+    },
+    "correctAnswerValue": "B",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1266,
+    "providerId": "local",
+    "questionText": {
+      "en": "The project’s  {blank}  was significantly boosted after they secured a major investment."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "'Momentum' is the impetus gained by a moving object; in a business context, it refers to the strength or force that allows something to continue or grow stronger.",
+      "zh": "'Momentum' 意为动力、势头。",
+      "es": "'Momentum' es el ímpetu ganado por un objeto en movimiento; se refiere a la fuerza que permite que algo continúe o se fortalezca."
+    },
+    "optionsJson": {
+      "A": "misery",
+      "B": "mobility",
+      "C": "momentum",
+      "D": "modality"
+    },
+    "correctAnswerValue": "C",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1267,
+    "providerId": "local",
+    "questionText": {
+      "en": "The smartphone has revolutionized social  {blank} , especially among younger generations."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "'Mobility' refers to the ability to move or be moved freely and easily; in this context, it relates to the ease of communication and access while moving.",
+      "zh": "'Mobility' 意为流动性、移动性。",
+      "es": "'Mobility' se refiere a la capacidad de moverse o ser movido libre y fácilmente."
+    },
+    "optionsJson": {
+      "A": "misery",
+      "B": "mobility",
+      "C": "mentality",
+      "D": "modality"
+    },
+    "correctAnswerValue": "B",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1268,
+    "providerId": "local",
+    "questionText": {
+      "en": "The doctor explained that the new treatment  {blank}  involves both medication and physical therapy."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "'Modality' refers to a particular mode in which something exists or is experienced or expressed.",
+      "zh": "'Modality' 意为形式、形态、治疗方法。",
+      "es": "'Modality' se refiere a un modo particular en el que algo existe o se experimenta o expresa."
+    },
+    "optionsJson": {
+      "A": "modality",
+      "B": "mentality",
+      "C": "misery",
+      "D": "momentum"
+    },
+    "correctAnswerValue": "A",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1269,
+    "providerId": "local",
+    "questionText": {
+      "en": "The manager’s defensive  {blank}  made it difficult for employees to offer constructive feedback."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "'Mentality' is the characteristic attitude of mind or way of thinking of a person or group.",
+      "zh": "'Mentality' 意为心态、思维方式。",
+      "es": "'Mentality' es la actitud mental característica o la forma de pensar de una persona o grupo."
+    },
+    "optionsJson": {
+      "A": "mentality",
+      "B": "modality",
+      "C": "momentum",
+      "D": "mobility"
+    },
+    "correctAnswerValue": "A",
+    "imageUrl": null,
+    "mediaUrl": null
+  },
+  {
+    "questionId": 1270,
+    "providerId": "local",
+    "questionText": {
+      "en": "The legal  {blank}  between the two tech giants over patent infringement lasted for over five years."
+    },
+    "questionType": "multiple_choice",
+    "testTypes": ["reading", "listening"],
+    "category": "Vocabulary",
+    "langLevel": "C1",
+    "status": "active",
+    "explanation": {
+      "en": "'Litigation' is the process of taking legal action.",
+      "zh": "'Litigation' 意为诉讼、打官司。",
+      "es": "'Litigation' es el proceso de emprender acciones legales."
+    },
+    "optionsJson": {
+      "A": "legislation",
+      "B": "litigation",
+      "C": "liability",
+      "D": "legitimacy"
+    },
+    "correctAnswerValue": "B",
+    "imageUrl": null,
+    "mediaUrl": null
+  }
+]

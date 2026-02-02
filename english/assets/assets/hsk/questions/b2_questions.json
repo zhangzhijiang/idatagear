@@ -3,10 +3,10 @@
     "questionId": 871,
     "providerId": "local",
     "questionText": {
-      "en": "Select the best word to complete the sentence: 'The sailors had to _______ the sinking ship immediately.'"
+      "en": "Select the best word to complete the sentence: 'The sailors had to  {blank}  the sinking ship immediately.'"
     },
     "questionType": "multiple_choice",
-    "testTypes": ["reading"],
+    "testTypes": ["reading", "listening"],
     "category": "Travel & Transport",
     "langLevel": "B2",
     "status": "active",
@@ -32,7 +32,7 @@
       "en": "Which word is an antonym (opposite) of 'deliberately'?"
     },
     "questionType": "multiple_choice",
-    "testTypes": ["vocabulary"],
+    "testTypes": ["reading", "listening"],
     "category": "General",
     "langLevel": "B2",
     "status": "active",
@@ -55,10 +55,10 @@
     "questionId": 873,
     "providerId": "local",
     "questionText": {
-      "en": "Choose the word that best fits: 'The hotel can _______ up to 500 guests for the conference.'"
+      "en": "Choose the word that best fits: 'The hotel can  {blank}  up to 500 guests for the conference.'"
     },
     "questionType": "multiple_choice",
-    "testTypes": ["reading"],
+    "testTypes": ["reading", "listening"],
     "category": "Hospitality",
     "langLevel": "B2",
     "status": "active",
@@ -84,7 +84,7 @@
       "en": "What is the meaning of 'accomplish' in this context: 'It took months to accomplish the project goals'?"
     },
     "questionType": "multiple_choice",
-    "testTypes": ["reading"],
+    "testTypes": ["reading", "listening"],
     "category": "Business",
     "langLevel": "B2",
     "status": "active",
@@ -110,7 +110,7 @@
       "en": "Select the correct definition for 'accurate'."
     },
     "questionType": "multiple_choice",
-    "testTypes": ["vocabulary"],
+    "testTypes": ["reading", "listening"],
     "category": "General",
     "langLevel": "B2",
     "status": "active",
@@ -133,10 +133,10 @@
     "questionId": 876,
     "providerId": "local",
     "questionText": {
-      "en": "Fill in the blank: 'The manager refused to _______ that he had made a mistake.'"
+      "en": "Fill in the blank: 'The manager refused to  {blank}  that he had made a mistake.'"
     },
     "questionType": "multiple_choice",
-    "testTypes": ["reading"],
+    "testTypes": ["reading", "listening"],
     "category": "Workplace",
     "langLevel": "B2",
     "status": "active",
@@ -159,10 +159,10 @@
     "questionId": 877,
     "providerId": "local",
     "questionText": {
-      "en": "Which word best completes the sentence? 'The company plans to _______ a smaller competitor next month.'"
+      "en": "Which word best completes the sentence? 'The company plans to  {blank}  a smaller competitor next month.'"
     },
     "questionType": "multiple_choice",
-    "testTypes": ["reading", "business"],
+    "testTypes": ["reading", "listening"],
     "category": "Business",
     "langLevel": "B2",
     "status": "active",
@@ -188,7 +188,7 @@
       "en": "If someone successfully treats an 'addiction', what have they overcome?"
     },
     "questionType": "multiple_choice",
-    "testTypes": ["vocabulary"],
+    "testTypes": ["reading", "listening"],
     "category": "Health",
     "langLevel": "B2",
     "status": "active",
@@ -211,10 +211,10 @@
     "questionId": 879,
     "providerId": "local",
     "questionText": {
-      "en": "Select the synonym for 'modify': 'You may need to _______ the settings on your phone.'"
+      "en": "Select the synonym for 'modify': 'You may need to  {blank}  the settings on your phone.'"
     },
     "questionType": "multiple_choice",
-    "testTypes": ["reading"],
+    "testTypes": ["reading", "listening"],
     "category": "Technology",
     "langLevel": "B2",
     "status": "active",
@@ -237,10 +237,10 @@
     "questionId": 880,
     "providerId": "local",
     "questionText": {
-      "en": "Fill in the blank: 'They decided to _______ a child from the local orphanage.'"
+      "en": "Fill in the blank: 'They decided to  {blank}  a child from the local orphanage.'"
     },
     "questionType": "multiple_choice",
-    "testTypes": ["reading"],
+    "testTypes": ["reading", "listening"],
     "category": "Family",
     "langLevel": "B2",
     "status": "active",
@@ -266,7 +266,7 @@
       "en": "What is an 'agenda' usually used for?"
     },
     "questionType": "multiple_choice",
-    "testTypes": ["vocabulary"],
+    "testTypes": ["reading", "listening"],
     "category": "Business",
     "langLevel": "B2",
     "status": "active",
@@ -289,10 +289,10 @@
     "questionId": 882,
     "providerId": "local",
     "questionText": {
-      "en": "Complete the sentence: 'The CEO's _______ behavior during the negotiation scared the partners.'"
+      "en": "Complete the sentence: 'The CEO's  {blank}  behavior during the negotiation scared the partners.'"
     },
     "questionType": "multiple_choice",
-    "testTypes": ["reading"],
+    "testTypes": ["reading", "listening"],
     "category": "Workplace",
     "langLevel": "B2",
     "status": "active",
@@ -318,7 +318,7 @@
       "en": "Which word is related to farming and growing crops?"
     },
     "questionType": "multiple_choice",
-    "testTypes": ["vocabulary"],
+    "testTypes": ["reading", "listening"],
     "category": "Science/Nature",
     "langLevel": "B2",
     "status": "active",
@@ -341,10 +341,10 @@
     "questionId": 884,
     "providerId": "local",
     "questionText": {
-      "en": "If something changes the way it looks or works, it has been _______."
+      "en": "If something changes the way it looks or works, it has been  {blank} ."
     },
     "questionType": "multiple_choice",
-    "testTypes": ["vocabulary"],
+    "testTypes": ["reading", "listening"],
     "category": "General",
     "langLevel": "B2",
     "status": "active",
@@ -367,10 +367,10 @@
     "questionId": 885,
     "providerId": "local",
     "questionText": {
-      "en": "Choose the correct word: 'The company holds an _______ meeting every December.'"
+      "en": "Choose the correct word: 'The company holds an  {blank}  meeting every December.'"
     },
     "questionType": "multiple_choice",
-    "testTypes": ["reading"],
+    "testTypes": ["reading", "listening"],
     "category": "Time",
     "langLevel": "B2",
     "status": "active",
@@ -396,7 +396,7 @@
       "en": "What does 'anticipate' mean in the sentence: 'We anticipate a large crowd at the event'?"
     },
     "questionType": "multiple_choice",
-    "testTypes": ["reading"],
+    "testTypes": ["reading", "listening"],
     "category": "General",
     "langLevel": "B2",
     "status": "active",
@@ -419,10 +419,10 @@
     "questionId": 887,
     "providerId": "local",
     "questionText": {
-      "en": "Fill in the blank: 'He felt very _______ about his job interview tomorrow.'"
+      "en": "Fill in the blank: 'He felt very  {blank}  about his job interview tomorrow.'"
     },
     "questionType": "multiple_choice",
-    "testTypes": ["reading"],
+    "testTypes": ["reading", "listening"],
     "category": "Emotions",
     "langLevel": "B2",
     "status": "active",
@@ -448,7 +448,7 @@
       "en": "Which word refers to a person who has applied for a job?"
     },
     "questionType": "multiple_choice",
-    "testTypes": ["vocabulary", "business"],
+    "testTypes": ["reading", "listening"],
     "category": "Workplace",
     "langLevel": "B2",
     "status": "active",
@@ -471,10 +471,10 @@
     "questionId": 889,
     "providerId": "local",
     "questionText": {
-      "en": "Complete the sentence: 'His dress code was not _______ for a formal wedding.'"
+      "en": "Complete the sentence: 'His dress code was not  {blank}  for a formal wedding.'"
     },
     "questionType": "multiple_choice",
-    "testTypes": ["reading"],
+    "testTypes": ["reading", "listening"],
     "category": "Social",
     "langLevel": "B2",
     "status": "active",
@@ -500,7 +500,7 @@
       "en": "What is the opposite of 'natural'?"
     },
     "questionType": "multiple_choice",
-    "testTypes": ["vocabulary"],
+    "testTypes": ["reading", "listening"],
     "category": "General",
     "langLevel": "B2",
     "status": "active",
@@ -523,10 +523,10 @@
     "questionId": 891,
     "providerId": "local",
     "questionText": {
-      "en": "Fill in the blank: 'We need to _______ the damage before making a plan.'"
+      "en": "Fill in the blank: 'We need to  {blank}  the damage before making a plan.'"
     },
     "questionType": "multiple_choice",
-    "testTypes": ["reading"],
+    "testTypes": ["reading", "listening"],
     "category": "General",
     "langLevel": "B2",
     "status": "active",
@@ -549,10 +549,10 @@
     "questionId": 892,
     "providerId": "local",
     "questionText": {
-      "en": "In business, something valuable that an entity owns is called an _______."
+      "en": "In business, something valuable that an entity owns is called an  {blank} ."
     },
     "questionType": "multiple_choice",
-    "testTypes": ["vocabulary", "business"],
+    "testTypes": ["reading", "listening"],
     "category": "Business",
     "langLevel": "B2",
     "status": "active",
@@ -575,10 +575,10 @@
     "questionId": 893,
     "providerId": "local",
     "questionText": {
-      "en": "Select the correct word: 'The teacher will _______ homework to the students tomorrow.'"
+      "en": "Select the correct word: 'The teacher will  {blank}  homework to the students tomorrow.'"
     },
     "questionType": "multiple_choice",
-    "testTypes": ["reading"],
+    "testTypes": ["reading", "listening"],
     "category": "Education",
     "langLevel": "B2",
     "status": "active",
@@ -604,7 +604,7 @@
       "en": "What does 'assistance' mean?"
     },
     "questionType": "multiple_choice",
-    "testTypes": ["vocabulary"],
+    "testTypes": ["reading", "listening"],
     "category": "General",
     "langLevel": "B2",
     "status": "active",
@@ -627,10 +627,10 @@
     "questionId": 895,
     "providerId": "local",
     "questionText": {
-      "en": "Fill in the blank: 'I _______ you are aware of the rules.'"
+      "en": "Fill in the blank: 'I  {blank}  you are aware of the rules.'"
     },
     "questionType": "multiple_choice",
-    "testTypes": ["reading"],
+    "testTypes": ["reading", "listening"],
     "category": "General",
     "langLevel": "B2",
     "status": "active",
@@ -656,7 +656,7 @@
       "en": "Which word describes a file sent with an email?"
     },
     "questionType": "multiple_choice",
-    "testTypes": ["vocabulary"],
+    "testTypes": ["reading", "listening"],
     "category": "Technology",
     "langLevel": "B2",
     "status": "active",
@@ -679,10 +679,10 @@
     "questionId": 897,
     "providerId": "local",
     "questionText": {
-      "en": "Complete the sentence: 'The magician made an _______ attempt to escape the box.'"
+      "en": "Complete the sentence: 'The magician made an  {blank}  attempt to escape the box.'"
     },
     "questionType": "multiple_choice",
-    "testTypes": ["reading"],
+    "testTypes": ["reading", "listening"],
     "category": "General",
     "langLevel": "B2",
     "status": "active",
@@ -708,7 +708,7 @@
       "en": "If a situation is 'awkward', how does it feel?"
     },
     "questionType": "multiple_choice",
-    "testTypes": ["vocabulary"],
+    "testTypes": ["reading", "listening"],
     "category": "Social",
     "langLevel": "B2",
     "status": "active",
@@ -731,10 +731,10 @@
     "questionId": 899,
     "providerId": "local",
     "questionText": {
-      "en": "Choose the best word: 'She found a great _______ at the market; the price was very low!'"
+      "en": "Choose the best word: 'She found a great  {blank}  at the market; the price was very low!'"
     },
     "questionType": "multiple_choice",
-    "testTypes": ["reading"],
+    "testTypes": ["reading", "listening"],
     "category": "Shopping",
     "langLevel": "B2",
     "status": "active",
@@ -760,7 +760,7 @@
       "en": "What is a 'barrier'?"
     },
     "questionType": "multiple_choice",
-    "testTypes": ["vocabulary"],
+    "testTypes": ["reading", "listening"],
     "category": "General",
     "langLevel": "B2",
     "status": "active",
@@ -783,10 +783,10 @@
     "questionId": 901,
     "providerId": "local",
     "questionText": {
-      "en": "Fill in the blank: 'Eating a _______ diet is key to good health.'"
+      "en": "Fill in the blank: 'Eating a  {blank}  diet is key to good health.'"
     },
     "questionType": "multiple_choice",
-    "testTypes": ["reading"],
+    "testTypes": ["reading", "listening"],
     "category": "Health",
     "langLevel": "B2",
     "status": "active",
@@ -812,7 +812,7 @@
       "en": "If you 'bear' a difficulty, what are you doing?"
     },
     "questionType": "multiple_choice",
-    "testTypes": ["vocabulary"],
+    "testTypes": ["reading", "listening"],
     "category": "General",
     "langLevel": "B2",
     "status": "active",
@@ -835,10 +835,10 @@
     "questionId": 903,
     "providerId": "local",
     "questionText": {
-      "en": "Complete the sentence: 'Exercise is _______ to your physical health.'"
+      "en": "Complete the sentence: 'Exercise is  {blank}  to your physical health.'"
     },
     "questionType": "multiple_choice",
-    "testTypes": ["reading"],
+    "testTypes": ["reading", "listening"],
     "category": "Health",
     "langLevel": "B2",
     "status": "active",
@@ -864,7 +864,7 @@
       "en": "What does 'beyond' mean in: 'The view is beautiful beyond description'?"
     },
     "questionType": "multiple_choice",
-    "testTypes": ["reading"],
+    "testTypes": ["reading", "listening"],
     "category": "General",
     "langLevel": "B2",
     "status": "active",
@@ -890,7 +890,7 @@
       "en": "Which word describes a strong preference or prejudice for one side?"
     },
     "questionType": "multiple_choice",
-    "testTypes": ["vocabulary"],
+    "testTypes": ["reading", "listening"],
     "category": "Social",
     "langLevel": "B2",
     "status": "active",
@@ -913,10 +913,10 @@
     "questionId": 906,
     "providerId": "local",
     "questionText": {
-      "en": "Fill in the blank: 'The coffee tasted very _______ because I forgot the sugar.'"
+      "en": "Fill in the blank: 'The coffee tasted very  {blank}  because I forgot the sugar.'"
     },
     "questionType": "multiple_choice",
-    "testTypes": ["reading"],
+    "testTypes": ["reading", "listening"],
     "category": "Food",
     "langLevel": "B2",
     "status": "active",
@@ -942,7 +942,7 @@
       "en": "Who is responsible when you 'blame' someone?"
     },
     "questionType": "multiple_choice",
-    "testTypes": ["vocabulary"],
+    "testTypes": ["reading", "listening"],
     "category": "General",
     "langLevel": "B2",
     "status": "active",
@@ -965,10 +965,10 @@
     "questionId": 908,
     "providerId": "local",
     "questionText": {
-      "en": "Select the correct word: 'The marketing campaign gave sales a huge _______.'"
+      "en": "Select the correct word: 'The marketing campaign gave sales a huge  {blank} .'"
     },
     "questionType": "multiple_choice",
-    "testTypes": ["reading", "business"],
+    "testTypes": ["reading", "listening"],
     "category": "Business",
     "langLevel": "B2",
     "status": "active",
@@ -994,7 +994,7 @@
       "en": "What does 'bound' mean in: 'It is bound to rain later'?"
     },
     "questionType": "multiple_choice",
-    "testTypes": ["reading"],
+    "testTypes": ["reading", "listening"],
     "category": "General",
     "langLevel": "B2",
     "status": "active",
@@ -1017,10 +1017,10 @@
     "questionId": 910,
     "providerId": "local",
     "questionText": {
-      "en": "Fill in the blank: 'We gave the waiter a _______ description of what we wanted.'"
+      "en": "Fill in the blank: 'We gave the waiter a  {blank}  description of what we wanted.'"
     },
     "questionType": "multiple_choice",
-    "testTypes": ["reading"],
+    "testTypes": ["reading", "listening"],
     "category": "General",
     "langLevel": "B2",
     "status": "active",
@@ -1046,7 +1046,7 @@
       "en": "Which word is a synonym for 'wide'?"
     },
     "questionType": "multiple_choice",
-    "testTypes": ["vocabulary"],
+    "testTypes": ["reading", "listening"],
     "category": "General",
     "langLevel": "B2",
     "status": "active",
@@ -1069,10 +1069,10 @@
     "questionId": 912,
     "providerId": "local",
     "questionText": {
-      "en": "Complete the sentence: 'The news will _______ live at 6 PM.'"
+      "en": "Complete the sentence: 'The news will  {blank}  live at 6 PM.'"
     },
     "questionType": "multiple_choice",
-    "testTypes": ["reading"],
+    "testTypes": ["reading", "listening"],
     "category": "Media",
     "langLevel": "B2",
     "status": "active",
@@ -1098,7 +1098,7 @@
       "en": "What is a 'budget'?"
     },
     "questionType": "multiple_choice",
-    "testTypes": ["vocabulary", "business"],
+    "testTypes": ["reading", "listening"],
     "category": "Finance",
     "langLevel": "B2",
     "status": "active",
@@ -1121,10 +1121,10 @@
     "questionId": 914,
     "providerId": "local",
     "questionText": {
-      "en": "Fill in the blank: 'We need to _______ the total cost of the trip.'"
+      "en": "Fill in the blank: 'We need to  {blank}  the total cost of the trip.'"
     },
     "questionType": "multiple_choice",
-    "testTypes": ["reading"],
+    "testTypes": ["reading", "listening"],
     "category": "Math/General",
     "langLevel": "B2",
     "status": "active",
@@ -1147,10 +1147,10 @@
     "questionId": 915,
     "providerId": "local",
     "questionText": {
-      "en": "If you are 'capable' of doing something, it means you _______."
+      "en": "If you are 'capable' of doing something, it means you  {blank} ."
     },
     "questionType": "multiple_choice",
-    "testTypes": ["vocabulary"],
+    "testTypes": ["reading", "listening"],
     "category": "General",
     "langLevel": "B2",
     "status": "active",
@@ -1173,10 +1173,10 @@
     "questionId": 916,
     "providerId": "local",
     "questionText": {
-      "en": "Select the best word: 'The stadium has a seating _______ of 50,000.'"
+      "en": "Select the best word: 'The stadium has a seating  {blank}  of 50,000.'"
     },
     "questionType": "multiple_choice",
-    "testTypes": ["reading"],
+    "testTypes": ["reading", "listening"],
     "category": "General",
     "langLevel": "B2",
     "status": "active",
@@ -1199,10 +1199,10 @@
     "questionId": 917,
     "providerId": "local",
     "questionText": {
-      "en": "Complete the sentence: 'The police managed to _______ the thief.'"
+      "en": "Complete the sentence: 'The police managed to  {blank}  the thief.'"
     },
     "questionType": "multiple_choice",
-    "testTypes": ["reading"],
+    "testTypes": ["reading", "listening"],
     "category": "Crime/Law",
     "langLevel": "B2",
     "status": "active",
@@ -1228,7 +1228,7 @@
       "en": "What does 'cast' mean in the context of a movie?"
     },
     "questionType": "multiple_choice",
-    "testTypes": ["vocabulary"],
+    "testTypes": ["reading", "listening"],
     "category": "Entertainment",
     "langLevel": "B2",
     "status": "active",
@@ -1251,10 +1251,10 @@
     "questionId": 919,
     "providerId": "local",
     "questionText": {
-      "en": "Fill in the blank: 'It was just a _______ remark, not meant to be serious.'"
+      "en": "Fill in the blank: 'It was just a  {blank}  remark, not meant to be serious.'"
     },
     "questionType": "multiple_choice",
-    "testTypes": ["reading"],
+    "testTypes": ["reading", "listening"],
     "category": "Social",
     "langLevel": "B2",
     "status": "active",
@@ -1280,7 +1280,7 @@
       "en": "Which word describes a specific characteristic or quality of something?"
     },
     "questionType": "multiple_choice",
-    "testTypes": ["vocabulary"],
+    "testTypes": ["reading", "listening"],
     "category": "General",
     "langLevel": "B2",
     "status": "active",
@@ -1303,10 +1303,10 @@
     "questionId": 921,
     "providerId": "local",
     "questionText": {
-      "en": "Select the synonym for 'pleasant' or 'attractive': 'The cottage was small but quite _______.'"
+      "en": "Select the synonym for 'pleasant' or 'attractive': 'The cottage was small but quite  {blank} .'"
     },
     "questionType": "multiple_choice",
-    "testTypes": ["vocabulary"],
+    "testTypes": ["reading", "listening"],
     "category": "Descriptive",
     "langLevel": "B2",
     "status": "active",
@@ -1332,7 +1332,7 @@
       "en": "What is a 'chart' typically used for?"
     },
     "questionType": "multiple_choice",
-    "testTypes": ["vocabulary"],
+    "testTypes": ["reading", "listening"],
     "category": "Business/Academic",
     "langLevel": "B2",
     "status": "active",
@@ -1355,10 +1355,10 @@
     "questionId": 923,
     "providerId": "local",
     "questionText": {
-      "en": "Fill in the blank: 'The police had to _______ the suspect on foot.'"
+      "en": "Fill in the blank: 'The police had to  {blank}  the suspect on foot.'"
     },
     "questionType": "multiple_choice",
-    "testTypes": ["reading"],
+    "testTypes": ["reading", "listening"],
     "category": "Action",
     "langLevel": "B2",
     "status": "active",
@@ -1384,7 +1384,7 @@
       "en": "Which part of the face is the 'cheek'?"
     },
     "questionType": "multiple_choice",
-    "testTypes": ["vocabulary"],
+    "testTypes": ["reading", "listening"],
     "category": "Body",
     "langLevel": "B2",
     "status": "active",
@@ -1410,7 +1410,7 @@
       "en": "If you 'cheer' for someone, what are you doing?"
     },
     "questionType": "multiple_choice",
-    "testTypes": ["vocabulary"],
+    "testTypes": ["reading", "listening"],
     "category": "Social",
     "langLevel": "B2",
     "status": "active",
@@ -1433,10 +1433,10 @@
     "questionId": 926,
     "providerId": "local",
     "questionText": {
-      "en": "Select the correct title: 'The _______ of Police gave a press conference.'"
+      "en": "Select the correct title: 'The  {blank}  of Police gave a press conference.'"
     },
     "questionType": "multiple_choice",
-    "testTypes": ["reading"],
+    "testTypes": ["reading", "listening"],
     "category": "Workplace",
     "langLevel": "B2",
     "status": "active",
@@ -1462,7 +1462,7 @@
       "en": "What do you do when you 'chop' vegetables?"
     },
     "questionType": "multiple_choice",
-    "testTypes": ["vocabulary"],
+    "testTypes": ["reading", "listening"],
     "category": "Cooking",
     "langLevel": "B2",
     "status": "active",
@@ -1485,10 +1485,10 @@
     "questionId": 928,
     "providerId": "local",
     "questionText": {
-      "en": "Fill in the blank: 'The racing cars completed one full _______ of the track.'"
+      "en": "Fill in the blank: 'The racing cars completed one full  {blank}  of the track.'"
     },
     "questionType": "multiple_choice",
-    "testTypes": ["reading"],
+    "testTypes": ["reading", "listening"],
     "category": "Sports",
     "langLevel": "B2",
     "status": "active",
@@ -1511,10 +1511,10 @@
     "questionId": 929,
     "providerId": "local",
     "questionText": {
-      "en": "Under no _______ should you open this door."
+      "en": "Under no  {blank}  should you open this door."
     },
     "questionType": "multiple_choice",
-    "testTypes": ["reading"],
+    "testTypes": ["reading", "listening"],
     "category": "General",
     "langLevel": "B2",
     "status": "active",
@@ -1537,10 +1537,10 @@
     "questionId": 930,
     "providerId": "local",
     "questionText": {
-      "en": "When writing an essay, it is important to _______ your sources."
+      "en": "When writing an essay, it is important to  {blank}  your sources."
     },
     "questionType": "multiple_choice",
-    "testTypes": ["Academic"],
+    "testTypes": ["reading", "listening"],
     "category": "Education",
     "langLevel": "B2",
     "status": "active",
@@ -1563,10 +1563,10 @@
     "questionId": 931,
     "providerId": "local",
     "questionText": {
-      "en": "A legally recognized subject or national of a state is called a _______."
+      "en": "A legally recognized subject or national of a state is called a  {blank} ."
     },
     "questionType": "multiple_choice",
-    "testTypes": ["vocabulary"],
+    "testTypes": ["reading", "listening"],
     "category": "Society",
     "langLevel": "B2",
     "status": "active",
@@ -1589,10 +1589,10 @@
     "questionId": 932,
     "providerId": "local",
     "questionText": {
-      "en": "Fill in the blank: 'The _______ war caused great destruction in the country.'"
+      "en": "Fill in the blank: 'The  {blank}  war caused great destruction in the country.'"
     },
     "questionType": "multiple_choice",
-    "testTypes": ["reading"],
+    "testTypes": ["reading", "listening"],
     "category": "History/Politics",
     "langLevel": "B2",
     "status": "active",
@@ -1615,10 +1615,10 @@
     "questionId": 933,
     "providerId": "local",
     "questionText": {
-      "en": "Ancient Rome is a famous example of an early _______."
+      "en": "Ancient Rome is a famous example of an early  {blank} ."
     },
     "questionType": "multiple_choice",
-    "testTypes": ["reading"],
+    "testTypes": ["reading", "listening"],
     "category": "History",
     "langLevel": "B2",
     "status": "active",
@@ -1641,10 +1641,10 @@
     "questionId": 934,
     "providerId": "local",
     "questionText": {
-      "en": "Could you please _______ your last statement? I didn't understand."
+      "en": "Could you please  {blank}  your last statement? I didn't understand."
     },
     "questionType": "multiple_choice",
-    "testTypes": ["reading"],
+    "testTypes": ["reading", "listening"],
     "category": "Communication",
     "langLevel": "B2",
     "status": "active",
@@ -1667,10 +1667,10 @@
     "questionId": 935,
     "providerId": "local",
     "questionText": {
-      "en": "Select the synonym for 'traditional' or 'typical': 'She wore a _______ black dress.'"
+      "en": "Select the synonym for 'traditional' or 'typical': 'She wore a  {blank}  black dress.'"
     },
     "questionType": "multiple_choice",
-    "testTypes": ["vocabulary"],
+    "testTypes": ["reading", "listening"],
     "category": "Fashion/Style",
     "langLevel": "B2",
     "status": "active",
@@ -1693,10 +1693,10 @@
     "questionId": 936,
     "providerId": "local",
     "questionText": {
-      "en": "Biologists _______ animals into different families and species."
+      "en": "Biologists  {blank}  animals into different families and species."
     },
     "questionType": "multiple_choice",
-    "testTypes": ["reading"],
+    "testTypes": ["reading", "listening"],
     "category": "Science",
     "langLevel": "B2",
     "status": "active",
@@ -1722,7 +1722,7 @@
       "en": "What is a 'cliff'?"
     },
     "questionType": "multiple_choice",
-    "testTypes": ["vocabulary"],
+    "testTypes": ["reading", "listening"],
     "category": "Nature",
     "langLevel": "B2",
     "status": "active",
@@ -1745,10 +1745,10 @@
     "questionId": 938,
     "providerId": "local",
     "questionText": {
-      "en": "If you are sick but not in an emergency, you might visit a _______."
+      "en": "If you are sick but not in an emergency, you might visit a  {blank} ."
     },
     "questionType": "multiple_choice",
-    "testTypes": ["vocabulary"],
+    "testTypes": ["reading", "listening"],
     "category": "Health",
     "langLevel": "B2",
     "status": "active",
@@ -1771,10 +1771,10 @@
     "questionId": 939,
     "providerId": "local",
     "questionText": {
-      "en": "She used a paper _______ to hold the documents together."
+      "en": "She used a paper  {blank}  to hold the documents together."
     },
     "questionType": "multiple_choice",
-    "testTypes": ["reading"],
+    "testTypes": ["reading", "listening"],
     "category": "Office",
     "langLevel": "B2",
     "status": "active",
@@ -1797,10 +1797,10 @@
     "questionId": 940,
     "providerId": "local",
     "questionText": {
-      "en": "The shop is located _______ to the train station."
+      "en": "The shop is located  {blank}  to the train station."
     },
     "questionType": "multiple_choice",
-    "testTypes": ["reading"],
+    "testTypes": ["reading", "listening"],
     "category": "Location",
     "langLevel": "B2",
     "status": "active",
@@ -1823,10 +1823,10 @@
     "questionId": 941,
     "providerId": "local",
     "questionText": {
-      "en": "The detective looked _______ at the evidence."
+      "en": "The detective looked  {blank}  at the evidence."
     },
     "questionType": "multiple_choice",
-    "testTypes": ["reading"],
+    "testTypes": ["reading", "listening"],
     "category": "General",
     "langLevel": "B2",
     "status": "active",
@@ -1849,10 +1849,10 @@
     "questionId": 942,
     "providerId": "local",
     "questionText": {
-      "en": "We met each other in Paris by pure _______."
+      "en": "We met each other in Paris by pure  {blank} ."
     },
     "questionType": "multiple_choice",
-    "testTypes": ["reading"],
+    "testTypes": ["reading", "listening"],
     "category": "General",
     "langLevel": "B2",
     "status": "active",
@@ -1875,10 +1875,10 @@
     "questionId": 943,
     "providerId": "local",
     "questionText": {
-      "en": "The old building might _______ during the earthquake."
+      "en": "The old building might  {blank}  during the earthquake."
     },
     "questionType": "multiple_choice",
-    "testTypes": ["reading"],
+    "testTypes": ["reading", "listening"],
     "category": "General",
     "langLevel": "B2",
     "status": "active",
@@ -1901,10 +1901,10 @@
     "questionId": 944,
     "providerId": "local",
     "questionText": {
-      "en": "Someone who gathers stamps or coins as a hobby is a _______."
+      "en": "Someone who gathers stamps or coins as a hobby is a  {blank} ."
     },
     "questionType": "multiple_choice",
-    "testTypes": ["vocabulary"],
+    "testTypes": ["reading", "listening"],
     "category": "Hobbies",
     "langLevel": "B2",
     "status": "active",
@@ -1927,10 +1927,10 @@
     "questionId": 945,
     "providerId": "local",
     "questionText": {
-      "en": "A group of people settling in a new territory is called a _______."
+      "en": "A group of people settling in a new territory is called a  {blank} ."
     },
     "questionType": "multiple_choice",
-    "testTypes": ["vocabulary"],
+    "testTypes": ["reading", "listening"],
     "category": "History/Society",
     "langLevel": "B2",
     "status": "active",
@@ -1953,10 +1953,10 @@
     "questionId": 946,
     "providerId": "local",
     "questionText": {
-      "en": "The festival was very _______ with bright flags everywhere."
+      "en": "The festival was very  {blank}  with bright flags everywhere."
     },
     "questionType": "multiple_choice",
-    "testTypes": ["reading"],
+    "testTypes": ["reading", "listening"],
     "category": "Descriptive",
     "langLevel": "B2",
     "status": "active",
@@ -1979,10 +1979,10 @@
     "questionId": 947,
     "providerId": "local",
     "questionText": {
-      "en": "Pink is a _______ of red and white."
+      "en": "Pink is a  {blank}  of red and white."
     },
     "questionType": "multiple_choice",
-    "testTypes": ["reading"],
+    "testTypes": ["reading", "listening"],
     "category": "General",
     "langLevel": "B2",
     "status": "active",
@@ -2005,10 +2005,10 @@
     "questionId": 948,
     "providerId": "local",
     "questionText": {
-      "en": "I tried to _______ the crying baby."
+      "en": "I tried to  {blank}  the crying baby."
     },
     "questionType": "multiple_choice",
-    "testTypes": ["reading"],
+    "testTypes": ["reading", "listening"],
     "category": "Emotions",
     "langLevel": "B2",
     "status": "active",
@@ -2031,10 +2031,10 @@
     "questionId": 949,
     "providerId": "local",
     "questionText": {
-      "en": "A book with cartoons and stories is often called a _______ book."
+      "en": "A book with cartoons and stories is often called a  {blank}  book."
     },
     "questionType": "multiple_choice",
-    "testTypes": ["vocabulary"],
+    "testTypes": ["reading", "listening"],
     "category": "Entertainment",
     "langLevel": "B2",
     "status": "active",
@@ -2057,10 +2057,10 @@
     "questionId": 950,
     "providerId": "local",
     "questionText": {
-      "en": "The general gave a loud _______ to the troops."
+      "en": "The general gave a loud  {blank}  to the troops."
     },
     "questionType": "multiple_choice",
-    "testTypes": ["reading"],
+    "testTypes": ["reading", "listening"],
     "category": "Military/Work",
     "langLevel": "B2",
     "status": "active",
@@ -2086,7 +2086,7 @@
       "en": "Who is the person in charge of a military unit?"
     },
     "questionType": "multiple_choice",
-    "testTypes": ["vocabulary"],
+    "testTypes": ["reading", "listening"],
     "category": "Military",
     "langLevel": "B2",
     "status": "active",
@@ -2109,10 +2109,10 @@
     "questionId": 952,
     "providerId": "local",
     "questionText": {
-      "en": "The artist received a _______ to paint the mayor's portrait."
+      "en": "The artist received a  {blank}  to paint the mayor's portrait."
     },
     "questionType": "multiple_choice",
-    "testTypes": ["reading"],
+    "testTypes": ["reading", "listening"],
     "category": "Arts/Business",
     "langLevel": "B2",
     "status": "active",
@@ -2135,10 +2135,10 @@
     "questionId": 953,
     "providerId": "local",
     "questionText": {
-      "en": "Marriage is a lifelong _______."
+      "en": "Marriage is a lifelong  {blank} ."
     },
     "questionType": "multiple_choice",
-    "testTypes": ["reading"],
+    "testTypes": ["reading", "listening"],
     "category": "Social",
     "langLevel": "B2",
     "status": "active",
@@ -2161,10 +2161,10 @@
     "questionId": 954,
     "providerId": "local",
     "questionText": {
-      "en": "A group of people appointed for a specific function creates a _______."
+      "en": "A group of people appointed for a specific function creates a  {blank} ."
     },
     "questionType": "multiple_choice",
-    "testTypes": ["vocabulary"],
+    "testTypes": ["reading", "listening"],
     "category": "Business/Social",
     "langLevel": "B2",
     "status": "active",
@@ -2187,10 +2187,10 @@
     "questionId": 955,
     "providerId": "local",
     "questionText": {
-      "en": "Salt is _______ found in sea water."
+      "en": "Salt is  {blank}  found in sea water."
     },
     "questionType": "multiple_choice",
-    "testTypes": ["reading"],
+    "testTypes": ["reading", "listening"],
     "category": "General",
     "langLevel": "B2",
     "status": "active",
@@ -2213,10 +2213,10 @@
     "questionId": 956,
     "providerId": "local",
     "questionText": {
-      "en": "He did a _______ study of the two different languages."
+      "en": "He did a  {blank}  study of the two different languages."
     },
     "questionType": "multiple_choice",
-    "testTypes": ["reading"],
+    "testTypes": ["reading", "listening"],
     "category": "Academic",
     "langLevel": "B2",
     "status": "active",
@@ -2239,10 +2239,10 @@
     "questionId": 957,
     "providerId": "local",
     "questionText": {
-      "en": "The project is nearing _______."
+      "en": "The project is nearing  {blank} ."
     },
     "questionType": "multiple_choice",
-    "testTypes": ["reading"],
+    "testTypes": ["reading", "listening"],
     "category": "Project Management",
     "langLevel": "B2",
     "status": "active",
@@ -2265,10 +2265,10 @@
     "questionId": 958,
     "providerId": "local",
     "questionText": {
-      "en": "This math problem is too _______ for me to solve."
+      "en": "This math problem is too  {blank}  for me to solve."
     },
     "questionType": "multiple_choice",
-    "testTypes": ["reading"],
+    "testTypes": ["reading", "listening"],
     "category": "Education",
     "langLevel": "B2",
     "status": "active",
@@ -2291,10 +2291,10 @@
     "questionId": 959,
     "providerId": "local",
     "questionText": {
-      "en": "Synonym for 'complex' or 'difficult': 'The situation is very _______.'"
+      "en": "Synonym for 'complex' or 'difficult': 'The situation is very  {blank} .'"
     },
     "questionType": "multiple_choice",
-    "testTypes": ["vocabulary"],
+    "testTypes": ["reading", "listening"],
     "category": "General",
     "langLevel": "B2",
     "status": "active",
@@ -2317,10 +2317,10 @@
     "questionId": 960,
     "providerId": "local",
     "questionText": {
-      "en": "A part or element of a larger whole is a _______."
+      "en": "A part or element of a larger whole is a  {blank} ."
     },
     "questionType": "multiple_choice",
-    "testTypes": ["vocabulary"],
+    "testTypes": ["reading", "listening"],
     "category": "Technical",
     "langLevel": "B2",
     "status": "active",
@@ -2343,10 +2343,10 @@
     "questionId": 961,
     "providerId": "local",
     "questionText": {
-      "en": "Mozart began to _______ music at a very young age."
+      "en": "Mozart began to  {blank}  music at a very young age."
     },
     "questionType": "multiple_choice",
-    "testTypes": ["reading"],
+    "testTypes": ["reading", "listening"],
     "category": "Music",
     "langLevel": "B2",
     "status": "active",
@@ -2369,10 +2369,10 @@
     "questionId": 962,
     "providerId": "local",
     "questionText": {
-      "en": "A person who writes music is called a _______."
+      "en": "A person who writes music is called a  {blank} ."
     },
     "questionType": "multiple_choice",
-    "testTypes": ["vocabulary"],
+    "testTypes": ["reading", "listening"],
     "category": "Music",
     "langLevel": "B2",
     "status": "active",
@@ -2395,10 +2395,10 @@
     "questionId": 963,
     "providerId": "local",
     "questionText": {
-      "en": "Water is a chemical _______ of hydrogen and oxygen."
+      "en": "Water is a chemical  {blank}  of hydrogen and oxygen."
     },
     "questionType": "multiple_choice",
-    "testTypes": ["reading"],
+    "testTypes": ["reading", "listening"],
     "category": "Science",
     "langLevel": "B2",
     "status": "active",
@@ -2421,10 +2421,10 @@
     "questionId": 964,
     "providerId": "local",
     "questionText": {
-      "en": "The school offers a _______ guide to university entrance."
+      "en": "The school offers a  {blank}  guide to university entrance."
     },
     "questionType": "multiple_choice",
-    "testTypes": ["reading"],
+    "testTypes": ["reading", "listening"],
     "category": "Education",
     "langLevel": "B2",
     "status": "active",
@@ -2447,10 +2447,10 @@
     "questionId": 965,
     "providerId": "local",
     "questionText": {
-      "en": "The team _______ of five members."
+      "en": "The team  {blank}  of five members."
     },
     "questionType": "multiple_choice",
-    "testTypes": ["reading"],
+    "testTypes": ["reading", "listening"],
     "category": "General",
     "langLevel": "B2",
     "status": "active",
@@ -2473,10 +2473,10 @@
     "questionId": 966,
     "providerId": "local",
     "questionText": {
-      "en": "Math and English are _______ subjects in most schools."
+      "en": "Math and English are  {blank}  subjects in most schools."
     },
     "questionType": "multiple_choice",
-    "testTypes": ["reading"],
+    "testTypes": ["reading", "listening"],
     "category": "Education",
     "langLevel": "B2",
     "status": "active",
@@ -2499,10 +2499,10 @@
     "questionId": 967,
     "providerId": "local",
     "questionText": {
-      "en": "This task requires deep _______."
+      "en": "This task requires deep  {blank} ."
     },
     "questionType": "multiple_choice",
-    "testTypes": ["reading"],
+    "testTypes": ["reading", "listening"],
     "category": "Work/Study",
     "langLevel": "B2",
     "status": "active",
@@ -2525,10 +2525,10 @@
     "questionId": 968,
     "providerId": "local",
     "questionText": {
-      "en": "Freedom is an abstract _______."
+      "en": "Freedom is an abstract  {blank} ."
     },
     "questionType": "multiple_choice",
-    "testTypes": ["vocabulary"],
+    "testTypes": ["reading", "listening"],
     "category": "Philosophy",
     "langLevel": "B2",
     "status": "active",
@@ -2551,10 +2551,10 @@
     "questionId": 969,
     "providerId": "local",
     "questionText": {
-      "en": "My main _______ is your safety."
+      "en": "My main  {blank}  is your safety."
     },
     "questionType": "multiple_choice",
-    "testTypes": ["reading"],
+    "testTypes": ["reading", "listening"],
     "category": "General",
     "langLevel": "B2",
     "status": "active",
@@ -2577,10 +2577,10 @@
     "questionId": 970,
     "providerId": "local",
     "questionText": {
-      "en": "I am very _______ about the results of the test."
+      "en": "I am very  {blank}  about the results of the test."
     },
     "questionType": "multiple_choice",
-    "testTypes": ["reading"],
+    "testTypes": ["reading", "listening"],
     "category": "Emotions",
     "langLevel": "B2",
     "status": "active",
@@ -2603,10 +2603,10 @@
     "questionId": 971,
     "providerId": "local",
     "questionText": {
-      "en": "Select the correct word: 'We need _______ evidence before we can make an arrest.'"
+      "en": "Select the correct word: 'We need  {blank}  evidence before we can make an arrest.'"
     },
     "questionType": "multiple_choice",
-    "testTypes": ["reading"],
+    "testTypes": ["reading", "listening"],
     "category": "Law/General",
     "langLevel": "B2",
     "status": "active",
@@ -2629,10 +2629,10 @@
     "questionId": 972,
     "providerId": "local",
     "questionText": {
-      "en": "The university plans to _______ a survey on student satisfaction."
+      "en": "The university plans to  {blank}  a survey on student satisfaction."
     },
     "questionType": "multiple_choice",
-    "testTypes": ["reading"],
+    "testTypes": ["reading", "listening"],
     "category": "Academic",
     "langLevel": "B2",
     "status": "active",
@@ -2655,10 +2655,10 @@
     "questionId": 973,
     "providerId": "local",
     "questionText": {
-      "en": "To admit that you have done something wrong is to _______."
+      "en": "To admit that you have done something wrong is to  {blank} ."
     },
     "questionType": "multiple_choice",
-    "testTypes": ["vocabulary"],
+    "testTypes": ["reading", "listening"],
     "category": "General",
     "langLevel": "B2",
     "status": "active",
@@ -2681,10 +2681,10 @@
     "questionId": 974,
     "providerId": "local",
     "questionText": {
-      "en": "She has a lot of _______ in her ability to win the race."
+      "en": "She has a lot of  {blank}  in her ability to win the race."
     },
     "questionType": "multiple_choice",
-    "testTypes": ["reading"],
+    "testTypes": ["reading", "listening"],
     "category": "Emotions",
     "langLevel": "B2",
     "status": "active",
@@ -2707,10 +2707,10 @@
     "questionId": 975,
     "providerId": "local",
     "questionText": {
-      "en": "The two countries are trying to resolve their _______ peacefully."
+      "en": "The two countries are trying to resolve their  {blank}  peacefully."
     },
     "questionType": "multiple_choice",
-    "testTypes": ["reading"],
+    "testTypes": ["reading", "listening"],
     "category": "Politics",
     "langLevel": "B2",
     "status": "active",
@@ -2733,10 +2733,10 @@
     "questionId": 976,
     "providerId": "local",
     "questionText": {
-      "en": "The instructions were very _______; I didn't understand what to do."
+      "en": "The instructions were very  {blank} ; I didn't understand what to do."
     },
     "questionType": "multiple_choice",
-    "testTypes": ["reading"],
+    "testTypes": ["reading", "listening"],
     "category": "General",
     "langLevel": "B2",
     "status": "active",
@@ -2759,10 +2759,10 @@
     "questionId": 977,
     "providerId": "local",
     "questionText": {
-      "en": "There was a lot of _______ about the new schedule."
+      "en": "There was a lot of  {blank}  about the new schedule."
     },
     "questionType": "multiple_choice",
-    "testTypes": ["reading"],
+    "testTypes": ["reading", "listening"],
     "category": "General",
     "langLevel": "B2",
     "status": "active",
@@ -2785,10 +2785,10 @@
     "questionId": 978,
     "providerId": "local",
     "questionText": {
-      "en": "He was badly hurt but remained _______ until the ambulance arrived."
+      "en": "He was badly hurt but remained  {blank}  until the ambulance arrived."
     },
     "questionType": "multiple_choice",
-    "testTypes": ["reading"],
+    "testTypes": ["reading", "listening"],
     "category": "Health",
     "langLevel": "B2",
     "status": "active",
@@ -2811,10 +2811,10 @@
     "questionId": 979,
     "providerId": "local",
     "questionText": {
-      "en": "It rained all day; _______, the baseball game was cancelled."
+      "en": "It rained all day;  {blank} , the baseball game was cancelled."
     },
     "questionType": "multiple_choice",
-    "testTypes": ["reading"],
+    "testTypes": ["reading", "listening"],
     "category": "Grammar/Connectors",
     "langLevel": "B2",
     "status": "active",
@@ -2837,10 +2837,10 @@
     "questionId": 980,
     "providerId": "local",
     "questionText": {
-      "en": "The protection of plants, animals, and natural areas is called _______."
+      "en": "The protection of plants, animals, and natural areas is called  {blank} ."
     },
     "questionType": "multiple_choice",
-    "testTypes": ["vocabulary"],
+    "testTypes": ["reading", "listening"],
     "category": "Nature",
     "langLevel": "B2",
     "status": "active",
@@ -2863,10 +2863,10 @@
     "questionId": 981,
     "providerId": "local",
     "questionText": {
-      "en": "Someone who dislikes change and holds traditional values is _______."
+      "en": "Someone who dislikes change and holds traditional values is  {blank} ."
     },
     "questionType": "multiple_choice",
-    "testTypes": ["vocabulary"],
+    "testTypes": ["reading", "listening"],
     "category": "Personality/Politics",
     "langLevel": "B2",
     "status": "active",
@@ -2889,10 +2889,10 @@
     "questionId": 982,
     "providerId": "local",
     "questionText": {
-      "en": "He donated a _______ amount of money to the charity."
+      "en": "He donated a  {blank}  amount of money to the charity."
     },
     "questionType": "multiple_choice",
-    "testTypes": ["reading"],
+    "testTypes": ["reading", "listening"],
     "category": "General",
     "langLevel": "B2",
     "status": "active",
@@ -2915,10 +2915,10 @@
     "questionId": 983,
     "providerId": "local",
     "questionText": {
-      "en": "House prices have risen _______ in the last ten years."
+      "en": "House prices have risen  {blank}  in the last ten years."
     },
     "questionType": "multiple_choice",
-    "testTypes": ["reading"],
+    "testTypes": ["reading", "listening"],
     "category": "Economics",
     "langLevel": "B2",
     "status": "active",
@@ -2941,10 +2941,10 @@
     "questionId": 984,
     "providerId": "local",
     "questionText": {
-      "en": "After careful _______, we decided to accept the offer."
+      "en": "After careful  {blank} , we decided to accept the offer."
     },
     "questionType": "multiple_choice",
-    "testTypes": ["reading"],
+    "testTypes": ["reading", "listening"],
     "category": "General",
     "langLevel": "B2",
     "status": "active",
@@ -2967,10 +2967,10 @@
     "questionId": 985,
     "providerId": "local",
     "questionText": {
-      "en": "The team needs to be more _______; they win one week and lose the next."
+      "en": "The team needs to be more  {blank} ; they win one week and lose the next."
     },
     "questionType": "multiple_choice",
-    "testTypes": ["reading"],
+    "testTypes": ["reading", "listening"],
     "category": "Sports/General",
     "langLevel": "B2",
     "status": "active",
@@ -2993,10 +2993,10 @@
     "questionId": 986,
     "providerId": "local",
     "questionText": {
-      "en": "She _______ arrives late to class every Monday."
+      "en": "She  {blank}  arrives late to class every Monday."
     },
     "questionType": "multiple_choice",
-    "testTypes": ["reading"],
+    "testTypes": ["reading", "listening"],
     "category": "General",
     "langLevel": "B2",
     "status": "active",
@@ -3019,10 +3019,10 @@
     "questionId": 987,
     "providerId": "local",
     "questionText": {
-      "en": "A secret plan by a group to do something unlawful is a _______."
+      "en": "A secret plan by a group to do something unlawful is a  {blank} ."
     },
     "questionType": "multiple_choice",
-    "testTypes": ["vocabulary"],
+    "testTypes": ["reading", "listening"],
     "category": "Crime/Politics",
     "langLevel": "B2",
     "status": "active",
@@ -3045,10 +3045,10 @@
     "questionId": 988,
     "providerId": "local",
     "questionText": {
-      "en": "The _______ noise from the factory kept me awake all night."
+      "en": "The  {blank}  noise from the factory kept me awake all night."
     },
     "questionType": "multiple_choice",
-    "testTypes": ["reading"],
+    "testTypes": ["reading", "listening"],
     "category": "General",
     "langLevel": "B2",
     "status": "active",
@@ -3071,10 +3071,10 @@
     "questionId": 989,
     "providerId": "local",
     "questionText": {
-      "en": "Technology is _______ changing and improving."
+      "en": "Technology is  {blank}  changing and improving."
     },
     "questionType": "multiple_choice",
-    "testTypes": ["reading"],
+    "testTypes": ["reading", "listening"],
     "category": "Technology",
     "langLevel": "B2",
     "status": "active",
@@ -3097,10 +3097,10 @@
     "questionId": 990,
     "providerId": "local",
     "questionText": {
-      "en": "They plan to _______ a new bridge across the river."
+      "en": "They plan to  {blank}  a new bridge across the river."
     },
     "questionType": "multiple_choice",
-    "testTypes": ["reading"],
+    "testTypes": ["reading", "listening"],
     "category": "Engineering",
     "langLevel": "B2",
     "status": "active",
@@ -3123,10 +3123,10 @@
     "questionId": 991,
     "providerId": "local",
     "questionText": {
-      "en": "The road is closed due to _______ work."
+      "en": "The road is closed due to  {blank}  work."
     },
     "questionType": "multiple_choice",
-    "testTypes": ["reading"],
+    "testTypes": ["reading", "listening"],
     "category": "Engineering",
     "langLevel": "B2",
     "status": "active",
@@ -3149,10 +3149,10 @@
     "questionId": 992,
     "providerId": "local",
     "questionText": {
-      "en": "If you are unsure, you should _______ a doctor."
+      "en": "If you are unsure, you should  {blank}  a doctor."
     },
     "questionType": "multiple_choice",
-    "testTypes": ["reading"],
+    "testTypes": ["reading", "listening"],
     "category": "Health",
     "langLevel": "B2",
     "status": "active",
@@ -3175,10 +3175,10 @@
     "questionId": 993,
     "providerId": "local",
     "questionText": {
-      "en": "A business _______ was hired to improve the company's profits."
+      "en": "A business  {blank}  was hired to improve the company's profits."
     },
     "questionType": "multiple_choice",
-    "testTypes": ["vocabulary"],
+    "testTypes": ["reading", "listening"],
     "category": "Business",
     "langLevel": "B2",
     "status": "active",
@@ -3201,10 +3201,10 @@
     "questionId": 994,
     "providerId": "local",
     "questionText": {
-      "en": "The government wants to reduce the _______ of fossil fuels."
+      "en": "The government wants to reduce the  {blank}  of fossil fuels."
     },
     "questionType": "multiple_choice",
-    "testTypes": ["reading"],
+    "testTypes": ["reading", "listening"],
     "category": "Environment",
     "langLevel": "B2",
     "status": "active",
@@ -3227,10 +3227,10 @@
     "questionId": 995,
     "providerId": "local",
     "questionText": {
-      "en": "He enjoys reading _______ fiction rather than classics."
+      "en": "He enjoys reading  {blank}  fiction rather than classics."
     },
     "questionType": "multiple_choice",
-    "testTypes": ["reading"],
+    "testTypes": ["reading", "listening"],
     "category": "Literature",
     "langLevel": "B2",
     "status": "active",
@@ -3253,10 +3253,10 @@
     "questionId": 996,
     "providerId": "local",
     "questionText": {
-      "en": "She entered a singing _______ and won first prize."
+      "en": "She entered a singing  {blank}  and won first prize."
     },
     "questionType": "multiple_choice",
-    "testTypes": ["reading"],
+    "testTypes": ["reading", "listening"],
     "category": "Entertainment",
     "langLevel": "B2",
     "status": "active",
@@ -3279,10 +3279,10 @@
     "questionId": 997,
     "providerId": "local",
     "questionText": {
-      "en": "You must sign the _______ before starting the job."
+      "en": "You must sign the  {blank}  before starting the job."
     },
     "questionType": "multiple_choice",
-    "testTypes": ["reading"],
+    "testTypes": ["reading", "listening"],
     "category": "Business",
     "langLevel": "B2",
     "status": "active",
@@ -3305,10 +3305,10 @@
     "questionId": 998,
     "providerId": "local",
     "questionText": {
-      "en": "Everyone should _______ to the group discussion."
+      "en": "Everyone should  {blank}  to the group discussion."
     },
     "questionType": "multiple_choice",
-    "testTypes": ["reading"],
+    "testTypes": ["reading", "listening"],
     "category": "Communication",
     "langLevel": "B2",
     "status": "active",
@@ -3331,10 +3331,10 @@
     "questionId": 999,
     "providerId": "local",
     "questionText": {
-      "en": "His _______ to the science field was recognized with an award."
+      "en": "His  {blank}  to the science field was recognized with an award."
     },
     "questionType": "multiple_choice",
-    "testTypes": ["reading"],
+    "testTypes": ["reading", "listening"],
     "category": "Science/General",
     "langLevel": "B2",
     "status": "active",
@@ -3357,10 +3357,10 @@
     "questionId": 1000,
     "providerId": "local",
     "questionText": {
-      "en": "The politician's speech was very _______; many people disagreed with it."
+      "en": "The politician's speech was very  {blank} ; many people disagreed with it."
     },
     "questionType": "multiple_choice",
-    "testTypes": ["reading"],
+    "testTypes": ["reading", "listening"],
     "category": "Politics",
     "langLevel": "B2",
     "status": "active",
@@ -3383,10 +3383,10 @@
     "questionId": 1001,
     "providerId": "local",
     "questionText": {
-      "en": "There was a huge _______ over the referee's decision."
+      "en": "There was a huge  {blank}  over the referee's decision."
     },
     "questionType": "multiple_choice",
-    "testTypes": ["reading"],
+    "testTypes": ["reading", "listening"],
     "category": "Sports/News",
     "langLevel": "B2",
     "status": "active",
@@ -3409,10 +3409,10 @@
     "questionId": 1002,
     "providerId": "local",
     "questionText": {
-      "en": "I like this store for its _______; it's right next to my house."
+      "en": "I like this store for its  {blank} ; it's right next to my house."
     },
     "questionType": "multiple_choice",
-    "testTypes": ["reading"],
+    "testTypes": ["reading", "listening"],
     "category": "General",
     "langLevel": "B2",
     "status": "active",
@@ -3435,10 +3435,10 @@
     "questionId": 1003,
     "providerId": "local",
     "questionText": {
-      "en": "We attended a comic book _______ last weekend."
+      "en": "We attended a comic book  {blank}  last weekend."
     },
     "questionType": "multiple_choice",
-    "testTypes": ["reading"],
+    "testTypes": ["reading", "listening"],
     "category": "Events",
     "langLevel": "B2",
     "status": "active",
@@ -3461,10 +3461,10 @@
     "questionId": 1004,
     "providerId": "local",
     "questionText": {
-      "en": "He prefers _______ medicine over alternative therapies."
+      "en": "He prefers  {blank}  medicine over alternative therapies."
     },
     "questionType": "multiple_choice",
-    "testTypes": ["reading"],
+    "testTypes": ["reading", "listening"],
     "category": "Health",
     "langLevel": "B2",
     "status": "active",
@@ -3487,10 +3487,10 @@
     "questionId": 1005,
     "providerId": "local",
     "questionText": {
-      "en": "They plan to _______ the old warehouse into apartments."
+      "en": "They plan to  {blank}  the old warehouse into apartments."
     },
     "questionType": "multiple_choice",
-    "testTypes": ["reading"],
+    "testTypes": ["reading", "listening"],
     "category": "Housing",
     "langLevel": "B2",
     "status": "active",
@@ -3513,10 +3513,10 @@
     "questionId": 1006,
     "providerId": "local",
     "questionText": {
-      "en": "I tried to _______ my feelings through the letter."
+      "en": "I tried to  {blank}  my feelings through the letter."
     },
     "questionType": "multiple_choice",
-    "testTypes": ["reading"],
+    "testTypes": ["reading", "listening"],
     "category": "Communication",
     "langLevel": "B2",
     "status": "active",
@@ -3539,10 +3539,10 @@
     "questionId": 1007,
     "providerId": "local",
     "questionText": {
-      "en": "I am _______ that he is telling the truth."
+      "en": "I am  {blank}  that he is telling the truth."
     },
     "questionType": "multiple_choice",
-    "testTypes": ["reading"],
+    "testTypes": ["reading", "listening"],
     "category": "General",
     "langLevel": "B2",
     "status": "active",
@@ -3565,10 +3565,10 @@
     "questionId": 1008,
     "providerId": "local",
     "questionText": {
-      "en": "His argument was very _______; everyone agreed with him."
+      "en": "His argument was very  {blank} ; everyone agreed with him."
     },
     "questionType": "multiple_choice",
-    "testTypes": ["reading"],
+    "testTypes": ["reading", "listening"],
     "category": "Communication",
     "langLevel": "B2",
     "status": "active",
@@ -3591,10 +3591,10 @@
     "questionId": 1009,
     "providerId": "local",
     "questionText": {
-      "en": "It is difficult to _______ with the stress of this job."
+      "en": "It is difficult to  {blank}  with the stress of this job."
     },
     "questionType": "multiple_choice",
-    "testTypes": ["reading"],
+    "testTypes": ["reading", "listening"],
     "category": "Workplace",
     "langLevel": "B2",
     "status": "active",
@@ -3617,10 +3617,10 @@
     "questionId": 1010,
     "providerId": "local",
     "questionText": {
-      "en": "Maths and Science are _______ subjects in this curriculum."
+      "en": "Maths and Science are  {blank}  subjects in this curriculum."
     },
     "questionType": "multiple_choice",
-    "testTypes": ["reading"],
+    "testTypes": ["reading", "listening"],
     "category": "Education",
     "langLevel": "B2",
     "status": "active",
@@ -3643,10 +3643,10 @@
     "questionId": 1011,
     "providerId": "local",
     "questionText": {
-      "en": "We attended a _______ event at the hotel."
+      "en": "We attended a  {blank}  event at the hotel."
     },
     "questionType": "multiple_choice",
-    "testTypes": ["reading"],
+    "testTypes": ["reading", "listening"],
     "category": "Business",
     "langLevel": "B2",
     "status": "active",
@@ -3669,10 +3669,10 @@
     "questionId": 1012,
     "providerId": "local",
     "questionText": {
-      "en": "A large company or group of companies authorized to act as a single entity is a _______."
+      "en": "A large company or group of companies authorized to act as a single entity is a  {blank} ."
     },
     "questionType": "multiple_choice",
-    "testTypes": ["vocabulary"],
+    "testTypes": ["reading", "listening"],
     "category": "Business",
     "langLevel": "B2",
     "status": "active",
@@ -3695,10 +3695,10 @@
     "questionId": 1013,
     "providerId": "local",
     "questionText": {
-      "en": "Wait for me in the _______ outside the classroom."
+      "en": "Wait for me in the  {blank}  outside the classroom."
     },
     "questionType": "multiple_choice",
-    "testTypes": ["reading"],
+    "testTypes": ["reading", "listening"],
     "category": "School/Building",
     "langLevel": "B2",
     "status": "active",
@@ -3721,10 +3721,10 @@
     "questionId": 1014,
     "providerId": "local",
     "questionText": {
-      "en": "The city _______ voted to build a new park."
+      "en": "The city  {blank}  voted to build a new park."
     },
     "questionType": "multiple_choice",
-    "testTypes": ["reading"],
+    "testTypes": ["reading", "listening"],
     "category": "Politics",
     "langLevel": "B2",
     "status": "active",
@@ -3747,10 +3747,10 @@
     "questionId": 1015,
     "providerId": "local",
     "questionText": {
-      "en": "Please pay for your items at the _______."
+      "en": "Please pay for your items at the  {blank} ."
     },
     "questionType": "multiple_choice",
-    "testTypes": ["reading"],
+    "testTypes": ["reading", "listening"],
     "category": "Shopping",
     "langLevel": "B2",
     "status": "active",
@@ -3773,10 +3773,10 @@
     "questionId": 1016,
     "providerId": "local",
     "questionText": {
-      "en": "He lives in Orange _______, California."
+      "en": "He lives in Orange  {blank} , California."
     },
     "questionType": "multiple_choice",
-    "testTypes": ["reading"],
+    "testTypes": ["reading", "listening"],
     "category": "Geography",
     "langLevel": "B2",
     "status": "active",
@@ -3799,10 +3799,10 @@
     "questionId": 1017,
     "providerId": "local",
     "questionText": {
-      "en": "It takes great _______ to stand up to a bully."
+      "en": "It takes great  {blank}  to stand up to a bully."
     },
     "questionType": "multiple_choice",
-    "testTypes": ["reading"],
+    "testTypes": ["reading", "listening"],
     "category": "Character",
     "langLevel": "B2",
     "status": "active",
@@ -3825,10 +3825,10 @@
     "questionId": 1018,
     "providerId": "local",
     "questionText": {
-      "en": "The news _______ of the event was extensive."
+      "en": "The news  {blank}  of the event was extensive."
     },
     "questionType": "multiple_choice",
-    "testTypes": ["reading"],
+    "testTypes": ["reading", "listening"],
     "category": "Media",
     "langLevel": "B2",
     "status": "active",
@@ -3851,10 +3851,10 @@
     "questionId": 1019,
     "providerId": "local",
     "questionText": {
-      "en": "There is a small _______ in the window glass."
+      "en": "There is a small  {blank}  in the window glass."
     },
     "questionType": "multiple_choice",
-    "testTypes": ["reading"],
+    "testTypes": ["reading", "listening"],
     "category": "General",
     "langLevel": "B2",
     "status": "active",
@@ -3877,10 +3877,10 @@
     "questionId": 1020,
     "providerId": "local",
     "questionText": {
-      "en": "I heard a loud _______ when the two cars hit each other."
+      "en": "I heard a loud  {blank}  when the two cars hit each other."
     },
     "questionType": "multiple_choice",
-    "testTypes": ["reading"],
+    "testTypes": ["reading", "listening"],
     "category": "General",
     "langLevel": "B2",
     "status": "active",
@@ -3903,10 +3903,10 @@
     "questionId": 1021,
     "providerId": "local",
     "questionText": {
-      "en": "The _______ of the internet changed the way we communicate forever."
+      "en": "The  {blank}  of the internet changed the way we communicate forever."
     },
     "questionType": "multiple_choice",
-    "testTypes": ["vocabulary"],
+    "testTypes": ["reading", "listening"],
     "category": "Technology",
     "langLevel": "B2",
     "status": "active",
@@ -3929,10 +3929,10 @@
     "questionId": 1022,
     "providerId": "local",
     "questionText": {
-      "en": "The job requires a high level of _______ to solve complex design problems."
+      "en": "The job requires a high level of  {blank}  to solve complex design problems."
     },
     "questionType": "multiple_choice",
-    "testTypes": ["reading"],
+    "testTypes": ["reading", "listening"],
     "category": "Workplace",
     "langLevel": "B2",
     "status": "active",
@@ -3955,10 +3955,10 @@
     "questionId": 1023,
     "providerId": "local",
     "questionText": {
-      "en": "The blue whale is the largest _______ on Earth."
+      "en": "The blue whale is the largest  {blank}  on Earth."
     },
     "questionType": "multiple_choice",
-    "testTypes": ["vocabulary"],
+    "testTypes": ["reading", "listening"],
     "category": "Nature",
     "langLevel": "B2",
     "status": "active",
@@ -3981,10 +3981,10 @@
     "questionId": 1024,
     "providerId": "local",
     "questionText": {
-      "en": "You should give _______ to the original author when you quote their work."
+      "en": "You should give  {blank}  to the original author when you quote their work."
     },
     "questionType": "multiple_choice",
-    "testTypes": ["reading"],
+    "testTypes": ["reading", "listening"],
     "category": "Academic",
     "langLevel": "B2",
     "status": "active",
@@ -4007,10 +4007,10 @@
     "questionId": 1025,
     "providerId": "local",
     "questionText": {
-      "en": "The ship's _______ worked hard to keep the passengers safe during the storm."
+      "en": "The ship's  {blank}  worked hard to keep the passengers safe during the storm."
     },
     "questionType": "multiple_choice",
-    "testTypes": ["reading"],
+    "testTypes": ["reading", "listening"],
     "category": "General",
     "langLevel": "B2",
     "status": "active",
@@ -4033,10 +4033,10 @@
     "questionId": 1026,
     "providerId": "local",
     "questionText": {
-      "en": "The government is meeting to discuss the current economic _______."
+      "en": "The government is meeting to discuss the current economic  {blank} ."
     },
     "questionType": "multiple_choice",
-    "testTypes": ["reading"],
+    "testTypes": ["reading", "listening"],
     "category": "Economics/Politics",
     "langLevel": "B2",
     "status": "active",
@@ -4059,10 +4059,10 @@
     "questionId": 1027,
     "providerId": "local",
     "questionText": {
-      "en": "What is the main _______ used to judge the success of this project?"
+      "en": "What is the main  {blank}  used to judge the success of this project?"
     },
     "questionType": "multiple_choice",
-    "testTypes": ["vocabulary"],
+    "testTypes": ["reading", "listening"],
     "category": "Academic/Work",
     "langLevel": "B2",
     "status": "active",
@@ -4085,10 +4085,10 @@
     "questionId": 1028,
     "providerId": "local",
     "questionText": {
-      "en": "The film _______ gave the new movie a very poor review."
+      "en": "The film  {blank}  gave the new movie a very poor review."
     },
     "questionType": "multiple_choice",
-    "testTypes": ["vocabulary"],
+    "testTypes": ["reading", "listening"],
     "category": "Entertainment",
     "langLevel": "B2",
     "status": "active",
@@ -4111,10 +4111,10 @@
     "questionId": 1029,
     "providerId": "local",
     "questionText": {
-      "en": "The patient is in _______ condition and needs immediate surgery."
+      "en": "The patient is in  {blank}  condition and needs immediate surgery."
     },
     "questionType": "multiple_choice",
-    "testTypes": ["reading"],
+    "testTypes": ["reading", "listening"],
     "category": "Health",
     "langLevel": "B2",
     "status": "active",
@@ -4137,10 +4137,10 @@
     "questionId": 1030,
     "providerId": "local",
     "questionText": {
-      "en": "Choose the adverb form: 'The business was _______ short of staff during the holidays.'"
+      "en": "Choose the adverb form: 'The business was  {blank}  short of staff during the holidays.'"
     },
     "questionType": "multiple_choice",
-    "testTypes": ["grammar"],
+    "testTypes": ["reading", "listening"],
     "category": "Workplace",
     "langLevel": "B2",
     "status": "active",
@@ -4163,10 +4163,10 @@
     "questionId": 1031,
     "providerId": "local",
     "questionText": {
-      "en": "She faced a lot of _______ for her decision to quit the team."
+      "en": "She faced a lot of  {blank}  for her decision to quit the team."
     },
     "questionType": "multiple_choice",
-    "testTypes": ["reading"],
+    "testTypes": ["reading", "listening"],
     "category": "Social",
     "langLevel": "B2",
     "status": "active",
@@ -4189,10 +4189,10 @@
     "questionId": 1032,
     "providerId": "local",
     "questionText": {
-      "en": "It is easy to _______ others, but hard to admit your own mistakes."
+      "en": "It is easy to  {blank}  others, but hard to admit your own mistakes."
     },
     "questionType": "multiple_choice",
-    "testTypes": ["reading"],
+    "testTypes": ["reading", "listening"],
     "category": "General",
     "langLevel": "B2",
     "status": "active",
@@ -4215,10 +4215,10 @@
     "questionId": 1033,
     "providerId": "local",
     "questionText": {
-      "en": "Rice is the main _______ grown in this region."
+      "en": "Rice is the main  {blank}  grown in this region."
     },
     "questionType": "multiple_choice",
-    "testTypes": ["vocabulary"],
+    "testTypes": ["reading", "listening"],
     "category": "Agriculture",
     "langLevel": "B2",
     "status": "active",
@@ -4241,10 +4241,10 @@
     "questionId": 1034,
     "providerId": "local",
     "questionText": {
-      "en": "It is _______ that we finish this work by tomorrow."
+      "en": "It is  {blank}  that we finish this work by tomorrow."
     },
     "questionType": "multiple_choice",
-    "testTypes": ["reading"],
+    "testTypes": ["reading", "listening"],
     "category": "General",
     "langLevel": "B2",
     "status": "active",
@@ -4267,10 +4267,10 @@
     "questionId": 1035,
     "providerId": "local",
     "questionText": {
-      "en": "They went on a luxury _______ around the Caribbean."
+      "en": "They went on a luxury  {blank}  around the Caribbean."
     },
     "questionType": "multiple_choice",
-    "testTypes": ["reading"],
+    "testTypes": ["reading", "listening"],
     "category": "Travel",
     "langLevel": "B2",
     "status": "active",
@@ -4293,10 +4293,10 @@
     "questionId": 1036,
     "providerId": "local",
     "questionText": {
-      "en": "She was so happy that she started to _______ with joy."
+      "en": "She was so happy that she started to  {blank}  with joy."
     },
     "questionType": "multiple_choice",
-    "testTypes": ["reading"],
+    "testTypes": ["reading", "listening"],
     "category": "Emotions",
     "langLevel": "B2",
     "status": "active",
@@ -4319,10 +4319,10 @@
     "questionId": 1037,
     "providerId": "local",
     "questionText": {
-      "en": "The actor missed his _______ and entered the stage late."
+      "en": "The actor missed his  {blank}  and entered the stage late."
     },
     "questionType": "multiple_choice",
-    "testTypes": ["vocabulary"],
+    "testTypes": ["reading", "listening"],
     "category": "Entertainment",
     "langLevel": "B2",
     "status": "active",
@@ -4345,10 +4345,10 @@
     "questionId": 1038,
     "providerId": "local",
     "questionText": {
-      "en": "Doctors are still searching for a _______ for the common cold."
+      "en": "Doctors are still searching for a  {blank}  for the common cold."
     },
     "questionType": "multiple_choice",
-    "testTypes": ["reading"],
+    "testTypes": ["reading", "listening"],
     "category": "Health",
     "langLevel": "B2",
     "status": "active",
@@ -4371,10 +4371,10 @@
     "questionId": 1039,
     "providerId": "local",
     "questionText": {
-      "en": "Children are naturally _______ and love to ask 'why'."
+      "en": "Children are naturally  {blank}  and love to ask 'why'."
     },
     "questionType": "multiple_choice",
-    "testTypes": ["reading"],
+    "testTypes": ["reading", "listening"],
     "category": "Personality",
     "langLevel": "B2",
     "status": "active",
@@ -4397,10 +4397,10 @@
     "questionId": 1040,
     "providerId": "local",
     "questionText": {
-      "en": "Do you know the _______ exchange rate for the dollar?"
+      "en": "Do you know the  {blank}  exchange rate for the dollar?"
     },
     "questionType": "multiple_choice",
-    "testTypes": ["reading"],
+    "testTypes": ["reading", "listening"],
     "category": "Finance",
     "langLevel": "B2",
     "status": "active",
@@ -4423,10 +4423,10 @@
     "questionId": 1041,
     "providerId": "local",
     "questionText": {
-      "en": "The school is updating its _______ to include more technology courses."
+      "en": "The school is updating its  {blank}  to include more technology courses."
     },
     "questionType": "multiple_choice",
-    "testTypes": ["vocabulary"],
+    "testTypes": ["reading", "listening"],
     "category": "Education",
     "langLevel": "B2",
     "status": "active",
@@ -4449,10 +4449,10 @@
     "questionId": 1042,
     "providerId": "local",
     "questionText": {
-      "en": "The road has a sharp _______ that can be dangerous at night."
+      "en": "The road has a sharp  {blank}  that can be dangerous at night."
     },
     "questionType": "multiple_choice",
-    "testTypes": ["vocabulary"],
+    "testTypes": ["reading", "listening"],
     "category": "General",
     "langLevel": "B2",
     "status": "active",
@@ -4475,10 +4475,10 @@
     "questionId": 1043,
     "providerId": "local",
     "questionText": {
-      "en": "The architect designed a building with _______ walls."
+      "en": "The architect designed a building with  {blank}  walls."
     },
     "questionType": "multiple_choice",
-    "testTypes": ["reading"],
+    "testTypes": ["reading", "listening"],
     "category": "General",
     "langLevel": "B2",
     "status": "active",
@@ -4501,10 +4501,10 @@
     "questionId": 1044,
     "providerId": "local",
     "questionText": {
-      "en": "That puppy is so _______! Can we keep it?"
+      "en": "That puppy is so  {blank} ! Can we keep it?"
     },
     "questionType": "multiple_choice",
-    "testTypes": ["reading"],
+    "testTypes": ["reading", "listening"],
     "category": "General",
     "langLevel": "B2",
     "status": "active",
@@ -4527,10 +4527,10 @@
     "questionId": 1045,
     "providerId": "local",
     "questionText": {
-      "en": "Milk, cheese, and butter are all _______ products."
+      "en": "Milk, cheese, and butter are all  {blank}  products."
     },
     "questionType": "multiple_choice",
-    "testTypes": ["vocabulary"],
+    "testTypes": ["reading", "listening"],
     "category": "Food",
     "langLevel": "B2",
     "status": "active",
@@ -4553,10 +4553,10 @@
     "questionId": 1046,
     "providerId": "local",
     "questionText": {
-      "en": "I _______ you to jump into the cold water!"
+      "en": "I  {blank}  you to jump into the cold water!"
     },
     "questionType": "multiple_choice",
-    "testTypes": ["reading"],
+    "testTypes": ["reading", "listening"],
     "category": "General",
     "langLevel": "B2",
     "status": "active",
@@ -4579,10 +4579,10 @@
     "questionId": 1047,
     "providerId": "local",
     "questionText": {
-      "en": "The forest was filled with _______ as the sun went down."
+      "en": "The forest was filled with  {blank}  as the sun went down."
     },
     "questionType": "multiple_choice",
-    "testTypes": ["reading"],
+    "testTypes": ["reading", "listening"],
     "category": "Nature",
     "langLevel": "B2",
     "status": "active",
@@ -4605,10 +4605,10 @@
     "questionId": 1048,
     "providerId": "local",
     "questionText": {
-      "en": "The company maintains a large _______ of customer information."
+      "en": "The company maintains a large  {blank}  of customer information."
     },
     "questionType": "multiple_choice",
-    "testTypes": ["vocabulary"],
+    "testTypes": ["reading", "listening"],
     "category": "Technology",
     "langLevel": "B2",
     "status": "active",
@@ -4631,10 +4631,10 @@
     "questionId": 1049,
     "providerId": "local",
     "questionText": {
-      "en": "What _______ is it today? Is it the 5th or the 6th?"
+      "en": "What  {blank}  is it today? Is it the 5th or the 6th?"
     },
     "questionType": "multiple_choice",
-    "testTypes": ["vocabulary"],
+    "testTypes": ["reading", "listening"],
     "category": "General",
     "langLevel": "B2",
     "status": "active",
@@ -4657,10 +4657,10 @@
     "questionId": 1050,
     "providerId": "local",
     "questionText": {
-      "en": "The _______ for the essay is Friday at noon."
+      "en": "The  {blank}  for the essay is Friday at noon."
     },
     "questionType": "multiple_choice",
-    "testTypes": ["reading"],
+    "testTypes": ["reading", "listening"],
     "category": "Education",
     "langLevel": "B2",
     "status": "active",
@@ -4683,10 +4683,10 @@
     "questionId": 1051,
     "providerId": "local",
     "questionText": {
-      "en": "Some types of mushrooms are _______ if eaten."
+      "en": "Some types of mushrooms are  {blank}  if eaten."
     },
     "questionType": "multiple_choice",
-    "testTypes": ["reading"],
+    "testTypes": ["reading", "listening"],
     "category": "Nature",
     "langLevel": "B2",
     "status": "active",
@@ -4709,10 +4709,10 @@
     "questionId": 1052,
     "providerId": "local",
     "questionText": {
-      "en": "He bought his new car from a local _______."
+      "en": "He bought his new car from a local  {blank} ."
     },
     "questionType": "multiple_choice",
-    "testTypes": ["vocabulary"],
+    "testTypes": ["reading", "listening"],
     "category": "Business",
     "langLevel": "B2",
     "status": "active",
@@ -4735,10 +4735,10 @@
     "questionId": 1053,
     "providerId": "local",
     "questionText": {
-      "en": "The two politicians had a heated _______ about tax laws."
+      "en": "The two politicians had a heated  {blank}  about tax laws."
     },
     "questionType": "multiple_choice",
-    "testTypes": ["reading"],
+    "testTypes": ["reading", "listening"],
     "category": "Politics",
     "langLevel": "B2",
     "status": "active",
@@ -4761,10 +4761,10 @@
     "questionId": 1054,
     "providerId": "local",
     "questionText": {
-      "en": "It took him three years to pay off all his _______."
+      "en": "It took him three years to pay off all his  {blank} ."
     },
     "questionType": "multiple_choice",
-    "testTypes": ["reading"],
+    "testTypes": ["reading", "listening"],
     "category": "Finance",
     "langLevel": "B2",
     "status": "active",
@@ -4787,10 +4787,10 @@
     "questionId": 1055,
     "providerId": "local",
     "questionText": {
-      "en": "Finding a _______ place to live at an affordable price is difficult here."
+      "en": "Finding a  {blank}  place to live at an affordable price is difficult here."
     },
     "questionType": "multiple_choice",
-    "testTypes": ["reading"],
+    "testTypes": ["reading", "listening"],
     "category": "Housing",
     "langLevel": "B2",
     "status": "active",
@@ -4813,10 +4813,10 @@
     "questionId": 1056,
     "providerId": "local",
     "questionText": {
-      "en": "The passengers stood on the _______ of the ship to watch the sunset."
+      "en": "The passengers stood on the  {blank}  of the ship to watch the sunset."
     },
     "questionType": "multiple_choice",
-    "testTypes": ["vocabulary"],
+    "testTypes": ["reading", "listening"],
     "category": "Travel",
     "langLevel": "B2",
     "status": "active",
@@ -4839,10 +4839,10 @@
     "questionId": 1057,
     "providerId": "local",
     "questionText": {
-      "en": "The country is expected to _______ war next week."
+      "en": "The country is expected to  {blank}  war next week."
     },
     "questionType": "multiple_choice",
-    "testTypes": ["reading"],
+    "testTypes": ["reading", "listening"],
     "category": "Politics",
     "langLevel": "B2",
     "status": "active",
@@ -4865,10 +4865,10 @@
     "questionId": 1058,
     "providerId": "local",
     "questionText": {
-      "en": "Sales of newspapers have started to _______ as more people read news online."
+      "en": "Sales of newspapers have started to  {blank}  as more people read news online."
     },
     "questionType": "multiple_choice",
-    "testTypes": ["reading"],
+    "testTypes": ["reading", "listening"],
     "category": "Business",
     "langLevel": "B2",
     "status": "active",
@@ -4891,10 +4891,10 @@
     "questionId": 1059,
     "providerId": "local",
     "questionText": {
-      "en": "The Christmas _______ were taken down in early January."
+      "en": "The Christmas  {blank}  were taken down in early January."
     },
     "questionType": "multiple_choice",
-    "testTypes": ["reading"],
+    "testTypes": ["reading", "listening"],
     "category": "General",
     "langLevel": "B2",
     "status": "active",
@@ -4917,10 +4917,10 @@
     "questionId": 1060,
     "providerId": "local",
     "questionText": {
-      "en": "The company had to _______ prices to attract more customers."
+      "en": "The company had to  {blank}  prices to attract more customers."
     },
     "questionType": "multiple_choice",
-    "testTypes": ["reading"],
+    "testTypes": ["reading", "listening"],
     "category": "Business",
     "langLevel": "B2",
     "status": "active",
@@ -4943,10 +4943,10 @@
     "questionId": 1061,
     "providerId": "local",
     "questionText": {
-      "en": "She was _______ affected by the loss of her dog."
+      "en": "She was  {blank}  affected by the loss of her dog."
     },
     "questionType": "multiple_choice",
-    "testTypes": ["reading"],
+    "testTypes": ["reading", "listening"],
     "category": "Emotions",
     "langLevel": "B2",
     "status": "active",
@@ -4969,10 +4969,10 @@
     "questionId": 1062,
     "providerId": "local",
     "questionText": {
-      "en": "The army suffered a major _______ in the battle."
+      "en": "The army suffered a major  {blank}  in the battle."
     },
     "questionType": "multiple_choice",
-    "testTypes": ["vocabulary"],
+    "testTypes": ["reading", "listening"],
     "category": "History/General",
     "langLevel": "B2",
     "status": "active",
@@ -4995,10 +4995,10 @@
     "questionId": 1063,
     "providerId": "local",
     "questionText": {
-      "en": "The castle was built as a _______ against invaders."
+      "en": "The castle was built as a  {blank}  against invaders."
     },
     "questionType": "multiple_choice",
-    "testTypes": ["vocabulary"],
+    "testTypes": ["reading", "listening"],
     "category": "History",
     "langLevel": "B2",
     "status": "active",
@@ -5021,10 +5021,10 @@
     "questionId": 1064,
     "providerId": "local",
     "questionText": {
-      "en": "He had to hire a lawyer to _______ him in court."
+      "en": "He had to hire a lawyer to  {blank}  him in court."
     },
     "questionType": "multiple_choice",
-    "testTypes": ["reading"],
+    "testTypes": ["reading", "listening"],
     "category": "Law",
     "langLevel": "B2",
     "status": "active",
@@ -5047,10 +5047,10 @@
     "questionId": 1065,
     "providerId": "local",
     "questionText": {
-      "en": "The team's best _______ was injured in the first half of the game."
+      "en": "The team's best  {blank}  was injured in the first half of the game."
     },
     "questionType": "multiple_choice",
-    "testTypes": ["vocabulary"],
+    "testTypes": ["reading", "listening"],
     "category": "Sports",
     "langLevel": "B2",
     "status": "active",
@@ -5073,10 +5073,10 @@
     "questionId": 1066,
     "providerId": "local",
     "questionText": {
-      "en": "There will be a short _______ while we wait for the results."
+      "en": "There will be a short  {blank}  while we wait for the results."
     },
     "questionType": "multiple_choice",
-    "testTypes": ["reading"],
+    "testTypes": ["reading", "listening"],
     "category": "General",
     "langLevel": "B2",
     "status": "active",
@@ -5099,10 +5099,10 @@
     "questionId": 1067,
     "providerId": "local",
     "questionText": {
-      "en": "If you make a mistake, you can _______ the file and start again."
+      "en": "If you make a mistake, you can  {blank}  the file and start again."
     },
     "questionType": "multiple_choice",
-    "testTypes": ["vocabulary"],
+    "testTypes": ["reading", "listening"],
     "category": "Technology",
     "langLevel": "B2",
     "status": "active",
@@ -5125,10 +5125,10 @@
     "questionId": 1068,
     "providerId": "local",
     "questionText": {
-      "en": "She was very _______ in her choice of words during the interview."
+      "en": "She was very  {blank}  in her choice of words during the interview."
     },
     "questionType": "multiple_choice",
-    "testTypes": ["reading"],
+    "testTypes": ["reading", "listening"],
     "category": "Communication",
     "langLevel": "B2",
     "status": "active",
@@ -5151,10 +5151,10 @@
     "questionId": 1069,
     "providerId": "local",
     "questionText": {
-      "en": "The child _______ broke the vase to get attention."
+      "en": "The child  {blank}  broke the vase to get attention."
     },
     "questionType": "multiple_choice",
-    "testTypes": ["reading"],
+    "testTypes": ["reading", "listening"],
     "category": "General",
     "langLevel": "B2",
     "status": "active",
@@ -5177,10 +5177,10 @@
     "questionId": 1070,
     "providerId": "local",
     "questionText": {
-      "en": "The news brought great _______ to the whole family."
+      "en": "The news brought great  {blank}  to the whole family."
     },
     "questionType": "multiple_choice",
-    "testTypes": ["reading"],
+    "testTypes": ["reading", "listening"],
     "category": "Emotions",
     "langLevel": "B2",
     "status": "active",
