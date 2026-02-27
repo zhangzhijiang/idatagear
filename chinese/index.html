@@ -67,20 +67,11 @@
   <link rel="manifest" href="manifest.json">
 </head>
 <body>
-  <section style="padding: 0.85rem 1.25rem; border-bottom: 1px solid #e5e7eb; background: #f9fafb; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 0.95rem;">
-    <div style="max-width: 960px; margin: 0 auto; display: flex; align-items: center; gap: 0.85rem; flex-wrap: wrap;">
-      <img src="icons/Icon-192.png" alt="Learn Chinese app icon" width="48" height="48" style="border-radius: 12px;">
-      <div style="flex: 1 1 240px;">
-        <strong>Prefer Android?</strong><br>
-        Learn Chinese is also available as a free Android app on Google Play for the best mobile experience.
-        <div style="margin-top: 0.4rem;">
-          <a href="https://play.google.com/store/apps/details?id=com.idatagear.learn_chinese" target="_blank" rel="noopener">
-            <img src="../assets/img/google-play-badge.svg" alt="Get Learn Chinese on Google Play" width="155" height="60">
-          </a>
-        </div>
-      </div>
-    </div>
-  </section>
+  <div style="position: fixed; top: 8px; right: 8px; z-index: 9999;">
+    <a href="https://play.google.com/store/apps/details?id=com.idatagear.learn_chinese" target="_blank" rel="noopener">
+      <img src="../assets/img/google-play-badge.svg" alt="Get Learn Chinese on Google Play" style="height: 32px; width: auto;">
+    </a>
+  </div>
   <script>
     // Error handler to catch initialization errors
     window.addEventListener('error', function(e) {
