@@ -101416,7 +101416,7 @@ r=q.charCodeAt(s)-63
 n|=B.e.AJ(r&31,m)
 m+=5}while(r>=32)
 q=n>>>1
-return(n&1)!==0?~q>>>0:q},
+return(n&1)!==0?-q-1:q},
 $S:78}
 A.XH.prototype={
 M(){return"RouteShape."+this.b}}
