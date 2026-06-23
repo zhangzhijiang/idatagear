@@ -16,11 +16,14 @@
       // Remove leading/trailing slashes for cleaner matching
       path = path.replace(/^\/+|\/+$/g, '');
       
-      // Check which app the path belongs to
-      if (path.startsWith('learnchinese')) {
-        window.location.replace('/learnchinese/index.html' + search + hash);
-      } else if (path.startsWith('learncantonese')) {
-        window.location.replace('/learncantonese/index.html' + search + hash);
+      // Check which app the path belongs to.
+      // Legacy learn* paths are redirected to the new short URLs (migration).
+      if (path.startsWith('chinese') || path.startsWith('learnchinese')) {
+        window.location.replace('/chinese/index.html' + search + hash);
+      } else if (path.startsWith('cantonese') || path.startsWith('learncantonese')) {
+        window.location.replace('/cantonese/index.html' + search + hash);
+      } else if (path.startsWith('english') || path.startsWith('learnenglish')) {
+        window.location.replace('/english/index.html' + search + hash);
       } else if (path.startsWith('gcd')) {
         window.location.replace('/gcd/index.html' + search + hash);
       } else if (path.startsWith('testlearnchinese')) {

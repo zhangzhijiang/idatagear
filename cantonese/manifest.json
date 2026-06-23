@@ -1,7 +1,7 @@
 {
     "name": "Learn Cantonese",
     "short_name": "Learn Cantonese",
-    "start_url": "/learncantonese/",
+    "start_url": "/cantonese/",
     "display": "standalone",
     "background_color": "#5C7CFA",
     "theme_color": "#5C7CFA",
