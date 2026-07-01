@@ -1,0 +1,35 @@
+{
+    "name": "Eyeball It!",
+    "short_name": "Eyeball It!",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#0E0F1A",
+    "theme_color": "#0E0F1A",
+    "description": "A minimalist visual estimation puzzle game — estimate length, volume, colour and time.",
+    "orientation": "portrait-primary",
+    "prefer_related_applications": false,
+    "icons": [
+        {
+            "src": "icons/Icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/Icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/Icon-maskable-192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "maskable"
+        },
+        {
+            "src": "icons/Icon-maskable-512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable"
+        }
+    ]
+}

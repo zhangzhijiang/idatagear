@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!--
+    Base path the app is served from. Replaced at build time by the
+    `--base-href` argument passed to `flutter build web`.
+    For this deployment build with:  flutter build web --base-href /eyeballit/
+  -->
+  <base href="$FLUTTER_BASE_HREF">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="description"
+        content="Eyeball It! — a minimalist visual estimation puzzle game. Trust your eyes to estimate length, volume, colour and time. No rulers allowed.">
+
+  <!-- Google AdSense: account verification + ad library loader -->
+  <meta name="google-adsense-account" content="ca-pub-8396981938969998">
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8396981938969998"
+          crossorigin="anonymous"></script>
+
+  <!-- iOS meta tags & icons -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="Eyeball It!">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <title>Eyeball It! — Visual Estimation Puzzles</title>
+  <link rel="manifest" href="manifest.json">
+
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      background-color: #0E0F1A; /* matches the game's dark background */
+      overflow: hidden;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    }
+
+    /* Whole viewport = game row on top, thin footer link at the bottom. */
+    body {
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* 3-column shell: left ad rail | game | right ad rail */
+    .page {
+      display: flex;
+      flex-direction: row;
+      align-items: stretch;
+      justify-content: center;
+      flex: 1 1 auto;
+      min-height: 0;
+      width: 100%;
+    }
+
+    /* Thin footer with the required privacy/terms link (visible on all sizes). */
+    .site-footer {
+      flex: 0 0 auto;
+      height: 26px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #0E0F1A;
+      font-size: 12px;
+    }
+    .site-footer a { color: #6E7390; text-decoration: none; }
+    .site-footer a:hover { color: #B4B8D0; text-decoration: underline; }
+
+    .ad-rail {
+      flex: 0 0 auto;
+      width: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      padding: 0 8px;
+      box-sizing: border-box;
+    }
+
+    /* Responsive AdSense units fill the width of their rail. */
+    .ad-rail .adsbygoogle {
+      display: block;
+      width: 100%;
+    }
+
+    /* The game renders into this element. It is capped to a portrait-friendly
+       width and centered; the leftover horizontal space becomes the ad rails. */
+    #game-host {
+      flex: 1 1 auto;
+      max-width: 480px;
+      height: 100%;
+      position: relative;
+      background-color: #0E0F1A;
+    }
+
+    /* On narrow / mobile viewports there is no room for side ads: hide the rails
+       and let the game use the full width. */
+    @media (max-width: 1000px) {
+      .ad-rail { display: none; }
+      #game-host { max-width: none; }
+    }
+
+    /* Simple loading indicator shown until the Flutter engine paints. */
+    #loading {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #B4B8D0;
+      font-size: 14px;
+      letter-spacing: 0.05em;
+      pointer-events: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <!-- LEFT ad rail -->
+    <aside class="ad-rail">
+      <!-- eyeballit_LEFT -->
+      <ins class="adsbygoogle"
+           style="display:block"
+           data-ad-client="ca-pub-8396981938969998"
+           data-ad-slot="6518043554"
+           data-ad-format="auto"
+           data-full-width-responsive="true"></ins>
+      <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+    </aside>
+
+    <!-- GAME -->
+    <main id="game-host">
+      <div id="loading">Loading Eyeball It!…</div>
+    </main>
+
+    <!-- RIGHT ad rail -->
+    <aside class="ad-rail">
+      <!-- eyeballit_RIGHT -->
+      <ins class="adsbygoogle"
+           style="display:block"
+           data-ad-client="ca-pub-8396981938969998"
+           data-ad-slot="4106703873"
+           data-ad-format="auto"
+           data-full-width-responsive="true"></ins>
+      <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+    </aside>
+  </div>
+
+  <footer class="site-footer">
+    <a href="privacy_eyeballit.html">Privacy Policy &amp; Terms</a>
+  </footer>
+
+  <script src="flutter_bootstrap.js" async></script>
+</body>
+</html>
