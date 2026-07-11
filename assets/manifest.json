@@ -4,8 +4,8 @@
   "description": "iDataGear Inc: McLearn language learning products and Business Intelligence solutions",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#020713",
-  "theme_color": "#7c5dff",
+  "background_color": "#071512",
+  "theme_color": "#071512",
   "orientation": "any",
   "icons": [
     {

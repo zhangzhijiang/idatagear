@@ -1,12 +1,12 @@
 # iDataGear · McLearn®
 
-> iDataGear (Intelligence Data Gear) builds McLearn® language learning products and Business Intelligence solutions. Our mission: help people master languages—English, Mandarin Chinese, Cantonese—and help enterprises turn data into actionable intelligence. McLearn® apps are used by learners worldwide on web and Android.
+> iDataGear (Intelligence Data Gear) builds McLearn® language learning products, games, offline-first life-logging utilities, and Business Intelligence solutions. Our mission: help people master languages—English, Mandarin Chinese, Cantonese—and help enterprises turn data into actionable intelligence. McLearn® apps are used by learners worldwide on web and Android.
 
 ---
 
-## Learn English
+## ALL English (All Level Learner's English)
 
-Learn English with CEFR-aligned content from A1 to C2. Interactive vocabulary, IPA pronunciation, speech recognition, and reading comprehension. Web and Android.
+ALL English — All Level Learner's English. CEFR-aligned content from A1 to C2: vocabulary with IPA, sentences, articles, interactive practice tests, and pronunciation practice. Web and Android.
 
 - Web app: https://www.idatagear.com/english/
 - Google Play: https://play.google.com/store/apps/details?id=com.idatagear.learn_english
@@ -54,6 +54,34 @@ Master Chinese characters with interactive stroke order practice. HSK-aligned; p
 Practice job interviews with AI-powered mock interviews and instant feedback. Web app.
 
 - Web app: https://www.idatagear.com/interview/
+
+---
+
+## Eyeball It!
+
+Casual visual-estimation puzzle game with three modes: Length & Shapes (drag to match a shape's perimeter), Liquid Volume (pour into a flask to hit a target volume), and Color Volume (mix CMY colors to match a swatch). Web and Android.
+
+- Web app: https://www.idatagear.com/eyeballit/
+- Google Play: https://play.google.com/store/apps/details?id=com.idatagear.eyeballit
+
+---
+
+## Momera.ME
+
+Local-first, private moments journal. Capture life by voice (on-device speech-to-text), text, and photo with ML text recognition — fully offline, nothing leaves your device. Android.
+
+- Google Play: https://play.google.com/store/apps/details?id=com.idatagear.momera
+- Privacy: https://www.idatagear.com/privacy-policy-momera-me.html
+
+---
+
+## Momera.Hiking
+
+Offline-first GPS hike tracker: route recording and replay export, geo-tagged photo/video/voice waypoints, offline OpenStreetMap maps, and a hike calendar with history. Web and Android.
+
+- Web app: https://www.idatagear.com/hiking/
+- Google Play: https://play.google.com/store/apps/details?id=com.idatagear.momera.hiking
+- Privacy: https://www.idatagear.com/privacy-policy-momera-hiking.html
 
 ---
 

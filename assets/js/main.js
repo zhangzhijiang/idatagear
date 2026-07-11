@@ -4,6 +4,32 @@
   const navToggle = document.querySelector('.nav-toggle');
   const header = document.querySelector('.site-header');
 
+  // --- Theme toggle (dark / 只此青绿 light) ---
+  const rootEl = document.documentElement;
+  const themeToggle = document.querySelector('.theme-toggle');
+  const themeMetas = document.querySelectorAll('meta[name="theme-color"]');
+
+  const applyTheme = (theme, persist) => {
+    rootEl.setAttribute('data-theme', theme);
+    themeMetas.forEach((m) => m.setAttribute('content', theme === 'light' ? '#f7f3ea' : '#071512'));
+    themeToggle?.setAttribute('aria-label', `Switch to ${theme === 'light' ? 'dark' : 'light'} theme`);
+    if (persist) {
+      try { localStorage.setItem('theme', theme); } catch (e) { /* private mode */ }
+    }
+  };
+
+  applyTheme(rootEl.getAttribute('data-theme') || 'dark', false);
+
+  themeToggle?.addEventListener('click', () => {
+    applyTheme(rootEl.getAttribute('data-theme') === 'light' ? 'dark' : 'light', true);
+  });
+
+  window.matchMedia('(prefers-color-scheme: light)').addEventListener('change', (event) => {
+    let stored = null;
+    try { stored = localStorage.getItem('theme'); } catch (e) { /* private mode */ }
+    if (!stored) applyTheme(event.matches ? 'light' : 'dark', false);
+  });
+
   const closeNav = () => {
     nav?.classList.remove('open');
     navToggle?.setAttribute('aria-expanded', 'false');

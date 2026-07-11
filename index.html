@@ -8,13 +8,16 @@
     <meta name="google-site-verification" content="91Ve1ym-i8a-a69blUWElesQzQcZUrofodDK5tfIr10" />
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta name="theme-color" content="#071512" media="(prefers-color-scheme: dark)">
+    <meta name="theme-color" content="#f7f3ea" media="(prefers-color-scheme: light)">
+    <meta name="color-scheme" content="dark light">
 
     <!-- Primary SEO -->
     <title>iDataGear | Learn Chinese, Cantonese &amp; English — McLearn® Apps + BI Solutions</title>
     <meta name="description"
       content="iDataGear Inc builds free McLearn® language apps — Learn Mandarin Chinese (HSK 1–3), Cantonese (Jyutping), and English (CEFR A1–C2) on web and Android. Also AI-powered interview prep (Open Interview), Great Cantonese Dictionary, and Business Intelligence services: ETL pipelines, BI dashboards, and custom software.">
     <meta name="keywords"
-      content="learn Chinese app, learn Cantonese app, learn English app, HSK preparation, HSK vocabulary app, Cantonese dictionary, CEFR English, Chinese stroke order, Xie Zi, McLearn, iDataGear, business intelligence, BI solutions, ETL pipeline, analytics dashboard, custom software, AI interview practice, mock interview AI, interview preparation, Open Interview, Great Cantonese Dictionary, Mandarin learning, Jyutping romanization, Cantonese Jyutping, language learning Android, free Chinese learning app, learn Chinese for free, learn Cantonese online, learn English CEFR online, HanziWriter Chinese characters, iDataGear Toronto, iDataGear Hong Kong, Chinese stroke order practice, data analytics consulting, workflow automation">
+      content="learn Chinese app, learn Cantonese app, learn English app, ALL English app, All Level Learner's English, English practice tests, Eyeball It game, visual estimation game, Momera journal, private offline journal app, GPS hike tracker, offline hiking maps, HSK preparation, HSK vocabulary app, Cantonese dictionary, CEFR English, Chinese stroke order, Xie Zi, McLearn, iDataGear, business intelligence, BI solutions, ETL pipeline, analytics dashboard, custom software, AI interview practice, mock interview AI, interview preparation, Open Interview, Great Cantonese Dictionary, Mandarin learning, Jyutping romanization, Cantonese Jyutping, language learning Android, free Chinese learning app, learn Chinese for free, learn Cantonese online, learn English CEFR online, HanziWriter Chinese characters, iDataGear Toronto, iDataGear Hong Kong, Chinese stroke order practice, data analytics consulting, workflow automation">
 
     <!-- Canonical -->
     <link rel="canonical" href="https://www.idatagear.com/">
@@ -47,6 +50,17 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <!-- Set theme before first paint to avoid a flash of the wrong theme -->
+    <script>
+    (function () {
+      var t = null;
+      try { t = localStorage.getItem('theme'); } catch (e) {}
+      if (t !== 'light' && t !== 'dark') {
+        t = (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches) ? 'light' : 'dark';
+      }
+      document.documentElement.setAttribute('data-theme', t);
+    })();
+    </script>
     <link rel="stylesheet" href="assets/css/style.css">
 
     <!-- Schema: Organization -->
@@ -58,7 +72,7 @@
       "alternateName": ["iDataGear", "McLearn", "Intelligence Data Gear"],
       "url": "https://www.idatagear.com",
       "logo": "https://www.idatagear.com/assets/img/favicon-512x512.png",
-      "description": "iDataGear Inc (Intelligence Data Gear) builds McLearn® language learning apps — Learn Chinese (HSK 1–3), Learn Cantonese (Jyutping), Learn English (CEFR A1–C2), Xie Zi stroke order, Great Cantonese Dictionary, and Open Interview AI — plus Business Intelligence solutions including ETL pipelines, analytics dashboards, and custom software.",
+      "description": "iDataGear Inc (Intelligence Data Gear) builds McLearn® language learning apps — Learn Chinese (HSK 1–3), Learn Cantonese (Jyutping), ALL English (CEFR A1–C2), Xie Zi stroke order, Great Cantonese Dictionary, and Open Interview AI — plus games like Eyeball It!, offline-first utilities Momera.ME and Momera.Hiking, and Business Intelligence solutions including ETL pipelines, analytics dashboards, and custom software.",
       "foundingDate": "2015",
       "areaServed": ["Worldwide", "Hong Kong", "Canada", "United States", "Australia"],
       "knowsAbout": [
@@ -74,7 +88,11 @@
         "Analytics dashboards",
         "Mobile app development",
         "AI-powered interview preparation",
-        "Workflow automation"
+        "Workflow automation",
+        "Casual puzzle games",
+        "Offline-first mobile apps",
+        "GPS tracking and offline maps",
+        "Private on-device journaling"
       ],
       "contactPoint": {
         "@type": "ContactPoint",
@@ -136,10 +154,11 @@
           "@type": "ListItem", "position": 3,
           "item": {
             "@type": "SoftwareApplication",
-            "name": "Learn English by McLearn",
+            "name": "ALL English by McLearn",
+            "alternateName": ["All Level Learner's English", "Learn English by McLearn"],
             "applicationCategory": "EducationApplication",
             "operatingSystem": "Android, Web",
-            "description": "English learning app with CEFR A1–C2 content, IPA pronunciation, speech recognition, and reading comprehension.",
+            "description": "All-level English learning app (All Level Learner's English) with CEFR A1–C2 vocabulary with IPA, sentences, articles, practice tests, and pronunciation practice.",
             "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
             "downloadUrl": "https://play.google.com/store/apps/details?id=com.idatagear.learn_english",
             "url": "https://www.idatagear.com/english/"
@@ -208,6 +227,44 @@
             "downloadUrl": "https://play.google.com/store/apps/details?id=com.idatagear.siding",
             "url": "https://www.idatagear.com/siding/"
           }
+        },
+        {
+          "@type": "ListItem", "position": 9,
+          "item": {
+            "@type": "SoftwareApplication",
+            "name": "Eyeball It! by iDataGear",
+            "applicationCategory": "GameApplication",
+            "operatingSystem": "Android, Web",
+            "description": "Casual visual-estimation puzzle game with three modes: Length & Shapes (match the perimeter), Liquid Volume (pour to a target), and Color Volume (CMY color mixing).",
+            "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+            "downloadUrl": "https://play.google.com/store/apps/details?id=com.idatagear.eyeballit",
+            "url": "https://www.idatagear.com/eyeballit/"
+          }
+        },
+        {
+          "@type": "ListItem", "position": 10,
+          "item": {
+            "@type": "SoftwareApplication",
+            "name": "Momera.ME by iDataGear",
+            "applicationCategory": "LifestyleApplication",
+            "operatingSystem": "Android",
+            "description": "Local-first private moments journal: capture life by voice with on-device speech-to-text, text, and photos with ML text recognition. Fully offline and private.",
+            "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+            "downloadUrl": "https://play.google.com/store/apps/details?id=com.idatagear.momera"
+          }
+        },
+        {
+          "@type": "ListItem", "position": 11,
+          "item": {
+            "@type": "SoftwareApplication",
+            "name": "Momera.Hiking by iDataGear",
+            "applicationCategory": "TravelApplication",
+            "operatingSystem": "Android, Web",
+            "description": "Offline-first GPS hike tracker: route recording and replay export, geo-tagged photo, video, and voice waypoints, offline OSM maps, and a hike calendar with history.",
+            "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+            "downloadUrl": "https://play.google.com/store/apps/details?id=com.idatagear.momera.hiking",
+            "url": "https://www.idatagear.com/hiking/"
+          }
         }
       ]
     }
@@ -232,7 +289,7 @@
           "name": "What is McLearn?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "McLearn® is the registered trademark brand for iDataGear Inc's family of language learning and productivity apps. McLearn products include: Learn Chinese (Mandarin HSK 1–3 vocabulary and reading), Learn Cantonese (Jyutping + Hong Kong culture), Learn English (CEFR A1–C2 with speech recognition), Xie Zi (Chinese character stroke order practice), Great Cantonese Dictionary (comprehensive offline Cantonese reference), and Open Interview (AI-powered mock interview preparation). All McLearn apps are free on web at idatagear.com and on Android via Google Play."
+            "text": "McLearn® is the registered trademark brand for iDataGear Inc's family of language learning and productivity apps. McLearn products include: Learn Chinese (Mandarin HSK 1–3 vocabulary and reading), Learn Cantonese (Jyutping + Hong Kong culture), ALL English (All Level Learner's English, CEFR A1–C2 with speech recognition), Xie Zi (Chinese character stroke order practice), Great Cantonese Dictionary (comprehensive offline Cantonese reference), and Open Interview (AI-powered mock interview preparation). All McLearn apps are free on web at idatagear.com and on Android via Google Play."
           }
         },
         {
@@ -240,7 +297,7 @@
           "name": "What languages can I learn with McLearn apps?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "McLearn® apps by iDataGear support three languages: (1) Mandarin Chinese — Learn Chinese (HSK 1–3 vocabulary, reading comprehension, pronunciation) and Xie Zi (Chinese character stroke order practice). (2) Cantonese — Learn Cantonese (story-driven lessons, Hong Kong slang, Jyutping romanization, audio) and Great Cantonese Dictionary (comprehensive Jyutping dictionary with idioms). (3) English — Learn English (CEFR levels A1–C2, IPA pronunciation, speech recognition, reading comprehension). All apps are free on web at idatagear.com and Android on Google Play."
+            "text": "McLearn® apps by iDataGear support three languages: (1) Mandarin Chinese — Learn Chinese (HSK 1–3 vocabulary, reading comprehension, pronunciation) and Xie Zi (Chinese character stroke order practice). (2) Cantonese — Learn Cantonese (story-driven lessons, Hong Kong slang, Jyutping romanization, audio) and Great Cantonese Dictionary (comprehensive Jyutping dictionary with idioms). (3) English — ALL English, All Level Learner's English (CEFR levels A1–C2, vocabulary with IPA, sentences, articles, practice tests, pronunciation practice). All apps are free on web at idatagear.com and Android on Google Play."
           }
         },
         {
@@ -272,7 +329,7 @@
           "name": "How do I learn English with CEFR levels?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Use Learn English by McLearn® at idatagear.com/english/ or the Android app (com.idatagear.learn_english). Content is aligned to CEFR levels A1–C2 with vocabulary, IPA pronunciation, speech recognition, and reading comprehension exercises. Free on web and Android."
+            "text": "Use ALL English (All Level Learner's English) by McLearn® at idatagear.com/english/ or the Android app (com.idatagear.learn_english). Content is aligned to CEFR levels A1–C2 with vocabulary with IPA, sentences, articles, practice tests, and pronunciation practice. Free on web and Android."
           }
         },
         {
@@ -280,7 +337,7 @@
           "name": "Where can I download McLearn language learning apps?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "All McLearn® apps by iDataGear Inc are free on Google Play: Learn Chinese (com.idatagear.learn_chinese), Learn Cantonese (com.idatagear.learn_cantonese), Learn English (com.idatagear.learn_english), Great Cantonese Dictionary (com.idatagear.great_cantonese_dictionary), and Xie Zi stroke order (com.idatagear.xiezi). All apps also run directly on the web at idatagear.com — no download required."
+            "text": "All McLearn® apps by iDataGear Inc are free on Google Play: Learn Chinese (com.idatagear.learn_chinese), Learn Cantonese (com.idatagear.learn_cantonese), ALL English (com.idatagear.learn_english), Great Cantonese Dictionary (com.idatagear.great_cantonese_dictionary), and Xie Zi stroke order (com.idatagear.xiezi). iDataGear also offers Eyeball It! visual estimation game (com.idatagear.eyeballit), Momera.ME private offline journal (com.idatagear.momera), and Momera.Hiking GPS hike tracker (com.idatagear.momera.hiking) free on Google Play. Most apps also run directly on the web at idatagear.com — no download required."
           }
         },
         {
@@ -296,7 +353,7 @@
           "name": "Is McLearn available on iPhone or iOS?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "McLearn® apps by iDataGear are currently available as Android apps on Google Play and as web apps accessible from any browser. iOS native apps are not yet available, but all web versions at idatagear.com work fully on iPhone, iPad, and other iOS devices — no download required. Open idatagear.com in Safari on any iOS device to use Learn Chinese, Learn Cantonese, Learn English, Great Cantonese Dictionary, Xie Zi, or Open Interview."
+            "text": "McLearn® apps by iDataGear are currently available as Android apps on Google Play and as web apps accessible from any browser. iOS native apps are not yet available, but all web versions at idatagear.com work fully on iPhone, iPad, and other iOS devices — no download required. Open idatagear.com in Safari on any iOS device to use Learn Chinese, Learn Cantonese, ALL English, Great Cantonese Dictionary, Xie Zi, or Open Interview."
           }
         },
         {
@@ -320,7 +377,7 @@
           "name": "What AI features does iDataGear offer?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "iDataGear offers AI-powered features across its products: (1) Open Interview — AI-powered mock interview platform that generates industry-specific questions, evaluates responses, and provides instant performance feedback. Available free at idatagear.com/interview/. (2) Speech recognition — McLearn's Learn English app includes AI speech recognition for pronunciation practice. (3) AI copilots and workflow automation — iDataGear's BI consulting services include AI copilot integration for enterprise automation. Contact idatagear@gmail.com for AI consulting."
+            "text": "iDataGear offers AI-powered features across its products: (1) Open Interview — AI-powered mock interview platform that generates industry-specific questions, evaluates responses, and provides instant performance feedback. Available free at idatagear.com/interview/. (2) Speech recognition — McLearn's ALL English app includes AI speech recognition for pronunciation practice. (3) AI copilots and workflow automation — iDataGear's BI consulting services include AI copilot integration for enterprise automation. Contact idatagear@gmail.com for AI consulting."
           }
         },
         {
@@ -344,7 +401,7 @@
           "name": "Is iDataGear free to use?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. All McLearn® consumer apps by iDataGear are completely free — no paywalls, subscriptions, or required accounts. Learn Chinese, Learn Cantonese, Learn English, Xie Zi, Great Cantonese Dictionary, and Open Interview are all free on the web at idatagear.com and the Android apps are free on Google Play. iDataGear's Business Intelligence consulting and custom software development are paid professional services — contact idatagear@gmail.com for a quote."
+            "text": "Yes. All McLearn® consumer apps by iDataGear are completely free — no paywalls, subscriptions, or required accounts. Learn Chinese, Learn Cantonese, ALL English, Xie Zi, Great Cantonese Dictionary, and Open Interview are all free on the web at idatagear.com and the Android apps are free on Google Play, as are the Eyeball It! game and the Momera.ME and Momera.Hiking utilities. iDataGear's Business Intelligence consulting and custom software development are paid professional services — contact idatagear@gmail.com for a quote."
           }
         },
         {
@@ -468,9 +525,13 @@
         <div class="nav-product-links">
           <a class="cta-link" href="chinese/" target="_blank" rel="noopener">Learn Chinese</a>
           <a class="cta-link" href="cantonese/" target="_blank" rel="noopener">Learn Cantonese</a>
-          <a class="cta-link" href="english/" target="_blank" rel="noopener">Learn English</a>
+          <a class="cta-link" href="english/" target="_blank" rel="noopener">ALL English</a>
         </div>
       </nav>
+      <button class="theme-toggle" type="button" aria-label="Switch to light theme">
+        <i class="bi bi-sun" aria-hidden="true"></i>
+        <i class="bi bi-moon-stars" aria-hidden="true"></i>
+      </button>
       <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
         <span></span>
         <span></span>
@@ -489,7 +550,7 @@
           <p class="lede">
             <strong><span class="mclearn-mark" role="text" aria-label="McLearn registered trademark">McLearn</span></strong> apps help you master
             <strong>Mandarin Chinese&nbsp;(HSK)</strong>, <strong>Cantonese</strong>, and <strong>English&nbsp;(CEFR)</strong>
-            — free on web and Android.
+            — free on web and Android, alongside games and offline-first life-logging tools.
             <strong>iDataGear</strong> also delivers ETL pipelines, BI dashboards, and custom software for data-driven teams.
           </p>
           <div class="hero__actions">
@@ -503,7 +564,7 @@
           </div>
           <ul class="hero__metrics">
             <li>
-              <span>8+</span>
+              <span>11+</span>
               <p>Apps on Web &amp; Android</p>
             </li>
             <li>
@@ -530,9 +591,9 @@
               <img src="assets/img/learn-cantonese-app-icon.png" alt="Learn Cantonese" loading="eager" width="60" height="60">
               <span>Learn Cantonese</span>
             </a>
-            <a class="app-float app-float-3" href="english/" target="_blank" rel="noopener" aria-label="Open Learn English web app">
-              <img src="assets/img/learn-english-app-icon.png" alt="Learn English" loading="eager" width="60" height="60">
-              <span>Learn English</span>
+            <a class="app-float app-float-3" href="english/" target="_blank" rel="noopener" aria-label="Open ALL English web app">
+              <img src="assets/img/all-english-app-icon.png" alt="ALL English" loading="eager" width="60" height="60">
+              <span>ALL English</span>
             </a>
             <a class="app-float app-float-4" href="gcd/" target="_blank" rel="noopener" aria-label="Open Great Cantonese Dictionary">
               <img src="assets/img/gcd-logo.png" alt="Great Cantonese Dictionary" loading="lazy" width="60" height="60">
@@ -545,6 +606,10 @@
             <a class="app-float app-float-6" href="interview/" target="_blank" rel="noopener" aria-label="Open Interview preparation app">
               <img src="assets/img/open_interview_logo.png" alt="Open Interview" loading="lazy" width="60" height="60">
               <span>Open Interview</span>
+            </a>
+            <a class="app-float app-float-7" href="eyeballit/" target="_blank" rel="noopener" aria-label="Open Eyeball It visual estimation puzzle game">
+              <img src="assets/img/eyeballit-app-icon.png" alt="Eyeball It!" loading="lazy" width="60" height="60">
+              <span>Eyeball It!</span>
             </a>
           </div>
         </div>
@@ -646,26 +711,26 @@
             </div>
           </article>
 
-          <!-- Learn English -->
+          <!-- ALL English -->
           <article class="product-card">
             <div class="product-card-header">
               <img class="product-card-icon"
-                src="assets/img/learn-english-app-icon.png"
-                alt="Learn English app icon — CEFR-aligned English learning by McLearn"
+                src="assets/img/all-english-app-icon.png"
+                alt="ALL English app icon — All Level Learner's English by McLearn"
                 loading="lazy" width="64" height="64">
               <div class="product-card-meta">
                 <span class="pill pill-mint"><span class="mclearn-mark" role="text" aria-label="McLearn registered trademark">McLearn</span> · English</span>
-                <h3>Learn English</h3>
+                <h3>ALL English</h3>
               </div>
             </div>
             <p class="product-card-desc">
-              CEFR-aligned content from A1 to C2 with IPA pronunciation, speech recognition, reading comprehension, and structured learning paths.
+              All Level Learner's English — CEFR A1–C2 vocabulary with IPA, sentences, articles, practice tests, and pronunciation practice.
             </p>
             <ul class="product-card-features">
               <li>CEFR levels A1–C2 curriculum</li>
-              <li>IPA pronunciation &amp; speech recognition</li>
-              <li>Reading comprehension exercises</li>
-              <li>Progress tracking &amp; favourites</li>
+              <li>Vocabulary with IPA &amp; pronunciation practice</li>
+              <li>Sentences, articles &amp; reading</li>
+              <li>Interactive practice tests</li>
             </ul>
             <div class="platforms">
               <span class="platform-tag">Web</span>
@@ -855,6 +920,107 @@
             </div>
           </article>
 
+          <!-- Eyeball It! -->
+          <article class="product-card">
+            <div class="product-card-header">
+              <img class="product-card-icon"
+                src="assets/img/eyeballit-app-icon.png"
+                alt="Eyeball It! app icon — visual estimation puzzle game"
+                loading="lazy" width="64" height="64">
+              <div class="product-card-meta">
+                <span class="pill pill-mint">Games · Puzzle</span>
+                <h3>Eyeball It!</h3>
+              </div>
+            </div>
+            <p class="product-card-desc">
+              How good is your eye? Estimate lengths, pour liquids to a target volume, and mix colours by eye — then watch the accuracy reveal tell you how close you got.
+            </p>
+            <ul class="product-card-features">
+              <li>Length &amp; Shapes — match the perimeter</li>
+              <li>Liquid Volume — pour to the target</li>
+              <li>Color Volume — CMY colour mixing</li>
+              <li>Juicy accuracy reveals &amp; particle bursts</li>
+            </ul>
+            <div class="platforms">
+              <span class="platform-tag">Web</span>
+              <span class="platform-tag">Android</span>
+            </div>
+            <div class="product-card-actions">
+              <a class="btn btn-primary" href="eyeballit/" target="_blank" rel="noopener">
+                <i class="bi bi-globe"></i> Open Web App
+              </a>
+              <a class="btn btn-outline" href="https://play.google.com/store/apps/details?id=com.idatagear.eyeballit" target="_blank" rel="noopener">
+                <i class="bi bi-google-play"></i> Google Play
+              </a>
+            </div>
+          </article>
+
+          <!-- Momera.ME -->
+          <article class="product-card">
+            <div class="product-card-header">
+              <img class="product-card-icon"
+                src="assets/img/momera-app-icon.png"
+                alt="Momera.ME app icon — private offline moments journal"
+                loading="lazy" width="64" height="64">
+              <div class="product-card-meta">
+                <span class="pill pill-blue">Utility · Journal</span>
+                <h3>Momera.ME</h3>
+              </div>
+            </div>
+            <p class="product-card-desc">
+              A local-first, private moments journal. Capture life by voice, text, and photo — everything stays on your device, fully offline.
+            </p>
+            <ul class="product-card-features">
+              <li>On-device speech-to-text voice capture</li>
+              <li>Text recognition from photos</li>
+              <li>Moments timeline &amp; search</li>
+              <li>100% offline &amp; private — no account needed</li>
+            </ul>
+            <div class="platforms">
+              <span class="platform-tag">Android</span>
+            </div>
+            <div class="product-card-actions">
+              <a class="btn btn-primary" href="https://play.google.com/store/apps/details?id=com.idatagear.momera" target="_blank" rel="noopener">
+                <i class="bi bi-google-play"></i> Google Play
+              </a>
+            </div>
+          </article>
+
+          <!-- Momera.Hiking -->
+          <article class="product-card">
+            <div class="product-card-header">
+              <img class="product-card-icon"
+                src="assets/img/momera-hiking-app-icon.png"
+                alt="Momera.Hiking app icon — offline GPS hike tracker"
+                loading="lazy" width="64" height="64">
+              <div class="product-card-meta">
+                <span class="pill pill-blue">Utility · Outdoors</span>
+                <h3>Momera.Hiking</h3>
+              </div>
+            </div>
+            <p class="product-card-desc">
+              An offline-first GPS hike tracker. Record routes, drop geo-tagged photo, video, and voice waypoints, and replay every hike — even with no signal on the trail.
+            </p>
+            <ul class="product-card-features">
+              <li>Offline OSM maps &amp; GPS recording</li>
+              <li>Geo-tagged photo, video &amp; voice notes</li>
+              <li>Track replay &amp; MP4 export</li>
+              <li>Hike calendar &amp; history</li>
+            </ul>
+            <div class="platforms">
+              <span class="platform-tag">Web</span>
+              <span class="platform-tag">Android</span>
+            </div>
+            <div class="product-card-actions">
+              <a class="btn btn-primary" href="hiking/" target="_blank" rel="noopener">
+                <i class="bi bi-globe"></i> Open Web App
+              </a>
+              <a class="btn btn-outline" href="https://play.google.com/store/apps/details?id=com.idatagear.momera.hiking" target="_blank" rel="noopener">
+                <i class="bi bi-google-play"></i> Google Play
+              </a>
+            </div>
+          </article>
+
         </div><!-- /products-grid -->
       </section>
 
@@ -1007,24 +1173,24 @@
           <article class="app-card">
             <div class="card-top">
               <div class="app-identity">
-                <img class="app-icon" src="assets/img/learn-english-app-icon.png"
-                  alt="Learn English app icon — CEFR-aligned English learning" loading="lazy" width="56" height="56">
+                <img class="app-icon" src="assets/img/all-english-app-icon.png"
+                  alt="ALL English app icon — All Level Learner's English" loading="lazy" width="56" height="56">
                 <div>
                   <span class="pill pill-mint"><span class="mclearn-mark" role="text" aria-label="McLearn registered trademark">McLearn</span> · English</span>
-                  <h3>Learn English</h3>
+                  <h3>ALL English</h3>
                 </div>
               </div>
               <i class="bi bi-arrow-up-right" aria-hidden="true"></i>
             </div>
-            <p>CEFR A1–C2 content with IPA pronunciation, speech recognition, and structured reading comprehension.</p>
+            <p>All Level Learner's English — CEFR A1–C2 vocabulary with IPA, sentences, articles, tests, and pronunciation practice.</p>
             <ul>
               <li>CEFR-aligned (A1–C2)</li>
-              <li>IPA &amp; speech recognition</li>
-              <li>Progress tracking &amp; favourites</li>
+              <li>Vocabulary with IPA &amp; pronunciation</li>
+              <li>Articles &amp; practice tests</li>
             </ul>
             <div class="store-badges">
               <a class="store-badge" href="https://play.google.com/store/apps/details?id=com.idatagear.learn_english" target="_blank" rel="noopener">
-                <img src="assets/img/google-play-badge.svg" alt="Get Learn English on Google Play" loading="lazy" width="155" height="60">
+                <img src="assets/img/google-play-badge.svg" alt="Get ALL English on Google Play" loading="lazy" width="155" height="60">
               </a>
             </div>
             <div class="app-cross-link">
@@ -1160,6 +1326,96 @@
           <article class="app-card">
             <div class="card-top">
               <div class="app-identity">
+                <img class="app-icon" src="assets/img/eyeballit-app-icon.png"
+                  alt="Eyeball It! app icon — visual estimation puzzle game" loading="lazy" width="56" height="56">
+                <div>
+                  <span class="pill pill-mint">Games</span>
+                  <h3>Eyeball It!</h3>
+                </div>
+              </div>
+              <i class="bi bi-arrow-up-right" aria-hidden="true"></i>
+            </div>
+            <p>Casual visual-estimation puzzles: eyeball lengths, liquid volumes, and colour mixes — then see how close you got.</p>
+            <ul>
+              <li>Length &amp; Shapes — match the perimeter</li>
+              <li>Liquid Volume — pour to the target</li>
+              <li>Color Volume — CMY colour mixing</li>
+            </ul>
+            <div class="store-badges">
+              <a class="store-badge" href="https://play.google.com/store/apps/details?id=com.idatagear.eyeballit" target="_blank" rel="noopener">
+                <img src="assets/img/google-play-badge.svg" alt="Get Eyeball It on Google Play" loading="lazy" width="155" height="60">
+              </a>
+            </div>
+            <div class="app-cross-link">
+              <a href="eyeballit/" target="_blank" rel="noopener">Try Web Version →</a>
+              <span>•</span>
+              <a href="tttt/" target="_blank" rel="noopener">Also try Tic Tac Toe Toe →</a>
+            </div>
+          </article>
+
+          <article class="app-card">
+            <div class="card-top">
+              <div class="app-identity">
+                <img class="app-icon" src="assets/img/momera-app-icon.png"
+                  alt="Momera.ME app icon — private offline moments journal" loading="lazy" width="56" height="56">
+                <div>
+                  <span class="pill pill-blue">Utility</span>
+                  <h3>Momera.ME</h3>
+                </div>
+              </div>
+              <i class="bi bi-arrow-up-right" aria-hidden="true"></i>
+            </div>
+            <p>Local-first private moments journal — capture by voice, text, and photo. Your memories never leave your device.</p>
+            <ul>
+              <li>On-device speech-to-text voice capture</li>
+              <li>Text recognition from photos</li>
+              <li>100% offline &amp; private</li>
+            </ul>
+            <div class="store-badges">
+              <a class="store-badge" href="https://play.google.com/store/apps/details?id=com.idatagear.momera" target="_blank" rel="noopener">
+                <img src="assets/img/google-play-badge.svg" alt="Get Momera.ME on Google Play" loading="lazy" width="155" height="60">
+              </a>
+            </div>
+            <div class="app-cross-link">
+              <a href="privacy-policy-momera-me.html" target="_blank" rel="noopener">Privacy Policy →</a>
+              <span>•</span>
+              <a href="hiking/" target="_blank" rel="noopener">Also try Momera.Hiking →</a>
+            </div>
+          </article>
+
+          <article class="app-card">
+            <div class="card-top">
+              <div class="app-identity">
+                <img class="app-icon" src="assets/img/momera-hiking-app-icon.png"
+                  alt="Momera.Hiking app icon — offline GPS hike tracker" loading="lazy" width="56" height="56">
+                <div>
+                  <span class="pill pill-blue">Utility</span>
+                  <h3>Momera.Hiking</h3>
+                </div>
+              </div>
+              <i class="bi bi-arrow-up-right" aria-hidden="true"></i>
+            </div>
+            <p>Offline-first GPS hike tracker with route recording, replay export, and geo-tagged photo, video, and voice waypoints.</p>
+            <ul>
+              <li>Offline OSM maps &amp; GPS recording</li>
+              <li>Geo-tagged photo, video &amp; voice notes</li>
+              <li>Hike calendar, history &amp; replay export</li>
+            </ul>
+            <div class="store-badges">
+              <a class="store-badge" href="https://play.google.com/store/apps/details?id=com.idatagear.momera.hiking" target="_blank" rel="noopener">
+                <img src="assets/img/google-play-badge.svg" alt="Get Momera.Hiking on Google Play" loading="lazy" width="155" height="60">
+              </a>
+            </div>
+            <div class="app-cross-link">
+              <a href="hiking/" target="_blank" rel="noopener">Try Web Version →</a>
+              <span>•</span>
+              <a href="https://play.google.com/store/apps/details?id=com.idatagear.momera" target="_blank" rel="noopener">Also try Momera.ME →</a>
+            </div>
+          </article>
+
+          <article class="app-card">
+            <div class="card-top">
+              <div class="app-identity">
                 <img class="app-icon" src="assets/img/open_interview_logo.png"
                   alt="Open Interview app icon — AI-powered interview preparation" loading="lazy" width="56" height="56">
                 <div>
@@ -1178,7 +1434,7 @@
             <div class="app-cross-link">
               <a href="interview/" target="_blank" rel="noopener">Try Web Version →</a>
               <span>•</span>
-              <a href="english/" target="_blank" rel="noopener">Also try Learn English →</a>
+              <a href="english/" target="_blank" rel="noopener">Also try ALL English →</a>
             </div>
           </article>
 
@@ -1218,7 +1474,7 @@
               <h3><span class="mclearn-mark" role="text" aria-label="McLearn registered trademark">McLearn</span> Language Products</h3>
               <p>
                 Our <strong><span class="mclearn-mark" role="text" aria-label="McLearn registered trademark">McLearn</span></strong> trademark covers
-                Learn English, Learn Chinese, Learn Cantonese, Xie Zi, and the Great Cantonese Dictionary.
+                ALL English, Learn Chinese, Learn Cantonese, Xie Zi, and the Great Cantonese Dictionary.
                 Built with cultural authenticity, structured learning paths, and cross-platform accessibility.
                 Developed by language experts and native speakers.
               </p>
@@ -1303,7 +1559,7 @@
             <summary>How do I learn English with CEFR levels?</summary>
             <div class="faq-answer">
               <p>
-                <strong>Learn English</strong> by <span class="mclearn-mark" role="text" aria-label="McLearn registered trademark">McLearn</span>® is <strong>CEFR-aligned</strong> (A1–C2) with vocabulary, IPA pronunciation, speech recognition, and reading exercises.
+                <strong>ALL English</strong> (All Level Learner's English) by <span class="mclearn-mark" role="text" aria-label="McLearn registered trademark">McLearn</span>® is <strong>CEFR-aligned</strong> (A1–C2) with vocabulary with IPA, sentences, articles, practice tests, and pronunciation practice.
                 Use the <a href="english/">web app</a> or <a href="https://play.google.com/store/apps/details?id=com.idatagear.learn_english" target="_blank" rel="noopener">download on Google Play</a>. Free on both platforms.
               </p>
             </div>
@@ -1327,7 +1583,7 @@
                 All McLearn® apps by iDataGear Inc are <strong>free on Google Play</strong>:
                 <a href="https://play.google.com/store/apps/details?id=com.idatagear.learn_chinese" target="_blank" rel="noopener">Learn Chinese</a>,
                 <a href="https://play.google.com/store/apps/details?id=com.idatagear.learn_cantonese" target="_blank" rel="noopener">Learn Cantonese</a>,
-                <a href="https://play.google.com/store/apps/details?id=com.idatagear.learn_english" target="_blank" rel="noopener">Learn English</a>,
+                <a href="https://play.google.com/store/apps/details?id=com.idatagear.learn_english" target="_blank" rel="noopener">ALL English</a>,
                 <a href="https://play.google.com/store/apps/details?id=com.idatagear.great_cantonese_dictionary" target="_blank" rel="noopener">Great Cantonese Dictionary</a>, and
                 <a href="https://play.google.com/store/apps/details?id=com.idatagear.xiezi" target="_blank" rel="noopener">Xie Zi</a>.
                 All apps also run on the web — no download required.
@@ -1365,7 +1621,7 @@
                 The McLearn family includes:
                 <a href="chinese/">Learn Chinese</a> (Mandarin HSK 1–3),
                 <a href="cantonese/">Learn Cantonese</a> (Jyutping + HK culture),
-                <a href="english/">Learn English</a> (CEFR A1–C2),
+                <a href="english/">ALL English</a> (CEFR A1–C2),
                 <a href="xiezi/">Xie Zi</a> (Chinese stroke order),
                 <a href="gcd/">Great Cantonese Dictionary</a>, and
                 <a href="interview/">Open Interview</a> (AI mock interviews).
@@ -1391,7 +1647,7 @@
               <p>iDataGear's AI-powered features include:</p>
               <ul>
                 <li><strong><a href="interview/">Open Interview</a></strong> — AI mock interview platform with instant feedback and performance analysis</li>
-                <li><strong>Speech recognition</strong> in Learn English and Learn Chinese for pronunciation practice</li>
+                <li><strong>Speech recognition</strong> in ALL English and Learn Chinese for pronunciation practice</li>
                 <li><strong>AI copilots &amp; workflow automation</strong> for enterprise BI clients</li>
               </ul>
               <p>For AI consulting and automation services, <a href="mailto:idatagear@gmail.com">contact us</a>.</p>
@@ -1416,8 +1672,9 @@
             <div class="faq-answer">
               <p>
                 <strong>All McLearn® consumer apps are completely free</strong> — no subscriptions, paywalls, or required sign-ups.
-                Learn Chinese, Learn Cantonese, Learn English, Xie Zi, Great Cantonese Dictionary, and Open Interview are free
-                on the web at <a href="https://www.idatagear.com">idatagear.com</a> and on Android via Google Play.
+                Learn Chinese, Learn Cantonese, ALL English, Xie Zi, Great Cantonese Dictionary, and Open Interview are free
+                on the web at <a href="https://www.idatagear.com">idatagear.com</a> and on Android via Google Play —
+                as are the <a href="eyeballit/">Eyeball It!</a> game and the Momera.ME and <a href="hiking/">Momera.Hiking</a> utilities.
                 iDataGear's <a href="#services" data-scroll>BI consulting and custom software</a> services are paid professional engagements —
                 <a href="mailto:idatagear@gmail.com">contact us</a> for a quote.
               </p>
@@ -1448,10 +1705,12 @@
             <div style="display:flex;flex-wrap:wrap;gap:0.5rem;margin-top:1rem;">
               <a class="btn btn-outline" href="chinese/" target="_blank" rel="noopener">Learn Chinese</a>
               <a class="btn btn-outline" href="cantonese/" target="_blank" rel="noopener">Learn Cantonese</a>
-              <a class="btn btn-outline" href="english/" target="_blank" rel="noopener">Learn English</a>
+              <a class="btn btn-outline" href="english/" target="_blank" rel="noopener">ALL English</a>
               <a class="btn btn-outline" href="xiezi/" target="_blank" rel="noopener">Xie Zi</a>
               <a class="btn btn-outline" href="interview/" target="_blank" rel="noopener">Open Interview</a>
               <a class="btn btn-outline" href="gcd/" target="_blank" rel="noopener">GCD</a>
+              <a class="btn btn-outline" href="eyeballit/" target="_blank" rel="noopener">Eyeball It!</a>
+              <a class="btn btn-outline" href="hiking/" target="_blank" rel="noopener">Momera.Hiking</a>
             </div>
           </article>
 
@@ -1466,7 +1725,7 @@
                 <img src="assets/img/google-play-badge.svg" alt="Get Learn Cantonese on Google Play" loading="lazy" width="124" height="48" style="height:40px;">
               </a>
               <a class="store-badge" href="https://play.google.com/store/apps/details?id=com.idatagear.learn_english" target="_blank" rel="noopener">
-                <img src="assets/img/google-play-badge.svg" alt="Get Learn English on Google Play" loading="lazy" width="124" height="48" style="height:40px;">
+                <img src="assets/img/google-play-badge.svg" alt="Get ALL English on Google Play" loading="lazy" width="124" height="48" style="height:40px;">
               </a>
               <a class="store-badge" href="https://play.google.com/store/apps/details?id=com.idatagear.xiezi" target="_blank" rel="noopener">
                 <img src="assets/img/google-play-badge.svg" alt="Get Xie Zi on Google Play" loading="lazy" width="124" height="48" style="height:40px;">
@@ -1476,6 +1735,15 @@
               </a>
               <a class="store-badge" href="https://play.google.com/store/apps/details?id=com.idatagear.siding" target="_blank" rel="noopener">
                 <img src="assets/img/google-play-badge.svg" alt="Get Si Ding on Google Play" loading="lazy" width="124" height="48" style="height:40px;">
+              </a>
+              <a class="store-badge" href="https://play.google.com/store/apps/details?id=com.idatagear.eyeballit" target="_blank" rel="noopener">
+                <img src="assets/img/google-play-badge.svg" alt="Get Eyeball It on Google Play" loading="lazy" width="124" height="48" style="height:40px;">
+              </a>
+              <a class="store-badge" href="https://play.google.com/store/apps/details?id=com.idatagear.momera" target="_blank" rel="noopener">
+                <img src="assets/img/google-play-badge.svg" alt="Get Momera.ME on Google Play" loading="lazy" width="124" height="48" style="height:40px;">
+              </a>
+              <a class="store-badge" href="https://play.google.com/store/apps/details?id=com.idatagear.momera.hiking" target="_blank" rel="noopener">
+                <img src="assets/img/google-play-badge.svg" alt="Get Momera.Hiking on Google Play" loading="lazy" width="124" height="48" style="height:40px;">
               </a>
             </div>
           </article>
@@ -1500,7 +1768,7 @@
           <ul>
             <li><a href="chinese/" target="_blank" rel="noopener">Learn Chinese</a></li>
             <li><a href="cantonese/" target="_blank" rel="noopener">Learn Cantonese</a></li>
-            <li><a href="english/" target="_blank" rel="noopener">Learn English</a></li>
+            <li><a href="english/" target="_blank" rel="noopener">ALL English</a></li>
             <li><a href="xiezi/" target="_blank" rel="noopener">Xie Zi 写字板</a></li>
             <li><a href="gcd/" target="_blank" rel="noopener">Cantonese Dictionary</a></li>
           </ul>
@@ -1512,6 +1780,9 @@
             <li><a href="interview/" target="_blank" rel="noopener">Open Interview</a></li>
             <li><a href="tttt/" target="_blank" rel="noopener">Tic Tac Toe Toe</a></li>
             <li><a href="siding/" target="_blank" rel="noopener">Si Ding 四顶</a></li>
+            <li><a href="eyeballit/" target="_blank" rel="noopener">Eyeball It!</a></li>
+            <li><a href="https://play.google.com/store/apps/details?id=com.idatagear.momera" target="_blank" rel="noopener">Momera.ME</a></li>
+            <li><a href="hiking/" target="_blank" rel="noopener">Momera.Hiking</a></li>
           </ul>
         </div>
 
@@ -1535,7 +1806,7 @@
           <a href="privacy.html">Privacy</a>
           <a href="https://play.google.com/store/apps/details?id=com.idatagear.learn_chinese" target="_blank" rel="noopener">Learn Chinese App</a>
           <a href="https://play.google.com/store/apps/details?id=com.idatagear.learn_cantonese" target="_blank" rel="noopener">Learn Cantonese App</a>
-          <a href="https://play.google.com/store/apps/details?id=com.idatagear.learn_english" target="_blank" rel="noopener">Learn English App</a>
+          <a href="https://play.google.com/store/apps/details?id=com.idatagear.learn_english" target="_blank" rel="noopener">ALL English App</a>
           <a href="https://play.google.com/store/apps/details?id=com.idatagear.xiezi" target="_blank" rel="noopener">Xie Zi App</a>
           <a href="https://play.google.com/store/apps/details?id=com.idatagear.great_cantonese_dictionary" target="_blank" rel="noopener">GCD App</a>
         </div>

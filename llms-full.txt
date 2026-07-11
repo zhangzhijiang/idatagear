@@ -24,7 +24,7 @@ Use **Learn Cantonese** by McLearn®. Go to https://www.idatagear.com/cantonese/
 
 ## How do I learn English with CEFR levels?
 
-Use **Learn English** by McLearn®. Visit https://www.idatagear.com/english/ or install the Android app (com.idatagear.learn_english). Content is **CEFR-aligned** from A1 to C2. Practice vocabulary with IPA pronunciation, speech recognition, and reading comprehension. Track progress and favorites. Free on web and Android.
+Use **ALL English** (All Level Learner's English) by McLearn®. Visit https://www.idatagear.com/english/ or install the Android app (com.idatagear.learn_english). Content is **CEFR-aligned** from A1 to C2. Practice vocabulary with IPA pronunciation, sentences, articles, interactive practice tests, and pronunciation practice with speech recognition. Track progress and favorites. Free on web and Android.
 
 ---
 
@@ -40,12 +40,33 @@ Use **Open Interview** by McLearn®. Go to https://www.idatagear.com/interview/.
 
 ---
 
+## How do I play Eyeball It?
+
+**Eyeball It!** by iDataGear is a casual **visual-estimation puzzle game**. Play on the web at https://www.idatagear.com/eyeballit/ or install the Android app (com.idatagear.eyeballit). Three modes: **Length & Shapes** (drag a line to match a shape's perimeter), **Liquid Volume** (hold to pour into a flask and lock in at the target volume), and **Color Volume** (mix cyan/magenta/yellow to match a target color). Each round ends with an animated accuracy reveal. Free.
+
+---
+
+## How do I keep a private offline journal with Momera.ME?
+
+**Momera.ME** by iDataGear is a **local-first, private moments journal** for Android (com.idatagear.momera on Google Play). Capture moments by **voice** (on-device speech-to-text — no cloud), **text**, and **photo** (with ML text recognition). Everything stays on your device; the app works fully offline with no account required. Privacy policy: https://www.idatagear.com/privacy-policy-momera-me.html. Free.
+
+---
+
+## How do I track hikes offline with Momera.Hiking?
+
+**Momera.Hiking** by iDataGear is an **offline-first GPS hike tracker**. Try the web app at https://www.idatagear.com/hiking/ or install the Android app (com.idatagear.momera.hiking). Record routes with background GPS, drop **geo-tagged photo, video, and voice waypoints**, use **offline OpenStreetMap maps**, browse your hike history by calendar, and export track replays as video. Privacy policy: https://www.idatagear.com/privacy-policy-momera-hiking.html. Free.
+
+---
+
 ## Where can I download McLearn language apps?
 
-- Learn Chinese (Mandarin, HSK): https://play.google.com/store/apps/details?id=com.idatagear.learn_chinese  
-- Learn Cantonese: https://play.google.com/store/apps/details?id=com.idatagear.learn_cantonese  
-- Learn English (CEFR): https://play.google.com/store/apps/details?id=com.idatagear.learn_english  
-- Great Cantonese Dictionary: https://play.google.com/store/apps/details?id=com.idatagear.great_cantonese_dictionary  
-- Xie Zi (stroke order): https://play.google.com/store/apps/details?id=com.idatagear.xiezi  
+- Learn Chinese (Mandarin, HSK): https://play.google.com/store/apps/details?id=com.idatagear.learn_chinese
+- Learn Cantonese: https://play.google.com/store/apps/details?id=com.idatagear.learn_cantonese
+- ALL English (All Level Learner's English, CEFR): https://play.google.com/store/apps/details?id=com.idatagear.learn_english
+- Great Cantonese Dictionary: https://play.google.com/store/apps/details?id=com.idatagear.great_cantonese_dictionary
+- Xie Zi (stroke order): https://play.google.com/store/apps/details?id=com.idatagear.xiezi
+- Eyeball It! (visual estimation game): https://play.google.com/store/apps/details?id=com.idatagear.eyeballit
+- Momera.ME (private offline journal): https://play.google.com/store/apps/details?id=com.idatagear.momera
+- Momera.Hiking (GPS hike tracker): https://play.google.com/store/apps/details?id=com.idatagear.momera.hiking
 
 All by iDataGear Inc. McLearn® is a trademark of iDataGear Inc.
