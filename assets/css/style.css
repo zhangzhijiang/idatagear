@@ -625,6 +625,7 @@ a   { color: inherit; text-decoration: none; }
 .app-float-5 { bottom: 4%; left: 22%; animation: floatY 6.5s ease-in-out infinite 0.9s; }
 .app-float-6 { bottom: 4%; right: 18%; animation: floatY 5.8s ease-in-out infinite 0.3s; }
 .app-float-7 { top: 20%; left: 40%; animation: floatY 6.8s ease-in-out infinite 1.5s; }
+.app-float-8 { top: 52%; left: 38%; animation: floatY 7.4s ease-in-out infinite 0.7s; }
 
 .hero-orb {
   position: absolute;
@@ -1196,7 +1197,8 @@ a   { color: inherit; text-decoration: none; }
 
   .app-float img { width: 48px; height: 48px; }
 
-  .app-float-7 { display: none; }
+  .app-float-7,
+  .app-float-8 { display: none; }
 
   .nav-product-links {
     flex-direction: column;
