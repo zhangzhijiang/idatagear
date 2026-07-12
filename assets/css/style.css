@@ -903,6 +903,51 @@ a   { color: inherit; text-decoration: none; }
 .store-badge:hover { opacity: 0.85; transform: scale(1.03); }
 .store-badge img   { height: 44px; width: auto; }
 
+/* Labeled app rows: icon + name + Play badge */
+.store-app-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.store-app {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  padding: 0.45rem 0.6rem;
+  border: 1px solid var(--card-border);
+  border-radius: var(--radius-sm);
+  background: var(--card);
+  transition: border-color var(--dur), background var(--dur);
+}
+
+.store-app:hover {
+  border-color: var(--card-border-hov);
+  background: var(--card-hover);
+}
+
+.store-app-icon {
+  width: 36px;
+  height: 36px;
+  border-radius: 8px;
+  flex-shrink: 0;
+}
+
+.store-app-name {
+  flex: 1;
+  min-width: 0;
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.store-app-badge {
+  height: 32px;
+  width: auto;
+  flex-shrink: 0;
+}
+
 .store-badge.is-disabled {
   border: 1px dashed rgba(var(--tint), .18);
   border-radius: var(--radius-sm);
