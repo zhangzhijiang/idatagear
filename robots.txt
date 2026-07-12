@@ -6,14 +6,82 @@ Disallow: /*.bin$
 # Keep PWA manifests crawlable (overrides the .json block; longest-match wins)
 Allow: /manifest.json$
 Allow: /*/manifest.json$
+Crawl-delay: 1
+
+# ============================================================
+# AI / LLM crawlers — explicitly welcome.
+# These bots feed AI search & chat answers (ChatGPT, Gemini,
+# Claude, Perplexity, Copilot, Meta AI). Allowing them makes
+# iDataGear apps discoverable in AI answers.
+# ============================================================
+
+# OpenAI (ChatGPT training, ChatGPT Search, user-triggered browsing)
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+# Google AI (Gemini / AI Overviews)
+User-agent: Google-Extended
+Allow: /
+
+User-agent: GoogleOther
+Allow: /
+
+# Anthropic (Claude)
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+# Perplexity
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+# Microsoft Bing (powers Copilot & ChatGPT search index)
+User-agent: Bingbot
+Allow: /
+
+# Apple (Siri / Apple Intelligence)
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+# Meta AI
+User-agent: meta-externalagent
+Allow: /
+
+User-agent: FacebookBot
+Allow: /
+
+# Amazon (Alexa / Rufus)
+User-agent: Amazonbot
+Allow: /
+
+# Common Crawl (source corpus for many LLMs)
+User-agent: CCBot
+Allow: /
+
+# Cohere
+User-agent: cohere-ai
+Allow: /
 
 # Sitemap
 Sitemap: https://www.idatagear.com/sitemap.xml
 
-# AI / LLM discovery (llms.txt, llms-full.txt)
-Allow: /llms.txt
-Allow: /llms-full.txt
-
-# Crawl-delay (optional, adjust as needed)
-Crawl-delay: 1
-
+# AI / LLM discovery files (plain-text site summaries for AI agents)
+# llms.txt:      https://www.idatagear.com/llms.txt
+# llms-full.txt: https://www.idatagear.com/llms-full.txt
