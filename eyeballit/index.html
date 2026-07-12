@@ -103,6 +103,9 @@
       box-sizing: border-box;
     }
 
+    /* Collapse unfilled ad slots so no blank rail space is left behind. */
+    ins.adsbygoogle[data-ad-status="unfilled"] { display: none !important; }
+
     /* Responsive AdSense units fill the width of their rail. */
     .ad-rail .adsbygoogle {
       display: block;

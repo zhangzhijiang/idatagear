@@ -9,6 +9,13 @@ Allow: /*/manifest.json$
 Crawl-delay: 1
 
 # ============================================================
+# Google AdSense crawler — explicit allow so ad-relevance
+# scanning is never affected by future edits to the * group.
+# ============================================================
+User-agent: Mediapartners-Google
+Allow: /
+
+# ============================================================
 # AI / LLM crawlers — explicitly welcome.
 # These bots feed AI search & chat answers (ChatGPT, Gemini,
 # Claude, Perplexity, Copilot, Meta AI). Allowing them makes
