@@ -15,10 +15,27 @@
         content="Eyeball It! — a minimalist visual estimation puzzle game. Trust your eyes to estimate length, volume, colour and time. No rulers allowed.">
   <link rel="canonical" href="https://www.idatagear.com/eyeballit/">
 
-  <!-- Google AdSense: account verification + ad library loader -->
+  <!-- Google AdSense: account verification + production-only ad loader.
+       The loader is only injected on the production host, so testing on
+       localhost / previews never renders live ads (prevents self-clicks /
+       invalid traffic). Off-prod, adsbygoogle stays a plain array and the
+       game's push({}) calls become harmless no-ops. -->
   <meta name="google-adsense-account" content="ca-pub-8396981938969998">
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8396981938969998"
-          crossorigin="anonymous"></script>
+  <script>
+    (function () {
+      var PROD = ['www.idatagear.com', 'idatagear.com'];
+      if (PROD.indexOf(location.hostname) === -1) {
+        window.adsbygoogle = window.adsbygoogle || [];
+        if (window.console) console.info('[AdSense] disabled on non-production host:', location.hostname || '(local file)');
+        return;
+      }
+      var s = document.createElement('script');
+      s.async = true;
+      s.crossOrigin = 'anonymous';
+      s.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8396981938969998';
+      document.head.appendChild(s);
+    })();
+  </script>
 
   <!-- iOS meta tags & icons -->
   <meta name="mobile-web-app-capable" content="yes">

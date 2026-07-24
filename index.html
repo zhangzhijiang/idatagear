@@ -1,9 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- Google AdSense -->
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8396981938969998"
-     crossorigin="anonymous"></script>
+    <!-- Google AdSense loader — production host only.
+         Skips loading live ads on localhost / previews / staging so developer
+         testing can't generate self-impressions or self-clicks on live ad units
+         (a primary trigger of "invalid traffic"). Off-prod, adsbygoogle is a
+         plain array, so any push({}) in app code is a harmless no-op. -->
+    <script>
+      (function () {
+        var PROD = ['www.idatagear.com', 'idatagear.com'];
+        if (PROD.indexOf(location.hostname) === -1) {
+          window.adsbygoogle = window.adsbygoogle || [];
+          if (window.console) console.info('[AdSense] disabled on non-production host:', location.hostname || '(local file)');
+          return;
+        }
+        var s = document.createElement('script');
+        s.async = true;
+        s.crossOrigin = 'anonymous';
+        s.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8396981938969998';
+        document.head.appendChild(s);
+      })();
+    </script>
     <meta name="google-adsense-account" content="ca-pub-8396981938969998">
     <meta name="google-site-verification" content="91Ve1ym-i8a-a69blUWElesQzQcZUrofodDK5tfIr10" />
     <meta charset="utf-8">

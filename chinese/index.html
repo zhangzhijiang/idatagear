@@ -14,9 +14,24 @@
     This is a placeholder for base href that will be replaced by the value of
     the `--base-href` argument provided to `flutter build`.
   -->
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8396981938969998"
-  crossorigin="anonymous"></script>
-  
+  <!-- Google AdSense loader — production host only (prevents localhost/preview
+       self-clicks & invalid traffic; off-prod push({}) becomes a no-op). -->
+  <script>
+    (function () {
+      var PROD = ['www.idatagear.com', 'idatagear.com'];
+      if (PROD.indexOf(location.hostname) === -1) {
+        window.adsbygoogle = window.adsbygoogle || [];
+        if (window.console) console.info('[AdSense] disabled on non-production host:', location.hostname || '(local file)');
+        return;
+      }
+      var s = document.createElement('script');
+      s.async = true;
+      s.crossOrigin = 'anonymous';
+      s.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8396981938969998';
+      document.head.appendChild(s);
+    })();
+  </script>
+
   <base href="/chinese/">
   <meta name="google-adsense-account" content="ca-pub-8396981938969998">
   <meta charset="UTF-8">

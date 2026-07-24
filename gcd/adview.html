@@ -3,11 +3,16 @@
 <head>
   <meta charset="UTF-8">
   <style>
+    /* Breathing room so the ad is never rendered flush against surrounding
+       app UI (accidental-click prevention per AdSense placement policy). */
     body {
       margin: 0;
-      padding: 0;
+      padding: 12px;
+      box-sizing: border-box;
       overflow: hidden;
     }
+    /* Collapse the unit cleanly if the request is unfilled. */
+    ins.adsbygoogle[data-ad-status="unfilled"] { display: none !important; }
   </style>
 </head>
 <body>
@@ -19,8 +24,24 @@
        data-ad-slot="8136798205"
        data-ad-format="auto"
        data-full-width-responsive="true"></ins>
+  <!-- Loader is production-host only: live ads never render on localhost /
+       previews, preventing self-clicks / invalid traffic during testing.
+       Off-prod, adsbygoogle stays a plain array so push({}) is a no-op. -->
   <script>
-    (adsbygoogle = window.adsbygoogle || []).push({});
+    (function () {
+      var PROD = ['www.idatagear.com', 'idatagear.com'];
+      if (PROD.indexOf(location.hostname) === -1) {
+        window.adsbygoogle = window.adsbygoogle || [];
+        if (window.console) console.info('[AdSense] disabled on non-production host:', location.hostname || '(local file)');
+        return;
+      }
+      var s = document.createElement('script');
+      s.async = true;
+      s.crossOrigin = 'anonymous';
+      s.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8396981938969998';
+      document.head.appendChild(s);
+      (window.adsbygoogle = window.adsbygoogle || []).push({});
+    })();
   </script>
 </body>
 </html>

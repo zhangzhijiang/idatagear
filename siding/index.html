@@ -5,7 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
     <title>SiDing - Four Tops</title>
   <link rel="canonical" href="https://www.idatagear.com/siding/">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8396981938969998" crossorigin="anonymous"></script>
+    <!-- Google AdSense loader — production host only (prevents localhost/preview
+         self-clicks & invalid traffic; off-prod push({}) becomes a no-op). -->
+    <script>
+      (function () {
+        var PROD = ['www.idatagear.com', 'idatagear.com'];
+        if (PROD.indexOf(location.hostname) === -1) {
+          window.adsbygoogle = window.adsbygoogle || [];
+          if (window.console) console.info('[AdSense] disabled on non-production host:', location.hostname || '(local file)');
+          return;
+        }
+        var s = document.createElement('script');
+        s.async = true;
+        s.crossOrigin = 'anonymous';
+        s.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8396981938969998';
+        document.head.appendChild(s);
+      })();
+    </script>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
     <style>

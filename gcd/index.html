@@ -132,9 +132,25 @@
     }
   </style>
 
-  <!-- Google AdSense -->
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8396981938969998"
-    crossorigin="anonymous"></script>
+  <!-- Google AdSense loader — production host only.
+       Prevents live ad impressions/clicks during localhost/preview testing
+       (a primary cause of "invalid traffic"). Off-prod, adsbygoogle is a
+       plain array so any push({}) in the app bundle is a harmless no-op. -->
+  <script>
+    (function () {
+      var PROD = ['www.idatagear.com', 'idatagear.com'];
+      if (PROD.indexOf(location.hostname) === -1) {
+        window.adsbygoogle = window.adsbygoogle || [];
+        if (window.console) console.info('[AdSense] disabled on non-production host:', location.hostname || '(local file)');
+        return;
+      }
+      var s = document.createElement('script');
+      s.async = true;
+      s.crossOrigin = 'anonymous';
+      s.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8396981938969998';
+      document.head.appendChild(s);
+    })();
+  </script>
 
   <!--
     iOS Safari requires speechSynthesis.speak() to be called within a user
