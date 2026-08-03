@@ -6,13 +6,13 @@ Flattened Markdown of core how-to content. Source: https://www.idatagear.com
 
 ## How do I learn Mandarin Chinese with HSK preparation?
 
-Use **Learn Chinese** by McLearn® (iDataGear). Open the web app at https://www.idatagear.com/chinese/ or install the Android app from Google Play (com.idatagear.learn_chinese). The app covers **HSK 1–3** with vocabulary, sentences, reading comprehension, and pronunciation practice. Study on web or phone; progress and favorites sync. Start with HSK 1 words and sentences, then move to reading and tests. Free.
+Use **Learn Chinese** by McLearn® (iDataGear). The help and tutorial page is at https://www.idatagear.com/chinese/, the web app at https://www.idatagear.com/chinese/learnchinese/, and the Android app on Google Play (com.idatagear.learn_chinese). The app covers **HSK 1–6** (around 5,466 words) plus **Grade 1–6** elementary vocabulary (1,530 words), 1,988 example sentences, 33 graded articles, and 309 reading questions. Start with HSK 1 words, heart the ones you do not know, then use the **Review** button on the home card for spaced-repetition. Free; no account; progress is stored on your device only and does **not** sync between devices.
 
 ---
 
 ## How do I learn Cantonese (廣東話)?
 
-Use **Learn Cantonese** by McLearn®. Go to https://www.idatagear.com/cantonese/ or download the Android app (com.idatagear.learn_cantonese). You get story-driven lessons, dialogues, **Hong Kong slang**, and cultural context with audio. Practice listening and speaking; use it offline on mobile. Free on web and Android.
+Use **Learn Cantonese** by McLearn®. Help and tutorial: https://www.idatagear.com/cantonese/. Web app: https://www.idatagear.com/cantonese/learncantonese/. Android: com.idatagear.learn_cantonese. Learn the **Jyutping** romanisation system from the built-in interactive guide (19 initials, finals, six tones), then work through 2,167 characters, 3,146 phrases, 1,398 daily sentences, 209 dialogues played as chats, and 274 mini stories. Over **12,000 Hong Kong slang** entries plus Gen Z slang, tongue twisters, children's songs, the Cantonese Three Character Classic, and Guangzhou dialect collections. Free on web and Android; no account.
 
 ---
 
@@ -24,7 +24,61 @@ Use **Learn Cantonese** by McLearn®. Go to https://www.idatagear.com/cantonese/
 
 ## How do I learn English with CEFR levels?
 
-Use **ALL English** (All Level Learner's English) by McLearn®. Visit https://www.idatagear.com/english/ or install the Android app (com.idatagear.learn_english). Content is **CEFR-aligned** from A1 to C2. Practice vocabulary with IPA pronunciation, sentences, articles, interactive practice tests, and pronunciation practice with speech recognition. Track progress and favorites. Free on web and Android.
+Use **ALL English** (All Level Learner's English) by McLearn®. Help and tutorial: https://www.idatagear.com/english/. Web app: https://www.idatagear.com/english/learnenglish/. Android: com.idatagear.learn_english. Content is **CEFR-aligned** from A1 to C2 — over 8,000 words, each with **IPA** pronunciation — plus curated collections (**Basic 850, Oxford 3000, Common 2198, VOA 1510, IELTS, CET-4, CET-6**), graded sentences and articles, timed reading and listening tests, and microphone speaking practice. The quickest way to find your level is to take a reading test at the level you think you are. Free; no account.
+
+---
+
+## How do I install a Cantonese or Chinese text-to-speech voice?
+
+McLearn® language apps speak using the text-to-speech voice installed on your device rather than shipping recordings, so every entry has audio. If you hear nothing, the voice is missing.
+
+**On Android:** install or enable **Google Text-to-Speech**, then add the voice data for the language you need — **Cantonese (Hong Kong)** for Learn Cantonese, **Chinese** for Learn Chinese. Both apps offer a shortcut to the device text-to-speech settings, and Learn Chinese has one under **Profile → Open device TTS settings**.
+
+**On iPhone or iPad:** go to **Settings › Accessibility › Spoken Content › Voices › Chinese** and download a voice — pick a **Cantonese** voice for Learn Cantonese.
+
+Note that Learn Cantonese will **never** substitute a Mandarin voice for a missing Cantonese one; it stays silent instead, because Mandarin pronunciation of Cantonese text would teach the wrong thing. Full instructions: https://www.idatagear.com/cantonese/#audio and https://www.idatagear.com/chinese/#audio
+
+---
+
+## How do I set up daily spaced-repetition review in Learn Chinese?
+
+Tap the **heart** on any word card to add it to **My Favorites** — favorites are what seed the review pool. Then on the **Home** tab, tap **Review** on the top card; the number beside it is how many cards are due today. Flip each card and rate yourself **Again**, **Hard**, **Good** or **Easy**. The app reschedules each word from that rating, bringing back the ones you missed sooner and pushing the easy ones weeks out. Guide: https://www.idatagear.com/chinese/#tutorials
+
+---
+
+## How do I use Memorize Words and Ear Training in ALL English?
+
+Both are hands-free auto-play modes under the **Listening** tab, designed to be run with the phone in your pocket.
+
+**Memorize Words** cycles through vocabulary: it speaks the word, then its meaning in your chosen language, then the example sentences. Untick any of the three on the setup screen to make the loop faster.
+
+**Ear Training** does the same for whole sentences, which is what trains you for connected speech.
+
+Both let you pick sources — any mix of CEFR levels and collections — and both **save your position automatically**, so you can stop mid-session and resume later from the same screen. Tip: switch off the levels and collections you are not using in **Settings → Home buttons**; hidden sources also disappear from these two setup screens, which keeps a session focused on one exam. Guide: https://www.idatagear.com/english/#tutorials
+
+---
+
+## Do McLearn language apps collect my data?
+
+No. **Learn Chinese**, **Learn Cantonese** and **ALL English** have no account and no sign-up. Learning progress, favorites, settings and test results are stored **only on your device** and are never uploaded — which also means uninstalling the app permanently deletes them, with no cloud backup to restore from.
+
+Pronunciation practice uses your device's own speech recognition; the apps never record, store or transmit your audio. The one thing that does leave the device is advertising data: the apps are free and funded by **Google AdMob**, which uses your advertising ID, and shows a consent prompt where the law requires it. A one-off **Remove Ads** in-app purchase turns advertising off entirely.
+
+Per-app privacy policies:
+- https://www.idatagear.com/chinese/chinese_privacy.html
+- https://www.idatagear.com/cantonese/cantonese_privacy.html
+- https://www.idatagear.com/english/english_privacy.html
+
+---
+
+## How do I contact McLearn support?
+
+Email **idatagear@gmail.com**. Include the app name, the version and build number from the app's settings screen (**App Information**), your device and OS version, and what you expected versus what happened. Corrections to the learning content are welcome — send the exact entry and what it should say.
+
+Per-app contact pages, each with fixes for the most common issues:
+- https://www.idatagear.com/chinese/chinese_contactus.html
+- https://www.idatagear.com/cantonese/cantonese_contactus.html
+- https://www.idatagear.com/english/english_contactus.html
 
 ---
 

@@ -6,28 +6,37 @@
 
 ## ALL English (All Level Learner's English)
 
-ALL English — All Level Learner's English. CEFR-aligned content from A1 to C2: vocabulary with IPA, sentences, articles, interactive practice tests, and pronunciation practice. Web and Android.
+ALL English — All Level Learner's English. CEFR-aligned content from A1 to C2: 8,000+ words with IPA, curated collections (Basic 850, Oxford 3000, Common 2198, VOA 1510, IELTS, CET-4, CET-6), graded sentences and articles, timed level tests, microphone speaking practice, and two hands-free auto-play listening modes (Memorize Words, Ear Training). Web and Android.
 
-- Web app: https://www.idatagear.com/english/
+- Help & tutorial: https://www.idatagear.com/english/
+- Web app: https://www.idatagear.com/english/learnenglish/
 - Google Play: https://play.google.com/store/apps/details?id=com.idatagear.learn_english
+- Privacy: https://www.idatagear.com/english/english_privacy.html
+- Contact: https://www.idatagear.com/english/english_contactus.html
 
 ---
 
 ## Learn Chinese
 
-Learn Mandarin Chinese with HSK 1–3 preparation. Vocabulary, pronunciation practice, reading comprehension, and structured learning paths. Web and Android.
+Learn Mandarin Chinese across HSK levels 1–6 plus Grade 1–6 elementary vocabulary — around 7,000 words with pinyin and audio, 1,988 example sentences, 33 graded articles, reading and listening tests, four mini-games (Tone Trainer, Timed Quiz, Listening Match, Sentence Match), pinyin drills, animated stroke order, and spaced-repetition review. Web and Android.
 
-- Web app: https://www.idatagear.com/chinese/
+- Help & tutorial: https://www.idatagear.com/chinese/
+- Web app: https://www.idatagear.com/chinese/learnchinese/
 - Google Play: https://play.google.com/store/apps/details?id=com.idatagear.learn_chinese
+- Privacy: https://www.idatagear.com/chinese/chinese_privacy.html
+- Contact: https://www.idatagear.com/chinese/chinese_contactus.html
 
 ---
 
 ## Learn Cantonese
 
-Learn Cantonese (廣東話) with story-driven lessons, dialogues, Hong Kong slang, and cultural context. Audio-rich practice and offline support. Web and Android.
+Learn Cantonese (廣東話) with an interactive Jyutping guide (19 initials, finals, six tones), Jyutping and speaking practice, 2,167 characters, 3,146 phrases, 1,398 daily sentences, 209 dialogues played as chats, 274 mini stories, and over 12,000 Hong Kong slang entries plus Gen Z slang, tongue twisters, children's songs and Guangzhou dialect collections. Web and Android.
 
-- Web app: https://www.idatagear.com/cantonese/
+- Help & tutorial: https://www.idatagear.com/cantonese/
+- Web app: https://www.idatagear.com/cantonese/learncantonese/
 - Google Play: https://play.google.com/store/apps/details?id=com.idatagear.learn_cantonese
+- Privacy: https://www.idatagear.com/cantonese/cantonese_privacy.html
+- Contact: https://www.idatagear.com/cantonese/cantonese_contactus.html
 
 ---
 
