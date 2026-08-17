@@ -1,270 +1,606 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="en" dir="ltr">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="theme-color" content="#071512" media="(prefers-color-scheme: dark)">
-  <meta name="theme-color" content="#f7f3ea" media="(prefers-color-scheme: light)">
-  <meta name="color-scheme" content="dark light">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="index,follow">
+<title>ALL English — Privacy Policy &amp; Terms of Service</title>
+<style>:root{--fg:#1a1a1a;--muted:#5a5a5a;--rule:#e3e3e3;--bg:#fff;--accent:#0060fd}
+@media(prefers-color-scheme:dark){:root{--fg:#e8e8e8;--muted:#a5a5a5;--rule:#333;--bg:#131313;--accent:#5aa7ff}}
+*{box-sizing:border-box}
+body{margin:0;padding:2.5rem 1.25rem 5rem;background:var(--bg);color:var(--fg);
+ font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif}
+main{max-width:44rem;margin:0 auto}
+h1{font-size:1.8rem;line-height:1.25;margin:0 0 .35rem}
+h2{font-size:1.15rem;margin:2.25rem 0 .6rem;padding-top:1.1rem;border-top:1px solid var(--rule)}
+.updated{color:var(--muted);font-size:.9rem;margin:0 0 2rem}
+ul{padding-inline-start:1.35rem}
+li{margin:.35rem 0}
+a{color:var(--accent)}
+strong{font-weight:650}
+.note{background:color-mix(in srgb,var(--accent) 8%,transparent);
+ border-inline-start:3px solid var(--accent);padding:.85rem 1rem;margin:1.25rem 0;border-radius:0 6px 6px 0}
+footer{margin-top:3rem;padding-top:1.1rem;border-top:1px solid var(--rule);color:var(--muted);font-size:.9rem}
 
-  <title>ALL English — Privacy Policy | iDataGear</title>
-  <meta name="description" content="Privacy policy for ALL English by iDataGear. No account, no sign-up: your learning data stays on your own device. Explains microphone use, advertising, in-app purchases and your choices.">
-  <link rel="canonical" href="https://www.idatagear.com/english/english_privacy.html">
-
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://www.idatagear.com/english/english_privacy.html">
-  <meta property="og:title" content="ALL English — Privacy Policy | iDataGear">
-  <meta property="og:description" content="Privacy policy for ALL English by iDataGear. No account, no sign-up: your learning data stays on your own device. Explains microphone use, advertising, in-app purchases and your choices.">
-  <meta property="og:image" content="https://www.idatagear.com/assets/img/all-english-app-icon.png">
-  <meta name="twitter:card" content="summary">
-
-  <link rel="icon" type="image/png" sizes="32x32" href="../assets/img/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="192x192" href="../assets/img/favicon-192x192.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="../assets/img/apple-touch-icon.png">
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
-  <link href="../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-
-  <!-- Set theme before first paint to avoid a flash of the wrong theme -->
-  <script>
-  (function () {
-    var t = null;
-    try { t = localStorage.getItem('theme'); } catch (e) {}
-    if (t !== 'light' && t !== 'dark') {
-      t = (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches) ? 'light' : 'dark';
-    }
-    document.documentElement.setAttribute('data-theme', t);
-  })();
-  </script>
-  <link rel="stylesheet" href="../assets/css/style.css">
-  <link rel="stylesheet" href="../assets/css/help.css">
-
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "WebPage",
-    "name": "ALL English — Privacy Policy",
-    "url": "https://www.idatagear.com/english/english_privacy.html",
-    "inLanguage": "en",
-    "dateModified": "2026-08-02",
-    "about": { "@type": "SoftwareApplication", "name": "ALL English" },
-    "publisher": { "@type": "Organization", "name": "iDataGear Inc", "url": "https://www.idatagear.com" }
-  }
-  </script>
+.switch{display:flex;flex-wrap:wrap;gap:.4rem;margin:0 0 .75rem}
+.switch button{font:inherit;font-size:.9rem;padding:.4rem .85rem;border-radius:999px;
+ border:1px solid var(--rule);background:transparent;color:var(--fg);cursor:pointer}
+.switch button[aria-selected="true"]{background:var(--accent);border-color:var(--accent);color:#fff;font-weight:600}
+.switch button:hover:not([aria-selected="true"]){border-color:var(--accent)}
+nav.tabs{margin:0 0 2rem;padding-bottom:1.25rem;border-bottom:1px solid var(--rule)}
+/* Progressive enhancement: with JS off, every section stays visible and the
+   table of contents anchors work. Only a JS-enabled page filters. */
+.js .doc{display:none}
+.js .doc.active{display:block}
+.js .toc{display:none}
+.doc{margin-bottom:3.5rem}
+.toc{margin:0 0 2.5rem;padding:1rem 1.25rem;border:1px solid var(--rule);border-radius:8px}
+.toc h2{margin:0 0 .5rem;padding:0;border:0;font-size:1rem}
+.toc ul{margin:0;padding-inline-start:1.2rem}</style>
 </head>
 <body>
-  <a class="sr-only" href="#main">Skip to content</a>
+<main>
+<h1 id="top">ALL English</h1>
+<p class="updated">Privacy Policy &amp; Terms of Service · Política de Privacidad y Términos ·
+隐私政策与服务条款 · سياسة الخصوصية وشروط الخدمة</p>
 
-  <header class="site-header" id="top">
-    <div class="logo"><a href="../index.html">iDataGear</a></div>
-    <nav class="site-nav" id="site-nav">
-      <a href="../index.html">Home</a>
-      <a href="../index.html#products"><span class="mclearn-mark" role="text" aria-label="McLearn registered trademark">McLearn</span></a>
-      <a href="index.html">Help</a>
-      <a href="english_privacy.html" class="active" aria-current="page">Privacy</a>
-      <a href="english_contactus.html">Contact</a>
-      <div class="nav-product-links">
-        <a class="cta-link" href="learnenglish/">Open the app</a>
-      </div>
-    </nav>
-    <button class="theme-toggle" type="button" aria-label="Toggle colour theme">
-      <i class="bi bi-sun"></i><i class="bi bi-moon-stars"></i>
-    </button>
-    <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false"><span></span><span></span><span></span></button>
-  </header>
+<nav class="tabs" aria-label="Document and language">
+  <div class="switch" id="docs" role="tablist" aria-label="Document"><button type="button" role="tab" data-doc="privacy" aria-selected="true">Privacy Policy</button><button type="button" role="tab" data-doc="terms" aria-selected="false">Terms of Service</button></div>
+  <div class="switch" id="langs" role="tablist" aria-label="Language"><button type="button" role="tab" data-lang="en" aria-selected="false">English</button><button type="button" role="tab" data-lang="es" aria-selected="false">Español</button><button type="button" role="tab" data-lang="zh" aria-selected="false">中文</button><button type="button" role="tab" data-lang="ar" aria-selected="false">العربية</button></div>
+</nav>
 
-  <main id="main" class="prose">
-      <nav class="crumbs" aria-label="Breadcrumb">
-        <a href="../index.html">iDataGear</a>
-        <span class="sep">/</span>
-        <a href="index.html">ALL English</a>
-        <span class="sep">/</span>
-        <span>Privacy Policy</span>
-      </nav>
+<div class="toc">
+  <h2>Contents</h2>
+  <ul><li><a href="#privacy-en">Privacy Policy (English)</a></li>
+<li><a href="#privacy-es">Política de Privacidad (Español)</a></li>
+<li><a href="#privacy-zh">隐私政策 (中文)</a></li>
+<li><a href="#privacy-ar">سياسة الخصوصية (العربية)</a></li>
+<li><a href="#terms-en">Terms of Service (English)</a></li>
+<li><a href="#terms-es">Términos del Servicio (Español)</a></li>
+<li><a href="#terms-zh">服务条款 (中文)</a></li>
+<li><a href="#terms-ar">شروط الخدمة (العربية)</a></li></ul>
+</div>
 
-    <span class="eyebrow">Privacy</span>
-    <h1 class="page-title">ALL English — Privacy Policy</h1>
-    <p class="updated">Last updated: 2 August 2026 · iDataGear Inc</p>
+<section class="doc" id="privacy-en" lang="en" dir="ltr">
+<h2 style="border:0;padding:0;margin-top:0;font-size:1.45rem">Privacy Policy</h2>
+<p class="updated">Last updated: 16 August 2026</p>
+<div class="note"><strong>ALL English does not collect your personal data.</strong>
+The app has no user accounts, no analytics, no advertising and no server of its
+own. Everything it needs ships inside the app, and everything you do stays on
+your device.</div>
 
-    <div class="callout">
-      <p><strong>The short version.</strong> ALL English has <strong>no account and no sign-up</strong>.
-      Everything you do in the app — your progress, your settings, your saved items — is stored
-      <strong>on your own device</strong> and is never uploaded to us. We do not collect, transmit or
-      sell your personal data. The app does show ads, and those ads are served by Google, which is the
-      one place data leaves your device. Details below.</p>
-    </div>
+<h2>What we collect</h2>
+<p><strong>Nothing.</strong> We operate no servers and receive no data from the
+app. There is no sign-up, no login and no profile.</p>
 
-    <h2>1. Who we are</h2>
-    <p>
-      iDataGear Inc ("we", "us") publishes the ALL English mobile application and the web version
-      hosted at <a href="learnenglish/">idatagear.com/english/learnenglish/</a>.
-      This policy covers both. Questions go to
-      <a href="mailto:idatagear@gmail.com">idatagear@gmail.com</a>.
-    </p>
+<h2>What stays on your device</h2>
+<p>The app stores the following locally, in its own private storage:</p>
+<ul>
+<li>Your learning progress, test results and streak</li>
+<li>Words and sentences you mark as favourites</li>
+<li>Your settings: interface language, voice, accent and speech speed</li>
+</ul>
+<p>This never leaves your device. Deleting the app deletes all of it. We cannot
+see it, recover it or transfer it between your devices.</p>
 
-    <h2>2. Information we collect about you</h2>
-    <p>
-      <strong>None.</strong> We do not ask for your name, email address, phone number or date of birth.
-      There is no registration, no login, and no user profile held on any server of ours. We have no way
-      to identify you and no database of users.
-    </p>
+<h2>Microphone and speech recognition</h2>
+<p>Speaking Practice asks for microphone and speech-recognition permission. It is
+requested only when you first use that screen, and the rest of the app works
+without it.</p>
+<p>When you hold the microphone button, your speech is passed to the speech
+recognition provided by your operating system - Apple on iOS, Google on Android -
+which returns text. <strong>We receive only that text</strong>, we compare it with
+the sentence on screen to produce a score, and we discard it. No audio is
+recorded, stored or transmitted by us.</p>
+<p>Your operating system's speech recognition may process audio on the device or
+on its provider's servers, depending on your device, language and settings. That
+processing is governed by
+<a href="https://www.apple.com/legal/privacy/">Apple's</a> and
+<a href="https://policies.google.com/privacy">Google's</a> privacy policies, not
+by this one.</p>
 
-    <h2>3. Data stored on your own device</h2>
-    <p>The app saves the following locally, in its own storage on your device:</p>
-    <ul>
-      <li>Your learning progress, streak and any test results</li>
-      <li>Items you have saved or marked</li>
-      <li>Your settings — chosen voice, playback speed, display language and layout preferences</li>
-      <li>Whether you have purchased Remove Ads</li>
-    </ul>
-    <p>
-      This data never leaves your device. We cannot read it, we do not back it up, and there is no cloud
-      sync. The practical consequence is worth stating plainly: <strong>uninstalling the app permanently
-      deletes all of it</strong>, and there is no way for us or for you to recover it afterwards.
-    </p>
+<h2>Purchases</h2>
+<p>Where the app offers an optional subscription, the purchase is handled entirely
+by the App Store or Google Play. We never see or receive your payment details.</p>
 
-    <h2>4. Microphone and speech recognition</h2>
-    <p>
-      ALL English includes pronunciation practice (Speaking practice). When you use it, the app asks
-      for microphone permission and passes your speech to <strong>your device's own built-in speech
-      recognition service</strong> to turn it into text.
-    </p>
-    <p>
-      <strong>We never receive, record or store your audio.</strong> The app only compares the text your
-      device produced against the target text in order to score you. The microphone is active only while
-      a speaking feature is actually on screen, and you can decline or later revoke the permission in your
-      device settings — everything else in the app continues to work without it.
-    </p>
-    <p>
-      Depending on your device and settings, your operating system's speech recognition may process audio
-      on-device or on the vendor's servers. That processing is governed by your device maker's privacy
-      policy (for example Google's or Apple's), not by ours.
-    </p>
+<h2>Advertising</h2>
+<p>The app contains <strong>no advertising</strong>. There is no advertising SDK,
+no Advertising ID collection and no data shared with any ad network.</p>
 
-    <h2>5. Advertising</h2>
-    <h3>In the Android app</h3>
-    <p>
-      The app is free and is funded by ads served through <strong>Google AdMob</strong>. To show and measure
-      ads, Google and its partners may collect and use certain information, including your device's
-      <strong>advertising identifier</strong>, general device information, and ad interaction data. This is
-      the only category of data in the app that leaves your device.
-    </p>
-    <p>
-      Where the law requires it — in the EEA, the UK and other applicable regions — the app shows a consent
-      prompt from <strong>Google's User Messaging Platform</strong> before any ad request is made, so you
-      can choose how your data is used for advertising. You can change that choice later from the app or
-      your device settings.
-    </p>
-    <h3>On this website</h3>
-    <p>
-      idatagear.com participates in <strong>Google AdSense</strong>. Pages on this site, including the web
-      version of ALL English, may load Google's advertising script, which can set cookies and use your
-      IP address and browsing activity to show and measure ads. This help, privacy and contact page set
-      does not carry ad units.
-    </p>
-    <h3>Your advertising choices</h3>
-    <ul>
-      <li>Reset or delete your <strong>advertising ID</strong> in your device settings at any time.</li>
-      <li>Opt out of personalised ads at <a href="https://adssettings.google.com" target="_blank" rel="noopener">adssettings.google.com</a>.</li>
-      <li>Read how Google uses data at <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener">policies.google.com/technologies/ads</a> and <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">policies.google.com/privacy</a>.</li>
-      <li>Industry opt-outs: <a href="https://www.aboutads.info/choices/" target="_blank" rel="noopener">aboutads.info/choices</a> (US) and <a href="https://www.youronlinechoices.eu/" target="_blank" rel="noopener">youronlinechoices.eu</a> (EU).</li>
-      <li>Or remove ads entirely with the one-off in-app purchase described below.</li>
-    </ul>
+<h2>Children</h2>
+<p>The app is suitable for all ages and collects no personal information from
+anyone, including children.</p>
 
-    <h2>6. Purchases</h2>
-    <p>
-      ALL English offers a single optional in-app purchase, <strong>Remove Ads</strong>, which hides
-      advertising permanently. The transaction is handled entirely by <strong>Google Play Billing</strong>.
-      We never see or store your payment card, billing address or any other payment detail — we only
-      receive confirmation from Google that the purchase is active.
-    </p>
-    <p>
-      Your purchase is tied to your Google account, not to your device, so it can be restored on a new
-      phone with <strong>Settings → Restore</strong>.
-    </p>
+<h2>Your rights</h2>
+<p>Because we hold no data about you, there is nothing for us to export, correct
+or delete. You are in full control: uninstalling the app removes everything it
+stored.</p>
 
-    <h2>7. What we share</h2>
-    <p>
-      <strong>We do not sell your data, and we do not share it with anyone for our own purposes.</strong>
-      The only third parties involved are the ones described above:
-    </p>
-    <ul>
-      <li><strong>Google AdMob and its advertising partners</strong> — to deliver and measure ads in the app.</li>
-      <li><strong>Google AdSense</strong> — to deliver and measure ads on this website.</li>
-      <li><strong>Google Play</strong> — to process the Remove Ads purchase.</li>
-      <li><strong>Your device's speech recognition provider</strong> — only while you are using pronunciation practice.</li>
-    </ul>
-    <p>
-      We use no analytics SDK, no crash reporting service, and no social media trackers in the app.
-    </p>
+<h2>Changes</h2>
+<p>This policy describes the app as it is today. If its data practices change -
+for example if user accounts, advertising or a paid subscription are introduced -
+this policy will be updated here, with a new date above, before those changes
+take effect. Nothing in this policy is a permanent commitment about which
+features the app will or will not have.</p>
 
-    <h2>8. Internet access</h2>
-    <p>
-      The learning content is bundled with the app and stored on your device, so the material itself works
-      without a connection. The app still reaches the network to request ads, to verify a purchase, and —
-      on first launch — to fetch its display font. Speech features may also need a connection or a one-time
-      voice download depending on your device.
-    </p>
+<h2>Contact</h2>
+<p>Questions about this policy: <a href="mailto:idatagear@gmail.com">idatagear@gmail.com</a></p>
+</section>
 
-    <h2>9. Children</h2>
-    <p>
-      ALL English is intended for a general audience and is not directed at children under 13. We do not
-      knowingly collect personal information from children. If you believe a child has provided us with
-      personal information, contact us at <a href="mailto:idatagear@gmail.com">idatagear@gmail.com</a> and we will act on it —
-      though in practice, because the app collects nothing and requires no account, there is normally
-      nothing for us to hold or delete.
-    </p>
+<section class="doc" id="privacy-es" lang="es" dir="ltr">
+<h2 style="border:0;padding:0;margin-top:0;font-size:1.45rem">Política de Privacidad</h2>
+<p class="updated">Última actualización: 16 de agosto de 2026</p>
+<div class="note"><strong>ALL English no recopila tus datos personales.</strong>
+La aplicación no tiene cuentas de usuario, ni analíticas, ni publicidad, ni
+servidor propio. Todo lo que necesita viene dentro de la aplicación, y todo lo
+que haces permanece en tu dispositivo.</div>
 
-    <h2>10. Your rights and choices</h2>
-    <ul>
-      <li><strong>Delete everything:</strong> uninstall the app. All locally stored data goes with it.</li>
-      <li><strong>Revoke microphone access:</strong> your device's app permission settings, at any time.</li>
-      <li><strong>Reset your advertising ID</strong> or opt out of personalised ads: your device settings.</li>
-      <li><strong>Change your ad-consent choice</strong> (EEA/UK): via the in-app consent prompt.</li>
-      <li><strong>Remove ads:</strong> the one-off in-app purchase.</li>
-      <li><strong>Ask us anything:</strong> <a href="mailto:idatagear@gmail.com">idatagear@gmail.com</a>.</li>
-    </ul>
-    <p>
-      Because we hold no personal data about you, there is nothing for us to export, correct or erase on
-      request — but if you would like that confirmed in writing, just ask.
-    </p>
+<h2>Qué recopilamos</h2>
+<p><strong>Nada.</strong> No operamos servidores y no recibimos ningún dato de la
+aplicación. No hay registro, ni inicio de sesión, ni perfil.</p>
 
-    <h2>11. Changes to this policy</h2>
-    <p>
-      We may update this policy as the app changes. The date at the top always reflects the current version.
-      Material changes will be noted on this page.
-    </p>
+<h2>Qué permanece en tu dispositivo</h2>
+<p>La aplicación guarda lo siguiente de forma local, en su almacenamiento
+privado:</p>
+<ul>
+<li>Tu progreso de aprendizaje, resultados de pruebas y racha diaria</li>
+<li>Las palabras y frases que marcas como favoritas</li>
+<li>Tus ajustes: idioma de la interfaz, voz, acento y velocidad del habla</li>
+</ul>
+<p>Esto nunca sale de tu dispositivo. Al desinstalar la aplicación se elimina
+todo. No podemos verlo, recuperarlo ni transferirlo entre tus dispositivos.</p>
 
-    <h2>12. Contact</h2>
-    <p>
-      iDataGear Inc<br>
-      Email: <a href="mailto:idatagear@gmail.com">idatagear@gmail.com</a><br>
-      Web: <a href="https://www.idatagear.com">www.idatagear.com</a>
-    </p>
+<h2>Micrófono y reconocimiento de voz</h2>
+<p>La práctica de pronunciación solicita permiso de micrófono y de reconocimiento
+de voz. Solo se pide la primera vez que usas esa pantalla, y el resto de la
+aplicación funciona sin él.</p>
+<p>Cuando mantienes pulsado el botón del micrófono, tu voz se envía al
+reconocimiento de voz de tu sistema operativo - Apple en iOS, Google en Android -
+que devuelve texto. <strong>Solo recibimos ese texto</strong>, lo comparamos con
+la frase en pantalla para generar una puntuación y lo descartamos. No grabamos,
+almacenamos ni transmitimos ningún audio.</p>
+<p>El reconocimiento de voz de tu sistema operativo puede procesar el audio en el
+dispositivo o en los servidores de su proveedor, según tu dispositivo, idioma y
+ajustes. Ese procesamiento se rige por las políticas de privacidad de
+<a href="https://www.apple.com/legal/privacy/">Apple</a> y
+<a href="https://policies.google.com/privacy">Google</a>, no por esta.</p>
 
-    <div class="page-links">
-      <a class="btn btn-primary" href="index.html">ALL English help &amp; tutorial</a>
-      <a class="btn btn-outline" href="english_contactus.html">Contact us</a>
-      <a class="btn btn-ghost" href="../privacy.html">Site-wide privacy policy</a>
-    </div>
-  </main>
+<h2>Compras</h2>
+<p>Cuando la aplicación ofrece una suscripción opcional, la compra la gestionan
+íntegramente App Store o Google Play. Nunca vemos ni recibimos tus datos de
+pago.</p>
 
-  <footer class="site-footer">
-    <div class="footer-simple">
-      <p>© <span id="year">2026</span> iDataGear Inc · <span class="mclearn-mark" role="text" aria-label="McLearn registered trademark">McLearn</span></p>
-      <nav aria-label="Footer">
-        <a href="../index.html">Home</a>
-        <a href="index.html">ALL English help</a>
-        <a href="learnenglish/">ALL English app</a>
-        <a href="english_privacy.html">Privacy</a>
-        <a href="english_contactus.html">Contact</a>
-        <a href="mailto:idatagear@gmail.com">idatagear@gmail.com</a>
-      </nav>
-    </div>
-  </footer>
+<h2>Publicidad</h2>
+<p>La aplicación <strong>no contiene publicidad</strong>. No hay ningún SDK
+publicitario, no se recopila el identificador de publicidad y no se comparte
+ningún dato con redes de anuncios.</p>
 
-  <script src="../assets/js/main.js" defer></script>
+<h2>Menores</h2>
+<p>La aplicación es apta para todas las edades y no recopila información personal
+de nadie, incluidos los menores.</p>
+
+<h2>Tus derechos</h2>
+<p>Como no conservamos ningún dato sobre ti, no hay nada que podamos exportar,
+corregir o eliminar. Tú tienes el control total: desinstalar la aplicación
+elimina todo lo que guardó.</p>
+
+<h2>Cambios</h2>
+<p>Esta política describe la aplicación tal como es hoy. Si sus prácticas de
+datos cambian - por ejemplo, si se introducen cuentas de usuario, publicidad o
+una suscripción de pago - esta política se actualizará aquí, con una nueva fecha
+arriba, antes de que esos cambios entren en vigor. Nada en esta política
+constituye un compromiso permanente sobre qué funciones tendrá o no tendrá la
+aplicación.</p>
+
+<h2>Contacto</h2>
+<p>Consultas sobre esta política: <a href="mailto:idatagear@gmail.com">idatagear@gmail.com</a></p>
+</section>
+
+<section class="doc" id="privacy-zh" lang="zh-Hans" dir="ltr">
+<h2 style="border:0;padding:0;margin-top:0;font-size:1.45rem">隐私政策</h2>
+<p class="updated">最后更新：2026 年 8 月 16 日</p>
+<div class="note"><strong>ALL English 不收集你的个人数据。</strong>
+本应用没有用户账号、没有分析统计、没有广告，也没有自己的服务器。所需的全部内容都随应用一起提供，你的一切操作都保留在你的设备上。</div>
+
+<h2>我们收集什么</h2>
+<p><strong>不收集任何内容。</strong>我们不运营任何服务器，也不会从应用接收任何数据。无需注册，无需登录，没有个人资料。</p>
+
+<h2>哪些内容保存在你的设备上</h2>
+<p>应用会在其私有存储空间中本地保存以下内容：</p>
+<ul>
+<li>学习进度、测试结果与连续学习天数</li>
+<li>你收藏的单词与句子</li>
+<li>你的设置：界面语言、语音、口音与语速</li>
+</ul>
+<p>这些内容绝不会离开你的设备。卸载应用即会全部删除。我们无法查看、恢复或在你的设备之间转移这些内容。</p>
+
+<h2>麦克风与语音识别</h2>
+<p>口语练习会请求麦克风与语音识别权限。仅在你首次使用该界面时请求，应用的其余功能无需该权限即可使用。</p>
+<p>当你按住麦克风按钮时，你的语音会交由操作系统提供的语音识别处理——iOS 上为 Apple，Android 上为 Google——并返回文本。<strong>我们只接收该文本</strong>，将其与屏幕上的句子比对以生成评分，随后即丢弃。我们不会录制、存储或传输任何音频。</p>
+<p>操作系统的语音识别可能在设备端处理音频，也可能在其提供商的服务器上处理，具体取决于你的设备、语言与设置。该处理受
+<a href="https://www.apple.com/legal/privacy/">Apple</a> 与
+<a href="https://policies.google.com/privacy">Google</a> 的隐私政策约束，而非本政策。</p>
+
+<h2>购买</h2>
+<p>当应用提供可选订阅时，购买流程完全由 App Store 或 Google Play 处理。我们绝不会看到或接收你的支付信息。</p>
+
+<h2>广告</h2>
+<p>本应用<strong>不含任何广告</strong>。没有广告 SDK，不收集广告标识符，也不会与任何广告网络共享数据。</p>
+
+<h2>儿童</h2>
+<p>本应用适合所有年龄段使用，不会收集包括儿童在内的任何人的个人信息。</p>
+
+<h2>你的权利</h2>
+<p>由于我们不持有你的任何数据，也就没有可供导出、更正或删除的内容。控制权完全在你手中：卸载应用即可清除其保存的一切。</p>
+
+<h2>变更</h2>
+<p>本政策描述的是本应用当前的情况。若其数据处理方式发生变化——例如引入用户账号、广告或付费订阅——我们会在这些变化生效前更新本页面的政策并更新上方日期。本政策不构成关于本应用将来是否包含某项功能的永久承诺。</p>
+
+<h2>联系方式</h2>
+<p>关于本政策的问题：<a href="mailto:idatagear@gmail.com">idatagear@gmail.com</a></p>
+</section>
+
+<section class="doc" id="privacy-ar" lang="ar" dir="rtl">
+<h2 style="border:0;padding:0;margin-top:0;font-size:1.45rem">سياسة الخصوصية</h2>
+<p class="updated">آخر تحديث: 16 أغسطس 2026</p>
+<div class="note"><strong>لا يجمع تطبيق ALL English بياناتك الشخصية.</strong>
+لا يحتوي التطبيق على حسابات مستخدمين ولا تحليلات ولا إعلانات ولا خادم خاص به.
+كل ما يحتاجه مضمّن داخل التطبيق، وكل ما تقوم به يبقى على جهازك.</div>
+
+<h2>ما الذي نجمعه</h2>
+<p><strong>لا شيء.</strong> نحن لا نُشغّل أي خوادم ولا نتلقى أي بيانات من
+التطبيق. لا يوجد تسجيل ولا تسجيل دخول ولا ملف شخصي.</p>
+
+<h2>ما الذي يبقى على جهازك</h2>
+<p>يحفظ التطبيق ما يلي محليًا في مساحة تخزينه الخاصة:</p>
+<ul>
+<li>تقدّمك في التعلم ونتائج الاختبارات وعدّاد الأيام المتتالية</li>
+<li>الكلمات والجمل التي تضيفها إلى المفضلة</li>
+<li>إعداداتك: لغة الواجهة والصوت واللهجة وسرعة النطق</li>
+</ul>
+<p>لا تغادر هذه البيانات جهازك أبدًا. حذف التطبيق يحذفها جميعًا. لا يمكننا
+الاطلاع عليها أو استعادتها أو نقلها بين أجهزتك.</p>
+
+<h2>الميكروفون والتعرف على الكلام</h2>
+<p>تطلب شاشة التدرّب على النطق إذن الميكروفون وإذن التعرف على الكلام. يُطلب ذلك
+فقط عند استخدامك لتلك الشاشة لأول مرة، وبقية التطبيق تعمل دونه.</p>
+<p>عند الضغط مطولًا على زر الميكروفون، يُمرَّر صوتك إلى خدمة التعرف على الكلام
+التي يوفّرها نظام التشغيل — Apple على iOS و Google على Android — التي تُعيد نصًا.
+<strong>نحن نتلقى ذلك النص فقط</strong>، ونقارنه بالجملة المعروضة لإنتاج درجة، ثم
+نتخلص منه. نحن لا نسجّل أي صوت ولا نخزّنه ولا ننقله.</p>
+<p>قد تعالج خدمة التعرف على الكلام في نظام التشغيل الصوت على الجهاز أو على خوادم
+مزوّدها، حسب جهازك ولغتك وإعداداتك. تخضع تلك المعالجة لسياستَي الخصوصية الخاصتين
+بـ <a href="https://www.apple.com/legal/privacy/">Apple</a> و
+<a href="https://policies.google.com/privacy">Google</a>، وليس لهذه السياسة.</p>
+
+<h2>المشتريات</h2>
+<p>عندما يوفّر التطبيق اشتراكًا اختياريًا، تتم عملية الشراء بالكامل عبر App Store
+أو Google Play. نحن لا نرى بيانات الدفع الخاصة بك ولا نتلقاها إطلاقًا.</p>
+
+<h2>الإعلانات</h2>
+<p>لا يحتوي التطبيق على <strong>أي إعلانات</strong>. لا توجد أي حزمة تطوير
+إعلانية، ولا يتم جمع معرّف الإعلانات، ولا تُشارَك أي بيانات مع شبكات الإعلانات.</p>
+
+<h2>الأطفال</h2>
+<p>التطبيق مناسب لجميع الأعمار ولا يجمع أي معلومات شخصية من أي شخص، بمن في ذلك
+الأطفال.</p>
+
+<h2>حقوقك</h2>
+<p>بما أننا لا نحتفظ بأي بيانات عنك، فلا يوجد ما يمكننا تصديره أو تصحيحه أو
+حذفه. التحكم الكامل بيدك: إلغاء تثبيت التطبيق يزيل كل ما حفظه.</p>
+
+<h2>التغييرات</h2>
+<p>تصف هذه السياسة التطبيق كما هو اليوم. وإذا تغيّرت ممارسات البيانات فيه — مثل
+إضافة حسابات مستخدمين أو إعلانات أو اشتراك مدفوع — فسيتم تحديث هذه السياسة هنا،
+مع تاريخ جديد أعلاه، قبل أن تدخل تلك التغييرات حيّز التنفيذ. ولا يشكّل أي بند في
+هذه السياسة التزامًا دائمًا بشأن الميزات التي سيتضمنها التطبيق أو لن يتضمنها.</p>
+
+<h2>التواصل</h2>
+<p>للاستفسار عن هذه السياسة: <a href="mailto:idatagear@gmail.com">idatagear@gmail.com</a></p>
+</section>
+
+<section class="doc" id="terms-en" lang="en" dir="ltr">
+<h2 style="border:0;padding:0;margin-top:0;font-size:1.45rem">Terms of Service</h2>
+<p class="updated">Last updated: 16 August 2026</p>
+<h2>1. Acceptance</h2>
+<p>By downloading or using ALL English ("the App") you agree to these Terms. If you do
+not agree, please do not use the App.</p>
+
+<h2>2. What the App is</h2>
+<p>ALL English is an English-language learning app. It provides vocabulary, example
+sentences, audio pronunciation, listening exercises, practice tests and
+pronunciation scoring. It is an educational aid and makes no guarantee of any
+particular learning outcome, exam result or level of proficiency.</p>
+
+<h2>3. Licence</h2>
+<p>We grant you a personal, non-exclusive, non-transferable, revocable licence to
+use the App for your own non-commercial learning. You may not copy, sell,
+redistribute, decompile or reverse-engineer the App, nor extract or redistribute
+its learning content as a dataset or competing product.</p>
+
+<h2>4. Subscriptions</h2>
+<p>Some versions of the App offer an optional paid subscription. Where it is
+offered:</p>
+<ul>
+<li>Payment is charged to your App Store or Google Play account at confirmation
+of purchase.</li>
+<li>The subscription renews automatically unless cancelled at least 24 hours
+before the end of the current period.</li>
+<li>You can manage or cancel it at any time in your store account settings.
+Deleting the App does not cancel a subscription.</li>
+<li>Where a free trial is offered, it converts to a paid subscription unless
+cancelled at least 24 hours before it ends.</li>
+<li>Refunds are handled by Apple or Google under their own policies, not by us.</li>
+</ul>
+<p>Prices may change. Any change applies only to future billing periods and will
+be notified in advance where the store requires it.</p>
+
+<h2>5. Acceptable use</h2>
+<p>Do not use the App unlawfully, attempt to disrupt or circumvent it, or use it
+in any way that infringes the rights of others.</p>
+
+<h2>6. Content and intellectual property</h2>
+<p>The App, its design and its learning content are owned by us or used under
+licence, and are protected by copyright. Nothing in these Terms transfers any
+ownership to you.</p>
+
+<h2>7. Privacy</h2>
+<p>Our <a href="https://idatagear.com/learnenglish/privacy">Privacy Policy</a> forms part of these Terms.</p>
+
+<h2>8. Disclaimer</h2>
+<p>The App is provided "as is" and "as available", without warranties of any
+kind, to the fullest extent permitted by law. We do not warrant that it will be
+uninterrupted or error-free, or that its content is free of inaccuracies.</p>
+
+<h2>9. Limitation of liability</h2>
+<p>To the fullest extent permitted by law, we are not liable for any indirect,
+incidental or consequential loss arising from your use of the App. Nothing in
+these Terms limits liability that cannot lawfully be limited.</p>
+
+<h2>10. Changes</h2>
+<p>We may update these Terms. The current version is always published at this
+address, with the date above. Continued use after a change means you accept it.</p>
+
+<h2>11. Contact</h2>
+<p><a href="mailto:idatagear@gmail.com">idatagear@gmail.com</a></p>
+</section>
+
+<section class="doc" id="terms-es" lang="es" dir="ltr">
+<h2 style="border:0;padding:0;margin-top:0;font-size:1.45rem">Términos del Servicio</h2>
+<p class="updated">Última actualización: 16 de agosto de 2026</p>
+<h2>1. Aceptación</h2>
+<p>Al descargar o usar ALL English ("la Aplicación") aceptas estos Términos. Si no
+estás de acuerdo, no uses la Aplicación.</p>
+
+<h2>2. Qué es la Aplicación</h2>
+<p>ALL English es una aplicación para aprender inglés. Ofrece vocabulario, frases de
+ejemplo, pronunciación en audio, ejercicios de comprensión auditiva, pruebas de
+práctica y puntuación de pronunciación. Es una ayuda educativa y no garantiza
+ningún resultado de aprendizaje, resultado de examen ni nivel de competencia
+concreto.</p>
+
+<h2>3. Licencia</h2>
+<p>Te concedemos una licencia personal, no exclusiva, intransferible y revocable
+para usar la Aplicación con fines de aprendizaje no comerciales. No puedes
+copiar, vender, redistribuir, descompilar ni aplicar ingeniería inversa a la
+Aplicación, ni extraer o redistribuir su contenido educativo como conjunto de
+datos o producto competidor.</p>
+
+<h2>4. Suscripciones</h2>
+<p>Algunas versiones de la Aplicación ofrecen una suscripción de pago opcional.
+Cuando se ofrece:</p>
+<ul>
+<li>El cargo se realiza en tu cuenta de App Store o Google Play al confirmar la
+compra.</li>
+<li>La suscripción se renueva automáticamente salvo que se cancele al menos 24
+horas antes del final del periodo en curso.</li>
+<li>Puedes gestionarla o cancelarla en cualquier momento en los ajustes de tu
+cuenta de la tienda. Desinstalar la Aplicación no cancela la suscripción.</li>
+<li>Cuando se ofrece una prueba gratuita, esta se convierte en suscripción de
+pago salvo que se cancele al menos 24 horas antes de que termine.</li>
+<li>Los reembolsos los gestionan Apple o Google según sus propias políticas, no
+nosotros.</li>
+</ul>
+<p>Los precios pueden cambiar. Cualquier cambio se aplica solo a periodos de
+facturación futuros y se notificará por adelantado cuando la tienda lo exija.</p>
+
+<h2>5. Uso aceptable</h2>
+<p>No uses la Aplicación de forma ilícita, no intentes interrumpirla o eludirla,
+ni la uses de ninguna manera que infrinja los derechos de terceros.</p>
+
+<h2>6. Contenido y propiedad intelectual</h2>
+<p>La Aplicación, su diseño y su contenido educativo son de nuestra propiedad o
+se usan bajo licencia, y están protegidos por derechos de autor. Nada en estos
+Términos te transfiere ninguna titularidad.</p>
+
+<h2>7. Privacidad</h2>
+<p>Nuestra <a href="https://idatagear.com/learnenglish/privacy">Política de Privacidad</a> forma parte de
+estos Términos.</p>
+
+<h2>8. Exención de garantías</h2>
+<p>La Aplicación se ofrece "tal cual" y "según disponibilidad", sin garantías de
+ningún tipo, en la máxima medida permitida por la ley. No garantizamos que
+funcione sin interrupciones ni errores, ni que su contenido esté libre de
+inexactitudes.</p>
+
+<h2>9. Limitación de responsabilidad</h2>
+<p>En la máxima medida permitida por la ley, no somos responsables de ningún daño
+indirecto, incidental o consecuente derivado del uso de la Aplicación. Nada en
+estos Términos limita la responsabilidad que no pueda limitarse legalmente.</p>
+
+<h2>10. Cambios</h2>
+<p>Podemos actualizar estos Términos. La versión vigente se publica siempre en
+esta dirección, con la fecha indicada arriba. El uso continuado tras un cambio
+implica su aceptación.</p>
+
+<h2>11. Contacto</h2>
+<p><a href="mailto:idatagear@gmail.com">idatagear@gmail.com</a></p>
+</section>
+
+<section class="doc" id="terms-zh" lang="zh-Hans" dir="ltr">
+<h2 style="border:0;padding:0;margin-top:0;font-size:1.45rem">服务条款</h2>
+<p class="updated">最后更新：2026 年 8 月 16 日</p>
+<h2>1. 接受条款</h2>
+<p>下载或使用 ALL English（“本应用”）即表示你同意本条款。若不同意，请勿使用本应用。</p>
+
+<h2>2. 本应用是什么</h2>
+<p>ALL English 是一款英语学习应用，提供词汇、例句、语音发音、听力练习、模拟测试与发音评分。它是一种学习辅助工具，不对任何特定的学习成果、考试成绩或语言水平作出保证。</p>
+
+<h2>3. 许可</h2>
+<p>我们授予你个人的、非独占的、不可转让的、可撤销的许可，用于你自己的非商业学习目的。你不得复制、销售、再分发、反编译或逆向工程本应用，也不得将其学习内容作为数据集或竞争产品提取或再分发。</p>
+
+<h2>4. 订阅</h2>
+<p>本应用的部分版本提供可选的付费订阅。在提供订阅时：</p>
+<ul>
+<li>确认购买时将从你的 App Store 或 Google Play 账户扣款。</li>
+<li>除非在当前订阅期结束前至少 24 小时取消，否则订阅将自动续期。</li>
+<li>你可随时在商店账户设置中管理或取消订阅。删除应用并不会取消订阅。</li>
+<li>如提供免费试用，除非在试用结束前至少 24 小时取消，否则将转为付费订阅。</li>
+<li>退款由 Apple 或 Google 依其自身政策处理，而非由我们处理。</li>
+</ul>
+<p>价格可能变动。任何变动仅适用于未来的计费周期，并将在商店要求时提前通知。</p>
+
+<h2>5. 可接受的使用</h2>
+<p>请勿以违法方式使用本应用，请勿试图干扰或规避本应用，也请勿以侵犯他人权利的任何方式使用本应用。</p>
+
+<h2>6. 内容与知识产权</h2>
+<p>本应用及其设计与学习内容归我们所有或经许可使用，受著作权法保护。本条款不向你转让任何所有权。</p>
+
+<h2>7. 隐私</h2>
+<p>我们的<a href="https://idatagear.com/learnenglish/privacy">隐私政策</a>构成本条款的一部分。</p>
+
+<h2>8. 免责声明</h2>
+<p>本应用按“现状”与“现有”提供，在法律允许的最大范围内不作任何形式的保证。我们不保证其运行不中断或无错误，也不保证其内容完全准确。</p>
+
+<h2>9. 责任限制</h2>
+<p>在法律允许的最大范围内，我们不对因使用本应用而产生的任何间接、附带或后果性损失承担责任。本条款不限制依法不可限制的责任。</p>
+
+<h2>10. 变更</h2>
+<p>我们可能更新本条款。现行版本始终发布于本页面，日期见上方。变更后继续使用即表示你接受变更。</p>
+
+<h2>11. 联系方式</h2>
+<p><a href="mailto:idatagear@gmail.com">idatagear@gmail.com</a></p>
+</section>
+
+<section class="doc" id="terms-ar" lang="ar" dir="rtl">
+<h2 style="border:0;padding:0;margin-top:0;font-size:1.45rem">شروط الخدمة</h2>
+<p class="updated">آخر تحديث: 16 أغسطس 2026</p>
+<h2>1. القبول</h2>
+<p>بتنزيلك أو استخدامك تطبيق ALL English ("التطبيق") فإنك توافق على هذه الشروط. إذا لم
+توافق عليها، يُرجى عدم استخدام التطبيق.</p>
+
+<h2>2. ما هو التطبيق</h2>
+<p>ALL English تطبيق لتعلّم اللغة الإنجليزية. يوفّر مفردات وجملًا توضيحية ونطقًا صوتيًا
+وتمارين استماع واختبارات تدريبية وتقييمًا للنطق. وهو وسيلة تعليمية مساعدة ولا
+يضمن أي نتيجة تعلّم أو نتيجة اختبار أو مستوى إتقان معيّن.</p>
+
+<h2>3. الترخيص</h2>
+<p>نمنحك ترخيصًا شخصيًا غير حصري وغير قابل للنقل وقابلًا للإلغاء لاستخدام التطبيق
+لأغراض تعلّمك الشخصي غير التجاري. لا يجوز لك نسخ التطبيق أو بيعه أو إعادة توزيعه
+أو فك ترجمته أو هندسته عكسيًا، ولا استخراج محتواه التعليمي أو إعادة توزيعه
+كمجموعة بيانات أو كمنتج منافس.</p>
+
+<h2>4. الاشتراكات</h2>
+<p>توفّر بعض إصدارات التطبيق اشتراكًا مدفوعًا اختياريًا. عند توفّره:</p>
+<ul>
+<li>يُخصم المبلغ من حسابك في App Store أو Google Play عند تأكيد الشراء.</li>
+<li>يتجدد الاشتراك تلقائيًا ما لم يتم إلغاؤه قبل 24 ساعة على الأقل من نهاية
+الفترة الحالية.</li>
+<li>يمكنك إدارته أو إلغاؤه في أي وقت من إعدادات حسابك في المتجر. حذف التطبيق لا
+يُلغي الاشتراك.</li>
+<li>عند توفّر فترة تجريبية مجانية، فإنها تتحول إلى اشتراك مدفوع ما لم يتم
+إلغاؤها قبل 24 ساعة على الأقل من انتهائها.</li>
+<li>تتولى Apple أو Google معالجة عمليات الاسترداد وفق سياساتهما، وليس نحن.</li>
+</ul>
+<p>قد تتغير الأسعار. ويسري أي تغيير على فترات الفوترة المستقبلية فقط، مع إشعار
+مسبق حيثما يشترط المتجر ذلك.</p>
+
+<h2>5. الاستخدام المقبول</h2>
+<p>لا تستخدم التطبيق بصورة غير قانونية، ولا تحاول تعطيله أو الالتفاف عليه، ولا
+تستخدمه بأي شكل ينتهك حقوق الآخرين.</p>
+
+<h2>6. المحتوى والملكية الفكرية</h2>
+<p>التطبيق وتصميمه ومحتواه التعليمي مملوكة لنا أو مستخدمة بترخيص، ومحمية بحقوق
+النشر. ولا ينقل أي بند من هذه الشروط أي ملكية إليك.</p>
+
+<h2>7. الخصوصية</h2>
+<p>تُعد <a href="https://idatagear.com/learnenglish/privacy">سياسة الخصوصية</a> جزءًا من هذه الشروط.</p>
+
+<h2>8. إخلاء المسؤولية</h2>
+<p>يُقدَّم التطبيق "كما هو" و"حسب توفّره"، دون أي ضمانات من أي نوع، إلى أقصى حد
+يسمح به القانون. ولا نضمن أن يعمل دون انقطاع أو دون أخطاء، ولا أن يكون محتواه
+خاليًا من عدم الدقة.</p>
+
+<h2>9. حدود المسؤولية</h2>
+<p>إلى أقصى حد يسمح به القانون، لا نتحمل المسؤولية عن أي خسارة غير مباشرة أو
+عرضية أو تبعية تنشأ عن استخدامك للتطبيق. ولا يحدّ أي بند من هذه الشروط من
+المسؤولية التي لا يمكن تحديدها قانونًا.</p>
+
+<h2>10. التغييرات</h2>
+<p>قد نقوم بتحديث هذه الشروط. ويُنشر الإصدار الحالي دائمًا على هذا العنوان مع
+التاريخ المذكور أعلاه. ويعني استمرارك في الاستخدام بعد أي تغيير قبولك له.</p>
+
+<h2>11. التواصل</h2>
+<p><a href="mailto:idatagear@gmail.com">idatagear@gmail.com</a></p>
+</section>
+
+<footer>ALL English · <a href="mailto:idatagear@gmail.com">idatagear@gmail.com</a></footer>
+</main>
+
+<script>
+(function () {
+  var TITLES = {"privacy": {"en": "Privacy Policy", "es": "Política de Privacidad", "zh": "隐私政策", "ar": "سياسة الخصوصية"}, "terms": {"en": "Terms of Service", "es": "Términos del Servicio", "zh": "服务条款", "ar": "شروط الخدمة"}};
+  var doc = "privacy", lang = "en";
+  document.documentElement.className += " js";
+
+  function apply() {
+    var id = doc + "-" + lang;
+    var found = false;
+    document.querySelectorAll(".doc").forEach(function (el) {
+      var on = el.id === id;
+      el.classList.toggle("active", on);
+      if (on) found = true;
+    });
+    // Never leave a blank page if a combination is missing.
+    if (!found) {
+      var first = document.querySelector(".doc");
+      if (first) first.classList.add("active");
+    }
+    document.querySelectorAll("#langs button").forEach(function (b) {
+      b.setAttribute("aria-selected", String(b.dataset.lang === lang));
+    });
+    document.querySelectorAll("#docs button").forEach(function (b) {
+      b.setAttribute("aria-selected", String(b.dataset.doc === doc));
+      // Re-label the document tabs in the language being read.
+      b.textContent = TITLES[b.dataset.doc][lang];
+    });
+    // The switcher itself follows the reading direction of the chosen language.
+    var rtl = lang === "ar";
+    document.querySelector("nav.tabs").setAttribute("dir", rtl ? "rtl" : "ltr");
+    if (history.replaceState) history.replaceState(null, "", "#" + id);
+  }
+
+  document.querySelectorAll("#langs button").forEach(function (b) {
+    b.addEventListener("click", function () { lang = b.dataset.lang; apply(); });
+  });
+  document.querySelectorAll("#docs button").forEach(function (b) {
+    b.addEventListener("click", function () { doc = b.dataset.doc; apply(); });
+  });
+
+  // Deep links: #terms-ar, and the bare #privacy / #terms the app may link to.
+  var h = (location.hash || "").replace("#", "");
+  if (h) {
+    var parts = h.split("-");
+    if (parts[0] === "privacy" || parts[0] === "terms") doc = parts[0];
+    if (parts[1] && TITLES.privacy[parts[1]]) lang = parts[1];
+    else if (parts.length === 1) {
+      // #privacy with no language: honour the browser's preferred language.
+      var nav = (navigator.language || "en").toLowerCase();
+      ["ar", "zh", "es", "en"].forEach(function (c) { if (nav.indexOf(c) === 0) lang = c; });
+    }
+  }
+  apply();
+})();
+</script>
 </body>
 </html>
