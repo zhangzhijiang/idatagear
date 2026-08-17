@@ -1,0 +1,369 @@
+/* ============================================
+   iDataGear · help.css
+   Shared styles for the per-app help, privacy and
+   contact pages under /chinese/, /cantonese/, /english/.
+
+   Loaded AFTER assets/css/style.css and driven entirely by
+   its design tokens, so both themes work with no extra rules.
+   ============================================ */
+
+/* === Page shell === */
+
+/* The shared mobile nav (style.css, max-width:960px) is position:fixed, full
+   width, parked off-screen with transform: translateX(100%). Because the
+   header's backdrop-filter makes the header that fixed element's containing
+   block, it escapes `body { overflow-x: hidden }` and drags the document to
+   exactly 2x the viewport width — a real horizontal scrollbar on phones.
+   Clipping at the root contains it without creating a scroll container, so
+   the sticky header and the fixed nav both keep working. */
+html { overflow-x: clip; }
+
+/* Narrow, readable column for prose pages (privacy, contact). */
+.prose {
+  max-width: 820px;
+  margin: 0 auto;
+  padding: clamp(2.5rem, 6vw, 4.5rem) clamp(1rem, 5vw, 3rem);
+}
+
+.prose h2 {
+  font-size: clamp(1.3rem, 2.6vw, 1.6rem);
+  font-weight: 750;
+  letter-spacing: -0.015em;
+  margin: 2.6rem 0 0.9rem;
+  padding-top: 1.4rem;
+  border-top: 1px solid var(--card-border);
+}
+
+.prose h2:first-of-type { border-top: 0; padding-top: 0; margin-top: 1.8rem; }
+
+.prose h3 {
+  font-size: 1.02rem;
+  font-weight: 700;
+  margin: 1.6rem 0 0.5rem;
+  color: var(--text);
+}
+
+.prose p,
+.prose li { color: var(--muted); }
+.prose strong { color: var(--text); font-weight: 650; }
+.prose ul { margin: 0 0 1rem; display: grid; gap: 0.4rem; }
+.prose a:not(.btn) {
+  color: var(--accent-4);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1px;
+  text-decoration-color: var(--jade-border);
+}
+.prose a:not(.btn):hover { text-decoration-color: currentColor; }
+
+.page-title {
+  font-size: clamp(2rem, 5vw, 2.9rem);
+  font-weight: 800;
+  line-height: 1.15;
+  letter-spacing: -0.03em;
+  margin: 0.5rem 0 0.7rem;
+}
+
+.page-lede {
+  color: var(--muted);
+  font-size: 1.05rem;
+  max-width: 62ch;
+}
+
+.updated {
+  color: var(--dim);
+  font-size: 0.85rem;
+  margin: 0 0 2rem;
+}
+
+/* Breadcrumb / back link above the title. */
+.crumbs {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.45rem;
+  font-size: 0.82rem;
+  color: var(--dim);
+  margin-bottom: 1.2rem;
+}
+.crumbs a { color: var(--muted); }
+.crumbs a:hover { color: var(--accent-4); }
+.crumbs .sep { opacity: 0.5; }
+
+/* === App hero === */
+
+.app-hero {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: clamp(1.25rem, 4vw, 2.5rem);
+  padding: clamp(2.5rem, 6vw, 4.5rem) clamp(1rem, 5vw, 5rem) clamp(1.5rem, 3vw, 2.5rem);
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.app-hero__icon {
+  width: 88px;
+  height: 88px;
+  border-radius: 22px;
+  box-shadow: var(--shadow);
+  border: 1px solid var(--card-border);
+  flex: none;
+}
+
+.app-hero__body { flex: 1 1 22rem; min-width: 0; }
+
+.app-hero__actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.8rem;
+  margin-top: 1.4rem;
+}
+
+.play-badge { height: 48px; width: auto; }
+
+/* === Screenshot figures === */
+
+.shot {
+  margin: 0;
+  min-width: 0;
+}
+
+.shot img {
+  width: 100%;
+  max-width: 270px;
+  border-radius: 20px;
+  border: 1px solid var(--card-border);
+  background: var(--card);
+  box-shadow: var(--shadow);
+}
+
+.shot figcaption {
+  color: var(--dim);
+  font-size: 0.8rem;
+  margin-top: 0.6rem;
+  max-width: 270px;
+}
+
+/* Responsive gallery of screenshots. */
+.shot-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: clamp(1.25rem, 3vw, 2rem);
+}
+
+/* === Screen-by-screen tour === */
+
+.tour {
+  display: grid;
+  gap: clamp(2rem, 5vw, 3.5rem);
+}
+
+.tour-step {
+  display: grid;
+  grid-template-columns: minmax(0, 270px) minmax(0, 1fr);
+  gap: clamp(1.25rem, 4vw, 2.5rem);
+  align-items: start;
+}
+
+/* Alternate the image side on wide screens for rhythm. */
+@media (min-width: 900px) {
+  .tour-step:nth-child(even) { grid-template-columns: minmax(0, 1fr) minmax(0, 270px); }
+  .tour-step:nth-child(even) .shot { order: 2; }
+}
+
+.tour-step__body { min-width: 0; padding-top: 0.25rem; }
+
+.tour-step__body h3 {
+  font-size: 1.25rem;
+  font-weight: 750;
+  letter-spacing: -0.015em;
+  margin: 0.5rem 0 0.7rem;
+}
+
+.tour-step__body p { color: var(--muted); }
+
+.tour-step__path {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--azure-fg);
+  background: var(--azure-bg);
+  border: 1px solid var(--azure-border);
+  border-radius: var(--radius-sm);
+  padding: 0.25rem 0.7rem;
+}
+
+@media (max-width: 640px) {
+  .tour-step { grid-template-columns: 1fr; justify-items: start; }
+}
+
+/* === Numbered walkthroughs === */
+
+.walkthrough {
+  border: 1px solid var(--card-border);
+  border-radius: var(--radius-lg);
+  background: var(--card);
+  padding: clamp(1.25rem, 3vw, 2rem);
+}
+
+.walkthrough h3 {
+  font-size: 1.1rem;
+  font-weight: 750;
+  margin: 0 0 1rem;
+}
+
+.walkthrough ol {
+  margin: 0;
+  padding-left: 1.3rem;
+  display: grid;
+  gap: 0.55rem;
+  color: var(--muted);
+}
+
+.walkthrough ol li::marker { color: var(--accent-4); font-weight: 700; }
+.walkthrough strong { color: var(--text); font-weight: 650; }
+
+.walkthrough-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr));
+  gap: 1.25rem;
+}
+
+/* === Data tables (content counts, web vs Android) === */
+
+.table-scroll { overflow-x: auto; }
+
+.spec-table {
+  width: 100%;
+  min-width: 32rem;
+  border-collapse: collapse;
+  font-size: 0.94rem;
+}
+
+.spec-table caption {
+  text-align: left;
+  color: var(--dim);
+  font-size: 0.85rem;
+  padding-bottom: 0.75rem;
+}
+
+.spec-table th,
+.spec-table td {
+  text-align: left;
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid var(--card-border);
+  vertical-align: top;
+}
+
+.spec-table thead th {
+  color: var(--text);
+  font-weight: 700;
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.09em;
+  border-bottom-color: var(--card-border-hov);
+}
+
+.spec-table tbody th { color: var(--text); font-weight: 600; }
+.spec-table td { color: var(--muted); }
+.spec-table tbody tr:last-child th,
+.spec-table tbody tr:last-child td { border-bottom: 0; }
+
+.spec-table .num {
+  font-variant-numeric: tabular-nums;
+  color: var(--text);
+  font-weight: 650;
+  white-space: nowrap;
+}
+
+.yes { color: var(--jade-fg); font-weight: 650; }
+.no  { color: var(--dim); }
+
+/* === Callouts === */
+
+.callout {
+  border: 1px solid var(--jade-border);
+  background: var(--jade-bg);
+  border-radius: var(--radius-md);
+  padding: 1rem 1.25rem;
+  margin: 1.5rem 0;
+}
+
+.callout p:last-child { margin-bottom: 0; }
+.callout strong { color: var(--text); }
+
+.callout-warn {
+  border-color: var(--ochre-border);
+  background: var(--ochre-bg);
+}
+
+.callout-note {
+  border-color: var(--azure-border);
+  background: var(--azure-bg);
+}
+
+/* === Cross-links between the pages of one app === */
+
+.page-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7rem;
+  margin-top: 2rem;
+}
+
+/* === Closing call to action === */
+
+.cta-band {
+  text-align: center;
+  border: 1px solid var(--card-border);
+  border-radius: var(--radius-lg);
+  background: var(--card);
+  padding: clamp(2rem, 5vw, 3rem);
+}
+
+.cta-band h2 {
+  font-size: clamp(1.5rem, 3vw, 2rem);
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  margin: 0 0 0.7rem;
+}
+
+.cta-band p {
+  color: var(--muted);
+  max-width: 52ch;
+  margin-inline: auto;
+}
+
+.cta-band .app-hero__actions { justify-content: center; }
+
+/* === Footer variant for these pages === */
+
+.site-footer .footer-simple {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2.5rem clamp(1rem, 5vw, 5rem);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem 1.5rem;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--muted);
+  font-size: 0.86rem;
+}
+
+.site-footer .footer-simple nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem 1.25rem;
+}
+
+.site-footer .footer-simple a:hover { color: var(--text); }
+.site-footer .footer-simple p { margin: 0; }
+
+@media (prefers-reduced-motion: reduce) {
+  .btn:hover, .btn:focus-visible { transform: none; }
+}

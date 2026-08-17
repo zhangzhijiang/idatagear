@@ -1,127 +1,741 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <!--
-    If you are serving your web app in a path other than the root, change the
-    href value below to reflect the base path you are serving from.
-
-    The path provided below has to start and end with a slash "/" in order for
-    it to work correctly.
-
-    For more details:
-    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
-
-    This is a placeholder for base href that will be replaced by the value of
-    the `--base-href` argument provided to `flutter build`.
-  -->
-  <!-- Google AdSense loader — production host only (prevents localhost/preview
-       self-clicks & invalid traffic; off-prod push({}) becomes a no-op). -->
-  <script>
-    (function () {
-      var PROD = ['www.idatagear.com', 'idatagear.com'];
-      if (PROD.indexOf(location.hostname) === -1) {
-        window.adsbygoogle = window.adsbygoogle || [];
-        if (window.console) console.info('[AdSense] disabled on non-production host:', location.hostname || '(local file)');
-        return;
-      }
-      var s = document.createElement('script');
-      s.async = true;
-      s.crossOrigin = 'anonymous';
-      s.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8396981938969998';
-      document.head.appendChild(s);
-    })();
-  </script>
-  <base href="/english/">
-  <meta name="google-adsense-account" content="ca-pub-8396981938969998">
   <meta charset="UTF-8">
-  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="ALL English — All Level Learner's English by McLearn®. Learn English with CEFR levels A1–C2: vocabulary with IPA, sentences, articles, interactive practice tests, and pronunciation practice. Free on web and Android.">
-  <meta name="keywords" content="ALL English, All Level Learner's English, learn English, CEFR preparation, English vocabulary, English pronunciation, English practice tests, English learning app, A1, A2, B1, B2, C1, C2">
+  <meta name="theme-color" content="#071512" media="(prefers-color-scheme: dark)">
+  <meta name="theme-color" content="#f7f3ea" media="(prefers-color-scheme: light)">
+  <meta name="color-scheme" content="dark light">
+
+  <title>ALL English — Help &amp; Tutorial | CEFR A1–C2 by McLearn® | iDataGear</title>
+  <meta name="description" content="How to use ALL English: a screen-by-screen guide to CEFR A1–C2 vocabulary with IPA, word collections (Oxford 3000, IELTS, CET-4/6, VOA), graded articles, level tests, speaking practice, and the Memorize Words and Ear Training auto-play modes.">
+  <meta name="keywords" content="ALL English help, All Level Learner's English tutorial, CEFR English app, learn English vocabulary, Oxford 3000, IELTS vocabulary, CET-4, CET-6, English listening practice, IPA pronunciation">
+
   <link rel="canonical" href="https://www.idatagear.com/english/">
-  
-  <!-- iOS meta tags & icons -->
-  <meta name="mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="apple-mobile-web-app-title" content="ALL English">
-  <link rel="apple-touch-icon" href="icons/Icon-192.png">
-  
-  <!-- Favicon -->
-  <link rel="icon" type="image/png" href="favicon.png"/>
-  
-  <title>ALL English | All Level Learner's English — CEFR A1–C2 by McLearn®</title>
-  
-  <!-- Structured Data for Web Application -->
+  <link rel="alternate" hreflang="en" href="https://www.idatagear.com/english/">
+  <link rel="alternate" hreflang="x-default" href="https://www.idatagear.com/english/">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.idatagear.com/english/">
+  <meta property="og:title" content="ALL English — Help &amp; Tutorial | CEFR A1–C2">
+  <meta property="og:description" content="A screen-by-screen guide to ALL English: CEFR A1–C2 vocabulary with IPA, word collections, level tests, speaking practice and hands-free listening modes.">
+  <meta property="og:image" content="https://www.idatagear.com/assets/img/all-english-app-icon.png">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="ALL English — Help &amp; Tutorial | CEFR A1–C2">
+  <meta name="twitter:description" content="A screen-by-screen guide to ALL English: CEFR A1–C2 vocabulary with IPA, word collections, level tests, speaking practice and hands-free listening modes.">
+  <meta name="twitter:image" content="https://www.idatagear.com/assets/img/all-english-app-icon.png">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="../assets/img/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="../assets/img/favicon-192x192.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="../assets/img/apple-touch-icon.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link href="../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+
+  <!-- Set theme before first paint to avoid a flash of the wrong theme -->
+  <script>
+  (function () {
+    var t = null;
+    try { t = localStorage.getItem('theme'); } catch (e) {}
+    if (t !== 'light' && t !== 'dark') {
+      t = (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches) ? 'light' : 'dark';
+    }
+    document.documentElement.setAttribute('data-theme', t);
+  })();
+  </script>
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <link rel="stylesheet" href="../assets/css/help.css">
+
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "WebApplication",
+    "@type": "SoftwareApplication",
     "name": "ALL English",
     "alternateName": ["All Level Learner's English", "McEnglish"],
     "applicationCategory": "EducationalApplication",
-    "operatingSystem": "Web, Android",
+    "operatingSystem": "Android, Web",
+    "inLanguage": "en",
+    "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+    "description": "English learning app organised by CEFR levels A1 to C2, with over 8,000 words carrying IPA pronunciation, curated word collections including Oxford 3000, IELTS, CET-4/6 and VOA, graded sentences and articles, level tests, microphone speaking practice, and hands-free Memorize Words and Ear Training listening modes.",
     "url": "https://www.idatagear.com/english/",
     "image": "https://www.idatagear.com/assets/img/all-english-app-icon.png",
-    "offers": {
-      "@type": "Offer",
-      "price": "0",
-      "priceCurrency": "USD"
-    },
-    "description": "ALL English (All Level Learner's English): comprehensive English learning platform with CEFR levels A1–C2, vocabulary with IPA, sentences, articles, interactive practice tests, and pronunciation practice.",
-    "publisher": {
-      "@type": "Organization",
-      "name": "iDataGear Inc",
-      "url": "https://www.idatagear.com"
-    }
+    "publisher": { "@type": "Organization", "name": "iDataGear Inc", "url": "https://www.idatagear.com" },
+    "installUrl": "https://play.google.com/store/apps/details?id=com.idatagear.learn_english",
+    "downloadUrl": "https://play.google.com/store/apps/details?id=com.idatagear.learn_english",
+    "featureList": [
+      "CEFR A1–C2 vocabulary with IPA pronunciation and audio",
+      "Curated collections: Basic 850, Oxford 3000, Common 2198, VOA 1510, IELTS, CET-4 and CET-6",
+      "Graded sentences and reading articles with translations",
+      "Timed level tests for reading and listening",
+      "Speaking practice scored against your own recording",
+      "Memorize Words — hands-free auto-play flashcards with resumable sessions",
+      "Ear Training — hands-free sentence listening with resumable sessions",
+      "Favorites, daily streak, and a configurable home layout"
+    ]
   }
   </script>
-  <link rel="manifest" href="manifest.json">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "iDataGear", "item": "https://www.idatagear.com/" },
+      { "@type": "ListItem", "position": 2, "name": "ALL English — Help & Tutorial", "item": "https://www.idatagear.com/english/" }
+    ]
+  }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Which CEFR level should I start at?",
+        "acceptedAnswer": { "@type": "Answer", "text": "A1 is absolute beginner and C2 is near-native. If you are unsure, open the level below the one you think you are and skim a word list — if you know almost every word, move up. A faster method is to take a level test from the Test section on the home screen and let the score decide." }
+      },
+      {
+        "@type": "Question",
+        "name": "What is the difference between Memorize Words and Ear Training?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Both play automatically so you can listen without touching the screen. Memorize Words cycles through vocabulary — it speaks the word, then its meaning in your language, then example sentences. Ear Training does the same for whole sentences. Both save your position, so you can stop mid-session and resume exactly where you were." }
+      },
+      {
+        "@type": "Question",
+        "name": "What are the word collections like Oxford 3000 and CET-4?",
+        "acceptedAnswer": { "@type": "Answer", "text": "They are curated lists that cut across the CEFR levels. Basic 850 is Ogden's minimum working vocabulary, Oxford 3000 is the core word list for learners, Common 2198 is high-frequency everyday English, VOA 1510 is the Voice of America Special English list, and IELTS, CET-4 and CET-6 are exam vocabularies. Use a CEFR level to learn broadly and a collection to target a specific exam." }
+      },
+      {
+        "@type": "Question",
+        "name": "Is ALL English free?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Yes. Every level, collection, article and test is unlocked from the start. The app is funded by ads, with one optional in-app purchase — Remove Ads — that hides them permanently. No learning content is behind a paywall." }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I see meanings in my own language?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Yes. Open Settings and tap My Language. Translations are available in English, Chinese, Spanish and Arabic, and the app's own interface follows the same choice, including right-to-left layout for Arabic." }
+      },
+      {
+        "@type": "Question",
+        "name": "My home screen is cluttered. Can I hide sections?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Yes. Settings has a Home buttons panel where you can switch off the CEFR levels, word collections or sentence collections you are not using. It does more than tidy the home screen — hidden sources also disappear from the Memorize Words and Ear Training setup screens, which is the easiest way to keep an auto-play session focused." }
+      },
+      {
+        "@type": "Question",
+        "name": "How does Speaking Practice score me?",
+        "acceptedAnswer": { "@type": "Answer", "text": "You read a sentence aloud, your device's speech recogniser transcribes it, and the app compares the transcript to the target text to produce a similarity score. It is measuring intelligibility rather than accent, so it needs a reasonably quiet room and microphone permission." }
+      },
+      {
+        "@type": "Question",
+        "name": "Will I lose my progress if I reinstall?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Yes. There is no account and no cloud sync — favorites, streak, test results and saved listening sessions are stored only on your device, so uninstalling clears them." }
+      },
+      {
+        "@type": "Question",
+        "name": "Is the web version the same as the Android app?",
+        "acceptedAnswer": { "@type": "Answer", "text": "The content is the same, but the web version depends on your browser for speech, which makes the auto-play listening modes and microphone practice unreliable. Use the web version to try it out and the Android app to study properly." }
+      }
+    ]
+  }
+  </script>
 </head>
 <body>
-  <div id="android-promo" style="position: fixed; inset: 0; display: flex; align-items: center; justify-content: center; background: rgba(15, 23, 42, 0.55); z-index: 9999; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;">
-    <div style="background: #ffffff; border-radius: 16px; padding: 1.25rem 1.5rem; max-width: 360px; width: 90%; box-shadow: 0 18px 45px rgba(15, 23, 42, 0.35); text-align: left; font-size: 0.95rem; color: #111827;">
-      <p style="margin: 0 0 0.75rem;"><strong>Tip:</strong> ALL English works best as an Android app from Google Play.</p>
-      <a href="https://play.google.com/store/apps/details?id=com.idatagear.learn_english" target="_blank" rel="noopener" style="display: inline-block; margin-bottom: 0.75rem;">
-        <img src="../assets/img/google-play-badge.svg" alt="Get ALL English on Google Play" style="height: 40px; width: auto;">
-      </a>
-      <div style="text-align: right;">
-        <button id="android-promo-close" type="button" style="border-radius: 999px; border: 1px solid #d1d5db; background: #f9fafb; padding: 0.25rem 0.9rem; font-size: 0.85rem; cursor: pointer;">OK</button>
+  <a class="sr-only" href="#main">Skip to content</a>
+
+  <header class="site-header" id="top">
+    <div class="logo"><a href="../index.html">iDataGear</a></div>
+    <nav class="site-nav" id="site-nav">
+      <a href="../index.html">Home</a>
+      <a href="../index.html#products"><span class="mclearn-mark" role="text" aria-label="McLearn registered trademark">McLearn</span></a>
+      <a href="index.html" class="active" aria-current="page">Help</a>
+      <a href="english_privacy.html">Privacy</a>
+      <a href="english_contactus.html">Contact</a>
+      <div class="nav-product-links">
+        <a class="cta-link" href="learnenglish/">Open the app</a>
       </div>
+    </nav>
+    <button class="theme-toggle" type="button" aria-label="Toggle colour theme">
+      <i class="bi bi-sun"></i><i class="bi bi-moon-stars"></i>
+    </button>
+    <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false"><span></span><span></span><span></span></button>
+  </header>
+
+  <main id="main">
+
+    <!-- ============ Hero ============ -->
+    <section class="app-hero">
+      <img class="app-hero__icon" src="../assets/img/all-english-app-icon.png" alt="ALL English app icon" width="88" height="88">
+      <div class="app-hero__body">
+        <span class="eyebrow">Help &amp; Tutorial</span>
+        <h1 class="page-title">ALL English <span style="color:var(--muted); font-weight:600;">· All Level Learner's English</span></h1>
+        <p class="page-lede">
+          English organised the way the CEFR organises it — A1 through C2, with over 8,000 words carrying
+          IPA pronunciation, exam collections from Oxford 3000 to IELTS and CET-6, graded reading,
+          timed level tests, and two hands-free listening modes you can run with the screen in your pocket.
+          This page explains every screen and walks through the features worth setting up first.
+        </p>
+        <div class="app-hero__actions">
+          <a class="btn btn-primary" href="learnenglish/">Open the web app <i class="bi bi-arrow-right"></i></a>
+          <a href="https://play.google.com/store/apps/details?id=com.idatagear.learn_english" target="_blank" rel="noopener">
+            <img class="play-badge" src="../assets/img/google-play-badge.svg" alt="Get ALL English on Google Play" width="162" height="48">
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ What's inside ============ -->
+    <section class="section" id="whats-inside">
+      <div class="section-heading">
+        <span class="eyebrow">What's inside</span>
+        <h2>Two ways to slice the same vocabulary</h2>
+        <p>By <strong>CEFR level</strong> if you are learning broadly, or by <strong>collection</strong> if you are aiming at a specific exam. The lists overlap on purpose — a word can be both B2 and IELTS.</p>
+      </div>
+
+      <div class="table-scroll">
+        <table class="spec-table">
+          <caption>CEFR levels — vocabulary graded from beginner to near-native.</caption>
+          <thead>
+            <tr><th scope="col">Level</th><th scope="col">Roughly</th><th scope="col">Words</th></tr>
+          </thead>
+          <tbody>
+            <tr><th scope="row">A1</th><td>Beginner — introduce yourself, order food, ask simple questions</td><td class="num">895</td></tr>
+            <tr><th scope="row">A2</th><td>Elementary — routine tasks, immediate surroundings, simple past</td><td class="num">858</td></tr>
+            <tr><th scope="row">B1</th><td>Intermediate — handle travel, describe experiences, give reasons</td><td class="num">802</td></tr>
+            <tr><th scope="row">B2</th><td>Upper intermediate — technical discussion, fluent spontaneous speech</td><td class="num">1,425</td></tr>
+            <tr><th scope="row">C1</th><td>Advanced — implicit meaning, flexible academic and professional use</td><td class="num">1,299</td></tr>
+            <tr><th scope="row">C2</th><td>Proficient — near-native precision and nuance</td><td class="num">788</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="table-scroll" style="margin-top:2.5rem;">
+        <table class="spec-table">
+          <caption>Curated collections — cross-cutting lists for a specific goal.</caption>
+          <thead>
+            <tr><th scope="col">Collection</th><th scope="col">What it is</th></tr>
+          </thead>
+          <tbody>
+            <tr><th scope="row">Basic 850</th><td>Ogden's Basic English — the minimum vocabulary that can express almost anything</td></tr>
+            <tr><th scope="row">Oxford 3000</th><td>The core words every learner should know, chosen by frequency and usefulness</td></tr>
+            <tr><th scope="row">Common 2198</th><td>High-frequency everyday English</td></tr>
+            <tr><th scope="row">VOA 1510</th><td>The Voice of America Special English word list — built for news listening</td></tr>
+            <tr><th scope="row">IELTS</th><td>Vocabulary weighted towards the IELTS exam</td></tr>
+            <tr><th scope="row">CET-4 · CET-6</th><td>The Chinese College English Test syllabuses, band 4 and band 6</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p style="color:var(--muted); max-width:70ch; margin-top:1.5rem;">
+        Sentences are graded the same way, plus four named sentence sets — <strong>Easy Sentences</strong>,
+        <strong>Daily 500</strong>, <strong>English 900</strong> and <strong>New English 365</strong> — and there are
+        graded reading articles and timed tests at every level from A1 to C2.
+      </p>
+    </section>
+
+    <!-- ============ Screen-by-screen tour ============ -->
+    <section class="section" id="tour">
+      <div class="section-heading">
+        <span class="eyebrow">Screen by screen</span>
+        <h2>A guided tour of the app</h2>
+        <p>Four tabs along the bottom: <strong>Home</strong>, <strong>Speaking</strong>, <strong>Listening</strong> and <strong>Settings</strong>.</p>
+      </div>
+
+      <div class="tour">
+
+        <div class="tour-step">
+          <figure class="shot">
+            <img src="../assets/img/help/english/01-home.png" alt="ALL English home screen showing a streak banner and CEFR level circles A1 to C2 with word counts" width="270" height="480" loading="lazy">
+            <figcaption>Home — streak on top, CEFR levels underneath.</figcaption>
+          </figure>
+          <div class="tour-step__body">
+            <span class="tour-step__path"><i class="bi bi-house"></i> Home tab</span>
+            <h3>Home</h3>
+            <p>
+              The orange banner tracks your <strong>daily streak</strong>. Below it, Home is a stack of collapsible
+              sections: <strong>My Favorites</strong>, <strong>CEFR Levels</strong>, <strong>Word Collections</strong>,
+              <strong>Sentence Collections</strong> and <strong>Test</strong>.
+            </p>
+            <p>
+              The CEFR section has two rows of coloured circles — one for <strong>Words</strong>, one for
+              <strong>Sentences</strong> — and each circle shows how many entries that level holds. Tap one to
+              start. If the screen feels busy, you can switch whole sections off in Settings.
+            </p>
+          </div>
+        </div>
+
+        <div class="tour-step">
+          <figure class="shot">
+            <img src="../assets/img/help/english/02-home-collections.png" alt="Word Collections section showing Basic 850, CET-4, CET-6, Common 2198, IELTS, Oxford 3000 and VOA 1510 tiles with counts" width="270" height="480" loading="lazy">
+            <figcaption>Word Collections — pick a goal rather than a level.</figcaption>
+          </figure>
+          <div class="tour-step__body">
+            <span class="tour-step__path"><i class="bi bi-house"></i> Home → Word Collections</span>
+            <h3>Word collections</h3>
+            <p>
+              Seven tiles, each with the number of words tagged to it. These cut across the CEFR levels — a
+              word can appear in both B2 and IELTS — so pick a collection when you have a specific target
+              (an exam, a news-listening habit) and a CEFR level when you just want to get better generally.
+            </p>
+          </div>
+        </div>
+
+        <div class="tour-step">
+          <figure class="shot">
+            <img src="../assets/img/help/english/03-home-test.png" alt="Test section on the home screen offering reading and listening tests" width="270" height="480" loading="lazy">
+            <figcaption>Tests live at the bottom of Home.</figcaption>
+          </figure>
+          <div class="tour-step__body">
+            <span class="tour-step__path"><i class="bi bi-house"></i> Home → Test</span>
+            <h3>Finding the tests</h3>
+            <p>
+              The Test section offers <strong>Reading</strong> and <strong>Listening</strong>. Taking one at a level
+              you are unsure about is the quickest honest answer to "where am I?" — much faster than
+              reading level descriptions and guessing.
+            </p>
+          </div>
+        </div>
+
+        <div class="tour-step">
+          <figure class="shot">
+            <img src="../assets/img/help/english/05-word-list-with-ipa.png" alt="Word list showing words with IPA transcription and heart icons" width="270" height="480" loading="lazy">
+            <figcaption>Every word carries its IPA transcription.</figcaption>
+          </figure>
+          <div class="tour-step__body">
+            <span class="tour-step__path"><i class="bi bi-list-ul"></i> Any level → lesson → word list</span>
+            <h3>Word lists</h3>
+            <p>
+              Levels are split into short lessons rather than one endless scroll. Each row shows the word,
+              its <strong>IPA</strong> and its meaning, with a speaker to hear it and a <strong>heart</strong> to save it.
+              Hearted words gather in <strong>My Favorites</strong> at the top of the home screen, which shows a live
+              count and rotates a preview of one saved word and one saved sentence.
+            </p>
+          </div>
+        </div>
+
+        <div class="tour-step">
+          <figure class="shot">
+            <img src="../assets/img/help/english/06-word-detail.png" alt="Word card for a/an showing IPA transcriptions, definition and part of speech" width="270" height="480" loading="lazy">
+            <figcaption>The word card — IPA, definition, part of speech, examples.</figcaption>
+          </figure>
+          <div class="tour-step__body">
+            <span class="tour-step__path"><i class="bi bi-card-text"></i> Tap any word</span>
+            <h3>Word card</h3>
+            <p>
+              The word sits on a card with its <strong>IPA</strong> underneath — here <em>/ə/ /æn/</em>, showing both
+              the weak and strong pronunciations — and a speaker button. <strong>Details</strong> gives the definition
+              and part of speech; scroll on for example sentences with their own audio and translations.
+            </p>
+            <p>
+              The <strong>play button</strong> in the top bar auto-advances through the lesson hands-free.
+              The <strong>heart</strong> beside it saves the word to your favorites.
+            </p>
+          </div>
+        </div>
+
+        <div class="tour-step">
+          <figure class="shot">
+            <img src="../assets/img/help/english/07-sentence-lesson-list.png" alt="Sentence lesson list" width="270" height="480" loading="lazy">
+            <figcaption>Sentences are organised into lessons the same way words are.</figcaption>
+          </figure>
+          <div class="tour-step__body">
+            <span class="tour-step__path"><i class="bi bi-chat-left-text"></i> Home → Sentences</span>
+            <h3>Sentences &amp; articles</h3>
+            <p>
+              Sentences are graded by CEFR level and grouped into the named sets — Easy Sentences,
+              Daily 500, English 900, New English 365. They can be hearted like words. Graded
+              <strong>articles</strong> sit alongside them, played back a sentence at a time so you can loop the
+              one line you did not catch.
+            </p>
+          </div>
+        </div>
+
+        <div class="tour-step">
+          <figure class="shot">
+            <img src="../assets/img/help/english/10-test-levels.png" alt="Test level picker A1 to C2" width="270" height="480" loading="lazy">
+            <figcaption>Pick the level you want to be tested at.</figcaption>
+          </figure>
+          <div class="tour-step__body">
+            <span class="tour-step__path"><i class="bi bi-patch-question"></i> Test → Reading or Listening → level</span>
+            <h3>Choosing a test</h3>
+            <p>
+              Choose the type, then the level, then a specific test. An instructions screen explains the format
+              first, so nothing about the timer or the scoring comes as a surprise once the clock starts.
+            </p>
+          </div>
+        </div>
+
+        <div class="tour-step">
+          <figure class="shot">
+            <img src="../assets/img/help/english/13-test-question.png" alt="Test question screen with a 20 minute countdown, question navigator and multiple choice answers" width="270" height="480" loading="lazy">
+            <figcaption>Twenty questions, twenty minutes, jump around freely.</figcaption>
+          </figure>
+          <div class="tour-step__body">
+            <span class="tour-step__path"><i class="bi bi-patch-question"></i> Inside a test</span>
+            <h3>Taking a test</h3>
+            <p>
+              The <strong>countdown</strong> sits in the top bar and the numbered strip beneath it lets you jump to any
+              question — you do not have to answer in order, so skip anything that stalls you and come back.
+              <strong>Submit Test</strong> scores it immediately, and the result is kept so you can watch a level
+              improve over several attempts.
+            </p>
+          </div>
+        </div>
+
+        <div class="tour-step">
+          <figure class="shot">
+            <img src="../assets/img/help/english/14-speaking-practice.png" alt="Speaking practice screen with a sentence to read aloud" width="270" height="480" loading="lazy">
+            <figcaption>Speaking practice — read aloud and get scored.</figcaption>
+          </figure>
+          <div class="tour-step__body">
+            <span class="tour-step__path"><i class="bi bi-mic"></i> Speaking tab</span>
+            <h3>Speaking practice</h3>
+            <p>
+              A sentence appears; you read it aloud. Your device transcribes what it heard and the app scores
+              how closely that matches the target. It is judging <strong>whether you would be understood</strong>,
+              not whether you sound British or American — so a quiet room and a granted microphone permission
+              matter more than your accent.
+            </p>
+          </div>
+        </div>
+
+        <div class="tour-step">
+          <figure class="shot">
+            <img src="../assets/img/help/english/15-listening-hub.png" alt="Listening hub with two buttons: Memorize Words and Ear Training" width="270" height="480" loading="lazy">
+            <figcaption>The Listening tab: two hands-free modes.</figcaption>
+          </figure>
+          <div class="tour-step__body">
+            <span class="tour-step__path"><i class="bi bi-headphones"></i> Listening tab</span>
+            <h3>The Listening hub</h3>
+            <p>
+              Two buttons, and between them the most distinctive thing about this app.
+              <strong>Memorize Words</strong> auto-plays vocabulary; <strong>Ear Training</strong> auto-plays sentences.
+              Both run without you touching the screen, which makes them usable while commuting, walking,
+              cooking or falling asleep.
+            </p>
+          </div>
+        </div>
+
+        <div class="tour-step">
+          <figure class="shot">
+            <img src="../assets/img/help/english/16-memorize-words-setup.png" alt="Memorize Words setup with checkboxes for Word, Meaning and Sentences, a word sources section and a Play button" width="270" height="480" loading="lazy">
+            <figcaption>Decide what each card should say, then hit Play.</figcaption>
+          </figure>
+          <div class="tour-step__body">
+            <span class="tour-step__path"><i class="bi bi-headphones"></i> Listening → Memorize Words</span>
+            <h3>Memorize Words — setup</h3>
+            <p>
+              <strong>Play on each card</strong> controls what gets spoken: the <strong>Word</strong> with its pronunciation,
+              the <strong>Meaning</strong> in your chosen language, and the <strong>example Sentences</strong>. Turn off
+              whichever you do not need — word-only is fast revision, all three is a proper study loop.
+            </p>
+            <p>
+              <strong>Word sources</strong> below chooses what to pull from — any mix of CEFR levels and collections.
+              Then press <strong>Play</strong>. Any sessions you started before are listed here too, with their progress,
+              their source, and when you last used them, so you can resume one rather than start over.
+            </p>
+          </div>
+        </div>
+
+        <div class="tour-step">
+          <figure class="shot">
+            <img src="../assets/img/help/english/17-memorize-words-flashcard.png" alt="Memorize Words auto-playing flashcard screen" width="270" height="480" loading="lazy">
+            <figcaption>It plays, pauses and advances on its own.</figcaption>
+          </figure>
+          <div class="tour-step__body">
+            <span class="tour-step__path"><i class="bi bi-headphones"></i> Memorize Words → Play</span>
+            <h3>Memorize Words — playing</h3>
+            <p>
+              The card speaks the word, then the meaning, then the sentences, then moves on, looping through
+              your chosen sources. You can pause, resume and step manually at any point. Your position is
+              <strong>saved automatically</strong>, so closing the app mid-session loses nothing.
+            </p>
+            <div class="callout callout-note">
+              <p style="margin-bottom:0;">The gap between utterances is sized from how long the text is, so a long
+              Chinese or Arabic translation is not clipped by the next line starting too early.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="tour-step">
+          <figure class="shot">
+            <img src="../assets/img/help/english/18-ear-training-setup.png" alt="Ear Training setup screen with playback options and sentence sources" width="270" height="480" loading="lazy">
+            <figcaption>Ear Training — the same idea, applied to sentences.</figcaption>
+          </figure>
+          <div class="tour-step__body">
+            <span class="tour-step__path"><i class="bi bi-headphones"></i> Listening → Ear Training</span>
+            <h3>Ear Training</h3>
+            <p>
+              Same pattern as Memorize Words, but for whole sentences: choose whether to hear the English,
+              the translation, or both, pick your sentence sources from the CEFR levels and named sets, and press Play.
+              Sessions are resumable in exactly the same way.
+            </p>
+            <p>
+              This is the one to run in the background. Vocabulary lists teach you words; sentences teach you
+              rhythm, contraction and connected speech — the reasons a native speaker is hard to follow even
+              when you know every word they used.
+            </p>
+          </div>
+        </div>
+
+        <div class="tour-step">
+          <figure class="shot">
+            <img src="../assets/img/help/english/20-settings.png" alt="Settings screen showing the Little Owl learner avatar and a Make Ads Disappear card" width="270" height="480" loading="lazy">
+            <figcaption>Settings — identity, ads, language, voice and layout.</figcaption>
+          </figure>
+          <div class="tour-step__body">
+            <span class="tour-step__path"><i class="bi bi-gear"></i> Settings tab</span>
+            <h3>Settings</h3>
+            <p>
+              At the top is your <strong>learner identity</strong> — tap the pencil to change the avatar and name.
+              Below it, <strong>Make Ads Disappear</strong> is the one-off <strong>Remove Ads</strong> purchase, with
+              <strong>Restore</strong> underneath for when you change device.
+            </p>
+            <p>
+              Further down: <strong>My Language</strong> (English, Chinese, Spanish or Arabic — the interface follows
+              your choice, including right-to-left layout for Arabic), <strong>speech rate</strong> and
+              <strong>voice</strong> pickers, an auto-play toggle for sentences, and <strong>Home buttons</strong> —
+              which is more useful than it sounds. See below.
+            </p>
+          </div>
+        </div>
+
+        <div class="tour-step">
+          <figure class="shot">
+            <img src="../assets/img/help/english/21-settings-voice.png" alt="Voice selection settings with a list of installed voices" width="270" height="480" loading="lazy">
+            <figcaption>Pick a voice, then set the speed.</figcaption>
+          </figure>
+          <div class="tour-step__body">
+            <span class="tour-step__path"><i class="bi bi-gear"></i> Settings → Voice</span>
+            <h3>Voice &amp; speed</h3>
+            <p>
+              The app speaks through the voices installed on your device, listed here by name so you can pick
+              the accent you want to train your ear on. The <strong>speech rate</strong> slider sits alongside —
+              worth slowing down for Ear Training, and worth speeding up once a level starts feeling easy.
+            </p>
+          </div>
+        </div>
+
+        <div class="tour-step">
+          <figure class="shot">
+            <img src="../assets/img/help/english/22-settings-home-layout.png" alt="Home buttons settings panel with toggles for each home screen section" width="270" height="480" loading="lazy">
+            <figcaption>Home buttons — hides sections <em>and</em> filters the listening modes.</figcaption>
+          </figure>
+          <div class="tour-step__body">
+            <span class="tour-step__path"><i class="bi bi-gear"></i> Settings → Home buttons</span>
+            <h3>Home buttons</h3>
+            <p>
+              Switch off the CEFR levels, word collections or sentence collections you are not working on.
+              The obvious benefit is a tidier home screen. The <strong>less obvious and more useful</strong> one:
+              anything hidden here also disappears from the <strong>Memorize Words</strong> and
+              <strong>Ear Training</strong> source lists.
+            </p>
+            <p>
+              So if you are preparing for IELTS, turn everything else off once and every auto-play session
+              you start afterwards will be IELTS-only, without reconfiguring it each time.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ============ Walkthroughs ============ -->
+    <section class="section" id="tutorials">
+      <div class="section-heading">
+        <span class="eyebrow">Tutorials</span>
+        <h2>Three things to do in your first session</h2>
+      </div>
+
+      <div class="walkthrough-grid">
+
+        <div class="walkthrough">
+          <h3><i class="bi bi-1-circle"></i> Find your real level</h3>
+          <ol>
+            <li>On <strong>Home</strong>, scroll to <strong>Test</strong> and choose <strong>Reading</strong>.</li>
+            <li>Pick the level you <em>think</em> you are — most people guess one band high.</li>
+            <li>Read the instructions, then take the test. Twenty questions, twenty minutes.</li>
+            <li>Skip anything that stalls you using the numbered strip at the top, and come back to it.</li>
+            <li><strong>Submit Test</strong> and look at the score. Comfortably above 80%? Move up a level. Under 60%? Move down.</li>
+            <li>Now open the word list for that level and start there — not at A1, and not at the level you wish you were.</li>
+          </ol>
+        </div>
+
+        <div class="walkthrough">
+          <h3><i class="bi bi-2-circle"></i> Set up a commute listening session</h3>
+          <ol>
+            <li>Open <strong>Settings → Home buttons</strong> and switch off every level and collection except the one you are studying.</li>
+            <li>Go to the <strong>Listening</strong> tab and tap <strong>Memorize Words</strong>.</li>
+            <li>Under <strong>Play on each card</strong>, keep <strong>Word</strong> and <strong>Meaning</strong>; turn off <strong>Sentences</strong> for a faster loop.</li>
+            <li>Check that <strong>Word sources</strong> shows only what you want — it will, because of step 1.</li>
+            <li>Adjust the <strong>speech rate</strong> in Settings if it runs too fast, then press <strong>Play</strong> and pocket the phone.</li>
+            <li>Tomorrow, open the same screen and <strong>resume the saved session</strong> instead of starting a new one.</li>
+          </ol>
+        </div>
+
+        <div class="walkthrough">
+          <h3><i class="bi bi-3-circle"></i> Build a favorites list that earns its keep</h3>
+          <ol>
+            <li>Open any word list and read down it.</li>
+            <li><strong>Heart</strong> only the words you did not know — not the ones that look interesting.</li>
+            <li>Do the same in a sentence list; sentences and words are saved separately.</li>
+            <li>Back on <strong>Home</strong>, open <strong>My Favorites</strong> — it shows live counts and previews one of each.</li>
+            <li>Work through favorites as its own list. A short list of genuine gaps beats a long list of nice-to-haves.</li>
+            <li>Unheart words once they stick, so the list stays a to-do rather than a scrapbook.</li>
+          </ol>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ============ Audio ============ -->
+    <section class="section" id="audio">
+      <div class="section-heading">
+        <span class="eyebrow">Audio &amp; voices</span>
+        <h2>If the audio is silent or sounds wrong</h2>
+      </div>
+
+      <p style="color:var(--muted); max-width:70ch;">
+        ALL English speaks through the <strong>text-to-speech engine built into your device</strong> rather than
+        shipping recordings, which is how every one of the 8,000+ words has audio. English voices are installed
+        by default on nearly every phone, so this usually just works — but two things are worth knowing.
+      </p>
+
+      <div class="callout">
+        <p><strong>No sound at all?</strong> Check your ringer switch and volume first — text-to-speech follows the
+        media volume, not the ringtone volume. Then open <strong>Settings → Voice</strong> and confirm a voice is
+        selected. On Android, make sure a text-to-speech engine is installed and enabled in your device's
+        accessibility settings.</p>
+        <p style="margin-bottom:0;"><strong>Meanings not being spoken?</strong> The meaning is read in your
+        chosen translation language, so your device also needs a voice for that language. If you have set
+        <strong>My Language</strong> to Chinese or Arabic and hear only the English, install that language's voice
+        on your device.</p>
+      </div>
+
+      <p style="color:var(--muted); max-width:70ch;">
+        Once it is working, use <strong>Settings → Voice</strong> to pick the accent you want to train on, and the
+        <strong>speech rate</strong> slider to set the pace. Slower for Ear Training when a level is new;
+        faster than natural once it feels easy — that is what makes real speech feel slow by comparison.
+      </p>
+    </section>
+
+    <!-- ============ Web vs Android ============ -->
+    <section class="section" id="web-vs-android">
+      <div class="section-heading">
+        <span class="eyebrow">Web vs. Android</span>
+        <h2>Which version should you use?</h2>
+      </div>
+
+      <div class="table-scroll">
+        <table class="spec-table">
+          <thead>
+            <tr><th scope="col">Feature</th><th scope="col">Web</th><th scope="col">Android app</th></tr>
+          </thead>
+          <tbody>
+            <tr><th scope="row">All CEFR levels, collections, articles and tests</th><td class="yes">Yes</td><td class="yes">Yes</td></tr>
+            <tr><th scope="row">Nothing to install</th><td class="yes">Yes</td><td class="no">—</td></tr>
+            <tr><th scope="row">Memorize Words &amp; Ear Training auto-play</th><td class="no">Browsers throttle speech in background tabs</td><td class="yes">Yes, runs hands-free</td></tr>
+            <tr><th scope="row">Speaking practice with the microphone</th><td class="no">Unreliable in most browsers</td><td class="yes">Yes</td></tr>
+            <tr><th scope="row">Works without a connection</th><td class="no">—</td><td class="yes">Content is stored on the device</td></tr>
+            <tr><th scope="row">Remove Ads purchase</th><td class="no">—</td><td class="yes">Yes, one-off</td></tr>
+            <tr><th scope="row">Favorites and streak survive between visits</th><td class="no">Kept in your browser only</td><td class="yes">Kept on the device</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p style="color:var(--muted); margin-top:1.5rem;">
+        The listening modes are the reason to install the app: a browser will not keep speaking once the tab
+        loses focus, which is exactly when you want it to.
+      </p>
+    </section>
+
+    <!-- ============ FAQ ============ -->
+    <section class="section" id="faq">
+      <div class="section-heading">
+        <span class="eyebrow">FAQ</span>
+        <h2>Common questions</h2>
+      </div>
+
+      <div class="faq-list">
+        <details class="faq-item">
+          <summary>Which CEFR level should I start at?</summary>
+          <div class="faq-answer"><p>A1 is absolute beginner, C2 is near-native. Rather than guessing, take a reading test at the level you think you are — the <a href="#tutorials">first walkthrough</a> above explains how to read the result. Most people place themselves one band too high.</p></div>
+        </details>
+        <details class="faq-item">
+          <summary>What is the difference between Memorize Words and Ear Training?</summary>
+          <div class="faq-answer"><p>Both play automatically so you can listen without touching the screen. <strong>Memorize Words</strong> cycles through vocabulary — word, then meaning in your language, then example sentences. <strong>Ear Training</strong> does the same for whole sentences. Both save your position so you can stop and resume exactly where you were.</p></div>
+        </details>
+        <details class="faq-item">
+          <summary>What are the collections like Oxford 3000 and CET-4?</summary>
+          <div class="faq-answer"><p>Curated lists that cut across the CEFR levels. <strong>Basic 850</strong> is Ogden's minimum working vocabulary, <strong>Oxford 3000</strong> the core learner word list, <strong>Common 2198</strong> high-frequency everyday English, <strong>VOA 1510</strong> the Voice of America Special English list, and <strong>IELTS</strong>, <strong>CET-4</strong> and <strong>CET-6</strong> are exam vocabularies. Use a level to learn broadly, a collection to target an exam.</p></div>
+        </details>
+        <details class="faq-item">
+          <summary>Is ALL English free?</summary>
+          <div class="faq-answer"><p>Yes. Every level, collection, article and test is unlocked from the start. The app is funded by ads, with one optional in-app purchase — <strong>Remove Ads</strong> — that hides them permanently. No learning content is behind a paywall.</p></div>
+        </details>
+        <details class="faq-item">
+          <summary>Can I see meanings in my own language?</summary>
+          <div class="faq-answer"><p>Yes — <strong>Settings → My Language</strong>, with English, Chinese, Spanish and Arabic available. The interface follows the same choice, including right-to-left layout for Arabic.</p></div>
+        </details>
+        <details class="faq-item">
+          <summary>My home screen is cluttered. Can I hide sections?</summary>
+          <div class="faq-answer"><p>Yes, in <strong>Settings → Home buttons</strong>. Worth knowing: hidden sources also disappear from the <strong>Memorize Words</strong> and <strong>Ear Training</strong> setup screens, so this is the easiest way to keep every auto-play session focused on one exam or level.</p></div>
+        </details>
+        <details class="faq-item">
+          <summary>How does Speaking Practice score me?</summary>
+          <div class="faq-answer"><p>Your device's speech recogniser transcribes what you said and the app compares it to the target sentence. It measures whether you would be understood rather than your accent, so a quiet room and a granted microphone permission matter more than sounding native.</p></div>
+        </details>
+        <details class="faq-item">
+          <summary>Will I lose my progress if I reinstall?</summary>
+          <div class="faq-answer"><p>Yes. There is no account and no cloud sync — favorites, streak, test results and saved listening sessions are stored only on your device, so uninstalling clears them.</p></div>
+        </details>
+        <details class="faq-item">
+          <summary>I bought Remove Ads but the ads came back.</summary>
+          <div class="faq-answer"><p>Open <strong>Settings</strong> and tap <strong>Restore</strong> on the ad-free card. The app also re-checks with Google Play on every launch, so confirm you are signed in with the account you purchased on. If it still will not restore, <a href="english_contactus.html">get in touch</a>.</p></div>
+        </details>
+        <details class="faq-item">
+          <summary>Is the web version the same as the Android app?</summary>
+          <div class="faq-answer"><p>Same content, fewer capabilities — see the <a href="#web-vs-android">comparison table</a>. The auto-play listening modes in particular need the Android app, because browsers stop speaking once the tab loses focus.</p></div>
+        </details>
+      </div>
+    </section>
+
+    <!-- ============ Closing CTA ============ -->
+    <section class="section" id="start">
+      <div class="cta-band">
+        <h2>Start at your level</h2>
+        <p>Try it in your browser, or install the Android app for offline study and hands-free listening.</p>
+        <div class="app-hero__actions">
+          <a class="btn btn-primary" href="learnenglish/">Open the web app <i class="bi bi-arrow-right"></i></a>
+          <a href="https://play.google.com/store/apps/details?id=com.idatagear.learn_english" target="_blank" rel="noopener">
+            <img class="play-badge" src="../assets/img/google-play-badge.svg" alt="Get ALL English on Google Play" width="162" height="48">
+          </a>
+        </div>
+        <div class="page-links" style="justify-content:center;">
+          <a class="btn btn-outline" href="english_privacy.html">Privacy policy</a>
+          <a class="btn btn-outline" href="english_contactus.html">Contact us</a>
+          <a class="btn btn-ghost" href="../index.html">All iDataGear apps</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-simple">
+      <p>© <span id="year">2026</span> iDataGear Inc · <span class="mclearn-mark" role="text" aria-label="McLearn registered trademark">McLearn</span></p>
+      <nav aria-label="Footer">
+        <a href="../index.html">Home</a>
+        <a href="learnenglish/">ALL English app</a>
+        <a href="english_privacy.html">Privacy</a>
+        <a href="english_contactus.html">Contact</a>
+        <a href="mailto:idatagear@gmail.com">idatagear@gmail.com</a>
+      </nav>
     </div>
-  </div>
-  <script>
-    (function () {
-      var promo = document.getElementById('android-promo');
-      var closeBtn = document.getElementById('android-promo-close');
-      if (!promo || !closeBtn) return;
+  </footer>
 
-      function hidePromo() {
-        if (!promo) return;
-        promo.style.opacity = '0';
-        promo.style.transition = 'opacity 0.25s ease';
-        setTimeout(function () {
-          if (promo && promo.parentNode) {
-            promo.parentNode.removeChild(promo);
-          }
-        }, 250);
-      }
-
-      closeBtn.addEventListener('click', hidePromo);
-      setTimeout(hidePromo, 3000);
-    })();
-  </script>
-  <script>
-    // Error handler to catch initialization errors
-    window.addEventListener('error', function(e) {
-      console.error('Global error:', e.error);
-      // Only show error UI if app hasn't loaded (checking flutter root element usually, but here just simple)
-      // document.body.innerHTML = ... // Optional: enable this if needed
-    });
-    
-    window.addEventListener('unhandledrejection', function(e) {
-      console.error('Unhandled promise rejection:', e.reason);
-    });
-  </script>
-  <script src="flutter_bootstrap.js" async></script>
+  <script src="../assets/js/main.js" defer></script>
 </body>
 </html>

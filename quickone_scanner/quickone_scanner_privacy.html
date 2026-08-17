@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — QuickOne Scanner</title>
+<style>
+  :root { color-scheme: light dark; }
+  body {
+    margin: 0 auto; padding: 2rem 1.25rem 4rem; max-width: 46rem;
+    font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          "Helvetica Neue", Arial, sans-serif;
+    color: #1a1a1a; background: #fff;
+  }
+  h1 { font-size: 1.75rem; margin-bottom: .25rem; }
+  h2 { font-size: 1.15rem; margin-top: 2.25rem; }
+  .meta { color: #666; font-size: .9rem; margin-top: 0; }
+  .callout {
+    border-left: 4px solid #2f6bff; background: #f4f7ff;
+    padding: .9rem 1rem; margin: 1.5rem 0; border-radius: 0 6px 6px 0;
+  }
+  table { border-collapse: collapse; width: 100%; margin: 1rem 0; font-size: .95rem; }
+  th, td { border: 1px solid #ddd; padding: .55rem .7rem; text-align: left; vertical-align: top; }
+  th { background: #f5f5f5; }
+  code { background: #f0f0f0; padding: .1rem .35rem; border-radius: 3px; font-size: .9em; }
+  a { color: #2f6bff; }
+  footer { margin-top: 3rem; font-size: .875rem; color: #666; }
+  @media (prefers-color-scheme: dark) {
+    body { color: #e6e6e6; background: #121212; }
+    .meta, footer { color: #9a9a9a; }
+    .callout { background: #16203a; border-left-color: #6f9bff; }
+    th { background: #1e1e1e; }
+    th, td { border-color: #333; }
+    code { background: #1e1e1e; }
+    a { color: #7ea6ff; }
+  }
+</style>
+</head>
+<body>
+
+<h1>QuickOne Scanner — Privacy Policy</h1>
+<p class="meta">Last updated: 5 August 2026</p>
+
+<p>
+  QuickOne Scanner is an Android document scanner. This policy explains exactly
+  what the app does and does not do with your information. It is written to be
+  accurate rather than reassuring; where a third party is involved, it says so.
+</p>
+
+<div class="callout">
+  <strong>The short version.</strong> Your scanned documents never leave your
+  device. QuickOne Scanner has no account system, no cloud sync, no ads, and no
+  analytics or tracking of any kind. We do not operate a server, and we never
+  receive your documents, your images, or your recognized text.
+</div>
+
+<h2>1. Information we collect</h2>
+<p>
+  <strong>None.</strong> The developer of QuickOne Scanner collects no personal
+  information. There is no sign-up, no login, no account, and no user profile.
+  We do not use any analytics, advertising, attribution, or crash-reporting SDK.
+  We have no server that receives data from the app.
+</p>
+
+<h2>2. Your documents and scanned images</h2>
+<p>
+  Scans, page images, recognized text, folder names, and document titles are
+  stored only in the app's private storage area on your device. Other apps
+  cannot read them. They are never uploaded anywhere.
+</p>
+<p>
+  All processing — edge detection, image enhancement, filters, and text
+  recognition (OCR) — happens locally on your device.
+</p>
+<p>
+  When you use the Share or Export features, you choose where a copy goes. Once
+  you hand a file to another app (email, cloud storage, messaging), that app's
+  own privacy policy applies to it.
+</p>
+
+<h2>3. Why the app needs internet access</h2>
+<p>
+  QuickOne Scanner requests the <code>INTERNET</code> permission. It is used for
+  two purposes only, neither of which involves your documents:
+</p>
+<ul>
+  <li>
+    <strong>Purchases.</strong> Google Play Billing requires network access to
+    process and restore the one-time purchase.
+  </li>
+  <li>
+    <strong>One-time component download.</strong> The document scanner and the
+    text-recognition model are delivered through Google Play services and
+    download on first use. After that first download, scanning and text
+    recognition work fully offline.
+  </li>
+</ul>
+
+<h2>4. Third-party services</h2>
+<p>
+  QuickOne Scanner uses components provided by Google. We do not control what
+  these components send to Google, and their use of any data is governed by
+  Google's own privacy policy, not this one.
+</p>
+
+<table>
+  <thead>
+    <tr><th>Component</th><th>Purpose</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Google Play services (ML Kit Document Scanner)</td>
+      <td>The camera capture, edge detection, and page cleanup interface</td>
+      <td>Runs inside Google Play services. Your captured pages are returned to
+          QuickOne Scanner and stored on your device.</td>
+    </tr>
+    <tr>
+      <td>Google ML Kit Text Recognition</td>
+      <td>On-device OCR (Latin script)</td>
+      <td>The recognition model runs locally after its one-time download.</td>
+    </tr>
+    <tr>
+      <td>Google Play Billing</td>
+      <td>The one-time purchase and its restoration</td>
+      <td>Google processes the payment. We never see or store your payment
+          details.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>
+  For transparency: Google's ML Kit and Play services libraries include Google's
+  own diagnostic and usage-reporting components, and they add the
+  <code>ACCESS_NETWORK_STATE</code> permission to the app. Any such reporting is
+  Google's, is described in
+  <a href="https://policies.google.com/privacy">Google's Privacy Policy</a>, and
+  is separate from the developer of QuickOne Scanner, who receives nothing.
+  The contents of your documents are not part of it.
+</p>
+
+<h2>5. Permissions</h2>
+<table>
+  <thead>
+    <tr><th>Permission</th><th>Why</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><code>INTERNET</code></td><td>Google Play Billing and the one-time component download described above.</td></tr>
+    <tr><td><code>com.android.vending.BILLING</code></td><td>Required by Google Play Billing for the one-time purchase.</td></tr>
+    <tr><td><code>ACCESS_NETWORK_STATE</code></td><td>Added automatically by Google's own libraries.</td></tr>
+  </tbody>
+</table>
+<p>
+  QuickOne Scanner does <strong>not</strong> request camera permission — capture
+  happens inside Google Play services, which uses its own. It does
+  <strong>not</strong> request storage permissions; scans are kept in
+  app-private storage.
+</p>
+
+<h2>6. Keeping and deleting your data</h2>
+<p>
+  Your data stays on your device for as long as you keep it. Deleting a document
+  in the app removes its images and recognized text from your device.
+  Uninstalling QuickOne Scanner removes everything the app stored.
+</p>
+<div class="callout">
+  <strong>There is no cloud backup.</strong> Because nothing is uploaded, a lost,
+  reset, or broken phone means the scans on it are gone. Use
+  <em>Settings → Export library as ZIP</em> to keep your own copy somewhere safe.
+</div>
+
+<h2>7. Children</h2>
+<p>
+  QuickOne Scanner is not directed at children and does not knowingly collect
+  information from anyone, including children.
+</p>
+
+<h2>8. Changes to this policy</h2>
+<p>
+  If this policy changes, the updated version will be posted at this address with
+  a new "last updated" date. Material changes will also be noted in the app's
+  release notes.
+</p>
+
+<h2>9. Contact</h2>
+<p>
+  Questions about this policy or about privacy in QuickOne Scanner:
+  <!-- TODO: replace with a monitored address before publishing. -->
+  <a href="mailto:REPLACE-ME@example.com">REPLACE-ME@example.com</a>
+</p>
+
+<footer>
+  QuickOne Scanner — Private PDF Scanner. This policy applies to the Android
+  application only.
+</footer>
+
+</body>
+</html>

@@ -1,58 +1,694 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <!--
-    If you are serving your web app in a path other than the root, change the
-    href value below to reflect the base path you are serving from.
-
-    The path provided below has to start and end with a slash "/" in order for
-    it to work correctly.
-
-    For more details:
-    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
-
-    This is a placeholder for base href that will be replaced by the value of
-    the `--base-href` argument provided to `flutter build`.
-  -->
-  <base href="/cantonese/">
-
   <meta charset="UTF-8">
-  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
-  <meta name="description" content="Learn Cantonese - Interactive app to learn Cantonese characters, phrases, and pronunciation with speaking and listening practice.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#071512" media="(prefers-color-scheme: dark)">
+  <meta name="theme-color" content="#f7f3ea" media="(prefers-color-scheme: light)">
+  <meta name="color-scheme" content="dark light">
 
-  <!-- iOS meta tags & icons -->
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="apple-mobile-web-app-title" content="Learn Cantonese">
-  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+  <title>Learn Cantonese — Help &amp; Tutorial | 識聽識講 廣東話 | iDataGear</title>
+  <meta name="description" content="How to use Learn Cantonese: a screen-by-screen guide to Jyutping, listening and speaking practice, dialogues, Hong Kong slang, mini stories, tongue twisters and Guangzhou collections — with over 12,000 slang entries and 3,000 phrases.">
+  <meta name="keywords" content="Learn Cantonese help, Cantonese tutorial, Jyutping guide, how to learn Cantonese, Hong Kong slang, Cantonese pronunciation, Cantonese app guide, 廣東話, 粵拼">
 
-  <!-- Favicon -->
-  <link rel="icon" type="image/png" href="favicon.png"/>
-
-  <title>Learn Cantonese - 識聼識講 廣東話</title>
   <link rel="canonical" href="https://www.idatagear.com/cantonese/">
-  <link rel="manifest" href="manifest.json">
-  
-  <!-- Google AdSense loader — production host only (prevents localhost/preview
-       self-clicks & invalid traffic; off-prod push({}) becomes a no-op). -->
+  <link rel="alternate" hreflang="en" href="https://www.idatagear.com/cantonese/">
+  <link rel="alternate" hreflang="x-default" href="https://www.idatagear.com/cantonese/">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.idatagear.com/cantonese/">
+  <meta property="og:title" content="Learn Cantonese — Help &amp; Tutorial | 識聽識講 廣東話">
+  <meta property="og:description" content="A screen-by-screen guide to Learn Cantonese: Jyutping, listening and speaking practice, dialogues, Hong Kong slang and Guangzhou collections.">
+  <meta property="og:image" content="https://www.idatagear.com/assets/img/learn-cantonese-app-icon.png">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Learn Cantonese — Help &amp; Tutorial | 識聽識講 廣東話">
+  <meta name="twitter:description" content="A screen-by-screen guide to Learn Cantonese: Jyutping, listening and speaking practice, dialogues, Hong Kong slang and Guangzhou collections.">
+  <meta name="twitter:image" content="https://www.idatagear.com/assets/img/learn-cantonese-app-icon.png">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="../assets/img/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="../assets/img/favicon-192x192.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="../assets/img/apple-touch-icon.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link href="../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+
+  <!-- Set theme before first paint to avoid a flash of the wrong theme -->
   <script>
-    (function () {
-      var PROD = ['www.idatagear.com', 'idatagear.com'];
-      if (PROD.indexOf(location.hostname) === -1) {
-        window.adsbygoogle = window.adsbygoogle || [];
-        if (window.console) console.info('[AdSense] disabled on non-production host:', location.hostname || '(local file)');
-        return;
-      }
-      var s = document.createElement('script');
-      s.async = true;
-      s.crossOrigin = 'anonymous';
-      s.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8396981938969998';
-      document.head.appendChild(s);
-    })();
+  (function () {
+    var t = null;
+    try { t = localStorage.getItem('theme'); } catch (e) {}
+    if (t !== 'light' && t !== 'dark') {
+      t = (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches) ? 'light' : 'dark';
+    }
+    document.documentElement.setAttribute('data-theme', t);
+  })();
   </script>
-  <meta name="google-adsense-account" content="ca-pub-8396981938969998">
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <link rel="stylesheet" href="../assets/css/help.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "Learn Cantonese",
+    "alternateName": ["識聽識講 廣東話", "McCantonese"],
+    "applicationCategory": "EducationalApplication",
+    "operatingSystem": "Android, Web",
+    "inLanguage": "en",
+    "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+    "description": "Cantonese learning app covering Jyutping romanisation, listening and speaking practice, everyday dialogues, Hong Kong and Gen Z slang, mini stories, tongue twisters, children's songs and Guangzhou dialect collections.",
+    "url": "https://www.idatagear.com/cantonese/",
+    "image": "https://www.idatagear.com/assets/img/learn-cantonese-app-icon.png",
+    "publisher": { "@type": "Organization", "name": "iDataGear Inc", "url": "https://www.idatagear.com" },
+    "installUrl": "https://play.google.com/store/apps/details?id=com.idatagear.learn_cantonese",
+    "downloadUrl": "https://play.google.com/store/apps/details?id=com.idatagear.learn_cantonese",
+    "featureList": [
+      "Interactive Jyutping guide: 19 initials, finals and all six tones",
+      "Jyutping practice that breaks characters into initial, final and tone",
+      "Speaking practice scored against your own recording",
+      "Characters, phrases, sentences and graded articles with Cantonese audio",
+      "Everyday dialogues played back as a chat",
+      "Over 12,000 Hong Kong slang entries with meanings and examples",
+      "Gen Z slang, tongue twisters, children's songs and the Cantonese Three Character Classic",
+      "Guangzhou dialect collections with searchable word lists"
+    ]
+  }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "iDataGear", "item": "https://www.idatagear.com/" },
+      { "@type": "ListItem", "position": 2, "name": "Learn Cantonese — Help & Tutorial", "item": "https://www.idatagear.com/cantonese/" }
+    ]
+  }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What is Jyutping and do I have to learn it?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Jyutping is the standard romanisation system for Cantonese — it writes each syllable as an initial, a final and a tone number from 1 to 6, for example ngo5 for 我. You do not strictly have to learn it, but it is the fastest way to read a pronunciation you have never heard, and the app shows it everywhere. The built-in Jyutping Guide takes about ten minutes to work through." }
+      },
+      {
+        "@type": "Question",
+        "name": "Is Learn Cantonese free?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Yes. Every section is unlocked from the start. The app is funded by ads and offers one optional in-app purchase, Remove Ads, which hides them permanently. No content is behind a paywall." }
+      },
+      {
+        "@type": "Question",
+        "name": "Why is there no Cantonese sound?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Your device has no Cantonese voice installed. The app deliberately never falls back to Mandarin, because Mandarin pronunciation of Cantonese text is wrong and would teach you the wrong thing — so it stays silent instead. On Android, install Google Text-to-Speech and add its Cantonese (Hong Kong) voice data. On iPhone or iPad, go to Settings › Accessibility › Spoken Content › Voices › Chinese and download a Cantonese voice." }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I choose a different Cantonese voice?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Yes. Open Settings and expand Cantonese Voice, then tap any face to select that voice and hear a sample. The app lists the actual voices installed on your device by name, because Android does not report whether a voice is male or female. There is also a playback speed slider and an audio test button." }
+      },
+      {
+        "@type": "Question",
+        "name": "Does the app teach Hong Kong or Guangzhou Cantonese?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Both. The main tracks and the slang collections are Hong Kong Cantonese. The 廣州方言匯集 section under the Hong Kong menu is a separate set of Guangzhou material — regional expressions, old-Guangzhou social history, local nursery rhymes and Cantonese-only characters with their input codes." }
+      },
+      {
+        "@type": "Question",
+        "name": "How does Speaking Practice score me?",
+        "acceptedAnswer": { "@type": "Answer", "text": "You hold the microphone button and read the sentence aloud. Your device's speech recogniser transcribes what it heard, and the app compares that transcript to the target text character by character to produce a similarity score. It is judging whether you were understood, not the beauty of your accent." }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I save words to come back to?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Not yet — Learn Cantonese has no favorites list. Content is instead organised into fixed, numbered batches so you can pick up where you left off: most collections page through in blocks of fifty with the position shown at the bottom of the screen." }
+      },
+      {
+        "@type": "Question",
+        "name": "Will I lose my progress if I reinstall?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Yes. There is no account and no cloud sync — your streak and settings live only on your device, so uninstalling clears them." }
+      },
+      {
+        "@type": "Question",
+        "name": "Is the web version the same as the Android app?",
+        "acceptedAnswer": { "@type": "Answer", "text": "The content is the same, but a browser cannot reliably provide a Cantonese voice or microphone access. Use the web version to look around; install the Android app to actually study." }
+      }
+    ]
+  }
+  </script>
 </head>
 <body>
-  <script src="flutter_bootstrap.js" async></script>
+  <a class="sr-only" href="#main">Skip to content</a>
+
+  <header class="site-header" id="top">
+    <div class="logo"><a href="../index.html">iDataGear</a></div>
+    <nav class="site-nav" id="site-nav">
+      <a href="../index.html">Home</a>
+      <a href="../index.html#products"><span class="mclearn-mark" role="text" aria-label="McLearn registered trademark">McLearn</span></a>
+      <a href="index.html" class="active" aria-current="page">Help</a>
+      <a href="cantonese_privacy.html">Privacy</a>
+      <a href="cantonese_contactus.html">Contact</a>
+      <div class="nav-product-links">
+        <a class="cta-link" href="learncantonese/">Open the app</a>
+      </div>
+    </nav>
+    <button class="theme-toggle" type="button" aria-label="Toggle colour theme">
+      <i class="bi bi-sun"></i><i class="bi bi-moon-stars"></i>
+    </button>
+    <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false"><span></span><span></span><span></span></button>
+  </header>
+
+  <main id="main">
+
+    <!-- ============ Hero ============ -->
+    <section class="app-hero">
+      <img class="app-hero__icon" src="../assets/img/learn-cantonese-app-icon.png" alt="Learn Cantonese app icon" width="88" height="88">
+      <div class="app-hero__body">
+        <span class="eyebrow">Help &amp; Tutorial</span>
+        <h1 class="page-title">Learn Cantonese <span style="color:var(--muted); font-weight:600;">· 識聽識講 廣東話</span></h1>
+        <p class="page-lede">
+          Cantonese as it is actually spoken in Hong Kong and Guangzhou — Jyutping from scratch,
+          listening and speaking drills, everyday dialogues, and more than 12,000 slang entries
+          that no textbook will teach you. This page explains every screen in the app and answers
+          the questions people write to us about most.
+        </p>
+        <div class="app-hero__actions">
+          <a class="btn btn-primary" href="learncantonese/">Open the web app <i class="bi bi-arrow-right"></i></a>
+          <a href="https://play.google.com/store/apps/details?id=com.idatagear.learn_cantonese" target="_blank" rel="noopener">
+            <img class="play-badge" src="../assets/img/google-play-badge.svg" alt="Get Learn Cantonese on Google Play" width="162" height="48">
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ What's inside ============ -->
+    <section class="section" id="whats-inside">
+      <div class="section-heading">
+        <span class="eyebrow">What's inside</span>
+        <h2>An unusually large amount of real Cantonese</h2>
+        <p>Most Cantonese apps stop at a few hundred phrases. These are the actual counts of what ships inside this one.</p>
+      </div>
+
+      <div class="table-scroll">
+        <table class="spec-table">
+          <caption>Bundled learning content, by collection.</caption>
+          <thead>
+            <tr><th scope="col">Collection</th><th scope="col">What it covers</th><th scope="col">Entries</th></tr>
+          </thead>
+          <tbody>
+            <tr><th scope="row">Hong Kong slang</th><td>Everyday spoken expressions with meanings and example sentences</td><td class="num">12,116</td></tr>
+            <tr><th scope="row">Phrases 詞</th><td>Multi-character words, grouped by their head character</td><td class="num">3,146</td></tr>
+            <tr><th scope="row">Characters 字</th><td>Core characters with Jyutping and meaning</td><td class="num">2,167</td></tr>
+            <tr><th scope="row">Daily sentences</th><td>Situational sentences for real conversations</td><td class="num">1,398</td></tr>
+            <tr><th scope="row">Popular words</th><td>The 常用粵語 flashcard deck</td><td class="num">680</td></tr>
+            <tr><th scope="row">Reduplication 叠詞</th><td>AAB, ABB, AABB and ABAB patterns with meanings</td><td class="num">472</td></tr>
+            <tr><th scope="row">Mini stories</th><td>Short graded stories with per-line audio</td><td class="num">274</td></tr>
+            <tr><th scope="row">Dialogues</th><td>Two-person conversations played back as a chat</td><td class="num">209</td></tr>
+            <tr><th scope="row">Three Character Classic</th><td>粵語三字經 couplets with readings and meanings</td><td class="num">142</td></tr>
+            <tr><th scope="row">Gen Z slang</th><td>Current under-25 Hong Kong internet slang</td><td class="num">120</td></tr>
+            <tr><th scope="row">Children's songs</th><td>廣東話童謠 with notes on origin and variants</td><td class="num">95</td></tr>
+            <tr><th scope="row">Tongue twisters</th><td>急口令, with background notes behind the info icon</td><td class="num">71</td></tr>
+            <tr><th scope="row">Guangzhou collections</th><td>Regional expressions, old-Guangzhou history, rhymes, local characters</td><td class="num">340+</td></tr>
+            <tr><th scope="row">Articles 篇</th><td>Longer readings, played sentence by sentence</td><td class="num">20</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- ============ Screen-by-screen tour ============ -->
+    <section class="section" id="tour">
+      <div class="section-heading">
+        <span class="eyebrow">Screen by screen</span>
+        <h2>A guided tour of the app</h2>
+        <p>There is no bottom tab bar. Everything branches from the four tiles on the home screen: <strong>Listening</strong>, <strong>Speaking</strong>, <strong>Dialogues</strong> and <strong>Hong Kong</strong>.</p>
+      </div>
+
+      <div class="tour">
+
+        <div class="tour-step">
+          <figure class="shot">
+            <img src="../assets/img/help/cantonese/01-home.png" alt="Learn Cantonese home screen with four tiles: Listening, Speaking, Dialogues and HongKong" width="270" height="480" loading="lazy">
+            <figcaption>Home — four doors into the app.</figcaption>
+          </figure>
+          <div class="tour-step__body">
+            <span class="tour-step__path"><i class="bi bi-house"></i> Home</span>
+            <h3>Home</h3>
+            <p>
+              Four tiles, and that is the whole navigation model: <strong>識聽 Listening</strong> (understand it),
+              <strong>識講 Speaking</strong> (say it), <strong>傾偈 Dialogues</strong> (use it) and
+              <strong>香港 HongKong</strong> (the culture and slang). The banner above them shows your
+              <strong>daily streak</strong> as a flame, and the <strong>gear icon</strong> in the top-right opens Settings —
+              which is where you will go first if the audio is not working.
+            </p>
+          </div>
+        </div>
+
+        <div class="tour-step">
+          <figure class="shot">
+            <img src="../assets/img/help/cantonese/02-listening.png" alt="Listening Practice hub with Characters, Phrases, Sentences and Articles" width="270" height="480" loading="lazy">
+            <figcaption>識聽 — from single characters up to full articles.</figcaption>
+          </figure>
+          <div class="tour-step__body">
+            <span class="tour-step__path"><i class="bi bi-ear"></i> Home → 識聽 Listening</span>
+            <h3>Listening practice</h3>
+            <p>
+              Four steps up a ladder: <strong>字 Characters</strong> → <strong>詞 Phrases</strong> →
+              <strong>句 Sentences</strong> → <strong>篇 Articles</strong>. Start at whichever rung matches you.
+              Complete beginners should spend their first week in Characters and Phrases; anyone who already
+              understands some Cantonese can jump straight to Sentences.
+            </p>
+          </div>
+        </div>
+
+        <div class="tour-step">
+          <figure class="shot">
+            <img src="../assets/img/help/cantonese/06-characters.png" alt="Cantonese characters list with Jyutping and meanings" width="270" height="480" loading="lazy">
+            <figcaption>Characters — Jyutping and meaning on every row.</figcaption>
+          </figure>
+          <div class="tour-step__body">
+            <span class="tour-step__path"><i class="bi bi-ear"></i> Listening → 字 Characters</span>
+            <h3>Characters</h3>
+            <p>
+              2,167 core characters, each with its Jyutping and English meaning. Tap any row to hear it.
+              This is the raw material — almost everything else in the app is built out of these.
+            </p>
+          </div>
+        </div>
+
+        <div class="tour-step">
+          <figure class="shot">
+            <img src="../assets/img/help/cantonese/09-sentences.png" alt="Cantonese sentences with Jyutping and English translation" width="270" height="480" loading="lazy">
+            <figcaption>Sentences, with Jyutping and an English translation.</figcaption>
+          </figure>
+          <div class="tour-step__body">
+            <span class="tour-step__path"><i class="bi bi-ear"></i> Listening → 句 Sentences</span>
+            <h3>Sentences</h3>
+            <p>
+              Full sentences with Jyutping underneath and an English translation, each one playable.
+              Read along with the Jyutping the first few times, then cover it and listen again —
+              that gap is where the learning happens.
+            </p>
+          </div>
+        </div>
+
+        <div class="tour-step">
+          <figure class="shot">
+            <img src="../assets/img/help/cantonese/14-articles.png" alt="Cantonese article played sentence by sentence" width="270" height="480" loading="lazy">
+            <figcaption>Articles play one sentence at a time.</figcaption>
+          </figure>
+          <div class="tour-step__body">
+            <span class="tour-step__path"><i class="bi bi-ear"></i> Listening → 篇 Articles</span>
+            <h3>Articles</h3>
+            <p>
+              Twenty longer readings, broken into sentences with audio and translation on each.
+              Tap a single line to replay just that line — much more useful than restarting a whole passage
+              because one clause went past too fast.
+            </p>
+          </div>
+        </div>
+
+        <div class="tour-step">
+          <figure class="shot">
+            <img src="../assets/img/help/cantonese/03-speaking.png" alt="Speaking hub with Jyutping, Jyutping Practice, Speaking and Speaking Practice" width="270" height="480" loading="lazy">
+            <figcaption>識講 — learn the system, then use your mouth.</figcaption>
+          </figure>
+          <div class="tour-step__body">
+            <span class="tour-step__path"><i class="bi bi-mic"></i> Home → 識講 Speaking</span>
+            <h3>Speaking</h3>
+            <p>
+              <strong>粵拼 Jyutping</strong> is the pronunciation guide. <strong>練習 Jyutping Practice</strong> drills it.
+              <strong>多聽 Speaking</strong> gives you batches of daily sentences to shadow, and
+              <strong>多講 Speaking Practice</strong> turns on the microphone and scores you. Work through them in
+              that order — the guide first, always.
+            </p>
+          </div>
+        </div>
+
+        <div class="tour-step">
+          <figure class="shot">
+            <img src="../assets/img/help/cantonese/11-jyutping-intro.png" alt="Jyutping Guide showing Initials, Finals and Tones sections" width="270" height="480" loading="lazy">
+            <figcaption>The Jyutping Guide — the most valuable screen in the app.</figcaption>
+          </figure>
+          <div class="tour-step__body">
+            <span class="tour-step__path"><i class="bi bi-mic"></i> Speaking → 粵拼 Jyutping</span>
+            <h3>Jyutping Guide</h3>
+            <p>
+              Cantonese pronunciation has three moving parts, and this screen covers all three:
+              <strong>Initials 聲母</strong> — the 19 consonants a syllable can start with;
+              <strong>Finals 韻母</strong> — everything that comes after;
+              and <strong>Tones 聲調</strong> — the six pitches that change a word's meaning entirely.
+            </p>
+            <p>
+              Every example is tappable, so you hear the sound rather than reading a description of it.
+              Give this screen ten focused minutes before you do anything else in the app; it is the difference
+              between guessing at pronunciations forever and being able to read a new word correctly on sight.
+            </p>
+          </div>
+        </div>
+
+        <div class="tour-step">
+          <figure class="shot">
+            <img src="../assets/img/help/cantonese/12-jyutping-practice.png" alt="Jyutping practice breaking a character into initial, final and tone" width="270" height="480" loading="lazy">
+            <figcaption>Jyutping Practice — build the syllable yourself.</figcaption>
+          </figure>
+          <div class="tour-step__body">
+            <span class="tour-step__path"><i class="bi bi-mic"></i> Speaking → 練習 Jyutping Practice</span>
+            <h3>Jyutping practice</h3>
+            <p>
+              Takes a character and asks you to assemble its Jyutping from the parts — initial, then final,
+              then tone. Because it separates the three, it shows you precisely which one you keep getting
+              wrong. For most learners it is the tone.
+            </p>
+          </div>
+        </div>
+
+        <div class="tour-step">
+          <figure class="shot">
+            <img src="../assets/img/help/cantonese/13-speaking-practice.png" alt="Speaking Practice screen prompting to hold the microphone button and speak" width="270" height="480" loading="lazy">
+            <figcaption>多講 — hold the mic, read the line, get a score.</figcaption>
+          </figure>
+          <div class="tour-step__body">
+            <span class="tour-step__path"><i class="bi bi-mic"></i> Speaking → 多講 Speaking Practice</span>
+            <h3>Speaking practice</h3>
+            <p>
+              A sentence appears with its Jyutping. <strong>Hold the microphone button and read it aloud.</strong>
+              Your device transcribes what it heard and the app compares that against the target text to
+              score how close you got.
+            </p>
+            <div class="callout callout-note">
+              <p style="margin-bottom:0;">It is measuring <strong>whether you were understood</strong>, not how native you sound.
+              A low score usually means a tone was wrong — go back to the Jyutping Guide and check that syllable's tone number.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="tour-step">
+          <figure class="shot">
+            <img src="../assets/img/help/cantonese/04-dialogues.png" alt="Dialogues screen listing Popular Cantonese Words, Mini Stories and dialogue categories" width="270" height="480" loading="lazy">
+            <figcaption>傾偈 — conversations, stories and the flashcard deck.</figcaption>
+          </figure>
+          <div class="tour-step__body">
+            <span class="tour-step__path"><i class="bi bi-chat-dots"></i> Home → 傾偈 Dialogues</span>
+            <h3>Dialogues</h3>
+            <p>
+              At the top sit <strong>常用粵語 Popular Cantonese Words</strong> (the flashcard deck) and
+              <strong>粵語講故事 Mini Stories</strong>. Below them the dialogues are filed into expandable
+              categories — 溝通 Communication, 生活 Daily, 日常生活 Daily life, 飲食 Food and more.
+              Open any dialogue and it plays as a <strong>chat</strong>, one bubble per turn, with audio on each line.
+            </p>
+          </div>
+        </div>
+
+        <div class="tour-step">
+          <figure class="shot">
+            <img src="../assets/img/help/cantonese/07-popular-words.png" alt="Flashcard showing the character 佢 with Jyutping keoi5 and a speaker button, card 1 of 50" width="270" height="480" loading="lazy">
+            <figcaption>常用粵語 — 680 words as flip cards, fifty at a time.</figcaption>
+          </figure>
+          <div class="tour-step__body">
+            <span class="tour-step__path"><i class="bi bi-chat-dots"></i> Dialogues → 常用粵語</span>
+            <h3>Popular words</h3>
+            <p>
+              680 of the most-used Cantonese words as flip cards. <strong>Tap the card to flip it</strong> and see the
+              meaning; the speaker plays the audio. The deck is split into batches of fifty — the numbered tabs
+              across the top switch batch, and the bar at the bottom shows how far through you are
+              (<em>1 of 50</em>). One batch is a comfortable sitting.
+            </p>
+          </div>
+        </div>
+
+        <div class="tour-step">
+          <figure class="shot">
+            <img src="../assets/img/help/cantonese/05-hongkong-menu.png" alt="Hong Kong menu listing slang, Three Character Classic, reduplication, Gen Z slang and popular words" width="270" height="480" loading="lazy">
+            <figcaption>香港 — the part that makes you sound local.</figcaption>
+          </figure>
+          <div class="tour-step__body">
+            <span class="tour-step__path"><i class="bi bi-buildings"></i> Home → 香港 HongKong</span>
+            <h3>The Hong Kong menu</h3>
+            <p>
+              Eight collections: <strong>香港俚語 Hong Kong Slang</strong>, <strong>粵語三字經</strong> (the Cantonese
+              Three Character Classic), <strong>粵語叠詞</strong> (reduplication patterns),
+              <strong>GenZ世代流行語</strong>, <strong>粵語常用詞</strong>, <strong>粵語急口令</strong> (tongue twisters),
+              <strong>廣東話童謠</strong> (children's songs) and <strong>廣州方言匯集</strong> (the Guangzhou collections).
+            </p>
+            <p>
+              This is the section that separates textbook Cantonese from the language people actually speak.
+              The Guangzhou set at the bottom is regional rather than Hong Kong material, and includes
+              old-Guangzhou social history, local nursery rhymes, and Cantonese-only characters listed with
+              their 五筆 and pinyin input codes — the two screens in the app that have a <strong>search box</strong>.
+            </p>
+          </div>
+        </div>
+
+        <div class="tour-step">
+          <figure class="shot">
+            <img src="../assets/img/help/cantonese/20-hk-slang.png" alt="Hong Kong Slang card showing 吖 with Jyutping aa1 and an explanation, card 1 of 100" width="270" height="480" loading="lazy">
+            <figcaption>Slang cards: the term, its Jyutping, and what it actually means.</figcaption>
+          </figure>
+          <div class="tour-step__body">
+            <span class="tour-step__path"><i class="bi bi-buildings"></i> HongKong → 香港俚語</span>
+            <h3>Hong Kong slang</h3>
+            <p>
+              Over twelve thousand entries, paged in blocks of one hundred with numbered tabs across the top.
+              Each card gives the term, its Jyutping, a plain-English explanation of how it is used, and audio.
+              The example above is 吖 <em>aa1</em> — a sentence-final particle that softens a statement, the kind of
+              tiny word that makes the difference between correct Cantonese and natural Cantonese.
+            </p>
+            <p>
+              Do not try to work through this front to back. Dip into a page, keep the two or three that sound
+              useful, move on.
+            </p>
+          </div>
+        </div>
+
+        <div class="tour-step">
+          <figure class="shot">
+            <img src="../assets/img/help/cantonese/24-settings.png" alt="Settings screen with Remove Ads, Cantonese Voice and Author sections" width="270" height="480" loading="lazy">
+            <figcaption>Settings — voice, speed and the ad-free option.</figcaption>
+          </figure>
+          <div class="tour-step__body">
+            <span class="tour-step__path"><i class="bi bi-gear"></i> Home → gear icon</span>
+            <h3>Settings</h3>
+            <p>
+              <strong>Cantonese Voice</strong> lists the voices installed on your device — tap a face to select it
+              and hear a sample. <strong>Play Speed</strong> slows the audio down, which almost everyone needs at the
+              start. <strong>粵語試聽 Audio Test</strong> has a Listen button to confirm sound is working at all.
+              Further down are <strong>Author</strong>, related apps, and <strong>App Information</strong> with the version
+              and build number you will need if you email us.
+            </p>
+            <p>
+              The <strong>Go ad-free</strong> card at the top is the one-off <strong>Remove Ads</strong> purchase, with
+              <strong>Restore Purchases</strong> underneath it for when you change device.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ============ Walkthroughs ============ -->
+    <section class="section" id="tutorials">
+      <div class="section-heading">
+        <span class="eyebrow">Tutorials</span>
+        <h2>Three walkthroughs worth doing first</h2>
+        <p>Especially the first one. Skipping Jyutping is the single most common mistake learners make.</p>
+      </div>
+
+      <div class="walkthrough-grid">
+
+        <div class="walkthrough">
+          <h3><i class="bi bi-1-circle"></i> Read Jyutping in ten minutes</h3>
+          <ol>
+            <li>From Home, tap <strong>識講 Speaking</strong>, then <strong>粵拼 Jyutping</strong>.</li>
+            <li>Open <strong>Initials 聲母</strong>. Tap through all 19 — several have no English equivalent, so listen rather than read.</li>
+            <li>Open <strong>Finals 韻母</strong> and do the same. Pay attention to the ones ending in <em>-p</em>, <em>-t</em>, <em>-k</em>; they stop dead, with no released puff of air.</li>
+            <li>Open <strong>Tones 聲調</strong>. Play tone 1 and tone 4 back to back, then 2 and 5, then 3 and 6.</li>
+            <li>Now read a Jyutping syllable out loud before tapping it, then tap to check. Do ten.</li>
+            <li>That is enough. You will absorb the rest through use — go straight to <strong>練習 Jyutping Practice</strong>.</li>
+          </ol>
+        </div>
+
+        <div class="walkthrough">
+          <h3><i class="bi bi-2-circle"></i> Score your pronunciation</h3>
+          <ol>
+            <li>Tap <strong>識講 Speaking</strong> → <strong>多講 Speaking Practice</strong>.</li>
+            <li>Grant the microphone permission when your device asks.</li>
+            <li>Read the sentence and its Jyutping silently first — check the tone numbers.</li>
+            <li><strong>Hold the microphone button</strong>, say the sentence at normal speed, then release.</li>
+            <li>Compare the transcript against the target. Where they differ is where your tone slipped.</li>
+            <li>Tap the <strong>refresh button</strong> to try the same line again. Three attempts on one sentence beats one attempt on three.</li>
+          </ol>
+        </div>
+
+        <div class="walkthrough">
+          <h3><i class="bi bi-3-circle"></i> Get the Cantonese voice working</h3>
+          <ol>
+            <li>Open <strong>Settings</strong> (gear icon, top-right of Home).</li>
+            <li>Expand <strong>粵語試聽 Audio Test</strong> and press <strong>Listen</strong>.</li>
+            <li>If you hear nothing, you have no Cantonese voice installed — see the section below.</li>
+            <li>Once it speaks, expand <strong>Cantonese Voice</strong> and tap each face to sample the installed voices.</li>
+            <li>Pick the clearest one, then drag <strong>Play Speed</strong> down a notch or two.</li>
+            <li>Test again. Raise the speed back towards normal as your ear improves.</li>
+          </ol>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ============ Audio ============ -->
+    <section class="section" id="audio">
+      <div class="section-heading">
+        <span class="eyebrow">Audio &amp; voices</span>
+        <h2>If you cannot hear anything</h2>
+        <p>Cantonese voices are not installed by default on most phones. This is the fix.</p>
+      </div>
+
+      <p style="color:var(--muted); max-width:70ch;">
+        The app speaks using the <strong>text-to-speech engine built into your device</strong>, set to Cantonese
+        (<code>yue-HK</code>). That is what makes audio available on all twelve thousand slang entries instead of a
+        hand-recorded handful.
+      </p>
+
+      <div class="callout callout-warn">
+        <p><strong>The app will never read Cantonese text with a Mandarin voice.</strong> That is deliberate.
+        Mandarin pronunciation of Cantonese text is simply wrong, and hearing it would teach you the wrong
+        thing — so when no Cantonese voice exists, the app stays silent instead of substituting one.</p>
+        <p style="margin-bottom:0;">
+          <strong>On Android:</strong> install or enable <em>Google Text-to-Speech</em>, then add its
+          <strong>Cantonese (Hong Kong)</strong> voice data. The app will offer you a direct link to it on Google Play
+          the first time it notices the voice is missing.<br>
+          <strong>On iPhone or iPad:</strong> go to <strong>Settings › Accessibility › Spoken Content › Voices › Chinese</strong>
+          and download a <strong>Cantonese</strong> voice, then reopen the app.
+        </p>
+      </div>
+
+      <p style="color:var(--muted); max-width:70ch;">
+        Afterwards, open <strong>Settings → Cantonese Voice</strong>. The app lists the voices your device actually has,
+        <strong>by name</strong> rather than as a male/female switch — Android does not report a voice's gender, so
+        the honest thing is to let you hear each one. Tap a face to sample it and select it.
+      </p>
+    </section>
+
+    <!-- ============ Web vs Android ============ -->
+    <section class="section" id="web-vs-android">
+      <div class="section-heading">
+        <span class="eyebrow">Web vs. Android</span>
+        <h2>Which version should you use?</h2>
+        <p>Cantonese audio is the deciding factor, and browsers are unreliable at it.</p>
+      </div>
+
+      <div class="table-scroll">
+        <table class="spec-table">
+          <thead>
+            <tr><th scope="col">Feature</th><th scope="col">Web</th><th scope="col">Android app</th></tr>
+          </thead>
+          <tbody>
+            <tr><th scope="row">All characters, phrases, sentences, slang, dialogues</th><td class="yes">Yes</td><td class="yes">Yes</td></tr>
+            <tr><th scope="row">Nothing to install</th><td class="yes">Yes</td><td class="no">—</td></tr>
+            <tr><th scope="row">Cantonese text-to-speech</th><td class="no">Rarely available in browsers</td><td class="yes">Yes, using the device voice</td></tr>
+            <tr><th scope="row">Speaking practice with the microphone</th><td class="no">Unreliable in most browsers</td><td class="yes">Yes</td></tr>
+            <tr><th scope="row">Works without a connection</th><td class="no">—</td><td class="yes">Content is stored on the device</td></tr>
+            <tr><th scope="row">Remove Ads purchase</th><td class="no">—</td><td class="yes">Yes, one-off</td></tr>
+            <tr><th scope="row">Streak survives between visits</th><td class="no">Kept in your browser only</td><td class="yes">Kept on the device</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p style="color:var(--muted); margin-top:1.5rem;">
+        Because so much of learning Cantonese is listening, <strong>the Android app is the one to use</strong> if you
+        are serious. The web build is for having a look around first.
+      </p>
+    </section>
+
+    <!-- ============ FAQ ============ -->
+    <section class="section" id="faq">
+      <div class="section-heading">
+        <span class="eyebrow">FAQ</span>
+        <h2>Common questions</h2>
+      </div>
+
+      <div class="faq-list">
+        <details class="faq-item">
+          <summary>What is Jyutping, and do I have to learn it?</summary>
+          <div class="faq-answer"><p>Jyutping is the standard romanisation for Cantonese. It writes a syllable as an initial, a final and a tone number from 1 to 6 — 我 is <em>ngo5</em>. You do not strictly have to learn it, but it is the fastest way to read a pronunciation you have never heard, and the app shows it everywhere. The <a href="#tutorials">ten-minute walkthrough</a> above is genuinely all it takes.</p></div>
+        </details>
+        <details class="faq-item">
+          <summary>Is Learn Cantonese free?</summary>
+          <div class="faq-answer"><p>Yes. Every section is unlocked from the start. The app is funded by ads and offers one optional in-app purchase — <strong>Remove Ads</strong> — which hides them permanently. No content is behind a paywall.</p></div>
+        </details>
+        <details class="faq-item">
+          <summary>Why is there no Cantonese sound?</summary>
+          <div class="faq-answer"><p>Your device has no Cantonese voice installed, and the app will not substitute a Mandarin one because that would teach you the wrong pronunciation. Install the Cantonese (Hong Kong) voice for Google Text-to-Speech on Android, or download a Cantonese voice under <strong>Settings › Accessibility › Spoken Content › Voices › Chinese</strong> on iPhone. Full steps in <a href="#audio">Audio &amp; voices</a>.</p></div>
+        </details>
+        <details class="faq-item">
+          <summary>Can I choose a different voice, or slow it down?</summary>
+          <div class="faq-answer"><p>Yes — <strong>Settings → Cantonese Voice</strong> lists the voices installed on your device; tap a face to select it and hear a sample. <strong>Play Speed</strong> underneath slows playback down. Most learners want it slower for the first few weeks.</p></div>
+        </details>
+        <details class="faq-item">
+          <summary>Is this Hong Kong Cantonese or Guangzhou Cantonese?</summary>
+          <div class="faq-answer"><p>Mostly Hong Kong. The main tracks and the slang collections are Hong Kong Cantonese. <strong>廣州方言匯集</strong>, under the Hong Kong menu, is a separate Guangzhou set — regional expressions, old-Guangzhou social history, local nursery rhymes, and Cantonese-only characters with their input codes.</p></div>
+        </details>
+        <details class="faq-item">
+          <summary>How does Speaking Practice score me?</summary>
+          <div class="faq-answer"><p>Your device's speech recogniser transcribes what you said, and the app compares that transcript against the target sentence character by character. It is measuring whether you would be understood, not how native your accent is. A low score most often means a tone was off.</p></div>
+        </details>
+        <details class="faq-item">
+          <summary>Can I save words to a favorites list?</summary>
+          <div class="faq-answer"><p>Not currently — Learn Cantonese has no favorites feature. Content is instead organised into fixed numbered batches so you can reliably pick up where you left off; most collections page through in blocks of fifty or a hundred, with your position shown at the bottom of the screen.</p></div>
+        </details>
+        <details class="faq-item">
+          <summary>Will I lose my progress if I reinstall?</summary>
+          <div class="faq-answer"><p>Yes. There is no account and no cloud sync, so your streak and settings live only on your device and uninstalling clears them.</p></div>
+        </details>
+        <details class="faq-item">
+          <summary>I bought Remove Ads but the ads came back.</summary>
+          <div class="faq-answer"><p>Open <strong>Settings</strong> and tap <strong>Restore Purchases</strong>. The app also re-checks with Google Play every time it launches, so make sure you are signed in with the account you purchased on. Still stuck? <a href="cantonese_contactus.html">Let us know</a>.</p></div>
+        </details>
+        <details class="faq-item">
+          <summary>Is the web version the same as the Android app?</summary>
+          <div class="faq-answer"><p>Same content, fewer capabilities — see the <a href="#web-vs-android">comparison table</a>. Browsers rarely have a Cantonese voice available, which is most of the point of this app, so use the web version to look around and the Android app to study.</p></div>
+        </details>
+      </div>
+    </section>
+
+    <!-- ============ Closing CTA ============ -->
+    <section class="section" id="start">
+      <div class="cta-band">
+        <h2>識聽識講 廣東話</h2>
+        <p>Open it in your browser now, or install the Android app for offline study and proper Cantonese audio.</p>
+        <div class="app-hero__actions">
+          <a class="btn btn-primary" href="learncantonese/">Open the web app <i class="bi bi-arrow-right"></i></a>
+          <a href="https://play.google.com/store/apps/details?id=com.idatagear.learn_cantonese" target="_blank" rel="noopener">
+            <img class="play-badge" src="../assets/img/google-play-badge.svg" alt="Get Learn Cantonese on Google Play" width="162" height="48">
+          </a>
+        </div>
+        <div class="page-links" style="justify-content:center;">
+          <a class="btn btn-outline" href="cantonese_privacy.html">Privacy policy</a>
+          <a class="btn btn-outline" href="cantonese_contactus.html">Contact us</a>
+          <a class="btn btn-ghost" href="../index.html">All iDataGear apps</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-simple">
+      <p>© <span id="year">2026</span> iDataGear Inc · <span class="mclearn-mark" role="text" aria-label="McLearn registered trademark">McLearn</span></p>
+      <nav aria-label="Footer">
+        <a href="../index.html">Home</a>
+        <a href="learncantonese/">Learn Cantonese app</a>
+        <a href="cantonese_privacy.html">Privacy</a>
+        <a href="cantonese_contactus.html">Contact</a>
+        <a href="mailto:idatagear@gmail.com">idatagear@gmail.com</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="../assets/js/main.js" defer></script>
 </body>
 </html>

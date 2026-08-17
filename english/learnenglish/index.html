@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!--
+    If you are serving your web app in a path other than the root, change the
+    href value below to reflect the base path you are serving from.
+
+    The path provided below has to start and end with a slash "/" in order for
+    it to work correctly.
+
+    For more details:
+    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+
+    This is a placeholder for base href that will be replaced by the value of
+    the `--base-href` argument provided to `flutter build`.
+  -->
+  <!-- Google AdSense loader — production host only (prevents localhost/preview
+       self-clicks & invalid traffic; off-prod push({}) becomes a no-op). -->
+  <script>
+    (function () {
+      var PROD = ['www.idatagear.com', 'idatagear.com'];
+      if (PROD.indexOf(location.hostname) === -1) {
+        window.adsbygoogle = window.adsbygoogle || [];
+        if (window.console) console.info('[AdSense] disabled on non-production host:', location.hostname || '(local file)');
+        return;
+      }
+      var s = document.createElement('script');
+      s.async = true;
+      s.crossOrigin = 'anonymous';
+      s.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8396981938969998';
+      document.head.appendChild(s);
+    })();
+  </script>
+  <base href="/english/learnenglish/">
+  <meta name="google-adsense-account" content="ca-pub-8396981938969998">
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="ALL English — All Level Learner's English by McLearn®. Learn English with CEFR levels A1–C2: vocabulary with IPA, sentences, articles, interactive practice tests, and pronunciation practice. Free on web and Android.">
+  <meta name="keywords" content="ALL English, All Level Learner's English, learn English, CEFR preparation, English vocabulary, English pronunciation, English practice tests, English learning app, A1, A2, B1, B2, C1, C2">
+  <link rel="canonical" href="https://www.idatagear.com/english/learnenglish/">
+  
+  <!-- iOS meta tags & icons -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="ALL English">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png"/>
+  
+  <title>ALL English | All Level Learner's English — CEFR A1–C2 by McLearn®</title>
+  
+  <!-- Structured Data for Web Application -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "ALL English",
+    "alternateName": ["All Level Learner's English", "McEnglish"],
+    "applicationCategory": "EducationalApplication",
+    "operatingSystem": "Web, Android",
+    "url": "https://www.idatagear.com/english/learnenglish/",
+    "image": "https://www.idatagear.com/assets/img/all-english-app-icon.png",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD"
+    },
+    "description": "ALL English (All Level Learner's English): comprehensive English learning platform with CEFR levels A1–C2, vocabulary with IPA, sentences, articles, interactive practice tests, and pronunciation practice.",
+    "publisher": {
+      "@type": "Organization",
+      "name": "iDataGear Inc",
+      "url": "https://www.idatagear.com"
+    }
+  }
+  </script>
+  <link rel="manifest" href="manifest.json">
+</head>
+<body>
+  <div id="android-promo" style="position: fixed; inset: 0; display: flex; align-items: center; justify-content: center; background: rgba(15, 23, 42, 0.55); z-index: 9999; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;">
+    <div style="background: #ffffff; border-radius: 16px; padding: 1.25rem 1.5rem; max-width: 360px; width: 90%; box-shadow: 0 18px 45px rgba(15, 23, 42, 0.35); text-align: left; font-size: 0.95rem; color: #111827;">
+      <p style="margin: 0 0 0.75rem;"><strong>Tip:</strong> ALL English works best as an Android app from Google Play.</p>
+      <a href="https://play.google.com/store/apps/details?id=com.idatagear.learn_english" target="_blank" rel="noopener" style="display: inline-block; margin-bottom: 0.75rem;">
+        <img src="../../assets/img/google-play-badge.svg" alt="Get ALL English on Google Play" style="height: 40px; width: auto;">
+      </a>
+      <div style="text-align: right;">
+        <button id="android-promo-close" type="button" style="border-radius: 999px; border: 1px solid #d1d5db; background: #f9fafb; padding: 0.25rem 0.9rem; font-size: 0.85rem; cursor: pointer;">OK</button>
+      </div>
+    </div>
+  </div>
+  <script>
+    (function () {
+      var promo = document.getElementById('android-promo');
+      var closeBtn = document.getElementById('android-promo-close');
+      if (!promo || !closeBtn) return;
+
+      function hidePromo() {
+        if (!promo) return;
+        promo.style.opacity = '0';
+        promo.style.transition = 'opacity 0.25s ease';
+        setTimeout(function () {
+          if (promo && promo.parentNode) {
+            promo.parentNode.removeChild(promo);
+          }
+        }, 250);
+      }
+
+      closeBtn.addEventListener('click', hidePromo);
+      setTimeout(hidePromo, 3000);
+    })();
+  </script>
+  <script>
+    // Error handler to catch initialization errors
+    window.addEventListener('error', function(e) {
+      console.error('Global error:', e.error);
+      // Only show error UI if app hasn't loaded (checking flutter root element usually, but here just simple)
+      // document.body.innerHTML = ... // Optional: enable this if needed
+    });
+    
+    window.addEventListener('unhandledrejection', function(e) {
+      console.error('Unhandled promise rejection:', e.reason);
+    });
+  </script>
+  <script src="flutter_bootstrap.js" async></script>
+</body>
+</html>
