@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#071512" media="(prefers-color-scheme: dark)">
+  <meta name="theme-color" content="#f7f3ea" media="(prefers-color-scheme: light)">
+  <meta name="color-scheme" content="dark light">
+
+  <title>QuickOne Scanner — Offline PDF Scanner &amp; On-Device OCR | iDataGear</title>
+  <meta name="description" content="QuickOne Scanner turns your iPhone, iPad or Android phone into a document scanner that works entirely on your device. Automatic edge detection, on-device OCR for Latin scripts and Chinese, full-text search, signatures and sticky notes, and searchable PDF export. No account, no cloud, no ads, no scan limit, no watermark.">
+  <meta name="keywords" content="offline document scanner, private PDF scanner, on-device OCR app, scan to searchable PDF, document scanner no cloud, free scanner app no subscription, no watermark scanner, Chinese OCR app, iPhone document scanner, iPad scanner app, Android document scanner, QuickOne Scanner">
+
+  <link rel="canonical" href="https://www.idatagear.com/quickonescanner/">
+  <link rel="alternate" hreflang="en" href="https://www.idatagear.com/quickonescanner/">
+  <link rel="alternate" hreflang="x-default" href="https://www.idatagear.com/quickonescanner/">
+
+  <!-- Safari smart banner for the iOS listing -->
+  <meta name="apple-itunes-app" content="app-id=6801050269">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.idatagear.com/quickonescanner/">
+  <meta property="og:title" content="QuickOne Scanner — Offline PDF Scanner &amp; On-Device OCR">
+  <meta property="og:description" content="A document scanner that works entirely on your device. Scan, read the text, search inside your pages, export a searchable PDF — nothing is uploaded anywhere. Free on the App Store and Google Play.">
+  <meta property="og:image" content="https://www.idatagear.com/assets/img/quickone-scanner-app-icon.png">
+  <meta property="og:site_name" content="iDataGear Inc">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="QuickOne Scanner — Offline PDF Scanner &amp; On-Device OCR">
+  <meta name="twitter:description" content="Scan, OCR and search documents entirely on your device. No account, no cloud, no ads, no scan limit, no watermark.">
+  <meta name="twitter:image" content="https://www.idatagear.com/assets/img/quickone-scanner-app-icon.png">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="../assets/img/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="../assets/img/favicon-192x192.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="../assets/img/apple-touch-icon.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link href="../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+
+  <!-- Set theme before first paint to avoid a flash of the wrong theme -->
+  <script>
+  (function () {
+    var t = null;
+    try { t = localStorage.getItem('theme'); } catch (e) {}
+    if (t !== 'light' && t !== 'dark') {
+      t = (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches) ? 'light' : 'dark';
+    }
+    document.documentElement.setAttribute('data-theme', t);
+  })();
+  </script>
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <link rel="stylesheet" href="../assets/css/help.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "QuickOne Scanner: PDF & OCR",
+    "alternateName": ["QuickOne Scanner", "QuickOne"],
+    "applicationCategory": "ProductivityApplication",
+    "applicationSubCategory": "Document Scanner",
+    "operatingSystem": "iOS 15.5 or later, Android",
+    "softwareVersion": "1.0.0",
+    "inLanguage": ["en", "fr", "es", "zh-Hans", "zh-Hant"],
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD",
+      "description": "Free with no in-app purchases, no subscription, no scan limit, no ads and no watermark."
+    },
+    "description": "A document scanner that runs entirely on your device. Automatic page-edge detection, image cleanup, on-device text recognition for Latin scripts and Chinese (Simplified and Traditional), full-text search across every recognized word, tags and folders, signatures and sticky notes, and export to a PDF with an invisible searchable text layer. No account, no server, no ads, no scan limit and no watermark.",
+    "url": "https://www.idatagear.com/quickonescanner/",
+    "image": "https://www.idatagear.com/assets/img/quickone-scanner-app-icon.png",
+    "author": { "@type": "Organization", "name": "iDataGear Inc", "url": "https://www.idatagear.com" },
+    "publisher": { "@type": "Organization", "name": "iDataGear Inc", "url": "https://www.idatagear.com" },
+    "downloadUrl": [
+      "https://apps.apple.com/us/app/quickone-scanner-pdf-ocr/id6801050269",
+      "https://play.google.com/store/apps/details?id=com.idatagear.quickonescanner"
+    ],
+    "sameAs": "https://apps.apple.com/us/app/quickone-scanner-pdf-ocr/id6801050269",
+    "installUrl": "https://apps.apple.com/us/app/quickone-scanner-pdf-ocr/id6801050269",
+    "privacyPolicy": "https://www.idatagear.com/quickone_scanner/quickone_scanner_privacy.html",
+    "featureList": [
+      "Automatic page-edge detection with multi-page capture, retake and reorder",
+      "Import photos you already have through the system picker",
+      "Crop any page and apply Original, Grayscale or Black & white filters, always reversible",
+      "On-device text recognition for Latin scripts and Chinese, Simplified and Traditional",
+      "Automatic script detection, overridable per document or app-wide",
+      "Re-read your entire library with a different recognition model at any time",
+      "Full-text search across document titles and every recognized word",
+      "Chinese indexed character by character, so partial queries work",
+      "Seventeen built-in tags plus your own, with on-device tag suggestions",
+      "Colour-coded folders",
+      "Sign a page with your finger in five ink colours",
+      "Sticky notes with your own background and text colour",
+      "Export a PDF with an invisible searchable text layer",
+      "Export images-only PDF, JPEG per page, plain .txt, or a ZIP of your whole library"
+    ]
+  }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "iDataGear", "item": "https://www.idatagear.com/" },
+      { "@type": "ListItem", "position": 2, "name": "QuickOne Scanner", "item": "https://www.idatagear.com/quickonescanner/" }
+    ]
+  }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Is QuickOne Scanner really free?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Yes. No subscription, no one-time unlock, no scan allowance, no ads and no watermark on any export. Not 'free for your first 5 scans' — free. There are no in-app purchases at all, on either platform, so the app never handles payment information and no payment processor is involved." }
+      },
+      {
+        "@type": "Question",
+        "name": "Are my scanned documents uploaded to a server?",
+        "acceptedAnswer": { "@type": "Answer", "text": "No. Edge detection, image cleanup, text recognition, the search index and the tag suggestions all run locally on your device. Your scans, page images and recognized text stay in the app's private storage, where other apps cannot read them. iDataGear operates no server for this app and receives nothing — not your documents, not your images, not the text recognized from them. The only time a copy leaves the device is when you use Share or Export and choose where it goes yourself." }
+      },
+      {
+        "@type": "Question",
+        "name": "Does the OCR work offline?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Yes, from the very first scan. Both text-recognition models — Latin and Chinese — are compiled into the app itself, so nothing downloads and OCR works on a device that has never been online. On iPhone and iPad the capture screen is Apple's own VisionKit document camera, which ships with iOS, so scanning is offline from the first launch too. On Android the capture screen comes from Google Play services and downloads once on first use; after that, scanning is offline as well." }
+      },
+      {
+        "@type": "Question",
+        "name": "Which languages can QuickOne Scanner read?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Text recognition covers Latin scripts — English, French, Spanish, German, Italian, Portuguese and the other languages written in the Latin alphabet — and Chinese in both Simplified and Traditional. The script is detected automatically, and you can override it for a single document or for the whole app. You can also re-read your entire existing library with a different model at any time. The app's own interface is available in English, Français, Español, 简体中文 and 繁體中文." }
+      },
+      {
+        "@type": "Question",
+        "name": "What is a searchable PDF and why does it matter?",
+        "acceptedAnswer": { "@type": "Answer", "text": "A searchable PDF carries an invisible layer of text positioned behind the page image. The page still looks exactly like your scan, but other apps — Preview, Acrobat, your email client, your cloud drive — can search inside it, select text from it, and index it. QuickOne Scanner exports this by default. If you would rather have the smallest possible file, it can also export an images-only PDF." }
+      },
+      {
+        "@type": "Question",
+        "name": "Does QuickOne Scanner need camera or photo permissions?",
+        "acceptedAnswer": { "@type": "Answer", "text": "On iPhone and iPad the app asks for camera access the first time you scan, because VisionKit runs inside the app — and that is the only prompt it shows. It requests no photo-library access (importing a photo goes through the system picker, which hands over only the file you chose), no location, no contacts, no microphone, and it shows no App Tracking Transparency prompt because it does not track you. On Android it does not even request camera permission, because capture happens inside Google Play services under its own permission." }
+      },
+      {
+        "@type": "Question",
+        "name": "What happens to my scans if I lose my phone?",
+        "acceptedAnswer": { "@type": "Answer", "text": "They are gone with it. This is the honest trade-off of a scanner that uploads nothing: there is no cloud backup, and we cannot restore your documents because we never had them. Use Settings → Export library as ZIP to keep your own copy wherever you choose — a Mac, an external drive, or a cloud service you already trust." }
+      },
+      {
+        "@type": "Question",
+        "name": "Where can I download QuickOne Scanner?",
+        "acceptedAnswer": { "@type": "Answer", "text": "On iPhone and iPad, from the App Store at apps.apple.com/us/app/quickone-scanner-pdf-ocr/id6801050269 — it requires iOS 15.5 or later. On Android, from Google Play at play.google.com/store/apps/details?id=com.idatagear.quickonescanner. Both are free." }
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="sr-only" href="#main">Skip to content</a>
+
+  <header class="site-header" id="top">
+    <div class="logo"><a href="../index.html">iDataGear</a></div>
+    <nav class="site-nav" id="site-nav">
+      <a href="../index.html">Home</a>
+      <a href="../index.html#products"><span class="mclearn-mark" role="text" aria-label="McLearn registered trademark">McLearn</span></a>
+      <a href="index.html" class="active" aria-current="page">QuickOne Scanner</a>
+      <a href="../quickone_scanner/quickone_scanner_privacy.html">Privacy</a>
+      <a href="../contactus.html">Contact</a>
+      <div class="nav-product-links">
+        <a class="cta-link" href="https://apps.apple.com/us/app/quickone-scanner-pdf-ocr/id6801050269" target="_blank" rel="noopener">Get it on the App Store</a>
+      </div>
+    </nav>
+    <button class="theme-toggle" type="button" aria-label="Toggle colour theme">
+      <i class="bi bi-sun"></i><i class="bi bi-moon-stars"></i>
+    </button>
+    <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false"><span></span><span></span><span></span></button>
+  </header>
+
+  <main id="main">
+
+    <!-- ============ Hero ============ -->
+    <section class="app-hero">
+      <img class="app-hero__icon" src="../assets/img/quickone-scanner-app-icon.png"
+           alt="QuickOne Scanner app icon" width="88" height="88">
+      <div class="app-hero__body">
+        <span class="eyebrow">iDataGear · Productivity</span>
+        <h1 class="page-title">QuickOne Scanner <span style="color:var(--muted); font-weight:600;">· PDF &amp; OCR</span></h1>
+        <p class="page-lede">
+          Your documents never leave your phone. QuickOne Scanner turns your camera into a
+          document scanner that works <strong>entirely on your device</strong> — edge detection,
+          image cleanup, text recognition and search all run locally. There is no account to
+          create, no server to upload to, and nothing for anyone to leak.
+        </p>
+        <div class="app-hero__actions">
+          <a href="https://apps.apple.com/us/app/quickone-scanner-pdf-ocr/id6801050269" target="_blank" rel="noopener">
+            <img class="play-badge" src="../assets/img/app-store-badge.svg" alt="Download QuickOne Scanner on the App Store" width="144" height="48">
+          </a>
+          <a href="https://play.google.com/store/apps/details?id=com.idatagear.quickonescanner" target="_blank" rel="noopener">
+            <img class="play-badge" src="../assets/img/google-play-badge.svg" alt="Get QuickOne Scanner on Google Play" width="162" height="48">
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ What makes it different ============ -->
+    <section class="section" id="different">
+      <div class="section-heading">
+        <span class="eyebrow">What makes it different</span>
+        <h2>Free means free, and private means private</h2>
+        <p>Most scanner apps are a funnel. This one is not — here is exactly what that means, in specifics rather than adjectives.</p>
+      </div>
+
+      <div class="table-scroll">
+        <table class="spec-table">
+          <caption>What QuickOne Scanner does and does not do.</caption>
+          <thead>
+            <tr><th scope="col">Claim</th><th scope="col">What it actually means</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Everything on-device</th>
+              <td>Your scans, page images and recognized text stay in the app's private storage. We operate no server and receive nothing.</td>
+            </tr>
+            <tr>
+              <th scope="row">Genuinely free</th>
+              <td>No subscription, no one-time unlock, no scan allowance, no ads. Not “free for your first 5 scans” — free.</td>
+            </tr>
+            <tr>
+              <th scope="row">No watermark</th>
+              <td>Not on any export, not ever.</td>
+            </tr>
+            <tr>
+              <th scope="row">No account</th>
+              <td>No email, no phone number, no sign-in.</td>
+            </tr>
+            <tr>
+              <th scope="row">Minimal permissions</th>
+              <td>The camera is used only to scan a page. Photo import goes through the system picker, which needs no library access.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- ============ Feature tour ============ -->
+    <section class="section" id="features">
+      <div class="section-heading">
+        <span class="eyebrow">Feature by feature</span>
+        <h2>Scan, read, find, organise, mark up, share</h2>
+        <p>Six things the app does, and the detail inside each one.</p>
+      </div>
+
+      <div class="walkthrough-grid">
+
+        <div class="walkthrough">
+          <h3><i class="bi bi-camera" aria-hidden="true"></i> Scan</h3>
+          <ul>
+            <li><strong>Automatic page detection</strong> — hold the phone over the page and the edges are found for you</li>
+            <li>Multiple pages in one session, with retake and reorder</li>
+            <li>Import photos you already have</li>
+            <li>Add pages to an existing document whenever you like</li>
+            <li>Reorder by dragging, crop any page, delete the ones you do not want</li>
+            <li><strong>Original, Grayscale and Black &amp; white</strong> filters — always reversible, because the untouched original is never overwritten</li>
+          </ul>
+        </div>
+
+        <div class="walkthrough">
+          <h3><i class="bi bi-fonts" aria-hidden="true"></i> Read</h3>
+          <ul>
+            <li>On-device text recognition for <strong>Latin scripts</strong> and for <strong>Chinese, Simplified and Traditional</strong></li>
+            <li>The script is detected automatically; you can override it for one document or for the whole app</li>
+            <li>Re-read your entire library with a different model at any time</li>
+            <li>Copy the recognized text, or save it as a <code>.txt</code> file</li>
+          </ul>
+        </div>
+
+        <div class="walkthrough">
+          <h3><i class="bi bi-search" aria-hidden="true"></i> Find</h3>
+          <ul>
+            <li><strong>Full-text search</strong> across document titles and every word the recognition read inside your pages</li>
+            <li>Chinese is indexed character by character, so partial queries work</li>
+            <li>Type <code>#</code> to filter by tag, and combine tags to narrow further</li>
+          </ul>
+        </div>
+
+        <div class="walkthrough">
+          <h3><i class="bi bi-tags" aria-hidden="true"></i> Organise</h3>
+          <ul>
+            <li>Tags that pick their own icon from what they mean — money, ID, health, legal, home</li>
+            <li><strong>Seventeen built-in tags</strong>, plus any you invent</li>
+            <li>Automatic tag suggestions from the recognized text, worked out on your device — remove any that do not fit</li>
+            <li>Folders, colour-coded from their names</li>
+          </ul>
+        </div>
+
+        <div class="walkthrough">
+          <h3><i class="bi bi-pencil" aria-hidden="true"></i> Mark up</h3>
+          <ul>
+            <li><strong>Sign a page with your finger</strong>, in five ink colours</li>
+            <li>Sticky notes with your own background and text colour, including a transparent background for a plain caption</li>
+            <li>Drag, resize and place anything where you want it</li>
+            <li>Export an annotated PDF that keeps your marks</li>
+          </ul>
+        </div>
+
+        <div class="walkthrough">
+          <h3><i class="bi bi-box-arrow-up" aria-hidden="true"></i> Share and export</h3>
+          <ul>
+            <li><strong>PDF with an invisible searchable text layer</strong>, so other apps can search your scan</li>
+            <li>PDF, images only, when the smallest file is what matters</li>
+            <li>JPEG, one per page</li>
+            <li>Plain <code>.txt</code> of the recognized text</li>
+            <li>Export your whole library, a single folder, or everything under one tag as a <strong>ZIP you keep yourself</strong></li>
+          </ul>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ============ iOS vs Android ============ -->
+    <section class="section" id="platforms">
+      <div class="section-heading">
+        <span class="eyebrow">iPhone, iPad and Android</span>
+        <h2>The same app, with two honest differences</h2>
+        <p>The features are identical. What differs is which system component provides the camera, and what that implies for permissions.</p>
+      </div>
+
+      <div class="table-scroll">
+        <table class="spec-table">
+          <caption>Platform differences, stated plainly.</caption>
+          <thead>
+            <tr><th scope="col"></th><th scope="col">iPhone &amp; iPad</th><th scope="col">Android</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Capture screen</th>
+              <td>Apple VisionKit, which ships with iOS — nothing downloads</td>
+              <td>Google Play services, which downloads it on your first scan</td>
+            </tr>
+            <tr>
+              <th scope="row">Camera permission</th>
+              <td>Asked once, the first time you scan, because VisionKit runs inside the app</td>
+              <td>Never asked — capture happens inside Play services under its own permission</td>
+            </tr>
+            <tr>
+              <th scope="row">Text recognition</th>
+              <td>Both models bundled in the app — offline from the first scan</td>
+              <td>Both models bundled in the app — offline from the first scan</td>
+            </tr>
+            <tr>
+              <th scope="row">Network requests</th>
+              <td>None at all</td>
+              <td>One, for the capture component, on first scan only</td>
+            </tr>
+            <tr>
+              <th scope="row">Minimum version</th>
+              <td>iOS 15.5</td>
+              <td>Android 7.0</td>
+            </tr>
+            <tr>
+              <th scope="row">Interface languages</th>
+              <td colspan="2">English, Français, Español, 简体中文, 繁體中文 · Light, dark, or follow the system</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="callout callout-warn">
+        <p>
+          <strong>One thing worth knowing.</strong> Because nothing is uploaded, your scans exist only on
+          that device. If you lose it or reset it, they are gone with it — we cannot restore them, because
+          we never had them. <em>Settings → Export library as ZIP</em> keeps a copy wherever you choose.
+        </p>
+      </div>
+    </section>
+
+    <!-- ============ FAQ ============ -->
+    <section class="section" id="faq">
+      <div class="section-heading">
+        <span class="eyebrow">Questions</span>
+        <h2>Frequently asked questions</h2>
+      </div>
+
+      <div class="faq-list">
+
+        <details class="faq-item">
+          <summary>Is QuickOne Scanner really free?</summary>
+          <div class="faq-answer"><p>
+            Yes. <strong>No subscription, no one-time unlock, no scan allowance, no ads</strong> and no watermark on
+            any export. Not “free for your first 5 scans” — free. There are no in-app purchases at all, on either
+            platform, so the app never handles payment information and no payment processor is involved.
+          </p></div>
+        </details>
+
+        <details class="faq-item">
+          <summary>Are my scanned documents uploaded to a server?</summary>
+          <div class="faq-answer"><p>
+            No. Edge detection, image cleanup, text recognition, the search index and the tag suggestions all run
+            <strong>locally on your device</strong>. Your scans, page images and recognized text stay in the app's
+            private storage, where other apps cannot read them. iDataGear operates no server for this app and
+            receives nothing — not your documents, not your images, not the text recognized from them. The only time
+            a copy leaves the device is when you use Share or Export and choose where it goes yourself.
+          </p></div>
+        </details>
+
+        <details class="faq-item">
+          <summary>Does the OCR work offline?</summary>
+          <div class="faq-answer"><p>
+            Yes, from the very first scan. Both text-recognition models — Latin and Chinese — are compiled into the
+            app itself, so nothing downloads and OCR works on a device that has never been online. On iPhone and iPad
+            the capture screen is Apple's own VisionKit document camera, which ships with iOS, so scanning is offline
+            from the first launch too. On Android the capture screen comes from Google Play services and downloads
+            once on first use; after that, scanning is offline as well.
+          </p></div>
+        </details>
+
+        <details class="faq-item">
+          <summary>Which languages can QuickOne Scanner read?</summary>
+          <div class="faq-answer"><p>
+            Text recognition covers <strong>Latin scripts</strong> — English, French, Spanish, German, Italian,
+            Portuguese and the other languages written in the Latin alphabet — and <strong>Chinese</strong> in both
+            Simplified and Traditional. The script is detected automatically, and you can override it for a single
+            document or for the whole app. You can also re-read your entire existing library with a different model
+            at any time. The app's own interface is available in English, Français, Español, 简体中文 and 繁體中文.
+          </p></div>
+        </details>
+
+        <details class="faq-item">
+          <summary>What is a searchable PDF and why does it matter?</summary>
+          <div class="faq-answer"><p>
+            A searchable PDF carries an <strong>invisible layer of text</strong> positioned behind the page image.
+            The page still looks exactly like your scan, but other apps — Preview, Acrobat, your email client, your
+            cloud drive — can search inside it, select text from it, and index it. QuickOne Scanner exports this by
+            default. If you would rather have the smallest possible file, it can also export an images-only PDF.
+          </p></div>
+        </details>
+
+        <details class="faq-item">
+          <summary>Does QuickOne Scanner need camera or photo permissions?</summary>
+          <div class="faq-answer"><p>
+            On iPhone and iPad the app asks for <strong>camera access the first time you scan</strong>, because
+            VisionKit runs inside the app — and that is the only prompt it shows. It requests no photo-library access
+            (importing a photo goes through the system picker, which hands over only the file you chose), no location,
+            no contacts, no microphone, and it shows no App Tracking Transparency prompt because it does not track you.
+            On Android it does not even request camera permission, because capture happens inside Google Play services
+            under its own permission.
+          </p></div>
+        </details>
+
+        <details class="faq-item">
+          <summary>What happens to my scans if I lose my phone?</summary>
+          <div class="faq-answer"><p>
+            They are gone with it. This is the honest trade-off of a scanner that uploads nothing: there is
+            <strong>no cloud backup</strong>, and we cannot restore your documents because we never had them. Use
+            <em>Settings → Export library as ZIP</em> to keep your own copy wherever you choose — a Mac, an external
+            drive, or a cloud service you already trust.
+          </p></div>
+        </details>
+
+        <details class="faq-item">
+          <summary>Where can I download QuickOne Scanner?</summary>
+          <div class="faq-answer"><p>
+            On iPhone and iPad, from the
+            <a href="https://apps.apple.com/us/app/quickone-scanner-pdf-ocr/id6801050269" target="_blank" rel="noopener">App&nbsp;Store</a>
+            — it requires iOS 15.5 or later. On Android, from
+            <a href="https://play.google.com/store/apps/details?id=com.idatagear.quickonescanner" target="_blank" rel="noopener">Google&nbsp;Play</a>.
+            Both are free.
+          </p></div>
+        </details>
+
+      </div>
+    </section>
+
+    <!-- ============ Closing CTA ============ -->
+    <section class="section" id="get">
+      <div class="cta-band">
+        <h2>Scan something. Nothing leaves your phone.</h2>
+        <p>Free on the App Store and Google Play. No account, no ads, no scan limit, no watermark.</p>
+        <div class="app-hero__actions">
+          <a href="https://apps.apple.com/us/app/quickone-scanner-pdf-ocr/id6801050269" target="_blank" rel="noopener">
+            <img class="play-badge" src="../assets/img/app-store-badge.svg" alt="Download QuickOne Scanner on the App Store" width="144" height="48">
+          </a>
+          <a href="https://play.google.com/store/apps/details?id=com.idatagear.quickonescanner" target="_blank" rel="noopener">
+            <img class="play-badge" src="../assets/img/google-play-badge.svg" alt="Get QuickOne Scanner on Google Play" width="162" height="48">
+          </a>
+        </div>
+        <div class="page-links" style="justify-content:center;">
+          <a class="btn btn-outline" href="../quickone_scanner/quickone_scanner_privacy.html">Privacy policy</a>
+          <a class="btn btn-outline" href="../contactus.html">Contact us</a>
+          <a class="btn btn-ghost" href="../index.html">All iDataGear apps</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-simple">
+      <p>© <span id="year">2026</span> iDataGear Inc</p>
+      <nav aria-label="Footer">
+        <a href="../index.html">Home</a>
+        <a href="https://apps.apple.com/us/app/quickone-scanner-pdf-ocr/id6801050269" target="_blank" rel="noopener">App Store</a>
+        <a href="https://play.google.com/store/apps/details?id=com.idatagear.quickonescanner" target="_blank" rel="noopener">Google Play</a>
+        <a href="../quickone_scanner/quickone_scanner_privacy.html">Privacy</a>
+        <a href="mailto:idatagear@gmail.com">idatagear@gmail.com</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="../assets/js/main.js" defer></script>
+</body>
+</html>

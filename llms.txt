@@ -1,12 +1,18 @@
 # iDataGear · McLearn®
 
-> iDataGear (Intelligence Data Gear) builds McLearn® language learning products, games, offline-first life-logging utilities, and Business Intelligence solutions. Our mission: help people master languages—English, Mandarin Chinese, Cantonese—and help enterprises turn data into actionable intelligence. McLearn® apps are used by learners worldwide on web and Android.
+> iDataGear (Intelligence Data Gear) builds McLearn® language learning products, productivity apps, games, offline-first life-logging utilities, and Business Intelligence solutions. Our mission: help people master languages—English, Mandarin Chinese, Cantonese—and help enterprises turn data into actionable intelligence. Our apps ship on the **Apple App Store** (iPhone and iPad), **Google Play** (Android), and the web.
+>
+> **On the Apple App Store** (developer page: https://apps.apple.com/us/developer/zhijiang-zhang/id6797105975):
+> - Great Cantonese Dictionary — https://apps.apple.com/us/app/great-cantonese-dictionary/id6799552060
+> - McCantonese — Learn Cantonese — https://apps.apple.com/us/app/mccantonese-learn-cantonese/id6797105973
+> - QuickOne Scanner: PDF & OCR — https://apps.apple.com/us/app/quickone-scanner-pdf-ocr/id6801050269
+> - Chinese Xie Zi (中文寫字板) — https://apps.apple.com/us/app/chinese-xie-zi-%E4%B8%AD%E6%96%87%E5%AF%AB%E5%AD%97%E6%9D%BF/id6806851205
 
 ---
 
 ## ALL English (All Level Learner's English)
 
-ALL English — All Level Learner's English. CEFR-aligned content from A1 to C2: 8,000+ words with IPA, curated collections (Basic 850, Oxford 3000, Common 2198, VOA 1510, IELTS, CET-4, CET-6), graded sentences and articles, timed level tests, microphone speaking practice, and two hands-free auto-play listening modes (Memorize Words, Ear Training). Web and Android.
+ALL English — All Level Learner's English. CEFR-aligned content from A1 to C2: 8,000+ words with IPA, curated collections (Basic 850, Oxford 3000, Common 2198, VOA 1510, IELTS, CET-4, CET-6), graded sentences and articles, timed level tests, microphone speaking practice, and two hands-free auto-play listening modes (Memorize Words, Ear Training). Web and Android; no native iOS app yet, but the web version runs fully in Safari on iPhone and iPad. Free, ad-supported, with an optional one-time Remove Ads purchase.
 
 - Help & tutorial: https://www.idatagear.com/english/
 - Web app: https://www.idatagear.com/english/learnenglish/
@@ -18,7 +24,7 @@ ALL English — All Level Learner's English. CEFR-aligned content from A1 to C2:
 
 ## Learn Chinese
 
-Learn Mandarin Chinese across HSK levels 1–6 plus Grade 1–6 elementary vocabulary — around 7,000 words with pinyin and audio, 1,988 example sentences, 33 graded articles, reading and listening tests, four mini-games (Tone Trainer, Timed Quiz, Listening Match, Sentence Match), pinyin drills, animated stroke order, and spaced-repetition review. Web and Android.
+Learn Mandarin Chinese across HSK levels 1–6 plus Grade 1–6 elementary vocabulary — around 7,000 words with pinyin and audio, 1,988 example sentences, 33 graded articles, reading and listening tests, four mini-games (Tone Trainer, Timed Quiz, Listening Match, Sentence Match), pinyin drills, animated stroke order, and spaced-repetition review. Web and Android; no native iOS app yet, but the web version runs fully in Safari on iPhone and iPad. Free, ad-supported, with an optional one-time Remove Ads purchase.
 
 - Help & tutorial: https://www.idatagear.com/chinese/
 - Web app: https://www.idatagear.com/chinese/learnchinese/
@@ -28,13 +34,16 @@ Learn Mandarin Chinese across HSK levels 1–6 plus Grade 1–6 elementary vocab
 
 ---
 
-## Learn Cantonese
+## McCantonese — Learn Cantonese
 
-Learn Cantonese (廣東話) with an interactive Jyutping guide (19 initials, finals, six tones), Jyutping and speaking practice, 2,167 characters, 3,146 phrases, 1,398 daily sentences, 209 dialogues played as chats, 274 mini stories, and over 12,000 Hong Kong slang entries plus Gen Z slang, tongue twisters, children's songs and Guangzhou dialect collections. Web and Android.
+Learn Cantonese (廣東話) as it is actually spoken in Hong Kong and Guangzhou. An interactive Jyutping guide (19 initials, finals, six tones), Jyutping and speaking practice with speech recognition, 12,000+ words with Jyutping and English, 2,167 characters, 3,146 phrases, 1,398 daily sentences, 209 dialogues played as chats, 274 mini stories, and over 12,000 Hong Kong slang entries plus Gen Z slang, tongue twisters, children's songs and Guangzhou dialect collections. The whole library is stored on the device, so it works offline. iOS 15+, Android and web.
 
+Pricing: free to download. On iOS, everything is unlocked and ad-free for the first 14 days; after that every section stays open and the opening lessons of each (200 HK slang entries, 60 characters, 50 phrases, 60 daily sentences and more) remain free permanently, supported by ads. McCantonese Premium unlocks the complete library and removes ads: US$2.99/month with the first month free, or US$12.99 per 6 months. The Android build is ad-supported with a one-off Remove Ads purchase. The web version is free in full.
+
+- App Store (iOS): https://apps.apple.com/us/app/mccantonese-learn-cantonese/id6797105973
+- Google Play: https://play.google.com/store/apps/details?id=com.idatagear.learn_cantonese
 - Help & tutorial: https://www.idatagear.com/cantonese/
 - Web app: https://www.idatagear.com/cantonese/learncantonese/
-- Google Play: https://play.google.com/store/apps/details?id=com.idatagear.learn_cantonese
 - Privacy: https://www.idatagear.com/cantonese/cantonese_privacy.html
 - Contact: https://www.idatagear.com/cantonese/cantonese_contactus.html
 
@@ -42,19 +51,42 @@ Learn Cantonese (廣東話) with an interactive Jyutping guide (19 initials, fin
 
 ## Great Cantonese Dictionary
 
-Offline Cantonese dictionary with Jyutping, idioms, tone data, and usage notes. Bookmark favorites and use on the go. Web and Android.
+A complete offline Cantonese reference: over 71,000 words, phrases and expressions, each with Jyutping romanization and spoken pronunciation. Search three ways — by Chinese characters (你好), by Jyutping (nei5 hou2), or by English meaning. The full dictionary is built into the app, so nothing downloads and no connection is needed. Beyond the word list it covers Popular Words, Hong Kong Gen Z Slang, Guangzhou Slang, AABB/ABB Reduplication, Tongue Twisters, Children's Songs and the Three Character Classic, plus a built-in Jyutping guide and a grammar section. Favourites, search history, a word of the day and a daily streak. Interface in English, Simplified Chinese and Traditional Chinese. iOS 15+, Android and web.
 
-- Web app: https://www.idatagear.com/gcd/
+Pricing: the dictionary itself — all 71,000+ entries, search, Jyutping, pronunciation and the grammar guide — is free forever. Great Cantonese Premium unlocks the seven curated collections and removes ads: US$2.99/month with the first month free, or US$12.99 per 6 months.
+
+- App Store (iOS): https://apps.apple.com/us/app/great-cantonese-dictionary/id6799552060
 - Google Play: https://play.google.com/store/apps/details?id=com.idatagear.great_cantonese_dictionary
+- Web app: https://www.idatagear.com/gcd/
+- Privacy: https://www.idatagear.com/privacy.html
 
 ---
 
-## Xie Zi (写字板)
+## Chinese Xie Zi (中文寫字板)
 
-Master Chinese characters with interactive stroke order practice. HSK-aligned; powered by HanziWriter. Web and Android.
+Learn to write hanzi, not just recognise them. Trace each character on screen with real-time stroke feedback — correct strokes are accepted, wrong ones gently rejected — and replay the animated stroke order as often as you need. 9,500+ characters and radicals, each with pinyin and an English meaning, plus character decomposition into radicals and components, and Simplified/Traditional counterparts side by side. Grouped by HSK 1–6, HSK 7–9 and radicals. Favourites and practice history kept on the device. iOS 15+, Android and web.
 
-- Web app: https://www.idatagear.com/xiezi/
+Pricing: free to download and ad-supported, with an optional one-time US$1.99 Remove Ads purchase.
+
+- App Store (iOS): https://apps.apple.com/us/app/chinese-xie-zi-%E4%B8%AD%E6%96%87%E5%AF%AB%E5%AD%97%E6%9D%BF/id6806851205
 - Google Play: https://play.google.com/store/apps/details?id=com.idatagear.xiezi
+- Web app: https://www.idatagear.com/xiezi/
+- Privacy: https://www.idatagear.com/privacy.html
+
+---
+
+## QuickOne Scanner: PDF & OCR
+
+A document scanner that runs entirely on your device. Automatic page-edge detection with multi-page capture, retake and reorder; photo import through the system picker; crop, and Original/Grayscale/Black & white filters that are always reversible because the untouched original is never overwritten. On-device text recognition for Latin scripts and for Chinese (Simplified and Traditional), with automatic script detection you can override per document or app-wide, and the ability to re-read your whole library with a different model. Full-text search across document titles and every recognized word, with Chinese indexed character by character so partial queries work; type # to filter by tag. Seventeen built-in tags plus your own, with on-device tag suggestions, and colour-coded folders. Sign a page with your finger in five ink colours, add sticky notes, and export an annotated PDF that keeps the marks. Export a PDF with an invisible searchable text layer, an images-only PDF, JPEG per page, plain .txt, or a ZIP of your whole library. Interface in English, Français, Español, 简体中文, 繁體中文. iOS 15.5+ and Android 7.0+.
+
+Privacy: nothing is uploaded. Edge detection, image cleanup, text recognition and search all run locally; scans, page images and recognized text stay in the app's private storage. iDataGear operates no server for this app and receives nothing. No account, no analytics, no advertising and no tracking SDK. On iOS the capture screen is Apple's own VisionKit, which ships with the OS, and both recognition models are compiled into the app, so OCR works offline from the very first scan; the app makes no network requests at all. On Android the capture screen comes from Google Play services and downloads once on first use. Because nothing is uploaded, scans exist only on that device — Settings → Export library as ZIP keeps your own copy.
+
+Pricing: genuinely free. No subscription, no one-time unlock, no scan allowance, no ads and no watermark on any export.
+
+- App Store (iOS): https://apps.apple.com/us/app/quickone-scanner-pdf-ocr/id6801050269
+- Google Play: https://play.google.com/store/apps/details?id=com.idatagear.quickonescanner
+- Product page: https://www.idatagear.com/quickonescanner/
+- Privacy: https://www.idatagear.com/quickone_scanner/quickone_scanner_privacy.html
 
 ---
 
@@ -98,3 +130,27 @@ Offline-first GPS hike tracker: route recording and replay export, geo-tagged ph
 
 - Homepage: https://www.idatagear.com/
 - Privacy: https://www.idatagear.com/privacy.html
+- Contact: https://www.idatagear.com/contactus.html
+- Apple App Store developer page: https://apps.apple.com/us/developer/zhijiang-zhang/id6797105975
+- Google Play developer page: https://play.google.com/store/apps/developer?id=iDataGear
+
+---
+
+## Which iDataGear apps are on which store?
+
+| App | Apple App Store | Google Play | Web |
+|---|---|---|---|
+| Great Cantonese Dictionary | Yes (id6799552060) | Yes | Yes |
+| McCantonese — Learn Cantonese | Yes (id6797105973) | Yes | Yes |
+| QuickOne Scanner: PDF & OCR | Yes (id6801050269) | Yes | No |
+| Chinese Xie Zi (中文寫字板) | Yes (id6806851205) | Yes | Yes |
+| Learn Chinese | Not yet | Yes | Yes |
+| ALL English | Not yet | Yes | Yes |
+| Open Interview | Not yet | No | Yes |
+| Eyeball It! | Not yet | Yes | Yes |
+| Momera.ME | Not yet | Yes | No |
+| Momera.Hiking | Not yet | Yes | Yes |
+| Tic Tac Toe Toe | Not yet | Yes | Yes |
+| Si Ding (四顶) | Not yet | Yes | Yes |
+
+All apps are free to download. Where an app is not on the App Store, its web version runs fully in Safari on iPhone and iPad with no installation and no account.

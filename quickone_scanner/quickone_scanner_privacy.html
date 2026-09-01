@@ -4,54 +4,166 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Privacy Policy — QuickOne Scanner</title>
+<meta name="description" content="QuickOne Scanner is a document scanner for iPhone, iPad and Android that processes everything on your device. No account, no cloud, no ads, no tracking.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://www.idatagear.com/quickone_scanner/quickone_scanner_privacy.html">
 <style>
-  :root { color-scheme: light dark; }
-  body {
-    margin: 0 auto; padding: 2rem 1.25rem 4rem; max-width: 46rem;
-    font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-          "Helvetica Neue", Arial, sans-serif;
-    color: #1a1a1a; background: #fff;
+  :root {
+    color-scheme: light dark;
+
+    /* The app's own brand ramp — kBrandStart/kBrandEnd in lib/app/theme.dart —
+       so the policy page and the launcher icon agree. */
+    --brand-start: #01E6D5;
+    --brand-end:   #0084DB;
+    --brand-deep:  #00538C;
+
+    --ink:      #16191d;
+    --ink-soft: #5c6470;
+    --paper:    #ffffff;
+    --panel:    #f4f8fb;
+    --rule:     #dfe5ec;
+    --link:     #0072bd;
   }
-  h1 { font-size: 1.75rem; margin-bottom: .25rem; }
-  h2 { font-size: 1.15rem; margin-top: 2.25rem; }
-  .meta { color: #666; font-size: .9rem; margin-top: 0; }
-  .callout {
-    border-left: 4px solid #2f6bff; background: #f4f7ff;
-    padding: .9rem 1rem; margin: 1.5rem 0; border-radius: 0 6px 6px 0;
-  }
-  table { border-collapse: collapse; width: 100%; margin: 1rem 0; font-size: .95rem; }
-  th, td { border: 1px solid #ddd; padding: .55rem .7rem; text-align: left; vertical-align: top; }
-  th { background: #f5f5f5; }
-  code { background: #f0f0f0; padding: .1rem .35rem; border-radius: 3px; font-size: .9em; }
-  a { color: #2f6bff; }
-  footer { margin-top: 3rem; font-size: .875rem; color: #666; }
+
   @media (prefers-color-scheme: dark) {
-    body { color: #e6e6e6; background: #121212; }
-    .meta, footer { color: #9a9a9a; }
-    .callout { background: #16203a; border-left-color: #6f9bff; }
-    th { background: #1e1e1e; }
-    th, td { border-color: #333; }
-    code { background: #1e1e1e; }
-    a { color: #7ea6ff; }
+    :root {
+      --ink:      #e8eaed;
+      --ink-soft: #9aa3ad;
+      --paper:    #101315;
+      --panel:    #171c20;
+      --rule:     #2a3238;
+      --link:     #5cc8f5;
+    }
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    color: var(--ink);
+    background: var(--paper);
+    font: 17px/1.7 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  /* ---- masthead ---- */
+
+  header.masthead {
+    background: linear-gradient(120deg, var(--brand-start), var(--brand-end));
+    color: #fff;
+    padding: 3rem 1.25rem 2.5rem;
+  }
+  .wrap { max-width: 48rem; margin: 0 auto; }
+  .masthead .wrap {
+    display: flex; align-items: center; gap: 1.1rem; flex-wrap: wrap;
+  }
+
+  /* The scanner mark, drawn rather than linked so the page stays one file. */
+  .mark {
+    width: 64px; height: 64px; flex: none;
+    border-radius: 16px;
+    background: rgba(255,255,255,.16);
+    display: grid; place-items: center;
+  }
+  .mark svg { width: 38px; height: 38px; }
+
+  .masthead h1 {
+    margin: 0; font-size: 1.75rem; line-height: 1.25; letter-spacing: -.01em;
+  }
+  .masthead p { margin: .3rem 0 0; opacity: .92; font-size: .98rem; }
+
+  /* ---- body ---- */
+
+  main { padding: 0 1.25rem 4rem; }
+  main .wrap > :first-child { margin-top: 2.25rem; }
+
+  h2 {
+    font-size: 1.2rem; margin: 2.75rem 0 .6rem; line-height: 1.35;
+    padding-top: 1.5rem; border-top: 1px solid var(--rule);
+  }
+  h2:first-of-type { border-top: 0; padding-top: 0; }
+  h3 { font-size: 1rem; margin: 1.75rem 0 .4rem; }
+  p, li { margin: .7rem 0; }
+  ul { padding-left: 1.3rem; }
+
+  .lede { font-size: 1.05rem; color: var(--ink-soft); }
+
+  .callout {
+    background: var(--panel);
+    border-left: 4px solid var(--brand-end);
+    border-radius: 0 10px 10px 0;
+    padding: 1rem 1.15rem;
+    margin: 1.75rem 0;
+  }
+  .callout p:first-child { margin-top: 0; }
+  .callout p:last-child  { margin-bottom: 0; }
+  .callout.warn { border-left-color: #d97706; }
+
+  /* Wide tables must scroll inside themselves, never the page. */
+  .scroll-x { overflow-x: auto; margin: 1.25rem 0; }
+  table { border-collapse: collapse; width: 100%; min-width: 34rem; font-size: .95rem; }
+  th, td { border: 1px solid var(--rule); padding: .6rem .75rem; text-align: left; vertical-align: top; }
+  th { background: var(--panel); font-weight: 600; }
+
+  code {
+    background: var(--panel); border: 1px solid var(--rule);
+    padding: .08rem .35rem; border-radius: 4px;
+    font: .88em/1.4 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  }
+
+  a { color: var(--link); text-decoration-thickness: 1px; text-underline-offset: 2px; }
+
+  footer {
+    margin-top: 3.5rem; padding-top: 1.5rem; border-top: 1px solid var(--rule);
+    color: var(--ink-soft); font-size: .9rem;
+  }
+
+  @media (max-width: 30rem) {
+    body { font-size: 16px; }
+    header.masthead { padding: 2.25rem 1.1rem 2rem; }
+    .masthead h1 { font-size: 1.45rem; }
   }
 </style>
 </head>
 <body>
 
-<h1>QuickOne Scanner — Privacy Policy</h1>
-<p class="meta">Last updated: 5 August 2026</p>
+<header class="masthead">
+  <div class="wrap">
+    <div class="mark" aria-hidden="true">
+      <!-- Capture brackets around a page: the app's launcher mark, simplified. -->
+      <svg viewBox="0 0 48 48" fill="none" stroke="#fff" stroke-width="4"
+           stroke-linecap="round" stroke-linejoin="round">
+        <path d="M6 16V9a3 3 0 0 1 3-3h7"/>
+        <path d="M42 16V9a3 3 0 0 0-3-3h-7"/>
+        <path d="M6 32v7a3 3 0 0 0 3 3h7"/>
+        <path d="M42 32v7a3 3 0 0 1-3 3h-7"/>
+        <path d="M14 24h20"/>
+      </svg>
+    </div>
+    <div>
+      <h1>QuickOne Scanner — Privacy Policy</h1>
+      <p>Last updated: 1 September 2026 · iOS and Android applications</p>
+    </div>
+  </div>
+</header>
 
-<p>
-  QuickOne Scanner is an Android document scanner. This policy explains exactly
-  what the app does and does not do with your information. It is written to be
-  accurate rather than reassuring; where a third party is involved, it says so.
+<main>
+<div class="wrap">
+
+<p class="lede">
+  QuickOne Scanner is a document scanner for iPhone, iPad and Android. This
+  policy explains exactly what the app does and does not do with your
+  information, on both platforms. It is written to be accurate rather than
+  reassuring; where a third party is involved, it says so, and where the two
+  platforms genuinely differ, it says that too.
 </p>
 
 <div class="callout">
-  <strong>The short version.</strong> Your scanned documents never leave your
+  <p><strong>The short version.</strong> Your scanned documents never leave your
   device. QuickOne Scanner has no account system, no cloud sync, no ads, and no
   analytics or tracking of any kind. We do not operate a server, and we never
-  receive your documents, your images, or your recognized text.
+  receive your documents, your images, or the text recognised from them.</p>
 </div>
 
 <h2>1. Information we collect</h2>
@@ -64,134 +176,215 @@
 
 <h2>2. Your documents and scanned images</h2>
 <p>
-  Scans, page images, recognized text, folder names, and document titles are
-  stored only in the app's private storage area on your device. Other apps
+  Scans, page images, recognised text, tags, folder names, and document titles
+  are stored only in the app's private storage area on your device. Other apps
   cannot read them. They are never uploaded anywhere.
 </p>
 <p>
-  All processing — edge detection, image enhancement, filters, and text
-  recognition (OCR) — happens locally on your device.
+  All processing happens locally on your device: edge detection, image
+  enhancement, the Original / Grayscale / Black&nbsp;&amp;&nbsp;white filters,
+  cropping, text recognition, the full-text search index, and the keyword rules
+  that suggest a tag for a document. None of it involves a network request, and
+  none of it is sent anywhere for processing.
 </p>
 <p>
-  When you use the Share or Export features, you choose where a copy goes. Once
-  you hand a file to another app (email, cloud storage, messaging), that app's
-  own privacy policy applies to it.
+  When you use Share, Export, or the ZIP backup, <em>you</em> choose where a
+  copy goes. Once you hand a file to another app — email, cloud storage,
+  messaging — that app's own privacy policy applies to the copy you gave it.
 </p>
 
-<h2>3. Why the app needs internet access</h2>
+<h2>3. Network access</h2>
+
+<h3>On iPhone and iPad</h3>
 <p>
-  QuickOne Scanner requests the <code>INTERNET</code> permission. It is used for
-  two purposes only, neither of which involves your documents:
+  <strong>The app makes no network requests at all.</strong> There is nothing to
+  download and nothing to send. The capture screen is Apple's own VisionKit
+  document camera, which ships with iOS, and both text-recognition models are
+  compiled into the app — so the very first scan works on a device that has
+  never been online.
+</p>
+
+<h3>On Android</h3>
+<p>
+  QuickOne Scanner declares the <code>INTERNET</code> permission. It is not used
+  to send your documents anywhere. It is there for one thing:
 </p>
 <ul>
   <li>
-    <strong>Purchases.</strong> Google Play Billing requires network access to
-    process and restore the one-time purchase.
-  </li>
-  <li>
-    <strong>One-time component download.</strong> The document scanner and the
-    text-recognition model are delivered through Google Play services and
-    download on first use. After that first download, scanning and text
-    recognition work fully offline.
+    <strong>The capture screen.</strong> The camera view with automatic page
+    detection is a component of Google Play services, and Google Play services
+    downloads it the first time you scan. After that first download, scanning
+    works offline.
   </li>
 </ul>
-
-<h2>4. Third-party services</h2>
 <p>
-  QuickOne Scanner uses components provided by Google. We do not control what
-  these components send to Google, and their use of any data is governed by
-  Google's own privacy policy, not this one.
+  <strong>Text recognition needs no download on either platform.</strong> Both
+  recognition models the app uses — Latin and Chinese — are compiled into the app
+  itself, so OCR runs offline from the very first scan.
 </p>
 
+<h2>4. Third-party components</h2>
+<p>
+  On iPhone and iPad, the only system component the app uses for capture is
+  Apple's own, and it processes on your device. On Android, QuickOne Scanner uses
+  components provided by Google; we do not control what those components report
+  to Google, and Google's use of any such data is governed by Google's own
+  privacy policy, not this one.
+</p>
+<p>
+  <strong>On neither platform is there an analytics, advertising, attribution or
+  crash-reporting SDK.</strong>
+</p>
+
+<div class="scroll-x">
 <table>
   <thead>
-    <tr><th>Component</th><th>Purpose</th><th>Notes</th></tr>
+    <tr><th>Component</th><th>What it does</th><th>Where it runs</th></tr>
   </thead>
   <tbody>
     <tr>
-      <td>Google Play services (ML Kit Document Scanner)</td>
-      <td>The camera capture, edge detection, and page cleanup interface</td>
-      <td>Runs inside Google Play services. Your captured pages are returned to
+      <td>Apple VisionKit — <code>VNDocumentCameraViewController</code> <em>(iOS only)</em></td>
+      <td>The camera capture screen, page-edge detection, and page cleanup</td>
+      <td>Inside iOS, on your device. It ships with the operating system, so
+          nothing downloads, and your captured pages are handed straight back to
           QuickOne Scanner and stored on your device.</td>
     </tr>
     <tr>
-      <td>Google ML Kit Text Recognition</td>
-      <td>On-device OCR (Latin script)</td>
-      <td>The recognition model runs locally after its one-time download.</td>
+      <td>Google Play services — ML&nbsp;Kit Document&nbsp;Scanner <em>(Android only)</em></td>
+      <td>The camera capture screen, page-edge detection, and page cleanup</td>
+      <td>Inside Google Play services, downloaded on first use. Your captured
+          pages are handed back to QuickOne Scanner and stored on your device.</td>
     </tr>
     <tr>
-      <td>Google Play Billing</td>
-      <td>The one-time purchase and its restoration</td>
-      <td>Google processes the payment. We never see or store your payment
-          details.</td>
+      <td>Google ML&nbsp;Kit Text&nbsp;Recognition (Latin)</td>
+      <td>On-device OCR for the Latin alphabet</td>
+      <td>Bundled inside the app. Runs locally, offline, with no download.</td>
+    </tr>
+    <tr>
+      <td>Google ML&nbsp;Kit Text&nbsp;Recognition (Chinese)</td>
+      <td>On-device OCR for Simplified and Traditional Chinese</td>
+      <td>Bundled inside the app. Runs locally, offline, with no download.</td>
+    </tr>
+    <tr>
+      <td>Image cropper <em>(uCrop on Android)</em></td>
+      <td>The crop screen</td>
+      <td>Inside the app. No network access.</td>
     </tr>
   </tbody>
 </table>
+</div>
 
 <p>
-  For transparency: Google's ML Kit and Play services libraries include Google's
-  own diagnostic and usage-reporting components, and they add the
-  <code>ACCESS_NETWORK_STATE</code> permission to the app. Any such reporting is
-  Google's, is described in
-  <a href="https://policies.google.com/privacy">Google's Privacy Policy</a>, and
-  is separate from the developer of QuickOne Scanner, who receives nothing.
-  The contents of your documents are not part of it.
+  For transparency, and this applies to the <strong>Android</strong> build only:
+  Google's ML Kit and Play services libraries include Google's own diagnostic and
+  usage-reporting components, and it is those libraries that add the
+  <code>ACCESS_NETWORK_STATE</code> permission to the app — we did not request it.
+  Any such reporting is Google's, is described in
+  <a href="https://policies.google.com/privacy" rel="noopener">Google's Privacy
+  Policy</a>, and reaches the developer of QuickOne Scanner not at all. The
+  contents of your documents are not part of it. The iOS build contains no Google
+  library and nothing equivalent.
 </p>
 
 <h2>5. Permissions</h2>
+
+<h3>On iPhone and iPad</h3>
+<div class="scroll-x">
 <table>
-  <thead>
-    <tr><th>Permission</th><th>Why</th></tr>
-  </thead>
+  <thead><tr><th>Permission</th><th>Why it is there</th></tr></thead>
   <tbody>
-    <tr><td><code>INTERNET</code></td><td>Google Play Billing and the one-time component download described above.</td></tr>
-    <tr><td><code>com.android.vending.BILLING</code></td><td>Required by Google Play Billing for the one-time purchase.</td></tr>
+    <tr><td>Camera</td><td>To scan a page. VisionKit runs inside this app, so iOS asks you the first time you scan. It is used for nothing else.</td></tr>
+  </tbody>
+</table>
+</div>
+<p>
+  That is the only prompt the app shows. It requests <strong>no</strong>
+  photo-library permission — importing a photo goes through the system picker,
+  which hands over only the file you chose — and <strong>no</strong> location,
+  contacts, microphone or notification permission. There is no App Tracking
+  Transparency prompt, because the app does not track you across other companies'
+  apps and websites and has no advertising identifier to ask for.
+</p>
+
+<h3>On Android</h3>
+<div class="scroll-x">
+<table>
+  <thead><tr><th>Permission</th><th>Why it is there</th></tr></thead>
+  <tbody>
+    <tr><td><code>INTERNET</code></td><td>The one-time capture-component download described above.</td></tr>
     <tr><td><code>ACCESS_NETWORK_STATE</code></td><td>Added automatically by Google's own libraries.</td></tr>
   </tbody>
 </table>
+</div>
 <p>
-  QuickOne Scanner does <strong>not</strong> request camera permission — capture
-  happens inside Google Play services, which uses its own. It does
-  <strong>not</strong> request storage permissions; scans are kept in
-  app-private storage.
+  The Android build does <strong>not</strong> request camera permission — capture
+  happens inside Google Play services, under its own permission. It does
+  <strong>not</strong> request storage or photo-library permissions either;
+  scans are kept in app-private storage, and importing a photo goes through
+  Android's system picker, which grants access to the single file you chose and
+  nothing else.
 </p>
 
 <h2>6. Keeping and deleting your data</h2>
 <p>
   Your data stays on your device for as long as you keep it. Deleting a document
-  in the app removes its images and recognized text from your device.
+  in the app removes its page images and its recognised text from your device.
   Uninstalling QuickOne Scanner removes everything the app stored.
 </p>
-<div class="callout">
-  <strong>There is no cloud backup.</strong> Because nothing is uploaded, a lost,
-  reset, or broken phone means the scans on it are gone. Use
-  <em>Settings → Export library as ZIP</em> to keep your own copy somewhere safe.
+<div class="callout warn">
+  <p><strong>There is no cloud backup, and that cuts both ways.</strong> Because
+  nothing is uploaded, a lost, reset, or broken phone means the scans on it are
+  gone — we cannot restore them, because we never had them. Use
+  <em>Settings → Export library as ZIP</em> to keep your own copy somewhere
+  safe.</p>
 </div>
 
-<h2>7. Children</h2>
+<h2>7. Payments</h2>
+<p>
+  There are none, on either platform. QuickOne Scanner is free, with no
+  subscription, no in-app purchase, no scan allowance, no ads and no watermark,
+  so the app never handles payment information and no payment processor is
+  involved.
+</p>
+
+<h2>8. Children</h2>
 <p>
   QuickOne Scanner is not directed at children and does not knowingly collect
-  information from anyone, including children.
+  information from anyone, including children. Since the app collects nothing
+  from anyone, there is nothing to delete on request — but see section 6 for how
+  to remove data from the device itself.
 </p>
 
-<h2>8. Changes to this policy</h2>
+<h2>9. Changes to this policy</h2>
 <p>
-  If this policy changes, the updated version will be posted at this address with
-  a new "last updated" date. Material changes will also be noted in the app's
-  release notes.
+  If this policy changes, the updated version will be posted at this address
+  with a new "last updated" date. Material changes will also be noted in the
+  app's release notes on the App Store and on Google Play.
 </p>
 
-<h2>9. Contact</h2>
+<h2>10. Contact</h2>
 <p>
-  Questions about this policy or about privacy in QuickOne Scanner:
-  <!-- TODO: replace with a monitored address before publishing. -->
-  <a href="mailto:REPLACE-ME@example.com">REPLACE-ME@example.com</a>
+  Questions about this policy, or about privacy in QuickOne Scanner:
+  <a href="mailto:idatagear@gmail.com">idatagear@gmail.com</a>
 </p>
 
 <footer>
-  QuickOne Scanner — Private PDF Scanner. This policy applies to the Android
-  application only.
+  <p>
+    QuickOne Scanner — private, on-device document scanning.
+    This policy applies to the iOS and Android applications published by
+    iDataGear&nbsp;Inc. and to this page only.
+  </p>
+  <p>
+    <a href="https://apps.apple.com/us/app/quickone-scanner-pdf-ocr/id6801050269" rel="noopener">App&nbsp;Store</a> ·
+    <a href="https://play.google.com/store/apps/details?id=com.idatagear.quickonescanner" rel="noopener">Google&nbsp;Play</a> ·
+    <a href="https://www.idatagear.com/quickonescanner/">About QuickOne Scanner</a> ·
+    <a href="https://www.idatagear.com/">iDataGear</a>
+  </p>
+  <p>© 2026 iDataGear Inc.</p>
 </footer>
+
+</div>
+</main>
 
 </body>
 </html>

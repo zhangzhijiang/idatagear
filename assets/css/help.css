@@ -225,6 +225,17 @@ html { overflow-x: clip; }
 }
 
 .walkthrough ol li::marker { color: var(--accent-4); font-weight: 700; }
+
+/* Feature walkthroughs use an unordered list where the steps are not sequential
+   (QuickOne Scanner's Scan / Read / Find / Organise panels). Same rhythm. */
+.walkthrough ul {
+  margin: 0;
+  padding-left: 1.3rem;
+  display: grid;
+  gap: 0.55rem;
+  color: var(--muted);
+}
+.walkthrough ul li::marker { color: var(--accent-4); }
 .walkthrough strong { color: var(--text); font-weight: 650; }
 
 .walkthrough-grid {
