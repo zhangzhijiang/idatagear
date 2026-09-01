@@ -72,6 +72,14 @@
     "description": "A document scanner that runs entirely on your device. Automatic page-edge detection, image cleanup, on-device text recognition for Latin scripts and Chinese (Simplified and Traditional), full-text search across every recognized word, tags and folders, signatures and sticky notes, and export to a PDF with an invisible searchable text layer. No account, no server, no ads, no scan limit and no watermark.",
     "url": "https://www.idatagear.com/quickonescanner/",
     "image": "https://www.idatagear.com/assets/img/quickone-scanner-app-icon.png",
+    "screenshot": [
+      "https://www.idatagear.com/assets/img/help/quickone/01-home-library.png",
+      "https://www.idatagear.com/assets/img/help/quickone/02-tag-filter.png",
+      "https://www.idatagear.com/assets/img/help/quickone/03-search-inside-pages.png",
+      "https://www.idatagear.com/assets/img/help/quickone/04-extract-text.png",
+      "https://www.idatagear.com/assets/img/help/quickone/05-annotate.png",
+      "https://www.idatagear.com/assets/img/help/quickone/06-export-formats.png"
+    ],
     "author": { "@type": "Organization", "name": "iDataGear Inc", "url": "https://www.idatagear.com" },
     "publisher": { "@type": "Organization", "name": "iDataGear Inc", "url": "https://www.idatagear.com" },
     "downloadUrl": [
@@ -317,6 +325,153 @@
             <li>Plain <code>.txt</code> of the recognized text</li>
             <li>Export your whole library, a single folder, or everything under one tag as a <strong>ZIP you keep yourself</strong></li>
           </ul>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ============ Screen-by-screen tour ============ -->
+    <section class="section" id="tour">
+      <div class="section-heading">
+        <span class="eyebrow">Screen by screen</span>
+        <h2>What it looks like</h2>
+        <p>Six screens from the app on iPhone. Everything below happens on the device — none of these documents left the phone.</p>
+      </div>
+
+      <div class="tour">
+
+        <div class="tour-step">
+          <figure class="shot">
+            <img src="../assets/img/help/quickone/01-home-library.png"
+                 alt="QuickOne Scanner home screen showing colour-coded folders and a list of recent scans"
+                 width="270" height="587" loading="lazy">
+            <figcaption>Home — folders, recent scans, and the camera button.</figcaption>
+          </figure>
+          <div class="tour-step__body">
+            <span class="tour-step__path"><i class="bi bi-house"></i> Home</span>
+            <h3>Your library</h3>
+            <p>
+              Everything starts here. <strong>Folders</strong> take their colour from their own names —
+              Taxes 2026, Household, Travel — and <strong>Recent scans</strong> lists each document with its
+              date, page count and file size, so you can see at a glance what is taking up room.
+              The <strong>camera button</strong> starts a scan; the button beside it imports a photo you
+              already have. The search field at the top is the same one that searches inside your pages.
+            </p>
+          </div>
+        </div>
+
+        <div class="tour-step">
+          <figure class="shot">
+            <img src="../assets/img/help/quickone/02-tag-filter.png"
+                 alt="Typing a hash symbol in the search field lists every tag, each with its own icon"
+                 width="270" height="587" loading="lazy">
+            <figcaption>Type <code>#</code> and every tag appears, each with the icon it chose.</figcaption>
+          </figure>
+          <div class="tour-step__body">
+            <span class="tour-step__path"><i class="bi bi-tags"></i> Home → search → <code>#</code></span>
+            <h3>Tags, and how to filter by them</h3>
+            <p>
+              Type <strong><code>#</code></strong> into the search field and the full tag list drops down —
+              Bank, Bill, Business Card, Certificate, Contract, Form, ID&nbsp;/&nbsp;Passport and the rest.
+              Pick one to filter, or combine several to narrow further.
+            </p>
+            <p>
+              Notice the icons: each tag <strong>picks its own</strong> from what it means, so money tags get a
+              currency mark and identity tags get an ID card. That includes tags you invent — “Alder Street”
+              at the top is a custom one. Seventeen are built in.
+            </p>
+          </div>
+        </div>
+
+        <div class="tour-step">
+          <figure class="shot">
+            <img src="../assets/img/help/quickone/03-search-inside-pages.png"
+                 alt="Searching for the word Meridian returns two documents whose titles do not contain it"
+                 width="270" height="587" loading="lazy">
+            <figcaption>“Meridian” appears in neither title — it was found inside the pages.</figcaption>
+          </figure>
+          <div class="tour-step__body">
+            <span class="tour-step__path"><i class="bi bi-search"></i> Home → search</span>
+            <h3>Search inside your pages</h3>
+            <p>
+              This is the part that makes a scanner worth keeping. Searching <strong>“Meridian”</strong> returns
+              a bank statement and an insurance policy — and the word is in <em>neither</em> title. It was read
+              out of the page images by the on-device text recognition and indexed there.
+            </p>
+            <p>
+              Chinese is indexed <strong>character by character</strong>, so partial queries work the way you
+              would expect them to.
+            </p>
+          </div>
+        </div>
+
+        <div class="tour-step">
+          <figure class="shot">
+            <img src="../assets/img/help/quickone/04-extract-text.png"
+                 alt="Extract text screen with Automatic, Latin and Chinese script options above the recognized receipt text"
+                 width="270" height="587" loading="lazy">
+            <figcaption>Recognized text, with the script picker above it.</figcaption>
+          </figure>
+          <div class="tour-step__body">
+            <span class="tour-step__path"><i class="bi bi-fonts"></i> Document → Extract text</span>
+            <h3>Read the text back</h3>
+            <p>
+              The recognized text of a scan, in full — here a grocery receipt, line items, totals and all.
+              <strong>Copy</strong> takes it to the clipboard; <strong>Save as .txt</strong> writes it to a file.
+            </p>
+            <p>
+              The <strong>Automatic / Latin / Chinese</strong> row at the top re-reads <em>this</em> document with
+              the script you pick, without changing your app-wide setting — useful when a page is mixed, or when
+              automatic detection guessed wrong. You can also re-read your entire library with a different model
+              from Settings.
+            </p>
+          </div>
+        </div>
+
+        <div class="tour-step">
+          <figure class="shot">
+            <img src="../assets/img/help/quickone/05-annotate.png"
+                 alt="Annotate screen with a yellow sticky note placed on a tenancy agreement, and Signature and Note buttons"
+                 width="270" height="587" loading="lazy">
+            <figcaption>A sticky note on a tenancy agreement, before sharing it.</figcaption>
+          </figure>
+          <div class="tour-step__body">
+            <span class="tour-step__path"><i class="bi bi-pencil"></i> Document → Annotate</span>
+            <h3>Sign it, or leave yourself a note</h3>
+            <p>
+              <strong>Signature</strong> opens a pad you sign with your finger, in five ink colours.
+              <strong>Note</strong> drops a sticky note you can drag, resize and recolour — background and text
+              both, including a transparent background when you just want a caption.
+            </p>
+            <p>
+              Read the blue banner, because it matters: <strong>annotations are kept until you close the app.</strong>
+              They are a markup layer for sharing, not a saved edit — <strong>share the annotated PDF</strong> to
+              keep a copy of them.
+            </p>
+          </div>
+        </div>
+
+        <div class="tour-step">
+          <figure class="shot">
+            <img src="../assets/img/help/quickone/06-export-formats.png"
+                 alt="Share as sheet listing PDF with searchable text, PDF images only, Images as JPEG, and Text as txt"
+                 width="270" height="587" loading="lazy">
+            <figcaption>Four ways out, and no watermark on any of them.</figcaption>
+          </figure>
+          <div class="tour-step__body">
+            <span class="tour-step__path"><i class="bi bi-box-arrow-up"></i> Document → Share</span>
+            <h3>Getting it out again</h3>
+            <p>
+              <strong>PDF with searchable text</strong> is the default and usually the one you want: it carries an
+              invisible text layer, so Preview, Acrobat, your mail client and your cloud drive can all search
+              inside the scan. <strong>PDF (images only)</strong> drops that layer when file size matters more.
+            </p>
+            <p>
+              <strong>Images</strong> gives you one JPEG per page, and <strong>Text</strong> the recognized text as
+              a <code>.txt</code> file. From Settings you can also export your whole library, a single folder, or
+              everything under one tag as a ZIP. No watermark on any of it, ever.
+            </p>
+          </div>
         </div>
 
       </div>
