@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta name="theme-color" content="#071512" media="(prefers-color-scheme: dark)">
+    <meta name="theme-color" content="#f7f3ea" media="(prefers-color-scheme: light)">
+    <meta name="color-scheme" content="dark light">
+
+    <title>拾光旅行 — 把走過的每一天，變成可以重看的地圖</title>
+    <meta name="description" content="拾光旅行使用說明：記錄一次健行並留下照片、筆記和語音，用 Google 地圖時間軸或帶定位的照片產生行程，並把回放匯出成影片。Google Play 免費下載，不需帳號，沒有廣告。">
+    <link rel="canonical" href="https://www.idatagear.com/momerago/zh-tw.html">
+    <link rel="alternate" hreflang="en" href="https://www.idatagear.com/momerago/">
+    <link rel="alternate" hreflang="zh-Hans" href="https://www.idatagear.com/momerago/zh-cn.html">
+    <link rel="alternate" hreflang="zh-Hant" href="https://www.idatagear.com/momerago/zh-tw.html">
+    <link rel="alternate" hreflang="x-default" href="https://www.idatagear.com/momerago/">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.idatagear.com/momerago/zh-tw.html">
+    <meta property="og:title" content="拾光旅行 — 把走過的每一天，變成可以重看的地圖">
+    <meta property="og:description" content="拾光旅行使用說明：記錄一次健行並留下照片、筆記和語音，用 Google 地圖時間軸或帶定位的照片產生行程，並把回放匯出成影片。Google Play 免費下載，不需帳號，沒有廣告。">
+    <meta property="og:image" content="https://www.idatagear.com/assets/img/momera-hiking-app-icon.png">
+    <meta property="og:site_name" content="iDataGear Inc">
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="拾光旅行 — 把走過的每一天，變成可以重看的地圖">
+    <meta property="twitter:description" content="拾光旅行使用說明：記錄一次健行並留下照片、筆記和語音，用 Google 地圖時間軸或帶定位的照片產生行程，並把回放匯出成影片。Google Play 免費下載，不需帳號，沒有廣告。">
+    <meta property="twitter:image" content="https://www.idatagear.com/assets/img/momera-hiking-app-icon.png">
+
+    <link rel="icon" type="image/png" sizes="32x32" href="../assets/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="../assets/img/favicon-192x192.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../assets/img/apple-touch-icon.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <script>
+    (function () {
+      var t = null;
+      try { t = localStorage.getItem('theme'); } catch (e) {}
+      if (t !== 'light' && t !== 'dark') {
+        t = (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches) ? 'light' : 'dark';
+      }
+      document.documentElement.setAttribute('data-theme', t);
+    })();
+    </script>
+    <style>
+    /* Momera GO page. Chrome (background, text, cards) comes from the site's
+       own tokens in assets/css/style.css; --mg-* is the app's own rose brand,
+       used only for things that represent the app itself. */
+    :root {
+      --mg-rose: #d6337f;
+      --mg-rose-soft: #ff6fa5;
+      --mg-rose-wash: rgba(255, 111, 165, .10);
+      --mg-ink: #3d2b33;
+    }
+    [data-theme="dark"] { --mg-rose: #ff8ab8; --mg-rose-soft: #ff6fa5; }
+    @media (prefers-color-scheme: dark) {
+      :root:not([data-theme="light"]) { --mg-rose: #ff8ab8; }
+    }
+
+    /* Nothing may exceed the viewport: the site stylesheet parks its own mobile
+       nav drawer off-screen to the right, and this page deliberately does not
+       load it. */
+    html, body { overflow-x: hidden; }
+
+    .mg-wrap { max-width: 1080px; margin: 0 auto; padding-inline: 20px; }
+
+    /* This page's own header nav — a plain row, not the site's drawer. */
+    .mg-nav { display: flex; gap: 20px; align-items: center; margin-left: auto; }
+    .mg-nav a { color: var(--muted); text-decoration: none; font-size: .92rem; white-space: nowrap; }
+    .mg-nav a:hover { color: var(--mg-rose); }
+    @media (max-width: 820px) {
+      /* The logo still links home and the page is one scroll, so the section
+         anchors are no loss. */
+      .mg-nav { display: none; }
+    }
+
+    .mg-hero { padding-block: 64px 40px; text-align: center; }
+    .mg-hero .mg-icon { width: 96px; height: 96px; border-radius: 24px; box-shadow: 0 10px 40px rgba(0,0,0,.18); }
+    .mg-hero h1 { font-size: clamp(2rem, 5vw, 3.1rem); margin: 20px 0 6px; line-height: 1.12; }
+    .mg-hero .mg-tagline { color: var(--mg-rose); font-weight: 700; font-size: clamp(1.05rem,2.4vw,1.35rem); margin: 0 0 18px; }
+    .mg-hero .mg-lede { color: var(--muted); max-width: 60ch; margin: 0 auto 26px; font-size: 1.06rem; line-height: 1.65; }
+
+    .mg-cta { display: inline-flex; align-items: center; gap: 10px; background: var(--mg-rose);
+              color: #fff; text-decoration: none; font-weight: 700; padding: 14px 26px;
+              border-radius: 999px; transition: transform .15s ease, box-shadow .15s ease; }
+    .mg-cta:hover { transform: translateY(-2px); box-shadow: 0 12px 28px rgba(214,51,127,.32); color:#fff; }
+    .mg-free { display: block; color: var(--muted); font-size: .9rem; margin-top: 12px; }
+
+    .mg-section { padding-block: 48px; border-top: 1px solid var(--card-border); }
+    .mg-section > h2 { font-size: clamp(1.5rem, 3.4vw, 2.1rem); margin: 0 0 28px; }
+
+    .mg-grid { display: grid; gap: 18px; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); }
+    .mg-card { background: var(--card); border: 1px solid var(--card-border); border-radius: 16px; padding: 22px; }
+    .mg-card i { font-size: 1.6rem; color: var(--mg-rose); }
+    .mg-card h3 { margin: 10px 0 8px; font-size: 1.1rem; }
+    .mg-card p { margin: 0; color: var(--muted); line-height: 1.62; }
+
+    /* One step = copy beside a phone frame, alternating sides on wide screens. */
+    .mg-step { display: grid; gap: 32px; align-items: center; margin-bottom: 56px;
+               grid-template-columns: 1fr minmax(220px, 300px); }
+    .mg-step:nth-child(even) { grid-template-columns: minmax(220px, 300px) 1fr; }
+    .mg-step:nth-child(even) .mg-step-body { order: 2; }
+    .mg-step-n { display: inline-flex; align-items: center; justify-content: center;
+                 width: 34px; height: 34px; border-radius: 50%; background: var(--mg-rose-wash);
+                 color: var(--mg-rose); font-weight: 800; margin-bottom: 12px; }
+    .mg-step h3 { margin: 0 0 14px; font-size: 1.35rem; }
+    .mg-step p { color: var(--muted); line-height: 1.7; margin: 0 0 12px; }
+    .mg-step code { background: var(--card); border: 1px solid var(--card-border);
+                    padding: .1em .45em; border-radius: 6px; font-size: .92em; }
+    .mg-shot { width: 100%; height: auto; border-radius: 22px; border: 1px solid var(--card-border);
+               box-shadow: 0 18px 44px rgba(0,0,0,.16); display: block; }
+
+    .mg-prose p { color: var(--muted); line-height: 1.75; max-width: 72ch; }
+
+    .mg-faq details { border: 1px solid var(--card-border); border-radius: 12px;
+                      padding: 16px 18px; margin-bottom: 12px; background: var(--card); }
+    .mg-faq summary { cursor: pointer; font-weight: 650; }
+    .mg-faq p { color: var(--muted); line-height: 1.7; margin: 12px 0 0; }
+
+    .mg-langs { display: flex; gap: 10px; flex-wrap: wrap; justify-content: center; margin-top: 28px; }
+    .mg-langs a { font-size: .9rem; color: var(--muted); text-decoration: none;
+                  border: 1px solid var(--card-border); border-radius: 999px; padding: 6px 14px; }
+    .mg-langs a[aria-current="true"] { color: var(--mg-rose); border-color: var(--mg-rose); }
+
+    .mg-end { text-align: center; padding-block: 56px; }
+
+    @media (max-width: 820px) {
+      .mg-step, .mg-step:nth-child(even) { grid-template-columns: 1fr; }
+      .mg-step:nth-child(even) .mg-step-body { order: 0; }
+      .mg-shot { max-width: 300px; margin-inline: auto; }
+    }
+</style>
+
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "拾光旅行",
+  "operatingSystem": "Android",
+  "applicationCategory": "LifestyleApplication",
+  "description": "拾光旅行使用說明：記錄一次健行並留下照片、筆記和語音，用 Google 地圖時間軸或帶定位的照片產生行程，並把回放匯出成影片。Google Play 免費下載，不需帳號，沒有廣告。",
+  "url": "https://www.idatagear.com/momerago/zh-tw.html",
+  "downloadUrl": "https://play.google.com/store/apps/details?id=com.idatagear.momera.hiking",
+  "inLanguage": [
+    "en",
+    "zh-Hans",
+    "zh-Hant"
+  ],
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+  },
+  "author": {
+    "@type": "Organization",
+    "name": "iDataGear Inc",
+    "url": "https://www.idatagear.com/"
+  }
+}
+    </script>
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "使用方法 — 拾光旅行",
+  "inLanguage": "zh-Hant",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "position": 1,
+      "name": "記錄一次健行",
+      "text": "開啟 地圖 分頁，點 開始健行。就這麼簡單——不用選運動類型，也沒有什麼要先設定的。",
+      "url": "https://www.idatagear.com/momerago/zh-tw.html#record"
+    },
+    {
+      "@type": "HowToStep",
+      "position": 2,
+      "name": "加入照片、影片、筆記和語音",
+      "text": "健行進行中，地圖上有三個按鈕：相機、麥克風 和 筆記。",
+      "url": "https://www.idatagear.com/momerago/zh-tw.html#moments"
+    },
+    {
+      "@type": "HowToStep",
+      "position": 3,
+      "name": "看這次健行回放",
+      "text": "開啟一次健行，點 回放。路線會從起點一路畫到終點，地圖跟著走。",
+      "url": "https://www.idatagear.com/momerago/zh-tw.html#replay"
+    },
+    {
+      "@type": "HowToStep",
+      "position": 4,
+      "name": "把回放匯出成影片",
+      "text": "在健行頁面或回放頁面選擇匯出。拾光旅行會把回放錄成 MP4：先是一個拉開的全景，然後沿著路線飛一遍，最後再拉回來收尾。",
+      "url": "https://www.idatagear.com/momerago/zh-tw.html#video"
+    },
+    {
+      "@type": "HowToStep",
+      "position": 5,
+      "name": "用 Google 地圖時間軸產生行程",
+      "text": "先在同一台手機上從 Google 地圖匯出時間軸：Google 地圖 → 大頭貼 → 你的時間軸 → 右上角三個點 → 位置和隱私設定 → 匯出時間軸資料，你會得到一個 Timeline.json 檔案。",
+      "url": "https://www.idatagear.com/momerago/zh-tw.html#timeline"
+    },
+    {
+      "@type": "HowToStep",
+      "position": 6,
+      "name": "用照片產生行程",
+      "text": "在 行程 分頁選 新增行程，選照片那一項，然後挑出這趟旅行的照片。",
+      "url": "https://www.idatagear.com/momerago/zh-tw.html#photos"
+    },
+    {
+      "@type": "HowToStep",
+      "position": 7,
+      "name": "開啟、回放和匯出行程",
+      "text": "行程 分頁會按月份收集你匯入的每一天。",
+      "url": "https://www.idatagear.com/momerago/zh-tw.html#journeys"
+    },
+    {
+      "@type": "HowToStep",
+      "position": 8,
+      "name": "匯入和匯出自己的路線",
+      "text": "在 步道 分頁裡，你可以從 Gaia GPS、Strava、Garmin、Komoot 或 CalTopo 匯入 GPX——選檔案、從雲端硬碟拿，或者直接把文字貼進來。郵件、雲端硬碟和檔案管理器裡的 .gpx 也可以直接用拾光旅行開啟。",
+      "url": "https://www.idatagear.com/momerago/zh-tw.html#gpx"
+    }
+  ]
+}
+    </script>
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "inLanguage": "zh-Hant",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "拾光旅行是免費的嗎？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "是的——免費下載，不需要帳號，沒有訂閱，沒有內購，也沒有廣告。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "沒有訊號也能用嗎？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "GPS 記錄完全不需要連網。地圖圖磚需要：你之前看過的區域會留在手機上，離線也畫得出來，所以出發前先瀏覽一下路線會更好。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "我的資料會上傳嗎？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "不會。健行、照片、影片、筆記和語音都存在你自己的手機裡，沒有雲端同步，也沒有帳號。App 會傳送匿名的當機和診斷報告，用來修復問題。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "匯入照片是不是就把整個相簿給 App 了？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "不是。它用的是系統相簿選擇器，App 只會拿到你選取的那幾張照片。它讀取位置和時間，而不是複製照片，並且完全沒有相簿權限。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "行程和記錄下來的健行一樣嗎？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "不一樣，而且這個區別很重要。Google 時間軸大約每兩分鐘取樣一次，也不含海拔，所以行程只能告訴你去過哪裡、怎麼去的，而不是你實際走了多遠。顯示的距離是 Google 自己的資料，沒有配速也沒有步數。照片行程更是完全不顯示距離。想要真正測量出來的軌跡，請記錄一次健行，或者匯入 GPX。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "行程能匯出成影片嗎？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "目前還不能。影片匯出錄製的是健行回放，並且僅限 Android。行程可以在 App 內回放，也可以匯出成 GeoJSON。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "支援哪些語言？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "English、简体中文 和 繁體中文，長度單位可選公制或英制。"
+      }
+    }
+  ]
+}
+    </script>
+  </head>
+
+  <body>
+    <header class="site-header" id="top">
+      <div class="logo"><a href="../">iDataGear</a></div>
+      <nav class="mg-nav">
+        <a href="../">iDataGear</a>
+        <a href="#what">拾光旅行能做什麼</a>
+        <a href="#howto">使用方法</a>
+        <a href="#faq">常見問題</a>
+      </nav>
+      <button class="theme-toggle" type="button" aria-label="Switch theme">
+        <i class="bi bi-sun" aria-hidden="true"></i>
+        <i class="bi bi-moon-stars" aria-hidden="true"></i>
+      </button>
+    </header>
+
+    <main class="mg-wrap">
+      <section class="mg-hero">
+        <img class="mg-icon" src="../assets/img/momera-hiking-app-icon.png" alt="拾光旅行" width="96" height="96">
+        <h1>拾光旅行</h1>
+        <p class="mg-tagline">走過的地方，留成永遠的回憶。</p>
+        <p class="mg-lede">拾光旅行幫你留住走過的每一天。邊走邊記錄一次健行，或者把已經走過的行程重新找回來——然後在地圖上重看，並保存成影片。</p>
+        <a class="mg-cta" href="https://play.google.com/store/apps/details?id=com.idatagear.momera.hiking" target="_blank" rel="noopener">
+          <i class="bi bi-google-play" aria-hidden="true"></i> 在 Google Play 下載
+        </a>
+        <span class="mg-free">免費 · 不需帳號 · 沒有廣告</span>
+        <div class="mg-langs">
+        <a href="./" hreflang="en">English</a>
+        <a href="zh-cn.html" hreflang="zh-Hans">简体中文</a>
+        <a href="zh-tw.html" aria-current="true" hreflang="zh-Hant">繁體中文</a>
+        </div>
+      </section>
+
+      <section class="mg-section" id="what">
+        <h2>拾光旅行能做什麼</h2>
+        <div class="mg-grid">
+        <div class="mg-card"><i class="bi bi-record-circle" aria-hidden="true"></i><h3>記錄健行</h3><p>螢幕關閉、放進口袋、一路沒有訊號，GPS 都照樣記錄。切換到別的 App 不會中斷；萬一中途沒電，下次開啟會問你要不要接著記。</p></div>
+        <div class="mg-card"><i class="bi bi-camera" aria-hidden="true"></i><h3>留住當時的樣子</h3><p>照片、影片、語音備忘和文字筆記，邊走邊存，自動釘在路線上的那個位置。</p></div>
+        <div class="mg-card"><i class="bi bi-signpost-split" aria-hidden="true"></i><h3>產生行程</h3><p>匯入 Google 地圖時間軸，或者挑幾張帶定位的旅行照片。兩種方式都能得到一段可以在地圖上回看的行程。</p></div>
+        <div class="mg-card"><i class="bi bi-play-btn" aria-hidden="true"></i><h3>重看這一天</h3><p>路線一點一點畫出來，照片在當時的位置浮現，語音在走到那裡的時候響起。</p></div>
+        <div class="mg-card"><i class="bi bi-film" aria-hidden="true"></i><h3>保存成影片</h3><p>把健行回放匯出成 MP4——一段屬於你這一天的短片，存進相簿或隨手分享。僅限 Android。</p></div>
+        <div class="mg-card"><i class="bi bi-shield-lock" aria-hidden="true"></i><h3>只留在你的手機裡</h3><p>不需要註冊，沒有訂閱，也沒有廣告。你的軌跡、照片、筆記和錄音都不會離開這台裝置。</p></div>
+        </div>
+      </section>
+
+      <section class="mg-section" id="howto">
+        <h2>使用方法</h2>
+      <div class="mg-step" id="record">
+        <div class="mg-step-body">
+          <span class="mg-step-n">1</span>
+          <h3>記錄一次健行</h3>
+          <p>開啟 <strong>地圖</strong> 分頁，點 <strong>開始健行</strong>。就這麼簡單——不用選運動類型，也沒有什麼要先設定的。</p>
+          <p>走起來之後，頂部會顯示用時、距離、速度、爬升和步數。你可以鎖定螢幕把手機收起來，記錄會在背景繼續。</p>
+          <p>結束時點 <strong>停止</strong>，這次健行就會儲存到 <strong>步道</strong> 分頁裡。</p>
+        </div>
+        <img class="mg-shot" src="img/zh-TW/01_map_home.jpg" alt="拾光旅行的地圖頁面，位於登山口，顯示「開始健行」按鈕" width="600" height="1067" loading="lazy" decoding="async">
+      </div>
+      <div class="mg-step" id="moments">
+        <div class="mg-step-body">
+          <span class="mg-step-n">2</span>
+          <h3>加入照片、影片、筆記和語音</h3>
+          <p>健行進行中，地圖上有三個按鈕：<strong>相機</strong>、<strong>麥克風</strong> 和 <strong>筆記</strong>。</p>
+          <p>照片和影片都在 App 內拍攝，所以拾光旅行從來不需要存取你的相簿。每一次拍攝都會帶上當時的位置和時間。</p>
+          <p>結束後開啟這次健行，所有瞬間都會列出來，每一則都可以單獨決定要不要出現在回放和匯出的影片裡。</p>
+        </div>
+        <img class="mg-shot" src="img/zh-TW/14_hike_moments.jpg" alt="某次健行的瞬間面板，列出一則筆記和一段語音備忘" width="600" height="1067" loading="lazy" decoding="async">
+      </div>
+      <div class="mg-step" id="replay">
+        <div class="mg-step-body">
+          <span class="mg-step-n">3</span>
+          <h3>看這次健行回放</h3>
+          <p>開啟一次健行，點 <strong>回放</strong>。路線會從起點一路畫到終點，地圖跟著走。</p>
+          <p>你留下的瞬間會出現在進度條上。回放走到那裡時，照片滑出來、筆記展開、語音響起。</p>
+          <p>拖動進度條可以前後移動，用倍速按鈕可以跳過慢的那一段。</p>
+        </div>
+        <img class="mg-shot" src="img/zh-TW/12_track_replay_running.jpg" alt="地圖上正在回放的健行，路線跟在移動的圓點後面畫出來" width="600" height="1067" loading="lazy" decoding="async">
+      </div>
+      <div class="mg-step" id="video">
+        <div class="mg-step-body">
+          <span class="mg-step-n">4</span>
+          <h3>把回放匯出成影片</h3>
+          <p>在健行頁面或回放頁面選擇匯出。拾光旅行會把回放錄成 MP4：先是一個拉開的全景，然後沿著路線飛一遍，最後再拉回來收尾。</p>
+          <p>飛行段的長度在 <strong>設定 → 回放影片長度</strong> 裡設定（15 到 60 秒），照片和筆記停留多久也在那裡調。</p>
+          <p>做好的影片會存進相簿，也可以直接從 App 裡分享。</p>
+          <p><em>影片匯出僅限 Android，並且只針對記錄下來的健行，不適用於行程。</em></p>
+        </div>
+        <img class="mg-shot" src="img/zh-TW/13_hike_stats.jpg" alt="某次健行的數據卡片，包含海拔剖面和總計" width="600" height="1067" loading="lazy" decoding="async">
+      </div>
+      <div class="mg-step" id="timeline">
+        <div class="mg-step-body">
+          <span class="mg-step-n">5</span>
+          <h3>用 Google 地圖時間軸產生行程</h3>
+          <p>先在同一台手機上從 Google 地圖匯出時間軸：<strong>Google 地圖 → 大頭貼 → 你的時間軸 → 右上角三個點 → 位置和隱私設定 → 匯出時間軸資料</strong>，你會得到一個 <code>Timeline.json</code> 檔案。</p>
+          <p>回到拾光旅行，開啟 <strong>行程</strong> 分頁，點 <strong>新增行程</strong>，選擇時間軸那一項。選好檔案，選一個日期範圍，然後匯入。</p>
+          <p>你出行過的每一天都會變成一段獨立的行程，每一段路都會按出行方式用不同顏色畫出來——步行、騎車、開車、公車、捷運、火車、輕軌、渡輪、飛行。</p>
+          <p>真實的匯出檔案可能有 90 MB 甚至更大。拾光旅行是串流讀取而不是整個載入，所以介面不會卡，進度是真的，而且隨時可以取消。</p>
+        </div>
+        <img class="mg-shot" src="img/zh-TW/19_journey_import_timeline.jpg" alt="拾光旅行的 Google 時間軸匯入頁面" width="600" height="1067" loading="lazy" decoding="async">
+      </div>
+      <div class="mg-step" id="photos">
+        <div class="mg-step-body">
+          <span class="mg-step-n">6</span>
+          <h3>用照片產生行程</h3>
+          <p>在 <strong>行程</strong> 分頁選 <strong>新增行程</strong>，選照片那一項，然後挑出這趟旅行的照片。</p>
+          <p>拾光旅行會讀取每張照片裡存著的位置和時間，按順序串起來。它用的是系統相簿選擇器，所以不需要相簿權限——它只能看到你親手挑給它的那幾張，而且只讀資訊，不會複製照片。</p>
+          <p>沒有位置資訊的照片——大多數螢幕截圖、下載的圖片，以及從通訊軟體傳過來的——會被統計並告訴你，而不是悄悄丟掉。</p>
+        </div>
+        <img class="mg-shot" src="img/zh-TW/20_journey_import_photos.jpg" alt="照片匯入頁面，說明照片需要包含位置資訊" width="600" height="1067" loading="lazy" decoding="async">
+      </div>
+      <div class="mg-step" id="journeys">
+        <div class="mg-step-body">
+          <span class="mg-step-n">7</span>
+          <h3>開啟、回放和匯出行程</h3>
+          <p><strong>行程</strong> 分頁會按月份收集你匯入的每一天。</p>
+          <p>開啟其中一天，可以看到地圖、停留點和路段，以及各種出行方式各走了多遠。點 <strong>播放行程</strong>，這一天就會在地圖上走一遍，切換方式時會標出來。</p>
+          <p>每一段行程都是一個屬於你的 <code>.geojson</code> 檔案。匯出之後，任何地圖工具都能開啟。</p>
+        </div>
+        <img class="mg-shot" src="img/zh-TW/15_journeys_list.jpg" alt="行程分頁，列出多個已匯入的日子" width="600" height="1067" loading="lazy" decoding="async">
+      </div>
+      <div class="mg-step" id="gpx">
+        <div class="mg-step-body">
+          <span class="mg-step-n">8</span>
+          <h3>匯入和匯出自己的路線</h3>
+          <p>在 <strong>步道</strong> 分頁裡，你可以從 Gaia GPS、Strava、Garmin、Komoot 或 CalTopo 匯入 GPX——選檔案、從雲端硬碟拿，或者直接把文字貼進來。郵件、雲端硬碟和檔案管理器裡的 <code>.gpx</code> 也可以直接用拾光旅行開啟。</p>
+          <p>開啟一條步道，點 <strong>沿這條步道開始健行</strong> 就能跟著走；步道會畫在你的即時軌跡下面，偏離時會提醒你。</p>
+          <p><strong>原路返回</strong> 會把你剛走過的路變成回去的路線。任何健行或步道都能匯出成 GPX。</p>
+        </div>
+        <img class="mg-shot" src="img/zh-TW/07_trail_import.jpg" alt="步道匯入頁面，可以選擇檔案或貼上 GPX 文字" width="600" height="1067" loading="lazy" decoding="async">
+      </div>
+      </section>
+
+      <section class="mg-section mg-prose" id="maps">
+        <h2>地圖與離線使用</h2>
+        <p>拾光旅行提供兩種底圖——<strong>街道檢視</strong> 和帶地形的 <strong>戶外檢視</strong>。兩種都免費且不需要金鑰，對你和對我們都不需要帳號或 API key。</p>
+        <p>你看過的地圖區域會留在手機上，所以在家裡看過的地方，到了登山口沒訊號也畫得出來。<strong>GPS 記錄本身完全不需要連網。</strong></p>
+        <p>說得準確一點：拾光旅行快取的是你瀏覽過的區域，並沒有整片區域批次下載的功能。所以出發前，最好先把要去的地方在地圖上看一遍。</p>
+      </section>
+
+      <section class="mg-section mg-faq" id="faq">
+        <h2>常見問題</h2>
+        <details><summary>拾光旅行是免費的嗎？</summary><p>是的——免費下載，不需要帳號，沒有訂閱，沒有內購，也沒有廣告。</p></details>
+        <details><summary>沒有訊號也能用嗎？</summary><p>GPS 記錄完全不需要連網。地圖圖磚需要：你之前看過的區域會留在手機上，離線也畫得出來，所以出發前先瀏覽一下路線會更好。</p></details>
+        <details><summary>我的資料會上傳嗎？</summary><p>不會。健行、照片、影片、筆記和語音都存在你自己的手機裡，沒有雲端同步，也沒有帳號。App 會傳送匿名的當機和診斷報告，用來修復問題。</p></details>
+        <details><summary>匯入照片是不是就把整個相簿給 App 了？</summary><p>不是。它用的是系統相簿選擇器，App 只會拿到你選取的那幾張照片。它讀取位置和時間，而不是複製照片，並且完全沒有相簿權限。</p></details>
+        <details><summary>行程和記錄下來的健行一樣嗎？</summary><p>不一樣，而且這個區別很重要。Google 時間軸大約每兩分鐘取樣一次，也不含海拔，所以行程只能告訴你去過哪裡、怎麼去的，而不是你實際走了多遠。顯示的距離是 Google 自己的資料，沒有配速也沒有步數。照片行程更是完全不顯示距離。想要真正測量出來的軌跡，請記錄一次健行，或者匯入 GPX。</p></details>
+        <details><summary>行程能匯出成影片嗎？</summary><p>目前還不能。影片匯出錄製的是健行回放，並且僅限 Android。行程可以在 App 內回放，也可以匯出成 GeoJSON。</p></details>
+        <details><summary>支援哪些語言？</summary><p>English、简体中文 和 繁體中文，長度單位可選公制或英制。</p></details>
+      </section>
+
+      <section class="mg-section mg-prose" id="privacy">
+        <h2>隱私</h2>
+        <p>拾光旅行把你的健行、媒體和行程都存在你自己的裝置上。完整內容見<a href="../privacy-policy-momera-hiking.html">隱私政策</a>。</p>
+      </section>
+
+      <section class="mg-end">
+        <a class="mg-cta" href="https://play.google.com/store/apps/details?id=com.idatagear.momera.hiking" target="_blank" rel="noopener">
+          <i class="bi bi-google-play" aria-hidden="true"></i> 在 Google Play 下載
+        </a>
+        <span class="mg-free">免費 · 不需帳號 · 沒有廣告</span>
+        <p style="margin-top:26px"><a href="../" style="color:var(--muted)">更多 iDataGear App</a></p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-bottom">
+        <p>&copy; <span id="year"></span> iDataGear Inc.</p>
+        <div class="footer-links">
+          <a href="../">iDataGear</a>
+          <a href="../privacy-policy-momera-hiking.html">Privacy</a>
+          <a href="mailto:idatagear@gmail.com">Contact</a>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+      (function () {
+        var btn = document.querySelector('.theme-toggle');
+        if (!btn) return;
+        btn.addEventListener('click', function () {
+          var cur = document.documentElement.getAttribute('data-theme') === 'light' ? 'dark' : 'light';
+          document.documentElement.setAttribute('data-theme', cur);
+          try { localStorage.setItem('theme', cur); } catch (e) {}
+        });
+      })();
+    </script>
+  </body>
+</html>
