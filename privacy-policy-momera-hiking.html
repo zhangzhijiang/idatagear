@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Privacy Policy — Momera.Hiking</title>
-<meta name="description" content="Privacy policy for the Momera.Hiking Android app: offline-first hiking tracker. No accounts, no analytics, no data collection — your data stays on your device.">
+<title>Privacy Policy — Momera GO</title>
+<meta name="description" content="Privacy policy for the Momera GO Android app (formerly Momera GO): hike and journey tracking. No account, no ads; your hikes, photos, notes and journeys stay on your device.">
 <style>
   :root {
     --purple: #7C3AED;
@@ -96,11 +96,11 @@
 <body>
   <div class="header">
     <h1>Privacy Policy</h1>
-    <p>Momera.Hiking</p>
+    <p>Momera GO</p>
   </div>
 
   <main>
-    <p class="updated">Last updated: 19 June 2026</p>
+    <p class="updated">Last updated: 12 September 2026</p>
 
     <div class="note">
       <strong>Before publishing:</strong> replace every
@@ -110,7 +110,7 @@
     </div>
 
     <p>
-      Momera.Hiking (&ldquo;the app&rdquo;, &ldquo;we&rdquo;, &ldquo;us&rdquo;) is
+      Momera GO (&ldquo;the app&rdquo;, &ldquo;we&rdquo;, &ldquo;us&rdquo;) is
       an offline-first hiking tracker for Android, published by
       <span class="placeholder">[Developer / company name]</span>. This policy
       explains what the app does &mdash; and does not do &mdash; with your data.
@@ -119,12 +119,15 @@
     <h2>The short version</h2>
     <ul>
       <li>The app has <strong>no account and no sign-up</strong>.</li>
-      <li>We <strong>do not collect, transmit, or sell any personal data</strong>
-          to ourselves or to any third party.</li>
+      <li>We <strong>do not sell any personal data</strong>, and none of your
+          hikes, journeys or media is ever transmitted anywhere.</li>
       <li>Your hikes, GPS tracks, photos, videos, voice memos, and notes are stored
           <strong>only on your device</strong>.</li>
-      <li>The app contains <strong>no advertising and no analytics/tracking
-          SDKs</strong>.</li>
+      <li>The app contains <strong>no advertising</strong> and no advertising SDKs.</li>
+      <li>The app does send <strong>anonymous crash and diagnostic reports</strong>
+          (Firebase Crashlytics and Firebase Analytics) so faults can be found and
+          fixed. These contain no hike data, no location, no media and nothing that
+          identifies you. See <a href="#diagnostics">Crash and diagnostic reporting</a>.</li>
     </ul>
 
     <h2>Data the app uses (and where it stays)</h2>
@@ -172,24 +175,54 @@
         requested from that provider, as with any map app. See the
         <a href="https://wiki.osmfoundation.org/wiki/Privacy_Policy" rel="noopener">OpenStreetMap
         Foundation privacy policy</a>.</li>
-      <li><strong>Trail packs</strong> &mdash; curated trail data is downloaded on
-        demand from a public file host
-        (<span class="placeholder">[GitHub Releases URL]</span>). These are
-        anonymous downloads of public data files; no information about you is sent.</li>
+      <li><strong>Crash and diagnostic reports</strong> &mdash; sent to Google
+        Firebase. See <a href="#diagnostics">below</a>.</li>
     </ul>
-    <p>We do not operate a backend server for this app and receive no data from it.</p>
+    <p>
+      We do not operate a backend server for this app. Apart from the crash and
+      diagnostic reports described below, we receive no data from it.
+    </p>
+
+    <h2 id="diagnostics">Crash and diagnostic reporting</h2>
+    <p>
+      The app uses <strong>Firebase Crashlytics</strong> and
+      <strong>Firebase Analytics</strong>, both operated by Google, to report
+      crashes and basic usage diagnostics. This is how we find out that something
+      is broken for real users.
+    </p>
+    <ul>
+      <li><strong>What is sent:</strong> crash stack traces, the app version,
+        the device model and OS version, and which screens were opened.</li>
+      <li><strong>What is never sent:</strong> your GPS tracks, hikes, journeys,
+        photos, videos, voice memos or notes. None of your content leaves the
+        device.</li>
+      <li><strong>Advertising ID:</strong> the app explicitly removes the
+        advertising-ID permissions that the Firebase library would otherwise add,
+        so no advertising identifier is collected and none is available to the app.</li>
+      <li><strong>Retention:</strong> governed by Google&rsquo;s Firebase data
+        retention. See the
+        <a href="https://firebase.google.com/support/privacy" rel="noopener">Firebase
+        privacy documentation</a>.</li>
+    </ul>
+    <p>
+      Reporting is active in released versions of the app and there is currently no
+      in-app switch to turn it off. If you would rather not send these reports, do
+      not install the app, or uninstall it &mdash; uninstalling stops all reporting.
+    </p>
 
     <h2>Data sharing and sale</h2>
     <p>
-      We do <strong>not</strong> share or sell any personal data. There are no
-      third-party advertising or analytics partners in the app.
+      We do <strong>not</strong> sell any personal data, and there are no
+      advertising partners in the app. The only third party that receives anything
+      is Google, as the processor of the crash and diagnostic reports described
+      above.
     </p>
 
     <h2>Data retention and deletion</h2>
     <p>
       All app data lives on your device. You can delete any hike (and its media)
       from within the app, or remove all data by uninstalling the app or using
-      Android&rsquo;s <strong>Settings &rarr; Apps &rarr; Momera.Hiking &rarr;
+      Android&rsquo;s <strong>Settings &rarr; Apps &rarr; Momera GO &rarr;
       Storage &rarr; Clear storage</strong>.
     </p>
 
