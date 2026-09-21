@@ -1,0 +1,1975 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta name="theme-color" content="#071512" media="(prefers-color-scheme: dark)">
+    <meta name="theme-color" content="#f7f3ea" media="(prefers-color-scheme: light)">
+    <meta name="color-scheme" content="dark light">
+
+    <title>iDataGear Politique de confidentialité et conditions d&#x27;utilisation</title>
+    <meta name="description" content="Cette page constitue la politique de confidentialité et les conditions d&#x27;utilisation de toutes les applications éditées par iDataGear Inc, ainsi que du site web https://www.">
+    <link rel="canonical" href="https://www.idatagear.com/privacy_fr.html">
+
+    <link rel="alternate" hreflang="en" href="https://www.idatagear.com/privacy.html">
+    <link rel="alternate" hreflang="zh-Hans" href="https://www.idatagear.com/privacy_zh-Hans.html">
+    <link rel="alternate" hreflang="zh-Hant" href="https://www.idatagear.com/privacy_zh-Hant.html">
+    <link rel="alternate" hreflang="es" href="https://www.idatagear.com/privacy_es.html">
+    <link rel="alternate" hreflang="fr" href="https://www.idatagear.com/privacy_fr.html">
+    <link rel="alternate" hreflang="ja" href="https://www.idatagear.com/privacy_ja.html">
+    <link rel="alternate" hreflang="ko" href="https://www.idatagear.com/privacy_ko.html">
+    <link rel="alternate" hreflang="vi" href="https://www.idatagear.com/privacy_vi.html">
+    <link rel="alternate" hreflang="ar" href="https://www.idatagear.com/privacy_ar.html">
+    <link rel="alternate" hreflang="x-default" href="https://www.idatagear.com/privacy.html">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.idatagear.com/privacy_fr.html">
+    <meta property="og:title" content="iDataGear Politique de confidentialité et conditions d&#x27;utilisation">
+    <meta property="og:description" content="Cette page constitue la politique de confidentialité et les conditions d&#x27;utilisation de toutes les applications éditées par iDataGear Inc, ainsi que du site web https://www.">
+    <meta property="og:image" content="https://www.idatagear.com/assets/img/idatagear_logo.png">
+    <meta property="og:site_name" content="iDataGear">
+    <meta property="twitter:card" content="summary">
+    <meta property="twitter:title" content="iDataGear Politique de confidentialité et conditions d&#x27;utilisation">
+    <meta property="twitter:description" content="Cette page constitue la politique de confidentialité et les conditions d&#x27;utilisation de toutes les applications éditées par iDataGear Inc, ainsi que du site web https://www.">
+    <meta property="twitter:image" content="https://www.idatagear.com/assets/img/idatagear_logo.png">
+
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/img/favicon-192x192.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script>
+    (function () {
+      var t = null;
+      try { t = localStorage.getItem('theme'); } catch (e) {}
+      if (t !== 'light' && t !== 'dark') {
+        t = (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches) ? 'light' : 'dark';
+      }
+      document.documentElement.setAttribute('data-theme', t);
+    })();
+    </script>
+    <style>
+    /* Chrome and colour come from the site's own tokens in assets/css/style.css.
+       --pp-accent is this page's app brand, used only where the page speaks
+       about the app itself. Everything here is prefixed pp- so it cannot leak
+       into the shared stylesheet's components. */
+    :root { --pp-accent: #1f8a76; --pp-wash: rgba(53, 179, 154, .10); }
+    [data-theme="dark"] { --pp-accent: #35b39a; }
+    @media (prefers-color-scheme: dark) {
+      :root:not([data-theme="light"]) { --pp-accent: #35b39a; }
+    }
+
+    .pp-nav { display: flex; gap: 20px; align-items: center; margin-left: auto; }
+    .pp-nav a { color: var(--muted); text-decoration: none; font-size: .92rem; white-space: nowrap; }
+    .pp-nav a:hover { color: var(--pp-accent); }
+    @media (max-width: 820px) { .pp-nav { display: none; } }
+
+    .pp-wrap { max-width: 78ch; margin: 0 auto; padding-inline: 20px; padding-block: 40px 72px; }
+
+    .pp-head { text-align: center; margin-bottom: 34px; }
+    .pp-head img { width: 76px; height: 76px; border-radius: 19px; box-shadow: 0 10px 40px rgba(0,0,0,.18); }
+    .pp-head h1 { font-size: clamp(1.7rem, 4.4vw, 2.4rem); margin: 18px 0 6px; line-height: 1.15; text-wrap: balance; }
+    .pp-head .pp-sub { color: var(--pp-accent); font-weight: 700; margin: 0 0 10px; }
+    .pp-head .pp-date { color: var(--dim); font-size: .9rem; margin: 0; }
+
+    /* Language picker. Buttons, not links: this switches what is displayed on
+       one URL, because the app stores register exactly one privacy URL. */
+    .pp-langs { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; margin: 22px 0 0; }
+    .pp-langs button {
+      font: inherit; font-size: .9rem; font-weight: 600; cursor: pointer;
+      padding: 7px 15px; border-radius: 999px;
+      border: 1px solid var(--card-border); background: var(--card); color: var(--muted);
+    }
+    .pp-langs button:hover { border-color: var(--pp-accent); color: var(--text); }
+    .pp-langs button[aria-current="true"] { background: var(--pp-wash); border-color: var(--pp-accent); color: var(--text); }
+
+    .pp h2 {
+      font-size: 1.24rem; margin: 40px 0 12px; padding-top: 18px;
+      border-top: 1px solid var(--card-border); text-wrap: balance;
+    }
+    .pp h2:first-of-type { border-top: 0; padding-top: 0; }
+    .pp h2.pp-part {
+      font-size: .82rem; letter-spacing: .14em; text-transform: uppercase;
+      color: var(--pp-accent); margin-top: 56px;
+    }
+    .pp h3 { font-size: 1.02rem; margin: 26px 0 8px; color: var(--text); }
+    .pp p, .pp li { color: var(--muted); line-height: 1.72; }
+    .pp p { margin: 0 0 14px; }
+    .pp ul { margin: 0 0 16px; padding-left: 1.25em; }
+    .pp li { margin-bottom: 9px; }
+    .pp strong { color: var(--text); font-weight: 650; }
+    .pp a { color: var(--pp-accent); }
+
+    .pp-tldr {
+      background: var(--pp-wash); border: 1px solid var(--card-border);
+      border-left: 3px solid var(--pp-accent);
+      border-radius: 12px; padding: 20px 22px 6px; margin: 0 0 8px;
+    }
+    .pp-tldr ul { margin-bottom: 14px; }
+    .pp-note {
+      background: var(--card); border: 1px solid var(--card-border);
+      border-radius: 10px; padding: 15px 18px 3px; margin: 0 0 16px;
+    }
+
+    /* Tables scroll inside their own box so the page body never scrolls sideways. */
+    .pp-tablewrap { overflow-x: auto; margin: 0 0 20px; }
+    .pp table { border-collapse: collapse; width: 100%; min-width: 520px; font-size: .94rem; }
+    .pp th, .pp td {
+      text-align: left; vertical-align: top; padding: 11px 13px;
+      border-bottom: 1px solid var(--card-border); color: var(--muted); line-height: 1.6;
+    }
+    .pp th { color: var(--text); font-weight: 650; white-space: nowrap; }
+    .pp tbody tr:last-child td { border-bottom: 0; }
+
+    /* Right-to-left: mirror the padding and the table alignment, nothing else. */
+    .pp[dir="rtl"] { text-align: right; }
+    .pp[dir="rtl"] ul { padding-left: 0; padding-right: 1.25em; }
+    .pp[dir="rtl"] th, .pp[dir="rtl"] td { text-align: right; }
+    .pp[dir="rtl"] .pp-tldr { border-left: 1px solid var(--card-border); border-right: 3px solid var(--pp-accent); }
+
+    /* One language per file, so the switcher is links rather than buttons:
+       each entry is a real URL a reader can bookmark, share or open in a tab,
+       and the page needs no JavaScript to show what it says. */
+    .pp-langs a {
+      font: inherit; font-size: .9rem; font-weight: 600; text-decoration: none;
+      padding: 7px 15px; border-radius: 999px;
+      border: 1px solid var(--card-border); background: var(--card); color: var(--muted);
+    }
+    .pp-langs a:hover { border-color: var(--pp-accent); color: var(--text); }
+    .pp-langs a[aria-current="page"] { background: var(--pp-wash); border-color: var(--pp-accent); color: var(--text); }
+    </style>
+  </head>
+
+  <body>
+    <header class="site-header" id="top">
+      <div class="logo"><a href="">iDataGear</a></div>
+      <nav class="pp-nav">
+        <a href="">iDataGear</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="mailto:idatagear@gmail.com">Contact</a>
+      </nav>
+      <button class="theme-toggle" type="button" aria-label="Switch theme">
+        <i class="bi bi-sun" aria-hidden="true"></i>
+        <i class="bi bi-moon-stars" aria-hidden="true"></i>
+      </button>
+    </header>
+
+    <main class="pp-wrap">
+      <div class="pp-head">
+        <img src="assets/img/idatagear_logo.png" alt="iDataGear Politique de confidentialité et conditions d&#x27;utilisation" width="76" height="76">
+        <h1>iDataGear Politique de confidentialité et conditions d&#x27;utilisation</h1>
+        <p class="pp-sub">iDataGear Inc</p>
+        <p class="pp-date">Dernière mise à jour: 20 September 2026</p>
+        <div class="pp-langs" role="group" aria-label="Choisir une langue">
+          <a href="privacy.html" hreflang="en" lang="en">English</a>
+          <a href="privacy_zh-Hans.html" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
+          <a href="privacy_zh-Hant.html" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
+          <a href="privacy_es.html" hreflang="es" lang="es">Español</a>
+          <a href="privacy_fr.html" hreflang="fr" lang="fr" aria-current="page">Français</a>
+          <a href="privacy_ja.html" hreflang="ja" lang="ja">日本語</a>
+          <a href="privacy_ko.html" hreflang="ko" lang="ko">한국어</a>
+          <a href="privacy_vi.html" hreflang="vi" lang="vi">Tiếng Việt</a>
+          <a href="privacy_ar.html" hreflang="ar" lang="ar">العربية</a>
+        </div>
+      </div>
+
+      <article class="pp" data-lang="fr" lang="fr">
+        <h2 id="fr-tldr">En bref</h2>
+        <div class="pp-tldr">
+        <ul>
+          <li>Cette page unique couvre toutes les applications iDataGear, et chacune dispose en outre de sa propre page.</li>
+          <li>Tout ce que vous créez dans ces applications reste sur votre appareil.</li>
+          <li>Il n'y a ni compte ni inscription.</li>
+          <li>Les applications diffèrent. Cinq des dix ne contiennent aucune publicité, aucune statistique et aucune remontée de plantage ; les autres disent clairement ce qu'elles utilisent et pourquoi.</li>
+          <li>Nous ne vendons pas vos données et ne les partageons pas à des fins de profilage publicitaire.</li>
+          <li>Désinstaller l'application supprime tout ce qu'elle avait enregistré.</li>
+          <li>La partie 2 de cette page constitue les conditions d'utilisation de l'application.</li>
+        </ul>
+        </div>
+        <h2 id="fr-scope">Quelles applications cette politique couvre</h2>
+        <p>Cette page constitue la politique de confidentialité et les conditions d'utilisation de toutes les applications éditées par iDataGear Inc, ainsi que du site web https://www.idatagear.com. Chaque application dispose en outre de sa propre page reprenant exactement ce texte pour elle seule ; le tableau ci-dessous y renvoie.</p>
+        <p>Les applications diffèrent entre elles, et les sections qui suivent le disent application par application plutôt que d'en faire une moyenne qui ne serait vraie d'aucune. Cinq d'entre elles ne contiennent aucune publicité, aucune statistique et aucune remontée de plantage.</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>Application</th>
+              <th>Plateformes</th>
+              <th>Sa propre page</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td><a href="#fr-learncantonese">Learn Cantonese</a></td>
+                <td>Android, iOS, macOS</td>
+                <td><a href="learncantonese/learncantonese_privacy.html">Ouvrir</a></td>
+              </tr>
+              <tr>
+                <td><a href="#fr-learnchinese">McChinese</a></td>
+                <td>Android, iOS</td>
+                <td><a href="learnchinese/learnchinese_privacy.html">Ouvrir</a></td>
+              </tr>
+              <tr>
+                <td><a href="#fr-gcd">Great Cantonese Dictionary</a></td>
+                <td>Android, iOS</td>
+                <td><a href="gcd/gcd_privacy.html">Ouvrir</a></td>
+              </tr>
+              <tr>
+                <td><a href="#fr-learnenglish">ALL English</a></td>
+                <td>Android, iOS</td>
+                <td><a href="learnenglish/learnenglish_privacy.html">Ouvrir</a></td>
+              </tr>
+              <tr>
+                <td><a href="#fr-xiezi">Xie Zi</a></td>
+                <td>Android, iOS</td>
+                <td><a href="xiezi/xiezi_privacy.html">Ouvrir</a></td>
+              </tr>
+              <tr>
+                <td><a href="#fr-momerame">Momera.ME</a></td>
+                <td>Android</td>
+                <td><a href="momerame/momerame_privacy.html">Ouvrir</a></td>
+              </tr>
+              <tr>
+                <td><a href="#fr-momerago">Momera GO</a></td>
+                <td>Android, iOS</td>
+                <td><a href="momerago/momerago_privacy.html">Ouvrir</a></td>
+              </tr>
+              <tr>
+                <td><a href="#fr-mcrecorder">McRecorder</a></td>
+                <td>Android, iOS</td>
+                <td><a href="mcrecorder/mcrecorder_privacy.html">Ouvrir</a></td>
+              </tr>
+              <tr>
+                <td><a href="#fr-quickonescanner">QuickOne Scanner</a></td>
+                <td>Android, iOS</td>
+                <td><a href="quickonescanner/quickonescanner_privacy.html">Ouvrir</a></td>
+              </tr>
+              <tr>
+                <td><a href="#fr-eyeballit">Eyeball It!</a></td>
+                <td>Android, iOS, Windows</td>
+                <td><a href="eyeballit/eyeballit_privacy.html">Ouvrir</a></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <h2 class="pp-part">Partie 1 — Politique de confidentialité</h2>
+        <h2 id="fr-who">Qui nous sommes</h2>
+        <p>iDataGear Inc est une société constituée en Colombie-Britannique, au Canada. Elle édite les applications énumérées ci-dessus ainsi que le site web https://www.idatagear.com. Lorsque cette page dit <strong>nous</strong>, il s'agit de iDataGear Inc.</p>
+        <p>Il n'y a aucun compte à créer et aucune inscription. Nous n'exploitons aucun serveur qui reçoive votre contenu et ne détenons aucune base de données où vous figureriez.</p>
+        <h2 id="fr-learncantonese">Learn Cantonese</h2>
+        <p>Learn Cantonese enseigne le cantonais parlé et écrit à travers des leçons, un dictionnaire d'argot hongkongais et des exercices de prononciation à voix haute. Elle fonctionne sur iPhone, iPad, Mac et Android. Votre progression vit sur l'appareil que vous utilisez.</p>
+        <h3 id="fr-learncantonese-stores">Ce que l'application conserve sur votre appareil</h3>
+        <p>L'application écrit ce qui suit dans le stockage privé de votre appareil, une zone que les autres applications ne peuvent pas lire. Cela y reste jusqu'à ce que vous le supprimiez ou désinstalliez l'application.</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>Quoi</th>
+              <th>Pourquoi</th>
+              <th>Où c'est conservé</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>Progression</td>
+                <td>Leçons terminées, résultats des tests et éléments déjà vus.</td>
+                <td>Uniquement sur votre appareil</td>
+              </tr>
+              <tr>
+                <td>Favoris</td>
+                <td>Les éléments que vous avez marqués ou mis en signet.</td>
+                <td>Uniquement sur votre appareil</td>
+              </tr>
+              <tr>
+                <td>Historique</td>
+                <td>Ce que vous avez consulté ou travaillé récemment, pour y revenir.</td>
+                <td>Uniquement sur votre appareil</td>
+              </tr>
+              <tr>
+                <td>Série et statistiques</td>
+                <td>Série quotidienne et compteurs d'étude affichés sur votre profil.</td>
+                <td>Uniquement sur votre appareil</td>
+              </tr>
+              <tr>
+                <td>Réglages</td>
+                <td>Préférences de langue, de thème, de son et d'affichage.</td>
+                <td>Uniquement sur votre appareil</td>
+              </tr>
+              <tr>
+                <td>Statut de l'abonnement</td>
+                <td>Une réponse oui/non mise en cache depuis la boutique, pour que l'application fonctionne hors ligne.</td>
+                <td>Uniquement sur votre appareil</td>
+              </tr>
+              <tr>
+                <td>Votre choix publicitaire</td>
+                <td>La réponse de consentement que vous avez donnée, pour ne pas vous la redemander à chaque lancement.</td>
+                <td>Uniquement sur votre appareil</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>Rien de tout cela ne nous est transmis. Nous ne pouvons pas le lire, nous ne pouvons pas le récupérer pour vous et nous ne pourrions le remettre à personne, puisque cela ne nous parvient jamais.</p>
+        <p>La reconnaissance vocale de l'exercice de prononciation est assurée par le moteur du système d'exploitation lui-même — celui d'Apple sur iOS, celui de Google sur Android — selon les conditions de confidentialité de la plateforme. Selon l'appareil et la langue, ce moteur peut traiter l'audio sur l'appareil ou sur les serveurs de la plateforme. Nous ne recevons ni l'audio ni la transcription : l'application apprend seulement à quel point ce que vous avez dit correspondait à la phrase attendue, et l'audio est écarté dès ce score obtenu.</p>
+        <h3 id="fr-learncantonese-leaves">Ce qui quitte votre appareil</h3>
+        <p>Voici la liste complète. Tout ce qui n'y figure pas reste sur votre appareil.</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>Ce qui est envoyé</th>
+              <th>Qui le reçoit</th>
+              <th>Finalité</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>Requêtes publicitaires</td>
+                <td>Google AdMob</td>
+                <td>Pour choisir et mesurer une publicité.</td>
+              </tr>
+              <tr>
+                <td>Événements d'usage anonymes</td>
+                <td>Google Firebase Analytics</td>
+                <td>Comptages des fonctions ouvertes, sans identifiant d'utilisateur.</td>
+              </tr>
+              <tr>
+                <td>Rapports de plantage</td>
+                <td>Google Firebase Crashlytics</td>
+                <td>L'erreur, la pile d'appels, le modèle de l'appareil et la version de l'application lors d'un échec.</td>
+              </tr>
+              <tr>
+                <td>Validation d'achat</td>
+                <td>Apple App Store / Google Play</td>
+                <td>Pour vérifier qu'un abonnement est actif. Aucune donnée de carte ne nous parvient.</td>
+              </tr>
+              <tr>
+                <td>Vérification de version</td>
+                <td>Apple App Store / Google Play</td>
+                <td>Pour vous signaler une version plus récente. Transmet le nom de paquet et la version.</td>
+              </tr>
+              <tr>
+                <td>Rien d'automatique</td>
+                <td>Les sites que vous ouvrez</td>
+                <td>Ouvrir un lien dans l'application le confie à votre navigateur, qui se comporte alors comme votre navigateur.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>Au démarrage, l'application demande à l'App Store ou à Google Play s'il existe une version plus récente, afin de vous en informer. La requête contient le nom de paquet et la version de l'application, et rien vous concernant.</p>
+        <p>La version macOS ne contient ni le SDK publicitaire ni Firebase. Sur macOS, l'application n'affiche aucune publicité et n'envoie ni statistiques ni rapports de plantage.</p>
+        <h3 id="fr-learncantonese-notdo">Ce que l'application ne fait pas</h3>
+        <p>Tant que la présente politique est celle en vigueur :</p>
+        <ul>
+          <li>Il n'y a ni compte, ni inscription, ni adresse e-mail, ni mot de passe.</li>
+          <li>Nous n'exploitons aucun serveur qui reçoive votre contenu et ne détenons aucune base de données où vous figureriez.</li>
+          <li>Nous ne vendons pas vos informations personnelles et ne les partageons pas à des fins de publicité comportementale inter-contextes.</li>
+          <li>L'application ne vous suit pas à travers les applications ou sites d'autres entreprises et n'affiche pas la demande App Tracking Transparency.</li>
+          <li>Rien n'est synchronisé vers un compte en ligne qui serait le nôtre. Il n'existe de notre côté aucune sauvegarde à restaurer.</li>
+          <li>L'application ne demande ni ne lit votre position.</li>
+          <li>L'application ne lit ni vos contacts, ni votre agenda, ni vos messages, ni votre journal d'appels, ni de fichiers hors de son propre stockage.</li>
+        </ul>
+        <h3 id="fr-learncantonese-perms">Les autorisations, et la raison de chacune</h3>
+        <p>Chaque autorisation ci-dessous est demandée pour la seule finalité indiquée et n'est utilisée pour rien d'autre. Sur les deux plateformes, vous pouvez refuser ou retirer n'importe laquelle dans les réglages du système ; les fonctions qui en dépendent cessent de fonctionner et le reste de l'application continue.</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>Autorisation</th>
+              <th>Plateforme</th>
+              <th>Finalité</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>Accès à internet</td>
+                <td>Android</td>
+                <td>Nécessaire aux requêtes réseau énumérées ci-dessus.</td>
+              </tr>
+              <tr>
+                <td>Micro</td>
+                <td>Android</td>
+                <td>Pour enregistrer quand vous lancez un enregistrement.</td>
+              </tr>
+              <tr>
+                <td>Service de premier plan</td>
+                <td>Android</td>
+                <td>Pour maintenir en cours une tâche que vous avez lancée, avec une notification persistante visible.</td>
+              </tr>
+              <tr>
+                <td>Identifiant publicitaire</td>
+                <td>Android</td>
+                <td>Utilisé par AdMob pour choisir et mesurer les publicités. Vous pouvez le réinitialiser ou le supprimer dans les réglages Android.</td>
+              </tr>
+              <tr>
+                <td>Facturation</td>
+                <td>Android</td>
+                <td>Pour vendre et vérifier l'abonnement via Google Play.</td>
+              </tr>
+              <tr>
+                <td>Micro</td>
+                <td>iOS</td>
+                <td>Pour enregistrer quand vous lancez un enregistrement.</td>
+              </tr>
+              <tr>
+                <td>Reconnaissance vocale</td>
+                <td>iOS</td>
+                <td>Pour noter votre prononciation avec le moteur d'Apple.</td>
+              </tr>
+              <tr>
+                <td>App Tracking Transparency</td>
+                <td>iOS</td>
+                <td>Non demandée. L'application ne vous suit pas à travers les applications ou sites d'autres entreprises.</td>
+              </tr>
+              <tr>
+                <td>Position</td>
+                <td>Android et iOS</td>
+                <td>Non demandée.</td>
+              </tr>
+              <tr>
+                <td>Appareil photo</td>
+                <td>Android et iOS</td>
+                <td>Non demandée.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <h3 id="fr-learncantonese-ads">Publicité et vos choix</h3>
+        <p>Cette version de l'application affiche des publicités fournies par <strong>Google AdMob</strong>. Google agit en responsable indépendant des données qu'il collecte via ces publicités, selon sa propre politique consultable sur <a href="https://policies.google.com/technologies/partner-sites" rel="noopener">policies.google.com/technologies/partner-sites</a>.</p>
+        <p>Pour choisir et mesurer une publicité, Google peut recevoir l'identifiant publicitaire de votre appareil, des informations générales sur l'appareil et l'application, une localisation approximative déduite de votre adresse IP, et le fait que vous ayez vu ou touché la publicité. Nous ne recevons rien de tout cela vous concernant individuellement : nos rapports sont des chiffres agrégés de revenus et d'impressions.</p>
+        <p>Les publicités de cette application se présentent sous forme de bannières et d'interstitiels plein écran entre deux activités.</p>
+        <p>Dans l'EEE, au Royaume-Uni et en Suisse, l'application affiche le formulaire de consentement de Google avant de demander une publicité personnalisée. Votre réponse est enregistrée sur votre appareil et reste accessible à tout moment depuis les réglages de l'application, à l'entrée publicité ou options de confidentialité, pour changer d'avis.</p>
+        <p>Vous pouvez réinitialiser ou supprimer l'identifiant publicitaire à tout moment : sur Android dans Paramètres › Confidentialité › Annonces, et sur iOS en désactivant <em>Autoriser les apps à suivre votre activité</em>, ce qui le rend également indisponible pour toutes les applications.</p>
+        <p>L'application n'affiche pas la demande App Tracking Transparency d'Apple et ne vous suit pas à travers les applications ou les sites web d'autres entreprises.</p>
+        <h3 id="fr-learncantonese-telemetry">Statistiques d'usage et rapports de plantage</h3>
+        <p>L'application utilise <strong>Google Firebase</strong> pour deux choses : Crashlytics, qui remonte les plantages, et Analytics, qui compte l'utilisation des fonctions. Google traite les deux pour notre compte.</p>
+        <p>Un rapport de plantage contient l'état du programme au moment de l'échec : l'erreur, la pile d'appels, le modèle de l'appareil, la version du système et celle de l'application. Il est produit automatiquement par l'échec lui-même et nous indique quelle ligne de notre code corriger.</p>
+        <p>Les événements de statistiques sont des comptages d'actions anonymes, par exemple l'ouverture d'un écran. Nous ne définissons aucun identifiant ni aucune propriété d'utilisateur : ces événements ne sont donc rattachés à personne et nous ne pouvons pas vous y retrouver.</p>
+        <h3 id="fr-learncantonese-purchases">Abonnements et achats</h3>
+        <p>Cette version de l'application propose un abonnement à renouvellement automatique. L'achat est intégralement géré par l'App Store ou Google Play.</p>
+        <p>Nous ne voyons jamais votre numéro de carte, votre adresse de facturation ni aucune autre donnée de paiement. La boutique indique seulement à l'application s'il existe un droit valide ; cette réponse est mise en cache sur votre appareil pour que l'application fonctionne hors ligne.</p>
+        <h2 id="fr-learnchinese">McChinese</h2>
+        <p>McChinese enseigne le mandarin à travers un vocabulaire gradué par niveaux HSK, des exercices d'ordre des traits, de compréhension orale et d'expression. Elle fonctionne sur iPhone, iPad et Android, avec une interface en sept langues. Votre progression vit sur l'appareil que vous utilisez.</p>
+        <h3 id="fr-learnchinese-stores">Ce que l'application conserve sur votre appareil</h3>
+        <p>L'application écrit ce qui suit dans le stockage privé de votre appareil, une zone que les autres applications ne peuvent pas lire. Cela y reste jusqu'à ce que vous le supprimiez ou désinstalliez l'application.</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>Quoi</th>
+              <th>Pourquoi</th>
+              <th>Où c'est conservé</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>Progression</td>
+                <td>Leçons terminées, résultats des tests et éléments déjà vus.</td>
+                <td>Uniquement sur votre appareil</td>
+              </tr>
+              <tr>
+                <td>Favoris</td>
+                <td>Les éléments que vous avez marqués ou mis en signet.</td>
+                <td>Uniquement sur votre appareil</td>
+              </tr>
+              <tr>
+                <td>Historique</td>
+                <td>Ce que vous avez consulté ou travaillé récemment, pour y revenir.</td>
+                <td>Uniquement sur votre appareil</td>
+              </tr>
+              <tr>
+                <td>Série et statistiques</td>
+                <td>Série quotidienne et compteurs d'étude affichés sur votre profil.</td>
+                <td>Uniquement sur votre appareil</td>
+              </tr>
+              <tr>
+                <td>Réglages</td>
+                <td>Préférences de langue, de thème, de son et d'affichage.</td>
+                <td>Uniquement sur votre appareil</td>
+              </tr>
+              <tr>
+                <td>Statut de l'abonnement</td>
+                <td>Une réponse oui/non mise en cache depuis la boutique, pour que l'application fonctionne hors ligne.</td>
+                <td>Uniquement sur votre appareil</td>
+              </tr>
+              <tr>
+                <td>Votre choix publicitaire</td>
+                <td>La réponse de consentement que vous avez donnée, pour ne pas vous la redemander à chaque lancement.</td>
+                <td>Uniquement sur votre appareil</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>Rien de tout cela ne nous est transmis. Nous ne pouvons pas le lire, nous ne pouvons pas le récupérer pour vous et nous ne pourrions le remettre à personne, puisque cela ne nous parvient jamais.</p>
+        <p>La reconnaissance vocale de l'exercice de prononciation est assurée par le moteur du système d'exploitation lui-même — celui d'Apple sur iOS, celui de Google sur Android — selon les conditions de confidentialité de la plateforme. Selon l'appareil et la langue, ce moteur peut traiter l'audio sur l'appareil ou sur les serveurs de la plateforme. Nous ne recevons ni l'audio ni la transcription : l'application apprend seulement à quel point ce que vous avez dit correspondait à la phrase attendue, et l'audio est écarté dès ce score obtenu.</p>
+        <h3 id="fr-learnchinese-leaves">Ce qui quitte votre appareil</h3>
+        <p>Voici la liste complète. Tout ce qui n'y figure pas reste sur votre appareil.</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>Ce qui est envoyé</th>
+              <th>Qui le reçoit</th>
+              <th>Finalité</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>Requêtes publicitaires</td>
+                <td>Google AdMob</td>
+                <td>Pour choisir et mesurer une publicité.</td>
+              </tr>
+              <tr>
+                <td>Événements d'usage anonymes</td>
+                <td>Google Firebase Analytics</td>
+                <td>Comptages des fonctions ouvertes, sans identifiant d'utilisateur.</td>
+              </tr>
+              <tr>
+                <td>Rapports de plantage</td>
+                <td>Google Firebase Crashlytics</td>
+                <td>L'erreur, la pile d'appels, le modèle de l'appareil et la version de l'application lors d'un échec.</td>
+              </tr>
+              <tr>
+                <td>Validation d'achat</td>
+                <td>Apple App Store / Google Play</td>
+                <td>Pour vérifier qu'un abonnement est actif. Aucune donnée de carte ne nous parvient.</td>
+              </tr>
+              <tr>
+                <td>Requêtes de données de tracé</td>
+                <td>unpkg, jsDelivr ou cdnjs</td>
+                <td>Pour récupérer l'ordre des traits d'un caractère que vous avez ouvert.</td>
+              </tr>
+              <tr>
+                <td>Rien d'automatique</td>
+                <td>Les sites que vous ouvrez</td>
+                <td>Ouvrir un lien dans l'application le confie à votre navigateur, qui se comporte alors comme votre navigateur.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>L'animation de l'ordre des traits est dessinée par un composant open source. La première fois que vous affichez un caractère, l'application récupère ses données de tracé auprès d'un CDN public de code (unpkg, jsDelivr ou cdnjs). La requête contient le caractère à dessiner et votre adresse IP, comme toute requête web. Aucune progression, aucun compte et aucun identifiant n'y est joint.</p>
+        <h3 id="fr-learnchinese-notdo">Ce que l'application ne fait pas</h3>
+        <p>Tant que la présente politique est celle en vigueur :</p>
+        <ul>
+          <li>Il n'y a ni compte, ni inscription, ni adresse e-mail, ni mot de passe.</li>
+          <li>Nous n'exploitons aucun serveur qui reçoive votre contenu et ne détenons aucune base de données où vous figureriez.</li>
+          <li>Nous ne vendons pas vos informations personnelles et ne les partageons pas à des fins de publicité comportementale inter-contextes.</li>
+          <li>L'application ne vous suit pas à travers les applications ou sites d'autres entreprises et n'affiche pas la demande App Tracking Transparency.</li>
+          <li>Rien n'est synchronisé vers un compte en ligne qui serait le nôtre. Il n'existe de notre côté aucune sauvegarde à restaurer.</li>
+          <li>L'application ne demande ni ne lit votre position.</li>
+          <li>L'application ne lit ni vos contacts, ni votre agenda, ni vos messages, ni votre journal d'appels, ni de fichiers hors de son propre stockage.</li>
+        </ul>
+        <h3 id="fr-learnchinese-perms">Les autorisations, et la raison de chacune</h3>
+        <p>Chaque autorisation ci-dessous est demandée pour la seule finalité indiquée et n'est utilisée pour rien d'autre. Sur les deux plateformes, vous pouvez refuser ou retirer n'importe laquelle dans les réglages du système ; les fonctions qui en dépendent cessent de fonctionner et le reste de l'application continue.</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>Autorisation</th>
+              <th>Plateforme</th>
+              <th>Finalité</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>Accès à internet</td>
+                <td>Android</td>
+                <td>Nécessaire aux requêtes réseau énumérées ci-dessus.</td>
+              </tr>
+              <tr>
+                <td>État du réseau</td>
+                <td>Android</td>
+                <td>Pour vérifier qu'une connexion existe avant d'essayer de l'utiliser.</td>
+              </tr>
+              <tr>
+                <td>Micro</td>
+                <td>Android</td>
+                <td>Pour enregistrer quand vous lancez un enregistrement.</td>
+              </tr>
+              <tr>
+                <td>Identifiant publicitaire</td>
+                <td>Android</td>
+                <td>Utilisé par AdMob pour choisir et mesurer les publicités. Vous pouvez le réinitialiser ou le supprimer dans les réglages Android.</td>
+              </tr>
+              <tr>
+                <td>Facturation</td>
+                <td>Android</td>
+                <td>Pour vendre et vérifier l'abonnement via Google Play.</td>
+              </tr>
+              <tr>
+                <td>Micro</td>
+                <td>iOS</td>
+                <td>Pour enregistrer quand vous lancez un enregistrement.</td>
+              </tr>
+              <tr>
+                <td>Reconnaissance vocale</td>
+                <td>iOS</td>
+                <td>Pour noter votre prononciation avec le moteur d'Apple.</td>
+              </tr>
+              <tr>
+                <td>App Tracking Transparency</td>
+                <td>iOS</td>
+                <td>Non demandée. L'application ne vous suit pas à travers les applications ou sites d'autres entreprises.</td>
+              </tr>
+              <tr>
+                <td>Position</td>
+                <td>Android et iOS</td>
+                <td>Non demandée.</td>
+              </tr>
+              <tr>
+                <td>Appareil photo</td>
+                <td>Android et iOS</td>
+                <td>Non demandée.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <h3 id="fr-learnchinese-ads">Publicité et vos choix</h3>
+        <p>Cette version de l'application affiche des publicités fournies par <strong>Google AdMob</strong>. Google agit en responsable indépendant des données qu'il collecte via ces publicités, selon sa propre politique consultable sur <a href="https://policies.google.com/technologies/partner-sites" rel="noopener">policies.google.com/technologies/partner-sites</a>.</p>
+        <p>Pour choisir et mesurer une publicité, Google peut recevoir l'identifiant publicitaire de votre appareil, des informations générales sur l'appareil et l'application, une localisation approximative déduite de votre adresse IP, et le fait que vous ayez vu ou touché la publicité. Nous ne recevons rien de tout cela vous concernant individuellement : nos rapports sont des chiffres agrégés de revenus et d'impressions.</p>
+        <p>Les publicités de cette application se présentent sous forme de bannières et d'interstitiels plein écran entre deux activités.</p>
+        <p>Dans l'EEE, au Royaume-Uni et en Suisse, l'application affiche le formulaire de consentement de Google avant de demander une publicité personnalisée. Votre réponse est enregistrée sur votre appareil et reste accessible à tout moment depuis les réglages de l'application, à l'entrée publicité ou options de confidentialité, pour changer d'avis.</p>
+        <p>Vous pouvez réinitialiser ou supprimer l'identifiant publicitaire à tout moment : sur Android dans Paramètres › Confidentialité › Annonces, et sur iOS en désactivant <em>Autoriser les apps à suivre votre activité</em>, ce qui le rend également indisponible pour toutes les applications.</p>
+        <p>L'application n'affiche pas la demande App Tracking Transparency d'Apple et ne vous suit pas à travers les applications ou les sites web d'autres entreprises.</p>
+        <h3 id="fr-learnchinese-telemetry">Statistiques d'usage et rapports de plantage</h3>
+        <p>L'application utilise <strong>Google Firebase</strong> pour deux choses : Crashlytics, qui remonte les plantages, et Analytics, qui compte l'utilisation des fonctions. Google traite les deux pour notre compte.</p>
+        <p>Un rapport de plantage contient l'état du programme au moment de l'échec : l'erreur, la pile d'appels, le modèle de l'appareil, la version du système et celle de l'application. Il est produit automatiquement par l'échec lui-même et nous indique quelle ligne de notre code corriger.</p>
+        <p>Les événements de statistiques sont des comptages d'actions anonymes, par exemple l'ouverture d'un écran. Nous ne définissons aucun identifiant ni aucune propriété d'utilisateur : ces événements ne sont donc rattachés à personne et nous ne pouvons pas vous y retrouver.</p>
+        <h3 id="fr-learnchinese-purchases">Abonnements et achats</h3>
+        <p>Cette version de l'application propose un abonnement à renouvellement automatique. L'achat est intégralement géré par l'App Store ou Google Play.</p>
+        <p>Nous ne voyons jamais votre numéro de carte, votre adresse de facturation ni aucune autre donnée de paiement. La boutique indique seulement à l'application s'il existe un droit valide ; cette réponse est mise en cache sur votre appareil pour que l'application fonctionne hors ligne.</p>
+        <h2 id="fr-gcd">Great Cantonese Dictionary</h2>
+        <p>Great Cantonese Dictionary est un ouvrage de référence sur le cantonais : entrées, prononciation, phrases d'exemple et historique de vos recherches. Le dictionnaire est livré dans l'application : chercher ne demande donc aucune connexion. Elle fonctionne sur iPhone, iPad et Android.</p>
+        <h3 id="fr-gcd-stores">Ce que l'application conserve sur votre appareil</h3>
+        <p>L'application écrit ce qui suit dans le stockage privé de votre appareil, une zone que les autres applications ne peuvent pas lire. Cela y reste jusqu'à ce que vous le supprimiez ou désinstalliez l'application.</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>Quoi</th>
+              <th>Pourquoi</th>
+              <th>Où c'est conservé</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>Le dictionnaire</td>
+                <td>Les données de référence, livrées dans l'application et lues depuis votre appareil.</td>
+                <td>Uniquement sur votre appareil</td>
+              </tr>
+              <tr>
+                <td>Favoris</td>
+                <td>Les éléments que vous avez marqués ou mis en signet.</td>
+                <td>Uniquement sur votre appareil</td>
+              </tr>
+              <tr>
+                <td>Historique</td>
+                <td>Ce que vous avez consulté ou travaillé récemment, pour y revenir.</td>
+                <td>Uniquement sur votre appareil</td>
+              </tr>
+              <tr>
+                <td>Série et statistiques</td>
+                <td>Série quotidienne et compteurs d'étude affichés sur votre profil.</td>
+                <td>Uniquement sur votre appareil</td>
+              </tr>
+              <tr>
+                <td>Réglages</td>
+                <td>Préférences de langue, de thème, de son et d'affichage.</td>
+                <td>Uniquement sur votre appareil</td>
+              </tr>
+              <tr>
+                <td>Statut de l'abonnement</td>
+                <td>Une réponse oui/non mise en cache depuis la boutique, pour que l'application fonctionne hors ligne.</td>
+                <td>Uniquement sur votre appareil</td>
+              </tr>
+              <tr>
+                <td>Votre choix publicitaire</td>
+                <td>La réponse de consentement que vous avez donnée, pour ne pas vous la redemander à chaque lancement.</td>
+                <td>Uniquement sur votre appareil</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>Rien de tout cela ne nous est transmis. Nous ne pouvons pas le lire, nous ne pouvons pas le récupérer pour vous et nous ne pourrions le remettre à personne, puisque cela ne nous parvient jamais.</p>
+        <h3 id="fr-gcd-leaves">Ce qui quitte votre appareil</h3>
+        <p>Voici la liste complète. Tout ce qui n'y figure pas reste sur votre appareil.</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>Ce qui est envoyé</th>
+              <th>Qui le reçoit</th>
+              <th>Finalité</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>Requêtes publicitaires</td>
+                <td>Google AdMob</td>
+                <td>Pour choisir et mesurer une publicité.</td>
+              </tr>
+              <tr>
+                <td>Événements d'usage anonymes</td>
+                <td>Google Firebase Analytics</td>
+                <td>Comptages des fonctions ouvertes, sans identifiant d'utilisateur.</td>
+              </tr>
+              <tr>
+                <td>Rapports de plantage</td>
+                <td>Google Firebase Crashlytics</td>
+                <td>L'erreur, la pile d'appels, le modèle de l'appareil et la version de l'application lors d'un échec.</td>
+              </tr>
+              <tr>
+                <td>Validation d'achat</td>
+                <td>Apple App Store / Google Play</td>
+                <td>Pour vérifier qu'un abonnement est actif. Aucune donnée de carte ne nous parvient.</td>
+              </tr>
+              <tr>
+                <td>Rien d'automatique</td>
+                <td>Les sites que vous ouvrez</td>
+                <td>Ouvrir un lien dans l'application le confie à votre navigateur, qui se comporte alors comme votre navigateur.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <h3 id="fr-gcd-notdo">Ce que l'application ne fait pas</h3>
+        <p>Tant que la présente politique est celle en vigueur :</p>
+        <ul>
+          <li>Il n'y a ni compte, ni inscription, ni adresse e-mail, ni mot de passe.</li>
+          <li>Nous n'exploitons aucun serveur qui reçoive votre contenu et ne détenons aucune base de données où vous figureriez.</li>
+          <li>Nous ne vendons pas vos informations personnelles et ne les partageons pas à des fins de publicité comportementale inter-contextes.</li>
+          <li>L'application ne vous suit pas à travers les applications ou sites d'autres entreprises et n'affiche pas la demande App Tracking Transparency.</li>
+          <li>Rien n'est synchronisé vers un compte en ligne qui serait le nôtre. Il n'existe de notre côté aucune sauvegarde à restaurer.</li>
+          <li>L'application ne demande ni ne lit votre position.</li>
+          <li>L'application n'enregistre pas de son et ne demande aucun accès au micro à l'exécution.</li>
+          <li>L'application ne lit ni vos contacts, ni votre agenda, ni vos messages, ni votre journal d'appels, ni de fichiers hors de son propre stockage.</li>
+        </ul>
+        <h3 id="fr-gcd-perms">Les autorisations, et la raison de chacune</h3>
+        <p>Chaque autorisation ci-dessous est demandée pour la seule finalité indiquée et n'est utilisée pour rien d'autre. Sur les deux plateformes, vous pouvez refuser ou retirer n'importe laquelle dans les réglages du système ; les fonctions qui en dépendent cessent de fonctionner et le reste de l'application continue.</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>Autorisation</th>
+              <th>Plateforme</th>
+              <th>Finalité</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>Accès à internet</td>
+                <td>Android</td>
+                <td>Nécessaire aux requêtes réseau énumérées ci-dessus.</td>
+              </tr>
+              <tr>
+                <td>Identifiant publicitaire</td>
+                <td>Android</td>
+                <td>Utilisé par AdMob pour choisir et mesurer les publicités. Vous pouvez le réinitialiser ou le supprimer dans les réglages Android.</td>
+              </tr>
+              <tr>
+                <td>Facturation</td>
+                <td>Android</td>
+                <td>Pour vendre et vérifier l'abonnement via Google Play.</td>
+              </tr>
+              <tr>
+                <td>App Tracking Transparency</td>
+                <td>iOS</td>
+                <td>Non demandée. L'application ne vous suit pas à travers les applications ou sites d'autres entreprises.</td>
+              </tr>
+              <tr>
+                <td>Micro</td>
+                <td>Android et iOS</td>
+                <td>Non demandée.</td>
+              </tr>
+              <tr>
+                <td>Appareil photo</td>
+                <td>Android et iOS</td>
+                <td>Non demandée.</td>
+              </tr>
+              <tr>
+                <td>Position</td>
+                <td>Android et iOS</td>
+                <td>Non demandée.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <h3 id="fr-gcd-ads">Publicité et vos choix</h3>
+        <p>Cette version de l'application affiche des publicités fournies par <strong>Google AdMob</strong>. Google agit en responsable indépendant des données qu'il collecte via ces publicités, selon sa propre politique consultable sur <a href="https://policies.google.com/technologies/partner-sites" rel="noopener">policies.google.com/technologies/partner-sites</a>.</p>
+        <p>Pour choisir et mesurer une publicité, Google peut recevoir l'identifiant publicitaire de votre appareil, des informations générales sur l'appareil et l'application, une localisation approximative déduite de votre adresse IP, et le fait que vous ayez vu ou touché la publicité. Nous ne recevons rien de tout cela vous concernant individuellement : nos rapports sont des chiffres agrégés de revenus et d'impressions.</p>
+        <p>Les publicités de cette application se présentent sous forme de bannières, d'interstitiels plein écran entre deux activités, et d'une publicité à l'ouverture quand vous revenez dans l'application.</p>
+        <p>Dans l'EEE, au Royaume-Uni et en Suisse, l'application affiche le formulaire de consentement de Google avant de demander une publicité personnalisée. Votre réponse est enregistrée sur votre appareil et reste accessible à tout moment depuis les réglages de l'application, à l'entrée publicité ou options de confidentialité, pour changer d'avis.</p>
+        <p>Vous pouvez réinitialiser ou supprimer l'identifiant publicitaire à tout moment : sur Android dans Paramètres › Confidentialité › Annonces, et sur iOS en désactivant <em>Autoriser les apps à suivre votre activité</em>, ce qui le rend également indisponible pour toutes les applications.</p>
+        <p>L'application n'affiche pas la demande App Tracking Transparency d'Apple et ne vous suit pas à travers les applications ou les sites web d'autres entreprises.</p>
+        <h3 id="fr-gcd-telemetry">Statistiques d'usage et rapports de plantage</h3>
+        <p>L'application utilise <strong>Google Firebase</strong> pour deux choses : Crashlytics, qui remonte les plantages, et Analytics, qui compte l'utilisation des fonctions. Google traite les deux pour notre compte.</p>
+        <p>Un rapport de plantage contient l'état du programme au moment de l'échec : l'erreur, la pile d'appels, le modèle de l'appareil, la version du système et celle de l'application. Il est produit automatiquement par l'échec lui-même et nous indique quelle ligne de notre code corriger.</p>
+        <p>Les événements de statistiques sont des comptages d'actions anonymes, par exemple l'ouverture d'un écran. Nous ne définissons aucun identifiant ni aucune propriété d'utilisateur : ces événements ne sont donc rattachés à personne et nous ne pouvons pas vous y retrouver.</p>
+        <h3 id="fr-gcd-purchases">Abonnements et achats</h3>
+        <p>Cette version de l'application propose un abonnement à renouvellement automatique. L'achat est intégralement géré par l'App Store ou Google Play.</p>
+        <p>Nous ne voyons jamais votre numéro de carte, votre adresse de facturation ni aucune autre donnée de paiement. La boutique indique seulement à l'application s'il existe un droit valide ; cette réponse est mise en cache sur votre appareil pour que l'application fonctionne hors ligne.</p>
+        <p>Un achat unique vendu dans une version antérieure reste reconnu et continue de fonctionner ; il ne se renouvelle pas et n'est pas facturé de nouveau.</p>
+        <h2 id="fr-learnenglish">ALL English</h2>
+        <p>ALL English enseigne l'anglais à travers un vocabulaire gradué, des exercices d'écoute, des tests et des exercices de prononciation à voix haute. Elle fonctionne sur iPhone, iPad et Android, avec une interface en anglais, espagnol, chinois et arabe. Votre progression vit sur l'appareil que vous utilisez.</p>
+        <p>L'application est référencée sur les boutiques sous le nom <strong>McEnglish</strong> et apparaît sur votre écran d'accueil sous le nom <strong>ALL English</strong>. C'est la même application.</p>
+        <h3 id="fr-learnenglish-stores">Ce que l'application conserve sur votre appareil</h3>
+        <p>L'application écrit ce qui suit dans le stockage privé de votre appareil, une zone que les autres applications ne peuvent pas lire. Cela y reste jusqu'à ce que vous le supprimiez ou désinstalliez l'application.</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>Quoi</th>
+              <th>Pourquoi</th>
+              <th>Où c'est conservé</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>Progression</td>
+                <td>Leçons terminées, résultats des tests et éléments déjà vus.</td>
+                <td>Uniquement sur votre appareil</td>
+              </tr>
+              <tr>
+                <td>Favoris</td>
+                <td>Les éléments que vous avez marqués ou mis en signet.</td>
+                <td>Uniquement sur votre appareil</td>
+              </tr>
+              <tr>
+                <td>Série et statistiques</td>
+                <td>Série quotidienne et compteurs d'étude affichés sur votre profil.</td>
+                <td>Uniquement sur votre appareil</td>
+              </tr>
+              <tr>
+                <td>Réglages</td>
+                <td>Préférences de langue, de thème, de son et d'affichage.</td>
+                <td>Uniquement sur votre appareil</td>
+              </tr>
+              <tr>
+                <td>Statut de l'abonnement</td>
+                <td>Une réponse oui/non mise en cache depuis la boutique, pour que l'application fonctionne hors ligne.</td>
+                <td>Uniquement sur votre appareil</td>
+              </tr>
+              <tr>
+                <td>Votre choix publicitaire</td>
+                <td>La réponse de consentement que vous avez donnée, pour ne pas vous la redemander à chaque lancement.</td>
+                <td>Uniquement sur votre appareil</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>Rien de tout cela ne nous est transmis. Nous ne pouvons pas le lire, nous ne pouvons pas le récupérer pour vous et nous ne pourrions le remettre à personne, puisque cela ne nous parvient jamais.</p>
+        <p>La reconnaissance vocale de l'exercice de prononciation est assurée par le moteur du système d'exploitation lui-même — celui d'Apple sur iOS, celui de Google sur Android — selon les conditions de confidentialité de la plateforme. Selon l'appareil et la langue, ce moteur peut traiter l'audio sur l'appareil ou sur les serveurs de la plateforme. Nous ne recevons ni l'audio ni la transcription : l'application apprend seulement à quel point ce que vous avez dit correspondait à la phrase attendue, et l'audio est écarté dès ce score obtenu.</p>
+        <h3 id="fr-learnenglish-leaves">Ce qui quitte votre appareil</h3>
+        <p>Voici la liste complète. Tout ce qui n'y figure pas reste sur votre appareil.</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>Ce qui est envoyé</th>
+              <th>Qui le reçoit</th>
+              <th>Finalité</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>Requêtes publicitaires</td>
+                <td>Google AdMob</td>
+                <td>Pour choisir et mesurer une publicité.</td>
+              </tr>
+              <tr>
+                <td>Événements d'usage anonymes</td>
+                <td>Google Firebase Analytics</td>
+                <td>Comptages des fonctions ouvertes, sans identifiant d'utilisateur.</td>
+              </tr>
+              <tr>
+                <td>Rapports de plantage</td>
+                <td>Google Firebase Crashlytics</td>
+                <td>L'erreur, la pile d'appels, le modèle de l'appareil et la version de l'application lors d'un échec.</td>
+              </tr>
+              <tr>
+                <td>Validation d'achat</td>
+                <td>Apple App Store / Google Play</td>
+                <td>Pour vérifier qu'un abonnement est actif. Aucune donnée de carte ne nous parvient.</td>
+              </tr>
+              <tr>
+                <td>Rien d'automatique</td>
+                <td>Les sites que vous ouvrez</td>
+                <td>Ouvrir un lien dans l'application le confie à votre navigateur, qui se comporte alors comme votre navigateur.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <h3 id="fr-learnenglish-notdo">Ce que l'application ne fait pas</h3>
+        <p>Tant que la présente politique est celle en vigueur :</p>
+        <ul>
+          <li>Il n'y a ni compte, ni inscription, ni adresse e-mail, ni mot de passe.</li>
+          <li>Nous n'exploitons aucun serveur qui reçoive votre contenu et ne détenons aucune base de données où vous figureriez.</li>
+          <li>Nous ne vendons pas vos informations personnelles et ne les partageons pas à des fins de publicité comportementale inter-contextes.</li>
+          <li>L'application ne vous suit pas à travers les applications ou sites d'autres entreprises et n'affiche pas la demande App Tracking Transparency.</li>
+          <li>Rien n'est synchronisé vers un compte en ligne qui serait le nôtre. Il n'existe de notre côté aucune sauvegarde à restaurer.</li>
+          <li>L'application ne demande ni ne lit votre position.</li>
+          <li>L'application ne lit ni vos contacts, ni votre agenda, ni vos messages, ni votre journal d'appels, ni de fichiers hors de son propre stockage.</li>
+        </ul>
+        <h3 id="fr-learnenglish-perms">Les autorisations, et la raison de chacune</h3>
+        <p>Chaque autorisation ci-dessous est demandée pour la seule finalité indiquée et n'est utilisée pour rien d'autre. Sur les deux plateformes, vous pouvez refuser ou retirer n'importe laquelle dans les réglages du système ; les fonctions qui en dépendent cessent de fonctionner et le reste de l'application continue.</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>Autorisation</th>
+              <th>Plateforme</th>
+              <th>Finalité</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>Accès à internet</td>
+                <td>Android</td>
+                <td>Nécessaire aux requêtes réseau énumérées ci-dessus.</td>
+              </tr>
+              <tr>
+                <td>État du réseau</td>
+                <td>Android</td>
+                <td>Pour vérifier qu'une connexion existe avant d'essayer de l'utiliser.</td>
+              </tr>
+              <tr>
+                <td>Micro</td>
+                <td>Android</td>
+                <td>Pour enregistrer quand vous lancez un enregistrement.</td>
+              </tr>
+              <tr>
+                <td>Identifiant publicitaire</td>
+                <td>Android</td>
+                <td>Utilisé par AdMob pour choisir et mesurer les publicités. Vous pouvez le réinitialiser ou le supprimer dans les réglages Android.</td>
+              </tr>
+              <tr>
+                <td>Micro</td>
+                <td>iOS</td>
+                <td>Pour enregistrer quand vous lancez un enregistrement.</td>
+              </tr>
+              <tr>
+                <td>Reconnaissance vocale</td>
+                <td>iOS</td>
+                <td>Pour noter votre prononciation avec le moteur d'Apple.</td>
+              </tr>
+              <tr>
+                <td>App Tracking Transparency</td>
+                <td>iOS</td>
+                <td>Non demandée. L'application ne vous suit pas à travers les applications ou sites d'autres entreprises.</td>
+              </tr>
+              <tr>
+                <td>Position</td>
+                <td>Android et iOS</td>
+                <td>Non demandée.</td>
+              </tr>
+              <tr>
+                <td>Appareil photo</td>
+                <td>Android et iOS</td>
+                <td>Non demandée.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <h3 id="fr-learnenglish-ads">Publicité et vos choix</h3>
+        <p>Cette version de l'application affiche des publicités fournies par <strong>Google AdMob</strong>. Google agit en responsable indépendant des données qu'il collecte via ces publicités, selon sa propre politique consultable sur <a href="https://policies.google.com/technologies/partner-sites" rel="noopener">policies.google.com/technologies/partner-sites</a>.</p>
+        <p>Pour choisir et mesurer une publicité, Google peut recevoir l'identifiant publicitaire de votre appareil, des informations générales sur l'appareil et l'application, une localisation approximative déduite de votre adresse IP, et le fait que vous ayez vu ou touché la publicité. Nous ne recevons rien de tout cela vous concernant individuellement : nos rapports sont des chiffres agrégés de revenus et d'impressions.</p>
+        <p>Les publicités de cette application se présentent sous forme de bannières et d'interstitiels plein écran entre deux activités.</p>
+        <p>Dans l'EEE, au Royaume-Uni et en Suisse, l'application affiche le formulaire de consentement de Google avant de demander une publicité personnalisée. Votre réponse est enregistrée sur votre appareil et reste accessible à tout moment depuis les réglages de l'application, à l'entrée publicité ou options de confidentialité, pour changer d'avis.</p>
+        <p>Vous pouvez réinitialiser ou supprimer l'identifiant publicitaire à tout moment : sur Android dans Paramètres › Confidentialité › Annonces, et sur iOS en désactivant <em>Autoriser les apps à suivre votre activité</em>, ce qui le rend également indisponible pour toutes les applications.</p>
+        <p>L'application n'affiche pas la demande App Tracking Transparency d'Apple et ne vous suit pas à travers les applications ou les sites web d'autres entreprises.</p>
+        <h3 id="fr-learnenglish-telemetry">Statistiques d'usage et rapports de plantage</h3>
+        <p>L'application utilise <strong>Google Firebase</strong> pour deux choses : Crashlytics, qui remonte les plantages, et Analytics, qui compte l'utilisation des fonctions. Google traite les deux pour notre compte.</p>
+        <p>Un rapport de plantage contient l'état du programme au moment de l'échec : l'erreur, la pile d'appels, le modèle de l'appareil, la version du système et celle de l'application. Il est produit automatiquement par l'échec lui-même et nous indique quelle ligne de notre code corriger.</p>
+        <p>Les événements de statistiques sont des comptages d'actions anonymes, par exemple l'ouverture d'un écran. Nous ne définissons aucun identifiant ni aucune propriété d'utilisateur : ces événements ne sont donc rattachés à personne et nous ne pouvons pas vous y retrouver.</p>
+        <h3 id="fr-learnenglish-purchases">Abonnements et achats</h3>
+        <p>Cette version de l'application propose un abonnement à renouvellement automatique. L'achat est intégralement géré par l'App Store ou Google Play.</p>
+        <p>Nous ne voyons jamais votre numéro de carte, votre adresse de facturation ni aucune autre donnée de paiement. La boutique indique seulement à l'application s'il existe un droit valide ; cette réponse est mise en cache sur votre appareil pour que l'application fonctionne hors ligne.</p>
+        <h2 id="fr-xiezi">Xie Zi</h2>
+        <p>Xie Zi enseigne l'écriture manuscrite chinoise : vous tracez chaque caractère dans le bon ordre et l'application vous indique où le trait a dévié. Son dictionnaire de 9 574 caractères et toutes ses animations de tracé sont intégrés à l'application : s'exercer ne demande donc aucune connexion.</p>
+        <h3 id="fr-xiezi-stores">Ce que l'application conserve sur votre appareil</h3>
+        <p>L'application écrit ce qui suit dans le stockage privé de votre appareil, une zone que les autres applications ne peuvent pas lire. Cela y reste jusqu'à ce que vous le supprimiez ou désinstalliez l'application.</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>Quoi</th>
+              <th>Pourquoi</th>
+              <th>Où c'est conservé</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>Le dictionnaire</td>
+                <td>Les données de référence, livrées dans l'application et lues depuis votre appareil.</td>
+                <td>Uniquement sur votre appareil</td>
+              </tr>
+              <tr>
+                <td>Progression</td>
+                <td>Leçons terminées, résultats des tests et éléments déjà vus.</td>
+                <td>Uniquement sur votre appareil</td>
+              </tr>
+              <tr>
+                <td>Favoris</td>
+                <td>Les éléments que vous avez marqués ou mis en signet.</td>
+                <td>Uniquement sur votre appareil</td>
+              </tr>
+              <tr>
+                <td>Historique</td>
+                <td>Ce que vous avez consulté ou travaillé récemment, pour y revenir.</td>
+                <td>Uniquement sur votre appareil</td>
+              </tr>
+              <tr>
+                <td>Série et statistiques</td>
+                <td>Série quotidienne et compteurs d'étude affichés sur votre profil.</td>
+                <td>Uniquement sur votre appareil</td>
+              </tr>
+              <tr>
+                <td>Réglages</td>
+                <td>Préférences de langue, de thème, de son et d'affichage.</td>
+                <td>Uniquement sur votre appareil</td>
+              </tr>
+              <tr>
+                <td>Statut de l'abonnement</td>
+                <td>Une réponse oui/non mise en cache depuis la boutique, pour que l'application fonctionne hors ligne.</td>
+                <td>Uniquement sur votre appareil</td>
+              </tr>
+              <tr>
+                <td>Votre choix publicitaire</td>
+                <td>La réponse de consentement que vous avez donnée, pour ne pas vous la redemander à chaque lancement.</td>
+                <td>Uniquement sur votre appareil</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>Rien de tout cela ne nous est transmis. Nous ne pouvons pas le lire, nous ne pouvons pas le récupérer pour vous et nous ne pourrions le remettre à personne, puisque cela ne nous parvient jamais.</p>
+        <h3 id="fr-xiezi-leaves">Ce qui quitte votre appareil</h3>
+        <p>Voici la liste complète. Tout ce qui n'y figure pas reste sur votre appareil.</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>Ce qui est envoyé</th>
+              <th>Qui le reçoit</th>
+              <th>Finalité</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>Requêtes publicitaires</td>
+                <td>Google AdMob</td>
+                <td>Pour choisir et mesurer une publicité.</td>
+              </tr>
+              <tr>
+                <td>Validation d'achat</td>
+                <td>Apple App Store / Google Play</td>
+                <td>Pour vérifier qu'un abonnement est actif. Aucune donnée de carte ne nous parvient.</td>
+              </tr>
+              <tr>
+                <td>Rien d'automatique</td>
+                <td>Les sites que vous ouvrez</td>
+                <td>Ouvrir un lien dans l'application le confie à votre navigateur, qui se comporte alors comme votre navigateur.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>L'animation de l'ordre des traits et l'ensemble de ses données de caractères sont intégrées à l'application. Afficher ou travailler un caractère ne déclenche aucune requête réseau.</p>
+        <h3 id="fr-xiezi-notdo">Ce que l'application ne fait pas</h3>
+        <p>Tant que la présente politique est celle en vigueur :</p>
+        <ul>
+          <li>Il n'y a ni compte, ni inscription, ni adresse e-mail, ni mot de passe.</li>
+          <li>Nous n'exploitons aucun serveur qui reçoive votre contenu et ne détenons aucune base de données où vous figureriez.</li>
+          <li>Nous ne vendons pas vos informations personnelles et ne les partageons pas à des fins de publicité comportementale inter-contextes.</li>
+          <li>L'application ne vous suit pas à travers les applications ou sites d'autres entreprises et n'affiche pas la demande App Tracking Transparency.</li>
+          <li>Rien n'est synchronisé vers un compte en ligne qui serait le nôtre. Il n'existe de notre côté aucune sauvegarde à restaurer.</li>
+          <li>Cette version ne contient aucun SDK de statistiques ni de remontée de plantages.</li>
+          <li>L'application ne demande ni ne lit votre position.</li>
+          <li>L'application n'enregistre pas de son et ne demande aucun accès au micro à l'exécution.</li>
+          <li>L'application ne lit ni vos contacts, ni votre agenda, ni vos messages, ni votre journal d'appels, ni de fichiers hors de son propre stockage.</li>
+        </ul>
+        <h3 id="fr-xiezi-perms">Les autorisations, et la raison de chacune</h3>
+        <p>Chaque autorisation ci-dessous est demandée pour la seule finalité indiquée et n'est utilisée pour rien d'autre. Sur les deux plateformes, vous pouvez refuser ou retirer n'importe laquelle dans les réglages du système ; les fonctions qui en dépendent cessent de fonctionner et le reste de l'application continue.</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>Autorisation</th>
+              <th>Plateforme</th>
+              <th>Finalité</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>Accès à internet</td>
+                <td>Android</td>
+                <td>Nécessaire aux requêtes réseau énumérées ci-dessus.</td>
+              </tr>
+              <tr>
+                <td>État du réseau</td>
+                <td>Android</td>
+                <td>Pour vérifier qu'une connexion existe avant d'essayer de l'utiliser.</td>
+              </tr>
+              <tr>
+                <td>Identifiant publicitaire</td>
+                <td>Android</td>
+                <td>Utilisé par AdMob pour choisir et mesurer les publicités. Vous pouvez le réinitialiser ou le supprimer dans les réglages Android.</td>
+              </tr>
+              <tr>
+                <td>Micro — déclaré, non utilisé</td>
+                <td>Android</td>
+                <td>Vestige d'une conception antérieure. Cette version ne contient aucun code d'enregistrement audio et ne le demande jamais à l'exécution.</td>
+              </tr>
+              <tr>
+                <td>Bluetooth — déclaré, non utilisé</td>
+                <td>Android</td>
+                <td>Vestige d'une conception antérieure. Cette version ne contient aucun code Bluetooth et ne le demande jamais à l'exécution.</td>
+              </tr>
+              <tr>
+                <td>App Tracking Transparency</td>
+                <td>iOS</td>
+                <td>Non demandée. L'application ne vous suit pas à travers les applications ou sites d'autres entreprises.</td>
+              </tr>
+              <tr>
+                <td>Micro</td>
+                <td>Android et iOS</td>
+                <td>Non demandée.</td>
+              </tr>
+              <tr>
+                <td>Appareil photo</td>
+                <td>Android et iOS</td>
+                <td>Non demandée.</td>
+              </tr>
+              <tr>
+                <td>Position</td>
+                <td>Android et iOS</td>
+                <td>Non demandée.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>Deux autorisations issues d'une conception antérieure restent déclarées dans le manifeste Android — micro et Bluetooth — et la boutique les affiche de ce fait. Cette version de l'application ne contient ni code d'enregistrement audio ni code Bluetooth : ni l'un ni l'autre n'est demandé à l'exécution ni utilisé. Nous le signalons ici parce que vous pouvez les voir sur la fiche de la boutique et que vous méritez une explication plutôt qu'une surprise.</p>
+        <h3 id="fr-xiezi-ads">Publicité et vos choix</h3>
+        <p>Cette version de l'application affiche des publicités fournies par <strong>Google AdMob</strong>. Google agit en responsable indépendant des données qu'il collecte via ces publicités, selon sa propre politique consultable sur <a href="https://policies.google.com/technologies/partner-sites" rel="noopener">policies.google.com/technologies/partner-sites</a>.</p>
+        <p>Pour choisir et mesurer une publicité, Google peut recevoir l'identifiant publicitaire de votre appareil, des informations générales sur l'appareil et l'application, une localisation approximative déduite de votre adresse IP, et le fait que vous ayez vu ou touché la publicité. Nous ne recevons rien de tout cela vous concernant individuellement : nos rapports sont des chiffres agrégés de revenus et d'impressions.</p>
+        <p>Les publicités de cette application se présentent sous forme de bannières et d'interstitiels plein écran entre deux activités.</p>
+        <p>Cette version demande des publicités non personnalisées. Une publicité non personnalisée est elle aussi mesurée : des informations limitées parviennent donc toujours à Google, mais elle n'est pas choisie à partir d'un profil de vos centres d'intérêt.</p>
+        <p>Dans l'EEE, au Royaume-Uni et en Suisse, l'application affiche le formulaire de consentement de Google avant de demander une publicité personnalisée. Votre réponse est enregistrée sur votre appareil et reste accessible à tout moment depuis les réglages de l'application, à l'entrée publicité ou options de confidentialité, pour changer d'avis.</p>
+        <p>Vous pouvez réinitialiser ou supprimer l'identifiant publicitaire à tout moment : sur Android dans Paramètres › Confidentialité › Annonces, et sur iOS en désactivant <em>Autoriser les apps à suivre votre activité</em>, ce qui le rend également indisponible pour toutes les applications.</p>
+        <p>L'application n'affiche pas la demande App Tracking Transparency d'Apple et ne vous suit pas à travers les applications ou les sites web d'autres entreprises.</p>
+        <h3 id="fr-xiezi-telemetry">Statistiques d'usage et rapports de plantage</h3>
+        <p>Cette version de l'application ne contient aucun SDK de statistiques ni de remontée de plantages. Nous n'en recevons aucune statistique d'usage, aucun rapport de plantage et aucune donnée de diagnostic.</p>
+        <h3 id="fr-xiezi-purchases">Abonnements et achats</h3>
+        <p>Cette version de l'application propose un abonnement à renouvellement automatique. L'achat est intégralement géré par l'App Store ou Google Play.</p>
+        <p>Nous ne voyons jamais votre numéro de carte, votre adresse de facturation ni aucune autre donnée de paiement. La boutique indique seulement à l'application s'il existe un droit valide ; cette réponse est mise en cache sur votre appareil pour que l'application fonctionne hors ligne.</p>
+        <h2 id="fr-momerame">Momera.ME</h2>
+        <p>Momera.ME saisit un instant à mesure qu'il se produit — une photo, un mémo vocal, une note, où vous étiez, la distance parcourue — et le garde d'un seul tenant dans une même entrée. Tout ce qu'elle saisit est écrit sur votre propre appareil. Elle fonctionne sur Android.</p>
+        <h3 id="fr-momerame-stores">Ce que l'application conserve sur votre appareil</h3>
+        <p>L'application écrit ce qui suit dans le stockage privé de votre appareil, une zone que les autres applications ne peuvent pas lire. Cela y reste jusqu'à ce que vous le supprimiez ou désinstalliez l'application.</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>Quoi</th>
+              <th>Pourquoi</th>
+              <th>Où c'est conservé</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>Photos et vidéos</td>
+                <td>Celles que vous prenez dans l'application ou joignez à une entrée.</td>
+                <td>Uniquement sur votre appareil</td>
+              </tr>
+              <tr>
+                <td>Mémos vocaux</td>
+                <td>L'audio enregistré à propos d'un lieu ou d'une entrée.</td>
+                <td>Uniquement sur votre appareil</td>
+              </tr>
+              <tr>
+                <td>Transcriptions</td>
+                <td>Texte produit à partir de votre audio sur l'appareil.</td>
+                <td>Uniquement sur votre appareil</td>
+              </tr>
+              <tr>
+                <td>Notes écrites</td>
+                <td>Ce que vous avez saisi.</td>
+                <td>Uniquement sur votre appareil</td>
+              </tr>
+              <tr>
+                <td>Itinéraires enregistrés</td>
+                <td>La trace GPS d'une sortie que vous avez lancée.</td>
+                <td>Uniquement sur votre appareil</td>
+              </tr>
+              <tr>
+                <td>Nombre de pas</td>
+                <td>Pas comptés par le capteur de l'appareil pendant un enregistrement.</td>
+                <td>Uniquement sur votre appareil</td>
+              </tr>
+              <tr>
+                <td>Le modèle vocal</td>
+                <td>Le fichier de modèle téléchargé qui rend la transcription hors ligne possible.</td>
+                <td>Uniquement sur votre appareil</td>
+              </tr>
+              <tr>
+                <td>Tuiles de carte en cache</td>
+                <td>Carrés de carte déjà téléchargés, conservés pour que la zone fonctionne hors ligne.</td>
+                <td>Uniquement sur votre appareil</td>
+              </tr>
+              <tr>
+                <td>Réglages</td>
+                <td>Préférences de langue, de thème, de son et d'affichage.</td>
+                <td>Uniquement sur votre appareil</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>Rien de tout cela ne nous est transmis. Nous ne pouvons pas le lire, nous ne pouvons pas le récupérer pour vous et nous ne pourrions le remettre à personne, puisque cela ne nous parvient jamais.</p>
+        <p>La parole est transcrite sur votre appareil par un modèle intégré à l'application. Vos enregistrements ne sont pas téléversés, ne sont envoyés à aucun service de transcription en ligne et ne servent à entraîner quoi que ce soit.</p>
+        <p>Le comptage des pas lit le capteur de pas de l'appareil via l'autorisation de reconnaissance d'activité. Le compte est enregistré avec la randonnée sur votre appareil. Aucune plateforme de santé ou de forme n'est lue ni alimentée — ni Apple Santé, ni Google Fit.</p>
+        <p>L'enregistrement d'écran, lorsque vous le lancez, ne capture que l'écran de cette application pendant son exécution, et le fichier est écrit sur votre appareil. Il n'est jamais lancé en arrière-plan ni sans vous.</p>
+        <p>Cette application désactive la sauvegarde automatique d'Android : son contenu n'est donc pas copié sur votre Google Drive et n'est pas repris lors d'un transfert d'appareil à appareil.</p>
+        <h3 id="fr-momerame-leaves">Ce qui quitte votre appareil</h3>
+        <p>Voici la liste complète. Tout ce qui n'y figure pas reste sur votre appareil.</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>Ce qui est envoyé</th>
+              <th>Qui le reçoit</th>
+              <th>Finalité</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>Requêtes de tuiles de carte</td>
+                <td>OpenStreetMap Foundation</td>
+                <td>Pour dessiner la carte. Transmet votre adresse IP et le carré de carte demandé.</td>
+              </tr>
+              <tr>
+                <td>Un téléchargement de modèle unique</td>
+                <td>GitHub, ou Hugging Face en secours</td>
+                <td>Pour récupérer le modèle vocal hors ligne. Rien vous concernant n'est envoyé.</td>
+              </tr>
+              <tr>
+                <td>Rien d'automatique</td>
+                <td>Les sites que vous ouvrez</td>
+                <td>Ouvrir un lien dans l'application le confie à votre navigateur, qui se comporte alors comme votre navigateur.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>La carte est dessinée à partir de tuiles récupérées au fil de vos déplacements et de vos zooms. La requête indique au serveur de tuiles votre adresse IP et quel carré de la carte vous regardez, ce qui est inhérent à toute carte en ligne. Votre trace enregistrée n'est jamais envoyée avec elle. Les tuiles sont mises en cache sur votre appareil : une zone déjà consultée reste donc utilisable hors ligne.</p>
+        <p>La première fois que vous utilisez la transcription hors ligne, l'application télécharge le modèle de reconnaissance vocale — environ 228 Mo — depuis notre page de versions sur GitHub, avec Hugging Face en solution de repli si elle est indisponible. C'est le téléchargement à sens unique d'un fichier : rien vous concernant, et aucun de vos enregistrements, n'est envoyé dans la requête. Une fois le modèle sur votre appareil, la transcription s'exécute entièrement sur celui-ci et fonctionne sans aucune connexion.</p>
+        <p>Indépendamment du tableau ci-dessus, tout ce que vous envoyez délibérément — via le menu de partage du système, un export, une impression ou le presse-papiers — va là où vous l'envoyez. C'est votre choix à chaque fois, et cela sort du cadre du tableau.</p>
+        <h3 id="fr-momerame-notdo">Ce que l'application ne fait pas</h3>
+        <p>Tant que la présente politique est celle en vigueur :</p>
+        <ul>
+          <li>Il n'y a ni compte, ni inscription, ni adresse e-mail, ni mot de passe.</li>
+          <li>Nous n'exploitons aucun serveur qui reçoive votre contenu et ne détenons aucune base de données où vous figureriez.</li>
+          <li>Nous ne vendons pas vos informations personnelles et ne les partageons pas à des fins de publicité comportementale inter-contextes.</li>
+          <li>L'application ne vous suit pas à travers les applications ou sites d'autres entreprises et n'affiche pas la demande App Tracking Transparency.</li>
+          <li>Rien n'est synchronisé vers un compte en ligne qui serait le nôtre. Il n'existe de notre côté aucune sauvegarde à restaurer.</li>
+          <li>Cette version ne contient aucun SDK publicitaire et n'affiche aucune publicité.</li>
+          <li>Cette version ne contient aucun SDK de statistiques ni de remontée de plantages.</li>
+          <li>L'application ne lit ni vos contacts, ni votre agenda, ni vos messages, ni votre journal d'appels, ni de fichiers hors de son propre stockage.</li>
+          <li>L'application ne lit ni n'alimente aucune plateforme de santé ou de forme — ni Apple Santé, ni Google Fit.</li>
+        </ul>
+        <h3 id="fr-momerame-perms">Les autorisations, et la raison de chacune</h3>
+        <p>Chaque autorisation ci-dessous est demandée pour la seule finalité indiquée et n'est utilisée pour rien d'autre. Sur les deux plateformes, vous pouvez refuser ou retirer n'importe laquelle dans les réglages du système ; les fonctions qui en dépendent cessent de fonctionner et le reste de l'application continue.</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>Autorisation</th>
+              <th>Plateforme</th>
+              <th>Finalité</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>Accès à internet</td>
+                <td>Android</td>
+                <td>Nécessaire aux requêtes réseau énumérées ci-dessus.</td>
+              </tr>
+              <tr>
+                <td>Micro</td>
+                <td>Android</td>
+                <td>Pour enregistrer quand vous lancez un enregistrement.</td>
+              </tr>
+              <tr>
+                <td>Appareil photo</td>
+                <td>Android</td>
+                <td>Pour prendre une photo ou une vidéo dans l'application.</td>
+              </tr>
+              <tr>
+                <td>Position précise</td>
+                <td>Android</td>
+                <td>Pour enregistrer votre itinéraire avec précision pendant l'enregistrement.</td>
+              </tr>
+              <tr>
+                <td>Position approximative</td>
+                <td>Android</td>
+                <td>Le repli accordé par le système si vous n'autorisez que la position approximative.</td>
+              </tr>
+              <tr>
+                <td>Position en arrière-plan</td>
+                <td>Android</td>
+                <td>Pour qu'un enregistrement lancé par vous ne s'interrompe pas quand vous quittez l'application. Inutilisée lorsque aucun enregistrement n'est en cours.</td>
+              </tr>
+              <tr>
+                <td>Activité physique</td>
+                <td>Android</td>
+                <td>Pour lire le podomètre de l'appareil pendant un enregistrement.</td>
+              </tr>
+              <tr>
+                <td>Service de premier plan</td>
+                <td>Android</td>
+                <td>Pour maintenir en cours une tâche que vous avez lancée, avec une notification persistante visible.</td>
+              </tr>
+              <tr>
+                <td>Service de premier plan — position</td>
+                <td>Android</td>
+                <td>Pour qu'un itinéraire que vous enregistrez reste continu écran éteint.</td>
+              </tr>
+              <tr>
+                <td>Service de premier plan — micro</td>
+                <td>Android</td>
+                <td>Pour qu'un enregistrement que vous avez lancé se poursuive écran éteint.</td>
+              </tr>
+              <tr>
+                <td>Service de premier plan — capture d'écran</td>
+                <td>Android</td>
+                <td>Uniquement pendant un enregistrement d'écran que vous avez lancé.</td>
+              </tr>
+              <tr>
+                <td>Notifications</td>
+                <td>Android</td>
+                <td>Pour afficher la notification persistante pendant un enregistrement et vous prévenir à la fin.</td>
+              </tr>
+              <tr>
+                <td>Stockage (anciennes versions d'Android)</td>
+                <td>Android</td>
+                <td>Enregistrement de fichiers sur Android 9 et antérieurs. Non demandée sur les versions plus récentes.</td>
+              </tr>
+              <tr>
+                <td>App Tracking Transparency</td>
+                <td>iOS</td>
+                <td>Non demandée. L'application ne vous suit pas à travers les applications ou sites d'autres entreprises.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>La localisation en arrière-plan ne sert que pendant un enregistrement que vous avez lancé, et uniquement pour que ce tracé reste continu écran éteint. Une notification persistante est visible pendant toute la durée. Elle n'est jamais utilisée pour reconstituer vos déplacements lorsque vous n'avez lancé aucun enregistrement.</p>
+        <h3 id="fr-momerame-telemetry">Statistiques d'usage et rapports de plantage</h3>
+        <p>Cette version de l'application ne contient aucun SDK de statistiques ni de remontée de plantages. Nous n'en recevons aucune statistique d'usage, aucun rapport de plantage et aucune donnée de diagnostic.</p>
+        <h3 id="fr-momerame-purchases">Abonnements et achats</h3>
+        <p>Cette version de l'application ne comporte ni achat intégré ni abonnement : elle ne collecte donc aucune information de paiement.</p>
+        <h2 id="fr-momerago">Momera GO</h2>
+        <p>Momera GO enregistre une randonnée au fil de vos pas — l'itinéraire, les photos et vidéos épinglées là où vous les avez prises, les mémos vocaux et les notes — et en fait un voyage que vous pouvez rejouer. Elle fonctionne sur iPhone, iPad et Android, et est conçue pour les endroits sans réseau.</p>
+        <h3 id="fr-momerago-stores">Ce que l'application conserve sur votre appareil</h3>
+        <p>L'application écrit ce qui suit dans le stockage privé de votre appareil, une zone que les autres applications ne peuvent pas lire. Cela y reste jusqu'à ce que vous le supprimiez ou désinstalliez l'application.</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>Quoi</th>
+              <th>Pourquoi</th>
+              <th>Où c'est conservé</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>Itinéraires enregistrés</td>
+                <td>La trace GPS d'une sortie que vous avez lancée.</td>
+                <td>Uniquement sur votre appareil</td>
+              </tr>
+              <tr>
+                <td>Photos et vidéos</td>
+                <td>Celles que vous prenez dans l'application ou joignez à une entrée.</td>
+                <td>Uniquement sur votre appareil</td>
+              </tr>
+              <tr>
+                <td>Mémos vocaux</td>
+                <td>L'audio enregistré à propos d'un lieu ou d'une entrée.</td>
+                <td>Uniquement sur votre appareil</td>
+              </tr>
+              <tr>
+                <td>Notes écrites</td>
+                <td>Ce que vous avez saisi.</td>
+                <td>Uniquement sur votre appareil</td>
+              </tr>
+              <tr>
+                <td>Voyages</td>
+                <td>Les parcours que vous avez composés à partir d'itinéraires, de photos et de notes.</td>
+                <td>Uniquement sur votre appareil</td>
+              </tr>
+              <tr>
+                <td>Sentiers et chronologies importés</td>
+                <td>Fichiers GPX et exports Google Timeline que vous avez importés vous-même.</td>
+                <td>Uniquement sur votre appareil</td>
+              </tr>
+              <tr>
+                <td>Nombre de pas</td>
+                <td>Pas comptés par le capteur de l'appareil pendant un enregistrement.</td>
+                <td>Uniquement sur votre appareil</td>
+              </tr>
+              <tr>
+                <td>Tuiles de carte en cache</td>
+                <td>Carrés de carte déjà téléchargés, conservés pour que la zone fonctionne hors ligne.</td>
+                <td>Uniquement sur votre appareil</td>
+              </tr>
+              <tr>
+                <td>Réglages</td>
+                <td>Préférences de langue, de thème, de son et d'affichage.</td>
+                <td>Uniquement sur votre appareil</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>Rien de tout cela ne nous est transmis. Nous ne pouvons pas le lire, nous ne pouvons pas le récupérer pour vous et nous ne pourrions le remettre à personne, puisque cela ne nous parvient jamais.</p>
+        <p>Vous pouvez importer un export de votre chronologie Google Maps pour reconstituer d'anciens trajets. C'est vous qui fournissez le fichier ; l'application le lit sur votre appareil, et ni le fichier ni rien qui en dérive n'est téléversé. Supprimez les trajets importés dans l'application et ils disparaissent.</p>
+        <p>La création d'un voyage à partir de photos passe par le sélecteur de photos du système. Le sélecteur ne remet à l'application que les éléments que vous choisissez : l'application n'obtient pas l'accès à votre photothèque et, sur iOS, aucune autorisation de photothèque n'est demandée. La position lue dans les métadonnées de la photo sert à la placer sur la carte et reste avec le voyage sur votre appareil.</p>
+        <p>Le comptage des pas lit le capteur de pas de l'appareil via l'autorisation de reconnaissance d'activité. Le compte est enregistré avec la randonnée sur votre appareil. Aucune plateforme de santé ou de forme n'est lue ni alimentée — ni Apple Santé, ni Google Fit.</p>
+        <p>L'application peut ouvrir un fichier .gpx qu'une autre application lui transmet et exporter votre itinéraire en .gpx ou GeoJSON. L'import lit le fichier sur votre appareil ; l'export crée un fichier dont vous décidez ensuite du sort.</p>
+        <h3 id="fr-momerago-leaves">Ce qui quitte votre appareil</h3>
+        <p>Voici la liste complète. Tout ce qui n'y figure pas reste sur votre appareil.</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>Ce qui est envoyé</th>
+              <th>Qui le reçoit</th>
+              <th>Finalité</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>Requêtes de tuiles de carte</td>
+                <td>OpenStreetMap Foundation</td>
+                <td>Pour dessiner la carte. Transmet votre adresse IP et le carré de carte demandé.</td>
+              </tr>
+              <tr>
+                <td>Requêtes de tuiles topographiques</td>
+                <td>OpenTopoMap</td>
+                <td>Pour dessiner la carte du relief. Transmet votre adresse IP et le carré de carte demandé.</td>
+              </tr>
+              <tr>
+                <td>Événements d'usage anonymes (version Android uniquement)</td>
+                <td>Google Firebase Analytics</td>
+                <td>Compteurs de diagnostic, sans identifiant d'utilisateur ni position.</td>
+              </tr>
+              <tr>
+                <td>Rapports de plantage (version Android uniquement)</td>
+                <td>Google Firebase Crashlytics</td>
+                <td>L'erreur, la pile d'appels, le modèle de l'appareil et la version de l'application lors d'un échec.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>La carte est dessinée à partir de tuiles récupérées au fil de vos déplacements et de vos zooms. La requête indique au serveur de tuiles votre adresse IP et quel carré de la carte vous regardez, ce qui est inhérent à toute carte en ligne. Votre trace enregistrée n'est jamais envoyée avec elle. Les tuiles sont mises en cache sur votre appareil : une zone déjà consultée reste donc utilisable hors ligne.</p>
+        <p>Indépendamment du tableau ci-dessus, tout ce que vous envoyez délibérément — via le menu de partage du système, un export, une impression ou le presse-papiers — va là où vous l'envoyez. C'est votre choix à chaque fois, et cela sort du cadre du tableau.</p>
+        <h3 id="fr-momerago-notdo">Ce que l'application ne fait pas</h3>
+        <p>Tant que la présente politique est celle en vigueur :</p>
+        <ul>
+          <li>Il n'y a ni compte, ni inscription, ni adresse e-mail, ni mot de passe.</li>
+          <li>Nous n'exploitons aucun serveur qui reçoive votre contenu et ne détenons aucune base de données où vous figureriez.</li>
+          <li>Nous ne vendons pas vos informations personnelles et ne les partageons pas à des fins de publicité comportementale inter-contextes.</li>
+          <li>L'application ne vous suit pas à travers les applications ou sites d'autres entreprises et n'affiche pas la demande App Tracking Transparency.</li>
+          <li>Rien n'est synchronisé vers un compte en ligne qui serait le nôtre. Il n'existe de notre côté aucune sauvegarde à restaurer.</li>
+          <li>Cette version ne contient aucun SDK publicitaire et n'affiche aucune publicité.</li>
+          <li>L'application ne lit ni vos contacts, ni votre agenda, ni vos messages, ni votre journal d'appels, ni de fichiers hors de son propre stockage.</li>
+          <li>L'application ne lit ni n'alimente aucune plateforme de santé ou de forme — ni Apple Santé, ni Google Fit.</li>
+        </ul>
+        <h3 id="fr-momerago-perms">Les autorisations, et la raison de chacune</h3>
+        <p>Chaque autorisation ci-dessous est demandée pour la seule finalité indiquée et n'est utilisée pour rien d'autre. Sur les deux plateformes, vous pouvez refuser ou retirer n'importe laquelle dans les réglages du système ; les fonctions qui en dépendent cessent de fonctionner et le reste de l'application continue.</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>Autorisation</th>
+              <th>Plateforme</th>
+              <th>Finalité</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>Accès à internet</td>
+                <td>Android</td>
+                <td>Nécessaire aux requêtes réseau énumérées ci-dessus.</td>
+              </tr>
+              <tr>
+                <td>Position précise</td>
+                <td>Android</td>
+                <td>Pour enregistrer votre itinéraire avec précision pendant l'enregistrement.</td>
+              </tr>
+              <tr>
+                <td>Position approximative</td>
+                <td>Android</td>
+                <td>Le repli accordé par le système si vous n'autorisez que la position approximative.</td>
+              </tr>
+              <tr>
+                <td>Appareil photo</td>
+                <td>Android</td>
+                <td>Pour prendre une photo ou une vidéo dans l'application.</td>
+              </tr>
+              <tr>
+                <td>Micro</td>
+                <td>Android</td>
+                <td>Pour enregistrer quand vous lancez un enregistrement.</td>
+              </tr>
+              <tr>
+                <td>Position dans les photos</td>
+                <td>Android</td>
+                <td>Pour lire dans les métadonnées de la photo le lieu de la prise de vue et pouvoir la placer sur la carte.</td>
+              </tr>
+              <tr>
+                <td>Activité physique</td>
+                <td>Android</td>
+                <td>Pour lire le podomètre de l'appareil pendant un enregistrement.</td>
+              </tr>
+              <tr>
+                <td>Service de premier plan</td>
+                <td>Android</td>
+                <td>Pour maintenir en cours une tâche que vous avez lancée, avec une notification persistante visible.</td>
+              </tr>
+              <tr>
+                <td>Service de premier plan — position</td>
+                <td>Android</td>
+                <td>Pour qu'un itinéraire que vous enregistrez reste continu écran éteint.</td>
+              </tr>
+              <tr>
+                <td>Service de premier plan — capture d'écran</td>
+                <td>Android</td>
+                <td>Uniquement pendant un enregistrement d'écran que vous avez lancé.</td>
+              </tr>
+              <tr>
+                <td>Notifications</td>
+                <td>Android</td>
+                <td>Pour afficher la notification persistante pendant un enregistrement et vous prévenir à la fin.</td>
+              </tr>
+              <tr>
+                <td>Stockage (anciennes versions d'Android)</td>
+                <td>Android</td>
+                <td>Enregistrement de fichiers sur Android 9 et antérieurs. Non demandée sur les versions plus récentes.</td>
+              </tr>
+              <tr>
+                <td>Position — lors de l'utilisation</td>
+                <td>iOS</td>
+                <td>Pour enregistrer votre itinéraire pendant un enregistrement. La position permanente n'est pas demandée.</td>
+              </tr>
+              <tr>
+                <td>Appareil photo</td>
+                <td>iOS</td>
+                <td>Pour capturer dans l'application.</td>
+              </tr>
+              <tr>
+                <td>Micro</td>
+                <td>iOS</td>
+                <td>Pour enregistrer quand vous lancez un enregistrement.</td>
+              </tr>
+              <tr>
+                <td>Mode position en arrière-plan</td>
+                <td>iOS</td>
+                <td>Pour qu'un enregistrement lancé par vous survive au verrouillage de l'écran. Inactif quand rien n'est enregistré.</td>
+              </tr>
+              <tr>
+                <td>Position en arrière-plan</td>
+                <td>Android et iOS</td>
+                <td>Non demandée sur aucune des deux plateformes.</td>
+              </tr>
+              <tr>
+                <td>Photothèque</td>
+                <td>iOS</td>
+                <td>Non demandée. Le sélecteur de photos du système ne remet que les éléments que vous choisissez.</td>
+              </tr>
+              <tr>
+                <td>App Tracking Transparency</td>
+                <td>iOS</td>
+                <td>Non demandée. L'application ne vous suit pas à travers les applications ou sites d'autres entreprises.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>La position est enregistrée pendant qu'une randonnée est en cours, avec une notification persistante visible, et s'arrête lorsque vous arrêtez la randonnée. L'application ne demande l'autorisation de localisation en arrière-plan sur aucune des deux plateformes.</p>
+        <h3 id="fr-momerago-telemetry">Statistiques d'usage et rapports de plantage</h3>
+        <p>L'application utilise <strong>Google Firebase</strong> pour deux choses : Crashlytics, qui remonte les plantages, et Analytics, qui compte l'utilisation des fonctions. Google traite les deux pour notre compte.</p>
+        <p>Un rapport de plantage contient l'état du programme au moment de l'échec : l'erreur, la pile d'appels, le modèle de l'appareil, la version du système et celle de l'application. Il est produit automatiquement par l'échec lui-même et nous indique quelle ligne de notre code corriger.</p>
+        <p>Les événements de statistiques sont des compteurs de diagnostic portant sur la fiabilité de l'enregistrement de position : qu'un tracé a démarré, s'est arrêté ou a été récupéré, ou que le flux de position s'est figé puis rouvert. <strong>Aucune coordonnée, aucun itinéraire et aucun nom de lieu n'y figure.</strong></p>
+        <div class="pp-note">
+        <p><strong>Cela ne vaut que pour la version Android.</strong> La version iOS est compilée sans configuration Firebase : elle n'initialise aucun service Firebase et n'envoie ni rapport de plantage ni événement de statistiques.</p>
+        </div>
+        <h3 id="fr-momerago-purchases">Abonnements et achats</h3>
+        <p>Cette version de l'application ne comporte ni achat intégré ni abonnement : elle ne collecte donc aucune information de paiement.</p>
+        <h2 id="fr-mcrecorder">McRecorder</h2>
+        <p>McRecorder enregistre du son et le transcrit en texte au moyen d'un modèle vocal qui s'exécute sur votre propre appareil. Les enregistrements et les transcriptions sont des fichiers dans le stockage privé de l'application. Elle fonctionne sur iPhone, iPad et Android.</p>
+        <h3 id="fr-mcrecorder-stores">Ce que l'application conserve sur votre appareil</h3>
+        <p>L'application écrit ce qui suit dans le stockage privé de votre appareil, une zone que les autres applications ne peuvent pas lire. Cela y reste jusqu'à ce que vous le supprimiez ou désinstalliez l'application.</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>Quoi</th>
+              <th>Pourquoi</th>
+              <th>Où c'est conservé</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>Enregistrements audio</td>
+                <td>Les enregistrements que vous avez faits, sous forme de fichiers.</td>
+                <td>Uniquement sur votre appareil</td>
+              </tr>
+              <tr>
+                <td>Transcriptions</td>
+                <td>Texte produit à partir de votre audio sur l'appareil.</td>
+                <td>Uniquement sur votre appareil</td>
+              </tr>
+              <tr>
+                <td>Le modèle vocal</td>
+                <td>Le fichier de modèle téléchargé qui rend la transcription hors ligne possible.</td>
+                <td>Uniquement sur votre appareil</td>
+              </tr>
+              <tr>
+                <td>Réglages</td>
+                <td>Préférences de langue, de thème, de son et d'affichage.</td>
+                <td>Uniquement sur votre appareil</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>Rien de tout cela ne nous est transmis. Nous ne pouvons pas le lire, nous ne pouvons pas le récupérer pour vous et nous ne pourrions le remettre à personne, puisque cela ne nous parvient jamais.</p>
+        <p>La parole est transcrite sur votre appareil par un modèle intégré à l'application. Vos enregistrements ne sont pas téléversés, ne sont envoyés à aucun service de transcription en ligne et ne servent à entraîner quoi que ce soit.</p>
+        <h3 id="fr-mcrecorder-leaves">Ce qui quitte votre appareil</h3>
+        <p>Voici la liste complète. Tout ce qui n'y figure pas reste sur votre appareil.</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>Ce qui est envoyé</th>
+              <th>Qui le reçoit</th>
+              <th>Finalité</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>Un téléchargement de modèle unique</td>
+                <td>GitHub, ou Hugging Face en secours</td>
+                <td>Pour récupérer le modèle vocal hors ligne. Rien vous concernant n'est envoyé.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>La première fois que vous utilisez la transcription hors ligne, l'application télécharge le modèle de reconnaissance vocale — environ 228 Mo — depuis notre page de versions sur GitHub, avec Hugging Face en solution de repli si elle est indisponible. C'est le téléchargement à sens unique d'un fichier : rien vous concernant, et aucun de vos enregistrements, n'est envoyé dans la requête. Une fois le modèle sur votre appareil, la transcription s'exécute entièrement sur celui-ci et fonctionne sans aucune connexion.</p>
+        <p>Indépendamment du tableau ci-dessus, tout ce que vous envoyez délibérément — via le menu de partage du système, un export, une impression ou le presse-papiers — va là où vous l'envoyez. C'est votre choix à chaque fois, et cela sort du cadre du tableau.</p>
+        <h3 id="fr-mcrecorder-notdo">Ce que l'application ne fait pas</h3>
+        <p>Tant que la présente politique est celle en vigueur :</p>
+        <ul>
+          <li>Il n'y a ni compte, ni inscription, ni adresse e-mail, ni mot de passe.</li>
+          <li>Nous n'exploitons aucun serveur qui reçoive votre contenu et ne détenons aucune base de données où vous figureriez.</li>
+          <li>Nous ne vendons pas vos informations personnelles et ne les partageons pas à des fins de publicité comportementale inter-contextes.</li>
+          <li>L'application ne vous suit pas à travers les applications ou sites d'autres entreprises et n'affiche pas la demande App Tracking Transparency.</li>
+          <li>Rien n'est synchronisé vers un compte en ligne qui serait le nôtre. Il n'existe de notre côté aucune sauvegarde à restaurer.</li>
+          <li>Cette version ne contient aucun SDK publicitaire et n'affiche aucune publicité.</li>
+          <li>Cette version ne contient aucun SDK de statistiques ni de remontée de plantages.</li>
+          <li>L'application ne demande ni ne lit votre position.</li>
+          <li>L'application ne lit ni vos contacts, ni votre agenda, ni vos messages, ni votre journal d'appels, ni de fichiers hors de son propre stockage.</li>
+        </ul>
+        <h3 id="fr-mcrecorder-perms">Les autorisations, et la raison de chacune</h3>
+        <p>Chaque autorisation ci-dessous est demandée pour la seule finalité indiquée et n'est utilisée pour rien d'autre. Sur les deux plateformes, vous pouvez refuser ou retirer n'importe laquelle dans les réglages du système ; les fonctions qui en dépendent cessent de fonctionner et le reste de l'application continue.</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>Autorisation</th>
+              <th>Plateforme</th>
+              <th>Finalité</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>Accès à internet</td>
+                <td>Android</td>
+                <td>Nécessaire aux requêtes réseau énumérées ci-dessus.</td>
+              </tr>
+              <tr>
+                <td>Micro</td>
+                <td>Android</td>
+                <td>Pour enregistrer quand vous lancez un enregistrement.</td>
+              </tr>
+              <tr>
+                <td>Service de premier plan</td>
+                <td>Android</td>
+                <td>Pour maintenir en cours une tâche que vous avez lancée, avec une notification persistante visible.</td>
+              </tr>
+              <tr>
+                <td>Service de premier plan — micro</td>
+                <td>Android</td>
+                <td>Pour qu'un enregistrement que vous avez lancé se poursuive écran éteint.</td>
+              </tr>
+              <tr>
+                <td>Maintien en éveil</td>
+                <td>Android</td>
+                <td>Pour éviter que le processeur ne se mette en veille au milieu d'un enregistrement.</td>
+              </tr>
+              <tr>
+                <td>Notifications</td>
+                <td>Android</td>
+                <td>Pour afficher la notification persistante pendant un enregistrement et vous prévenir à la fin.</td>
+              </tr>
+              <tr>
+                <td>Micro</td>
+                <td>iOS</td>
+                <td>Pour enregistrer quand vous lancez un enregistrement.</td>
+              </tr>
+              <tr>
+                <td>App Tracking Transparency</td>
+                <td>iOS</td>
+                <td>Non demandée. L'application ne vous suit pas à travers les applications ou sites d'autres entreprises.</td>
+              </tr>
+              <tr>
+                <td>Position</td>
+                <td>Android et iOS</td>
+                <td>Non demandée.</td>
+              </tr>
+              <tr>
+                <td>Appareil photo</td>
+                <td>Android et iOS</td>
+                <td>Non demandée.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <h3 id="fr-mcrecorder-telemetry">Statistiques d'usage et rapports de plantage</h3>
+        <p>Cette version de l'application ne contient aucun SDK de statistiques ni de remontée de plantages. Nous n'en recevons aucune statistique d'usage, aucun rapport de plantage et aucune donnée de diagnostic.</p>
+        <h3 id="fr-mcrecorder-purchases">Abonnements et achats</h3>
+        <p>Cette version de l'application ne comporte ni achat intégré ni abonnement : elle ne collecte donc aucune information de paiement.</p>
+        <h2 id="fr-quickonescanner">QuickOne Scanner</h2>
+        <p>QuickOne Scanner transforme des pages photographiées avec votre téléphone en PDF recadrés et redressés, et en lit le texte pour que vous puissiez le chercher et le copier. La numérisation comme la reconnaissance de texte s'exécutent sur votre appareil. Elle fonctionne sur iPhone, iPad et Android.</p>
+        <h3 id="fr-quickonescanner-stores">Ce que l'application conserve sur votre appareil</h3>
+        <p>L'application écrit ce qui suit dans le stockage privé de votre appareil, une zone que les autres applications ne peuvent pas lire. Cela y reste jusqu'à ce que vous le supprimiez ou désinstalliez l'application.</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>Quoi</th>
+              <th>Pourquoi</th>
+              <th>Où c'est conservé</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>Pages numérisées</td>
+                <td>Les images de page que vous avez capturées ou importées.</td>
+                <td>Uniquement sur votre appareil</td>
+              </tr>
+              <tr>
+                <td>Texte reconnu</td>
+                <td>Texte lu sur vos pages, sur l'appareil.</td>
+                <td>Uniquement sur votre appareil</td>
+              </tr>
+              <tr>
+                <td>Réglages</td>
+                <td>Préférences de langue, de thème, de son et d'affichage.</td>
+                <td>Uniquement sur votre appareil</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>Rien de tout cela ne nous est transmis. Nous ne pouvons pas le lire, nous ne pouvons pas le récupérer pour vous et nous ne pourrions le remettre à personne, puisque cela ne nous parvient jamais.</p>
+        <h3 id="fr-quickonescanner-leaves">Ce qui quitte votre appareil</h3>
+        <p>Voici la liste complète. Tout ce qui n'y figure pas reste sur votre appareil.</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>Ce qui est envoyé</th>
+              <th>Qui le reçoit</th>
+              <th>Finalité</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>Téléchargement du modèle et diagnostics de Google</td>
+                <td>Services Google Play (ML Kit)</td>
+                <td>Pour récupérer le modèle du scanner de documents. Vos pages ne sont pas envoyées.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>La détection de document et la reconnaissance de texte passent par Google ML Kit. Sur Android, le scanner de documents s'exécute à l'intérieur des services Google Play, qui téléchargent leur modèle à la première utilisation ; la reconnaissance de texte utilise un modèle intégré à l'application. Les pages et le texte reconnu sont traités sur l'appareil et ne sont téléversés comme contenu ni vers nous ni vers Google.</p>
+        <p>Indépendamment du tableau ci-dessus, tout ce que vous envoyez délibérément — via le menu de partage du système, un export, une impression ou le presse-papiers — va là où vous l'envoyez. C'est votre choix à chaque fois, et cela sort du cadre du tableau.</p>
+        <h3 id="fr-quickonescanner-notdo">Ce que l'application ne fait pas</h3>
+        <p>Tant que la présente politique est celle en vigueur :</p>
+        <ul>
+          <li>Il n'y a ni compte, ni inscription, ni adresse e-mail, ni mot de passe.</li>
+          <li>Nous n'exploitons aucun serveur qui reçoive votre contenu et ne détenons aucune base de données où vous figureriez.</li>
+          <li>Nous ne vendons pas vos informations personnelles et ne les partageons pas à des fins de publicité comportementale inter-contextes.</li>
+          <li>L'application ne vous suit pas à travers les applications ou sites d'autres entreprises et n'affiche pas la demande App Tracking Transparency.</li>
+          <li>Rien n'est synchronisé vers un compte en ligne qui serait le nôtre. Il n'existe de notre côté aucune sauvegarde à restaurer.</li>
+          <li>Cette version ne contient aucun SDK publicitaire et n'affiche aucune publicité.</li>
+          <li>Cette version ne contient aucun SDK de statistiques ni de remontée de plantages.</li>
+          <li>L'application ne demande ni ne lit votre position.</li>
+          <li>L'application ne lit ni vos contacts, ni votre agenda, ni vos messages, ni votre journal d'appels, ni de fichiers hors de son propre stockage.</li>
+        </ul>
+        <h3 id="fr-quickonescanner-perms">Les autorisations, et la raison de chacune</h3>
+        <p>Chaque autorisation ci-dessous est demandée pour la seule finalité indiquée et n'est utilisée pour rien d'autre. Sur les deux plateformes, vous pouvez refuser ou retirer n'importe laquelle dans les réglages du système ; les fonctions qui en dépendent cessent de fonctionner et le reste de l'application continue.</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>Autorisation</th>
+              <th>Plateforme</th>
+              <th>Finalité</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>Accès à internet</td>
+                <td>Android</td>
+                <td>Nécessaire aux requêtes réseau énumérées ci-dessus.</td>
+              </tr>
+              <tr>
+                <td>Appareil photo</td>
+                <td>iOS</td>
+                <td>Pour capturer dans l'application.</td>
+              </tr>
+              <tr>
+                <td>Photothèque</td>
+                <td>iOS</td>
+                <td>Pour importer une image que vous possédez déjà.</td>
+              </tr>
+              <tr>
+                <td>App Tracking Transparency</td>
+                <td>iOS</td>
+                <td>Non demandée. L'application ne vous suit pas à travers les applications ou sites d'autres entreprises.</td>
+              </tr>
+              <tr>
+                <td>Position</td>
+                <td>Android et iOS</td>
+                <td>Non demandée.</td>
+              </tr>
+              <tr>
+                <td>Micro</td>
+                <td>Android et iOS</td>
+                <td>Non demandée.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>Sur iOS, l'application utilise l'appareil photo pour capturer des pages et la photothèque pour vous permettre d'importer une image que vous possédez déjà. Sur Android, la capture se déroule à l'intérieur des services Google Play, sous leur propre autorisation : c'est pourquoi l'application n'y déclare aucune autorisation d'appareil photo.</p>
+        <h3 id="fr-quickonescanner-telemetry">Statistiques d'usage et rapports de plantage</h3>
+        <p>Cette version de l'application ne contient aucun SDK de statistiques ni de remontée de plantages. Nous n'en recevons aucune statistique d'usage, aucun rapport de plantage et aucune donnée de diagnostic.</p>
+        <h3 id="fr-quickonescanner-purchases">Abonnements et achats</h3>
+        <p>Cette version de l'application ne comporte ni achat intégré ni abonnement : elle ne collecte donc aucune information de paiement.</p>
+        <h2 id="fr-eyeballit">Eyeball It!</h2>
+        <p>Eyeball It! est un jeu d'estimation à l'œil — couper une ligne en deux, reproduire un angle, tomber sur une cible — noté selon votre précision. Il fonctionne sur iPhone, iPad, Android et Windows, et conserve vos meilleurs scores sur l'appareil où vous avez joué.</p>
+        <h3 id="fr-eyeballit-stores">Ce que l'application conserve sur votre appareil</h3>
+        <p>L'application écrit ce qui suit dans le stockage privé de votre appareil, une zone que les autres applications ne peuvent pas lire. Cela y reste jusqu'à ce que vous le supprimiez ou désinstalliez l'application.</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>Quoi</th>
+              <th>Pourquoi</th>
+              <th>Où c'est conservé</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>Progression de jeu</td>
+                <td>Niveau atteint, meilleure précision et nombre de manches cumulé.</td>
+                <td>Uniquement sur votre appareil</td>
+              </tr>
+              <tr>
+                <td>Réglages</td>
+                <td>Préférences de langue, de thème, de son et d'affichage.</td>
+                <td>Uniquement sur votre appareil</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>Rien de tout cela ne nous est transmis. Nous ne pouvons pas le lire, nous ne pouvons pas le récupérer pour vous et nous ne pourrions le remettre à personne, puisque cela ne nous parvient jamais.</p>
+        <h3 id="fr-eyeballit-leaves">Ce qui quitte votre appareil</h3>
+        <p>Rien. Cette version de l'application n'effectue aucune requête réseau. Elle ne contient ni SDK publicitaire, ni statistiques, ni rapports de plantage, ni aucun serveur à nous avec lequel dialoguer.</p>
+        <p>Cette version de l'application ne contient absolument aucun code réseau. Son manifeste Android ne demande même pas l'accès à internet.</p>
+        <p>Une version de ce jeu est jouable dans le navigateur à l'adresse https://www.idatagear.com. Cette page fait partie de notre site web et diffuse bien Google AdSense, ce qui est traité dans la section consacrée au site web de notre politique principale. Les applications que vous installez depuis l'App Store, Google Play ou sous Windows sont distinctes et n'affichent aucune publicité.</p>
+        <h3 id="fr-eyeballit-notdo">Ce que l'application ne fait pas</h3>
+        <p>Tant que la présente politique est celle en vigueur :</p>
+        <ul>
+          <li>Il n'y a ni compte, ni inscription, ni adresse e-mail, ni mot de passe.</li>
+          <li>Nous n'exploitons aucun serveur qui reçoive votre contenu et ne détenons aucune base de données où vous figureriez.</li>
+          <li>Nous ne vendons pas vos informations personnelles et ne les partageons pas à des fins de publicité comportementale inter-contextes.</li>
+          <li>L'application ne vous suit pas à travers les applications ou sites d'autres entreprises et n'affiche pas la demande App Tracking Transparency.</li>
+          <li>Rien n'est synchronisé vers un compte en ligne qui serait le nôtre. Il n'existe de notre côté aucune sauvegarde à restaurer.</li>
+          <li>Cette version ne contient aucun SDK publicitaire et n'affiche aucune publicité.</li>
+          <li>Cette version ne contient aucun SDK de statistiques ni de remontée de plantages.</li>
+          <li>L'application ne demande ni ne lit votre position.</li>
+          <li>L'application n'enregistre pas de son et ne demande aucun accès au micro à l'exécution.</li>
+          <li>L'application n'utilise pas l'appareil photo et ne lit aucune photo de votre photothèque.</li>
+          <li>L'application ne lit ni vos contacts, ni votre agenda, ni vos messages, ni votre journal d'appels, ni de fichiers hors de son propre stockage.</li>
+        </ul>
+        <h3 id="fr-eyeballit-perms">Les autorisations, et la raison de chacune</h3>
+        <p>Cette version de l'application ne demande aucune autorisation d'exécution. Son manifeste Android n'en déclare aucune et elle ne comporte aucune clé de description d'usage iOS : le système ne vous demande donc jamais rien.</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>Autorisation</th>
+              <th>Plateforme</th>
+              <th>Finalité</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>Aucune autorisation d'exécution</td>
+                <td>Toutes les plateformes</td>
+                <td>Cette version de l'application n'en demande aucune.</td>
+              </tr>
+              <tr>
+                <td>App Tracking Transparency</td>
+                <td>iOS</td>
+                <td>Non demandée. L'application ne vous suit pas à travers les applications ou sites d'autres entreprises.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <h3 id="fr-eyeballit-telemetry">Statistiques d'usage et rapports de plantage</h3>
+        <p>Cette version de l'application ne contient aucun SDK de statistiques ni de remontée de plantages. Nous n'en recevons aucune statistique d'usage, aucun rapport de plantage et aucune donnée de diagnostic.</p>
+        <h3 id="fr-eyeballit-purchases">Abonnements et achats</h3>
+        <p>Cette version de l'application ne comporte ni achat intégré ni abonnement : elle ne collecte donc aucune information de paiement.</p>
+        <h2 id="fr-website">Ce site web</h2>
+        <p>Le site https://www.idatagear.com est un site statique. Il ne dépose aucun cookie qui lui soit propre, ne vous demande rien et ne comporte ni compte ni connexion.</p>
+        <p>Deux éléments du site relèvent de tiers. <strong>Google AdSense</strong> diffuse des publicités sur certaines pages, dont la version navigateur d'Eyeball It!, et peut déposer des cookies et utiliser votre adresse IP pour choisir et mesurer ces publicités, selon la politique propre à Google. <strong>Google Fonts</strong> fournit la police de caractères, ce qui communique votre adresse IP aux serveurs de Google au chargement de la page.</p>
+        <p>Certaines applications sont également jouables ici dans le navigateur. Une version navigateur enregistre son état dans le stockage local de votre propre navigateur, que vous pouvez vider à tout moment depuis ses réglages.</p>
+        <p>Les journaux de notre serveur, conservés par notre hébergeur, consignent des informations ordinaires de serveur web — adresse IP, horodatage, page demandée et agent utilisateur — servant à maintenir le site en état de marche et à diagnostiquer les incidents.</p>
+        <h2 id="fr-sharing">Quand c'est vous qui partagez</h2>
+        <p>Partager, exporter, imprimer et copier partent toujours de vous. Quand vous utilisez l'une de ces actions, l'application remet l'élément à la destination que vous choisissez — une autre application, un contact, un dossier, une imprimante — et ce qu'il en advient ensuite relève de cette destination, non de la présente politique.</p>
+        <h2 id="fr-retention">Conservation et suppression de vos données</h2>
+        <p>Tout ce que l'application conserve se trouve sur votre appareil : c'est donc vous qui décidez de sa durée de vie.</p>
+        <p>Supprimez un élément dans l'application pour le retirer. Pour tout retirer d'un coup, désinstallez l'application : le système d'exploitation efface son stockage privé, et avec lui tout ce qui figure dans le tableau ci-dessus.</p>
+        <p>Les rapports de plantage et les événements de statistiques sont conservés par Google selon les durées propres à Firebase : jusqu'à 90 jours pour les données de plantage, jusqu'à 14 mois pour les statistiques. N'étant porteurs d'aucun identifiant vous concernant, ils ne peuvent pas être rattachés à vous ni supprimés individuellement.</p>
+        <h2 id="fr-rights">Vos droits</h2>
+        <p>En vertu du RGPD, du RGPD britannique, du CCPA modifié par le CPRA, de la LPRPDE canadienne et de lois comparables ailleurs, vous disposez de droits sur les informations personnelles vous concernant : savoir ce qui est détenu, en obtenir une copie, les faire rectifier, les faire effacer, et vous opposer à leur usage ou le limiter.</p>
+        <p>Pour cette application, ces droits sont déjà satisfaits par la conception elle-même plutôt que par une demande adressée à nous : les données sont sur votre appareil, vous pouvez les consulter dans l'application, les modifier, les exporter et les supprimer, et nous n'en détenons aucune copie à produire, rectifier ou effacer.</p>
+        <p>Nous ne vendons pas d'informations personnelles et ne les partageons pas à des fins de publicité comportementale inter-contextes au sens du CPRA. Il n'existe donc aucune vente à laquelle vous opposer.</p>
+        <p>Si vous pensez malgré tout que nous détenons quelque chose vous concernant, écrivez à idatagear@gmail.com et nous vous répondrons. Vous pouvez également saisir l'autorité de protection des données de votre pays.</p>
+        <h2 id="fr-transfers">Transferts internationaux</h2>
+        <p>Nous sommes établis au Canada. Les services tiers cités dans la présente politique sont exploités par des sociétés établies aux États-Unis et peuvent traiter des données dans tout pays où elles disposent d'infrastructures, selon les garanties de transfert prévues par leurs propres politiques — pour Google, les clauses contractuelles types de la Commission européenne.</p>
+        <h2 id="fr-children">Enfants</h2>
+        <p>Cette application s'adresse au grand public. Elle ne vise pas les enfants de moins de 13 ans et nous ne collectons pas sciemment d'informations personnelles auprès d'un enfant.</p>
+        <p>Il n'y a ni système de comptes, ni messagerie, ni fonction sociale, ni quoi que ce soit qu'un autre utilisateur puisse publier ou voir : aucun chemin ne permet donc à un enfant utilisant l'application de nous divulguer quoi que ce soit, ni à nous ni à personne.</p>
+        <p>Une précision de plus à l'intention des parents : le dictionnaire intégré rend compte de la langue telle qu'elle se parle réellement, et ses entrées d'argot définissent, sur le ton d'un ouvrage de référence, un vocabulaire touchant au sexe, aux drogues, aux jeux d'argent et aux grossièretés. La classification par âge de l'application en tient compte.</p>
+        <p>Si vous pensez qu'un enfant nous a communiqué des informations personnelles, écrivez à idatagear@gmail.com et nous les supprimerons.</p>
+        <h2 id="fr-security">Sécurité</h2>
+        <p>Les données de l'application sont conservées dans le stockage privé par application du système d'exploitation, protégé par le bac à sable de l'appareil et par le chiffrement intégral lorsqu'un verrouillage d'écran est défini. Définir un code, un PIN ou un verrouillage biométrique est la mesure la plus efficace que vous puissiez prendre pour les protéger.</p>
+        <p>Toutes les requêtes réseau de l'application passent par HTTPS. Aucune méthode de stockage ou de transmission n'est parfaite et nous ne pouvons garantir une sécurité absolue.</p>
+        <h2 id="fr-changes">Modifications de cette politique</h2>
+        <p>Nous mettons cette politique à jour lorsque l'application change. La date en haut de la page est celle de la version en vigueur, et la modification est publiée ici dès qu'elle prend effet.</p>
+        <p>Si une modification signifie que l'application commence à collecter quelque chose qu'elle ne collectait pas, nous le dirons clairement plutôt que de vous laisser comparer deux versions du texte.</p>
+        <h2 class="pp-part">Partie 2 — Conditions d'utilisation</h2>
+        <h2 id="fr-t_accept">1. Acceptation des présentes conditions</h2>
+        <p>En installant ou en utilisant l'application, vous acceptez les présentes conditions. Si vous ne les acceptez pas, n'utilisez pas l'application et supprimez-la de votre appareil.</p>
+        <p>Les présentes conditions lient vous et iDataGear Inc. Si vous avez obtenu l'application sur l'App Store ou Google Play, les conditions propres à cette boutique s'appliquent également à la transaction et, en cas de conflit sur un point qu'elle régit — paiement, remboursement, nouveau téléchargement —, celles de la boutique prévalent.</p>
+        <h2 id="fr-t_licence">2. Votre licence d'utilisation</h2>
+        <p>Nous vous accordons une licence personnelle, non exclusive, incessible et révocable d'utiliser l'application sur des appareils que vous possédez ou contrôlez, pour votre propre usage, de la manière ordinaire prévue par la plateforme. Nous conservons tous les autres droits.</p>
+        <p>Vous ne pouvez ni copier, vendre, louer, sous-licencier ou redistribuer l'application, ni la décompiler ou procéder à son ingénierie inverse sauf dans la mesure où la loi l'autorise expressément nonobstant la présente clause, ni supprimer ou modifier une mention qu'elle contient, ni vous en servir pour concevoir un produit concurrent.</p>
+        <h2 id="fr-t_yourcontent">3. Votre contenu vous appartient</h2>
+        <p>Tout ce que vous créez dans l'application vous appartient. Nous n'en revendiquons ni la propriété ni aucune licence. Comme cela reste sur votre appareil, nous ne pourrions pas nous en servir même si nous le voulions.</p>
+        <p>La sauvegarde vous incombe. Désinstaller l'application, réinitialiser l'appareil, ou perdre ou remplacer celui-ci supprime ce que l'application avait enregistré, et nous n'en détenons aucune copie permettant une restauration. Exportez ce dont la perte vous ennuierait.</p>
+        <h2 id="fr-t_acceptable">4. Usage acceptable</h2>
+        <p>Utilisez l'application licitement. En particulier, ne vous en servez pas pour enfreindre la loi ou les droits d'autrui, pour enregistrer quelqu'un lorsque cet enregistrement suppose son consentement et que vous ne l'avez pas, pour perturber son fonctionnement ou sa sécurité, ni pour tenter d'obtenir des fonctions, des contenus ou des droits que vous n'avez pas payés.</p>
+        <h2 id="fr-t_purchases">5. Achats, renouvellement et résiliation</h2>
+        <p>Lorsque l'application propose un abonnement, celui-ci se renouvelle automatiquement à la fin de chaque période au prix indiqué lors de l'achat et est débité sur le compte de la boutique utilisé pour le souscrire, sauf résiliation au moins 24 heures avant la fin de la période.</p>
+        <p>Résiliez depuis la boutique, non depuis l'application : sur iOS dans Réglages › votre nom › Abonnements, sur Android dans Google Play › Paiements et abonnements. La résiliation empêche le renouvellement suivant ; la période en cours va à son terme comme elle a été payée. Toute période d'essai gratuite prend fin à l'achat et sa partie non utilisée est perdue.</p>
+        <p>Les remboursements sont accordés par la boutique selon sa propre politique, et non par nous, la boutique étant le commerçant officiel de la transaction. Les prix peuvent changer ; un changement s'applique aux renouvellements postérieurs à notre préavis, et vous pouvez résilier plutôt que l'accepter.</p>
+        <h2 id="fr-t_accuracy">6. Exactitude du contenu</h2>
+        <p>Le contenu de l'application est fourni à des fins d'apprentissage et de consultation. La langue est disputée, régionale et sans cesse mouvante, et les définitions, les traductions, les translittérations, les scores de prononciation, les ordres de traits et le texte reconnu peuvent tous se tromper. Ne vous fiez à aucun d'eux là où une erreur compterait — un examen, un document juridique, un contexte médical ou un contrat — sans vérification indépendante.</p>
+        <p>L'application est une aide, non un dispositif de sécurité. Les cartes, les sentiers, les traces enregistrées, les distances, les altitudes et les alertes de sortie d'itinéraire peuvent être inexacts, incomplets ou périmés, et un téléphone peut perdre le réseau, perdre sa position ou tomber en panne de batterie. Emportez une carte et de quoi vous orienter sans elle, indiquez votre projet à quelqu'un et appréciez vous-même les conditions. Votre sécurité en plein air relève de vous.</p>
+        <h2 id="fr-t_thirdparty">7. Services tiers</h2>
+        <p>L'application recourt aux services tiers cités dans la politique de confidentialité ci-dessus. Chacun est régi par ses propres conditions et sa propre politique de confidentialité, nous ne les contrôlons pas et nous ne répondons pas de ce qu'ils font. Les liens sortants vers d'autres sites sont fournis par commodité et ne valent pas approbation.</p>
+        <h2 id="fr-t_warranty">8. Absence de garantie</h2>
+        <p>L'application est fournie <strong>en l'état</strong> et <strong>selon disponibilité</strong>, sans garantie d'aucune sorte, expresse ou implicite, y compris toute garantie implicite de qualité marchande, d'adéquation à un usage particulier, d'exactitude ou d'absence de contrefaçon. Nous ne garantissons ni un fonctionnement ininterrompu ou sans erreur, ni la compatibilité avec tous les appareils, ni la correction des défauts.</p>
+        <p>Certaines juridictions n'autorisent pas l'exclusion des garanties implicites : des parties de cette clause peuvent donc ne pas vous être applicables, et rien ici ne limite un droit du consommateur qui ne peut légalement l'être.</p>
+        <h2 id="fr-t_liability">9. Limitation de responsabilité</h2>
+        <p>Dans toute la mesure permise par la loi, nous ne répondons pas des dommages indirects, accessoires, spéciaux, consécutifs, exemplaires ou punitifs, ni des pertes de bénéfices, de données, d'enregistrements, d'itinéraires ou de progression, quelle qu'en soit la cause et quel que soit le fondement de la responsabilité, même si nous avions été avertis de leur possibilité.</p>
+        <p>Lorsque la responsabilité ne peut être exclue, notre responsabilité totale pour l'ensemble des réclamations liées à l'application est limitée au plus élevé des deux montants suivants : ce que vous nous avez payé pour elle au cours des douze mois précédant la réclamation, ou vingt dollars canadiens.</p>
+        <h2 id="fr-t_termination">10. Modifications et résiliation</h2>
+        <p>Nous pouvons modifier, suspendre ou interrompre l'application, ou toute partie de celle-ci, à tout moment. Nous pouvons mettre à jour les présentes conditions ; la date en haut de cette page change alors, et continuer à utiliser l'application ensuite vaut acceptation des conditions mises à jour.</p>
+        <p>La présente licence prend fin si vous manquez aux présentes conditions, et elle prend fin dès que vous supprimez l'application de vos appareils. Les sections relatives à votre contenu, à la garantie, à la responsabilité et au droit applicable survivent.</p>
+        <h2 id="fr-t_law">11. Droit applicable</h2>
+        <p>Les présentes conditions sont régies par les lois de la province de British Columbia et par les lois fédérales du Canada qui y sont applicables, sans égard aux règles de conflit de lois. Les tribunaux de British Columbia ont compétence exclusive pour tout litige, et vous comme nous nous y soumettons — étant entendu que chacun de nous peut solliciter des mesures conservatoires devant toute juridiction compétente.</p>
+        <p>Si une stipulation des présentes conditions était jugée inapplicable, les autres demeureraient en vigueur. Rien ici ne supprime une protection impérative du consommateur du pays où vous résidez.</p>
+        <h2 id="fr-contact">Contact</h2>
+        <p>Questions sur cette politique, demandes concernant vos données, ou toute autre chose :</p>
+        <p><strong>iDataGear Inc</strong><br>
+        Email: <a href="mailto:idatagear@gmail.com">idatagear@gmail.com</a><br>
+        Web: <a href="https://www.idatagear.com/">www.idatagear.com</a></p>
+      </article>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-bottom">
+        <p>&copy; <span id="year">2026</span> iDataGear Inc</p>
+        <div class="footer-links">
+          <a href="">iDataGear</a><a href="privacy.html">Privacy</a><a href="mailto:idatagear@gmail.com">Contact</a>
+        </div>
+      </div>
+    </footer>
+    <script>
+    (function () {
+      var root = document.documentElement;
+      var toggle = document.querySelector('.theme-toggle');
+      if (toggle) {
+        toggle.addEventListener('click', function () {
+          var next = root.getAttribute('data-theme') === 'light' ? 'dark' : 'light';
+          root.setAttribute('data-theme', next);
+          try { localStorage.setItem('theme', next); } catch (e) {}
+        });
+      }
+      var y = document.getElementById('year');
+      if (y) { y.textContent = new Date().getFullYear(); }
+    })();
+    </script>
+  </body>
+</html>

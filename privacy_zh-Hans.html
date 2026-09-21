@@ -1,0 +1,1975 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+  <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta name="theme-color" content="#071512" media="(prefers-color-scheme: dark)">
+    <meta name="theme-color" content="#f7f3ea" media="(prefers-color-scheme: light)">
+    <meta name="color-scheme" content="dark light">
+
+    <title>iDataGear 隐私政策与使用条款</title>
+    <meta name="description" content="本页是 iDataGear Inc 发布的每一款应用的隐私政策与使用条款，也是 https://www.idatagear.com 这个网站的隐私政策与使用条款。">
+    <link rel="canonical" href="https://www.idatagear.com/privacy_zh-Hans.html">
+
+    <link rel="alternate" hreflang="en" href="https://www.idatagear.com/privacy.html">
+    <link rel="alternate" hreflang="zh-Hans" href="https://www.idatagear.com/privacy_zh-Hans.html">
+    <link rel="alternate" hreflang="zh-Hant" href="https://www.idatagear.com/privacy_zh-Hant.html">
+    <link rel="alternate" hreflang="es" href="https://www.idatagear.com/privacy_es.html">
+    <link rel="alternate" hreflang="fr" href="https://www.idatagear.com/privacy_fr.html">
+    <link rel="alternate" hreflang="ja" href="https://www.idatagear.com/privacy_ja.html">
+    <link rel="alternate" hreflang="ko" href="https://www.idatagear.com/privacy_ko.html">
+    <link rel="alternate" hreflang="vi" href="https://www.idatagear.com/privacy_vi.html">
+    <link rel="alternate" hreflang="ar" href="https://www.idatagear.com/privacy_ar.html">
+    <link rel="alternate" hreflang="x-default" href="https://www.idatagear.com/privacy.html">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.idatagear.com/privacy_zh-Hans.html">
+    <meta property="og:title" content="iDataGear 隐私政策与使用条款">
+    <meta property="og:description" content="本页是 iDataGear Inc 发布的每一款应用的隐私政策与使用条款，也是 https://www.idatagear.com 这个网站的隐私政策与使用条款。">
+    <meta property="og:image" content="https://www.idatagear.com/assets/img/idatagear_logo.png">
+    <meta property="og:site_name" content="iDataGear">
+    <meta property="twitter:card" content="summary">
+    <meta property="twitter:title" content="iDataGear 隐私政策与使用条款">
+    <meta property="twitter:description" content="本页是 iDataGear Inc 发布的每一款应用的隐私政策与使用条款，也是 https://www.idatagear.com 这个网站的隐私政策与使用条款。">
+    <meta property="twitter:image" content="https://www.idatagear.com/assets/img/idatagear_logo.png">
+
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/img/favicon-192x192.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script>
+    (function () {
+      var t = null;
+      try { t = localStorage.getItem('theme'); } catch (e) {}
+      if (t !== 'light' && t !== 'dark') {
+        t = (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches) ? 'light' : 'dark';
+      }
+      document.documentElement.setAttribute('data-theme', t);
+    })();
+    </script>
+    <style>
+    /* Chrome and colour come from the site's own tokens in assets/css/style.css.
+       --pp-accent is this page's app brand, used only where the page speaks
+       about the app itself. Everything here is prefixed pp- so it cannot leak
+       into the shared stylesheet's components. */
+    :root { --pp-accent: #1f8a76; --pp-wash: rgba(53, 179, 154, .10); }
+    [data-theme="dark"] { --pp-accent: #35b39a; }
+    @media (prefers-color-scheme: dark) {
+      :root:not([data-theme="light"]) { --pp-accent: #35b39a; }
+    }
+
+    .pp-nav { display: flex; gap: 20px; align-items: center; margin-left: auto; }
+    .pp-nav a { color: var(--muted); text-decoration: none; font-size: .92rem; white-space: nowrap; }
+    .pp-nav a:hover { color: var(--pp-accent); }
+    @media (max-width: 820px) { .pp-nav { display: none; } }
+
+    .pp-wrap { max-width: 78ch; margin: 0 auto; padding-inline: 20px; padding-block: 40px 72px; }
+
+    .pp-head { text-align: center; margin-bottom: 34px; }
+    .pp-head img { width: 76px; height: 76px; border-radius: 19px; box-shadow: 0 10px 40px rgba(0,0,0,.18); }
+    .pp-head h1 { font-size: clamp(1.7rem, 4.4vw, 2.4rem); margin: 18px 0 6px; line-height: 1.15; text-wrap: balance; }
+    .pp-head .pp-sub { color: var(--pp-accent); font-weight: 700; margin: 0 0 10px; }
+    .pp-head .pp-date { color: var(--dim); font-size: .9rem; margin: 0; }
+
+    /* Language picker. Buttons, not links: this switches what is displayed on
+       one URL, because the app stores register exactly one privacy URL. */
+    .pp-langs { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; margin: 22px 0 0; }
+    .pp-langs button {
+      font: inherit; font-size: .9rem; font-weight: 600; cursor: pointer;
+      padding: 7px 15px; border-radius: 999px;
+      border: 1px solid var(--card-border); background: var(--card); color: var(--muted);
+    }
+    .pp-langs button:hover { border-color: var(--pp-accent); color: var(--text); }
+    .pp-langs button[aria-current="true"] { background: var(--pp-wash); border-color: var(--pp-accent); color: var(--text); }
+
+    .pp h2 {
+      font-size: 1.24rem; margin: 40px 0 12px; padding-top: 18px;
+      border-top: 1px solid var(--card-border); text-wrap: balance;
+    }
+    .pp h2:first-of-type { border-top: 0; padding-top: 0; }
+    .pp h2.pp-part {
+      font-size: .82rem; letter-spacing: .14em; text-transform: uppercase;
+      color: var(--pp-accent); margin-top: 56px;
+    }
+    .pp h3 { font-size: 1.02rem; margin: 26px 0 8px; color: var(--text); }
+    .pp p, .pp li { color: var(--muted); line-height: 1.72; }
+    .pp p { margin: 0 0 14px; }
+    .pp ul { margin: 0 0 16px; padding-left: 1.25em; }
+    .pp li { margin-bottom: 9px; }
+    .pp strong { color: var(--text); font-weight: 650; }
+    .pp a { color: var(--pp-accent); }
+
+    .pp-tldr {
+      background: var(--pp-wash); border: 1px solid var(--card-border);
+      border-left: 3px solid var(--pp-accent);
+      border-radius: 12px; padding: 20px 22px 6px; margin: 0 0 8px;
+    }
+    .pp-tldr ul { margin-bottom: 14px; }
+    .pp-note {
+      background: var(--card); border: 1px solid var(--card-border);
+      border-radius: 10px; padding: 15px 18px 3px; margin: 0 0 16px;
+    }
+
+    /* Tables scroll inside their own box so the page body never scrolls sideways. */
+    .pp-tablewrap { overflow-x: auto; margin: 0 0 20px; }
+    .pp table { border-collapse: collapse; width: 100%; min-width: 520px; font-size: .94rem; }
+    .pp th, .pp td {
+      text-align: left; vertical-align: top; padding: 11px 13px;
+      border-bottom: 1px solid var(--card-border); color: var(--muted); line-height: 1.6;
+    }
+    .pp th { color: var(--text); font-weight: 650; white-space: nowrap; }
+    .pp tbody tr:last-child td { border-bottom: 0; }
+
+    /* Right-to-left: mirror the padding and the table alignment, nothing else. */
+    .pp[dir="rtl"] { text-align: right; }
+    .pp[dir="rtl"] ul { padding-left: 0; padding-right: 1.25em; }
+    .pp[dir="rtl"] th, .pp[dir="rtl"] td { text-align: right; }
+    .pp[dir="rtl"] .pp-tldr { border-left: 1px solid var(--card-border); border-right: 3px solid var(--pp-accent); }
+
+    /* One language per file, so the switcher is links rather than buttons:
+       each entry is a real URL a reader can bookmark, share or open in a tab,
+       and the page needs no JavaScript to show what it says. */
+    .pp-langs a {
+      font: inherit; font-size: .9rem; font-weight: 600; text-decoration: none;
+      padding: 7px 15px; border-radius: 999px;
+      border: 1px solid var(--card-border); background: var(--card); color: var(--muted);
+    }
+    .pp-langs a:hover { border-color: var(--pp-accent); color: var(--text); }
+    .pp-langs a[aria-current="page"] { background: var(--pp-wash); border-color: var(--pp-accent); color: var(--text); }
+    </style>
+  </head>
+
+  <body>
+    <header class="site-header" id="top">
+      <div class="logo"><a href="">iDataGear</a></div>
+      <nav class="pp-nav">
+        <a href="">iDataGear</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="mailto:idatagear@gmail.com">Contact</a>
+      </nav>
+      <button class="theme-toggle" type="button" aria-label="Switch theme">
+        <i class="bi bi-sun" aria-hidden="true"></i>
+        <i class="bi bi-moon-stars" aria-hidden="true"></i>
+      </button>
+    </header>
+
+    <main class="pp-wrap">
+      <div class="pp-head">
+        <img src="assets/img/idatagear_logo.png" alt="iDataGear 隐私政策与使用条款" width="76" height="76">
+        <h1>iDataGear 隐私政策与使用条款</h1>
+        <p class="pp-sub">iDataGear Inc</p>
+        <p class="pp-date">最后更新: 20 September 2026</p>
+        <div class="pp-langs" role="group" aria-label="选择语言">
+          <a href="privacy.html" hreflang="en" lang="en">English</a>
+          <a href="privacy_zh-Hans.html" hreflang="zh-Hans" lang="zh-Hans" aria-current="page">简体中文</a>
+          <a href="privacy_zh-Hant.html" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
+          <a href="privacy_es.html" hreflang="es" lang="es">Español</a>
+          <a href="privacy_fr.html" hreflang="fr" lang="fr">Français</a>
+          <a href="privacy_ja.html" hreflang="ja" lang="ja">日本語</a>
+          <a href="privacy_ko.html" hreflang="ko" lang="ko">한국어</a>
+          <a href="privacy_vi.html" hreflang="vi" lang="vi">Tiếng Việt</a>
+          <a href="privacy_ar.html" hreflang="ar" lang="ar">العربية</a>
+        </div>
+      </div>
+
+      <article class="pp" data-lang="zh-Hans" lang="zh-Hans">
+        <h2 id="zh-Hans-tldr">一句话版本</h2>
+        <div class="pp-tldr">
+        <ul>
+          <li>这一页涵盖 iDataGear 的每一款应用，每款应用另有属于自己的页面。</li>
+          <li>你在这些应用中创建的一切都留在你的设备上。</li>
+          <li>没有账号，也不需要注册。</li>
+          <li>各款应用并不相同。十款中有五款完全不含广告、使用统计和崩溃报告；其余几款会明确说明用了哪些、为什么用。</li>
+          <li>我们不出售你的数据，也不会为广告画像而共享它。</li>
+          <li>卸载应用会删除它保存过的一切。</li>
+          <li>本页第二部分是应用的使用条款。</li>
+        </ul>
+        </div>
+        <h2 id="zh-Hans-scope">本政策涵盖哪些应用</h2>
+        <p>本页是 iDataGear Inc 发布的每一款应用的隐私政策与使用条款，也是 https://www.idatagear.com 这个网站的隐私政策与使用条款。每款应用另有属于自己的页面，内容与本页中该应用的部分完全一致；下表给出链接。</p>
+        <p>各款应用彼此不同，因此下面的内容逐个应用分别说明，而不是把它们平均成一句对谁都不成立的话。其中五款完全不含广告、使用统计和崩溃报告。</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>应用</th>
+              <th>平台</th>
+              <th>独立页面</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td><a href="#zh-Hans-learncantonese">Learn Cantonese</a></td>
+                <td>Android, iOS, macOS</td>
+                <td><a href="learncantonese/learncantonese_privacy.html">打开</a></td>
+              </tr>
+              <tr>
+                <td><a href="#zh-Hans-learnchinese">McChinese</a></td>
+                <td>Android, iOS</td>
+                <td><a href="learnchinese/learnchinese_privacy.html">打开</a></td>
+              </tr>
+              <tr>
+                <td><a href="#zh-Hans-gcd">Great Cantonese Dictionary</a></td>
+                <td>Android, iOS</td>
+                <td><a href="gcd/gcd_privacy.html">打开</a></td>
+              </tr>
+              <tr>
+                <td><a href="#zh-Hans-learnenglish">ALL English</a></td>
+                <td>Android, iOS</td>
+                <td><a href="learnenglish/learnenglish_privacy.html">打开</a></td>
+              </tr>
+              <tr>
+                <td><a href="#zh-Hans-xiezi">Xie Zi</a></td>
+                <td>Android, iOS</td>
+                <td><a href="xiezi/xiezi_privacy.html">打开</a></td>
+              </tr>
+              <tr>
+                <td><a href="#zh-Hans-momerame">Momera.ME</a></td>
+                <td>Android</td>
+                <td><a href="momerame/momerame_privacy.html">打开</a></td>
+              </tr>
+              <tr>
+                <td><a href="#zh-Hans-momerago">Momera GO</a></td>
+                <td>Android, iOS</td>
+                <td><a href="momerago/momerago_privacy.html">打开</a></td>
+              </tr>
+              <tr>
+                <td><a href="#zh-Hans-mcrecorder">McRecorder</a></td>
+                <td>Android, iOS</td>
+                <td><a href="mcrecorder/mcrecorder_privacy.html">打开</a></td>
+              </tr>
+              <tr>
+                <td><a href="#zh-Hans-quickonescanner">QuickOne Scanner</a></td>
+                <td>Android, iOS</td>
+                <td><a href="quickonescanner/quickonescanner_privacy.html">打开</a></td>
+              </tr>
+              <tr>
+                <td><a href="#zh-Hans-eyeballit">Eyeball It!</a></td>
+                <td>Android, iOS, Windows</td>
+                <td><a href="eyeballit/eyeballit_privacy.html">打开</a></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <h2 class="pp-part">第一部分 — 隐私政策</h2>
+        <h2 id="zh-Hans-who">我们是谁</h2>
+        <p>iDataGear Inc 是一家在加拿大不列颠哥伦比亚省注册成立的公司，发布上表中的各款应用以及 https://www.idatagear.com 这个网站。本页中的<strong>我们</strong>即指 iDataGear Inc。</p>
+        <p>应用没有账号，也不需要注册。我们不运营任何接收你内容的服务器，也没有任何记录着你的数据库。</p>
+        <h2 id="zh-Hans-learncantonese">Learn Cantonese</h2>
+        <p>Learn Cantonese 通过课程、一部香港俚语词典和开口跟读的发音练习，教你说和写粤语。它可以在 iPhone、iPad、Mac 和 Android 上运行。你的学习进度保存在你正在使用的那台设备上。</p>
+        <h3 id="zh-Hans-learncantonese-stores">应用在你设备上保存了什么</h3>
+        <p>应用会把下列内容写入你设备上的应用私有存储区——其他应用无法读取的区域。它们会一直留在那里，直到你自己删除，或卸载应用为止。</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>内容</th>
+              <th>用途</th>
+              <th>保存位置</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>学习进度</td>
+                <td>已完成的课程、测验结果，以及你看过哪些条目。</td>
+                <td>仅在你的设备上</td>
+              </tr>
+              <tr>
+                <td>收藏</td>
+                <td>你标星或加入书签的条目。</td>
+                <td>仅在你的设备上</td>
+              </tr>
+              <tr>
+                <td>历史记录</td>
+                <td>你最近查过或练过的内容，方便你回头再看。</td>
+                <td>仅在你的设备上</td>
+              </tr>
+              <tr>
+                <td>连续天数与统计</td>
+                <td>个人页面上显示的每日连续天数和学习次数。</td>
+                <td>仅在你的设备上</td>
+              </tr>
+              <tr>
+                <td>设置</td>
+                <td>语言、主题、音频和显示方面的偏好。</td>
+                <td>仅在你的设备上</td>
+              </tr>
+              <tr>
+                <td>订阅状态</td>
+                <td>来自商店的一个「是或否」的缓存答案，让应用离线时也能用。</td>
+                <td>仅在你的设备上</td>
+              </tr>
+              <tr>
+                <td>你的广告选择</td>
+                <td>你给出的同意答案，免得每次启动都再问你一遍。</td>
+                <td>仅在你的设备上</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>这些内容不会上传给我们。我们读不到，无法替你找回，也无法交给任何第三方——因为它们从未到达我们这里。</p>
+        <p>发音练习所用的语音识别，由操作系统自带的识别器完成——iOS 上是 Apple 的，Android 上是 Google 的——并适用各自平台的隐私条款。根据设备和语种的不同，该识别器可能在设备上处理音频，也可能在平台的服务器上处理。音频和识别结果我们都收不到：应用只被告知你说的内容与目标短语的接近程度，而音频在得出这个分数之后立即丢弃。</p>
+        <h3 id="zh-Hans-learncantonese-leaves">有什么会离开你的设备</h3>
+        <p>下面是完整的清单。凡是没有列出的，都留在你的设备上。</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>发送的内容</th>
+              <th>接收方</th>
+              <th>目的</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>广告请求</td>
+                <td>Google AdMob</td>
+                <td>用于挑选并统计一条广告。</td>
+              </tr>
+              <tr>
+                <td>匿名使用事件</td>
+                <td>Google Firebase Analytics</td>
+                <td>哪些功能被打开的计数，不附带用户 ID。</td>
+              </tr>
+              <tr>
+                <td>崩溃报告</td>
+                <td>Google Firebase Crashlytics</td>
+                <td>应用失败时的错误信息、调用栈、设备型号和应用版本。</td>
+              </tr>
+              <tr>
+                <td>购买校验</td>
+                <td>Apple App Store / Google Play</td>
+                <td>用于确认订阅是否有效。银行卡信息不会到达我们这里。</td>
+              </tr>
+              <tr>
+                <td>版本检查</td>
+                <td>Apple App Store / Google Play</td>
+                <td>用于告诉你有新版本。发送应用的包名和版本号。</td>
+              </tr>
+              <tr>
+                <td>没有任何自动发送</td>
+                <td>你点开的网站</td>
+                <td>在应用中打开链接会把它交给你的浏览器，之后就与你的浏览器平时一样。</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>启动时，应用会向 App Store 或 Google Play 查询是否有更新版本，以便提示你。该请求只包含应用的包名和版本号，不包含关于你的任何信息。</p>
+        <p>macOS 版本既不包含广告 SDK，也不包含 Firebase。在 macOS 上，应用不显示广告，也不发送任何使用统计或崩溃报告。</p>
+        <h3 id="zh-Hans-learncantonese-notdo">应用不会做的事</h3>
+        <p>在本政策为现行版本期间：</p>
+        <ul>
+          <li>没有账号，不需要注册，不需要邮箱，也不需要密码。</li>
+          <li>我们不运营任何接收你内容的服务器，也没有任何记录着你的数据库。</li>
+          <li>我们不出售你的个人信息，也不会为跨情境行为广告而共享它。</li>
+          <li>应用不会跨其他公司的应用或网站跟踪你，也不弹出「App 跟踪透明度」授权框。</li>
+          <li>没有任何内容同步到属于我们的云端账户。我们这边没有可供恢复的备份。</li>
+          <li>应用不索取也不读取你的位置。</li>
+          <li>应用不读取你的通讯录、日历、短信、通话记录，也不读取其自身存储区以外的文件。</li>
+        </ul>
+        <h3 id="zh-Hans-learncantonese-perms">权限，以及每一项的用途</h3>
+        <p>下列每一项权限都只用于所声明的那一个用途，不作他用。在两个平台上，你都可以在系统设置中拒绝或撤回其中任何一项；依赖它的功能会停止工作，应用的其余部分照常运行。</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>权限</th>
+              <th>平台</th>
+              <th>目的</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>网络访问</td>
+                <td>Android</td>
+                <td>上述网络请求所必需。</td>
+              </tr>
+              <tr>
+                <td>麦克风</td>
+                <td>Android</td>
+                <td>在你开始录音时进行录制。</td>
+              </tr>
+              <tr>
+                <td>前台服务</td>
+                <td>Android</td>
+                <td>让你启动的任务带着一条可见的常驻通知继续运行。</td>
+              </tr>
+              <tr>
+                <td>广告 ID</td>
+                <td>Android</td>
+                <td>供 AdMob 挑选和统计广告。你可以在 Android 设置中重置或删除它。</td>
+              </tr>
+              <tr>
+                <td>支付</td>
+                <td>Android</td>
+                <td>通过 Google Play 售出并校验订阅。</td>
+              </tr>
+              <tr>
+                <td>麦克风</td>
+                <td>iOS</td>
+                <td>在你开始录音时进行录制。</td>
+              </tr>
+              <tr>
+                <td>语音识别</td>
+                <td>iOS</td>
+                <td>使用 Apple 的识别器为你的发音打分。</td>
+              </tr>
+              <tr>
+                <td>App 跟踪透明度</td>
+                <td>iOS</td>
+                <td>不请求。应用不会跨其他公司的应用或网站跟踪你。</td>
+              </tr>
+              <tr>
+                <td>位置</td>
+                <td>Android 与 iOS</td>
+                <td>不请求。</td>
+              </tr>
+              <tr>
+                <td>相机</td>
+                <td>Android 与 iOS</td>
+                <td>不请求。</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <h3 id="zh-Hans-learncantonese-ads">广告，以及你的选择</h3>
+        <p>这个版本的应用会显示由 <strong>Google AdMob</strong> 提供的广告。对于通过这些广告收集的数据，Google 是独立的数据控制者，依据其自身政策处理，详见 <a href="https://policies.google.com/technologies/partner-sites" rel="noopener">policies.google.com/technologies/partner-sites</a>。</p>
+        <p>为了挑选并统计一条广告，Google 可能会收到你设备的广告标识符、设备与应用的一般信息、由 IP 地址推断出的大致位置，以及你是否看过或点击过该广告。关于你个人的这些信息我们一概收不到——我们看到的只是汇总后的收入与展示次数。</p>
+        <p>本应用中的广告以横幅和活动之间的全屏插屏形式出现。</p>
+        <p>在欧洲经济区、英国和瑞士，应用会在请求个性化广告之前先显示 Google 的同意表单。你的选择记录在你自己的设备上，随时可以从应用设置中的广告或隐私选项重新打开，改变主意。</p>
+        <p>你随时可以重置或删除广告标识符——在 Android 上进入「设置 › 隐私 › 广告」，在 iOS 上关闭<em>允许应用请求跟踪</em>，后者会让所有应用都无法取得该标识符。</p>
+        <p>应用不会弹出 Apple 的「App 跟踪透明度」授权框，也不会跨其他公司的应用或网站跟踪你。</p>
+        <h3 id="zh-Hans-learncantonese-telemetry">使用统计与崩溃报告</h3>
+        <p>应用使用 <strong>Google Firebase</strong> 做两件事：Crashlytics 负责上报崩溃，Analytics 负责统计功能的使用次数。两者都由 Google 代表我们处理。</p>
+        <p>一份崩溃报告包含程序失败时的状态——错误信息、调用栈、设备型号、操作系统版本和应用版本。它由这次失败自动生成，告诉我们该去修哪一行代码。</p>
+        <p>使用统计事件只是一些匿名动作的计数，例如某个页面被打开。我们不设置用户 ID，也不设置任何用户属性，因此这些事件与具体的人无法对应，我们也无法在其中找到你。</p>
+        <h3 id="zh-Hans-learncantonese-purchases">订阅与购买</h3>
+        <p>这个版本的应用提供自动续期订阅。购买全部由 App Store 或 Google Play 处理。</p>
+        <p>我们从不接触你的卡号、账单地址或任何其他支付信息。商店只告诉应用「是否存在有效权益」这一个答案；该答案缓存在你的设备上，以便应用离线时也能正常使用。</p>
+        <h2 id="zh-Hans-learnchinese">McChinese</h2>
+        <p>McChinese 通过按 HSK 分级的词汇、笔顺练习以及听说训练来教普通话。它可以在 iPhone、iPad 和 Android 上运行，界面支持七种语言。你的学习进度保存在你正在使用的那台设备上。</p>
+        <h3 id="zh-Hans-learnchinese-stores">应用在你设备上保存了什么</h3>
+        <p>应用会把下列内容写入你设备上的应用私有存储区——其他应用无法读取的区域。它们会一直留在那里，直到你自己删除，或卸载应用为止。</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>内容</th>
+              <th>用途</th>
+              <th>保存位置</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>学习进度</td>
+                <td>已完成的课程、测验结果，以及你看过哪些条目。</td>
+                <td>仅在你的设备上</td>
+              </tr>
+              <tr>
+                <td>收藏</td>
+                <td>你标星或加入书签的条目。</td>
+                <td>仅在你的设备上</td>
+              </tr>
+              <tr>
+                <td>历史记录</td>
+                <td>你最近查过或练过的内容，方便你回头再看。</td>
+                <td>仅在你的设备上</td>
+              </tr>
+              <tr>
+                <td>连续天数与统计</td>
+                <td>个人页面上显示的每日连续天数和学习次数。</td>
+                <td>仅在你的设备上</td>
+              </tr>
+              <tr>
+                <td>设置</td>
+                <td>语言、主题、音频和显示方面的偏好。</td>
+                <td>仅在你的设备上</td>
+              </tr>
+              <tr>
+                <td>订阅状态</td>
+                <td>来自商店的一个「是或否」的缓存答案，让应用离线时也能用。</td>
+                <td>仅在你的设备上</td>
+              </tr>
+              <tr>
+                <td>你的广告选择</td>
+                <td>你给出的同意答案，免得每次启动都再问你一遍。</td>
+                <td>仅在你的设备上</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>这些内容不会上传给我们。我们读不到，无法替你找回，也无法交给任何第三方——因为它们从未到达我们这里。</p>
+        <p>发音练习所用的语音识别，由操作系统自带的识别器完成——iOS 上是 Apple 的，Android 上是 Google 的——并适用各自平台的隐私条款。根据设备和语种的不同，该识别器可能在设备上处理音频，也可能在平台的服务器上处理。音频和识别结果我们都收不到：应用只被告知你说的内容与目标短语的接近程度，而音频在得出这个分数之后立即丢弃。</p>
+        <h3 id="zh-Hans-learnchinese-leaves">有什么会离开你的设备</h3>
+        <p>下面是完整的清单。凡是没有列出的，都留在你的设备上。</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>发送的内容</th>
+              <th>接收方</th>
+              <th>目的</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>广告请求</td>
+                <td>Google AdMob</td>
+                <td>用于挑选并统计一条广告。</td>
+              </tr>
+              <tr>
+                <td>匿名使用事件</td>
+                <td>Google Firebase Analytics</td>
+                <td>哪些功能被打开的计数，不附带用户 ID。</td>
+              </tr>
+              <tr>
+                <td>崩溃报告</td>
+                <td>Google Firebase Crashlytics</td>
+                <td>应用失败时的错误信息、调用栈、设备型号和应用版本。</td>
+              </tr>
+              <tr>
+                <td>购买校验</td>
+                <td>Apple App Store / Google Play</td>
+                <td>用于确认订阅是否有效。银行卡信息不会到达我们这里。</td>
+              </tr>
+              <tr>
+                <td>笔画数据请求</td>
+                <td>unpkg、jsDelivr 或 cdnjs</td>
+                <td>用于取回你打开的那个字的笔顺。</td>
+              </tr>
+              <tr>
+                <td>没有任何自动发送</td>
+                <td>你点开的网站</td>
+                <td>在应用中打开链接会把它交给你的浏览器，之后就与你的浏览器平时一样。</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>笔顺动画由一个开源组件绘制。你第一次查看某个字时，应用会从公共代码 CDN（unpkg、jsDelivr 或 cdnjs）取回该字的笔画数据。与任何网页请求一样，这个请求包含正在绘制的那个字和你的 IP 地址。其中不附带任何学习进度、账号或标识符。</p>
+        <h3 id="zh-Hans-learnchinese-notdo">应用不会做的事</h3>
+        <p>在本政策为现行版本期间：</p>
+        <ul>
+          <li>没有账号，不需要注册，不需要邮箱，也不需要密码。</li>
+          <li>我们不运营任何接收你内容的服务器，也没有任何记录着你的数据库。</li>
+          <li>我们不出售你的个人信息，也不会为跨情境行为广告而共享它。</li>
+          <li>应用不会跨其他公司的应用或网站跟踪你，也不弹出「App 跟踪透明度」授权框。</li>
+          <li>没有任何内容同步到属于我们的云端账户。我们这边没有可供恢复的备份。</li>
+          <li>应用不索取也不读取你的位置。</li>
+          <li>应用不读取你的通讯录、日历、短信、通话记录，也不读取其自身存储区以外的文件。</li>
+        </ul>
+        <h3 id="zh-Hans-learnchinese-perms">权限，以及每一项的用途</h3>
+        <p>下列每一项权限都只用于所声明的那一个用途，不作他用。在两个平台上，你都可以在系统设置中拒绝或撤回其中任何一项；依赖它的功能会停止工作，应用的其余部分照常运行。</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>权限</th>
+              <th>平台</th>
+              <th>目的</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>网络访问</td>
+                <td>Android</td>
+                <td>上述网络请求所必需。</td>
+              </tr>
+              <tr>
+                <td>网络状态</td>
+                <td>Android</td>
+                <td>在尝试联网前先确认是否有连接。</td>
+              </tr>
+              <tr>
+                <td>麦克风</td>
+                <td>Android</td>
+                <td>在你开始录音时进行录制。</td>
+              </tr>
+              <tr>
+                <td>广告 ID</td>
+                <td>Android</td>
+                <td>供 AdMob 挑选和统计广告。你可以在 Android 设置中重置或删除它。</td>
+              </tr>
+              <tr>
+                <td>支付</td>
+                <td>Android</td>
+                <td>通过 Google Play 售出并校验订阅。</td>
+              </tr>
+              <tr>
+                <td>麦克风</td>
+                <td>iOS</td>
+                <td>在你开始录音时进行录制。</td>
+              </tr>
+              <tr>
+                <td>语音识别</td>
+                <td>iOS</td>
+                <td>使用 Apple 的识别器为你的发音打分。</td>
+              </tr>
+              <tr>
+                <td>App 跟踪透明度</td>
+                <td>iOS</td>
+                <td>不请求。应用不会跨其他公司的应用或网站跟踪你。</td>
+              </tr>
+              <tr>
+                <td>位置</td>
+                <td>Android 与 iOS</td>
+                <td>不请求。</td>
+              </tr>
+              <tr>
+                <td>相机</td>
+                <td>Android 与 iOS</td>
+                <td>不请求。</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <h3 id="zh-Hans-learnchinese-ads">广告，以及你的选择</h3>
+        <p>这个版本的应用会显示由 <strong>Google AdMob</strong> 提供的广告。对于通过这些广告收集的数据，Google 是独立的数据控制者，依据其自身政策处理，详见 <a href="https://policies.google.com/technologies/partner-sites" rel="noopener">policies.google.com/technologies/partner-sites</a>。</p>
+        <p>为了挑选并统计一条广告，Google 可能会收到你设备的广告标识符、设备与应用的一般信息、由 IP 地址推断出的大致位置，以及你是否看过或点击过该广告。关于你个人的这些信息我们一概收不到——我们看到的只是汇总后的收入与展示次数。</p>
+        <p>本应用中的广告以横幅和活动之间的全屏插屏形式出现。</p>
+        <p>在欧洲经济区、英国和瑞士，应用会在请求个性化广告之前先显示 Google 的同意表单。你的选择记录在你自己的设备上，随时可以从应用设置中的广告或隐私选项重新打开，改变主意。</p>
+        <p>你随时可以重置或删除广告标识符——在 Android 上进入「设置 › 隐私 › 广告」，在 iOS 上关闭<em>允许应用请求跟踪</em>，后者会让所有应用都无法取得该标识符。</p>
+        <p>应用不会弹出 Apple 的「App 跟踪透明度」授权框，也不会跨其他公司的应用或网站跟踪你。</p>
+        <h3 id="zh-Hans-learnchinese-telemetry">使用统计与崩溃报告</h3>
+        <p>应用使用 <strong>Google Firebase</strong> 做两件事：Crashlytics 负责上报崩溃，Analytics 负责统计功能的使用次数。两者都由 Google 代表我们处理。</p>
+        <p>一份崩溃报告包含程序失败时的状态——错误信息、调用栈、设备型号、操作系统版本和应用版本。它由这次失败自动生成，告诉我们该去修哪一行代码。</p>
+        <p>使用统计事件只是一些匿名动作的计数，例如某个页面被打开。我们不设置用户 ID，也不设置任何用户属性，因此这些事件与具体的人无法对应，我们也无法在其中找到你。</p>
+        <h3 id="zh-Hans-learnchinese-purchases">订阅与购买</h3>
+        <p>这个版本的应用提供自动续期订阅。购买全部由 App Store 或 Google Play 处理。</p>
+        <p>我们从不接触你的卡号、账单地址或任何其他支付信息。商店只告诉应用「是否存在有效权益」这一个答案；该答案缓存在你的设备上，以便应用离线时也能正常使用。</p>
+        <h2 id="zh-Hans-gcd">Great Cantonese Dictionary</h2>
+        <p>Great Cantonese Dictionary 是一部粤语工具书——词条、读音、例句，以及你查过什么的记录。词典随应用一起打包，因此查词完全不需要联网。它可以在 iPhone、iPad 和 Android 上运行。</p>
+        <h3 id="zh-Hans-gcd-stores">应用在你设备上保存了什么</h3>
+        <p>应用会把下列内容写入你设备上的应用私有存储区——其他应用无法读取的区域。它们会一直留在那里，直到你自己删除，或卸载应用为止。</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>内容</th>
+              <th>用途</th>
+              <th>保存位置</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>词典</td>
+                <td>随应用一起打包、从你设备上读取的参考数据。</td>
+                <td>仅在你的设备上</td>
+              </tr>
+              <tr>
+                <td>收藏</td>
+                <td>你标星或加入书签的条目。</td>
+                <td>仅在你的设备上</td>
+              </tr>
+              <tr>
+                <td>历史记录</td>
+                <td>你最近查过或练过的内容，方便你回头再看。</td>
+                <td>仅在你的设备上</td>
+              </tr>
+              <tr>
+                <td>连续天数与统计</td>
+                <td>个人页面上显示的每日连续天数和学习次数。</td>
+                <td>仅在你的设备上</td>
+              </tr>
+              <tr>
+                <td>设置</td>
+                <td>语言、主题、音频和显示方面的偏好。</td>
+                <td>仅在你的设备上</td>
+              </tr>
+              <tr>
+                <td>订阅状态</td>
+                <td>来自商店的一个「是或否」的缓存答案，让应用离线时也能用。</td>
+                <td>仅在你的设备上</td>
+              </tr>
+              <tr>
+                <td>你的广告选择</td>
+                <td>你给出的同意答案，免得每次启动都再问你一遍。</td>
+                <td>仅在你的设备上</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>这些内容不会上传给我们。我们读不到，无法替你找回，也无法交给任何第三方——因为它们从未到达我们这里。</p>
+        <h3 id="zh-Hans-gcd-leaves">有什么会离开你的设备</h3>
+        <p>下面是完整的清单。凡是没有列出的，都留在你的设备上。</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>发送的内容</th>
+              <th>接收方</th>
+              <th>目的</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>广告请求</td>
+                <td>Google AdMob</td>
+                <td>用于挑选并统计一条广告。</td>
+              </tr>
+              <tr>
+                <td>匿名使用事件</td>
+                <td>Google Firebase Analytics</td>
+                <td>哪些功能被打开的计数，不附带用户 ID。</td>
+              </tr>
+              <tr>
+                <td>崩溃报告</td>
+                <td>Google Firebase Crashlytics</td>
+                <td>应用失败时的错误信息、调用栈、设备型号和应用版本。</td>
+              </tr>
+              <tr>
+                <td>购买校验</td>
+                <td>Apple App Store / Google Play</td>
+                <td>用于确认订阅是否有效。银行卡信息不会到达我们这里。</td>
+              </tr>
+              <tr>
+                <td>没有任何自动发送</td>
+                <td>你点开的网站</td>
+                <td>在应用中打开链接会把它交给你的浏览器，之后就与你的浏览器平时一样。</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <h3 id="zh-Hans-gcd-notdo">应用不会做的事</h3>
+        <p>在本政策为现行版本期间：</p>
+        <ul>
+          <li>没有账号，不需要注册，不需要邮箱，也不需要密码。</li>
+          <li>我们不运营任何接收你内容的服务器，也没有任何记录着你的数据库。</li>
+          <li>我们不出售你的个人信息，也不会为跨情境行为广告而共享它。</li>
+          <li>应用不会跨其他公司的应用或网站跟踪你，也不弹出「App 跟踪透明度」授权框。</li>
+          <li>没有任何内容同步到属于我们的云端账户。我们这边没有可供恢复的备份。</li>
+          <li>应用不索取也不读取你的位置。</li>
+          <li>应用不录制音频，运行时也不请求麦克风权限。</li>
+          <li>应用不读取你的通讯录、日历、短信、通话记录，也不读取其自身存储区以外的文件。</li>
+        </ul>
+        <h3 id="zh-Hans-gcd-perms">权限，以及每一项的用途</h3>
+        <p>下列每一项权限都只用于所声明的那一个用途，不作他用。在两个平台上，你都可以在系统设置中拒绝或撤回其中任何一项；依赖它的功能会停止工作，应用的其余部分照常运行。</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>权限</th>
+              <th>平台</th>
+              <th>目的</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>网络访问</td>
+                <td>Android</td>
+                <td>上述网络请求所必需。</td>
+              </tr>
+              <tr>
+                <td>广告 ID</td>
+                <td>Android</td>
+                <td>供 AdMob 挑选和统计广告。你可以在 Android 设置中重置或删除它。</td>
+              </tr>
+              <tr>
+                <td>支付</td>
+                <td>Android</td>
+                <td>通过 Google Play 售出并校验订阅。</td>
+              </tr>
+              <tr>
+                <td>App 跟踪透明度</td>
+                <td>iOS</td>
+                <td>不请求。应用不会跨其他公司的应用或网站跟踪你。</td>
+              </tr>
+              <tr>
+                <td>麦克风</td>
+                <td>Android 与 iOS</td>
+                <td>不请求。</td>
+              </tr>
+              <tr>
+                <td>相机</td>
+                <td>Android 与 iOS</td>
+                <td>不请求。</td>
+              </tr>
+              <tr>
+                <td>位置</td>
+                <td>Android 与 iOS</td>
+                <td>不请求。</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <h3 id="zh-Hans-gcd-ads">广告，以及你的选择</h3>
+        <p>这个版本的应用会显示由 <strong>Google AdMob</strong> 提供的广告。对于通过这些广告收集的数据，Google 是独立的数据控制者，依据其自身政策处理，详见 <a href="https://policies.google.com/technologies/partner-sites" rel="noopener">policies.google.com/technologies/partner-sites</a>。</p>
+        <p>为了挑选并统计一条广告，Google 可能会收到你设备的广告标识符、设备与应用的一般信息、由 IP 地址推断出的大致位置，以及你是否看过或点击过该广告。关于你个人的这些信息我们一概收不到——我们看到的只是汇总后的收入与展示次数。</p>
+        <p>本应用中的广告以横幅、活动之间的全屏插屏，以及你回到应用时的开屏广告形式出现。</p>
+        <p>在欧洲经济区、英国和瑞士，应用会在请求个性化广告之前先显示 Google 的同意表单。你的选择记录在你自己的设备上，随时可以从应用设置中的广告或隐私选项重新打开，改变主意。</p>
+        <p>你随时可以重置或删除广告标识符——在 Android 上进入「设置 › 隐私 › 广告」，在 iOS 上关闭<em>允许应用请求跟踪</em>，后者会让所有应用都无法取得该标识符。</p>
+        <p>应用不会弹出 Apple 的「App 跟踪透明度」授权框，也不会跨其他公司的应用或网站跟踪你。</p>
+        <h3 id="zh-Hans-gcd-telemetry">使用统计与崩溃报告</h3>
+        <p>应用使用 <strong>Google Firebase</strong> 做两件事：Crashlytics 负责上报崩溃，Analytics 负责统计功能的使用次数。两者都由 Google 代表我们处理。</p>
+        <p>一份崩溃报告包含程序失败时的状态——错误信息、调用栈、设备型号、操作系统版本和应用版本。它由这次失败自动生成，告诉我们该去修哪一行代码。</p>
+        <p>使用统计事件只是一些匿名动作的计数，例如某个页面被打开。我们不设置用户 ID，也不设置任何用户属性，因此这些事件与具体的人无法对应，我们也无法在其中找到你。</p>
+        <h3 id="zh-Hans-gcd-purchases">订阅与购买</h3>
+        <p>这个版本的应用提供自动续期订阅。购买全部由 App Store 或 Google Play 处理。</p>
+        <p>我们从不接触你的卡号、账单地址或任何其他支付信息。商店只告诉应用「是否存在有效权益」这一个答案；该答案缓存在你的设备上，以便应用离线时也能正常使用。</p>
+        <p>在更早版本中售出的一次性买断仍然有效并继续可用；它不会续期，也不会再次扣费。</p>
+        <h2 id="zh-Hans-learnenglish">ALL English</h2>
+        <p>ALL English 通过分级词汇、听力练习、测验和开口跟读的发音练习来教英语。它可以在 iPhone、iPad 和 Android 上运行，界面支持英语、西班牙语、中文和阿拉伯语。你的学习进度保存在你正在使用的那台设备上。</p>
+        <p>本应用在商店中的名称是 <strong>McEnglish</strong>，在你主屏幕上显示为 <strong>ALL English</strong>。两者是同一个应用。</p>
+        <h3 id="zh-Hans-learnenglish-stores">应用在你设备上保存了什么</h3>
+        <p>应用会把下列内容写入你设备上的应用私有存储区——其他应用无法读取的区域。它们会一直留在那里，直到你自己删除，或卸载应用为止。</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>内容</th>
+              <th>用途</th>
+              <th>保存位置</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>学习进度</td>
+                <td>已完成的课程、测验结果，以及你看过哪些条目。</td>
+                <td>仅在你的设备上</td>
+              </tr>
+              <tr>
+                <td>收藏</td>
+                <td>你标星或加入书签的条目。</td>
+                <td>仅在你的设备上</td>
+              </tr>
+              <tr>
+                <td>连续天数与统计</td>
+                <td>个人页面上显示的每日连续天数和学习次数。</td>
+                <td>仅在你的设备上</td>
+              </tr>
+              <tr>
+                <td>设置</td>
+                <td>语言、主题、音频和显示方面的偏好。</td>
+                <td>仅在你的设备上</td>
+              </tr>
+              <tr>
+                <td>订阅状态</td>
+                <td>来自商店的一个「是或否」的缓存答案，让应用离线时也能用。</td>
+                <td>仅在你的设备上</td>
+              </tr>
+              <tr>
+                <td>你的广告选择</td>
+                <td>你给出的同意答案，免得每次启动都再问你一遍。</td>
+                <td>仅在你的设备上</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>这些内容不会上传给我们。我们读不到，无法替你找回，也无法交给任何第三方——因为它们从未到达我们这里。</p>
+        <p>发音练习所用的语音识别，由操作系统自带的识别器完成——iOS 上是 Apple 的，Android 上是 Google 的——并适用各自平台的隐私条款。根据设备和语种的不同，该识别器可能在设备上处理音频，也可能在平台的服务器上处理。音频和识别结果我们都收不到：应用只被告知你说的内容与目标短语的接近程度，而音频在得出这个分数之后立即丢弃。</p>
+        <h3 id="zh-Hans-learnenglish-leaves">有什么会离开你的设备</h3>
+        <p>下面是完整的清单。凡是没有列出的，都留在你的设备上。</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>发送的内容</th>
+              <th>接收方</th>
+              <th>目的</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>广告请求</td>
+                <td>Google AdMob</td>
+                <td>用于挑选并统计一条广告。</td>
+              </tr>
+              <tr>
+                <td>匿名使用事件</td>
+                <td>Google Firebase Analytics</td>
+                <td>哪些功能被打开的计数，不附带用户 ID。</td>
+              </tr>
+              <tr>
+                <td>崩溃报告</td>
+                <td>Google Firebase Crashlytics</td>
+                <td>应用失败时的错误信息、调用栈、设备型号和应用版本。</td>
+              </tr>
+              <tr>
+                <td>购买校验</td>
+                <td>Apple App Store / Google Play</td>
+                <td>用于确认订阅是否有效。银行卡信息不会到达我们这里。</td>
+              </tr>
+              <tr>
+                <td>没有任何自动发送</td>
+                <td>你点开的网站</td>
+                <td>在应用中打开链接会把它交给你的浏览器，之后就与你的浏览器平时一样。</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <h3 id="zh-Hans-learnenglish-notdo">应用不会做的事</h3>
+        <p>在本政策为现行版本期间：</p>
+        <ul>
+          <li>没有账号，不需要注册，不需要邮箱，也不需要密码。</li>
+          <li>我们不运营任何接收你内容的服务器，也没有任何记录着你的数据库。</li>
+          <li>我们不出售你的个人信息，也不会为跨情境行为广告而共享它。</li>
+          <li>应用不会跨其他公司的应用或网站跟踪你，也不弹出「App 跟踪透明度」授权框。</li>
+          <li>没有任何内容同步到属于我们的云端账户。我们这边没有可供恢复的备份。</li>
+          <li>应用不索取也不读取你的位置。</li>
+          <li>应用不读取你的通讯录、日历、短信、通话记录，也不读取其自身存储区以外的文件。</li>
+        </ul>
+        <h3 id="zh-Hans-learnenglish-perms">权限，以及每一项的用途</h3>
+        <p>下列每一项权限都只用于所声明的那一个用途，不作他用。在两个平台上，你都可以在系统设置中拒绝或撤回其中任何一项；依赖它的功能会停止工作，应用的其余部分照常运行。</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>权限</th>
+              <th>平台</th>
+              <th>目的</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>网络访问</td>
+                <td>Android</td>
+                <td>上述网络请求所必需。</td>
+              </tr>
+              <tr>
+                <td>网络状态</td>
+                <td>Android</td>
+                <td>在尝试联网前先确认是否有连接。</td>
+              </tr>
+              <tr>
+                <td>麦克风</td>
+                <td>Android</td>
+                <td>在你开始录音时进行录制。</td>
+              </tr>
+              <tr>
+                <td>广告 ID</td>
+                <td>Android</td>
+                <td>供 AdMob 挑选和统计广告。你可以在 Android 设置中重置或删除它。</td>
+              </tr>
+              <tr>
+                <td>麦克风</td>
+                <td>iOS</td>
+                <td>在你开始录音时进行录制。</td>
+              </tr>
+              <tr>
+                <td>语音识别</td>
+                <td>iOS</td>
+                <td>使用 Apple 的识别器为你的发音打分。</td>
+              </tr>
+              <tr>
+                <td>App 跟踪透明度</td>
+                <td>iOS</td>
+                <td>不请求。应用不会跨其他公司的应用或网站跟踪你。</td>
+              </tr>
+              <tr>
+                <td>位置</td>
+                <td>Android 与 iOS</td>
+                <td>不请求。</td>
+              </tr>
+              <tr>
+                <td>相机</td>
+                <td>Android 与 iOS</td>
+                <td>不请求。</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <h3 id="zh-Hans-learnenglish-ads">广告，以及你的选择</h3>
+        <p>这个版本的应用会显示由 <strong>Google AdMob</strong> 提供的广告。对于通过这些广告收集的数据，Google 是独立的数据控制者，依据其自身政策处理，详见 <a href="https://policies.google.com/technologies/partner-sites" rel="noopener">policies.google.com/technologies/partner-sites</a>。</p>
+        <p>为了挑选并统计一条广告，Google 可能会收到你设备的广告标识符、设备与应用的一般信息、由 IP 地址推断出的大致位置，以及你是否看过或点击过该广告。关于你个人的这些信息我们一概收不到——我们看到的只是汇总后的收入与展示次数。</p>
+        <p>本应用中的广告以横幅和活动之间的全屏插屏形式出现。</p>
+        <p>在欧洲经济区、英国和瑞士，应用会在请求个性化广告之前先显示 Google 的同意表单。你的选择记录在你自己的设备上，随时可以从应用设置中的广告或隐私选项重新打开，改变主意。</p>
+        <p>你随时可以重置或删除广告标识符——在 Android 上进入「设置 › 隐私 › 广告」，在 iOS 上关闭<em>允许应用请求跟踪</em>，后者会让所有应用都无法取得该标识符。</p>
+        <p>应用不会弹出 Apple 的「App 跟踪透明度」授权框，也不会跨其他公司的应用或网站跟踪你。</p>
+        <h3 id="zh-Hans-learnenglish-telemetry">使用统计与崩溃报告</h3>
+        <p>应用使用 <strong>Google Firebase</strong> 做两件事：Crashlytics 负责上报崩溃，Analytics 负责统计功能的使用次数。两者都由 Google 代表我们处理。</p>
+        <p>一份崩溃报告包含程序失败时的状态——错误信息、调用栈、设备型号、操作系统版本和应用版本。它由这次失败自动生成，告诉我们该去修哪一行代码。</p>
+        <p>使用统计事件只是一些匿名动作的计数，例如某个页面被打开。我们不设置用户 ID，也不设置任何用户属性，因此这些事件与具体的人无法对应，我们也无法在其中找到你。</p>
+        <h3 id="zh-Hans-learnenglish-purchases">订阅与购买</h3>
+        <p>这个版本的应用提供自动续期订阅。购买全部由 App Store 或 Google Play 处理。</p>
+        <p>我们从不接触你的卡号、账单地址或任何其他支付信息。商店只告诉应用「是否存在有效权益」这一个答案；该答案缓存在你的设备上，以便应用离线时也能正常使用。</p>
+        <h2 id="zh-Hans-xiezi">Xie Zi</h2>
+        <p>Xie Zi 教的是汉字书写：你按正确的笔顺描写每一个字，应用会告诉你哪一笔写错了。它收录的 9,574 字词典和全部笔顺动画都打包在应用内部，因此练字完全不需要联网。</p>
+        <h3 id="zh-Hans-xiezi-stores">应用在你设备上保存了什么</h3>
+        <p>应用会把下列内容写入你设备上的应用私有存储区——其他应用无法读取的区域。它们会一直留在那里，直到你自己删除，或卸载应用为止。</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>内容</th>
+              <th>用途</th>
+              <th>保存位置</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>词典</td>
+                <td>随应用一起打包、从你设备上读取的参考数据。</td>
+                <td>仅在你的设备上</td>
+              </tr>
+              <tr>
+                <td>学习进度</td>
+                <td>已完成的课程、测验结果，以及你看过哪些条目。</td>
+                <td>仅在你的设备上</td>
+              </tr>
+              <tr>
+                <td>收藏</td>
+                <td>你标星或加入书签的条目。</td>
+                <td>仅在你的设备上</td>
+              </tr>
+              <tr>
+                <td>历史记录</td>
+                <td>你最近查过或练过的内容，方便你回头再看。</td>
+                <td>仅在你的设备上</td>
+              </tr>
+              <tr>
+                <td>连续天数与统计</td>
+                <td>个人页面上显示的每日连续天数和学习次数。</td>
+                <td>仅在你的设备上</td>
+              </tr>
+              <tr>
+                <td>设置</td>
+                <td>语言、主题、音频和显示方面的偏好。</td>
+                <td>仅在你的设备上</td>
+              </tr>
+              <tr>
+                <td>订阅状态</td>
+                <td>来自商店的一个「是或否」的缓存答案，让应用离线时也能用。</td>
+                <td>仅在你的设备上</td>
+              </tr>
+              <tr>
+                <td>你的广告选择</td>
+                <td>你给出的同意答案，免得每次启动都再问你一遍。</td>
+                <td>仅在你的设备上</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>这些内容不会上传给我们。我们读不到，无法替你找回，也无法交给任何第三方——因为它们从未到达我们这里。</p>
+        <h3 id="zh-Hans-xiezi-leaves">有什么会离开你的设备</h3>
+        <p>下面是完整的清单。凡是没有列出的，都留在你的设备上。</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>发送的内容</th>
+              <th>接收方</th>
+              <th>目的</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>广告请求</td>
+                <td>Google AdMob</td>
+                <td>用于挑选并统计一条广告。</td>
+              </tr>
+              <tr>
+                <td>购买校验</td>
+                <td>Apple App Store / Google Play</td>
+                <td>用于确认订阅是否有效。银行卡信息不会到达我们这里。</td>
+              </tr>
+              <tr>
+                <td>没有任何自动发送</td>
+                <td>你点开的网站</td>
+                <td>在应用中打开链接会把它交给你的浏览器，之后就与你的浏览器平时一样。</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>笔顺动画及其全部汉字数据都打包在应用内部。查看或练习任何一个字都不会发出网络请求。</p>
+        <h3 id="zh-Hans-xiezi-notdo">应用不会做的事</h3>
+        <p>在本政策为现行版本期间：</p>
+        <ul>
+          <li>没有账号，不需要注册，不需要邮箱，也不需要密码。</li>
+          <li>我们不运营任何接收你内容的服务器，也没有任何记录着你的数据库。</li>
+          <li>我们不出售你的个人信息，也不会为跨情境行为广告而共享它。</li>
+          <li>应用不会跨其他公司的应用或网站跟踪你，也不弹出「App 跟踪透明度」授权框。</li>
+          <li>没有任何内容同步到属于我们的云端账户。我们这边没有可供恢复的备份。</li>
+          <li>这个版本不含使用统计 SDK，也不含崩溃上报 SDK。</li>
+          <li>应用不索取也不读取你的位置。</li>
+          <li>应用不录制音频，运行时也不请求麦克风权限。</li>
+          <li>应用不读取你的通讯录、日历、短信、通话记录，也不读取其自身存储区以外的文件。</li>
+        </ul>
+        <h3 id="zh-Hans-xiezi-perms">权限，以及每一项的用途</h3>
+        <p>下列每一项权限都只用于所声明的那一个用途，不作他用。在两个平台上，你都可以在系统设置中拒绝或撤回其中任何一项；依赖它的功能会停止工作，应用的其余部分照常运行。</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>权限</th>
+              <th>平台</th>
+              <th>目的</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>网络访问</td>
+                <td>Android</td>
+                <td>上述网络请求所必需。</td>
+              </tr>
+              <tr>
+                <td>网络状态</td>
+                <td>Android</td>
+                <td>在尝试联网前先确认是否有连接。</td>
+              </tr>
+              <tr>
+                <td>广告 ID</td>
+                <td>Android</td>
+                <td>供 AdMob 挑选和统计广告。你可以在 Android 设置中重置或删除它。</td>
+              </tr>
+              <tr>
+                <td>麦克风——已声明，未使用</td>
+                <td>Android</td>
+                <td>早期设计的遗留。这个版本不含录音代码，运行时从不请求该权限。</td>
+              </tr>
+              <tr>
+                <td>蓝牙——已声明，未使用</td>
+                <td>Android</td>
+                <td>早期设计的遗留。这个版本不含蓝牙代码，运行时从不请求该权限。</td>
+              </tr>
+              <tr>
+                <td>App 跟踪透明度</td>
+                <td>iOS</td>
+                <td>不请求。应用不会跨其他公司的应用或网站跟踪你。</td>
+              </tr>
+              <tr>
+                <td>麦克风</td>
+                <td>Android 与 iOS</td>
+                <td>不请求。</td>
+              </tr>
+              <tr>
+                <td>相机</td>
+                <td>Android 与 iOS</td>
+                <td>不请求。</td>
+              </tr>
+              <tr>
+                <td>位置</td>
+                <td>Android 与 iOS</td>
+                <td>不请求。</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>Android 清单文件中还保留着两项来自早期设计的权限——麦克风和蓝牙——因此商店页面上会列出它们。这个版本的应用既不含录音代码也不含蓝牙代码：两者都不会在运行时被请求，也都不会被使用。之所以在此说明，是因为你能在商店页面看到它们，你理应得到一个解释，而不是一个意外。</p>
+        <h3 id="zh-Hans-xiezi-ads">广告，以及你的选择</h3>
+        <p>这个版本的应用会显示由 <strong>Google AdMob</strong> 提供的广告。对于通过这些广告收集的数据，Google 是独立的数据控制者，依据其自身政策处理，详见 <a href="https://policies.google.com/technologies/partner-sites" rel="noopener">policies.google.com/technologies/partner-sites</a>。</p>
+        <p>为了挑选并统计一条广告，Google 可能会收到你设备的广告标识符、设备与应用的一般信息、由 IP 地址推断出的大致位置，以及你是否看过或点击过该广告。关于你个人的这些信息我们一概收不到——我们看到的只是汇总后的收入与展示次数。</p>
+        <p>本应用中的广告以横幅和活动之间的全屏插屏形式出现。</p>
+        <p>这个版本请求的是非个性化广告。非个性化广告同样会被统计，因此仍有少量信息到达 Google，但它不是根据你的兴趣画像挑选出来的。</p>
+        <p>在欧洲经济区、英国和瑞士，应用会在请求个性化广告之前先显示 Google 的同意表单。你的选择记录在你自己的设备上，随时可以从应用设置中的广告或隐私选项重新打开，改变主意。</p>
+        <p>你随时可以重置或删除广告标识符——在 Android 上进入「设置 › 隐私 › 广告」，在 iOS 上关闭<em>允许应用请求跟踪</em>，后者会让所有应用都无法取得该标识符。</p>
+        <p>应用不会弹出 Apple 的「App 跟踪透明度」授权框，也不会跨其他公司的应用或网站跟踪你。</p>
+        <h3 id="zh-Hans-xiezi-telemetry">使用统计与崩溃报告</h3>
+        <p>这个版本的应用不包含任何使用统计 SDK，也不包含任何崩溃上报 SDK。我们收不到它的任何使用数据、崩溃报告或诊断信息。</p>
+        <h3 id="zh-Hans-xiezi-purchases">订阅与购买</h3>
+        <p>这个版本的应用提供自动续期订阅。购买全部由 App Store 或 Google Play 处理。</p>
+        <p>我们从不接触你的卡号、账单地址或任何其他支付信息。商店只告诉应用「是否存在有效权益」这一个答案；该答案缓存在你的设备上，以便应用离线时也能正常使用。</p>
+        <h2 id="zh-Hans-momerame">Momera.ME</h2>
+        <p>Momera.ME 在事情发生的当下把它记下来——一张照片、一段语音、一条笔记、你在哪里、走了多远——并把它们收在同一条记录里。它记下的一切都写入你自己的设备。它在 Android 上运行。</p>
+        <h3 id="zh-Hans-momerame-stores">应用在你设备上保存了什么</h3>
+        <p>应用会把下列内容写入你设备上的应用私有存储区——其他应用无法读取的区域。它们会一直留在那里，直到你自己删除，或卸载应用为止。</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>内容</th>
+              <th>用途</th>
+              <th>保存位置</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>照片与视频</td>
+                <td>你在应用中拍摄或附加到某条记录上的那些。</td>
+                <td>仅在你的设备上</td>
+              </tr>
+              <tr>
+                <td>语音备忘</td>
+                <td>你针对某个地点或某条记录录下的音频。</td>
+                <td>仅在你的设备上</td>
+              </tr>
+              <tr>
+                <td>转写文本</td>
+                <td>在设备上由你的音频生成的文字。</td>
+                <td>仅在你的设备上</td>
+              </tr>
+              <tr>
+                <td>文字笔记</td>
+                <td>你输入的内容。</td>
+                <td>仅在你的设备上</td>
+              </tr>
+              <tr>
+                <td>记录的路线</td>
+                <td>你主动开始记录的那段行程的 GPS 轨迹。</td>
+                <td>仅在你的设备上</td>
+              </tr>
+              <tr>
+                <td>步数</td>
+                <td>记录期间由设备传感器统计的步数。</td>
+                <td>仅在你的设备上</td>
+              </tr>
+              <tr>
+                <td>语音模型</td>
+                <td>下载下来、让离线转写得以工作的模型文件。</td>
+                <td>仅在你的设备上</td>
+              </tr>
+              <tr>
+                <td>缓存的地图瓦片</td>
+                <td>已经下载过的地图方块，留着让该区域离线可用。</td>
+                <td>仅在你的设备上</td>
+              </tr>
+              <tr>
+                <td>设置</td>
+                <td>语言、主题、音频和显示方面的偏好。</td>
+                <td>仅在你的设备上</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>这些内容不会上传给我们。我们读不到，无法替你找回，也无法交给任何第三方——因为它们从未到达我们这里。</p>
+        <p>语音由应用内置的模型在你的设备上转写。你的音频不会被上传，不会被送往任何云端转写服务，也不会被用来训练任何模型。</p>
+        <p>步数统计通过「身体活动」权限读取设备自带的计步传感器。计数与该次记录一起保存在你的设备上。应用不读取也不写入任何健康或健身平台——既不是 Apple 健康，也不是 Google Fit。</p>
+        <p>屏幕录制只有在你启动它时才会进行，且只录制本应用自己的画面，生成的文件写入你的设备。它绝不会在后台或未经你操作的情况下启动。</p>
+        <p>本应用关闭了 Android 自动备份，因此它的内容不会被复制到你的 Google 云端硬盘，也不会在换机迁移时被带走。</p>
+        <h3 id="zh-Hans-momerame-leaves">有什么会离开你的设备</h3>
+        <p>下面是完整的清单。凡是没有列出的，都留在你的设备上。</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>发送的内容</th>
+              <th>接收方</th>
+              <th>目的</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>地图瓦片请求</td>
+                <td>OpenStreetMap 基金会</td>
+                <td>用于绘制地图。会发送你的 IP 地址和所请求的地图方块。</td>
+              </tr>
+              <tr>
+                <td>一次性的模型下载</td>
+                <td>GitHub，失败时改用 Hugging Face</td>
+                <td>用于取回离线语音模型。不发送关于你的任何信息。</td>
+              </tr>
+              <tr>
+                <td>没有任何自动发送</td>
+                <td>你点开的网站</td>
+                <td>在应用中打开链接会把它交给你的浏览器，之后就与你的浏览器平时一样。</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>地图是由你平移和缩放时取回的瓦片拼出来的。该请求会让瓦片服务器知道你的 IP 地址，以及你正在看地图的哪一小块——任何在线地图都是如此。你记录的路线绝不会随之发送。瓦片会缓存在你的设备上，因此看过的区域在离线时仍然可用。</p>
+        <p>第一次使用离线转写时，应用会从我们在 GitHub 上的发布页下载语音识别模型（约 228 MB），若该地址不可用则改从 Hugging Face 下载。这只是单向地取回一个文件：请求中不包含关于你的任何信息，也不包含你的任何音频。模型下载到设备之后，转写完全在设备上进行，在完全没有网络的情况下也能工作。</p>
+        <p>上表之外，凡是你主动发送的内容——通过系统分享面板、导出、打印或剪贴板——都会去到你指定的地方。那是你每一次自己的选择，不在上表的范围内。</p>
+        <h3 id="zh-Hans-momerame-notdo">应用不会做的事</h3>
+        <p>在本政策为现行版本期间：</p>
+        <ul>
+          <li>没有账号，不需要注册，不需要邮箱，也不需要密码。</li>
+          <li>我们不运营任何接收你内容的服务器，也没有任何记录着你的数据库。</li>
+          <li>我们不出售你的个人信息，也不会为跨情境行为广告而共享它。</li>
+          <li>应用不会跨其他公司的应用或网站跟踪你，也不弹出「App 跟踪透明度」授权框。</li>
+          <li>没有任何内容同步到属于我们的云端账户。我们这边没有可供恢复的备份。</li>
+          <li>这个版本不含广告 SDK，也不显示任何广告。</li>
+          <li>这个版本不含使用统计 SDK，也不含崩溃上报 SDK。</li>
+          <li>应用不读取你的通讯录、日历、短信、通话记录，也不读取其自身存储区以外的文件。</li>
+          <li>应用不读取也不写入任何健康或健身平台——既不是 Apple 健康，也不是 Google Fit。</li>
+        </ul>
+        <h3 id="zh-Hans-momerame-perms">权限，以及每一项的用途</h3>
+        <p>下列每一项权限都只用于所声明的那一个用途，不作他用。在两个平台上，你都可以在系统设置中拒绝或撤回其中任何一项；依赖它的功能会停止工作，应用的其余部分照常运行。</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>权限</th>
+              <th>平台</th>
+              <th>目的</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>网络访问</td>
+                <td>Android</td>
+                <td>上述网络请求所必需。</td>
+              </tr>
+              <tr>
+                <td>麦克风</td>
+                <td>Android</td>
+                <td>在你开始录音时进行录制。</td>
+              </tr>
+              <tr>
+                <td>相机</td>
+                <td>Android</td>
+                <td>在应用内拍摄照片或视频。</td>
+              </tr>
+              <tr>
+                <td>精确位置</td>
+                <td>Android</td>
+                <td>在记录期间准确记下你的路线。</td>
+              </tr>
+              <tr>
+                <td>大致位置</td>
+                <td>Android</td>
+                <td>当你只允许大致位置时，系统授予的退而求其次的那一项。</td>
+              </tr>
+              <tr>
+                <td>后台位置</td>
+                <td>Android</td>
+                <td>让你已开始的记录在离开应用后不中断。在你没有进行记录时不会使用。</td>
+              </tr>
+              <tr>
+                <td>身体活动</td>
+                <td>Android</td>
+                <td>在记录期间读取设备的计步器。</td>
+              </tr>
+              <tr>
+                <td>前台服务</td>
+                <td>Android</td>
+                <td>让你启动的任务带着一条可见的常驻通知继续运行。</td>
+              </tr>
+              <tr>
+                <td>前台服务——位置</td>
+                <td>Android</td>
+                <td>在息屏时保持你已开始记录的路线不中断。</td>
+              </tr>
+              <tr>
+                <td>前台服务——麦克风</td>
+                <td>Android</td>
+                <td>在息屏时保持你已开始的录音继续进行。</td>
+              </tr>
+              <tr>
+                <td>前台服务——屏幕录制</td>
+                <td>Android</td>
+                <td>仅在你启动的屏幕录制进行期间。</td>
+              </tr>
+              <tr>
+                <td>通知</td>
+                <td>Android</td>
+                <td>在录制进行期间显示常驻通知，并在结束时告知你。</td>
+              </tr>
+              <tr>
+                <td>存储（仅旧版 Android）</td>
+                <td>Android</td>
+                <td>在 Android 9 及更早版本上保存文件。在更新的版本上不会请求。</td>
+              </tr>
+              <tr>
+                <td>App 跟踪透明度</td>
+                <td>iOS</td>
+                <td>不请求。应用不会跨其他公司的应用或网站跟踪你。</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>后台位置只在你自己启动的记录进行期间使用，且仅用于在息屏时保持轨迹不中断。整个过程中都有一条常驻通知可见。它绝不会被用来在你未启动记录时收集你的行踪。</p>
+        <h3 id="zh-Hans-momerame-telemetry">使用统计与崩溃报告</h3>
+        <p>这个版本的应用不包含任何使用统计 SDK，也不包含任何崩溃上报 SDK。我们收不到它的任何使用数据、崩溃报告或诊断信息。</p>
+        <h3 id="zh-Hans-momerame-purchases">订阅与购买</h3>
+        <p>这个版本的应用没有任何应用内购买，也没有订阅，因此不会收集任何支付信息。</p>
+        <h2 id="zh-Hans-momerago">Momera GO</h2>
+        <p>Momera GO 在你走的时候把这趟徒步记下来——路线、拍摄地点上钉着的照片和视频、语音备忘和笔记——并把它变成一段可以回放的行程。它可以在 iPhone、iPad 和 Android 上运行，并且是为没有信号的地方设计的。</p>
+        <h3 id="zh-Hans-momerago-stores">应用在你设备上保存了什么</h3>
+        <p>应用会把下列内容写入你设备上的应用私有存储区——其他应用无法读取的区域。它们会一直留在那里，直到你自己删除，或卸载应用为止。</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>内容</th>
+              <th>用途</th>
+              <th>保存位置</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>记录的路线</td>
+                <td>你主动开始记录的那段行程的 GPS 轨迹。</td>
+                <td>仅在你的设备上</td>
+              </tr>
+              <tr>
+                <td>照片与视频</td>
+                <td>你在应用中拍摄或附加到某条记录上的那些。</td>
+                <td>仅在你的设备上</td>
+              </tr>
+              <tr>
+                <td>语音备忘</td>
+                <td>你针对某个地点或某条记录录下的音频。</td>
+                <td>仅在你的设备上</td>
+              </tr>
+              <tr>
+                <td>文字笔记</td>
+                <td>你输入的内容。</td>
+                <td>仅在你的设备上</td>
+              </tr>
+              <tr>
+                <td>行程</td>
+                <td>你用路线、照片和笔记拼成的旅程。</td>
+                <td>仅在你的设备上</td>
+              </tr>
+              <tr>
+                <td>导入的路线与时间轴文件</td>
+                <td>你自己导入的 GPX 文件和 Google 时间轴导出文件。</td>
+                <td>仅在你的设备上</td>
+              </tr>
+              <tr>
+                <td>步数</td>
+                <td>记录期间由设备传感器统计的步数。</td>
+                <td>仅在你的设备上</td>
+              </tr>
+              <tr>
+                <td>缓存的地图瓦片</td>
+                <td>已经下载过的地图方块，留着让该区域离线可用。</td>
+                <td>仅在你的设备上</td>
+              </tr>
+              <tr>
+                <td>设置</td>
+                <td>语言、主题、音频和显示方面的偏好。</td>
+                <td>仅在你的设备上</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>这些内容不会上传给我们。我们读不到，无法替你找回，也无法交给任何第三方——因为它们从未到达我们这里。</p>
+        <p>你可以导入 Google 地图时间轴的导出文件来重建过去的行程。文件由你自己提供；应用在你的设备上读取它，文件本身以及由它生成的任何内容都不会上传。在应用中删除导入的行程，它们就不存在了。</p>
+        <p>用照片生成行程时使用的是系统相册选择器。选择器只把你挑中的那几项交给应用——应用并不会因此获得访问你整个相册的权限，在 iOS 上更是完全不请求相册权限。从照片自身元数据中读到的位置，用于把它放到地图上，并与行程一起留在你的设备上。</p>
+        <p>步数统计通过「身体活动」权限读取设备自带的计步传感器。计数与该次记录一起保存在你的设备上。应用不读取也不写入任何健康或健身平台——既不是 Apple 健康，也不是 Google Fit。</p>
+        <p>应用可以打开其他应用传来的 .gpx 文件，也可以把你的路线导出为 .gpx 或 GeoJSON。导入是在你的设备上读取文件；导出则生成一个文件，之后如何处置由你决定。</p>
+        <h3 id="zh-Hans-momerago-leaves">有什么会离开你的设备</h3>
+        <p>下面是完整的清单。凡是没有列出的，都留在你的设备上。</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>发送的内容</th>
+              <th>接收方</th>
+              <th>目的</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>地图瓦片请求</td>
+                <td>OpenStreetMap 基金会</td>
+                <td>用于绘制地图。会发送你的 IP 地址和所请求的地图方块。</td>
+              </tr>
+              <tr>
+                <td>地形瓦片请求</td>
+                <td>OpenTopoMap</td>
+                <td>用于绘制地形图。会发送你的 IP 地址和所请求的地图方块。</td>
+              </tr>
+              <tr>
+                <td>匿名使用事件（仅 Android 版本）</td>
+                <td>Google Firebase Analytics</td>
+                <td>诊断计数，不附带用户 ID，也不附带位置。</td>
+              </tr>
+              <tr>
+                <td>崩溃报告（仅 Android 版本）</td>
+                <td>Google Firebase Crashlytics</td>
+                <td>应用失败时的错误信息、调用栈、设备型号和应用版本。</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>地图是由你平移和缩放时取回的瓦片拼出来的。该请求会让瓦片服务器知道你的 IP 地址，以及你正在看地图的哪一小块——任何在线地图都是如此。你记录的路线绝不会随之发送。瓦片会缓存在你的设备上，因此看过的区域在离线时仍然可用。</p>
+        <p>上表之外，凡是你主动发送的内容——通过系统分享面板、导出、打印或剪贴板——都会去到你指定的地方。那是你每一次自己的选择，不在上表的范围内。</p>
+        <h3 id="zh-Hans-momerago-notdo">应用不会做的事</h3>
+        <p>在本政策为现行版本期间：</p>
+        <ul>
+          <li>没有账号，不需要注册，不需要邮箱，也不需要密码。</li>
+          <li>我们不运营任何接收你内容的服务器，也没有任何记录着你的数据库。</li>
+          <li>我们不出售你的个人信息，也不会为跨情境行为广告而共享它。</li>
+          <li>应用不会跨其他公司的应用或网站跟踪你，也不弹出「App 跟踪透明度」授权框。</li>
+          <li>没有任何内容同步到属于我们的云端账户。我们这边没有可供恢复的备份。</li>
+          <li>这个版本不含广告 SDK，也不显示任何广告。</li>
+          <li>应用不读取你的通讯录、日历、短信、通话记录，也不读取其自身存储区以外的文件。</li>
+          <li>应用不读取也不写入任何健康或健身平台——既不是 Apple 健康，也不是 Google Fit。</li>
+        </ul>
+        <h3 id="zh-Hans-momerago-perms">权限，以及每一项的用途</h3>
+        <p>下列每一项权限都只用于所声明的那一个用途，不作他用。在两个平台上，你都可以在系统设置中拒绝或撤回其中任何一项；依赖它的功能会停止工作，应用的其余部分照常运行。</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>权限</th>
+              <th>平台</th>
+              <th>目的</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>网络访问</td>
+                <td>Android</td>
+                <td>上述网络请求所必需。</td>
+              </tr>
+              <tr>
+                <td>精确位置</td>
+                <td>Android</td>
+                <td>在记录期间准确记下你的路线。</td>
+              </tr>
+              <tr>
+                <td>大致位置</td>
+                <td>Android</td>
+                <td>当你只允许大致位置时，系统授予的退而求其次的那一项。</td>
+              </tr>
+              <tr>
+                <td>相机</td>
+                <td>Android</td>
+                <td>在应用内拍摄照片或视频。</td>
+              </tr>
+              <tr>
+                <td>麦克风</td>
+                <td>Android</td>
+                <td>在你开始录音时进行录制。</td>
+              </tr>
+              <tr>
+                <td>照片中的位置</td>
+                <td>Android</td>
+                <td>从照片自身的元数据中读出拍摄地点，以便把它放到地图上。</td>
+              </tr>
+              <tr>
+                <td>身体活动</td>
+                <td>Android</td>
+                <td>在记录期间读取设备的计步器。</td>
+              </tr>
+              <tr>
+                <td>前台服务</td>
+                <td>Android</td>
+                <td>让你启动的任务带着一条可见的常驻通知继续运行。</td>
+              </tr>
+              <tr>
+                <td>前台服务——位置</td>
+                <td>Android</td>
+                <td>在息屏时保持你已开始记录的路线不中断。</td>
+              </tr>
+              <tr>
+                <td>前台服务——屏幕录制</td>
+                <td>Android</td>
+                <td>仅在你启动的屏幕录制进行期间。</td>
+              </tr>
+              <tr>
+                <td>通知</td>
+                <td>Android</td>
+                <td>在录制进行期间显示常驻通知，并在结束时告知你。</td>
+              </tr>
+              <tr>
+                <td>存储（仅旧版 Android）</td>
+                <td>Android</td>
+                <td>在 Android 9 及更早版本上保存文件。在更新的版本上不会请求。</td>
+              </tr>
+              <tr>
+                <td>位置——使用期间</td>
+                <td>iOS</td>
+                <td>在记录进行期间记下你的路线。不申请「始终」位置权限。</td>
+              </tr>
+              <tr>
+                <td>相机</td>
+                <td>iOS</td>
+                <td>在应用内拍摄。</td>
+              </tr>
+              <tr>
+                <td>麦克风</td>
+                <td>iOS</td>
+                <td>在你开始录音时进行录制。</td>
+              </tr>
+              <tr>
+                <td>后台位置模式</td>
+                <td>iOS</td>
+                <td>让你已开始的记录在锁屏后继续。没有记录进行时它处于非活动状态。</td>
+              </tr>
+              <tr>
+                <td>后台位置</td>
+                <td>Android 与 iOS</td>
+                <td>两个平台上都不请求。</td>
+              </tr>
+              <tr>
+                <td>相册</td>
+                <td>iOS</td>
+                <td>不请求。系统相册选择器只交出你挑选的那几项。</td>
+              </tr>
+              <tr>
+                <td>App 跟踪透明度</td>
+                <td>iOS</td>
+                <td>不请求。应用不会跨其他公司的应用或网站跟踪你。</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>只有在你启动了一次徒步记录期间才会记录位置，其间会有一条常驻通知可见，你停止记录时位置记录即停止。应用在两个平台上都不申请后台位置权限。</p>
+        <h3 id="zh-Hans-momerago-telemetry">使用统计与崩溃报告</h3>
+        <p>应用使用 <strong>Google Firebase</strong> 做两件事：Crashlytics 负责上报崩溃，Analytics 负责统计功能的使用次数。两者都由 Google 代表我们处理。</p>
+        <p>一份崩溃报告包含程序失败时的状态——错误信息、调用栈、设备型号、操作系统版本和应用版本。它由这次失败自动生成，告诉我们该去修哪一行代码。</p>
+        <p>这些统计事件是关于位置记录可靠性的诊断计数——记录已开始、已停止或已恢复，或者位置数据流停顿后重新打开。<strong>其中不包含任何坐标、任何路线、任何地名。</strong></p>
+        <div class="pp-note">
+        <p><strong>这一节只适用于 Android 版本。</strong>iOS 版本在构建时未包含 Firebase 配置，因此不会初始化任何 Firebase 服务，不发送任何崩溃报告，也不发送任何统计事件。</p>
+        </div>
+        <h3 id="zh-Hans-momerago-purchases">订阅与购买</h3>
+        <p>这个版本的应用没有任何应用内购买，也没有订阅，因此不会收集任何支付信息。</p>
+        <h2 id="zh-Hans-mcrecorder">McRecorder</h2>
+        <p>McRecorder 录制音频，并用一个在你自己设备上运行的语音模型把它转写成文字。录音和转写文本都是应用私有存储区里的文件。它可以在 iPhone、iPad 和 Android 上运行。</p>
+        <h3 id="zh-Hans-mcrecorder-stores">应用在你设备上保存了什么</h3>
+        <p>应用会把下列内容写入你设备上的应用私有存储区——其他应用无法读取的区域。它们会一直留在那里，直到你自己删除，或卸载应用为止。</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>内容</th>
+              <th>用途</th>
+              <th>保存位置</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>录音</td>
+                <td>你录下的音频，以文件形式保存。</td>
+                <td>仅在你的设备上</td>
+              </tr>
+              <tr>
+                <td>转写文本</td>
+                <td>在设备上由你的音频生成的文字。</td>
+                <td>仅在你的设备上</td>
+              </tr>
+              <tr>
+                <td>语音模型</td>
+                <td>下载下来、让离线转写得以工作的模型文件。</td>
+                <td>仅在你的设备上</td>
+              </tr>
+              <tr>
+                <td>设置</td>
+                <td>语言、主题、音频和显示方面的偏好。</td>
+                <td>仅在你的设备上</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>这些内容不会上传给我们。我们读不到，无法替你找回，也无法交给任何第三方——因为它们从未到达我们这里。</p>
+        <p>语音由应用内置的模型在你的设备上转写。你的音频不会被上传，不会被送往任何云端转写服务，也不会被用来训练任何模型。</p>
+        <h3 id="zh-Hans-mcrecorder-leaves">有什么会离开你的设备</h3>
+        <p>下面是完整的清单。凡是没有列出的，都留在你的设备上。</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>发送的内容</th>
+              <th>接收方</th>
+              <th>目的</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>一次性的模型下载</td>
+                <td>GitHub，失败时改用 Hugging Face</td>
+                <td>用于取回离线语音模型。不发送关于你的任何信息。</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>第一次使用离线转写时，应用会从我们在 GitHub 上的发布页下载语音识别模型（约 228 MB），若该地址不可用则改从 Hugging Face 下载。这只是单向地取回一个文件：请求中不包含关于你的任何信息，也不包含你的任何音频。模型下载到设备之后，转写完全在设备上进行，在完全没有网络的情况下也能工作。</p>
+        <p>上表之外，凡是你主动发送的内容——通过系统分享面板、导出、打印或剪贴板——都会去到你指定的地方。那是你每一次自己的选择，不在上表的范围内。</p>
+        <h3 id="zh-Hans-mcrecorder-notdo">应用不会做的事</h3>
+        <p>在本政策为现行版本期间：</p>
+        <ul>
+          <li>没有账号，不需要注册，不需要邮箱，也不需要密码。</li>
+          <li>我们不运营任何接收你内容的服务器，也没有任何记录着你的数据库。</li>
+          <li>我们不出售你的个人信息，也不会为跨情境行为广告而共享它。</li>
+          <li>应用不会跨其他公司的应用或网站跟踪你，也不弹出「App 跟踪透明度」授权框。</li>
+          <li>没有任何内容同步到属于我们的云端账户。我们这边没有可供恢复的备份。</li>
+          <li>这个版本不含广告 SDK，也不显示任何广告。</li>
+          <li>这个版本不含使用统计 SDK，也不含崩溃上报 SDK。</li>
+          <li>应用不索取也不读取你的位置。</li>
+          <li>应用不读取你的通讯录、日历、短信、通话记录，也不读取其自身存储区以外的文件。</li>
+        </ul>
+        <h3 id="zh-Hans-mcrecorder-perms">权限，以及每一项的用途</h3>
+        <p>下列每一项权限都只用于所声明的那一个用途，不作他用。在两个平台上，你都可以在系统设置中拒绝或撤回其中任何一项；依赖它的功能会停止工作，应用的其余部分照常运行。</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>权限</th>
+              <th>平台</th>
+              <th>目的</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>网络访问</td>
+                <td>Android</td>
+                <td>上述网络请求所必需。</td>
+              </tr>
+              <tr>
+                <td>麦克风</td>
+                <td>Android</td>
+                <td>在你开始录音时进行录制。</td>
+              </tr>
+              <tr>
+                <td>前台服务</td>
+                <td>Android</td>
+                <td>让你启动的任务带着一条可见的常驻通知继续运行。</td>
+              </tr>
+              <tr>
+                <td>前台服务——麦克风</td>
+                <td>Android</td>
+                <td>在息屏时保持你已开始的录音继续进行。</td>
+              </tr>
+              <tr>
+                <td>保持唤醒</td>
+                <td>Android</td>
+                <td>防止处理器在录制中途休眠。</td>
+              </tr>
+              <tr>
+                <td>通知</td>
+                <td>Android</td>
+                <td>在录制进行期间显示常驻通知，并在结束时告知你。</td>
+              </tr>
+              <tr>
+                <td>麦克风</td>
+                <td>iOS</td>
+                <td>在你开始录音时进行录制。</td>
+              </tr>
+              <tr>
+                <td>App 跟踪透明度</td>
+                <td>iOS</td>
+                <td>不请求。应用不会跨其他公司的应用或网站跟踪你。</td>
+              </tr>
+              <tr>
+                <td>位置</td>
+                <td>Android 与 iOS</td>
+                <td>不请求。</td>
+              </tr>
+              <tr>
+                <td>相机</td>
+                <td>Android 与 iOS</td>
+                <td>不请求。</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <h3 id="zh-Hans-mcrecorder-telemetry">使用统计与崩溃报告</h3>
+        <p>这个版本的应用不包含任何使用统计 SDK，也不包含任何崩溃上报 SDK。我们收不到它的任何使用数据、崩溃报告或诊断信息。</p>
+        <h3 id="zh-Hans-mcrecorder-purchases">订阅与购买</h3>
+        <p>这个版本的应用没有任何应用内购买，也没有订阅，因此不会收集任何支付信息。</p>
+        <h2 id="zh-Hans-quickonescanner">QuickOne Scanner</h2>
+        <p>QuickOne Scanner 把你用手机拍下的页面变成裁切好、校正过的 PDF，并读出上面的文字，让你可以搜索和复制。扫描和文字识别都在你的设备上进行。它可以在 iPhone、iPad 和 Android 上运行。</p>
+        <h3 id="zh-Hans-quickonescanner-stores">应用在你设备上保存了什么</h3>
+        <p>应用会把下列内容写入你设备上的应用私有存储区——其他应用无法读取的区域。它们会一直留在那里，直到你自己删除，或卸载应用为止。</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>内容</th>
+              <th>用途</th>
+              <th>保存位置</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>扫描的页面</td>
+                <td>你拍摄或导入的页面图像。</td>
+                <td>仅在你的设备上</td>
+              </tr>
+              <tr>
+                <td>识别出的文字</td>
+                <td>在设备上从你的页面中读出的文字。</td>
+                <td>仅在你的设备上</td>
+              </tr>
+              <tr>
+                <td>设置</td>
+                <td>语言、主题、音频和显示方面的偏好。</td>
+                <td>仅在你的设备上</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>这些内容不会上传给我们。我们读不到，无法替你找回，也无法交给任何第三方——因为它们从未到达我们这里。</p>
+        <h3 id="zh-Hans-quickonescanner-leaves">有什么会离开你的设备</h3>
+        <p>下面是完整的清单。凡是没有列出的，都留在你的设备上。</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>发送的内容</th>
+              <th>接收方</th>
+              <th>目的</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>模型下载与 Google 自身的诊断</td>
+                <td>Google Play 服务（ML Kit）</td>
+                <td>用于取回文档扫描模型。你的页面不会被发送。</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>文档检测与文字识别通过 Google ML Kit 完成。在 Android 上，文档扫描器运行于 Google Play 服务内部，首次使用时下载其模型；文字识别使用的是随应用一起打包的模型。页面与识别出的文字都在设备上处理，不会作为内容上传给我们或 Google。</p>
+        <p>上表之外，凡是你主动发送的内容——通过系统分享面板、导出、打印或剪贴板——都会去到你指定的地方。那是你每一次自己的选择，不在上表的范围内。</p>
+        <h3 id="zh-Hans-quickonescanner-notdo">应用不会做的事</h3>
+        <p>在本政策为现行版本期间：</p>
+        <ul>
+          <li>没有账号，不需要注册，不需要邮箱，也不需要密码。</li>
+          <li>我们不运营任何接收你内容的服务器，也没有任何记录着你的数据库。</li>
+          <li>我们不出售你的个人信息，也不会为跨情境行为广告而共享它。</li>
+          <li>应用不会跨其他公司的应用或网站跟踪你，也不弹出「App 跟踪透明度」授权框。</li>
+          <li>没有任何内容同步到属于我们的云端账户。我们这边没有可供恢复的备份。</li>
+          <li>这个版本不含广告 SDK，也不显示任何广告。</li>
+          <li>这个版本不含使用统计 SDK，也不含崩溃上报 SDK。</li>
+          <li>应用不索取也不读取你的位置。</li>
+          <li>应用不读取你的通讯录、日历、短信、通话记录，也不读取其自身存储区以外的文件。</li>
+        </ul>
+        <h3 id="zh-Hans-quickonescanner-perms">权限，以及每一项的用途</h3>
+        <p>下列每一项权限都只用于所声明的那一个用途，不作他用。在两个平台上，你都可以在系统设置中拒绝或撤回其中任何一项；依赖它的功能会停止工作，应用的其余部分照常运行。</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>权限</th>
+              <th>平台</th>
+              <th>目的</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>网络访问</td>
+                <td>Android</td>
+                <td>上述网络请求所必需。</td>
+              </tr>
+              <tr>
+                <td>相机</td>
+                <td>iOS</td>
+                <td>在应用内拍摄。</td>
+              </tr>
+              <tr>
+                <td>相册</td>
+                <td>iOS</td>
+                <td>导入你已有的图片。</td>
+              </tr>
+              <tr>
+                <td>App 跟踪透明度</td>
+                <td>iOS</td>
+                <td>不请求。应用不会跨其他公司的应用或网站跟踪你。</td>
+              </tr>
+              <tr>
+                <td>位置</td>
+                <td>Android 与 iOS</td>
+                <td>不请求。</td>
+              </tr>
+              <tr>
+                <td>麦克风</td>
+                <td>Android 与 iOS</td>
+                <td>不请求。</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>在 iOS 上，应用使用相机拍摄页面，并使用相册让你导入已有的图片。在 Android 上，页面拍摄发生在 Google Play 服务内部、由其自身的权限管辖，这也是应用本身在 Android 上没有声明相机权限的原因。</p>
+        <h3 id="zh-Hans-quickonescanner-telemetry">使用统计与崩溃报告</h3>
+        <p>这个版本的应用不包含任何使用统计 SDK，也不包含任何崩溃上报 SDK。我们收不到它的任何使用数据、崩溃报告或诊断信息。</p>
+        <h3 id="zh-Hans-quickonescanner-purchases">订阅与购买</h3>
+        <p>这个版本的应用没有任何应用内购买，也没有订阅，因此不会收集任何支付信息。</p>
+        <h2 id="zh-Hans-eyeballit">Eyeball It!</h2>
+        <p>Eyeball It! 是一个靠眼力判断的游戏——把一条线分成两半、对准一个角度、落在目标上——按你离正确答案有多近来计分。它可以在 iPhone、iPad、Android 和 Windows 上运行，最好成绩保存在你玩的那台设备上。</p>
+        <h3 id="zh-Hans-eyeballit-stores">应用在你设备上保存了什么</h3>
+        <p>应用会把下列内容写入你设备上的应用私有存储区——其他应用无法读取的区域。它们会一直留在那里，直到你自己删除，或卸载应用为止。</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>内容</th>
+              <th>用途</th>
+              <th>保存位置</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>游戏进度</td>
+                <td>到达的关卡、最好成绩和累计回合数。</td>
+                <td>仅在你的设备上</td>
+              </tr>
+              <tr>
+                <td>设置</td>
+                <td>语言、主题、音频和显示方面的偏好。</td>
+                <td>仅在你的设备上</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>这些内容不会上传给我们。我们读不到，无法替你找回，也无法交给任何第三方——因为它们从未到达我们这里。</p>
+        <h3 id="zh-Hans-eyeballit-leaves">有什么会离开你的设备</h3>
+        <p>没有任何内容离开。这个版本的应用不发出任何网络请求：没有广告 SDK，没有使用统计，没有崩溃报告，也没有属于我们的服务器可供联络。</p>
+        <p>这个版本的应用完全不含任何联网代码。它的 Android 清单文件里甚至没有申请网络访问权限。</p>
+        <p>本游戏还有一个可在浏览器中试玩的网页版，地址是 https://www.idatagear.com。那个网页属于我们的网站，确实会投放 Google AdSense，相关说明见我们主隐私政策中关于网站的一节。你从 App Store、Google Play 或 Windows 安装的应用与之相互独立，不显示任何广告。</p>
+        <h3 id="zh-Hans-eyeballit-notdo">应用不会做的事</h3>
+        <p>在本政策为现行版本期间：</p>
+        <ul>
+          <li>没有账号，不需要注册，不需要邮箱，也不需要密码。</li>
+          <li>我们不运营任何接收你内容的服务器，也没有任何记录着你的数据库。</li>
+          <li>我们不出售你的个人信息，也不会为跨情境行为广告而共享它。</li>
+          <li>应用不会跨其他公司的应用或网站跟踪你，也不弹出「App 跟踪透明度」授权框。</li>
+          <li>没有任何内容同步到属于我们的云端账户。我们这边没有可供恢复的备份。</li>
+          <li>这个版本不含广告 SDK，也不显示任何广告。</li>
+          <li>这个版本不含使用统计 SDK，也不含崩溃上报 SDK。</li>
+          <li>应用不索取也不读取你的位置。</li>
+          <li>应用不录制音频，运行时也不请求麦克风权限。</li>
+          <li>应用不使用相机，也不读取你相册中的任何照片。</li>
+          <li>应用不读取你的通讯录、日历、短信、通话记录，也不读取其自身存储区以外的文件。</li>
+        </ul>
+        <h3 id="zh-Hans-eyeballit-perms">权限，以及每一项的用途</h3>
+        <p>这个版本的应用不请求任何运行时权限。它的 Android 清单文件中没有声明任何权限，也没有附带任何 iOS 用途说明键，因此系统从不会向你弹出授权请求。</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>权限</th>
+              <th>平台</th>
+              <th>目的</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>不请求任何运行时权限</td>
+                <td>所有平台</td>
+                <td>这个版本的应用一项都不请求。</td>
+              </tr>
+              <tr>
+                <td>App 跟踪透明度</td>
+                <td>iOS</td>
+                <td>不请求。应用不会跨其他公司的应用或网站跟踪你。</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <h3 id="zh-Hans-eyeballit-telemetry">使用统计与崩溃报告</h3>
+        <p>这个版本的应用不包含任何使用统计 SDK，也不包含任何崩溃上报 SDK。我们收不到它的任何使用数据、崩溃报告或诊断信息。</p>
+        <h3 id="zh-Hans-eyeballit-purchases">订阅与购买</h3>
+        <p>这个版本的应用没有任何应用内购买，也没有订阅，因此不会收集任何支付信息。</p>
+        <h2 id="zh-Hans-website">关于本网站</h2>
+        <p>https://www.idatagear.com 是一个静态网站。它不设置属于自己的 Cookie，不向你索取任何信息，也没有账号或登录。</p>
+        <p>网站上有两处来自第三方。<strong>Google AdSense</strong> 会在部分页面投放广告，其中包括 Eyeball It! 的网页版，并可能设置 Cookie、使用你的 IP 地址来挑选和统计这些广告，适用 Google 自身的政策。<strong>Google Fonts</strong> 提供页面字体，页面加载时会让 Google 的服务器知道你的 IP 地址。</p>
+        <p>部分应用也可以直接在这里用浏览器试玩。网页版会把状态保存在你电脑上浏览器自身的本地存储中，你随时可以在浏览器设置里清除。</p>
+        <p>我们的服务器日志由托管服务商保存，记录的是普通的网页服务器信息——IP 地址、时间、请求的页面和 User-Agent——用于维持网站运行和排查故障。</p>
+        <h2 id="zh-Hans-sharing">当你主动分享时</h2>
+        <p>分享、导出、打印和复制永远由你发起。当你使用其中任何一项时，应用会把该内容交给你选定的目的地——另一个应用、一位联系人、一个文件夹、一台打印机——此后它的去向由那个目的地决定，不再受本政策约束。</p>
+        <h2 id="zh-Hans-retention">数据的保存与删除</h2>
+        <p>应用保存的一切都在你的设备上，因此保存多久由你决定。</p>
+        <p>在应用内删除某一条即可移除它。要一次性清除全部内容，卸载应用即可：操作系统会删除它的私有存储区，上表中的每一项也随之消失。</p>
+        <p>崩溃报告和统计事件由 Google 依据 Firebase 自身的保留期限存放——崩溃数据最长 90 天，统计数据最长 14 个月。由于其中不含你的任何标识符，它们无法被追溯到你，也无法被单独删除。</p>
+        <h2 id="zh-Hans-rights">你的权利</h2>
+        <p>根据 GDPR、英国 GDPR、经 CPRA 修订的 CCPA、加拿大 PIPEDA 以及其他地区的同类法律，你对与你有关的个人信息享有权利——知晓持有了什么、获取副本、更正、要求删除，以及反对或限制其使用。</p>
+        <p>对本应用而言，这些权利已经由设计本身满足，而不需要向我们提出申请：数据就在你的设备上，你可以在应用里查看、修改、导出和删除，而我们手上没有副本可供提供、更正或擦除。</p>
+        <p>我们不出售个人信息，也不会为了 CPRA 所定义的跨情境行为广告而共享个人信息。因此并不存在需要你选择退出的出售行为。</p>
+        <p>如果你仍然认为我们持有与你有关的信息，请写信到 idatagear@gmail.com，我们会答复。你也可以向你所在地的数据保护机构投诉。</p>
+        <h2 id="zh-Hans-transfers">跨境传输</h2>
+        <p>我们位于加拿大。本政策中提到的第三方服务由总部设在美国的公司运营，并可能在其部署基础设施的任何国家处理数据，所适用的跨境传输保障措施载于它们各自的政策中——就 Google 而言，是欧盟委员会的标准合同条款。</p>
+        <h2 id="zh-Hans-children">儿童</h2>
+        <p>本应用面向普通受众。它不以 13 岁以下儿童为对象，我们也不会在知情的情况下收集儿童的个人信息。</p>
+        <p>应用没有账号系统，没有消息功能，没有社交功能，也没有任何其他用户可以发布或看到的内容——因此不存在任何途径，让使用应用的儿童把信息透露给我们或他人。</p>
+        <p>另有一点提请家长注意：应用内置的词典记录的是这门语言实际被使用的样子，其中的俚语词条会以普通工具书的方式，收录并解释涉及性、毒品、赌博和粗口的内容。应用的年龄分级已据此设定。</p>
+        <p>如果你认为有儿童向我们提供了个人信息，请写信到 idatagear@gmail.com，我们会删除它。</p>
+        <h2 id="zh-Hans-security">安全</h2>
+        <p>应用数据存放在操作系统的应用私有存储区，受设备自身的沙盒保护；在设置了锁屏的设备上，还受全盘加密保护。设置密码、PIN 码或生物识别锁，是你能为保护这些数据所做的最有效的一件事。</p>
+        <p>应用发出的每一个网络请求都使用 HTTPS。没有任何存储或传输方式是绝对安全的，我们无法保证万无一失。</p>
+        <h2 id="zh-Hans-changes">本政策的变更</h2>
+        <p>应用发生变化时，我们会更新本政策。页面顶部的日期就是当前版本的日期，变更一旦生效即在此发布。</p>
+        <p>如果某项变更意味着应用开始收集此前不收集的内容，我们会明确写出来，而不是让你自己去比对前后两版文字。</p>
+        <h2 class="pp-part">第二部分 — 使用条款</h2>
+        <h2 id="zh-Hans-t_accept">1. 接受本条款</h2>
+        <p>安装或使用本应用，即表示你接受本条款。如果你不接受，请不要使用本应用，并将其从设备上移除。</p>
+        <p>本条款是你与 iDataGear Inc 之间的约定。若你从 App Store 或 Google Play 获得本应用，该商店自身的条款同样适用于该笔交易；在付款、退款、重新下载等由商店管辖的事项上如有冲突，以商店的条款为准。</p>
+        <h2 id="zh-Hans-t_licence">2. 你的使用许可</h2>
+        <p>我们授予你一项个人的、非独占的、不可转让的、可撤销的许可，允许你在自己拥有或控制的设备上，按照平台既定的通常方式，为自己使用本应用。其余权利我们全部保留。</p>
+        <p>你不得复制、出售、出租、再许可或再分发本应用，不得对其进行逆向工程或反编译（法律明确允许且不受本条限制的情形除外），不得移除或更改其中的任何声明，也不得利用它来开发竞争产品。</p>
+        <h2 id="zh-Hans-t_yourcontent">3. 你创建的内容属于你</h2>
+        <p>你在应用中创建的一切都属于你。我们不主张对它的任何所有权，也不主张任何许可。由于它留在你的设备上，即使我们想使用也无从使用。</p>
+        <p>备份由你自己负责。卸载应用、重置设备，或丢失、更换设备，都会让应用保存的内容消失，而我们手上没有任何副本可供恢复。凡是丢了会心疼的内容，请先导出。</p>
+        <h2 id="zh-Hans-t_acceptable">4. 合理使用</h2>
+        <p>请合法地使用本应用。特别是，不得利用它违反法律或侵害他人权利，不得在录制他人需征得其同意而你并未取得同意的情况下进行录制，不得干扰应用的运行或安全，也不得试图取得你尚未付费的功能、内容或资格。</p>
+        <h2 id="zh-Hans-t_purchases">5. 购买、续订与取消</h2>
+        <p>如果应用提供订阅，除非你在当期结束前至少 24 小时取消，订阅将在每期结束时按购买时所示价格自动续期，并从你购买时使用的商店账户扣款。</p>
+        <p>请在商店中取消，而不是在应用中：iOS 上进入「设置 › 你的姓名 › 订阅」，Android 上进入「Google Play › 付款和订阅」。取消只会阻止下一次续期；当期已付费的时间照常用完。任何免费试用在购买时结束，未用完的部分不予退还。</p>
+        <p>退款由商店依据商店自身的政策办理，而不是由我们办理，因为该笔交易的收款方是商店。价格可能变动；变动在我们通知你之后对后续续期生效，你也可以选择取消而不接受。</p>
+        <h2 id="zh-Hans-t_accuracy">6. 内容的准确性</h2>
+        <p>应用中的内容仅供学习和参考。语言存在争议、因地而异且始终在变化，词典释义、翻译、注音、发音评分、笔顺和识别出的文字都可能出错。凡是出错会带来实际后果的场合——考试、法律文件、医疗场景或合同——请不要在未经独立核实的情况下依赖其中任何内容。</p>
+        <p>本应用是一个辅助工具，不是安全设备。地图、路线、记录下来的轨迹、距离、海拔和偏离路线的提醒都可能不准确、不完整或已过时，而手机可能失去信号、定位失败或耗尽电量。请携带地图和不依赖手机也能导航的工具，把你的计划告诉他人，并自行判断当下的条件。你在户外的安全由你自己负责。</p>
+        <h2 id="zh-Hans-t_thirdparty">7. 第三方服务</h2>
+        <p>本应用使用上文隐私政策中列出的第三方服务。每一项都受其自身的条款和隐私政策约束，我们无法控制它们，也不对它们的行为负责。应用中指向其他网站的链接仅为方便而提供，不构成任何背书。</p>
+        <h2 id="zh-Hans-t_warranty">8. 不提供保证</h2>
+        <p>本应用按<strong>现状</strong>和<strong>现有可用状态</strong>提供，不附带任何明示或默示的保证，包括对适销性、特定用途适用性、准确性或不侵权的任何默示保证。我们不保证它不会中断、没有错误、兼容每一台设备，也不保证缺陷都会被修复。</p>
+        <p>部分司法管辖区不允许排除默示保证，因此本条的部分内容可能对你不适用；本条也不限制任何依法不得限制的消费者权利。</p>
+        <h2 id="zh-Hans-t_liability">9. 责任限制</h2>
+        <p>在法律允许的最大范围内，我们不对间接的、附带的、特殊的、后果性的、惩戒性或惩罚性的损害承担责任，也不对利润损失、数据丢失、录音丢失、路线丢失或进度丢失承担责任，无论其成因为何、基于何种责任理论，即使我们已被告知此类损害可能发生。</p>
+        <p>在责任无法排除的情形下，我们就因本应用引起的全部索赔所承担的责任总额，以索赔发生前十二个月内你为本应用向我们支付的金额与二十加元两者中的较高者为限。</p>
+        <h2 id="zh-Hans-t_termination">10. 变更与终止</h2>
+        <p>我们可以随时变更、暂停或停止本应用或其任何部分。我们也可以更新本条款；更新时，本页顶部的日期会随之改变，在此之后继续使用本应用即视为接受更新后的条款。</p>
+        <p>如果你违反本条款，本许可即告终止；当你把应用从设备上移除时，本许可同样终止。关于你的内容、保证、责任和适用法律的各节在终止后继续有效。</p>
+        <h2 id="zh-Hans-t_law">11. 适用法律</h2>
+        <p>本条款受加拿大British Columbia省法律以及在该省适用的加拿大联邦法律管辖，不适用其法律冲突规则。任何争议由British Columbia省法院专属管辖，你与我们均服从该管辖——但任何一方均可向任何有管辖权的法院申请禁令救济。</p>
+        <p>若本条款的某一条被认定不可执行，其余部分继续有效。本条款不排除你所在国家法律为你提供的任何强制性消费者保护。</p>
+        <h2 id="zh-Hans-contact">联系我们</h2>
+        <p>关于本政策的疑问、关于你数据的请求，或者其他任何事情：</p>
+        <p><strong>iDataGear Inc</strong><br>
+        Email: <a href="mailto:idatagear@gmail.com">idatagear@gmail.com</a><br>
+        Web: <a href="https://www.idatagear.com/">www.idatagear.com</a></p>
+      </article>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-bottom">
+        <p>&copy; <span id="year">2026</span> iDataGear Inc</p>
+        <div class="footer-links">
+          <a href="">iDataGear</a><a href="privacy.html">Privacy</a><a href="mailto:idatagear@gmail.com">Contact</a>
+        </div>
+      </div>
+    </footer>
+    <script>
+    (function () {
+      var root = document.documentElement;
+      var toggle = document.querySelector('.theme-toggle');
+      if (toggle) {
+        toggle.addEventListener('click', function () {
+          var next = root.getAttribute('data-theme') === 'light' ? 'dark' : 'light';
+          root.setAttribute('data-theme', next);
+          try { localStorage.setItem('theme', next); } catch (e) {}
+        });
+      }
+      var y = document.getElementById('year');
+      if (y) { y.textContent = new Date().getFullYear(); }
+    })();
+    </script>
+  </body>
+</html>

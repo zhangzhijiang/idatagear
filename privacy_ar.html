@@ -1,0 +1,1975 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta name="theme-color" content="#071512" media="(prefers-color-scheme: dark)">
+    <meta name="theme-color" content="#f7f3ea" media="(prefers-color-scheme: light)">
+    <meta name="color-scheme" content="dark light">
+
+    <title>iDataGear سياسة الخصوصية وشروط الاستخدام</title>
+    <meta name="description" content="هذه الصفحة هي سياسة الخصوصية وشروط الاستخدام لكل تطبيق تصدره iDataGear Inc، ولموقع https://www.">
+    <link rel="canonical" href="https://www.idatagear.com/privacy_ar.html">
+
+    <link rel="alternate" hreflang="en" href="https://www.idatagear.com/privacy.html">
+    <link rel="alternate" hreflang="zh-Hans" href="https://www.idatagear.com/privacy_zh-Hans.html">
+    <link rel="alternate" hreflang="zh-Hant" href="https://www.idatagear.com/privacy_zh-Hant.html">
+    <link rel="alternate" hreflang="es" href="https://www.idatagear.com/privacy_es.html">
+    <link rel="alternate" hreflang="fr" href="https://www.idatagear.com/privacy_fr.html">
+    <link rel="alternate" hreflang="ja" href="https://www.idatagear.com/privacy_ja.html">
+    <link rel="alternate" hreflang="ko" href="https://www.idatagear.com/privacy_ko.html">
+    <link rel="alternate" hreflang="vi" href="https://www.idatagear.com/privacy_vi.html">
+    <link rel="alternate" hreflang="ar" href="https://www.idatagear.com/privacy_ar.html">
+    <link rel="alternate" hreflang="x-default" href="https://www.idatagear.com/privacy.html">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.idatagear.com/privacy_ar.html">
+    <meta property="og:title" content="iDataGear سياسة الخصوصية وشروط الاستخدام">
+    <meta property="og:description" content="هذه الصفحة هي سياسة الخصوصية وشروط الاستخدام لكل تطبيق تصدره iDataGear Inc، ولموقع https://www.">
+    <meta property="og:image" content="https://www.idatagear.com/assets/img/idatagear_logo.png">
+    <meta property="og:site_name" content="iDataGear">
+    <meta property="twitter:card" content="summary">
+    <meta property="twitter:title" content="iDataGear سياسة الخصوصية وشروط الاستخدام">
+    <meta property="twitter:description" content="هذه الصفحة هي سياسة الخصوصية وشروط الاستخدام لكل تطبيق تصدره iDataGear Inc، ولموقع https://www.">
+    <meta property="twitter:image" content="https://www.idatagear.com/assets/img/idatagear_logo.png">
+
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/img/favicon-192x192.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script>
+    (function () {
+      var t = null;
+      try { t = localStorage.getItem('theme'); } catch (e) {}
+      if (t !== 'light' && t !== 'dark') {
+        t = (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches) ? 'light' : 'dark';
+      }
+      document.documentElement.setAttribute('data-theme', t);
+    })();
+    </script>
+    <style>
+    /* Chrome and colour come from the site's own tokens in assets/css/style.css.
+       --pp-accent is this page's app brand, used only where the page speaks
+       about the app itself. Everything here is prefixed pp- so it cannot leak
+       into the shared stylesheet's components. */
+    :root { --pp-accent: #1f8a76; --pp-wash: rgba(53, 179, 154, .10); }
+    [data-theme="dark"] { --pp-accent: #35b39a; }
+    @media (prefers-color-scheme: dark) {
+      :root:not([data-theme="light"]) { --pp-accent: #35b39a; }
+    }
+
+    .pp-nav { display: flex; gap: 20px; align-items: center; margin-left: auto; }
+    .pp-nav a { color: var(--muted); text-decoration: none; font-size: .92rem; white-space: nowrap; }
+    .pp-nav a:hover { color: var(--pp-accent); }
+    @media (max-width: 820px) { .pp-nav { display: none; } }
+
+    .pp-wrap { max-width: 78ch; margin: 0 auto; padding-inline: 20px; padding-block: 40px 72px; }
+
+    .pp-head { text-align: center; margin-bottom: 34px; }
+    .pp-head img { width: 76px; height: 76px; border-radius: 19px; box-shadow: 0 10px 40px rgba(0,0,0,.18); }
+    .pp-head h1 { font-size: clamp(1.7rem, 4.4vw, 2.4rem); margin: 18px 0 6px; line-height: 1.15; text-wrap: balance; }
+    .pp-head .pp-sub { color: var(--pp-accent); font-weight: 700; margin: 0 0 10px; }
+    .pp-head .pp-date { color: var(--dim); font-size: .9rem; margin: 0; }
+
+    /* Language picker. Buttons, not links: this switches what is displayed on
+       one URL, because the app stores register exactly one privacy URL. */
+    .pp-langs { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; margin: 22px 0 0; }
+    .pp-langs button {
+      font: inherit; font-size: .9rem; font-weight: 600; cursor: pointer;
+      padding: 7px 15px; border-radius: 999px;
+      border: 1px solid var(--card-border); background: var(--card); color: var(--muted);
+    }
+    .pp-langs button:hover { border-color: var(--pp-accent); color: var(--text); }
+    .pp-langs button[aria-current="true"] { background: var(--pp-wash); border-color: var(--pp-accent); color: var(--text); }
+
+    .pp h2 {
+      font-size: 1.24rem; margin: 40px 0 12px; padding-top: 18px;
+      border-top: 1px solid var(--card-border); text-wrap: balance;
+    }
+    .pp h2:first-of-type { border-top: 0; padding-top: 0; }
+    .pp h2.pp-part {
+      font-size: .82rem; letter-spacing: .14em; text-transform: uppercase;
+      color: var(--pp-accent); margin-top: 56px;
+    }
+    .pp h3 { font-size: 1.02rem; margin: 26px 0 8px; color: var(--text); }
+    .pp p, .pp li { color: var(--muted); line-height: 1.72; }
+    .pp p { margin: 0 0 14px; }
+    .pp ul { margin: 0 0 16px; padding-left: 1.25em; }
+    .pp li { margin-bottom: 9px; }
+    .pp strong { color: var(--text); font-weight: 650; }
+    .pp a { color: var(--pp-accent); }
+
+    .pp-tldr {
+      background: var(--pp-wash); border: 1px solid var(--card-border);
+      border-left: 3px solid var(--pp-accent);
+      border-radius: 12px; padding: 20px 22px 6px; margin: 0 0 8px;
+    }
+    .pp-tldr ul { margin-bottom: 14px; }
+    .pp-note {
+      background: var(--card); border: 1px solid var(--card-border);
+      border-radius: 10px; padding: 15px 18px 3px; margin: 0 0 16px;
+    }
+
+    /* Tables scroll inside their own box so the page body never scrolls sideways. */
+    .pp-tablewrap { overflow-x: auto; margin: 0 0 20px; }
+    .pp table { border-collapse: collapse; width: 100%; min-width: 520px; font-size: .94rem; }
+    .pp th, .pp td {
+      text-align: left; vertical-align: top; padding: 11px 13px;
+      border-bottom: 1px solid var(--card-border); color: var(--muted); line-height: 1.6;
+    }
+    .pp th { color: var(--text); font-weight: 650; white-space: nowrap; }
+    .pp tbody tr:last-child td { border-bottom: 0; }
+
+    /* Right-to-left: mirror the padding and the table alignment, nothing else. */
+    .pp[dir="rtl"] { text-align: right; }
+    .pp[dir="rtl"] ul { padding-left: 0; padding-right: 1.25em; }
+    .pp[dir="rtl"] th, .pp[dir="rtl"] td { text-align: right; }
+    .pp[dir="rtl"] .pp-tldr { border-left: 1px solid var(--card-border); border-right: 3px solid var(--pp-accent); }
+
+    /* One language per file, so the switcher is links rather than buttons:
+       each entry is a real URL a reader can bookmark, share or open in a tab,
+       and the page needs no JavaScript to show what it says. */
+    .pp-langs a {
+      font: inherit; font-size: .9rem; font-weight: 600; text-decoration: none;
+      padding: 7px 15px; border-radius: 999px;
+      border: 1px solid var(--card-border); background: var(--card); color: var(--muted);
+    }
+    .pp-langs a:hover { border-color: var(--pp-accent); color: var(--text); }
+    .pp-langs a[aria-current="page"] { background: var(--pp-wash); border-color: var(--pp-accent); color: var(--text); }
+    </style>
+  </head>
+
+  <body>
+    <header class="site-header" id="top">
+      <div class="logo"><a href="">iDataGear</a></div>
+      <nav class="pp-nav">
+        <a href="">iDataGear</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="mailto:idatagear@gmail.com">Contact</a>
+      </nav>
+      <button class="theme-toggle" type="button" aria-label="Switch theme">
+        <i class="bi bi-sun" aria-hidden="true"></i>
+        <i class="bi bi-moon-stars" aria-hidden="true"></i>
+      </button>
+    </header>
+
+    <main class="pp-wrap">
+      <div class="pp-head">
+        <img src="assets/img/idatagear_logo.png" alt="iDataGear سياسة الخصوصية وشروط الاستخدام" width="76" height="76">
+        <h1>iDataGear سياسة الخصوصية وشروط الاستخدام</h1>
+        <p class="pp-sub">iDataGear Inc</p>
+        <p class="pp-date">آخر تحديث: 20 September 2026</p>
+        <div class="pp-langs" role="group" aria-label="اختر لغة">
+          <a href="privacy.html" hreflang="en" lang="en">English</a>
+          <a href="privacy_zh-Hans.html" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
+          <a href="privacy_zh-Hant.html" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
+          <a href="privacy_es.html" hreflang="es" lang="es">Español</a>
+          <a href="privacy_fr.html" hreflang="fr" lang="fr">Français</a>
+          <a href="privacy_ja.html" hreflang="ja" lang="ja">日本語</a>
+          <a href="privacy_ko.html" hreflang="ko" lang="ko">한국어</a>
+          <a href="privacy_vi.html" hreflang="vi" lang="vi">Tiếng Việt</a>
+          <a href="privacy_ar.html" hreflang="ar" lang="ar" aria-current="page">العربية</a>
+        </div>
+      </div>
+
+      <article class="pp" data-lang="ar" lang="ar" dir="rtl">
+        <h2 id="ar-tldr">باختصار</h2>
+        <div class="pp-tldr">
+        <ul>
+          <li>هذه الصفحة وحدها تشمل كل تطبيقات iDataGear، ولكل تطبيق صفحة خاصة به أيضًا.</li>
+          <li>كل ما تنشئه داخل هذه التطبيقات يبقى على جهازك.</li>
+          <li>لا يوجد حساب ولا تسجيل.</li>
+          <li>التطبيقات تختلف فيما بينها. خمسة من عشرة لا تتضمن إعلانات ولا إحصاءات ولا تقارير أعطال إطلاقًا؛ وأما البقية فتبيّن صراحةً ما تستعمله ولماذا.</li>
+          <li>لا نبيع بياناتك ولا نشاركها لتكوين ملفات إعلانية.</li>
+          <li>إزالة التطبيق تحذف كل ما حفظه.</li>
+          <li>الجزء الثاني من هذه الصفحة هو شروط استخدام التطبيق.</li>
+        </ul>
+        </div>
+        <h2 id="ar-scope">التطبيقات التي تشملها هذه السياسة</h2>
+        <p>هذه الصفحة هي سياسة الخصوصية وشروط الاستخدام لكل تطبيق تصدره iDataGear Inc، ولموقع https://www.idatagear.com. ولكل تطبيق أيضًا صفحة خاصة به تحمل هذا النص نفسه لذلك التطبيق وحده؛ والجدول أدناه يحيل إليها.</p>
+        <p>التطبيقات تختلف فيما بينها، ولذلك تبيّن الأقسام التالية ذلك تطبيقًا تطبيقًا بدل جمعها في وصف واحد لا يصدُق على أيٍّ منها. وخمسة منها لا تتضمن إعلانات ولا إحصاءات ولا تقارير أعطال إطلاقًا.</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>التطبيق</th>
+              <th>المنصّات</th>
+              <th>صفحته الخاصة</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td><a href="#ar-learncantonese">Learn Cantonese</a></td>
+                <td>أندرويد, iOS, macOS</td>
+                <td><a href="learncantonese/learncantonese_privacy.html">فتح</a></td>
+              </tr>
+              <tr>
+                <td><a href="#ar-learnchinese">McChinese</a></td>
+                <td>أندرويد, iOS</td>
+                <td><a href="learnchinese/learnchinese_privacy.html">فتح</a></td>
+              </tr>
+              <tr>
+                <td><a href="#ar-gcd">Great Cantonese Dictionary</a></td>
+                <td>أندرويد, iOS</td>
+                <td><a href="gcd/gcd_privacy.html">فتح</a></td>
+              </tr>
+              <tr>
+                <td><a href="#ar-learnenglish">ALL English</a></td>
+                <td>أندرويد, iOS</td>
+                <td><a href="learnenglish/learnenglish_privacy.html">فتح</a></td>
+              </tr>
+              <tr>
+                <td><a href="#ar-xiezi">Xie Zi</a></td>
+                <td>أندرويد, iOS</td>
+                <td><a href="xiezi/xiezi_privacy.html">فتح</a></td>
+              </tr>
+              <tr>
+                <td><a href="#ar-momerame">Momera.ME</a></td>
+                <td>أندرويد</td>
+                <td><a href="momerame/momerame_privacy.html">فتح</a></td>
+              </tr>
+              <tr>
+                <td><a href="#ar-momerago">Momera GO</a></td>
+                <td>أندرويد, iOS</td>
+                <td><a href="momerago/momerago_privacy.html">فتح</a></td>
+              </tr>
+              <tr>
+                <td><a href="#ar-mcrecorder">McRecorder</a></td>
+                <td>أندرويد, iOS</td>
+                <td><a href="mcrecorder/mcrecorder_privacy.html">فتح</a></td>
+              </tr>
+              <tr>
+                <td><a href="#ar-quickonescanner">QuickOne Scanner</a></td>
+                <td>أندرويد, iOS</td>
+                <td><a href="quickonescanner/quickonescanner_privacy.html">فتح</a></td>
+              </tr>
+              <tr>
+                <td><a href="#ar-eyeballit">Eyeball It!</a></td>
+                <td>أندرويد, iOS, ويندوز</td>
+                <td><a href="eyeballit/eyeballit_privacy.html">فتح</a></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <h2 class="pp-part">الجزء الأول — سياسة الخصوصية</h2>
+        <h2 id="ar-who">من نحن</h2>
+        <p>iDataGear Inc شركة مؤسَّسة في كولومبيا البريطانية بكندا، وهي التي تصدر التطبيقات المذكورة أعلاه وموقع https://www.idatagear.com. وحين تقول هذه الصفحة <strong>نحن</strong> فالمقصود iDataGear Inc.</p>
+        <p>لا يوجد حساب تُنشئه ولا تسجيل تقوم به. ولا نشغّل خادمًا يستقبل محتواك، ولا نحتفظ بأي قاعدة بيانات تَرِد فيها.</p>
+        <h2 id="ar-learncantonese">Learn Cantonese</h2>
+        <p>يعلّم Learn Cantonese الكانتونية محادثةً وكتابةً عبر دروس وقاموس للعامية الهونغ‌كونغية وتمارين نطق تؤديها بصوت مسموع. ويعمل على iPhone و iPad و Mac وأندرويد. ويبقى تقدّمك على الجهاز الذي تستعمله.</p>
+        <h3 id="ar-learncantonese-stores">ما يحفظه التطبيق على جهازك</h3>
+        <p>يكتب التطبيق ما يلي في مساحة التخزين الخاصة به على جهازك — وهي منطقة لا تستطيع التطبيقات الأخرى قراءتها. ويبقى ذلك هناك إلى أن تحذفه أنت أو تزيل التطبيق.</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>البند</th>
+              <th>الغرض</th>
+              <th>مكان الحفظ</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>تقدّمك في التعلّم</td>
+                <td>الدروس المنجَزة ونتائج الاختبارات والعناصر التي اطّلعت عليها.</td>
+                <td>على جهازك وحده</td>
+              </tr>
+              <tr>
+                <td>المفضّلة</td>
+                <td>العناصر التي وضعت عليها نجمة أو حفظتها.</td>
+                <td>على جهازك وحده</td>
+              </tr>
+              <tr>
+                <td>السجل</td>
+                <td>ما بحثت عنه أو تدرّبت عليه مؤخرًا، لتعود إليه.</td>
+                <td>على جهازك وحده</td>
+              </tr>
+              <tr>
+                <td>أيام المواظبة والإحصاءات</td>
+                <td>سلسلة أيامك المتتالية وعدد مرات الدراسة كما تظهر في ملفك.</td>
+                <td>على جهازك وحده</td>
+              </tr>
+              <tr>
+                <td>الإعدادات</td>
+                <td>تفضيلات اللغة والمظهر والصوت والعرض.</td>
+                <td>على جهازك وحده</td>
+              </tr>
+              <tr>
+                <td>حالة الاشتراك</td>
+                <td>جواب «نعم أو لا» محفوظ من المتجر، ليعمل التطبيق دون اتصال.</td>
+                <td>على جهازك وحده</td>
+              </tr>
+              <tr>
+                <td>اختيارك بشأن الإعلانات</td>
+                <td>جواب الموافقة الذي أعطيته، كي لا تُسأل في كل تشغيل.</td>
+                <td>على جهازك وحده</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>لا يُرفع أي من ذلك إلينا. فلا نستطيع قراءته، ولا استعادته لك، ولا تسليمه لأي جهة، لأنه ببساطة لا يصلنا أصلًا.</p>
+        <p>يتولى التعرّف على الكلام في تمارين النطق محرّكُ نظام التشغيل نفسه — محرّك Apple على iOS ومحرّك Google على أندرويد — وفق شروط خصوصية كل منصّة. وتبعًا للجهاز واللغة، قد يعالج ذلك المحرّك الصوت على الجهاز أو على خوادم المنصّة. ولا يصلنا الصوت ولا النص: فكل ما يُبلَّغ به التطبيق درجةُ قرب ما قلته من العبارة المطلوبة، ويُتلَف الصوت فور استخراج تلك الدرجة.</p>
+        <h3 id="ar-learncantonese-leaves">ما يغادر جهازك</h3>
+        <p>هذه هي القائمة كاملة. وكل ما لم يُذكر فيها يبقى على جهازك.</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>ما يُرسَل</th>
+              <th>الجهة المستقبِلة</th>
+              <th>الغاية</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>طلبات الإعلانات</td>
+                <td>Google AdMob</td>
+                <td>لاختيار إعلان وقياس أثره.</td>
+              </tr>
+              <tr>
+                <td>أحداث استخدام مجهولة الهوية</td>
+                <td>Google Firebase Analytics</td>
+                <td>عدّ للميزات التي تُفتح، من دون أي معرّف مستخدم.</td>
+              </tr>
+              <tr>
+                <td>تقارير الأعطال</td>
+                <td>Google Firebase Crashlytics</td>
+                <td>الخطأ ومكدّس الاستدعاءات وطراز الجهاز وإصدار التطبيق عند تعطّله.</td>
+              </tr>
+              <tr>
+                <td>التحقق من الشراء</td>
+                <td>Apple App Store / Google Play</td>
+                <td>للتأكد من سريان الاشتراك. ولا تصلنا أي بيانات بطاقة.</td>
+              </tr>
+              <tr>
+                <td>التحقق من الإصدار</td>
+                <td>Apple App Store / Google Play</td>
+                <td>لإعلامك بوجود إصدار أحدث. يُرسل اسم حزمة التطبيق وإصداره.</td>
+              </tr>
+              <tr>
+                <td>لا شيء تلقائي</td>
+                <td>المواقع التي تفتحها</td>
+                <td>فتح رابط داخل التطبيق يسلّمه إلى متصفحك، ثم يتصرف متصفحك كما يتصرف عادة.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>عند التشغيل يسأل التطبيق متجر App Store أو Google Play إن كان ثمة إصدار أحدث ليُعلمك به. ويتضمن الطلب اسم حزمة التطبيق وإصداره، ولا يتضمن شيئًا عنك.</p>
+        <p>لا تتضمن نسخة macOS حزمة الإعلانات ولا Firebase. وعلى macOS لا يعرض التطبيق إعلانات ولا يرسل إحصاءات ولا تقارير أعطال.</p>
+        <h3 id="ar-learncantonese-notdo">ما لا يفعله التطبيق</h3>
+        <p>ما دامت هذه السياسة هي النسخة السارية:</p>
+        <ul>
+          <li>لا يوجد حساب ولا تسجيل ولا بريد إلكتروني ولا كلمة مرور.</li>
+          <li>لا نشغّل خادمًا يستقبل محتواك، ولا نحتفظ بقاعدة بيانات تَرِد فيها.</li>
+          <li>لا نبيع معلوماتك الشخصية ولا نشاركها لأغراض الإعلانات السلوكية عبر السياقات.</li>
+          <li>لا يتتبّعك التطبيق عبر تطبيقات شركات أخرى أو مواقعها، ولا يعرض نافذة «شفافية تتبّع التطبيقات».</li>
+          <li>لا شيء يُزامَن إلى حساب سحابي لدينا. ولا توجد عندنا نسخة احتياطية يُستعاد منها.</li>
+          <li>لا يطلب التطبيق موقعك ولا يقرؤه.</li>
+          <li>لا يقرأ التطبيق جهات اتصالك ولا تقويمك ولا رسائلك ولا سجل مكالماتك، ولا ملفات خارج مساحته الخاصة.</li>
+        </ul>
+        <h3 id="ar-learncantonese-perms">الأذونات، وسبب طلب كل منها</h3>
+        <p>كل إذن أدناه يُطلب لغرض واحد معلن ولا يُستعمل في سواه. وفي المنصّتين كلتيهما يمكنك رفضه أو سحبه من إعدادات النظام؛ عندها تتوقف الميزات المعتمدة عليه، ويواصل بقية التطبيق عمله.</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>الإذن</th>
+              <th>المنصّة</th>
+              <th>الغاية</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>الوصول إلى الإنترنت</td>
+                <td>أندرويد</td>
+                <td>لازم للطلبات الشبكية المذكورة أعلاه.</td>
+              </tr>
+              <tr>
+                <td>الميكروفون</td>
+                <td>أندرويد</td>
+                <td>للتسجيل حين تبدأ أنت تسجيلًا.</td>
+              </tr>
+              <tr>
+                <td>خدمة في المقدمة</td>
+                <td>أندرويد</td>
+                <td>لإبقاء مهمة بدأتها أنت تعمل مع إشعار دائم ظاهر.</td>
+              </tr>
+              <tr>
+                <td>معرّف الإعلانات</td>
+                <td>أندرويد</td>
+                <td>تستعمله AdMob لاختيار الإعلانات وقياسها. ويمكنك تصفيره أو حذفه من إعدادات أندرويد.</td>
+              </tr>
+              <tr>
+                <td>الفوترة</td>
+                <td>أندرويد</td>
+                <td>لبيع الاشتراك والتحقق منه عبر Google Play.</td>
+              </tr>
+              <tr>
+                <td>الميكروفون</td>
+                <td>iOS</td>
+                <td>للتسجيل حين تبدأ أنت تسجيلًا.</td>
+              </tr>
+              <tr>
+                <td>التعرّف على الكلام</td>
+                <td>iOS</td>
+                <td>لتقييم نطقك بمحرّك Apple.</td>
+              </tr>
+              <tr>
+                <td>شفافية تتبّع التطبيقات</td>
+                <td>iOS</td>
+                <td>غير مطلوب. ولا يتتبّعك التطبيق عبر تطبيقات شركات أخرى أو مواقعها.</td>
+              </tr>
+              <tr>
+                <td>الموقع</td>
+                <td>أندرويد و iOS</td>
+                <td>غير مطلوب.</td>
+              </tr>
+              <tr>
+                <td>الكاميرا</td>
+                <td>أندرويد و iOS</td>
+                <td>غير مطلوب.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <h3 id="ar-learncantonese-ads">الإعلانات وخياراتك</h3>
+        <p>تعرض هذه النسخة من التطبيق إعلانات تقدّمها <strong>Google AdMob</strong>. وتعمل Google بوصفها متحكّمًا مستقلًّا في البيانات التي تجمعها عبر تلك الإعلانات، وفق سياستها الخاصة على <a href="https://policies.google.com/technologies/partner-sites" rel="noopener">policies.google.com/technologies/partner-sites</a>.</p>
+        <p>لاختيار إعلان وقياس أثره، قد تتلقى Google معرّف الإعلانات الخاص بجهازك، ومعلومات عامة عن الجهاز والتطبيق، وموقعًا تقريبيًا مستنتجًا من عنوان IP، وما إذا كنت قد رأيت الإعلان أو نقرت عليه. ولا يصلنا شيء من ذلك عنك أنت تحديدًا — فما نراه أرقام مجمّعة للإيرادات ومرات الظهور.</p>
+        <p>تظهر إعلانات هذا التطبيق على هيئة لافتات وإعلانات بينيّة بملء الشاشة بين الشاشات.</p>
+        <p>في المنطقة الاقتصادية الأوروبية والمملكة المتحدة وسويسرا، يعرض التطبيق نموذج موافقة Google قبل طلب إعلان مخصَّص. ويُسجَّل اختيارك على جهازك، ويمكنك فتحه من جديد في أي وقت من إعدادات التطبيق، في بند الإعلانات أو خيارات الخصوصية، لتغيّر رأيك.</p>
+        <p>يمكنك تصفير معرّف الإعلانات أو حذفه في أي وقت — في أندرويد من الإعدادات ‹ الخصوصية ‹ الإعلانات، وفي iOS بإيقاف <em>السماح للتطبيقات بطلب التتبّع</em>، وهو ما يجعل المعرّف غير متاح لجميع التطبيقات كذلك.</p>
+        <p>لا يعرض التطبيق نافذة «شفافية تتبّع التطبيقات» من Apple، ولا يتتبّعك عبر تطبيقات شركات أخرى أو مواقعها.</p>
+        <h3 id="ar-learncantonese-telemetry">إحصاءات الاستخدام وتقارير الأعطال</h3>
+        <p>يستخدم التطبيق <strong>Google Firebase</strong> لأمرين: Crashlytics للإبلاغ عن الأعطال، و Analytics لعدّ مرات استعمال الميزات. وتعالجهما Google نيابة عنا.</p>
+        <p>يحتوي تقرير العطل على حالة البرنامج لحظة تعطّله — الخطأ، ومكدّس الاستدعاءات، وطراز الجهاز، وإصدار نظام التشغيل، وإصدار التطبيق. ويُنشأ تلقائيًا بفعل العطل نفسه، ويدلّنا على السطر الذي ينبغي إصلاحه في شفرتنا.</p>
+        <p>أحداث الإحصاءات هي عدّ لأفعال مجهولة الهوية، مثل فتح شاشة ما. ولا نضبط أي معرّف مستخدم ولا أي خاصية مستخدم، فلا ترتبط الأحداث بشخص، ولا يمكننا العثور عليك فيها.</p>
+        <h3 id="ar-learncantonese-purchases">الاشتراكات والمشتريات</h3>
+        <p>تقدّم هذه النسخة من التطبيق اشتراكًا يتجدد تلقائيًا. ويتولى متجر App Store أو Google Play عملية الشراء بالكامل.</p>
+        <p>لا نرى أبدًا رقم بطاقتك ولا عنوان الفوترة ولا أي تفصيل آخر يخص الدفع. فالمتجر يخبر التطبيق بأمر واحد فقط: هل يوجد اشتراك ساري المفعول؛ ويُحفظ ذلك الجواب على جهازك ليعمل التطبيق دون اتصال.</p>
+        <h2 id="ar-learnchinese">McChinese</h2>
+        <p>يعلّم McChinese الماندرين عبر مفردات مرتّبة حسب مستويات HSK، وتمارين لترتيب شَطَبات الحروف، وتدريبات استماع ومحادثة. ويعمل على iPhone و iPad وأندرويد، بواجهة بسبع لغات. ويبقى تقدّمك على الجهاز الذي تستعمله.</p>
+        <h3 id="ar-learnchinese-stores">ما يحفظه التطبيق على جهازك</h3>
+        <p>يكتب التطبيق ما يلي في مساحة التخزين الخاصة به على جهازك — وهي منطقة لا تستطيع التطبيقات الأخرى قراءتها. ويبقى ذلك هناك إلى أن تحذفه أنت أو تزيل التطبيق.</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>البند</th>
+              <th>الغرض</th>
+              <th>مكان الحفظ</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>تقدّمك في التعلّم</td>
+                <td>الدروس المنجَزة ونتائج الاختبارات والعناصر التي اطّلعت عليها.</td>
+                <td>على جهازك وحده</td>
+              </tr>
+              <tr>
+                <td>المفضّلة</td>
+                <td>العناصر التي وضعت عليها نجمة أو حفظتها.</td>
+                <td>على جهازك وحده</td>
+              </tr>
+              <tr>
+                <td>السجل</td>
+                <td>ما بحثت عنه أو تدرّبت عليه مؤخرًا، لتعود إليه.</td>
+                <td>على جهازك وحده</td>
+              </tr>
+              <tr>
+                <td>أيام المواظبة والإحصاءات</td>
+                <td>سلسلة أيامك المتتالية وعدد مرات الدراسة كما تظهر في ملفك.</td>
+                <td>على جهازك وحده</td>
+              </tr>
+              <tr>
+                <td>الإعدادات</td>
+                <td>تفضيلات اللغة والمظهر والصوت والعرض.</td>
+                <td>على جهازك وحده</td>
+              </tr>
+              <tr>
+                <td>حالة الاشتراك</td>
+                <td>جواب «نعم أو لا» محفوظ من المتجر، ليعمل التطبيق دون اتصال.</td>
+                <td>على جهازك وحده</td>
+              </tr>
+              <tr>
+                <td>اختيارك بشأن الإعلانات</td>
+                <td>جواب الموافقة الذي أعطيته، كي لا تُسأل في كل تشغيل.</td>
+                <td>على جهازك وحده</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>لا يُرفع أي من ذلك إلينا. فلا نستطيع قراءته، ولا استعادته لك، ولا تسليمه لأي جهة، لأنه ببساطة لا يصلنا أصلًا.</p>
+        <p>يتولى التعرّف على الكلام في تمارين النطق محرّكُ نظام التشغيل نفسه — محرّك Apple على iOS ومحرّك Google على أندرويد — وفق شروط خصوصية كل منصّة. وتبعًا للجهاز واللغة، قد يعالج ذلك المحرّك الصوت على الجهاز أو على خوادم المنصّة. ولا يصلنا الصوت ولا النص: فكل ما يُبلَّغ به التطبيق درجةُ قرب ما قلته من العبارة المطلوبة، ويُتلَف الصوت فور استخراج تلك الدرجة.</p>
+        <h3 id="ar-learnchinese-leaves">ما يغادر جهازك</h3>
+        <p>هذه هي القائمة كاملة. وكل ما لم يُذكر فيها يبقى على جهازك.</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>ما يُرسَل</th>
+              <th>الجهة المستقبِلة</th>
+              <th>الغاية</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>طلبات الإعلانات</td>
+                <td>Google AdMob</td>
+                <td>لاختيار إعلان وقياس أثره.</td>
+              </tr>
+              <tr>
+                <td>أحداث استخدام مجهولة الهوية</td>
+                <td>Google Firebase Analytics</td>
+                <td>عدّ للميزات التي تُفتح، من دون أي معرّف مستخدم.</td>
+              </tr>
+              <tr>
+                <td>تقارير الأعطال</td>
+                <td>Google Firebase Crashlytics</td>
+                <td>الخطأ ومكدّس الاستدعاءات وطراز الجهاز وإصدار التطبيق عند تعطّله.</td>
+              </tr>
+              <tr>
+                <td>التحقق من الشراء</td>
+                <td>Apple App Store / Google Play</td>
+                <td>للتأكد من سريان الاشتراك. ولا تصلنا أي بيانات بطاقة.</td>
+              </tr>
+              <tr>
+                <td>طلبات بيانات الشَّطَبات</td>
+                <td>unpkg أو jsDelivr أو cdnjs</td>
+                <td>لجلب ترتيب شَطَبات حرف فتحته.</td>
+              </tr>
+              <tr>
+                <td>لا شيء تلقائي</td>
+                <td>المواقع التي تفتحها</td>
+                <td>فتح رابط داخل التطبيق يسلّمه إلى متصفحك، ثم يتصرف متصفحك كما يتصرف عادة.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>يرسم حركةَ ترتيب الشَّطَبات مكوّنٌ مفتوح المصدر. وعند أول عرض لحرف ما، يجلب التطبيق بيانات شَطَبات ذلك الحرف من شبكة توزيع شفرات عامة (unpkg أو jsDelivr أو cdnjs). ويتضمن الطلب، كأي طلب ويب، الحرفَ المراد رسمه وعنوان IP الخاص بك. ولا يُرفق به أي تقدّم دراسي ولا حساب ولا معرّف.</p>
+        <h3 id="ar-learnchinese-notdo">ما لا يفعله التطبيق</h3>
+        <p>ما دامت هذه السياسة هي النسخة السارية:</p>
+        <ul>
+          <li>لا يوجد حساب ولا تسجيل ولا بريد إلكتروني ولا كلمة مرور.</li>
+          <li>لا نشغّل خادمًا يستقبل محتواك، ولا نحتفظ بقاعدة بيانات تَرِد فيها.</li>
+          <li>لا نبيع معلوماتك الشخصية ولا نشاركها لأغراض الإعلانات السلوكية عبر السياقات.</li>
+          <li>لا يتتبّعك التطبيق عبر تطبيقات شركات أخرى أو مواقعها، ولا يعرض نافذة «شفافية تتبّع التطبيقات».</li>
+          <li>لا شيء يُزامَن إلى حساب سحابي لدينا. ولا توجد عندنا نسخة احتياطية يُستعاد منها.</li>
+          <li>لا يطلب التطبيق موقعك ولا يقرؤه.</li>
+          <li>لا يقرأ التطبيق جهات اتصالك ولا تقويمك ولا رسائلك ولا سجل مكالماتك، ولا ملفات خارج مساحته الخاصة.</li>
+        </ul>
+        <h3 id="ar-learnchinese-perms">الأذونات، وسبب طلب كل منها</h3>
+        <p>كل إذن أدناه يُطلب لغرض واحد معلن ولا يُستعمل في سواه. وفي المنصّتين كلتيهما يمكنك رفضه أو سحبه من إعدادات النظام؛ عندها تتوقف الميزات المعتمدة عليه، ويواصل بقية التطبيق عمله.</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>الإذن</th>
+              <th>المنصّة</th>
+              <th>الغاية</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>الوصول إلى الإنترنت</td>
+                <td>أندرويد</td>
+                <td>لازم للطلبات الشبكية المذكورة أعلاه.</td>
+              </tr>
+              <tr>
+                <td>حالة الشبكة</td>
+                <td>أندرويد</td>
+                <td>لمعرفة وجود اتصال قبل محاولة استعماله.</td>
+              </tr>
+              <tr>
+                <td>الميكروفون</td>
+                <td>أندرويد</td>
+                <td>للتسجيل حين تبدأ أنت تسجيلًا.</td>
+              </tr>
+              <tr>
+                <td>معرّف الإعلانات</td>
+                <td>أندرويد</td>
+                <td>تستعمله AdMob لاختيار الإعلانات وقياسها. ويمكنك تصفيره أو حذفه من إعدادات أندرويد.</td>
+              </tr>
+              <tr>
+                <td>الفوترة</td>
+                <td>أندرويد</td>
+                <td>لبيع الاشتراك والتحقق منه عبر Google Play.</td>
+              </tr>
+              <tr>
+                <td>الميكروفون</td>
+                <td>iOS</td>
+                <td>للتسجيل حين تبدأ أنت تسجيلًا.</td>
+              </tr>
+              <tr>
+                <td>التعرّف على الكلام</td>
+                <td>iOS</td>
+                <td>لتقييم نطقك بمحرّك Apple.</td>
+              </tr>
+              <tr>
+                <td>شفافية تتبّع التطبيقات</td>
+                <td>iOS</td>
+                <td>غير مطلوب. ولا يتتبّعك التطبيق عبر تطبيقات شركات أخرى أو مواقعها.</td>
+              </tr>
+              <tr>
+                <td>الموقع</td>
+                <td>أندرويد و iOS</td>
+                <td>غير مطلوب.</td>
+              </tr>
+              <tr>
+                <td>الكاميرا</td>
+                <td>أندرويد و iOS</td>
+                <td>غير مطلوب.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <h3 id="ar-learnchinese-ads">الإعلانات وخياراتك</h3>
+        <p>تعرض هذه النسخة من التطبيق إعلانات تقدّمها <strong>Google AdMob</strong>. وتعمل Google بوصفها متحكّمًا مستقلًّا في البيانات التي تجمعها عبر تلك الإعلانات، وفق سياستها الخاصة على <a href="https://policies.google.com/technologies/partner-sites" rel="noopener">policies.google.com/technologies/partner-sites</a>.</p>
+        <p>لاختيار إعلان وقياس أثره، قد تتلقى Google معرّف الإعلانات الخاص بجهازك، ومعلومات عامة عن الجهاز والتطبيق، وموقعًا تقريبيًا مستنتجًا من عنوان IP، وما إذا كنت قد رأيت الإعلان أو نقرت عليه. ولا يصلنا شيء من ذلك عنك أنت تحديدًا — فما نراه أرقام مجمّعة للإيرادات ومرات الظهور.</p>
+        <p>تظهر إعلانات هذا التطبيق على هيئة لافتات وإعلانات بينيّة بملء الشاشة بين الشاشات.</p>
+        <p>في المنطقة الاقتصادية الأوروبية والمملكة المتحدة وسويسرا، يعرض التطبيق نموذج موافقة Google قبل طلب إعلان مخصَّص. ويُسجَّل اختيارك على جهازك، ويمكنك فتحه من جديد في أي وقت من إعدادات التطبيق، في بند الإعلانات أو خيارات الخصوصية، لتغيّر رأيك.</p>
+        <p>يمكنك تصفير معرّف الإعلانات أو حذفه في أي وقت — في أندرويد من الإعدادات ‹ الخصوصية ‹ الإعلانات، وفي iOS بإيقاف <em>السماح للتطبيقات بطلب التتبّع</em>، وهو ما يجعل المعرّف غير متاح لجميع التطبيقات كذلك.</p>
+        <p>لا يعرض التطبيق نافذة «شفافية تتبّع التطبيقات» من Apple، ولا يتتبّعك عبر تطبيقات شركات أخرى أو مواقعها.</p>
+        <h3 id="ar-learnchinese-telemetry">إحصاءات الاستخدام وتقارير الأعطال</h3>
+        <p>يستخدم التطبيق <strong>Google Firebase</strong> لأمرين: Crashlytics للإبلاغ عن الأعطال، و Analytics لعدّ مرات استعمال الميزات. وتعالجهما Google نيابة عنا.</p>
+        <p>يحتوي تقرير العطل على حالة البرنامج لحظة تعطّله — الخطأ، ومكدّس الاستدعاءات، وطراز الجهاز، وإصدار نظام التشغيل، وإصدار التطبيق. ويُنشأ تلقائيًا بفعل العطل نفسه، ويدلّنا على السطر الذي ينبغي إصلاحه في شفرتنا.</p>
+        <p>أحداث الإحصاءات هي عدّ لأفعال مجهولة الهوية، مثل فتح شاشة ما. ولا نضبط أي معرّف مستخدم ولا أي خاصية مستخدم، فلا ترتبط الأحداث بشخص، ولا يمكننا العثور عليك فيها.</p>
+        <h3 id="ar-learnchinese-purchases">الاشتراكات والمشتريات</h3>
+        <p>تقدّم هذه النسخة من التطبيق اشتراكًا يتجدد تلقائيًا. ويتولى متجر App Store أو Google Play عملية الشراء بالكامل.</p>
+        <p>لا نرى أبدًا رقم بطاقتك ولا عنوان الفوترة ولا أي تفصيل آخر يخص الدفع. فالمتجر يخبر التطبيق بأمر واحد فقط: هل يوجد اشتراك ساري المفعول؛ ويُحفظ ذلك الجواب على جهازك ليعمل التطبيق دون اتصال.</p>
+        <h2 id="ar-gcd">Great Cantonese Dictionary</h2>
+        <p>‏Great Cantonese Dictionary تطبيق مرجعي للكانتونية — مداخل ونطق وجمل أمثلة وسجلّ بما بحثت عنه. والقاموس مرفق داخل التطبيق، فالبحث فيه لا يحتاج اتصالًا. ويعمل على iPhone و iPad وأندرويد.</p>
+        <h3 id="ar-gcd-stores">ما يحفظه التطبيق على جهازك</h3>
+        <p>يكتب التطبيق ما يلي في مساحة التخزين الخاصة به على جهازك — وهي منطقة لا تستطيع التطبيقات الأخرى قراءتها. ويبقى ذلك هناك إلى أن تحذفه أنت أو تزيل التطبيق.</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>البند</th>
+              <th>الغرض</th>
+              <th>مكان الحفظ</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>القاموس</td>
+                <td>بيانات المرجع، مرفقة داخل التطبيق وتُقرأ من جهازك.</td>
+                <td>على جهازك وحده</td>
+              </tr>
+              <tr>
+                <td>المفضّلة</td>
+                <td>العناصر التي وضعت عليها نجمة أو حفظتها.</td>
+                <td>على جهازك وحده</td>
+              </tr>
+              <tr>
+                <td>السجل</td>
+                <td>ما بحثت عنه أو تدرّبت عليه مؤخرًا، لتعود إليه.</td>
+                <td>على جهازك وحده</td>
+              </tr>
+              <tr>
+                <td>أيام المواظبة والإحصاءات</td>
+                <td>سلسلة أيامك المتتالية وعدد مرات الدراسة كما تظهر في ملفك.</td>
+                <td>على جهازك وحده</td>
+              </tr>
+              <tr>
+                <td>الإعدادات</td>
+                <td>تفضيلات اللغة والمظهر والصوت والعرض.</td>
+                <td>على جهازك وحده</td>
+              </tr>
+              <tr>
+                <td>حالة الاشتراك</td>
+                <td>جواب «نعم أو لا» محفوظ من المتجر، ليعمل التطبيق دون اتصال.</td>
+                <td>على جهازك وحده</td>
+              </tr>
+              <tr>
+                <td>اختيارك بشأن الإعلانات</td>
+                <td>جواب الموافقة الذي أعطيته، كي لا تُسأل في كل تشغيل.</td>
+                <td>على جهازك وحده</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>لا يُرفع أي من ذلك إلينا. فلا نستطيع قراءته، ولا استعادته لك، ولا تسليمه لأي جهة، لأنه ببساطة لا يصلنا أصلًا.</p>
+        <h3 id="ar-gcd-leaves">ما يغادر جهازك</h3>
+        <p>هذه هي القائمة كاملة. وكل ما لم يُذكر فيها يبقى على جهازك.</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>ما يُرسَل</th>
+              <th>الجهة المستقبِلة</th>
+              <th>الغاية</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>طلبات الإعلانات</td>
+                <td>Google AdMob</td>
+                <td>لاختيار إعلان وقياس أثره.</td>
+              </tr>
+              <tr>
+                <td>أحداث استخدام مجهولة الهوية</td>
+                <td>Google Firebase Analytics</td>
+                <td>عدّ للميزات التي تُفتح، من دون أي معرّف مستخدم.</td>
+              </tr>
+              <tr>
+                <td>تقارير الأعطال</td>
+                <td>Google Firebase Crashlytics</td>
+                <td>الخطأ ومكدّس الاستدعاءات وطراز الجهاز وإصدار التطبيق عند تعطّله.</td>
+              </tr>
+              <tr>
+                <td>التحقق من الشراء</td>
+                <td>Apple App Store / Google Play</td>
+                <td>للتأكد من سريان الاشتراك. ولا تصلنا أي بيانات بطاقة.</td>
+              </tr>
+              <tr>
+                <td>لا شيء تلقائي</td>
+                <td>المواقع التي تفتحها</td>
+                <td>فتح رابط داخل التطبيق يسلّمه إلى متصفحك، ثم يتصرف متصفحك كما يتصرف عادة.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <h3 id="ar-gcd-notdo">ما لا يفعله التطبيق</h3>
+        <p>ما دامت هذه السياسة هي النسخة السارية:</p>
+        <ul>
+          <li>لا يوجد حساب ولا تسجيل ولا بريد إلكتروني ولا كلمة مرور.</li>
+          <li>لا نشغّل خادمًا يستقبل محتواك، ولا نحتفظ بقاعدة بيانات تَرِد فيها.</li>
+          <li>لا نبيع معلوماتك الشخصية ولا نشاركها لأغراض الإعلانات السلوكية عبر السياقات.</li>
+          <li>لا يتتبّعك التطبيق عبر تطبيقات شركات أخرى أو مواقعها، ولا يعرض نافذة «شفافية تتبّع التطبيقات».</li>
+          <li>لا شيء يُزامَن إلى حساب سحابي لدينا. ولا توجد عندنا نسخة احتياطية يُستعاد منها.</li>
+          <li>لا يطلب التطبيق موقعك ولا يقرؤه.</li>
+          <li>لا يسجّل التطبيق صوتًا ولا يطلب إذن الميكروفون أثناء التشغيل.</li>
+          <li>لا يقرأ التطبيق جهات اتصالك ولا تقويمك ولا رسائلك ولا سجل مكالماتك، ولا ملفات خارج مساحته الخاصة.</li>
+        </ul>
+        <h3 id="ar-gcd-perms">الأذونات، وسبب طلب كل منها</h3>
+        <p>كل إذن أدناه يُطلب لغرض واحد معلن ولا يُستعمل في سواه. وفي المنصّتين كلتيهما يمكنك رفضه أو سحبه من إعدادات النظام؛ عندها تتوقف الميزات المعتمدة عليه، ويواصل بقية التطبيق عمله.</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>الإذن</th>
+              <th>المنصّة</th>
+              <th>الغاية</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>الوصول إلى الإنترنت</td>
+                <td>أندرويد</td>
+                <td>لازم للطلبات الشبكية المذكورة أعلاه.</td>
+              </tr>
+              <tr>
+                <td>معرّف الإعلانات</td>
+                <td>أندرويد</td>
+                <td>تستعمله AdMob لاختيار الإعلانات وقياسها. ويمكنك تصفيره أو حذفه من إعدادات أندرويد.</td>
+              </tr>
+              <tr>
+                <td>الفوترة</td>
+                <td>أندرويد</td>
+                <td>لبيع الاشتراك والتحقق منه عبر Google Play.</td>
+              </tr>
+              <tr>
+                <td>شفافية تتبّع التطبيقات</td>
+                <td>iOS</td>
+                <td>غير مطلوب. ولا يتتبّعك التطبيق عبر تطبيقات شركات أخرى أو مواقعها.</td>
+              </tr>
+              <tr>
+                <td>الميكروفون</td>
+                <td>أندرويد و iOS</td>
+                <td>غير مطلوب.</td>
+              </tr>
+              <tr>
+                <td>الكاميرا</td>
+                <td>أندرويد و iOS</td>
+                <td>غير مطلوب.</td>
+              </tr>
+              <tr>
+                <td>الموقع</td>
+                <td>أندرويد و iOS</td>
+                <td>غير مطلوب.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <h3 id="ar-gcd-ads">الإعلانات وخياراتك</h3>
+        <p>تعرض هذه النسخة من التطبيق إعلانات تقدّمها <strong>Google AdMob</strong>. وتعمل Google بوصفها متحكّمًا مستقلًّا في البيانات التي تجمعها عبر تلك الإعلانات، وفق سياستها الخاصة على <a href="https://policies.google.com/technologies/partner-sites" rel="noopener">policies.google.com/technologies/partner-sites</a>.</p>
+        <p>لاختيار إعلان وقياس أثره، قد تتلقى Google معرّف الإعلانات الخاص بجهازك، ومعلومات عامة عن الجهاز والتطبيق، وموقعًا تقريبيًا مستنتجًا من عنوان IP، وما إذا كنت قد رأيت الإعلان أو نقرت عليه. ولا يصلنا شيء من ذلك عنك أنت تحديدًا — فما نراه أرقام مجمّعة للإيرادات ومرات الظهور.</p>
+        <p>تظهر إعلانات هذا التطبيق على هيئة لافتات، وإعلانات بينيّة بملء الشاشة بين الشاشات، وإعلان عند العودة إلى التطبيق.</p>
+        <p>في المنطقة الاقتصادية الأوروبية والمملكة المتحدة وسويسرا، يعرض التطبيق نموذج موافقة Google قبل طلب إعلان مخصَّص. ويُسجَّل اختيارك على جهازك، ويمكنك فتحه من جديد في أي وقت من إعدادات التطبيق، في بند الإعلانات أو خيارات الخصوصية، لتغيّر رأيك.</p>
+        <p>يمكنك تصفير معرّف الإعلانات أو حذفه في أي وقت — في أندرويد من الإعدادات ‹ الخصوصية ‹ الإعلانات، وفي iOS بإيقاف <em>السماح للتطبيقات بطلب التتبّع</em>، وهو ما يجعل المعرّف غير متاح لجميع التطبيقات كذلك.</p>
+        <p>لا يعرض التطبيق نافذة «شفافية تتبّع التطبيقات» من Apple، ولا يتتبّعك عبر تطبيقات شركات أخرى أو مواقعها.</p>
+        <h3 id="ar-gcd-telemetry">إحصاءات الاستخدام وتقارير الأعطال</h3>
+        <p>يستخدم التطبيق <strong>Google Firebase</strong> لأمرين: Crashlytics للإبلاغ عن الأعطال، و Analytics لعدّ مرات استعمال الميزات. وتعالجهما Google نيابة عنا.</p>
+        <p>يحتوي تقرير العطل على حالة البرنامج لحظة تعطّله — الخطأ، ومكدّس الاستدعاءات، وطراز الجهاز، وإصدار نظام التشغيل، وإصدار التطبيق. ويُنشأ تلقائيًا بفعل العطل نفسه، ويدلّنا على السطر الذي ينبغي إصلاحه في شفرتنا.</p>
+        <p>أحداث الإحصاءات هي عدّ لأفعال مجهولة الهوية، مثل فتح شاشة ما. ولا نضبط أي معرّف مستخدم ولا أي خاصية مستخدم، فلا ترتبط الأحداث بشخص، ولا يمكننا العثور عليك فيها.</p>
+        <h3 id="ar-gcd-purchases">الاشتراكات والمشتريات</h3>
+        <p>تقدّم هذه النسخة من التطبيق اشتراكًا يتجدد تلقائيًا. ويتولى متجر App Store أو Google Play عملية الشراء بالكامل.</p>
+        <p>لا نرى أبدًا رقم بطاقتك ولا عنوان الفوترة ولا أي تفصيل آخر يخص الدفع. فالمتجر يخبر التطبيق بأمر واحد فقط: هل يوجد اشتراك ساري المفعول؛ ويُحفظ ذلك الجواب على جهازك ليعمل التطبيق دون اتصال.</p>
+        <p>الشراء لمرة واحدة الذي بِيع في نسخة سابقة ما زال معترَفًا به ويواصل عمله؛ وهو لا يتجدد ولا تُعاد محاسبتك عليه.</p>
+        <h2 id="ar-learnenglish">ALL English</h2>
+        <p>يعلّم ALL English الإنجليزية عبر مفردات متدرّجة وتمارين استماع واختبارات وتمارين نطق تؤديها بصوت مسموع. ويعمل على iPhone و iPad وأندرويد، بواجهة بالإنجليزية والإسبانية والصينية والعربية. ويبقى تقدّمك على الجهاز الذي تستعمله.</p>
+        <p>يُدرَج التطبيق في المتاجر باسم <strong>McEnglish</strong> ويظهر على شاشتك الرئيسية باسم <strong>ALL English</strong>. وهما التطبيق نفسه.</p>
+        <h3 id="ar-learnenglish-stores">ما يحفظه التطبيق على جهازك</h3>
+        <p>يكتب التطبيق ما يلي في مساحة التخزين الخاصة به على جهازك — وهي منطقة لا تستطيع التطبيقات الأخرى قراءتها. ويبقى ذلك هناك إلى أن تحذفه أنت أو تزيل التطبيق.</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>البند</th>
+              <th>الغرض</th>
+              <th>مكان الحفظ</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>تقدّمك في التعلّم</td>
+                <td>الدروس المنجَزة ونتائج الاختبارات والعناصر التي اطّلعت عليها.</td>
+                <td>على جهازك وحده</td>
+              </tr>
+              <tr>
+                <td>المفضّلة</td>
+                <td>العناصر التي وضعت عليها نجمة أو حفظتها.</td>
+                <td>على جهازك وحده</td>
+              </tr>
+              <tr>
+                <td>أيام المواظبة والإحصاءات</td>
+                <td>سلسلة أيامك المتتالية وعدد مرات الدراسة كما تظهر في ملفك.</td>
+                <td>على جهازك وحده</td>
+              </tr>
+              <tr>
+                <td>الإعدادات</td>
+                <td>تفضيلات اللغة والمظهر والصوت والعرض.</td>
+                <td>على جهازك وحده</td>
+              </tr>
+              <tr>
+                <td>حالة الاشتراك</td>
+                <td>جواب «نعم أو لا» محفوظ من المتجر، ليعمل التطبيق دون اتصال.</td>
+                <td>على جهازك وحده</td>
+              </tr>
+              <tr>
+                <td>اختيارك بشأن الإعلانات</td>
+                <td>جواب الموافقة الذي أعطيته، كي لا تُسأل في كل تشغيل.</td>
+                <td>على جهازك وحده</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>لا يُرفع أي من ذلك إلينا. فلا نستطيع قراءته، ولا استعادته لك، ولا تسليمه لأي جهة، لأنه ببساطة لا يصلنا أصلًا.</p>
+        <p>يتولى التعرّف على الكلام في تمارين النطق محرّكُ نظام التشغيل نفسه — محرّك Apple على iOS ومحرّك Google على أندرويد — وفق شروط خصوصية كل منصّة. وتبعًا للجهاز واللغة، قد يعالج ذلك المحرّك الصوت على الجهاز أو على خوادم المنصّة. ولا يصلنا الصوت ولا النص: فكل ما يُبلَّغ به التطبيق درجةُ قرب ما قلته من العبارة المطلوبة، ويُتلَف الصوت فور استخراج تلك الدرجة.</p>
+        <h3 id="ar-learnenglish-leaves">ما يغادر جهازك</h3>
+        <p>هذه هي القائمة كاملة. وكل ما لم يُذكر فيها يبقى على جهازك.</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>ما يُرسَل</th>
+              <th>الجهة المستقبِلة</th>
+              <th>الغاية</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>طلبات الإعلانات</td>
+                <td>Google AdMob</td>
+                <td>لاختيار إعلان وقياس أثره.</td>
+              </tr>
+              <tr>
+                <td>أحداث استخدام مجهولة الهوية</td>
+                <td>Google Firebase Analytics</td>
+                <td>عدّ للميزات التي تُفتح، من دون أي معرّف مستخدم.</td>
+              </tr>
+              <tr>
+                <td>تقارير الأعطال</td>
+                <td>Google Firebase Crashlytics</td>
+                <td>الخطأ ومكدّس الاستدعاءات وطراز الجهاز وإصدار التطبيق عند تعطّله.</td>
+              </tr>
+              <tr>
+                <td>التحقق من الشراء</td>
+                <td>Apple App Store / Google Play</td>
+                <td>للتأكد من سريان الاشتراك. ولا تصلنا أي بيانات بطاقة.</td>
+              </tr>
+              <tr>
+                <td>لا شيء تلقائي</td>
+                <td>المواقع التي تفتحها</td>
+                <td>فتح رابط داخل التطبيق يسلّمه إلى متصفحك، ثم يتصرف متصفحك كما يتصرف عادة.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <h3 id="ar-learnenglish-notdo">ما لا يفعله التطبيق</h3>
+        <p>ما دامت هذه السياسة هي النسخة السارية:</p>
+        <ul>
+          <li>لا يوجد حساب ولا تسجيل ولا بريد إلكتروني ولا كلمة مرور.</li>
+          <li>لا نشغّل خادمًا يستقبل محتواك، ولا نحتفظ بقاعدة بيانات تَرِد فيها.</li>
+          <li>لا نبيع معلوماتك الشخصية ولا نشاركها لأغراض الإعلانات السلوكية عبر السياقات.</li>
+          <li>لا يتتبّعك التطبيق عبر تطبيقات شركات أخرى أو مواقعها، ولا يعرض نافذة «شفافية تتبّع التطبيقات».</li>
+          <li>لا شيء يُزامَن إلى حساب سحابي لدينا. ولا توجد عندنا نسخة احتياطية يُستعاد منها.</li>
+          <li>لا يطلب التطبيق موقعك ولا يقرؤه.</li>
+          <li>لا يقرأ التطبيق جهات اتصالك ولا تقويمك ولا رسائلك ولا سجل مكالماتك، ولا ملفات خارج مساحته الخاصة.</li>
+        </ul>
+        <h3 id="ar-learnenglish-perms">الأذونات، وسبب طلب كل منها</h3>
+        <p>كل إذن أدناه يُطلب لغرض واحد معلن ولا يُستعمل في سواه. وفي المنصّتين كلتيهما يمكنك رفضه أو سحبه من إعدادات النظام؛ عندها تتوقف الميزات المعتمدة عليه، ويواصل بقية التطبيق عمله.</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>الإذن</th>
+              <th>المنصّة</th>
+              <th>الغاية</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>الوصول إلى الإنترنت</td>
+                <td>أندرويد</td>
+                <td>لازم للطلبات الشبكية المذكورة أعلاه.</td>
+              </tr>
+              <tr>
+                <td>حالة الشبكة</td>
+                <td>أندرويد</td>
+                <td>لمعرفة وجود اتصال قبل محاولة استعماله.</td>
+              </tr>
+              <tr>
+                <td>الميكروفون</td>
+                <td>أندرويد</td>
+                <td>للتسجيل حين تبدأ أنت تسجيلًا.</td>
+              </tr>
+              <tr>
+                <td>معرّف الإعلانات</td>
+                <td>أندرويد</td>
+                <td>تستعمله AdMob لاختيار الإعلانات وقياسها. ويمكنك تصفيره أو حذفه من إعدادات أندرويد.</td>
+              </tr>
+              <tr>
+                <td>الميكروفون</td>
+                <td>iOS</td>
+                <td>للتسجيل حين تبدأ أنت تسجيلًا.</td>
+              </tr>
+              <tr>
+                <td>التعرّف على الكلام</td>
+                <td>iOS</td>
+                <td>لتقييم نطقك بمحرّك Apple.</td>
+              </tr>
+              <tr>
+                <td>شفافية تتبّع التطبيقات</td>
+                <td>iOS</td>
+                <td>غير مطلوب. ولا يتتبّعك التطبيق عبر تطبيقات شركات أخرى أو مواقعها.</td>
+              </tr>
+              <tr>
+                <td>الموقع</td>
+                <td>أندرويد و iOS</td>
+                <td>غير مطلوب.</td>
+              </tr>
+              <tr>
+                <td>الكاميرا</td>
+                <td>أندرويد و iOS</td>
+                <td>غير مطلوب.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <h3 id="ar-learnenglish-ads">الإعلانات وخياراتك</h3>
+        <p>تعرض هذه النسخة من التطبيق إعلانات تقدّمها <strong>Google AdMob</strong>. وتعمل Google بوصفها متحكّمًا مستقلًّا في البيانات التي تجمعها عبر تلك الإعلانات، وفق سياستها الخاصة على <a href="https://policies.google.com/technologies/partner-sites" rel="noopener">policies.google.com/technologies/partner-sites</a>.</p>
+        <p>لاختيار إعلان وقياس أثره، قد تتلقى Google معرّف الإعلانات الخاص بجهازك، ومعلومات عامة عن الجهاز والتطبيق، وموقعًا تقريبيًا مستنتجًا من عنوان IP، وما إذا كنت قد رأيت الإعلان أو نقرت عليه. ولا يصلنا شيء من ذلك عنك أنت تحديدًا — فما نراه أرقام مجمّعة للإيرادات ومرات الظهور.</p>
+        <p>تظهر إعلانات هذا التطبيق على هيئة لافتات وإعلانات بينيّة بملء الشاشة بين الشاشات.</p>
+        <p>في المنطقة الاقتصادية الأوروبية والمملكة المتحدة وسويسرا، يعرض التطبيق نموذج موافقة Google قبل طلب إعلان مخصَّص. ويُسجَّل اختيارك على جهازك، ويمكنك فتحه من جديد في أي وقت من إعدادات التطبيق، في بند الإعلانات أو خيارات الخصوصية، لتغيّر رأيك.</p>
+        <p>يمكنك تصفير معرّف الإعلانات أو حذفه في أي وقت — في أندرويد من الإعدادات ‹ الخصوصية ‹ الإعلانات، وفي iOS بإيقاف <em>السماح للتطبيقات بطلب التتبّع</em>، وهو ما يجعل المعرّف غير متاح لجميع التطبيقات كذلك.</p>
+        <p>لا يعرض التطبيق نافذة «شفافية تتبّع التطبيقات» من Apple، ولا يتتبّعك عبر تطبيقات شركات أخرى أو مواقعها.</p>
+        <h3 id="ar-learnenglish-telemetry">إحصاءات الاستخدام وتقارير الأعطال</h3>
+        <p>يستخدم التطبيق <strong>Google Firebase</strong> لأمرين: Crashlytics للإبلاغ عن الأعطال، و Analytics لعدّ مرات استعمال الميزات. وتعالجهما Google نيابة عنا.</p>
+        <p>يحتوي تقرير العطل على حالة البرنامج لحظة تعطّله — الخطأ، ومكدّس الاستدعاءات، وطراز الجهاز، وإصدار نظام التشغيل، وإصدار التطبيق. ويُنشأ تلقائيًا بفعل العطل نفسه، ويدلّنا على السطر الذي ينبغي إصلاحه في شفرتنا.</p>
+        <p>أحداث الإحصاءات هي عدّ لأفعال مجهولة الهوية، مثل فتح شاشة ما. ولا نضبط أي معرّف مستخدم ولا أي خاصية مستخدم، فلا ترتبط الأحداث بشخص، ولا يمكننا العثور عليك فيها.</p>
+        <h3 id="ar-learnenglish-purchases">الاشتراكات والمشتريات</h3>
+        <p>تقدّم هذه النسخة من التطبيق اشتراكًا يتجدد تلقائيًا. ويتولى متجر App Store أو Google Play عملية الشراء بالكامل.</p>
+        <p>لا نرى أبدًا رقم بطاقتك ولا عنوان الفوترة ولا أي تفصيل آخر يخص الدفع. فالمتجر يخبر التطبيق بأمر واحد فقط: هل يوجد اشتراك ساري المفعول؛ ويُحفظ ذلك الجواب على جهازك ليعمل التطبيق دون اتصال.</p>
+        <h2 id="ar-xiezi">Xie Zi</h2>
+        <p>يعلّم Xie Zi الكتابة الصينية بخط اليد: تتتبّع كل حرف بالترتيب الصحيح لشَطَباته فيخبرك التطبيق أين انحرفت الشَّطَبة. وقاموسه البالغ ٩٬٥٧٤ حرفًا وكل حركات الشَّطَبات مرفقة داخل التطبيق، فالتدرّب لا يحتاج اتصالًا البتة.</p>
+        <h3 id="ar-xiezi-stores">ما يحفظه التطبيق على جهازك</h3>
+        <p>يكتب التطبيق ما يلي في مساحة التخزين الخاصة به على جهازك — وهي منطقة لا تستطيع التطبيقات الأخرى قراءتها. ويبقى ذلك هناك إلى أن تحذفه أنت أو تزيل التطبيق.</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>البند</th>
+              <th>الغرض</th>
+              <th>مكان الحفظ</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>القاموس</td>
+                <td>بيانات المرجع، مرفقة داخل التطبيق وتُقرأ من جهازك.</td>
+                <td>على جهازك وحده</td>
+              </tr>
+              <tr>
+                <td>تقدّمك في التعلّم</td>
+                <td>الدروس المنجَزة ونتائج الاختبارات والعناصر التي اطّلعت عليها.</td>
+                <td>على جهازك وحده</td>
+              </tr>
+              <tr>
+                <td>المفضّلة</td>
+                <td>العناصر التي وضعت عليها نجمة أو حفظتها.</td>
+                <td>على جهازك وحده</td>
+              </tr>
+              <tr>
+                <td>السجل</td>
+                <td>ما بحثت عنه أو تدرّبت عليه مؤخرًا، لتعود إليه.</td>
+                <td>على جهازك وحده</td>
+              </tr>
+              <tr>
+                <td>أيام المواظبة والإحصاءات</td>
+                <td>سلسلة أيامك المتتالية وعدد مرات الدراسة كما تظهر في ملفك.</td>
+                <td>على جهازك وحده</td>
+              </tr>
+              <tr>
+                <td>الإعدادات</td>
+                <td>تفضيلات اللغة والمظهر والصوت والعرض.</td>
+                <td>على جهازك وحده</td>
+              </tr>
+              <tr>
+                <td>حالة الاشتراك</td>
+                <td>جواب «نعم أو لا» محفوظ من المتجر، ليعمل التطبيق دون اتصال.</td>
+                <td>على جهازك وحده</td>
+              </tr>
+              <tr>
+                <td>اختيارك بشأن الإعلانات</td>
+                <td>جواب الموافقة الذي أعطيته، كي لا تُسأل في كل تشغيل.</td>
+                <td>على جهازك وحده</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>لا يُرفع أي من ذلك إلينا. فلا نستطيع قراءته، ولا استعادته لك، ولا تسليمه لأي جهة، لأنه ببساطة لا يصلنا أصلًا.</p>
+        <h3 id="ar-xiezi-leaves">ما يغادر جهازك</h3>
+        <p>هذه هي القائمة كاملة. وكل ما لم يُذكر فيها يبقى على جهازك.</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>ما يُرسَل</th>
+              <th>الجهة المستقبِلة</th>
+              <th>الغاية</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>طلبات الإعلانات</td>
+                <td>Google AdMob</td>
+                <td>لاختيار إعلان وقياس أثره.</td>
+              </tr>
+              <tr>
+                <td>التحقق من الشراء</td>
+                <td>Apple App Store / Google Play</td>
+                <td>للتأكد من سريان الاشتراك. ولا تصلنا أي بيانات بطاقة.</td>
+              </tr>
+              <tr>
+                <td>لا شيء تلقائي</td>
+                <td>المواقع التي تفتحها</td>
+                <td>فتح رابط داخل التطبيق يسلّمه إلى متصفحك، ثم يتصرف متصفحك كما يتصرف عادة.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>حركة ترتيب الشَّطَبات وكل بيانات الحروف مرفقة داخل التطبيق. وعرض أي حرف أو التدرّب عليه لا يُحدث أي طلب عبر الشبكة.</p>
+        <h3 id="ar-xiezi-notdo">ما لا يفعله التطبيق</h3>
+        <p>ما دامت هذه السياسة هي النسخة السارية:</p>
+        <ul>
+          <li>لا يوجد حساب ولا تسجيل ولا بريد إلكتروني ولا كلمة مرور.</li>
+          <li>لا نشغّل خادمًا يستقبل محتواك، ولا نحتفظ بقاعدة بيانات تَرِد فيها.</li>
+          <li>لا نبيع معلوماتك الشخصية ولا نشاركها لأغراض الإعلانات السلوكية عبر السياقات.</li>
+          <li>لا يتتبّعك التطبيق عبر تطبيقات شركات أخرى أو مواقعها، ولا يعرض نافذة «شفافية تتبّع التطبيقات».</li>
+          <li>لا شيء يُزامَن إلى حساب سحابي لدينا. ولا توجد عندنا نسخة احتياطية يُستعاد منها.</li>
+          <li>لا تتضمن هذه النسخة حزمة إحصاءات ولا حزمة للإبلاغ عن الأعطال.</li>
+          <li>لا يطلب التطبيق موقعك ولا يقرؤه.</li>
+          <li>لا يسجّل التطبيق صوتًا ولا يطلب إذن الميكروفون أثناء التشغيل.</li>
+          <li>لا يقرأ التطبيق جهات اتصالك ولا تقويمك ولا رسائلك ولا سجل مكالماتك، ولا ملفات خارج مساحته الخاصة.</li>
+        </ul>
+        <h3 id="ar-xiezi-perms">الأذونات، وسبب طلب كل منها</h3>
+        <p>كل إذن أدناه يُطلب لغرض واحد معلن ولا يُستعمل في سواه. وفي المنصّتين كلتيهما يمكنك رفضه أو سحبه من إعدادات النظام؛ عندها تتوقف الميزات المعتمدة عليه، ويواصل بقية التطبيق عمله.</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>الإذن</th>
+              <th>المنصّة</th>
+              <th>الغاية</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>الوصول إلى الإنترنت</td>
+                <td>أندرويد</td>
+                <td>لازم للطلبات الشبكية المذكورة أعلاه.</td>
+              </tr>
+              <tr>
+                <td>حالة الشبكة</td>
+                <td>أندرويد</td>
+                <td>لمعرفة وجود اتصال قبل محاولة استعماله.</td>
+              </tr>
+              <tr>
+                <td>معرّف الإعلانات</td>
+                <td>أندرويد</td>
+                <td>تستعمله AdMob لاختيار الإعلانات وقياسها. ويمكنك تصفيره أو حذفه من إعدادات أندرويد.</td>
+              </tr>
+              <tr>
+                <td>الميكروفون — معلَن وغير مستعمَل</td>
+                <td>أندرويد</td>
+                <td>بقية من تصميم سابق. لا تتضمن هذه النسخة شفرة تسجيل صوت ولا تطلبه أثناء التشغيل.</td>
+              </tr>
+              <tr>
+                <td>البلوتوث — معلَن وغير مستعمَل</td>
+                <td>أندرويد</td>
+                <td>بقية من تصميم سابق. لا تتضمن هذه النسخة شفرة بلوتوث ولا تطلبه أثناء التشغيل.</td>
+              </tr>
+              <tr>
+                <td>شفافية تتبّع التطبيقات</td>
+                <td>iOS</td>
+                <td>غير مطلوب. ولا يتتبّعك التطبيق عبر تطبيقات شركات أخرى أو مواقعها.</td>
+              </tr>
+              <tr>
+                <td>الميكروفون</td>
+                <td>أندرويد و iOS</td>
+                <td>غير مطلوب.</td>
+              </tr>
+              <tr>
+                <td>الكاميرا</td>
+                <td>أندرويد و iOS</td>
+                <td>غير مطلوب.</td>
+              </tr>
+              <tr>
+                <td>الموقع</td>
+                <td>أندرويد و iOS</td>
+                <td>غير مطلوب.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>بقي في ملف بيان أندرويد إذنان من تصميم سابق — الميكروفون والبلوتوث — ولذلك يعرضهما المتجر. وهذه النسخة من التطبيق لا تتضمن شفرة تسجيل صوت ولا شفرة بلوتوث: فلا يُطلب أيٌّ منهما أثناء التشغيل ولا يُستعمل. ونذكر ذلك هنا لأنك قد تراهما في صفحة المتجر، ومن حقك تفسير لا مفاجأة.</p>
+        <h3 id="ar-xiezi-ads">الإعلانات وخياراتك</h3>
+        <p>تعرض هذه النسخة من التطبيق إعلانات تقدّمها <strong>Google AdMob</strong>. وتعمل Google بوصفها متحكّمًا مستقلًّا في البيانات التي تجمعها عبر تلك الإعلانات، وفق سياستها الخاصة على <a href="https://policies.google.com/technologies/partner-sites" rel="noopener">policies.google.com/technologies/partner-sites</a>.</p>
+        <p>لاختيار إعلان وقياس أثره، قد تتلقى Google معرّف الإعلانات الخاص بجهازك، ومعلومات عامة عن الجهاز والتطبيق، وموقعًا تقريبيًا مستنتجًا من عنوان IP، وما إذا كنت قد رأيت الإعلان أو نقرت عليه. ولا يصلنا شيء من ذلك عنك أنت تحديدًا — فما نراه أرقام مجمّعة للإيرادات ومرات الظهور.</p>
+        <p>تظهر إعلانات هذا التطبيق على هيئة لافتات وإعلانات بينيّة بملء الشاشة بين الشاشات.</p>
+        <p>تطلب هذه النسخة إعلانات غير مخصَّصة. والإعلان غير المخصَّص يُقاس أثره أيضًا، فتصل معلومات محدودة إلى Google، غير أنه لا يُختار بناءً على ملف اهتماماتك.</p>
+        <p>في المنطقة الاقتصادية الأوروبية والمملكة المتحدة وسويسرا، يعرض التطبيق نموذج موافقة Google قبل طلب إعلان مخصَّص. ويُسجَّل اختيارك على جهازك، ويمكنك فتحه من جديد في أي وقت من إعدادات التطبيق، في بند الإعلانات أو خيارات الخصوصية، لتغيّر رأيك.</p>
+        <p>يمكنك تصفير معرّف الإعلانات أو حذفه في أي وقت — في أندرويد من الإعدادات ‹ الخصوصية ‹ الإعلانات، وفي iOS بإيقاف <em>السماح للتطبيقات بطلب التتبّع</em>، وهو ما يجعل المعرّف غير متاح لجميع التطبيقات كذلك.</p>
+        <p>لا يعرض التطبيق نافذة «شفافية تتبّع التطبيقات» من Apple، ولا يتتبّعك عبر تطبيقات شركات أخرى أو مواقعها.</p>
+        <h3 id="ar-xiezi-telemetry">إحصاءات الاستخدام وتقارير الأعطال</h3>
+        <p>لا تتضمن هذه النسخة من التطبيق أي حزمة إحصاءات ولا أي حزمة للإبلاغ عن الأعطال. فلا تصلنا منها أي بيانات استخدام ولا تقارير أعطال ولا بيانات تشخيصية.</p>
+        <h3 id="ar-xiezi-purchases">الاشتراكات والمشتريات</h3>
+        <p>تقدّم هذه النسخة من التطبيق اشتراكًا يتجدد تلقائيًا. ويتولى متجر App Store أو Google Play عملية الشراء بالكامل.</p>
+        <p>لا نرى أبدًا رقم بطاقتك ولا عنوان الفوترة ولا أي تفصيل آخر يخص الدفع. فالمتجر يخبر التطبيق بأمر واحد فقط: هل يوجد اشتراك ساري المفعول؛ ويُحفظ ذلك الجواب على جهازك ليعمل التطبيق دون اتصال.</p>
+        <h2 id="ar-momerame">Momera.ME</h2>
+        <p>يلتقط Momera.ME اللحظة وقت حدوثها — صورة، ومذكّرة صوتية، وملاحظة، وأين كنت، وكم مشيت — ويجمعها كلها في مدخلة واحدة. وكل ما يلتقطه يُكتب على جهازك أنت. ويعمل على أندرويد.</p>
+        <h3 id="ar-momerame-stores">ما يحفظه التطبيق على جهازك</h3>
+        <p>يكتب التطبيق ما يلي في مساحة التخزين الخاصة به على جهازك — وهي منطقة لا تستطيع التطبيقات الأخرى قراءتها. ويبقى ذلك هناك إلى أن تحذفه أنت أو تزيل التطبيق.</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>البند</th>
+              <th>الغرض</th>
+              <th>مكان الحفظ</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>الصور ومقاطع الفيديو</td>
+                <td>ما تلتقطه داخل التطبيق أو ترفقه بمدخلة.</td>
+                <td>على جهازك وحده</td>
+              </tr>
+              <tr>
+                <td>المذكّرات الصوتية</td>
+                <td>ما سجّلته صوتًا مرتبطًا بمكان أو بمدخلة.</td>
+                <td>على جهازك وحده</td>
+              </tr>
+              <tr>
+                <td>النصوص المفرَّغة</td>
+                <td>نصّ أُنتج من صوتك على الجهاز.</td>
+                <td>على جهازك وحده</td>
+              </tr>
+              <tr>
+                <td>الملاحظات النصية</td>
+                <td>ما كتبته.</td>
+                <td>على جهازك وحده</td>
+              </tr>
+              <tr>
+                <td>المسارات المسجَّلة</td>
+                <td>مسار GPS لجولة بدأت تسجيلها بنفسك.</td>
+                <td>على جهازك وحده</td>
+              </tr>
+              <tr>
+                <td>عدد الخطوات</td>
+                <td>الخطوات التي عدّها مستشعر الجهاز أثناء التسجيل.</td>
+                <td>على جهازك وحده</td>
+              </tr>
+              <tr>
+                <td>نموذج الكلام</td>
+                <td>ملف النموذج المنزَّل الذي يجعل التفريغ النصي دون اتصال ممكنًا.</td>
+                <td>على جهازك وحده</td>
+              </tr>
+              <tr>
+                <td>مربّعات الخريطة المخزَّنة</td>
+                <td>مربّعات نُزّلت من قبل، تُحفظ لتبقى المنطقة متاحة دون اتصال.</td>
+                <td>على جهازك وحده</td>
+              </tr>
+              <tr>
+                <td>الإعدادات</td>
+                <td>تفضيلات اللغة والمظهر والصوت والعرض.</td>
+                <td>على جهازك وحده</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>لا يُرفع أي من ذلك إلينا. فلا نستطيع قراءته، ولا استعادته لك، ولا تسليمه لأي جهة، لأنه ببساطة لا يصلنا أصلًا.</p>
+        <p>يُفرَّغ الكلام نصًّا على جهازك بنموذج مرفق داخل التطبيق. ولا يُرفع صوتك، ولا يُرسَل إلى أي خدمة تفريغ سحابية، ولا يُستخدم في تدريب أي شيء.</p>
+        <p>يقرأ عدّ الخطوات مستشعرَ الخطوات في الجهاز عبر إذن التعرّف على النشاط. ويُحفظ العدد مع الرحلة على جهازك. ولا تُقرأ أي منصّة صحة أو لياقة ولا يُكتب فيها — لا Apple Health ولا Google Fit.</p>
+        <p>تسجيل الشاشة، حين تبدأه أنت، لا يلتقط إلا شاشة هذا التطبيق نفسه أثناء عمله، ويُكتب الملف على جهازك. ولا يبدأ أبدًا في الخلفية ولا من دونك.</p>
+        <p>يعطّل هذا التطبيق النسخ الاحتياطي التلقائي في أندرويد، فلا يُنسخ محتواه إلى Google Drive الخاص بك ولا يُنقل عند التحويل من جهاز إلى آخر.</p>
+        <h3 id="ar-momerame-leaves">ما يغادر جهازك</h3>
+        <p>هذه هي القائمة كاملة. وكل ما لم يُذكر فيها يبقى على جهازك.</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>ما يُرسَل</th>
+              <th>الجهة المستقبِلة</th>
+              <th>الغاية</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>طلبات مربّعات الخريطة</td>
+                <td>مؤسسة OpenStreetMap</td>
+                <td>لرسم الخريطة. تُرسل عنوان IP لديك والمربّع المطلوب.</td>
+              </tr>
+              <tr>
+                <td>تنزيل النموذج مرة واحدة</td>
+                <td>GitHub، وبديلها Hugging Face</td>
+                <td>لجلب نموذج الكلام للعمل دون اتصال. ولا يُرسل شيء عنك.</td>
+              </tr>
+              <tr>
+                <td>لا شيء تلقائي</td>
+                <td>المواقع التي تفتحها</td>
+                <td>فتح رابط داخل التطبيق يسلّمه إلى متصفحك، ثم يتصرف متصفحك كما يتصرف عادة.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>تُرسم الخريطة من مربّعات تُجلب أثناء تحريكك لها وتكبيرها. ويُطلِع هذا الطلبُ خادمَ الخرائط على عنوان IP الخاص بك وعلى المربّع الذي تنظر إليه، وهو أمر ملازم لأي خريطة على الإنترنت. أما المسار الذي سجّلته فلا يُرسَل معه أبدًا. وتُخزَّن المربّعات على جهازك، فتبقى المنطقة التي شاهدتها متاحة دون اتصال.</p>
+        <p>عند أول استعمال للتفريغ النصي دون اتصال، ينزّل التطبيق نموذج التعرّف على الكلام — نحو ٢٢٨ ميغابايت — من صفحة إصداراتنا على GitHub، ويلجأ إلى Hugging Face إن تعذّر ذلك. وهو تنزيل ملف في اتجاه واحد: لا يُرسَل في الطلب شيء عنك ولا أي مقطع من تسجيلاتك. وحين يصبح النموذج على جهازك، يجري التفريغ النصي على الجهاز بالكامل ويعمل من دون أي اتصال.</p>
+        <p>بمعزل عن الجدول أعلاه، فإن كل ما ترسله أنت عن قصد — عبر قائمة المشاركة في النظام، أو التصدير، أو الطباعة، أو الحافظة — يذهب إلى حيث أرسلته. وذلك اختيارك في كل مرة، وهو خارج نطاق الجدول.</p>
+        <h3 id="ar-momerame-notdo">ما لا يفعله التطبيق</h3>
+        <p>ما دامت هذه السياسة هي النسخة السارية:</p>
+        <ul>
+          <li>لا يوجد حساب ولا تسجيل ولا بريد إلكتروني ولا كلمة مرور.</li>
+          <li>لا نشغّل خادمًا يستقبل محتواك، ولا نحتفظ بقاعدة بيانات تَرِد فيها.</li>
+          <li>لا نبيع معلوماتك الشخصية ولا نشاركها لأغراض الإعلانات السلوكية عبر السياقات.</li>
+          <li>لا يتتبّعك التطبيق عبر تطبيقات شركات أخرى أو مواقعها، ولا يعرض نافذة «شفافية تتبّع التطبيقات».</li>
+          <li>لا شيء يُزامَن إلى حساب سحابي لدينا. ولا توجد عندنا نسخة احتياطية يُستعاد منها.</li>
+          <li>لا تتضمن هذه النسخة حزمة إعلانات ولا تعرض أي إعلان.</li>
+          <li>لا تتضمن هذه النسخة حزمة إحصاءات ولا حزمة للإبلاغ عن الأعطال.</li>
+          <li>لا يقرأ التطبيق جهات اتصالك ولا تقويمك ولا رسائلك ولا سجل مكالماتك، ولا ملفات خارج مساحته الخاصة.</li>
+          <li>لا يقرأ التطبيق أي منصّة صحة أو لياقة ولا يكتب فيها — لا Apple Health ولا Google Fit.</li>
+        </ul>
+        <h3 id="ar-momerame-perms">الأذونات، وسبب طلب كل منها</h3>
+        <p>كل إذن أدناه يُطلب لغرض واحد معلن ولا يُستعمل في سواه. وفي المنصّتين كلتيهما يمكنك رفضه أو سحبه من إعدادات النظام؛ عندها تتوقف الميزات المعتمدة عليه، ويواصل بقية التطبيق عمله.</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>الإذن</th>
+              <th>المنصّة</th>
+              <th>الغاية</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>الوصول إلى الإنترنت</td>
+                <td>أندرويد</td>
+                <td>لازم للطلبات الشبكية المذكورة أعلاه.</td>
+              </tr>
+              <tr>
+                <td>الميكروفون</td>
+                <td>أندرويد</td>
+                <td>للتسجيل حين تبدأ أنت تسجيلًا.</td>
+              </tr>
+              <tr>
+                <td>الكاميرا</td>
+                <td>أندرويد</td>
+                <td>لالتقاط صورة أو مقطع داخل التطبيق.</td>
+              </tr>
+              <tr>
+                <td>الموقع الدقيق</td>
+                <td>أندرويد</td>
+                <td>لتسجيل مسارك بدقة أثناء التسجيل.</td>
+              </tr>
+              <tr>
+                <td>الموقع التقريبي</td>
+                <td>أندرويد</td>
+                <td>البديل الذي يمنحه النظام إن سمحت بالموقع التقريبي وحده.</td>
+              </tr>
+              <tr>
+                <td>الموقع في الخلفية</td>
+                <td>أندرويد</td>
+                <td>لئلا ينقطع تسجيل بدأته حين تغادر التطبيق. ولا يُستعمل حين لا يكون لديك تسجيل جارٍ.</td>
+              </tr>
+              <tr>
+                <td>النشاط البدني</td>
+                <td>أندرويد</td>
+                <td>لقراءة عدّاد خطوات الجهاز أثناء التسجيل.</td>
+              </tr>
+              <tr>
+                <td>خدمة في المقدمة</td>
+                <td>أندرويد</td>
+                <td>لإبقاء مهمة بدأتها أنت تعمل مع إشعار دائم ظاهر.</td>
+              </tr>
+              <tr>
+                <td>خدمة في المقدمة — الموقع</td>
+                <td>أندرويد</td>
+                <td>لئلا ينقطع مسار بدأت تسجيله والشاشة مطفأة.</td>
+              </tr>
+              <tr>
+                <td>خدمة في المقدمة — الميكروفون</td>
+                <td>أندرويد</td>
+                <td>لاستمرار تسجيل بدأته والشاشة مطفأة.</td>
+              </tr>
+              <tr>
+                <td>خدمة في المقدمة — تسجيل الشاشة</td>
+                <td>أندرويد</td>
+                <td>فقط أثناء تسجيل شاشة بدأته أنت.</td>
+              </tr>
+              <tr>
+                <td>الإشعارات</td>
+                <td>أندرويد</td>
+                <td>لعرض الإشعار الدائم أثناء التسجيل ولإعلامك عند انتهائه.</td>
+              </tr>
+              <tr>
+                <td>التخزين (إصدارات أندرويد القديمة فقط)</td>
+                <td>أندرويد</td>
+                <td>لحفظ الملفات على أندرويد ٩ وما قبله. ولا يُطلب في الإصدارات الأحدث.</td>
+              </tr>
+              <tr>
+                <td>شفافية تتبّع التطبيقات</td>
+                <td>iOS</td>
+                <td>غير مطلوب. ولا يتتبّعك التطبيق عبر تطبيقات شركات أخرى أو مواقعها.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>لا يُستعمل الموقع في الخلفية إلا أثناء تسجيل بدأته أنت، ولغرض واحد هو ألّا ينقطع ذلك المسار والشاشة مطفأة. ويظل إشعار دائم ظاهرًا طوال الوقت. ولا يُستعمل أبدًا لتكوين سجلّ بتنقّلاتك حين لا يكون لديك تسجيل جارٍ.</p>
+        <h3 id="ar-momerame-telemetry">إحصاءات الاستخدام وتقارير الأعطال</h3>
+        <p>لا تتضمن هذه النسخة من التطبيق أي حزمة إحصاءات ولا أي حزمة للإبلاغ عن الأعطال. فلا تصلنا منها أي بيانات استخدام ولا تقارير أعطال ولا بيانات تشخيصية.</p>
+        <h3 id="ar-momerame-purchases">الاشتراكات والمشتريات</h3>
+        <p>لا تتضمن هذه النسخة من التطبيق أي شراء داخلي ولا أي اشتراك، ومن ثَمّ فهي لا تجمع أي معلومات دفع على الإطلاق.</p>
+        <h2 id="ar-momerago">Momera GO</h2>
+        <p>يسجّل Momera GO رحلة المشي وأنت تخطوها — المسار، والصور ومقاطع الفيديو مثبَّتة حيث التقطتها، والمذكّرات الصوتية والملاحظات — ثم يحوّلها إلى رحلة يمكنك إعادة عرضها. ويعمل على iPhone و iPad وأندرويد، وهو مصمَّم للعمل حيث لا تصل الشبكة.</p>
+        <h3 id="ar-momerago-stores">ما يحفظه التطبيق على جهازك</h3>
+        <p>يكتب التطبيق ما يلي في مساحة التخزين الخاصة به على جهازك — وهي منطقة لا تستطيع التطبيقات الأخرى قراءتها. ويبقى ذلك هناك إلى أن تحذفه أنت أو تزيل التطبيق.</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>البند</th>
+              <th>الغرض</th>
+              <th>مكان الحفظ</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>المسارات المسجَّلة</td>
+                <td>مسار GPS لجولة بدأت تسجيلها بنفسك.</td>
+                <td>على جهازك وحده</td>
+              </tr>
+              <tr>
+                <td>الصور ومقاطع الفيديو</td>
+                <td>ما تلتقطه داخل التطبيق أو ترفقه بمدخلة.</td>
+                <td>على جهازك وحده</td>
+              </tr>
+              <tr>
+                <td>المذكّرات الصوتية</td>
+                <td>ما سجّلته صوتًا مرتبطًا بمكان أو بمدخلة.</td>
+                <td>على جهازك وحده</td>
+              </tr>
+              <tr>
+                <td>الملاحظات النصية</td>
+                <td>ما كتبته.</td>
+                <td>على جهازك وحده</td>
+              </tr>
+              <tr>
+                <td>الرحلات</td>
+                <td>ما ركّبته من مسارات وصور وملاحظات.</td>
+                <td>على جهازك وحده</td>
+              </tr>
+              <tr>
+                <td>المسالك وملفات المخطط الزمني المستوردة</td>
+                <td>ملفات GPX وملفات تصدير Google Timeline التي استوردتها بنفسك.</td>
+                <td>على جهازك وحده</td>
+              </tr>
+              <tr>
+                <td>عدد الخطوات</td>
+                <td>الخطوات التي عدّها مستشعر الجهاز أثناء التسجيل.</td>
+                <td>على جهازك وحده</td>
+              </tr>
+              <tr>
+                <td>مربّعات الخريطة المخزَّنة</td>
+                <td>مربّعات نُزّلت من قبل، تُحفظ لتبقى المنطقة متاحة دون اتصال.</td>
+                <td>على جهازك وحده</td>
+              </tr>
+              <tr>
+                <td>الإعدادات</td>
+                <td>تفضيلات اللغة والمظهر والصوت والعرض.</td>
+                <td>على جهازك وحده</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>لا يُرفع أي من ذلك إلينا. فلا نستطيع قراءته، ولا استعادته لك، ولا تسليمه لأي جهة، لأنه ببساطة لا يصلنا أصلًا.</p>
+        <p>يمكنك استيراد ملف تصدير «المخطط الزمني» من خرائط Google لإعادة بناء رحلات سابقة. والملف تقدّمه أنت؛ ويقرؤه التطبيق على جهازك، ولا يُرفع لا الملف ولا أي شيء مشتق منه. واحذف الرحلات المستوردة داخل التطبيق فتزول.</p>
+        <p>يستخدم إنشاء رحلة من الصور منتقيَ الصور في النظام. ولا يسلّم المنتقي التطبيقَ إلا العناصر التي تحددها أنت — فالتطبيق لا يُمنح وصولًا إلى مكتبة صورك، بل لا يطلب على iOS إذن مكتبة الصور أصلًا. أما الموقع المقروء من بيانات الصورة نفسها فيُستعمل لوضعها على الخريطة ويبقى مع الرحلة على جهازك.</p>
+        <p>يقرأ عدّ الخطوات مستشعرَ الخطوات في الجهاز عبر إذن التعرّف على النشاط. ويُحفظ العدد مع الرحلة على جهازك. ولا تُقرأ أي منصّة صحة أو لياقة ولا يُكتب فيها — لا Apple Health ولا Google Fit.</p>
+        <p>يستطيع التطبيق فتح ملف ‎.gpx‎ يسلّمه إليه تطبيق آخر، وتصدير مسارك بصيغة ‎.gpx‎ أو GeoJSON. فالاستيراد قراءةٌ للملف على جهازك؛ والتصدير إنشاءُ ملف تقرر أنت بعده ما تفعله به.</p>
+        <h3 id="ar-momerago-leaves">ما يغادر جهازك</h3>
+        <p>هذه هي القائمة كاملة. وكل ما لم يُذكر فيها يبقى على جهازك.</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>ما يُرسَل</th>
+              <th>الجهة المستقبِلة</th>
+              <th>الغاية</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>طلبات مربّعات الخريطة</td>
+                <td>مؤسسة OpenStreetMap</td>
+                <td>لرسم الخريطة. تُرسل عنوان IP لديك والمربّع المطلوب.</td>
+              </tr>
+              <tr>
+                <td>طلبات مربّعات التضاريس</td>
+                <td>OpenTopoMap</td>
+                <td>لرسم خريطة التضاريس. تُرسل عنوان IP لديك والمربّع المطلوب.</td>
+              </tr>
+              <tr>
+                <td>أحداث استخدام مجهولة الهوية (نسخة أندرويد وحدها)</td>
+                <td>Google Firebase Analytics</td>
+                <td>عدّادات تشخيصية بلا معرّف مستخدم وبلا موقع.</td>
+              </tr>
+              <tr>
+                <td>تقارير الأعطال (نسخة أندرويد وحدها)</td>
+                <td>Google Firebase Crashlytics</td>
+                <td>الخطأ ومكدّس الاستدعاءات وطراز الجهاز وإصدار التطبيق عند تعطّله.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>تُرسم الخريطة من مربّعات تُجلب أثناء تحريكك لها وتكبيرها. ويُطلِع هذا الطلبُ خادمَ الخرائط على عنوان IP الخاص بك وعلى المربّع الذي تنظر إليه، وهو أمر ملازم لأي خريطة على الإنترنت. أما المسار الذي سجّلته فلا يُرسَل معه أبدًا. وتُخزَّن المربّعات على جهازك، فتبقى المنطقة التي شاهدتها متاحة دون اتصال.</p>
+        <p>بمعزل عن الجدول أعلاه، فإن كل ما ترسله أنت عن قصد — عبر قائمة المشاركة في النظام، أو التصدير، أو الطباعة، أو الحافظة — يذهب إلى حيث أرسلته. وذلك اختيارك في كل مرة، وهو خارج نطاق الجدول.</p>
+        <h3 id="ar-momerago-notdo">ما لا يفعله التطبيق</h3>
+        <p>ما دامت هذه السياسة هي النسخة السارية:</p>
+        <ul>
+          <li>لا يوجد حساب ولا تسجيل ولا بريد إلكتروني ولا كلمة مرور.</li>
+          <li>لا نشغّل خادمًا يستقبل محتواك، ولا نحتفظ بقاعدة بيانات تَرِد فيها.</li>
+          <li>لا نبيع معلوماتك الشخصية ولا نشاركها لأغراض الإعلانات السلوكية عبر السياقات.</li>
+          <li>لا يتتبّعك التطبيق عبر تطبيقات شركات أخرى أو مواقعها، ولا يعرض نافذة «شفافية تتبّع التطبيقات».</li>
+          <li>لا شيء يُزامَن إلى حساب سحابي لدينا. ولا توجد عندنا نسخة احتياطية يُستعاد منها.</li>
+          <li>لا تتضمن هذه النسخة حزمة إعلانات ولا تعرض أي إعلان.</li>
+          <li>لا يقرأ التطبيق جهات اتصالك ولا تقويمك ولا رسائلك ولا سجل مكالماتك، ولا ملفات خارج مساحته الخاصة.</li>
+          <li>لا يقرأ التطبيق أي منصّة صحة أو لياقة ولا يكتب فيها — لا Apple Health ولا Google Fit.</li>
+        </ul>
+        <h3 id="ar-momerago-perms">الأذونات، وسبب طلب كل منها</h3>
+        <p>كل إذن أدناه يُطلب لغرض واحد معلن ولا يُستعمل في سواه. وفي المنصّتين كلتيهما يمكنك رفضه أو سحبه من إعدادات النظام؛ عندها تتوقف الميزات المعتمدة عليه، ويواصل بقية التطبيق عمله.</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>الإذن</th>
+              <th>المنصّة</th>
+              <th>الغاية</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>الوصول إلى الإنترنت</td>
+                <td>أندرويد</td>
+                <td>لازم للطلبات الشبكية المذكورة أعلاه.</td>
+              </tr>
+              <tr>
+                <td>الموقع الدقيق</td>
+                <td>أندرويد</td>
+                <td>لتسجيل مسارك بدقة أثناء التسجيل.</td>
+              </tr>
+              <tr>
+                <td>الموقع التقريبي</td>
+                <td>أندرويد</td>
+                <td>البديل الذي يمنحه النظام إن سمحت بالموقع التقريبي وحده.</td>
+              </tr>
+              <tr>
+                <td>الكاميرا</td>
+                <td>أندرويد</td>
+                <td>لالتقاط صورة أو مقطع داخل التطبيق.</td>
+              </tr>
+              <tr>
+                <td>الميكروفون</td>
+                <td>أندرويد</td>
+                <td>للتسجيل حين تبدأ أنت تسجيلًا.</td>
+              </tr>
+              <tr>
+                <td>الموقع داخل الصور</td>
+                <td>أندرويد</td>
+                <td>لقراءة مكان التقاط الصورة من بياناتها نفسها، ووضعها على الخريطة.</td>
+              </tr>
+              <tr>
+                <td>النشاط البدني</td>
+                <td>أندرويد</td>
+                <td>لقراءة عدّاد خطوات الجهاز أثناء التسجيل.</td>
+              </tr>
+              <tr>
+                <td>خدمة في المقدمة</td>
+                <td>أندرويد</td>
+                <td>لإبقاء مهمة بدأتها أنت تعمل مع إشعار دائم ظاهر.</td>
+              </tr>
+              <tr>
+                <td>خدمة في المقدمة — الموقع</td>
+                <td>أندرويد</td>
+                <td>لئلا ينقطع مسار بدأت تسجيله والشاشة مطفأة.</td>
+              </tr>
+              <tr>
+                <td>خدمة في المقدمة — تسجيل الشاشة</td>
+                <td>أندرويد</td>
+                <td>فقط أثناء تسجيل شاشة بدأته أنت.</td>
+              </tr>
+              <tr>
+                <td>الإشعارات</td>
+                <td>أندرويد</td>
+                <td>لعرض الإشعار الدائم أثناء التسجيل ولإعلامك عند انتهائه.</td>
+              </tr>
+              <tr>
+                <td>التخزين (إصدارات أندرويد القديمة فقط)</td>
+                <td>أندرويد</td>
+                <td>لحفظ الملفات على أندرويد ٩ وما قبله. ولا يُطلب في الإصدارات الأحدث.</td>
+              </tr>
+              <tr>
+                <td>الموقع — أثناء الاستعمال</td>
+                <td>iOS</td>
+                <td>لتسجيل مسارك أثناء التسجيل. ولا يُطلب الموقع الدائم.</td>
+              </tr>
+              <tr>
+                <td>الكاميرا</td>
+                <td>iOS</td>
+                <td>للالتقاط داخل التطبيق.</td>
+              </tr>
+              <tr>
+                <td>الميكروفون</td>
+                <td>iOS</td>
+                <td>للتسجيل حين تبدأ أنت تسجيلًا.</td>
+              </tr>
+              <tr>
+                <td>وضع الموقع في الخلفية</td>
+                <td>iOS</td>
+                <td>ليستمر تسجيل بدأته بعد قفل الشاشة. وهو خامل حين لا يجري أي تسجيل.</td>
+              </tr>
+              <tr>
+                <td>الموقع في الخلفية</td>
+                <td>أندرويد و iOS</td>
+                <td>غير مطلوب على أيٍّ من المنصّتين.</td>
+              </tr>
+              <tr>
+                <td>مكتبة الصور</td>
+                <td>iOS</td>
+                <td>غير مطلوب. فمنتقي الصور في النظام لا يسلّم إلا العناصر التي تحددها.</td>
+              </tr>
+              <tr>
+                <td>شفافية تتبّع التطبيقات</td>
+                <td>iOS</td>
+                <td>غير مطلوب. ولا يتتبّعك التطبيق عبر تطبيقات شركات أخرى أو مواقعها.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>يُسجَّل الموقع ما دامت لديك رحلة مشي جارية، مع إشعار دائم ظاهر، ويتوقف حين توقف الرحلة. ولا يطلب التطبيق إذن الموقع في الخلفية على أيٍّ من المنصّتين.</p>
+        <h3 id="ar-momerago-telemetry">إحصاءات الاستخدام وتقارير الأعطال</h3>
+        <p>يستخدم التطبيق <strong>Google Firebase</strong> لأمرين: Crashlytics للإبلاغ عن الأعطال، و Analytics لعدّ مرات استعمال الميزات. وتعالجهما Google نيابة عنا.</p>
+        <p>يحتوي تقرير العطل على حالة البرنامج لحظة تعطّله — الخطأ، ومكدّس الاستدعاءات، وطراز الجهاز، وإصدار نظام التشغيل، وإصدار التطبيق. ويُنشأ تلقائيًا بفعل العطل نفسه، ويدلّنا على السطر الذي ينبغي إصلاحه في شفرتنا.</p>
+        <p>أحداث الإحصاءات هنا عدّادات تشخيصية تتعلق بموثوقية تسجيل الموقع — أن المسار بدأ أو توقّف أو استُعيد، أو أن تدفّق الموقع تجمّد ثم عاد. <strong>ولا تتضمن أي إحداثيات ولا أي مسار ولا أي اسم مكان.</strong></p>
+        <div class="pp-note">
+        <p><strong>ينطبق هذا على نسخة أندرويد وحدها.</strong> فنسخة iOS تُبنى من دون إعدادات Firebase، ولذلك لا تُشغّل أي خدمة من خدمات Firebase ولا ترسل أي تقرير عطل ولا أي حدث إحصائي إطلاقًا.</p>
+        </div>
+        <h3 id="ar-momerago-purchases">الاشتراكات والمشتريات</h3>
+        <p>لا تتضمن هذه النسخة من التطبيق أي شراء داخلي ولا أي اشتراك، ومن ثَمّ فهي لا تجمع أي معلومات دفع على الإطلاق.</p>
+        <h2 id="ar-mcrecorder">McRecorder</h2>
+        <p>يسجّل McRecorder الصوت ويحوّله إلى نص بنموذج كلام يعمل على جهازك أنت. والتسجيلات والنصوص المفرَّغة ملفات في مساحة التطبيق الخاصة. ويعمل على iPhone و iPad وأندرويد.</p>
+        <h3 id="ar-mcrecorder-stores">ما يحفظه التطبيق على جهازك</h3>
+        <p>يكتب التطبيق ما يلي في مساحة التخزين الخاصة به على جهازك — وهي منطقة لا تستطيع التطبيقات الأخرى قراءتها. ويبقى ذلك هناك إلى أن تحذفه أنت أو تزيل التطبيق.</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>البند</th>
+              <th>الغرض</th>
+              <th>مكان الحفظ</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>التسجيلات الصوتية</td>
+                <td>ما سجّلته، على هيئة ملفات.</td>
+                <td>على جهازك وحده</td>
+              </tr>
+              <tr>
+                <td>النصوص المفرَّغة</td>
+                <td>نصّ أُنتج من صوتك على الجهاز.</td>
+                <td>على جهازك وحده</td>
+              </tr>
+              <tr>
+                <td>نموذج الكلام</td>
+                <td>ملف النموذج المنزَّل الذي يجعل التفريغ النصي دون اتصال ممكنًا.</td>
+                <td>على جهازك وحده</td>
+              </tr>
+              <tr>
+                <td>الإعدادات</td>
+                <td>تفضيلات اللغة والمظهر والصوت والعرض.</td>
+                <td>على جهازك وحده</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>لا يُرفع أي من ذلك إلينا. فلا نستطيع قراءته، ولا استعادته لك، ولا تسليمه لأي جهة، لأنه ببساطة لا يصلنا أصلًا.</p>
+        <p>يُفرَّغ الكلام نصًّا على جهازك بنموذج مرفق داخل التطبيق. ولا يُرفع صوتك، ولا يُرسَل إلى أي خدمة تفريغ سحابية، ولا يُستخدم في تدريب أي شيء.</p>
+        <h3 id="ar-mcrecorder-leaves">ما يغادر جهازك</h3>
+        <p>هذه هي القائمة كاملة. وكل ما لم يُذكر فيها يبقى على جهازك.</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>ما يُرسَل</th>
+              <th>الجهة المستقبِلة</th>
+              <th>الغاية</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>تنزيل النموذج مرة واحدة</td>
+                <td>GitHub، وبديلها Hugging Face</td>
+                <td>لجلب نموذج الكلام للعمل دون اتصال. ولا يُرسل شيء عنك.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>عند أول استعمال للتفريغ النصي دون اتصال، ينزّل التطبيق نموذج التعرّف على الكلام — نحو ٢٢٨ ميغابايت — من صفحة إصداراتنا على GitHub، ويلجأ إلى Hugging Face إن تعذّر ذلك. وهو تنزيل ملف في اتجاه واحد: لا يُرسَل في الطلب شيء عنك ولا أي مقطع من تسجيلاتك. وحين يصبح النموذج على جهازك، يجري التفريغ النصي على الجهاز بالكامل ويعمل من دون أي اتصال.</p>
+        <p>بمعزل عن الجدول أعلاه، فإن كل ما ترسله أنت عن قصد — عبر قائمة المشاركة في النظام، أو التصدير، أو الطباعة، أو الحافظة — يذهب إلى حيث أرسلته. وذلك اختيارك في كل مرة، وهو خارج نطاق الجدول.</p>
+        <h3 id="ar-mcrecorder-notdo">ما لا يفعله التطبيق</h3>
+        <p>ما دامت هذه السياسة هي النسخة السارية:</p>
+        <ul>
+          <li>لا يوجد حساب ولا تسجيل ولا بريد إلكتروني ولا كلمة مرور.</li>
+          <li>لا نشغّل خادمًا يستقبل محتواك، ولا نحتفظ بقاعدة بيانات تَرِد فيها.</li>
+          <li>لا نبيع معلوماتك الشخصية ولا نشاركها لأغراض الإعلانات السلوكية عبر السياقات.</li>
+          <li>لا يتتبّعك التطبيق عبر تطبيقات شركات أخرى أو مواقعها، ولا يعرض نافذة «شفافية تتبّع التطبيقات».</li>
+          <li>لا شيء يُزامَن إلى حساب سحابي لدينا. ولا توجد عندنا نسخة احتياطية يُستعاد منها.</li>
+          <li>لا تتضمن هذه النسخة حزمة إعلانات ولا تعرض أي إعلان.</li>
+          <li>لا تتضمن هذه النسخة حزمة إحصاءات ولا حزمة للإبلاغ عن الأعطال.</li>
+          <li>لا يطلب التطبيق موقعك ولا يقرؤه.</li>
+          <li>لا يقرأ التطبيق جهات اتصالك ولا تقويمك ولا رسائلك ولا سجل مكالماتك، ولا ملفات خارج مساحته الخاصة.</li>
+        </ul>
+        <h3 id="ar-mcrecorder-perms">الأذونات، وسبب طلب كل منها</h3>
+        <p>كل إذن أدناه يُطلب لغرض واحد معلن ولا يُستعمل في سواه. وفي المنصّتين كلتيهما يمكنك رفضه أو سحبه من إعدادات النظام؛ عندها تتوقف الميزات المعتمدة عليه، ويواصل بقية التطبيق عمله.</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>الإذن</th>
+              <th>المنصّة</th>
+              <th>الغاية</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>الوصول إلى الإنترنت</td>
+                <td>أندرويد</td>
+                <td>لازم للطلبات الشبكية المذكورة أعلاه.</td>
+              </tr>
+              <tr>
+                <td>الميكروفون</td>
+                <td>أندرويد</td>
+                <td>للتسجيل حين تبدأ أنت تسجيلًا.</td>
+              </tr>
+              <tr>
+                <td>خدمة في المقدمة</td>
+                <td>أندرويد</td>
+                <td>لإبقاء مهمة بدأتها أنت تعمل مع إشعار دائم ظاهر.</td>
+              </tr>
+              <tr>
+                <td>خدمة في المقدمة — الميكروفون</td>
+                <td>أندرويد</td>
+                <td>لاستمرار تسجيل بدأته والشاشة مطفأة.</td>
+              </tr>
+              <tr>
+                <td>منع السكون</td>
+                <td>أندرويد</td>
+                <td>لئلا يدخل المعالج في سكون أثناء التسجيل.</td>
+              </tr>
+              <tr>
+                <td>الإشعارات</td>
+                <td>أندرويد</td>
+                <td>لعرض الإشعار الدائم أثناء التسجيل ولإعلامك عند انتهائه.</td>
+              </tr>
+              <tr>
+                <td>الميكروفون</td>
+                <td>iOS</td>
+                <td>للتسجيل حين تبدأ أنت تسجيلًا.</td>
+              </tr>
+              <tr>
+                <td>شفافية تتبّع التطبيقات</td>
+                <td>iOS</td>
+                <td>غير مطلوب. ولا يتتبّعك التطبيق عبر تطبيقات شركات أخرى أو مواقعها.</td>
+              </tr>
+              <tr>
+                <td>الموقع</td>
+                <td>أندرويد و iOS</td>
+                <td>غير مطلوب.</td>
+              </tr>
+              <tr>
+                <td>الكاميرا</td>
+                <td>أندرويد و iOS</td>
+                <td>غير مطلوب.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <h3 id="ar-mcrecorder-telemetry">إحصاءات الاستخدام وتقارير الأعطال</h3>
+        <p>لا تتضمن هذه النسخة من التطبيق أي حزمة إحصاءات ولا أي حزمة للإبلاغ عن الأعطال. فلا تصلنا منها أي بيانات استخدام ولا تقارير أعطال ولا بيانات تشخيصية.</p>
+        <h3 id="ar-mcrecorder-purchases">الاشتراكات والمشتريات</h3>
+        <p>لا تتضمن هذه النسخة من التطبيق أي شراء داخلي ولا أي اشتراك، ومن ثَمّ فهي لا تجمع أي معلومات دفع على الإطلاق.</p>
+        <h2 id="ar-quickonescanner">QuickOne Scanner</h2>
+        <p>يحوّل QuickOne Scanner الصفحات التي تصوّرها بهاتفك إلى ملفات PDF مقصوصة ومعدَّلة الميل، ويقرأ ما عليها من نصّ لتتمكن من البحث فيه ونسخه. والمسح واستخراج النص يجريان كلاهما على جهازك. ويعمل على iPhone و iPad وأندرويد.</p>
+        <h3 id="ar-quickonescanner-stores">ما يحفظه التطبيق على جهازك</h3>
+        <p>يكتب التطبيق ما يلي في مساحة التخزين الخاصة به على جهازك — وهي منطقة لا تستطيع التطبيقات الأخرى قراءتها. ويبقى ذلك هناك إلى أن تحذفه أنت أو تزيل التطبيق.</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>البند</th>
+              <th>الغرض</th>
+              <th>مكان الحفظ</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>الصفحات الممسوحة</td>
+                <td>صور الصفحات التي التقطتها أو استوردتها.</td>
+                <td>على جهازك وحده</td>
+              </tr>
+              <tr>
+                <td>النص المستخرَج</td>
+                <td>نصّ قُرئ من صفحاتك على الجهاز.</td>
+                <td>على جهازك وحده</td>
+              </tr>
+              <tr>
+                <td>الإعدادات</td>
+                <td>تفضيلات اللغة والمظهر والصوت والعرض.</td>
+                <td>على جهازك وحده</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>لا يُرفع أي من ذلك إلينا. فلا نستطيع قراءته، ولا استعادته لك، ولا تسليمه لأي جهة، لأنه ببساطة لا يصلنا أصلًا.</p>
+        <h3 id="ar-quickonescanner-leaves">ما يغادر جهازك</h3>
+        <p>هذه هي القائمة كاملة. وكل ما لم يُذكر فيها يبقى على جهازك.</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>ما يُرسَل</th>
+              <th>الجهة المستقبِلة</th>
+              <th>الغاية</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>تنزيل النموذج وتشخيصات Google</td>
+                <td>خدمات Google Play ‏(ML Kit)</td>
+                <td>لجلب نموذج ماسح المستندات. ولا تُرسل صفحاتك.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>يجري كشف المستندات والتعرّف على النصّ عبر Google ML Kit. وعلى أندرويد يعمل ماسح المستندات داخل خدمات Google Play التي تنزّل نموذجها عند أول استعمال؛ أما التعرّف على النصّ فيستعمل نموذجًا مرفقًا داخل التطبيق. وتُعالَج الصفحات والنص المستخرَج على الجهاز، ولا يُرفعان بوصفهما محتوى لا إلينا ولا إلى Google.</p>
+        <p>بمعزل عن الجدول أعلاه، فإن كل ما ترسله أنت عن قصد — عبر قائمة المشاركة في النظام، أو التصدير، أو الطباعة، أو الحافظة — يذهب إلى حيث أرسلته. وذلك اختيارك في كل مرة، وهو خارج نطاق الجدول.</p>
+        <h3 id="ar-quickonescanner-notdo">ما لا يفعله التطبيق</h3>
+        <p>ما دامت هذه السياسة هي النسخة السارية:</p>
+        <ul>
+          <li>لا يوجد حساب ولا تسجيل ولا بريد إلكتروني ولا كلمة مرور.</li>
+          <li>لا نشغّل خادمًا يستقبل محتواك، ولا نحتفظ بقاعدة بيانات تَرِد فيها.</li>
+          <li>لا نبيع معلوماتك الشخصية ولا نشاركها لأغراض الإعلانات السلوكية عبر السياقات.</li>
+          <li>لا يتتبّعك التطبيق عبر تطبيقات شركات أخرى أو مواقعها، ولا يعرض نافذة «شفافية تتبّع التطبيقات».</li>
+          <li>لا شيء يُزامَن إلى حساب سحابي لدينا. ولا توجد عندنا نسخة احتياطية يُستعاد منها.</li>
+          <li>لا تتضمن هذه النسخة حزمة إعلانات ولا تعرض أي إعلان.</li>
+          <li>لا تتضمن هذه النسخة حزمة إحصاءات ولا حزمة للإبلاغ عن الأعطال.</li>
+          <li>لا يطلب التطبيق موقعك ولا يقرؤه.</li>
+          <li>لا يقرأ التطبيق جهات اتصالك ولا تقويمك ولا رسائلك ولا سجل مكالماتك، ولا ملفات خارج مساحته الخاصة.</li>
+        </ul>
+        <h3 id="ar-quickonescanner-perms">الأذونات، وسبب طلب كل منها</h3>
+        <p>كل إذن أدناه يُطلب لغرض واحد معلن ولا يُستعمل في سواه. وفي المنصّتين كلتيهما يمكنك رفضه أو سحبه من إعدادات النظام؛ عندها تتوقف الميزات المعتمدة عليه، ويواصل بقية التطبيق عمله.</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>الإذن</th>
+              <th>المنصّة</th>
+              <th>الغاية</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>الوصول إلى الإنترنت</td>
+                <td>أندرويد</td>
+                <td>لازم للطلبات الشبكية المذكورة أعلاه.</td>
+              </tr>
+              <tr>
+                <td>الكاميرا</td>
+                <td>iOS</td>
+                <td>للالتقاط داخل التطبيق.</td>
+              </tr>
+              <tr>
+                <td>مكتبة الصور</td>
+                <td>iOS</td>
+                <td>لاستيراد صورة تملكها أصلًا.</td>
+              </tr>
+              <tr>
+                <td>شفافية تتبّع التطبيقات</td>
+                <td>iOS</td>
+                <td>غير مطلوب. ولا يتتبّعك التطبيق عبر تطبيقات شركات أخرى أو مواقعها.</td>
+              </tr>
+              <tr>
+                <td>الموقع</td>
+                <td>أندرويد و iOS</td>
+                <td>غير مطلوب.</td>
+              </tr>
+              <tr>
+                <td>الميكروفون</td>
+                <td>أندرويد و iOS</td>
+                <td>غير مطلوب.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>على iOS يستعمل التطبيق الكاميرا لالتقاط الصفحات، ومكتبةَ الصور لتستورد صورة تملكها أصلًا. أما على أندرويد فيجري التقاط الصفحة داخل خدمات Google Play بإذنها هي، ولهذا لا يعلن التطبيق نفسه أي إذن كاميرا هناك.</p>
+        <h3 id="ar-quickonescanner-telemetry">إحصاءات الاستخدام وتقارير الأعطال</h3>
+        <p>لا تتضمن هذه النسخة من التطبيق أي حزمة إحصاءات ولا أي حزمة للإبلاغ عن الأعطال. فلا تصلنا منها أي بيانات استخدام ولا تقارير أعطال ولا بيانات تشخيصية.</p>
+        <h3 id="ar-quickonescanner-purchases">الاشتراكات والمشتريات</h3>
+        <p>لا تتضمن هذه النسخة من التطبيق أي شراء داخلي ولا أي اشتراك، ومن ثَمّ فهي لا تجمع أي معلومات دفع على الإطلاق.</p>
+        <h2 id="ar-eyeballit">Eyeball It!</h2>
+        <p>‏Eyeball It! لعبة تقدير بالنظر — اقسم خطًّا نصفين، طابق زاوية، أصِب هدفًا — وتُحتسب النقاط بحسب قربك من الصواب. وتعمل على iPhone و iPad وأندرويد وويندوز، وتحفظ أفضل نتائجك على الجهاز الذي لعبت عليه.</p>
+        <h3 id="ar-eyeballit-stores">ما يحفظه التطبيق على جهازك</h3>
+        <p>يكتب التطبيق ما يلي في مساحة التخزين الخاصة به على جهازك — وهي منطقة لا تستطيع التطبيقات الأخرى قراءتها. ويبقى ذلك هناك إلى أن تحذفه أنت أو تزيل التطبيق.</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>البند</th>
+              <th>الغرض</th>
+              <th>مكان الحفظ</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>تقدّمك في اللعبة</td>
+                <td>المستوى الذي بلغته وأفضل دقة وعدد الجولات الإجمالي.</td>
+                <td>على جهازك وحده</td>
+              </tr>
+              <tr>
+                <td>الإعدادات</td>
+                <td>تفضيلات اللغة والمظهر والصوت والعرض.</td>
+                <td>على جهازك وحده</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>لا يُرفع أي من ذلك إلينا. فلا نستطيع قراءته، ولا استعادته لك، ولا تسليمه لأي جهة، لأنه ببساطة لا يصلنا أصلًا.</p>
+        <h3 id="ar-eyeballit-leaves">ما يغادر جهازك</h3>
+        <p>لا شيء. هذه النسخة من التطبيق لا تُجري أي اتصال بالشبكة على الإطلاق. لا حزمة إعلانات، ولا إحصاءات، ولا تقارير أعطال، ولا خادم لنا تتصل به.</p>
+        <p>لا تتضمن هذه النسخة من التطبيق أي شفرة شبكة على الإطلاق. بل إن ملف بيان أندرويد لا يطلب حتى إذن الوصول إلى الإنترنت.</p>
+        <p>تتوفر نسخة من هذه اللعبة تُلعب في المتصفح على https://www.idatagear.com. وتلك الصفحة جزء من موقعنا وتعرض بالفعل إعلانات Google AdSense، وهو ما يتناوله قسم الموقع في سياسة الخصوصية الرئيسية لدينا. أما التطبيقات التي تثبّتها من App Store أو Google Play أو على ويندوز فمنفصلة عنها ولا تعرض أي إعلانات.</p>
+        <h3 id="ar-eyeballit-notdo">ما لا يفعله التطبيق</h3>
+        <p>ما دامت هذه السياسة هي النسخة السارية:</p>
+        <ul>
+          <li>لا يوجد حساب ولا تسجيل ولا بريد إلكتروني ولا كلمة مرور.</li>
+          <li>لا نشغّل خادمًا يستقبل محتواك، ولا نحتفظ بقاعدة بيانات تَرِد فيها.</li>
+          <li>لا نبيع معلوماتك الشخصية ولا نشاركها لأغراض الإعلانات السلوكية عبر السياقات.</li>
+          <li>لا يتتبّعك التطبيق عبر تطبيقات شركات أخرى أو مواقعها، ولا يعرض نافذة «شفافية تتبّع التطبيقات».</li>
+          <li>لا شيء يُزامَن إلى حساب سحابي لدينا. ولا توجد عندنا نسخة احتياطية يُستعاد منها.</li>
+          <li>لا تتضمن هذه النسخة حزمة إعلانات ولا تعرض أي إعلان.</li>
+          <li>لا تتضمن هذه النسخة حزمة إحصاءات ولا حزمة للإبلاغ عن الأعطال.</li>
+          <li>لا يطلب التطبيق موقعك ولا يقرؤه.</li>
+          <li>لا يسجّل التطبيق صوتًا ولا يطلب إذن الميكروفون أثناء التشغيل.</li>
+          <li>لا يستعمل التطبيق الكاميرا ولا يقرأ أي صورة من مكتبتك.</li>
+          <li>لا يقرأ التطبيق جهات اتصالك ولا تقويمك ولا رسائلك ولا سجل مكالماتك، ولا ملفات خارج مساحته الخاصة.</li>
+        </ul>
+        <h3 id="ar-eyeballit-perms">الأذونات، وسبب طلب كل منها</h3>
+        <p>هذه النسخة من التطبيق لا تطلب أي إذن أثناء التشغيل. فملف البيان في أندرويد لا يعلن أي إذن، ولا يتضمن التطبيق مفاتيح وصف الاستخدام في iOS، ومن ثَمّ لا يسألك النظام شيئًا.</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>الإذن</th>
+              <th>المنصّة</th>
+              <th>الغاية</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>لا إذن أثناء التشغيل</td>
+                <td>جميع المنصّات</td>
+                <td>هذه النسخة من التطبيق لا تطلب أي إذن.</td>
+              </tr>
+              <tr>
+                <td>شفافية تتبّع التطبيقات</td>
+                <td>iOS</td>
+                <td>غير مطلوب. ولا يتتبّعك التطبيق عبر تطبيقات شركات أخرى أو مواقعها.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <h3 id="ar-eyeballit-telemetry">إحصاءات الاستخدام وتقارير الأعطال</h3>
+        <p>لا تتضمن هذه النسخة من التطبيق أي حزمة إحصاءات ولا أي حزمة للإبلاغ عن الأعطال. فلا تصلنا منها أي بيانات استخدام ولا تقارير أعطال ولا بيانات تشخيصية.</p>
+        <h3 id="ar-eyeballit-purchases">الاشتراكات والمشتريات</h3>
+        <p>لا تتضمن هذه النسخة من التطبيق أي شراء داخلي ولا أي اشتراك، ومن ثَمّ فهي لا تجمع أي معلومات دفع على الإطلاق.</p>
+        <h2 id="ar-website">عن هذا الموقع</h2>
+        <p>موقع https://www.idatagear.com موقع ساكن. لا يضع أي ملف تعريف ارتباط خاص به، ولا يطلب منك شيئًا، ولا يتضمن حسابًا ولا تسجيل دخول.</p>
+        <p>في الموقع عنصران يخصّان أطرافًا أخرى. <strong>Google AdSense</strong> يعرض إعلانات في بعض الصفحات، ومنها نسخة المتصفح من Eyeball It!، وقد يضع ملفات تعريف ارتباط ويستعمل عنوان IP الخاص بك لاختيار تلك الإعلانات وقياسها وفق سياسة Google. و<strong>Google Fonts</strong> يقدّم خط الصفحة، وهو ما يُطلع خوادم Google على عنوان IP لديك عند تحميل الصفحة.</p>
+        <p>بعض التطبيقات يمكن تشغيلها هنا في المتصفح أيضًا. ونسخة المتصفح تحفظ حالتها في التخزين المحلي لمتصفحك على حاسوبك، ويمكنك مسحه في أي وقت من إعدادات المتصفح.</p>
+        <p>تسجّل سجلّات خادمنا، التي يحتفظ بها مزوّد الاستضافة، معلومات خادم ويب اعتيادية — عنوان IP، والوقت، والصفحة المطلوبة، ووكيل المستخدم — وتُستعمل لإبقاء الموقع يعمل ولتشخيص الأعطال.</p>
+        <h2 id="ar-sharing">حين تختار أنت المشاركة</h2>
+        <p>المشاركة والتصدير والطباعة والنسخ تبدأ منك دائمًا. وحين تستعمل أحدها، يسلّم التطبيق العنصر إلى الوجهة التي تختارها — تطبيق آخر، أو جهة اتصال، أو مجلد، أو طابعة — وما يحدث له بعد ذلك تحكمه تلك الوجهة لا هذه السياسة.</p>
+        <h2 id="ar-retention">حفظ بياناتك وحذفها</h2>
+        <p>كل ما يحفظه التطبيق موجود على جهازك، فأنت من يقرر مدة بقائه.</p>
+        <p>احذف أي عنصر من داخل التطبيق لإزالته. ولإزالة كل شيء دفعة واحدة، أزِل التطبيق: عندها يحذف نظام التشغيل مساحته الخاصة، ومعها كل بند في الجدول أعلاه.</p>
+        <p>تحتفظ Google بتقارير الأعطال وأحداث الإحصاءات وفق مُدد Firebase نفسها — حتى ٩٠ يومًا لبيانات الأعطال، وحتى ١٤ شهرًا للإحصاءات. ولأنها لا تحمل أي معرّف يخصك، لا يمكن تتبّعها إليك ولا حذفها على نحو منفرد.</p>
+        <h2 id="ar-rights">حقوقك</h2>
+        <p>بموجب اللائحة العامة لحماية البيانات، ونظيرتها البريطانية، وقانون CCPA بصيغته المعدَّلة بـ CPRA، وقانون PIPEDA الكندي، وما يماثلها في أماكن أخرى، لك حقوق على المعلومات الشخصية المحفوظة عنك — أن تعرف ما هو محفوظ، وأن تحصل على نسخة منه، وأن تصححه، وأن تطلب حذفه، وأن تعترض على استعماله أو تقيّده.</p>
+        <p>وفي هذا التطبيق تتحقق تلك الحقوق بحكم التصميم نفسه لا بطلب يُرفع إلينا: فالبيانات على جهازك، تقرؤها داخل التطبيق وتعدّلها وتصدّرها وتحذفها، ولا نملك نحن نسخة نقدّمها أو نصححها أو نمحوها.</p>
+        <p>نحن لا نبيع المعلومات الشخصية ولا نشاركها لأغراض الإعلانات السلوكية عبر السياقات بالمعنى الذي يحدده قانون CPRA. ومن ثَمّ لا وجود لبيع يمكنك الانسحاب منه.</p>
+        <p>وإن كنت تعتقد رغم ذلك أننا نحتفظ بشيء عنك، فاكتب إلى idatagear@gmail.com وسنجيبك. ويمكنك أيضًا تقديم شكوى إلى هيئة حماية البيانات في بلدك.</p>
+        <h2 id="ar-transfers">النقل خارج الحدود</h2>
+        <p>مقرّنا في كندا. والخدمات الخارجية المذكورة في هذه السياسة تديرها شركات مقرّها الولايات المتحدة، وقد تعالج البيانات في أي بلد تقيم فيه بنيتها التقنية، وفق ضمانات النقل المنصوص عليها في سياساتها — وفي حالة Google هي الشروط التعاقدية النموذجية للمفوضية الأوروبية.</p>
+        <h2 id="ar-children">الأطفال</h2>
+        <p>هذا التطبيق موجَّه إلى الجمهور العام. وهو غير موجَّه إلى الأطفال دون سن الثالثة عشرة، ولا نجمع عن علم معلومات شخصية من طفل.</p>
+        <p>لا يوجد نظام حسابات، ولا مراسلة، ولا ميزة اجتماعية، ولا شيء يمكن لمستخدم آخر نشره أو رؤيته — ومن ثَمّ لا سبيل أصلًا لطفل يستعمل التطبيق أن يفصح لنا أو لغيرنا بشيء.</p>
+        <p>وملاحظة أخرى لأولياء الأمور: القاموس المرفق يوثّق اللغة كما تُستعمل فعلًا، ومداخله العامّية تعرّف مفردات تتصل بالجنس والمخدرات والقمار والألفاظ النابية، بأسلوب المراجع المعجمية. وتصنيف التطبيق العمري مبني على ذلك.</p>
+        <p>وإن كنت تعتقد أن طفلًا قد زوّدنا بمعلومات شخصية، فاكتب إلى idatagear@gmail.com وسنحذفها.</p>
+        <h2 id="ar-security">الأمان</h2>
+        <p>تُحفظ بيانات التطبيق في مساحة التخزين الخاصة بكل تطبيق في نظام التشغيل، محميّة بعزل الجهاز نفسه وبتشفير الجهاز الكامل متى ضبطت قفل الشاشة. وضبط رمز مرور أو رقم تعريف شخصي أو قفل بيومتري هو أنجع ما يمكنك فعله لحمايتها.</p>
+        <p>كل اتصال يجريه التطبيق بالشبكة يستخدم HTTPS. ولا توجد وسيلة تخزين أو نقل كاملة، ولا يمكننا ضمان أمان مطلق.</p>
+        <h2 id="ar-changes">تعديلات هذه السياسة</h2>
+        <p>نحدّث هذه السياسة كلما تغيّر التطبيق. والتاريخ في أعلى الصفحة هو تاريخ النسخة السارية، ويُنشر التعديل هنا فور نفاذه.</p>
+        <p>وإن كان التعديل يعني أن التطبيق بدأ يجمع شيئًا لم يكن يجمعه من قبل، فسنقولها صراحةً بدل أن نترك لك مقارنة نصّين.</p>
+        <h2 class="pp-part">الجزء الثاني — شروط الاستخدام</h2>
+        <h2 id="ar-t_accept">١. قبول هذه الشروط</h2>
+        <p>بتثبيت التطبيق أو استعماله فإنك تقبل هذه الشروط. وإن كنت لا تقبلها فلا تستعمل التطبيق وأزِله من جهازك.</p>
+        <p>هذه الشروط بينك وبين iDataGear Inc. وإن كنت قد حصلت على التطبيق من App Store أو Google Play فإن شروط ذلك المتجر تسري كذلك على المعاملة، وعند التعارض في مسألة يحكمها المتجر — الدفع أو الاسترداد أو إعادة التنزيل — فشروط المتجر هي المقدَّمة.</p>
+        <h2 id="ar-t_licence">٢. ترخيص الاستخدام</h2>
+        <p>نمنحك ترخيصًا شخصيًا غير حصري وغير قابل للنقل وقابلًا للإلغاء، لاستعمال التطبيق على أجهزة تملكها أو تتحكم بها، لاستعمالك الخاص، وبالطريقة المعتادة التي تقصدها المنصّة. ونحتفظ بسائر الحقوق.</p>
+        <p>لا يجوز لك نسخ التطبيق أو بيعه أو تأجيره أو الترخيص من الباطن به أو إعادة توزيعه، ولا هندسته عكسيًا أو فك ترجمته إلا في الحدود التي يجيزها القانون صراحةً رغم هذا البند، ولا إزالة أي إشعار بداخله أو تغييره، ولا استعماله لبناء منتج منافس.</p>
+        <h2 id="ar-t_yourcontent">٣. ما تنشئه ملك لك</h2>
+        <p>كل ما تنشئه داخل التطبيق ملك لك. ولا ندّعي ملكيته ولا أي ترخيص عليه. ولأنه يبقى على جهازك، فما كنا لنستعمله حتى لو أردنا.</p>
+        <p>والنسخ الاحتياطي مسؤوليتك أنت. فإزالة التطبيق أو إعادة ضبط الجهاز أو فقده أو استبداله يمحو ما حفظه التطبيق، ولا نملك نسخة يُستعاد منها. فصدّر ما يؤلمك فقدانه.</p>
+        <h2 id="ar-t_acceptable">٤. الاستخدام المقبول</h2>
+        <p>استعمل التطبيق استعمالًا مشروعًا. وعلى وجه الخصوص، لا تستعمله لمخالفة القانون أو انتهاك حقوق أحد، ولا لتسجيل شخص يقتضي تسجيلُه موافقته ولم تحصل عليها، ولا للتشويش على عمله أو أمنه، ولا لمحاولة الحصول على ميزات أو محتوى أو صلاحيات لم تدفع ثمنها.</p>
+        <h2 id="ar-t_purchases">٥. الشراء والتجديد والإلغاء</h2>
+        <p>حين يقدّم التطبيق اشتراكًا، فإنه يتجدد تلقائيًا في نهاية كل مدة بالسعر المعروض عند الشراء، ويُحصَّل من حساب المتجر الذي اشتريت به، ما لم تُلغِه قبل انتهاء المدة بأربع وعشرين ساعة على الأقل.</p>
+        <p>الإلغاء يتم من المتجر لا من التطبيق: على iOS من الإعدادات ‹ اسمك ‹ الاشتراكات، وعلى أندرويد من Google Play ‹ المدفوعات والاشتراكات. والإلغاء يوقف التجديد التالي؛ أما المدة الجارية فتستمر إلى نهايتها كما دُفع ثمنها. وأي فترة تجربة مجانية تنتهي عند الشراء ويسقط ما لم يُستعمل منها.</p>
+        <p>الاسترداد يصدر عن المتجر وفق سياسته هو لا عنّا، لأن المتجر هو التاجر المسجَّل في تلك المعاملة. وقد تتغير الأسعار؛ ويسري التغيير على التجديدات اللاحقة لإشعارنا إياك، ولك أن تُلغي بدل قبوله.</p>
+        <h2 id="ar-t_accuracy">٦. دقة المحتوى</h2>
+        <p>محتوى التطبيق مقدَّم للتعلّم والاطلاع. واللغة موضع خلاف، وتختلف باختلاف المناطق، وهي في تحوّل دائم؛ وقد تخطئ المعاجم والترجمات وطرق النقل الصوتي ودرجات النطق وترتيب الشَّطَبات والنص المستخرَج. فلا تعتمد على أيٍّ منها حيث يكون للخطأ أثر — في امتحان أو وثيقة قانونية أو سياق طبي أو عقد — من دون تحقّق مستقل.</p>
+        <p>التطبيق أداة مساعدة لا جهاز سلامة. فالخرائط والمسالك والمسارات المسجَّلة والمسافات والارتفاعات وتنبيهات الخروج عن المسار قد تكون غير دقيقة أو ناقصة أو قديمة، وقد يفقد الهاتف الإشارة أو الموقع أو تنفد بطاريته. فاحمل خريطة ووسيلة تهتدي بها من دونه، وأخبر أحدًا بخطتك، وقدّر الأحوال بنفسك. وسلامتك في الخلاء مسؤوليتك أنت.</p>
+        <h2 id="ar-t_thirdparty">٧. خدمات الأطراف الأخرى</h2>
+        <p>يستعمل التطبيق خدمات الأطراف الأخرى المذكورة في سياسة الخصوصية أعلاه. ولكلٍّ منها شروطها وسياسة خصوصيتها، ولا نتحكم بها ولا نتحمل مسؤولية ما تفعله. والروابط الخارجة من التطبيق إلى مواقع أخرى تُقدَّم للتيسير ولا تعني إقرارًا بها.</p>
+        <h2 id="ar-t_warranty">٨. إخلاء الضمان</h2>
+        <p>يُقدَّم التطبيق <strong>كما هو</strong> و<strong>بحسب توافره</strong>، من دون أي ضمان صريح أو ضمني، بما في ذلك أي ضمان ضمني بالرواج التجاري أو الملاءمة لغرض معيّن أو الدقة أو عدم التعدي. ولا نضمن أن يعمل بلا انقطاع أو بلا أخطاء، ولا أن يتوافق مع كل جهاز، ولا أن تُصحَّح العيوب.</p>
+        <p>وبعض الولايات القضائية لا تجيز استبعاد الضمانات الضمنية، فقد لا تنطبق عليك أجزاء من هذا البند؛ ولا شيء هنا يحدّ من حق للمستهلك لا يجوز قانونًا الحدّ منه.</p>
+        <h2 id="ar-t_liability">٩. حدود المسؤولية</h2>
+        <p>إلى أقصى حد يسمح به القانون، لا نتحمل مسؤولية الأضرار غير المباشرة أو العرضية أو الخاصة أو التبعية أو الرادعة أو التأديبية، ولا الأرباح الفائتة ولا فقد البيانات أو التسجيلات أو المسارات أو التقدّم، أيًّا كان سببها وعلى أي أساس قامت المسؤولية، حتى لو كنا قد أُبلغنا باحتمال وقوع ذلك الضرر.</p>
+        <p>وحيث لا يمكن استبعاد المسؤولية، تكون مسؤوليتنا الإجمالية عن جميع المطالبات الناشئة عن التطبيق محدودة بالأعلى من: ما دفعته لنا مقابله في الاثني عشر شهرًا السابقة للمطالبة، أو عشرين دولارًا كنديًا.</p>
+        <h2 id="ar-t_termination">١٠. التعديل والإنهاء</h2>
+        <p>يجوز لنا تعديل التطبيق أو تعليقه أو إيقافه، كلًّا أو جزءًا، في أي وقت. ويجوز لنا تحديث هذه الشروط؛ وعندها يتغير التاريخ في أعلى هذه الصفحة، ويُعدّ استمرارك في استعمال التطبيق بعد ذلك قبولًا للشروط المحدَّثة.</p>
+        <p>ينتهي هذا الترخيص إن أخللت بهذه الشروط، وينتهي كذلك متى أزلت التطبيق من أجهزتك. وتبقى سارية بعد الانتهاء الأقسامُ المتعلقة بمحتواك وبالضمان وبالمسؤولية وبالقانون الواجب التطبيق.</p>
+        <h2 id="ar-t_law">١١. القانون الواجب التطبيق</h2>
+        <p>تخضع هذه الشروط لقوانين مقاطعة British Columbia وللقوانين الاتحادية الكندية السارية فيها، من دون اعتداد بقواعد تنازع القوانين. ولمحاكم British Columbia الاختصاص الحصري بأي نزاع، وأنت ونحن نقبل بهذا الاختصاص — على أنه يجوز لأيٍّ منا طلب تدبير وقائي أمام أي محكمة مختصة.</p>
+        <p>وإن قُضي بعدم نفاذ حكم من أحكام هذه الشروط، بقي سائرها نافذًا. ولا شيء هنا يلغي حماية إلزامية للمستهلك في البلد الذي تقيم فيه.</p>
+        <h2 id="ar-contact">اتصل بنا</h2>
+        <p>لأي سؤال عن هذه السياسة، أو طلب يخص بياناتك، أو أي أمر آخر:</p>
+        <p><strong>iDataGear Inc</strong><br>
+        Email: <a href="mailto:idatagear@gmail.com">idatagear@gmail.com</a><br>
+        Web: <a href="https://www.idatagear.com/">www.idatagear.com</a></p>
+      </article>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-bottom">
+        <p>&copy; <span id="year">2026</span> iDataGear Inc</p>
+        <div class="footer-links">
+          <a href="">iDataGear</a><a href="privacy.html">Privacy</a><a href="mailto:idatagear@gmail.com">Contact</a>
+        </div>
+      </div>
+    </footer>
+    <script>
+    (function () {
+      var root = document.documentElement;
+      var toggle = document.querySelector('.theme-toggle');
+      if (toggle) {
+        toggle.addEventListener('click', function () {
+          var next = root.getAttribute('data-theme') === 'light' ? 'dark' : 'light';
+          root.setAttribute('data-theme', next);
+          try { localStorage.setItem('theme', next); } catch (e) {}
+        });
+      }
+      var y = document.getElementById('year');
+      if (y) { y.textContent = new Date().getFullYear(); }
+    })();
+    </script>
+  </body>
+</html>

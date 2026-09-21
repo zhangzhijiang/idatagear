@@ -1,0 +1,1975 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta name="theme-color" content="#071512" media="(prefers-color-scheme: dark)">
+    <meta name="theme-color" content="#f7f3ea" media="(prefers-color-scheme: light)">
+    <meta name="color-scheme" content="dark light">
+
+    <title>iDataGear Chính sách quyền riêng tư và Điều khoản sử dụng</title>
+    <meta name="description" content="Trang này là chính sách quyền riêng tư và điều khoản sử dụng cho mọi ứng dụng do iDataGear Inc phát hành, và cho trang web https://www.">
+    <link rel="canonical" href="https://www.idatagear.com/privacy_vi.html">
+
+    <link rel="alternate" hreflang="en" href="https://www.idatagear.com/privacy.html">
+    <link rel="alternate" hreflang="zh-Hans" href="https://www.idatagear.com/privacy_zh-Hans.html">
+    <link rel="alternate" hreflang="zh-Hant" href="https://www.idatagear.com/privacy_zh-Hant.html">
+    <link rel="alternate" hreflang="es" href="https://www.idatagear.com/privacy_es.html">
+    <link rel="alternate" hreflang="fr" href="https://www.idatagear.com/privacy_fr.html">
+    <link rel="alternate" hreflang="ja" href="https://www.idatagear.com/privacy_ja.html">
+    <link rel="alternate" hreflang="ko" href="https://www.idatagear.com/privacy_ko.html">
+    <link rel="alternate" hreflang="vi" href="https://www.idatagear.com/privacy_vi.html">
+    <link rel="alternate" hreflang="ar" href="https://www.idatagear.com/privacy_ar.html">
+    <link rel="alternate" hreflang="x-default" href="https://www.idatagear.com/privacy.html">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.idatagear.com/privacy_vi.html">
+    <meta property="og:title" content="iDataGear Chính sách quyền riêng tư và Điều khoản sử dụng">
+    <meta property="og:description" content="Trang này là chính sách quyền riêng tư và điều khoản sử dụng cho mọi ứng dụng do iDataGear Inc phát hành, và cho trang web https://www.">
+    <meta property="og:image" content="https://www.idatagear.com/assets/img/idatagear_logo.png">
+    <meta property="og:site_name" content="iDataGear">
+    <meta property="twitter:card" content="summary">
+    <meta property="twitter:title" content="iDataGear Chính sách quyền riêng tư và Điều khoản sử dụng">
+    <meta property="twitter:description" content="Trang này là chính sách quyền riêng tư và điều khoản sử dụng cho mọi ứng dụng do iDataGear Inc phát hành, và cho trang web https://www.">
+    <meta property="twitter:image" content="https://www.idatagear.com/assets/img/idatagear_logo.png">
+
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/img/favicon-192x192.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script>
+    (function () {
+      var t = null;
+      try { t = localStorage.getItem('theme'); } catch (e) {}
+      if (t !== 'light' && t !== 'dark') {
+        t = (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches) ? 'light' : 'dark';
+      }
+      document.documentElement.setAttribute('data-theme', t);
+    })();
+    </script>
+    <style>
+    /* Chrome and colour come from the site's own tokens in assets/css/style.css.
+       --pp-accent is this page's app brand, used only where the page speaks
+       about the app itself. Everything here is prefixed pp- so it cannot leak
+       into the shared stylesheet's components. */
+    :root { --pp-accent: #1f8a76; --pp-wash: rgba(53, 179, 154, .10); }
+    [data-theme="dark"] { --pp-accent: #35b39a; }
+    @media (prefers-color-scheme: dark) {
+      :root:not([data-theme="light"]) { --pp-accent: #35b39a; }
+    }
+
+    .pp-nav { display: flex; gap: 20px; align-items: center; margin-left: auto; }
+    .pp-nav a { color: var(--muted); text-decoration: none; font-size: .92rem; white-space: nowrap; }
+    .pp-nav a:hover { color: var(--pp-accent); }
+    @media (max-width: 820px) { .pp-nav { display: none; } }
+
+    .pp-wrap { max-width: 78ch; margin: 0 auto; padding-inline: 20px; padding-block: 40px 72px; }
+
+    .pp-head { text-align: center; margin-bottom: 34px; }
+    .pp-head img { width: 76px; height: 76px; border-radius: 19px; box-shadow: 0 10px 40px rgba(0,0,0,.18); }
+    .pp-head h1 { font-size: clamp(1.7rem, 4.4vw, 2.4rem); margin: 18px 0 6px; line-height: 1.15; text-wrap: balance; }
+    .pp-head .pp-sub { color: var(--pp-accent); font-weight: 700; margin: 0 0 10px; }
+    .pp-head .pp-date { color: var(--dim); font-size: .9rem; margin: 0; }
+
+    /* Language picker. Buttons, not links: this switches what is displayed on
+       one URL, because the app stores register exactly one privacy URL. */
+    .pp-langs { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; margin: 22px 0 0; }
+    .pp-langs button {
+      font: inherit; font-size: .9rem; font-weight: 600; cursor: pointer;
+      padding: 7px 15px; border-radius: 999px;
+      border: 1px solid var(--card-border); background: var(--card); color: var(--muted);
+    }
+    .pp-langs button:hover { border-color: var(--pp-accent); color: var(--text); }
+    .pp-langs button[aria-current="true"] { background: var(--pp-wash); border-color: var(--pp-accent); color: var(--text); }
+
+    .pp h2 {
+      font-size: 1.24rem; margin: 40px 0 12px; padding-top: 18px;
+      border-top: 1px solid var(--card-border); text-wrap: balance;
+    }
+    .pp h2:first-of-type { border-top: 0; padding-top: 0; }
+    .pp h2.pp-part {
+      font-size: .82rem; letter-spacing: .14em; text-transform: uppercase;
+      color: var(--pp-accent); margin-top: 56px;
+    }
+    .pp h3 { font-size: 1.02rem; margin: 26px 0 8px; color: var(--text); }
+    .pp p, .pp li { color: var(--muted); line-height: 1.72; }
+    .pp p { margin: 0 0 14px; }
+    .pp ul { margin: 0 0 16px; padding-left: 1.25em; }
+    .pp li { margin-bottom: 9px; }
+    .pp strong { color: var(--text); font-weight: 650; }
+    .pp a { color: var(--pp-accent); }
+
+    .pp-tldr {
+      background: var(--pp-wash); border: 1px solid var(--card-border);
+      border-left: 3px solid var(--pp-accent);
+      border-radius: 12px; padding: 20px 22px 6px; margin: 0 0 8px;
+    }
+    .pp-tldr ul { margin-bottom: 14px; }
+    .pp-note {
+      background: var(--card); border: 1px solid var(--card-border);
+      border-radius: 10px; padding: 15px 18px 3px; margin: 0 0 16px;
+    }
+
+    /* Tables scroll inside their own box so the page body never scrolls sideways. */
+    .pp-tablewrap { overflow-x: auto; margin: 0 0 20px; }
+    .pp table { border-collapse: collapse; width: 100%; min-width: 520px; font-size: .94rem; }
+    .pp th, .pp td {
+      text-align: left; vertical-align: top; padding: 11px 13px;
+      border-bottom: 1px solid var(--card-border); color: var(--muted); line-height: 1.6;
+    }
+    .pp th { color: var(--text); font-weight: 650; white-space: nowrap; }
+    .pp tbody tr:last-child td { border-bottom: 0; }
+
+    /* Right-to-left: mirror the padding and the table alignment, nothing else. */
+    .pp[dir="rtl"] { text-align: right; }
+    .pp[dir="rtl"] ul { padding-left: 0; padding-right: 1.25em; }
+    .pp[dir="rtl"] th, .pp[dir="rtl"] td { text-align: right; }
+    .pp[dir="rtl"] .pp-tldr { border-left: 1px solid var(--card-border); border-right: 3px solid var(--pp-accent); }
+
+    /* One language per file, so the switcher is links rather than buttons:
+       each entry is a real URL a reader can bookmark, share or open in a tab,
+       and the page needs no JavaScript to show what it says. */
+    .pp-langs a {
+      font: inherit; font-size: .9rem; font-weight: 600; text-decoration: none;
+      padding: 7px 15px; border-radius: 999px;
+      border: 1px solid var(--card-border); background: var(--card); color: var(--muted);
+    }
+    .pp-langs a:hover { border-color: var(--pp-accent); color: var(--text); }
+    .pp-langs a[aria-current="page"] { background: var(--pp-wash); border-color: var(--pp-accent); color: var(--text); }
+    </style>
+  </head>
+
+  <body>
+    <header class="site-header" id="top">
+      <div class="logo"><a href="">iDataGear</a></div>
+      <nav class="pp-nav">
+        <a href="">iDataGear</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="mailto:idatagear@gmail.com">Contact</a>
+      </nav>
+      <button class="theme-toggle" type="button" aria-label="Switch theme">
+        <i class="bi bi-sun" aria-hidden="true"></i>
+        <i class="bi bi-moon-stars" aria-hidden="true"></i>
+      </button>
+    </header>
+
+    <main class="pp-wrap">
+      <div class="pp-head">
+        <img src="assets/img/idatagear_logo.png" alt="iDataGear Chính sách quyền riêng tư và Điều khoản sử dụng" width="76" height="76">
+        <h1>iDataGear Chính sách quyền riêng tư và Điều khoản sử dụng</h1>
+        <p class="pp-sub">iDataGear Inc</p>
+        <p class="pp-date">Cập nhật lần cuối: 20 September 2026</p>
+        <div class="pp-langs" role="group" aria-label="Chọn ngôn ngữ">
+          <a href="privacy.html" hreflang="en" lang="en">English</a>
+          <a href="privacy_zh-Hans.html" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
+          <a href="privacy_zh-Hant.html" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
+          <a href="privacy_es.html" hreflang="es" lang="es">Español</a>
+          <a href="privacy_fr.html" hreflang="fr" lang="fr">Français</a>
+          <a href="privacy_ja.html" hreflang="ja" lang="ja">日本語</a>
+          <a href="privacy_ko.html" hreflang="ko" lang="ko">한국어</a>
+          <a href="privacy_vi.html" hreflang="vi" lang="vi" aria-current="page">Tiếng Việt</a>
+          <a href="privacy_ar.html" hreflang="ar" lang="ar">العربية</a>
+        </div>
+      </div>
+
+      <article class="pp" data-lang="vi" lang="vi">
+        <h2 id="vi-tldr">Tóm tắt ngắn</h2>
+        <div class="pp-tldr">
+        <ul>
+          <li>Chỉ một trang này bao quát mọi ứng dụng của iDataGear, và mỗi ứng dụng còn có trang riêng.</li>
+          <li>Mọi thứ bạn tạo ra trong các ứng dụng này đều nằm lại trên thiết bị của bạn.</li>
+          <li>Không có tài khoản và không phải đăng ký.</li>
+          <li>Các ứng dụng không giống nhau. Năm trong mười ứng dụng hoàn toàn không có quảng cáo, không thống kê và không báo cáo sự cố; những ứng dụng còn lại nói rõ chúng dùng gì và vì sao.</li>
+          <li>Chúng tôi không bán dữ liệu của bạn và không chia sẻ nó để lập hồ sơ quảng cáo.</li>
+          <li>Gỡ cài đặt ứng dụng sẽ xoá mọi thứ nó đã lưu.</li>
+          <li>Phần 2 của trang này là điều khoản sử dụng của ứng dụng.</li>
+        </ul>
+        </div>
+        <h2 id="vi-scope">Chính sách này áp dụng cho những ứng dụng nào</h2>
+        <p>Trang này là chính sách quyền riêng tư và điều khoản sử dụng cho mọi ứng dụng do iDataGear Inc phát hành, và cho trang web https://www.idatagear.com. Mỗi ứng dụng còn có trang riêng chứa đúng phần văn bản này dành cho riêng nó; bảng bên dưới dẫn tới đó.</p>
+        <p>Các ứng dụng khác nhau, nên những phần dưới đây trình bày theo từng ứng dụng thay vì gộp lại thành một khẳng định chung không đúng với ứng dụng nào. Năm trong số đó hoàn toàn không có quảng cáo, không thống kê và không báo cáo sự cố.</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>Ứng dụng</th>
+              <th>Nền tảng</th>
+              <th>Trang riêng</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td><a href="#vi-learncantonese">Learn Cantonese</a></td>
+                <td>Android, iOS, macOS</td>
+                <td><a href="learncantonese/learncantonese_privacy.html">Mở</a></td>
+              </tr>
+              <tr>
+                <td><a href="#vi-learnchinese">McChinese</a></td>
+                <td>Android, iOS</td>
+                <td><a href="learnchinese/learnchinese_privacy.html">Mở</a></td>
+              </tr>
+              <tr>
+                <td><a href="#vi-gcd">Great Cantonese Dictionary</a></td>
+                <td>Android, iOS</td>
+                <td><a href="gcd/gcd_privacy.html">Mở</a></td>
+              </tr>
+              <tr>
+                <td><a href="#vi-learnenglish">ALL English</a></td>
+                <td>Android, iOS</td>
+                <td><a href="learnenglish/learnenglish_privacy.html">Mở</a></td>
+              </tr>
+              <tr>
+                <td><a href="#vi-xiezi">Xie Zi</a></td>
+                <td>Android, iOS</td>
+                <td><a href="xiezi/xiezi_privacy.html">Mở</a></td>
+              </tr>
+              <tr>
+                <td><a href="#vi-momerame">Momera.ME</a></td>
+                <td>Android</td>
+                <td><a href="momerame/momerame_privacy.html">Mở</a></td>
+              </tr>
+              <tr>
+                <td><a href="#vi-momerago">Momera GO</a></td>
+                <td>Android, iOS</td>
+                <td><a href="momerago/momerago_privacy.html">Mở</a></td>
+              </tr>
+              <tr>
+                <td><a href="#vi-mcrecorder">McRecorder</a></td>
+                <td>Android, iOS</td>
+                <td><a href="mcrecorder/mcrecorder_privacy.html">Mở</a></td>
+              </tr>
+              <tr>
+                <td><a href="#vi-quickonescanner">QuickOne Scanner</a></td>
+                <td>Android, iOS</td>
+                <td><a href="quickonescanner/quickonescanner_privacy.html">Mở</a></td>
+              </tr>
+              <tr>
+                <td><a href="#vi-eyeballit">Eyeball It!</a></td>
+                <td>Android, iOS, Windows</td>
+                <td><a href="eyeballit/eyeballit_privacy.html">Mở</a></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <h2 class="pp-part">Phần 1 — Chính sách quyền riêng tư</h2>
+        <h2 id="vi-who">Chúng tôi là ai</h2>
+        <p>iDataGear Inc là một công ty được thành lập tại British Columbia, Canada. Công ty phát hành các ứng dụng liệt kê ở trên và trang web https://www.idatagear.com. Khi trang này nói <strong>chúng tôi</strong>, đó là iDataGear Inc.</p>
+        <p>Không có tài khoản nào phải tạo và không có bước đăng ký nào. Chúng tôi không vận hành máy chủ nào nhận nội dung của bạn và không có cơ sở dữ liệu nào ghi nhận bạn.</p>
+        <h2 id="vi-learncantonese">Learn Cantonese</h2>
+        <p>Learn Cantonese dạy tiếng Quảng Đông nói và viết qua các bài học, một cuốn từ điển tiếng lóng Hồng Kông và phần luyện phát âm bằng cách nói thành tiếng. Ứng dụng chạy trên iPhone, iPad, Mac và Android. Tiến độ học của bạn nằm trên chính thiết bị bạn đang dùng.</p>
+        <h3 id="vi-learncantonese-stores">Ứng dụng lưu gì trên thiết bị của bạn</h3>
+        <p>Ứng dụng ghi những nội dung sau vào vùng lưu trữ riêng trên thiết bị của bạn — vùng mà các ứng dụng khác không đọc được. Chúng nằm ở đó cho đến khi bạn xoá hoặc gỡ cài đặt ứng dụng.</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>Nội dung</th>
+              <th>Để làm gì</th>
+              <th>Lưu ở đâu</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>Tiến độ học</td>
+                <td>Bài đã học xong, kết quả kiểm tra và những mục bạn đã xem.</td>
+                <td>Chỉ trên thiết bị của bạn</td>
+              </tr>
+              <tr>
+                <td>Mục yêu thích</td>
+                <td>Những mục bạn đã đánh dấu sao hoặc lưu lại.</td>
+                <td>Chỉ trên thiết bị của bạn</td>
+              </tr>
+              <tr>
+                <td>Lịch sử</td>
+                <td>Những gì bạn vừa tra hoặc vừa luyện, để có thể quay lại.</td>
+                <td>Chỉ trên thiết bị của bạn</td>
+              </tr>
+              <tr>
+                <td>Chuỗi ngày và thống kê</td>
+                <td>Chuỗi ngày liên tiếp và số lần học hiển thị trên hồ sơ của bạn.</td>
+                <td>Chỉ trên thiết bị của bạn</td>
+              </tr>
+              <tr>
+                <td>Cài đặt</td>
+                <td>Tuỳ chọn về ngôn ngữ, giao diện, âm thanh và hiển thị.</td>
+                <td>Chỉ trên thiết bị của bạn</td>
+              </tr>
+              <tr>
+                <td>Trạng thái đăng ký</td>
+                <td>Câu trả lời có hoặc không từ cửa hàng được lưu đệm, để ứng dụng chạy được khi ngoại tuyến.</td>
+                <td>Chỉ trên thiết bị của bạn</td>
+              </tr>
+              <tr>
+                <td>Lựa chọn của bạn về quảng cáo</td>
+                <td>Câu trả lời đồng ý mà bạn đã đưa ra, để không phải hỏi lại mỗi lần mở ứng dụng.</td>
+                <td>Chỉ trên thiết bị của bạn</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>Không nội dung nào trong số này được tải lên chỗ chúng tôi. Chúng tôi không đọc được, không khôi phục giúp bạn được, và cũng không thể trao cho bất kỳ ai, bởi chúng chưa bao giờ đến được chỗ chúng tôi.</p>
+        <p>Việc nhận dạng giọng nói khi luyện phát âm do bộ nhận dạng của chính hệ điều hành thực hiện — của Apple trên iOS, của Google trên Android — theo điều khoản quyền riêng tư của từng nền tảng. Tuỳ thiết bị và ngôn ngữ, bộ nhận dạng đó có thể xử lý âm thanh ngay trên máy hoặc trên máy chủ của nền tảng. Chúng tôi không nhận được âm thanh lẫn văn bản: ứng dụng chỉ được cho biết những gì bạn nói gần với câu mẫu đến mức nào, và âm thanh bị loại bỏ ngay khi có điểm số đó.</p>
+        <h3 id="vi-learncantonese-leaves">Những gì rời khỏi thiết bị của bạn</h3>
+        <p>Đây là danh sách đầy đủ. Mọi thứ không có tên ở đây đều nằm lại trên thiết bị của bạn.</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>Nội dung được gửi đi</th>
+              <th>Bên nhận</th>
+              <th>Mục đích</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>Yêu cầu quảng cáo</td>
+                <td>Google AdMob</td>
+                <td>Để chọn và đo lường một quảng cáo.</td>
+              </tr>
+              <tr>
+                <td>Sự kiện sử dụng ẩn danh</td>
+                <td>Google Firebase Analytics</td>
+                <td>Số đếm về việc tính năng nào được mở, không kèm mã người dùng.</td>
+              </tr>
+              <tr>
+                <td>Báo cáo sự cố</td>
+                <td>Google Firebase Crashlytics</td>
+                <td>Lỗi, ngăn xếp lời gọi, kiểu máy và phiên bản ứng dụng khi ứng dụng hỏng.</td>
+              </tr>
+              <tr>
+                <td>Xác thực giao dịch mua</td>
+                <td>Apple App Store / Google Play</td>
+                <td>Để kiểm tra gói đăng ký còn hiệu lực hay không. Không có chi tiết thẻ nào đến chỗ chúng tôi.</td>
+              </tr>
+              <tr>
+                <td>Kiểm tra phiên bản</td>
+                <td>Apple App Store / Google Play</td>
+                <td>Để báo cho bạn biết có phiên bản mới hơn. Gửi tên gói và phiên bản của ứng dụng.</td>
+              </tr>
+              <tr>
+                <td>Không có gì tự động</td>
+                <td>Các trang web bạn mở</td>
+                <td>Mở một liên kết trong ứng dụng là trao nó cho trình duyệt, và từ đó mọi thứ diễn ra như với trình duyệt của bạn.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>Khi khởi động, ứng dụng hỏi App Store hoặc Google Play xem có phiên bản mới hơn không để báo cho bạn. Yêu cầu đó chứa tên gói và phiên bản của ứng dụng, không chứa gì về bạn.</p>
+        <p>Bản macOS không chứa SDK quảng cáo lẫn Firebase. Trên macOS, ứng dụng không hiển thị quảng cáo và không gửi thống kê hay báo cáo sự cố.</p>
+        <h3 id="vi-learncantonese-notdo">Những điều ứng dụng không làm</h3>
+        <p>Chừng nào chính sách này còn là bản hiện hành:</p>
+        <ul>
+          <li>Không có tài khoản, không đăng ký, không địa chỉ email và không mật khẩu.</li>
+          <li>Chúng tôi không vận hành máy chủ nào nhận nội dung của bạn và không giữ cơ sở dữ liệu nào ghi nhận bạn.</li>
+          <li>Chúng tôi không bán thông tin cá nhân của bạn và không chia sẻ nó cho quảng cáo hành vi liên ngữ cảnh.</li>
+          <li>Ứng dụng không theo dõi bạn qua ứng dụng hay trang web của công ty khác, và không hiện hộp thoại Minh bạch Theo dõi Ứng dụng.</li>
+          <li>Không có gì được đồng bộ lên tài khoản đám mây nào của chúng tôi. Phía chúng tôi không có bản sao lưu nào để khôi phục.</li>
+          <li>Ứng dụng không xin và không đọc vị trí của bạn.</li>
+          <li>Ứng dụng không đọc danh bạ, lịch, tin nhắn, nhật ký cuộc gọi hay các tệp nằm ngoài vùng lưu trữ riêng của nó.</li>
+        </ul>
+        <h3 id="vi-learncantonese-perms">Các quyền, và lý do xin từng quyền</h3>
+        <p>Mỗi quyền dưới đây chỉ được xin cho đúng một mục đích đã nêu và không dùng cho việc gì khác. Trên cả hai nền tảng, bạn có thể từ chối hoặc rút lại bất kỳ quyền nào trong phần cài đặt hệ thống; những tính năng phụ thuộc vào quyền đó sẽ ngừng hoạt động, phần còn lại của ứng dụng vẫn chạy bình thường.</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>Quyền</th>
+              <th>Nền tảng</th>
+              <th>Mục đích</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>Truy cập internet</td>
+                <td>Android</td>
+                <td>Cần cho các yêu cầu mạng đã liệt kê ở trên.</td>
+              </tr>
+              <tr>
+                <td>Micrô</td>
+                <td>Android</td>
+                <td>Để ghi khi chính bạn bắt đầu một lần ghi.</td>
+              </tr>
+              <tr>
+                <td>Dịch vụ chạy nền có thông báo</td>
+                <td>Android</td>
+                <td>Để giữ cho một tác vụ bạn đã bắt đầu tiếp tục chạy kèm thông báo thường trực.</td>
+              </tr>
+              <tr>
+                <td>Mã quảng cáo</td>
+                <td>Android</td>
+                <td>AdMob dùng để chọn và đo lường quảng cáo. Bạn có thể đặt lại hoặc xoá nó trong phần cài đặt Android.</td>
+              </tr>
+              <tr>
+                <td>Thanh toán</td>
+                <td>Android</td>
+                <td>Để bán và xác thực gói đăng ký qua Google Play.</td>
+              </tr>
+              <tr>
+                <td>Micrô</td>
+                <td>iOS</td>
+                <td>Để ghi khi chính bạn bắt đầu một lần ghi.</td>
+              </tr>
+              <tr>
+                <td>Nhận dạng giọng nói</td>
+                <td>iOS</td>
+                <td>Để chấm điểm phát âm bằng bộ nhận dạng của Apple.</td>
+              </tr>
+              <tr>
+                <td>Minh bạch Theo dõi Ứng dụng</td>
+                <td>iOS</td>
+                <td>Không xin. Ứng dụng không theo dõi bạn qua ứng dụng hay trang web của công ty khác.</td>
+              </tr>
+              <tr>
+                <td>Vị trí</td>
+                <td>Android và iOS</td>
+                <td>Không xin.</td>
+              </tr>
+              <tr>
+                <td>Máy ảnh</td>
+                <td>Android và iOS</td>
+                <td>Không xin.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <h3 id="vi-learncantonese-ads">Quảng cáo và lựa chọn của bạn</h3>
+        <p>Phiên bản này của ứng dụng hiển thị quảng cáo do <strong>Google AdMob</strong> cung cấp. Với dữ liệu thu thập qua những quảng cáo đó, Google là bên kiểm soát độc lập và xử lý theo chính sách riêng của họ tại <a href="https://policies.google.com/technologies/partner-sites" rel="noopener">policies.google.com/technologies/partner-sites</a>.</p>
+        <p>Để chọn và đo lường một quảng cáo, Google có thể nhận mã nhận dạng quảng cáo của thiết bị, thông tin chung về thiết bị và ứng dụng, vị trí gần đúng suy ra từ địa chỉ IP của bạn, cùng với việc bạn đã xem hay chạm vào quảng cáo hay chưa. Chúng tôi không nhận bất cứ thông tin nào trong đó về riêng bạn — báo cáo của chúng tôi chỉ là số liệu tổng hợp về doanh thu và lượt hiển thị.</p>
+        <p>Quảng cáo trong ứng dụng này xuất hiện dưới dạng biểu ngữ và dạng xen kẽ toàn màn hình giữa các thao tác.</p>
+        <p>Tại EEA, Vương quốc Anh và Thuỵ Sĩ, ứng dụng hiển thị biểu mẫu đồng ý của Google trước khi yêu cầu quảng cáo được cá nhân hoá. Lựa chọn của bạn được ghi trên thiết bị và có thể mở lại bất cứ lúc nào từ phần cài đặt của ứng dụng, ở mục quảng cáo hoặc tuỳ chọn quyền riêng tư, để đổi ý.</p>
+        <p>Bạn có thể đặt lại hoặc xoá mã nhận dạng quảng cáo bất cứ lúc nào — trên Android vào Cài đặt › Quyền riêng tư › Quảng cáo, còn trên iOS hãy tắt <em>Cho phép Ứng dụng Yêu cầu Theo dõi</em>, thao tác này cũng khiến mọi ứng dụng không dùng được mã đó.</p>
+        <p>Ứng dụng không hiện hộp thoại Minh bạch Theo dõi Ứng dụng của Apple và không theo dõi bạn qua các ứng dụng hay trang web của công ty khác.</p>
+        <h3 id="vi-learncantonese-telemetry">Thống kê sử dụng và báo cáo sự cố</h3>
+        <p>Ứng dụng dùng <strong>Google Firebase</strong> cho hai việc: Crashlytics báo cáo sự cố, và Analytics đếm mức độ sử dụng các tính năng. Cả hai đều do Google xử lý thay cho chúng tôi.</p>
+        <p>Một báo cáo sự cố chứa trạng thái của chương trình khi nó hỏng — lỗi, ngăn xếp lời gọi, kiểu máy, phiên bản hệ điều hành và phiên bản ứng dụng. Nó được sinh ra tự động bởi chính sự cố đó và cho chúng tôi biết phải sửa dòng nào trong mã nguồn.</p>
+        <p>Sự kiện thống kê là số đếm của những hành động ẩn danh, chẳng hạn một màn hình được mở. Chúng tôi không đặt mã người dùng hay thuộc tính người dùng nào, nên các sự kiện không gắn với một cá nhân và chúng tôi không thể tìm ra bạn trong đó.</p>
+        <h3 id="vi-learncantonese-purchases">Gói đăng ký và mua hàng</h3>
+        <p>Phiên bản này của ứng dụng có gói đăng ký tự động gia hạn. Việc mua hoàn toàn do App Store hoặc Google Play xử lý.</p>
+        <p>Chúng tôi không bao giờ thấy số thẻ, địa chỉ thanh toán hay bất kỳ chi tiết thanh toán nào của bạn. Cửa hàng chỉ cho ứng dụng biết có quyền lợi hợp lệ hay không; câu trả lời đó được lưu đệm trên thiết bị để ứng dụng vẫn chạy khi ngoại tuyến.</p>
+        <h2 id="vi-learnchinese">McChinese</h2>
+        <p>McChinese dạy tiếng Trung qua từ vựng phân cấp theo HSK, luyện thứ tự nét chữ, cùng các bài luyện nghe và nói. Ứng dụng chạy trên iPhone, iPad và Android, với giao diện bằng bảy ngôn ngữ. Tiến độ học của bạn nằm trên chính thiết bị bạn đang dùng.</p>
+        <h3 id="vi-learnchinese-stores">Ứng dụng lưu gì trên thiết bị của bạn</h3>
+        <p>Ứng dụng ghi những nội dung sau vào vùng lưu trữ riêng trên thiết bị của bạn — vùng mà các ứng dụng khác không đọc được. Chúng nằm ở đó cho đến khi bạn xoá hoặc gỡ cài đặt ứng dụng.</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>Nội dung</th>
+              <th>Để làm gì</th>
+              <th>Lưu ở đâu</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>Tiến độ học</td>
+                <td>Bài đã học xong, kết quả kiểm tra và những mục bạn đã xem.</td>
+                <td>Chỉ trên thiết bị của bạn</td>
+              </tr>
+              <tr>
+                <td>Mục yêu thích</td>
+                <td>Những mục bạn đã đánh dấu sao hoặc lưu lại.</td>
+                <td>Chỉ trên thiết bị của bạn</td>
+              </tr>
+              <tr>
+                <td>Lịch sử</td>
+                <td>Những gì bạn vừa tra hoặc vừa luyện, để có thể quay lại.</td>
+                <td>Chỉ trên thiết bị của bạn</td>
+              </tr>
+              <tr>
+                <td>Chuỗi ngày và thống kê</td>
+                <td>Chuỗi ngày liên tiếp và số lần học hiển thị trên hồ sơ của bạn.</td>
+                <td>Chỉ trên thiết bị của bạn</td>
+              </tr>
+              <tr>
+                <td>Cài đặt</td>
+                <td>Tuỳ chọn về ngôn ngữ, giao diện, âm thanh và hiển thị.</td>
+                <td>Chỉ trên thiết bị của bạn</td>
+              </tr>
+              <tr>
+                <td>Trạng thái đăng ký</td>
+                <td>Câu trả lời có hoặc không từ cửa hàng được lưu đệm, để ứng dụng chạy được khi ngoại tuyến.</td>
+                <td>Chỉ trên thiết bị của bạn</td>
+              </tr>
+              <tr>
+                <td>Lựa chọn của bạn về quảng cáo</td>
+                <td>Câu trả lời đồng ý mà bạn đã đưa ra, để không phải hỏi lại mỗi lần mở ứng dụng.</td>
+                <td>Chỉ trên thiết bị của bạn</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>Không nội dung nào trong số này được tải lên chỗ chúng tôi. Chúng tôi không đọc được, không khôi phục giúp bạn được, và cũng không thể trao cho bất kỳ ai, bởi chúng chưa bao giờ đến được chỗ chúng tôi.</p>
+        <p>Việc nhận dạng giọng nói khi luyện phát âm do bộ nhận dạng của chính hệ điều hành thực hiện — của Apple trên iOS, của Google trên Android — theo điều khoản quyền riêng tư của từng nền tảng. Tuỳ thiết bị và ngôn ngữ, bộ nhận dạng đó có thể xử lý âm thanh ngay trên máy hoặc trên máy chủ của nền tảng. Chúng tôi không nhận được âm thanh lẫn văn bản: ứng dụng chỉ được cho biết những gì bạn nói gần với câu mẫu đến mức nào, và âm thanh bị loại bỏ ngay khi có điểm số đó.</p>
+        <h3 id="vi-learnchinese-leaves">Những gì rời khỏi thiết bị của bạn</h3>
+        <p>Đây là danh sách đầy đủ. Mọi thứ không có tên ở đây đều nằm lại trên thiết bị của bạn.</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>Nội dung được gửi đi</th>
+              <th>Bên nhận</th>
+              <th>Mục đích</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>Yêu cầu quảng cáo</td>
+                <td>Google AdMob</td>
+                <td>Để chọn và đo lường một quảng cáo.</td>
+              </tr>
+              <tr>
+                <td>Sự kiện sử dụng ẩn danh</td>
+                <td>Google Firebase Analytics</td>
+                <td>Số đếm về việc tính năng nào được mở, không kèm mã người dùng.</td>
+              </tr>
+              <tr>
+                <td>Báo cáo sự cố</td>
+                <td>Google Firebase Crashlytics</td>
+                <td>Lỗi, ngăn xếp lời gọi, kiểu máy và phiên bản ứng dụng khi ứng dụng hỏng.</td>
+              </tr>
+              <tr>
+                <td>Xác thực giao dịch mua</td>
+                <td>Apple App Store / Google Play</td>
+                <td>Để kiểm tra gói đăng ký còn hiệu lực hay không. Không có chi tiết thẻ nào đến chỗ chúng tôi.</td>
+              </tr>
+              <tr>
+                <td>Yêu cầu dữ liệu nét chữ</td>
+                <td>unpkg, jsDelivr hoặc cdnjs</td>
+                <td>Để lấy thứ tự nét của chữ bạn vừa mở.</td>
+              </tr>
+              <tr>
+                <td>Không có gì tự động</td>
+                <td>Các trang web bạn mở</td>
+                <td>Mở một liên kết trong ứng dụng là trao nó cho trình duyệt, và từ đó mọi thứ diễn ra như với trình duyệt của bạn.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>Hoạt ảnh thứ tự nét do một thành phần mã nguồn mở vẽ. Lần đầu bạn xem một chữ, ứng dụng lấy dữ liệu nét của chữ đó từ một CDN mã nguồn công cộng (unpkg, jsDelivr hoặc cdnjs). Như mọi yêu cầu web, yêu cầu này chứa chữ đang được vẽ và địa chỉ IP của bạn. Không có tiến độ học, tài khoản hay mã nhận dạng nào đi kèm.</p>
+        <h3 id="vi-learnchinese-notdo">Những điều ứng dụng không làm</h3>
+        <p>Chừng nào chính sách này còn là bản hiện hành:</p>
+        <ul>
+          <li>Không có tài khoản, không đăng ký, không địa chỉ email và không mật khẩu.</li>
+          <li>Chúng tôi không vận hành máy chủ nào nhận nội dung của bạn và không giữ cơ sở dữ liệu nào ghi nhận bạn.</li>
+          <li>Chúng tôi không bán thông tin cá nhân của bạn và không chia sẻ nó cho quảng cáo hành vi liên ngữ cảnh.</li>
+          <li>Ứng dụng không theo dõi bạn qua ứng dụng hay trang web của công ty khác, và không hiện hộp thoại Minh bạch Theo dõi Ứng dụng.</li>
+          <li>Không có gì được đồng bộ lên tài khoản đám mây nào của chúng tôi. Phía chúng tôi không có bản sao lưu nào để khôi phục.</li>
+          <li>Ứng dụng không xin và không đọc vị trí của bạn.</li>
+          <li>Ứng dụng không đọc danh bạ, lịch, tin nhắn, nhật ký cuộc gọi hay các tệp nằm ngoài vùng lưu trữ riêng của nó.</li>
+        </ul>
+        <h3 id="vi-learnchinese-perms">Các quyền, và lý do xin từng quyền</h3>
+        <p>Mỗi quyền dưới đây chỉ được xin cho đúng một mục đích đã nêu và không dùng cho việc gì khác. Trên cả hai nền tảng, bạn có thể từ chối hoặc rút lại bất kỳ quyền nào trong phần cài đặt hệ thống; những tính năng phụ thuộc vào quyền đó sẽ ngừng hoạt động, phần còn lại của ứng dụng vẫn chạy bình thường.</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>Quyền</th>
+              <th>Nền tảng</th>
+              <th>Mục đích</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>Truy cập internet</td>
+                <td>Android</td>
+                <td>Cần cho các yêu cầu mạng đã liệt kê ở trên.</td>
+              </tr>
+              <tr>
+                <td>Trạng thái mạng</td>
+                <td>Android</td>
+                <td>Để xem có kết nối hay không trước khi thử dùng.</td>
+              </tr>
+              <tr>
+                <td>Micrô</td>
+                <td>Android</td>
+                <td>Để ghi khi chính bạn bắt đầu một lần ghi.</td>
+              </tr>
+              <tr>
+                <td>Mã quảng cáo</td>
+                <td>Android</td>
+                <td>AdMob dùng để chọn và đo lường quảng cáo. Bạn có thể đặt lại hoặc xoá nó trong phần cài đặt Android.</td>
+              </tr>
+              <tr>
+                <td>Thanh toán</td>
+                <td>Android</td>
+                <td>Để bán và xác thực gói đăng ký qua Google Play.</td>
+              </tr>
+              <tr>
+                <td>Micrô</td>
+                <td>iOS</td>
+                <td>Để ghi khi chính bạn bắt đầu một lần ghi.</td>
+              </tr>
+              <tr>
+                <td>Nhận dạng giọng nói</td>
+                <td>iOS</td>
+                <td>Để chấm điểm phát âm bằng bộ nhận dạng của Apple.</td>
+              </tr>
+              <tr>
+                <td>Minh bạch Theo dõi Ứng dụng</td>
+                <td>iOS</td>
+                <td>Không xin. Ứng dụng không theo dõi bạn qua ứng dụng hay trang web của công ty khác.</td>
+              </tr>
+              <tr>
+                <td>Vị trí</td>
+                <td>Android và iOS</td>
+                <td>Không xin.</td>
+              </tr>
+              <tr>
+                <td>Máy ảnh</td>
+                <td>Android và iOS</td>
+                <td>Không xin.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <h3 id="vi-learnchinese-ads">Quảng cáo và lựa chọn của bạn</h3>
+        <p>Phiên bản này của ứng dụng hiển thị quảng cáo do <strong>Google AdMob</strong> cung cấp. Với dữ liệu thu thập qua những quảng cáo đó, Google là bên kiểm soát độc lập và xử lý theo chính sách riêng của họ tại <a href="https://policies.google.com/technologies/partner-sites" rel="noopener">policies.google.com/technologies/partner-sites</a>.</p>
+        <p>Để chọn và đo lường một quảng cáo, Google có thể nhận mã nhận dạng quảng cáo của thiết bị, thông tin chung về thiết bị và ứng dụng, vị trí gần đúng suy ra từ địa chỉ IP của bạn, cùng với việc bạn đã xem hay chạm vào quảng cáo hay chưa. Chúng tôi không nhận bất cứ thông tin nào trong đó về riêng bạn — báo cáo của chúng tôi chỉ là số liệu tổng hợp về doanh thu và lượt hiển thị.</p>
+        <p>Quảng cáo trong ứng dụng này xuất hiện dưới dạng biểu ngữ và dạng xen kẽ toàn màn hình giữa các thao tác.</p>
+        <p>Tại EEA, Vương quốc Anh và Thuỵ Sĩ, ứng dụng hiển thị biểu mẫu đồng ý của Google trước khi yêu cầu quảng cáo được cá nhân hoá. Lựa chọn của bạn được ghi trên thiết bị và có thể mở lại bất cứ lúc nào từ phần cài đặt của ứng dụng, ở mục quảng cáo hoặc tuỳ chọn quyền riêng tư, để đổi ý.</p>
+        <p>Bạn có thể đặt lại hoặc xoá mã nhận dạng quảng cáo bất cứ lúc nào — trên Android vào Cài đặt › Quyền riêng tư › Quảng cáo, còn trên iOS hãy tắt <em>Cho phép Ứng dụng Yêu cầu Theo dõi</em>, thao tác này cũng khiến mọi ứng dụng không dùng được mã đó.</p>
+        <p>Ứng dụng không hiện hộp thoại Minh bạch Theo dõi Ứng dụng của Apple và không theo dõi bạn qua các ứng dụng hay trang web của công ty khác.</p>
+        <h3 id="vi-learnchinese-telemetry">Thống kê sử dụng và báo cáo sự cố</h3>
+        <p>Ứng dụng dùng <strong>Google Firebase</strong> cho hai việc: Crashlytics báo cáo sự cố, và Analytics đếm mức độ sử dụng các tính năng. Cả hai đều do Google xử lý thay cho chúng tôi.</p>
+        <p>Một báo cáo sự cố chứa trạng thái của chương trình khi nó hỏng — lỗi, ngăn xếp lời gọi, kiểu máy, phiên bản hệ điều hành và phiên bản ứng dụng. Nó được sinh ra tự động bởi chính sự cố đó và cho chúng tôi biết phải sửa dòng nào trong mã nguồn.</p>
+        <p>Sự kiện thống kê là số đếm của những hành động ẩn danh, chẳng hạn một màn hình được mở. Chúng tôi không đặt mã người dùng hay thuộc tính người dùng nào, nên các sự kiện không gắn với một cá nhân và chúng tôi không thể tìm ra bạn trong đó.</p>
+        <h3 id="vi-learnchinese-purchases">Gói đăng ký và mua hàng</h3>
+        <p>Phiên bản này của ứng dụng có gói đăng ký tự động gia hạn. Việc mua hoàn toàn do App Store hoặc Google Play xử lý.</p>
+        <p>Chúng tôi không bao giờ thấy số thẻ, địa chỉ thanh toán hay bất kỳ chi tiết thanh toán nào của bạn. Cửa hàng chỉ cho ứng dụng biết có quyền lợi hợp lệ hay không; câu trả lời đó được lưu đệm trên thiết bị để ứng dụng vẫn chạy khi ngoại tuyến.</p>
+        <h2 id="vi-gcd">Great Cantonese Dictionary</h2>
+        <p>Great Cantonese Dictionary là một ứng dụng tra cứu tiếng Quảng Đông — mục từ, cách đọc, câu ví dụ và lịch sử những gì bạn đã tra. Từ điển nằm sẵn trong ứng dụng nên việc tra cứu không cần kết nối. Ứng dụng chạy trên iPhone, iPad và Android.</p>
+        <h3 id="vi-gcd-stores">Ứng dụng lưu gì trên thiết bị của bạn</h3>
+        <p>Ứng dụng ghi những nội dung sau vào vùng lưu trữ riêng trên thiết bị của bạn — vùng mà các ứng dụng khác không đọc được. Chúng nằm ở đó cho đến khi bạn xoá hoặc gỡ cài đặt ứng dụng.</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>Nội dung</th>
+              <th>Để làm gì</th>
+              <th>Lưu ở đâu</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>Từ điển</td>
+                <td>Dữ liệu tra cứu, đi kèm trong ứng dụng và đọc từ thiết bị của bạn.</td>
+                <td>Chỉ trên thiết bị của bạn</td>
+              </tr>
+              <tr>
+                <td>Mục yêu thích</td>
+                <td>Những mục bạn đã đánh dấu sao hoặc lưu lại.</td>
+                <td>Chỉ trên thiết bị của bạn</td>
+              </tr>
+              <tr>
+                <td>Lịch sử</td>
+                <td>Những gì bạn vừa tra hoặc vừa luyện, để có thể quay lại.</td>
+                <td>Chỉ trên thiết bị của bạn</td>
+              </tr>
+              <tr>
+                <td>Chuỗi ngày và thống kê</td>
+                <td>Chuỗi ngày liên tiếp và số lần học hiển thị trên hồ sơ của bạn.</td>
+                <td>Chỉ trên thiết bị của bạn</td>
+              </tr>
+              <tr>
+                <td>Cài đặt</td>
+                <td>Tuỳ chọn về ngôn ngữ, giao diện, âm thanh và hiển thị.</td>
+                <td>Chỉ trên thiết bị của bạn</td>
+              </tr>
+              <tr>
+                <td>Trạng thái đăng ký</td>
+                <td>Câu trả lời có hoặc không từ cửa hàng được lưu đệm, để ứng dụng chạy được khi ngoại tuyến.</td>
+                <td>Chỉ trên thiết bị của bạn</td>
+              </tr>
+              <tr>
+                <td>Lựa chọn của bạn về quảng cáo</td>
+                <td>Câu trả lời đồng ý mà bạn đã đưa ra, để không phải hỏi lại mỗi lần mở ứng dụng.</td>
+                <td>Chỉ trên thiết bị của bạn</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>Không nội dung nào trong số này được tải lên chỗ chúng tôi. Chúng tôi không đọc được, không khôi phục giúp bạn được, và cũng không thể trao cho bất kỳ ai, bởi chúng chưa bao giờ đến được chỗ chúng tôi.</p>
+        <h3 id="vi-gcd-leaves">Những gì rời khỏi thiết bị của bạn</h3>
+        <p>Đây là danh sách đầy đủ. Mọi thứ không có tên ở đây đều nằm lại trên thiết bị của bạn.</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>Nội dung được gửi đi</th>
+              <th>Bên nhận</th>
+              <th>Mục đích</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>Yêu cầu quảng cáo</td>
+                <td>Google AdMob</td>
+                <td>Để chọn và đo lường một quảng cáo.</td>
+              </tr>
+              <tr>
+                <td>Sự kiện sử dụng ẩn danh</td>
+                <td>Google Firebase Analytics</td>
+                <td>Số đếm về việc tính năng nào được mở, không kèm mã người dùng.</td>
+              </tr>
+              <tr>
+                <td>Báo cáo sự cố</td>
+                <td>Google Firebase Crashlytics</td>
+                <td>Lỗi, ngăn xếp lời gọi, kiểu máy và phiên bản ứng dụng khi ứng dụng hỏng.</td>
+              </tr>
+              <tr>
+                <td>Xác thực giao dịch mua</td>
+                <td>Apple App Store / Google Play</td>
+                <td>Để kiểm tra gói đăng ký còn hiệu lực hay không. Không có chi tiết thẻ nào đến chỗ chúng tôi.</td>
+              </tr>
+              <tr>
+                <td>Không có gì tự động</td>
+                <td>Các trang web bạn mở</td>
+                <td>Mở một liên kết trong ứng dụng là trao nó cho trình duyệt, và từ đó mọi thứ diễn ra như với trình duyệt của bạn.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <h3 id="vi-gcd-notdo">Những điều ứng dụng không làm</h3>
+        <p>Chừng nào chính sách này còn là bản hiện hành:</p>
+        <ul>
+          <li>Không có tài khoản, không đăng ký, không địa chỉ email và không mật khẩu.</li>
+          <li>Chúng tôi không vận hành máy chủ nào nhận nội dung của bạn và không giữ cơ sở dữ liệu nào ghi nhận bạn.</li>
+          <li>Chúng tôi không bán thông tin cá nhân của bạn và không chia sẻ nó cho quảng cáo hành vi liên ngữ cảnh.</li>
+          <li>Ứng dụng không theo dõi bạn qua ứng dụng hay trang web của công ty khác, và không hiện hộp thoại Minh bạch Theo dõi Ứng dụng.</li>
+          <li>Không có gì được đồng bộ lên tài khoản đám mây nào của chúng tôi. Phía chúng tôi không có bản sao lưu nào để khôi phục.</li>
+          <li>Ứng dụng không xin và không đọc vị trí của bạn.</li>
+          <li>Ứng dụng không ghi âm và không xin quyền micrô khi chạy.</li>
+          <li>Ứng dụng không đọc danh bạ, lịch, tin nhắn, nhật ký cuộc gọi hay các tệp nằm ngoài vùng lưu trữ riêng của nó.</li>
+        </ul>
+        <h3 id="vi-gcd-perms">Các quyền, và lý do xin từng quyền</h3>
+        <p>Mỗi quyền dưới đây chỉ được xin cho đúng một mục đích đã nêu và không dùng cho việc gì khác. Trên cả hai nền tảng, bạn có thể từ chối hoặc rút lại bất kỳ quyền nào trong phần cài đặt hệ thống; những tính năng phụ thuộc vào quyền đó sẽ ngừng hoạt động, phần còn lại của ứng dụng vẫn chạy bình thường.</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>Quyền</th>
+              <th>Nền tảng</th>
+              <th>Mục đích</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>Truy cập internet</td>
+                <td>Android</td>
+                <td>Cần cho các yêu cầu mạng đã liệt kê ở trên.</td>
+              </tr>
+              <tr>
+                <td>Mã quảng cáo</td>
+                <td>Android</td>
+                <td>AdMob dùng để chọn và đo lường quảng cáo. Bạn có thể đặt lại hoặc xoá nó trong phần cài đặt Android.</td>
+              </tr>
+              <tr>
+                <td>Thanh toán</td>
+                <td>Android</td>
+                <td>Để bán và xác thực gói đăng ký qua Google Play.</td>
+              </tr>
+              <tr>
+                <td>Minh bạch Theo dõi Ứng dụng</td>
+                <td>iOS</td>
+                <td>Không xin. Ứng dụng không theo dõi bạn qua ứng dụng hay trang web của công ty khác.</td>
+              </tr>
+              <tr>
+                <td>Micrô</td>
+                <td>Android và iOS</td>
+                <td>Không xin.</td>
+              </tr>
+              <tr>
+                <td>Máy ảnh</td>
+                <td>Android và iOS</td>
+                <td>Không xin.</td>
+              </tr>
+              <tr>
+                <td>Vị trí</td>
+                <td>Android và iOS</td>
+                <td>Không xin.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <h3 id="vi-gcd-ads">Quảng cáo và lựa chọn của bạn</h3>
+        <p>Phiên bản này của ứng dụng hiển thị quảng cáo do <strong>Google AdMob</strong> cung cấp. Với dữ liệu thu thập qua những quảng cáo đó, Google là bên kiểm soát độc lập và xử lý theo chính sách riêng của họ tại <a href="https://policies.google.com/technologies/partner-sites" rel="noopener">policies.google.com/technologies/partner-sites</a>.</p>
+        <p>Để chọn và đo lường một quảng cáo, Google có thể nhận mã nhận dạng quảng cáo của thiết bị, thông tin chung về thiết bị và ứng dụng, vị trí gần đúng suy ra từ địa chỉ IP của bạn, cùng với việc bạn đã xem hay chạm vào quảng cáo hay chưa. Chúng tôi không nhận bất cứ thông tin nào trong đó về riêng bạn — báo cáo của chúng tôi chỉ là số liệu tổng hợp về doanh thu và lượt hiển thị.</p>
+        <p>Quảng cáo trong ứng dụng này xuất hiện dưới dạng biểu ngữ, dạng xen kẽ toàn màn hình giữa các thao tác, và dạng quảng cáo mở ứng dụng khi bạn quay lại.</p>
+        <p>Tại EEA, Vương quốc Anh và Thuỵ Sĩ, ứng dụng hiển thị biểu mẫu đồng ý của Google trước khi yêu cầu quảng cáo được cá nhân hoá. Lựa chọn của bạn được ghi trên thiết bị và có thể mở lại bất cứ lúc nào từ phần cài đặt của ứng dụng, ở mục quảng cáo hoặc tuỳ chọn quyền riêng tư, để đổi ý.</p>
+        <p>Bạn có thể đặt lại hoặc xoá mã nhận dạng quảng cáo bất cứ lúc nào — trên Android vào Cài đặt › Quyền riêng tư › Quảng cáo, còn trên iOS hãy tắt <em>Cho phép Ứng dụng Yêu cầu Theo dõi</em>, thao tác này cũng khiến mọi ứng dụng không dùng được mã đó.</p>
+        <p>Ứng dụng không hiện hộp thoại Minh bạch Theo dõi Ứng dụng của Apple và không theo dõi bạn qua các ứng dụng hay trang web của công ty khác.</p>
+        <h3 id="vi-gcd-telemetry">Thống kê sử dụng và báo cáo sự cố</h3>
+        <p>Ứng dụng dùng <strong>Google Firebase</strong> cho hai việc: Crashlytics báo cáo sự cố, và Analytics đếm mức độ sử dụng các tính năng. Cả hai đều do Google xử lý thay cho chúng tôi.</p>
+        <p>Một báo cáo sự cố chứa trạng thái của chương trình khi nó hỏng — lỗi, ngăn xếp lời gọi, kiểu máy, phiên bản hệ điều hành và phiên bản ứng dụng. Nó được sinh ra tự động bởi chính sự cố đó và cho chúng tôi biết phải sửa dòng nào trong mã nguồn.</p>
+        <p>Sự kiện thống kê là số đếm của những hành động ẩn danh, chẳng hạn một màn hình được mở. Chúng tôi không đặt mã người dùng hay thuộc tính người dùng nào, nên các sự kiện không gắn với một cá nhân và chúng tôi không thể tìm ra bạn trong đó.</p>
+        <h3 id="vi-gcd-purchases">Gói đăng ký và mua hàng</h3>
+        <p>Phiên bản này của ứng dụng có gói đăng ký tự động gia hạn. Việc mua hoàn toàn do App Store hoặc Google Play xử lý.</p>
+        <p>Chúng tôi không bao giờ thấy số thẻ, địa chỉ thanh toán hay bất kỳ chi tiết thanh toán nào của bạn. Cửa hàng chỉ cho ứng dụng biết có quyền lợi hợp lệ hay không; câu trả lời đó được lưu đệm trên thiết bị để ứng dụng vẫn chạy khi ngoại tuyến.</p>
+        <p>Khoản mua một lần đã bán ở phiên bản trước vẫn được ghi nhận và tiếp tục có hiệu lực; nó không gia hạn và không bị tính phí lại.</p>
+        <h2 id="vi-learnenglish">ALL English</h2>
+        <p>ALL English dạy tiếng Anh qua từ vựng phân cấp, bài tập nghe, bài kiểm tra và phần luyện phát âm bằng cách nói thành tiếng. Ứng dụng chạy trên iPhone, iPad và Android, với giao diện bằng tiếng Anh, tiếng Tây Ban Nha, tiếng Trung và tiếng Ả Rập. Tiến độ học của bạn nằm trên chính thiết bị bạn đang dùng.</p>
+        <p>Ứng dụng được niêm yết trên các cửa hàng với tên <strong>McEnglish</strong> và hiện trên màn hình chính của bạn với tên <strong>ALL English</strong>. Chúng là cùng một ứng dụng.</p>
+        <h3 id="vi-learnenglish-stores">Ứng dụng lưu gì trên thiết bị của bạn</h3>
+        <p>Ứng dụng ghi những nội dung sau vào vùng lưu trữ riêng trên thiết bị của bạn — vùng mà các ứng dụng khác không đọc được. Chúng nằm ở đó cho đến khi bạn xoá hoặc gỡ cài đặt ứng dụng.</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>Nội dung</th>
+              <th>Để làm gì</th>
+              <th>Lưu ở đâu</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>Tiến độ học</td>
+                <td>Bài đã học xong, kết quả kiểm tra và những mục bạn đã xem.</td>
+                <td>Chỉ trên thiết bị của bạn</td>
+              </tr>
+              <tr>
+                <td>Mục yêu thích</td>
+                <td>Những mục bạn đã đánh dấu sao hoặc lưu lại.</td>
+                <td>Chỉ trên thiết bị của bạn</td>
+              </tr>
+              <tr>
+                <td>Chuỗi ngày và thống kê</td>
+                <td>Chuỗi ngày liên tiếp và số lần học hiển thị trên hồ sơ của bạn.</td>
+                <td>Chỉ trên thiết bị của bạn</td>
+              </tr>
+              <tr>
+                <td>Cài đặt</td>
+                <td>Tuỳ chọn về ngôn ngữ, giao diện, âm thanh và hiển thị.</td>
+                <td>Chỉ trên thiết bị của bạn</td>
+              </tr>
+              <tr>
+                <td>Trạng thái đăng ký</td>
+                <td>Câu trả lời có hoặc không từ cửa hàng được lưu đệm, để ứng dụng chạy được khi ngoại tuyến.</td>
+                <td>Chỉ trên thiết bị của bạn</td>
+              </tr>
+              <tr>
+                <td>Lựa chọn của bạn về quảng cáo</td>
+                <td>Câu trả lời đồng ý mà bạn đã đưa ra, để không phải hỏi lại mỗi lần mở ứng dụng.</td>
+                <td>Chỉ trên thiết bị của bạn</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>Không nội dung nào trong số này được tải lên chỗ chúng tôi. Chúng tôi không đọc được, không khôi phục giúp bạn được, và cũng không thể trao cho bất kỳ ai, bởi chúng chưa bao giờ đến được chỗ chúng tôi.</p>
+        <p>Việc nhận dạng giọng nói khi luyện phát âm do bộ nhận dạng của chính hệ điều hành thực hiện — của Apple trên iOS, của Google trên Android — theo điều khoản quyền riêng tư của từng nền tảng. Tuỳ thiết bị và ngôn ngữ, bộ nhận dạng đó có thể xử lý âm thanh ngay trên máy hoặc trên máy chủ của nền tảng. Chúng tôi không nhận được âm thanh lẫn văn bản: ứng dụng chỉ được cho biết những gì bạn nói gần với câu mẫu đến mức nào, và âm thanh bị loại bỏ ngay khi có điểm số đó.</p>
+        <h3 id="vi-learnenglish-leaves">Những gì rời khỏi thiết bị của bạn</h3>
+        <p>Đây là danh sách đầy đủ. Mọi thứ không có tên ở đây đều nằm lại trên thiết bị của bạn.</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>Nội dung được gửi đi</th>
+              <th>Bên nhận</th>
+              <th>Mục đích</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>Yêu cầu quảng cáo</td>
+                <td>Google AdMob</td>
+                <td>Để chọn và đo lường một quảng cáo.</td>
+              </tr>
+              <tr>
+                <td>Sự kiện sử dụng ẩn danh</td>
+                <td>Google Firebase Analytics</td>
+                <td>Số đếm về việc tính năng nào được mở, không kèm mã người dùng.</td>
+              </tr>
+              <tr>
+                <td>Báo cáo sự cố</td>
+                <td>Google Firebase Crashlytics</td>
+                <td>Lỗi, ngăn xếp lời gọi, kiểu máy và phiên bản ứng dụng khi ứng dụng hỏng.</td>
+              </tr>
+              <tr>
+                <td>Xác thực giao dịch mua</td>
+                <td>Apple App Store / Google Play</td>
+                <td>Để kiểm tra gói đăng ký còn hiệu lực hay không. Không có chi tiết thẻ nào đến chỗ chúng tôi.</td>
+              </tr>
+              <tr>
+                <td>Không có gì tự động</td>
+                <td>Các trang web bạn mở</td>
+                <td>Mở một liên kết trong ứng dụng là trao nó cho trình duyệt, và từ đó mọi thứ diễn ra như với trình duyệt của bạn.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <h3 id="vi-learnenglish-notdo">Những điều ứng dụng không làm</h3>
+        <p>Chừng nào chính sách này còn là bản hiện hành:</p>
+        <ul>
+          <li>Không có tài khoản, không đăng ký, không địa chỉ email và không mật khẩu.</li>
+          <li>Chúng tôi không vận hành máy chủ nào nhận nội dung của bạn và không giữ cơ sở dữ liệu nào ghi nhận bạn.</li>
+          <li>Chúng tôi không bán thông tin cá nhân của bạn và không chia sẻ nó cho quảng cáo hành vi liên ngữ cảnh.</li>
+          <li>Ứng dụng không theo dõi bạn qua ứng dụng hay trang web của công ty khác, và không hiện hộp thoại Minh bạch Theo dõi Ứng dụng.</li>
+          <li>Không có gì được đồng bộ lên tài khoản đám mây nào của chúng tôi. Phía chúng tôi không có bản sao lưu nào để khôi phục.</li>
+          <li>Ứng dụng không xin và không đọc vị trí của bạn.</li>
+          <li>Ứng dụng không đọc danh bạ, lịch, tin nhắn, nhật ký cuộc gọi hay các tệp nằm ngoài vùng lưu trữ riêng của nó.</li>
+        </ul>
+        <h3 id="vi-learnenglish-perms">Các quyền, và lý do xin từng quyền</h3>
+        <p>Mỗi quyền dưới đây chỉ được xin cho đúng một mục đích đã nêu và không dùng cho việc gì khác. Trên cả hai nền tảng, bạn có thể từ chối hoặc rút lại bất kỳ quyền nào trong phần cài đặt hệ thống; những tính năng phụ thuộc vào quyền đó sẽ ngừng hoạt động, phần còn lại của ứng dụng vẫn chạy bình thường.</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>Quyền</th>
+              <th>Nền tảng</th>
+              <th>Mục đích</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>Truy cập internet</td>
+                <td>Android</td>
+                <td>Cần cho các yêu cầu mạng đã liệt kê ở trên.</td>
+              </tr>
+              <tr>
+                <td>Trạng thái mạng</td>
+                <td>Android</td>
+                <td>Để xem có kết nối hay không trước khi thử dùng.</td>
+              </tr>
+              <tr>
+                <td>Micrô</td>
+                <td>Android</td>
+                <td>Để ghi khi chính bạn bắt đầu một lần ghi.</td>
+              </tr>
+              <tr>
+                <td>Mã quảng cáo</td>
+                <td>Android</td>
+                <td>AdMob dùng để chọn và đo lường quảng cáo. Bạn có thể đặt lại hoặc xoá nó trong phần cài đặt Android.</td>
+              </tr>
+              <tr>
+                <td>Micrô</td>
+                <td>iOS</td>
+                <td>Để ghi khi chính bạn bắt đầu một lần ghi.</td>
+              </tr>
+              <tr>
+                <td>Nhận dạng giọng nói</td>
+                <td>iOS</td>
+                <td>Để chấm điểm phát âm bằng bộ nhận dạng của Apple.</td>
+              </tr>
+              <tr>
+                <td>Minh bạch Theo dõi Ứng dụng</td>
+                <td>iOS</td>
+                <td>Không xin. Ứng dụng không theo dõi bạn qua ứng dụng hay trang web của công ty khác.</td>
+              </tr>
+              <tr>
+                <td>Vị trí</td>
+                <td>Android và iOS</td>
+                <td>Không xin.</td>
+              </tr>
+              <tr>
+                <td>Máy ảnh</td>
+                <td>Android và iOS</td>
+                <td>Không xin.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <h3 id="vi-learnenglish-ads">Quảng cáo và lựa chọn của bạn</h3>
+        <p>Phiên bản này của ứng dụng hiển thị quảng cáo do <strong>Google AdMob</strong> cung cấp. Với dữ liệu thu thập qua những quảng cáo đó, Google là bên kiểm soát độc lập và xử lý theo chính sách riêng của họ tại <a href="https://policies.google.com/technologies/partner-sites" rel="noopener">policies.google.com/technologies/partner-sites</a>.</p>
+        <p>Để chọn và đo lường một quảng cáo, Google có thể nhận mã nhận dạng quảng cáo của thiết bị, thông tin chung về thiết bị và ứng dụng, vị trí gần đúng suy ra từ địa chỉ IP của bạn, cùng với việc bạn đã xem hay chạm vào quảng cáo hay chưa. Chúng tôi không nhận bất cứ thông tin nào trong đó về riêng bạn — báo cáo của chúng tôi chỉ là số liệu tổng hợp về doanh thu và lượt hiển thị.</p>
+        <p>Quảng cáo trong ứng dụng này xuất hiện dưới dạng biểu ngữ và dạng xen kẽ toàn màn hình giữa các thao tác.</p>
+        <p>Tại EEA, Vương quốc Anh và Thuỵ Sĩ, ứng dụng hiển thị biểu mẫu đồng ý của Google trước khi yêu cầu quảng cáo được cá nhân hoá. Lựa chọn của bạn được ghi trên thiết bị và có thể mở lại bất cứ lúc nào từ phần cài đặt của ứng dụng, ở mục quảng cáo hoặc tuỳ chọn quyền riêng tư, để đổi ý.</p>
+        <p>Bạn có thể đặt lại hoặc xoá mã nhận dạng quảng cáo bất cứ lúc nào — trên Android vào Cài đặt › Quyền riêng tư › Quảng cáo, còn trên iOS hãy tắt <em>Cho phép Ứng dụng Yêu cầu Theo dõi</em>, thao tác này cũng khiến mọi ứng dụng không dùng được mã đó.</p>
+        <p>Ứng dụng không hiện hộp thoại Minh bạch Theo dõi Ứng dụng của Apple và không theo dõi bạn qua các ứng dụng hay trang web của công ty khác.</p>
+        <h3 id="vi-learnenglish-telemetry">Thống kê sử dụng và báo cáo sự cố</h3>
+        <p>Ứng dụng dùng <strong>Google Firebase</strong> cho hai việc: Crashlytics báo cáo sự cố, và Analytics đếm mức độ sử dụng các tính năng. Cả hai đều do Google xử lý thay cho chúng tôi.</p>
+        <p>Một báo cáo sự cố chứa trạng thái của chương trình khi nó hỏng — lỗi, ngăn xếp lời gọi, kiểu máy, phiên bản hệ điều hành và phiên bản ứng dụng. Nó được sinh ra tự động bởi chính sự cố đó và cho chúng tôi biết phải sửa dòng nào trong mã nguồn.</p>
+        <p>Sự kiện thống kê là số đếm của những hành động ẩn danh, chẳng hạn một màn hình được mở. Chúng tôi không đặt mã người dùng hay thuộc tính người dùng nào, nên các sự kiện không gắn với một cá nhân và chúng tôi không thể tìm ra bạn trong đó.</p>
+        <h3 id="vi-learnenglish-purchases">Gói đăng ký và mua hàng</h3>
+        <p>Phiên bản này của ứng dụng có gói đăng ký tự động gia hạn. Việc mua hoàn toàn do App Store hoặc Google Play xử lý.</p>
+        <p>Chúng tôi không bao giờ thấy số thẻ, địa chỉ thanh toán hay bất kỳ chi tiết thanh toán nào của bạn. Cửa hàng chỉ cho ứng dụng biết có quyền lợi hợp lệ hay không; câu trả lời đó được lưu đệm trên thiết bị để ứng dụng vẫn chạy khi ngoại tuyến.</p>
+        <h2 id="vi-xiezi">Xie Zi</h2>
+        <p>Xie Zi dạy viết tay chữ Hán: bạn tô từng chữ theo đúng thứ tự nét và ứng dụng cho biết nét nào đã đi lệch. Cuốn từ điển 9.574 chữ cùng toàn bộ hoạt ảnh nét chữ đều nằm sẵn trong ứng dụng, nên việc luyện tập hoàn toàn không cần kết nối.</p>
+        <h3 id="vi-xiezi-stores">Ứng dụng lưu gì trên thiết bị của bạn</h3>
+        <p>Ứng dụng ghi những nội dung sau vào vùng lưu trữ riêng trên thiết bị của bạn — vùng mà các ứng dụng khác không đọc được. Chúng nằm ở đó cho đến khi bạn xoá hoặc gỡ cài đặt ứng dụng.</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>Nội dung</th>
+              <th>Để làm gì</th>
+              <th>Lưu ở đâu</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>Từ điển</td>
+                <td>Dữ liệu tra cứu, đi kèm trong ứng dụng và đọc từ thiết bị của bạn.</td>
+                <td>Chỉ trên thiết bị của bạn</td>
+              </tr>
+              <tr>
+                <td>Tiến độ học</td>
+                <td>Bài đã học xong, kết quả kiểm tra và những mục bạn đã xem.</td>
+                <td>Chỉ trên thiết bị của bạn</td>
+              </tr>
+              <tr>
+                <td>Mục yêu thích</td>
+                <td>Những mục bạn đã đánh dấu sao hoặc lưu lại.</td>
+                <td>Chỉ trên thiết bị của bạn</td>
+              </tr>
+              <tr>
+                <td>Lịch sử</td>
+                <td>Những gì bạn vừa tra hoặc vừa luyện, để có thể quay lại.</td>
+                <td>Chỉ trên thiết bị của bạn</td>
+              </tr>
+              <tr>
+                <td>Chuỗi ngày và thống kê</td>
+                <td>Chuỗi ngày liên tiếp và số lần học hiển thị trên hồ sơ của bạn.</td>
+                <td>Chỉ trên thiết bị của bạn</td>
+              </tr>
+              <tr>
+                <td>Cài đặt</td>
+                <td>Tuỳ chọn về ngôn ngữ, giao diện, âm thanh và hiển thị.</td>
+                <td>Chỉ trên thiết bị của bạn</td>
+              </tr>
+              <tr>
+                <td>Trạng thái đăng ký</td>
+                <td>Câu trả lời có hoặc không từ cửa hàng được lưu đệm, để ứng dụng chạy được khi ngoại tuyến.</td>
+                <td>Chỉ trên thiết bị của bạn</td>
+              </tr>
+              <tr>
+                <td>Lựa chọn của bạn về quảng cáo</td>
+                <td>Câu trả lời đồng ý mà bạn đã đưa ra, để không phải hỏi lại mỗi lần mở ứng dụng.</td>
+                <td>Chỉ trên thiết bị của bạn</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>Không nội dung nào trong số này được tải lên chỗ chúng tôi. Chúng tôi không đọc được, không khôi phục giúp bạn được, và cũng không thể trao cho bất kỳ ai, bởi chúng chưa bao giờ đến được chỗ chúng tôi.</p>
+        <h3 id="vi-xiezi-leaves">Những gì rời khỏi thiết bị của bạn</h3>
+        <p>Đây là danh sách đầy đủ. Mọi thứ không có tên ở đây đều nằm lại trên thiết bị của bạn.</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>Nội dung được gửi đi</th>
+              <th>Bên nhận</th>
+              <th>Mục đích</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>Yêu cầu quảng cáo</td>
+                <td>Google AdMob</td>
+                <td>Để chọn và đo lường một quảng cáo.</td>
+              </tr>
+              <tr>
+                <td>Xác thực giao dịch mua</td>
+                <td>Apple App Store / Google Play</td>
+                <td>Để kiểm tra gói đăng ký còn hiệu lực hay không. Không có chi tiết thẻ nào đến chỗ chúng tôi.</td>
+              </tr>
+              <tr>
+                <td>Không có gì tự động</td>
+                <td>Các trang web bạn mở</td>
+                <td>Mở một liên kết trong ứng dụng là trao nó cho trình duyệt, và từ đó mọi thứ diễn ra như với trình duyệt của bạn.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>Hoạt ảnh thứ tự nét cùng toàn bộ dữ liệu chữ đều nằm sẵn trong ứng dụng. Xem hay luyện một chữ không tạo ra yêu cầu mạng nào.</p>
+        <h3 id="vi-xiezi-notdo">Những điều ứng dụng không làm</h3>
+        <p>Chừng nào chính sách này còn là bản hiện hành:</p>
+        <ul>
+          <li>Không có tài khoản, không đăng ký, không địa chỉ email và không mật khẩu.</li>
+          <li>Chúng tôi không vận hành máy chủ nào nhận nội dung của bạn và không giữ cơ sở dữ liệu nào ghi nhận bạn.</li>
+          <li>Chúng tôi không bán thông tin cá nhân của bạn và không chia sẻ nó cho quảng cáo hành vi liên ngữ cảnh.</li>
+          <li>Ứng dụng không theo dõi bạn qua ứng dụng hay trang web của công ty khác, và không hiện hộp thoại Minh bạch Theo dõi Ứng dụng.</li>
+          <li>Không có gì được đồng bộ lên tài khoản đám mây nào của chúng tôi. Phía chúng tôi không có bản sao lưu nào để khôi phục.</li>
+          <li>Phiên bản này không chứa SDK thống kê và cũng không chứa SDK báo cáo sự cố.</li>
+          <li>Ứng dụng không xin và không đọc vị trí của bạn.</li>
+          <li>Ứng dụng không ghi âm và không xin quyền micrô khi chạy.</li>
+          <li>Ứng dụng không đọc danh bạ, lịch, tin nhắn, nhật ký cuộc gọi hay các tệp nằm ngoài vùng lưu trữ riêng của nó.</li>
+        </ul>
+        <h3 id="vi-xiezi-perms">Các quyền, và lý do xin từng quyền</h3>
+        <p>Mỗi quyền dưới đây chỉ được xin cho đúng một mục đích đã nêu và không dùng cho việc gì khác. Trên cả hai nền tảng, bạn có thể từ chối hoặc rút lại bất kỳ quyền nào trong phần cài đặt hệ thống; những tính năng phụ thuộc vào quyền đó sẽ ngừng hoạt động, phần còn lại của ứng dụng vẫn chạy bình thường.</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>Quyền</th>
+              <th>Nền tảng</th>
+              <th>Mục đích</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>Truy cập internet</td>
+                <td>Android</td>
+                <td>Cần cho các yêu cầu mạng đã liệt kê ở trên.</td>
+              </tr>
+              <tr>
+                <td>Trạng thái mạng</td>
+                <td>Android</td>
+                <td>Để xem có kết nối hay không trước khi thử dùng.</td>
+              </tr>
+              <tr>
+                <td>Mã quảng cáo</td>
+                <td>Android</td>
+                <td>AdMob dùng để chọn và đo lường quảng cáo. Bạn có thể đặt lại hoặc xoá nó trong phần cài đặt Android.</td>
+              </tr>
+              <tr>
+                <td>Micrô — có khai báo, không dùng</td>
+                <td>Android</td>
+                <td>Còn sót lại từ thiết kế cũ. Phiên bản này không chứa mã ghi âm và không bao giờ xin quyền đó khi chạy.</td>
+              </tr>
+              <tr>
+                <td>Bluetooth — có khai báo, không dùng</td>
+                <td>Android</td>
+                <td>Còn sót lại từ thiết kế cũ. Phiên bản này không chứa mã Bluetooth và không bao giờ xin quyền đó khi chạy.</td>
+              </tr>
+              <tr>
+                <td>Minh bạch Theo dõi Ứng dụng</td>
+                <td>iOS</td>
+                <td>Không xin. Ứng dụng không theo dõi bạn qua ứng dụng hay trang web của công ty khác.</td>
+              </tr>
+              <tr>
+                <td>Micrô</td>
+                <td>Android và iOS</td>
+                <td>Không xin.</td>
+              </tr>
+              <tr>
+                <td>Máy ảnh</td>
+                <td>Android và iOS</td>
+                <td>Không xin.</td>
+              </tr>
+              <tr>
+                <td>Vị trí</td>
+                <td>Android và iOS</td>
+                <td>Không xin.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>Hai quyền từ một thiết kế cũ vẫn còn được khai báo trong manifest Android — micrô và Bluetooth — nên cửa hàng vẫn liệt kê chúng. Phiên bản này của ứng dụng không chứa mã ghi âm và cũng không chứa mã Bluetooth: cả hai không bao giờ được xin khi chạy và không được dùng. Chúng tôi ghi ở đây vì bạn có thể nhìn thấy chúng trên trang cửa hàng, và bạn xứng đáng nhận một lời giải thích thay vì một sự ngạc nhiên.</p>
+        <h3 id="vi-xiezi-ads">Quảng cáo và lựa chọn của bạn</h3>
+        <p>Phiên bản này của ứng dụng hiển thị quảng cáo do <strong>Google AdMob</strong> cung cấp. Với dữ liệu thu thập qua những quảng cáo đó, Google là bên kiểm soát độc lập và xử lý theo chính sách riêng của họ tại <a href="https://policies.google.com/technologies/partner-sites" rel="noopener">policies.google.com/technologies/partner-sites</a>.</p>
+        <p>Để chọn và đo lường một quảng cáo, Google có thể nhận mã nhận dạng quảng cáo của thiết bị, thông tin chung về thiết bị và ứng dụng, vị trí gần đúng suy ra từ địa chỉ IP của bạn, cùng với việc bạn đã xem hay chạm vào quảng cáo hay chưa. Chúng tôi không nhận bất cứ thông tin nào trong đó về riêng bạn — báo cáo của chúng tôi chỉ là số liệu tổng hợp về doanh thu và lượt hiển thị.</p>
+        <p>Quảng cáo trong ứng dụng này xuất hiện dưới dạng biểu ngữ và dạng xen kẽ toàn màn hình giữa các thao tác.</p>
+        <p>Phiên bản này yêu cầu quảng cáo không được cá nhân hoá. Quảng cáo không cá nhân hoá vẫn được đo lường, nên một lượng thông tin hạn chế vẫn đến Google, nhưng nó không được chọn dựa trên hồ sơ sở thích của bạn.</p>
+        <p>Tại EEA, Vương quốc Anh và Thuỵ Sĩ, ứng dụng hiển thị biểu mẫu đồng ý của Google trước khi yêu cầu quảng cáo được cá nhân hoá. Lựa chọn của bạn được ghi trên thiết bị và có thể mở lại bất cứ lúc nào từ phần cài đặt của ứng dụng, ở mục quảng cáo hoặc tuỳ chọn quyền riêng tư, để đổi ý.</p>
+        <p>Bạn có thể đặt lại hoặc xoá mã nhận dạng quảng cáo bất cứ lúc nào — trên Android vào Cài đặt › Quyền riêng tư › Quảng cáo, còn trên iOS hãy tắt <em>Cho phép Ứng dụng Yêu cầu Theo dõi</em>, thao tác này cũng khiến mọi ứng dụng không dùng được mã đó.</p>
+        <p>Ứng dụng không hiện hộp thoại Minh bạch Theo dõi Ứng dụng của Apple và không theo dõi bạn qua các ứng dụng hay trang web của công ty khác.</p>
+        <h3 id="vi-xiezi-telemetry">Thống kê sử dụng và báo cáo sự cố</h3>
+        <p>Phiên bản này của ứng dụng không chứa SDK thống kê và cũng không chứa SDK báo cáo sự cố. Chúng tôi không nhận được số liệu sử dụng, báo cáo sự cố hay dữ liệu chẩn đoán nào từ nó.</p>
+        <h3 id="vi-xiezi-purchases">Gói đăng ký và mua hàng</h3>
+        <p>Phiên bản này của ứng dụng có gói đăng ký tự động gia hạn. Việc mua hoàn toàn do App Store hoặc Google Play xử lý.</p>
+        <p>Chúng tôi không bao giờ thấy số thẻ, địa chỉ thanh toán hay bất kỳ chi tiết thanh toán nào của bạn. Cửa hàng chỉ cho ứng dụng biết có quyền lợi hợp lệ hay không; câu trả lời đó được lưu đệm trên thiết bị để ứng dụng vẫn chạy khi ngoại tuyến.</p>
+        <h2 id="vi-momerame">Momera.ME</h2>
+        <p>Momera.ME ghi lại một khoảnh khắc ngay khi nó diễn ra — một bức ảnh, một ghi chú thoại, một dòng chữ, bạn đang ở đâu, đã đi bao xa — và giữ tất cả trong cùng một mục. Mọi thứ nó ghi lại đều được viết vào chính thiết bị của bạn. Ứng dụng chạy trên Android.</p>
+        <h3 id="vi-momerame-stores">Ứng dụng lưu gì trên thiết bị của bạn</h3>
+        <p>Ứng dụng ghi những nội dung sau vào vùng lưu trữ riêng trên thiết bị của bạn — vùng mà các ứng dụng khác không đọc được. Chúng nằm ở đó cho đến khi bạn xoá hoặc gỡ cài đặt ứng dụng.</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>Nội dung</th>
+              <th>Để làm gì</th>
+              <th>Lưu ở đâu</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>Ảnh và video</td>
+                <td>Những gì bạn chụp trong ứng dụng hoặc đính kèm vào một mục.</td>
+                <td>Chỉ trên thiết bị của bạn</td>
+              </tr>
+              <tr>
+                <td>Ghi chú thoại</td>
+                <td>Âm thanh bạn ghi kèm một địa điểm hoặc một mục.</td>
+                <td>Chỉ trên thiết bị của bạn</td>
+              </tr>
+              <tr>
+                <td>Bản chép lời</td>
+                <td>Văn bản tạo ra từ âm thanh của bạn ngay trên thiết bị.</td>
+                <td>Chỉ trên thiết bị của bạn</td>
+              </tr>
+              <tr>
+                <td>Ghi chú văn bản</td>
+                <td>Những gì bạn gõ vào.</td>
+                <td>Chỉ trên thiết bị của bạn</td>
+              </tr>
+              <tr>
+                <td>Lộ trình đã ghi</td>
+                <td>Vệt GPS của một chuyến đi mà bạn bắt đầu ghi.</td>
+                <td>Chỉ trên thiết bị của bạn</td>
+              </tr>
+              <tr>
+                <td>Số bước</td>
+                <td>Số bước do cảm biến của thiết bị đếm trong lúc ghi.</td>
+                <td>Chỉ trên thiết bị của bạn</td>
+              </tr>
+              <tr>
+                <td>Mô hình giọng nói</td>
+                <td>Tệp mô hình đã tải về, giúp việc chép lời ngoại tuyến hoạt động.</td>
+                <td>Chỉ trên thiết bị của bạn</td>
+              </tr>
+              <tr>
+                <td>Ô bản đồ đã lưu đệm</td>
+                <td>Những ô bản đồ đã tải về, giữ lại để vùng đó dùng được khi ngoại tuyến.</td>
+                <td>Chỉ trên thiết bị của bạn</td>
+              </tr>
+              <tr>
+                <td>Cài đặt</td>
+                <td>Tuỳ chọn về ngôn ngữ, giao diện, âm thanh và hiển thị.</td>
+                <td>Chỉ trên thiết bị của bạn</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>Không nội dung nào trong số này được tải lên chỗ chúng tôi. Chúng tôi không đọc được, không khôi phục giúp bạn được, và cũng không thể trao cho bất kỳ ai, bởi chúng chưa bao giờ đến được chỗ chúng tôi.</p>
+        <p>Lời nói được chuyển thành văn bản ngay trên thiết bị của bạn bằng một mô hình đi kèm ứng dụng. Âm thanh của bạn không được tải lên, không được gửi tới dịch vụ ghi chép trên đám mây nào và không được dùng để huấn luyện bất cứ thứ gì.</p>
+        <p>Việc đếm bước đọc cảm biến bước của chính thiết bị thông qua quyền nhận dạng hoạt động. Số bước được lưu cùng chuyến đi trên thiết bị của bạn. Ứng dụng không đọc và không ghi vào nền tảng sức khoẻ hay thể chất nào — không Apple Health, không Google Fit.</p>
+        <p>Việc quay màn hình, khi bạn bật, chỉ ghi lại màn hình của chính ứng dụng này trong lúc nó chạy, và tệp được ghi vào thiết bị của bạn. Nó không bao giờ tự bật ở chế độ nền hay khi không có bạn.</p>
+        <p>Ứng dụng này tắt Sao lưu tự động của Android, nên nội dung của nó không được chép lên Google Drive của bạn và không được mang theo khi chuyển máy.</p>
+        <h3 id="vi-momerame-leaves">Những gì rời khỏi thiết bị của bạn</h3>
+        <p>Đây là danh sách đầy đủ. Mọi thứ không có tên ở đây đều nằm lại trên thiết bị của bạn.</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>Nội dung được gửi đi</th>
+              <th>Bên nhận</th>
+              <th>Mục đích</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>Yêu cầu ô bản đồ</td>
+                <td>OpenStreetMap Foundation</td>
+                <td>Để vẽ bản đồ. Gửi địa chỉ IP của bạn và ô bản đồ được yêu cầu.</td>
+              </tr>
+              <tr>
+                <td>Một lần tải mô hình duy nhất</td>
+                <td>GitHub, hoặc Hugging Face khi cần thay thế</td>
+                <td>Để lấy mô hình giọng nói ngoại tuyến. Không gửi gì về bạn.</td>
+              </tr>
+              <tr>
+                <td>Không có gì tự động</td>
+                <td>Các trang web bạn mở</td>
+                <td>Mở một liên kết trong ứng dụng là trao nó cho trình duyệt, và từ đó mọi thứ diễn ra như với trình duyệt của bạn.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>Bản đồ được vẽ từ các ô được tải về khi bạn kéo và phóng to. Yêu cầu đó cho máy chủ bản đồ biết địa chỉ IP của bạn và ô bản đồ bạn đang xem, điều vốn có ở mọi bản đồ trực tuyến. Lộ trình bạn đã ghi không bao giờ được gửi kèm. Các ô được lưu đệm trên thiết bị nên vùng bạn đã xem vẫn dùng được khi ngoại tuyến.</p>
+        <p>Lần đầu bạn dùng chức năng chuyển lời nói thành văn bản ngoại tuyến, ứng dụng tải mô hình nhận dạng giọng nói — khoảng 228 MB — từ trang phát hành của chúng tôi trên GitHub, và chuyển sang Hugging Face nếu nơi đó không dùng được. Đây chỉ là việc tải một tệp theo một chiều: không có gì về bạn và không có đoạn âm thanh nào của bạn được gửi đi trong yêu cầu ấy. Khi mô hình đã nằm trên thiết bị, việc chuyển lời nói thành văn bản chạy hoàn toàn trên thiết bị và hoạt động ngay cả khi không có mạng.</p>
+        <p>Ngoài bảng trên, bất cứ thứ gì bạn chủ động gửi đi — qua bảng chia sẻ của hệ thống, qua xuất tệp, in ấn hay bộ nhớ tạm — sẽ đến nơi bạn gửi. Đó là lựa chọn của bạn ở mỗi lần, và nằm ngoài phạm vi bảng trên.</p>
+        <h3 id="vi-momerame-notdo">Những điều ứng dụng không làm</h3>
+        <p>Chừng nào chính sách này còn là bản hiện hành:</p>
+        <ul>
+          <li>Không có tài khoản, không đăng ký, không địa chỉ email và không mật khẩu.</li>
+          <li>Chúng tôi không vận hành máy chủ nào nhận nội dung của bạn và không giữ cơ sở dữ liệu nào ghi nhận bạn.</li>
+          <li>Chúng tôi không bán thông tin cá nhân của bạn và không chia sẻ nó cho quảng cáo hành vi liên ngữ cảnh.</li>
+          <li>Ứng dụng không theo dõi bạn qua ứng dụng hay trang web của công ty khác, và không hiện hộp thoại Minh bạch Theo dõi Ứng dụng.</li>
+          <li>Không có gì được đồng bộ lên tài khoản đám mây nào của chúng tôi. Phía chúng tôi không có bản sao lưu nào để khôi phục.</li>
+          <li>Phiên bản này không chứa SDK quảng cáo và không hiển thị quảng cáo.</li>
+          <li>Phiên bản này không chứa SDK thống kê và cũng không chứa SDK báo cáo sự cố.</li>
+          <li>Ứng dụng không đọc danh bạ, lịch, tin nhắn, nhật ký cuộc gọi hay các tệp nằm ngoài vùng lưu trữ riêng của nó.</li>
+          <li>Ứng dụng không đọc và không ghi vào nền tảng sức khoẻ hay thể chất nào — không Apple Health, không Google Fit.</li>
+        </ul>
+        <h3 id="vi-momerame-perms">Các quyền, và lý do xin từng quyền</h3>
+        <p>Mỗi quyền dưới đây chỉ được xin cho đúng một mục đích đã nêu và không dùng cho việc gì khác. Trên cả hai nền tảng, bạn có thể từ chối hoặc rút lại bất kỳ quyền nào trong phần cài đặt hệ thống; những tính năng phụ thuộc vào quyền đó sẽ ngừng hoạt động, phần còn lại của ứng dụng vẫn chạy bình thường.</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>Quyền</th>
+              <th>Nền tảng</th>
+              <th>Mục đích</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>Truy cập internet</td>
+                <td>Android</td>
+                <td>Cần cho các yêu cầu mạng đã liệt kê ở trên.</td>
+              </tr>
+              <tr>
+                <td>Micrô</td>
+                <td>Android</td>
+                <td>Để ghi khi chính bạn bắt đầu một lần ghi.</td>
+              </tr>
+              <tr>
+                <td>Máy ảnh</td>
+                <td>Android</td>
+                <td>Để chụp ảnh hoặc quay video ngay trong ứng dụng.</td>
+              </tr>
+              <tr>
+                <td>Vị trí chính xác</td>
+                <td>Android</td>
+                <td>Để ghi lộ trình của bạn thật chính xác trong lúc ghi.</td>
+              </tr>
+              <tr>
+                <td>Vị trí gần đúng</td>
+                <td>Android</td>
+                <td>Phương án thay thế mà hệ thống cấp nếu bạn chỉ cho phép vị trí gần đúng.</td>
+              </tr>
+              <tr>
+                <td>Vị trí nền</td>
+                <td>Android</td>
+                <td>Để lần ghi bạn đã bắt đầu không bị đứt khi bạn rời khỏi ứng dụng. Không được dùng khi bạn không ghi gì cả.</td>
+              </tr>
+              <tr>
+                <td>Hoạt động thể chất</td>
+                <td>Android</td>
+                <td>Để đọc bộ đếm bước của thiết bị trong lúc ghi.</td>
+              </tr>
+              <tr>
+                <td>Dịch vụ chạy nền có thông báo</td>
+                <td>Android</td>
+                <td>Để giữ cho một tác vụ bạn đã bắt đầu tiếp tục chạy kèm thông báo thường trực.</td>
+              </tr>
+              <tr>
+                <td>Dịch vụ chạy nền — vị trí</td>
+                <td>Android</td>
+                <td>Để lộ trình bạn đang ghi không bị đứt khi màn hình tắt.</td>
+              </tr>
+              <tr>
+                <td>Dịch vụ chạy nền — micrô</td>
+                <td>Android</td>
+                <td>Để lần ghi bạn đã bắt đầu tiếp tục khi màn hình tắt.</td>
+              </tr>
+              <tr>
+                <td>Dịch vụ chạy nền — quay màn hình</td>
+                <td>Android</td>
+                <td>Chỉ trong lúc một lần quay màn hình do bạn bắt đầu đang chạy.</td>
+              </tr>
+              <tr>
+                <td>Thông báo</td>
+                <td>Android</td>
+                <td>Để hiện thông báo thường trực trong lúc ghi và báo cho bạn khi kết thúc.</td>
+              </tr>
+              <tr>
+                <td>Bộ nhớ (chỉ Android cũ)</td>
+                <td>Android</td>
+                <td>Lưu tệp trên Android 9 trở về trước. Không xin trên các phiên bản mới hơn.</td>
+              </tr>
+              <tr>
+                <td>Minh bạch Theo dõi Ứng dụng</td>
+                <td>iOS</td>
+                <td>Không xin. Ứng dụng không theo dõi bạn qua ứng dụng hay trang web của công ty khác.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>Vị trí nền chỉ được dùng trong lúc một lần ghi do chính bạn bắt đầu đang chạy, và chỉ để lộ trình đó không bị đứt quãng khi màn hình tắt. Một thông báo thường trực hiện suốt thời gian đó. Nó không bao giờ được dùng để dựng nên lịch sử đi lại của bạn khi bạn chưa bắt đầu một lần ghi nào.</p>
+        <h3 id="vi-momerame-telemetry">Thống kê sử dụng và báo cáo sự cố</h3>
+        <p>Phiên bản này của ứng dụng không chứa SDK thống kê và cũng không chứa SDK báo cáo sự cố. Chúng tôi không nhận được số liệu sử dụng, báo cáo sự cố hay dữ liệu chẩn đoán nào từ nó.</p>
+        <h3 id="vi-momerame-purchases">Gói đăng ký và mua hàng</h3>
+        <p>Phiên bản này của ứng dụng không có khoản mua trong ứng dụng và không có gói đăng ký, nên không thu thập bất kỳ thông tin thanh toán nào.</p>
+        <h2 id="vi-momerago">Momera GO</h2>
+        <p>Momera GO ghi lại một chuyến đi bộ đường dài ngay khi bạn đang đi — lộ trình, ảnh và video ghim đúng nơi bạn chụp, ghi chú thoại và ghi chú chữ — rồi biến nó thành một hành trình bạn có thể xem lại. Ứng dụng chạy trên iPhone, iPad và Android, và được làm ra để dùng ở những nơi không có sóng.</p>
+        <h3 id="vi-momerago-stores">Ứng dụng lưu gì trên thiết bị của bạn</h3>
+        <p>Ứng dụng ghi những nội dung sau vào vùng lưu trữ riêng trên thiết bị của bạn — vùng mà các ứng dụng khác không đọc được. Chúng nằm ở đó cho đến khi bạn xoá hoặc gỡ cài đặt ứng dụng.</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>Nội dung</th>
+              <th>Để làm gì</th>
+              <th>Lưu ở đâu</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>Lộ trình đã ghi</td>
+                <td>Vệt GPS của một chuyến đi mà bạn bắt đầu ghi.</td>
+                <td>Chỉ trên thiết bị của bạn</td>
+              </tr>
+              <tr>
+                <td>Ảnh và video</td>
+                <td>Những gì bạn chụp trong ứng dụng hoặc đính kèm vào một mục.</td>
+                <td>Chỉ trên thiết bị của bạn</td>
+              </tr>
+              <tr>
+                <td>Ghi chú thoại</td>
+                <td>Âm thanh bạn ghi kèm một địa điểm hoặc một mục.</td>
+                <td>Chỉ trên thiết bị của bạn</td>
+              </tr>
+              <tr>
+                <td>Ghi chú văn bản</td>
+                <td>Những gì bạn gõ vào.</td>
+                <td>Chỉ trên thiết bị của bạn</td>
+              </tr>
+              <tr>
+                <td>Hành trình</td>
+                <td>Các chuyến bạn ghép lại từ lộ trình, ảnh và ghi chú.</td>
+                <td>Chỉ trên thiết bị của bạn</td>
+              </tr>
+              <tr>
+                <td>Đường mòn và tệp dòng thời gian đã nhập</td>
+                <td>Tệp GPX và tệp xuất Google Timeline do chính bạn nhập vào.</td>
+                <td>Chỉ trên thiết bị của bạn</td>
+              </tr>
+              <tr>
+                <td>Số bước</td>
+                <td>Số bước do cảm biến của thiết bị đếm trong lúc ghi.</td>
+                <td>Chỉ trên thiết bị của bạn</td>
+              </tr>
+              <tr>
+                <td>Ô bản đồ đã lưu đệm</td>
+                <td>Những ô bản đồ đã tải về, giữ lại để vùng đó dùng được khi ngoại tuyến.</td>
+                <td>Chỉ trên thiết bị của bạn</td>
+              </tr>
+              <tr>
+                <td>Cài đặt</td>
+                <td>Tuỳ chọn về ngôn ngữ, giao diện, âm thanh và hiển thị.</td>
+                <td>Chỉ trên thiết bị của bạn</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>Không nội dung nào trong số này được tải lên chỗ chúng tôi. Chúng tôi không đọc được, không khôi phục giúp bạn được, và cũng không thể trao cho bất kỳ ai, bởi chúng chưa bao giờ đến được chỗ chúng tôi.</p>
+        <p>Bạn có thể nhập tệp xuất Dòng thời gian của Google Maps để dựng lại các chuyến đi cũ. Tệp do chính bạn cung cấp; ứng dụng đọc nó trên thiết bị của bạn, và cả tệp lẫn bất cứ thứ gì sinh ra từ nó đều không được tải lên. Xoá các chuyến đã nhập trong ứng dụng là chúng biến mất.</p>
+        <p>Việc dựng hành trình từ ảnh dùng bộ chọn ảnh của hệ thống. Bộ chọn chỉ trao cho ứng dụng đúng những mục bạn chọn — ứng dụng không được cấp quyền truy cập thư viện ảnh, và trên iOS thì hoàn toàn không xin quyền thư viện ảnh. Vị trí đọc từ siêu dữ liệu của chính bức ảnh được dùng để đặt nó lên bản đồ và ở lại cùng hành trình trên thiết bị của bạn.</p>
+        <p>Việc đếm bước đọc cảm biến bước của chính thiết bị thông qua quyền nhận dạng hoạt động. Số bước được lưu cùng chuyến đi trên thiết bị của bạn. Ứng dụng không đọc và không ghi vào nền tảng sức khoẻ hay thể chất nào — không Apple Health, không Google Fit.</p>
+        <p>Ứng dụng có thể mở tệp .gpx do ứng dụng khác chuyển tới và có thể xuất lộ trình của bạn ra .gpx hoặc GeoJSON. Việc nhập chỉ là đọc tệp trên thiết bị của bạn; việc xuất tạo ra một tệp mà sau đó bạn tự quyết định sẽ làm gì.</p>
+        <h3 id="vi-momerago-leaves">Những gì rời khỏi thiết bị của bạn</h3>
+        <p>Đây là danh sách đầy đủ. Mọi thứ không có tên ở đây đều nằm lại trên thiết bị của bạn.</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>Nội dung được gửi đi</th>
+              <th>Bên nhận</th>
+              <th>Mục đích</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>Yêu cầu ô bản đồ</td>
+                <td>OpenStreetMap Foundation</td>
+                <td>Để vẽ bản đồ. Gửi địa chỉ IP của bạn và ô bản đồ được yêu cầu.</td>
+              </tr>
+              <tr>
+                <td>Yêu cầu ô bản đồ địa hình</td>
+                <td>OpenTopoMap</td>
+                <td>Để vẽ bản đồ địa hình. Gửi địa chỉ IP của bạn và ô bản đồ được yêu cầu.</td>
+              </tr>
+              <tr>
+                <td>Sự kiện sử dụng ẩn danh (chỉ bản Android)</td>
+                <td>Google Firebase Analytics</td>
+                <td>Bộ đếm chẩn đoán, không kèm mã người dùng và không kèm vị trí.</td>
+              </tr>
+              <tr>
+                <td>Báo cáo sự cố (chỉ bản Android)</td>
+                <td>Google Firebase Crashlytics</td>
+                <td>Lỗi, ngăn xếp lời gọi, kiểu máy và phiên bản ứng dụng khi ứng dụng hỏng.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>Bản đồ được vẽ từ các ô được tải về khi bạn kéo và phóng to. Yêu cầu đó cho máy chủ bản đồ biết địa chỉ IP của bạn và ô bản đồ bạn đang xem, điều vốn có ở mọi bản đồ trực tuyến. Lộ trình bạn đã ghi không bao giờ được gửi kèm. Các ô được lưu đệm trên thiết bị nên vùng bạn đã xem vẫn dùng được khi ngoại tuyến.</p>
+        <p>Ngoài bảng trên, bất cứ thứ gì bạn chủ động gửi đi — qua bảng chia sẻ của hệ thống, qua xuất tệp, in ấn hay bộ nhớ tạm — sẽ đến nơi bạn gửi. Đó là lựa chọn của bạn ở mỗi lần, và nằm ngoài phạm vi bảng trên.</p>
+        <h3 id="vi-momerago-notdo">Những điều ứng dụng không làm</h3>
+        <p>Chừng nào chính sách này còn là bản hiện hành:</p>
+        <ul>
+          <li>Không có tài khoản, không đăng ký, không địa chỉ email và không mật khẩu.</li>
+          <li>Chúng tôi không vận hành máy chủ nào nhận nội dung của bạn và không giữ cơ sở dữ liệu nào ghi nhận bạn.</li>
+          <li>Chúng tôi không bán thông tin cá nhân của bạn và không chia sẻ nó cho quảng cáo hành vi liên ngữ cảnh.</li>
+          <li>Ứng dụng không theo dõi bạn qua ứng dụng hay trang web của công ty khác, và không hiện hộp thoại Minh bạch Theo dõi Ứng dụng.</li>
+          <li>Không có gì được đồng bộ lên tài khoản đám mây nào của chúng tôi. Phía chúng tôi không có bản sao lưu nào để khôi phục.</li>
+          <li>Phiên bản này không chứa SDK quảng cáo và không hiển thị quảng cáo.</li>
+          <li>Ứng dụng không đọc danh bạ, lịch, tin nhắn, nhật ký cuộc gọi hay các tệp nằm ngoài vùng lưu trữ riêng của nó.</li>
+          <li>Ứng dụng không đọc và không ghi vào nền tảng sức khoẻ hay thể chất nào — không Apple Health, không Google Fit.</li>
+        </ul>
+        <h3 id="vi-momerago-perms">Các quyền, và lý do xin từng quyền</h3>
+        <p>Mỗi quyền dưới đây chỉ được xin cho đúng một mục đích đã nêu và không dùng cho việc gì khác. Trên cả hai nền tảng, bạn có thể từ chối hoặc rút lại bất kỳ quyền nào trong phần cài đặt hệ thống; những tính năng phụ thuộc vào quyền đó sẽ ngừng hoạt động, phần còn lại của ứng dụng vẫn chạy bình thường.</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>Quyền</th>
+              <th>Nền tảng</th>
+              <th>Mục đích</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>Truy cập internet</td>
+                <td>Android</td>
+                <td>Cần cho các yêu cầu mạng đã liệt kê ở trên.</td>
+              </tr>
+              <tr>
+                <td>Vị trí chính xác</td>
+                <td>Android</td>
+                <td>Để ghi lộ trình của bạn thật chính xác trong lúc ghi.</td>
+              </tr>
+              <tr>
+                <td>Vị trí gần đúng</td>
+                <td>Android</td>
+                <td>Phương án thay thế mà hệ thống cấp nếu bạn chỉ cho phép vị trí gần đúng.</td>
+              </tr>
+              <tr>
+                <td>Máy ảnh</td>
+                <td>Android</td>
+                <td>Để chụp ảnh hoặc quay video ngay trong ứng dụng.</td>
+              </tr>
+              <tr>
+                <td>Micrô</td>
+                <td>Android</td>
+                <td>Để ghi khi chính bạn bắt đầu một lần ghi.</td>
+              </tr>
+              <tr>
+                <td>Vị trí trong ảnh</td>
+                <td>Android</td>
+                <td>Để đọc nơi chụp từ chính siêu dữ liệu của bức ảnh, nhằm đặt nó lên bản đồ.</td>
+              </tr>
+              <tr>
+                <td>Hoạt động thể chất</td>
+                <td>Android</td>
+                <td>Để đọc bộ đếm bước của thiết bị trong lúc ghi.</td>
+              </tr>
+              <tr>
+                <td>Dịch vụ chạy nền có thông báo</td>
+                <td>Android</td>
+                <td>Để giữ cho một tác vụ bạn đã bắt đầu tiếp tục chạy kèm thông báo thường trực.</td>
+              </tr>
+              <tr>
+                <td>Dịch vụ chạy nền — vị trí</td>
+                <td>Android</td>
+                <td>Để lộ trình bạn đang ghi không bị đứt khi màn hình tắt.</td>
+              </tr>
+              <tr>
+                <td>Dịch vụ chạy nền — quay màn hình</td>
+                <td>Android</td>
+                <td>Chỉ trong lúc một lần quay màn hình do bạn bắt đầu đang chạy.</td>
+              </tr>
+              <tr>
+                <td>Thông báo</td>
+                <td>Android</td>
+                <td>Để hiện thông báo thường trực trong lúc ghi và báo cho bạn khi kết thúc.</td>
+              </tr>
+              <tr>
+                <td>Bộ nhớ (chỉ Android cũ)</td>
+                <td>Android</td>
+                <td>Lưu tệp trên Android 9 trở về trước. Không xin trên các phiên bản mới hơn.</td>
+              </tr>
+              <tr>
+                <td>Vị trí — khi đang dùng</td>
+                <td>iOS</td>
+                <td>Để ghi lộ trình trong lúc đang ghi. Không xin quyền vị trí luôn bật.</td>
+              </tr>
+              <tr>
+                <td>Máy ảnh</td>
+                <td>iOS</td>
+                <td>Để chụp ngay trong ứng dụng.</td>
+              </tr>
+              <tr>
+                <td>Micrô</td>
+                <td>iOS</td>
+                <td>Để ghi khi chính bạn bắt đầu một lần ghi.</td>
+              </tr>
+              <tr>
+                <td>Chế độ vị trí nền</td>
+                <td>iOS</td>
+                <td>Để lần ghi bạn đã bắt đầu vẫn tiếp tục khi màn hình khoá. Nó không hoạt động khi không có gì đang được ghi.</td>
+              </tr>
+              <tr>
+                <td>Vị trí nền</td>
+                <td>Android và iOS</td>
+                <td>Không xin trên cả hai nền tảng.</td>
+              </tr>
+              <tr>
+                <td>Thư viện ảnh</td>
+                <td>iOS</td>
+                <td>Không xin. Bộ chọn ảnh của hệ thống chỉ trao đúng những mục bạn chọn.</td>
+              </tr>
+              <tr>
+                <td>Minh bạch Theo dõi Ứng dụng</td>
+                <td>iOS</td>
+                <td>Không xin. Ứng dụng không theo dõi bạn qua ứng dụng hay trang web của công ty khác.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>Vị trí chỉ được ghi trong lúc bạn đang chạy một buổi đi bộ đường dài, kèm một thông báo thường trực nhìn thấy được, và dừng lại khi bạn dừng buổi đi. Ứng dụng không xin quyền vị trí nền trên cả hai nền tảng.</p>
+        <h3 id="vi-momerago-telemetry">Thống kê sử dụng và báo cáo sự cố</h3>
+        <p>Ứng dụng dùng <strong>Google Firebase</strong> cho hai việc: Crashlytics báo cáo sự cố, và Analytics đếm mức độ sử dụng các tính năng. Cả hai đều do Google xử lý thay cho chúng tôi.</p>
+        <p>Một báo cáo sự cố chứa trạng thái của chương trình khi nó hỏng — lỗi, ngăn xếp lời gọi, kiểu máy, phiên bản hệ điều hành và phiên bản ứng dụng. Nó được sinh ra tự động bởi chính sự cố đó và cho chúng tôi biết phải sửa dòng nào trong mã nguồn.</p>
+        <p>Các sự kiện thống kê là bộ đếm chẩn đoán về độ tin cậy của việc ghi vị trí — rằng một lộ trình đã bắt đầu, đã dừng hay đã được khôi phục, hoặc luồng vị trí bị treo rồi mở lại. <strong>Không có toạ độ, không có lộ trình và không có tên địa điểm nào trong đó.</strong></p>
+        <div class="pp-note">
+        <p><strong>Điều này chỉ áp dụng cho bản Android.</strong> Bản iOS được dựng mà không có cấu hình Firebase, nên nó không khởi tạo dịch vụ Firebase nào và hoàn toàn không gửi báo cáo sự cố hay sự kiện thống kê nào.</p>
+        </div>
+        <h3 id="vi-momerago-purchases">Gói đăng ký và mua hàng</h3>
+        <p>Phiên bản này của ứng dụng không có khoản mua trong ứng dụng và không có gói đăng ký, nên không thu thập bất kỳ thông tin thanh toán nào.</p>
+        <h2 id="vi-mcrecorder">McRecorder</h2>
+        <p>McRecorder ghi âm và chuyển âm thanh thành văn bản bằng một mô hình giọng nói chạy ngay trên thiết bị của bạn. Bản ghi và bản chép lời đều là tệp nằm trong vùng lưu trữ riêng của ứng dụng. Ứng dụng chạy trên iPhone, iPad và Android.</p>
+        <h3 id="vi-mcrecorder-stores">Ứng dụng lưu gì trên thiết bị của bạn</h3>
+        <p>Ứng dụng ghi những nội dung sau vào vùng lưu trữ riêng trên thiết bị của bạn — vùng mà các ứng dụng khác không đọc được. Chúng nằm ở đó cho đến khi bạn xoá hoặc gỡ cài đặt ứng dụng.</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>Nội dung</th>
+              <th>Để làm gì</th>
+              <th>Lưu ở đâu</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>Bản ghi âm</td>
+                <td>Những bản ghi bạn đã tạo, ở dạng tệp.</td>
+                <td>Chỉ trên thiết bị của bạn</td>
+              </tr>
+              <tr>
+                <td>Bản chép lời</td>
+                <td>Văn bản tạo ra từ âm thanh của bạn ngay trên thiết bị.</td>
+                <td>Chỉ trên thiết bị của bạn</td>
+              </tr>
+              <tr>
+                <td>Mô hình giọng nói</td>
+                <td>Tệp mô hình đã tải về, giúp việc chép lời ngoại tuyến hoạt động.</td>
+                <td>Chỉ trên thiết bị của bạn</td>
+              </tr>
+              <tr>
+                <td>Cài đặt</td>
+                <td>Tuỳ chọn về ngôn ngữ, giao diện, âm thanh và hiển thị.</td>
+                <td>Chỉ trên thiết bị của bạn</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>Không nội dung nào trong số này được tải lên chỗ chúng tôi. Chúng tôi không đọc được, không khôi phục giúp bạn được, và cũng không thể trao cho bất kỳ ai, bởi chúng chưa bao giờ đến được chỗ chúng tôi.</p>
+        <p>Lời nói được chuyển thành văn bản ngay trên thiết bị của bạn bằng một mô hình đi kèm ứng dụng. Âm thanh của bạn không được tải lên, không được gửi tới dịch vụ ghi chép trên đám mây nào và không được dùng để huấn luyện bất cứ thứ gì.</p>
+        <h3 id="vi-mcrecorder-leaves">Những gì rời khỏi thiết bị của bạn</h3>
+        <p>Đây là danh sách đầy đủ. Mọi thứ không có tên ở đây đều nằm lại trên thiết bị của bạn.</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>Nội dung được gửi đi</th>
+              <th>Bên nhận</th>
+              <th>Mục đích</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>Một lần tải mô hình duy nhất</td>
+                <td>GitHub, hoặc Hugging Face khi cần thay thế</td>
+                <td>Để lấy mô hình giọng nói ngoại tuyến. Không gửi gì về bạn.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>Lần đầu bạn dùng chức năng chuyển lời nói thành văn bản ngoại tuyến, ứng dụng tải mô hình nhận dạng giọng nói — khoảng 228 MB — từ trang phát hành của chúng tôi trên GitHub, và chuyển sang Hugging Face nếu nơi đó không dùng được. Đây chỉ là việc tải một tệp theo một chiều: không có gì về bạn và không có đoạn âm thanh nào của bạn được gửi đi trong yêu cầu ấy. Khi mô hình đã nằm trên thiết bị, việc chuyển lời nói thành văn bản chạy hoàn toàn trên thiết bị và hoạt động ngay cả khi không có mạng.</p>
+        <p>Ngoài bảng trên, bất cứ thứ gì bạn chủ động gửi đi — qua bảng chia sẻ của hệ thống, qua xuất tệp, in ấn hay bộ nhớ tạm — sẽ đến nơi bạn gửi. Đó là lựa chọn của bạn ở mỗi lần, và nằm ngoài phạm vi bảng trên.</p>
+        <h3 id="vi-mcrecorder-notdo">Những điều ứng dụng không làm</h3>
+        <p>Chừng nào chính sách này còn là bản hiện hành:</p>
+        <ul>
+          <li>Không có tài khoản, không đăng ký, không địa chỉ email và không mật khẩu.</li>
+          <li>Chúng tôi không vận hành máy chủ nào nhận nội dung của bạn và không giữ cơ sở dữ liệu nào ghi nhận bạn.</li>
+          <li>Chúng tôi không bán thông tin cá nhân của bạn và không chia sẻ nó cho quảng cáo hành vi liên ngữ cảnh.</li>
+          <li>Ứng dụng không theo dõi bạn qua ứng dụng hay trang web của công ty khác, và không hiện hộp thoại Minh bạch Theo dõi Ứng dụng.</li>
+          <li>Không có gì được đồng bộ lên tài khoản đám mây nào của chúng tôi. Phía chúng tôi không có bản sao lưu nào để khôi phục.</li>
+          <li>Phiên bản này không chứa SDK quảng cáo và không hiển thị quảng cáo.</li>
+          <li>Phiên bản này không chứa SDK thống kê và cũng không chứa SDK báo cáo sự cố.</li>
+          <li>Ứng dụng không xin và không đọc vị trí của bạn.</li>
+          <li>Ứng dụng không đọc danh bạ, lịch, tin nhắn, nhật ký cuộc gọi hay các tệp nằm ngoài vùng lưu trữ riêng của nó.</li>
+        </ul>
+        <h3 id="vi-mcrecorder-perms">Các quyền, và lý do xin từng quyền</h3>
+        <p>Mỗi quyền dưới đây chỉ được xin cho đúng một mục đích đã nêu và không dùng cho việc gì khác. Trên cả hai nền tảng, bạn có thể từ chối hoặc rút lại bất kỳ quyền nào trong phần cài đặt hệ thống; những tính năng phụ thuộc vào quyền đó sẽ ngừng hoạt động, phần còn lại của ứng dụng vẫn chạy bình thường.</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>Quyền</th>
+              <th>Nền tảng</th>
+              <th>Mục đích</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>Truy cập internet</td>
+                <td>Android</td>
+                <td>Cần cho các yêu cầu mạng đã liệt kê ở trên.</td>
+              </tr>
+              <tr>
+                <td>Micrô</td>
+                <td>Android</td>
+                <td>Để ghi khi chính bạn bắt đầu một lần ghi.</td>
+              </tr>
+              <tr>
+                <td>Dịch vụ chạy nền có thông báo</td>
+                <td>Android</td>
+                <td>Để giữ cho một tác vụ bạn đã bắt đầu tiếp tục chạy kèm thông báo thường trực.</td>
+              </tr>
+              <tr>
+                <td>Dịch vụ chạy nền — micrô</td>
+                <td>Android</td>
+                <td>Để lần ghi bạn đã bắt đầu tiếp tục khi màn hình tắt.</td>
+              </tr>
+              <tr>
+                <td>Giữ máy không ngủ</td>
+                <td>Android</td>
+                <td>Để bộ xử lý không ngủ giữa chừng một lần ghi.</td>
+              </tr>
+              <tr>
+                <td>Thông báo</td>
+                <td>Android</td>
+                <td>Để hiện thông báo thường trực trong lúc ghi và báo cho bạn khi kết thúc.</td>
+              </tr>
+              <tr>
+                <td>Micrô</td>
+                <td>iOS</td>
+                <td>Để ghi khi chính bạn bắt đầu một lần ghi.</td>
+              </tr>
+              <tr>
+                <td>Minh bạch Theo dõi Ứng dụng</td>
+                <td>iOS</td>
+                <td>Không xin. Ứng dụng không theo dõi bạn qua ứng dụng hay trang web của công ty khác.</td>
+              </tr>
+              <tr>
+                <td>Vị trí</td>
+                <td>Android và iOS</td>
+                <td>Không xin.</td>
+              </tr>
+              <tr>
+                <td>Máy ảnh</td>
+                <td>Android và iOS</td>
+                <td>Không xin.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <h3 id="vi-mcrecorder-telemetry">Thống kê sử dụng và báo cáo sự cố</h3>
+        <p>Phiên bản này của ứng dụng không chứa SDK thống kê và cũng không chứa SDK báo cáo sự cố. Chúng tôi không nhận được số liệu sử dụng, báo cáo sự cố hay dữ liệu chẩn đoán nào từ nó.</p>
+        <h3 id="vi-mcrecorder-purchases">Gói đăng ký và mua hàng</h3>
+        <p>Phiên bản này của ứng dụng không có khoản mua trong ứng dụng và không có gói đăng ký, nên không thu thập bất kỳ thông tin thanh toán nào.</p>
+        <h2 id="vi-quickonescanner">QuickOne Scanner</h2>
+        <p>QuickOne Scanner biến những trang bạn chụp bằng điện thoại thành tệp PDF đã cắt gọn và nắn thẳng, đồng thời đọc chữ trên đó để bạn tìm kiếm và sao chép được. Cả việc quét lẫn nhận dạng chữ đều chạy trên thiết bị của bạn. Ứng dụng chạy trên iPhone, iPad và Android.</p>
+        <h3 id="vi-quickonescanner-stores">Ứng dụng lưu gì trên thiết bị của bạn</h3>
+        <p>Ứng dụng ghi những nội dung sau vào vùng lưu trữ riêng trên thiết bị của bạn — vùng mà các ứng dụng khác không đọc được. Chúng nằm ở đó cho đến khi bạn xoá hoặc gỡ cài đặt ứng dụng.</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>Nội dung</th>
+              <th>Để làm gì</th>
+              <th>Lưu ở đâu</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>Trang đã quét</td>
+                <td>Ảnh trang bạn đã chụp hoặc nhập vào.</td>
+                <td>Chỉ trên thiết bị của bạn</td>
+              </tr>
+              <tr>
+                <td>Chữ đã nhận dạng</td>
+                <td>Văn bản đọc được từ các trang của bạn, ngay trên thiết bị.</td>
+                <td>Chỉ trên thiết bị của bạn</td>
+              </tr>
+              <tr>
+                <td>Cài đặt</td>
+                <td>Tuỳ chọn về ngôn ngữ, giao diện, âm thanh và hiển thị.</td>
+                <td>Chỉ trên thiết bị của bạn</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>Không nội dung nào trong số này được tải lên chỗ chúng tôi. Chúng tôi không đọc được, không khôi phục giúp bạn được, và cũng không thể trao cho bất kỳ ai, bởi chúng chưa bao giờ đến được chỗ chúng tôi.</p>
+        <h3 id="vi-quickonescanner-leaves">Những gì rời khỏi thiết bị của bạn</h3>
+        <p>Đây là danh sách đầy đủ. Mọi thứ không có tên ở đây đều nằm lại trên thiết bị của bạn.</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>Nội dung được gửi đi</th>
+              <th>Bên nhận</th>
+              <th>Mục đích</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>Tải mô hình và dữ liệu chẩn đoán của Google</td>
+                <td>Dịch vụ Google Play (ML Kit)</td>
+                <td>Để lấy mô hình quét tài liệu. Các trang của bạn không được gửi đi.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>Việc nhận diện tài liệu và nhận dạng chữ chạy qua Google ML Kit. Trên Android, trình quét tài liệu chạy bên trong dịch vụ Google Play và tải mô hình của nó ở lần dùng đầu tiên; phần nhận dạng chữ dùng mô hình đi kèm trong ứng dụng. Các trang và văn bản nhận được đều xử lý trên thiết bị và không được tải lên chúng tôi hay Google dưới dạng nội dung.</p>
+        <p>Ngoài bảng trên, bất cứ thứ gì bạn chủ động gửi đi — qua bảng chia sẻ của hệ thống, qua xuất tệp, in ấn hay bộ nhớ tạm — sẽ đến nơi bạn gửi. Đó là lựa chọn của bạn ở mỗi lần, và nằm ngoài phạm vi bảng trên.</p>
+        <h3 id="vi-quickonescanner-notdo">Những điều ứng dụng không làm</h3>
+        <p>Chừng nào chính sách này còn là bản hiện hành:</p>
+        <ul>
+          <li>Không có tài khoản, không đăng ký, không địa chỉ email và không mật khẩu.</li>
+          <li>Chúng tôi không vận hành máy chủ nào nhận nội dung của bạn và không giữ cơ sở dữ liệu nào ghi nhận bạn.</li>
+          <li>Chúng tôi không bán thông tin cá nhân của bạn và không chia sẻ nó cho quảng cáo hành vi liên ngữ cảnh.</li>
+          <li>Ứng dụng không theo dõi bạn qua ứng dụng hay trang web của công ty khác, và không hiện hộp thoại Minh bạch Theo dõi Ứng dụng.</li>
+          <li>Không có gì được đồng bộ lên tài khoản đám mây nào của chúng tôi. Phía chúng tôi không có bản sao lưu nào để khôi phục.</li>
+          <li>Phiên bản này không chứa SDK quảng cáo và không hiển thị quảng cáo.</li>
+          <li>Phiên bản này không chứa SDK thống kê và cũng không chứa SDK báo cáo sự cố.</li>
+          <li>Ứng dụng không xin và không đọc vị trí của bạn.</li>
+          <li>Ứng dụng không đọc danh bạ, lịch, tin nhắn, nhật ký cuộc gọi hay các tệp nằm ngoài vùng lưu trữ riêng của nó.</li>
+        </ul>
+        <h3 id="vi-quickonescanner-perms">Các quyền, và lý do xin từng quyền</h3>
+        <p>Mỗi quyền dưới đây chỉ được xin cho đúng một mục đích đã nêu và không dùng cho việc gì khác. Trên cả hai nền tảng, bạn có thể từ chối hoặc rút lại bất kỳ quyền nào trong phần cài đặt hệ thống; những tính năng phụ thuộc vào quyền đó sẽ ngừng hoạt động, phần còn lại của ứng dụng vẫn chạy bình thường.</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>Quyền</th>
+              <th>Nền tảng</th>
+              <th>Mục đích</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>Truy cập internet</td>
+                <td>Android</td>
+                <td>Cần cho các yêu cầu mạng đã liệt kê ở trên.</td>
+              </tr>
+              <tr>
+                <td>Máy ảnh</td>
+                <td>iOS</td>
+                <td>Để chụp ngay trong ứng dụng.</td>
+              </tr>
+              <tr>
+                <td>Thư viện ảnh</td>
+                <td>iOS</td>
+                <td>Để nhập một bức ảnh bạn đã có sẵn.</td>
+              </tr>
+              <tr>
+                <td>Minh bạch Theo dõi Ứng dụng</td>
+                <td>iOS</td>
+                <td>Không xin. Ứng dụng không theo dõi bạn qua ứng dụng hay trang web của công ty khác.</td>
+              </tr>
+              <tr>
+                <td>Vị trí</td>
+                <td>Android và iOS</td>
+                <td>Không xin.</td>
+              </tr>
+              <tr>
+                <td>Micrô</td>
+                <td>Android và iOS</td>
+                <td>Không xin.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>Trên iOS, ứng dụng dùng máy ảnh để chụp trang và dùng thư viện ảnh để bạn nhập một ảnh sẵn có. Trên Android, việc chụp trang diễn ra bên trong dịch vụ Google Play với quyền của riêng dịch vụ đó, và đó là lý do bản thân ứng dụng không khai báo quyền máy ảnh ở đấy.</p>
+        <h3 id="vi-quickonescanner-telemetry">Thống kê sử dụng và báo cáo sự cố</h3>
+        <p>Phiên bản này của ứng dụng không chứa SDK thống kê và cũng không chứa SDK báo cáo sự cố. Chúng tôi không nhận được số liệu sử dụng, báo cáo sự cố hay dữ liệu chẩn đoán nào từ nó.</p>
+        <h3 id="vi-quickonescanner-purchases">Gói đăng ký và mua hàng</h3>
+        <p>Phiên bản này của ứng dụng không có khoản mua trong ứng dụng và không có gói đăng ký, nên không thu thập bất kỳ thông tin thanh toán nào.</p>
+        <h2 id="vi-eyeballit">Eyeball It!</h2>
+        <p>Eyeball It! là trò chơi ước lượng bằng mắt — chia đôi một đoạn thẳng, khớp một góc, rơi trúng đích — chấm điểm theo mức độ bạn ước lượng sát đến đâu. Trò chơi chạy trên iPhone, iPad, Android và Windows, và giữ điểm cao nhất ngay trên thiết bị bạn đã chơi.</p>
+        <h3 id="vi-eyeballit-stores">Ứng dụng lưu gì trên thiết bị của bạn</h3>
+        <p>Ứng dụng ghi những nội dung sau vào vùng lưu trữ riêng trên thiết bị của bạn — vùng mà các ứng dụng khác không đọc được. Chúng nằm ở đó cho đến khi bạn xoá hoặc gỡ cài đặt ứng dụng.</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>Nội dung</th>
+              <th>Để làm gì</th>
+              <th>Lưu ở đâu</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>Tiến độ chơi</td>
+                <td>Cấp đã đạt, độ chính xác tốt nhất và tổng số vòng đã chơi.</td>
+                <td>Chỉ trên thiết bị của bạn</td>
+              </tr>
+              <tr>
+                <td>Cài đặt</td>
+                <td>Tuỳ chọn về ngôn ngữ, giao diện, âm thanh và hiển thị.</td>
+                <td>Chỉ trên thiết bị của bạn</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>Không nội dung nào trong số này được tải lên chỗ chúng tôi. Chúng tôi không đọc được, không khôi phục giúp bạn được, và cũng không thể trao cho bất kỳ ai, bởi chúng chưa bao giờ đến được chỗ chúng tôi.</p>
+        <h3 id="vi-eyeballit-leaves">Những gì rời khỏi thiết bị của bạn</h3>
+        <p>Không gì cả. Phiên bản này của ứng dụng không thực hiện bất kỳ yêu cầu mạng nào. Không có SDK quảng cáo, không thống kê, không báo cáo sự cố và cũng không có máy chủ nào của chúng tôi để liên lạc.</p>
+        <p>Phiên bản này của ứng dụng hoàn toàn không chứa mã mạng nào. Manifest Android của nó thậm chí không xin quyền truy cập internet.</p>
+        <p>Có một bản chơi trên trình duyệt của trò chơi này tại https://www.idatagear.com. Trang đó thuộc về trang web của chúng tôi và có hiển thị Google AdSense, được nói tới trong phần về trang web của chính sách chính. Các ứng dụng bạn cài từ App Store, Google Play hay trên Windows là riêng biệt và không hiển thị quảng cáo.</p>
+        <h3 id="vi-eyeballit-notdo">Những điều ứng dụng không làm</h3>
+        <p>Chừng nào chính sách này còn là bản hiện hành:</p>
+        <ul>
+          <li>Không có tài khoản, không đăng ký, không địa chỉ email và không mật khẩu.</li>
+          <li>Chúng tôi không vận hành máy chủ nào nhận nội dung của bạn và không giữ cơ sở dữ liệu nào ghi nhận bạn.</li>
+          <li>Chúng tôi không bán thông tin cá nhân của bạn và không chia sẻ nó cho quảng cáo hành vi liên ngữ cảnh.</li>
+          <li>Ứng dụng không theo dõi bạn qua ứng dụng hay trang web của công ty khác, và không hiện hộp thoại Minh bạch Theo dõi Ứng dụng.</li>
+          <li>Không có gì được đồng bộ lên tài khoản đám mây nào của chúng tôi. Phía chúng tôi không có bản sao lưu nào để khôi phục.</li>
+          <li>Phiên bản này không chứa SDK quảng cáo và không hiển thị quảng cáo.</li>
+          <li>Phiên bản này không chứa SDK thống kê và cũng không chứa SDK báo cáo sự cố.</li>
+          <li>Ứng dụng không xin và không đọc vị trí của bạn.</li>
+          <li>Ứng dụng không ghi âm và không xin quyền micrô khi chạy.</li>
+          <li>Ứng dụng không dùng máy ảnh và không đọc bức ảnh nào trong thư viện của bạn.</li>
+          <li>Ứng dụng không đọc danh bạ, lịch, tin nhắn, nhật ký cuộc gọi hay các tệp nằm ngoài vùng lưu trữ riêng của nó.</li>
+        </ul>
+        <h3 id="vi-eyeballit-perms">Các quyền, và lý do xin từng quyền</h3>
+        <p>Phiên bản này của ứng dụng không xin bất kỳ quyền nào khi chạy. Tệp manifest Android không khai báo quyền nào và ứng dụng cũng không có khoá mô tả mục đích của iOS, nên hệ thống không bao giờ hỏi bạn.</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>Quyền</th>
+              <th>Nền tảng</th>
+              <th>Mục đích</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>Không có quyền nào khi chạy</td>
+                <td>Mọi nền tảng</td>
+                <td>Phiên bản này của ứng dụng không xin quyền nào cả.</td>
+              </tr>
+              <tr>
+                <td>Minh bạch Theo dõi Ứng dụng</td>
+                <td>iOS</td>
+                <td>Không xin. Ứng dụng không theo dõi bạn qua ứng dụng hay trang web của công ty khác.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <h3 id="vi-eyeballit-telemetry">Thống kê sử dụng và báo cáo sự cố</h3>
+        <p>Phiên bản này của ứng dụng không chứa SDK thống kê và cũng không chứa SDK báo cáo sự cố. Chúng tôi không nhận được số liệu sử dụng, báo cáo sự cố hay dữ liệu chẩn đoán nào từ nó.</p>
+        <h3 id="vi-eyeballit-purchases">Gói đăng ký và mua hàng</h3>
+        <p>Phiên bản này của ứng dụng không có khoản mua trong ứng dụng và không có gói đăng ký, nên không thu thập bất kỳ thông tin thanh toán nào.</p>
+        <h2 id="vi-website">Về trang web này</h2>
+        <p>Trang https://www.idatagear.com là một trang tĩnh. Nó không đặt cookie riêng nào, không hỏi bạn điều gì và không có tài khoản hay đăng nhập.</p>
+        <p>Có hai thành phần trên trang thuộc về bên thứ ba. <strong>Google AdSense</strong> hiển thị quảng cáo ở một số trang, kể cả bản chơi trên trình duyệt của Eyeball It!, và có thể đặt cookie cũng như dùng địa chỉ IP của bạn để chọn và đo lường các quảng cáo đó theo chính sách riêng của Google. <strong>Google Fonts</strong> cung cấp phông chữ, việc này cho máy chủ của Google biết địa chỉ IP của bạn khi trang được tải.</p>
+        <p>Một số ứng dụng cũng chơi được ngay trên trình duyệt tại đây. Bản trình duyệt lưu trạng thái trong bộ nhớ cục bộ của chính trình duyệt trên máy bạn, và bạn có thể xoá bất cứ lúc nào từ phần cài đặt của trình duyệt.</p>
+        <p>Nhật ký máy chủ của chúng tôi, do nhà cung cấp dịch vụ lưu trữ giữ, ghi lại những thông tin máy chủ web thông thường — địa chỉ IP, thời điểm, trang được yêu cầu và tác nhân người dùng — dùng để duy trì trang và chẩn đoán sự cố.</p>
+        <h2 id="vi-sharing">Khi chính bạn chia sẻ</h2>
+        <p>Chia sẻ, xuất tệp, in và sao chép luôn do bạn khởi xướng. Khi bạn dùng một trong các thao tác đó, ứng dụng trao mục đó cho đích bạn chọn — một ứng dụng khác, một người liên hệ, một thư mục, một máy in — và điều xảy ra sau đó do đích ấy quyết định, không thuộc chính sách này.</p>
+        <h2 id="vi-retention">Lưu giữ và xoá dữ liệu</h2>
+        <p>Mọi thứ ứng dụng lưu đều nằm trên thiết bị của bạn, nên bạn là người quyết định chúng tồn tại bao lâu.</p>
+        <p>Xoá từng mục ngay trong ứng dụng để loại bỏ nó. Để xoá tất cả cùng lúc, hãy gỡ cài đặt ứng dụng: hệ điều hành sẽ xoá vùng lưu trữ riêng của nó, và cùng với đó là mọi mục trong bảng ở trên.</p>
+        <p>Báo cáo sự cố và sự kiện thống kê do Google lưu giữ theo thời hạn của chính Firebase — dữ liệu sự cố tối đa 90 ngày, dữ liệu thống kê tối đa 14 tháng. Vì không mang mã nhận dạng nào của bạn, chúng không thể lần ngược về bạn và cũng không thể xoá riêng lẻ.</p>
+        <h2 id="vi-rights">Quyền của bạn</h2>
+        <p>Theo GDPR, GDPR của Vương quốc Anh, CCPA được sửa đổi bởi CPRA, PIPEDA của Canada và các luật tương đương ở nơi khác, bạn có quyền đối với thông tin cá nhân được lưu giữ về mình — biết những gì đang được lưu, lấy một bản sao, yêu cầu sửa, yêu cầu xoá, và phản đối hoặc hạn chế việc sử dụng.</p>
+        <p>Với ứng dụng này, những quyền đó đã được đáp ứng ngay từ thiết kế chứ không phải qua một yêu cầu gửi tới chúng tôi: dữ liệu nằm trên thiết bị của bạn, bạn có thể xem trong ứng dụng, sửa, xuất ra và xoá, còn chúng tôi không giữ bản sao nào để cung cấp, sửa hay xoá.</p>
+        <p>Chúng tôi không bán thông tin cá nhân và không chia sẻ nó cho quảng cáo hành vi liên ngữ cảnh theo định nghĩa của CPRA. Do đó không tồn tại giao dịch bán nào để bạn phải từ chối.</p>
+        <p>Nếu bạn vẫn cho rằng chúng tôi đang giữ điều gì đó về mình, hãy viết thư tới idatagear@gmail.com và chúng tôi sẽ trả lời. Bạn cũng có thể khiếu nại với cơ quan bảo vệ dữ liệu nơi bạn sinh sống.</p>
+        <h2 id="vi-transfers">Chuyển dữ liệu ra nước ngoài</h2>
+        <p>Chúng tôi đặt tại Canada. Các dịch vụ bên thứ ba nêu trong chính sách này do những công ty đặt trụ sở tại Hoa Kỳ vận hành và có thể xử lý dữ liệu ở bất kỳ quốc gia nào họ đặt hạ tầng, theo những biện pháp bảo đảm chuyển dữ liệu quy định trong chính sách riêng của họ — với Google là các điều khoản hợp đồng mẫu của Uỷ ban châu Âu.</p>
+        <h2 id="vi-children">Trẻ em</h2>
+        <p>Ứng dụng này dành cho người dùng phổ thông. Nó không hướng tới trẻ em dưới 13 tuổi và chúng tôi không cố ý thu thập thông tin cá nhân từ trẻ em.</p>
+        <p>Không có hệ thống tài khoản, không có nhắn tin, không có tính năng mạng xã hội và không có gì mà người dùng khác có thể đăng hay nhìn thấy — nên không tồn tại con đường nào để một đứa trẻ dùng ứng dụng tiết lộ điều gì cho chúng tôi hay cho ai khác.</p>
+        <p>Một lưu ý nữa dành cho phụ huynh: cuốn từ điển đi kèm ghi lại cách ngôn ngữ thực sự được nói, và các mục tiếng lóng của nó có định nghĩa những từ liên quan đến tình dục, ma tuý, cờ bạc và chửi thề, trình bày theo lối một cuốn sách tra cứu. Xếp hạng độ tuổi của ứng dụng đã tính đến điều này.</p>
+        <p>Nếu bạn cho rằng một đứa trẻ đã cung cấp thông tin cá nhân cho chúng tôi, hãy viết thư tới idatagear@gmail.com và chúng tôi sẽ xoá.</p>
+        <h2 id="vi-security">Bảo mật</h2>
+        <p>Dữ liệu ứng dụng nằm trong vùng lưu trữ riêng theo từng ứng dụng của hệ điều hành, được bảo vệ bởi cơ chế cách ly của chính thiết bị và bởi mã hoá toàn máy khi bạn đặt khoá màn hình. Đặt mật mã, mã PIN hoặc khoá sinh trắc học là việc hiệu quả nhất bạn có thể làm để bảo vệ chúng.</p>
+        <p>Mọi yêu cầu mạng của ứng dụng đều dùng HTTPS. Không có cách lưu trữ hay truyền tải nào là hoàn hảo, và chúng tôi không thể bảo đảm an toàn tuyệt đối.</p>
+        <h2 id="vi-changes">Thay đổi chính sách này</h2>
+        <p>Chúng tôi cập nhật chính sách này khi ứng dụng thay đổi. Ngày ở đầu trang là ngày của bản hiện hành, và thay đổi được công bố tại đây ngay khi có hiệu lực.</p>
+        <p>Nếu một thay đổi khiến ứng dụng bắt đầu thu thập điều mà trước đây nó không thu thập, chúng tôi sẽ nói rõ điều đó thay vì để bạn tự đối chiếu hai bản văn.</p>
+        <h2 class="pp-part">Phần 2 — Điều khoản sử dụng</h2>
+        <h2 id="vi-t_accept">1. Chấp nhận các điều khoản</h2>
+        <p>Bằng việc cài đặt hoặc sử dụng ứng dụng, bạn chấp nhận các điều khoản này. Nếu không chấp nhận, xin đừng dùng ứng dụng và hãy gỡ nó khỏi thiết bị.</p>
+        <p>Các điều khoản này là giữa bạn và iDataGear Inc. Nếu bạn có được ứng dụng từ App Store hoặc Google Play, điều khoản riêng của cửa hàng đó cũng áp dụng cho giao dịch, và nếu có xung đột về những vấn đề do cửa hàng quản lý — thanh toán, hoàn tiền, tải lại — thì điều khoản của cửa hàng được ưu tiên.</p>
+        <h2 id="vi-t_licence">2. Quyền sử dụng của bạn</h2>
+        <p>Chúng tôi cấp cho bạn quyền sử dụng cá nhân, không độc quyền, không chuyển nhượng và có thể thu hồi, để dùng ứng dụng trên các thiết bị bạn sở hữu hoặc kiểm soát, cho mục đích của riêng bạn, theo cách thông thường mà nền tảng dự liệu. Chúng tôi giữ lại mọi quyền khác.</p>
+        <p>Bạn không được sao chép, bán, cho thuê, cấp phép lại hay phân phối lại ứng dụng; không được dịch ngược hay giải biên dịch, trừ phạm vi mà luật cho phép rõ ràng bất kể điều khoản này; không được gỡ bỏ hay thay đổi bất kỳ thông báo nào bên trong; và không được dùng nó để tạo ra sản phẩm cạnh tranh.</p>
+        <h2 id="vi-t_yourcontent">3. Nội dung bạn tạo ra là của bạn</h2>
+        <p>Mọi thứ bạn tạo ra trong ứng dụng là của bạn. Chúng tôi không đòi quyền sở hữu và cũng không đòi giấy phép nào đối với chúng. Vì chúng nằm lại trên thiết bị của bạn, chúng tôi có muốn dùng cũng không được.</p>
+        <p>Việc sao lưu thuộc trách nhiệm của bạn. Gỡ cài đặt ứng dụng, khôi phục cài đặt gốc, hay mất hoặc đổi thiết bị đều làm mất những gì ứng dụng đã lưu, và chúng tôi không giữ bản sao nào để khôi phục. Hãy xuất ra những gì bạn sẽ tiếc nếu mất.</p>
+        <h2 id="vi-t_acceptable">4. Sử dụng hợp lệ</h2>
+        <p>Hãy dùng ứng dụng một cách hợp pháp. Cụ thể, đừng dùng nó để vi phạm pháp luật hay quyền của người khác, để ghi âm người khác khi việc đó cần sự đồng ý của họ mà bạn chưa có, để can thiệp vào hoạt động hay tính bảo mật của nó, hoặc để tìm cách có được tính năng, nội dung hay quyền lợi mà bạn chưa trả tiền.</p>
+        <h2 id="vi-t_purchases">5. Mua, gia hạn và huỷ</h2>
+        <p>Khi ứng dụng có gói đăng ký, gói đó tự động gia hạn vào cuối mỗi kỳ theo mức giá hiển thị lúc mua và được tính vào tài khoản cửa hàng bạn đã dùng để mua, trừ khi bạn huỷ ít nhất 24 giờ trước khi kỳ đó kết thúc.</p>
+        <p>Hãy huỷ từ cửa hàng, không phải từ ứng dụng: trên iOS vào Cài đặt › tên của bạn › Gói đăng ký, trên Android vào Google Play › Thanh toán và gói thuê bao. Huỷ sẽ dừng lần gia hạn kế tiếp; kỳ hiện tại vẫn chạy hết như đã trả tiền. Mọi bản dùng thử miễn phí kết thúc khi bạn mua và phần chưa dùng sẽ mất.</p>
+        <p>Việc hoàn tiền do cửa hàng thực hiện theo chính sách của chính cửa hàng, không phải do chúng tôi, vì cửa hàng mới là bên bán của giao dịch. Giá có thể thay đổi; thay đổi áp dụng cho các lần gia hạn sau khi chúng tôi thông báo cho bạn, và bạn có thể huỷ thay vì chấp nhận.</p>
+        <h2 id="vi-t_accuracy">6. Tính chính xác của nội dung</h2>
+        <p>Nội dung trong ứng dụng được cung cấp để học và tra cứu. Ngôn ngữ vốn có tranh cãi, khác nhau theo vùng và luôn biến đổi; nghĩa từ điển, bản dịch, cách phiên âm, điểm phát âm, thứ tự nét và chữ nhận dạng được đều có thể sai. Đừng dựa vào bất cứ điều nào trong đó ở những nơi mà sai sót gây hậu quả — một kỳ thi, một văn bản pháp lý, một tình huống y tế hay một hợp đồng — nếu chưa kiểm chứng độc lập.</p>
+        <p>Ứng dụng là công cụ hỗ trợ, không phải thiết bị an toàn. Bản đồ, đường mòn, lộ trình đã ghi, khoảng cách, độ cao và cảnh báo lệch đường đều có thể thiếu chính xác, thiếu đầy đủ hoặc lỗi thời, còn điện thoại thì có thể mất sóng, mất định vị hay hết pin. Hãy mang theo bản đồ và phương tiện định hướng không cần điện thoại, cho ai đó biết kế hoạch của bạn, và tự đánh giá điều kiện thực tế. An toàn của bạn ngoài trời là trách nhiệm của chính bạn.</p>
+        <h2 id="vi-t_thirdparty">7. Dịch vụ của bên thứ ba</h2>
+        <p>Ứng dụng dùng các dịch vụ bên thứ ba đã nêu trong phần chính sách quyền riêng tư ở trên. Mỗi dịch vụ chịu sự điều chỉnh của điều khoản và chính sách riêng của họ; chúng tôi không kiểm soát và không chịu trách nhiệm về những gì họ làm. Các liên kết từ ứng dụng ra trang web khác được cung cấp cho tiện lợi và không hàm ý chúng tôi chứng thực.</p>
+        <h2 id="vi-t_warranty">8. Không bảo đảm</h2>
+        <p>Ứng dụng được cung cấp <strong>nguyên trạng</strong> và <strong>theo mức sẵn có</strong>, không kèm bảo đảm nào, dù minh thị hay mặc nhiên, kể cả bảo đảm mặc nhiên về khả năng thương mại, sự phù hợp cho một mục đích cụ thể, tính chính xác hay không vi phạm quyền. Chúng tôi không bảo đảm ứng dụng chạy không gián đoạn, không lỗi, tương thích với mọi thiết bị, hay mọi khiếm khuyết sẽ được sửa.</p>
+        <p>Một số nơi không cho phép loại trừ bảo đảm mặc nhiên, nên có phần trong điều khoản này có thể không áp dụng với bạn; và không điều gì ở đây giới hạn một quyền người tiêu dùng mà pháp luật không cho phép giới hạn.</p>
+        <h2 id="vi-t_liability">9. Giới hạn trách nhiệm</h2>
+        <p>Trong phạm vi rộng nhất pháp luật cho phép, chúng tôi không chịu trách nhiệm về thiệt hại gián tiếp, ngẫu nhiên, đặc biệt, phái sinh, mang tính nêu gương hay trừng phạt, cũng không chịu trách nhiệm về lợi nhuận bị mất, dữ liệu bị mất, bản ghi âm bị mất, lộ trình bị mất hay tiến độ bị mất, dù nguyên nhân là gì và trên bất kỳ cơ sở trách nhiệm nào, kể cả khi chúng tôi đã được báo rằng thiệt hại đó có thể xảy ra.</p>
+        <p>Ở nơi không thể loại trừ trách nhiệm, tổng trách nhiệm của chúng tôi cho mọi khiếu nại phát sinh từ ứng dụng được giới hạn ở mức cao hơn giữa số tiền bạn đã trả cho chúng tôi vì ứng dụng trong mười hai tháng trước khi khiếu nại, hoặc hai mươi đô la Canada.</p>
+        <h2 id="vi-t_termination">10. Thay đổi và chấm dứt</h2>
+        <p>Chúng tôi có thể thay đổi, tạm ngừng hoặc chấm dứt ứng dụng, hay bất kỳ phần nào của nó, vào bất cứ lúc nào. Chúng tôi cũng có thể cập nhật các điều khoản này; khi đó ngày ở đầu trang sẽ thay đổi, và việc bạn tiếp tục dùng ứng dụng sau đó là chấp nhận các điều khoản đã cập nhật.</p>
+        <p>Quyền sử dụng này chấm dứt nếu bạn vi phạm các điều khoản, và cũng chấm dứt khi bạn gỡ ứng dụng khỏi thiết bị. Các mục về nội dung của bạn, bảo đảm, trách nhiệm và luật áp dụng vẫn tiếp tục có hiệu lực.</p>
+        <h2 id="vi-t_law">11. Luật áp dụng</h2>
+        <p>Các điều khoản này chịu sự điều chỉnh của luật tỉnh bang British Columbia và luật liên bang Canada áp dụng tại đó, không xét tới các quy tắc xung đột pháp luật. Toà án tại British Columbia có thẩm quyền riêng biệt đối với mọi tranh chấp, và bạn cùng chúng tôi đều chấp nhận thẩm quyền đó — ngoại trừ việc mỗi bên đều có thể xin biện pháp khẩn cấp tạm thời tại bất kỳ toà án có thẩm quyền nào.</p>
+        <p>Nếu một điều khoản bị coi là không thể thi hành, phần còn lại vẫn giữ nguyên hiệu lực. Không điều gì ở đây loại bỏ một biện pháp bảo vệ người tiêu dùng bắt buộc của quốc gia nơi bạn sinh sống.</p>
+        <h2 id="vi-contact">Liên hệ</h2>
+        <p>Thắc mắc về chính sách này, yêu cầu liên quan đến dữ liệu của bạn, hay bất kỳ điều gì khác:</p>
+        <p><strong>iDataGear Inc</strong><br>
+        Email: <a href="mailto:idatagear@gmail.com">idatagear@gmail.com</a><br>
+        Web: <a href="https://www.idatagear.com/">www.idatagear.com</a></p>
+      </article>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-bottom">
+        <p>&copy; <span id="year">2026</span> iDataGear Inc</p>
+        <div class="footer-links">
+          <a href="">iDataGear</a><a href="privacy.html">Privacy</a><a href="mailto:idatagear@gmail.com">Contact</a>
+        </div>
+      </div>
+    </footer>
+    <script>
+    (function () {
+      var root = document.documentElement;
+      var toggle = document.querySelector('.theme-toggle');
+      if (toggle) {
+        toggle.addEventListener('click', function () {
+          var next = root.getAttribute('data-theme') === 'light' ? 'dark' : 'light';
+          root.setAttribute('data-theme', next);
+          try { localStorage.setItem('theme', next); } catch (e) {}
+        });
+      }
+      var y = document.getElementById('year');
+      if (y) { y.textContent = new Date().getFullYear(); }
+    })();
+    </script>
+  </body>
+</html>

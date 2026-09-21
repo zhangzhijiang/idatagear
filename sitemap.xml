@@ -113,7 +113,7 @@
     <priority>0.9</priority>
   </url>
 
-  <!-- Privacy policy and terms of use -->
+  <!-- Privacy policy and terms of use: one file per language -->
   <url>
     <loc>https://www.idatagear.com/privacy.html</loc>
     <lastmod>2026-09-20</lastmod>
@@ -121,6 +121,63 @@
     <priority>0.6</priority>
   </url>
 
+  <url>
+    <loc>https://www.idatagear.com/privacy_zh-Hans.html</loc>
+    <lastmod>2026-09-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://www.idatagear.com/privacy_zh-Hant.html</loc>
+    <lastmod>2026-09-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://www.idatagear.com/privacy_es.html</loc>
+    <lastmod>2026-09-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://www.idatagear.com/privacy_fr.html</loc>
+    <lastmod>2026-09-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://www.idatagear.com/privacy_ja.html</loc>
+    <lastmod>2026-09-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://www.idatagear.com/privacy_ko.html</loc>
+    <lastmod>2026-09-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://www.idatagear.com/privacy_vi.html</loc>
+    <lastmod>2026-09-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://www.idatagear.com/privacy_ar.html</loc>
+    <lastmod>2026-09-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <!-- Per-app policies, each in the languages that app ships -->
   <url>
     <loc>https://www.idatagear.com/learncantonese/learncantonese_privacy.html</loc>
     <lastmod>2026-09-20</lastmod>

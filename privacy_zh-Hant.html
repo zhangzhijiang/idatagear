@@ -1,0 +1,1975 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta name="theme-color" content="#071512" media="(prefers-color-scheme: dark)">
+    <meta name="theme-color" content="#f7f3ea" media="(prefers-color-scheme: light)">
+    <meta name="color-scheme" content="dark light">
+
+    <title>iDataGear 隱私權政策與使用條款</title>
+    <meta name="description" content="本頁是 iDataGear Inc 發行的每一款 App 的隱私權政策與使用條款，也是 https://www.idatagear.com 這個網站的隱私權政策與使用條款。">
+    <link rel="canonical" href="https://www.idatagear.com/privacy_zh-Hant.html">
+
+    <link rel="alternate" hreflang="en" href="https://www.idatagear.com/privacy.html">
+    <link rel="alternate" hreflang="zh-Hans" href="https://www.idatagear.com/privacy_zh-Hans.html">
+    <link rel="alternate" hreflang="zh-Hant" href="https://www.idatagear.com/privacy_zh-Hant.html">
+    <link rel="alternate" hreflang="es" href="https://www.idatagear.com/privacy_es.html">
+    <link rel="alternate" hreflang="fr" href="https://www.idatagear.com/privacy_fr.html">
+    <link rel="alternate" hreflang="ja" href="https://www.idatagear.com/privacy_ja.html">
+    <link rel="alternate" hreflang="ko" href="https://www.idatagear.com/privacy_ko.html">
+    <link rel="alternate" hreflang="vi" href="https://www.idatagear.com/privacy_vi.html">
+    <link rel="alternate" hreflang="ar" href="https://www.idatagear.com/privacy_ar.html">
+    <link rel="alternate" hreflang="x-default" href="https://www.idatagear.com/privacy.html">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.idatagear.com/privacy_zh-Hant.html">
+    <meta property="og:title" content="iDataGear 隱私權政策與使用條款">
+    <meta property="og:description" content="本頁是 iDataGear Inc 發行的每一款 App 的隱私權政策與使用條款，也是 https://www.idatagear.com 這個網站的隱私權政策與使用條款。">
+    <meta property="og:image" content="https://www.idatagear.com/assets/img/idatagear_logo.png">
+    <meta property="og:site_name" content="iDataGear">
+    <meta property="twitter:card" content="summary">
+    <meta property="twitter:title" content="iDataGear 隱私權政策與使用條款">
+    <meta property="twitter:description" content="本頁是 iDataGear Inc 發行的每一款 App 的隱私權政策與使用條款，也是 https://www.idatagear.com 這個網站的隱私權政策與使用條款。">
+    <meta property="twitter:image" content="https://www.idatagear.com/assets/img/idatagear_logo.png">
+
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/img/favicon-192x192.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script>
+    (function () {
+      var t = null;
+      try { t = localStorage.getItem('theme'); } catch (e) {}
+      if (t !== 'light' && t !== 'dark') {
+        t = (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches) ? 'light' : 'dark';
+      }
+      document.documentElement.setAttribute('data-theme', t);
+    })();
+    </script>
+    <style>
+    /* Chrome and colour come from the site's own tokens in assets/css/style.css.
+       --pp-accent is this page's app brand, used only where the page speaks
+       about the app itself. Everything here is prefixed pp- so it cannot leak
+       into the shared stylesheet's components. */
+    :root { --pp-accent: #1f8a76; --pp-wash: rgba(53, 179, 154, .10); }
+    [data-theme="dark"] { --pp-accent: #35b39a; }
+    @media (prefers-color-scheme: dark) {
+      :root:not([data-theme="light"]) { --pp-accent: #35b39a; }
+    }
+
+    .pp-nav { display: flex; gap: 20px; align-items: center; margin-left: auto; }
+    .pp-nav a { color: var(--muted); text-decoration: none; font-size: .92rem; white-space: nowrap; }
+    .pp-nav a:hover { color: var(--pp-accent); }
+    @media (max-width: 820px) { .pp-nav { display: none; } }
+
+    .pp-wrap { max-width: 78ch; margin: 0 auto; padding-inline: 20px; padding-block: 40px 72px; }
+
+    .pp-head { text-align: center; margin-bottom: 34px; }
+    .pp-head img { width: 76px; height: 76px; border-radius: 19px; box-shadow: 0 10px 40px rgba(0,0,0,.18); }
+    .pp-head h1 { font-size: clamp(1.7rem, 4.4vw, 2.4rem); margin: 18px 0 6px; line-height: 1.15; text-wrap: balance; }
+    .pp-head .pp-sub { color: var(--pp-accent); font-weight: 700; margin: 0 0 10px; }
+    .pp-head .pp-date { color: var(--dim); font-size: .9rem; margin: 0; }
+
+    /* Language picker. Buttons, not links: this switches what is displayed on
+       one URL, because the app stores register exactly one privacy URL. */
+    .pp-langs { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; margin: 22px 0 0; }
+    .pp-langs button {
+      font: inherit; font-size: .9rem; font-weight: 600; cursor: pointer;
+      padding: 7px 15px; border-radius: 999px;
+      border: 1px solid var(--card-border); background: var(--card); color: var(--muted);
+    }
+    .pp-langs button:hover { border-color: var(--pp-accent); color: var(--text); }
+    .pp-langs button[aria-current="true"] { background: var(--pp-wash); border-color: var(--pp-accent); color: var(--text); }
+
+    .pp h2 {
+      font-size: 1.24rem; margin: 40px 0 12px; padding-top: 18px;
+      border-top: 1px solid var(--card-border); text-wrap: balance;
+    }
+    .pp h2:first-of-type { border-top: 0; padding-top: 0; }
+    .pp h2.pp-part {
+      font-size: .82rem; letter-spacing: .14em; text-transform: uppercase;
+      color: var(--pp-accent); margin-top: 56px;
+    }
+    .pp h3 { font-size: 1.02rem; margin: 26px 0 8px; color: var(--text); }
+    .pp p, .pp li { color: var(--muted); line-height: 1.72; }
+    .pp p { margin: 0 0 14px; }
+    .pp ul { margin: 0 0 16px; padding-left: 1.25em; }
+    .pp li { margin-bottom: 9px; }
+    .pp strong { color: var(--text); font-weight: 650; }
+    .pp a { color: var(--pp-accent); }
+
+    .pp-tldr {
+      background: var(--pp-wash); border: 1px solid var(--card-border);
+      border-left: 3px solid var(--pp-accent);
+      border-radius: 12px; padding: 20px 22px 6px; margin: 0 0 8px;
+    }
+    .pp-tldr ul { margin-bottom: 14px; }
+    .pp-note {
+      background: var(--card); border: 1px solid var(--card-border);
+      border-radius: 10px; padding: 15px 18px 3px; margin: 0 0 16px;
+    }
+
+    /* Tables scroll inside their own box so the page body never scrolls sideways. */
+    .pp-tablewrap { overflow-x: auto; margin: 0 0 20px; }
+    .pp table { border-collapse: collapse; width: 100%; min-width: 520px; font-size: .94rem; }
+    .pp th, .pp td {
+      text-align: left; vertical-align: top; padding: 11px 13px;
+      border-bottom: 1px solid var(--card-border); color: var(--muted); line-height: 1.6;
+    }
+    .pp th { color: var(--text); font-weight: 650; white-space: nowrap; }
+    .pp tbody tr:last-child td { border-bottom: 0; }
+
+    /* Right-to-left: mirror the padding and the table alignment, nothing else. */
+    .pp[dir="rtl"] { text-align: right; }
+    .pp[dir="rtl"] ul { padding-left: 0; padding-right: 1.25em; }
+    .pp[dir="rtl"] th, .pp[dir="rtl"] td { text-align: right; }
+    .pp[dir="rtl"] .pp-tldr { border-left: 1px solid var(--card-border); border-right: 3px solid var(--pp-accent); }
+
+    /* One language per file, so the switcher is links rather than buttons:
+       each entry is a real URL a reader can bookmark, share or open in a tab,
+       and the page needs no JavaScript to show what it says. */
+    .pp-langs a {
+      font: inherit; font-size: .9rem; font-weight: 600; text-decoration: none;
+      padding: 7px 15px; border-radius: 999px;
+      border: 1px solid var(--card-border); background: var(--card); color: var(--muted);
+    }
+    .pp-langs a:hover { border-color: var(--pp-accent); color: var(--text); }
+    .pp-langs a[aria-current="page"] { background: var(--pp-wash); border-color: var(--pp-accent); color: var(--text); }
+    </style>
+  </head>
+
+  <body>
+    <header class="site-header" id="top">
+      <div class="logo"><a href="">iDataGear</a></div>
+      <nav class="pp-nav">
+        <a href="">iDataGear</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="mailto:idatagear@gmail.com">Contact</a>
+      </nav>
+      <button class="theme-toggle" type="button" aria-label="Switch theme">
+        <i class="bi bi-sun" aria-hidden="true"></i>
+        <i class="bi bi-moon-stars" aria-hidden="true"></i>
+      </button>
+    </header>
+
+    <main class="pp-wrap">
+      <div class="pp-head">
+        <img src="assets/img/idatagear_logo.png" alt="iDataGear 隱私權政策與使用條款" width="76" height="76">
+        <h1>iDataGear 隱私權政策與使用條款</h1>
+        <p class="pp-sub">iDataGear Inc</p>
+        <p class="pp-date">最後更新: 20 September 2026</p>
+        <div class="pp-langs" role="group" aria-label="選擇語言">
+          <a href="privacy.html" hreflang="en" lang="en">English</a>
+          <a href="privacy_zh-Hans.html" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
+          <a href="privacy_zh-Hant.html" hreflang="zh-Hant" lang="zh-Hant" aria-current="page">繁體中文</a>
+          <a href="privacy_es.html" hreflang="es" lang="es">Español</a>
+          <a href="privacy_fr.html" hreflang="fr" lang="fr">Français</a>
+          <a href="privacy_ja.html" hreflang="ja" lang="ja">日本語</a>
+          <a href="privacy_ko.html" hreflang="ko" lang="ko">한국어</a>
+          <a href="privacy_vi.html" hreflang="vi" lang="vi">Tiếng Việt</a>
+          <a href="privacy_ar.html" hreflang="ar" lang="ar">العربية</a>
+        </div>
+      </div>
+
+      <article class="pp" data-lang="zh-Hant" lang="zh-Hant">
+        <h2 id="zh-Hant-tldr">一句話版本</h2>
+        <div class="pp-tldr">
+        <ul>
+          <li>這一頁涵蓋 iDataGear 的每一款 App，每款 App 另有屬於自己的頁面。</li>
+          <li>你在這些 App 中建立的一切都留在你的裝置上。</li>
+          <li>沒有帳號，也不需要註冊。</li>
+          <li>各款 App 並不相同。十款中有五款完全不含廣告、使用統計和當機報告；其餘幾款會明確說明用了哪些、為什麼用。</li>
+          <li>我們不出售你的資料，也不會為廣告輪廓而分享它。</li>
+          <li>移除 App 會刪除它儲存過的一切。</li>
+          <li>本頁第二部分是 App 的使用條款。</li>
+        </ul>
+        </div>
+        <h2 id="zh-Hant-scope">本政策涵蓋哪些 App</h2>
+        <p>本頁是 iDataGear Inc 發行的每一款 App 的隱私權政策與使用條款，也是 https://www.idatagear.com 這個網站的隱私權政策與使用條款。每款 App 另有屬於自己的頁面，內容與本頁中該 App 的部分完全一致；下表提供連結。</p>
+        <p>各款 App 彼此不同，因此下面的內容逐一分別說明，而不是把它們平均成一句對誰都不成立的話。其中五款完全不含廣告、使用統計和當機報告。</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>App</th>
+              <th>平台</th>
+              <th>獨立頁面</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td><a href="#zh-Hant-learncantonese">Learn Cantonese</a></td>
+                <td>Android, iOS, macOS</td>
+                <td><a href="learncantonese/learncantonese_privacy.html">開啟</a></td>
+              </tr>
+              <tr>
+                <td><a href="#zh-Hant-learnchinese">McChinese</a></td>
+                <td>Android, iOS</td>
+                <td><a href="learnchinese/learnchinese_privacy.html">開啟</a></td>
+              </tr>
+              <tr>
+                <td><a href="#zh-Hant-gcd">Great Cantonese Dictionary</a></td>
+                <td>Android, iOS</td>
+                <td><a href="gcd/gcd_privacy.html">開啟</a></td>
+              </tr>
+              <tr>
+                <td><a href="#zh-Hant-learnenglish">ALL English</a></td>
+                <td>Android, iOS</td>
+                <td><a href="learnenglish/learnenglish_privacy.html">開啟</a></td>
+              </tr>
+              <tr>
+                <td><a href="#zh-Hant-xiezi">Xie Zi</a></td>
+                <td>Android, iOS</td>
+                <td><a href="xiezi/xiezi_privacy.html">開啟</a></td>
+              </tr>
+              <tr>
+                <td><a href="#zh-Hant-momerame">Momera.ME</a></td>
+                <td>Android</td>
+                <td><a href="momerame/momerame_privacy.html">開啟</a></td>
+              </tr>
+              <tr>
+                <td><a href="#zh-Hant-momerago">Momera GO</a></td>
+                <td>Android, iOS</td>
+                <td><a href="momerago/momerago_privacy.html">開啟</a></td>
+              </tr>
+              <tr>
+                <td><a href="#zh-Hant-mcrecorder">McRecorder</a></td>
+                <td>Android, iOS</td>
+                <td><a href="mcrecorder/mcrecorder_privacy.html">開啟</a></td>
+              </tr>
+              <tr>
+                <td><a href="#zh-Hant-quickonescanner">QuickOne Scanner</a></td>
+                <td>Android, iOS</td>
+                <td><a href="quickonescanner/quickonescanner_privacy.html">開啟</a></td>
+              </tr>
+              <tr>
+                <td><a href="#zh-Hant-eyeballit">Eyeball It!</a></td>
+                <td>Android, iOS, Windows</td>
+                <td><a href="eyeballit/eyeballit_privacy.html">開啟</a></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <h2 class="pp-part">第一部分 — 隱私權政策</h2>
+        <h2 id="zh-Hant-who">我們是誰</h2>
+        <p>iDataGear Inc 是一家在加拿大卑詩省註冊成立的公司，發行上表中的各款 App 以及 https://www.idatagear.com 這個網站。本頁中的<strong>我們</strong>即指 iDataGear Inc。</p>
+        <p>App 沒有帳號，也不需要註冊。我們不營運任何接收你內容的伺服器，也沒有任何記錄著你的資料庫。</p>
+        <h2 id="zh-Hant-learncantonese">Learn Cantonese</h2>
+        <p>Learn Cantonese 透過課程、一部香港俚語辭典和開口跟讀的發音練習，教你說和寫粵語。它可以在 iPhone、iPad、Mac 和 Android 上執行。你的學習進度儲存在你正在使用的那台裝置上。</p>
+        <h3 id="zh-Hant-learncantonese-stores">App 在你裝置上儲存了什麼</h3>
+        <p>App 會把下列內容寫入你裝置上的 App 專屬儲存區——其他 App 無法讀取的區域。它們會一直留在那裡，直到你自己刪除，或移除 App 為止。</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>內容</th>
+              <th>用途</th>
+              <th>儲存位置</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>學習進度</td>
+                <td>已完成的課程、測驗結果，以及你看過哪些項目。</td>
+                <td>只在你的裝置上</td>
+              </tr>
+              <tr>
+                <td>收藏</td>
+                <td>你加星號或加入書籤的項目。</td>
+                <td>只在你的裝置上</td>
+              </tr>
+              <tr>
+                <td>瀏覽記錄</td>
+                <td>你最近查過或練過的內容，方便你回頭再看。</td>
+                <td>只在你的裝置上</td>
+              </tr>
+              <tr>
+                <td>連續天數與統計</td>
+                <td>個人頁面上顯示的每日連續天數和學習次數。</td>
+                <td>只在你的裝置上</td>
+              </tr>
+              <tr>
+                <td>設定</td>
+                <td>語言、主題、音訊和顯示方面的偏好。</td>
+                <td>只在你的裝置上</td>
+              </tr>
+              <tr>
+                <td>訂閱狀態</td>
+                <td>來自商店的一個「是或否」的快取答案，讓 App 離線時也能用。</td>
+                <td>只在你的裝置上</td>
+              </tr>
+              <tr>
+                <td>你的廣告選擇</td>
+                <td>你給出的同意答案，免得每次啟動都再問你一次。</td>
+                <td>只在你的裝置上</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>這些內容不會上傳給我們。我們讀不到，無法替你找回，也無法交給任何第三方——因為它們從未到達我們這裡。</p>
+        <p>發音練習所用的語音辨識，由作業系統自帶的辨識器完成——iOS 上是 Apple 的，Android 上是 Google 的——並適用各自平台的隱私條款。依裝置和語言的不同，該辨識器可能在裝置上處理音訊，也可能在平台的伺服器上處理。音訊和辨識結果我們都收不到：App 只被告知你說的內容與目標語句的接近程度，而音訊在得出這個分數之後隨即丟棄。</p>
+        <h3 id="zh-Hant-learncantonese-leaves">有什麼會離開你的裝置</h3>
+        <p>下面是完整的清單。凡是沒有列出的，都留在你的裝置上。</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>送出的內容</th>
+              <th>接收方</th>
+              <th>目的</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>廣告請求</td>
+                <td>Google AdMob</td>
+                <td>用於挑選並統計一則廣告。</td>
+              </tr>
+              <tr>
+                <td>匿名使用事件</td>
+                <td>Google Firebase Analytics</td>
+                <td>哪些功能被開啟的計數，不附帶使用者 ID。</td>
+              </tr>
+              <tr>
+                <td>當機報告</td>
+                <td>Google Firebase Crashlytics</td>
+                <td>App 失敗時的錯誤訊息、呼叫堆疊、裝置型號和 App 版本。</td>
+              </tr>
+              <tr>
+                <td>購買驗證</td>
+                <td>Apple App Store / Google Play</td>
+                <td>用於確認訂閱是否有效。信用卡資訊不會到達我們這裡。</td>
+              </tr>
+              <tr>
+                <td>版本檢查</td>
+                <td>Apple App Store / Google Play</td>
+                <td>用於告訴你有新版本。送出 App 的套件名稱和版本號。</td>
+              </tr>
+              <tr>
+                <td>沒有任何自動傳送</td>
+                <td>你點開的網站</td>
+                <td>在 App 中開啟連結會把它交給你的瀏覽器，之後就與你的瀏覽器平時一樣。</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>啟動時，App 會向 App Store 或 Google Play 查詢是否有更新版本，以便提示你。該請求只包含 App 的套件名稱和版本號，不包含關於你的任何資訊。</p>
+        <p>macOS 版本既不含廣告 SDK，也不含 Firebase。在 macOS 上，App 不顯示廣告，也不傳送任何使用統計或當機報告。</p>
+        <h3 id="zh-Hant-learncantonese-notdo">App 不會做的事</h3>
+        <p>在本政策為現行版本期間：</p>
+        <ul>
+          <li>沒有帳號，不需要註冊，不需要電子郵件，也不需要密碼。</li>
+          <li>我們不營運任何接收你內容的伺服器，也沒有任何記錄著你的資料庫。</li>
+          <li>我們不出售你的個人資料，也不會為跨情境行為廣告而分享它。</li>
+          <li>App 不會跨其他公司的 App 或網站追蹤你，也不跳出「App 追蹤透明度」授權框。</li>
+          <li>沒有任何內容同步到屬於我們的雲端帳戶。我們這邊沒有可供還原的備份。</li>
+          <li>App 不索取也不讀取你的位置。</li>
+          <li>App 不讀取你的通訊錄、行事曆、簡訊、通話記錄，也不讀取其專屬儲存區以外的檔案。</li>
+        </ul>
+        <h3 id="zh-Hant-learncantonese-perms">權限，以及每一項的用途</h3>
+        <p>下列每一項權限都只用於所聲明的那一個用途，不作他用。在兩個平台上，你都可以在系統設定中拒絕或撤回其中任何一項；依賴它的功能會停止運作，App 的其餘部分照常運行。</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>權限</th>
+              <th>平台</th>
+              <th>目的</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>網路存取</td>
+                <td>Android</td>
+                <td>上述網路請求所必需。</td>
+              </tr>
+              <tr>
+                <td>麥克風</td>
+                <td>Android</td>
+                <td>在你開始錄音時進行錄製。</td>
+              </tr>
+              <tr>
+                <td>前景服務</td>
+                <td>Android</td>
+                <td>讓你啟動的工作帶著一則可見的常駐通知繼續執行。</td>
+              </tr>
+              <tr>
+                <td>廣告 ID</td>
+                <td>Android</td>
+                <td>供 AdMob 挑選和統計廣告。你可以在 Android 設定中重設或刪除它。</td>
+              </tr>
+              <tr>
+                <td>付款</td>
+                <td>Android</td>
+                <td>透過 Google Play 售出並驗證訂閱。</td>
+              </tr>
+              <tr>
+                <td>麥克風</td>
+                <td>iOS</td>
+                <td>在你開始錄音時進行錄製。</td>
+              </tr>
+              <tr>
+                <td>語音辨識</td>
+                <td>iOS</td>
+                <td>使用 Apple 的辨識器為你的發音評分。</td>
+              </tr>
+              <tr>
+                <td>App 追蹤透明度</td>
+                <td>iOS</td>
+                <td>不要求。App 不會跨其他公司的 App 或網站追蹤你。</td>
+              </tr>
+              <tr>
+                <td>位置</td>
+                <td>Android 與 iOS</td>
+                <td>不要求。</td>
+              </tr>
+              <tr>
+                <td>相機</td>
+                <td>Android 與 iOS</td>
+                <td>不要求。</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <h3 id="zh-Hant-learncantonese-ads">廣告，以及你的選擇</h3>
+        <p>這個版本的 App 會顯示由 <strong>Google AdMob</strong> 提供的廣告。對於透過這些廣告蒐集的資料，Google 是獨立的資料控管者，依其自身政策處理，詳見 <a href="https://policies.google.com/technologies/partner-sites" rel="noopener">policies.google.com/technologies/partner-sites</a>。</p>
+        <p>為了挑選並統計一則廣告，Google 可能會收到你裝置的廣告識別碼、裝置與 App 的一般資訊、由 IP 位址推斷出的大致位置，以及你是否看過或點過該廣告。關於你個人的這些資訊我們一概收不到——我們看到的只是彙總後的收益與曝光次數。</p>
+        <p>本 App 中的廣告以橫幅和活動之間的全螢幕插頁形式出現。</p>
+        <p>在歐洲經濟區、英國和瑞士，App 會在要求個人化廣告之前先顯示 Google 的同意表單。你的選擇記錄在你自己的裝置上，隨時可以從 App 設定中的廣告或隱私選項重新開啟，改變主意。</p>
+        <p>你隨時可以重設或刪除廣告識別碼——在 Android 上進入「設定 › 隱私權 › 廣告」，在 iOS 上關閉<em>允許 App 要求追蹤</em>，後者會讓所有 App 都無法取得該識別碼。</p>
+        <p>App 不會跳出 Apple 的「App 追蹤透明度」授權框，也不會跨其他公司的 App 或網站追蹤你。</p>
+        <h3 id="zh-Hant-learncantonese-telemetry">使用統計與當機報告</h3>
+        <p>App 使用 <strong>Google Firebase</strong> 做兩件事：Crashlytics 負責回報當機，Analytics 負責統計功能的使用次數。兩者都由 Google 代表我們處理。</p>
+        <p>一份當機報告包含程式失敗當下的狀態——錯誤訊息、呼叫堆疊、裝置型號、作業系統版本和 App 版本。它由這次失敗自動產生，告訴我們該去修哪一行程式碼。</p>
+        <p>使用統計事件只是一些匿名動作的計數，例如某個畫面被開啟。我們不設定使用者 ID，也不設定任何使用者屬性，因此這些事件與具體的人無法對應，我們也無法在其中找到你。</p>
+        <h3 id="zh-Hant-learncantonese-purchases">訂閱與購買</h3>
+        <p>這個版本的 App 提供自動續期訂閱。購買全部由 App Store 或 Google Play 處理。</p>
+        <p>我們從不接觸你的卡號、帳單地址或任何其他付款資訊。商店只告訴 App「是否存在有效權益」這一個答案；該答案快取在你的裝置上，讓 App 離線時也能正常使用。</p>
+        <h2 id="zh-Hant-learnchinese">McChinese</h2>
+        <p>McChinese 透過按 HSK 分級的詞彙、筆順練習以及聽說訓練來教華語。它可以在 iPhone、iPad 和 Android 上執行，介面支援七種語言。你的學習進度儲存在你正在使用的那台裝置上。</p>
+        <h3 id="zh-Hant-learnchinese-stores">App 在你裝置上儲存了什麼</h3>
+        <p>App 會把下列內容寫入你裝置上的 App 專屬儲存區——其他 App 無法讀取的區域。它們會一直留在那裡，直到你自己刪除，或移除 App 為止。</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>內容</th>
+              <th>用途</th>
+              <th>儲存位置</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>學習進度</td>
+                <td>已完成的課程、測驗結果，以及你看過哪些項目。</td>
+                <td>只在你的裝置上</td>
+              </tr>
+              <tr>
+                <td>收藏</td>
+                <td>你加星號或加入書籤的項目。</td>
+                <td>只在你的裝置上</td>
+              </tr>
+              <tr>
+                <td>瀏覽記錄</td>
+                <td>你最近查過或練過的內容，方便你回頭再看。</td>
+                <td>只在你的裝置上</td>
+              </tr>
+              <tr>
+                <td>連續天數與統計</td>
+                <td>個人頁面上顯示的每日連續天數和學習次數。</td>
+                <td>只在你的裝置上</td>
+              </tr>
+              <tr>
+                <td>設定</td>
+                <td>語言、主題、音訊和顯示方面的偏好。</td>
+                <td>只在你的裝置上</td>
+              </tr>
+              <tr>
+                <td>訂閱狀態</td>
+                <td>來自商店的一個「是或否」的快取答案，讓 App 離線時也能用。</td>
+                <td>只在你的裝置上</td>
+              </tr>
+              <tr>
+                <td>你的廣告選擇</td>
+                <td>你給出的同意答案，免得每次啟動都再問你一次。</td>
+                <td>只在你的裝置上</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>這些內容不會上傳給我們。我們讀不到，無法替你找回，也無法交給任何第三方——因為它們從未到達我們這裡。</p>
+        <p>發音練習所用的語音辨識，由作業系統自帶的辨識器完成——iOS 上是 Apple 的，Android 上是 Google 的——並適用各自平台的隱私條款。依裝置和語言的不同，該辨識器可能在裝置上處理音訊，也可能在平台的伺服器上處理。音訊和辨識結果我們都收不到：App 只被告知你說的內容與目標語句的接近程度，而音訊在得出這個分數之後隨即丟棄。</p>
+        <h3 id="zh-Hant-learnchinese-leaves">有什麼會離開你的裝置</h3>
+        <p>下面是完整的清單。凡是沒有列出的，都留在你的裝置上。</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>送出的內容</th>
+              <th>接收方</th>
+              <th>目的</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>廣告請求</td>
+                <td>Google AdMob</td>
+                <td>用於挑選並統計一則廣告。</td>
+              </tr>
+              <tr>
+                <td>匿名使用事件</td>
+                <td>Google Firebase Analytics</td>
+                <td>哪些功能被開啟的計數，不附帶使用者 ID。</td>
+              </tr>
+              <tr>
+                <td>當機報告</td>
+                <td>Google Firebase Crashlytics</td>
+                <td>App 失敗時的錯誤訊息、呼叫堆疊、裝置型號和 App 版本。</td>
+              </tr>
+              <tr>
+                <td>購買驗證</td>
+                <td>Apple App Store / Google Play</td>
+                <td>用於確認訂閱是否有效。信用卡資訊不會到達我們這裡。</td>
+              </tr>
+              <tr>
+                <td>筆畫資料請求</td>
+                <td>unpkg、jsDelivr 或 cdnjs</td>
+                <td>用於取回你開啟的那個字的筆順。</td>
+              </tr>
+              <tr>
+                <td>沒有任何自動傳送</td>
+                <td>你點開的網站</td>
+                <td>在 App 中開啟連結會把它交給你的瀏覽器，之後就與你的瀏覽器平時一樣。</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>筆順動畫由一個開源元件繪製。你第一次檢視某個字時，App 會從公開的程式碼 CDN（unpkg、jsDelivr 或 cdnjs）取回該字的筆畫資料。與任何網頁請求一樣，這個請求包含正在繪製的那個字和你的 IP 位址。其中不附帶任何學習進度、帳號或識別碼。</p>
+        <h3 id="zh-Hant-learnchinese-notdo">App 不會做的事</h3>
+        <p>在本政策為現行版本期間：</p>
+        <ul>
+          <li>沒有帳號，不需要註冊，不需要電子郵件，也不需要密碼。</li>
+          <li>我們不營運任何接收你內容的伺服器，也沒有任何記錄著你的資料庫。</li>
+          <li>我們不出售你的個人資料，也不會為跨情境行為廣告而分享它。</li>
+          <li>App 不會跨其他公司的 App 或網站追蹤你，也不跳出「App 追蹤透明度」授權框。</li>
+          <li>沒有任何內容同步到屬於我們的雲端帳戶。我們這邊沒有可供還原的備份。</li>
+          <li>App 不索取也不讀取你的位置。</li>
+          <li>App 不讀取你的通訊錄、行事曆、簡訊、通話記錄，也不讀取其專屬儲存區以外的檔案。</li>
+        </ul>
+        <h3 id="zh-Hant-learnchinese-perms">權限，以及每一項的用途</h3>
+        <p>下列每一項權限都只用於所聲明的那一個用途，不作他用。在兩個平台上，你都可以在系統設定中拒絕或撤回其中任何一項；依賴它的功能會停止運作，App 的其餘部分照常運行。</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>權限</th>
+              <th>平台</th>
+              <th>目的</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>網路存取</td>
+                <td>Android</td>
+                <td>上述網路請求所必需。</td>
+              </tr>
+              <tr>
+                <td>網路狀態</td>
+                <td>Android</td>
+                <td>在嘗試連網前先確認是否有連線。</td>
+              </tr>
+              <tr>
+                <td>麥克風</td>
+                <td>Android</td>
+                <td>在你開始錄音時進行錄製。</td>
+              </tr>
+              <tr>
+                <td>廣告 ID</td>
+                <td>Android</td>
+                <td>供 AdMob 挑選和統計廣告。你可以在 Android 設定中重設或刪除它。</td>
+              </tr>
+              <tr>
+                <td>付款</td>
+                <td>Android</td>
+                <td>透過 Google Play 售出並驗證訂閱。</td>
+              </tr>
+              <tr>
+                <td>麥克風</td>
+                <td>iOS</td>
+                <td>在你開始錄音時進行錄製。</td>
+              </tr>
+              <tr>
+                <td>語音辨識</td>
+                <td>iOS</td>
+                <td>使用 Apple 的辨識器為你的發音評分。</td>
+              </tr>
+              <tr>
+                <td>App 追蹤透明度</td>
+                <td>iOS</td>
+                <td>不要求。App 不會跨其他公司的 App 或網站追蹤你。</td>
+              </tr>
+              <tr>
+                <td>位置</td>
+                <td>Android 與 iOS</td>
+                <td>不要求。</td>
+              </tr>
+              <tr>
+                <td>相機</td>
+                <td>Android 與 iOS</td>
+                <td>不要求。</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <h3 id="zh-Hant-learnchinese-ads">廣告，以及你的選擇</h3>
+        <p>這個版本的 App 會顯示由 <strong>Google AdMob</strong> 提供的廣告。對於透過這些廣告蒐集的資料，Google 是獨立的資料控管者，依其自身政策處理，詳見 <a href="https://policies.google.com/technologies/partner-sites" rel="noopener">policies.google.com/technologies/partner-sites</a>。</p>
+        <p>為了挑選並統計一則廣告，Google 可能會收到你裝置的廣告識別碼、裝置與 App 的一般資訊、由 IP 位址推斷出的大致位置，以及你是否看過或點過該廣告。關於你個人的這些資訊我們一概收不到——我們看到的只是彙總後的收益與曝光次數。</p>
+        <p>本 App 中的廣告以橫幅和活動之間的全螢幕插頁形式出現。</p>
+        <p>在歐洲經濟區、英國和瑞士，App 會在要求個人化廣告之前先顯示 Google 的同意表單。你的選擇記錄在你自己的裝置上，隨時可以從 App 設定中的廣告或隱私選項重新開啟，改變主意。</p>
+        <p>你隨時可以重設或刪除廣告識別碼——在 Android 上進入「設定 › 隱私權 › 廣告」，在 iOS 上關閉<em>允許 App 要求追蹤</em>，後者會讓所有 App 都無法取得該識別碼。</p>
+        <p>App 不會跳出 Apple 的「App 追蹤透明度」授權框，也不會跨其他公司的 App 或網站追蹤你。</p>
+        <h3 id="zh-Hant-learnchinese-telemetry">使用統計與當機報告</h3>
+        <p>App 使用 <strong>Google Firebase</strong> 做兩件事：Crashlytics 負責回報當機，Analytics 負責統計功能的使用次數。兩者都由 Google 代表我們處理。</p>
+        <p>一份當機報告包含程式失敗當下的狀態——錯誤訊息、呼叫堆疊、裝置型號、作業系統版本和 App 版本。它由這次失敗自動產生，告訴我們該去修哪一行程式碼。</p>
+        <p>使用統計事件只是一些匿名動作的計數，例如某個畫面被開啟。我們不設定使用者 ID，也不設定任何使用者屬性，因此這些事件與具體的人無法對應，我們也無法在其中找到你。</p>
+        <h3 id="zh-Hant-learnchinese-purchases">訂閱與購買</h3>
+        <p>這個版本的 App 提供自動續期訂閱。購買全部由 App Store 或 Google Play 處理。</p>
+        <p>我們從不接觸你的卡號、帳單地址或任何其他付款資訊。商店只告訴 App「是否存在有效權益」這一個答案；該答案快取在你的裝置上，讓 App 離線時也能正常使用。</p>
+        <h2 id="zh-Hant-gcd">Great Cantonese Dictionary</h2>
+        <p>Great Cantonese Dictionary 是一部粵語工具書——詞條、讀音、例句，以及你查過什麼的記錄。辭典隨 App 一起打包，因此查詞完全不需要連網。它可以在 iPhone、iPad 和 Android 上執行。</p>
+        <h3 id="zh-Hant-gcd-stores">App 在你裝置上儲存了什麼</h3>
+        <p>App 會把下列內容寫入你裝置上的 App 專屬儲存區——其他 App 無法讀取的區域。它們會一直留在那裡，直到你自己刪除，或移除 App 為止。</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>內容</th>
+              <th>用途</th>
+              <th>儲存位置</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>辭典</td>
+                <td>隨 App 一起打包、從你裝置上讀取的參考資料。</td>
+                <td>只在你的裝置上</td>
+              </tr>
+              <tr>
+                <td>收藏</td>
+                <td>你加星號或加入書籤的項目。</td>
+                <td>只在你的裝置上</td>
+              </tr>
+              <tr>
+                <td>瀏覽記錄</td>
+                <td>你最近查過或練過的內容，方便你回頭再看。</td>
+                <td>只在你的裝置上</td>
+              </tr>
+              <tr>
+                <td>連續天數與統計</td>
+                <td>個人頁面上顯示的每日連續天數和學習次數。</td>
+                <td>只在你的裝置上</td>
+              </tr>
+              <tr>
+                <td>設定</td>
+                <td>語言、主題、音訊和顯示方面的偏好。</td>
+                <td>只在你的裝置上</td>
+              </tr>
+              <tr>
+                <td>訂閱狀態</td>
+                <td>來自商店的一個「是或否」的快取答案，讓 App 離線時也能用。</td>
+                <td>只在你的裝置上</td>
+              </tr>
+              <tr>
+                <td>你的廣告選擇</td>
+                <td>你給出的同意答案，免得每次啟動都再問你一次。</td>
+                <td>只在你的裝置上</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>這些內容不會上傳給我們。我們讀不到，無法替你找回，也無法交給任何第三方——因為它們從未到達我們這裡。</p>
+        <h3 id="zh-Hant-gcd-leaves">有什麼會離開你的裝置</h3>
+        <p>下面是完整的清單。凡是沒有列出的，都留在你的裝置上。</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>送出的內容</th>
+              <th>接收方</th>
+              <th>目的</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>廣告請求</td>
+                <td>Google AdMob</td>
+                <td>用於挑選並統計一則廣告。</td>
+              </tr>
+              <tr>
+                <td>匿名使用事件</td>
+                <td>Google Firebase Analytics</td>
+                <td>哪些功能被開啟的計數，不附帶使用者 ID。</td>
+              </tr>
+              <tr>
+                <td>當機報告</td>
+                <td>Google Firebase Crashlytics</td>
+                <td>App 失敗時的錯誤訊息、呼叫堆疊、裝置型號和 App 版本。</td>
+              </tr>
+              <tr>
+                <td>購買驗證</td>
+                <td>Apple App Store / Google Play</td>
+                <td>用於確認訂閱是否有效。信用卡資訊不會到達我們這裡。</td>
+              </tr>
+              <tr>
+                <td>沒有任何自動傳送</td>
+                <td>你點開的網站</td>
+                <td>在 App 中開啟連結會把它交給你的瀏覽器，之後就與你的瀏覽器平時一樣。</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <h3 id="zh-Hant-gcd-notdo">App 不會做的事</h3>
+        <p>在本政策為現行版本期間：</p>
+        <ul>
+          <li>沒有帳號，不需要註冊，不需要電子郵件，也不需要密碼。</li>
+          <li>我們不營運任何接收你內容的伺服器，也沒有任何記錄著你的資料庫。</li>
+          <li>我們不出售你的個人資料，也不會為跨情境行為廣告而分享它。</li>
+          <li>App 不會跨其他公司的 App 或網站追蹤你，也不跳出「App 追蹤透明度」授權框。</li>
+          <li>沒有任何內容同步到屬於我們的雲端帳戶。我們這邊沒有可供還原的備份。</li>
+          <li>App 不索取也不讀取你的位置。</li>
+          <li>App 不錄製音訊，執行階段也不要求麥克風權限。</li>
+          <li>App 不讀取你的通訊錄、行事曆、簡訊、通話記錄，也不讀取其專屬儲存區以外的檔案。</li>
+        </ul>
+        <h3 id="zh-Hant-gcd-perms">權限，以及每一項的用途</h3>
+        <p>下列每一項權限都只用於所聲明的那一個用途，不作他用。在兩個平台上，你都可以在系統設定中拒絕或撤回其中任何一項；依賴它的功能會停止運作，App 的其餘部分照常運行。</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>權限</th>
+              <th>平台</th>
+              <th>目的</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>網路存取</td>
+                <td>Android</td>
+                <td>上述網路請求所必需。</td>
+              </tr>
+              <tr>
+                <td>廣告 ID</td>
+                <td>Android</td>
+                <td>供 AdMob 挑選和統計廣告。你可以在 Android 設定中重設或刪除它。</td>
+              </tr>
+              <tr>
+                <td>付款</td>
+                <td>Android</td>
+                <td>透過 Google Play 售出並驗證訂閱。</td>
+              </tr>
+              <tr>
+                <td>App 追蹤透明度</td>
+                <td>iOS</td>
+                <td>不要求。App 不會跨其他公司的 App 或網站追蹤你。</td>
+              </tr>
+              <tr>
+                <td>麥克風</td>
+                <td>Android 與 iOS</td>
+                <td>不要求。</td>
+              </tr>
+              <tr>
+                <td>相機</td>
+                <td>Android 與 iOS</td>
+                <td>不要求。</td>
+              </tr>
+              <tr>
+                <td>位置</td>
+                <td>Android 與 iOS</td>
+                <td>不要求。</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <h3 id="zh-Hant-gcd-ads">廣告，以及你的選擇</h3>
+        <p>這個版本的 App 會顯示由 <strong>Google AdMob</strong> 提供的廣告。對於透過這些廣告蒐集的資料，Google 是獨立的資料控管者，依其自身政策處理，詳見 <a href="https://policies.google.com/technologies/partner-sites" rel="noopener">policies.google.com/technologies/partner-sites</a>。</p>
+        <p>為了挑選並統計一則廣告，Google 可能會收到你裝置的廣告識別碼、裝置與 App 的一般資訊、由 IP 位址推斷出的大致位置，以及你是否看過或點過該廣告。關於你個人的這些資訊我們一概收不到——我們看到的只是彙總後的收益與曝光次數。</p>
+        <p>本 App 中的廣告以橫幅、活動之間的全螢幕插頁，以及你回到 App 時的開啟畫面廣告形式出現。</p>
+        <p>在歐洲經濟區、英國和瑞士，App 會在要求個人化廣告之前先顯示 Google 的同意表單。你的選擇記錄在你自己的裝置上，隨時可以從 App 設定中的廣告或隱私選項重新開啟，改變主意。</p>
+        <p>你隨時可以重設或刪除廣告識別碼——在 Android 上進入「設定 › 隱私權 › 廣告」，在 iOS 上關閉<em>允許 App 要求追蹤</em>，後者會讓所有 App 都無法取得該識別碼。</p>
+        <p>App 不會跳出 Apple 的「App 追蹤透明度」授權框，也不會跨其他公司的 App 或網站追蹤你。</p>
+        <h3 id="zh-Hant-gcd-telemetry">使用統計與當機報告</h3>
+        <p>App 使用 <strong>Google Firebase</strong> 做兩件事：Crashlytics 負責回報當機，Analytics 負責統計功能的使用次數。兩者都由 Google 代表我們處理。</p>
+        <p>一份當機報告包含程式失敗當下的狀態——錯誤訊息、呼叫堆疊、裝置型號、作業系統版本和 App 版本。它由這次失敗自動產生，告訴我們該去修哪一行程式碼。</p>
+        <p>使用統計事件只是一些匿名動作的計數，例如某個畫面被開啟。我們不設定使用者 ID，也不設定任何使用者屬性，因此這些事件與具體的人無法對應，我們也無法在其中找到你。</p>
+        <h3 id="zh-Hant-gcd-purchases">訂閱與購買</h3>
+        <p>這個版本的 App 提供自動續期訂閱。購買全部由 App Store 或 Google Play 處理。</p>
+        <p>我們從不接觸你的卡號、帳單地址或任何其他付款資訊。商店只告訴 App「是否存在有效權益」這一個答案；該答案快取在你的裝置上，讓 App 離線時也能正常使用。</p>
+        <p>在更早版本中售出的一次性買斷仍然有效並繼續可用；它不會續期，也不會再次扣款。</p>
+        <h2 id="zh-Hant-learnenglish">ALL English</h2>
+        <p>ALL English 透過分級詞彙、聽力練習、測驗和開口跟讀的發音練習來教英語。它可以在 iPhone、iPad 和 Android 上執行，介面支援英語、西班牙語、中文和阿拉伯語。你的學習進度儲存在你正在使用的那台裝置上。</p>
+        <p>本 App 在商店中的名稱是 <strong>McEnglish</strong>，在你主畫面上顯示為 <strong>ALL English</strong>。兩者是同一個 App。</p>
+        <h3 id="zh-Hant-learnenglish-stores">App 在你裝置上儲存了什麼</h3>
+        <p>App 會把下列內容寫入你裝置上的 App 專屬儲存區——其他 App 無法讀取的區域。它們會一直留在那裡，直到你自己刪除，或移除 App 為止。</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>內容</th>
+              <th>用途</th>
+              <th>儲存位置</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>學習進度</td>
+                <td>已完成的課程、測驗結果，以及你看過哪些項目。</td>
+                <td>只在你的裝置上</td>
+              </tr>
+              <tr>
+                <td>收藏</td>
+                <td>你加星號或加入書籤的項目。</td>
+                <td>只在你的裝置上</td>
+              </tr>
+              <tr>
+                <td>連續天數與統計</td>
+                <td>個人頁面上顯示的每日連續天數和學習次數。</td>
+                <td>只在你的裝置上</td>
+              </tr>
+              <tr>
+                <td>設定</td>
+                <td>語言、主題、音訊和顯示方面的偏好。</td>
+                <td>只在你的裝置上</td>
+              </tr>
+              <tr>
+                <td>訂閱狀態</td>
+                <td>來自商店的一個「是或否」的快取答案，讓 App 離線時也能用。</td>
+                <td>只在你的裝置上</td>
+              </tr>
+              <tr>
+                <td>你的廣告選擇</td>
+                <td>你給出的同意答案，免得每次啟動都再問你一次。</td>
+                <td>只在你的裝置上</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>這些內容不會上傳給我們。我們讀不到，無法替你找回，也無法交給任何第三方——因為它們從未到達我們這裡。</p>
+        <p>發音練習所用的語音辨識，由作業系統自帶的辨識器完成——iOS 上是 Apple 的，Android 上是 Google 的——並適用各自平台的隱私條款。依裝置和語言的不同，該辨識器可能在裝置上處理音訊，也可能在平台的伺服器上處理。音訊和辨識結果我們都收不到：App 只被告知你說的內容與目標語句的接近程度，而音訊在得出這個分數之後隨即丟棄。</p>
+        <h3 id="zh-Hant-learnenglish-leaves">有什麼會離開你的裝置</h3>
+        <p>下面是完整的清單。凡是沒有列出的，都留在你的裝置上。</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>送出的內容</th>
+              <th>接收方</th>
+              <th>目的</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>廣告請求</td>
+                <td>Google AdMob</td>
+                <td>用於挑選並統計一則廣告。</td>
+              </tr>
+              <tr>
+                <td>匿名使用事件</td>
+                <td>Google Firebase Analytics</td>
+                <td>哪些功能被開啟的計數，不附帶使用者 ID。</td>
+              </tr>
+              <tr>
+                <td>當機報告</td>
+                <td>Google Firebase Crashlytics</td>
+                <td>App 失敗時的錯誤訊息、呼叫堆疊、裝置型號和 App 版本。</td>
+              </tr>
+              <tr>
+                <td>購買驗證</td>
+                <td>Apple App Store / Google Play</td>
+                <td>用於確認訂閱是否有效。信用卡資訊不會到達我們這裡。</td>
+              </tr>
+              <tr>
+                <td>沒有任何自動傳送</td>
+                <td>你點開的網站</td>
+                <td>在 App 中開啟連結會把它交給你的瀏覽器，之後就與你的瀏覽器平時一樣。</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <h3 id="zh-Hant-learnenglish-notdo">App 不會做的事</h3>
+        <p>在本政策為現行版本期間：</p>
+        <ul>
+          <li>沒有帳號，不需要註冊，不需要電子郵件，也不需要密碼。</li>
+          <li>我們不營運任何接收你內容的伺服器，也沒有任何記錄著你的資料庫。</li>
+          <li>我們不出售你的個人資料，也不會為跨情境行為廣告而分享它。</li>
+          <li>App 不會跨其他公司的 App 或網站追蹤你，也不跳出「App 追蹤透明度」授權框。</li>
+          <li>沒有任何內容同步到屬於我們的雲端帳戶。我們這邊沒有可供還原的備份。</li>
+          <li>App 不索取也不讀取你的位置。</li>
+          <li>App 不讀取你的通訊錄、行事曆、簡訊、通話記錄，也不讀取其專屬儲存區以外的檔案。</li>
+        </ul>
+        <h3 id="zh-Hant-learnenglish-perms">權限，以及每一項的用途</h3>
+        <p>下列每一項權限都只用於所聲明的那一個用途，不作他用。在兩個平台上，你都可以在系統設定中拒絕或撤回其中任何一項；依賴它的功能會停止運作，App 的其餘部分照常運行。</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>權限</th>
+              <th>平台</th>
+              <th>目的</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>網路存取</td>
+                <td>Android</td>
+                <td>上述網路請求所必需。</td>
+              </tr>
+              <tr>
+                <td>網路狀態</td>
+                <td>Android</td>
+                <td>在嘗試連網前先確認是否有連線。</td>
+              </tr>
+              <tr>
+                <td>麥克風</td>
+                <td>Android</td>
+                <td>在你開始錄音時進行錄製。</td>
+              </tr>
+              <tr>
+                <td>廣告 ID</td>
+                <td>Android</td>
+                <td>供 AdMob 挑選和統計廣告。你可以在 Android 設定中重設或刪除它。</td>
+              </tr>
+              <tr>
+                <td>麥克風</td>
+                <td>iOS</td>
+                <td>在你開始錄音時進行錄製。</td>
+              </tr>
+              <tr>
+                <td>語音辨識</td>
+                <td>iOS</td>
+                <td>使用 Apple 的辨識器為你的發音評分。</td>
+              </tr>
+              <tr>
+                <td>App 追蹤透明度</td>
+                <td>iOS</td>
+                <td>不要求。App 不會跨其他公司的 App 或網站追蹤你。</td>
+              </tr>
+              <tr>
+                <td>位置</td>
+                <td>Android 與 iOS</td>
+                <td>不要求。</td>
+              </tr>
+              <tr>
+                <td>相機</td>
+                <td>Android 與 iOS</td>
+                <td>不要求。</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <h3 id="zh-Hant-learnenglish-ads">廣告，以及你的選擇</h3>
+        <p>這個版本的 App 會顯示由 <strong>Google AdMob</strong> 提供的廣告。對於透過這些廣告蒐集的資料，Google 是獨立的資料控管者，依其自身政策處理，詳見 <a href="https://policies.google.com/technologies/partner-sites" rel="noopener">policies.google.com/technologies/partner-sites</a>。</p>
+        <p>為了挑選並統計一則廣告，Google 可能會收到你裝置的廣告識別碼、裝置與 App 的一般資訊、由 IP 位址推斷出的大致位置，以及你是否看過或點過該廣告。關於你個人的這些資訊我們一概收不到——我們看到的只是彙總後的收益與曝光次數。</p>
+        <p>本 App 中的廣告以橫幅和活動之間的全螢幕插頁形式出現。</p>
+        <p>在歐洲經濟區、英國和瑞士，App 會在要求個人化廣告之前先顯示 Google 的同意表單。你的選擇記錄在你自己的裝置上，隨時可以從 App 設定中的廣告或隱私選項重新開啟，改變主意。</p>
+        <p>你隨時可以重設或刪除廣告識別碼——在 Android 上進入「設定 › 隱私權 › 廣告」，在 iOS 上關閉<em>允許 App 要求追蹤</em>，後者會讓所有 App 都無法取得該識別碼。</p>
+        <p>App 不會跳出 Apple 的「App 追蹤透明度」授權框，也不會跨其他公司的 App 或網站追蹤你。</p>
+        <h3 id="zh-Hant-learnenglish-telemetry">使用統計與當機報告</h3>
+        <p>App 使用 <strong>Google Firebase</strong> 做兩件事：Crashlytics 負責回報當機，Analytics 負責統計功能的使用次數。兩者都由 Google 代表我們處理。</p>
+        <p>一份當機報告包含程式失敗當下的狀態——錯誤訊息、呼叫堆疊、裝置型號、作業系統版本和 App 版本。它由這次失敗自動產生，告訴我們該去修哪一行程式碼。</p>
+        <p>使用統計事件只是一些匿名動作的計數，例如某個畫面被開啟。我們不設定使用者 ID，也不設定任何使用者屬性，因此這些事件與具體的人無法對應，我們也無法在其中找到你。</p>
+        <h3 id="zh-Hant-learnenglish-purchases">訂閱與購買</h3>
+        <p>這個版本的 App 提供自動續期訂閱。購買全部由 App Store 或 Google Play 處理。</p>
+        <p>我們從不接觸你的卡號、帳單地址或任何其他付款資訊。商店只告訴 App「是否存在有效權益」這一個答案；該答案快取在你的裝置上，讓 App 離線時也能正常使用。</p>
+        <h2 id="zh-Hant-xiezi">Xie Zi</h2>
+        <p>Xie Zi 教的是漢字書寫：你按正確的筆順描寫每一個字，App 會告訴你哪一筆寫錯了。它收錄的 9,574 字辭典和全部筆順動畫都打包在 App 內部，因此練字完全不需要連網。</p>
+        <h3 id="zh-Hant-xiezi-stores">App 在你裝置上儲存了什麼</h3>
+        <p>App 會把下列內容寫入你裝置上的 App 專屬儲存區——其他 App 無法讀取的區域。它們會一直留在那裡，直到你自己刪除，或移除 App 為止。</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>內容</th>
+              <th>用途</th>
+              <th>儲存位置</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>辭典</td>
+                <td>隨 App 一起打包、從你裝置上讀取的參考資料。</td>
+                <td>只在你的裝置上</td>
+              </tr>
+              <tr>
+                <td>學習進度</td>
+                <td>已完成的課程、測驗結果，以及你看過哪些項目。</td>
+                <td>只在你的裝置上</td>
+              </tr>
+              <tr>
+                <td>收藏</td>
+                <td>你加星號或加入書籤的項目。</td>
+                <td>只在你的裝置上</td>
+              </tr>
+              <tr>
+                <td>瀏覽記錄</td>
+                <td>你最近查過或練過的內容，方便你回頭再看。</td>
+                <td>只在你的裝置上</td>
+              </tr>
+              <tr>
+                <td>連續天數與統計</td>
+                <td>個人頁面上顯示的每日連續天數和學習次數。</td>
+                <td>只在你的裝置上</td>
+              </tr>
+              <tr>
+                <td>設定</td>
+                <td>語言、主題、音訊和顯示方面的偏好。</td>
+                <td>只在你的裝置上</td>
+              </tr>
+              <tr>
+                <td>訂閱狀態</td>
+                <td>來自商店的一個「是或否」的快取答案，讓 App 離線時也能用。</td>
+                <td>只在你的裝置上</td>
+              </tr>
+              <tr>
+                <td>你的廣告選擇</td>
+                <td>你給出的同意答案，免得每次啟動都再問你一次。</td>
+                <td>只在你的裝置上</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>這些內容不會上傳給我們。我們讀不到，無法替你找回，也無法交給任何第三方——因為它們從未到達我們這裡。</p>
+        <h3 id="zh-Hant-xiezi-leaves">有什麼會離開你的裝置</h3>
+        <p>下面是完整的清單。凡是沒有列出的，都留在你的裝置上。</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>送出的內容</th>
+              <th>接收方</th>
+              <th>目的</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>廣告請求</td>
+                <td>Google AdMob</td>
+                <td>用於挑選並統計一則廣告。</td>
+              </tr>
+              <tr>
+                <td>購買驗證</td>
+                <td>Apple App Store / Google Play</td>
+                <td>用於確認訂閱是否有效。信用卡資訊不會到達我們這裡。</td>
+              </tr>
+              <tr>
+                <td>沒有任何自動傳送</td>
+                <td>你點開的網站</td>
+                <td>在 App 中開啟連結會把它交給你的瀏覽器，之後就與你的瀏覽器平時一樣。</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>筆順動畫及其全部漢字資料都打包在 App 內部。檢視或練習任何一個字都不會發出網路請求。</p>
+        <h3 id="zh-Hant-xiezi-notdo">App 不會做的事</h3>
+        <p>在本政策為現行版本期間：</p>
+        <ul>
+          <li>沒有帳號，不需要註冊，不需要電子郵件，也不需要密碼。</li>
+          <li>我們不營運任何接收你內容的伺服器，也沒有任何記錄著你的資料庫。</li>
+          <li>我們不出售你的個人資料，也不會為跨情境行為廣告而分享它。</li>
+          <li>App 不會跨其他公司的 App 或網站追蹤你，也不跳出「App 追蹤透明度」授權框。</li>
+          <li>沒有任何內容同步到屬於我們的雲端帳戶。我們這邊沒有可供還原的備份。</li>
+          <li>這個版本不含使用統計 SDK，也不含當機回報 SDK。</li>
+          <li>App 不索取也不讀取你的位置。</li>
+          <li>App 不錄製音訊，執行階段也不要求麥克風權限。</li>
+          <li>App 不讀取你的通訊錄、行事曆、簡訊、通話記錄，也不讀取其專屬儲存區以外的檔案。</li>
+        </ul>
+        <h3 id="zh-Hant-xiezi-perms">權限，以及每一項的用途</h3>
+        <p>下列每一項權限都只用於所聲明的那一個用途，不作他用。在兩個平台上，你都可以在系統設定中拒絕或撤回其中任何一項；依賴它的功能會停止運作，App 的其餘部分照常運行。</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>權限</th>
+              <th>平台</th>
+              <th>目的</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>網路存取</td>
+                <td>Android</td>
+                <td>上述網路請求所必需。</td>
+              </tr>
+              <tr>
+                <td>網路狀態</td>
+                <td>Android</td>
+                <td>在嘗試連網前先確認是否有連線。</td>
+              </tr>
+              <tr>
+                <td>廣告 ID</td>
+                <td>Android</td>
+                <td>供 AdMob 挑選和統計廣告。你可以在 Android 設定中重設或刪除它。</td>
+              </tr>
+              <tr>
+                <td>麥克風——已宣告，未使用</td>
+                <td>Android</td>
+                <td>早期設計的遺留。這個版本不含錄音程式碼，執行階段從不要求該權限。</td>
+              </tr>
+              <tr>
+                <td>藍牙——已宣告，未使用</td>
+                <td>Android</td>
+                <td>早期設計的遺留。這個版本不含藍牙程式碼，執行階段從不要求該權限。</td>
+              </tr>
+              <tr>
+                <td>App 追蹤透明度</td>
+                <td>iOS</td>
+                <td>不要求。App 不會跨其他公司的 App 或網站追蹤你。</td>
+              </tr>
+              <tr>
+                <td>麥克風</td>
+                <td>Android 與 iOS</td>
+                <td>不要求。</td>
+              </tr>
+              <tr>
+                <td>相機</td>
+                <td>Android 與 iOS</td>
+                <td>不要求。</td>
+              </tr>
+              <tr>
+                <td>位置</td>
+                <td>Android 與 iOS</td>
+                <td>不要求。</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>Android 資訊清單中還保留著兩項來自早期設計的權限——麥克風和藍牙——因此商店頁面上會列出它們。這個版本的 App 既不含錄音程式碼也不含藍牙程式碼：兩者都不會在執行階段被要求，也都不會被使用。之所以在此說明，是因為你能在商店頁面看到它們，你理應得到一個解釋，而不是一個意外。</p>
+        <h3 id="zh-Hant-xiezi-ads">廣告，以及你的選擇</h3>
+        <p>這個版本的 App 會顯示由 <strong>Google AdMob</strong> 提供的廣告。對於透過這些廣告蒐集的資料，Google 是獨立的資料控管者，依其自身政策處理，詳見 <a href="https://policies.google.com/technologies/partner-sites" rel="noopener">policies.google.com/technologies/partner-sites</a>。</p>
+        <p>為了挑選並統計一則廣告，Google 可能會收到你裝置的廣告識別碼、裝置與 App 的一般資訊、由 IP 位址推斷出的大致位置，以及你是否看過或點過該廣告。關於你個人的這些資訊我們一概收不到——我們看到的只是彙總後的收益與曝光次數。</p>
+        <p>本 App 中的廣告以橫幅和活動之間的全螢幕插頁形式出現。</p>
+        <p>這個版本要求的是非個人化廣告。非個人化廣告同樣會被統計，因此仍有少量資訊到達 Google，但它不是根據你的興趣輪廓挑選出來的。</p>
+        <p>在歐洲經濟區、英國和瑞士，App 會在要求個人化廣告之前先顯示 Google 的同意表單。你的選擇記錄在你自己的裝置上，隨時可以從 App 設定中的廣告或隱私選項重新開啟，改變主意。</p>
+        <p>你隨時可以重設或刪除廣告識別碼——在 Android 上進入「設定 › 隱私權 › 廣告」，在 iOS 上關閉<em>允許 App 要求追蹤</em>，後者會讓所有 App 都無法取得該識別碼。</p>
+        <p>App 不會跳出 Apple 的「App 追蹤透明度」授權框，也不會跨其他公司的 App 或網站追蹤你。</p>
+        <h3 id="zh-Hant-xiezi-telemetry">使用統計與當機報告</h3>
+        <p>這個版本的 App 不含任何使用統計 SDK，也不含任何當機回報 SDK。我們收不到它的任何使用資料、當機報告或診斷資訊。</p>
+        <h3 id="zh-Hant-xiezi-purchases">訂閱與購買</h3>
+        <p>這個版本的 App 提供自動續期訂閱。購買全部由 App Store 或 Google Play 處理。</p>
+        <p>我們從不接觸你的卡號、帳單地址或任何其他付款資訊。商店只告訴 App「是否存在有效權益」這一個答案；該答案快取在你的裝置上，讓 App 離線時也能正常使用。</p>
+        <h2 id="zh-Hant-momerame">Momera.ME</h2>
+        <p>Momera.ME 在事情發生的當下把它記下來——一張相片、一段語音、一則筆記、你在哪裡、走了多遠——並把它們收在同一筆記錄裡。它記下的一切都寫入你自己的裝置。它在 Android 上執行。</p>
+        <h3 id="zh-Hant-momerame-stores">App 在你裝置上儲存了什麼</h3>
+        <p>App 會把下列內容寫入你裝置上的 App 專屬儲存區——其他 App 無法讀取的區域。它們會一直留在那裡，直到你自己刪除，或移除 App 為止。</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>內容</th>
+              <th>用途</th>
+              <th>儲存位置</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>相片與影片</td>
+                <td>你在 App 中拍攝或附加到某筆記錄上的那些。</td>
+                <td>只在你的裝置上</td>
+              </tr>
+              <tr>
+                <td>語音備忘</td>
+                <td>你針對某個地點或某筆記錄錄下的音訊。</td>
+                <td>只在你的裝置上</td>
+              </tr>
+              <tr>
+                <td>轉錄文字</td>
+                <td>在裝置上由你的音訊產生的文字。</td>
+                <td>只在你的裝置上</td>
+              </tr>
+              <tr>
+                <td>文字筆記</td>
+                <td>你輸入的內容。</td>
+                <td>只在你的裝置上</td>
+              </tr>
+              <tr>
+                <td>記錄的路線</td>
+                <td>你主動開始記錄的那段行程的 GPS 軌跡。</td>
+                <td>只在你的裝置上</td>
+              </tr>
+              <tr>
+                <td>步數</td>
+                <td>記錄期間由裝置感測器統計的步數。</td>
+                <td>只在你的裝置上</td>
+              </tr>
+              <tr>
+                <td>語音模型</td>
+                <td>下載下來、讓離線轉錄得以運作的模型檔案。</td>
+                <td>只在你的裝置上</td>
+              </tr>
+              <tr>
+                <td>快取的地圖圖磚</td>
+                <td>已經下載過的地圖方塊，留著讓該區域離線可用。</td>
+                <td>只在你的裝置上</td>
+              </tr>
+              <tr>
+                <td>設定</td>
+                <td>語言、主題、音訊和顯示方面的偏好。</td>
+                <td>只在你的裝置上</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>這些內容不會上傳給我們。我們讀不到，無法替你找回，也無法交給任何第三方——因為它們從未到達我們這裡。</p>
+        <p>語音由 App 內建的模型在你的裝置上轉錄。你的音訊不會被上傳，不會被送往任何雲端轉錄服務，也不會被用來訓練任何模型。</p>
+        <p>步數統計透過「體能活動」權限讀取裝置自帶的計步感測器。計數與該次記錄一起儲存在你的裝置上。App 不讀取也不寫入任何健康或健身平台——既不是 Apple 健康，也不是 Google Fit。</p>
+        <p>螢幕錄製只有在你啟動它時才會進行，且只錄製本 App 自己的畫面，產生的檔案寫入你的裝置。它絕不會在背景或未經你操作的情況下啟動。</p>
+        <p>本 App 關閉了 Android 自動備份，因此它的內容不會被複製到你的 Google 雲端硬碟，也不會在換機移轉時被帶走。</p>
+        <h3 id="zh-Hant-momerame-leaves">有什麼會離開你的裝置</h3>
+        <p>下面是完整的清單。凡是沒有列出的，都留在你的裝置上。</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>送出的內容</th>
+              <th>接收方</th>
+              <th>目的</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>地圖圖磚請求</td>
+                <td>OpenStreetMap 基金會</td>
+                <td>用於繪製地圖。會送出你的 IP 位址和所請求的地圖方塊。</td>
+              </tr>
+              <tr>
+                <td>一次性的模型下載</td>
+                <td>GitHub，失敗時改用 Hugging Face</td>
+                <td>用於取回離線語音模型。不送出關於你的任何資訊。</td>
+              </tr>
+              <tr>
+                <td>沒有任何自動傳送</td>
+                <td>你點開的網站</td>
+                <td>在 App 中開啟連結會把它交給你的瀏覽器，之後就與你的瀏覽器平時一樣。</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>地圖是由你平移和縮放時取回的圖磚拼出來的。該請求會讓圖磚伺服器知道你的 IP 位址，以及你正在看地圖的哪一小塊——任何線上地圖都是如此。你記錄的路線絕不會隨之送出。圖磚會快取在你的裝置上，因此看過的區域在離線時仍然可用。</p>
+        <p>第一次使用離線轉錄時，App 會從我們在 GitHub 上的發行頁下載語音辨識模型（約 228 MB），若該位址無法使用則改從 Hugging Face 下載。這只是單向地取回一個檔案：請求中不包含關於你的任何資訊，也不包含你的任何音訊。模型下載到裝置之後，轉錄完全在裝置上進行，在完全沒有網路的情況下也能運作。</p>
+        <p>上表之外，凡是你主動送出的內容——透過系統分享面板、匯出、列印或剪貼簿——都會到你指定的地方。那是你每一次自己的選擇，不在上表的範圍內。</p>
+        <h3 id="zh-Hant-momerame-notdo">App 不會做的事</h3>
+        <p>在本政策為現行版本期間：</p>
+        <ul>
+          <li>沒有帳號，不需要註冊，不需要電子郵件，也不需要密碼。</li>
+          <li>我們不營運任何接收你內容的伺服器，也沒有任何記錄著你的資料庫。</li>
+          <li>我們不出售你的個人資料，也不會為跨情境行為廣告而分享它。</li>
+          <li>App 不會跨其他公司的 App 或網站追蹤你，也不跳出「App 追蹤透明度」授權框。</li>
+          <li>沒有任何內容同步到屬於我們的雲端帳戶。我們這邊沒有可供還原的備份。</li>
+          <li>這個版本不含廣告 SDK，也不顯示任何廣告。</li>
+          <li>這個版本不含使用統計 SDK，也不含當機回報 SDK。</li>
+          <li>App 不讀取你的通訊錄、行事曆、簡訊、通話記錄，也不讀取其專屬儲存區以外的檔案。</li>
+          <li>App 不讀取也不寫入任何健康或健身平台——既不是 Apple 健康，也不是 Google Fit。</li>
+        </ul>
+        <h3 id="zh-Hant-momerame-perms">權限，以及每一項的用途</h3>
+        <p>下列每一項權限都只用於所聲明的那一個用途，不作他用。在兩個平台上，你都可以在系統設定中拒絕或撤回其中任何一項；依賴它的功能會停止運作，App 的其餘部分照常運行。</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>權限</th>
+              <th>平台</th>
+              <th>目的</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>網路存取</td>
+                <td>Android</td>
+                <td>上述網路請求所必需。</td>
+              </tr>
+              <tr>
+                <td>麥克風</td>
+                <td>Android</td>
+                <td>在你開始錄音時進行錄製。</td>
+              </tr>
+              <tr>
+                <td>相機</td>
+                <td>Android</td>
+                <td>在 App 內拍攝相片或影片。</td>
+              </tr>
+              <tr>
+                <td>精確位置</td>
+                <td>Android</td>
+                <td>在記錄期間準確記下你的路線。</td>
+              </tr>
+              <tr>
+                <td>大致位置</td>
+                <td>Android</td>
+                <td>當你只允許大致位置時，系統授予的退而求其次的那一項。</td>
+              </tr>
+              <tr>
+                <td>背景位置</td>
+                <td>Android</td>
+                <td>讓你已開始的記錄在離開 App 後不中斷。在你沒有進行記錄時不會使用。</td>
+              </tr>
+              <tr>
+                <td>體能活動</td>
+                <td>Android</td>
+                <td>在記錄期間讀取裝置的計步器。</td>
+              </tr>
+              <tr>
+                <td>前景服務</td>
+                <td>Android</td>
+                <td>讓你啟動的工作帶著一則可見的常駐通知繼續執行。</td>
+              </tr>
+              <tr>
+                <td>前景服務——位置</td>
+                <td>Android</td>
+                <td>在螢幕關閉時保持你已開始記錄的路線不中斷。</td>
+              </tr>
+              <tr>
+                <td>前景服務——麥克風</td>
+                <td>Android</td>
+                <td>在螢幕關閉時保持你已開始的錄音繼續進行。</td>
+              </tr>
+              <tr>
+                <td>前景服務——螢幕錄製</td>
+                <td>Android</td>
+                <td>僅在你啟動的螢幕錄製進行期間。</td>
+              </tr>
+              <tr>
+                <td>通知</td>
+                <td>Android</td>
+                <td>在錄製進行期間顯示常駐通知，並在結束時告知你。</td>
+              </tr>
+              <tr>
+                <td>儲存空間（僅舊版 Android）</td>
+                <td>Android</td>
+                <td>在 Android 9 及更早版本上儲存檔案。在更新的版本上不會要求。</td>
+              </tr>
+              <tr>
+                <td>App 追蹤透明度</td>
+                <td>iOS</td>
+                <td>不要求。App 不會跨其他公司的 App 或網站追蹤你。</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>背景位置只在你自己啟動的記錄進行期間使用，且僅用於在螢幕關閉時保持軌跡不中斷。整個過程中都有一則常駐通知可見。它絕不會被用來在你未啟動記錄時蒐集你的行蹤。</p>
+        <h3 id="zh-Hant-momerame-telemetry">使用統計與當機報告</h3>
+        <p>這個版本的 App 不含任何使用統計 SDK，也不含任何當機回報 SDK。我們收不到它的任何使用資料、當機報告或診斷資訊。</p>
+        <h3 id="zh-Hant-momerame-purchases">訂閱與購買</h3>
+        <p>這個版本的 App 沒有任何 App 內購買，也沒有訂閱，因此不會蒐集任何付款資訊。</p>
+        <h2 id="zh-Hant-momerago">Momera GO</h2>
+        <p>Momera GO 在你走的時候把這趟健行記下來——路線、拍攝地點上釘著的相片和影片、語音備忘和筆記——並把它變成一段可以回放的行程。它可以在 iPhone、iPad 和 Android 上執行，並且是為沒有訊號的地方設計的。</p>
+        <h3 id="zh-Hant-momerago-stores">App 在你裝置上儲存了什麼</h3>
+        <p>App 會把下列內容寫入你裝置上的 App 專屬儲存區——其他 App 無法讀取的區域。它們會一直留在那裡，直到你自己刪除，或移除 App 為止。</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>內容</th>
+              <th>用途</th>
+              <th>儲存位置</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>記錄的路線</td>
+                <td>你主動開始記錄的那段行程的 GPS 軌跡。</td>
+                <td>只在你的裝置上</td>
+              </tr>
+              <tr>
+                <td>相片與影片</td>
+                <td>你在 App 中拍攝或附加到某筆記錄上的那些。</td>
+                <td>只在你的裝置上</td>
+              </tr>
+              <tr>
+                <td>語音備忘</td>
+                <td>你針對某個地點或某筆記錄錄下的音訊。</td>
+                <td>只在你的裝置上</td>
+              </tr>
+              <tr>
+                <td>文字筆記</td>
+                <td>你輸入的內容。</td>
+                <td>只在你的裝置上</td>
+              </tr>
+              <tr>
+                <td>行程</td>
+                <td>你用路線、相片和筆記組成的旅程。</td>
+                <td>只在你的裝置上</td>
+              </tr>
+              <tr>
+                <td>匯入的路線與時間軸檔案</td>
+                <td>你自己匯入的 GPX 檔和 Google 時間軸匯出檔。</td>
+                <td>只在你的裝置上</td>
+              </tr>
+              <tr>
+                <td>步數</td>
+                <td>記錄期間由裝置感測器統計的步數。</td>
+                <td>只在你的裝置上</td>
+              </tr>
+              <tr>
+                <td>快取的地圖圖磚</td>
+                <td>已經下載過的地圖方塊，留著讓該區域離線可用。</td>
+                <td>只在你的裝置上</td>
+              </tr>
+              <tr>
+                <td>設定</td>
+                <td>語言、主題、音訊和顯示方面的偏好。</td>
+                <td>只在你的裝置上</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>這些內容不會上傳給我們。我們讀不到，無法替你找回，也無法交給任何第三方——因為它們從未到達我們這裡。</p>
+        <p>你可以匯入 Google 地圖時間軸的匯出檔來重建過去的行程。檔案由你自己提供；App 在你的裝置上讀取它，檔案本身以及由它產生的任何內容都不會上傳。在 App 中刪除匯入的行程，它們就不存在了。</p>
+        <p>用相片產生行程時使用的是系統相片選擇器。選擇器只把你挑中的那幾項交給 App——App 並不會因此取得存取你整個相簿的權限，在 iOS 上更是完全不要求相簿權限。從相片自身中繼資料中讀到的位置，用於把它放到地圖上，並與行程一起留在你的裝置上。</p>
+        <p>步數統計透過「體能活動」權限讀取裝置自帶的計步感測器。計數與該次記錄一起儲存在你的裝置上。App 不讀取也不寫入任何健康或健身平台——既不是 Apple 健康，也不是 Google Fit。</p>
+        <p>App 可以開啟其他 App 傳來的 .gpx 檔，也可以把你的路線匯出為 .gpx 或 GeoJSON。匯入是在你的裝置上讀取檔案；匯出則產生一個檔案，之後如何處置由你決定。</p>
+        <h3 id="zh-Hant-momerago-leaves">有什麼會離開你的裝置</h3>
+        <p>下面是完整的清單。凡是沒有列出的，都留在你的裝置上。</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>送出的內容</th>
+              <th>接收方</th>
+              <th>目的</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>地圖圖磚請求</td>
+                <td>OpenStreetMap 基金會</td>
+                <td>用於繪製地圖。會送出你的 IP 位址和所請求的地圖方塊。</td>
+              </tr>
+              <tr>
+                <td>地形圖磚請求</td>
+                <td>OpenTopoMap</td>
+                <td>用於繪製地形圖。會送出你的 IP 位址和所請求的地圖方塊。</td>
+              </tr>
+              <tr>
+                <td>匿名使用事件（僅 Android 版本）</td>
+                <td>Google Firebase Analytics</td>
+                <td>診斷計數，不附帶使用者 ID，也不附帶位置。</td>
+              </tr>
+              <tr>
+                <td>當機報告（僅 Android 版本）</td>
+                <td>Google Firebase Crashlytics</td>
+                <td>App 失敗時的錯誤訊息、呼叫堆疊、裝置型號和 App 版本。</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>地圖是由你平移和縮放時取回的圖磚拼出來的。該請求會讓圖磚伺服器知道你的 IP 位址，以及你正在看地圖的哪一小塊——任何線上地圖都是如此。你記錄的路線絕不會隨之送出。圖磚會快取在你的裝置上，因此看過的區域在離線時仍然可用。</p>
+        <p>上表之外，凡是你主動送出的內容——透過系統分享面板、匯出、列印或剪貼簿——都會到你指定的地方。那是你每一次自己的選擇，不在上表的範圍內。</p>
+        <h3 id="zh-Hant-momerago-notdo">App 不會做的事</h3>
+        <p>在本政策為現行版本期間：</p>
+        <ul>
+          <li>沒有帳號，不需要註冊，不需要電子郵件，也不需要密碼。</li>
+          <li>我們不營運任何接收你內容的伺服器，也沒有任何記錄著你的資料庫。</li>
+          <li>我們不出售你的個人資料，也不會為跨情境行為廣告而分享它。</li>
+          <li>App 不會跨其他公司的 App 或網站追蹤你，也不跳出「App 追蹤透明度」授權框。</li>
+          <li>沒有任何內容同步到屬於我們的雲端帳戶。我們這邊沒有可供還原的備份。</li>
+          <li>這個版本不含廣告 SDK，也不顯示任何廣告。</li>
+          <li>App 不讀取你的通訊錄、行事曆、簡訊、通話記錄，也不讀取其專屬儲存區以外的檔案。</li>
+          <li>App 不讀取也不寫入任何健康或健身平台——既不是 Apple 健康，也不是 Google Fit。</li>
+        </ul>
+        <h3 id="zh-Hant-momerago-perms">權限，以及每一項的用途</h3>
+        <p>下列每一項權限都只用於所聲明的那一個用途，不作他用。在兩個平台上，你都可以在系統設定中拒絕或撤回其中任何一項；依賴它的功能會停止運作，App 的其餘部分照常運行。</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>權限</th>
+              <th>平台</th>
+              <th>目的</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>網路存取</td>
+                <td>Android</td>
+                <td>上述網路請求所必需。</td>
+              </tr>
+              <tr>
+                <td>精確位置</td>
+                <td>Android</td>
+                <td>在記錄期間準確記下你的路線。</td>
+              </tr>
+              <tr>
+                <td>大致位置</td>
+                <td>Android</td>
+                <td>當你只允許大致位置時，系統授予的退而求其次的那一項。</td>
+              </tr>
+              <tr>
+                <td>相機</td>
+                <td>Android</td>
+                <td>在 App 內拍攝相片或影片。</td>
+              </tr>
+              <tr>
+                <td>麥克風</td>
+                <td>Android</td>
+                <td>在你開始錄音時進行錄製。</td>
+              </tr>
+              <tr>
+                <td>相片中的位置</td>
+                <td>Android</td>
+                <td>從相片自身的中繼資料中讀出拍攝地點，以便把它放到地圖上。</td>
+              </tr>
+              <tr>
+                <td>體能活動</td>
+                <td>Android</td>
+                <td>在記錄期間讀取裝置的計步器。</td>
+              </tr>
+              <tr>
+                <td>前景服務</td>
+                <td>Android</td>
+                <td>讓你啟動的工作帶著一則可見的常駐通知繼續執行。</td>
+              </tr>
+              <tr>
+                <td>前景服務——位置</td>
+                <td>Android</td>
+                <td>在螢幕關閉時保持你已開始記錄的路線不中斷。</td>
+              </tr>
+              <tr>
+                <td>前景服務——螢幕錄製</td>
+                <td>Android</td>
+                <td>僅在你啟動的螢幕錄製進行期間。</td>
+              </tr>
+              <tr>
+                <td>通知</td>
+                <td>Android</td>
+                <td>在錄製進行期間顯示常駐通知，並在結束時告知你。</td>
+              </tr>
+              <tr>
+                <td>儲存空間（僅舊版 Android）</td>
+                <td>Android</td>
+                <td>在 Android 9 及更早版本上儲存檔案。在更新的版本上不會要求。</td>
+              </tr>
+              <tr>
+                <td>位置——使用期間</td>
+                <td>iOS</td>
+                <td>在記錄進行期間記下你的路線。不申請「永遠」位置權限。</td>
+              </tr>
+              <tr>
+                <td>相機</td>
+                <td>iOS</td>
+                <td>在 App 內拍攝。</td>
+              </tr>
+              <tr>
+                <td>麥克風</td>
+                <td>iOS</td>
+                <td>在你開始錄音時進行錄製。</td>
+              </tr>
+              <tr>
+                <td>背景位置模式</td>
+                <td>iOS</td>
+                <td>讓你已開始的記錄在螢幕鎖定後繼續。沒有記錄進行時它處於非作用狀態。</td>
+              </tr>
+              <tr>
+                <td>背景位置</td>
+                <td>Android 與 iOS</td>
+                <td>兩個平台上都不要求。</td>
+              </tr>
+              <tr>
+                <td>相簿</td>
+                <td>iOS</td>
+                <td>不要求。系統相片選擇器只交出你挑選的那幾項。</td>
+              </tr>
+              <tr>
+                <td>App 追蹤透明度</td>
+                <td>iOS</td>
+                <td>不要求。App 不會跨其他公司的 App 或網站追蹤你。</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>只有在你啟動了一次健行記錄期間才會記錄位置，其間會有一則常駐通知可見，你停止記錄時位置記錄即停止。App 在兩個平台上都不申請背景位置權限。</p>
+        <h3 id="zh-Hant-momerago-telemetry">使用統計與當機報告</h3>
+        <p>App 使用 <strong>Google Firebase</strong> 做兩件事：Crashlytics 負責回報當機，Analytics 負責統計功能的使用次數。兩者都由 Google 代表我們處理。</p>
+        <p>一份當機報告包含程式失敗當下的狀態——錯誤訊息、呼叫堆疊、裝置型號、作業系統版本和 App 版本。它由這次失敗自動產生，告訴我們該去修哪一行程式碼。</p>
+        <p>這些統計事件是關於位置記錄可靠度的診斷計數——記錄已開始、已停止或已復原，或者位置資料流停頓後重新開啟。<strong>其中不包含任何座標、任何路線、任何地名。</strong></p>
+        <div class="pp-note">
+        <p><strong>這一節只適用於 Android 版本。</strong>iOS 版本在建置時未包含 Firebase 設定，因此不會初始化任何 Firebase 服務，不傳送任何當機報告，也不傳送任何統計事件。</p>
+        </div>
+        <h3 id="zh-Hant-momerago-purchases">訂閱與購買</h3>
+        <p>這個版本的 App 沒有任何 App 內購買，也沒有訂閱，因此不會蒐集任何付款資訊。</p>
+        <h2 id="zh-Hant-mcrecorder">McRecorder</h2>
+        <p>McRecorder 錄製音訊，並用一個在你自己裝置上執行的語音模型把它轉錄成文字。錄音和轉錄文字都是 App 專屬儲存區裡的檔案。它可以在 iPhone、iPad 和 Android 上執行。</p>
+        <h3 id="zh-Hant-mcrecorder-stores">App 在你裝置上儲存了什麼</h3>
+        <p>App 會把下列內容寫入你裝置上的 App 專屬儲存區——其他 App 無法讀取的區域。它們會一直留在那裡，直到你自己刪除，或移除 App 為止。</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>內容</th>
+              <th>用途</th>
+              <th>儲存位置</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>錄音</td>
+                <td>你錄下的音訊，以檔案形式儲存。</td>
+                <td>只在你的裝置上</td>
+              </tr>
+              <tr>
+                <td>轉錄文字</td>
+                <td>在裝置上由你的音訊產生的文字。</td>
+                <td>只在你的裝置上</td>
+              </tr>
+              <tr>
+                <td>語音模型</td>
+                <td>下載下來、讓離線轉錄得以運作的模型檔案。</td>
+                <td>只在你的裝置上</td>
+              </tr>
+              <tr>
+                <td>設定</td>
+                <td>語言、主題、音訊和顯示方面的偏好。</td>
+                <td>只在你的裝置上</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>這些內容不會上傳給我們。我們讀不到，無法替你找回，也無法交給任何第三方——因為它們從未到達我們這裡。</p>
+        <p>語音由 App 內建的模型在你的裝置上轉錄。你的音訊不會被上傳，不會被送往任何雲端轉錄服務，也不會被用來訓練任何模型。</p>
+        <h3 id="zh-Hant-mcrecorder-leaves">有什麼會離開你的裝置</h3>
+        <p>下面是完整的清單。凡是沒有列出的，都留在你的裝置上。</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>送出的內容</th>
+              <th>接收方</th>
+              <th>目的</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>一次性的模型下載</td>
+                <td>GitHub，失敗時改用 Hugging Face</td>
+                <td>用於取回離線語音模型。不送出關於你的任何資訊。</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>第一次使用離線轉錄時，App 會從我們在 GitHub 上的發行頁下載語音辨識模型（約 228 MB），若該位址無法使用則改從 Hugging Face 下載。這只是單向地取回一個檔案：請求中不包含關於你的任何資訊，也不包含你的任何音訊。模型下載到裝置之後，轉錄完全在裝置上進行，在完全沒有網路的情況下也能運作。</p>
+        <p>上表之外，凡是你主動送出的內容——透過系統分享面板、匯出、列印或剪貼簿——都會到你指定的地方。那是你每一次自己的選擇，不在上表的範圍內。</p>
+        <h3 id="zh-Hant-mcrecorder-notdo">App 不會做的事</h3>
+        <p>在本政策為現行版本期間：</p>
+        <ul>
+          <li>沒有帳號，不需要註冊，不需要電子郵件，也不需要密碼。</li>
+          <li>我們不營運任何接收你內容的伺服器，也沒有任何記錄著你的資料庫。</li>
+          <li>我們不出售你的個人資料，也不會為跨情境行為廣告而分享它。</li>
+          <li>App 不會跨其他公司的 App 或網站追蹤你，也不跳出「App 追蹤透明度」授權框。</li>
+          <li>沒有任何內容同步到屬於我們的雲端帳戶。我們這邊沒有可供還原的備份。</li>
+          <li>這個版本不含廣告 SDK，也不顯示任何廣告。</li>
+          <li>這個版本不含使用統計 SDK，也不含當機回報 SDK。</li>
+          <li>App 不索取也不讀取你的位置。</li>
+          <li>App 不讀取你的通訊錄、行事曆、簡訊、通話記錄，也不讀取其專屬儲存區以外的檔案。</li>
+        </ul>
+        <h3 id="zh-Hant-mcrecorder-perms">權限，以及每一項的用途</h3>
+        <p>下列每一項權限都只用於所聲明的那一個用途，不作他用。在兩個平台上，你都可以在系統設定中拒絕或撤回其中任何一項；依賴它的功能會停止運作，App 的其餘部分照常運行。</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>權限</th>
+              <th>平台</th>
+              <th>目的</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>網路存取</td>
+                <td>Android</td>
+                <td>上述網路請求所必需。</td>
+              </tr>
+              <tr>
+                <td>麥克風</td>
+                <td>Android</td>
+                <td>在你開始錄音時進行錄製。</td>
+              </tr>
+              <tr>
+                <td>前景服務</td>
+                <td>Android</td>
+                <td>讓你啟動的工作帶著一則可見的常駐通知繼續執行。</td>
+              </tr>
+              <tr>
+                <td>前景服務——麥克風</td>
+                <td>Android</td>
+                <td>在螢幕關閉時保持你已開始的錄音繼續進行。</td>
+              </tr>
+              <tr>
+                <td>保持喚醒</td>
+                <td>Android</td>
+                <td>防止處理器在錄製中途休眠。</td>
+              </tr>
+              <tr>
+                <td>通知</td>
+                <td>Android</td>
+                <td>在錄製進行期間顯示常駐通知，並在結束時告知你。</td>
+              </tr>
+              <tr>
+                <td>麥克風</td>
+                <td>iOS</td>
+                <td>在你開始錄音時進行錄製。</td>
+              </tr>
+              <tr>
+                <td>App 追蹤透明度</td>
+                <td>iOS</td>
+                <td>不要求。App 不會跨其他公司的 App 或網站追蹤你。</td>
+              </tr>
+              <tr>
+                <td>位置</td>
+                <td>Android 與 iOS</td>
+                <td>不要求。</td>
+              </tr>
+              <tr>
+                <td>相機</td>
+                <td>Android 與 iOS</td>
+                <td>不要求。</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <h3 id="zh-Hant-mcrecorder-telemetry">使用統計與當機報告</h3>
+        <p>這個版本的 App 不含任何使用統計 SDK，也不含任何當機回報 SDK。我們收不到它的任何使用資料、當機報告或診斷資訊。</p>
+        <h3 id="zh-Hant-mcrecorder-purchases">訂閱與購買</h3>
+        <p>這個版本的 App 沒有任何 App 內購買，也沒有訂閱，因此不會蒐集任何付款資訊。</p>
+        <h2 id="zh-Hant-quickonescanner">QuickOne Scanner</h2>
+        <p>QuickOne Scanner 把你用手機拍下的頁面變成裁切好、校正過的 PDF，並讀出上面的文字，讓你可以搜尋和複製。掃描和文字辨識都在你的裝置上進行。它可以在 iPhone、iPad 和 Android 上執行。</p>
+        <h3 id="zh-Hant-quickonescanner-stores">App 在你裝置上儲存了什麼</h3>
+        <p>App 會把下列內容寫入你裝置上的 App 專屬儲存區——其他 App 無法讀取的區域。它們會一直留在那裡，直到你自己刪除，或移除 App 為止。</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>內容</th>
+              <th>用途</th>
+              <th>儲存位置</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>掃描的頁面</td>
+                <td>你拍攝或匯入的頁面影像。</td>
+                <td>只在你的裝置上</td>
+              </tr>
+              <tr>
+                <td>辨識出的文字</td>
+                <td>在裝置上從你的頁面中讀出的文字。</td>
+                <td>只在你的裝置上</td>
+              </tr>
+              <tr>
+                <td>設定</td>
+                <td>語言、主題、音訊和顯示方面的偏好。</td>
+                <td>只在你的裝置上</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>這些內容不會上傳給我們。我們讀不到，無法替你找回，也無法交給任何第三方——因為它們從未到達我們這裡。</p>
+        <h3 id="zh-Hant-quickonescanner-leaves">有什麼會離開你的裝置</h3>
+        <p>下面是完整的清單。凡是沒有列出的，都留在你的裝置上。</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>送出的內容</th>
+              <th>接收方</th>
+              <th>目的</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>模型下載與 Google 自身的診斷</td>
+                <td>Google Play 服務（ML Kit）</td>
+                <td>用於取回文件掃描模型。你的頁面不會被送出。</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>文件偵測與文字辨識透過 Google ML Kit 完成。在 Android 上，文件掃描器執行於 Google Play 服務內部，首次使用時下載其模型；文字辨識使用的是隨 App 一起打包的模型。頁面與辨識出的文字都在裝置上處理，不會作為內容上傳給我們或 Google。</p>
+        <p>上表之外，凡是你主動送出的內容——透過系統分享面板、匯出、列印或剪貼簿——都會到你指定的地方。那是你每一次自己的選擇，不在上表的範圍內。</p>
+        <h3 id="zh-Hant-quickonescanner-notdo">App 不會做的事</h3>
+        <p>在本政策為現行版本期間：</p>
+        <ul>
+          <li>沒有帳號，不需要註冊，不需要電子郵件，也不需要密碼。</li>
+          <li>我們不營運任何接收你內容的伺服器，也沒有任何記錄著你的資料庫。</li>
+          <li>我們不出售你的個人資料，也不會為跨情境行為廣告而分享它。</li>
+          <li>App 不會跨其他公司的 App 或網站追蹤你，也不跳出「App 追蹤透明度」授權框。</li>
+          <li>沒有任何內容同步到屬於我們的雲端帳戶。我們這邊沒有可供還原的備份。</li>
+          <li>這個版本不含廣告 SDK，也不顯示任何廣告。</li>
+          <li>這個版本不含使用統計 SDK，也不含當機回報 SDK。</li>
+          <li>App 不索取也不讀取你的位置。</li>
+          <li>App 不讀取你的通訊錄、行事曆、簡訊、通話記錄，也不讀取其專屬儲存區以外的檔案。</li>
+        </ul>
+        <h3 id="zh-Hant-quickonescanner-perms">權限，以及每一項的用途</h3>
+        <p>下列每一項權限都只用於所聲明的那一個用途，不作他用。在兩個平台上，你都可以在系統設定中拒絕或撤回其中任何一項；依賴它的功能會停止運作，App 的其餘部分照常運行。</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>權限</th>
+              <th>平台</th>
+              <th>目的</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>網路存取</td>
+                <td>Android</td>
+                <td>上述網路請求所必需。</td>
+              </tr>
+              <tr>
+                <td>相機</td>
+                <td>iOS</td>
+                <td>在 App 內拍攝。</td>
+              </tr>
+              <tr>
+                <td>相簿</td>
+                <td>iOS</td>
+                <td>匯入你已有的圖片。</td>
+              </tr>
+              <tr>
+                <td>App 追蹤透明度</td>
+                <td>iOS</td>
+                <td>不要求。App 不會跨其他公司的 App 或網站追蹤你。</td>
+              </tr>
+              <tr>
+                <td>位置</td>
+                <td>Android 與 iOS</td>
+                <td>不要求。</td>
+              </tr>
+              <tr>
+                <td>麥克風</td>
+                <td>Android 與 iOS</td>
+                <td>不要求。</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>在 iOS 上，App 使用相機拍攝頁面，並使用相簿讓你匯入已有的圖片。在 Android 上，頁面拍攝發生在 Google Play 服務內部、由其自身的權限管轄，這也是 App 本身在 Android 上沒有宣告相機權限的原因。</p>
+        <h3 id="zh-Hant-quickonescanner-telemetry">使用統計與當機報告</h3>
+        <p>這個版本的 App 不含任何使用統計 SDK，也不含任何當機回報 SDK。我們收不到它的任何使用資料、當機報告或診斷資訊。</p>
+        <h3 id="zh-Hant-quickonescanner-purchases">訂閱與購買</h3>
+        <p>這個版本的 App 沒有任何 App 內購買，也沒有訂閱，因此不會蒐集任何付款資訊。</p>
+        <h2 id="zh-Hant-eyeballit">Eyeball It!</h2>
+        <p>Eyeball It! 是一個靠眼力判斷的遊戲——把一條線分成兩半、對準一個角度、落在目標上——按你離正確答案有多近來計分。它可以在 iPhone、iPad、Android 和 Windows 上執行，最佳成績儲存在你玩的那台裝置上。</p>
+        <h3 id="zh-Hant-eyeballit-stores">App 在你裝置上儲存了什麼</h3>
+        <p>App 會把下列內容寫入你裝置上的 App 專屬儲存區——其他 App 無法讀取的區域。它們會一直留在那裡，直到你自己刪除，或移除 App 為止。</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>內容</th>
+              <th>用途</th>
+              <th>儲存位置</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>遊戲進度</td>
+                <td>到達的關卡、最佳成績和累計回合數。</td>
+                <td>只在你的裝置上</td>
+              </tr>
+              <tr>
+                <td>設定</td>
+                <td>語言、主題、音訊和顯示方面的偏好。</td>
+                <td>只在你的裝置上</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>這些內容不會上傳給我們。我們讀不到，無法替你找回，也無法交給任何第三方——因為它們從未到達我們這裡。</p>
+        <h3 id="zh-Hant-eyeballit-leaves">有什麼會離開你的裝置</h3>
+        <p>沒有任何內容離開。這個版本的 App 不發出任何網路請求：沒有廣告 SDK，沒有使用統計，沒有當機報告，也沒有屬於我們的伺服器可供聯絡。</p>
+        <p>這個版本的 App 完全不含任何連網程式碼。它的 Android 資訊清單裡甚至沒有申請網路存取權限。</p>
+        <p>本遊戲還有一個可在瀏覽器中試玩的網頁版，網址是 https://www.idatagear.com。那個網頁屬於我們的網站，確實會刊登 Google AdSense，相關說明見我們主隱私權政策中關於網站的一節。你從 App Store、Google Play 或 Windows 安裝的 App 與之各自獨立，不顯示任何廣告。</p>
+        <h3 id="zh-Hant-eyeballit-notdo">App 不會做的事</h3>
+        <p>在本政策為現行版本期間：</p>
+        <ul>
+          <li>沒有帳號，不需要註冊，不需要電子郵件，也不需要密碼。</li>
+          <li>我們不營運任何接收你內容的伺服器，也沒有任何記錄著你的資料庫。</li>
+          <li>我們不出售你的個人資料，也不會為跨情境行為廣告而分享它。</li>
+          <li>App 不會跨其他公司的 App 或網站追蹤你，也不跳出「App 追蹤透明度」授權框。</li>
+          <li>沒有任何內容同步到屬於我們的雲端帳戶。我們這邊沒有可供還原的備份。</li>
+          <li>這個版本不含廣告 SDK，也不顯示任何廣告。</li>
+          <li>這個版本不含使用統計 SDK，也不含當機回報 SDK。</li>
+          <li>App 不索取也不讀取你的位置。</li>
+          <li>App 不錄製音訊，執行階段也不要求麥克風權限。</li>
+          <li>App 不使用相機，也不讀取你相簿中的任何相片。</li>
+          <li>App 不讀取你的通訊錄、行事曆、簡訊、通話記錄，也不讀取其專屬儲存區以外的檔案。</li>
+        </ul>
+        <h3 id="zh-Hant-eyeballit-perms">權限，以及每一項的用途</h3>
+        <p>這個版本的 App 不要求任何執行階段權限。它的 Android 資訊清單中沒有宣告任何權限，也沒有附帶任何 iOS 用途說明鍵，因此系統從不會向你跳出授權要求。</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>權限</th>
+              <th>平台</th>
+              <th>目的</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>不要求任何執行階段權限</td>
+                <td>所有平台</td>
+                <td>這個版本的 App 一項都不要求。</td>
+              </tr>
+              <tr>
+                <td>App 追蹤透明度</td>
+                <td>iOS</td>
+                <td>不要求。App 不會跨其他公司的 App 或網站追蹤你。</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <h3 id="zh-Hant-eyeballit-telemetry">使用統計與當機報告</h3>
+        <p>這個版本的 App 不含任何使用統計 SDK，也不含任何當機回報 SDK。我們收不到它的任何使用資料、當機報告或診斷資訊。</p>
+        <h3 id="zh-Hant-eyeballit-purchases">訂閱與購買</h3>
+        <p>這個版本的 App 沒有任何 App 內購買，也沒有訂閱，因此不會蒐集任何付款資訊。</p>
+        <h2 id="zh-Hant-website">關於本網站</h2>
+        <p>https://www.idatagear.com 是一個靜態網站。它不設定屬於自己的 Cookie，不向你索取任何資料，也沒有帳號或登入。</p>
+        <p>網站上有兩處來自第三方。<strong>Google AdSense</strong> 會在部分頁面刊登廣告，其中包括 Eyeball It! 的網頁版，並可能設定 Cookie、使用你的 IP 位址來挑選和統計這些廣告，適用 Google 自身的政策。<strong>Google Fonts</strong> 提供頁面字型，頁面載入時會讓 Google 的伺服器知道你的 IP 位址。</p>
+        <p>部分 App 也可以直接在這裡用瀏覽器試玩。網頁版會把狀態儲存在你電腦上瀏覽器自身的本機儲存空間中，你隨時可以在瀏覽器設定裡清除。</p>
+        <p>我們的伺服器記錄檔由主機服務商保存，記錄的是一般的網頁伺服器資訊——IP 位址、時間、請求的頁面和 User-Agent——用於維持網站運作和排除故障。</p>
+        <h2 id="zh-Hant-sharing">當你主動分享時</h2>
+        <p>分享、匯出、列印和複製永遠由你發起。當你使用其中任何一項時，App 會把該內容交給你選定的目的地——另一個 App、一位聯絡人、一個資料夾、一台印表機——此後它的去向由那個目的地決定，不再受本政策拘束。</p>
+        <h2 id="zh-Hant-retention">資料的保存與刪除</h2>
+        <p>App 儲存的一切都在你的裝置上，因此要留多久由你決定。</p>
+        <p>在 App 內刪除某一筆即可移除它。要一次清除全部內容，移除 App 即可：作業系統會刪除它的專屬儲存區，上表中的每一項也隨之消失。</p>
+        <p>當機報告和統計事件由 Google 依 Firebase 自身的保存期限存放——當機資料最長 90 天，統計資料最長 14 個月。由於其中不含你的任何識別碼，它們無法被追溯到你，也無法被單獨刪除。</p>
+        <h2 id="zh-Hant-rights">你的權利</h2>
+        <p>依據 GDPR、英國 GDPR、經 CPRA 修訂的 CCPA、加拿大 PIPEDA 以及其他地區的同類法律，你對與你有關的個人資料享有權利——知悉持有了什麼、取得副本、更正、要求刪除，以及反對或限制其利用。</p>
+        <p>對本 App 而言，這些權利已經由設計本身滿足，而不需要向我們提出申請：資料就在你的裝置上，你可以在 App 裡檢視、修改、匯出和刪除，而我們手上沒有副本可供提供、更正或清除。</p>
+        <p>我們不出售個人資料，也不會為了 CPRA 所定義的跨情境行為廣告而分享個人資料。因此並不存在需要你選擇退出的出售行為。</p>
+        <p>如果你仍然認為我們持有與你有關的資料，請來信 idatagear@gmail.com，我們會答覆。你也可以向你所在地的資料保護主管機關申訴。</p>
+        <h2 id="zh-Hant-transfers">跨境傳輸</h2>
+        <p>我們位於加拿大。本政策中提到的第三方服務由總部設在美國的公司營運，並可能在其部署基礎設施的任何國家處理資料，所適用的跨境傳輸保障措施載於它們各自的政策中——就 Google 而言，是歐盟執委會的標準契約條款。</p>
+        <h2 id="zh-Hant-children">兒童</h2>
+        <p>本 App 面向一般大眾。它不以 13 歲以下兒童為對象，我們也不會在知情的情況下蒐集兒童的個人資料。</p>
+        <p>App 沒有帳號系統，沒有訊息功能，沒有社群功能，也沒有任何其他使用者可以張貼或看到的內容——因此不存在任何途徑，讓使用 App 的兒童把資料透露給我們或他人。</p>
+        <p>另有一點提請家長注意：App 內建的辭典記錄的是這個語言實際被使用的樣子，其中的俚語詞條會以一般工具書的方式，收錄並解釋涉及性、毒品、賭博和粗話的內容。App 的年齡分級已據此設定。</p>
+        <p>如果你認為有兒童向我們提供了個人資料，請來信 idatagear@gmail.com，我們會刪除它。</p>
+        <h2 id="zh-Hant-security">安全</h2>
+        <p>App 資料存放在作業系統的 App 專屬儲存區，受裝置自身的沙箱保護；在設定了螢幕鎖定的裝置上，還受全機加密保護。設定密碼、PIN 碼或生物辨識鎖定，是你能為保護這些資料所做的最有效的一件事。</p>
+        <p>App 發出的每一個網路請求都使用 HTTPS。沒有任何儲存或傳輸方式是絕對安全的，我們無法保證萬無一失。</p>
+        <h2 id="zh-Hant-changes">本政策的變更</h2>
+        <p>App 發生變化時，我們會更新本政策。頁面頂端的日期就是目前版本的日期，變更一旦生效即在此公布。</p>
+        <p>如果某項變更意味著 App 開始蒐集此前不蒐集的內容，我們會明確寫出來，而不是讓你自己去比對前後兩版文字。</p>
+        <h2 class="pp-part">第二部分 — 使用條款</h2>
+        <h2 id="zh-Hant-t_accept">1. 接受本條款</h2>
+        <p>安裝或使用本 App，即表示你接受本條款。如果你不接受，請不要使用本 App，並將其從裝置上移除。</p>
+        <p>本條款是你與 iDataGear Inc 之間的約定。若你從 App Store 或 Google Play 取得本 App，該商店自身的條款同樣適用於該筆交易；在付款、退款、重新下載等由商店管轄的事項上如有衝突，以商店的條款為準。</p>
+        <h2 id="zh-Hant-t_licence">2. 你的使用授權</h2>
+        <p>我們授予你一項個人的、非專屬的、不可轉讓的、可撤回的授權，允許你在自己擁有或控制的裝置上，依照平台既定的通常方式，為自己使用本 App。其餘權利我們全部保留。</p>
+        <p>你不得重製、出售、出租、再授權或再散布本 App，不得對其進行還原工程或反編譯（法律明文允許且不受本條限制的情形除外），不得移除或變更其中的任何聲明，也不得利用它來開發競爭產品。</p>
+        <h2 id="zh-Hant-t_yourcontent">3. 你建立的內容屬於你</h2>
+        <p>你在 App 中建立的一切都屬於你。我們不主張對它的任何所有權，也不主張任何授權。由於它留在你的裝置上，即使我們想使用也無從使用。</p>
+        <p>備份由你自己負責。移除 App、重設裝置，或遺失、更換裝置，都會讓 App 儲存的內容消失，而我們手上沒有任何副本可供還原。凡是丟了會心疼的內容，請先匯出。</p>
+        <h2 id="zh-Hant-t_acceptable">4. 合理使用</h2>
+        <p>請合法地使用本 App。特別是，不得利用它違反法律或侵害他人權利，不得在錄製他人需徵得其同意而你並未取得同意的情況下進行錄製，不得干擾 App 的運作或安全，也不得試圖取得你尚未付費的功能、內容或資格。</p>
+        <h2 id="zh-Hant-t_purchases">5. 購買、續訂與取消</h2>
+        <p>如果 App 提供訂閱，除非你在當期結束前至少 24 小時取消，訂閱將在每期結束時按購買當時所示價格自動續期，並從你購買時使用的商店帳戶扣款。</p>
+        <p>請在商店中取消，而不是在 App 中：iOS 上進入「設定 › 你的姓名 › 訂閱項目」，Android 上進入「Google Play › 付款與訂閱」。取消只會阻止下一次續期；當期已付費的時間照常用完。任何免費試用在購買時結束，未用完的部分不予退還。</p>
+        <p>退款由商店依商店自身的政策辦理，而不是由我們辦理，因為該筆交易的收款方是商店。價格可能變動；變動在我們通知你之後對後續續期生效，你也可以選擇取消而不接受。</p>
+        <h2 id="zh-Hant-t_accuracy">6. 內容的正確性</h2>
+        <p>App 中的內容僅供學習和參考。語言存在爭議、因地而異且始終在變化，辭典釋義、翻譯、拼音標註、發音評分、筆順和辨識出的文字都可能出錯。凡是出錯會帶來實際後果的場合——考試、法律文件、醫療場景或契約——請不要在未經獨立查證的情況下依賴其中任何內容。</p>
+        <p>本 App 是一個輔助工具，不是安全裝置。地圖、路線、記錄下來的軌跡、距離、海拔和偏離路線的提醒都可能不正確、不完整或已過時，而手機可能失去訊號、定位失敗或耗盡電力。請攜帶地圖和不依賴手機也能導航的工具，把你的計畫告訴他人，並自行判斷當下的條件。你在戶外的安全由你自己負責。</p>
+        <h2 id="zh-Hant-t_thirdparty">7. 第三方服務</h2>
+        <p>本 App 使用上文隱私權政策中列出的第三方服務。每一項都受其自身的條款和隱私權政策拘束，我們無法控制它們，也不對它們的行為負責。App 中指向其他網站的連結僅為方便而提供，不構成任何背書。</p>
+        <h2 id="zh-Hant-t_warranty">8. 不提供擔保</h2>
+        <p>本 App 按<strong>現狀</strong>和<strong>現有可用狀態</strong>提供，不附帶任何明示或默示的擔保，包括對可售性、特定用途適用性、正確性或不侵權的任何默示擔保。我們不保證它不會中斷、沒有錯誤、相容於每一台裝置，也不保證瑕疵都會被修復。</p>
+        <p>部分司法管轄區不允許排除默示擔保，因此本條的部分內容可能對你不適用；本條也不限制任何依法不得限制的消費者權利。</p>
+        <h2 id="zh-Hant-t_liability">9. 責任限制</h2>
+        <p>在法律允許的最大範圍內，我們不對間接的、附隨的、特殊的、衍生的、懲戒性或懲罰性的損害負責，也不對利潤損失、資料遺失、錄音遺失、路線遺失或進度遺失負責，無論其成因為何、基於何種責任理論，即使我們已被告知此類損害可能發生。</p>
+        <p>在責任無法排除的情形下，我們就因本 App 引起的全部請求所承擔的責任總額，以請求發生前十二個月內你為本 App 向我們支付的金額與二十加元兩者中的較高者為限。</p>
+        <h2 id="zh-Hant-t_termination">10. 變更與終止</h2>
+        <p>我們可以隨時變更、暫停或終止本 App 或其任何部分。我們也可以更新本條款；更新時，本頁頂端的日期會隨之改變，在此之後繼續使用本 App 即視為接受更新後的條款。</p>
+        <p>如果你違反本條款，本授權即告終止；當你把 App 從裝置上移除時，本授權同樣終止。關於你的內容、擔保、責任和準據法的各節在終止後繼續有效。</p>
+        <h2 id="zh-Hant-t_law">11. 準據法</h2>
+        <p>本條款受加拿大British Columbia省法律以及在該省適用的加拿大聯邦法律管轄，不適用其法律衝突規則。任何爭議由British Columbia省法院專屬管轄，你與我們均服從該管轄——但任何一方均可向任何有管轄權的法院聲請禁制令救濟。</p>
+        <p>若本條款的某一條被認定不可執行，其餘部分繼續有效。本條款不排除你所在國家法律為你提供的任何強制性消費者保護。</p>
+        <h2 id="zh-Hant-contact">聯絡我們</h2>
+        <p>關於本政策的疑問、關於你資料的要求，或者其他任何事情：</p>
+        <p><strong>iDataGear Inc</strong><br>
+        Email: <a href="mailto:idatagear@gmail.com">idatagear@gmail.com</a><br>
+        Web: <a href="https://www.idatagear.com/">www.idatagear.com</a></p>
+      </article>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-bottom">
+        <p>&copy; <span id="year">2026</span> iDataGear Inc</p>
+        <div class="footer-links">
+          <a href="">iDataGear</a><a href="privacy.html">Privacy</a><a href="mailto:idatagear@gmail.com">Contact</a>
+        </div>
+      </div>
+    </footer>
+    <script>
+    (function () {
+      var root = document.documentElement;
+      var toggle = document.querySelector('.theme-toggle');
+      if (toggle) {
+        toggle.addEventListener('click', function () {
+          var next = root.getAttribute('data-theme') === 'light' ? 'dark' : 'light';
+          root.setAttribute('data-theme', next);
+          try { localStorage.setItem('theme', next); } catch (e) {}
+        });
+      }
+      var y = document.getElementById('year');
+      if (y) { y.textContent = new Date().getFullYear(); }
+    })();
+    </script>
+  </body>
+</html>
