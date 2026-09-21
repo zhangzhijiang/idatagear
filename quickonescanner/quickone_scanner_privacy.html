@@ -1,390 +1,1192 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Privacy Policy — QuickOne Scanner</title>
-<meta name="description" content="QuickOne Scanner is a document scanner for iPhone, iPad and Android that processes everything on your device. No account, no cloud, no ads, no tracking.">
-<meta name="robots" content="index, follow">
-<link rel="canonical" href="https://www.idatagear.com/quickone_scanner/quickone_scanner_privacy.html">
-<style>
-  :root {
-    color-scheme: light dark;
+  <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta name="theme-color" content="#071512" media="(prefers-color-scheme: dark)">
+    <meta name="theme-color" content="#f7f3ea" media="(prefers-color-scheme: light)">
+    <meta name="color-scheme" content="dark light">
 
-    /* The app's own brand ramp — kBrandStart/kBrandEnd in lib/app/theme.dart —
-       so the policy page and the launcher icon agree. */
-    --brand-start: #01E6D5;
-    --brand-end:   #0084DB;
-    --brand-deep:  #00538C;
+    <title>QuickOne Scanner Privacy Policy &amp; Terms of Use</title>
+    <meta name="description" content="QuickOne Scanner. Scan to PDF, with text recognition Privacy policy and terms of use for QuickOne Scanner, published by iDataGear Inc.">
+    <link rel="canonical" href="https://www.idatagear.com/quickonescanner/quickonescanner_privacy.html">
 
-    --ink:      #16191d;
-    --ink-soft: #5c6470;
-    --paper:    #ffffff;
-    --panel:    #f4f8fb;
-    --rule:     #dfe5ec;
-    --link:     #0072bd;
-  }
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.idatagear.com/quickonescanner/quickonescanner_privacy.html">
+    <meta property="og:title" content="QuickOne Scanner Privacy Policy &amp; Terms of Use">
+    <meta property="og:description" content="QuickOne Scanner. Scan to PDF, with text recognition Privacy policy and terms of use for QuickOne Scanner, published by iDataGear Inc.">
+    <meta property="og:image" content="https://www.idatagear.com/assets/img/quickone-scanner-app-icon.png">
+    <meta property="og:site_name" content="iDataGear">
+    <meta property="twitter:card" content="summary">
+    <meta property="twitter:title" content="QuickOne Scanner Privacy Policy &amp; Terms of Use">
+    <meta property="twitter:description" content="QuickOne Scanner. Scan to PDF, with text recognition Privacy policy and terms of use for QuickOne Scanner, published by iDataGear Inc.">
+    <meta property="twitter:image" content="https://www.idatagear.com/assets/img/quickone-scanner-app-icon.png">
 
-  @media (prefers-color-scheme: dark) {
-    :root {
-      --ink:      #e8eaed;
-      --ink-soft: #9aa3ad;
-      --paper:    #101315;
-      --panel:    #171c20;
-      --rule:     #2a3238;
-      --link:     #5cc8f5;
+    <link rel="icon" type="image/png" sizes="32x32" href="../assets/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="../assets/img/favicon-192x192.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../assets/img/apple-touch-icon.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <script>
+    (function () {
+      var t = null;
+      try { t = localStorage.getItem('theme'); } catch (e) {}
+      if (t !== 'light' && t !== 'dark') {
+        t = (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches) ? 'light' : 'dark';
+      }
+      document.documentElement.setAttribute('data-theme', t);
+
+      /* The language is chosen before first paint so the page never flashes the
+         wrong one. Setting data-pplang is ALSO what switches the CSS from "show
+         every language" to "show one" -- so with JavaScript off the attribute is
+         never set and every language renders in full, stacked. A privacy policy
+         that needs JavaScript to be readable is not a privacy policy. */
+      var LANGS = ["en","zh-Hans","zh-Hant","es","fr"];
+      var RULES = [["zh-Hant",["zh-hant","zh-tw","zh-hk","zh-mo"]],["en",["en"]],["zh-Hans",["zh"]],["es",["es"]],["fr",["fr"]]];
+      var saved = null;
+      try { saved = localStorage.getItem('pplang'); } catch (e) {}
+      var pick = (LANGS.indexOf(saved) >= 0) ? saved : null;
+      if (!pick) {
+        var navs = (navigator.languages && navigator.languages.length)
+          ? navigator.languages : [navigator.language || 'en'];
+        /* Pass one: the most specific rule wins, so zh-TW reaches Traditional
+           before the bare "zh" rule can claim it. */
+        for (var i = 0; i < navs.length && !pick; i++) {
+          var n = String(navs[i]).toLowerCase();
+          for (var j = 0; j < RULES.length && !pick; j++) {
+            var ms = RULES[j][1];
+            for (var k = 0; k < ms.length; k++) {
+              if (n === ms[k] || n.indexOf(ms[k] + '-') === 0) { pick = RULES[j][0]; break; }
+            }
+          }
+        }
+        /* Pass two: same base language, any script. A zh-CN reader on a page
+           published only in Traditional should get Chinese, not English. */
+        for (var i2 = 0; i2 < navs.length && !pick; i2++) {
+          var base = String(navs[i2]).toLowerCase().split('-')[0];
+          for (var j2 = 0; j2 < LANGS.length; j2++) {
+            if (LANGS[j2].toLowerCase().split('-')[0] === base) { pick = LANGS[j2]; break; }
+          }
+        }
+      }
+      document.documentElement.setAttribute('data-pplang', pick || LANGS[0]);
+    })();
+    </script>
+    <style>
+    /* Chrome and colour come from the site's own tokens in assets/css/style.css.
+       --pp-accent is this page's app brand, used only where the page speaks
+       about the app itself. Everything here is prefixed pp- so it cannot leak
+       into the shared stylesheet's components. */
+    :root { --pp-accent: #0369a1; --pp-wash: rgba(56, 189, 248, .10); }
+    [data-theme="dark"] { --pp-accent: #38bdf8; }
+    @media (prefers-color-scheme: dark) {
+      :root:not([data-theme="light"]) { --pp-accent: #38bdf8; }
     }
-  }
 
-  * { box-sizing: border-box; }
+    .pp-nav { display: flex; gap: 20px; align-items: center; margin-left: auto; }
+    .pp-nav a { color: var(--muted); text-decoration: none; font-size: .92rem; white-space: nowrap; }
+    .pp-nav a:hover { color: var(--pp-accent); }
+    @media (max-width: 820px) { .pp-nav { display: none; } }
 
-  body {
-    margin: 0;
-    color: var(--ink);
-    background: var(--paper);
-    font: 17px/1.7 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-          "Helvetica Neue", Arial, "Noto Sans", sans-serif;
-    -webkit-text-size-adjust: 100%;
-  }
+    .pp-wrap { max-width: 78ch; margin: 0 auto; padding-inline: 20px; padding-block: 40px 72px; }
 
-  /* ---- masthead ---- */
+    .pp-head { text-align: center; margin-bottom: 34px; }
+    .pp-head img { width: 76px; height: 76px; border-radius: 19px; box-shadow: 0 10px 40px rgba(0,0,0,.18); }
+    .pp-head h1 { font-size: clamp(1.7rem, 4.4vw, 2.4rem); margin: 18px 0 6px; line-height: 1.15; text-wrap: balance; }
+    .pp-head .pp-sub { color: var(--pp-accent); font-weight: 700; margin: 0 0 10px; }
+    .pp-head .pp-date { color: var(--dim); font-size: .9rem; margin: 0; }
 
-  header.masthead {
-    background: linear-gradient(120deg, var(--brand-start), var(--brand-end));
-    color: #fff;
-    padding: 3rem 1.25rem 2.5rem;
-  }
-  .wrap { max-width: 48rem; margin: 0 auto; }
-  .masthead .wrap {
-    display: flex; align-items: center; gap: 1.1rem; flex-wrap: wrap;
-  }
+    /* Language picker. Buttons, not links: this switches what is displayed on
+       one URL, because the app stores register exactly one privacy URL. */
+    .pp-langs { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; margin: 22px 0 0; }
+    .pp-langs button {
+      font: inherit; font-size: .9rem; font-weight: 600; cursor: pointer;
+      padding: 7px 15px; border-radius: 999px;
+      border: 1px solid var(--card-border); background: var(--card); color: var(--muted);
+    }
+    .pp-langs button:hover { border-color: var(--pp-accent); color: var(--text); }
+    .pp-langs button[aria-current="true"] { background: var(--pp-wash); border-color: var(--pp-accent); color: var(--text); }
 
-  /* The scanner mark, drawn rather than linked so the page stays one file. */
-  .mark {
-    width: 64px; height: 64px; flex: none;
-    border-radius: 16px;
-    background: rgba(255,255,255,.16);
-    display: grid; place-items: center;
-  }
-  .mark svg { width: 38px; height: 38px; }
+    .pp h2 {
+      font-size: 1.24rem; margin: 40px 0 12px; padding-top: 18px;
+      border-top: 1px solid var(--card-border); text-wrap: balance;
+    }
+    .pp h2:first-of-type { border-top: 0; padding-top: 0; }
+    .pp h2.pp-part {
+      font-size: .82rem; letter-spacing: .14em; text-transform: uppercase;
+      color: var(--pp-accent); margin-top: 56px;
+    }
+    .pp h3 { font-size: 1.02rem; margin: 26px 0 8px; color: var(--text); }
+    .pp p, .pp li { color: var(--muted); line-height: 1.72; }
+    .pp p { margin: 0 0 14px; }
+    .pp ul { margin: 0 0 16px; padding-left: 1.25em; }
+    .pp li { margin-bottom: 9px; }
+    .pp strong { color: var(--text); font-weight: 650; }
+    .pp a { color: var(--pp-accent); }
 
-  .masthead h1 {
-    margin: 0; font-size: 1.75rem; line-height: 1.25; letter-spacing: -.01em;
-  }
-  .masthead p { margin: .3rem 0 0; opacity: .92; font-size: .98rem; }
+    .pp-tldr {
+      background: var(--pp-wash); border: 1px solid var(--card-border);
+      border-left: 3px solid var(--pp-accent);
+      border-radius: 12px; padding: 20px 22px 6px; margin: 0 0 8px;
+    }
+    .pp-tldr ul { margin-bottom: 14px; }
+    .pp-note {
+      background: var(--card); border: 1px solid var(--card-border);
+      border-radius: 10px; padding: 15px 18px 3px; margin: 0 0 16px;
+    }
 
-  /* ---- body ---- */
+    /* Tables scroll inside their own box so the page body never scrolls sideways. */
+    .pp-tablewrap { overflow-x: auto; margin: 0 0 20px; }
+    .pp table { border-collapse: collapse; width: 100%; min-width: 520px; font-size: .94rem; }
+    .pp th, .pp td {
+      text-align: left; vertical-align: top; padding: 11px 13px;
+      border-bottom: 1px solid var(--card-border); color: var(--muted); line-height: 1.6;
+    }
+    .pp th { color: var(--text); font-weight: 650; white-space: nowrap; }
+    .pp tbody tr:last-child td { border-bottom: 0; }
 
-  main { padding: 0 1.25rem 4rem; }
-  main .wrap > :first-child { margin-top: 2.25rem; }
+    /* Right-to-left: mirror the padding and the table alignment, nothing else. */
+    .pp[dir="rtl"] { text-align: right; }
+    .pp[dir="rtl"] ul { padding-left: 0; padding-right: 1.25em; }
+    .pp[dir="rtl"] th, .pp[dir="rtl"] td { text-align: right; }
+    .pp[dir="rtl"] .pp-tldr { border-left: 1px solid var(--card-border); border-right: 3px solid var(--pp-accent); }
 
-  h2 {
-    font-size: 1.2rem; margin: 2.75rem 0 .6rem; line-height: 1.35;
-    padding-top: 1.5rem; border-top: 1px solid var(--rule);
-  }
-  h2:first-of-type { border-top: 0; padding-top: 0; }
-  h3 { font-size: 1rem; margin: 1.75rem 0 .4rem; }
-  p, li { margin: .7rem 0; }
-  ul { padding-left: 1.3rem; }
+    /* With no data-pplang (JavaScript off) every language stays visible. */
+    .pp-only-nojs { display: none; }
+    :root:not([data-pplang]) .pp-only-nojs { display: block; }
+    :root:not([data-pplang]) .pp-langs { display: none; }
+    :root[data-pplang="en"] .pp:not([data-lang="en"]),
+    :root[data-pplang="zh-Hans"] .pp:not([data-lang="zh-Hans"]),
+    :root[data-pplang="zh-Hant"] .pp:not([data-lang="zh-Hant"]),
+    :root[data-pplang="es"] .pp:not([data-lang="es"]),
+    :root[data-pplang="fr"] .pp:not([data-lang="fr"]) { display: none; }
+    </style>
+  </head>
 
-  .lede { font-size: 1.05rem; color: var(--ink-soft); }
+  <body>
+    <header class="site-header" id="top">
+      <div class="logo"><a href="../">iDataGear</a></div>
+      <nav class="pp-nav">
+        <a href="../">iDataGear</a>
+        <a href="../privacy.html">Privacy</a>
+        <a href="mailto:idatagear@gmail.com">Contact</a>
+      </nav>
+      <button class="theme-toggle" type="button" aria-label="Switch theme">
+        <i class="bi bi-sun" aria-hidden="true"></i>
+        <i class="bi bi-moon-stars" aria-hidden="true"></i>
+      </button>
+    </header>
 
-  .callout {
-    background: var(--panel);
-    border-left: 4px solid var(--brand-end);
-    border-radius: 0 10px 10px 0;
-    padding: 1rem 1.15rem;
-    margin: 1.75rem 0;
-  }
-  .callout p:first-child { margin-top: 0; }
-  .callout p:last-child  { margin-bottom: 0; }
-  .callout.warn { border-left-color: #d97706; }
+    <main class="pp-wrap">
+      <div class="pp-head">
+        <img src="../assets/img/quickone-scanner-app-icon.png" alt="QuickOne Scanner Privacy Policy &amp; Terms of Use" width="76" height="76">
+        <h1>QuickOne Scanner Privacy Policy &amp; Terms of Use</h1>
+        <p class="pp-sub">Scan to PDF, with text recognition</p>
+        <p class="pp-date">Last updated: 20 September 2026</p>
+        <div class="pp-langs" role="group" aria-label="Choose a language">
+          <button type="button" data-setlang="en" lang="en">English</button>
+          <button type="button" data-setlang="zh-Hans" lang="zh-Hans">简体中文</button>
+          <button type="button" data-setlang="zh-Hant" lang="zh-Hant">繁體中文</button>
+          <button type="button" data-setlang="es" lang="es">Español</button>
+          <button type="button" data-setlang="fr" lang="fr">Français</button>
+        </div>
+        <div class="pp-only-nojs pp-note">
+        <p>JavaScript is switched off, so every language on this page is shown one after another. Nothing is hidden from you.</p>
+        <p>你的浏览器关闭了 JavaScript，因此本页的所有语言版本会依次完整显示。没有任何内容对你隐藏。</p>
+        <p>你的瀏覽器關閉了 JavaScript，因此本頁的所有語言版本會依序完整顯示。沒有任何內容對你隱藏。</p>
+        <p>JavaScript está desactivado, así que esta página muestra todos sus idiomas uno tras otro. No se te oculta nada.</p>
+        <p>JavaScript est désactivé : cette page affiche donc toutes ses langues les unes après les autres. Rien ne vous est caché.</p>
+        </div>
+      </div>
 
-  /* Wide tables must scroll inside themselves, never the page. */
-  .scroll-x { overflow-x: auto; margin: 1.25rem 0; }
-  table { border-collapse: collapse; width: 100%; min-width: 34rem; font-size: .95rem; }
-  th, td { border: 1px solid var(--rule); padding: .6rem .75rem; text-align: left; vertical-align: top; }
-  th { background: var(--panel); font-weight: 600; }
+      <article class="pp" data-lang="en" lang="en">
+        <h2 id="en-tldr">The short version</h2>
+        <div class="pp-tldr">
+        <ul>
+          <li>Everything you create in the app stays on your device.</li>
+          <li>There is no account and no sign-up.</li>
+          <li>This version shows no advertising.</li>
+          <li>The app contains no analytics and no crash reporting.</li>
+          <li>This version contains no in-app purchase and no subscription.</li>
+          <li>We do not sell your data, and we do not share it for advertising profiling.</li>
+          <li>Uninstalling the app deletes everything it stored.</li>
+          <li>Part 2 of this page is the terms of use for the app.</li>
+        </ul>
+        </div>
+        <h2 class="pp-part">Part 1 — Privacy Policy</h2>
+        <h2 id="en-who">Who we are</h2>
+        <p>QuickOne Scanner turns pages photographed with your phone into cropped, deskewed PDFs, and reads the text on them so you can search and copy it. The scanning and the text recognition both run on your device. It runs on iPhone, iPad and Android.</p>
+        <p>QuickOne Scanner is published by iDataGear Inc, a company incorporated in British Columbia, Canada. Where this policy says <strong>we</strong> or <strong>us</strong>, it means iDataGear Inc.</p>
+        <p>There is no account to create and no sign-up. We do not operate a server that receives your content, and we hold no database in which you have a record.</p>
+        <h2 id="en-stores">What the app keeps on your device</h2>
+        <p>The app writes the following to private storage on your device — an area other apps cannot read. It stays there until you delete it or uninstall the app.</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>What</th>
+              <th>Why</th>
+              <th>Where it is kept</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>Scanned pages</td>
+                <td>The page images you captured or imported.</td>
+                <td>Your device only</td>
+              </tr>
+              <tr>
+                <td>Recognised text</td>
+                <td>Text read from your pages on the device.</td>
+                <td>Your device only</td>
+              </tr>
+              <tr>
+                <td>Settings</td>
+                <td>Language, theme, audio and display preferences.</td>
+                <td>Your device only</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>None of this is uploaded to us. We cannot read it, cannot recover it for you, and are not able to hand it to anyone else, because it never reaches us.</p>
+        <h2 id="en-leaves">What leaves your device</h2>
+        <p>This is the complete list. Everything not named here stays on your device.</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>What is sent</th>
+              <th>Who receives it</th>
+              <th>Purpose</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>Model download and Google diagnostics</td>
+                <td>Google Play services (ML Kit)</td>
+                <td>To fetch the document-scanner model. Your pages are not sent.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>Document detection and text recognition run through Google ML Kit. On Android the document scanner runs inside Google Play services, which downloads its model on first use; text recognition uses a model bundled in the app. Pages and recognised text are processed on the device and are not uploaded to us or to Google as content.</p>
+        <p>Separately from the list above, anything you deliberately send — through the system share sheet, an export, a printout or the clipboard — goes wherever you send it. That is your choice each time, and it is not covered by the table above.</p>
+        <h2 id="en-notdo">What the app does not do</h2>
+        <p>For as long as this policy is the current one:</p>
+        <ul>
+          <li>There is no account, no sign-up, no email address and no password.</li>
+          <li>We run no server that receives your content, and hold no database with a record of you.</li>
+          <li>We do not sell your personal information, and we do not share it for cross-context behavioural advertising.</li>
+          <li>The app does not track you across other companies' apps or websites, and shows no App Tracking Transparency prompt.</li>
+          <li>Nothing is synced to a cloud account of ours. There is no backup on our side to restore from.</li>
+          <li>This version contains no advertising SDK and displays no advertising.</li>
+          <li>This version contains no analytics SDK and no crash-reporting SDK.</li>
+          <li>The app does not ask for or read your location.</li>
+          <li>The app does not read your contacts, calendar, messages, call log or files outside its own storage.</li>
+        </ul>
+        <h2 id="en-perms">Permissions, and why each one is asked for</h2>
+        <p>Each permission below is requested for one stated purpose and used for nothing else. On both platforms you can refuse or withdraw any of them in system settings; the features that depend on them stop working, and the rest of the app carries on.</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>Permission</th>
+              <th>Platform</th>
+              <th>Purpose</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>Internet access</td>
+                <td>Android</td>
+                <td>Required for the network requests listed above.</td>
+              </tr>
+              <tr>
+                <td>Camera</td>
+                <td>iOS</td>
+                <td>To capture inside the app.</td>
+              </tr>
+              <tr>
+                <td>Photo library</td>
+                <td>iOS</td>
+                <td>To import an image you already have.</td>
+              </tr>
+              <tr>
+                <td>App Tracking Transparency</td>
+                <td>iOS</td>
+                <td>Not requested. The app does not track you across other companies' apps or websites.</td>
+              </tr>
+              <tr>
+                <td>Location</td>
+                <td>Android and iOS</td>
+                <td>Not requested.</td>
+              </tr>
+              <tr>
+                <td>Microphone</td>
+                <td>Android and iOS</td>
+                <td>Not requested.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>On iOS the app uses the camera to capture pages and the photo library so you can import an image you already have. On Android the page capture happens inside Google Play services under its own permission, which is why the app itself declares no camera permission there.</p>
+        <h2 id="en-telemetry">Analytics and crash reporting</h2>
+        <p>This version of the app contains no analytics SDK and no crash-reporting SDK. We receive no usage statistics, no crash reports and no diagnostic data from it.</p>
+        <h2 id="en-purchases">Subscriptions and purchases</h2>
+        <p>This version of the app contains no in-app purchase and no subscription, so it collects no payment information of any kind.</p>
+        <h2 id="en-sharing">When you choose to share something</h2>
+        <p>Sharing, exporting, printing and copying are always started by you. When you use one, the app hands the item to the destination you pick — another app, a contact, a folder, a printer — and what happens to it afterwards is governed by that destination, not by this policy.</p>
+        <h2 id="en-retention">Keeping and deleting your data</h2>
+        <p>Everything the app keeps is on your device, so you control how long it lasts.</p>
+        <p>Delete an individual item inside the app to remove it. To remove everything at once, uninstall the app: the operating system deletes its private storage, and with it every item in the table above.</p>
+        <p>Because nothing reaches us, there is nothing for us to retain, and no deletion request for us to act on. Uninstalling the app removes everything it ever stored.</p>
+        <h2 id="en-rights">Your rights</h2>
+        <p>Under the GDPR, the UK GDPR, the CCPA as amended by the CPRA, Canada's PIPEDA and comparable laws elsewhere, you have rights over personal information held about you — to know what is held, to obtain a copy, to correct it, to have it deleted, and to object to or restrict its use.</p>
+        <p>For this app those rights are already satisfied by the design rather than by a request to us: the data is on your device, you can read it in the app, change it, export it and delete it, and we hold no copy to produce, correct or erase.</p>
+        <p>We do not sell personal information, and we do not share it for cross-context behavioural advertising as the CPRA defines those terms. There is accordingly no sale to opt out of.</p>
+        <p>If you believe we hold something about you regardless, write to idatagear@gmail.com and we will answer. You may also complain to your local data-protection authority.</p>
+        <h2 id="en-transfers">International transfers</h2>
+        <p>We are based in Canada. Because this version of the app sends nothing to us or to anyone else, no personal information of yours is transferred to another country by using it.</p>
+        <h2 id="en-children">Children</h2>
+        <p>This app is made for a general audience. It is not directed at children under 13, and we do not knowingly collect personal information from a child.</p>
+        <p>There is no account system, no messaging, no social feature and nothing another user can post or see — so there is no route by which a child using the app could disclose anything to us or to anyone else.</p>
+        <p>If you believe a child has given us personal information, write to idatagear@gmail.com and we will delete it.</p>
+        <h2 id="en-security">Security</h2>
+        <p>App data is held in the operating system's private per-app storage, protected by the device's own sandbox and by full-device encryption when a screen lock is set. Setting a passcode, PIN or biometric lock is the single most effective thing you can do to protect it.</p>
+        <p>Every network request the app makes uses HTTPS. No method of storage or transmission is perfect, and we cannot guarantee absolute security.</p>
+        <h2 id="en-changes">Changes to this policy</h2>
+        <p>We update this policy when the app changes. The date at the top of the page is the date of the current version, and the change is published here as soon as it takes effect.</p>
+        <p>If a change means the app begins collecting something it did not collect before, we will say so plainly rather than leaving you to compare two versions of the text.</p>
+        <h2 class="pp-part">Part 2 — Terms of Use</h2>
+        <h2 id="en-t_accept">1. Accepting these terms</h2>
+        <p>By installing or using the app you accept these terms. If you do not accept them, do not use the app and remove it from your device.</p>
+        <p>These terms are between you and iDataGear Inc. Where you obtained the app from the App Store or Google Play, that store's own terms also apply to the transaction, and in case of conflict on a matter the store governs — payment, refund, redownload — the store's terms prevail.</p>
+        <h2 id="en-t_licence">2. Your licence to use the app</h2>
+        <p>We grant you a personal, non-exclusive, non-transferable, revocable licence to use the app on devices you own or control, for your own use, in the ordinary way the platform intends. We keep all other rights.</p>
+        <p>You may not copy, sell, rent, sub-license or redistribute the app, reverse engineer or decompile it except to the extent that law expressly permits despite this clause, remove or alter any notice inside it, or use it to build a competing product.</p>
+        <h2 id="en-t_yourcontent">3. Your content is yours</h2>
+        <p>Anything you create in the app is yours. We claim no ownership of it and no licence over it. Because it stays on your device, we could not use it even if we wished to.</p>
+        <p>You are responsible for backing it up. Uninstalling the app, resetting the device, or losing or replacing the device removes what the app stored, and we hold no copy from which it could be restored. Export anything you would mind losing.</p>
+        <h2 id="en-t_acceptable">4. Acceptable use</h2>
+        <p>Use the app lawfully. In particular, do not use it to break the law or anyone's rights, to record anyone where recording them requires their consent and you do not have it, to interfere with its operation or security, or to attempt to obtain fees, features or content you have not paid for.</p>
+        <h2 id="en-t_purchases">5. Purchases, renewal and cancellation</h2>
+        <p>This version of the app contains no in-app purchase and no subscription, so nothing in this section applies to it today. If that changes, this page will be updated before the change ships.</p>
+        <h2 id="en-t_accuracy">6. Accuracy of the content</h2>
+        <p>The content in the app is provided for learning and reference. Language is disputed, regional and always moving, and dictionaries, translations, transliterations, pronunciation scores, stroke orders and recognised text can all be wrong. Do not rely on any of it where being wrong would matter — in an examination, a legal document, a medical setting or a contract — without checking it independently.</p>
+        <h2 id="en-t_thirdparty">7. Third-party services</h2>
+        <p>The app uses third-party services named in the privacy policy above. Each is governed by its own terms and privacy policy, we do not control them, and we are not responsible for what they do. Links out of the app to other websites are provided for convenience and are not an endorsement.</p>
+        <h2 id="en-t_warranty">8. No warranty</h2>
+        <p>The app is provided <strong>as is</strong> and <strong>as available</strong>, without warranty of any kind, express or implied, including any implied warranty of merchantability, fitness for a particular purpose, accuracy or non-infringement. We do not warrant that it will be uninterrupted, error-free, compatible with every device, or that defects will be corrected.</p>
+        <p>Some jurisdictions do not allow the exclusion of implied warranties, so parts of this clause may not apply to you, and nothing here limits a consumer right that cannot lawfully be limited.</p>
+        <h2 id="en-t_liability">9. Limitation of liability</h2>
+        <p>To the fullest extent the law allows, we are not liable for indirect, incidental, special, consequential, exemplary or punitive damages, nor for lost profits, lost data, lost recordings, lost routes or lost progress, however caused and on any theory of liability, even if we were told such damage was possible.</p>
+        <p>Where liability cannot be excluded, our total liability for all claims arising out of the app is limited to the greater of the amount you paid us for it in the twelve months before the claim, or twenty Canadian dollars.</p>
+        <h2 id="en-t_termination">10. Changes and termination</h2>
+        <p>We may change, suspend or discontinue the app, or any part of it, at any time. We may update these terms; when we do, the date at the top of this page changes, and continuing to use the app after that is acceptance of the updated terms.</p>
+        <p>This licence ends if you breach these terms, and it ends whenever you remove the app from your devices. The sections on your content, warranty, liability and governing law survive.</p>
+        <h2 id="en-t_law">11. Governing law</h2>
+        <p>These terms are governed by the laws of the Province of British Columbia, and the federal laws of Canada that apply there, without regard to conflict-of-law rules. The courts of British Columbia have exclusive jurisdiction over any dispute, and you and we submit to them — except that either of us may seek injunctive relief in any court with jurisdiction.</p>
+        <p>If a provision of these terms is held unenforceable, the rest stays in force. Nothing here removes a mandatory consumer protection of the country you live in.</p>
+        <h2 id="en-contact">Contact</h2>
+        <p>Questions about this policy, requests about your data, or anything else:</p>
+        <p><strong>iDataGear Inc</strong><br>
+        Email: <a href="mailto:idatagear@gmail.com">idatagear@gmail.com</a><br>
+        Web: <a href="https://www.idatagear.com/">www.idatagear.com</a></p>
+      </article>
 
-  code {
-    background: var(--panel); border: 1px solid var(--rule);
-    padding: .08rem .35rem; border-radius: 4px;
-    font: .88em/1.4 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
-  }
+      <article class="pp" data-lang="zh-Hans" lang="zh-Hans">
+        <h2 id="zh-Hans-tldr">一句话版本</h2>
+        <div class="pp-tldr">
+        <ul>
+          <li>你在应用中创建的一切都留在你的设备上。</li>
+          <li>没有账号，也不需要注册。</li>
+          <li>这个版本不显示任何广告。</li>
+          <li>应用不含使用统计，也不含崩溃报告。</li>
+          <li>这个版本没有应用内购买，也没有订阅。</li>
+          <li>我们不出售你的数据，也不会为广告画像而共享它。</li>
+          <li>卸载应用会删除它保存过的一切。</li>
+          <li>本页第二部分是应用的使用条款。</li>
+        </ul>
+        </div>
+        <h2 class="pp-part">第一部分 — 隐私政策</h2>
+        <h2 id="zh-Hans-who">我们是谁</h2>
+        <p>QuickOne Scanner 把你用手机拍下的页面变成裁切好、校正过的 PDF，并读出上面的文字，让你可以搜索和复制。扫描和文字识别都在你的设备上进行。它可以在 iPhone、iPad 和 Android 上运行。</p>
+        <p>QuickOne Scanner 由 iDataGear Inc 发布，该公司在加拿大不列颠哥伦比亚省注册成立。本政策中的<strong>我们</strong>即指 iDataGear Inc。</p>
+        <p>应用没有账号，也不需要注册。我们不运营任何接收你内容的服务器，也没有任何记录着你的数据库。</p>
+        <h2 id="zh-Hans-stores">应用在你设备上保存了什么</h2>
+        <p>应用会把下列内容写入你设备上的应用私有存储区——其他应用无法读取的区域。它们会一直留在那里，直到你自己删除，或卸载应用为止。</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>内容</th>
+              <th>用途</th>
+              <th>保存位置</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>扫描的页面</td>
+                <td>你拍摄或导入的页面图像。</td>
+                <td>仅在你的设备上</td>
+              </tr>
+              <tr>
+                <td>识别出的文字</td>
+                <td>在设备上从你的页面中读出的文字。</td>
+                <td>仅在你的设备上</td>
+              </tr>
+              <tr>
+                <td>设置</td>
+                <td>语言、主题、音频和显示方面的偏好。</td>
+                <td>仅在你的设备上</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>这些内容不会上传给我们。我们读不到，无法替你找回，也无法交给任何第三方——因为它们从未到达我们这里。</p>
+        <h2 id="zh-Hans-leaves">有什么会离开你的设备</h2>
+        <p>下面是完整的清单。凡是没有列出的，都留在你的设备上。</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>发送的内容</th>
+              <th>接收方</th>
+              <th>目的</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>模型下载与 Google 自身的诊断</td>
+                <td>Google Play 服务（ML Kit）</td>
+                <td>用于取回文档扫描模型。你的页面不会被发送。</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>文档检测与文字识别通过 Google ML Kit 完成。在 Android 上，文档扫描器运行于 Google Play 服务内部，首次使用时下载其模型；文字识别使用的是随应用一起打包的模型。页面与识别出的文字都在设备上处理，不会作为内容上传给我们或 Google。</p>
+        <p>上表之外，凡是你主动发送的内容——通过系统分享面板、导出、打印或剪贴板——都会去到你指定的地方。那是你每一次自己的选择，不在上表的范围内。</p>
+        <h2 id="zh-Hans-notdo">应用不会做的事</h2>
+        <p>在本政策为现行版本期间：</p>
+        <ul>
+          <li>没有账号，不需要注册，不需要邮箱，也不需要密码。</li>
+          <li>我们不运营任何接收你内容的服务器，也没有任何记录着你的数据库。</li>
+          <li>我们不出售你的个人信息，也不会为跨情境行为广告而共享它。</li>
+          <li>应用不会跨其他公司的应用或网站跟踪你，也不弹出「App 跟踪透明度」授权框。</li>
+          <li>没有任何内容同步到属于我们的云端账户。我们这边没有可供恢复的备份。</li>
+          <li>这个版本不含广告 SDK，也不显示任何广告。</li>
+          <li>这个版本不含使用统计 SDK，也不含崩溃上报 SDK。</li>
+          <li>应用不索取也不读取你的位置。</li>
+          <li>应用不读取你的通讯录、日历、短信、通话记录，也不读取其自身存储区以外的文件。</li>
+        </ul>
+        <h2 id="zh-Hans-perms">权限，以及每一项的用途</h2>
+        <p>下列每一项权限都只用于所声明的那一个用途，不作他用。在两个平台上，你都可以在系统设置中拒绝或撤回其中任何一项；依赖它的功能会停止工作，应用的其余部分照常运行。</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>权限</th>
+              <th>平台</th>
+              <th>目的</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>网络访问</td>
+                <td>Android</td>
+                <td>上述网络请求所必需。</td>
+              </tr>
+              <tr>
+                <td>相机</td>
+                <td>iOS</td>
+                <td>在应用内拍摄。</td>
+              </tr>
+              <tr>
+                <td>相册</td>
+                <td>iOS</td>
+                <td>导入你已有的图片。</td>
+              </tr>
+              <tr>
+                <td>App 跟踪透明度</td>
+                <td>iOS</td>
+                <td>不请求。应用不会跨其他公司的应用或网站跟踪你。</td>
+              </tr>
+              <tr>
+                <td>位置</td>
+                <td>Android 与 iOS</td>
+                <td>不请求。</td>
+              </tr>
+              <tr>
+                <td>麦克风</td>
+                <td>Android 与 iOS</td>
+                <td>不请求。</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>在 iOS 上，应用使用相机拍摄页面，并使用相册让你导入已有的图片。在 Android 上，页面拍摄发生在 Google Play 服务内部、由其自身的权限管辖，这也是应用本身在 Android 上没有声明相机权限的原因。</p>
+        <h2 id="zh-Hans-telemetry">使用统计与崩溃报告</h2>
+        <p>这个版本的应用不包含任何使用统计 SDK，也不包含任何崩溃上报 SDK。我们收不到它的任何使用数据、崩溃报告或诊断信息。</p>
+        <h2 id="zh-Hans-purchases">订阅与购买</h2>
+        <p>这个版本的应用没有任何应用内购买，也没有订阅，因此不会收集任何支付信息。</p>
+        <h2 id="zh-Hans-sharing">当你主动分享时</h2>
+        <p>分享、导出、打印和复制永远由你发起。当你使用其中任何一项时，应用会把该内容交给你选定的目的地——另一个应用、一位联系人、一个文件夹、一台打印机——此后它的去向由那个目的地决定，不再受本政策约束。</p>
+        <h2 id="zh-Hans-retention">数据的保存与删除</h2>
+        <p>应用保存的一切都在你的设备上，因此保存多久由你决定。</p>
+        <p>在应用内删除某一条即可移除它。要一次性清除全部内容，卸载应用即可：操作系统会删除它的私有存储区，上表中的每一项也随之消失。</p>
+        <p>由于没有任何内容到达我们这里，我们也就没有什么可保留的，没有需要我们执行的删除请求。卸载应用就会移除它曾保存过的一切。</p>
+        <h2 id="zh-Hans-rights">你的权利</h2>
+        <p>根据 GDPR、英国 GDPR、经 CPRA 修订的 CCPA、加拿大 PIPEDA 以及其他地区的同类法律，你对与你有关的个人信息享有权利——知晓持有了什么、获取副本、更正、要求删除，以及反对或限制其使用。</p>
+        <p>对本应用而言，这些权利已经由设计本身满足，而不需要向我们提出申请：数据就在你的设备上，你可以在应用里查看、修改、导出和删除，而我们手上没有副本可供提供、更正或擦除。</p>
+        <p>我们不出售个人信息，也不会为了 CPRA 所定义的跨情境行为广告而共享个人信息。因此并不存在需要你选择退出的出售行为。</p>
+        <p>如果你仍然认为我们持有与你有关的信息，请写信到 idatagear@gmail.com，我们会答复。你也可以向你所在地的数据保护机构投诉。</p>
+        <h2 id="zh-Hans-transfers">跨境传输</h2>
+        <p>我们位于加拿大。由于这个版本的应用不向我们、也不向任何其他方发送任何内容，使用它不会把你的任何个人信息传输到另一个国家。</p>
+        <h2 id="zh-Hans-children">儿童</h2>
+        <p>本应用面向普通受众。它不以 13 岁以下儿童为对象，我们也不会在知情的情况下收集儿童的个人信息。</p>
+        <p>应用没有账号系统，没有消息功能，没有社交功能，也没有任何其他用户可以发布或看到的内容——因此不存在任何途径，让使用应用的儿童把信息透露给我们或他人。</p>
+        <p>如果你认为有儿童向我们提供了个人信息，请写信到 idatagear@gmail.com，我们会删除它。</p>
+        <h2 id="zh-Hans-security">安全</h2>
+        <p>应用数据存放在操作系统的应用私有存储区，受设备自身的沙盒保护；在设置了锁屏的设备上，还受全盘加密保护。设置密码、PIN 码或生物识别锁，是你能为保护这些数据所做的最有效的一件事。</p>
+        <p>应用发出的每一个网络请求都使用 HTTPS。没有任何存储或传输方式是绝对安全的，我们无法保证万无一失。</p>
+        <h2 id="zh-Hans-changes">本政策的变更</h2>
+        <p>应用发生变化时，我们会更新本政策。页面顶部的日期就是当前版本的日期，变更一旦生效即在此发布。</p>
+        <p>如果某项变更意味着应用开始收集此前不收集的内容，我们会明确写出来，而不是让你自己去比对前后两版文字。</p>
+        <h2 class="pp-part">第二部分 — 使用条款</h2>
+        <h2 id="zh-Hans-t_accept">1. 接受本条款</h2>
+        <p>安装或使用本应用，即表示你接受本条款。如果你不接受，请不要使用本应用，并将其从设备上移除。</p>
+        <p>本条款是你与 iDataGear Inc 之间的约定。若你从 App Store 或 Google Play 获得本应用，该商店自身的条款同样适用于该笔交易；在付款、退款、重新下载等由商店管辖的事项上如有冲突，以商店的条款为准。</p>
+        <h2 id="zh-Hans-t_licence">2. 你的使用许可</h2>
+        <p>我们授予你一项个人的、非独占的、不可转让的、可撤销的许可，允许你在自己拥有或控制的设备上，按照平台既定的通常方式，为自己使用本应用。其余权利我们全部保留。</p>
+        <p>你不得复制、出售、出租、再许可或再分发本应用，不得对其进行逆向工程或反编译（法律明确允许且不受本条限制的情形除外），不得移除或更改其中的任何声明，也不得利用它来开发竞争产品。</p>
+        <h2 id="zh-Hans-t_yourcontent">3. 你创建的内容属于你</h2>
+        <p>你在应用中创建的一切都属于你。我们不主张对它的任何所有权，也不主张任何许可。由于它留在你的设备上，即使我们想使用也无从使用。</p>
+        <p>备份由你自己负责。卸载应用、重置设备，或丢失、更换设备，都会让应用保存的内容消失，而我们手上没有任何副本可供恢复。凡是丢了会心疼的内容，请先导出。</p>
+        <h2 id="zh-Hans-t_acceptable">4. 合理使用</h2>
+        <p>请合法地使用本应用。特别是，不得利用它违反法律或侵害他人权利，不得在录制他人需征得其同意而你并未取得同意的情况下进行录制，不得干扰应用的运行或安全，也不得试图取得你尚未付费的功能、内容或资格。</p>
+        <h2 id="zh-Hans-t_purchases">5. 购买、续订与取消</h2>
+        <p>这个版本的应用没有任何应用内购买，也没有订阅，因此本节目前对它不适用。如果这一点发生变化，我们会在变化上线之前更新本页。</p>
+        <h2 id="zh-Hans-t_accuracy">6. 内容的准确性</h2>
+        <p>应用中的内容仅供学习和参考。语言存在争议、因地而异且始终在变化，词典释义、翻译、注音、发音评分、笔顺和识别出的文字都可能出错。凡是出错会带来实际后果的场合——考试、法律文件、医疗场景或合同——请不要在未经独立核实的情况下依赖其中任何内容。</p>
+        <h2 id="zh-Hans-t_thirdparty">7. 第三方服务</h2>
+        <p>本应用使用上文隐私政策中列出的第三方服务。每一项都受其自身的条款和隐私政策约束，我们无法控制它们，也不对它们的行为负责。应用中指向其他网站的链接仅为方便而提供，不构成任何背书。</p>
+        <h2 id="zh-Hans-t_warranty">8. 不提供保证</h2>
+        <p>本应用按<strong>现状</strong>和<strong>现有可用状态</strong>提供，不附带任何明示或默示的保证，包括对适销性、特定用途适用性、准确性或不侵权的任何默示保证。我们不保证它不会中断、没有错误、兼容每一台设备，也不保证缺陷都会被修复。</p>
+        <p>部分司法管辖区不允许排除默示保证，因此本条的部分内容可能对你不适用；本条也不限制任何依法不得限制的消费者权利。</p>
+        <h2 id="zh-Hans-t_liability">9. 责任限制</h2>
+        <p>在法律允许的最大范围内，我们不对间接的、附带的、特殊的、后果性的、惩戒性或惩罚性的损害承担责任，也不对利润损失、数据丢失、录音丢失、路线丢失或进度丢失承担责任，无论其成因为何、基于何种责任理论，即使我们已被告知此类损害可能发生。</p>
+        <p>在责任无法排除的情形下，我们就因本应用引起的全部索赔所承担的责任总额，以索赔发生前十二个月内你为本应用向我们支付的金额与二十加元两者中的较高者为限。</p>
+        <h2 id="zh-Hans-t_termination">10. 变更与终止</h2>
+        <p>我们可以随时变更、暂停或停止本应用或其任何部分。我们也可以更新本条款；更新时，本页顶部的日期会随之改变，在此之后继续使用本应用即视为接受更新后的条款。</p>
+        <p>如果你违反本条款，本许可即告终止；当你把应用从设备上移除时，本许可同样终止。关于你的内容、保证、责任和适用法律的各节在终止后继续有效。</p>
+        <h2 id="zh-Hans-t_law">11. 适用法律</h2>
+        <p>本条款受加拿大British Columbia省法律以及在该省适用的加拿大联邦法律管辖，不适用其法律冲突规则。任何争议由British Columbia省法院专属管辖，你与我们均服从该管辖——但任何一方均可向任何有管辖权的法院申请禁令救济。</p>
+        <p>若本条款的某一条被认定不可执行，其余部分继续有效。本条款不排除你所在国家法律为你提供的任何强制性消费者保护。</p>
+        <h2 id="zh-Hans-contact">联系我们</h2>
+        <p>关于本政策的疑问、关于你数据的请求，或者其他任何事情：</p>
+        <p><strong>iDataGear Inc</strong><br>
+        Email: <a href="mailto:idatagear@gmail.com">idatagear@gmail.com</a><br>
+        Web: <a href="https://www.idatagear.com/">www.idatagear.com</a></p>
+      </article>
 
-  a { color: var(--link); text-decoration-thickness: 1px; text-underline-offset: 2px; }
+      <article class="pp" data-lang="zh-Hant" lang="zh-Hant">
+        <h2 id="zh-Hant-tldr">一句話版本</h2>
+        <div class="pp-tldr">
+        <ul>
+          <li>你在 App 中建立的一切都留在你的裝置上。</li>
+          <li>沒有帳號，也不需要註冊。</li>
+          <li>這個版本不顯示任何廣告。</li>
+          <li>App 不含使用統計，也不含當機報告。</li>
+          <li>這個版本沒有 App 內購買，也沒有訂閱。</li>
+          <li>我們不出售你的資料，也不會為廣告輪廓而分享它。</li>
+          <li>移除 App 會刪除它儲存過的一切。</li>
+          <li>本頁第二部分是 App 的使用條款。</li>
+        </ul>
+        </div>
+        <h2 class="pp-part">第一部分 — 隱私權政策</h2>
+        <h2 id="zh-Hant-who">我們是誰</h2>
+        <p>QuickOne Scanner 把你用手機拍下的頁面變成裁切好、校正過的 PDF，並讀出上面的文字，讓你可以搜尋和複製。掃描和文字辨識都在你的裝置上進行。它可以在 iPhone、iPad 和 Android 上執行。</p>
+        <p>QuickOne Scanner 由 iDataGear Inc 發行，該公司在加拿大卑詩省註冊成立。本政策中的<strong>我們</strong>即指 iDataGear Inc。</p>
+        <p>App 沒有帳號，也不需要註冊。我們不營運任何接收你內容的伺服器，也沒有任何記錄著你的資料庫。</p>
+        <h2 id="zh-Hant-stores">App 在你裝置上儲存了什麼</h2>
+        <p>App 會把下列內容寫入你裝置上的 App 專屬儲存區——其他 App 無法讀取的區域。它們會一直留在那裡，直到你自己刪除，或移除 App 為止。</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>內容</th>
+              <th>用途</th>
+              <th>儲存位置</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>掃描的頁面</td>
+                <td>你拍攝或匯入的頁面影像。</td>
+                <td>只在你的裝置上</td>
+              </tr>
+              <tr>
+                <td>辨識出的文字</td>
+                <td>在裝置上從你的頁面中讀出的文字。</td>
+                <td>只在你的裝置上</td>
+              </tr>
+              <tr>
+                <td>設定</td>
+                <td>語言、主題、音訊和顯示方面的偏好。</td>
+                <td>只在你的裝置上</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>這些內容不會上傳給我們。我們讀不到，無法替你找回，也無法交給任何第三方——因為它們從未到達我們這裡。</p>
+        <h2 id="zh-Hant-leaves">有什麼會離開你的裝置</h2>
+        <p>下面是完整的清單。凡是沒有列出的，都留在你的裝置上。</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>送出的內容</th>
+              <th>接收方</th>
+              <th>目的</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>模型下載與 Google 自身的診斷</td>
+                <td>Google Play 服務（ML Kit）</td>
+                <td>用於取回文件掃描模型。你的頁面不會被送出。</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>文件偵測與文字辨識透過 Google ML Kit 完成。在 Android 上，文件掃描器執行於 Google Play 服務內部，首次使用時下載其模型；文字辨識使用的是隨 App 一起打包的模型。頁面與辨識出的文字都在裝置上處理，不會作為內容上傳給我們或 Google。</p>
+        <p>上表之外，凡是你主動送出的內容——透過系統分享面板、匯出、列印或剪貼簿——都會到你指定的地方。那是你每一次自己的選擇，不在上表的範圍內。</p>
+        <h2 id="zh-Hant-notdo">App 不會做的事</h2>
+        <p>在本政策為現行版本期間：</p>
+        <ul>
+          <li>沒有帳號，不需要註冊，不需要電子郵件，也不需要密碼。</li>
+          <li>我們不營運任何接收你內容的伺服器，也沒有任何記錄著你的資料庫。</li>
+          <li>我們不出售你的個人資料，也不會為跨情境行為廣告而分享它。</li>
+          <li>App 不會跨其他公司的 App 或網站追蹤你，也不跳出「App 追蹤透明度」授權框。</li>
+          <li>沒有任何內容同步到屬於我們的雲端帳戶。我們這邊沒有可供還原的備份。</li>
+          <li>這個版本不含廣告 SDK，也不顯示任何廣告。</li>
+          <li>這個版本不含使用統計 SDK，也不含當機回報 SDK。</li>
+          <li>App 不索取也不讀取你的位置。</li>
+          <li>App 不讀取你的通訊錄、行事曆、簡訊、通話記錄，也不讀取其專屬儲存區以外的檔案。</li>
+        </ul>
+        <h2 id="zh-Hant-perms">權限，以及每一項的用途</h2>
+        <p>下列每一項權限都只用於所聲明的那一個用途，不作他用。在兩個平台上，你都可以在系統設定中拒絕或撤回其中任何一項；依賴它的功能會停止運作，App 的其餘部分照常運行。</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>權限</th>
+              <th>平台</th>
+              <th>目的</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>網路存取</td>
+                <td>Android</td>
+                <td>上述網路請求所必需。</td>
+              </tr>
+              <tr>
+                <td>相機</td>
+                <td>iOS</td>
+                <td>在 App 內拍攝。</td>
+              </tr>
+              <tr>
+                <td>相簿</td>
+                <td>iOS</td>
+                <td>匯入你已有的圖片。</td>
+              </tr>
+              <tr>
+                <td>App 追蹤透明度</td>
+                <td>iOS</td>
+                <td>不要求。App 不會跨其他公司的 App 或網站追蹤你。</td>
+              </tr>
+              <tr>
+                <td>位置</td>
+                <td>Android 與 iOS</td>
+                <td>不要求。</td>
+              </tr>
+              <tr>
+                <td>麥克風</td>
+                <td>Android 與 iOS</td>
+                <td>不要求。</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>在 iOS 上，App 使用相機拍攝頁面，並使用相簿讓你匯入已有的圖片。在 Android 上，頁面拍攝發生在 Google Play 服務內部、由其自身的權限管轄，這也是 App 本身在 Android 上沒有宣告相機權限的原因。</p>
+        <h2 id="zh-Hant-telemetry">使用統計與當機報告</h2>
+        <p>這個版本的 App 不含任何使用統計 SDK，也不含任何當機回報 SDK。我們收不到它的任何使用資料、當機報告或診斷資訊。</p>
+        <h2 id="zh-Hant-purchases">訂閱與購買</h2>
+        <p>這個版本的 App 沒有任何 App 內購買，也沒有訂閱，因此不會蒐集任何付款資訊。</p>
+        <h2 id="zh-Hant-sharing">當你主動分享時</h2>
+        <p>分享、匯出、列印和複製永遠由你發起。當你使用其中任何一項時，App 會把該內容交給你選定的目的地——另一個 App、一位聯絡人、一個資料夾、一台印表機——此後它的去向由那個目的地決定，不再受本政策拘束。</p>
+        <h2 id="zh-Hant-retention">資料的保存與刪除</h2>
+        <p>App 儲存的一切都在你的裝置上，因此要留多久由你決定。</p>
+        <p>在 App 內刪除某一筆即可移除它。要一次清除全部內容，移除 App 即可：作業系統會刪除它的專屬儲存區，上表中的每一項也隨之消失。</p>
+        <p>由於沒有任何內容到達我們這裡，我們也就沒有什麼可保存的，沒有需要我們執行的刪除要求。移除 App 就會清掉它曾儲存過的一切。</p>
+        <h2 id="zh-Hant-rights">你的權利</h2>
+        <p>依據 GDPR、英國 GDPR、經 CPRA 修訂的 CCPA、加拿大 PIPEDA 以及其他地區的同類法律，你對與你有關的個人資料享有權利——知悉持有了什麼、取得副本、更正、要求刪除，以及反對或限制其利用。</p>
+        <p>對本 App 而言，這些權利已經由設計本身滿足，而不需要向我們提出申請：資料就在你的裝置上，你可以在 App 裡檢視、修改、匯出和刪除，而我們手上沒有副本可供提供、更正或清除。</p>
+        <p>我們不出售個人資料，也不會為了 CPRA 所定義的跨情境行為廣告而分享個人資料。因此並不存在需要你選擇退出的出售行為。</p>
+        <p>如果你仍然認為我們持有與你有關的資料，請來信 idatagear@gmail.com，我們會答覆。你也可以向你所在地的資料保護主管機關申訴。</p>
+        <h2 id="zh-Hant-transfers">跨境傳輸</h2>
+        <p>我們位於加拿大。由於這個版本的 App 不向我們、也不向任何其他方傳送任何內容，使用它不會把你的任何個人資料傳輸到另一個國家。</p>
+        <h2 id="zh-Hant-children">兒童</h2>
+        <p>本 App 面向一般大眾。它不以 13 歲以下兒童為對象，我們也不會在知情的情況下蒐集兒童的個人資料。</p>
+        <p>App 沒有帳號系統，沒有訊息功能，沒有社群功能，也沒有任何其他使用者可以張貼或看到的內容——因此不存在任何途徑，讓使用 App 的兒童把資料透露給我們或他人。</p>
+        <p>如果你認為有兒童向我們提供了個人資料，請來信 idatagear@gmail.com，我們會刪除它。</p>
+        <h2 id="zh-Hant-security">安全</h2>
+        <p>App 資料存放在作業系統的 App 專屬儲存區，受裝置自身的沙箱保護；在設定了螢幕鎖定的裝置上，還受全機加密保護。設定密碼、PIN 碼或生物辨識鎖定，是你能為保護這些資料所做的最有效的一件事。</p>
+        <p>App 發出的每一個網路請求都使用 HTTPS。沒有任何儲存或傳輸方式是絕對安全的，我們無法保證萬無一失。</p>
+        <h2 id="zh-Hant-changes">本政策的變更</h2>
+        <p>App 發生變化時，我們會更新本政策。頁面頂端的日期就是目前版本的日期，變更一旦生效即在此公布。</p>
+        <p>如果某項變更意味著 App 開始蒐集此前不蒐集的內容，我們會明確寫出來，而不是讓你自己去比對前後兩版文字。</p>
+        <h2 class="pp-part">第二部分 — 使用條款</h2>
+        <h2 id="zh-Hant-t_accept">1. 接受本條款</h2>
+        <p>安裝或使用本 App，即表示你接受本條款。如果你不接受，請不要使用本 App，並將其從裝置上移除。</p>
+        <p>本條款是你與 iDataGear Inc 之間的約定。若你從 App Store 或 Google Play 取得本 App，該商店自身的條款同樣適用於該筆交易；在付款、退款、重新下載等由商店管轄的事項上如有衝突，以商店的條款為準。</p>
+        <h2 id="zh-Hant-t_licence">2. 你的使用授權</h2>
+        <p>我們授予你一項個人的、非專屬的、不可轉讓的、可撤回的授權，允許你在自己擁有或控制的裝置上，依照平台既定的通常方式，為自己使用本 App。其餘權利我們全部保留。</p>
+        <p>你不得重製、出售、出租、再授權或再散布本 App，不得對其進行還原工程或反編譯（法律明文允許且不受本條限制的情形除外），不得移除或變更其中的任何聲明，也不得利用它來開發競爭產品。</p>
+        <h2 id="zh-Hant-t_yourcontent">3. 你建立的內容屬於你</h2>
+        <p>你在 App 中建立的一切都屬於你。我們不主張對它的任何所有權，也不主張任何授權。由於它留在你的裝置上，即使我們想使用也無從使用。</p>
+        <p>備份由你自己負責。移除 App、重設裝置，或遺失、更換裝置，都會讓 App 儲存的內容消失，而我們手上沒有任何副本可供還原。凡是丟了會心疼的內容，請先匯出。</p>
+        <h2 id="zh-Hant-t_acceptable">4. 合理使用</h2>
+        <p>請合法地使用本 App。特別是，不得利用它違反法律或侵害他人權利，不得在錄製他人需徵得其同意而你並未取得同意的情況下進行錄製，不得干擾 App 的運作或安全，也不得試圖取得你尚未付費的功能、內容或資格。</p>
+        <h2 id="zh-Hant-t_purchases">5. 購買、續訂與取消</h2>
+        <p>這個版本的 App 沒有任何 App 內購買，也沒有訂閱，因此本節目前對它不適用。如果這一點有所變化，我們會在變化上線之前更新本頁。</p>
+        <h2 id="zh-Hant-t_accuracy">6. 內容的正確性</h2>
+        <p>App 中的內容僅供學習和參考。語言存在爭議、因地而異且始終在變化，辭典釋義、翻譯、拼音標註、發音評分、筆順和辨識出的文字都可能出錯。凡是出錯會帶來實際後果的場合——考試、法律文件、醫療場景或契約——請不要在未經獨立查證的情況下依賴其中任何內容。</p>
+        <h2 id="zh-Hant-t_thirdparty">7. 第三方服務</h2>
+        <p>本 App 使用上文隱私權政策中列出的第三方服務。每一項都受其自身的條款和隱私權政策拘束，我們無法控制它們，也不對它們的行為負責。App 中指向其他網站的連結僅為方便而提供，不構成任何背書。</p>
+        <h2 id="zh-Hant-t_warranty">8. 不提供擔保</h2>
+        <p>本 App 按<strong>現狀</strong>和<strong>現有可用狀態</strong>提供，不附帶任何明示或默示的擔保，包括對可售性、特定用途適用性、正確性或不侵權的任何默示擔保。我們不保證它不會中斷、沒有錯誤、相容於每一台裝置，也不保證瑕疵都會被修復。</p>
+        <p>部分司法管轄區不允許排除默示擔保，因此本條的部分內容可能對你不適用；本條也不限制任何依法不得限制的消費者權利。</p>
+        <h2 id="zh-Hant-t_liability">9. 責任限制</h2>
+        <p>在法律允許的最大範圍內，我們不對間接的、附隨的、特殊的、衍生的、懲戒性或懲罰性的損害負責，也不對利潤損失、資料遺失、錄音遺失、路線遺失或進度遺失負責，無論其成因為何、基於何種責任理論，即使我們已被告知此類損害可能發生。</p>
+        <p>在責任無法排除的情形下，我們就因本 App 引起的全部請求所承擔的責任總額，以請求發生前十二個月內你為本 App 向我們支付的金額與二十加元兩者中的較高者為限。</p>
+        <h2 id="zh-Hant-t_termination">10. 變更與終止</h2>
+        <p>我們可以隨時變更、暫停或終止本 App 或其任何部分。我們也可以更新本條款；更新時，本頁頂端的日期會隨之改變，在此之後繼續使用本 App 即視為接受更新後的條款。</p>
+        <p>如果你違反本條款，本授權即告終止；當你把 App 從裝置上移除時，本授權同樣終止。關於你的內容、擔保、責任和準據法的各節在終止後繼續有效。</p>
+        <h2 id="zh-Hant-t_law">11. 準據法</h2>
+        <p>本條款受加拿大British Columbia省法律以及在該省適用的加拿大聯邦法律管轄，不適用其法律衝突規則。任何爭議由British Columbia省法院專屬管轄，你與我們均服從該管轄——但任何一方均可向任何有管轄權的法院聲請禁制令救濟。</p>
+        <p>若本條款的某一條被認定不可執行，其餘部分繼續有效。本條款不排除你所在國家法律為你提供的任何強制性消費者保護。</p>
+        <h2 id="zh-Hant-contact">聯絡我們</h2>
+        <p>關於本政策的疑問、關於你資料的要求，或者其他任何事情：</p>
+        <p><strong>iDataGear Inc</strong><br>
+        Email: <a href="mailto:idatagear@gmail.com">idatagear@gmail.com</a><br>
+        Web: <a href="https://www.idatagear.com/">www.idatagear.com</a></p>
+      </article>
 
-  footer {
-    margin-top: 3.5rem; padding-top: 1.5rem; border-top: 1px solid var(--rule);
-    color: var(--ink-soft); font-size: .9rem;
-  }
+      <article class="pp" data-lang="es" lang="es">
+        <h2 id="es-tldr">La versión corta</h2>
+        <div class="pp-tldr">
+        <ul>
+          <li>Todo lo que creas en la aplicación se queda en tu dispositivo.</li>
+          <li>No hay cuenta ni registro.</li>
+          <li>Esta versión no muestra publicidad.</li>
+          <li>La aplicación no incluye estadísticas ni informes de fallos.</li>
+          <li>Esta versión no incluye compras dentro de la aplicación ni suscripción.</li>
+          <li>No vendemos tus datos ni los compartimos para perfilado publicitario.</li>
+          <li>Desinstalar la aplicación borra todo lo que hubiera guardado.</li>
+          <li>La parte 2 de esta página son los términos de uso de la aplicación.</li>
+        </ul>
+        </div>
+        <h2 class="pp-part">Parte 1 — Política de Privacidad</h2>
+        <h2 id="es-who">Quiénes somos</h2>
+        <p>QuickOne Scanner convierte páginas fotografiadas con el móvil en PDF recortados y enderezados, y lee el texto para que puedas buscarlo y copiarlo. Tanto el escaneo como el reconocimiento de texto se ejecutan en tu dispositivo. Funciona en iPhone, iPad y Android.</p>
+        <p>QuickOne Scanner la publica iDataGear Inc, una sociedad constituida en Columbia Británica, Canadá. Cuando esta política dice <strong>nosotros</strong>, se refiere a iDataGear Inc.</p>
+        <p>No hay cuenta que crear ni registro que completar. No operamos ningún servidor que reciba tu contenido y no tenemos ninguna base de datos en la que figures.</p>
+        <h2 id="es-stores">Qué guarda la aplicación en tu dispositivo</h2>
+        <p>La aplicación escribe lo siguiente en el almacenamiento privado de tu dispositivo, una zona que otras aplicaciones no pueden leer. Permanece ahí hasta que lo borres tú o desinstales la aplicación.</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>Qué</th>
+              <th>Para qué</th>
+              <th>Dónde se guarda</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>Páginas escaneadas</td>
+                <td>Las imágenes de página que capturaste o importaste.</td>
+                <td>Solo en tu dispositivo</td>
+              </tr>
+              <tr>
+                <td>Texto reconocido</td>
+                <td>Texto leído de tus páginas en el dispositivo.</td>
+                <td>Solo en tu dispositivo</td>
+              </tr>
+              <tr>
+                <td>Ajustes</td>
+                <td>Preferencias de idioma, tema, sonido y visualización.</td>
+                <td>Solo en tu dispositivo</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>Nada de esto se sube a nosotros. No podemos leerlo, no podemos recuperarlo por ti y no podríamos entregárselo a nadie, porque nunca llega hasta nosotros.</p>
+        <h2 id="es-leaves">Qué sale de tu dispositivo</h2>
+        <p>Esta es la lista completa. Todo lo que no aparezca aquí se queda en tu dispositivo.</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>Qué se envía</th>
+              <th>Quién lo recibe</th>
+              <th>Finalidad</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>Descarga del modelo y diagnósticos de Google</td>
+                <td>Servicios de Google Play (ML Kit)</td>
+                <td>Para obtener el modelo del escáner de documentos. Tus páginas no se envían.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>La detección de documentos y el reconocimiento de texto funcionan con Google ML Kit. En Android el escáner de documentos se ejecuta dentro de los servicios de Google Play, que descargan su modelo en el primer uso; el reconocimiento de texto usa un modelo incluido en la aplicación. Las páginas y el texto reconocido se procesan en el dispositivo y no se suben como contenido ni a nosotros ni a Google.</p>
+        <p>Al margen de la tabla anterior, todo lo que envíes deliberadamente —por el menú de compartir del sistema, una exportación, una impresión o el portapapeles— va adonde tú lo mandes. Esa es tu decisión cada vez, y queda fuera de la tabla.</p>
+        <h2 id="es-notdo">Lo que la aplicación no hace</h2>
+        <p>Mientras esta política sea la vigente:</p>
+        <ul>
+          <li>No hay cuenta, ni registro, ni correo electrónico, ni contraseña.</li>
+          <li>No operamos ningún servidor que reciba tu contenido ni tenemos ninguna base de datos en la que figures.</li>
+          <li>No vendemos tu información personal ni la compartimos para publicidad conductual de contexto cruzado.</li>
+          <li>La aplicación no te rastrea por aplicaciones ni sitios web de otras empresas, y no muestra el aviso de Transparencia de Seguimiento de Apps.</li>
+          <li>Nada se sincroniza con ninguna cuenta en la nube nuestra. No hay copia de seguridad por nuestro lado desde la que restaurar.</li>
+          <li>Esta versión no incluye SDK de publicidad ni muestra anuncios.</li>
+          <li>Esta versión no incluye SDK de estadísticas ni de informes de fallos.</li>
+          <li>La aplicación no pide ni lee tu ubicación.</li>
+          <li>La aplicación no lee tus contactos, tu calendario, tus mensajes, tu registro de llamadas ni archivos fuera de su propio almacenamiento.</li>
+        </ul>
+        <h2 id="es-perms">Permisos, y por qué se pide cada uno</h2>
+        <p>Cada permiso de abajo se pide para la finalidad declarada y no se usa para nada más. En ambas plataformas puedes denegarlo o retirarlo desde los ajustes del sistema; las funciones que dependen de él dejan de funcionar y el resto de la aplicación sigue igual.</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>Permiso</th>
+              <th>Plataforma</th>
+              <th>Finalidad</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>Acceso a internet</td>
+                <td>Android</td>
+                <td>Necesario para las peticiones de red indicadas arriba.</td>
+              </tr>
+              <tr>
+                <td>Cámara</td>
+                <td>iOS</td>
+                <td>Para capturar dentro de la aplicación.</td>
+              </tr>
+              <tr>
+                <td>Fototeca</td>
+                <td>iOS</td>
+                <td>Para importar una imagen que ya tienes.</td>
+              </tr>
+              <tr>
+                <td>Transparencia de Seguimiento de Apps</td>
+                <td>iOS</td>
+                <td>No se solicita. La aplicación no te rastrea por aplicaciones ni sitios de otras empresas.</td>
+              </tr>
+              <tr>
+                <td>Ubicación</td>
+                <td>Android e iOS</td>
+                <td>No se solicita.</td>
+              </tr>
+              <tr>
+                <td>Micrófono</td>
+                <td>Android e iOS</td>
+                <td>No se solicita.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>En iOS la aplicación usa la cámara para capturar páginas y la fototeca para que importes una imagen que ya tengas. En Android la captura ocurre dentro de los servicios de Google Play, bajo su propio permiso, y por eso la aplicación no declara allí ningún permiso de cámara.</p>
+        <h2 id="es-telemetry">Estadísticas de uso e informes de fallos</h2>
+        <p>Esta versión de la aplicación no incluye ningún SDK de estadísticas ni de informes de fallos. No recibimos de ella ninguna estadística de uso, ningún informe de fallo ni ningún dato de diagnóstico.</p>
+        <h2 id="es-purchases">Suscripciones y compras</h2>
+        <p>Esta versión de la aplicación no incluye compras dentro de la aplicación ni suscripción, por lo que no recoge ningún dato de pago.</p>
+        <h2 id="es-sharing">Cuando eres tú quien comparte</h2>
+        <p>Compartir, exportar, imprimir y copiar son siempre acciones tuyas. Cuando usas una de ellas, la aplicación entrega el elemento al destino que elijas —otra aplicación, un contacto, una carpeta, una impresora— y lo que ocurra después se rige por ese destino, no por esta política.</p>
+        <h2 id="es-retention">Conservación y eliminación de tus datos</h2>
+        <p>Todo lo que guarda la aplicación está en tu dispositivo, así que tú decides cuánto dura.</p>
+        <p>Borra un elemento dentro de la aplicación para eliminarlo. Para eliminarlo todo de una vez, desinstala la aplicación: el sistema operativo borra su almacenamiento privado y con él todo lo de la tabla anterior.</p>
+        <p>Como nada llega hasta nosotros, no hay nada que podamos conservar ni ninguna solicitud de borrado que debamos atender. Desinstalar la aplicación elimina todo lo que llegó a guardar.</p>
+        <h2 id="es-rights">Tus derechos</h2>
+        <p>Conforme al RGPD, al RGPD del Reino Unido, a la CCPA modificada por la CPRA, a la PIPEDA canadiense y a leyes equivalentes de otros lugares, tienes derechos sobre la información personal que se conserve sobre ti: saber qué se conserva, obtener una copia, corregirla, pedir que se borre y oponerte a su uso o limitarlo.</p>
+        <p>En esta aplicación esos derechos ya quedan satisfechos por el propio diseño y no por una solicitud dirigida a nosotros: los datos están en tu dispositivo, puedes verlos en la aplicación, modificarlos, exportarlos y borrarlos, y nosotros no tenemos ninguna copia que entregar, corregir o suprimir.</p>
+        <p>No vendemos información personal ni la compartimos para publicidad conductual de contexto cruzado en el sentido que da la CPRA a esos términos. No existe, por tanto, ninguna venta de la que puedas excluirte.</p>
+        <p>Si aun así crees que conservamos algo sobre ti, escribe a idatagear@gmail.com y te responderemos. También puedes reclamar ante la autoridad de protección de datos de tu país.</p>
+        <h2 id="es-transfers">Transferencias internacionales</h2>
+        <p>Estamos en Canadá. Como esta versión de la aplicación no envía nada ni a nosotros ni a nadie más, usarla no transfiere ninguna información personal tuya a otro país.</p>
+        <h2 id="es-children">Menores</h2>
+        <p>Esta aplicación está hecha para el público general. No está dirigida a menores de 13 años y no recogemos a sabiendas información personal de un menor.</p>
+        <p>No hay sistema de cuentas, ni mensajería, ni función social, ni nada que otro usuario pueda publicar o ver, de modo que no existe ninguna vía por la que un menor que use la aplicación pudiera revelarnos algo, ni a nosotros ni a nadie.</p>
+        <p>Si crees que un menor nos ha facilitado información personal, escribe a idatagear@gmail.com y la borraremos.</p>
+        <h2 id="es-security">Seguridad</h2>
+        <p>Los datos de la aplicación se guardan en el almacenamiento privado por aplicación del sistema operativo, protegido por el aislamiento del propio dispositivo y por el cifrado completo cuando hay bloqueo de pantalla. Poner un código, un PIN o un bloqueo biométrico es lo más eficaz que puedes hacer para protegerlos.</p>
+        <p>Todas las peticiones de red de la aplicación usan HTTPS. Ningún método de almacenamiento o transmisión es perfecto y no podemos garantizar una seguridad absoluta.</p>
+        <h2 id="es-changes">Cambios en esta política</h2>
+        <p>Actualizamos esta política cuando cambia la aplicación. La fecha del encabezado es la de la versión vigente, y el cambio se publica aquí en cuanto entra en vigor.</p>
+        <p>Si un cambio implica que la aplicación empieza a recoger algo que antes no recogía, lo diremos con claridad en lugar de dejar que compares dos versiones del texto.</p>
+        <h2 class="pp-part">Parte 2 — Términos de Uso</h2>
+        <h2 id="es-t_accept">1. Aceptación de estos términos</h2>
+        <p>Al instalar o usar la aplicación aceptas estos términos. Si no los aceptas, no uses la aplicación y elimínala de tu dispositivo.</p>
+        <p>Estos términos son entre tú y iDataGear Inc. Si obtuviste la aplicación en el App Store o en Google Play, los términos de esa tienda también se aplican a la operación y, en caso de conflicto sobre una materia que rige la tienda —pago, reembolso, nueva descarga—, prevalecen los de la tienda.</p>
+        <h2 id="es-t_licence">2. Tu licencia de uso</h2>
+        <p>Te concedemos una licencia personal, no exclusiva, intransferible y revocable para usar la aplicación en dispositivos de tu propiedad o bajo tu control, para tu propio uso y del modo ordinario que la plataforma prevé. Nos reservamos todos los demás derechos.</p>
+        <p>No puedes copiar, vender, alquilar, sublicenciar ni redistribuir la aplicación, ni aplicarle ingeniería inversa o descompilarla salvo en la medida en que la ley lo permita expresamente pese a esta cláusula, ni eliminar o alterar ningún aviso que contenga, ni usarla para crear un producto competidor.</p>
+        <h2 id="es-t_yourcontent">3. Tu contenido es tuyo</h2>
+        <p>Todo lo que crees en la aplicación es tuyo. No reclamamos su propiedad ni ninguna licencia sobre ello. Como permanece en tu dispositivo, no podríamos usarlo aunque quisiéramos.</p>
+        <p>La copia de seguridad es responsabilidad tuya. Desinstalar la aplicación, restablecer el dispositivo o perderlo o cambiarlo elimina lo que la aplicación guardaba, y nosotros no tenemos ninguna copia desde la que restaurarlo. Exporta todo aquello que te importaría perder.</p>
+        <h2 id="es-t_acceptable">4. Uso aceptable</h2>
+        <p>Usa la aplicación de forma lícita. En particular, no la uses para infringir la ley o los derechos de nadie, ni para grabar a alguien cuando grabarle exige su consentimiento y no lo tienes, ni para interferir en su funcionamiento o su seguridad, ni para intentar obtener funciones, contenidos o ventajas que no hayas pagado.</p>
+        <h2 id="es-t_purchases">5. Compras, renovación y cancelación</h2>
+        <p>Esta versión de la aplicación no incluye compras dentro de la aplicación ni suscripción, así que hoy nada de esta sección se le aplica. Si eso cambia, actualizaremos esta página antes de que el cambio llegue.</p>
+        <h2 id="es-t_accuracy">6. Exactitud del contenido</h2>
+        <p>El contenido de la aplicación se ofrece para aprender y consultar. La lengua es discutida, regional y está siempre en movimiento, y los diccionarios, las traducciones, las transcripciones, las puntuaciones de pronunciación, los órdenes de trazos y el texto reconocido pueden equivocarse. No te apoyes en ninguno de ellos allí donde equivocarse importe —un examen, un documento legal, un contexto médico o un contrato— sin comprobarlo por tu cuenta.</p>
+        <h2 id="es-t_thirdparty">7. Servicios de terceros</h2>
+        <p>La aplicación utiliza los servicios de terceros indicados en la política de privacidad anterior. Cada uno se rige por sus propios términos y política de privacidad, no los controlamos y no respondemos de lo que hagan. Los enlaces desde la aplicación a otros sitios se ofrecen por comodidad y no suponen respaldo alguno.</p>
+        <h2 id="es-t_warranty">8. Sin garantía</h2>
+        <p>La aplicación se proporciona <strong>tal cual</strong> y <strong>según disponibilidad</strong>, sin garantía de ningún tipo, expresa o implícita, incluida cualquier garantía implícita de comerciabilidad, idoneidad para un fin concreto, exactitud o no infracción. No garantizamos que funcione sin interrupciones ni errores, que sea compatible con todos los dispositivos, ni que los defectos vayan a corregirse.</p>
+        <p>Algunas jurisdicciones no permiten excluir las garantías implícitas, así que puede que partes de esta cláusula no se te apliquen; nada de lo aquí dicho limita un derecho del consumidor que no pueda limitarse legalmente.</p>
+        <h2 id="es-t_liability">9. Limitación de responsabilidad</h2>
+        <p>En la máxima medida que permita la ley, no respondemos de daños indirectos, incidentales, especiales, consecuentes, ejemplares o punitivos, ni del lucro cesante ni de la pérdida de datos, grabaciones, rutas o progreso, cualquiera que sea su causa y el fundamento de la responsabilidad, aun habiendo sido advertidos de que tal daño era posible.</p>
+        <p>Cuando la responsabilidad no pueda excluirse, nuestra responsabilidad total por todas las reclamaciones derivadas de la aplicación se limita a la mayor de estas dos cantidades: lo que nos hayas pagado por ella en los doce meses anteriores a la reclamación, o veinte dólares canadienses.</p>
+        <h2 id="es-t_termination">10. Cambios y terminación</h2>
+        <p>Podemos modificar, suspender o descontinuar la aplicación, o cualquier parte de ella, en cualquier momento. Podemos actualizar estos términos; cuando lo hagamos, cambiará la fecha del encabezado de esta página, y seguir usando la aplicación después equivale a aceptar los términos actualizados.</p>
+        <p>Esta licencia termina si incumples estos términos, y termina también cuando elimines la aplicación de tus dispositivos. Las secciones sobre tu contenido, la garantía, la responsabilidad y la ley aplicable siguen vigentes.</p>
+        <h2 id="es-t_law">11. Ley aplicable</h2>
+        <p>Estos términos se rigen por las leyes de la provincia de British Columbia y por las leyes federales de Canadá aplicables en ella, sin atender a las normas de conflicto de leyes. Los tribunales de British Columbia tienen jurisdicción exclusiva sobre cualquier controversia, y tanto tú como nosotros nos sometemos a ellos, salvo que cualquiera de las partes solicite medidas cautelares ante cualquier tribunal competente.</p>
+        <p>Si alguna disposición de estos términos se considera inejecutable, el resto sigue en vigor. Nada de lo aquí dicho suprime una protección obligatoria del consumidor del país donde vives.</p>
+        <h2 id="es-contact">Contacto</h2>
+        <p>Dudas sobre esta política, solicitudes sobre tus datos o cualquier otra cosa:</p>
+        <p><strong>iDataGear Inc</strong><br>
+        Email: <a href="mailto:idatagear@gmail.com">idatagear@gmail.com</a><br>
+        Web: <a href="https://www.idatagear.com/">www.idatagear.com</a></p>
+      </article>
 
-  @media (max-width: 30rem) {
-    body { font-size: 16px; }
-    header.masthead { padding: 2.25rem 1.1rem 2rem; }
-    .masthead h1 { font-size: 1.45rem; }
-  }
-</style>
-</head>
-<body>
+      <article class="pp" data-lang="fr" lang="fr">
+        <h2 id="fr-tldr">En bref</h2>
+        <div class="pp-tldr">
+        <ul>
+          <li>Tout ce que vous créez dans l'application reste sur votre appareil.</li>
+          <li>Il n'y a ni compte ni inscription.</li>
+          <li>Cette version n'affiche aucune publicité.</li>
+          <li>L'application ne contient ni statistiques ni remontée de plantages.</li>
+          <li>Cette version ne comporte ni achat intégré ni abonnement.</li>
+          <li>Nous ne vendons pas vos données et ne les partageons pas à des fins de profilage publicitaire.</li>
+          <li>Désinstaller l'application supprime tout ce qu'elle avait enregistré.</li>
+          <li>La partie 2 de cette page constitue les conditions d'utilisation de l'application.</li>
+        </ul>
+        </div>
+        <h2 class="pp-part">Partie 1 — Politique de confidentialité</h2>
+        <h2 id="fr-who">Qui nous sommes</h2>
+        <p>QuickOne Scanner transforme des pages photographiées avec votre téléphone en PDF recadrés et redressés, et en lit le texte pour que vous puissiez le chercher et le copier. La numérisation comme la reconnaissance de texte s'exécutent sur votre appareil. Elle fonctionne sur iPhone, iPad et Android.</p>
+        <p>QuickOne Scanner est éditée par iDataGear Inc, société constituée en Colombie-Britannique, au Canada. Lorsque la présente politique dit <strong>nous</strong>, il s'agit de iDataGear Inc.</p>
+        <p>Il n'y a aucun compte à créer et aucune inscription. Nous n'exploitons aucun serveur qui reçoive votre contenu et ne détenons aucune base de données où vous figureriez.</p>
+        <h2 id="fr-stores">Ce que l'application conserve sur votre appareil</h2>
+        <p>L'application écrit ce qui suit dans le stockage privé de votre appareil, une zone que les autres applications ne peuvent pas lire. Cela y reste jusqu'à ce que vous le supprimiez ou désinstalliez l'application.</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>Quoi</th>
+              <th>Pourquoi</th>
+              <th>Où c'est conservé</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>Pages numérisées</td>
+                <td>Les images de page que vous avez capturées ou importées.</td>
+                <td>Uniquement sur votre appareil</td>
+              </tr>
+              <tr>
+                <td>Texte reconnu</td>
+                <td>Texte lu sur vos pages, sur l'appareil.</td>
+                <td>Uniquement sur votre appareil</td>
+              </tr>
+              <tr>
+                <td>Réglages</td>
+                <td>Préférences de langue, de thème, de son et d'affichage.</td>
+                <td>Uniquement sur votre appareil</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>Rien de tout cela ne nous est transmis. Nous ne pouvons pas le lire, nous ne pouvons pas le récupérer pour vous et nous ne pourrions le remettre à personne, puisque cela ne nous parvient jamais.</p>
+        <h2 id="fr-leaves">Ce qui quitte votre appareil</h2>
+        <p>Voici la liste complète. Tout ce qui n'y figure pas reste sur votre appareil.</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>Ce qui est envoyé</th>
+              <th>Qui le reçoit</th>
+              <th>Finalité</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>Téléchargement du modèle et diagnostics de Google</td>
+                <td>Services Google Play (ML Kit)</td>
+                <td>Pour récupérer le modèle du scanner de documents. Vos pages ne sont pas envoyées.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>La détection de document et la reconnaissance de texte passent par Google ML Kit. Sur Android, le scanner de documents s'exécute à l'intérieur des services Google Play, qui téléchargent leur modèle à la première utilisation ; la reconnaissance de texte utilise un modèle intégré à l'application. Les pages et le texte reconnu sont traités sur l'appareil et ne sont téléversés comme contenu ni vers nous ni vers Google.</p>
+        <p>Indépendamment du tableau ci-dessus, tout ce que vous envoyez délibérément — via le menu de partage du système, un export, une impression ou le presse-papiers — va là où vous l'envoyez. C'est votre choix à chaque fois, et cela sort du cadre du tableau.</p>
+        <h2 id="fr-notdo">Ce que l'application ne fait pas</h2>
+        <p>Tant que la présente politique est celle en vigueur :</p>
+        <ul>
+          <li>Il n'y a ni compte, ni inscription, ni adresse e-mail, ni mot de passe.</li>
+          <li>Nous n'exploitons aucun serveur qui reçoive votre contenu et ne détenons aucune base de données où vous figureriez.</li>
+          <li>Nous ne vendons pas vos informations personnelles et ne les partageons pas à des fins de publicité comportementale inter-contextes.</li>
+          <li>L'application ne vous suit pas à travers les applications ou sites d'autres entreprises et n'affiche pas la demande App Tracking Transparency.</li>
+          <li>Rien n'est synchronisé vers un compte en ligne qui serait le nôtre. Il n'existe de notre côté aucune sauvegarde à restaurer.</li>
+          <li>Cette version ne contient aucun SDK publicitaire et n'affiche aucune publicité.</li>
+          <li>Cette version ne contient aucun SDK de statistiques ni de remontée de plantages.</li>
+          <li>L'application ne demande ni ne lit votre position.</li>
+          <li>L'application ne lit ni vos contacts, ni votre agenda, ni vos messages, ni votre journal d'appels, ni de fichiers hors de son propre stockage.</li>
+        </ul>
+        <h2 id="fr-perms">Les autorisations, et la raison de chacune</h2>
+        <p>Chaque autorisation ci-dessous est demandée pour la seule finalité indiquée et n'est utilisée pour rien d'autre. Sur les deux plateformes, vous pouvez refuser ou retirer n'importe laquelle dans les réglages du système ; les fonctions qui en dépendent cessent de fonctionner et le reste de l'application continue.</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>Autorisation</th>
+              <th>Plateforme</th>
+              <th>Finalité</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>Accès à internet</td>
+                <td>Android</td>
+                <td>Nécessaire aux requêtes réseau énumérées ci-dessus.</td>
+              </tr>
+              <tr>
+                <td>Appareil photo</td>
+                <td>iOS</td>
+                <td>Pour capturer dans l'application.</td>
+              </tr>
+              <tr>
+                <td>Photothèque</td>
+                <td>iOS</td>
+                <td>Pour importer une image que vous possédez déjà.</td>
+              </tr>
+              <tr>
+                <td>App Tracking Transparency</td>
+                <td>iOS</td>
+                <td>Non demandée. L'application ne vous suit pas à travers les applications ou sites d'autres entreprises.</td>
+              </tr>
+              <tr>
+                <td>Position</td>
+                <td>Android et iOS</td>
+                <td>Non demandée.</td>
+              </tr>
+              <tr>
+                <td>Micro</td>
+                <td>Android et iOS</td>
+                <td>Non demandée.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>Sur iOS, l'application utilise l'appareil photo pour capturer des pages et la photothèque pour vous permettre d'importer une image que vous possédez déjà. Sur Android, la capture se déroule à l'intérieur des services Google Play, sous leur propre autorisation : c'est pourquoi l'application n'y déclare aucune autorisation d'appareil photo.</p>
+        <h2 id="fr-telemetry">Statistiques d'usage et rapports de plantage</h2>
+        <p>Cette version de l'application ne contient aucun SDK de statistiques ni de remontée de plantages. Nous n'en recevons aucune statistique d'usage, aucun rapport de plantage et aucune donnée de diagnostic.</p>
+        <h2 id="fr-purchases">Abonnements et achats</h2>
+        <p>Cette version de l'application ne comporte ni achat intégré ni abonnement : elle ne collecte donc aucune information de paiement.</p>
+        <h2 id="fr-sharing">Quand c'est vous qui partagez</h2>
+        <p>Partager, exporter, imprimer et copier partent toujours de vous. Quand vous utilisez l'une de ces actions, l'application remet l'élément à la destination que vous choisissez — une autre application, un contact, un dossier, une imprimante — et ce qu'il en advient ensuite relève de cette destination, non de la présente politique.</p>
+        <h2 id="fr-retention">Conservation et suppression de vos données</h2>
+        <p>Tout ce que l'application conserve se trouve sur votre appareil : c'est donc vous qui décidez de sa durée de vie.</p>
+        <p>Supprimez un élément dans l'application pour le retirer. Pour tout retirer d'un coup, désinstallez l'application : le système d'exploitation efface son stockage privé, et avec lui tout ce qui figure dans le tableau ci-dessus.</p>
+        <p>Comme rien ne nous parvient, nous n'avons rien à conserver ni aucune demande de suppression à traiter. Désinstaller l'application supprime tout ce qu'elle avait enregistré.</p>
+        <h2 id="fr-rights">Vos droits</h2>
+        <p>En vertu du RGPD, du RGPD britannique, du CCPA modifié par le CPRA, de la LPRPDE canadienne et de lois comparables ailleurs, vous disposez de droits sur les informations personnelles vous concernant : savoir ce qui est détenu, en obtenir une copie, les faire rectifier, les faire effacer, et vous opposer à leur usage ou le limiter.</p>
+        <p>Pour cette application, ces droits sont déjà satisfaits par la conception elle-même plutôt que par une demande adressée à nous : les données sont sur votre appareil, vous pouvez les consulter dans l'application, les modifier, les exporter et les supprimer, et nous n'en détenons aucune copie à produire, rectifier ou effacer.</p>
+        <p>Nous ne vendons pas d'informations personnelles et ne les partageons pas à des fins de publicité comportementale inter-contextes au sens du CPRA. Il n'existe donc aucune vente à laquelle vous opposer.</p>
+        <p>Si vous pensez malgré tout que nous détenons quelque chose vous concernant, écrivez à idatagear@gmail.com et nous vous répondrons. Vous pouvez également saisir l'autorité de protection des données de votre pays.</p>
+        <h2 id="fr-transfers">Transferts internationaux</h2>
+        <p>Nous sommes établis au Canada. Comme cette version de l'application n'envoie rien, ni à nous ni à quiconque, son utilisation ne transfère aucune information personnelle vous concernant vers un autre pays.</p>
+        <h2 id="fr-children">Enfants</h2>
+        <p>Cette application s'adresse au grand public. Elle ne vise pas les enfants de moins de 13 ans et nous ne collectons pas sciemment d'informations personnelles auprès d'un enfant.</p>
+        <p>Il n'y a ni système de comptes, ni messagerie, ni fonction sociale, ni quoi que ce soit qu'un autre utilisateur puisse publier ou voir : aucun chemin ne permet donc à un enfant utilisant l'application de nous divulguer quoi que ce soit, ni à nous ni à personne.</p>
+        <p>Si vous pensez qu'un enfant nous a communiqué des informations personnelles, écrivez à idatagear@gmail.com et nous les supprimerons.</p>
+        <h2 id="fr-security">Sécurité</h2>
+        <p>Les données de l'application sont conservées dans le stockage privé par application du système d'exploitation, protégé par le bac à sable de l'appareil et par le chiffrement intégral lorsqu'un verrouillage d'écran est défini. Définir un code, un PIN ou un verrouillage biométrique est la mesure la plus efficace que vous puissiez prendre pour les protéger.</p>
+        <p>Toutes les requêtes réseau de l'application passent par HTTPS. Aucune méthode de stockage ou de transmission n'est parfaite et nous ne pouvons garantir une sécurité absolue.</p>
+        <h2 id="fr-changes">Modifications de cette politique</h2>
+        <p>Nous mettons cette politique à jour lorsque l'application change. La date en haut de la page est celle de la version en vigueur, et la modification est publiée ici dès qu'elle prend effet.</p>
+        <p>Si une modification signifie que l'application commence à collecter quelque chose qu'elle ne collectait pas, nous le dirons clairement plutôt que de vous laisser comparer deux versions du texte.</p>
+        <h2 class="pp-part">Partie 2 — Conditions d'utilisation</h2>
+        <h2 id="fr-t_accept">1. Acceptation des présentes conditions</h2>
+        <p>En installant ou en utilisant l'application, vous acceptez les présentes conditions. Si vous ne les acceptez pas, n'utilisez pas l'application et supprimez-la de votre appareil.</p>
+        <p>Les présentes conditions lient vous et iDataGear Inc. Si vous avez obtenu l'application sur l'App Store ou Google Play, les conditions propres à cette boutique s'appliquent également à la transaction et, en cas de conflit sur un point qu'elle régit — paiement, remboursement, nouveau téléchargement —, celles de la boutique prévalent.</p>
+        <h2 id="fr-t_licence">2. Votre licence d'utilisation</h2>
+        <p>Nous vous accordons une licence personnelle, non exclusive, incessible et révocable d'utiliser l'application sur des appareils que vous possédez ou contrôlez, pour votre propre usage, de la manière ordinaire prévue par la plateforme. Nous conservons tous les autres droits.</p>
+        <p>Vous ne pouvez ni copier, vendre, louer, sous-licencier ou redistribuer l'application, ni la décompiler ou procéder à son ingénierie inverse sauf dans la mesure où la loi l'autorise expressément nonobstant la présente clause, ni supprimer ou modifier une mention qu'elle contient, ni vous en servir pour concevoir un produit concurrent.</p>
+        <h2 id="fr-t_yourcontent">3. Votre contenu vous appartient</h2>
+        <p>Tout ce que vous créez dans l'application vous appartient. Nous n'en revendiquons ni la propriété ni aucune licence. Comme cela reste sur votre appareil, nous ne pourrions pas nous en servir même si nous le voulions.</p>
+        <p>La sauvegarde vous incombe. Désinstaller l'application, réinitialiser l'appareil, ou perdre ou remplacer celui-ci supprime ce que l'application avait enregistré, et nous n'en détenons aucune copie permettant une restauration. Exportez ce dont la perte vous ennuierait.</p>
+        <h2 id="fr-t_acceptable">4. Usage acceptable</h2>
+        <p>Utilisez l'application licitement. En particulier, ne vous en servez pas pour enfreindre la loi ou les droits d'autrui, pour enregistrer quelqu'un lorsque cet enregistrement suppose son consentement et que vous ne l'avez pas, pour perturber son fonctionnement ou sa sécurité, ni pour tenter d'obtenir des fonctions, des contenus ou des droits que vous n'avez pas payés.</p>
+        <h2 id="fr-t_purchases">5. Achats, renouvellement et résiliation</h2>
+        <p>Cette version de l'application ne comporte ni achat intégré ni abonnement : rien dans cette section ne lui est aujourd'hui applicable. Si cela change, cette page sera mise à jour avant la diffusion du changement.</p>
+        <h2 id="fr-t_accuracy">6. Exactitude du contenu</h2>
+        <p>Le contenu de l'application est fourni à des fins d'apprentissage et de consultation. La langue est disputée, régionale et sans cesse mouvante, et les définitions, les traductions, les translittérations, les scores de prononciation, les ordres de traits et le texte reconnu peuvent tous se tromper. Ne vous fiez à aucun d'eux là où une erreur compterait — un examen, un document juridique, un contexte médical ou un contrat — sans vérification indépendante.</p>
+        <h2 id="fr-t_thirdparty">7. Services tiers</h2>
+        <p>L'application recourt aux services tiers cités dans la politique de confidentialité ci-dessus. Chacun est régi par ses propres conditions et sa propre politique de confidentialité, nous ne les contrôlons pas et nous ne répondons pas de ce qu'ils font. Les liens sortants vers d'autres sites sont fournis par commodité et ne valent pas approbation.</p>
+        <h2 id="fr-t_warranty">8. Absence de garantie</h2>
+        <p>L'application est fournie <strong>en l'état</strong> et <strong>selon disponibilité</strong>, sans garantie d'aucune sorte, expresse ou implicite, y compris toute garantie implicite de qualité marchande, d'adéquation à un usage particulier, d'exactitude ou d'absence de contrefaçon. Nous ne garantissons ni un fonctionnement ininterrompu ou sans erreur, ni la compatibilité avec tous les appareils, ni la correction des défauts.</p>
+        <p>Certaines juridictions n'autorisent pas l'exclusion des garanties implicites : des parties de cette clause peuvent donc ne pas vous être applicables, et rien ici ne limite un droit du consommateur qui ne peut légalement l'être.</p>
+        <h2 id="fr-t_liability">9. Limitation de responsabilité</h2>
+        <p>Dans toute la mesure permise par la loi, nous ne répondons pas des dommages indirects, accessoires, spéciaux, consécutifs, exemplaires ou punitifs, ni des pertes de bénéfices, de données, d'enregistrements, d'itinéraires ou de progression, quelle qu'en soit la cause et quel que soit le fondement de la responsabilité, même si nous avions été avertis de leur possibilité.</p>
+        <p>Lorsque la responsabilité ne peut être exclue, notre responsabilité totale pour l'ensemble des réclamations liées à l'application est limitée au plus élevé des deux montants suivants : ce que vous nous avez payé pour elle au cours des douze mois précédant la réclamation, ou vingt dollars canadiens.</p>
+        <h2 id="fr-t_termination">10. Modifications et résiliation</h2>
+        <p>Nous pouvons modifier, suspendre ou interrompre l'application, ou toute partie de celle-ci, à tout moment. Nous pouvons mettre à jour les présentes conditions ; la date en haut de cette page change alors, et continuer à utiliser l'application ensuite vaut acceptation des conditions mises à jour.</p>
+        <p>La présente licence prend fin si vous manquez aux présentes conditions, et elle prend fin dès que vous supprimez l'application de vos appareils. Les sections relatives à votre contenu, à la garantie, à la responsabilité et au droit applicable survivent.</p>
+        <h2 id="fr-t_law">11. Droit applicable</h2>
+        <p>Les présentes conditions sont régies par les lois de la province de British Columbia et par les lois fédérales du Canada qui y sont applicables, sans égard aux règles de conflit de lois. Les tribunaux de British Columbia ont compétence exclusive pour tout litige, et vous comme nous nous y soumettons — étant entendu que chacun de nous peut solliciter des mesures conservatoires devant toute juridiction compétente.</p>
+        <p>Si une stipulation des présentes conditions était jugée inapplicable, les autres demeureraient en vigueur. Rien ici ne supprime une protection impérative du consommateur du pays où vous résidez.</p>
+        <h2 id="fr-contact">Contact</h2>
+        <p>Questions sur cette politique, demandes concernant vos données, ou toute autre chose :</p>
+        <p><strong>iDataGear Inc</strong><br>
+        Email: <a href="mailto:idatagear@gmail.com">idatagear@gmail.com</a><br>
+        Web: <a href="https://www.idatagear.com/">www.idatagear.com</a></p>
+      </article>
+    </main>
 
-<header class="masthead">
-  <div class="wrap">
-    <div class="mark" aria-hidden="true">
-      <!-- Capture brackets around a page: the app's launcher mark, simplified. -->
-      <svg viewBox="0 0 48 48" fill="none" stroke="#fff" stroke-width="4"
-           stroke-linecap="round" stroke-linejoin="round">
-        <path d="M6 16V9a3 3 0 0 1 3-3h7"/>
-        <path d="M42 16V9a3 3 0 0 0-3-3h-7"/>
-        <path d="M6 32v7a3 3 0 0 0 3 3h7"/>
-        <path d="M42 32v7a3 3 0 0 1-3 3h-7"/>
-        <path d="M14 24h20"/>
-      </svg>
-    </div>
-    <div>
-      <h1>QuickOne Scanner — Privacy Policy</h1>
-      <p>Last updated: 1 September 2026 · iOS and Android applications</p>
-    </div>
-  </div>
-</header>
+    <footer class="site-footer">
+      <div class="footer-bottom">
+        <p>&copy; <span id="year">2026</span> iDataGear Inc</p>
+        <div class="footer-links">
+          <a href="../">iDataGear</a><a href="../privacy.html">Privacy</a><a href="mailto:idatagear@gmail.com">Contact</a>
+        </div>
+      </div>
+    </footer>
+    <script>
+    (function () {
+      var root = document.documentElement;
+      var buttons = Array.prototype.slice.call(document.querySelectorAll('[data-setlang]'));
 
-<main>
-<div class="wrap">
+      function apply(lang) {
+        root.setAttribute('data-pplang', lang);
+        root.setAttribute('lang', lang);
+        root.setAttribute('dir', lang === 'ar' ? 'rtl' : 'ltr');
+        buttons.forEach(function (b) {
+          b.setAttribute('aria-current', b.dataset.setlang === lang ? 'true' : 'false');
+        });
+        try { localStorage.setItem('pplang', lang); } catch (e) {}
+      }
+      buttons.forEach(function (b) {
+        b.addEventListener('click', function () { apply(b.dataset.setlang); });
+      });
+      apply(root.getAttribute('data-pplang') || buttons[0].dataset.setlang);
 
-<p class="lede">
-  QuickOne Scanner is a document scanner for iPhone, iPad and Android. This
-  policy explains exactly what the app does and does not do with your
-  information, on both platforms. It is written to be accurate rather than
-  reassuring; where a third party is involved, it says so, and where the two
-  platforms genuinely differ, it says that too.
-</p>
-
-<div class="callout">
-  <p><strong>The short version.</strong> Your scanned documents never leave your
-  device. QuickOne Scanner has no account system, no cloud sync, no ads, and no
-  analytics or tracking of any kind. We do not operate a server, and we never
-  receive your documents, your images, or the text recognised from them.</p>
-</div>
-
-<h2>1. Information we collect</h2>
-<p>
-  <strong>None.</strong> The developer of QuickOne Scanner collects no personal
-  information. There is no sign-up, no login, no account, and no user profile.
-  We do not use any analytics, advertising, attribution, or crash-reporting SDK.
-  We have no server that receives data from the app.
-</p>
-
-<h2>2. Your documents and scanned images</h2>
-<p>
-  Scans, page images, recognised text, tags, folder names, and document titles
-  are stored only in the app's private storage area on your device. Other apps
-  cannot read them. They are never uploaded anywhere.
-</p>
-<p>
-  All processing happens locally on your device: edge detection, image
-  enhancement, the Original / Grayscale / Black&nbsp;&amp;&nbsp;white filters,
-  cropping, text recognition, the full-text search index, and the keyword rules
-  that suggest a tag for a document. None of it involves a network request, and
-  none of it is sent anywhere for processing.
-</p>
-<p>
-  When you use Share, Export, or the ZIP backup, <em>you</em> choose where a
-  copy goes. Once you hand a file to another app — email, cloud storage,
-  messaging — that app's own privacy policy applies to the copy you gave it.
-</p>
-
-<h2>3. Network access</h2>
-
-<h3>On iPhone and iPad</h3>
-<p>
-  <strong>The app makes no network requests at all.</strong> There is nothing to
-  download and nothing to send. The capture screen is Apple's own VisionKit
-  document camera, which ships with iOS, and both text-recognition models are
-  compiled into the app — so the very first scan works on a device that has
-  never been online.
-</p>
-
-<h3>On Android</h3>
-<p>
-  QuickOne Scanner declares the <code>INTERNET</code> permission. It is not used
-  to send your documents anywhere. It is there for one thing:
-</p>
-<ul>
-  <li>
-    <strong>The capture screen.</strong> The camera view with automatic page
-    detection is a component of Google Play services, and Google Play services
-    downloads it the first time you scan. After that first download, scanning
-    works offline.
-  </li>
-</ul>
-<p>
-  <strong>Text recognition needs no download on either platform.</strong> Both
-  recognition models the app uses — Latin and Chinese — are compiled into the app
-  itself, so OCR runs offline from the very first scan.
-</p>
-
-<h2>4. Third-party components</h2>
-<p>
-  On iPhone and iPad, the only system component the app uses for capture is
-  Apple's own, and it processes on your device. On Android, QuickOne Scanner uses
-  components provided by Google; we do not control what those components report
-  to Google, and Google's use of any such data is governed by Google's own
-  privacy policy, not this one.
-</p>
-<p>
-  <strong>On neither platform is there an analytics, advertising, attribution or
-  crash-reporting SDK.</strong>
-</p>
-
-<div class="scroll-x">
-<table>
-  <thead>
-    <tr><th>Component</th><th>What it does</th><th>Where it runs</th></tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Apple VisionKit — <code>VNDocumentCameraViewController</code> <em>(iOS only)</em></td>
-      <td>The camera capture screen, page-edge detection, and page cleanup</td>
-      <td>Inside iOS, on your device. It ships with the operating system, so
-          nothing downloads, and your captured pages are handed straight back to
-          QuickOne Scanner and stored on your device.</td>
-    </tr>
-    <tr>
-      <td>Google Play services — ML&nbsp;Kit Document&nbsp;Scanner <em>(Android only)</em></td>
-      <td>The camera capture screen, page-edge detection, and page cleanup</td>
-      <td>Inside Google Play services, downloaded on first use. Your captured
-          pages are handed back to QuickOne Scanner and stored on your device.</td>
-    </tr>
-    <tr>
-      <td>Google ML&nbsp;Kit Text&nbsp;Recognition (Latin)</td>
-      <td>On-device OCR for the Latin alphabet</td>
-      <td>Bundled inside the app. Runs locally, offline, with no download.</td>
-    </tr>
-    <tr>
-      <td>Google ML&nbsp;Kit Text&nbsp;Recognition (Chinese)</td>
-      <td>On-device OCR for Simplified and Traditional Chinese</td>
-      <td>Bundled inside the app. Runs locally, offline, with no download.</td>
-    </tr>
-    <tr>
-      <td>Image cropper <em>(uCrop on Android)</em></td>
-      <td>The crop screen</td>
-      <td>Inside the app. No network access.</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-
-<p>
-  For transparency, and this applies to the <strong>Android</strong> build only:
-  Google's ML Kit and Play services libraries include Google's own diagnostic and
-  usage-reporting components, and it is those libraries that add the
-  <code>ACCESS_NETWORK_STATE</code> permission to the app — we did not request it.
-  Any such reporting is Google's, is described in
-  <a href="https://policies.google.com/privacy" rel="noopener">Google's Privacy
-  Policy</a>, and reaches the developer of QuickOne Scanner not at all. The
-  contents of your documents are not part of it. The iOS build contains no Google
-  library and nothing equivalent.
-</p>
-
-<h2>5. Permissions</h2>
-
-<h3>On iPhone and iPad</h3>
-<div class="scroll-x">
-<table>
-  <thead><tr><th>Permission</th><th>Why it is there</th></tr></thead>
-  <tbody>
-    <tr><td>Camera</td><td>To scan a page. VisionKit runs inside this app, so iOS asks you the first time you scan. It is used for nothing else.</td></tr>
-  </tbody>
-</table>
-</div>
-<p>
-  That is the only prompt the app shows. It requests <strong>no</strong>
-  photo-library permission — importing a photo goes through the system picker,
-  which hands over only the file you chose — and <strong>no</strong> location,
-  contacts, microphone or notification permission. There is no App Tracking
-  Transparency prompt, because the app does not track you across other companies'
-  apps and websites and has no advertising identifier to ask for.
-</p>
-
-<h3>On Android</h3>
-<div class="scroll-x">
-<table>
-  <thead><tr><th>Permission</th><th>Why it is there</th></tr></thead>
-  <tbody>
-    <tr><td><code>INTERNET</code></td><td>The one-time capture-component download described above.</td></tr>
-    <tr><td><code>ACCESS_NETWORK_STATE</code></td><td>Added automatically by Google's own libraries.</td></tr>
-  </tbody>
-</table>
-</div>
-<p>
-  The Android build does <strong>not</strong> request camera permission — capture
-  happens inside Google Play services, under its own permission. It does
-  <strong>not</strong> request storage or photo-library permissions either;
-  scans are kept in app-private storage, and importing a photo goes through
-  Android's system picker, which grants access to the single file you chose and
-  nothing else.
-</p>
-
-<h2>6. Keeping and deleting your data</h2>
-<p>
-  Your data stays on your device for as long as you keep it. Deleting a document
-  in the app removes its page images and its recognised text from your device.
-  Uninstalling QuickOne Scanner removes everything the app stored.
-</p>
-<div class="callout warn">
-  <p><strong>There is no cloud backup, and that cuts both ways.</strong> Because
-  nothing is uploaded, a lost, reset, or broken phone means the scans on it are
-  gone — we cannot restore them, because we never had them. Use
-  <em>Settings → Export library as ZIP</em> to keep your own copy somewhere
-  safe.</p>
-</div>
-
-<h2>7. Payments</h2>
-<p>
-  There are none, on either platform. QuickOne Scanner is free, with no
-  subscription, no in-app purchase, no scan allowance, no ads and no watermark,
-  so the app never handles payment information and no payment processor is
-  involved.
-</p>
-
-<h2>8. Children</h2>
-<p>
-  QuickOne Scanner is not directed at children and does not knowingly collect
-  information from anyone, including children. Since the app collects nothing
-  from anyone, there is nothing to delete on request — but see section 6 for how
-  to remove data from the device itself.
-</p>
-
-<h2>9. Changes to this policy</h2>
-<p>
-  If this policy changes, the updated version will be posted at this address
-  with a new "last updated" date. Material changes will also be noted in the
-  app's release notes on the App Store and on Google Play.
-</p>
-
-<h2>10. Contact</h2>
-<p>
-  Questions about this policy, or about privacy in QuickOne Scanner:
-  <a href="mailto:idatagear@gmail.com">idatagear@gmail.com</a>
-</p>
-
-<footer>
-  <p>
-    QuickOne Scanner — private, on-device document scanning.
-    This policy applies to the iOS and Android applications published by
-    iDataGear&nbsp;Inc. and to this page only.
-  </p>
-  <p>
-    <a href="https://apps.apple.com/us/app/quickone-scanner-pdf-ocr/id6801050269" rel="noopener">App&nbsp;Store</a> ·
-    <a href="https://play.google.com/store/apps/details?id=com.idatagear.quickonescanner" rel="noopener">Google&nbsp;Play</a> ·
-    <a href="https://www.idatagear.com/quickonescanner/">About QuickOne Scanner</a> ·
-    <a href="https://www.idatagear.com/">iDataGear</a>
-  </p>
-  <p>© 2026 iDataGear Inc.</p>
-</footer>
-
-</div>
-</main>
-
-</body>
+      var toggle = document.querySelector('.theme-toggle');
+      if (toggle) {
+        toggle.addEventListener('click', function () {
+          var next = root.getAttribute('data-theme') === 'light' ? 'dark' : 'light';
+          root.setAttribute('data-theme', next);
+          try { localStorage.setItem('theme', next); } catch (e) {}
+        });
+      }
+      var y = document.getElementById('year');
+      if (y) { y.textContent = new Date().getFullYear(); }
+    })();
+    </script>
+  </body>
 </html>

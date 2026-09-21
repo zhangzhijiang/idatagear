@@ -1,122 +1,1063 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="robots" content="index, follow">
-  <title>Privacy Policy — Momera.ME</title>
-  <style>
-    :root { --green: #1E5E4E; --ink: #1a1a1a; --muted: #555; --bg: #fafafa; }
-    * { box-sizing: border-box; }
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-      line-height: 1.65; color: var(--ink); background: var(--bg);
-      margin: 0; padding: 2.5rem 1.25rem;
+  <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta name="theme-color" content="#071512" media="(prefers-color-scheme: dark)">
+    <meta name="theme-color" content="#f7f3ea" media="(prefers-color-scheme: light)">
+    <meta name="color-scheme" content="dark light">
+
+    <title>Momera.ME Privacy Policy &amp; Terms of Use</title>
+    <meta name="description" content="Momera.ME. A local-first notebook for moments Privacy policy and terms of use for Momera.ME, published by iDataGear Inc.">
+    <link rel="canonical" href="https://www.idatagear.com/momerame/momerame_privacy.html">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.idatagear.com/momerame/momerame_privacy.html">
+    <meta property="og:title" content="Momera.ME Privacy Policy &amp; Terms of Use">
+    <meta property="og:description" content="Momera.ME. A local-first notebook for moments Privacy policy and terms of use for Momera.ME, published by iDataGear Inc.">
+    <meta property="og:image" content="https://www.idatagear.com/assets/img/momera-app-icon.png">
+    <meta property="og:site_name" content="iDataGear">
+    <meta property="twitter:card" content="summary">
+    <meta property="twitter:title" content="Momera.ME Privacy Policy &amp; Terms of Use">
+    <meta property="twitter:description" content="Momera.ME. A local-first notebook for moments Privacy policy and terms of use for Momera.ME, published by iDataGear Inc.">
+    <meta property="twitter:image" content="https://www.idatagear.com/assets/img/momera-app-icon.png">
+
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/img/favicon-192x192.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script>
+    (function () {
+      var t = null;
+      try { t = localStorage.getItem('theme'); } catch (e) {}
+      if (t !== 'light' && t !== 'dark') {
+        t = (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches) ? 'light' : 'dark';
+      }
+      document.documentElement.setAttribute('data-theme', t);
+
+      /* The language is chosen before first paint so the page never flashes the
+         wrong one. Setting data-pplang is ALSO what switches the CSS from "show
+         every language" to "show one" -- so with JavaScript off the attribute is
+         never set and every language renders in full, stacked. A privacy policy
+         that needs JavaScript to be readable is not a privacy policy. */
+      var LANGS = ["en","zh-Hans","zh-Hant"];
+      var RULES = [["zh-Hant",["zh-hant","zh-tw","zh-hk","zh-mo"]],["en",["en"]],["zh-Hans",["zh"]]];
+      var saved = null;
+      try { saved = localStorage.getItem('pplang'); } catch (e) {}
+      var pick = (LANGS.indexOf(saved) >= 0) ? saved : null;
+      if (!pick) {
+        var navs = (navigator.languages && navigator.languages.length)
+          ? navigator.languages : [navigator.language || 'en'];
+        /* Pass one: the most specific rule wins, so zh-TW reaches Traditional
+           before the bare "zh" rule can claim it. */
+        for (var i = 0; i < navs.length && !pick; i++) {
+          var n = String(navs[i]).toLowerCase();
+          for (var j = 0; j < RULES.length && !pick; j++) {
+            var ms = RULES[j][1];
+            for (var k = 0; k < ms.length; k++) {
+              if (n === ms[k] || n.indexOf(ms[k] + '-') === 0) { pick = RULES[j][0]; break; }
+            }
+          }
+        }
+        /* Pass two: same base language, any script. A zh-CN reader on a page
+           published only in Traditional should get Chinese, not English. */
+        for (var i2 = 0; i2 < navs.length && !pick; i2++) {
+          var base = String(navs[i2]).toLowerCase().split('-')[0];
+          for (var j2 = 0; j2 < LANGS.length; j2++) {
+            if (LANGS[j2].toLowerCase().split('-')[0] === base) { pick = LANGS[j2]; break; }
+          }
+        }
+      }
+      document.documentElement.setAttribute('data-pplang', pick || LANGS[0]);
+    })();
+    </script>
+    <style>
+    /* Chrome and colour come from the site's own tokens in assets/css/style.css.
+       --pp-accent is this page's app brand, used only where the page speaks
+       about the app itself. Everything here is prefixed pp- so it cannot leak
+       into the shared stylesheet's components. */
+    :root { --pp-accent: #15803d; --pp-wash: rgba(74, 222, 128, .10); }
+    [data-theme="dark"] { --pp-accent: #4ade80; }
+    @media (prefers-color-scheme: dark) {
+      :root:not([data-theme="light"]) { --pp-accent: #4ade80; }
     }
-    main { max-width: 760px; margin: 0 auto; background: #fff; padding: 2.5rem 2rem;
-      border-radius: 12px; box-shadow: 0 1px 4px rgba(0,0,0,.06); }
-    h1 { color: var(--green); font-size: 1.9rem; margin: 0 0 .25rem; }
-    h2 { color: var(--green); font-size: 1.25rem; margin-top: 2rem; }
-    .updated { color: var(--muted); font-size: .9rem; margin-bottom: 1.5rem; }
-    .lead { background: #f0f7f4; border-left: 4px solid var(--green);
-      padding: .9rem 1.1rem; border-radius: 6px; margin: 1.25rem 0; }
-    ul { padding-left: 1.25rem; }
-    li { margin: .4rem 0; }
-    a { color: var(--green); }
-    footer { margin-top: 2.5rem; padding-top: 1rem; border-top: 1px solid #eee;
-      color: var(--muted); font-size: .9rem; }
-    code { background: #f2f2f2; padding: .1rem .35rem; border-radius: 4px; }
-  </style>
-</head>
-<body>
-  <main>
-    <h1>Privacy Policy — Momera.ME</h1>
-    <p class="updated">Last updated: 7 June 2026</p>
 
-    <p class="lead">
-      Momera.ME (&ldquo;the app&rdquo;, &ldquo;we&rdquo;, &ldquo;us&rdquo;) is developed by
-      <strong>iDataGear Inc.</strong> The short version:
-      <strong>Momera.ME is a local-first app. Your content stays on your device.
-      We do not collect, transmit, sell, or share your personal data.</strong>
-    </p>
+    .pp-nav { display: flex; gap: 20px; align-items: center; margin-left: auto; }
+    .pp-nav a { color: var(--muted); text-decoration: none; font-size: .92rem; white-space: nowrap; }
+    .pp-nav a:hover { color: var(--pp-accent); }
+    @media (max-width: 820px) { .pp-nav { display: none; } }
 
-    <h2>What the app stores</h2>
-    <p>
-      Everything you create in Momera.ME — text notes, voice recordings and their transcripts,
-      photos, drawings, attached files, locations, and GPS movement tracks — is stored
-      <strong>only on your device</strong>, in the app's private storage. We have no servers that
-      receive this content, and there is no account or cloud sync.
-    </p>
+    .pp-wrap { max-width: 78ch; margin: 0 auto; padding-inline: 20px; padding-block: 40px 72px; }
 
-    <h2>Permissions and why they're used</h2>
-    <p>The app requests certain permissions solely to provide on-device features. Data captured
-      through these permissions stays on your device.</p>
-    <ul>
-      <li><strong>Microphone</strong> — to record voice notes and perform on-device speech-to-text.
-        Audio is processed locally; no audio is sent to us or any third party.</li>
-      <li><strong>Location (including background location)</strong> — to tag a moment with a place
-        and to record GPS &ldquo;movement tracks&rdquo; of a walk, run, or drive that you explicitly
-        start. Background location lets a track keep recording while your screen is off. Location
-        data is stored on your device and shown to you on a map; it is never transmitted or shared.</li>
-      <li><strong>Camera</strong> — to capture a photo as a moment.</li>
-      <li><strong>Photos / media</strong> — to attach images from your gallery to a moment.</li>
-      <li><strong>Physical activity / step counter</strong> — to count steps during a movement track.</li>
-      <li><strong>Notifications</strong> — to show the status of an active recording or tracking session.</li>
-      <li><strong>Screen recording (MediaProjection)</strong> — used only when you tap
-        &ldquo;Export as video&rdquo; to create a shareable replay of a movement track. This is
-        one-time and user-initiated.</li>
-    </ul>
+    .pp-head { text-align: center; margin-bottom: 34px; }
+    .pp-head img { width: 76px; height: 76px; border-radius: 19px; box-shadow: 0 10px 40px rgba(0,0,0,.18); }
+    .pp-head h1 { font-size: clamp(1.7rem, 4.4vw, 2.4rem); margin: 18px 0 6px; line-height: 1.15; text-wrap: balance; }
+    .pp-head .pp-sub { color: var(--pp-accent); font-weight: 700; margin: 0 0 10px; }
+    .pp-head .pp-date { color: var(--dim); font-size: .9rem; margin: 0; }
 
-    <h2>Network use</h2>
-    <p>
-      The app works offline. It connects to the internet only to
-      <strong>download the offline speech-to-text model once</strong> (on first voice use). This is a
-      one-way download of app resources; <strong>no personal data or content is uploaded</strong> in
-      the process.
-    </p>
+    /* Language picker. Buttons, not links: this switches what is displayed on
+       one URL, because the app stores register exactly one privacy URL. */
+    .pp-langs { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; margin: 22px 0 0; }
+    .pp-langs button {
+      font: inherit; font-size: .9rem; font-weight: 600; cursor: pointer;
+      padding: 7px 15px; border-radius: 999px;
+      border: 1px solid var(--card-border); background: var(--card); color: var(--muted);
+    }
+    .pp-langs button:hover { border-color: var(--pp-accent); color: var(--text); }
+    .pp-langs button[aria-current="true"] { background: var(--pp-wash); border-color: var(--pp-accent); color: var(--text); }
 
-    <h2>Data sharing and selling</h2>
-    <p>
-      We do <strong>not</strong> sell, rent, or share your personal data with anyone. Content leaves
-      your device only when <strong>you</strong> choose to export or share it (for example, using the
-      export-to-JSON feature or your device's share sheet to send a track video). In those cases, you
-      control the destination.
-    </p>
+    .pp h2 {
+      font-size: 1.24rem; margin: 40px 0 12px; padding-top: 18px;
+      border-top: 1px solid var(--card-border); text-wrap: balance;
+    }
+    .pp h2:first-of-type { border-top: 0; padding-top: 0; }
+    .pp h2.pp-part {
+      font-size: .82rem; letter-spacing: .14em; text-transform: uppercase;
+      color: var(--pp-accent); margin-top: 56px;
+    }
+    .pp h3 { font-size: 1.02rem; margin: 26px 0 8px; color: var(--text); }
+    .pp p, .pp li { color: var(--muted); line-height: 1.72; }
+    .pp p { margin: 0 0 14px; }
+    .pp ul { margin: 0 0 16px; padding-left: 1.25em; }
+    .pp li { margin-bottom: 9px; }
+    .pp strong { color: var(--text); font-weight: 650; }
+    .pp a { color: var(--pp-accent); }
 
-    <h2>Analytics and tracking</h2>
-    <p>
-      The app contains <strong>no advertising and no third-party analytics or tracking SDKs</strong>.
-      We do not build a profile of you.
-    </p>
+    .pp-tldr {
+      background: var(--pp-wash); border: 1px solid var(--card-border);
+      border-left: 3px solid var(--pp-accent);
+      border-radius: 12px; padding: 20px 22px 6px; margin: 0 0 8px;
+    }
+    .pp-tldr ul { margin-bottom: 14px; }
+    .pp-note {
+      background: var(--card); border: 1px solid var(--card-border);
+      border-radius: 10px; padding: 15px 18px 3px; margin: 0 0 16px;
+    }
 
-    <h2>Children's privacy</h2>
-    <p>Momera.ME is a general-audience productivity app and is not directed at children under 13.</p>
+    /* Tables scroll inside their own box so the page body never scrolls sideways. */
+    .pp-tablewrap { overflow-x: auto; margin: 0 0 20px; }
+    .pp table { border-collapse: collapse; width: 100%; min-width: 520px; font-size: .94rem; }
+    .pp th, .pp td {
+      text-align: left; vertical-align: top; padding: 11px 13px;
+      border-bottom: 1px solid var(--card-border); color: var(--muted); line-height: 1.6;
+    }
+    .pp th { color: var(--text); font-weight: 650; white-space: nowrap; }
+    .pp tbody tr:last-child td { border-bottom: 0; }
 
-    <h2>Your control over your data</h2>
-    <ul>
-      <li><strong>Export / import:</strong> you can export all your data as a JSON file at any time
-        from Settings.</li>
-      <li><strong>Delete:</strong> you can delete individual moments and media within the app
-        (Settings &rsaquo; Manage storage), or remove all app data by clearing the app's storage or
-        uninstalling it.</li>
-    </ul>
+    /* Right-to-left: mirror the padding and the table alignment, nothing else. */
+    .pp[dir="rtl"] { text-align: right; }
+    .pp[dir="rtl"] ul { padding-left: 0; padding-right: 1.25em; }
+    .pp[dir="rtl"] th, .pp[dir="rtl"] td { text-align: right; }
+    .pp[dir="rtl"] .pp-tldr { border-left: 1px solid var(--card-border); border-right: 3px solid var(--pp-accent); }
 
-    <h2>Changes to this policy</h2>
-    <p>We may update this policy from time to time. Material changes will be reflected by the
-      &ldquo;Last updated&rdquo; date above.</p>
+    /* With no data-pplang (JavaScript off) every language stays visible. */
+    .pp-only-nojs { display: none; }
+    :root:not([data-pplang]) .pp-only-nojs { display: block; }
+    :root:not([data-pplang]) .pp-langs { display: none; }
+    :root[data-pplang="en"] .pp:not([data-lang="en"]),
+    :root[data-pplang="zh-Hans"] .pp:not([data-lang="zh-Hans"]),
+    :root[data-pplang="zh-Hant"] .pp:not([data-lang="zh-Hant"]) { display: none; }
+    </style>
+  </head>
 
-    <h2>Contact</h2>
-    <p>Questions about this policy or your data:</p>
-    <ul>
-      <li><strong>iDataGear Inc.</strong></li>
-      <li>Email: <a href="mailto:support@idatagear.com">support@idatagear.com</a>
-        <!-- TODO: confirm the correct support email before publishing --></li>
-      <li>Website: <a href="https://www.idatagear.com">https://www.idatagear.com</a></li>
-    </ul>
+  <body>
+    <header class="site-header" id="top">
+      <div class="logo"><a href="">iDataGear</a></div>
+      <nav class="pp-nav">
+        <a href="">iDataGear</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="mailto:idatagear@gmail.com">Contact</a>
+      </nav>
+      <button class="theme-toggle" type="button" aria-label="Switch theme">
+        <i class="bi bi-sun" aria-hidden="true"></i>
+        <i class="bi bi-moon-stars" aria-hidden="true"></i>
+      </button>
+    </header>
 
-    <footer>
-      &copy; 2026 iDataGear Inc. All rights reserved.
+    <main class="pp-wrap">
+      <div class="pp-head">
+        <img src="assets/img/momera-app-icon.png" alt="Momera.ME Privacy Policy &amp; Terms of Use" width="76" height="76">
+        <h1>Momera.ME Privacy Policy &amp; Terms of Use</h1>
+        <p class="pp-sub">A local-first notebook for moments</p>
+        <p class="pp-date">Last updated: 20 September 2026</p>
+        <div class="pp-langs" role="group" aria-label="Choose a language">
+          <button type="button" data-setlang="en" lang="en">English</button>
+          <button type="button" data-setlang="zh-Hans" lang="zh-Hans">简体中文</button>
+          <button type="button" data-setlang="zh-Hant" lang="zh-Hant">繁體中文</button>
+        </div>
+        <div class="pp-only-nojs pp-note">
+        <p>JavaScript is switched off, so every language on this page is shown one after another. Nothing is hidden from you.</p>
+        <p>你的浏览器关闭了 JavaScript，因此本页的所有语言版本会依次完整显示。没有任何内容对你隐藏。</p>
+        <p>你的瀏覽器關閉了 JavaScript，因此本頁的所有語言版本會依序完整顯示。沒有任何內容對你隱藏。</p>
+        </div>
+      </div>
+
+      <article class="pp" data-lang="en" lang="en">
+        <h2 id="en-tldr">The short version</h2>
+        <div class="pp-tldr">
+        <ul>
+          <li>Everything you create in the app stays on your device.</li>
+          <li>There is no account and no sign-up.</li>
+          <li>This version shows no advertising.</li>
+          <li>The app contains no analytics and no crash reporting.</li>
+          <li>This version contains no in-app purchase and no subscription.</li>
+          <li>We do not sell your data, and we do not share it for advertising profiling.</li>
+          <li>Uninstalling the app deletes everything it stored.</li>
+          <li>Part 2 of this page is the terms of use for the app.</li>
+        </ul>
+        </div>
+        <h2 class="pp-part">Part 1 — Privacy Policy</h2>
+        <h2 id="en-who">Who we are</h2>
+        <p>Momera.ME captures a moment as it happens — a photo, a voice memo, a note, where you were, how far you walked — and keeps it together in one entry. Everything it captures is written to your own device. It runs on Android.</p>
+        <p>Momera.ME is published by iDataGear Inc, a company incorporated in British Columbia, Canada. Where this policy says <strong>we</strong> or <strong>us</strong>, it means iDataGear Inc.</p>
+        <p>There is no account to create and no sign-up. We do not operate a server that receives your content, and we hold no database in which you have a record.</p>
+        <h2 id="en-stores">What the app keeps on your device</h2>
+        <p>The app writes the following to private storage on your device — an area other apps cannot read. It stays there until you delete it or uninstall the app.</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>What</th>
+              <th>Why</th>
+              <th>Where it is kept</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>Photos and videos</td>
+                <td>The ones you capture in the app or attach to an entry.</td>
+                <td>Your device only</td>
+              </tr>
+              <tr>
+                <td>Voice memos</td>
+                <td>Audio you recorded against a place or an entry.</td>
+                <td>Your device only</td>
+              </tr>
+              <tr>
+                <td>Transcripts</td>
+                <td>Text produced from your audio on the device.</td>
+                <td>Your device only</td>
+              </tr>
+              <tr>
+                <td>Text notes</td>
+                <td>What you typed.</td>
+                <td>Your device only</td>
+              </tr>
+              <tr>
+                <td>Recorded routes</td>
+                <td>The GPS track of a walk you started recording.</td>
+                <td>Your device only</td>
+              </tr>
+              <tr>
+                <td>Step count</td>
+                <td>Steps counted by the device sensor during a recording.</td>
+                <td>Your device only</td>
+              </tr>
+              <tr>
+                <td>The speech model</td>
+                <td>The downloaded model file that makes offline transcription work.</td>
+                <td>Your device only</td>
+              </tr>
+              <tr>
+                <td>Cached map tiles</td>
+                <td>Map squares already downloaded, kept so the area works offline.</td>
+                <td>Your device only</td>
+              </tr>
+              <tr>
+                <td>Settings</td>
+                <td>Language, theme, audio and display preferences.</td>
+                <td>Your device only</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>None of this is uploaded to us. We cannot read it, cannot recover it for you, and are not able to hand it to anyone else, because it never reaches us.</p>
+        <p>Speech is transcribed on your device by a bundled model. Your audio is not uploaded, is not sent to a cloud transcription service, and is not used to train anything.</p>
+        <p>Step counting reads the device's own step sensor through the activity-recognition permission. The count is stored with the hike on your device. No health or fitness platform is read or written — not Apple Health, not Google Fit.</p>
+        <p>Screen recording, when you start it, captures only this app's own screen while it runs, and the file is written to your device. It is never started in the background or without you.</p>
+        <p>This app switches off Android Auto Backup, so its contents are not copied to your Google Drive and are not carried across in a device-to-device transfer.</p>
+        <h2 id="en-leaves">What leaves your device</h2>
+        <p>This is the complete list. Everything not named here stays on your device.</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>What is sent</th>
+              <th>Who receives it</th>
+              <th>Purpose</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>Map tile requests</td>
+                <td>OpenStreetMap Foundation</td>
+                <td>To draw the map. Sends your IP address and the map square requested.</td>
+              </tr>
+              <tr>
+                <td>A one-time model download</td>
+                <td>GitHub, or Hugging Face as a fallback</td>
+                <td>To fetch the offline speech model. Nothing about you is sent.</td>
+              </tr>
+              <tr>
+                <td>Nothing automatic</td>
+                <td>Websites you tap</td>
+                <td>Opening a link in the app hands it to your browser, which then behaves as your browser does.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>The map is drawn from tiles fetched as you pan and zoom. The request tells the tile server your IP address and which square of the map you are looking at, which is inherent to how any online map works. Your recorded route is never sent with it. Tiles are cached on your device so an area you have already looked at keeps working offline.</p>
+        <p>The first time you use offline transcription the app downloads the speech-recognition model — roughly 228 MB — from our releases page on GitHub, falling back to Hugging Face if that is unavailable. This is a one-way download of a file: nothing about you, and none of your audio, is sent in the request. Once the model is on your device, transcription runs entirely on the device and works with no network connection at all.</p>
+        <p>Separately from the list above, anything you deliberately send — through the system share sheet, an export, a printout or the clipboard — goes wherever you send it. That is your choice each time, and it is not covered by the table above.</p>
+        <h2 id="en-notdo">What the app does not do</h2>
+        <p>For as long as this policy is the current one:</p>
+        <ul>
+          <li>There is no account, no sign-up, no email address and no password.</li>
+          <li>We run no server that receives your content, and hold no database with a record of you.</li>
+          <li>We do not sell your personal information, and we do not share it for cross-context behavioural advertising.</li>
+          <li>The app does not track you across other companies' apps or websites, and shows no App Tracking Transparency prompt.</li>
+          <li>Nothing is synced to a cloud account of ours. There is no backup on our side to restore from.</li>
+          <li>This version contains no advertising SDK and displays no advertising.</li>
+          <li>This version contains no analytics SDK and no crash-reporting SDK.</li>
+          <li>The app does not read your contacts, calendar, messages, call log or files outside its own storage.</li>
+          <li>The app reads and writes no health or fitness platform — not Apple Health, not Google Fit.</li>
+        </ul>
+        <h2 id="en-perms">Permissions, and why each one is asked for</h2>
+        <p>Each permission below is requested for one stated purpose and used for nothing else. On both platforms you can refuse or withdraw any of them in system settings; the features that depend on them stop working, and the rest of the app carries on.</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>Permission</th>
+              <th>Platform</th>
+              <th>Purpose</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>Internet access</td>
+                <td>Android</td>
+                <td>Required for the network requests listed above.</td>
+              </tr>
+              <tr>
+                <td>Microphone</td>
+                <td>Android</td>
+                <td>To record when you start a recording.</td>
+              </tr>
+              <tr>
+                <td>Camera</td>
+                <td>Android</td>
+                <td>To take a photo or video inside the app.</td>
+              </tr>
+              <tr>
+                <td>Precise location</td>
+                <td>Android</td>
+                <td>To record your route accurately while you are recording.</td>
+              </tr>
+              <tr>
+                <td>Approximate location</td>
+                <td>Android</td>
+                <td>The fallback the system grants if you allow only approximate location.</td>
+              </tr>
+              <tr>
+                <td>Background location</td>
+                <td>Android</td>
+                <td>To keep a recording you started from breaking when you leave the app. It is not used when you have no recording running.</td>
+              </tr>
+              <tr>
+                <td>Physical activity</td>
+                <td>Android</td>
+                <td>To read the device step counter during a recording.</td>
+              </tr>
+              <tr>
+                <td>Foreground service</td>
+                <td>Android</td>
+                <td>To keep a task you started running with a visible ongoing notification.</td>
+              </tr>
+              <tr>
+                <td>Foreground service — location</td>
+                <td>Android</td>
+                <td>To keep a route you started recording unbroken while the screen is off.</td>
+              </tr>
+              <tr>
+                <td>Foreground service — microphone</td>
+                <td>Android</td>
+                <td>To keep a recording you started running while the screen is off.</td>
+              </tr>
+              <tr>
+                <td>Foreground service — screen capture</td>
+                <td>Android</td>
+                <td>Only while a screen recording you started is running.</td>
+              </tr>
+              <tr>
+                <td>Notifications</td>
+                <td>Android</td>
+                <td>To show the ongoing notification while a recording runs, and to tell you when it finishes.</td>
+              </tr>
+              <tr>
+                <td>Storage (older Android only)</td>
+                <td>Android</td>
+                <td>Saving files on Android 9 and earlier. Not requested on newer versions.</td>
+              </tr>
+              <tr>
+                <td>App Tracking Transparency</td>
+                <td>iOS</td>
+                <td>Not requested. The app does not track you across other companies' apps or websites.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>Background location is used only while you have a recording running that you started, and only to keep that track unbroken while your screen is off. An ongoing notification is visible the whole time. It is never used to build a history of where you go when you have not started a recording.</p>
+        <h2 id="en-telemetry">Analytics and crash reporting</h2>
+        <p>This version of the app contains no analytics SDK and no crash-reporting SDK. We receive no usage statistics, no crash reports and no diagnostic data from it.</p>
+        <h2 id="en-purchases">Subscriptions and purchases</h2>
+        <p>This version of the app contains no in-app purchase and no subscription, so it collects no payment information of any kind.</p>
+        <h2 id="en-sharing">When you choose to share something</h2>
+        <p>Sharing, exporting, printing and copying are always started by you. When you use one, the app hands the item to the destination you pick — another app, a contact, a folder, a printer — and what happens to it afterwards is governed by that destination, not by this policy.</p>
+        <h2 id="en-retention">Keeping and deleting your data</h2>
+        <p>Everything the app keeps is on your device, so you control how long it lasts.</p>
+        <p>Delete an individual item inside the app to remove it. To remove everything at once, uninstall the app: the operating system deletes its private storage, and with it every item in the table above.</p>
+        <p>Because nothing reaches us, there is nothing for us to retain, and no deletion request for us to act on. Uninstalling the app removes everything it ever stored.</p>
+        <h2 id="en-rights">Your rights</h2>
+        <p>Under the GDPR, the UK GDPR, the CCPA as amended by the CPRA, Canada's PIPEDA and comparable laws elsewhere, you have rights over personal information held about you — to know what is held, to obtain a copy, to correct it, to have it deleted, and to object to or restrict its use.</p>
+        <p>For this app those rights are already satisfied by the design rather than by a request to us: the data is on your device, you can read it in the app, change it, export it and delete it, and we hold no copy to produce, correct or erase.</p>
+        <p>We do not sell personal information, and we do not share it for cross-context behavioural advertising as the CPRA defines those terms. There is accordingly no sale to opt out of.</p>
+        <p>If you believe we hold something about you regardless, write to idatagear@gmail.com and we will answer. You may also complain to your local data-protection authority.</p>
+        <h2 id="en-transfers">International transfers</h2>
+        <p>We are based in Canada. Because this version of the app sends nothing to us or to anyone else, no personal information of yours is transferred to another country by using it.</p>
+        <h2 id="en-children">Children</h2>
+        <p>This app is made for a general audience. It is not directed at children under 13, and we do not knowingly collect personal information from a child.</p>
+        <p>There is no account system, no messaging, no social feature and nothing another user can post or see — so there is no route by which a child using the app could disclose anything to us or to anyone else.</p>
+        <p>If you believe a child has given us personal information, write to idatagear@gmail.com and we will delete it.</p>
+        <h2 id="en-security">Security</h2>
+        <p>App data is held in the operating system's private per-app storage, protected by the device's own sandbox and by full-device encryption when a screen lock is set. Setting a passcode, PIN or biometric lock is the single most effective thing you can do to protect it.</p>
+        <p>Every network request the app makes uses HTTPS. No method of storage or transmission is perfect, and we cannot guarantee absolute security.</p>
+        <h2 id="en-changes">Changes to this policy</h2>
+        <p>We update this policy when the app changes. The date at the top of the page is the date of the current version, and the change is published here as soon as it takes effect.</p>
+        <p>If a change means the app begins collecting something it did not collect before, we will say so plainly rather than leaving you to compare two versions of the text.</p>
+        <h2 class="pp-part">Part 2 — Terms of Use</h2>
+        <h2 id="en-t_accept">1. Accepting these terms</h2>
+        <p>By installing or using the app you accept these terms. If you do not accept them, do not use the app and remove it from your device.</p>
+        <p>These terms are between you and iDataGear Inc. Where you obtained the app from the App Store or Google Play, that store's own terms also apply to the transaction, and in case of conflict on a matter the store governs — payment, refund, redownload — the store's terms prevail.</p>
+        <h2 id="en-t_licence">2. Your licence to use the app</h2>
+        <p>We grant you a personal, non-exclusive, non-transferable, revocable licence to use the app on devices you own or control, for your own use, in the ordinary way the platform intends. We keep all other rights.</p>
+        <p>You may not copy, sell, rent, sub-license or redistribute the app, reverse engineer or decompile it except to the extent that law expressly permits despite this clause, remove or alter any notice inside it, or use it to build a competing product.</p>
+        <h2 id="en-t_yourcontent">3. Your content is yours</h2>
+        <p>Anything you create in the app is yours. We claim no ownership of it and no licence over it. Because it stays on your device, we could not use it even if we wished to.</p>
+        <p>You are responsible for backing it up. Uninstalling the app, resetting the device, or losing or replacing the device removes what the app stored, and we hold no copy from which it could be restored. Export anything you would mind losing.</p>
+        <h2 id="en-t_acceptable">4. Acceptable use</h2>
+        <p>Use the app lawfully. In particular, do not use it to break the law or anyone's rights, to record anyone where recording them requires their consent and you do not have it, to interfere with its operation or security, or to attempt to obtain fees, features or content you have not paid for.</p>
+        <h2 id="en-t_purchases">5. Purchases, renewal and cancellation</h2>
+        <p>This version of the app contains no in-app purchase and no subscription, so nothing in this section applies to it today. If that changes, this page will be updated before the change ships.</p>
+        <h2 id="en-t_accuracy">6. Accuracy of the content</h2>
+        <p>The app is an aid, not a safety device. Maps, trails, recorded tracks, distances, elevations and off-route warnings can be inaccurate, incomplete or out of date, and a phone can lose signal, lose its position or run out of battery. Carry a map and the means to navigate without it, tell someone your plan, and judge conditions for yourself. You are responsible for your own safety outdoors.</p>
+        <h2 id="en-t_thirdparty">7. Third-party services</h2>
+        <p>The app uses third-party services named in the privacy policy above. Each is governed by its own terms and privacy policy, we do not control them, and we are not responsible for what they do. Links out of the app to other websites are provided for convenience and are not an endorsement.</p>
+        <h2 id="en-t_warranty">8. No warranty</h2>
+        <p>The app is provided <strong>as is</strong> and <strong>as available</strong>, without warranty of any kind, express or implied, including any implied warranty of merchantability, fitness for a particular purpose, accuracy or non-infringement. We do not warrant that it will be uninterrupted, error-free, compatible with every device, or that defects will be corrected.</p>
+        <p>Some jurisdictions do not allow the exclusion of implied warranties, so parts of this clause may not apply to you, and nothing here limits a consumer right that cannot lawfully be limited.</p>
+        <h2 id="en-t_liability">9. Limitation of liability</h2>
+        <p>To the fullest extent the law allows, we are not liable for indirect, incidental, special, consequential, exemplary or punitive damages, nor for lost profits, lost data, lost recordings, lost routes or lost progress, however caused and on any theory of liability, even if we were told such damage was possible.</p>
+        <p>Where liability cannot be excluded, our total liability for all claims arising out of the app is limited to the greater of the amount you paid us for it in the twelve months before the claim, or twenty Canadian dollars.</p>
+        <h2 id="en-t_termination">10. Changes and termination</h2>
+        <p>We may change, suspend or discontinue the app, or any part of it, at any time. We may update these terms; when we do, the date at the top of this page changes, and continuing to use the app after that is acceptance of the updated terms.</p>
+        <p>This licence ends if you breach these terms, and it ends whenever you remove the app from your devices. The sections on your content, warranty, liability and governing law survive.</p>
+        <h2 id="en-t_law">11. Governing law</h2>
+        <p>These terms are governed by the laws of the Province of British Columbia, and the federal laws of Canada that apply there, without regard to conflict-of-law rules. The courts of British Columbia have exclusive jurisdiction over any dispute, and you and we submit to them — except that either of us may seek injunctive relief in any court with jurisdiction.</p>
+        <p>If a provision of these terms is held unenforceable, the rest stays in force. Nothing here removes a mandatory consumer protection of the country you live in.</p>
+        <h2 id="en-contact">Contact</h2>
+        <p>Questions about this policy, requests about your data, or anything else:</p>
+        <p><strong>iDataGear Inc</strong><br>
+        Email: <a href="mailto:idatagear@gmail.com">idatagear@gmail.com</a><br>
+        Web: <a href="https://www.idatagear.com/">www.idatagear.com</a></p>
+      </article>
+
+      <article class="pp" data-lang="zh-Hans" lang="zh-Hans">
+        <h2 id="zh-Hans-tldr">一句话版本</h2>
+        <div class="pp-tldr">
+        <ul>
+          <li>你在应用中创建的一切都留在你的设备上。</li>
+          <li>没有账号，也不需要注册。</li>
+          <li>这个版本不显示任何广告。</li>
+          <li>应用不含使用统计，也不含崩溃报告。</li>
+          <li>这个版本没有应用内购买，也没有订阅。</li>
+          <li>我们不出售你的数据，也不会为广告画像而共享它。</li>
+          <li>卸载应用会删除它保存过的一切。</li>
+          <li>本页第二部分是应用的使用条款。</li>
+        </ul>
+        </div>
+        <h2 class="pp-part">第一部分 — 隐私政策</h2>
+        <h2 id="zh-Hans-who">我们是谁</h2>
+        <p>Momera.ME 在事情发生的当下把它记下来——一张照片、一段语音、一条笔记、你在哪里、走了多远——并把它们收在同一条记录里。它记下的一切都写入你自己的设备。它在 Android 上运行。</p>
+        <p>Momera.ME 由 iDataGear Inc 发布，该公司在加拿大不列颠哥伦比亚省注册成立。本政策中的<strong>我们</strong>即指 iDataGear Inc。</p>
+        <p>应用没有账号，也不需要注册。我们不运营任何接收你内容的服务器，也没有任何记录着你的数据库。</p>
+        <h2 id="zh-Hans-stores">应用在你设备上保存了什么</h2>
+        <p>应用会把下列内容写入你设备上的应用私有存储区——其他应用无法读取的区域。它们会一直留在那里，直到你自己删除，或卸载应用为止。</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>内容</th>
+              <th>用途</th>
+              <th>保存位置</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>照片与视频</td>
+                <td>你在应用中拍摄或附加到某条记录上的那些。</td>
+                <td>仅在你的设备上</td>
+              </tr>
+              <tr>
+                <td>语音备忘</td>
+                <td>你针对某个地点或某条记录录下的音频。</td>
+                <td>仅在你的设备上</td>
+              </tr>
+              <tr>
+                <td>转写文本</td>
+                <td>在设备上由你的音频生成的文字。</td>
+                <td>仅在你的设备上</td>
+              </tr>
+              <tr>
+                <td>文字笔记</td>
+                <td>你输入的内容。</td>
+                <td>仅在你的设备上</td>
+              </tr>
+              <tr>
+                <td>记录的路线</td>
+                <td>你主动开始记录的那段行程的 GPS 轨迹。</td>
+                <td>仅在你的设备上</td>
+              </tr>
+              <tr>
+                <td>步数</td>
+                <td>记录期间由设备传感器统计的步数。</td>
+                <td>仅在你的设备上</td>
+              </tr>
+              <tr>
+                <td>语音模型</td>
+                <td>下载下来、让离线转写得以工作的模型文件。</td>
+                <td>仅在你的设备上</td>
+              </tr>
+              <tr>
+                <td>缓存的地图瓦片</td>
+                <td>已经下载过的地图方块，留着让该区域离线可用。</td>
+                <td>仅在你的设备上</td>
+              </tr>
+              <tr>
+                <td>设置</td>
+                <td>语言、主题、音频和显示方面的偏好。</td>
+                <td>仅在你的设备上</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>这些内容不会上传给我们。我们读不到，无法替你找回，也无法交给任何第三方——因为它们从未到达我们这里。</p>
+        <p>语音由应用内置的模型在你的设备上转写。你的音频不会被上传，不会被送往任何云端转写服务，也不会被用来训练任何模型。</p>
+        <p>步数统计通过「身体活动」权限读取设备自带的计步传感器。计数与该次记录一起保存在你的设备上。应用不读取也不写入任何健康或健身平台——既不是 Apple 健康，也不是 Google Fit。</p>
+        <p>屏幕录制只有在你启动它时才会进行，且只录制本应用自己的画面，生成的文件写入你的设备。它绝不会在后台或未经你操作的情况下启动。</p>
+        <p>本应用关闭了 Android 自动备份，因此它的内容不会被复制到你的 Google 云端硬盘，也不会在换机迁移时被带走。</p>
+        <h2 id="zh-Hans-leaves">有什么会离开你的设备</h2>
+        <p>下面是完整的清单。凡是没有列出的，都留在你的设备上。</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>发送的内容</th>
+              <th>接收方</th>
+              <th>目的</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>地图瓦片请求</td>
+                <td>OpenStreetMap 基金会</td>
+                <td>用于绘制地图。会发送你的 IP 地址和所请求的地图方块。</td>
+              </tr>
+              <tr>
+                <td>一次性的模型下载</td>
+                <td>GitHub，失败时改用 Hugging Face</td>
+                <td>用于取回离线语音模型。不发送关于你的任何信息。</td>
+              </tr>
+              <tr>
+                <td>没有任何自动发送</td>
+                <td>你点开的网站</td>
+                <td>在应用中打开链接会把它交给你的浏览器，之后就与你的浏览器平时一样。</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>地图是由你平移和缩放时取回的瓦片拼出来的。该请求会让瓦片服务器知道你的 IP 地址，以及你正在看地图的哪一小块——任何在线地图都是如此。你记录的路线绝不会随之发送。瓦片会缓存在你的设备上，因此看过的区域在离线时仍然可用。</p>
+        <p>第一次使用离线转写时，应用会从我们在 GitHub 上的发布页下载语音识别模型（约 228 MB），若该地址不可用则改从 Hugging Face 下载。这只是单向地取回一个文件：请求中不包含关于你的任何信息，也不包含你的任何音频。模型下载到设备之后，转写完全在设备上进行，在完全没有网络的情况下也能工作。</p>
+        <p>上表之外，凡是你主动发送的内容——通过系统分享面板、导出、打印或剪贴板——都会去到你指定的地方。那是你每一次自己的选择，不在上表的范围内。</p>
+        <h2 id="zh-Hans-notdo">应用不会做的事</h2>
+        <p>在本政策为现行版本期间：</p>
+        <ul>
+          <li>没有账号，不需要注册，不需要邮箱，也不需要密码。</li>
+          <li>我们不运营任何接收你内容的服务器，也没有任何记录着你的数据库。</li>
+          <li>我们不出售你的个人信息，也不会为跨情境行为广告而共享它。</li>
+          <li>应用不会跨其他公司的应用或网站跟踪你，也不弹出「App 跟踪透明度」授权框。</li>
+          <li>没有任何内容同步到属于我们的云端账户。我们这边没有可供恢复的备份。</li>
+          <li>这个版本不含广告 SDK，也不显示任何广告。</li>
+          <li>这个版本不含使用统计 SDK，也不含崩溃上报 SDK。</li>
+          <li>应用不读取你的通讯录、日历、短信、通话记录，也不读取其自身存储区以外的文件。</li>
+          <li>应用不读取也不写入任何健康或健身平台——既不是 Apple 健康，也不是 Google Fit。</li>
+        </ul>
+        <h2 id="zh-Hans-perms">权限，以及每一项的用途</h2>
+        <p>下列每一项权限都只用于所声明的那一个用途，不作他用。在两个平台上，你都可以在系统设置中拒绝或撤回其中任何一项；依赖它的功能会停止工作，应用的其余部分照常运行。</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>权限</th>
+              <th>平台</th>
+              <th>目的</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>网络访问</td>
+                <td>Android</td>
+                <td>上述网络请求所必需。</td>
+              </tr>
+              <tr>
+                <td>麦克风</td>
+                <td>Android</td>
+                <td>在你开始录音时进行录制。</td>
+              </tr>
+              <tr>
+                <td>相机</td>
+                <td>Android</td>
+                <td>在应用内拍摄照片或视频。</td>
+              </tr>
+              <tr>
+                <td>精确位置</td>
+                <td>Android</td>
+                <td>在记录期间准确记下你的路线。</td>
+              </tr>
+              <tr>
+                <td>大致位置</td>
+                <td>Android</td>
+                <td>当你只允许大致位置时，系统授予的退而求其次的那一项。</td>
+              </tr>
+              <tr>
+                <td>后台位置</td>
+                <td>Android</td>
+                <td>让你已开始的记录在离开应用后不中断。在你没有进行记录时不会使用。</td>
+              </tr>
+              <tr>
+                <td>身体活动</td>
+                <td>Android</td>
+                <td>在记录期间读取设备的计步器。</td>
+              </tr>
+              <tr>
+                <td>前台服务</td>
+                <td>Android</td>
+                <td>让你启动的任务带着一条可见的常驻通知继续运行。</td>
+              </tr>
+              <tr>
+                <td>前台服务——位置</td>
+                <td>Android</td>
+                <td>在息屏时保持你已开始记录的路线不中断。</td>
+              </tr>
+              <tr>
+                <td>前台服务——麦克风</td>
+                <td>Android</td>
+                <td>在息屏时保持你已开始的录音继续进行。</td>
+              </tr>
+              <tr>
+                <td>前台服务——屏幕录制</td>
+                <td>Android</td>
+                <td>仅在你启动的屏幕录制进行期间。</td>
+              </tr>
+              <tr>
+                <td>通知</td>
+                <td>Android</td>
+                <td>在录制进行期间显示常驻通知，并在结束时告知你。</td>
+              </tr>
+              <tr>
+                <td>存储（仅旧版 Android）</td>
+                <td>Android</td>
+                <td>在 Android 9 及更早版本上保存文件。在更新的版本上不会请求。</td>
+              </tr>
+              <tr>
+                <td>App 跟踪透明度</td>
+                <td>iOS</td>
+                <td>不请求。应用不会跨其他公司的应用或网站跟踪你。</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>后台位置只在你自己启动的记录进行期间使用，且仅用于在息屏时保持轨迹不中断。整个过程中都有一条常驻通知可见。它绝不会被用来在你未启动记录时收集你的行踪。</p>
+        <h2 id="zh-Hans-telemetry">使用统计与崩溃报告</h2>
+        <p>这个版本的应用不包含任何使用统计 SDK，也不包含任何崩溃上报 SDK。我们收不到它的任何使用数据、崩溃报告或诊断信息。</p>
+        <h2 id="zh-Hans-purchases">订阅与购买</h2>
+        <p>这个版本的应用没有任何应用内购买，也没有订阅，因此不会收集任何支付信息。</p>
+        <h2 id="zh-Hans-sharing">当你主动分享时</h2>
+        <p>分享、导出、打印和复制永远由你发起。当你使用其中任何一项时，应用会把该内容交给你选定的目的地——另一个应用、一位联系人、一个文件夹、一台打印机——此后它的去向由那个目的地决定，不再受本政策约束。</p>
+        <h2 id="zh-Hans-retention">数据的保存与删除</h2>
+        <p>应用保存的一切都在你的设备上，因此保存多久由你决定。</p>
+        <p>在应用内删除某一条即可移除它。要一次性清除全部内容，卸载应用即可：操作系统会删除它的私有存储区，上表中的每一项也随之消失。</p>
+        <p>由于没有任何内容到达我们这里，我们也就没有什么可保留的，没有需要我们执行的删除请求。卸载应用就会移除它曾保存过的一切。</p>
+        <h2 id="zh-Hans-rights">你的权利</h2>
+        <p>根据 GDPR、英国 GDPR、经 CPRA 修订的 CCPA、加拿大 PIPEDA 以及其他地区的同类法律，你对与你有关的个人信息享有权利——知晓持有了什么、获取副本、更正、要求删除，以及反对或限制其使用。</p>
+        <p>对本应用而言，这些权利已经由设计本身满足，而不需要向我们提出申请：数据就在你的设备上，你可以在应用里查看、修改、导出和删除，而我们手上没有副本可供提供、更正或擦除。</p>
+        <p>我们不出售个人信息，也不会为了 CPRA 所定义的跨情境行为广告而共享个人信息。因此并不存在需要你选择退出的出售行为。</p>
+        <p>如果你仍然认为我们持有与你有关的信息，请写信到 idatagear@gmail.com，我们会答复。你也可以向你所在地的数据保护机构投诉。</p>
+        <h2 id="zh-Hans-transfers">跨境传输</h2>
+        <p>我们位于加拿大。由于这个版本的应用不向我们、也不向任何其他方发送任何内容，使用它不会把你的任何个人信息传输到另一个国家。</p>
+        <h2 id="zh-Hans-children">儿童</h2>
+        <p>本应用面向普通受众。它不以 13 岁以下儿童为对象，我们也不会在知情的情况下收集儿童的个人信息。</p>
+        <p>应用没有账号系统，没有消息功能，没有社交功能，也没有任何其他用户可以发布或看到的内容——因此不存在任何途径，让使用应用的儿童把信息透露给我们或他人。</p>
+        <p>如果你认为有儿童向我们提供了个人信息，请写信到 idatagear@gmail.com，我们会删除它。</p>
+        <h2 id="zh-Hans-security">安全</h2>
+        <p>应用数据存放在操作系统的应用私有存储区，受设备自身的沙盒保护；在设置了锁屏的设备上，还受全盘加密保护。设置密码、PIN 码或生物识别锁，是你能为保护这些数据所做的最有效的一件事。</p>
+        <p>应用发出的每一个网络请求都使用 HTTPS。没有任何存储或传输方式是绝对安全的，我们无法保证万无一失。</p>
+        <h2 id="zh-Hans-changes">本政策的变更</h2>
+        <p>应用发生变化时，我们会更新本政策。页面顶部的日期就是当前版本的日期，变更一旦生效即在此发布。</p>
+        <p>如果某项变更意味着应用开始收集此前不收集的内容，我们会明确写出来，而不是让你自己去比对前后两版文字。</p>
+        <h2 class="pp-part">第二部分 — 使用条款</h2>
+        <h2 id="zh-Hans-t_accept">1. 接受本条款</h2>
+        <p>安装或使用本应用，即表示你接受本条款。如果你不接受，请不要使用本应用，并将其从设备上移除。</p>
+        <p>本条款是你与 iDataGear Inc 之间的约定。若你从 App Store 或 Google Play 获得本应用，该商店自身的条款同样适用于该笔交易；在付款、退款、重新下载等由商店管辖的事项上如有冲突，以商店的条款为准。</p>
+        <h2 id="zh-Hans-t_licence">2. 你的使用许可</h2>
+        <p>我们授予你一项个人的、非独占的、不可转让的、可撤销的许可，允许你在自己拥有或控制的设备上，按照平台既定的通常方式，为自己使用本应用。其余权利我们全部保留。</p>
+        <p>你不得复制、出售、出租、再许可或再分发本应用，不得对其进行逆向工程或反编译（法律明确允许且不受本条限制的情形除外），不得移除或更改其中的任何声明，也不得利用它来开发竞争产品。</p>
+        <h2 id="zh-Hans-t_yourcontent">3. 你创建的内容属于你</h2>
+        <p>你在应用中创建的一切都属于你。我们不主张对它的任何所有权，也不主张任何许可。由于它留在你的设备上，即使我们想使用也无从使用。</p>
+        <p>备份由你自己负责。卸载应用、重置设备，或丢失、更换设备，都会让应用保存的内容消失，而我们手上没有任何副本可供恢复。凡是丢了会心疼的内容，请先导出。</p>
+        <h2 id="zh-Hans-t_acceptable">4. 合理使用</h2>
+        <p>请合法地使用本应用。特别是，不得利用它违反法律或侵害他人权利，不得在录制他人需征得其同意而你并未取得同意的情况下进行录制，不得干扰应用的运行或安全，也不得试图取得你尚未付费的功能、内容或资格。</p>
+        <h2 id="zh-Hans-t_purchases">5. 购买、续订与取消</h2>
+        <p>这个版本的应用没有任何应用内购买，也没有订阅，因此本节目前对它不适用。如果这一点发生变化，我们会在变化上线之前更新本页。</p>
+        <h2 id="zh-Hans-t_accuracy">6. 内容的准确性</h2>
+        <p>本应用是一个辅助工具，不是安全设备。地图、路线、记录下来的轨迹、距离、海拔和偏离路线的提醒都可能不准确、不完整或已过时，而手机可能失去信号、定位失败或耗尽电量。请携带地图和不依赖手机也能导航的工具，把你的计划告诉他人，并自行判断当下的条件。你在户外的安全由你自己负责。</p>
+        <h2 id="zh-Hans-t_thirdparty">7. 第三方服务</h2>
+        <p>本应用使用上文隐私政策中列出的第三方服务。每一项都受其自身的条款和隐私政策约束，我们无法控制它们，也不对它们的行为负责。应用中指向其他网站的链接仅为方便而提供，不构成任何背书。</p>
+        <h2 id="zh-Hans-t_warranty">8. 不提供保证</h2>
+        <p>本应用按<strong>现状</strong>和<strong>现有可用状态</strong>提供，不附带任何明示或默示的保证，包括对适销性、特定用途适用性、准确性或不侵权的任何默示保证。我们不保证它不会中断、没有错误、兼容每一台设备，也不保证缺陷都会被修复。</p>
+        <p>部分司法管辖区不允许排除默示保证，因此本条的部分内容可能对你不适用；本条也不限制任何依法不得限制的消费者权利。</p>
+        <h2 id="zh-Hans-t_liability">9. 责任限制</h2>
+        <p>在法律允许的最大范围内，我们不对间接的、附带的、特殊的、后果性的、惩戒性或惩罚性的损害承担责任，也不对利润损失、数据丢失、录音丢失、路线丢失或进度丢失承担责任，无论其成因为何、基于何种责任理论，即使我们已被告知此类损害可能发生。</p>
+        <p>在责任无法排除的情形下，我们就因本应用引起的全部索赔所承担的责任总额，以索赔发生前十二个月内你为本应用向我们支付的金额与二十加元两者中的较高者为限。</p>
+        <h2 id="zh-Hans-t_termination">10. 变更与终止</h2>
+        <p>我们可以随时变更、暂停或停止本应用或其任何部分。我们也可以更新本条款；更新时，本页顶部的日期会随之改变，在此之后继续使用本应用即视为接受更新后的条款。</p>
+        <p>如果你违反本条款，本许可即告终止；当你把应用从设备上移除时，本许可同样终止。关于你的内容、保证、责任和适用法律的各节在终止后继续有效。</p>
+        <h2 id="zh-Hans-t_law">11. 适用法律</h2>
+        <p>本条款受加拿大British Columbia省法律以及在该省适用的加拿大联邦法律管辖，不适用其法律冲突规则。任何争议由British Columbia省法院专属管辖，你与我们均服从该管辖——但任何一方均可向任何有管辖权的法院申请禁令救济。</p>
+        <p>若本条款的某一条被认定不可执行，其余部分继续有效。本条款不排除你所在国家法律为你提供的任何强制性消费者保护。</p>
+        <h2 id="zh-Hans-contact">联系我们</h2>
+        <p>关于本政策的疑问、关于你数据的请求，或者其他任何事情：</p>
+        <p><strong>iDataGear Inc</strong><br>
+        Email: <a href="mailto:idatagear@gmail.com">idatagear@gmail.com</a><br>
+        Web: <a href="https://www.idatagear.com/">www.idatagear.com</a></p>
+      </article>
+
+      <article class="pp" data-lang="zh-Hant" lang="zh-Hant">
+        <h2 id="zh-Hant-tldr">一句話版本</h2>
+        <div class="pp-tldr">
+        <ul>
+          <li>你在 App 中建立的一切都留在你的裝置上。</li>
+          <li>沒有帳號，也不需要註冊。</li>
+          <li>這個版本不顯示任何廣告。</li>
+          <li>App 不含使用統計，也不含當機報告。</li>
+          <li>這個版本沒有 App 內購買，也沒有訂閱。</li>
+          <li>我們不出售你的資料，也不會為廣告輪廓而分享它。</li>
+          <li>移除 App 會刪除它儲存過的一切。</li>
+          <li>本頁第二部分是 App 的使用條款。</li>
+        </ul>
+        </div>
+        <h2 class="pp-part">第一部分 — 隱私權政策</h2>
+        <h2 id="zh-Hant-who">我們是誰</h2>
+        <p>Momera.ME 在事情發生的當下把它記下來——一張相片、一段語音、一則筆記、你在哪裡、走了多遠——並把它們收在同一筆記錄裡。它記下的一切都寫入你自己的裝置。它在 Android 上執行。</p>
+        <p>Momera.ME 由 iDataGear Inc 發行，該公司在加拿大卑詩省註冊成立。本政策中的<strong>我們</strong>即指 iDataGear Inc。</p>
+        <p>App 沒有帳號，也不需要註冊。我們不營運任何接收你內容的伺服器，也沒有任何記錄著你的資料庫。</p>
+        <h2 id="zh-Hant-stores">App 在你裝置上儲存了什麼</h2>
+        <p>App 會把下列內容寫入你裝置上的 App 專屬儲存區——其他 App 無法讀取的區域。它們會一直留在那裡，直到你自己刪除，或移除 App 為止。</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>內容</th>
+              <th>用途</th>
+              <th>儲存位置</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>相片與影片</td>
+                <td>你在 App 中拍攝或附加到某筆記錄上的那些。</td>
+                <td>只在你的裝置上</td>
+              </tr>
+              <tr>
+                <td>語音備忘</td>
+                <td>你針對某個地點或某筆記錄錄下的音訊。</td>
+                <td>只在你的裝置上</td>
+              </tr>
+              <tr>
+                <td>轉錄文字</td>
+                <td>在裝置上由你的音訊產生的文字。</td>
+                <td>只在你的裝置上</td>
+              </tr>
+              <tr>
+                <td>文字筆記</td>
+                <td>你輸入的內容。</td>
+                <td>只在你的裝置上</td>
+              </tr>
+              <tr>
+                <td>記錄的路線</td>
+                <td>你主動開始記錄的那段行程的 GPS 軌跡。</td>
+                <td>只在你的裝置上</td>
+              </tr>
+              <tr>
+                <td>步數</td>
+                <td>記錄期間由裝置感測器統計的步數。</td>
+                <td>只在你的裝置上</td>
+              </tr>
+              <tr>
+                <td>語音模型</td>
+                <td>下載下來、讓離線轉錄得以運作的模型檔案。</td>
+                <td>只在你的裝置上</td>
+              </tr>
+              <tr>
+                <td>快取的地圖圖磚</td>
+                <td>已經下載過的地圖方塊，留著讓該區域離線可用。</td>
+                <td>只在你的裝置上</td>
+              </tr>
+              <tr>
+                <td>設定</td>
+                <td>語言、主題、音訊和顯示方面的偏好。</td>
+                <td>只在你的裝置上</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>這些內容不會上傳給我們。我們讀不到，無法替你找回，也無法交給任何第三方——因為它們從未到達我們這裡。</p>
+        <p>語音由 App 內建的模型在你的裝置上轉錄。你的音訊不會被上傳，不會被送往任何雲端轉錄服務，也不會被用來訓練任何模型。</p>
+        <p>步數統計透過「體能活動」權限讀取裝置自帶的計步感測器。計數與該次記錄一起儲存在你的裝置上。App 不讀取也不寫入任何健康或健身平台——既不是 Apple 健康，也不是 Google Fit。</p>
+        <p>螢幕錄製只有在你啟動它時才會進行，且只錄製本 App 自己的畫面，產生的檔案寫入你的裝置。它絕不會在背景或未經你操作的情況下啟動。</p>
+        <p>本 App 關閉了 Android 自動備份，因此它的內容不會被複製到你的 Google 雲端硬碟，也不會在換機移轉時被帶走。</p>
+        <h2 id="zh-Hant-leaves">有什麼會離開你的裝置</h2>
+        <p>下面是完整的清單。凡是沒有列出的，都留在你的裝置上。</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>送出的內容</th>
+              <th>接收方</th>
+              <th>目的</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>地圖圖磚請求</td>
+                <td>OpenStreetMap 基金會</td>
+                <td>用於繪製地圖。會送出你的 IP 位址和所請求的地圖方塊。</td>
+              </tr>
+              <tr>
+                <td>一次性的模型下載</td>
+                <td>GitHub，失敗時改用 Hugging Face</td>
+                <td>用於取回離線語音模型。不送出關於你的任何資訊。</td>
+              </tr>
+              <tr>
+                <td>沒有任何自動傳送</td>
+                <td>你點開的網站</td>
+                <td>在 App 中開啟連結會把它交給你的瀏覽器，之後就與你的瀏覽器平時一樣。</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>地圖是由你平移和縮放時取回的圖磚拼出來的。該請求會讓圖磚伺服器知道你的 IP 位址，以及你正在看地圖的哪一小塊——任何線上地圖都是如此。你記錄的路線絕不會隨之送出。圖磚會快取在你的裝置上，因此看過的區域在離線時仍然可用。</p>
+        <p>第一次使用離線轉錄時，App 會從我們在 GitHub 上的發行頁下載語音辨識模型（約 228 MB），若該位址無法使用則改從 Hugging Face 下載。這只是單向地取回一個檔案：請求中不包含關於你的任何資訊，也不包含你的任何音訊。模型下載到裝置之後，轉錄完全在裝置上進行，在完全沒有網路的情況下也能運作。</p>
+        <p>上表之外，凡是你主動送出的內容——透過系統分享面板、匯出、列印或剪貼簿——都會到你指定的地方。那是你每一次自己的選擇，不在上表的範圍內。</p>
+        <h2 id="zh-Hant-notdo">App 不會做的事</h2>
+        <p>在本政策為現行版本期間：</p>
+        <ul>
+          <li>沒有帳號，不需要註冊，不需要電子郵件，也不需要密碼。</li>
+          <li>我們不營運任何接收你內容的伺服器，也沒有任何記錄著你的資料庫。</li>
+          <li>我們不出售你的個人資料，也不會為跨情境行為廣告而分享它。</li>
+          <li>App 不會跨其他公司的 App 或網站追蹤你，也不跳出「App 追蹤透明度」授權框。</li>
+          <li>沒有任何內容同步到屬於我們的雲端帳戶。我們這邊沒有可供還原的備份。</li>
+          <li>這個版本不含廣告 SDK，也不顯示任何廣告。</li>
+          <li>這個版本不含使用統計 SDK，也不含當機回報 SDK。</li>
+          <li>App 不讀取你的通訊錄、行事曆、簡訊、通話記錄，也不讀取其專屬儲存區以外的檔案。</li>
+          <li>App 不讀取也不寫入任何健康或健身平台——既不是 Apple 健康，也不是 Google Fit。</li>
+        </ul>
+        <h2 id="zh-Hant-perms">權限，以及每一項的用途</h2>
+        <p>下列每一項權限都只用於所聲明的那一個用途，不作他用。在兩個平台上，你都可以在系統設定中拒絕或撤回其中任何一項；依賴它的功能會停止運作，App 的其餘部分照常運行。</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>權限</th>
+              <th>平台</th>
+              <th>目的</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>網路存取</td>
+                <td>Android</td>
+                <td>上述網路請求所必需。</td>
+              </tr>
+              <tr>
+                <td>麥克風</td>
+                <td>Android</td>
+                <td>在你開始錄音時進行錄製。</td>
+              </tr>
+              <tr>
+                <td>相機</td>
+                <td>Android</td>
+                <td>在 App 內拍攝相片或影片。</td>
+              </tr>
+              <tr>
+                <td>精確位置</td>
+                <td>Android</td>
+                <td>在記錄期間準確記下你的路線。</td>
+              </tr>
+              <tr>
+                <td>大致位置</td>
+                <td>Android</td>
+                <td>當你只允許大致位置時，系統授予的退而求其次的那一項。</td>
+              </tr>
+              <tr>
+                <td>背景位置</td>
+                <td>Android</td>
+                <td>讓你已開始的記錄在離開 App 後不中斷。在你沒有進行記錄時不會使用。</td>
+              </tr>
+              <tr>
+                <td>體能活動</td>
+                <td>Android</td>
+                <td>在記錄期間讀取裝置的計步器。</td>
+              </tr>
+              <tr>
+                <td>前景服務</td>
+                <td>Android</td>
+                <td>讓你啟動的工作帶著一則可見的常駐通知繼續執行。</td>
+              </tr>
+              <tr>
+                <td>前景服務——位置</td>
+                <td>Android</td>
+                <td>在螢幕關閉時保持你已開始記錄的路線不中斷。</td>
+              </tr>
+              <tr>
+                <td>前景服務——麥克風</td>
+                <td>Android</td>
+                <td>在螢幕關閉時保持你已開始的錄音繼續進行。</td>
+              </tr>
+              <tr>
+                <td>前景服務——螢幕錄製</td>
+                <td>Android</td>
+                <td>僅在你啟動的螢幕錄製進行期間。</td>
+              </tr>
+              <tr>
+                <td>通知</td>
+                <td>Android</td>
+                <td>在錄製進行期間顯示常駐通知，並在結束時告知你。</td>
+              </tr>
+              <tr>
+                <td>儲存空間（僅舊版 Android）</td>
+                <td>Android</td>
+                <td>在 Android 9 及更早版本上儲存檔案。在更新的版本上不會要求。</td>
+              </tr>
+              <tr>
+                <td>App 追蹤透明度</td>
+                <td>iOS</td>
+                <td>不要求。App 不會跨其他公司的 App 或網站追蹤你。</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>背景位置只在你自己啟動的記錄進行期間使用，且僅用於在螢幕關閉時保持軌跡不中斷。整個過程中都有一則常駐通知可見。它絕不會被用來在你未啟動記錄時蒐集你的行蹤。</p>
+        <h2 id="zh-Hant-telemetry">使用統計與當機報告</h2>
+        <p>這個版本的 App 不含任何使用統計 SDK，也不含任何當機回報 SDK。我們收不到它的任何使用資料、當機報告或診斷資訊。</p>
+        <h2 id="zh-Hant-purchases">訂閱與購買</h2>
+        <p>這個版本的 App 沒有任何 App 內購買，也沒有訂閱，因此不會蒐集任何付款資訊。</p>
+        <h2 id="zh-Hant-sharing">當你主動分享時</h2>
+        <p>分享、匯出、列印和複製永遠由你發起。當你使用其中任何一項時，App 會把該內容交給你選定的目的地——另一個 App、一位聯絡人、一個資料夾、一台印表機——此後它的去向由那個目的地決定，不再受本政策拘束。</p>
+        <h2 id="zh-Hant-retention">資料的保存與刪除</h2>
+        <p>App 儲存的一切都在你的裝置上，因此要留多久由你決定。</p>
+        <p>在 App 內刪除某一筆即可移除它。要一次清除全部內容，移除 App 即可：作業系統會刪除它的專屬儲存區，上表中的每一項也隨之消失。</p>
+        <p>由於沒有任何內容到達我們這裡，我們也就沒有什麼可保存的，沒有需要我們執行的刪除要求。移除 App 就會清掉它曾儲存過的一切。</p>
+        <h2 id="zh-Hant-rights">你的權利</h2>
+        <p>依據 GDPR、英國 GDPR、經 CPRA 修訂的 CCPA、加拿大 PIPEDA 以及其他地區的同類法律，你對與你有關的個人資料享有權利——知悉持有了什麼、取得副本、更正、要求刪除，以及反對或限制其利用。</p>
+        <p>對本 App 而言，這些權利已經由設計本身滿足，而不需要向我們提出申請：資料就在你的裝置上，你可以在 App 裡檢視、修改、匯出和刪除，而我們手上沒有副本可供提供、更正或清除。</p>
+        <p>我們不出售個人資料，也不會為了 CPRA 所定義的跨情境行為廣告而分享個人資料。因此並不存在需要你選擇退出的出售行為。</p>
+        <p>如果你仍然認為我們持有與你有關的資料，請來信 idatagear@gmail.com，我們會答覆。你也可以向你所在地的資料保護主管機關申訴。</p>
+        <h2 id="zh-Hant-transfers">跨境傳輸</h2>
+        <p>我們位於加拿大。由於這個版本的 App 不向我們、也不向任何其他方傳送任何內容，使用它不會把你的任何個人資料傳輸到另一個國家。</p>
+        <h2 id="zh-Hant-children">兒童</h2>
+        <p>本 App 面向一般大眾。它不以 13 歲以下兒童為對象，我們也不會在知情的情況下蒐集兒童的個人資料。</p>
+        <p>App 沒有帳號系統，沒有訊息功能，沒有社群功能，也沒有任何其他使用者可以張貼或看到的內容——因此不存在任何途徑，讓使用 App 的兒童把資料透露給我們或他人。</p>
+        <p>如果你認為有兒童向我們提供了個人資料，請來信 idatagear@gmail.com，我們會刪除它。</p>
+        <h2 id="zh-Hant-security">安全</h2>
+        <p>App 資料存放在作業系統的 App 專屬儲存區，受裝置自身的沙箱保護；在設定了螢幕鎖定的裝置上，還受全機加密保護。設定密碼、PIN 碼或生物辨識鎖定，是你能為保護這些資料所做的最有效的一件事。</p>
+        <p>App 發出的每一個網路請求都使用 HTTPS。沒有任何儲存或傳輸方式是絕對安全的，我們無法保證萬無一失。</p>
+        <h2 id="zh-Hant-changes">本政策的變更</h2>
+        <p>App 發生變化時，我們會更新本政策。頁面頂端的日期就是目前版本的日期，變更一旦生效即在此公布。</p>
+        <p>如果某項變更意味著 App 開始蒐集此前不蒐集的內容，我們會明確寫出來，而不是讓你自己去比對前後兩版文字。</p>
+        <h2 class="pp-part">第二部分 — 使用條款</h2>
+        <h2 id="zh-Hant-t_accept">1. 接受本條款</h2>
+        <p>安裝或使用本 App，即表示你接受本條款。如果你不接受，請不要使用本 App，並將其從裝置上移除。</p>
+        <p>本條款是你與 iDataGear Inc 之間的約定。若你從 App Store 或 Google Play 取得本 App，該商店自身的條款同樣適用於該筆交易；在付款、退款、重新下載等由商店管轄的事項上如有衝突，以商店的條款為準。</p>
+        <h2 id="zh-Hant-t_licence">2. 你的使用授權</h2>
+        <p>我們授予你一項個人的、非專屬的、不可轉讓的、可撤回的授權，允許你在自己擁有或控制的裝置上，依照平台既定的通常方式，為自己使用本 App。其餘權利我們全部保留。</p>
+        <p>你不得重製、出售、出租、再授權或再散布本 App，不得對其進行還原工程或反編譯（法律明文允許且不受本條限制的情形除外），不得移除或變更其中的任何聲明，也不得利用它來開發競爭產品。</p>
+        <h2 id="zh-Hant-t_yourcontent">3. 你建立的內容屬於你</h2>
+        <p>你在 App 中建立的一切都屬於你。我們不主張對它的任何所有權，也不主張任何授權。由於它留在你的裝置上，即使我們想使用也無從使用。</p>
+        <p>備份由你自己負責。移除 App、重設裝置，或遺失、更換裝置，都會讓 App 儲存的內容消失，而我們手上沒有任何副本可供還原。凡是丟了會心疼的內容，請先匯出。</p>
+        <h2 id="zh-Hant-t_acceptable">4. 合理使用</h2>
+        <p>請合法地使用本 App。特別是，不得利用它違反法律或侵害他人權利，不得在錄製他人需徵得其同意而你並未取得同意的情況下進行錄製，不得干擾 App 的運作或安全，也不得試圖取得你尚未付費的功能、內容或資格。</p>
+        <h2 id="zh-Hant-t_purchases">5. 購買、續訂與取消</h2>
+        <p>這個版本的 App 沒有任何 App 內購買，也沒有訂閱，因此本節目前對它不適用。如果這一點有所變化，我們會在變化上線之前更新本頁。</p>
+        <h2 id="zh-Hant-t_accuracy">6. 內容的正確性</h2>
+        <p>本 App 是一個輔助工具，不是安全裝置。地圖、路線、記錄下來的軌跡、距離、海拔和偏離路線的提醒都可能不正確、不完整或已過時，而手機可能失去訊號、定位失敗或耗盡電力。請攜帶地圖和不依賴手機也能導航的工具，把你的計畫告訴他人，並自行判斷當下的條件。你在戶外的安全由你自己負責。</p>
+        <h2 id="zh-Hant-t_thirdparty">7. 第三方服務</h2>
+        <p>本 App 使用上文隱私權政策中列出的第三方服務。每一項都受其自身的條款和隱私權政策拘束，我們無法控制它們，也不對它們的行為負責。App 中指向其他網站的連結僅為方便而提供，不構成任何背書。</p>
+        <h2 id="zh-Hant-t_warranty">8. 不提供擔保</h2>
+        <p>本 App 按<strong>現狀</strong>和<strong>現有可用狀態</strong>提供，不附帶任何明示或默示的擔保，包括對可售性、特定用途適用性、正確性或不侵權的任何默示擔保。我們不保證它不會中斷、沒有錯誤、相容於每一台裝置，也不保證瑕疵都會被修復。</p>
+        <p>部分司法管轄區不允許排除默示擔保，因此本條的部分內容可能對你不適用；本條也不限制任何依法不得限制的消費者權利。</p>
+        <h2 id="zh-Hant-t_liability">9. 責任限制</h2>
+        <p>在法律允許的最大範圍內，我們不對間接的、附隨的、特殊的、衍生的、懲戒性或懲罰性的損害負責，也不對利潤損失、資料遺失、錄音遺失、路線遺失或進度遺失負責，無論其成因為何、基於何種責任理論，即使我們已被告知此類損害可能發生。</p>
+        <p>在責任無法排除的情形下，我們就因本 App 引起的全部請求所承擔的責任總額，以請求發生前十二個月內你為本 App 向我們支付的金額與二十加元兩者中的較高者為限。</p>
+        <h2 id="zh-Hant-t_termination">10. 變更與終止</h2>
+        <p>我們可以隨時變更、暫停或終止本 App 或其任何部分。我們也可以更新本條款；更新時，本頁頂端的日期會隨之改變，在此之後繼續使用本 App 即視為接受更新後的條款。</p>
+        <p>如果你違反本條款，本授權即告終止；當你把 App 從裝置上移除時，本授權同樣終止。關於你的內容、擔保、責任和準據法的各節在終止後繼續有效。</p>
+        <h2 id="zh-Hant-t_law">11. 準據法</h2>
+        <p>本條款受加拿大British Columbia省法律以及在該省適用的加拿大聯邦法律管轄，不適用其法律衝突規則。任何爭議由British Columbia省法院專屬管轄，你與我們均服從該管轄——但任何一方均可向任何有管轄權的法院聲請禁制令救濟。</p>
+        <p>若本條款的某一條被認定不可執行，其餘部分繼續有效。本條款不排除你所在國家法律為你提供的任何強制性消費者保護。</p>
+        <h2 id="zh-Hant-contact">聯絡我們</h2>
+        <p>關於本政策的疑問、關於你資料的要求，或者其他任何事情：</p>
+        <p><strong>iDataGear Inc</strong><br>
+        Email: <a href="mailto:idatagear@gmail.com">idatagear@gmail.com</a><br>
+        Web: <a href="https://www.idatagear.com/">www.idatagear.com</a></p>
+      </article>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-bottom">
+        <p>&copy; <span id="year">2026</span> iDataGear Inc</p>
+        <div class="footer-links">
+          <a href="">iDataGear</a><a href="privacy.html">Privacy</a><a href="mailto:idatagear@gmail.com">Contact</a>
+        </div>
+      </div>
     </footer>
-  </main>
-</body>
+    <script>
+    (function () {
+      var root = document.documentElement;
+      var buttons = Array.prototype.slice.call(document.querySelectorAll('[data-setlang]'));
+
+      function apply(lang) {
+        root.setAttribute('data-pplang', lang);
+        root.setAttribute('lang', lang);
+        root.setAttribute('dir', lang === 'ar' ? 'rtl' : 'ltr');
+        buttons.forEach(function (b) {
+          b.setAttribute('aria-current', b.dataset.setlang === lang ? 'true' : 'false');
+        });
+        try { localStorage.setItem('pplang', lang); } catch (e) {}
+      }
+      buttons.forEach(function (b) {
+        b.addEventListener('click', function () { apply(b.dataset.setlang); });
+      });
+      apply(root.getAttribute('data-pplang') || buttons[0].dataset.setlang);
+
+      var toggle = document.querySelector('.theme-toggle');
+      if (toggle) {
+        toggle.addEventListener('click', function () {
+          var next = root.getAttribute('data-theme') === 'light' ? 'dark' : 'light';
+          root.setAttribute('data-theme', next);
+          try { localStorage.setItem('theme', next); } catch (e) {}
+        });
+      }
+      var y = document.getElementById('year');
+      if (y) { y.textContent = new Date().getFullYear(); }
+    })();
+    </script>
+  </body>
 </html>

@@ -113,55 +113,82 @@
     <priority>0.9</priority>
   </url>
 
-  <!-- Privacy Policy -->
+  <!-- Privacy policy and terms of use -->
   <url>
     <loc>https://www.idatagear.com/privacy.html</loc>
-    <lastmod>2026-09-01</lastmod>
+    <lastmod>2026-09-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.idatagear.com/learncantonese/learncantonese_privacy.html</loc>
+    <lastmod>2026-09-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
 
   <url>
-    <loc>https://www.idatagear.com/chinese/chinese_privacy.html</loc>
-    <lastmod>2026-08-02</lastmod>
+    <loc>https://www.idatagear.com/learnchinese/learnchinese_privacy.html</loc>
+    <lastmod>2026-09-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
 
   <url>
-    <loc>https://www.idatagear.com/cantonese/cantonese_privacy.html</loc>
-    <lastmod>2026-08-02</lastmod>
+    <loc>https://www.idatagear.com/gcd/gcd_privacy.html</loc>
+    <lastmod>2026-09-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
 
   <url>
-    <loc>https://www.idatagear.com/english/english_privacy.html</loc>
-    <lastmod>2026-08-02</lastmod>
+    <loc>https://www.idatagear.com/learnenglish/learnenglish_privacy.html</loc>
+    <lastmod>2026-09-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
 
   <url>
-    <loc>https://www.idatagear.com/quickone_scanner/quickone_scanner_privacy.html</loc>
-    <lastmod>2026-09-01</lastmod>
+    <loc>https://www.idatagear.com/xiezi/xiezi_privacy.html</loc>
+    <lastmod>2026-09-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
 
   <url>
-    <loc>https://www.idatagear.com/privacy-policy-momera-me.html</loc>
-    <lastmod>2026-07-11</lastmod>
+    <loc>https://www.idatagear.com/momerame/momerame_privacy.html</loc>
+    <lastmod>2026-09-20</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.3</priority>
+    <priority>0.5</priority>
   </url>
 
   <url>
-    <loc>https://www.idatagear.com/privacy-policy-momera-hiking.html</loc>
-    <lastmod>2026-07-11</lastmod>
+    <loc>https://www.idatagear.com/momerago/momerago_privacy.html</loc>
+    <lastmod>2026-09-20</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.3</priority>
+    <priority>0.5</priority>
   </url>
 
+  <url>
+    <loc>https://www.idatagear.com/mcrecorder/mcrecorder_privacy.html</loc>
+    <lastmod>2026-09-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://www.idatagear.com/quickonescanner/quickonescanner_privacy.html</loc>
+    <lastmod>2026-09-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://www.idatagear.com/eyeballit/eyeballit_privacy.html</loc>
+    <lastmod>2026-09-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
 </urlset>
 
