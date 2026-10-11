@@ -202,6 +202,11 @@
             </tr></thead>
             <tbody>
               <tr>
+                <td><a href="#en-mcmuse">McMuse</a></td>
+                <td>Android</td>
+                <td><a href="mcmuse/mcmuse_privacy.html">Open</a></td>
+              </tr>
+              <tr>
                 <td><a href="#en-learncantonese">Learn Cantonese</a></td>
                 <td>Android, iOS, macOS</td>
                 <td><a href="learncantonese/learncantonese_privacy.html">Open</a></td>
@@ -258,6 +263,137 @@
         <h2 id="en-who">Who we are</h2>
         <p>iDataGear Inc is a company incorporated in British Columbia, Canada. It publishes the apps listed above and the website at https://www.idatagear.com. Where this page says <strong>we</strong> or <strong>us</strong>, it means iDataGear Inc.</p>
         <p>There is no account to create and no sign-up. We do not operate a server that receives your content, and we hold no database in which you have a record.</p>
+        <h2 id="en-mcmuse">McMuse</h2>
+        <p>McMuse turns a photo you already have into a piece of art, in one of sixteen styles. The rendering is done by Google's Gemini image model; the artwork comes back to your phone and is kept there. It runs on Android.</p>
+        <h3 id="en-mcmuse-stores">What the app keeps on your device</h3>
+        <p>The app writes the following to private storage on your device — an area other apps cannot read. It stays there until you delete it or uninstall the app.</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>What</th>
+              <th>Why</th>
+              <th>Where it is kept</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>Your artworks</td>
+                <td>The images the app made for you, as files, and the index that lists them.</td>
+                <td>Your device only</td>
+              </tr>
+              <tr>
+                <td>Tags and favourites</td>
+                <td>The words you attached to an artwork, and which ones you starred.</td>
+                <td>Your device only</td>
+              </tr>
+              <tr>
+                <td>Your AI processing choice</td>
+                <td>The date you agreed that a photo may be sent to be rendered, so you are not asked again every time.</td>
+                <td>Your device only</td>
+              </tr>
+              <tr>
+                <td>Settings</td>
+                <td>Language, theme, audio and display preferences.</td>
+                <td>Your device only</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>None of this is uploaded to us. We cannot read it, cannot recover it for you, and are not able to hand it to anyone else, because it never reaches us.</p>
+        <h3 id="en-mcmuse-leaves">What leaves your device</h3>
+        <p>This is the complete list. Everything not named here stays on your device.</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>What is sent</th>
+              <th>Who receives it</th>
+              <th>Purpose</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>The photo you choose, and the style you picked</td>
+                <td>iDataGear's McMuse service, then Google's Gemini API</td>
+                <td>To render the artwork and send it back. The photo is held only for the length of the request and is written to no disk of ours. Location and every other EXIF tag is removed before the photo leaves your device.</td>
+              </tr>
+              <tr>
+                <td>An anonymous installation identifier</td>
+                <td>Google Firebase Authentication and Firestore</td>
+                <td>To hold the credit balance for this installation. It is a random identifier, tied to no name, email address or device identifier.</td>
+              </tr>
+              <tr>
+                <td>A device attestation token</td>
+                <td>Google Play Integrity, through Firebase App Check</td>
+                <td>To show a request came from a genuine installation of this app rather than from a script.</td>
+              </tr>
+              <tr>
+                <td>Nothing automatic</td>
+                <td>Websites you tap</td>
+                <td>Opening a link in the app hands it to your browser, which then behaves as your browser does.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p><strong>What we hold on our side.</strong> One record per installation, under a random identifier the app is given when it first runs: the number of credits that installation has left, and whether its starter credits were granted. There is no name, no email address, no device identifier, and no history of what you made attached to it. It is kept until you ask us to remove it — write to idatagear@gmail.com with nothing more than a request to delete, and we will remove the record. Uninstalling the app does not remove it on its own, because nothing in the record identifies you well enough for us to find it without being told.</p>
+        <p>Separately from the list above, anything you deliberately send — through the system share sheet, an export, a printout or the clipboard — goes wherever you send it. That is your choice each time, and it is not covered by the table above.</p>
+        <h3 id="en-mcmuse-notdo">What the app does not do</h3>
+        <p>For as long as this policy is the current one:</p>
+        <ul>
+          <li>There is no sign-up, no email address, no password and no profile. The app signs in anonymously so that a credit balance can exist, and that identifier is all it is.</li>
+          <li>We do not store your photo or your artwork on a server. The photo passes through to be rendered; the artwork comes straight back to your device.</li>
+          <li>Your photos are not used to train any model of ours, and we do not ask Google to use them for training.</li>
+          <li>We do not sell your personal information, and we do not share it for cross-context behavioural advertising.</li>
+          <li>The app does not track you across other companies' apps or websites, and shows no App Tracking Transparency prompt.</li>
+          <li>This version contains no analytics SDK and no crash-reporting SDK.</li>
+          <li>The app does not ask for or read your location.</li>
+          <li>The app does not record audio and requests no microphone access at runtime.</li>
+          <li>The app does not read your contacts, calendar, messages, call log or files outside its own storage.</li>
+        </ul>
+        <h3 id="en-mcmuse-perms">Permissions, and why each one is asked for</h3>
+        <p>Each permission below is requested for one stated purpose and used for nothing else. On both platforms you can refuse or withdraw any of them in system settings; the features that depend on them stop working, and the rest of the app carries on.</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>Permission</th>
+              <th>Platform</th>
+              <th>Purpose</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>Internet access</td>
+                <td>Android</td>
+                <td>Required for the network requests listed above.</td>
+              </tr>
+              <tr>
+                <td>Storage (older Android only)</td>
+                <td>Android</td>
+                <td>Saving files on Android 9 and earlier. Not requested on newer versions.</td>
+              </tr>
+              <tr>
+                <td>Camera</td>
+                <td>Android</td>
+                <td>Not requested. Taking a photo opens the system camera app, which owns the camera; McMuse receives only the picture you keep.</td>
+              </tr>
+              <tr>
+                <td>Photo library</td>
+                <td>Android</td>
+                <td>Not requested. Choosing a photo uses the Android photo picker, which hands over only the item you select.</td>
+              </tr>
+              <tr>
+                <td>Location</td>
+                <td>Android and iOS</td>
+                <td>Not requested.</td>
+              </tr>
+              <tr>
+                <td>Microphone</td>
+                <td>Android and iOS</td>
+                <td>Not requested.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <h3 id="en-mcmuse-telemetry">Analytics and crash reporting</h3>
+        <p>This version of the app contains no analytics SDK and no crash-reporting SDK. We receive no usage statistics, no crash reports and no diagnostic data from it.</p>
+        <h3 id="en-mcmuse-purchases">Subscriptions and purchases</h3>
+        <p>We collect no payment information of any kind. Where an installation has credits, they were granted by our own service; the app never asks for card details and none reach us.</p>
         <h2 id="en-learncantonese">Learn Cantonese</h2>
         <p>Learn Cantonese teaches spoken and written Cantonese through lessons, a Hong Kong slang dictionary and pronunciation practice you do out loud. It runs on iPhone, iPad, Mac and Android. Your progress lives on the device you are using.</p>
         <h3 id="en-learncantonese-stores">What the app keeps on your device</h3>

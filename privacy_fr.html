@@ -202,6 +202,11 @@
             </tr></thead>
             <tbody>
               <tr>
+                <td><a href="#fr-mcmuse">McMuse</a></td>
+                <td>Android</td>
+                <td><a href="mcmuse/mcmuse_privacy.html">Ouvrir</a></td>
+              </tr>
+              <tr>
                 <td><a href="#fr-learncantonese">Learn Cantonese</a></td>
                 <td>Android, iOS, macOS</td>
                 <td><a href="learncantonese/learncantonese_privacy.html">Ouvrir</a></td>
@@ -258,6 +263,137 @@
         <h2 id="fr-who">Qui nous sommes</h2>
         <p>iDataGear Inc est une société constituée en Colombie-Britannique, au Canada. Elle édite les applications énumérées ci-dessus ainsi que le site web https://www.idatagear.com. Lorsque cette page dit <strong>nous</strong>, il s'agit de iDataGear Inc.</p>
         <p>Il n'y a aucun compte à créer et aucune inscription. Nous n'exploitons aucun serveur qui reçoive votre contenu et ne détenons aucune base de données où vous figureriez.</p>
+        <h2 id="fr-mcmuse">McMuse</h2>
+        <p>McMuse transforme une photo que vous avez déjà en une œuvre d’art, dans l’un de seize styles. Le rendu est effectué par le modèle d’image Gemini de Google ; l’œuvre revient sur votre téléphone et y est conservée. L’application fonctionne sur Android.</p>
+        <h3 id="fr-mcmuse-stores">Ce que l'application conserve sur votre appareil</h3>
+        <p>L'application écrit ce qui suit dans le stockage privé de votre appareil, une zone que les autres applications ne peuvent pas lire. Cela y reste jusqu'à ce que vous le supprimiez ou désinstalliez l'application.</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>Quoi</th>
+              <th>Pourquoi</th>
+              <th>Où c'est conservé</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>Vos œuvres</td>
+                <td>Les images que l’application a créées pour vous, sous forme de fichiers, et l’index qui les répertorie.</td>
+                <td>Uniquement sur votre appareil</td>
+              </tr>
+              <tr>
+                <td>Étiquettes et favoris</td>
+                <td>Les mots que vous avez attachés à une œuvre et celles que vous avez mises en favori.</td>
+                <td>Uniquement sur votre appareil</td>
+              </tr>
+              <tr>
+                <td>Votre choix concernant le traitement par IA</td>
+                <td>La date à laquelle vous avez accepté qu’une photo puisse être envoyée pour être rendue, afin de ne pas vous le redemander à chaque fois.</td>
+                <td>Uniquement sur votre appareil</td>
+              </tr>
+              <tr>
+                <td>Réglages</td>
+                <td>Préférences de langue, de thème, de son et d'affichage.</td>
+                <td>Uniquement sur votre appareil</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>Rien de tout cela ne nous est transmis. Nous ne pouvons pas le lire, nous ne pouvons pas le récupérer pour vous et nous ne pourrions le remettre à personne, puisque cela ne nous parvient jamais.</p>
+        <h3 id="fr-mcmuse-leaves">Ce qui quitte votre appareil</h3>
+        <p>Voici la liste complète. Tout ce qui n'y figure pas reste sur votre appareil.</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>Ce qui est envoyé</th>
+              <th>Qui le reçoit</th>
+              <th>Finalité</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>La photo que vous choisissez et le style que vous sélectionnez</td>
+                <td>Le service McMuse d’iDataGear, puis l’API Gemini de Google</td>
+                <td>Pour produire l’œuvre et la renvoyer. La photo n’est conservée que le temps de la requête et n’est écrite sur aucun de nos disques. La localisation et toutes les autres métadonnées EXIF sont supprimées avant que la photo ne quitte votre appareil.</td>
+              </tr>
+              <tr>
+                <td>Un identifiant d’installation anonyme</td>
+                <td>Google Firebase Authentication et Firestore</td>
+                <td>Pour conserver le solde de crédits de cette installation. C’est un identifiant aléatoire, lié à aucun nom, aucune adresse e-mail et aucun identifiant d’appareil.</td>
+              </tr>
+              <tr>
+                <td>Un jeton d’attestation de l’appareil</td>
+                <td>Google Play Integrity, via Firebase App Check</td>
+                <td>Pour établir qu’une requête provient d’une installation authentique de cette application et non d’un script.</td>
+              </tr>
+              <tr>
+                <td>Rien d'automatique</td>
+                <td>Les sites que vous ouvrez</td>
+                <td>Ouvrir un lien dans l'application le confie à votre navigateur, qui se comporte alors comme votre navigateur.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p><strong>Ce que nous conservons de notre côté.</strong> Un enregistrement par installation, sous un identifiant aléatoire attribué à l’application lors de son premier lancement : le nombre de crédits restants pour cette installation et le fait que ses crédits de départ ont été accordés ou non. Aucun nom, aucune adresse e-mail, aucun identifiant d’appareil et aucun historique de ce que vous avez créé n’y est rattaché. Il est conservé jusqu’à ce que vous demandiez sa suppression : écrivez à idatagear@gmail.com en indiquant simplement que vous souhaitez la suppression, et nous retirerons l’enregistrement. Désinstaller l’application ne le supprime pas d’elle-même, car rien dans cet enregistrement ne vous identifie assez pour que nous puissions le retrouver sans qu’on nous l’indique.</p>
+        <p>Indépendamment du tableau ci-dessus, tout ce que vous envoyez délibérément — via le menu de partage du système, un export, une impression ou le presse-papiers — va là où vous l'envoyez. C'est votre choix à chaque fois, et cela sort du cadre du tableau.</p>
+        <h3 id="fr-mcmuse-notdo">Ce que l'application ne fait pas</h3>
+        <p>Tant que la présente politique est celle en vigueur :</p>
+        <ul>
+          <li>Il n’y a ni inscription, ni adresse e-mail, ni mot de passe, ni profil. L’application se connecte de façon anonyme pour qu’un solde de crédits puisse exister, et cet identifiant ne sert à rien d’autre.</li>
+          <li>Nous ne stockons ni votre photo ni votre œuvre sur un serveur. La photo ne fait que transiter pour être rendue ; l’œuvre revient directement sur votre appareil.</li>
+          <li>Vos photos ne servent à entraîner aucun de nos modèles, et nous ne demandons pas à Google de les utiliser à cette fin.</li>
+          <li>Nous ne vendons pas vos informations personnelles et ne les partageons pas à des fins de publicité comportementale inter-contextes.</li>
+          <li>L'application ne vous suit pas à travers les applications ou sites d'autres entreprises et n'affiche pas la demande App Tracking Transparency.</li>
+          <li>Cette version ne contient aucun SDK de statistiques ni de remontée de plantages.</li>
+          <li>L'application ne demande ni ne lit votre position.</li>
+          <li>L'application n'enregistre pas de son et ne demande aucun accès au micro à l'exécution.</li>
+          <li>L'application ne lit ni vos contacts, ni votre agenda, ni vos messages, ni votre journal d'appels, ni de fichiers hors de son propre stockage.</li>
+        </ul>
+        <h3 id="fr-mcmuse-perms">Les autorisations, et la raison de chacune</h3>
+        <p>Chaque autorisation ci-dessous est demandée pour la seule finalité indiquée et n'est utilisée pour rien d'autre. Sur les deux plateformes, vous pouvez refuser ou retirer n'importe laquelle dans les réglages du système ; les fonctions qui en dépendent cessent de fonctionner et le reste de l'application continue.</p>
+        <div class="pp-tablewrap">
+          <table>
+            <thead><tr>
+              <th>Autorisation</th>
+              <th>Plateforme</th>
+              <th>Finalité</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>Accès à internet</td>
+                <td>Android</td>
+                <td>Nécessaire aux requêtes réseau énumérées ci-dessus.</td>
+              </tr>
+              <tr>
+                <td>Stockage (anciennes versions d'Android)</td>
+                <td>Android</td>
+                <td>Enregistrement de fichiers sur Android 9 et antérieurs. Non demandée sur les versions plus récentes.</td>
+              </tr>
+              <tr>
+                <td>Appareil photo</td>
+                <td>Android</td>
+                <td>Non demandé. Prendre une photo ouvre l’application appareil photo du système, qui contrôle l’appareil ; McMuse ne reçoit que l’image que vous conservez.</td>
+              </tr>
+              <tr>
+                <td>Photothèque</td>
+                <td>Android</td>
+                <td>Non demandé. Choisir une photo passe par le sélecteur de photos Android, qui ne transmet que l’élément que vous sélectionnez.</td>
+              </tr>
+              <tr>
+                <td>Position</td>
+                <td>Android et iOS</td>
+                <td>Non demandée.</td>
+              </tr>
+              <tr>
+                <td>Micro</td>
+                <td>Android et iOS</td>
+                <td>Non demandée.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <h3 id="fr-mcmuse-telemetry">Statistiques d'usage et rapports de plantage</h3>
+        <p>Cette version de l'application ne contient aucun SDK de statistiques ni de remontée de plantages. Nous n'en recevons aucune statistique d'usage, aucun rapport de plantage et aucune donnée de diagnostic.</p>
+        <h3 id="fr-mcmuse-purchases">Abonnements et achats</h3>
+        <p>Nous ne collectons aucune information de paiement, d’aucune sorte. Lorsqu’une installation dispose de crédits, ils lui ont été accordés par notre propre service ; l’application ne demande jamais de coordonnées bancaires et aucune ne nous parvient.</p>
         <h2 id="fr-learncantonese">Learn Cantonese</h2>
         <p>Learn Cantonese enseigne le cantonais parlé et écrit à travers des leçons, un dictionnaire d'argot hongkongais et des exercices de prononciation à voix haute. Elle fonctionne sur iPhone, iPad, Mac et Android. Votre progression vit sur l'appareil que vous utilisez.</p>
         <h3 id="fr-learncantonese-stores">Ce que l'application conserve sur votre appareil</h3>
