@@ -264,7 +264,7 @@
         <p>iDataGear Inc はカナダ・ブリティッシュコロンビア州で設立された会社で、上表のアプリとウェブサイト https://www.idatagear.com を提供しています。本ページで<strong>当社</strong>というときは iDataGear Inc を指します。</p>
         <p>作成すべきアカウントはなく、登録も不要です。あなたのコンテンツを受け取るサーバーを当社は運用しておらず、あなたの記録が残るデータベースも保有していません。</p>
         <h2 id="ja-mcmuse">McMuse</h2>
-        <p>McMuse は、すでに持っている写真を十六種類のスタイルのいずれかで一枚の作品に変えます。描画は Google の画像モデル Gemini が行い、作品はあなたの端末に戻って保存されます。Android に対応しています。</p>
+        <p>McMuse は、すでに持っている写真をお好みのアートスタイルで一枚の作品に変えます。描画は Google の画像モデル Gemini が行い、作品はあなたの端末に戻って保存されます。Android に対応しています。</p>
         <h3 id="ja-mcmuse-stores">アプリが端末内に保存するもの</h3>
         <p>アプリは以下の内容を、端末内のアプリ専用領域——他のアプリからは読み取れない領域——に書き込みます。あなたが削除するか、アプリをアンインストールするまで、そこに残ります。</p>
         <div class="pp-tablewrap">
@@ -291,14 +291,15 @@
                 <td>お使いの端末内のみ</td>
               </tr>
               <tr>
-                <td>設定</td>
-                <td>言語、テーマ、音声、表示に関する設定。</td>
+                <td>Settings</td>
+                <td>Language and theme, and whether new artworks are also added to your photo library.</td>
                 <td>お使いの端末内のみ</td>
               </tr>
             </tbody>
           </table>
         </div>
         <p>これらが当社にアップロードされることはありません。当社は読むことも、あなたの代わりに復元することも、第三者に渡すこともできません。そもそも当社に届いていないからです。</p>
+        <p><strong>Copies in your photo library.</strong> When <em>Save artwork to Photos</em> is on in Settings, which it is by default, each new artwork is also added to your device's photo library. Those copies are ordinary photos kept by your photo library, outside the app's private storage, so other apps you have allowed to see your photos can see them, and deleting an artwork in McMuse does not delete them. Turn the setting off to stop it.</p>
         <h3 id="ja-mcmuse-leaves">端末から外に出るもの</h3>
         <p>以下がすべてです。ここに挙げていないものは、端末内に留まります。</p>
         <div class="pp-tablewrap">
@@ -315,14 +316,24 @@
                 <td>作品を描画して返すため。写真はリクエストの間だけ保持され、当社のいかなるディスクにも書き込まれません。写真が端末を離れる前に、位置情報をはじめとするすべての EXIF タグが取り除かれます。</td>
               </tr>
               <tr>
-                <td>匿名のインストール識別子</td>
-                <td>Google Firebase Authentication と Firestore</td>
-                <td>このインストールのクレジット残高を保持するため。ランダムな識別子であり、氏名・メールアドレス・端末識別子とは結び付いていません。</td>
+                <td>An account identifier, and your Google email address if you sign in</td>
+                <td>Google Firebase Authentication and Firestore</td>
+                <td>To hold your credit balance. The identifier is random. If you choose to sign in with Google, Firebase also keeps that account's email address, plus the display name and profile-photo link Google supplies, which the app does not read, so your credits can follow you to a new phone. Firebase also assigns an installation identifier.</td>
               </tr>
               <tr>
                 <td>端末の証明トークン</td>
                 <td>Firebase App Check 経由の Google Play Integrity</td>
                 <td>リクエストがスクリプトではなく本アプリの正規のインストールから来たことを示すため。</td>
+              </tr>
+              <tr>
+                <td>The purchase details, when you buy credits</td>
+                <td>iDataGear's McMuse service, which checks them with Google Play</td>
+                <td>To confirm the purchase is genuine, add the credits, and make sure one purchase can never be redeemed twice. What is sent is the product, Google Play's purchase token and its order number. No card number, name or billing address is sent.</td>
+              </tr>
+              <tr>
+                <td>A report, when you flag an artwork</td>
+                <td>iDataGear's McMuse service</td>
+                <td>To look into content that should not have been made. A report carries the artwork's reference, the style, the reason you chose, any note you add, and your account identifier. It never carries the picture.</td>
               </tr>
               <tr>
                 <td>自動送信は一切なし</td>
@@ -332,12 +343,12 @@
             </tbody>
           </table>
         </div>
-        <p><strong>当社側で保持しているもの。</strong>インストールごとに 1 件の記録を、アプリが初回起動時に受け取るランダムな識別子のもとに保持します。内容は、そのインストールに残っているクレジット数と、初回クレジットが付与済みかどうかだけです。氏名、メールアドレス、端末識別子、作成履歴は一切ひも付いていません。削除を求められるまで保持します。idatagear@gmail.com 宛てに削除希望とだけお書きいただければ、その記録を削除します。アプリをアンインストールしただけでは削除されません。この記録には、お知らせいただかずに当社が見つけ出せるだけの情報が含まれていないためです。</p>
+        <p><strong>What we hold on our side.</strong> For each account, a record under a random identifier: the credits remaining, and whether starter credits were granted. If you sign in with Google, Firebase Authentication also holds that account's email address, and the display name and profile-photo link Google supplies, which the app does not read. For each purchase, a record of the product, the credits granted, Google Play's purchase token and order number, and the account identifier. For each report, what is listed above. And the service's own operating logs, which note the account identifier, the style chosen, the size and cost of an artwork, and why a request failed or was refused — never the photo and never the artwork. Those logs are kept for a limited period in Google Cloud's logging service. None of it includes your photos.</p>
         <p>上の表とは別に、あなたが自分の意思で送るもの——システムの共有メニュー、書き出し、印刷、クリップボードを通じたもの——は、あなたが送った先に届きます。それはその都度のあなたの選択であり、上の表の対象外です。</p>
         <h3 id="ja-mcmuse-notdo">アプリが行わないこと</h3>
         <p>本ポリシーが現行版である限り：</p>
         <ul>
-          <li>登録も、メールアドレスも、パスワードも、プロフィールもありません。クレジット残高が存在できるようにするためだけに匿名でサインインしており、その識別子の用途はそれだけです。</li>
+          <li>You do not need an account to use the app. Signing in with Google is optional and exists so your credits can follow you to a new phone; the app never asks for a password, a profile or your name.</li>
           <li>あなたの写真や作品をサーバーに保存することはありません。写真は描画のために通過するだけで、作品はそのままあなたの端末に戻ります。</li>
           <li>あなたの写真が当社のモデルの学習に使われることはなく、Google に学習用として利用するよう求めることもありません。</li>
           <li>個人情報を販売せず、クロスコンテキスト行動広告のために共有することもありません。</li>
@@ -347,8 +358,12 @@
           <li>音声を録音せず、実行時にマイクへのアクセスも求めません。</li>
           <li>連絡先、カレンダー、メッセージ、通話履歴、およびアプリ専用領域の外にあるファイルを読み取ることはありません。</li>
         </ul>
+        <h3 id="ja-mcmuse-safety">Content safety and reporting</h3>
+        <p>McMuse does not review your photos or your artworks: they are not kept on our side, and nobody at iDataGear sees them. The only screening is done by the safety filters of Google's Gemini service, which we set to block content at a medium level of concern or above in four categories — sexually explicit, hateful, harassing and dangerous content. A filter can refuse a photo, or the artwork made from it. When it does, no artwork is made and the credits it would have cost are returned to you.</p>
+        <p>No filter is perfect, and we cannot promise that it catches everything. If an artwork is offensive or should not have been made, report it from inside the app: open the artwork, choose Report, pick a reason — sexual content, violent or disturbing, hateful or abusive, or something else — and add a note if you wish. The report is sent without the picture, so it lets us reproduce how the artwork was made but does not show us the artwork itself.</p>
+        <p>What you may and may not do with the app is set out in the acceptable-use section of the terms below.</p>
         <h3 id="ja-mcmuse-perms">権限と、それぞれを求める理由</h3>
-        <p>以下の各権限は、記載した目的のためだけに求められ、他の用途には使われません。いずれのプラットフォームでも、システム設定から拒否または取り消すことができます。その権限に依存する機能は動かなくなりますが、アプリの他の部分はそのまま使えます。</p>
+        <p>Each permission below is requested for one stated purpose and used for nothing else. You can refuse or withdraw any of them in your device's settings; the features that depend on them stop working, and the rest of the app carries on.</p>
         <div class="pp-tablewrap">
           <table>
             <thead><tr>
@@ -363,9 +378,19 @@
                 <td>上記のネットワーク通信に必要です。</td>
               </tr>
               <tr>
-                <td>ストレージ（古い Android のみ）</td>
+                <td>Storage (Android 10 and earlier)</td>
                 <td>Android</td>
-                <td>Android 9 以前でファイルを保存するため。それ以降のバージョンでは要求しません。</td>
+                <td>Saving artworks to your photo library on Android 10 and earlier. Not requested on newer versions.</td>
+              </tr>
+              <tr>
+                <td>Billing</td>
+                <td>Android</td>
+                <td>To sell credit packs and check purchases through Google Play.</td>
+              </tr>
+              <tr>
+                <td>Network state, biometric and Google Play services</td>
+                <td>Android</td>
+                <td>Added automatically by libraries the app is built with — Firebase, Google Play and Google sign-in. The app itself never asks for your fingerprint or face and never uses them.</td>
               </tr>
               <tr>
                 <td>カメラ</td>
@@ -378,22 +403,23 @@
                 <td>要求しません。写真の選択には Android のフォトピッカーを使い、選んだ項目だけが渡されます。</td>
               </tr>
               <tr>
-                <td>位置情報</td>
-                <td>Android と iOS</td>
-                <td>要求しません。</td>
+                <td>Location</td>
+                <td>Android</td>
+                <td>Not requested.</td>
               </tr>
               <tr>
-                <td>マイク</td>
-                <td>Android と iOS</td>
-                <td>要求しません。</td>
+                <td>Microphone</td>
+                <td>Android</td>
+                <td>Not requested.</td>
               </tr>
             </tbody>
           </table>
         </div>
         <h3 id="ja-mcmuse-telemetry">利用統計とクラッシュレポート</h3>
         <p>このバージョンのアプリには、利用統計の SDK もクラッシュ報告の SDK も含まれていません。当社は利用状況も、クラッシュレポートも、診断情報も受け取りません。</p>
-        <h3 id="ja-mcmuse-purchases">サブスクリプションと購入</h3>
-        <p>当社はいかなる支払い情報も収集しません。インストールにクレジットがある場合、それは当社自身のサービスが付与したものです。アプリがカード情報を求めることはなく、当社に届くこともありません。</p>
+        <h3 id="ja-mcmuse-purchases">Purchases</h3>
+        <p>Credits for making artworks are bought inside the app, in packs. The purchase is handled entirely by Google Play, which takes the payment and issues any refund.</p>
+        <p>We never see your card number, billing address or any other payment detail. What reaches our service is the product bought, Google Play's purchase token and its order number, which we keep as the record of the purchase. If Google Play refunds a purchase, we take back the credits it granted.</p>
         <h2 id="ja-learncantonese">Learn Cantonese</h2>
         <p>Learn Cantonese は、レッスン、香港のスラング辞書、声に出す発音練習を通じて、話す広東語と書く広東語を学べるアプリです。iPhone、iPad、Mac、Android で動作します。学習の進捗は、お使いの端末の中に保存されます。</p>
         <h3 id="ja-learncantonese-stores">アプリが端末内に保存するもの</h3>

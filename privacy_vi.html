@@ -264,7 +264,7 @@
         <p>iDataGear Inc là một công ty được thành lập tại British Columbia, Canada. Công ty phát hành các ứng dụng liệt kê ở trên và trang web https://www.idatagear.com. Khi trang này nói <strong>chúng tôi</strong>, đó là iDataGear Inc.</p>
         <p>Không có tài khoản nào phải tạo và không có bước đăng ký nào. Chúng tôi không vận hành máy chủ nào nhận nội dung của bạn và không có cơ sở dữ liệu nào ghi nhận bạn.</p>
         <h2 id="vi-mcmuse">McMuse</h2>
-        <p>McMuse biến một bức ảnh bạn đã có thành một tác phẩm, theo một trong mười sáu phong cách. Việc dựng tranh do mô hình hình ảnh Gemini của Google thực hiện; tác phẩm quay về điện thoại của bạn và được giữ ở đó. Ứng dụng chạy trên Android.</p>
+        <p>McMuse biến một bức ảnh bạn đã có thành một tác phẩm, theo phong cách nghệ thuật bạn chọn. Việc dựng tranh do mô hình hình ảnh Gemini của Google thực hiện; tác phẩm quay về điện thoại của bạn và được giữ ở đó. Ứng dụng chạy trên Android.</p>
         <h3 id="vi-mcmuse-stores">Ứng dụng lưu gì trên thiết bị của bạn</h3>
         <p>Ứng dụng ghi những nội dung sau vào vùng lưu trữ riêng trên thiết bị của bạn — vùng mà các ứng dụng khác không đọc được. Chúng nằm ở đó cho đến khi bạn xoá hoặc gỡ cài đặt ứng dụng.</p>
         <div class="pp-tablewrap">
@@ -291,14 +291,15 @@
                 <td>Chỉ trên thiết bị của bạn</td>
               </tr>
               <tr>
-                <td>Cài đặt</td>
-                <td>Tuỳ chọn về ngôn ngữ, giao diện, âm thanh và hiển thị.</td>
+                <td>Settings</td>
+                <td>Language and theme, and whether new artworks are also added to your photo library.</td>
                 <td>Chỉ trên thiết bị của bạn</td>
               </tr>
             </tbody>
           </table>
         </div>
         <p>Không nội dung nào trong số này được tải lên chỗ chúng tôi. Chúng tôi không đọc được, không khôi phục giúp bạn được, và cũng không thể trao cho bất kỳ ai, bởi chúng chưa bao giờ đến được chỗ chúng tôi.</p>
+        <p><strong>Copies in your photo library.</strong> When <em>Save artwork to Photos</em> is on in Settings, which it is by default, each new artwork is also added to your device's photo library. Those copies are ordinary photos kept by your photo library, outside the app's private storage, so other apps you have allowed to see your photos can see them, and deleting an artwork in McMuse does not delete them. Turn the setting off to stop it.</p>
         <h3 id="vi-mcmuse-leaves">Những gì rời khỏi thiết bị của bạn</h3>
         <p>Đây là danh sách đầy đủ. Mọi thứ không có tên ở đây đều nằm lại trên thiết bị của bạn.</p>
         <div class="pp-tablewrap">
@@ -315,14 +316,24 @@
                 <td>Để dựng nên tác phẩm và gửi trả lại. Ảnh chỉ được giữ trong thời gian của yêu cầu đó và không được ghi vào bất kỳ ổ đĩa nào của chúng tôi. Vị trí và mọi thẻ EXIF khác đều được xóa trước khi ảnh rời khỏi thiết bị của bạn.</td>
               </tr>
               <tr>
-                <td>Một mã định danh cài đặt ẩn danh</td>
-                <td>Google Firebase Authentication và Firestore</td>
-                <td>Để lưu số tín dụng còn lại của lần cài đặt này. Đó là một mã ngẫu nhiên, không gắn với tên, địa chỉ email hay mã định danh thiết bị nào.</td>
+                <td>An account identifier, and your Google email address if you sign in</td>
+                <td>Google Firebase Authentication and Firestore</td>
+                <td>To hold your credit balance. The identifier is random. If you choose to sign in with Google, Firebase also keeps that account's email address, plus the display name and profile-photo link Google supplies, which the app does not read, so your credits can follow you to a new phone. Firebase also assigns an installation identifier.</td>
               </tr>
               <tr>
                 <td>Mã chứng thực thiết bị</td>
                 <td>Google Play Integrity, thông qua Firebase App Check</td>
                 <td>Để chứng minh yêu cầu đến từ một bản cài đặt thật của ứng dụng này chứ không phải từ một tập lệnh.</td>
+              </tr>
+              <tr>
+                <td>The purchase details, when you buy credits</td>
+                <td>iDataGear's McMuse service, which checks them with Google Play</td>
+                <td>To confirm the purchase is genuine, add the credits, and make sure one purchase can never be redeemed twice. What is sent is the product, Google Play's purchase token and its order number. No card number, name or billing address is sent.</td>
+              </tr>
+              <tr>
+                <td>A report, when you flag an artwork</td>
+                <td>iDataGear's McMuse service</td>
+                <td>To look into content that should not have been made. A report carries the artwork's reference, the style, the reason you chose, any note you add, and your account identifier. It never carries the picture.</td>
               </tr>
               <tr>
                 <td>Không có gì tự động</td>
@@ -332,12 +343,12 @@
             </tbody>
           </table>
         </div>
-        <p><strong>Những gì chúng tôi giữ ở phía mình.</strong> Mỗi lần cài đặt là một bản ghi, nằm dưới một mã ngẫu nhiên mà ứng dụng nhận được khi chạy lần đầu: số tín dụng còn lại của lần cài đặt đó, và việc số tín dụng khởi đầu đã được cấp hay chưa. Không có tên, không có địa chỉ email, không có mã định danh thiết bị và không có lịch sử những gì bạn đã tạo đi kèm. Bản ghi được giữ cho đến khi bạn yêu cầu xóa — hãy viết thư tới idatagear@gmail.com chỉ cần nói rằng bạn muốn xóa, và chúng tôi sẽ gỡ bản ghi đó. Gỡ cài đặt ứng dụng không tự nó xóa bản ghi, bởi trong bản ghi không có gì nhận dạng bạn đủ rõ để chúng tôi tìm ra nếu không được cho biết.</p>
+        <p><strong>What we hold on our side.</strong> For each account, a record under a random identifier: the credits remaining, and whether starter credits were granted. If you sign in with Google, Firebase Authentication also holds that account's email address, and the display name and profile-photo link Google supplies, which the app does not read. For each purchase, a record of the product, the credits granted, Google Play's purchase token and order number, and the account identifier. For each report, what is listed above. And the service's own operating logs, which note the account identifier, the style chosen, the size and cost of an artwork, and why a request failed or was refused — never the photo and never the artwork. Those logs are kept for a limited period in Google Cloud's logging service. None of it includes your photos.</p>
         <p>Ngoài bảng trên, bất cứ thứ gì bạn chủ động gửi đi — qua bảng chia sẻ của hệ thống, qua xuất tệp, in ấn hay bộ nhớ tạm — sẽ đến nơi bạn gửi. Đó là lựa chọn của bạn ở mỗi lần, và nằm ngoài phạm vi bảng trên.</p>
         <h3 id="vi-mcmuse-notdo">Những điều ứng dụng không làm</h3>
         <p>Chừng nào chính sách này còn là bản hiện hành:</p>
         <ul>
-          <li>Không có đăng ký, không có địa chỉ email, không có mật khẩu và không có hồ sơ. Ứng dụng đăng nhập ẩn danh chỉ để số tín dụng có thể tồn tại, và mã định danh đó chỉ dùng cho việc ấy.</li>
+          <li>You do not need an account to use the app. Signing in with Google is optional and exists so your credits can follow you to a new phone; the app never asks for a password, a profile or your name.</li>
           <li>Chúng tôi không lưu ảnh hay tác phẩm của bạn trên máy chủ. Ảnh chỉ đi ngang qua để được dựng thành tranh; tác phẩm quay thẳng về thiết bị của bạn.</li>
           <li>Ảnh của bạn không được dùng để huấn luyện bất kỳ mô hình nào của chúng tôi, và chúng tôi không yêu cầu Google dùng chúng để huấn luyện.</li>
           <li>Chúng tôi không bán thông tin cá nhân của bạn và không chia sẻ nó cho quảng cáo hành vi liên ngữ cảnh.</li>
@@ -347,8 +358,12 @@
           <li>Ứng dụng không ghi âm và không xin quyền micrô khi chạy.</li>
           <li>Ứng dụng không đọc danh bạ, lịch, tin nhắn, nhật ký cuộc gọi hay các tệp nằm ngoài vùng lưu trữ riêng của nó.</li>
         </ul>
+        <h3 id="vi-mcmuse-safety">Content safety and reporting</h3>
+        <p>McMuse does not review your photos or your artworks: they are not kept on our side, and nobody at iDataGear sees them. The only screening is done by the safety filters of Google's Gemini service, which we set to block content at a medium level of concern or above in four categories — sexually explicit, hateful, harassing and dangerous content. A filter can refuse a photo, or the artwork made from it. When it does, no artwork is made and the credits it would have cost are returned to you.</p>
+        <p>No filter is perfect, and we cannot promise that it catches everything. If an artwork is offensive or should not have been made, report it from inside the app: open the artwork, choose Report, pick a reason — sexual content, violent or disturbing, hateful or abusive, or something else — and add a note if you wish. The report is sent without the picture, so it lets us reproduce how the artwork was made but does not show us the artwork itself.</p>
+        <p>What you may and may not do with the app is set out in the acceptable-use section of the terms below.</p>
         <h3 id="vi-mcmuse-perms">Các quyền, và lý do xin từng quyền</h3>
-        <p>Mỗi quyền dưới đây chỉ được xin cho đúng một mục đích đã nêu và không dùng cho việc gì khác. Trên cả hai nền tảng, bạn có thể từ chối hoặc rút lại bất kỳ quyền nào trong phần cài đặt hệ thống; những tính năng phụ thuộc vào quyền đó sẽ ngừng hoạt động, phần còn lại của ứng dụng vẫn chạy bình thường.</p>
+        <p>Each permission below is requested for one stated purpose and used for nothing else. You can refuse or withdraw any of them in your device's settings; the features that depend on them stop working, and the rest of the app carries on.</p>
         <div class="pp-tablewrap">
           <table>
             <thead><tr>
@@ -363,9 +378,19 @@
                 <td>Cần cho các yêu cầu mạng đã liệt kê ở trên.</td>
               </tr>
               <tr>
-                <td>Bộ nhớ (chỉ Android cũ)</td>
+                <td>Storage (Android 10 and earlier)</td>
                 <td>Android</td>
-                <td>Lưu tệp trên Android 9 trở về trước. Không xin trên các phiên bản mới hơn.</td>
+                <td>Saving artworks to your photo library on Android 10 and earlier. Not requested on newer versions.</td>
+              </tr>
+              <tr>
+                <td>Billing</td>
+                <td>Android</td>
+                <td>To sell credit packs and check purchases through Google Play.</td>
+              </tr>
+              <tr>
+                <td>Network state, biometric and Google Play services</td>
+                <td>Android</td>
+                <td>Added automatically by libraries the app is built with — Firebase, Google Play and Google sign-in. The app itself never asks for your fingerprint or face and never uses them.</td>
               </tr>
               <tr>
                 <td>Máy ảnh</td>
@@ -378,22 +403,23 @@
                 <td>Không yêu cầu. Việc chọn ảnh dùng bộ chọn ảnh của Android, chỉ trao cho ứng dụng đúng mục bạn chọn.</td>
               </tr>
               <tr>
-                <td>Vị trí</td>
-                <td>Android và iOS</td>
-                <td>Không xin.</td>
+                <td>Location</td>
+                <td>Android</td>
+                <td>Not requested.</td>
               </tr>
               <tr>
-                <td>Micrô</td>
-                <td>Android và iOS</td>
-                <td>Không xin.</td>
+                <td>Microphone</td>
+                <td>Android</td>
+                <td>Not requested.</td>
               </tr>
             </tbody>
           </table>
         </div>
         <h3 id="vi-mcmuse-telemetry">Thống kê sử dụng và báo cáo sự cố</h3>
         <p>Phiên bản này của ứng dụng không chứa SDK thống kê và cũng không chứa SDK báo cáo sự cố. Chúng tôi không nhận được số liệu sử dụng, báo cáo sự cố hay dữ liệu chẩn đoán nào từ nó.</p>
-        <h3 id="vi-mcmuse-purchases">Gói đăng ký và mua hàng</h3>
-        <p>Chúng tôi không thu thập bất kỳ thông tin thanh toán nào. Khi một lần cài đặt có tín dụng, đó là do chính dịch vụ của chúng tôi cấp; ứng dụng không bao giờ hỏi thông tin thẻ và không có thông tin nào như vậy đến được chỗ chúng tôi.</p>
+        <h3 id="vi-mcmuse-purchases">Purchases</h3>
+        <p>Credits for making artworks are bought inside the app, in packs. The purchase is handled entirely by Google Play, which takes the payment and issues any refund.</p>
+        <p>We never see your card number, billing address or any other payment detail. What reaches our service is the product bought, Google Play's purchase token and its order number, which we keep as the record of the purchase. If Google Play refunds a purchase, we take back the credits it granted.</p>
         <h2 id="vi-learncantonese">Learn Cantonese</h2>
         <p>Learn Cantonese dạy tiếng Quảng Đông nói và viết qua các bài học, một cuốn từ điển tiếng lóng Hồng Kông và phần luyện phát âm bằng cách nói thành tiếng. Ứng dụng chạy trên iPhone, iPad, Mac và Android. Tiến độ học của bạn nằm trên chính thiết bị bạn đang dùng.</p>
         <h3 id="vi-learncantonese-stores">Ứng dụng lưu gì trên thiết bị của bạn</h3>

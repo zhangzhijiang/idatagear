@@ -184,7 +184,7 @@
         <img src="../assets/img/mcmuse-app-icon.png" alt="McMuse Privacy Policy &amp; Terms of Use" width="76" height="76">
         <h1>McMuse Privacy Policy &amp; Terms of Use</h1>
         <p class="pp-sub">Your photos to art</p>
-        <p class="pp-date">Last updated: 11 October 2026</p>
+        <p class="pp-date">Last updated: 18 October 2026</p>
         <div class="pp-langs" role="group" aria-label="Choose a language">
           <button type="button" data-setlang="en" lang="en">English</button>
           <button type="button" data-setlang="zh-Hans" lang="zh-Hans">简体中文</button>
@@ -201,19 +201,21 @@
         <h2 id="en-tldr">The short version</h2>
         <div class="pp-tldr">
         <ul>
-          <li>Everything you create in the app stays on your device.</li>
-          <li>There is no account and no sign-up.</li>
+          <li>The artworks you make are kept on your device.</li>
+          <li>The photo you choose is sent to be rendered by Google's Gemini and is not stored by us.</li>
+          <li>You are asked before the first artwork, and can withdraw at any time in Settings.</li>
+          <li>Signing in with Google is optional. If you do, your account's email address is kept with your credit balance, so your credits can follow you to a new phone.</li>
           <li>The app contains no analytics and no crash reporting.</li>
           <li>We do not sell your data, and we do not share it for advertising profiling.</li>
-          <li>Uninstalling the app deletes everything it stored.</li>
+          <li>Uninstalling the app removes what it stored on your device. The records we hold for your credits and purchases stay until you ask us to delete them.</li>
           <li>Part 2 of this page is the terms of use for the app.</li>
         </ul>
         </div>
         <h2 class="pp-part">Part 1 — Privacy Policy</h2>
         <h2 id="en-who">Who we are</h2>
-        <p>McMuse turns a photo you already have into a piece of art, in one of sixteen styles. The rendering is done by Google's Gemini image model; the artwork comes back to your phone and is kept there. It runs on Android.</p>
+        <p>McMuse turns a photo you already have into a piece of art, in the art style you choose. The rendering is done by Google's Gemini image model; the artwork comes back to your phone and is kept there. It runs on Android.</p>
         <p>McMuse is published by iDataGear Inc, a company incorporated in British Columbia, Canada. Where this policy says <strong>we</strong> or <strong>us</strong>, it means iDataGear Inc.</p>
-        <p>There is no account to create and no sign-up. McMuse does run one service of its own: it receives the photo you choose, has it rendered, and returns the artwork. It writes no photo and no artwork to any disk of ours. The only thing we keep is described under <em>What we hold on our side</em> below.</p>
+        <p>McMuse runs one service of its own: it receives the photo you choose, has it rendered, and returns the artwork. It writes no photo and no artwork to any disk of ours. You do not need an account to use the app, and signing in with Google is optional. What we keep on our side is described under <em>What we hold on our side</em> below.</p>
         <h2 id="en-stores">What the app keeps on your device</h2>
         <p>The app writes the following to private storage on your device — an area other apps cannot read. It stays there until you delete it or uninstall the app.</p>
         <div class="pp-tablewrap">
@@ -241,13 +243,14 @@
               </tr>
               <tr>
                 <td>Settings</td>
-                <td>Language, theme, audio and display preferences.</td>
+                <td>Language and theme, and whether new artworks are also added to your photo library.</td>
                 <td>Your device only</td>
               </tr>
             </tbody>
           </table>
         </div>
         <p>None of this is uploaded to us. We cannot read it, cannot recover it for you, and are not able to hand it to anyone else, because it never reaches us.</p>
+        <p><strong>Copies in your photo library.</strong> When <em>Save artwork to Photos</em> is on in Settings, which it is by default, each new artwork is also added to your device's photo library. Those copies are ordinary photos kept by your photo library, outside the app's private storage, so other apps you have allowed to see your photos can see them, and deleting an artwork in McMuse does not delete them. Turn the setting off to stop it.</p>
         <h2 id="en-leaves">What leaves your device</h2>
         <p>This is the complete list. Everything not named here stays on your device.</p>
         <div class="pp-tablewrap">
@@ -264,14 +267,24 @@
                 <td>To render the artwork and send it back. The photo is held only for the length of the request and is written to no disk of ours. Location and every other EXIF tag is removed before the photo leaves your device.</td>
               </tr>
               <tr>
-                <td>An anonymous installation identifier</td>
+                <td>An account identifier, and your Google email address if you sign in</td>
                 <td>Google Firebase Authentication and Firestore</td>
-                <td>To hold the credit balance for this installation. It is a random identifier, tied to no name, email address or device identifier.</td>
+                <td>To hold your credit balance. The identifier is random. If you choose to sign in with Google, Firebase also keeps that account's email address, plus the display name and profile-photo link Google supplies, which the app does not read, so your credits can follow you to a new phone. Firebase also assigns an installation identifier.</td>
               </tr>
               <tr>
                 <td>A device attestation token</td>
                 <td>Google Play Integrity, through Firebase App Check</td>
                 <td>To show a request came from a genuine installation of this app rather than from a script.</td>
+              </tr>
+              <tr>
+                <td>The purchase details, when you buy credits</td>
+                <td>iDataGear's McMuse service, which checks them with Google Play</td>
+                <td>To confirm the purchase is genuine, add the credits, and make sure one purchase can never be redeemed twice. What is sent is the product, Google Play's purchase token and its order number. No card number, name or billing address is sent.</td>
+              </tr>
+              <tr>
+                <td>A report, when you flag an artwork</td>
+                <td>iDataGear's McMuse service</td>
+                <td>To look into content that should not have been made. A report carries the artwork's reference, the style, the reason you chose, any note you add, and your account identifier. It never carries the picture.</td>
               </tr>
               <tr>
                 <td>Nothing automatic</td>
@@ -281,12 +294,12 @@
             </tbody>
           </table>
         </div>
-        <p><strong>What we hold on our side.</strong> One record per installation, under a random identifier the app is given when it first runs: the number of credits that installation has left, and whether its starter credits were granted. There is no name, no email address, no device identifier, and no history of what you made attached to it. It is kept until you ask us to remove it — write to idatagear@gmail.com with nothing more than a request to delete, and we will remove the record. Uninstalling the app does not remove it on its own, because nothing in the record identifies you well enough for us to find it without being told.</p>
+        <p><strong>What we hold on our side.</strong> For each account, a record under a random identifier: the credits remaining, and whether starter credits were granted. If you sign in with Google, Firebase Authentication also holds that account's email address, and the display name and profile-photo link Google supplies, which the app does not read. For each purchase, a record of the product, the credits granted, Google Play's purchase token and order number, and the account identifier. For each report, what is listed above. And the service's own operating logs, which note the account identifier, the style chosen, the size and cost of an artwork, and why a request failed or was refused — never the photo and never the artwork. Those logs are kept for a limited period in Google Cloud's logging service. None of it includes your photos.</p>
         <p>Separately from the list above, anything you deliberately send — through the system share sheet, an export, a printout or the clipboard — goes wherever you send it. That is your choice each time, and it is not covered by the table above.</p>
         <h2 id="en-notdo">What the app does not do</h2>
         <p>For as long as this policy is the current one:</p>
         <ul>
-          <li>There is no sign-up, no email address, no password and no profile. The app signs in anonymously so that a credit balance can exist, and that identifier is all it is.</li>
+          <li>You do not need an account to use the app. Signing in with Google is optional and exists so your credits can follow you to a new phone; the app never asks for a password, a profile or your name.</li>
           <li>We do not store your photo or your artwork on a server. The photo passes through to be rendered; the artwork comes straight back to your device.</li>
           <li>Your photos are not used to train any model of ours, and we do not ask Google to use them for training.</li>
           <li>We do not sell your personal information, and we do not share it for cross-context behavioural advertising.</li>
@@ -296,8 +309,12 @@
           <li>The app does not record audio and requests no microphone access at runtime.</li>
           <li>The app does not read your contacts, calendar, messages, call log or files outside its own storage.</li>
         </ul>
+        <h2 id="en-safety">Content safety and reporting</h2>
+        <p>McMuse does not review your photos or your artworks: they are not kept on our side, and nobody at iDataGear sees them. The only screening is done by the safety filters of Google's Gemini service, which we set to block content at a medium level of concern or above in four categories — sexually explicit, hateful, harassing and dangerous content. A filter can refuse a photo, or the artwork made from it. When it does, no artwork is made and the credits it would have cost are returned to you.</p>
+        <p>No filter is perfect, and we cannot promise that it catches everything. If an artwork is offensive or should not have been made, report it from inside the app: open the artwork, choose Report, pick a reason — sexual content, violent or disturbing, hateful or abusive, or something else — and add a note if you wish. The report is sent without the picture, so it lets us reproduce how the artwork was made but does not show us the artwork itself.</p>
+        <p>What you may and may not do with the app is set out in the acceptable-use section of the terms below.</p>
         <h2 id="en-perms">Permissions, and why each one is asked for</h2>
-        <p>Each permission below is requested for one stated purpose and used for nothing else. On both platforms you can refuse or withdraw any of them in system settings; the features that depend on them stop working, and the rest of the app carries on.</p>
+        <p>Each permission below is requested for one stated purpose and used for nothing else. You can refuse or withdraw any of them in your device's settings; the features that depend on them stop working, and the rest of the app carries on.</p>
         <div class="pp-tablewrap">
           <table>
             <thead><tr>
@@ -312,9 +329,19 @@
                 <td>Required for the network requests listed above.</td>
               </tr>
               <tr>
-                <td>Storage (older Android only)</td>
+                <td>Storage (Android 10 and earlier)</td>
                 <td>Android</td>
-                <td>Saving files on Android 9 and earlier. Not requested on newer versions.</td>
+                <td>Saving artworks to your photo library on Android 10 and earlier. Not requested on newer versions.</td>
+              </tr>
+              <tr>
+                <td>Billing</td>
+                <td>Android</td>
+                <td>To sell credit packs and check purchases through Google Play.</td>
+              </tr>
+              <tr>
+                <td>Network state, biometric and Google Play services</td>
+                <td>Android</td>
+                <td>Added automatically by libraries the app is built with — Firebase, Google Play and Google sign-in. The app itself never asks for your fingerprint or face and never uses them.</td>
               </tr>
               <tr>
                 <td>Camera</td>
@@ -328,12 +355,12 @@
               </tr>
               <tr>
                 <td>Location</td>
-                <td>Android and iOS</td>
+                <td>Android</td>
                 <td>Not requested.</td>
               </tr>
               <tr>
                 <td>Microphone</td>
-                <td>Android and iOS</td>
+                <td>Android</td>
                 <td>Not requested.</td>
               </tr>
             </tbody>
@@ -341,24 +368,25 @@
         </div>
         <h2 id="en-telemetry">Analytics and crash reporting</h2>
         <p>This version of the app contains no analytics SDK and no crash-reporting SDK. We receive no usage statistics, no crash reports and no diagnostic data from it.</p>
-        <h2 id="en-purchases">Subscriptions and purchases</h2>
-        <p>We collect no payment information of any kind. Where an installation has credits, they were granted by our own service; the app never asks for card details and none reach us.</p>
+        <h2 id="en-purchases">Purchases</h2>
+        <p>Credits for making artworks are bought inside the app, in packs. The purchase is handled entirely by Google Play, which takes the payment and issues any refund.</p>
+        <p>We never see your card number, billing address or any other payment detail. What reaches our service is the product bought, Google Play's purchase token and its order number, which we keep as the record of the purchase. If Google Play refunds a purchase, we take back the credits it granted.</p>
         <h2 id="en-sharing">When you choose to share something</h2>
         <p>Sharing, exporting, printing and copying are always started by you. When you use one, the app hands the item to the destination you pick — another app, a contact, a folder, a printer — and what happens to it afterwards is governed by that destination, not by this policy.</p>
         <h2 id="en-retention">Keeping and deleting your data</h2>
-        <p>Everything the app keeps is on your device, so you control how long it lasts.</p>
-        <p>Delete an individual item inside the app to remove it. To remove everything at once, uninstall the app: the operating system deletes its private storage, and with it every item in the table above.</p>
-        <p>The record described above is kept for as long as the installation exists, because it is what makes your remaining credits remaining credits. Ask us at idatagear@gmail.com and we will delete it. Your photos are not part of it: they are never written down on our side, so there is nothing of them to keep or to delete.</p>
+        <p>Your artworks, tags and settings are kept on your device, so you control how long they last.</p>
+        <p>Delete an artwork inside the app to remove it from McMuse. Uninstalling the app removes everything the app stored in its private storage. Copies already added to your photo library are separate files and stay there until you delete them in your photo library.</p>
+        <p><strong>Deleting what we hold.</strong> The records described above are kept for as long as your account exists, because they are what makes your remaining credits remaining credits. Uninstalling the app does not remove them. If you signed in with Google, write to idatagear@gmail.com from that address and we will delete your balance, your account and its email address. An account you never signed in to cannot be found, because nothing in it identifies you; it holds only a credit balance. <strong>Purchase records are the exception.</strong> They are our receipts, and what stops one purchase being redeemed twice, so we keep them for as long as the law requires us to keep transaction records. They hold a random identifier and Google Play's purchase token, and no name or email address. Reports are kept for as long as we need them to look for patterns of misuse. Your photos are not part of any of this: they are never written down on our side, so there is nothing of them to keep or to delete.</p>
         <h2 id="en-rights">Your rights</h2>
         <p>Under the GDPR, the UK GDPR, the CCPA as amended by the CPRA, Canada's PIPEDA and comparable laws elsewhere, you have rights over personal information held about you — to know what is held, to obtain a copy, to correct it, to have it deleted, and to object to or restrict its use.</p>
-        <p>For this app those rights are already satisfied by the design rather than by a request to us: the data is on your device, you can read it in the app, change it, export it and delete it, and we hold no copy to produce, correct or erase.</p>
+        <p>For the data on your device those rights are already met by the design: you can read, change, export and delete it in the app. For the records we hold on our side, write to idatagear@gmail.com and we will tell you what is held, correct it, or delete it, subject to the exception for purchase records described above.</p>
         <p>We do not sell personal information, and we do not share it for cross-context behavioural advertising as the CPRA defines those terms. There is accordingly no sale to opt out of.</p>
         <p>If you believe we hold something about you regardless, write to idatagear@gmail.com and we will answer. You may also complain to your local data-protection authority.</p>
         <h2 id="en-transfers">International transfers</h2>
         <p>We are based in Canada. The third-party services named in this policy are operated by companies based in the United States and may process data in any country where they run infrastructure, under the transfer safeguards set out in their own policies — for Google, the European Commission's standard contractual clauses.</p>
         <h2 id="en-children">Children</h2>
         <p>This app is made for a general audience. It is not directed at children under 13, and we do not knowingly collect personal information from a child.</p>
-        <p>There is no account system, no messaging, no social feature and nothing another user can post or see — so there is no route by which a child using the app could disclose anything to us or to anyone else.</p>
+        <p>There is no messaging, no social feature and nothing another user can post or see, and we do not ask for an age or a date of birth. Signing in with Google is optional. There is therefore no route by which a child using the app could disclose anything to another person through it.</p>
         <p>If you believe a child has given us personal information, write to idatagear@gmail.com and we will delete it.</p>
         <h2 id="en-security">Security</h2>
         <p>App data is held in the operating system's private per-app storage, protected by the device's own sandbox and by full-device encryption when a screen lock is set. Setting a passcode, PIN or biometric lock is the single most effective thing you can do to protect it.</p>
@@ -374,21 +402,26 @@
         <p>We grant you a personal, non-exclusive, non-transferable, revocable licence to use the app on devices you own or control, for your own use, in the ordinary way the platform intends. We keep all other rights.</p>
         <p>You may not copy, sell, rent, sub-license or redistribute the app, reverse engineer or decompile it except to the extent that law expressly permits despite this clause, remove or alter any notice inside it, or use it to build a competing product.</p>
         <h2 id="en-t_yourcontent">3. Your content is yours</h2>
-        <p>Anything you create in the app is yours. We claim no ownership of it and no licence over it. Because it stays on your device, we could not use it even if we wished to.</p>
-        <p>You are responsible for backing it up. Uninstalling the app, resetting the device, or losing or replacing the device removes what the app stored, and we hold no copy from which it could be restored. Export anything you would mind losing.</p>
+        <p>As between you and us, anything you create in the app is yours: we claim no ownership of it and no licence over it. Because it stays on your device, we could not use it even if we wished to. The artworks are generated by an AI model, so the law where you live may treat the rights in them differently from those in a photograph or a painting, and we make no promise about that.</p>
+        <p>You are responsible for backing up what you make. Uninstalling the app, resetting the device, or losing or replacing the device removes the artworks the app stored, and we hold no copy from which they could be restored. Copies already added to your photo library stay there. Save or export anything you would mind losing.</p>
         <h2 id="en-t_acceptable">4. Acceptable use</h2>
-        <p>Use the app lawfully. In particular, do not use it to break the law or anyone's rights, to record anyone where recording them requires their consent and you do not have it, to interfere with its operation or security, or to attempt to obtain fees, features or content you have not paid for.</p>
-        <h2 id="en-t_purchases">5. Purchases, renewal and cancellation</h2>
-        <p>Nothing in this section applies to the current version of the app. If that changes, this page will be updated before the change ships.</p>
+        <p>Use the app lawfully and considerately. In particular, do not use it to break the law or anyone's rights, to interfere with its operation or security, or to try to obtain credits, features or content you have not paid for.</p>
+        <p><strong>Your photos.</strong> Only use photos you have the right to use. Do not upload, and do not try to make, any of the following: sexually explicit content; any sexual or exploitative image of a child, which is never permitted; graphic violence, gore, or content made to shock or disturb; hateful, harassing or threatening content; or content that promotes self-harm, terrorism or other dangerous or illegal acts.</p>
+        <p><strong>Other people.</strong> Do not use someone else's photograph to impersonate, deceive, harass or embarrass them, or to make an image that falsely shows a real person saying or doing something. Do not upload photographs of people who have not agreed to it where their agreement is needed, or photographs of children you have no right to share.</p>
+        <p><strong>What happens if you do.</strong> The service's safety filters may refuse a photo or an artwork, and the credits for a refused request are returned. Because we do not keep your photos or artworks, we cannot review them ourselves; we rely on those filters and on reports made inside the app. We may suspend or end access to the service for anyone who misuses it and, to the extent the law allows, we are not obliged to refund the credits of someone whose access we end for that reason.</p>
+        <h2 id="en-t_purchases">5. Purchases and credits</h2>
+        <p>Credits are bought in packs inside the app and used up as artworks are made. What an artwork costs depends on the size you choose, and is shown on the button before you press it. Credits belong to your account, have no cash value, and cannot be transferred to another person or exchanged for money.</p>
+        <p>If an artwork cannot be made — the service is unavailable, or its safety filters refuse the photo or the result — the credits it would have cost are returned to your balance.</p>
+        <p>Google Play is the merchant of record. Payment, tax and refunds are handled by Google Play under its own terms and policies, not by us. If Google Play refunds a purchase, the credits it granted are taken back, and your balance can fall below zero until a later purchase makes it up.</p>
         <h2 id="en-t_accuracy">6. Accuracy of the content</h2>
-        <p>The content in the app is provided for learning and reference. Language is disputed, regional and always moving, and dictionaries, translations, transliterations, pronunciation scores, stroke orders and recognised text can all be wrong. Do not rely on any of it where being wrong would matter — in an examination, a legal document, a medical setting or a contract — without checking it independently.</p>
+        <p>Artworks are made by an AI model. They may not look the way you expect: faces, hands, text and fine details can be wrong, changed or invented, and two runs on the same photo can differ. We do not promise that an artwork will be accurate, a good likeness of anyone, or contain nothing unexpected. Look at an artwork before you share it, and do not rely on one where being wrong would matter, such as for identification or in a legal or official document.</p>
         <h2 id="en-t_thirdparty">7. Third-party services</h2>
         <p>The app uses third-party services named in the privacy policy above. Each is governed by its own terms and privacy policy, we do not control them, and we are not responsible for what they do. Links out of the app to other websites are provided for convenience and are not an endorsement.</p>
         <h2 id="en-t_warranty">8. No warranty</h2>
         <p>The app is provided <strong>as is</strong> and <strong>as available</strong>, without warranty of any kind, express or implied, including any implied warranty of merchantability, fitness for a particular purpose, accuracy or non-infringement. We do not warrant that it will be uninterrupted, error-free, compatible with every device, or that defects will be corrected.</p>
         <p>Some jurisdictions do not allow the exclusion of implied warranties, so parts of this clause may not apply to you, and nothing here limits a consumer right that cannot lawfully be limited.</p>
         <h2 id="en-t_liability">9. Limitation of liability</h2>
-        <p>To the fullest extent the law allows, we are not liable for indirect, incidental, special, consequential, exemplary or punitive damages, nor for lost profits, lost data, lost recordings, lost routes or lost progress, however caused and on any theory of liability, even if we were told such damage was possible.</p>
+        <p>To the fullest extent the law allows, we are not liable for indirect, incidental, special, consequential, exemplary or punitive damages, nor for lost profits, lost data, lost artworks or lost opportunity, however caused and on any theory of liability, even if we were told such damage was possible.</p>
         <p>Where liability cannot be excluded, our total liability for all claims arising out of the app is limited to the greater of the amount you paid us for it in the twelve months before the claim, or twenty Canadian dollars.</p>
         <h2 id="en-t_termination">10. Changes and termination</h2>
         <p>We may change, suspend or discontinue the app, or any part of it, at any time. We may update these terms; when we do, the date at the top of this page changes, and continuing to use the app after that is acceptance of the updated terms.</p>
@@ -407,19 +440,21 @@
         <h2 id="zh-Hans-tldr">一句话版本</h2>
         <div class="pp-tldr">
         <ul>
-          <li>你在应用中创建的一切都留在你的设备上。</li>
-          <li>没有账号，也不需要注册。</li>
+          <li>你生成的作品保存在你的设备上。</li>
+          <li>你选择的照片会被送去由 Google 的 Gemini 绘制，我们不会保存它。</li>
+          <li>第一幅作品之前会先征得你的同意，你也可以随时在「设置」中撤回。</li>
+          <li>使用 Google 账号登录是可选的。如果你登录，该账号的邮箱地址会和你的积分余额保存在一起，这样你的积分就能跟着你换到新手机上。</li>
           <li>应用不含使用统计，也不含崩溃报告。</li>
           <li>我们不出售你的数据，也不会为广告画像而共享它。</li>
-          <li>卸载应用会删除它保存过的一切。</li>
+          <li>卸载应用会删除它保存在你设备上的内容。我们为你的积分和购买保存的记录会一直保留，直到你要求我们删除。</li>
           <li>本页第二部分是应用的使用条款。</li>
         </ul>
         </div>
         <h2 class="pp-part">第一部分 — 隐私政策</h2>
         <h2 id="zh-Hans-who">我们是谁</h2>
-        <p>McMuse 把你手机里已有的照片变成一幅作品，共十六种风格可选。绘制由 Google 的 Gemini 图像模型完成；作品回到你的手机，并保存在那里。支持 Android。</p>
+        <p>McMuse 把你手机里已有的照片变成一幅作品，风格任你挑选。绘制由 Google 的 Gemini 图像模型完成；作品回到你的手机，并保存在那里。支持 Android。</p>
         <p>McMuse 由 iDataGear Inc 发布，该公司在加拿大不列颠哥伦比亚省注册成立。本政策中的<strong>我们</strong>即指 iDataGear Inc。</p>
-        <p>没有需要创建的账户，也没有注册。McMuse 确实运行着一项自己的服务：它接收你选择的照片，交付绘制，再把作品送回。它不会把任何照片或作品写入我们的任何磁盘。我们唯一留存的内容，见下文<em>我们这边保存了什么</em>。</p>
+        <p>McMuse 运行着一项自己的服务：它接收你选择的照片，交付绘制，再把作品送回。它不会把任何照片或作品写入我们的任何磁盘。使用应用不需要账号，使用 Google 账号登录是可选的。我们这边保存了什么，见下文<em>我们这边保存了什么</em>。</p>
         <h2 id="zh-Hans-stores">应用在你设备上保存了什么</h2>
         <p>应用会把下列内容写入你设备上的应用私有存储区——其他应用无法读取的区域。它们会一直留在那里，直到你自己删除，或卸载应用为止。</p>
         <div class="pp-tablewrap">
@@ -447,13 +482,14 @@
               </tr>
               <tr>
                 <td>设置</td>
-                <td>语言、主题、音频和显示方面的偏好。</td>
+                <td>语言和主题，以及新作品是否同时保存到你的相册。</td>
                 <td>仅在你的设备上</td>
               </tr>
             </tbody>
           </table>
         </div>
         <p>这些内容不会上传给我们。我们读不到，无法替你找回，也无法交给任何第三方——因为它们从未到达我们这里。</p>
+        <p><strong>相册中的副本。</strong>当「设置」里的<em>作品保存到相册</em>处于开启状态（默认即为开启）时，每幅新作品还会同时被添加到你设备的相册中。这些副本是由相册保管的普通照片，位于应用的私有存储区之外，因此你允许查看照片的其他应用也能看到它们；在 McMuse 里删除一幅作品，并不会删除这些副本。关闭该设置即可停止这样做。</p>
         <h2 id="zh-Hans-leaves">有什么会离开你的设备</h2>
         <p>下面是完整的清单。凡是没有列出的，都留在你的设备上。</p>
         <div class="pp-tablewrap">
@@ -470,14 +506,24 @@
                 <td>用于绘制作品并送回。照片只在这一次请求期间留在内存里，不会写入我们的任何磁盘。照片离开你的设备之前，位置信息和其他所有 EXIF 元数据都会被移除。</td>
               </tr>
               <tr>
-                <td>一个匿名的安装标识</td>
+                <td>一个账号标识；如果你登录，还有你的 Google 邮箱地址</td>
                 <td>Google Firebase 身份验证与 Firestore</td>
-                <td>用于保存这次安装的积分余额。它是一串随机标识，不关联姓名、邮箱或设备识别码。</td>
+                <td>用于保存你的积分余额。该标识是一串随机字符。如果你选择使用 Google 账号登录，Firebase 还会保存该账号的邮箱地址，以及 Google 提供的显示名称和头像链接（应用本身不会读取这两项），这样你的积分就能跟着你换到新手机上。Firebase 还会分配一个安装标识。</td>
               </tr>
               <tr>
                 <td>设备证明令牌</td>
                 <td>Google Play Integrity，经由 Firebase App Check</td>
                 <td>用于证明请求来自本应用的真实安装，而不是脚本。</td>
+              </tr>
+              <tr>
+                <td>购买积分时的购买信息</td>
+                <td>iDataGear 的 McMuse 服务，该服务会向 Google Play 核实</td>
+                <td>用于确认这笔购买真实有效、发放积分，并确保同一笔购买绝不会被兑换两次。发送的内容是所购商品、Google Play 的购买令牌和订单号。不会发送银行卡号、姓名或账单地址。</td>
+              </tr>
+              <tr>
+                <td>举报作品时的举报内容</td>
+                <td>iDataGear 的 McMuse 服务</td>
+                <td>用于调查不应该被生成的内容。举报包含作品的编号、风格、你选择的理由、你添加的备注以及你的账号标识。它从不包含图片本身。</td>
               </tr>
               <tr>
                 <td>没有任何自动发送</td>
@@ -487,12 +533,12 @@
             </tbody>
           </table>
         </div>
-        <p><strong>我们这边保存了什么。</strong>每次安装一条记录，以应用首次运行时获得的随机标识为键：这次安装还剩多少积分，以及初始积分是否已发放。其中没有姓名、没有邮箱、没有设备识别码，也不附带你创作过什么的记录。它会一直保留，直到你要求我们删除——写信到 idatagear@gmail.com，只需说明要删除即可，我们就会移除这条记录。卸载应用本身不会删除它，因为这条记录里没有任何足以让我们在无人告知的情况下找到它的身份信息。</p>
+        <p><strong>我们这边保存了什么。</strong>每个账号一条记录，以随机标识为键：剩余的积分数，以及初始积分是否已发放。如果你使用 Google 账号登录，Firebase 身份验证还会保存该账号的邮箱地址，以及 Google 提供的显示名称和头像链接（应用不会读取这两项）。每笔购买一条记录：所购商品、发放的积分数、Google Play 的购买令牌和订单号，以及账号标识。每次举报则是上文所列的内容。此外还有服务自身的运行日志，其中记录账号标识、所选风格、作品的尺寸和消耗的积分，以及请求失败或被拒绝的原因——绝不包含照片，也绝不包含作品。这些日志在 Google Cloud 的日志服务中保留一段有限的时间。以上所有内容都不包含你的照片。</p>
         <p>上表之外，凡是你主动发送的内容——通过系统分享面板、导出、打印或剪贴板——都会去到你指定的地方。那是你每一次自己的选择，不在上表的范围内。</p>
         <h2 id="zh-Hans-notdo">应用不会做的事</h2>
         <p>在本政策为现行版本期间：</p>
         <ul>
-          <li>没有注册，没有邮箱，没有密码，也没有个人资料。应用以匿名方式登录，只是为了让积分余额存在，这个标识的用途仅此而已。</li>
+          <li>使用应用不需要账号。使用 Google 账号登录是可选的，其作用是让你的积分能跟着你换到新手机；应用从不索要密码、个人资料或你的姓名。</li>
           <li>我们不会把你的照片或作品保存在服务器上。照片只是经过我们这里被送去绘制，作品直接回到你的设备。</li>
           <li>你的照片不会用于训练我们的任何模型，我们也没有要求 Google 将其用于训练。</li>
           <li>我们不出售你的个人信息，也不会为跨情境行为广告而共享它。</li>
@@ -502,8 +548,12 @@
           <li>应用不录制音频，运行时也不请求麦克风权限。</li>
           <li>应用不读取你的通讯录、日历、短信、通话记录，也不读取其自身存储区以外的文件。</li>
         </ul>
+        <h2 id="zh-Hans-safety">内容安全与举报</h2>
+        <p>McMuse 不会审查你的照片或作品：它们不会保存在我们这边，iDataGear 也没有任何人会看到它们。唯一的筛查由 Google Gemini 服务的安全过滤器完成，我们把它设置为在四个类别——色情露骨、仇恨、骚扰和危险内容——中拦截中等及以上程度的内容。过滤器可能拒绝一张照片，或拒绝由它生成的作品。一旦拒绝，就不会生成作品，原本要消耗的积分也会退还给你。</p>
+        <p>没有任何过滤器是完美的，我们也不能保证它能拦截一切。如果某幅作品令人反感，或本不该被生成，请在应用内举报：打开该作品，选择「举报」，选一个理由——色情内容、暴力或令人不适、仇恨或辱骂、其他问题——如愿意可再添加备注。举报不会附带图片，所以我们能据此还原这幅作品是如何生成的，却看不到作品本身。</p>
+        <p>你可以和不可以用本应用做什么，见下文条款中的合理使用一节。</p>
         <h2 id="zh-Hans-perms">权限，以及每一项的用途</h2>
-        <p>下列每一项权限都只用于所声明的那一个用途，不作他用。在两个平台上，你都可以在系统设置中拒绝或撤回其中任何一项；依赖它的功能会停止工作，应用的其余部分照常运行。</p>
+        <p>下列每一项权限都只用于所声明的那一个用途，不作他用。你可以在设备的设置中拒绝或撤回其中任何一项；依赖它的功能会停止工作，应用的其余部分照常运行。</p>
         <div class="pp-tablewrap">
           <table>
             <thead><tr>
@@ -518,9 +568,19 @@
                 <td>上述网络请求所必需。</td>
               </tr>
               <tr>
-                <td>存储（仅旧版 Android）</td>
+                <td>存储（Android 10 及更早版本）</td>
                 <td>Android</td>
-                <td>在 Android 9 及更早版本上保存文件。在更新的版本上不会请求。</td>
+                <td>在 Android 10 及更早版本上把作品保存到你的相册。在更新的版本上不会请求。</td>
+              </tr>
+              <tr>
+                <td>支付</td>
+                <td>Android</td>
+                <td>通过 Google Play 售出积分包并核实购买。</td>
+              </tr>
+              <tr>
+                <td>网络状态、生物识别与 Google Play 服务</td>
+                <td>Android</td>
+                <td>由应用所依赖的库自动添加——Firebase、Google Play 和 Google 登录。应用本身从不索取你的指纹或面容，也从不使用它们。</td>
               </tr>
               <tr>
                 <td>相机</td>
@@ -534,12 +594,12 @@
               </tr>
               <tr>
                 <td>位置</td>
-                <td>Android 与 iOS</td>
+                <td>Android</td>
                 <td>不请求。</td>
               </tr>
               <tr>
                 <td>麦克风</td>
-                <td>Android 与 iOS</td>
+                <td>Android</td>
                 <td>不请求。</td>
               </tr>
             </tbody>
@@ -547,24 +607,25 @@
         </div>
         <h2 id="zh-Hans-telemetry">使用统计与崩溃报告</h2>
         <p>这个版本的应用不包含任何使用统计 SDK，也不包含任何崩溃上报 SDK。我们收不到它的任何使用数据、崩溃报告或诊断信息。</p>
-        <h2 id="zh-Hans-purchases">订阅与购买</h2>
-        <p>我们不收集任何形式的支付信息。某次安装若有积分，那是由我们自己的服务发放的；应用从不索要银行卡信息，也不会有任何此类信息到达我们这里。</p>
+        <h2 id="zh-Hans-purchases">购买</h2>
+        <p>绘制作品所需的积分在应用内按包购买。购买完全由 Google Play 处理，由它收款并办理任何退款。</p>
+        <p>我们从不会看到你的银行卡号、账单地址或任何其他支付信息。到达我们服务的只有所购商品、Google Play 的购买令牌和订单号，我们把它们保存下来，作为这笔购买的记录。如果 Google Play 退还了某笔购买，我们会收回它所发放的积分。</p>
         <h2 id="zh-Hans-sharing">当你主动分享时</h2>
         <p>分享、导出、打印和复制永远由你发起。当你使用其中任何一项时，应用会把该内容交给你选定的目的地——另一个应用、一位联系人、一个文件夹、一台打印机——此后它的去向由那个目的地决定，不再受本政策约束。</p>
         <h2 id="zh-Hans-retention">数据的保存与删除</h2>
-        <p>应用保存的一切都在你的设备上，因此保存多久由你决定。</p>
-        <p>在应用内删除某一条即可移除它。要一次性清除全部内容，卸载应用即可：操作系统会删除它的私有存储区，上表中的每一项也随之消失。</p>
-        <p>上述记录会在这次安装存续期间一直保留，因为正是它让你剩下的积分成其为剩下的积分。写信到 idatagear@gmail.com，我们会删除它。你的照片不在其中：它们从未被记录在我们这边，所以没有什么可保留，也没有什么可删除。</p>
+        <p>你的作品、标签和设置都保存在你的设备上，所以它们保留多久由你决定。</p>
+        <p>在应用内删除一幅作品，即可把它从 McMuse 中移除。卸载应用会删除应用保存在其私有存储区的全部内容。已经添加到你相册中的副本是独立的文件，会一直留在那里，直到你在相册中删除它们。</p>
+        <p><strong>删除我们保存的内容。</strong>上述记录会在你的账号存续期间一直保留，因为正是它们让你剩下的积分成其为剩下的积分。卸载应用不会删除它们。如果你使用过 Google 账号登录，请用该邮箱写信到 idatagear@gmail.com，我们会删除你的余额、你的账号及其邮箱地址。从未登录过的账号我们无从找到，因为其中没有任何可识别你的信息，里面只有一笔积分余额。<strong>购买记录是例外。</strong>它们是我们的收据，也是防止同一笔购买被兑换两次的依据，所以我们会在法律要求保存交易记录的期限内保留它们。其中只有一个随机标识和 Google Play 的购买令牌，没有姓名，也没有邮箱地址。举报会保留到我们不再需要它们来查找滥用模式为止。你的照片不在其中：它们从未被记录在我们这边，所以没有什么可保留，也没有什么可删除。</p>
         <h2 id="zh-Hans-rights">你的权利</h2>
         <p>根据 GDPR、英国 GDPR、经 CPRA 修订的 CCPA、加拿大 PIPEDA 以及其他地区的同类法律，你对与你有关的个人信息享有权利——知晓持有了什么、获取副本、更正、要求删除，以及反对或限制其使用。</p>
-        <p>对本应用而言，这些权利已经由设计本身满足，而不需要向我们提出申请：数据就在你的设备上，你可以在应用里查看、修改、导出和删除，而我们手上没有副本可供提供、更正或擦除。</p>
+        <p>对于你设备上的数据，这些权利已经由设计本身满足：你可以在应用里查看、修改、导出和删除。对于我们这边保存的记录，请写信到 idatagear@gmail.com，我们会告知你保存了什么，并按你的要求更正或删除，但上文所述的购买记录例外。</p>
         <p>我们不出售个人信息，也不会为了 CPRA 所定义的跨情境行为广告而共享个人信息。因此并不存在需要你选择退出的出售行为。</p>
         <p>如果你仍然认为我们持有与你有关的信息，请写信到 idatagear@gmail.com，我们会答复。你也可以向你所在地的数据保护机构投诉。</p>
         <h2 id="zh-Hans-transfers">跨境传输</h2>
         <p>我们位于加拿大。本政策中提到的第三方服务由总部设在美国的公司运营，并可能在其部署基础设施的任何国家处理数据，所适用的跨境传输保障措施载于它们各自的政策中——就 Google 而言，是欧盟委员会的标准合同条款。</p>
         <h2 id="zh-Hans-children">儿童</h2>
         <p>本应用面向普通受众。它不以 13 岁以下儿童为对象，我们也不会在知情的情况下收集儿童的个人信息。</p>
-        <p>应用没有账号系统，没有消息功能，没有社交功能，也没有任何其他用户可以发布或看到的内容——因此不存在任何途径，让使用应用的儿童把信息透露给我们或他人。</p>
+        <p>应用没有消息功能，没有社交功能，也没有任何其他用户可以发布或看到的内容，而且我们不询问年龄或出生日期。使用 Google 账号登录是可选的。因此不存在任何途径，让使用应用的儿童通过它把信息透露给他人。</p>
         <p>如果你认为有儿童向我们提供了个人信息，请写信到 idatagear@gmail.com，我们会删除它。</p>
         <h2 id="zh-Hans-security">安全</h2>
         <p>应用数据存放在操作系统的应用私有存储区，受设备自身的沙盒保护；在设置了锁屏的设备上，还受全盘加密保护。设置密码、PIN 码或生物识别锁，是你能为保护这些数据所做的最有效的一件事。</p>
@@ -580,21 +641,26 @@
         <p>我们授予你一项个人的、非独占的、不可转让的、可撤销的许可，允许你在自己拥有或控制的设备上，按照平台既定的通常方式，为自己使用本应用。其余权利我们全部保留。</p>
         <p>你不得复制、出售、出租、再许可或再分发本应用，不得对其进行逆向工程或反编译（法律明确允许且不受本条限制的情形除外），不得移除或更改其中的任何声明，也不得利用它来开发竞争产品。</p>
         <h2 id="zh-Hans-t_yourcontent">3. 你创建的内容属于你</h2>
-        <p>你在应用中创建的一切都属于你。我们不主张对它的任何所有权，也不主张任何许可。由于它留在你的设备上，即使我们想使用也无从使用。</p>
-        <p>备份由你自己负责。卸载应用、重置设备，或丢失、更换设备，都会让应用保存的内容消失，而我们手上没有任何副本可供恢复。凡是丢了会心疼的内容，请先导出。</p>
+        <p>在你与我们之间，你在应用中创作的一切都属于你：我们不主张其所有权，也不主张任何许可。因为它保存在你的设备上，即使我们想用也用不了。这些作品由 AI 模型生成，因此你所在地的法律对其中权利的认定，可能与照片或绘画不同，对此我们不作任何承诺。</p>
+        <p>你需要自行备份自己创作的内容。卸载应用、重置设备，或遗失、更换设备，都会删除应用保存的作品，而我们没有任何副本可用于恢复。已经添加到你相册的副本会留在相册中。凡是丢了会让你心疼的内容，请保存或导出。</p>
         <h2 id="zh-Hans-t_acceptable">4. 合理使用</h2>
-        <p>请合法地使用本应用。特别是，不得利用它违反法律或侵害他人权利，不得在录制他人需征得其同意而你并未取得同意的情况下进行录制，不得干扰应用的运行或安全，也不得试图取得你尚未付费的功能、内容或资格。</p>
-        <h2 id="zh-Hans-t_purchases">5. 购买、续订与取消</h2>
-        <p>本节内容不适用于当前版本的应用。如有变化，本页会在变化上线之前更新。</p>
+        <p>请合法、体谅他人地使用本应用。特别是，不得利用它违反法律或侵害他人权利，不得干扰应用的运行或安全，也不得试图取得你尚未付费的积分、功能或内容。</p>
+        <p><strong>你的照片。</strong>只使用你有权使用的照片。不得上传，也不得试图生成以下任何内容：色情露骨的内容；任何涉及儿童的性或剥削性图像（这是绝对禁止的）；血腥暴力、残肢内脏，或意在惊吓、令人不适的内容；仇恨、骚扰或威胁性内容；或宣扬自残、恐怖主义或其他危险、违法行为的内容。</p>
+        <p><strong>其他人。</strong>不得利用他人的照片冒充、欺骗、骚扰或羞辱对方，也不得制作虚假地呈现真人说过或做过某事的图像。在需要对方同意的情况下，不得上传未经其同意的人物照片，也不得上传你无权分享的儿童照片。</p>
+        <p><strong>违反会怎样。</strong>服务的安全过滤器可能拒绝照片或作品，被拒绝的请求所消耗的积分会退还。由于我们不保存你的照片和作品，我们无法自行审查；我们依靠这些过滤器，以及用户在应用内的举报。我们可以暂停或终止任何滥用本服务者的使用权限；在法律允许的范围内，对于因此被终止权限的人，我们没有义务退还其积分。</p>
+        <h2 id="zh-Hans-t_purchases">5. 购买与积分</h2>
+        <p>积分在应用内按包购买，并在生成作品时消耗。每幅作品消耗多少积分取决于你选择的尺寸，并会在你按下按钮之前显示在按钮上。积分归属于你的账号，没有现金价值，不能转让给他人，也不能兑换成现金。</p>
+        <p>如果作品无法生成——服务不可用，或其安全过滤器拒绝了照片或结果——原本要消耗的积分会退还到你的余额中。</p>
+        <p>Google Play 是该交易的收款方。支付、税费和退款由 Google Play 依据其自身的条款和政策办理，而不是由我们办理。如果 Google Play 退还了某笔购买，它所发放的积分会被收回，在之后的购买补足之前，你的余额可能为负。</p>
         <h2 id="zh-Hans-t_accuracy">6. 内容的准确性</h2>
-        <p>应用中的内容仅供学习和参考。语言存在争议、因地而异且始终在变化，词典释义、翻译、注音、发音评分、笔顺和识别出的文字都可能出错。凡是出错会带来实际后果的场合——考试、法律文件、医疗场景或合同——请不要在未经独立核实的情况下依赖其中任何内容。</p>
+        <p>作品由 AI 模型生成。它们可能不是你所预期的样子：人脸、手、文字和细节都可能出错、被改动或被凭空添加，同一张照片两次生成的结果也可能不同。我们不保证作品准确、与任何人神似，或不含任何意外内容。分享作品之前请先看一看，凡是出错会带来实际后果的场合——例如用于身份识别，或用于法律或官方文件——请不要依赖它。</p>
         <h2 id="zh-Hans-t_thirdparty">7. 第三方服务</h2>
         <p>本应用使用上文隐私政策中列出的第三方服务。每一项都受其自身的条款和隐私政策约束，我们无法控制它们，也不对它们的行为负责。应用中指向其他网站的链接仅为方便而提供，不构成任何背书。</p>
         <h2 id="zh-Hans-t_warranty">8. 不提供保证</h2>
         <p>本应用按<strong>现状</strong>和<strong>现有可用状态</strong>提供，不附带任何明示或默示的保证，包括对适销性、特定用途适用性、准确性或不侵权的任何默示保证。我们不保证它不会中断、没有错误、兼容每一台设备，也不保证缺陷都会被修复。</p>
         <p>部分司法管辖区不允许排除默示保证，因此本条的部分内容可能对你不适用；本条也不限制任何依法不得限制的消费者权利。</p>
         <h2 id="zh-Hans-t_liability">9. 责任限制</h2>
-        <p>在法律允许的最大范围内，我们不对间接的、附带的、特殊的、后果性的、惩戒性或惩罚性的损害承担责任，也不对利润损失、数据丢失、录音丢失、路线丢失或进度丢失承担责任，无论其成因为何、基于何种责任理论，即使我们已被告知此类损害可能发生。</p>
+        <p>在法律允许的最大范围内，我们不对间接的、附带的、特殊的、后果性的、惩戒性或惩罚性的损害承担责任，也不对利润损失、数据丢失、作品丢失或机会损失承担责任，无论其成因为何、基于何种责任理论，即使我们已被告知此类损害可能发生。</p>
         <p>在责任无法排除的情形下，我们就因本应用引起的全部索赔所承担的责任总额，以索赔发生前十二个月内你为本应用向我们支付的金额与二十加元两者中的较高者为限。</p>
         <h2 id="zh-Hans-t_termination">10. 变更与终止</h2>
         <p>我们可以随时变更、暂停或停止本应用或其任何部分。我们也可以更新本条款；更新时，本页顶部的日期会随之改变，在此之后继续使用本应用即视为接受更新后的条款。</p>
@@ -613,19 +679,21 @@
         <h2 id="zh-Hant-tldr">一句話版本</h2>
         <div class="pp-tldr">
         <ul>
-          <li>你在 App 中建立的一切都留在你的裝置上。</li>
-          <li>沒有帳號，也不需要註冊。</li>
+          <li>你生成的作品保存在你的裝置上。</li>
+          <li>你選擇的照片會被送去由 Google 的 Gemini 繪製，我們不會保存它。</li>
+          <li>第一幅作品之前會先徵得你的同意，你也可以隨時在「設定」中撤回。</li>
+          <li>使用 Google 帳號登入是選用的。如果你登入，該帳號的電子郵件地址會和你的點數餘額保存在一起，這樣你的點數就能跟著你換到新手機上。</li>
           <li>App 不含使用統計，也不含當機報告。</li>
           <li>我們不出售你的資料，也不會為廣告輪廓而分享它。</li>
-          <li>移除 App 會刪除它儲存過的一切。</li>
+          <li>移除 App 會刪除它儲存在你裝置上的內容。我們為你的點數和購買保存的記錄會一直保留，直到你要求我們刪除。</li>
           <li>本頁第二部分是 App 的使用條款。</li>
         </ul>
         </div>
         <h2 class="pp-part">第一部分 — 隱私權政策</h2>
         <h2 id="zh-Hant-who">我們是誰</h2>
-        <p>McMuse 把你手機裡已有的照片變成一幅作品，共十六種風格可選。繪製由 Google 的 Gemini 影像模型完成；作品回到你的手機，並保存在那裡。支援 Android。</p>
+        <p>McMuse 把你手機裡已有的照片變成一幅作品，風格任你挑選。繪製由 Google 的 Gemini 影像模型完成；作品回到你的手機，並保存在那裡。支援 Android。</p>
         <p>McMuse 由 iDataGear Inc 發行，該公司在加拿大卑詩省註冊成立。本政策中的<strong>我們</strong>即指 iDataGear Inc。</p>
-        <p>沒有需要建立的帳戶，也沒有註冊。McMuse 確實運行著一項自己的服務：它接收你選擇的照片，交付繪製，再把作品送回。它不會把任何照片或作品寫入我們的任何磁碟。我們唯一留存的內容，見下文<em>我們這邊保存了什麼</em>。</p>
+        <p>McMuse 運行著一項自己的服務：它接收你選擇的照片，交付繪製，再把作品送回。它不會把任何照片或作品寫入我們的任何磁碟。使用 App 不需要帳號，使用 Google 帳號登入是選用的。我們這邊保存了什麼，見下文<em>我們這邊保存了什麼</em>。</p>
         <h2 id="zh-Hant-stores">App 在你裝置上儲存了什麼</h2>
         <p>App 會把下列內容寫入你裝置上的 App 專屬儲存區——其他 App 無法讀取的區域。它們會一直留在那裡，直到你自己刪除，或移除 App 為止。</p>
         <div class="pp-tablewrap">
@@ -653,13 +721,14 @@
               </tr>
               <tr>
                 <td>設定</td>
-                <td>語言、主題、音訊和顯示方面的偏好。</td>
+                <td>語言和主題，以及新作品是否同時儲存到你的相簿。</td>
                 <td>只在你的裝置上</td>
               </tr>
             </tbody>
           </table>
         </div>
         <p>這些內容不會上傳給我們。我們讀不到，無法替你找回，也無法交給任何第三方——因為它們從未到達我們這裡。</p>
+        <p><strong>相簿中的副本。</strong>當「設定」裡的<em>作品儲存到相簿</em>處於開啟狀態（預設即為開啟）時，每幅新作品還會同時被加入你裝置的相簿中。這些副本是由相簿保管的一般照片，位於 App 的專屬儲存區之外，因此你允許檢視照片的其他 App 也能看到它們；在 McMuse 裡刪除一幅作品，並不會刪除這些副本。關閉該設定即可停止這樣做。</p>
         <h2 id="zh-Hant-leaves">有什麼會離開你的裝置</h2>
         <p>下面是完整的清單。凡是沒有列出的，都留在你的裝置上。</p>
         <div class="pp-tablewrap">
@@ -676,14 +745,24 @@
                 <td>用於繪製作品並送回。照片只在這一次請求期間留在記憶體中，不會寫入我們的任何磁碟。照片離開你的裝置之前，位置資訊和其他所有 EXIF 中繼資料都會被移除。</td>
               </tr>
               <tr>
-                <td>一個匿名的安裝識別碼</td>
+                <td>一個帳號識別碼；如果你登入，還有你的 Google 電子郵件地址</td>
                 <td>Google Firebase 驗證與 Firestore</td>
-                <td>用於保存這次安裝的點數餘額。它是一串隨機識別碼，不關聯姓名、電子郵件或裝置識別碼。</td>
+                <td>用於保存你的點數餘額。該識別碼是一串隨機字元。如果你選擇使用 Google 帳號登入，Firebase 還會保存該帳號的電子郵件地址，以及 Google 提供的顯示名稱和大頭貼連結（App 本身不會讀取這兩項），這樣你的點數就能跟著你換到新手機上。Firebase 還會分配一個安裝識別碼。</td>
               </tr>
               <tr>
                 <td>裝置證明權杖</td>
                 <td>Google Play Integrity，透過 Firebase App Check</td>
                 <td>用於證明請求來自本應用程式的真實安裝，而不是指令碼。</td>
+              </tr>
+              <tr>
+                <td>購買點數時的購買資訊</td>
+                <td>iDataGear 的 McMuse 服務，該服務會向 Google Play 驗證</td>
+                <td>用於確認這筆購買真實有效、發放點數，並確保同一筆購買絕不會被兌換兩次。傳送的內容是所購商品、Google Play 的購買權杖和訂單編號。不會傳送信用卡號、姓名或帳單地址。</td>
+              </tr>
+              <tr>
+                <td>檢舉作品時的檢舉內容</td>
+                <td>iDataGear 的 McMuse 服務</td>
+                <td>用於調查不應該被生成的內容。檢舉包含作品的編號、風格、你選擇的理由、你加入的備註以及你的帳號識別碼。它從不包含圖片本身。</td>
               </tr>
               <tr>
                 <td>沒有任何自動傳送</td>
@@ -693,12 +772,12 @@
             </tbody>
           </table>
         </div>
-        <p><strong>我們這邊保存了什麼。</strong>每次安裝一筆記錄，以應用程式首次執行時取得的隨機識別碼為鍵：這次安裝還剩多少點數，以及起始點數是否已發放。其中沒有姓名、沒有電子郵件、沒有裝置識別碼，也不附帶你創作過什麼的記錄。它會一直保留，直到你要求我們刪除——來信至 idatagear@gmail.com，只需說明要刪除即可，我們就會移除這筆記錄。解除安裝應用程式本身不會刪除它，因為這筆記錄裡沒有任何足以讓我們在無人告知的情況下找到它的身分資訊。</p>
+        <p><strong>我們這邊保存了什麼。</strong>每個帳號一筆記錄，以隨機識別碼為鍵：剩餘的點數，以及起始點數是否已發放。如果你使用 Google 帳號登入，Firebase 驗證還會保存該帳號的電子郵件地址，以及 Google 提供的顯示名稱和大頭貼連結（App 不會讀取這兩項）。每筆購買一筆記錄：所購商品、發放的點數、Google Play 的購買權杖和訂單編號，以及帳號識別碼。每次檢舉則是上文所列的內容。此外還有服務自身的運作記錄檔，其中記載帳號識別碼、所選風格、作品的尺寸和消耗的點數，以及請求失敗或被拒絕的原因——絕不包含照片，也絕不包含作品。這些記錄檔在 Google Cloud 的記錄服務中保留一段有限的時間。以上所有內容都不包含你的照片。</p>
         <p>上表之外，凡是你主動送出的內容——透過系統分享面板、匯出、列印或剪貼簿——都會到你指定的地方。那是你每一次自己的選擇，不在上表的範圍內。</p>
         <h2 id="zh-Hant-notdo">App 不會做的事</h2>
         <p>在本政策為現行版本期間：</p>
         <ul>
-          <li>沒有註冊，沒有電子郵件，沒有密碼，也沒有個人檔案。應用程式以匿名方式登入，只是為了讓點數餘額存在，這個識別碼的用途僅此而已。</li>
+          <li>使用 App 不需要帳號。使用 Google 帳號登入是選用的，其作用是讓你的點數能跟著你換到新手機；App 從不索取密碼、個人檔案或你的姓名。</li>
           <li>我們不會把你的照片或作品保存在伺服器上。照片只是經過我們這裡被送去繪製，作品直接回到你的裝置。</li>
           <li>你的照片不會用於訓練我們的任何模型，我們也沒有要求 Google 將其用於訓練。</li>
           <li>我們不出售你的個人資料，也不會為跨情境行為廣告而分享它。</li>
@@ -708,8 +787,12 @@
           <li>App 不錄製音訊，執行階段也不要求麥克風權限。</li>
           <li>App 不讀取你的通訊錄、行事曆、簡訊、通話記錄，也不讀取其專屬儲存區以外的檔案。</li>
         </ul>
+        <h2 id="zh-Hant-safety">內容安全與檢舉</h2>
+        <p>McMuse 不會審查你的照片或作品：它們不會保存在我們這邊，iDataGear 也沒有任何人會看到它們。唯一的篩查由 Google Gemini 服務的安全過濾器完成，我們把它設定為在四個類別——色情露骨、仇恨、騷擾和危險內容——中攔截中等及以上程度的內容。過濾器可能拒絕一張照片，或拒絕由它生成的作品。一旦拒絕，就不會生成作品，原本要消耗的點數也會退還給你。</p>
+        <p>沒有任何過濾器是完美的，我們也不能保證它能攔截一切。如果某幅作品令人反感，或本不該被生成，請在 App 內檢舉：開啟該作品，選擇「檢舉」，選一個理由——色情內容、暴力或令人不適、仇恨或辱罵、其他問題——如願意可再加入備註。檢舉不會附帶圖片，所以我們能據此還原這幅作品是如何生成的，卻看不到作品本身。</p>
+        <p>你可以和不可以用本 App 做什麼，見下文條款中的合理使用一節。</p>
         <h2 id="zh-Hant-perms">權限，以及每一項的用途</h2>
-        <p>下列每一項權限都只用於所聲明的那一個用途，不作他用。在兩個平台上，你都可以在系統設定中拒絕或撤回其中任何一項；依賴它的功能會停止運作，App 的其餘部分照常運行。</p>
+        <p>下列每一項權限都只用於所聲明的那一個用途，不作他用。你可以在裝置的設定中拒絕或撤回其中任何一項；依賴它的功能會停止運作，App 的其餘部分照常運行。</p>
         <div class="pp-tablewrap">
           <table>
             <thead><tr>
@@ -724,9 +807,19 @@
                 <td>上述網路請求所必需。</td>
               </tr>
               <tr>
-                <td>儲存空間（僅舊版 Android）</td>
+                <td>儲存空間（Android 10 及更早版本）</td>
                 <td>Android</td>
-                <td>在 Android 9 及更早版本上儲存檔案。在更新的版本上不會要求。</td>
+                <td>在 Android 10 及更早版本上把作品儲存到你的相簿。在更新的版本上不會要求。</td>
+              </tr>
+              <tr>
+                <td>付款</td>
+                <td>Android</td>
+                <td>透過 Google Play 售出點數包並驗證購買。</td>
+              </tr>
+              <tr>
+                <td>網路狀態、生物辨識與 Google Play 服務</td>
+                <td>Android</td>
+                <td>由 App 所依賴的程式庫自動加入——Firebase、Google Play 和 Google 登入。App 本身從不索取你的指紋或臉部，也從不使用它們。</td>
               </tr>
               <tr>
                 <td>相機</td>
@@ -740,12 +833,12 @@
               </tr>
               <tr>
                 <td>位置</td>
-                <td>Android 與 iOS</td>
+                <td>Android</td>
                 <td>不要求。</td>
               </tr>
               <tr>
                 <td>麥克風</td>
-                <td>Android 與 iOS</td>
+                <td>Android</td>
                 <td>不要求。</td>
               </tr>
             </tbody>
@@ -753,24 +846,25 @@
         </div>
         <h2 id="zh-Hant-telemetry">使用統計與當機報告</h2>
         <p>這個版本的 App 不含任何使用統計 SDK，也不含任何當機回報 SDK。我們收不到它的任何使用資料、當機報告或診斷資訊。</p>
-        <h2 id="zh-Hant-purchases">訂閱與購買</h2>
-        <p>我們不收集任何形式的付款資訊。某次安裝若有點數，那是由我們自己的服務發放的；應用程式從不索取信用卡資訊，也不會有任何此類資訊到達我們這裡。</p>
+        <h2 id="zh-Hant-purchases">購買</h2>
+        <p>繪製作品所需的點數在 App 內按包購買。購買完全由 Google Play 處理，由它收款並辦理任何退款。</p>
+        <p>我們從不會看到你的信用卡號、帳單地址或任何其他付款資訊。到達我們服務的只有所購商品、Google Play 的購買權杖和訂單編號，我們把它們保存下來，作為這筆購買的記錄。如果 Google Play 退還了某筆購買，我們會收回它所發放的點數。</p>
         <h2 id="zh-Hant-sharing">當你主動分享時</h2>
         <p>分享、匯出、列印和複製永遠由你發起。當你使用其中任何一項時，App 會把該內容交給你選定的目的地——另一個 App、一位聯絡人、一個資料夾、一台印表機——此後它的去向由那個目的地決定，不再受本政策拘束。</p>
         <h2 id="zh-Hant-retention">資料的保存與刪除</h2>
-        <p>App 儲存的一切都在你的裝置上，因此要留多久由你決定。</p>
-        <p>在 App 內刪除某一筆即可移除它。要一次清除全部內容，移除 App 即可：作業系統會刪除它的專屬儲存區，上表中的每一項也隨之消失。</p>
-        <p>上述記錄會在這次安裝存續期間一直保留，因為正是它讓你剩下的點數成其為剩下的點數。來信至 idatagear@gmail.com，我們會刪除它。你的照片不在其中：它們從未被記錄在我們這邊，所以沒有什麼可保留，也沒有什麼可刪除。</p>
+        <p>你的作品、標籤和設定都儲存在你的裝置上，所以它們保留多久由你決定。</p>
+        <p>在 App 內刪除一幅作品，即可把它從 McMuse 中移除。移除 App 會刪除 App 儲存在其專屬儲存區的全部內容。已經加入你相簿中的副本是獨立的檔案，會一直留在那裡，直到你在相簿中刪除它們。</p>
+        <p><strong>刪除我們保存的內容。</strong>上述記錄會在你的帳號存續期間一直保留，因為正是它們讓你剩下的點數成其為剩下的點數。移除 App 不會刪除它們。如果你使用過 Google 帳號登入，請用該電子郵件地址來信至 idatagear@gmail.com，我們會刪除你的餘額、你的帳號及其電子郵件地址。從未登入過的帳號我們無從找到，因為其中沒有任何可識別你的資訊，裡面只有一筆點數餘額。<strong>購買記錄是例外。</strong>它們是我們的收據，也是防止同一筆購買被兌換兩次的依據，所以我們會在法律要求保存交易記錄的期限內保留它們。其中只有一個隨機識別碼和 Google Play 的購買權杖，沒有姓名，也沒有電子郵件地址。檢舉會保留到我們不再需要它們來查找濫用模式為止。你的照片不在其中：它們從未被記錄在我們這邊，所以沒有什麼可保留，也沒有什麼可刪除。</p>
         <h2 id="zh-Hant-rights">你的權利</h2>
         <p>依據 GDPR、英國 GDPR、經 CPRA 修訂的 CCPA、加拿大 PIPEDA 以及其他地區的同類法律，你對與你有關的個人資料享有權利——知悉持有了什麼、取得副本、更正、要求刪除，以及反對或限制其利用。</p>
-        <p>對本 App 而言，這些權利已經由設計本身滿足，而不需要向我們提出申請：資料就在你的裝置上，你可以在 App 裡檢視、修改、匯出和刪除，而我們手上沒有副本可供提供、更正或清除。</p>
+        <p>對於你裝置上的資料，這些權利已經由設計本身滿足：你可以在 App 裡檢視、修改、匯出和刪除。對於我們這邊保存的記錄，請來信至 idatagear@gmail.com，我們會告知你保存了什麼，並依你的要求更正或刪除，但上文所述的購買記錄例外。</p>
         <p>我們不出售個人資料，也不會為了 CPRA 所定義的跨情境行為廣告而分享個人資料。因此並不存在需要你選擇退出的出售行為。</p>
         <p>如果你仍然認為我們持有與你有關的資料，請來信 idatagear@gmail.com，我們會答覆。你也可以向你所在地的資料保護主管機關申訴。</p>
         <h2 id="zh-Hant-transfers">跨境傳輸</h2>
         <p>我們位於加拿大。本政策中提到的第三方服務由總部設在美國的公司營運，並可能在其部署基礎設施的任何國家處理資料，所適用的跨境傳輸保障措施載於它們各自的政策中——就 Google 而言，是歐盟執委會的標準契約條款。</p>
         <h2 id="zh-Hant-children">兒童</h2>
         <p>本 App 面向一般大眾。它不以 13 歲以下兒童為對象，我們也不會在知情的情況下蒐集兒童的個人資料。</p>
-        <p>App 沒有帳號系統，沒有訊息功能，沒有社群功能，也沒有任何其他使用者可以張貼或看到的內容——因此不存在任何途徑，讓使用 App 的兒童把資料透露給我們或他人。</p>
+        <p>App 沒有訊息功能，沒有社群功能，也沒有任何其他使用者可以張貼或看到的內容，而且我們不詢問年齡或出生日期。使用 Google 帳號登入是選用的。因此不存在任何途徑，讓使用 App 的兒童透過它把資料透露給他人。</p>
         <p>如果你認為有兒童向我們提供了個人資料，請來信 idatagear@gmail.com，我們會刪除它。</p>
         <h2 id="zh-Hant-security">安全</h2>
         <p>App 資料存放在作業系統的 App 專屬儲存區，受裝置自身的沙箱保護；在設定了螢幕鎖定的裝置上，還受全機加密保護。設定密碼、PIN 碼或生物辨識鎖定，是你能為保護這些資料所做的最有效的一件事。</p>
@@ -786,21 +880,26 @@
         <p>我們授予你一項個人的、非專屬的、不可轉讓的、可撤回的授權，允許你在自己擁有或控制的裝置上，依照平台既定的通常方式，為自己使用本 App。其餘權利我們全部保留。</p>
         <p>你不得重製、出售、出租、再授權或再散布本 App，不得對其進行還原工程或反編譯（法律明文允許且不受本條限制的情形除外），不得移除或變更其中的任何聲明，也不得利用它來開發競爭產品。</p>
         <h2 id="zh-Hant-t_yourcontent">3. 你建立的內容屬於你</h2>
-        <p>你在 App 中建立的一切都屬於你。我們不主張對它的任何所有權，也不主張任何授權。由於它留在你的裝置上，即使我們想使用也無從使用。</p>
-        <p>備份由你自己負責。移除 App、重設裝置，或遺失、更換裝置，都會讓 App 儲存的內容消失，而我們手上沒有任何副本可供還原。凡是丟了會心疼的內容，請先匯出。</p>
+        <p>在你與我們之間，你在 App 中創作的一切都屬於你：我們不主張其所有權，也不主張任何授權。因為它儲存在你的裝置上，即使我們想用也用不了。這些作品由 AI 模型生成，因此你所在地的法律對其中權利的認定，可能與照片或繪畫不同，對此我們不作任何承諾。</p>
+        <p>你需要自行備份自己創作的內容。移除 App、重設裝置，或遺失、更換裝置，都會刪除 App 儲存的作品，而我們沒有任何副本可用於還原。已經加入你相簿的副本會留在相簿中。凡是丟了會讓你心疼的內容，請儲存或匯出。</p>
         <h2 id="zh-Hant-t_acceptable">4. 合理使用</h2>
-        <p>請合法地使用本 App。特別是，不得利用它違反法律或侵害他人權利，不得在錄製他人需徵得其同意而你並未取得同意的情況下進行錄製，不得干擾 App 的運作或安全，也不得試圖取得你尚未付費的功能、內容或資格。</p>
-        <h2 id="zh-Hant-t_purchases">5. 購買、續訂與取消</h2>
-        <p>本節內容不適用於目前版本的應用程式。如有變動，本頁會在變動上線之前更新。</p>
+        <p>請合法、體諒他人地使用本 App。特別是，不得利用它違反法律或侵害他人權利，不得干擾 App 的運作或安全，也不得試圖取得你尚未付費的點數、功能或內容。</p>
+        <p><strong>你的照片。</strong>只使用你有權使用的照片。不得上傳，也不得試圖生成以下任何內容：色情露骨的內容；任何涉及兒童的性或剝削性影像（這是絕對禁止的）；血腥暴力、殘肢內臟，或意在驚嚇、令人不適的內容；仇恨、騷擾或威脅性內容；或宣揚自殘、恐怖主義或其他危險、違法行為的內容。</p>
+        <p><strong>其他人。</strong>不得利用他人的照片冒充、欺騙、騷擾或羞辱對方，也不得製作虛假地呈現真人說過或做過某事的影像。在需要對方同意的情況下，不得上傳未經其同意的人物照片，也不得上傳你無權分享的兒童照片。</p>
+        <p><strong>違反會怎樣。</strong>服務的安全過濾器可能拒絕照片或作品，被拒絕的請求所消耗的點數會退還。由於我們不保存你的照片和作品，我們無法自行審查；我們依靠這些過濾器，以及使用者在 App 內的檢舉。我們可以暫停或終止任何濫用本服務者的使用權限；在法律允許的範圍內，對於因此被終止權限的人，我們沒有義務退還其點數。</p>
+        <h2 id="zh-Hant-t_purchases">5. 購買與點數</h2>
+        <p>點數在 App 內按包購買，並在生成作品時消耗。每幅作品消耗多少點數取決於你選擇的尺寸，並會在你按下按鈕之前顯示在按鈕上。點數歸屬於你的帳號，沒有現金價值，不能轉讓給他人，也不能兌換成現金。</p>
+        <p>如果作品無法生成——服務無法使用，或其安全過濾器拒絕了照片或結果——原本要消耗的點數會退還到你的餘額中。</p>
+        <p>Google Play 是該筆交易的收款方。付款、稅費和退款由 Google Play 依其自身的條款和政策辦理，而不是由我們辦理。如果 Google Play 退還了某筆購買，它所發放的點數會被收回，在之後的購買補足之前，你的餘額可能為負。</p>
         <h2 id="zh-Hant-t_accuracy">6. 內容的正確性</h2>
-        <p>App 中的內容僅供學習和參考。語言存在爭議、因地而異且始終在變化，辭典釋義、翻譯、拼音標註、發音評分、筆順和辨識出的文字都可能出錯。凡是出錯會帶來實際後果的場合——考試、法律文件、醫療場景或契約——請不要在未經獨立查證的情況下依賴其中任何內容。</p>
+        <p>作品由 AI 模型生成。它們可能不是你所預期的樣子：人臉、手、文字和細節都可能出錯、被改動或被憑空添加，同一張照片兩次生成的結果也可能不同。我們不保證作品準確、與任何人神似，或不含任何意外內容。分享作品之前請先看一看，凡是出錯會帶來實際後果的場合——例如用於身分辨識，或用於法律或官方文件——請不要依賴它。</p>
         <h2 id="zh-Hant-t_thirdparty">7. 第三方服務</h2>
         <p>本 App 使用上文隱私權政策中列出的第三方服務。每一項都受其自身的條款和隱私權政策拘束，我們無法控制它們，也不對它們的行為負責。App 中指向其他網站的連結僅為方便而提供，不構成任何背書。</p>
         <h2 id="zh-Hant-t_warranty">8. 不提供擔保</h2>
         <p>本 App 按<strong>現狀</strong>和<strong>現有可用狀態</strong>提供，不附帶任何明示或默示的擔保，包括對可售性、特定用途適用性、正確性或不侵權的任何默示擔保。我們不保證它不會中斷、沒有錯誤、相容於每一台裝置，也不保證瑕疵都會被修復。</p>
         <p>部分司法管轄區不允許排除默示擔保，因此本條的部分內容可能對你不適用；本條也不限制任何依法不得限制的消費者權利。</p>
         <h2 id="zh-Hant-t_liability">9. 責任限制</h2>
-        <p>在法律允許的最大範圍內，我們不對間接的、附隨的、特殊的、衍生的、懲戒性或懲罰性的損害負責，也不對利潤損失、資料遺失、錄音遺失、路線遺失或進度遺失負責，無論其成因為何、基於何種責任理論，即使我們已被告知此類損害可能發生。</p>
+        <p>在法律允許的最大範圍內，我們不對間接的、附隨的、特殊的、衍生的、懲戒性或懲罰性的損害負責，也不對利潤損失、資料遺失、作品遺失或機會損失負責，無論其成因為何、基於何種責任理論，即使我們已被告知此類損害可能發生。</p>
         <p>在責任無法排除的情形下，我們就因本 App 引起的全部請求所承擔的責任總額，以請求發生前十二個月內你為本 App 向我們支付的金額與二十加元兩者中的較高者為限。</p>
         <h2 id="zh-Hant-t_termination">10. 變更與終止</h2>
         <p>我們可以隨時變更、暫停或終止本 App 或其任何部分。我們也可以更新本條款；更新時，本頁頂端的日期會隨之改變，在此之後繼續使用本 App 即視為接受更新後的條款。</p>

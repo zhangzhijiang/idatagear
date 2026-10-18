@@ -264,7 +264,7 @@
         <p>iDataGear Inc شركة مؤسَّسة في كولومبيا البريطانية بكندا، وهي التي تصدر التطبيقات المذكورة أعلاه وموقع https://www.idatagear.com. وحين تقول هذه الصفحة <strong>نحن</strong> فالمقصود iDataGear Inc.</p>
         <p>لا يوجد حساب تُنشئه ولا تسجيل تقوم به. ولا نشغّل خادمًا يستقبل محتواك، ولا نحتفظ بأي قاعدة بيانات تَرِد فيها.</p>
         <h2 id="ar-mcmuse">McMuse</h2>
-        <p>يحوّل McMuse صورة تملكها بالفعل إلى عمل فني، بواحد من ستة عشر أسلوباً. ويتولى نموذج الصور Gemini من Google إنتاج العمل، ثم يعود العمل إلى هاتفك ويُحفظ فيه. يعمل التطبيق على Android.</p>
+        <p>يحوّل McMuse صورة تملكها بالفعل إلى عمل فني، بالأسلوب الفني الذي تختاره. ويتولى نموذج الصور Gemini من Google إنتاج العمل، ثم يعود العمل إلى هاتفك ويُحفظ فيه. يعمل التطبيق على Android.</p>
         <h3 id="ar-mcmuse-stores">ما يحفظه التطبيق على جهازك</h3>
         <p>يكتب التطبيق ما يلي في مساحة التخزين الخاصة به على جهازك — وهي منطقة لا تستطيع التطبيقات الأخرى قراءتها. ويبقى ذلك هناك إلى أن تحذفه أنت أو تزيل التطبيق.</p>
         <div class="pp-tablewrap">
@@ -291,14 +291,15 @@
                 <td>على جهازك وحده</td>
               </tr>
               <tr>
-                <td>الإعدادات</td>
-                <td>تفضيلات اللغة والمظهر والصوت والعرض.</td>
+                <td>Settings</td>
+                <td>Language and theme, and whether new artworks are also added to your photo library.</td>
                 <td>على جهازك وحده</td>
               </tr>
             </tbody>
           </table>
         </div>
         <p>لا يُرفع أي من ذلك إلينا. فلا نستطيع قراءته، ولا استعادته لك، ولا تسليمه لأي جهة، لأنه ببساطة لا يصلنا أصلًا.</p>
+        <p><strong>Copies in your photo library.</strong> When <em>Save artwork to Photos</em> is on in Settings, which it is by default, each new artwork is also added to your device's photo library. Those copies are ordinary photos kept by your photo library, outside the app's private storage, so other apps you have allowed to see your photos can see them, and deleting an artwork in McMuse does not delete them. Turn the setting off to stop it.</p>
         <h3 id="ar-mcmuse-leaves">ما يغادر جهازك</h3>
         <p>هذه هي القائمة كاملة. وكل ما لم يُذكر فيها يبقى على جهازك.</p>
         <div class="pp-tablewrap">
@@ -315,14 +316,24 @@
                 <td>لإنتاج العمل الفني وإعادته. تُحفظ الصورة طوال مدة الطلب فقط ولا تُكتب على أي قرص لدينا. تُزال بيانات الموقع وسائر وسوم EXIF قبل أن تغادر الصورة جهازك.</td>
               </tr>
               <tr>
-                <td>معرّف تثبيت مجهول</td>
-                <td>خدمتا Google Firebase للمصادقة وFirestore</td>
-                <td>للاحتفاظ برصيد النقاط لهذا التثبيت. وهو معرّف عشوائي لا يرتبط باسم أو بريد إلكتروني أو معرّف جهاز.</td>
+                <td>An account identifier, and your Google email address if you sign in</td>
+                <td>Google Firebase Authentication and Firestore</td>
+                <td>To hold your credit balance. The identifier is random. If you choose to sign in with Google, Firebase also keeps that account's email address, plus the display name and profile-photo link Google supplies, which the app does not read, so your credits can follow you to a new phone. Firebase also assigns an installation identifier.</td>
               </tr>
               <tr>
                 <td>رمز إثبات الجهاز</td>
                 <td>Google Play Integrity عبر Firebase App Check</td>
                 <td>لإثبات أن الطلب صادر عن تثبيت حقيقي لهذا التطبيق وليس عن برنامج نصي.</td>
+              </tr>
+              <tr>
+                <td>The purchase details, when you buy credits</td>
+                <td>iDataGear's McMuse service, which checks them with Google Play</td>
+                <td>To confirm the purchase is genuine, add the credits, and make sure one purchase can never be redeemed twice. What is sent is the product, Google Play's purchase token and its order number. No card number, name or billing address is sent.</td>
+              </tr>
+              <tr>
+                <td>A report, when you flag an artwork</td>
+                <td>iDataGear's McMuse service</td>
+                <td>To look into content that should not have been made. A report carries the artwork's reference, the style, the reason you chose, any note you add, and your account identifier. It never carries the picture.</td>
               </tr>
               <tr>
                 <td>لا شيء تلقائي</td>
@@ -332,12 +343,12 @@
             </tbody>
           </table>
         </div>
-        <p><strong>ما نحتفظ به لدينا.</strong> سجل واحد لكل تثبيت، تحت معرّف عشوائي يحصل عليه التطبيق عند تشغيله أول مرة: عدد النقاط المتبقية لذلك التثبيت، وما إذا كانت نقاط البداية قد مُنحت. ولا يرتبط به اسم ولا بريد إلكتروني ولا معرّف جهاز ولا سجل لما أنشأته. ويُحتفظ به إلى أن تطلب إزالته — راسلنا على idatagear@gmail.com بطلب الحذف فحسب، وسنزيل السجل. وإلغاء تثبيت التطبيق لا يحذفه من تلقاء نفسه، لأن السجل لا يتضمن ما يعرّفك بما يكفي لنعثر عليه من دون أن تخبرنا.</p>
+        <p><strong>What we hold on our side.</strong> For each account, a record under a random identifier: the credits remaining, and whether starter credits were granted. If you sign in with Google, Firebase Authentication also holds that account's email address, and the display name and profile-photo link Google supplies, which the app does not read. For each purchase, a record of the product, the credits granted, Google Play's purchase token and order number, and the account identifier. For each report, what is listed above. And the service's own operating logs, which note the account identifier, the style chosen, the size and cost of an artwork, and why a request failed or was refused — never the photo and never the artwork. Those logs are kept for a limited period in Google Cloud's logging service. None of it includes your photos.</p>
         <p>بمعزل عن الجدول أعلاه، فإن كل ما ترسله أنت عن قصد — عبر قائمة المشاركة في النظام، أو التصدير، أو الطباعة، أو الحافظة — يذهب إلى حيث أرسلته. وذلك اختيارك في كل مرة، وهو خارج نطاق الجدول.</p>
         <h3 id="ar-mcmuse-notdo">ما لا يفعله التطبيق</h3>
         <p>ما دامت هذه السياسة هي النسخة السارية:</p>
         <ul>
-          <li>لا يوجد تسجيل ولا بريد إلكتروني ولا كلمة مرور ولا ملف شخصي. يسجّل التطبيق الدخول بصورة مجهولة لكي يتسنى وجود رصيد من النقاط، وهذا هو كل ما يُستخدم فيه ذلك المعرّف.</li>
+          <li>You do not need an account to use the app. Signing in with Google is optional and exists so your credits can follow you to a new phone; the app never asks for a password, a profile or your name.</li>
           <li>لا نخزّن صورتك ولا عملك الفني على أي خادم. تمرّ الصورة لتُحوَّل إلى عمل فني، ويعود العمل مباشرة إلى جهازك.</li>
           <li>لا تُستخدم صورك في تدريب أي نموذج لدينا، ولا نطلب من Google استخدامها لأغراض التدريب.</li>
           <li>لا نبيع معلوماتك الشخصية ولا نشاركها لأغراض الإعلانات السلوكية عبر السياقات.</li>
@@ -347,8 +358,12 @@
           <li>لا يسجّل التطبيق صوتًا ولا يطلب إذن الميكروفون أثناء التشغيل.</li>
           <li>لا يقرأ التطبيق جهات اتصالك ولا تقويمك ولا رسائلك ولا سجل مكالماتك، ولا ملفات خارج مساحته الخاصة.</li>
         </ul>
+        <h3 id="ar-mcmuse-safety">Content safety and reporting</h3>
+        <p>McMuse does not review your photos or your artworks: they are not kept on our side, and nobody at iDataGear sees them. The only screening is done by the safety filters of Google's Gemini service, which we set to block content at a medium level of concern or above in four categories — sexually explicit, hateful, harassing and dangerous content. A filter can refuse a photo, or the artwork made from it. When it does, no artwork is made and the credits it would have cost are returned to you.</p>
+        <p>No filter is perfect, and we cannot promise that it catches everything. If an artwork is offensive or should not have been made, report it from inside the app: open the artwork, choose Report, pick a reason — sexual content, violent or disturbing, hateful or abusive, or something else — and add a note if you wish. The report is sent without the picture, so it lets us reproduce how the artwork was made but does not show us the artwork itself.</p>
+        <p>What you may and may not do with the app is set out in the acceptable-use section of the terms below.</p>
         <h3 id="ar-mcmuse-perms">الأذونات، وسبب طلب كل منها</h3>
-        <p>كل إذن أدناه يُطلب لغرض واحد معلن ولا يُستعمل في سواه. وفي المنصّتين كلتيهما يمكنك رفضه أو سحبه من إعدادات النظام؛ عندها تتوقف الميزات المعتمدة عليه، ويواصل بقية التطبيق عمله.</p>
+        <p>Each permission below is requested for one stated purpose and used for nothing else. You can refuse or withdraw any of them in your device's settings; the features that depend on them stop working, and the rest of the app carries on.</p>
         <div class="pp-tablewrap">
           <table>
             <thead><tr>
@@ -363,9 +378,19 @@
                 <td>لازم للطلبات الشبكية المذكورة أعلاه.</td>
               </tr>
               <tr>
-                <td>التخزين (إصدارات أندرويد القديمة فقط)</td>
-                <td>أندرويد</td>
-                <td>لحفظ الملفات على أندرويد ٩ وما قبله. ولا يُطلب في الإصدارات الأحدث.</td>
+                <td>Storage (Android 10 and earlier)</td>
+                <td>Android</td>
+                <td>Saving artworks to your photo library on Android 10 and earlier. Not requested on newer versions.</td>
+              </tr>
+              <tr>
+                <td>Billing</td>
+                <td>Android</td>
+                <td>To sell credit packs and check purchases through Google Play.</td>
+              </tr>
+              <tr>
+                <td>Network state, biometric and Google Play services</td>
+                <td>Android</td>
+                <td>Added automatically by libraries the app is built with — Firebase, Google Play and Google sign-in. The app itself never asks for your fingerprint or face and never uses them.</td>
               </tr>
               <tr>
                 <td>الكاميرا</td>
@@ -378,22 +403,23 @@
                 <td>غير مطلوب. اختيار صورة يتم عبر منتقي الصور في Android، الذي لا يسلّم سوى العنصر الذي تختاره.</td>
               </tr>
               <tr>
-                <td>الموقع</td>
-                <td>أندرويد و iOS</td>
-                <td>غير مطلوب.</td>
+                <td>Location</td>
+                <td>Android</td>
+                <td>Not requested.</td>
               </tr>
               <tr>
-                <td>الميكروفون</td>
-                <td>أندرويد و iOS</td>
-                <td>غير مطلوب.</td>
+                <td>Microphone</td>
+                <td>Android</td>
+                <td>Not requested.</td>
               </tr>
             </tbody>
           </table>
         </div>
         <h3 id="ar-mcmuse-telemetry">إحصاءات الاستخدام وتقارير الأعطال</h3>
         <p>لا تتضمن هذه النسخة من التطبيق أي حزمة إحصاءات ولا أي حزمة للإبلاغ عن الأعطال. فلا تصلنا منها أي بيانات استخدام ولا تقارير أعطال ولا بيانات تشخيصية.</p>
-        <h3 id="ar-mcmuse-purchases">الاشتراكات والمشتريات</h3>
-        <p>لا نجمع أي معلومات دفع من أي نوع. وإذا كان لدى تثبيت ما رصيد من النقاط فقد منحته خدمتنا نفسها؛ ولا يطلب التطبيق بيانات بطاقة قط، ولا يصلنا منها شيء.</p>
+        <h3 id="ar-mcmuse-purchases">Purchases</h3>
+        <p>Credits for making artworks are bought inside the app, in packs. The purchase is handled entirely by Google Play, which takes the payment and issues any refund.</p>
+        <p>We never see your card number, billing address or any other payment detail. What reaches our service is the product bought, Google Play's purchase token and its order number, which we keep as the record of the purchase. If Google Play refunds a purchase, we take back the credits it granted.</p>
         <h2 id="ar-learncantonese">Learn Cantonese</h2>
         <p>يعلّم Learn Cantonese الكانتونية محادثةً وكتابةً عبر دروس وقاموس للعامية الهونغ‌كونغية وتمارين نطق تؤديها بصوت مسموع. ويعمل على iPhone و iPad و Mac وأندرويد. ويبقى تقدّمك على الجهاز الذي تستعمله.</p>
         <h3 id="ar-learncantonese-stores">ما يحفظه التطبيق على جهازك</h3>

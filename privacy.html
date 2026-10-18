@@ -264,7 +264,7 @@
         <p>iDataGear Inc is a company incorporated in British Columbia, Canada. It publishes the apps listed above and the website at https://www.idatagear.com. Where this page says <strong>we</strong> or <strong>us</strong>, it means iDataGear Inc.</p>
         <p>There is no account to create and no sign-up. We do not operate a server that receives your content, and we hold no database in which you have a record.</p>
         <h2 id="en-mcmuse">McMuse</h2>
-        <p>McMuse turns a photo you already have into a piece of art, in one of sixteen styles. The rendering is done by Google's Gemini image model; the artwork comes back to your phone and is kept there. It runs on Android.</p>
+        <p>McMuse turns a photo you already have into a piece of art, in the art style you choose. The rendering is done by Google's Gemini image model; the artwork comes back to your phone and is kept there. It runs on Android.</p>
         <h3 id="en-mcmuse-stores">What the app keeps on your device</h3>
         <p>The app writes the following to private storage on your device — an area other apps cannot read. It stays there until you delete it or uninstall the app.</p>
         <div class="pp-tablewrap">
@@ -292,13 +292,14 @@
               </tr>
               <tr>
                 <td>Settings</td>
-                <td>Language, theme, audio and display preferences.</td>
+                <td>Language and theme, and whether new artworks are also added to your photo library.</td>
                 <td>Your device only</td>
               </tr>
             </tbody>
           </table>
         </div>
         <p>None of this is uploaded to us. We cannot read it, cannot recover it for you, and are not able to hand it to anyone else, because it never reaches us.</p>
+        <p><strong>Copies in your photo library.</strong> When <em>Save artwork to Photos</em> is on in Settings, which it is by default, each new artwork is also added to your device's photo library. Those copies are ordinary photos kept by your photo library, outside the app's private storage, so other apps you have allowed to see your photos can see them, and deleting an artwork in McMuse does not delete them. Turn the setting off to stop it.</p>
         <h3 id="en-mcmuse-leaves">What leaves your device</h3>
         <p>This is the complete list. Everything not named here stays on your device.</p>
         <div class="pp-tablewrap">
@@ -315,14 +316,24 @@
                 <td>To render the artwork and send it back. The photo is held only for the length of the request and is written to no disk of ours. Location and every other EXIF tag is removed before the photo leaves your device.</td>
               </tr>
               <tr>
-                <td>An anonymous installation identifier</td>
+                <td>An account identifier, and your Google email address if you sign in</td>
                 <td>Google Firebase Authentication and Firestore</td>
-                <td>To hold the credit balance for this installation. It is a random identifier, tied to no name, email address or device identifier.</td>
+                <td>To hold your credit balance. The identifier is random. If you choose to sign in with Google, Firebase also keeps that account's email address, plus the display name and profile-photo link Google supplies, which the app does not read, so your credits can follow you to a new phone. Firebase also assigns an installation identifier.</td>
               </tr>
               <tr>
                 <td>A device attestation token</td>
                 <td>Google Play Integrity, through Firebase App Check</td>
                 <td>To show a request came from a genuine installation of this app rather than from a script.</td>
+              </tr>
+              <tr>
+                <td>The purchase details, when you buy credits</td>
+                <td>iDataGear's McMuse service, which checks them with Google Play</td>
+                <td>To confirm the purchase is genuine, add the credits, and make sure one purchase can never be redeemed twice. What is sent is the product, Google Play's purchase token and its order number. No card number, name or billing address is sent.</td>
+              </tr>
+              <tr>
+                <td>A report, when you flag an artwork</td>
+                <td>iDataGear's McMuse service</td>
+                <td>To look into content that should not have been made. A report carries the artwork's reference, the style, the reason you chose, any note you add, and your account identifier. It never carries the picture.</td>
               </tr>
               <tr>
                 <td>Nothing automatic</td>
@@ -332,12 +343,12 @@
             </tbody>
           </table>
         </div>
-        <p><strong>What we hold on our side.</strong> One record per installation, under a random identifier the app is given when it first runs: the number of credits that installation has left, and whether its starter credits were granted. There is no name, no email address, no device identifier, and no history of what you made attached to it. It is kept until you ask us to remove it — write to idatagear@gmail.com with nothing more than a request to delete, and we will remove the record. Uninstalling the app does not remove it on its own, because nothing in the record identifies you well enough for us to find it without being told.</p>
+        <p><strong>What we hold on our side.</strong> For each account, a record under a random identifier: the credits remaining, and whether starter credits were granted. If you sign in with Google, Firebase Authentication also holds that account's email address, and the display name and profile-photo link Google supplies, which the app does not read. For each purchase, a record of the product, the credits granted, Google Play's purchase token and order number, and the account identifier. For each report, what is listed above. And the service's own operating logs, which note the account identifier, the style chosen, the size and cost of an artwork, and why a request failed or was refused — never the photo and never the artwork. Those logs are kept for a limited period in Google Cloud's logging service. None of it includes your photos.</p>
         <p>Separately from the list above, anything you deliberately send — through the system share sheet, an export, a printout or the clipboard — goes wherever you send it. That is your choice each time, and it is not covered by the table above.</p>
         <h3 id="en-mcmuse-notdo">What the app does not do</h3>
         <p>For as long as this policy is the current one:</p>
         <ul>
-          <li>There is no sign-up, no email address, no password and no profile. The app signs in anonymously so that a credit balance can exist, and that identifier is all it is.</li>
+          <li>You do not need an account to use the app. Signing in with Google is optional and exists so your credits can follow you to a new phone; the app never asks for a password, a profile or your name.</li>
           <li>We do not store your photo or your artwork on a server. The photo passes through to be rendered; the artwork comes straight back to your device.</li>
           <li>Your photos are not used to train any model of ours, and we do not ask Google to use them for training.</li>
           <li>We do not sell your personal information, and we do not share it for cross-context behavioural advertising.</li>
@@ -347,8 +358,12 @@
           <li>The app does not record audio and requests no microphone access at runtime.</li>
           <li>The app does not read your contacts, calendar, messages, call log or files outside its own storage.</li>
         </ul>
+        <h3 id="en-mcmuse-safety">Content safety and reporting</h3>
+        <p>McMuse does not review your photos or your artworks: they are not kept on our side, and nobody at iDataGear sees them. The only screening is done by the safety filters of Google's Gemini service, which we set to block content at a medium level of concern or above in four categories — sexually explicit, hateful, harassing and dangerous content. A filter can refuse a photo, or the artwork made from it. When it does, no artwork is made and the credits it would have cost are returned to you.</p>
+        <p>No filter is perfect, and we cannot promise that it catches everything. If an artwork is offensive or should not have been made, report it from inside the app: open the artwork, choose Report, pick a reason — sexual content, violent or disturbing, hateful or abusive, or something else — and add a note if you wish. The report is sent without the picture, so it lets us reproduce how the artwork was made but does not show us the artwork itself.</p>
+        <p>What you may and may not do with the app is set out in the acceptable-use section of the terms below.</p>
         <h3 id="en-mcmuse-perms">Permissions, and why each one is asked for</h3>
-        <p>Each permission below is requested for one stated purpose and used for nothing else. On both platforms you can refuse or withdraw any of them in system settings; the features that depend on them stop working, and the rest of the app carries on.</p>
+        <p>Each permission below is requested for one stated purpose and used for nothing else. You can refuse or withdraw any of them in your device's settings; the features that depend on them stop working, and the rest of the app carries on.</p>
         <div class="pp-tablewrap">
           <table>
             <thead><tr>
@@ -363,9 +378,19 @@
                 <td>Required for the network requests listed above.</td>
               </tr>
               <tr>
-                <td>Storage (older Android only)</td>
+                <td>Storage (Android 10 and earlier)</td>
                 <td>Android</td>
-                <td>Saving files on Android 9 and earlier. Not requested on newer versions.</td>
+                <td>Saving artworks to your photo library on Android 10 and earlier. Not requested on newer versions.</td>
+              </tr>
+              <tr>
+                <td>Billing</td>
+                <td>Android</td>
+                <td>To sell credit packs and check purchases through Google Play.</td>
+              </tr>
+              <tr>
+                <td>Network state, biometric and Google Play services</td>
+                <td>Android</td>
+                <td>Added automatically by libraries the app is built with — Firebase, Google Play and Google sign-in. The app itself never asks for your fingerprint or face and never uses them.</td>
               </tr>
               <tr>
                 <td>Camera</td>
@@ -379,12 +404,12 @@
               </tr>
               <tr>
                 <td>Location</td>
-                <td>Android and iOS</td>
+                <td>Android</td>
                 <td>Not requested.</td>
               </tr>
               <tr>
                 <td>Microphone</td>
-                <td>Android and iOS</td>
+                <td>Android</td>
                 <td>Not requested.</td>
               </tr>
             </tbody>
@@ -392,8 +417,9 @@
         </div>
         <h3 id="en-mcmuse-telemetry">Analytics and crash reporting</h3>
         <p>This version of the app contains no analytics SDK and no crash-reporting SDK. We receive no usage statistics, no crash reports and no diagnostic data from it.</p>
-        <h3 id="en-mcmuse-purchases">Subscriptions and purchases</h3>
-        <p>We collect no payment information of any kind. Where an installation has credits, they were granted by our own service; the app never asks for card details and none reach us.</p>
+        <h3 id="en-mcmuse-purchases">Purchases</h3>
+        <p>Credits for making artworks are bought inside the app, in packs. The purchase is handled entirely by Google Play, which takes the payment and issues any refund.</p>
+        <p>We never see your card number, billing address or any other payment detail. What reaches our service is the product bought, Google Play's purchase token and its order number, which we keep as the record of the purchase. If Google Play refunds a purchase, we take back the credits it granted.</p>
         <h2 id="en-learncantonese">Learn Cantonese</h2>
         <p>Learn Cantonese teaches spoken and written Cantonese through lessons, a Hong Kong slang dictionary and pronunciation practice you do out loud. It runs on iPhone, iPad, Mac and Android. Your progress lives on the device you are using.</p>
         <h3 id="en-learncantonese-stores">What the app keeps on your device</h3>
