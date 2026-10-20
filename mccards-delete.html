@@ -175,7 +175,7 @@
         <img src="assets/img/mccards-app-icon.png" alt="McCards app icon" width="76" height="76">
         <h1>Delete your McCards data</h1>
         <p class="dd-sub">Account and data deletion requests</p>
-        <p class="dd-date">Last updated: 19 October 2026</p>
+        <p class="dd-date">Last updated: 20 October 2026</p>
       </div>
 
       <article class="dd">
@@ -192,10 +192,10 @@
 
         <h2 id="what">What McCards stores, and where</h2>
         <p>
-          McCards has no sign-up and no login. It never asks for your name, email
-          address or phone number. Almost everything you put into the app is stored
-          <strong>only on your phone</strong>. A small anonymous record is kept on our
-          server so the AI features can work.
+          Nothing in McCards needs an account, and it never asks for your phone
+          number. Signing in with Google is optional. Almost everything you put into
+          the app is stored <strong>only on your phone</strong>. A small record is kept
+          on our server so the AI features and subscriptions can work.
         </p>
         <div class="dd-tablewrap">
           <table>
@@ -209,19 +209,24 @@
                 <td data-label="How it is deleted">By you, in the app or by uninstalling it (<a href="#on-phone">see below</a>)</td>
               </tr>
               <tr>
-                <td><strong>Anonymous account</strong>: a random Firebase Authentication ID for your installation, with no name, email, phone number or password</td>
+                <td><strong>Account</strong>: a random Firebase Authentication ID. If you signed in with Google, also your Google account's email address, name and account identifier. No password and no phone number.</td>
                 <td data-label="Where it is kept">Our server (Google Firebase)</td>
-                <td data-label="How it is deleted">On request (<a href="#request">see below</a>)</td>
+                <td data-label="How it is deleted">In the app, or on request (<a href="#request">see below</a>)</td>
               </tr>
               <tr>
-                <td><strong>AI usage record</strong>: your AI credit balance, a request counter used for rate limiting, and when the record was created and last changed</td>
+                <td><strong>AI usage record</strong>: your remaining AI actions, a request counter used for rate limiting, and when the record was created and last changed</td>
                 <td data-label="Where it is kept">Our server (Google Cloud Firestore)</td>
-                <td data-label="How it is deleted">On request</td>
+                <td data-label="How it is deleted">In the app, or on request</td>
               </tr>
               <tr>
-                <td><strong>Subscription record</strong>, only if you have subscribed: the Google Play purchase token, plan, status, expiry date and auto-renew setting</td>
+                <td><strong>Subscription record</strong>, only if you have subscribed: the Google Play purchase token, plan, status, expiry date, auto-renew setting and this month's AI use</td>
                 <td data-label="Where it is kept">Our server (Google Cloud Firestore)</td>
-                <td data-label="How it is deleted">On request</td>
+                <td data-label="How it is deleted">Its link to your account is removed. The record of the sale is kept, unlinked (<a href="#kept">see below</a>)</td>
+              </tr>
+              <tr>
+                <td><strong>AI taster record</strong>, only if you signed in with Google: a one-way fingerprint (hash) of your Google account identifier and a date, so the AI actions to try are given once per Google account</td>
+                <td data-label="Where it is kept">Our server (Google Cloud Firestore)</td>
+                <td data-label="How it is deleted">Kept (<a href="#kept">see below</a>). It cannot be turned back into your account or email address</td>
               </tr>
               <tr>
                 <td><strong>Server error logs</strong>: your anonymous ID, recorded when an AI request fails or is rate limited. The text you sent to the AI feature is never logged.</td>
@@ -232,7 +237,15 @@
           </table>
         </div>
 
-        <h2 id="request">How to request deletion of your account and data</h2>
+        <h2 id="request">How to delete your account and data</h2>
+        <h3>In the app, if you signed in with Google</h3>
+        <p>
+          Open McCards and go to <strong>Settings → Account → Delete account</strong>.
+          Your account and its records are deleted from our server straight away, and
+          the app signs you out. Deleting your account does <strong>not</strong> cancel a
+          subscription: cancel that in Google Play (step 1 below).
+        </p>
+        <h3>By email, if you did not sign in or no longer have the app</h3>
         <ol class="dd-steps">
           <li>
             <strong>If you subscribe, cancel the subscription first.</strong>
@@ -270,12 +283,12 @@
 
         <div class="dd-note">
           <p>
-            <strong>If you have never subscribed:</strong> your server record is tied only to a
+            <strong>If you never signed in and never subscribed:</strong> your server record is tied only to a
             random ID for one installation of the app. It is not linked to your name, email,
             phone number or Google account, so without an order number we cannot tell which
             record is yours. Uninstalling McCards deletes that ID from your phone. After that,
-            no one, including us, can connect the record to you, and it holds nothing but a
-            credit count, a request counter and two dates.
+            no one, including us, can connect the record to you, and it holds nothing but an
+            AI balance, a request counter and two dates.
           </p>
         </div>
 
@@ -290,12 +303,13 @@
         </ul>
 
         <h2 id="deleted">What gets deleted</h2>
-        <p>When we process your request, we permanently delete:</p>
+        <p>Deleting in the app, or processing your request, permanently deletes:</p>
         <ul>
-          <li>your <strong>anonymous Firebase Authentication account</strong>;</li>
-          <li>your <strong>AI usage record</strong>, including your remaining AI credits;</li>
-          <li>your <strong>subscription record</strong> and the link between your Google Play
-            purchase and your anonymous ID, if you have subscribed.</li>
+          <li>your <strong>Firebase Authentication account</strong>, with your email address and
+            name if you signed in with Google;</li>
+          <li>your <strong>AI usage record</strong>, including your remaining AI actions;</li>
+          <li>the <strong>link</strong> between your Google Play subscription and your account,
+            if you have subscribed.</li>
         </ul>
         <p>
           McCards does not keep your preferences, saved lists, cards, coupons or receipts in
@@ -303,14 +317,22 @@
           phone until you delete them there.
         </p>
         <p>
-          Deletion cannot be undone. If you install McCards again later, it starts a new,
-          unrelated anonymous record.
+          Deletion cannot be undone. If you use McCards again later, it starts a new record.
+          A subscription you are still paying for is restored to the new record the next
+          time the app opens.
         </p>
 
         <h2 id="kept">What is kept, and for how long</h2>
         <ul>
           <li><strong>Server error logs</strong> that contain your anonymous ID are deleted
             automatically 30 days after they are written. We do not delete them early.</li>
+          <li><strong>The record of a subscription sale</strong> — its purchase token, plan,
+            status and dates — is kept, no longer linked to any account. It is a record of
+            what was sold, and it is how a subscription you still pay for is restored if you
+            use McCards again.</li>
+          <li><strong>The AI taster record</strong>: the one-way fingerprint of your Google account
+            identifier and a date, so the AI actions to try are not given to the same Google
+            account twice.</li>
           <li><strong>Google Play's purchase records</strong>, such as your order history and
             payment details, are held by Google, not by us, under
             <a href="https://policies.google.com/privacy" rel="noopener">Google's Privacy Policy</a>.

@@ -1,0 +1,463 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — McCards</title>
+<meta name="description" content="McCards processes everything on your device. No account, no cloud, no tracking.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://www.idatagear.com/mccards/mccards_privacy.html">
+<style>
+  :root {
+    color-scheme: light dark;
+
+    /* The app's own brand ramp — kBrandStart/kBrandEnd in lib/app/theme.dart —
+       so the policy page and the launcher icon agree. */
+    --brand-start: #01E6D5;
+    --brand-end:   #0084DB;
+    --brand-deep:  #00538C;
+
+    --ink:      #16191d;
+    --ink-soft: #5c6470;
+    --paper:    #ffffff;
+    --panel:    #f4f8fb;
+    --rule:     #dfe5ec;
+    --link:     #0072bd;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --ink:      #e8eaed;
+      --ink-soft: #9aa3ad;
+      --paper:    #101315;
+      --panel:    #171c20;
+      --rule:     #2a3238;
+      --link:     #5cc8f5;
+    }
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    color: var(--ink);
+    background: var(--paper);
+    font: 17px/1.7 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  /* ---- masthead ---- */
+
+  header.masthead {
+    background: linear-gradient(120deg, var(--brand-start), var(--brand-end));
+    color: #fff;
+    padding: 3rem 1.25rem 2.5rem;
+  }
+  .wrap { max-width: 48rem; margin: 0 auto; }
+  .masthead .wrap {
+    display: flex; align-items: center; gap: 1.1rem; flex-wrap: wrap;
+  }
+
+  /* The scanner mark, drawn rather than linked so the page stays one file. */
+  .mark {
+    width: 64px; height: 64px; flex: none;
+    border-radius: 16px;
+    background: rgba(255,255,255,.16);
+    display: grid; place-items: center;
+  }
+  .mark svg { width: 38px; height: 38px; }
+
+  .masthead h1 {
+    margin: 0; font-size: 1.75rem; line-height: 1.25; letter-spacing: -.01em;
+  }
+  .masthead p { margin: .3rem 0 0; opacity: .92; font-size: .98rem; }
+
+  /* ---- body ---- */
+
+  main { padding: 0 1.25rem 4rem; }
+  main .wrap > :first-child { margin-top: 2.25rem; }
+
+  h2 {
+    font-size: 1.2rem; margin: 2.75rem 0 .6rem; line-height: 1.35;
+    padding-top: 1.5rem; border-top: 1px solid var(--rule);
+  }
+  h2:first-of-type { border-top: 0; padding-top: 0; }
+  h3 { font-size: 1rem; margin: 1.75rem 0 .4rem; }
+  p, li { margin: .7rem 0; }
+  ul { padding-left: 1.3rem; }
+
+  .lede { font-size: 1.05rem; color: var(--ink-soft); }
+
+  .callout {
+    background: var(--panel);
+    border-left: 4px solid var(--brand-end);
+    border-radius: 0 10px 10px 0;
+    padding: 1rem 1.15rem;
+    margin: 1.75rem 0;
+  }
+  .callout p:first-child { margin-top: 0; }
+  .callout p:last-child  { margin-bottom: 0; }
+  .callout.warn { border-left-color: #d97706; }
+
+  /* Wide tables must scroll inside themselves, never the page. */
+  .scroll-x { overflow-x: auto; margin: 1.25rem 0; }
+  table { border-collapse: collapse; width: 100%; min-width: 34rem; font-size: .95rem; }
+  th, td { border: 1px solid var(--rule); padding: .6rem .75rem; text-align: left; vertical-align: top; }
+  th { background: var(--panel); font-weight: 600; }
+
+  code {
+    background: var(--panel); border: 1px solid var(--rule);
+    padding: .08rem .35rem; border-radius: 4px;
+    font: .88em/1.4 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  }
+
+  a { color: var(--link); text-decoration-thickness: 1px; text-underline-offset: 2px; }
+
+  footer {
+    margin-top: 3.5rem; padding-top: 1.5rem; border-top: 1px solid var(--rule);
+    color: var(--ink-soft); font-size: .9rem;
+  }
+
+  @media (max-width: 30rem) {
+    body { font-size: 16px; }
+    header.masthead { padding: 2.25rem 1.1rem 2rem; }
+    .masthead h1 { font-size: 1.45rem; }
+  }
+</style>
+</head>
+<body>
+
+<header class="masthead">
+  <div class="wrap">
+    <div class="mark" aria-hidden="true">
+      <!-- Capture brackets around a page: the app's launcher mark, simplified. -->
+      <svg viewBox="0 0 48 48" fill="none" stroke="#fff" stroke-width="4"
+           stroke-linecap="round" stroke-linejoin="round">
+        <path d="M6 16V9a3 3 0 0 1 3-3h7"/>
+        <path d="M42 16V9a3 3 0 0 0-3-3h-7"/>
+        <path d="M6 32v7a3 3 0 0 0 3 3h7"/>
+        <path d="M42 32v7a3 3 0 0 1-3 3h-7"/>
+        <path d="M14 24h20"/>
+      </svg>
+    </div>
+    <div>
+      <h1>McCards — Privacy Policy</h1>
+
+<p class="updated">Last updated: 20 October 2026</p>
+
+<p>
+  McCards is an offline wallet for loyalty cards, coupons, shopping lists and
+  receipts. This policy explains exactly what the app does and does not do with
+  your information. It is written to be accurate rather than reassuring; where
+  a third party is involved, it says so.
+</p>
+
+<div class="callout">
+  <p><strong>The short version.</strong> What you put into McCards stays on
+  your phone. Your card numbers, PINs, coupons and photos are never sent
+  anywhere, are never shared with advertising networks or data brokers, and
+  are not visible to us. The one exception is the AI features, and only when
+  you use them: the shopping-list description you ask about, or the text
+  recognised on a receipt you ask to clean up, is sent through our server to
+  Google's Gemini AI for an answer. To count AI use and to know whether you
+  subscribe to McCards Premium, the app has an account on our server — an
+  anonymous one, unless you choose to sign in with Google, which is
+  optional.</p>
+</div>
+
+<h2>1. Information we collect</h2>
+<p>
+  <strong>An account ID, an AI usage record and, if you subscribe, your
+  subscription's status.</strong> Nothing has to be signed up for, and McCards
+  never asks for your phone number.
+</p>
+<ul>
+  <li>When the phone is online, the app signs in to Firebase Authentication, a
+      Google service, <strong>anonymously</strong>. That creates a random
+      identifier for this installation of the app. It is not linked to your
+      name, email address, phone number or Google account.</li>
+  <li><strong>Signing in with Google is optional.</strong> If you choose to,
+      in Settings or when the app offers it, the anonymous ID is linked to your
+      Google account, and Firebase Authentication keeps your Google account's
+      <strong>email address, name and account identifier</strong>. That is what
+      lets your AI actions follow you to another phone. You can sign out, or
+      delete the account, at any time (section 9).</li>
+  <li>Our server keeps a record under your ID for the AI features: how many
+      AI actions you have left, a counter used to limit how many requests an
+      account can make in an hour, and when the record was created and last
+      changed.</li>
+  <li>If you subscribe to McCards Premium, our server keeps what Google Play
+      tells it about the subscription: the purchase token, which plan, its
+      status, when the current period ends, whether it renews, and how many
+      AI actions have been used this month. Google Play handles the payment
+      itself (section 11).</li>
+  <li>When an AI taster is granted to a Google account, our server keeps a
+      one-way fingerprint (a hash) of that Google account's identifier and the
+      date, so the taster is given only once per account — even if the
+      account is deleted and created again. The fingerprint cannot be turned
+      back into your account or email address.</li>
+  <li>Our server's logs record your ID when an AI request or a purchase check
+      fails, so the failure can be investigated. They never record the text
+      that was sent, or your email address.</li>
+</ul>
+<p>
+  The text you send to an AI feature passes through our server on its way to
+  Google and back. Our server does not store it or log it.
+</p>
+<p>
+  We run no analytics, no crash reporting and no advertising SDK.
+</p>
+<p>
+  <strong>We do not collect your location.</strong> When you choose a flyer
+  region, the app can use your phone's approximate location, or the first
+  three characters of your postal code, to offer the regions near you. That
+  is worked out on your phone and is not sent to us or to anyone else (see
+  section 8).
+</p>
+
+<h2>2. Card numbers, PINs and barcodes</h2>
+<p>
+  This is the section people most want to read, so it is near the top.
+</p>
+<p>
+  When you add a loyalty or membership card, McCards stores the card's barcode
+  content exactly as scanned, along with the barcode type, any PIN you choose
+  to enter, and any photo of the card you import or take. All of it is written
+  to the app's own private storage on the device.
+</p>
+<ul>
+  <li>Card numbers and PINs are <strong>never transmitted</strong>. They are
+      not sent to us, to the store, or to anyone else.</li>
+  <li>They are stored in the app's private area, which other apps on the phone
+      cannot read. They are <strong>not separately encrypted</strong> beyond
+      the protection Android gives app-private storage and whatever
+      device-level encryption your phone uses. If someone has an unlocked
+      phone, they can open McCards.</li>
+  <li>McCards has no app lock or biometric prompt in this release. Your phone's
+      own screen lock is the protection.</li>
+</ul>
+
+<h2>3. Photos and images</h2>
+<p>
+  Card photos, coupon images and receipt scans are stored in the app's private
+  storage. They are never uploaded, including when you use an AI feature.
+</p>
+<p>
+  When you import a picture, McCards uses the Android system photo picker,
+  which gives the app access only to the specific images you choose. The app
+  requests no storage or media permission and cannot browse your gallery.
+</p>
+
+<h2>4. Camera</h2>
+<p>
+  <strong>McCards does not request the camera permission.</strong>
+</p>
+<p>
+  Scanning a barcode and scanning a receipt are both handled by components that
+  run inside Google Play Services, which operates the camera under its own
+  identity and returns only the result to McCards. The app never receives a
+  camera stream and never stores one. Reading a barcode out of a photo you
+  already have is done on the device with Google's ML Kit, which needs no
+  permission at all.
+</p>
+
+<h2>5. Text recognition</h2>
+<p>
+  McCards reads text from coupon and receipt images to suggest an expiry date,
+  a total, a purchase date and a store. This runs <strong>entirely on the
+  device</strong> using Google's ML Kit, with the recognition models bundled in
+  the app. The images are never sent anywhere, and the recognised text is sent
+  only if you ask for it to be cleaned up, below. The recognised text is
+  stored on the device so you can search your receipts.
+</p>
+<p>
+  <strong>Clean up with AI.</strong> On a receipt, you can ask for a tidier,
+  line-by-line version of the recognised text. Only when you tap
+  <em>Clean up with AI</em>, the text recognised on that one receipt, and
+  where each piece of it sits on the page, is sent through our server to
+  Google's Gemini API. The photo is not sent. The answer is saved on your
+  phone next to the original text, which is kept unchanged.
+</p>
+
+<h2>6. Why the app requests internet access</h2>
+<p>
+  McCards declares the <code>INTERNET</code> permission for the purposes below.
+  Only the AI features send anything you have created, and only when you use
+  them:
+</p>
+<ul>
+  <li><strong>AI features.</strong> When you use <em>Describe it</em> on a
+      shopping list, the description you typed or spoke is sent. When you use
+      <em>Clean up with AI</em> on a receipt, that receipt's recognised text is
+      sent. Either goes to our server (a Google Cloud Function) with the
+      anonymous ID from section 1, and from there to Google's Gemini API. The
+      answer comes back to your phone. Nothing is sent until you tap the
+      button.</li>
+  <li><strong>Your account and AI balance.</strong> When the phone is online,
+      the app signs in to Firebase (anonymously, or with the Google account you
+      chose) and reads its AI balance and subscription status, so it can show
+      what is left.</li>
+  <li><strong>Subscriptions.</strong> When you subscribe, and each time the
+      app opens, it asks Google Play which McCards subscriptions your Play
+      account holds and sends their purchase tokens to our server, which
+      checks them with Google Play. No payment details are involved.</li>
+  <li><strong>Google Play Services components.</strong> The barcode scanner and
+      document scanner are downloaded by Play Services on first use.</li>
+  <li><strong>The store catalogue.</strong> McCards ships with a list of common
+      Canadian retail chains used to suggest stores and recognise them on
+      receipts. The app can check for and download a newer version of this
+      list. It is a plain file download: your data is not part of the request,
+      and the file contains no personal information.</li>
+  <li><strong>Flyers.</strong> When you choose a region in the Deals tab, the
+      app downloads that region's flyer file, and a small settings file for
+      flyers, from a public GitHub repository. Once you have a region, it
+      checks for newer ones at most once a day when you use the Deals or
+      Shopping tab, or whenever you ask it to. Newer flyers download by
+      themselves only on Wi-Fi; on mobile data the app asks first. Nothing is
+      downloaded before you open the Deals tab. The requests contain no
+      personal information.</li>
+  <li><strong>Flyer pictures.</strong> When you tap an item in a flyer, the app
+      loads that item's picture from the flyer publisher's image server
+      (<code>f.wishabi.net</code>, operated by Flipp). Pictures are loaded
+      only when you open them — by tapping an item, or by swiping to the next
+      one from a picture — one at a time, and are not saved on your
+      phone.</li>
+</ul>
+<p>
+  Each of these is an ordinary web request. The server that answers it —
+  Google, GitHub or Flipp — sees your phone's IP address, as any website
+  does. Apart from the AI features, nothing you have stored in McCards is part
+  of the request.
+</p>
+<p>
+  Everything you store in McCards works offline. If the phone never goes
+  online, only the AI features, catalogue updates, flyer downloads and flyer
+  pictures stop working.
+</p>
+
+<h2>7. Third-party components</h2>
+<p>
+  McCards uses Google Play Services and Google ML Kit for on-device scanning
+  and text recognition. Google's handling of the requests your device makes to
+  its own services is governed by Google's privacy policy, not ours. We receive
+  nothing from those interactions.
+</p>
+<p>
+  The AI features use Google's Firebase (Authentication, Cloud Firestore and
+  Cloud Functions) and Google's Gemini API. Text you send to an AI feature is
+  processed by Google under the Gemini API terms. Optional sign-in uses
+  Google Sign-In, and subscriptions use Google Play Billing; Google's privacy
+  policy governs both on Google's side.
+</p>
+<p>
+  The app contains no advertising SDK, no analytics SDK and no crash-reporting
+  SDK.
+</p>
+
+<h2>8. Permissions</h2>
+<p>
+  The app declares two permissions:
+</p>
+<ul>
+  <li><code>INTERNET</code>, for the reasons in section 6.</li>
+  <li><code>ACCESS_COARSE_LOCATION</code>, your phone's
+      <strong>approximate</strong> location. It is asked for only when you
+      choose a flyer region and tap <em>Use my location</em>, so that the app
+      offers just the regions near you. It is read once, used on your phone
+      to measure the distance to each region's towns, and then discarded: it
+      is not stored, and it is not sent to us or to anyone else. You can
+      refuse it and type the first three characters of your postal code
+      instead, which is used the same way, on your phone only.</li>
+</ul>
+<p>
+  Android's own libraries add <code>ACCESS_NETWORK_STATE</code>, which reports
+  only whether a connection exists and whether it is metered, so flyers
+  download by themselves only on Wi-Fi. Google Play Billing adds
+  <code>com.android.vending.BILLING</code>, which lets the app show Google
+  Play's purchase screen. Google's sign-in and security libraries add
+  <code>USE_BIOMETRIC</code>, <code>USE_FINGERPRINT</code> and
+  <code>READ_GSERVICES</code>; McCards itself never uses biometrics or asks
+  for a fingerprint. None of these is a permission the app asks you for.
+</p>
+<p>
+  McCards does <strong>not</strong> request the camera, storage, media,
+  precise location, background location, contacts or notification
+  permissions.
+</p>
+
+<h2>9. Keeping and deleting your data</h2>
+<p>
+  Your data stays on the device until you remove it. Deleting a card, coupon,
+  list or receipt deletes its photos too.
+</p>
+<p>
+  One thing is deleted automatically: expired coupons, and their images, a
+  configurable number of days after they expire. How long they are kept is
+  shown in Settings, where you can change it. Coupons you have marked as used
+  are never deleted automatically.
+</p>
+<div class="callout">
+  <p><strong>Uninstalling the app deletes everything on the phone.</strong>
+  Because none of your cards, coupons, lists or receipts is stored off the
+  device, we cannot restore them — we never had them. Use
+  <em>Settings → Back up everything</em> to save a copy somewhere you control
+  before switching phones.</p>
+</div>
+<p>
+  <strong>Deleting your account.</strong> If you signed in with Google, use
+  <em>Settings → Account → Delete account</em>. It deletes your account, your
+  email address and name, and your AI usage record from our server straight
+  away, and signs you out. Two things are kept, unlinked from you: the record
+  of a Google Play subscription you bought (it is a record of a sale, and it
+  is how the subscription can be restored to a new account), and the one-way
+  fingerprint described in section 1. <strong>Deleting your account does not
+  cancel a subscription</strong> — cancel it in Google Play.
+</p>
+<p>
+  Without signing in, or without the app, you can ask us to delete your data
+  at <a href="https://www.idatagear.com/mccards-delete.html">idatagear.com/mccards-delete.html</a>.
+  Uninstalling does not remove the anonymous record on our server, which
+  holds nothing but an AI balance, a request counter and two dates; a new
+  installation gets a new anonymous ID and starts a new record.
+</p>
+
+<h2>10. Backups</h2>
+<p>
+  The backup file McCards creates contains all of your data, including card
+  numbers, PINs and photos, and it is <strong>not encrypted</strong>. Once you
+  save or send it, it is as private as wherever you put it. Treat it the way
+  you would treat a photograph of your wallet.
+</p>
+
+<h2>11. Payments</h2>
+<p>
+  McCards Premium is a subscription sold through Google Play. The app never
+  asks for, handles, or stores payment information: no card number, billing
+  address or payment credential is ever entered into McCards or transmitted
+  by it. Google Play takes the payment under Google's own privacy policy, and
+  tells our server only what section 1 lists — never your payment details.
+  You manage or cancel the subscription in Google Play.
+</p>
+
+<h2>12. Children</h2>
+<p>
+  McCards is not directed at children and does not knowingly collect personal
+  information from children. The only information it keeps off the phone is
+  what section 1 lists.
+</p>
+
+<h2>13. Changes to this policy</h2>
+<p>
+  If this policy changes, the date at the top changes with it, and the updated
+  version is published at this address.
+</p>
+
+<h2>14. Contact</h2>
+<p>
+  Questions about this policy, and requests about your data, can be sent to
+  <a href="mailto:idatagear@gmail.com">idatagear@gmail.com</a>.
+</p>
+
+</body>
+</html>
