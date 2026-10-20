@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta name="theme-color" content="#071512" media="(prefers-color-scheme: dark)">
+    <meta name="theme-color" content="#f7f3ea" media="(prefers-color-scheme: light)">
+    <meta name="color-scheme" content="dark light">
+
+    <title>Delete Your McCards Data</title>
+    <meta name="description" content="How to request deletion of your McCards account and data, what is deleted, what is kept, and how long it takes. Published by iDataGear Inc.">
+    <link rel="canonical" href="https://www.idatagear.com/mccards-delete.html">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.idatagear.com/mccards-delete.html">
+    <meta property="og:title" content="Delete Your McCards Data">
+    <meta property="og:description" content="How to request deletion of your McCards account and data, what is deleted, what is kept, and how long it takes.">
+    <meta property="og:image" content="https://www.idatagear.com/assets/img/mccards-app-icon.png">
+    <meta property="og:site_name" content="iDataGear">
+    <meta property="twitter:card" content="summary">
+    <meta property="twitter:title" content="Delete Your McCards Data">
+    <meta property="twitter:description" content="How to request deletion of your McCards account and data, what is deleted, what is kept, and how long it takes.">
+    <meta property="twitter:image" content="https://www.idatagear.com/assets/img/mccards-app-icon.png">
+
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/img/favicon-192x192.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script>
+    (function () {
+      var t = null;
+      try { t = localStorage.getItem('theme'); } catch (e) {}
+      if (t !== 'light' && t !== 'dark') {
+        t = (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches) ? 'light' : 'dark';
+      }
+      document.documentElement.setAttribute('data-theme', t);
+    })();
+    </script>
+    <style>
+    /* Chrome and colour come from the site's own tokens in assets/css/style.css.
+       --dd-accent is McCards' brand plum (coral on dark), used only where the
+       page speaks about the app itself. Everything here is prefixed dd- so it
+       cannot leak into the shared stylesheet's components. */
+    :root { --dd-accent: #8e2a5b; --dd-wash: rgba(255, 102, 117, .10); }
+    [data-theme="dark"] { --dd-accent: #ff6675; }
+    @media (prefers-color-scheme: dark) {
+      :root:not([data-theme="light"]) { --dd-accent: #ff6675; }
+    }
+
+    .dd-nav { display: flex; gap: 20px; align-items: center; margin-left: auto; }
+    .dd-nav a { color: var(--muted); text-decoration: none; font-size: .92rem; white-space: nowrap; }
+    .dd-nav a:hover { color: var(--dd-accent); }
+    @media (max-width: 820px) { .dd-nav { display: none; } }
+
+    .dd-wrap { max-width: 78ch; margin: 0 auto; padding-inline: 16px; padding-block: 40px 72px; }
+    @media (min-width: 600px) { .dd-wrap { padding-inline: 20px; } }
+
+    .dd-head { text-align: center; margin-bottom: 30px; }
+    .dd-head img { display: block; margin: 0 auto; width: 76px; height: 76px; border-radius: 19px; box-shadow: 0 10px 40px rgba(0,0,0,.18); }
+    .dd-head h1 { font-size: clamp(1.7rem, 4.4vw, 2.4rem); margin: 18px 0 6px; line-height: 1.15; text-wrap: balance; }
+    .dd-head .dd-sub { color: var(--dd-accent); font-weight: 700; margin: 0 0 10px; }
+    .dd-head .dd-date { color: var(--dim); font-size: .9rem; margin: 0; }
+
+    .dd h2 {
+      font-size: 1.24rem; margin: 40px 0 12px; padding-top: 18px;
+      border-top: 1px solid var(--card-border); text-wrap: balance;
+    }
+    .dd h3 { font-size: 1.02rem; margin: 22px 0 8px; color: var(--text); }
+    .dd p, .dd li { color: var(--muted); line-height: 1.72; }
+    .dd p { margin: 0 0 14px; }
+    .dd ul { margin: 0 0 16px; padding-left: 1.25em; }
+    .dd li { margin-bottom: 9px; }
+    .dd strong { color: var(--text); font-weight: 650; }
+    .dd a { color: var(--dd-accent); }
+    .dd code { font-size: .9em; overflow-wrap: anywhere; }
+
+    /* The facts Play Console and a reader both look for first. */
+    .dd-facts {
+      display: grid; grid-template-columns: max-content 1fr; gap: 10px 18px;
+      background: var(--dd-wash); border: 1px solid var(--card-border);
+      border-left: 3px solid var(--dd-accent);
+      border-radius: 12px; padding: 18px 22px; margin: 0 0 8px;
+    }
+    .dd-facts dt { color: var(--dim); font-size: .88rem; font-weight: 600; padding-top: 2px; }
+    .dd-facts dd { margin: 0; color: var(--text); font-weight: 600; overflow-wrap: anywhere; }
+    .dd-facts dd a { color: var(--dd-accent); }
+    @media (max-width: 480px) {
+      .dd-facts { grid-template-columns: 1fr; gap: 2px; }
+      .dd-facts dd { margin-bottom: 10px; }
+      .dd-facts dd:last-child { margin-bottom: 0; }
+    }
+
+    /* Numbered steps. The counter is drawn by CSS so the numbers stay with
+       their step when the text wraps on a narrow phone. */
+    .dd-steps { list-style: none; counter-reset: step; padding: 0; margin: 0 0 18px; }
+    .dd-steps > li {
+      counter-increment: step; position: relative;
+      padding: 0 0 0 46px; margin: 0 0 20px;
+    }
+    .dd-steps > li::before {
+      content: counter(step); position: absolute; left: 0; top: 0;
+      width: 30px; height: 30px; border-radius: 50%;
+      display: grid; place-items: center;
+      background: var(--dd-accent); color: #fff; font-weight: 700; font-size: .92rem;
+    }
+    [data-theme="dark"] .dd-steps > li::before { color: #2a0f1b; }
+    .dd-steps > li > strong:first-child { display: block; margin-bottom: 4px; }
+    .dd-steps ul { margin-top: 8px; }
+
+    .dd-note {
+      background: var(--card); border: 1px solid var(--card-border);
+      border-radius: 10px; padding: 15px 18px 3px; margin: 0 0 16px;
+    }
+
+    .dd-mail {
+      display: inline-flex; align-items: center; gap: 8px;
+      padding: 10px 18px; border-radius: 999px; margin: 4px 0 14px;
+      background: var(--dd-accent); color: #fff !important; font-weight: 650;
+      text-decoration: none;
+    }
+    [data-theme="dark"] .dd-mail { color: #2a0f1b !important; }
+    .dd-mail:hover { filter: brightness(1.08); }
+
+    /* Tables scroll inside their own box so the page body never scrolls sideways. */
+    .dd-tablewrap { overflow-x: auto; margin: 0 0 20px; }
+    .dd table { border-collapse: collapse; width: 100%; min-width: 560px; font-size: .94rem; }
+    .dd th, .dd td {
+      text-align: left; vertical-align: top; padding: 11px 13px;
+      border-bottom: 1px solid var(--card-border); color: var(--muted); line-height: 1.6;
+    }
+    .dd th { color: var(--text); font-weight: 650; white-space: nowrap; }
+    .dd tbody tr:last-child td { border-bottom: 0; }
+
+    /* On a phone the third column would sit off-screen behind a sideways
+       scroll, so each row becomes a card with its column names inline. */
+    @media (max-width: 600px) {
+      .dd table { min-width: 0; }
+      .dd thead {
+        position: absolute; width: 1px; height: 1px; overflow: hidden;
+        clip: rect(0 0 0 0); white-space: nowrap;
+      }
+      .dd tbody tr { display: block; padding: 14px 0; border-bottom: 1px solid var(--card-border); }
+      .dd tbody tr:last-child { border-bottom: 0; }
+      .dd tbody td { display: block; border: 0; padding: 2px 0; }
+      .dd tbody td:first-child { color: var(--text); }
+      .dd tbody td[data-label]::before {
+        content: attr(data-label); display: block; margin-top: 8px;
+        font-size: .76rem; font-weight: 650; letter-spacing: .06em;
+        text-transform: uppercase; color: var(--dim);
+      }
+    }
+    </style>
+  </head>
+  <body>
+    <header class="site-header" id="top">
+      <div class="logo"><a href="./">iDataGear</a></div>
+      <nav class="dd-nav">
+        <a href="./">iDataGear</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="mailto:idatagear@gmail.com">Contact</a>
+      </nav>
+      <button class="theme-toggle" type="button" aria-label="Switch theme">
+        <i class="bi bi-sun" aria-hidden="true"></i>
+        <i class="bi bi-moon-stars" aria-hidden="true"></i>
+      </button>
+    </header>
+
+    <main class="dd-wrap">
+      <div class="dd-head">
+        <img src="assets/img/mccards-app-icon.png" alt="McCards app icon" width="76" height="76">
+        <h1>Delete your McCards data</h1>
+        <p class="dd-sub">Account and data deletion requests</p>
+        <p class="dd-date">Last updated: 19 October 2026</p>
+      </div>
+
+      <article class="dd">
+        <dl class="dd-facts">
+          <dt>App</dt>
+          <dd>McCards</dd>
+          <dt>Developer</dt>
+          <dd>iDataGear Inc</dd>
+          <dt>Contact</dt>
+          <dd><a href="mailto:idatagear@gmail.com">idatagear@gmail.com</a></dd>
+          <dt>Processing time</dt>
+          <dd>Within 7 business days</dd>
+        </dl>
+
+        <h2 id="what">What McCards stores, and where</h2>
+        <p>
+          McCards has no sign-up and no login. It never asks for your name, email
+          address or phone number. Almost everything you put into the app is stored
+          <strong>only on your phone</strong>. A small anonymous record is kept on our
+          server so the AI features can work.
+        </p>
+        <div class="dd-tablewrap">
+          <table>
+            <thead>
+              <tr><th>Data</th><th>Where it is kept</th><th>How it is deleted</th></tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Your cards, coupons, shopping lists, receipts, photos and settings</td>
+                <td data-label="Where it is kept">Only on your phone. They are never uploaded or synced to the cloud.</td>
+                <td data-label="How it is deleted">By you, in the app or by uninstalling it (<a href="#on-phone">see below</a>)</td>
+              </tr>
+              <tr>
+                <td><strong>Anonymous account</strong>: a random Firebase Authentication ID for your installation, with no name, email, phone number or password</td>
+                <td data-label="Where it is kept">Our server (Google Firebase)</td>
+                <td data-label="How it is deleted">On request (<a href="#request">see below</a>)</td>
+              </tr>
+              <tr>
+                <td><strong>AI usage record</strong>: your AI credit balance, a request counter used for rate limiting, and when the record was created and last changed</td>
+                <td data-label="Where it is kept">Our server (Google Cloud Firestore)</td>
+                <td data-label="How it is deleted">On request</td>
+              </tr>
+              <tr>
+                <td><strong>Subscription record</strong>, only if you have subscribed: the Google Play purchase token, plan, status, expiry date and auto-renew setting</td>
+                <td data-label="Where it is kept">Our server (Google Cloud Firestore)</td>
+                <td data-label="How it is deleted">On request</td>
+              </tr>
+              <tr>
+                <td><strong>Server error logs</strong>: your anonymous ID, recorded when an AI request fails or is rate limited. The text you sent to the AI feature is never logged.</td>
+                <td data-label="Where it is kept">Google Cloud Logging</td>
+                <td data-label="How it is deleted">Automatically after 30 days</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <h2 id="request">How to request deletion of your account and data</h2>
+        <ol class="dd-steps">
+          <li>
+            <strong>If you subscribe, cancel the subscription first.</strong>
+            Deleting your data does not stop Google Play from billing you. In the
+            Google Play Store app, tap your profile picture, then
+            <strong>Payments &amp; subscriptions → Subscriptions → McCards → Cancel subscription</strong>.
+          </li>
+          <li>
+            <strong>Email us your deletion request.</strong>
+            Write to <a href="mailto:idatagear@gmail.com?subject=McCards%20data%20deletion%20request">idatagear@gmail.com</a>
+            with the subject line <code>McCards data deletion request</code>, and include:
+            <ul>
+              <li>a sentence saying you want your McCards account and data deleted;</li>
+              <li>if you have ever subscribed, your <strong>Google Play order number</strong>.
+                It starts with <code>GPA.</code> and appears in the receipt email from
+                Google Play and in your Google Play order history. This is how we find the
+                records linked to your subscription.</li>
+            </ul>
+            <a class="dd-mail" href="mailto:idatagear@gmail.com?subject=McCards%20data%20deletion%20request&amp;body=Please%20delete%20my%20McCards%20account%20and%20data.%0A%0AGoogle%20Play%20order%20number%20(if%20I%20have%20subscribed)%3A%20">
+              <i class="bi bi-envelope" aria-hidden="true"></i> Email a deletion request
+            </a>
+            <p>We will never ask for your password, card numbers, PINs or photos.</p>
+          </li>
+          <li>
+            <strong>We process your request within 7 business days.</strong>
+            We delete the records listed under <a href="#deleted">What gets deleted</a>
+            and reply by email to confirm once it is done.
+          </li>
+          <li>
+            <strong>Delete the data on your phone.</strong>
+            We cannot do this step for you, because your cards, lists and receipts
+            never leave your device. See <a href="#on-phone">the next section</a>.
+          </li>
+        </ol>
+
+        <div class="dd-note">
+          <p>
+            <strong>If you have never subscribed:</strong> your server record is tied only to a
+            random ID for one installation of the app. It is not linked to your name, email,
+            phone number or Google account, so without an order number we cannot tell which
+            record is yours. Uninstalling McCards deletes that ID from your phone. After that,
+            no one, including us, can connect the record to you, and it holds nothing but a
+            credit count, a request counter and two dates.
+          </p>
+        </div>
+
+        <h2 id="on-phone">Deleting the data on your phone</h2>
+        <ul>
+          <li><strong>One item at a time:</strong> delete any card, coupon, list or receipt in the
+            app. Its photos are deleted with it.</li>
+          <li><strong>Everything at once:</strong> uninstall McCards. This removes all of its data
+            from the phone.</li>
+          <li><strong>Want to keep a copy first?</strong> Use <strong>Settings → Back up everything</strong>
+            before you uninstall. The backup file is not encrypted, so keep it somewhere private.</li>
+        </ul>
+
+        <h2 id="deleted">What gets deleted</h2>
+        <p>When we process your request, we permanently delete:</p>
+        <ul>
+          <li>your <strong>anonymous Firebase Authentication account</strong>;</li>
+          <li>your <strong>AI usage record</strong>, including your remaining AI credits;</li>
+          <li>your <strong>subscription record</strong> and the link between your Google Play
+            purchase and your anonymous ID, if you have subscribed.</li>
+        </ul>
+        <p>
+          McCards does not keep your preferences, saved lists, cards, coupons or receipts in
+          the cloud, so there is no server copy of them to delete. They exist only on your
+          phone until you delete them there.
+        </p>
+        <p>
+          Deletion cannot be undone. If you install McCards again later, it starts a new,
+          unrelated anonymous record.
+        </p>
+
+        <h2 id="kept">What is kept, and for how long</h2>
+        <ul>
+          <li><strong>Server error logs</strong> that contain your anonymous ID are deleted
+            automatically 30 days after they are written. We do not delete them early.</li>
+          <li><strong>Google Play's purchase records</strong>, such as your order history and
+            payment details, are held by Google, not by us, under
+            <a href="https://policies.google.com/privacy" rel="noopener">Google's Privacy Policy</a>.
+            We never receive your payment details.</li>
+        </ul>
+        <p>We keep nothing else.</p>
+
+        <h2 id="contact">Questions</h2>
+        <p>
+          Email <a href="mailto:idatagear@gmail.com">idatagear@gmail.com</a> with any question
+          about your McCards data or about this page.
+        </p>
+      </article>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-bottom">
+        <p>&copy; <span id="year">2026</span> iDataGear Inc</p>
+        <div class="footer-links">
+          <a href="./">iDataGear</a><a href="privacy.html">Privacy</a><a href="mailto:idatagear@gmail.com">Contact</a>
+        </div>
+      </div>
+    </footer>
+    <script>
+    (function () {
+      var root = document.documentElement;
+      var toggle = document.querySelector('.theme-toggle');
+      if (toggle) {
+        toggle.addEventListener('click', function () {
+          var next = root.getAttribute('data-theme') === 'light' ? 'dark' : 'light';
+          root.setAttribute('data-theme', next);
+          try { localStorage.setItem('theme', next); } catch (e) {}
+        });
+      }
+      var y = document.getElementById('year');
+      if (y) { y.textContent = new Date().getFullYear(); }
+    })();
+    </script>
+  </body>
+</html>
