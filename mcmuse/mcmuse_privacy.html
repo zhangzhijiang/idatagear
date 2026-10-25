@@ -207,7 +207,7 @@
           <li>Signing in with Google is optional. If you do, your account's email address is kept with your credit balance, so your credits can follow you to a new phone.</li>
           <li>The app contains no analytics and no crash reporting.</li>
           <li>We do not sell your data, and we do not share it for advertising profiling.</li>
-          <li>Uninstalling the app removes what it stored on your device. The records we hold for your credits and purchases stay until you ask us to delete them.</li>
+          <li>Uninstalling the app removes what it stored on your device. To delete your account and what we hold for it, use <em>Settings › Account › Delete account</em> in the app, or write to us — see <em>Deleting your account</em>.</li>
           <li>Part 2 of this page is the terms of use for the app.</li>
         </ul>
         </div>
@@ -294,7 +294,7 @@
             </tbody>
           </table>
         </div>
-        <p><strong>What we hold on our side.</strong> For each account, a record under a random identifier: the credits remaining, and whether starter credits were granted. If you sign in with Google, Firebase Authentication also holds that account's email address, and the display name and profile-photo link Google supplies, which the app does not read. For each purchase, a record of the product, the credits granted, Google Play's purchase token and order number, and the account identifier. For each report, what is listed above. And the service's own operating logs, which note the account identifier, the style chosen, the size and cost of an artwork, and why a request failed or was refused — never the photo and never the artwork. Those logs are kept for a limited period in Google Cloud's logging service. None of it includes your photos.</p>
+        <p><strong>What we hold on our side.</strong> For each account, a record under a random identifier: the credits remaining, and whether starter credits were granted. If you sign in with Google, Firebase Authentication also holds that account's email address, and the display name and profile-photo link Google supplies, which the app does not read. For each purchase, a record of the product, the credits granted, Google Play's purchase token and order number, and the account identifier. For each Google account that has had its starter credits, a one-way hash of the identifier Google gives that account, recording only that they were given. For each report, what is listed above. And the service's own operating logs, which note the account identifier, the style chosen, the size and cost of an artwork, and why a request failed or was refused — never the photo and never the artwork. Those logs are kept for a limited period in Google Cloud's logging service. None of it includes your photos.</p>
         <p>Separately from the list above, anything you deliberately send — through the system share sheet, an export, a printout or the clipboard — goes wherever you send it. That is your choice each time, and it is not covered by the table above.</p>
         <h2 id="en-notdo">What the app does not do</h2>
         <p>For as long as this policy is the current one:</p>
@@ -371,12 +371,17 @@
         <h2 id="en-purchases">Purchases</h2>
         <p>Credits for making artworks are bought inside the app, in packs. The purchase is handled entirely by Google Play, which takes the payment and issues any refund.</p>
         <p>We never see your card number, billing address or any other payment detail. What reaches our service is the product bought, Google Play's purchase token and its order number, which we keep as the record of the purchase. If Google Play refunds a purchase, we take back the credits it granted.</p>
+        <h2 id="en-delete-account">Deleting your account</h2>
+        <p><strong>In the app.</strong> If you signed in with Google, open McMuse and go to <em>Settings › Account › Delete account</em>. Once you confirm, your account is deleted straight away: its email address, your credit balance, and the records that link it to the phones you used it on.</p>
+        <p><strong>Without the app.</strong> If McMuse is no longer installed, write to idatagear@gmail.com from the Google address you signed in with and ask us to delete your McMuse account. We will delete it within 30 days and reply to confirm. If you never signed in, there is no account of yours for us to find: the app's anonymous record holds only a credit balance under a random identifier, and nothing in it identifies you.</p>
+        <p><strong>What is lost.</strong> Credits left on the account are deleted with it and cannot be restored. Your artworks are not affected: they are on your device, not in your account — delete them in the app, or uninstall it.</p>
+        <p><strong>What we keep.</strong> Purchase records, which are our receipts and what stops one purchase being redeemed twice, for as long as the law requires us to keep transaction records; they hold a random identifier and Google Play's purchase token, and no name or email address. Reports, for as long as we need them to look for patterns of misuse. And a one-way hash of the identifier Google gives your Google account — not your email address — which records only that its starter credits were given, so that deleting an account and creating it again does not give them twice. The service's operating logs expire on their own after a limited period.</p>
         <h2 id="en-sharing">When you choose to share something</h2>
         <p>Sharing, exporting, printing and copying are always started by you. When you use one, the app hands the item to the destination you pick — another app, a contact, a folder, a printer — and what happens to it afterwards is governed by that destination, not by this policy.</p>
         <h2 id="en-retention">Keeping and deleting your data</h2>
         <p>Your artworks, tags and settings are kept on your device, so you control how long they last.</p>
         <p>Delete an artwork inside the app to remove it from McMuse. Uninstalling the app removes everything the app stored in its private storage. Copies already added to your photo library are separate files and stay there until you delete them in your photo library.</p>
-        <p><strong>Deleting what we hold.</strong> The records described above are kept for as long as your account exists, because they are what makes your remaining credits remaining credits. Uninstalling the app does not remove them. If you signed in with Google, write to idatagear@gmail.com from that address and we will delete your balance, your account and its email address. An account you never signed in to cannot be found, because nothing in it identifies you; it holds only a credit balance. <strong>Purchase records are the exception.</strong> They are our receipts, and what stops one purchase being redeemed twice, so we keep them for as long as the law requires us to keep transaction records. They hold a random identifier and Google Play's purchase token, and no name or email address. Reports are kept for as long as we need them to look for patterns of misuse. Your photos are not part of any of this: they are never written down on our side, so there is nothing of them to keep or to delete.</p>
+        <p><strong>How long we keep it.</strong> The records described above are kept for as long as your account exists, because they are what makes your remaining credits remaining credits. Uninstalling the app does not remove them; deleting your account does. How to do that, and what is deleted and what is kept, is under <em>Deleting your account</em> above. An account you never signed in to cannot be found, because nothing in it identifies you; it holds only a credit balance. Your photos are not part of any of this: they are never written down on our side, so there is nothing of them to keep or to delete.</p>
         <h2 id="en-rights">Your rights</h2>
         <p>Under the GDPR, the UK GDPR, the CCPA as amended by the CPRA, Canada's PIPEDA and comparable laws elsewhere, you have rights over personal information held about you — to know what is held, to obtain a copy, to correct it, to have it deleted, and to object to or restrict its use.</p>
         <p>For the data on your device those rights are already met by the design: you can read, change, export and delete it in the app. For the records we hold on our side, write to idatagear@gmail.com and we will tell you what is held, correct it, or delete it, subject to the exception for purchase records described above.</p>
@@ -446,7 +451,7 @@
           <li>使用 Google 账号登录是可选的。如果你登录，该账号的邮箱地址会和你的积分余额保存在一起，这样你的积分就能跟着你换到新手机上。</li>
           <li>应用不含使用统计，也不含崩溃报告。</li>
           <li>我们不出售你的数据，也不会为广告画像而共享它。</li>
-          <li>卸载应用会删除它保存在你设备上的内容。我们为你的积分和购买保存的记录会一直保留，直到你要求我们删除。</li>
+          <li>卸载应用会删除它保存在你设备上的内容。要删除你的账号以及我们为它保存的记录，请在应用内使用<em>设置 › 账号 › 删除账号</em>，或写信给我们——详见「删除你的账号」。</li>
           <li>本页第二部分是应用的使用条款。</li>
         </ul>
         </div>
@@ -533,7 +538,7 @@
             </tbody>
           </table>
         </div>
-        <p><strong>我们这边保存了什么。</strong>每个账号一条记录，以随机标识为键：剩余的积分数，以及初始积分是否已发放。如果你使用 Google 账号登录，Firebase 身份验证还会保存该账号的邮箱地址，以及 Google 提供的显示名称和头像链接（应用不会读取这两项）。每笔购买一条记录：所购商品、发放的积分数、Google Play 的购买令牌和订单号，以及账号标识。每次举报则是上文所列的内容。此外还有服务自身的运行日志，其中记录账号标识、所选风格、作品的尺寸和消耗的积分，以及请求失败或被拒绝的原因——绝不包含照片，也绝不包含作品。这些日志在 Google Cloud 的日志服务中保留一段有限的时间。以上所有内容都不包含你的照片。</p>
+        <p><strong>我们这边保存了什么。</strong>每个账号一条记录，以随机标识为键：剩余的积分数，以及初始积分是否已发放。如果你使用 Google 账号登录，Firebase 身份验证还会保存该账号的邮箱地址，以及 Google 提供的显示名称和头像链接（应用不会读取这两项）。每笔购买一条记录：所购商品、发放的积分数、Google Play 的购买令牌和订单号，以及账号标识。每个已领取过初始积分的 Google 账号，保存一个由 Google 为该账号分配的标识计算出的单向哈希值，只记录初始积分已经发放过。每次举报则是上文所列的内容。此外还有服务自身的运行日志，其中记录账号标识、所选风格、作品的尺寸和消耗的积分，以及请求失败或被拒绝的原因——绝不包含照片，也绝不包含作品。这些日志在 Google Cloud 的日志服务中保留一段有限的时间。以上所有内容都不包含你的照片。</p>
         <p>上表之外，凡是你主动发送的内容——通过系统分享面板、导出、打印或剪贴板——都会去到你指定的地方。那是你每一次自己的选择，不在上表的范围内。</p>
         <h2 id="zh-Hans-notdo">应用不会做的事</h2>
         <p>在本政策为现行版本期间：</p>
@@ -610,12 +615,17 @@
         <h2 id="zh-Hans-purchases">购买</h2>
         <p>绘制作品所需的积分在应用内按包购买。购买完全由 Google Play 处理，由它收款并办理任何退款。</p>
         <p>我们从不会看到你的银行卡号、账单地址或任何其他支付信息。到达我们服务的只有所购商品、Google Play 的购买令牌和订单号，我们把它们保存下来，作为这笔购买的记录。如果 Google Play 退还了某笔购买，我们会收回它所发放的积分。</p>
+        <h2 id="zh-Hans-delete-account">删除你的账号</h2>
+        <p><strong>在应用内删除。</strong>如果你使用过 Google 账号登录，请打开 McMuse，进入<em>设置 › 账号 › 删除账号</em>。确认后，你的账号会立即被删除：包括其邮箱地址、你的积分余额，以及把它与你用过的手机关联起来的记录。</p>
+        <p><strong>不通过应用删除。</strong>如果你已不再安装 McMuse，请用你登录时使用的 Google 邮箱写信到 idatagear@gmail.com，要求删除你的 McMuse 账号。我们会在 30 天内删除它，并回信确认。如果你从未登录过，我们就找不到属于你的账号：应用的匿名记录只在一个随机标识下保存一笔积分余额，其中没有任何可识别你的信息。</p>
+        <p><strong>会失去什么。</strong>账号中剩余的积分会随账号一并删除，无法恢复。你的作品不受影响：它们保存在你的设备上，而不在你的账号里——可以在应用内删除，或卸载应用。</p>
+        <p><strong>我们会保留什么。</strong>购买记录：它们是我们的收据，也是防止同一笔购买被兑换两次的依据，我们会在法律要求保存交易记录的期限内保留它们；其中只有一个随机标识和 Google Play 的购买令牌，没有姓名，也没有邮箱地址。举报：保留到我们不再需要它们来查找滥用模式为止。此外还有 Google 为你的 Google 账号分配的标识的单向哈希值——不是你的邮箱地址——它只记录该账号的初始积分已经发放过，这样删除账号后再重新创建也不会再次发放。服务的运行日志会在一段有限的时间后自动过期。</p>
         <h2 id="zh-Hans-sharing">当你主动分享时</h2>
         <p>分享、导出、打印和复制永远由你发起。当你使用其中任何一项时，应用会把该内容交给你选定的目的地——另一个应用、一位联系人、一个文件夹、一台打印机——此后它的去向由那个目的地决定，不再受本政策约束。</p>
         <h2 id="zh-Hans-retention">数据的保存与删除</h2>
         <p>你的作品、标签和设置都保存在你的设备上，所以它们保留多久由你决定。</p>
         <p>在应用内删除一幅作品，即可把它从 McMuse 中移除。卸载应用会删除应用保存在其私有存储区的全部内容。已经添加到你相册中的副本是独立的文件，会一直留在那里，直到你在相册中删除它们。</p>
-        <p><strong>删除我们保存的内容。</strong>上述记录会在你的账号存续期间一直保留，因为正是它们让你剩下的积分成其为剩下的积分。卸载应用不会删除它们。如果你使用过 Google 账号登录，请用该邮箱写信到 idatagear@gmail.com，我们会删除你的余额、你的账号及其邮箱地址。从未登录过的账号我们无从找到，因为其中没有任何可识别你的信息，里面只有一笔积分余额。<strong>购买记录是例外。</strong>它们是我们的收据，也是防止同一笔购买被兑换两次的依据，所以我们会在法律要求保存交易记录的期限内保留它们。其中只有一个随机标识和 Google Play 的购买令牌，没有姓名，也没有邮箱地址。举报会保留到我们不再需要它们来查找滥用模式为止。你的照片不在其中：它们从未被记录在我们这边，所以没有什么可保留，也没有什么可删除。</p>
+        <p><strong>我们保存多久。</strong>上述记录会在你的账号存续期间一直保留，因为正是它们让你剩下的积分成其为剩下的积分。卸载应用不会删除它们；删除账号会。如何删除、删除什么、保留什么，见上文「删除你的账号」。从未登录过的账号我们无从找到，因为其中没有任何可识别你的信息，里面只有一笔积分余额。你的照片不在其中：它们从未被记录在我们这边，所以没有什么可保留，也没有什么可删除。</p>
         <h2 id="zh-Hans-rights">你的权利</h2>
         <p>根据 GDPR、英国 GDPR、经 CPRA 修订的 CCPA、加拿大 PIPEDA 以及其他地区的同类法律，你对与你有关的个人信息享有权利——知晓持有了什么、获取副本、更正、要求删除，以及反对或限制其使用。</p>
         <p>对于你设备上的数据，这些权利已经由设计本身满足：你可以在应用里查看、修改、导出和删除。对于我们这边保存的记录，请写信到 idatagear@gmail.com，我们会告知你保存了什么，并按你的要求更正或删除，但上文所述的购买记录例外。</p>
@@ -685,7 +695,7 @@
           <li>使用 Google 帳號登入是選用的。如果你登入，該帳號的電子郵件地址會和你的點數餘額保存在一起，這樣你的點數就能跟著你換到新手機上。</li>
           <li>App 不含使用統計，也不含當機報告。</li>
           <li>我們不出售你的資料，也不會為廣告輪廓而分享它。</li>
-          <li>移除 App 會刪除它儲存在你裝置上的內容。我們為你的點數和購買保存的記錄會一直保留，直到你要求我們刪除。</li>
+          <li>移除 App 會刪除它儲存在你裝置上的內容。要刪除你的帳號以及我們為它保存的記錄，請在 App 內使用<em>設定 › 帳號 › 刪除帳號</em>，或來信給我們——詳見「刪除你的帳號」。</li>
           <li>本頁第二部分是 App 的使用條款。</li>
         </ul>
         </div>
@@ -772,7 +782,7 @@
             </tbody>
           </table>
         </div>
-        <p><strong>我們這邊保存了什麼。</strong>每個帳號一筆記錄，以隨機識別碼為鍵：剩餘的點數，以及起始點數是否已發放。如果你使用 Google 帳號登入，Firebase 驗證還會保存該帳號的電子郵件地址，以及 Google 提供的顯示名稱和大頭貼連結（App 不會讀取這兩項）。每筆購買一筆記錄：所購商品、發放的點數、Google Play 的購買權杖和訂單編號，以及帳號識別碼。每次檢舉則是上文所列的內容。此外還有服務自身的運作記錄檔，其中記載帳號識別碼、所選風格、作品的尺寸和消耗的點數，以及請求失敗或被拒絕的原因——絕不包含照片，也絕不包含作品。這些記錄檔在 Google Cloud 的記錄服務中保留一段有限的時間。以上所有內容都不包含你的照片。</p>
+        <p><strong>我們這邊保存了什麼。</strong>每個帳號一筆記錄，以隨機識別碼為鍵：剩餘的點數，以及起始點數是否已發放。如果你使用 Google 帳號登入，Firebase 驗證還會保存該帳號的電子郵件地址，以及 Google 提供的顯示名稱和大頭貼連結（App 不會讀取這兩項）。每筆購買一筆記錄：所購商品、發放的點數、Google Play 的購買權杖和訂單編號，以及帳號識別碼。每個已領取過起始點數的 Google 帳號，保存一個由 Google 為該帳號分配的識別碼計算出的單向雜湊值，只記錄起始點數已經發放過。每次檢舉則是上文所列的內容。此外還有服務自身的運作記錄檔，其中記載帳號識別碼、所選風格、作品的尺寸和消耗的點數，以及請求失敗或被拒絕的原因——絕不包含照片，也絕不包含作品。這些記錄檔在 Google Cloud 的記錄服務中保留一段有限的時間。以上所有內容都不包含你的照片。</p>
         <p>上表之外，凡是你主動送出的內容——透過系統分享面板、匯出、列印或剪貼簿——都會到你指定的地方。那是你每一次自己的選擇，不在上表的範圍內。</p>
         <h2 id="zh-Hant-notdo">App 不會做的事</h2>
         <p>在本政策為現行版本期間：</p>
@@ -849,12 +859,17 @@
         <h2 id="zh-Hant-purchases">購買</h2>
         <p>繪製作品所需的點數在 App 內按包購買。購買完全由 Google Play 處理，由它收款並辦理任何退款。</p>
         <p>我們從不會看到你的信用卡號、帳單地址或任何其他付款資訊。到達我們服務的只有所購商品、Google Play 的購買權杖和訂單編號，我們把它們保存下來，作為這筆購買的記錄。如果 Google Play 退還了某筆購買，我們會收回它所發放的點數。</p>
+        <h2 id="zh-Hant-delete-account">刪除你的帳號</h2>
+        <p><strong>在 App 內刪除。</strong>如果你使用過 Google 帳號登入，請開啟 McMuse，前往<em>設定 › 帳號 › 刪除帳號</em>。確認後，你的帳號會立即被刪除：包括其電子郵件地址、你的點數餘額，以及把它與你用過的手機關聯起來的記錄。</p>
+        <p><strong>不透過 App 刪除。</strong>如果你已不再安裝 McMuse，請用你登入時使用的 Google 電子郵件地址來信至 idatagear@gmail.com，要求刪除你的 McMuse 帳號。我們會在 30 天內刪除它，並回信確認。如果你從未登入過，我們就找不到屬於你的帳號：App 的匿名記錄只在一個隨機識別碼下保存一筆點數餘額，其中沒有任何可識別你的資訊。</p>
+        <p><strong>會失去什麼。</strong>帳號中剩餘的點數會隨帳號一併刪除，無法復原。你的作品不受影響：它們儲存在你的裝置上，而不在你的帳號裡——可以在 App 內刪除，或移除 App。</p>
+        <p><strong>我們會保留什麼。</strong>購買記錄：它們是我們的收據，也是防止同一筆購買被兌換兩次的依據，我們會在法律要求保存交易記錄的期限內保留它們；其中只有一個隨機識別碼和 Google Play 的購買權杖，沒有姓名，也沒有電子郵件地址。檢舉：保留到我們不再需要它們來查找濫用模式為止。此外還有 Google 為你的 Google 帳號分配的識別碼的單向雜湊值——不是你的電子郵件地址——它只記錄該帳號的起始點數已經發放過，這樣刪除帳號後再重新建立也不會再次發放。服務的運作記錄檔會在一段有限的時間後自動過期。</p>
         <h2 id="zh-Hant-sharing">當你主動分享時</h2>
         <p>分享、匯出、列印和複製永遠由你發起。當你使用其中任何一項時，App 會把該內容交給你選定的目的地——另一個 App、一位聯絡人、一個資料夾、一台印表機——此後它的去向由那個目的地決定，不再受本政策拘束。</p>
         <h2 id="zh-Hant-retention">資料的保存與刪除</h2>
         <p>你的作品、標籤和設定都儲存在你的裝置上，所以它們保留多久由你決定。</p>
         <p>在 App 內刪除一幅作品，即可把它從 McMuse 中移除。移除 App 會刪除 App 儲存在其專屬儲存區的全部內容。已經加入你相簿中的副本是獨立的檔案，會一直留在那裡，直到你在相簿中刪除它們。</p>
-        <p><strong>刪除我們保存的內容。</strong>上述記錄會在你的帳號存續期間一直保留，因為正是它們讓你剩下的點數成其為剩下的點數。移除 App 不會刪除它們。如果你使用過 Google 帳號登入，請用該電子郵件地址來信至 idatagear@gmail.com，我們會刪除你的餘額、你的帳號及其電子郵件地址。從未登入過的帳號我們無從找到，因為其中沒有任何可識別你的資訊，裡面只有一筆點數餘額。<strong>購買記錄是例外。</strong>它們是我們的收據，也是防止同一筆購買被兌換兩次的依據，所以我們會在法律要求保存交易記錄的期限內保留它們。其中只有一個隨機識別碼和 Google Play 的購買權杖，沒有姓名，也沒有電子郵件地址。檢舉會保留到我們不再需要它們來查找濫用模式為止。你的照片不在其中：它們從未被記錄在我們這邊，所以沒有什麼可保留，也沒有什麼可刪除。</p>
+        <p><strong>我們保存多久。</strong>上述記錄會在你的帳號存續期間一直保留，因為正是它們讓你剩下的點數成其為剩下的點數。移除 App 不會刪除它們；刪除帳號會。如何刪除、刪除什麼、保留什麼，見上文「刪除你的帳號」。從未登入過的帳號我們無從找到，因為其中沒有任何可識別你的資訊，裡面只有一筆點數餘額。你的照片不在其中：它們從未被記錄在我們這邊，所以沒有什麼可保留，也沒有什麼可刪除。</p>
         <h2 id="zh-Hant-rights">你的權利</h2>
         <p>依據 GDPR、英國 GDPR、經 CPRA 修訂的 CCPA、加拿大 PIPEDA 以及其他地區的同類法律，你對與你有關的個人資料享有權利——知悉持有了什麼、取得副本、更正、要求刪除，以及反對或限制其利用。</p>
         <p>對於你裝置上的資料，這些權利已經由設計本身滿足：你可以在 App 裡檢視、修改、匯出和刪除。對於我們這邊保存的記錄，請來信至 idatagear@gmail.com，我們會告知你保存了什麼，並依你的要求更正或刪除，但上文所述的購買記錄例外。</p>
