@@ -203,7 +203,7 @@
             <tbody>
               <tr>
                 <td><a href="#es-mcmuse">McMuse</a></td>
-                <td>Android</td>
+                <td>Android, iOS</td>
                 <td><a href="mcmuse/mcmuse_privacy.html">Abrir</a></td>
               </tr>
               <tr>
@@ -264,7 +264,7 @@
         <p>iDataGear Inc es una sociedad constituida en Columbia Británica, Canadá. Publica las aplicaciones enumeradas arriba y el sitio web https://www.idatagear.com. Cuando esta página dice <strong>nosotros</strong>, se refiere a iDataGear Inc.</p>
         <p>No hay cuenta que crear ni registro que completar. No operamos ningún servidor que reciba tu contenido y no tenemos ninguna base de datos en la que figures.</p>
         <h2 id="es-mcmuse">McMuse</h2>
-        <p>McMuse convierte una foto que ya tienes en una obra de arte, en el estilo artístico que elijas. El renderizado lo realiza el modelo de imagen Gemini de Google; la obra vuelve a tu teléfono y se guarda allí. Funciona en Android.</p>
+        <p>McMuse convierte una foto que ya tienes en una obra de arte, en el estilo artístico que elijas. El renderizado lo realiza el modelo de imagen Gemini de Google; la obra vuelve a tu teléfono y se guarda allí. Funciona en iPhone y Android.</p>
         <h3 id="es-mcmuse-stores">Qué guarda la aplicación en tu dispositivo</h3>
         <p>La aplicación escribe lo siguiente en el almacenamiento privado de tu dispositivo, una zona que otras aplicaciones no pueden leer. Permanece ahí hasta que lo borres tú o desinstales la aplicación.</p>
         <div class="pp-tablewrap">
@@ -316,19 +316,19 @@
                 <td>Para generar la obra y devolverla. La foto solo se conserva durante la petición y no se escribe en ningún disco nuestro. La ubicación y todas las demás etiquetas EXIF se eliminan antes de que la foto salga de tu dispositivo.</td>
               </tr>
               <tr>
-                <td>An account identifier, and your Google email address if you sign in</td>
+                <td>An account identifier, and the email address of the Apple or Google account you sign in with, if you do</td>
                 <td>Google Firebase Authentication and Firestore</td>
-                <td>To hold your credit balance. The identifier is random. If you choose to sign in with Google, Firebase also keeps that account's email address, plus the display name and profile-photo link Google supplies, which the app does not read, so your credits can follow you to a new phone. Firebase also assigns an installation identifier.</td>
+                <td>To hold your credit balance. The identifier is random. If you choose to sign in, Firebase also keeps that account's email address, so your credits can follow you to a new phone. With Sign in with Apple, McMuse asks Apple for the email address only, never your name, and if you choose Hide My Email it is a private relay address Apple makes for McMuse. With Google, Firebase also keeps the display name and profile-photo link Google supplies, which the app does not read. Firebase also assigns an installation identifier.</td>
               </tr>
               <tr>
-                <td>Un token de atestación del dispositivo</td>
-                <td>Google Play Integrity, a través de Firebase App Check</td>
-                <td>Para demostrar que la petición procede de una instalación genuina de esta app y no de un script.</td>
+                <td>A device attestation token</td>
+                <td>Google Play Integrity on Android, Apple's App Attest on iPhone, through Firebase App Check</td>
+                <td>To show a request came from a genuine installation of this app rather than from a script.</td>
               </tr>
               <tr>
                 <td>The purchase details, when you buy credits</td>
-                <td>iDataGear's McMuse service, which checks them with Google Play</td>
-                <td>To confirm the purchase is genuine, add the credits, and make sure one purchase can never be redeemed twice. What is sent is the product, Google Play's purchase token and its order number. No card number, name or billing address is sent.</td>
+                <td>iDataGear's McMuse service, which checks them with the store you bought from: Apple's App Store or Google Play</td>
+                <td>To confirm the purchase is genuine, add the credits, and make sure one purchase can never be redeemed twice. On Android, what is sent is the product, Google Play's purchase token and its order number. On iPhone, it is the transaction Apple signed: the product, Apple's transaction identifiers, and whether it was a test purchase. No card number, name or billing address is sent.</td>
               </tr>
               <tr>
                 <td>A report, when you flag an artwork</td>
@@ -343,12 +343,12 @@
             </tbody>
           </table>
         </div>
-        <p><strong>What we hold on our side.</strong> For each account, a record under a random identifier: the credits remaining, and whether starter credits were granted. If you sign in with Google, Firebase Authentication also holds that account's email address, and the display name and profile-photo link Google supplies, which the app does not read. For each purchase, a record of the product, the credits granted, Google Play's purchase token and order number, and the account identifier. For each Google account that has had its starter credits, a one-way hash of the identifier Google gives that account, recording only that they were given. For each report, what is listed above. And the service's own operating logs, which note the account identifier, the style chosen, the size and cost of an artwork, and why a request failed or was refused — never the photo and never the artwork. Those logs are kept for a limited period in Google Cloud's logging service. None of it includes your photos.</p>
+        <p><strong>What we hold on our side.</strong> For each account, a record under a random identifier: the credits remaining, and whether starter credits were granted. If you sign in, Firebase Authentication also holds that account's email address: with Google, also the display name and profile-photo link Google supplies, which the app does not read; with Apple, the identifier Apple gives you for McMuse, and never your name. For each purchase, a record of the product, the credits granted, the store's reference for it — Google Play's purchase token and order number, or Apple's transaction identifiers and whether it was a test purchase — and the account identifier. For each Apple or Google account that has had its starter credits, a one-way hash of the identifier that service gives the account, recording only that they were given. For each report, what is listed above. And the service's own operating logs, which note the account identifier, the style chosen, the size and cost of an artwork, and why a request failed or was refused — never the photo and never the artwork. Those logs are kept for a limited period in Google Cloud's logging service. None of it includes your photos.</p>
         <p>Al margen de la tabla anterior, todo lo que envíes deliberadamente —por el menú de compartir del sistema, una exportación, una impresión o el portapapeles— va adonde tú lo mandes. Esa es tu decisión cada vez, y queda fuera de la tabla.</p>
         <h3 id="es-mcmuse-notdo">Lo que la aplicación no hace</h3>
         <p>Mientras esta política sea la vigente:</p>
         <ul>
-          <li>You do not need an account to use the app. Signing in with Google is optional and exists so your credits can follow you to a new phone; the app never asks for a password, a profile or your name.</li>
+          <li>You do not need an account to use the app. Signing in with Apple or Google is optional and exists so your credits can follow you to a new phone; the app never asks for a password, a profile or your name.</li>
           <li>No almacenamos tu foto ni tu obra en ningún servidor. La foto pasa de largo para ser renderizada; la obra vuelve directamente a tu dispositivo.</li>
           <li>Tus fotos no se usan para entrenar ningún modelo nuestro, y no pedimos a Google que las use para entrenar.</li>
           <li>No vendemos tu información personal ni la compartimos para publicidad conductual de contexto cruzado.</li>
@@ -403,13 +403,28 @@
                 <td>No se solicita. Elegir una foto usa el selector de fotos de Android, que entrega únicamente el elemento que seleccionas.</td>
               </tr>
               <tr>
+                <td>Camera</td>
+                <td>iPhone</td>
+                <td>Asked the first time you choose Camera, so you can take the photo to turn into art. McMuse receives only the picture you keep.</td>
+              </tr>
+              <tr>
+                <td>Photo library</td>
+                <td>iPhone</td>
+                <td>To read the photo you choose in Apple's photo picker. McMuse reads only the photos you select, never the rest of your library.</td>
+              </tr>
+              <tr>
+                <td>Add to photo library</td>
+                <td>iPhone</td>
+                <td>Add-only access, asked the first time a new artwork is saved while Save artwork to Photos is on. It lets McMuse add pictures to your library, not see what is in it.</td>
+              </tr>
+              <tr>
                 <td>Location</td>
-                <td>Android</td>
+                <td>Android, iPhone</td>
                 <td>Not requested.</td>
               </tr>
               <tr>
                 <td>Microphone</td>
-                <td>Android</td>
+                <td>Android, iPhone</td>
                 <td>Not requested.</td>
               </tr>
             </tbody>
@@ -418,13 +433,13 @@
         <h3 id="es-mcmuse-telemetry">Estadísticas de uso e informes de fallos</h3>
         <p>Esta versión de la aplicación no incluye ningún SDK de estadísticas ni de informes de fallos. No recibimos de ella ninguna estadística de uso, ningún informe de fallo ni ningún dato de diagnóstico.</p>
         <h3 id="es-mcmuse-purchases">Purchases</h3>
-        <p>Credits for making artworks are bought inside the app, in packs. The purchase is handled entirely by Google Play, which takes the payment and issues any refund.</p>
-        <p>We never see your card number, billing address or any other payment detail. What reaches our service is the product bought, Google Play's purchase token and its order number, which we keep as the record of the purchase. If Google Play refunds a purchase, we take back the credits it granted.</p>
+        <p>Credits for making artworks are bought inside the app, in packs. The purchase is handled entirely by the store you bought from — Apple's App Store on iPhone, Google Play on Android — which takes the payment and issues any refund.</p>
+        <p>We never see your card number, billing address or any other payment detail. What reaches our service is the product bought and the store's reference for the purchase — Google Play's purchase token and order number, or the transaction Apple signed, with its identifiers — which we keep as the record of the purchase. If the store refunds a purchase, we take back the credits it granted.</p>
         <h3 id="es-mcmuse-delete-account">Deleting your account</h3>
-        <p><strong>In the app.</strong> If you signed in with Google, open McMuse and go to <em>Settings › Account › Delete account</em>. Once you confirm, your account is deleted straight away: its email address, your credit balance, and the records that link it to the phones you used it on.</p>
-        <p><strong>Without the app.</strong> If McMuse is no longer installed, write to idatagear@gmail.com from the Google address you signed in with and ask us to delete your McMuse account. We will delete it within 30 days and reply to confirm. If you never signed in, there is no account of yours for us to find: the app's anonymous record holds only a credit balance under a random identifier, and nothing in it identifies you.</p>
+        <p><strong>In the app.</strong> If you signed in with Apple or Google, open McMuse and go to <em>Settings › Account › Delete account</em>. If you signed in with Apple, Apple asks you to confirm first, and McMuse's access to your Apple account is revoked before anything is deleted. Once you confirm, your account is deleted straight away: its email address, your credit balance, and the records that link it to the phones you used it on.</p>
+        <p><strong>Without the app.</strong> If McMuse is no longer installed, write to idatagear@gmail.com from the email address of the Apple or Google account you signed in with and ask us to delete your McMuse account. If you used Apple's Hide My Email, tell us the relay address; you can find it in your Apple account's Sign in with Apple settings. We will delete it within 30 days and reply to confirm. If you never signed in, there is no account of yours for us to find: the app's anonymous record holds only a credit balance under a random identifier, and nothing in it identifies you.</p>
         <p><strong>What is lost.</strong> Credits left on the account are deleted with it and cannot be restored. Your artworks are not affected: they are on your device, not in your account — delete them in the app, or uninstall it.</p>
-        <p><strong>What we keep.</strong> Purchase records, which are our receipts and what stops one purchase being redeemed twice, for as long as the law requires us to keep transaction records; they hold a random identifier and Google Play's purchase token, and no name or email address. Reports, for as long as we need them to look for patterns of misuse. And a one-way hash of the identifier Google gives your Google account — not your email address — which records only that its starter credits were given, so that deleting an account and creating it again does not give them twice. The service's operating logs expire on their own after a limited period.</p>
+        <p><strong>What we keep.</strong> Purchase records, which are our receipts and what stops one purchase being redeemed twice, for as long as the law requires us to keep transaction records; they hold a random identifier and the store's reference for the purchase, and no name or email address. Reports, for as long as we need them to look for patterns of misuse. And a one-way hash of the identifier Apple or Google gives your account — not your email address — which records only that its starter credits were given, so that deleting an account and creating it again does not give them twice. The service's operating logs expire on their own after a limited period.</p>
         <h2 id="es-learncantonese">Learn Cantonese</h2>
         <p>Learn Cantonese enseña cantonés hablado y escrito con lecciones, un diccionario de argot de Hong Kong y práctica de pronunciación en voz alta. Funciona en iPhone, iPad, Mac y Android. Tu progreso vive en el dispositivo que estés usando.</p>
         <h3 id="es-learncantonese-stores">Qué guarda la aplicación en tu dispositivo</h3>

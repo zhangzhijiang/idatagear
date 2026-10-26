@@ -184,7 +184,7 @@
         <img src="../assets/img/mcmuse-app-icon.png" alt="McMuse Privacy Policy &amp; Terms of Use" width="76" height="76">
         <h1>McMuse Privacy Policy &amp; Terms of Use</h1>
         <p class="pp-sub">Your photos to art</p>
-        <p class="pp-date">Last updated: 18 October 2026</p>
+        <p class="pp-date">Last updated: 25 October 2026</p>
         <div class="pp-langs" role="group" aria-label="Choose a language">
           <button type="button" data-setlang="en" lang="en">English</button>
           <button type="button" data-setlang="zh-Hans" lang="zh-Hans">简体中文</button>
@@ -204,7 +204,7 @@
           <li>The artworks you make are kept on your device.</li>
           <li>The photo you choose is sent to be rendered by Google's Gemini and is not stored by us.</li>
           <li>You are asked before the first artwork, and can withdraw at any time in Settings.</li>
-          <li>Signing in with Google is optional. If you do, your account's email address is kept with your credit balance, so your credits can follow you to a new phone.</li>
+          <li>Signing in with Apple or Google is optional. If you do, your account's email address is kept with your credit balance, so your credits can follow you to a new phone.</li>
           <li>The app contains no analytics and no crash reporting.</li>
           <li>We do not sell your data, and we do not share it for advertising profiling.</li>
           <li>Uninstalling the app removes what it stored on your device. To delete your account and what we hold for it, use <em>Settings › Account › Delete account</em> in the app, or write to us — see <em>Deleting your account</em>.</li>
@@ -213,9 +213,9 @@
         </div>
         <h2 class="pp-part">Part 1 — Privacy Policy</h2>
         <h2 id="en-who">Who we are</h2>
-        <p>McMuse turns a photo you already have into a piece of art, in the art style you choose. The rendering is done by Google's Gemini image model; the artwork comes back to your phone and is kept there. It runs on Android.</p>
+        <p>McMuse turns a photo you already have into a piece of art, in the art style you choose. The rendering is done by Google's Gemini image model; the artwork comes back to your phone and is kept there. It runs on iPhone and Android.</p>
         <p>McMuse is published by iDataGear Inc, a company incorporated in British Columbia, Canada. Where this policy says <strong>we</strong> or <strong>us</strong>, it means iDataGear Inc.</p>
-        <p>McMuse runs one service of its own: it receives the photo you choose, has it rendered, and returns the artwork. It writes no photo and no artwork to any disk of ours. You do not need an account to use the app, and signing in with Google is optional. What we keep on our side is described under <em>What we hold on our side</em> below.</p>
+        <p>McMuse runs one service of its own: it receives the photo you choose, has it rendered, and returns the artwork. It writes no photo and no artwork to any disk of ours. You do not need an account to use the app, and signing in with Apple or Google is optional. What we keep on our side is described under <em>What we hold on our side</em> below.</p>
         <h2 id="en-stores">What the app keeps on your device</h2>
         <p>The app writes the following to private storage on your device — an area other apps cannot read. It stays there until you delete it or uninstall the app.</p>
         <div class="pp-tablewrap">
@@ -267,19 +267,19 @@
                 <td>To render the artwork and send it back. The photo is held only for the length of the request and is written to no disk of ours. Location and every other EXIF tag is removed before the photo leaves your device.</td>
               </tr>
               <tr>
-                <td>An account identifier, and your Google email address if you sign in</td>
+                <td>An account identifier, and the email address of the Apple or Google account you sign in with, if you do</td>
                 <td>Google Firebase Authentication and Firestore</td>
-                <td>To hold your credit balance. The identifier is random. If you choose to sign in with Google, Firebase also keeps that account's email address, plus the display name and profile-photo link Google supplies, which the app does not read, so your credits can follow you to a new phone. Firebase also assigns an installation identifier.</td>
+                <td>To hold your credit balance. The identifier is random. If you choose to sign in, Firebase also keeps that account's email address, so your credits can follow you to a new phone. With Sign in with Apple, McMuse asks Apple for the email address only, never your name, and if you choose Hide My Email it is a private relay address Apple makes for McMuse. With Google, Firebase also keeps the display name and profile-photo link Google supplies, which the app does not read. Firebase also assigns an installation identifier.</td>
               </tr>
               <tr>
                 <td>A device attestation token</td>
-                <td>Google Play Integrity, through Firebase App Check</td>
+                <td>Google Play Integrity on Android, Apple's App Attest on iPhone, through Firebase App Check</td>
                 <td>To show a request came from a genuine installation of this app rather than from a script.</td>
               </tr>
               <tr>
                 <td>The purchase details, when you buy credits</td>
-                <td>iDataGear's McMuse service, which checks them with Google Play</td>
-                <td>To confirm the purchase is genuine, add the credits, and make sure one purchase can never be redeemed twice. What is sent is the product, Google Play's purchase token and its order number. No card number, name or billing address is sent.</td>
+                <td>iDataGear's McMuse service, which checks them with the store you bought from: Apple's App Store or Google Play</td>
+                <td>To confirm the purchase is genuine, add the credits, and make sure one purchase can never be redeemed twice. On Android, what is sent is the product, Google Play's purchase token and its order number. On iPhone, it is the transaction Apple signed: the product, Apple's transaction identifiers, and whether it was a test purchase. No card number, name or billing address is sent.</td>
               </tr>
               <tr>
                 <td>A report, when you flag an artwork</td>
@@ -294,12 +294,12 @@
             </tbody>
           </table>
         </div>
-        <p><strong>What we hold on our side.</strong> For each account, a record under a random identifier: the credits remaining, and whether starter credits were granted. If you sign in with Google, Firebase Authentication also holds that account's email address, and the display name and profile-photo link Google supplies, which the app does not read. For each purchase, a record of the product, the credits granted, Google Play's purchase token and order number, and the account identifier. For each Google account that has had its starter credits, a one-way hash of the identifier Google gives that account, recording only that they were given. For each report, what is listed above. And the service's own operating logs, which note the account identifier, the style chosen, the size and cost of an artwork, and why a request failed or was refused — never the photo and never the artwork. Those logs are kept for a limited period in Google Cloud's logging service. None of it includes your photos.</p>
+        <p><strong>What we hold on our side.</strong> For each account, a record under a random identifier: the credits remaining, and whether starter credits were granted. If you sign in, Firebase Authentication also holds that account's email address: with Google, also the display name and profile-photo link Google supplies, which the app does not read; with Apple, the identifier Apple gives you for McMuse, and never your name. For each purchase, a record of the product, the credits granted, the store's reference for it — Google Play's purchase token and order number, or Apple's transaction identifiers and whether it was a test purchase — and the account identifier. For each Apple or Google account that has had its starter credits, a one-way hash of the identifier that service gives the account, recording only that they were given. For each report, what is listed above. And the service's own operating logs, which note the account identifier, the style chosen, the size and cost of an artwork, and why a request failed or was refused — never the photo and never the artwork. Those logs are kept for a limited period in Google Cloud's logging service. None of it includes your photos.</p>
         <p>Separately from the list above, anything you deliberately send — through the system share sheet, an export, a printout or the clipboard — goes wherever you send it. That is your choice each time, and it is not covered by the table above.</p>
         <h2 id="en-notdo">What the app does not do</h2>
         <p>For as long as this policy is the current one:</p>
         <ul>
-          <li>You do not need an account to use the app. Signing in with Google is optional and exists so your credits can follow you to a new phone; the app never asks for a password, a profile or your name.</li>
+          <li>You do not need an account to use the app. Signing in with Apple or Google is optional and exists so your credits can follow you to a new phone; the app never asks for a password, a profile or your name.</li>
           <li>We do not store your photo or your artwork on a server. The photo passes through to be rendered; the artwork comes straight back to your device.</li>
           <li>Your photos are not used to train any model of ours, and we do not ask Google to use them for training.</li>
           <li>We do not sell your personal information, and we do not share it for cross-context behavioural advertising.</li>
@@ -354,13 +354,28 @@
                 <td>Not requested. Choosing a photo uses the Android photo picker, which hands over only the item you select.</td>
               </tr>
               <tr>
+                <td>Camera</td>
+                <td>iPhone</td>
+                <td>Asked the first time you choose Camera, so you can take the photo to turn into art. McMuse receives only the picture you keep.</td>
+              </tr>
+              <tr>
+                <td>Photo library</td>
+                <td>iPhone</td>
+                <td>To read the photo you choose in Apple's photo picker. McMuse reads only the photos you select, never the rest of your library.</td>
+              </tr>
+              <tr>
+                <td>Add to photo library</td>
+                <td>iPhone</td>
+                <td>Add-only access, asked the first time a new artwork is saved while Save artwork to Photos is on. It lets McMuse add pictures to your library, not see what is in it.</td>
+              </tr>
+              <tr>
                 <td>Location</td>
-                <td>Android</td>
+                <td>Android, iPhone</td>
                 <td>Not requested.</td>
               </tr>
               <tr>
                 <td>Microphone</td>
-                <td>Android</td>
+                <td>Android, iPhone</td>
                 <td>Not requested.</td>
               </tr>
             </tbody>
@@ -369,13 +384,13 @@
         <h2 id="en-telemetry">Analytics and crash reporting</h2>
         <p>This version of the app contains no analytics SDK and no crash-reporting SDK. We receive no usage statistics, no crash reports and no diagnostic data from it.</p>
         <h2 id="en-purchases">Purchases</h2>
-        <p>Credits for making artworks are bought inside the app, in packs. The purchase is handled entirely by Google Play, which takes the payment and issues any refund.</p>
-        <p>We never see your card number, billing address or any other payment detail. What reaches our service is the product bought, Google Play's purchase token and its order number, which we keep as the record of the purchase. If Google Play refunds a purchase, we take back the credits it granted.</p>
+        <p>Credits for making artworks are bought inside the app, in packs. The purchase is handled entirely by the store you bought from — Apple's App Store on iPhone, Google Play on Android — which takes the payment and issues any refund.</p>
+        <p>We never see your card number, billing address or any other payment detail. What reaches our service is the product bought and the store's reference for the purchase — Google Play's purchase token and order number, or the transaction Apple signed, with its identifiers — which we keep as the record of the purchase. If the store refunds a purchase, we take back the credits it granted.</p>
         <h2 id="en-delete-account">Deleting your account</h2>
-        <p><strong>In the app.</strong> If you signed in with Google, open McMuse and go to <em>Settings › Account › Delete account</em>. Once you confirm, your account is deleted straight away: its email address, your credit balance, and the records that link it to the phones you used it on.</p>
-        <p><strong>Without the app.</strong> If McMuse is no longer installed, write to idatagear@gmail.com from the Google address you signed in with and ask us to delete your McMuse account. We will delete it within 30 days and reply to confirm. If you never signed in, there is no account of yours for us to find: the app's anonymous record holds only a credit balance under a random identifier, and nothing in it identifies you.</p>
+        <p><strong>In the app.</strong> If you signed in with Apple or Google, open McMuse and go to <em>Settings › Account › Delete account</em>. If you signed in with Apple, Apple asks you to confirm first, and McMuse's access to your Apple account is revoked before anything is deleted. Once you confirm, your account is deleted straight away: its email address, your credit balance, and the records that link it to the phones you used it on.</p>
+        <p><strong>Without the app.</strong> If McMuse is no longer installed, write to idatagear@gmail.com from the email address of the Apple or Google account you signed in with and ask us to delete your McMuse account. If you used Apple's Hide My Email, tell us the relay address; you can find it in your Apple account's Sign in with Apple settings. We will delete it within 30 days and reply to confirm. If you never signed in, there is no account of yours for us to find: the app's anonymous record holds only a credit balance under a random identifier, and nothing in it identifies you.</p>
         <p><strong>What is lost.</strong> Credits left on the account are deleted with it and cannot be restored. Your artworks are not affected: they are on your device, not in your account — delete them in the app, or uninstall it.</p>
-        <p><strong>What we keep.</strong> Purchase records, which are our receipts and what stops one purchase being redeemed twice, for as long as the law requires us to keep transaction records; they hold a random identifier and Google Play's purchase token, and no name or email address. Reports, for as long as we need them to look for patterns of misuse. And a one-way hash of the identifier Google gives your Google account — not your email address — which records only that its starter credits were given, so that deleting an account and creating it again does not give them twice. The service's operating logs expire on their own after a limited period.</p>
+        <p><strong>What we keep.</strong> Purchase records, which are our receipts and what stops one purchase being redeemed twice, for as long as the law requires us to keep transaction records; they hold a random identifier and the store's reference for the purchase, and no name or email address. Reports, for as long as we need them to look for patterns of misuse. And a one-way hash of the identifier Apple or Google gives your account — not your email address — which records only that its starter credits were given, so that deleting an account and creating it again does not give them twice. The service's operating logs expire on their own after a limited period.</p>
         <h2 id="en-sharing">When you choose to share something</h2>
         <p>Sharing, exporting, printing and copying are always started by you. When you use one, the app hands the item to the destination you pick — another app, a contact, a folder, a printer — and what happens to it afterwards is governed by that destination, not by this policy.</p>
         <h2 id="en-retention">Keeping and deleting your data</h2>
@@ -391,7 +406,7 @@
         <p>We are based in Canada. The third-party services named in this policy are operated by companies based in the United States and may process data in any country where they run infrastructure, under the transfer safeguards set out in their own policies — for Google, the European Commission's standard contractual clauses.</p>
         <h2 id="en-children">Children</h2>
         <p>This app is made for a general audience. It is not directed at children under 13, and we do not knowingly collect personal information from a child.</p>
-        <p>There is no messaging, no social feature and nothing another user can post or see, and we do not ask for an age or a date of birth. Signing in with Google is optional. There is therefore no route by which a child using the app could disclose anything to another person through it.</p>
+        <p>There is no messaging, no social feature and nothing another user can post or see, and we do not ask for an age or a date of birth. Signing in with Apple or Google is optional. There is therefore no route by which a child using the app could disclose anything to another person through it.</p>
         <p>If you believe a child has given us personal information, write to idatagear@gmail.com and we will delete it.</p>
         <h2 id="en-security">Security</h2>
         <p>App data is held in the operating system's private per-app storage, protected by the device's own sandbox and by full-device encryption when a screen lock is set. Setting a passcode, PIN or biometric lock is the single most effective thing you can do to protect it.</p>
@@ -417,7 +432,7 @@
         <h2 id="en-t_purchases">5. Purchases and credits</h2>
         <p>Credits are bought in packs inside the app and used up as artworks are made. What an artwork costs depends on the size you choose, and is shown on the button before you press it. Credits belong to your account, have no cash value, and cannot be transferred to another person or exchanged for money.</p>
         <p>If an artwork cannot be made — the service is unavailable, or its safety filters refuse the photo or the result — the credits it would have cost are returned to your balance.</p>
-        <p>Google Play is the merchant of record. Payment, tax and refunds are handled by Google Play under its own terms and policies, not by us. If Google Play refunds a purchase, the credits it granted are taken back, and your balance can fall below zero until a later purchase makes it up.</p>
+        <p>The store you bought from — Apple's App Store or Google Play — is the merchant of record. Payment, tax and refunds are handled by that store under its own terms and policies, not by us. If it refunds a purchase, the credits it granted are taken back, and your balance can fall below zero until a later purchase makes it up.</p>
         <h2 id="en-t_accuracy">6. Accuracy of the content</h2>
         <p>Artworks are made by an AI model. They may not look the way you expect: faces, hands, text and fine details can be wrong, changed or invented, and two runs on the same photo can differ. We do not promise that an artwork will be accurate, a good likeness of anyone, or contain nothing unexpected. Look at an artwork before you share it, and do not rely on one where being wrong would matter, such as for identification or in a legal or official document.</p>
         <h2 id="en-t_thirdparty">7. Third-party services</h2>
@@ -448,7 +463,7 @@
           <li>你生成的作品保存在你的设备上。</li>
           <li>你选择的照片会被送去由 Google 的 Gemini 绘制，我们不会保存它。</li>
           <li>第一幅作品之前会先征得你的同意，你也可以随时在「设置」中撤回。</li>
-          <li>使用 Google 账号登录是可选的。如果你登录，该账号的邮箱地址会和你的积分余额保存在一起，这样你的积分就能跟着你换到新手机上。</li>
+          <li>使用 Apple 或 Google 账号登录是可选的。如果你登录，该账号的邮箱地址会和你的点数余额保存在一起，这样你的点数就能跟着你换到新手机上。</li>
           <li>应用不含使用统计，也不含崩溃报告。</li>
           <li>我们不出售你的数据，也不会为广告画像而共享它。</li>
           <li>卸载应用会删除它保存在你设备上的内容。要删除你的账号以及我们为它保存的记录，请在应用内使用<em>设置 › 账号 › 删除账号</em>，或写信给我们——详见「删除你的账号」。</li>
@@ -457,9 +472,9 @@
         </div>
         <h2 class="pp-part">第一部分 — 隐私政策</h2>
         <h2 id="zh-Hans-who">我们是谁</h2>
-        <p>McMuse 把你手机里已有的照片变成一幅作品，风格任你挑选。绘制由 Google 的 Gemini 图像模型完成；作品回到你的手机，并保存在那里。支持 Android。</p>
+        <p>McMuse 把你手机里已有的照片变成一幅作品，风格任你挑选。绘制由 Google 的 Gemini 图像模型完成；作品回到你的手机，并保存在那里。支持 iPhone 和 Android。</p>
         <p>McMuse 由 iDataGear Inc 发布，该公司在加拿大不列颠哥伦比亚省注册成立。本政策中的<strong>我们</strong>即指 iDataGear Inc。</p>
-        <p>McMuse 运行着一项自己的服务：它接收你选择的照片，交付绘制，再把作品送回。它不会把任何照片或作品写入我们的任何磁盘。使用应用不需要账号，使用 Google 账号登录是可选的。我们这边保存了什么，见下文<em>我们这边保存了什么</em>。</p>
+        <p>McMuse 运行着一项自己的服务：它接收你选择的照片，交付绘制，再把作品送回。它不会把任何照片或作品写入我们的任何磁盘。使用应用不需要账号，使用 Apple 或 Google 账号登录是可选的。我们这边保存了什么，见下文<em>我们这边保存了什么</em>。</p>
         <h2 id="zh-Hans-stores">应用在你设备上保存了什么</h2>
         <p>应用会把下列内容写入你设备上的应用私有存储区——其他应用无法读取的区域。它们会一直留在那里，直到你自己删除，或卸载应用为止。</p>
         <div class="pp-tablewrap">
@@ -511,19 +526,19 @@
                 <td>用于绘制作品并送回。照片只在这一次请求期间留在内存里，不会写入我们的任何磁盘。照片离开你的设备之前，位置信息和其他所有 EXIF 元数据都会被移除。</td>
               </tr>
               <tr>
-                <td>一个账号标识；如果你登录，还有你的 Google 邮箱地址</td>
+                <td>一个账号标识；如果你登录，还有你所用 Apple 或 Google 账号的邮箱地址</td>
                 <td>Google Firebase 身份验证与 Firestore</td>
-                <td>用于保存你的积分余额。该标识是一串随机字符。如果你选择使用 Google 账号登录，Firebase 还会保存该账号的邮箱地址，以及 Google 提供的显示名称和头像链接（应用本身不会读取这两项），这样你的积分就能跟着你换到新手机上。Firebase 还会分配一个安装标识。</td>
+                <td>用于保存你的点数余额。该标识是一串随机字符。如果你选择登录，Firebase 还会保存该账号的邮箱地址，这样你的点数就能跟着你换到新手机上。使用 Apple 登录时，McMuse 只向 Apple 索取邮箱地址，从不索取你的姓名；如果你选择了「隐藏邮件地址」，保存的就是 Apple 为 McMuse 生成的专用中转地址。使用 Google 登录时，Firebase 还会保存 Google 提供的显示名称和头像链接（应用本身不会读取这两项）。Firebase 还会分配一个安装标识。</td>
               </tr>
               <tr>
                 <td>设备证明令牌</td>
-                <td>Google Play Integrity，经由 Firebase App Check</td>
+                <td>Android 上为 Google Play Integrity，iPhone 上为 Apple App Attest，均经由 Firebase App Check</td>
                 <td>用于证明请求来自本应用的真实安装，而不是脚本。</td>
               </tr>
               <tr>
-                <td>购买积分时的购买信息</td>
-                <td>iDataGear 的 McMuse 服务，该服务会向 Google Play 核实</td>
-                <td>用于确认这笔购买真实有效、发放积分，并确保同一笔购买绝不会被兑换两次。发送的内容是所购商品、Google Play 的购买令牌和订单号。不会发送银行卡号、姓名或账单地址。</td>
+                <td>购买点数时的购买信息</td>
+                <td>iDataGear 的 McMuse 服务，该服务会向你购买时所用的商店核实：Apple App Store 或 Google Play</td>
+                <td>用于确认这笔购买真实有效、发放点数，并确保同一笔购买绝不会被兑换两次。在 Android 上，发送的内容是所购商品、Google Play 的购买令牌和订单号；在 iPhone 上，是经 Apple 签名的交易信息：所购商品、Apple 的交易标识，以及这是否为一笔测试购买。不会发送银行卡号、姓名或账单地址。</td>
               </tr>
               <tr>
                 <td>举报作品时的举报内容</td>
@@ -538,12 +553,12 @@
             </tbody>
           </table>
         </div>
-        <p><strong>我们这边保存了什么。</strong>每个账号一条记录，以随机标识为键：剩余的积分数，以及初始积分是否已发放。如果你使用 Google 账号登录，Firebase 身份验证还会保存该账号的邮箱地址，以及 Google 提供的显示名称和头像链接（应用不会读取这两项）。每笔购买一条记录：所购商品、发放的积分数、Google Play 的购买令牌和订单号，以及账号标识。每个已领取过初始积分的 Google 账号，保存一个由 Google 为该账号分配的标识计算出的单向哈希值，只记录初始积分已经发放过。每次举报则是上文所列的内容。此外还有服务自身的运行日志，其中记录账号标识、所选风格、作品的尺寸和消耗的积分，以及请求失败或被拒绝的原因——绝不包含照片，也绝不包含作品。这些日志在 Google Cloud 的日志服务中保留一段有限的时间。以上所有内容都不包含你的照片。</p>
+        <p><strong>我们这边保存了什么。</strong>每个账号一条记录，以随机标识为键：剩余的点数，以及初始点数是否已发放。如果你登录，Firebase 身份验证还会保存该账号的邮箱地址：使用 Google 登录时，还有 Google 提供的显示名称和头像链接（应用不会读取这两项）；使用 Apple 登录时，还有 Apple 为 McMuse 分配给你的标识，但从不包括你的姓名。每笔购买一条记录：所购商品、发放的点数、商店对这笔购买的凭据——Google Play 的购买令牌和订单号，或 Apple 的交易标识以及是否为测试购买——以及账号标识。每个已领取过初始点数的 Apple 或 Google 账号，保存一个由该服务为此账号分配的标识计算出的单向哈希值，只记录初始点数已经发放过。每次举报则是上文所列的内容。此外还有服务自身的运行日志，其中记录账号标识、所选风格、作品的尺寸和消耗的点数，以及请求失败或被拒绝的原因——绝不包含照片，也绝不包含作品。这些日志在 Google Cloud 的日志服务中保留一段有限的时间。以上所有内容都不包含你的照片。</p>
         <p>上表之外，凡是你主动发送的内容——通过系统分享面板、导出、打印或剪贴板——都会去到你指定的地方。那是你每一次自己的选择，不在上表的范围内。</p>
         <h2 id="zh-Hans-notdo">应用不会做的事</h2>
         <p>在本政策为现行版本期间：</p>
         <ul>
-          <li>使用应用不需要账号。使用 Google 账号登录是可选的，其作用是让你的积分能跟着你换到新手机；应用从不索要密码、个人资料或你的姓名。</li>
+          <li>使用应用不需要账号。使用 Apple 或 Google 账号登录是可选的，其作用是让你的点数能跟着你换到新手机；应用从不索要密码、个人资料或你的姓名。</li>
           <li>我们不会把你的照片或作品保存在服务器上。照片只是经过我们这里被送去绘制，作品直接回到你的设备。</li>
           <li>你的照片不会用于训练我们的任何模型，我们也没有要求 Google 将其用于训练。</li>
           <li>我们不出售你的个人信息，也不会为跨情境行为广告而共享它。</li>
@@ -554,7 +569,7 @@
           <li>应用不读取你的通讯录、日历、短信、通话记录，也不读取其自身存储区以外的文件。</li>
         </ul>
         <h2 id="zh-Hans-safety">内容安全与举报</h2>
-        <p>McMuse 不会审查你的照片或作品：它们不会保存在我们这边，iDataGear 也没有任何人会看到它们。唯一的筛查由 Google Gemini 服务的安全过滤器完成，我们把它设置为在四个类别——色情露骨、仇恨、骚扰和危险内容——中拦截中等及以上程度的内容。过滤器可能拒绝一张照片，或拒绝由它生成的作品。一旦拒绝，就不会生成作品，原本要消耗的积分也会退还给你。</p>
+        <p>McMuse 不会审查你的照片或作品：它们不会保存在我们这边，iDataGear 也没有任何人会看到它们。唯一的筛查由 Google Gemini 服务的安全过滤器完成，我们把它设置为在四个类别——色情露骨、仇恨、骚扰和危险内容——中拦截中等及以上程度的内容。过滤器可能拒绝一张照片，或拒绝由它生成的作品。一旦拒绝，就不会生成作品，原本要消耗的点数也会退还给你。</p>
         <p>没有任何过滤器是完美的，我们也不能保证它能拦截一切。如果某幅作品令人反感，或本不该被生成，请在应用内举报：打开该作品，选择「举报」，选一个理由——色情内容、暴力或令人不适、仇恨或辱骂、其他问题——如愿意可再添加备注。举报不会附带图片，所以我们能据此还原这幅作品是如何生成的，却看不到作品本身。</p>
         <p>你可以和不可以用本应用做什么，见下文条款中的合理使用一节。</p>
         <h2 id="zh-Hans-perms">权限，以及每一项的用途</h2>
@@ -580,7 +595,7 @@
               <tr>
                 <td>支付</td>
                 <td>Android</td>
-                <td>通过 Google Play 售出积分包并核实购买。</td>
+                <td>通过 Google Play 售出点数包并核实购买。</td>
               </tr>
               <tr>
                 <td>网络状态、生物识别与 Google Play 服务</td>
@@ -598,13 +613,28 @@
                 <td>未申请。选照片用的是 Android 系统照片选择器，它只会把你选中的那一项交给应用。</td>
               </tr>
               <tr>
+                <td>相机</td>
+                <td>iPhone</td>
+                <td>在你第一次选择「相机」时请求，用于拍摄要变成作品的照片。McMuse 只会收到你保留下来的那张照片。</td>
+              </tr>
+              <tr>
+                <td>照片库</td>
+                <td>iPhone</td>
+                <td>用于读取你在 Apple 照片选择器中选中的照片。McMuse 只读取你选中的照片，从不读取照片库中的其他内容。</td>
+              </tr>
+              <tr>
+                <td>添加到照片库</td>
+                <td>iPhone</td>
+                <td>仅限添加的权限，在「作品保存到相册」开启时、第一次保存新作品时请求。它让 McMuse 能把图片添加到你的照片库，但无法查看其中的内容。</td>
+              </tr>
+              <tr>
                 <td>位置</td>
-                <td>Android</td>
+                <td>Android、iPhone</td>
                 <td>不请求。</td>
               </tr>
               <tr>
                 <td>麦克风</td>
-                <td>Android</td>
+                <td>Android、iPhone</td>
                 <td>不请求。</td>
               </tr>
             </tbody>
@@ -613,19 +643,19 @@
         <h2 id="zh-Hans-telemetry">使用统计与崩溃报告</h2>
         <p>这个版本的应用不包含任何使用统计 SDK，也不包含任何崩溃上报 SDK。我们收不到它的任何使用数据、崩溃报告或诊断信息。</p>
         <h2 id="zh-Hans-purchases">购买</h2>
-        <p>绘制作品所需的积分在应用内按包购买。购买完全由 Google Play 处理，由它收款并办理任何退款。</p>
-        <p>我们从不会看到你的银行卡号、账单地址或任何其他支付信息。到达我们服务的只有所购商品、Google Play 的购买令牌和订单号，我们把它们保存下来，作为这笔购买的记录。如果 Google Play 退还了某笔购买，我们会收回它所发放的积分。</p>
+        <p>绘制作品所需的点数在应用内按包购买。购买完全由你购买时所用的商店处理——iPhone 上是 Apple App Store，Android 上是 Google Play——由它收款并办理任何退款。</p>
+        <p>我们从不会看到你的银行卡号、账单地址或任何其他支付信息。到达我们服务的只有所购商品和商店对这笔购买的凭据——Google Play 的购买令牌和订单号，或经 Apple 签名的交易信息及其标识——我们把它们保存下来，作为这笔购买的记录。如果商店退还了某笔购买，我们会收回它所发放的点数。</p>
         <h2 id="zh-Hans-delete-account">删除你的账号</h2>
-        <p><strong>在应用内删除。</strong>如果你使用过 Google 账号登录，请打开 McMuse，进入<em>设置 › 账号 › 删除账号</em>。确认后，你的账号会立即被删除：包括其邮箱地址、你的积分余额，以及把它与你用过的手机关联起来的记录。</p>
-        <p><strong>不通过应用删除。</strong>如果你已不再安装 McMuse，请用你登录时使用的 Google 邮箱写信到 idatagear@gmail.com，要求删除你的 McMuse 账号。我们会在 30 天内删除它，并回信确认。如果你从未登录过，我们就找不到属于你的账号：应用的匿名记录只在一个随机标识下保存一笔积分余额，其中没有任何可识别你的信息。</p>
-        <p><strong>会失去什么。</strong>账号中剩余的积分会随账号一并删除，无法恢复。你的作品不受影响：它们保存在你的设备上，而不在你的账号里——可以在应用内删除，或卸载应用。</p>
-        <p><strong>我们会保留什么。</strong>购买记录：它们是我们的收据，也是防止同一笔购买被兑换两次的依据，我们会在法律要求保存交易记录的期限内保留它们；其中只有一个随机标识和 Google Play 的购买令牌，没有姓名，也没有邮箱地址。举报：保留到我们不再需要它们来查找滥用模式为止。此外还有 Google 为你的 Google 账号分配的标识的单向哈希值——不是你的邮箱地址——它只记录该账号的初始积分已经发放过，这样删除账号后再重新创建也不会再次发放。服务的运行日志会在一段有限的时间后自动过期。</p>
+        <p><strong>在应用内删除。</strong>如果你使用过 Apple 或 Google 账号登录，请打开 McMuse，进入<em>设置 › 账号 › 删除账号</em>。如果你使用的是 Apple 登录，Apple 会先请你确认，McMuse 对你 Apple 账户的访问权限会在删除任何内容之前被撤销。确认后，你的账号会立即被删除：包括其邮箱地址、你的点数余额，以及把它与你用过的手机关联起来的记录。</p>
+        <p><strong>不通过应用删除。</strong>如果你已不再安装 McMuse，请用你登录时所用 Apple 或 Google 账号的邮箱地址写信到 idatagear@gmail.com，要求删除你的 McMuse 账号。如果你使用了 Apple 的「隐藏邮件地址」，请在信中告诉我们那个中转地址，它可以在你的 Apple 账户的「通过 Apple 登录」设置中找到。我们会在 30 天内删除它，并回信确认。如果你从未登录过，我们就找不到属于你的账号：应用的匿名记录只在一个随机标识下保存一笔点数余额，其中没有任何可识别你的信息。</p>
+        <p><strong>会失去什么。</strong>账号中剩余的点数会随账号一并删除，无法恢复。你的作品不受影响：它们保存在你的设备上，而不在你的账号里——可以在应用内删除，或卸载应用。</p>
+        <p><strong>我们会保留什么。</strong>购买记录：它们是我们的收据，也是防止同一笔购买被兑换两次的依据，我们会在法律要求保存交易记录的期限内保留它们；其中只有一个随机标识和商店对这笔购买的凭据，没有姓名，也没有邮箱地址。举报：保留到我们不再需要它们来查找滥用模式为止。此外还有 Apple 或 Google 为你的账号分配的标识的单向哈希值——不是你的邮箱地址——它只记录该账号的初始点数已经发放过，这样删除账号后再重新创建也不会再次发放。服务的运行日志会在一段有限的时间后自动过期。</p>
         <h2 id="zh-Hans-sharing">当你主动分享时</h2>
         <p>分享、导出、打印和复制永远由你发起。当你使用其中任何一项时，应用会把该内容交给你选定的目的地——另一个应用、一位联系人、一个文件夹、一台打印机——此后它的去向由那个目的地决定，不再受本政策约束。</p>
         <h2 id="zh-Hans-retention">数据的保存与删除</h2>
         <p>你的作品、标签和设置都保存在你的设备上，所以它们保留多久由你决定。</p>
         <p>在应用内删除一幅作品，即可把它从 McMuse 中移除。卸载应用会删除应用保存在其私有存储区的全部内容。已经添加到你相册中的副本是独立的文件，会一直留在那里，直到你在相册中删除它们。</p>
-        <p><strong>我们保存多久。</strong>上述记录会在你的账号存续期间一直保留，因为正是它们让你剩下的积分成其为剩下的积分。卸载应用不会删除它们；删除账号会。如何删除、删除什么、保留什么，见上文「删除你的账号」。从未登录过的账号我们无从找到，因为其中没有任何可识别你的信息，里面只有一笔积分余额。你的照片不在其中：它们从未被记录在我们这边，所以没有什么可保留，也没有什么可删除。</p>
+        <p><strong>我们保存多久。</strong>上述记录会在你的账号存续期间一直保留，因为正是它们让你剩下的点数成其为剩下的点数。卸载应用不会删除它们；删除账号会。如何删除、删除什么、保留什么，见上文「删除你的账号」。从未登录过的账号我们无从找到，因为其中没有任何可识别你的信息，里面只有一笔点数余额。你的照片不在其中：它们从未被记录在我们这边，所以没有什么可保留，也没有什么可删除。</p>
         <h2 id="zh-Hans-rights">你的权利</h2>
         <p>根据 GDPR、英国 GDPR、经 CPRA 修订的 CCPA、加拿大 PIPEDA 以及其他地区的同类法律，你对与你有关的个人信息享有权利——知晓持有了什么、获取副本、更正、要求删除，以及反对或限制其使用。</p>
         <p>对于你设备上的数据，这些权利已经由设计本身满足：你可以在应用里查看、修改、导出和删除。对于我们这边保存的记录，请写信到 idatagear@gmail.com，我们会告知你保存了什么，并按你的要求更正或删除，但上文所述的购买记录例外。</p>
@@ -635,7 +665,7 @@
         <p>我们位于加拿大。本政策中提到的第三方服务由总部设在美国的公司运营，并可能在其部署基础设施的任何国家处理数据，所适用的跨境传输保障措施载于它们各自的政策中——就 Google 而言，是欧盟委员会的标准合同条款。</p>
         <h2 id="zh-Hans-children">儿童</h2>
         <p>本应用面向普通受众。它不以 13 岁以下儿童为对象，我们也不会在知情的情况下收集儿童的个人信息。</p>
-        <p>应用没有消息功能，没有社交功能，也没有任何其他用户可以发布或看到的内容，而且我们不询问年龄或出生日期。使用 Google 账号登录是可选的。因此不存在任何途径，让使用应用的儿童通过它把信息透露给他人。</p>
+        <p>应用没有消息功能，没有社交功能，也没有任何其他用户可以发布或看到的内容，而且我们不询问年龄或出生日期。使用 Apple 或 Google 账号登录是可选的。因此不存在任何途径，让使用应用的儿童通过它把信息透露给他人。</p>
         <p>如果你认为有儿童向我们提供了个人信息，请写信到 idatagear@gmail.com，我们会删除它。</p>
         <h2 id="zh-Hans-security">安全</h2>
         <p>应用数据存放在操作系统的应用私有存储区，受设备自身的沙盒保护；在设置了锁屏的设备上，还受全盘加密保护。设置密码、PIN 码或生物识别锁，是你能为保护这些数据所做的最有效的一件事。</p>
@@ -654,14 +684,14 @@
         <p>在你与我们之间，你在应用中创作的一切都属于你：我们不主张其所有权，也不主张任何许可。因为它保存在你的设备上，即使我们想用也用不了。这些作品由 AI 模型生成，因此你所在地的法律对其中权利的认定，可能与照片或绘画不同，对此我们不作任何承诺。</p>
         <p>你需要自行备份自己创作的内容。卸载应用、重置设备，或遗失、更换设备，都会删除应用保存的作品，而我们没有任何副本可用于恢复。已经添加到你相册的副本会留在相册中。凡是丢了会让你心疼的内容，请保存或导出。</p>
         <h2 id="zh-Hans-t_acceptable">4. 合理使用</h2>
-        <p>请合法、体谅他人地使用本应用。特别是，不得利用它违反法律或侵害他人权利，不得干扰应用的运行或安全，也不得试图取得你尚未付费的积分、功能或内容。</p>
+        <p>请合法、体谅他人地使用本应用。特别是，不得利用它违反法律或侵害他人权利，不得干扰应用的运行或安全，也不得试图取得你尚未付费的点数、功能或内容。</p>
         <p><strong>你的照片。</strong>只使用你有权使用的照片。不得上传，也不得试图生成以下任何内容：色情露骨的内容；任何涉及儿童的性或剥削性图像（这是绝对禁止的）；血腥暴力、残肢内脏，或意在惊吓、令人不适的内容；仇恨、骚扰或威胁性内容；或宣扬自残、恐怖主义或其他危险、违法行为的内容。</p>
         <p><strong>其他人。</strong>不得利用他人的照片冒充、欺骗、骚扰或羞辱对方，也不得制作虚假地呈现真人说过或做过某事的图像。在需要对方同意的情况下，不得上传未经其同意的人物照片，也不得上传你无权分享的儿童照片。</p>
-        <p><strong>违反会怎样。</strong>服务的安全过滤器可能拒绝照片或作品，被拒绝的请求所消耗的积分会退还。由于我们不保存你的照片和作品，我们无法自行审查；我们依靠这些过滤器，以及用户在应用内的举报。我们可以暂停或终止任何滥用本服务者的使用权限；在法律允许的范围内，对于因此被终止权限的人，我们没有义务退还其积分。</p>
-        <h2 id="zh-Hans-t_purchases">5. 购买与积分</h2>
-        <p>积分在应用内按包购买，并在生成作品时消耗。每幅作品消耗多少积分取决于你选择的尺寸，并会在你按下按钮之前显示在按钮上。积分归属于你的账号，没有现金价值，不能转让给他人，也不能兑换成现金。</p>
-        <p>如果作品无法生成——服务不可用，或其安全过滤器拒绝了照片或结果——原本要消耗的积分会退还到你的余额中。</p>
-        <p>Google Play 是该交易的收款方。支付、税费和退款由 Google Play 依据其自身的条款和政策办理，而不是由我们办理。如果 Google Play 退还了某笔购买，它所发放的积分会被收回，在之后的购买补足之前，你的余额可能为负。</p>
+        <p><strong>违反会怎样。</strong>服务的安全过滤器可能拒绝照片或作品，被拒绝的请求所消耗的点数会退还。由于我们不保存你的照片和作品，我们无法自行审查；我们依靠这些过滤器，以及用户在应用内的举报。我们可以暂停或终止任何滥用本服务者的使用权限；在法律允许的范围内，对于因此被终止权限的人，我们没有义务退还其点数。</p>
+        <h2 id="zh-Hans-t_purchases">5. 购买与点数</h2>
+        <p>点数在应用内按包购买，并在生成作品时消耗。每幅作品消耗多少点数取决于你选择的尺寸，并会在你按下按钮之前显示在按钮上。点数归属于你的账号，没有现金价值，不能转让给他人，也不能兑换成现金。</p>
+        <p>如果作品无法生成——服务不可用，或其安全过滤器拒绝了照片或结果——原本要消耗的点数会退还到你的余额中。</p>
+        <p>你购买时所用的商店——Apple App Store 或 Google Play——是该交易的收款方。支付、税费和退款由该商店依据其自身的条款和政策办理，而不是由我们办理。如果商店退还了某笔购买，它所发放的点数会被收回，在之后的购买补足之前，你的余额可能为负。</p>
         <h2 id="zh-Hans-t_accuracy">6. 内容的准确性</h2>
         <p>作品由 AI 模型生成。它们可能不是你所预期的样子：人脸、手、文字和细节都可能出错、被改动或被凭空添加，同一张照片两次生成的结果也可能不同。我们不保证作品准确、与任何人神似，或不含任何意外内容。分享作品之前请先看一看，凡是出错会带来实际后果的场合——例如用于身份识别，或用于法律或官方文件——请不要依赖它。</p>
         <h2 id="zh-Hans-t_thirdparty">7. 第三方服务</h2>
@@ -692,7 +722,7 @@
           <li>你生成的作品保存在你的裝置上。</li>
           <li>你選擇的照片會被送去由 Google 的 Gemini 繪製，我們不會保存它。</li>
           <li>第一幅作品之前會先徵得你的同意，你也可以隨時在「設定」中撤回。</li>
-          <li>使用 Google 帳號登入是選用的。如果你登入，該帳號的電子郵件地址會和你的點數餘額保存在一起，這樣你的點數就能跟著你換到新手機上。</li>
+          <li>使用 Apple 或 Google 帳號登入是選用的。如果你登入，該帳號的電子郵件地址會和你的點數餘額保存在一起，這樣你的點數就能跟著你換到新手機上。</li>
           <li>App 不含使用統計，也不含當機報告。</li>
           <li>我們不出售你的資料，也不會為廣告輪廓而分享它。</li>
           <li>移除 App 會刪除它儲存在你裝置上的內容。要刪除你的帳號以及我們為它保存的記錄，請在 App 內使用<em>設定 › 帳號 › 刪除帳號</em>，或來信給我們——詳見「刪除你的帳號」。</li>
@@ -701,9 +731,9 @@
         </div>
         <h2 class="pp-part">第一部分 — 隱私權政策</h2>
         <h2 id="zh-Hant-who">我們是誰</h2>
-        <p>McMuse 把你手機裡已有的照片變成一幅作品，風格任你挑選。繪製由 Google 的 Gemini 影像模型完成；作品回到你的手機，並保存在那裡。支援 Android。</p>
+        <p>McMuse 把你手機裡已有的照片變成一幅作品，風格任你挑選。繪製由 Google 的 Gemini 影像模型完成；作品回到你的手機，並保存在那裡。支援 iPhone 和 Android。</p>
         <p>McMuse 由 iDataGear Inc 發行，該公司在加拿大卑詩省註冊成立。本政策中的<strong>我們</strong>即指 iDataGear Inc。</p>
-        <p>McMuse 運行著一項自己的服務：它接收你選擇的照片，交付繪製，再把作品送回。它不會把任何照片或作品寫入我們的任何磁碟。使用 App 不需要帳號，使用 Google 帳號登入是選用的。我們這邊保存了什麼，見下文<em>我們這邊保存了什麼</em>。</p>
+        <p>McMuse 運行著一項自己的服務：它接收你選擇的照片，交付繪製，再把作品送回。它不會把任何照片或作品寫入我們的任何磁碟。使用 App 不需要帳號，使用 Apple 或 Google 帳號登入是選用的。我們這邊保存了什麼，見下文<em>我們這邊保存了什麼</em>。</p>
         <h2 id="zh-Hant-stores">App 在你裝置上儲存了什麼</h2>
         <p>App 會把下列內容寫入你裝置上的 App 專屬儲存區——其他 App 無法讀取的區域。它們會一直留在那裡，直到你自己刪除，或移除 App 為止。</p>
         <div class="pp-tablewrap">
@@ -755,19 +785,19 @@
                 <td>用於繪製作品並送回。照片只在這一次請求期間留在記憶體中，不會寫入我們的任何磁碟。照片離開你的裝置之前，位置資訊和其他所有 EXIF 中繼資料都會被移除。</td>
               </tr>
               <tr>
-                <td>一個帳號識別碼；如果你登入，還有你的 Google 電子郵件地址</td>
+                <td>一個帳號識別碼；如果你登入，還有你所用 Apple 或 Google 帳號的電子郵件地址</td>
                 <td>Google Firebase 驗證與 Firestore</td>
-                <td>用於保存你的點數餘額。該識別碼是一串隨機字元。如果你選擇使用 Google 帳號登入，Firebase 還會保存該帳號的電子郵件地址，以及 Google 提供的顯示名稱和大頭貼連結（App 本身不會讀取這兩項），這樣你的點數就能跟著你換到新手機上。Firebase 還會分配一個安裝識別碼。</td>
+                <td>用於保存你的點數餘額。該識別碼是一串隨機字元。如果你選擇登入，Firebase 還會保存該帳號的電子郵件地址，這樣你的點數就能跟著你換到新手機上。使用 Apple 登入時，McMuse 只向 Apple 索取電子郵件地址，從不索取你的姓名；如果你選擇了「隱藏我的電子郵件」，保存的就是 Apple 為 McMuse 產生的專用轉寄地址。使用 Google 登入時，Firebase 還會保存 Google 提供的顯示名稱和大頭貼連結（App 本身不會讀取這兩項）。Firebase 還會分配一個安裝識別碼。</td>
               </tr>
               <tr>
                 <td>裝置證明權杖</td>
-                <td>Google Play Integrity，透過 Firebase App Check</td>
+                <td>Android 上為 Google Play Integrity，iPhone 上為 Apple App Attest，均透過 Firebase App Check</td>
                 <td>用於證明請求來自本應用程式的真實安裝，而不是指令碼。</td>
               </tr>
               <tr>
                 <td>購買點數時的購買資訊</td>
-                <td>iDataGear 的 McMuse 服務，該服務會向 Google Play 驗證</td>
-                <td>用於確認這筆購買真實有效、發放點數，並確保同一筆購買絕不會被兌換兩次。傳送的內容是所購商品、Google Play 的購買權杖和訂單編號。不會傳送信用卡號、姓名或帳單地址。</td>
+                <td>iDataGear 的 McMuse 服務，該服務會向你購買時所用的商店驗證：Apple App Store 或 Google Play</td>
+                <td>用於確認這筆購買真實有效、發放點數，並確保同一筆購買絕不會被兌換兩次。在 Android 上，傳送的內容是所購商品、Google Play 的購買權杖和訂單編號；在 iPhone 上，是經 Apple 簽署的交易資訊：所購商品、Apple 的交易識別碼，以及這是否為一筆測試購買。不會傳送信用卡號、姓名或帳單地址。</td>
               </tr>
               <tr>
                 <td>檢舉作品時的檢舉內容</td>
@@ -782,12 +812,12 @@
             </tbody>
           </table>
         </div>
-        <p><strong>我們這邊保存了什麼。</strong>每個帳號一筆記錄，以隨機識別碼為鍵：剩餘的點數，以及起始點數是否已發放。如果你使用 Google 帳號登入，Firebase 驗證還會保存該帳號的電子郵件地址，以及 Google 提供的顯示名稱和大頭貼連結（App 不會讀取這兩項）。每筆購買一筆記錄：所購商品、發放的點數、Google Play 的購買權杖和訂單編號，以及帳號識別碼。每個已領取過起始點數的 Google 帳號，保存一個由 Google 為該帳號分配的識別碼計算出的單向雜湊值，只記錄起始點數已經發放過。每次檢舉則是上文所列的內容。此外還有服務自身的運作記錄檔，其中記載帳號識別碼、所選風格、作品的尺寸和消耗的點數，以及請求失敗或被拒絕的原因——絕不包含照片，也絕不包含作品。這些記錄檔在 Google Cloud 的記錄服務中保留一段有限的時間。以上所有內容都不包含你的照片。</p>
+        <p><strong>我們這邊保存了什麼。</strong>每個帳號一筆記錄，以隨機識別碼為鍵：剩餘的點數，以及起始點數是否已發放。如果你登入，Firebase 驗證還會保存該帳號的電子郵件地址：使用 Google 登入時，還有 Google 提供的顯示名稱和大頭貼連結（App 不會讀取這兩項）；使用 Apple 登入時，還有 Apple 為 McMuse 分配給你的識別碼，但從不包括你的姓名。每筆購買一筆記錄：所購商品、發放的點數、商店對這筆購買的憑據——Google Play 的購買權杖和訂單編號，或 Apple 的交易識別碼以及是否為測試購買——以及帳號識別碼。每個已領取過起始點數的 Apple 或 Google 帳號，保存一個由該服務為此帳號分配的識別碼計算出的單向雜湊值，只記錄起始點數已經發放過。每次檢舉則是上文所列的內容。此外還有服務自身的運作記錄檔，其中記載帳號識別碼、所選風格、作品的尺寸和消耗的點數，以及請求失敗或被拒絕的原因——絕不包含照片，也絕不包含作品。這些記錄檔在 Google Cloud 的記錄服務中保留一段有限的時間。以上所有內容都不包含你的照片。</p>
         <p>上表之外，凡是你主動送出的內容——透過系統分享面板、匯出、列印或剪貼簿——都會到你指定的地方。那是你每一次自己的選擇，不在上表的範圍內。</p>
         <h2 id="zh-Hant-notdo">App 不會做的事</h2>
         <p>在本政策為現行版本期間：</p>
         <ul>
-          <li>使用 App 不需要帳號。使用 Google 帳號登入是選用的，其作用是讓你的點數能跟著你換到新手機；App 從不索取密碼、個人檔案或你的姓名。</li>
+          <li>使用 App 不需要帳號。使用 Apple 或 Google 帳號登入是選用的，其作用是讓你的點數能跟著你換到新手機；App 從不索取密碼、個人檔案或你的姓名。</li>
           <li>我們不會把你的照片或作品保存在伺服器上。照片只是經過我們這裡被送去繪製，作品直接回到你的裝置。</li>
           <li>你的照片不會用於訓練我們的任何模型，我們也沒有要求 Google 將其用於訓練。</li>
           <li>我們不出售你的個人資料，也不會為跨情境行為廣告而分享它。</li>
@@ -842,13 +872,28 @@
                 <td>未申請。選照片用的是 Android 系統相片選擇器，它只會把你選取的那一項交給應用程式。</td>
               </tr>
               <tr>
+                <td>相機</td>
+                <td>iPhone</td>
+                <td>在你第一次選擇「相機」時要求，用於拍攝要變成作品的照片。McMuse 只會收到你保留下來的那張照片。</td>
+              </tr>
+              <tr>
+                <td>相片庫</td>
+                <td>iPhone</td>
+                <td>用於讀取你在 Apple 相片選擇器中選取的照片。McMuse 只讀取你選取的照片，從不讀取相片庫中的其他內容。</td>
+              </tr>
+              <tr>
+                <td>加入相片庫</td>
+                <td>iPhone</td>
+                <td>僅限加入的權限，在「作品儲存到相簿」開啟時、第一次儲存新作品時要求。它讓 McMuse 能把圖片加入你的相片庫，但無法查看其中的內容。</td>
+              </tr>
+              <tr>
                 <td>位置</td>
-                <td>Android</td>
+                <td>Android、iPhone</td>
                 <td>不要求。</td>
               </tr>
               <tr>
                 <td>麥克風</td>
-                <td>Android</td>
+                <td>Android、iPhone</td>
                 <td>不要求。</td>
               </tr>
             </tbody>
@@ -857,13 +902,13 @@
         <h2 id="zh-Hant-telemetry">使用統計與當機報告</h2>
         <p>這個版本的 App 不含任何使用統計 SDK，也不含任何當機回報 SDK。我們收不到它的任何使用資料、當機報告或診斷資訊。</p>
         <h2 id="zh-Hant-purchases">購買</h2>
-        <p>繪製作品所需的點數在 App 內按包購買。購買完全由 Google Play 處理，由它收款並辦理任何退款。</p>
-        <p>我們從不會看到你的信用卡號、帳單地址或任何其他付款資訊。到達我們服務的只有所購商品、Google Play 的購買權杖和訂單編號，我們把它們保存下來，作為這筆購買的記錄。如果 Google Play 退還了某筆購買，我們會收回它所發放的點數。</p>
+        <p>繪製作品所需的點數在 App 內按包購買。購買完全由你購買時所用的商店處理——iPhone 上是 Apple App Store，Android 上是 Google Play——由它收款並辦理任何退款。</p>
+        <p>我們從不會看到你的信用卡號、帳單地址或任何其他付款資訊。到達我們服務的只有所購商品和商店對這筆購買的憑據——Google Play 的購買權杖和訂單編號，或經 Apple 簽署的交易資訊及其識別碼——我們把它們保存下來，作為這筆購買的記錄。如果商店退還了某筆購買，我們會收回它所發放的點數。</p>
         <h2 id="zh-Hant-delete-account">刪除你的帳號</h2>
-        <p><strong>在 App 內刪除。</strong>如果你使用過 Google 帳號登入，請開啟 McMuse，前往<em>設定 › 帳號 › 刪除帳號</em>。確認後，你的帳號會立即被刪除：包括其電子郵件地址、你的點數餘額，以及把它與你用過的手機關聯起來的記錄。</p>
-        <p><strong>不透過 App 刪除。</strong>如果你已不再安裝 McMuse，請用你登入時使用的 Google 電子郵件地址來信至 idatagear@gmail.com，要求刪除你的 McMuse 帳號。我們會在 30 天內刪除它，並回信確認。如果你從未登入過，我們就找不到屬於你的帳號：App 的匿名記錄只在一個隨機識別碼下保存一筆點數餘額，其中沒有任何可識別你的資訊。</p>
+        <p><strong>在 App 內刪除。</strong>如果你使用過 Apple 或 Google 帳號登入，請開啟 McMuse，前往<em>設定 › 帳號 › 刪除帳號</em>。如果你使用的是 Apple 登入，Apple 會先請你確認，McMuse 對你 Apple 帳號的存取權會在刪除任何內容之前被撤銷。確認後，你的帳號會立即被刪除：包括其電子郵件地址、你的點數餘額，以及把它與你用過的手機關聯起來的記錄。</p>
+        <p><strong>不透過 App 刪除。</strong>如果你已不再安裝 McMuse，請用你登入時所用 Apple 或 Google 帳號的電子郵件地址來信至 idatagear@gmail.com，要求刪除你的 McMuse 帳號。如果你使用了 Apple 的「隱藏我的電子郵件」，請在信中告訴我們那個轉寄地址，它可以在你的 Apple 帳號的「使用 Apple 登入」設定中找到。我們會在 30 天內刪除它，並回信確認。如果你從未登入過，我們就找不到屬於你的帳號：App 的匿名記錄只在一個隨機識別碼下保存一筆點數餘額，其中沒有任何可識別你的資訊。</p>
         <p><strong>會失去什麼。</strong>帳號中剩餘的點數會隨帳號一併刪除，無法復原。你的作品不受影響：它們儲存在你的裝置上，而不在你的帳號裡——可以在 App 內刪除，或移除 App。</p>
-        <p><strong>我們會保留什麼。</strong>購買記錄：它們是我們的收據，也是防止同一筆購買被兌換兩次的依據，我們會在法律要求保存交易記錄的期限內保留它們；其中只有一個隨機識別碼和 Google Play 的購買權杖，沒有姓名，也沒有電子郵件地址。檢舉：保留到我們不再需要它們來查找濫用模式為止。此外還有 Google 為你的 Google 帳號分配的識別碼的單向雜湊值——不是你的電子郵件地址——它只記錄該帳號的起始點數已經發放過，這樣刪除帳號後再重新建立也不會再次發放。服務的運作記錄檔會在一段有限的時間後自動過期。</p>
+        <p><strong>我們會保留什麼。</strong>購買記錄：它們是我們的收據，也是防止同一筆購買被兌換兩次的依據，我們會在法律要求保存交易記錄的期限內保留它們；其中只有一個隨機識別碼和商店對這筆購買的憑據，沒有姓名，也沒有電子郵件地址。檢舉：保留到我們不再需要它們來查找濫用模式為止。此外還有 Apple 或 Google 為你的帳號分配的識別碼的單向雜湊值——不是你的電子郵件地址——它只記錄該帳號的起始點數已經發放過，這樣刪除帳號後再重新建立也不會再次發放。服務的運作記錄檔會在一段有限的時間後自動過期。</p>
         <h2 id="zh-Hant-sharing">當你主動分享時</h2>
         <p>分享、匯出、列印和複製永遠由你發起。當你使用其中任何一項時，App 會把該內容交給你選定的目的地——另一個 App、一位聯絡人、一個資料夾、一台印表機——此後它的去向由那個目的地決定，不再受本政策拘束。</p>
         <h2 id="zh-Hant-retention">資料的保存與刪除</h2>
@@ -879,7 +924,7 @@
         <p>我們位於加拿大。本政策中提到的第三方服務由總部設在美國的公司營運，並可能在其部署基礎設施的任何國家處理資料，所適用的跨境傳輸保障措施載於它們各自的政策中——就 Google 而言，是歐盟執委會的標準契約條款。</p>
         <h2 id="zh-Hant-children">兒童</h2>
         <p>本 App 面向一般大眾。它不以 13 歲以下兒童為對象，我們也不會在知情的情況下蒐集兒童的個人資料。</p>
-        <p>App 沒有訊息功能，沒有社群功能，也沒有任何其他使用者可以張貼或看到的內容，而且我們不詢問年齡或出生日期。使用 Google 帳號登入是選用的。因此不存在任何途徑，讓使用 App 的兒童透過它把資料透露給他人。</p>
+        <p>App 沒有訊息功能，沒有社群功能，也沒有任何其他使用者可以張貼或看到的內容，而且我們不詢問年齡或出生日期。使用 Apple 或 Google 帳號登入是選用的。因此不存在任何途徑，讓使用 App 的兒童透過它把資料透露給他人。</p>
         <p>如果你認為有兒童向我們提供了個人資料，請來信 idatagear@gmail.com，我們會刪除它。</p>
         <h2 id="zh-Hant-security">安全</h2>
         <p>App 資料存放在作業系統的 App 專屬儲存區，受裝置自身的沙箱保護；在設定了螢幕鎖定的裝置上，還受全機加密保護。設定密碼、PIN 碼或生物辨識鎖定，是你能為保護這些資料所做的最有效的一件事。</p>
@@ -905,7 +950,7 @@
         <h2 id="zh-Hant-t_purchases">5. 購買與點數</h2>
         <p>點數在 App 內按包購買，並在生成作品時消耗。每幅作品消耗多少點數取決於你選擇的尺寸，並會在你按下按鈕之前顯示在按鈕上。點數歸屬於你的帳號，沒有現金價值，不能轉讓給他人，也不能兌換成現金。</p>
         <p>如果作品無法生成——服務無法使用，或其安全過濾器拒絕了照片或結果——原本要消耗的點數會退還到你的餘額中。</p>
-        <p>Google Play 是該筆交易的收款方。付款、稅費和退款由 Google Play 依其自身的條款和政策辦理，而不是由我們辦理。如果 Google Play 退還了某筆購買，它所發放的點數會被收回，在之後的購買補足之前，你的餘額可能為負。</p>
+        <p>你購買時所用的商店——Apple App Store 或 Google Play——是該筆交易的收款方。付款、稅費和退款由該商店依其自身的條款和政策辦理，而不是由我們辦理。如果商店退還了某筆購買，它所發放的點數會被收回，在之後的購買補足之前，你的餘額可能為負。</p>
         <h2 id="zh-Hant-t_accuracy">6. 內容的正確性</h2>
         <p>作品由 AI 模型生成。它們可能不是你所預期的樣子：人臉、手、文字和細節都可能出錯、被改動或被憑空添加，同一張照片兩次生成的結果也可能不同。我們不保證作品準確、與任何人神似，或不含任何意外內容。分享作品之前請先看一看，凡是出錯會帶來實際後果的場合——例如用於身分辨識，或用於法律或官方文件——請不要依賴它。</p>
         <h2 id="zh-Hant-t_thirdparty">7. 第三方服務</h2>
