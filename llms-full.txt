@@ -1,188 +1,243 @@
-# idatagear.com – How-to guides (for AI ingestion)
+# iDataGear — full app reference
 
-Flattened Markdown of core how-to content. Source: https://www.idatagear.com
+> iDataGear Inc (Intelligence Data Gear) makes McLearn® language apps and everyday tools for iPhone, iPad, Android and the web, from Toronto, Canada and Hong Kong. McLearn® is iDataGear's registered trademark for its language apps. Every figure below is a count of what ships inside the app.
 
-**Where the apps live.** iDataGear apps ship on the Apple App Store (iPhone and iPad), Google Play (Android), and the web. Four apps are on the App Store: Great Cantonese Dictionary (id6799552060), McCantonese — Learn Cantonese (id6797105973), QuickOne Scanner: PDF & OCR (id6801050269) and Chinese Xie Zi 中文寫字板 (id6806851205). Developer page: https://apps.apple.com/us/developer/zhijiang-zhang/id6797105975. Learn Chinese, ALL English and Open Interview have no native iOS app yet; their web versions run fully in Safari on iPhone and iPad.
-
----
-
-## How do I learn Mandarin Chinese with HSK preparation?
-
-Use **Learn Chinese** by McLearn® (iDataGear). The help and tutorial page is at https://www.idatagear.com/chinese/, the web app at https://www.idatagear.com/chinese/learnchinese/, and the Android app on Google Play (com.idatagear.learn_chinese). The app covers **HSK 1–6** (around 5,466 words) plus **Grade 1–6** elementary vocabulary (1,530 words), 1,988 example sentences, 33 graded articles, and 309 reading questions. Start with HSK 1 words, heart the ones you do not know, then use the **Review** button on the home card for spaced-repetition. Free; no account; progress is stored on your device only and does **not** sync between devices.
+Website: https://www.idatagear.com/ · Contact: idatagear@gmail.com · Privacy policy (all apps): https://www.idatagear.com/privacy.html
+App Store developer page: https://apps.apple.com/us/developer/zhijiang-zhang/id6797105975
+Google Play developer page: https://play.google.com/store/apps/developer?id=iDataGear
 
 ---
 
-## How do I learn Cantonese (廣東話)?
+## McChinese — Learn Chinese (HSK 1–6)
 
-Use **McCantonese — Learn Cantonese** by McLearn®. iPhone and iPad: https://apps.apple.com/us/app/mccantonese-learn-cantonese/id6797105973. Android: com.idatagear.learn_cantonese. Help and tutorial: https://www.idatagear.com/cantonese/. Web app: https://www.idatagear.com/cantonese/learncantonese/. Learn the **Jyutping** romanisation system from the built-in interactive guide (19 initials, finals, six tones), then work through 12,000+ words with Jyutping and English, 2,167 characters, 3,146 phrases, 1,398 daily sentences, 209 dialogues played as chats, and 274 mini stories. Over **12,000 Hong Kong slang** entries plus Gen Z slang, tongue twisters, children's songs, the Cantonese Three Character Classic, and Guangzhou dialect collections. Speaking practice uses speech recognition so you can check yourself, and the whole library is stored on the device so it works offline. No account.
+Also known as: Learn Chinese, McChinese HSK (Google Play), McChinese - HSK Chinese (App Store).
 
-Pricing: free to download. On iOS everything is unlocked and ad-free for the first 14 days; after that every section stays open and the opening lessons of each (200 HK slang entries, 60 characters, 50 phrases, 60 daily sentences and more) stay free permanently, supported by ads. **McCantonese Premium** unlocks the complete library and removes ads — **US$2.99/month with the first month free, or US$12.99 per 6 months**, charged to your Apple Account and cancellable any time under Settings › your name › Subscriptions. The Android build is ad-supported with a one-off **Remove Ads** purchase. The web version is free in full.
+Mandarin from the first character to HSK 6, with pinyin and audio on every word.
 
----
+- HSK vocabulary: HSK 1 500 words, HSK 2 772, HSK 3 974, HSK 4 1,000, HSK 5 1,071, HSK 6 1,149
+- Grade 1–6: 1,530 elementary-school words that HSK leaves out
+- 1,988 example sentences graded by HSK level, each with audio
+- 33 graded articles, played sentence by sentence
+- 309 reading-comprehension test questions across HSK 1–3
+- Four mini-games: Tone Trainer, Timed Quiz, Listening Match and Sentence Match
+- Pinyin drills, animated stroke order, flash cards and spaced-repetition review
+- Meanings in English, Spanish, Japanese, Korean or Vietnamese
+- No account; progress, favourites and settings stay on the device
 
-## How do I use the Great Cantonese Dictionary?
-
-**Great Cantonese Dictionary** (GCD) is a complete offline Cantonese reference: **over 71,000** words, phrases and expressions, each with **Jyutping** romanization and spoken pronunciation. Install it on iPhone or iPad from https://apps.apple.com/us/app/great-cantonese-dictionary/id6799552060 (iOS 15+), on Android from Google Play (com.idatagear.great_cantonese_dictionary), or open https://www.idatagear.com/gcd/ in a browser.
-
-Search three ways: by **Chinese characters** (type 你好 to find greetings), by **Jyutping** (type nei5 hou2 when you know the sound but not the character), or by **English** meaning. Every entry gives the characters, the Jyutping and clear definitions; tap the speaker to hear it. The full dictionary is built into the app — nothing to download, no connection needed, so it works on the MTR, on a plane, or anywhere your data does not reach.
-
-Beyond the word list it covers **Popular Words**, **Hong Kong Gen Z Slang**, **Guangzhou Slang**, **Reduplication** (the AABB and ABB expressions), **Tongue Twisters**, **Children's Songs** and the **Three Character Classic**. A built-in Jyutping guide explains the romanization and the tones from scratch, and a grammar section covers sentence patterns, particles and the usage that word-for-word translation gets wrong. Favourites, search history, a new word every day and a daily streak. Interface in English, Simplified Chinese and Traditional Chinese.
-
-Pricing: the dictionary itself — all 71,000+ entries, search, Jyutping, pronunciation and the grammar guide — is **free forever**. **Great Cantonese Premium** unlocks the seven curated collections above and removes every ad: **US$2.99/month with the first month free, or US$12.99 per 6 months**.
-
----
-
-## How do I learn English with CEFR levels?
-
-Use **ALL English** (All Level Learner's English) by McLearn®. Help and tutorial: https://www.idatagear.com/english/. Web app: https://www.idatagear.com/english/learnenglish/. Android: com.idatagear.learn_english. Content is **CEFR-aligned** from A1 to C2 — over 8,000 words, each with **IPA** pronunciation — plus curated collections (**Basic 850, Oxford 3000, Common 2198, VOA 1510, IELTS, CET-4, CET-6**), graded sentences and articles, timed reading and listening tests, and microphone speaking practice. The quickest way to find your level is to take a reading test at the level you think you are. Free; no account.
-
----
-
-## How do I install a Cantonese or Chinese text-to-speech voice?
-
-McLearn® language apps speak using the text-to-speech voice installed on your device rather than shipping recordings, so every entry has audio. If you hear nothing, the voice is missing.
-
-**On Android:** install or enable **Google Text-to-Speech**, then add the voice data for the language you need — **Cantonese (Hong Kong)** for Learn Cantonese, **Chinese** for Learn Chinese. Both apps offer a shortcut to the device text-to-speech settings, and Learn Chinese has one under **Profile → Open device TTS settings**.
-
-**On iPhone or iPad:** go to **Settings › Accessibility › Spoken Content › Voices › Chinese** and download a voice — pick a **Cantonese** voice for Learn Cantonese.
-
-Note that Learn Cantonese will **never** substitute a Mandarin voice for a missing Cantonese one; it stays silent instead, because Mandarin pronunciation of Cantonese text would teach the wrong thing. Full instructions: https://www.idatagear.com/cantonese/#audio and https://www.idatagear.com/chinese/#audio
+Links:
+- Guide and video: https://www.idatagear.com/chinese/
+- Web app: https://www.idatagear.com/chinese/learnchinese/
+- App Store: https://apps.apple.com/us/app/mcchinese-hsk-chinese/id6804361040
+- Google Play: https://play.google.com/store/apps/details?id=com.idatagear.learn_chinese
+- Promo video: https://www.idatagear.com/assets/video/chinese/learnchinese-promo.mp4
+- Privacy: https://www.idatagear.com/chinese/chinese_privacy.html
+- Support: https://www.idatagear.com/chinese/chinese_contactus.html
 
 ---
 
-## How do I set up daily spaced-repetition review in Learn Chinese?
+## McCantonese — Learn Cantonese (識聽識講 廣東話)
 
-Tap the **heart** on any word card to add it to **My Favorites** — favorites are what seed the review pool. Then on the **Home** tab, tap **Review** on the top card; the number beside it is how many cards are due today. Flip each card and rate yourself **Again**, **Hard**, **Good** or **Easy**. The app reschedules each word from that rating, bringing back the ones you missed sooner and pushing the easy ones weeks out. Guide: https://www.idatagear.com/chinese/#tutorials
+Also known as: Learn Cantonese, McLearn® - Learn Cantonese (Google Play), McCantonese - Learn Cantonese (App Store).
 
----
+Cantonese as it is actually spoken in Hong Kong and Guangzhou, with Jyutping on every entry.
 
-## How do I use Memorize Words and Ear Training in ALL English?
+- Interactive Jyutping guide: 19 initials, the finals and all six tones, with audio
+- Jyutping practice that breaks characters into initial, final and tone
+- Speaking practice scored with the device's speech recognition
+- 12,116 Hong Kong slang entries with meanings and examples
+- 3,146 phrases, 2,167 characters, 1,398 daily sentences, 680 popular words
+- 209 dialogues played back as a chat, 274 mini stories, 20 articles
+- 472 reduplications, 142 Three Character Classic couplets, 120 Gen Z slang terms, 95 children's songs, 71 tongue twisters
+- 340+ entries of Guangzhou dialect collections
+- The whole library is stored on the device, so it works offline
+- Audio uses the device's Cantonese text-to-speech voice and never falls back to Mandarin
 
-Both are hands-free auto-play modes under the **Listening** tab, designed to be run with the phone in your pocket.
-
-**Memorize Words** cycles through vocabulary: it speaks the word, then its meaning in your chosen language, then the example sentences. Untick any of the three on the setup screen to make the loop faster.
-
-**Ear Training** does the same for whole sentences, which is what trains you for connected speech.
-
-Both let you pick sources — any mix of CEFR levels and collections — and both **save your position automatically**, so you can stop mid-session and resume later from the same screen. Tip: switch off the levels and collections you are not using in **Settings → Home buttons**; hidden sources also disappear from these two setup screens, which keeps a session focused on one exam. Guide: https://www.idatagear.com/english/#tutorials
-
----
-
-## Do McLearn language apps collect my data?
-
-No. **Learn Chinese**, **Learn Cantonese** and **ALL English** have no account and no sign-up. Learning progress, favorites, settings and test results are stored **only on your device** and are never uploaded — which also means uninstalling the app permanently deletes them, with no cloud backup to restore from.
-
-Pronunciation practice uses your device's own speech recognition; the apps never record, store or transmit your audio. The one thing that does leave the device is advertising data: the apps are free and funded by **Google AdMob**, which uses your advertising ID, and shows a consent prompt where the law requires it. A one-off **Remove Ads** in-app purchase turns advertising off entirely.
-
-On **iOS**, the apps do not track you across other companies' apps and websites, so they show no App Tracking Transparency prompt and iOS does not make the IDFA available to them — ads are served without it. In the EEA and UK, Google's User Messaging Platform consent form is shown before any ad is requested.
-
-**QuickOne Scanner is different and stricter**: it has no ad SDK, no analytics and no tracking of any kind, and on iPhone and iPad it makes no network request at all. See the section on it below.
-
-Per-app privacy policies:
-- https://www.idatagear.com/chinese/chinese_privacy.html
-- https://www.idatagear.com/cantonese/cantonese_privacy.html
-- https://www.idatagear.com/english/english_privacy.html
-- https://www.idatagear.com/quickone_scanner/quickone_scanner_privacy.html
-- Umbrella policy (covers every app): https://www.idatagear.com/privacy.html
+Links:
+- Guide and video: https://www.idatagear.com/cantonese/
+- Web app: https://www.idatagear.com/cantonese/learncantonese/
+- App Store: https://apps.apple.com/us/app/mccantonese-learn-cantonese/id6797105973
+- Google Play: https://play.google.com/store/apps/details?id=com.idatagear.learn_cantonese
+- Promo video: https://www.idatagear.com/assets/video/cantonese/mccantonese-promo.mp4
+- Privacy: https://www.idatagear.com/cantonese/cantonese_privacy.html
+- Support: https://www.idatagear.com/cantonese/cantonese_contactus.html
 
 ---
 
-## How do I contact McLearn support?
+## McEnglish — ALL English (CEFR A1–C2)
 
-Email **idatagear@gmail.com**. Include the app name, the version and build number from the app's settings screen (**App Information**), your device and OS version, and what you expected versus what happened. Corrections to the learning content are welcome — send the exact entry and what it should say.
+Also known as: ALL English - All Levels (Google Play), McEnglish - Learn English (App Store), All Level Learner's English.
 
-Per-app contact pages, each with fixes for the most common issues:
-- https://www.idatagear.com/chinese/chinese_contactus.html
-- https://www.idatagear.com/cantonese/cantonese_contactus.html
-- https://www.idatagear.com/english/english_contactus.html
+English organised by CEFR level from A1 to C2.
 
----
+- Words with IPA by level: A1 895, A2 858, B1 802, B2 1,425, C1 1,299, C2 788 (8,000+ in total)
+- Collections: Basic 850, Oxford 3000, Common 2198, VOA 1510, IELTS, CET-4, CET-6
+- Graded sentences and articles, timed level tests
+- Speaking practice with speech recognition
+- Two hands-free auto-play modes: Memorize Words and Ear Training
+- Interface and meanings in English, Chinese, Spanish or Arabic (right-to-left supported)
 
-## How do I practice Chinese character stroke order?
-
-Use **Chinese Xie Zi (中文寫字板)** by McLearn®. iPhone and iPad: https://apps.apple.com/us/app/chinese-xie-zi-%E4%B8%AD%E6%96%87%E5%AF%AB%E5%AD%97%E6%9D%BF/id6806851205 (iOS 15+). Android: com.idatagear.xiezi. Web: https://www.idatagear.com/xiezi/.
-
-The point of the app is that you **write** hanzi rather than only recognise them. Trace each character on screen and you get real-time stroke feedback — correct strokes are accepted, wrong ones gently rejected — so you build the right muscle memory from the start. You can replay the **animated stroke order** as many times as you need, the outline guides you, and radicals are highlighted in their own colour.
-
-It covers **9,500+ characters and radicals**, each with pinyin and an English meaning, plus **character decomposition** (the radicals and components a character is built from) and Simplified/Traditional counterparts side by side. Tap to hear any character read aloud. Characters are grouped by **HSK 1–6, HSK 7–9 and radicals**, and you can search any character instantly. Favourites and practice history stay on your device — no account, no sign-up.
-
-Pricing: free to download and ad-supported, with an optional **one-time US$1.99 Remove Ads** purchase.
-
----
-
-## How do I prepare for job interviews with AI?
-
-Use **Open Interview** by McLearn®. Go to https://www.idatagear.com/interview/. Practice with **AI-powered mock interviews**, get instant feedback, and work through structured preparation. Web only; free.
+Links:
+- Guide and video: https://www.idatagear.com/english/
+- Web app: https://www.idatagear.com/english/learnenglish/
+- App Store: https://apps.apple.com/us/app/mcenglish-learn-english/id6801781337
+- Google Play: https://play.google.com/store/apps/details?id=com.idatagear.learn_english
+- Promo video: https://www.idatagear.com/assets/video/english/allenglish-promo.mp4
+- Privacy: https://www.idatagear.com/english/english_privacy.html
+- Support: https://www.idatagear.com/english/english_contactus.html
 
 ---
 
-## How do I play Eyeball It?
+## Great Cantonese Dictionary (粵語大詞典)
 
-**Eyeball It!** by iDataGear is a casual **visual-estimation puzzle game**. Play on the web at https://www.idatagear.com/eyeballit/ or install the Android app (com.idatagear.eyeballit). Three modes: **Length & Shapes** (drag a line to match a shape's perimeter), **Liquid Volume** (hold to pour into a flask and lock in at the target volume), and **Color Volume** (mix cyan/magenta/yellow to match a target color). Each round ends with an animated accuracy reveal. Free.
+A complete offline Cantonese reference.
 
----
+- 71,655 words, phrases and expressions, each with Jyutping and tap-to-hear pronunciation
+- Search four ways: Chinese characters (你好), Jyutping (nei5 hou2), English, or Mandarin; search also matches listed synonyms
+- The full dictionary is built into the app: nothing to download, no connection needed
+- Collections: Popular Words, Hong Kong Gen Z Slang (120 terms), a seven-part Guangzhou Dialect Collection, Reduplication (472 AABB and ABB expressions), Tongue Twisters (71), Children's Songs (95) and the Three Character Classic (142 couplets)
+- A Jyutping guide (19 initials, 53 finals and the tones) and a grammar section
+- Favourites, search history, a word of the day and a daily streak
+- Interface in English, Simplified Chinese and Traditional Chinese
 
-## How do I keep a private offline journal with Momera.ME?
-
-**Momera.ME** by iDataGear is a **local-first, private moments journal** for Android (com.idatagear.momera on Google Play). Capture moments by **voice** (on-device speech-to-text — no cloud), **text**, and **photo** (with ML text recognition). Everything stays on your device; the app works fully offline with no account required. Privacy policy: https://www.idatagear.com/privacy-policy-momera-me.html. Free.
-
----
-
-## How do I track hikes offline with Momera.Hiking?
-
-**Momera.Hiking** by iDataGear is an **offline-first GPS hike tracker**. Try the web app at https://www.idatagear.com/hiking/ or install the Android app (com.idatagear.momera.hiking). Record routes with background GPS, drop **geo-tagged photo, video, and voice waypoints**, use **offline OpenStreetMap maps**, browse your hike history by calendar, and export track replays as video. Privacy policy: https://www.idatagear.com/privacy-policy-momera-hiking.html. Free.
-
----
-
-## How do I scan a document to a searchable PDF, privately?
-
-Use **QuickOne Scanner: PDF & OCR** by iDataGear. iPhone and iPad: https://apps.apple.com/us/app/quickone-scanner-pdf-ocr/id6801050269 (iOS 15.5+). Android: com.idatagear.quickonescanner (Android 7.0+). Product page: https://www.idatagear.com/quickonescanner/.
-
-**Scan.** Hold the camera over the page and the edges are found for you. Capture several pages in one session, with retake and reorder; import photos you already have; add pages to an existing document later. Reorder by dragging, crop any page, and apply **Original, Grayscale or Black & white** filters — always reversible, because the untouched original is never overwritten.
-
-**Read.** On-device text recognition covers **Latin scripts** and **Chinese, Simplified and Traditional**. The script is detected automatically and can be overridden for one document or app-wide, and you can re-read your entire library with a different model at any time. Copy the recognized text or save it as a `.txt` file.
-
-**Find.** Full-text search runs across document titles and every word the recognition read inside your pages. Chinese is indexed character by character, so partial queries work. Type `#` to filter by tag, and combine tags to narrow further.
-
-**Organise.** Seventeen built-in tags plus any you invent, each picking its own icon from what it means (money, ID, health, legal, home). Tag suggestions are worked out from the recognized text **on your device** — remove any that do not fit. Folders are colour-coded from their names.
-
-**Mark up.** Sign a page with your finger in five ink colours; add sticky notes with your own background and text colour, including a transparent background for a plain caption; drag, resize and place anything where you want it; export an annotated PDF that keeps the marks.
-
-**Share and export.** A **PDF with an invisible searchable text layer**, so other apps can search your scan; an images-only PDF when the smallest file matters; JPEG, one per page; plain `.txt`; or your whole library, a single folder, or everything under one tag as a **ZIP you keep yourself**.
-
-**Privacy.** Nothing is uploaded. Edge detection, image cleanup, text recognition and search all run locally, and your scans, page images and recognized text stay in the app's private storage. iDataGear operates no server for this app and receives nothing. There is no account, no email, no sign-in, and no analytics, advertising or tracking SDK. On **iPhone and iPad** the capture screen is Apple's own VisionKit, which ships with iOS, and both recognition models are compiled into the app — so the app makes **no network requests at all** and OCR works offline from the very first scan, even on a device that has never been online. Camera access is asked once, the first time you scan, and is used for nothing else; photo import goes through the system picker, which needs no library access. On **Android** the capture screen comes from Google Play services and downloads once on first use; after that, scanning is offline too. Full policy: https://www.idatagear.com/quickone_scanner/quickone_scanner_privacy.html
-
-**Pricing.** Genuinely free: no subscription, no one-time unlock, no scan allowance, no ads and **no watermark** on any export.
-
-**The trade-off.** Because nothing is uploaded, your scans exist only on that device — if you lose or reset it, they are gone, and we cannot restore them because we never had them. Use **Settings → Export library as ZIP** to keep your own copy.
-
-Interface languages: English, Français, Español, 简体中文, 繁體中文. Light, dark, or follow the system.
+Links:
+- Guide and video: https://www.idatagear.com/gcd/guide/
+- Web app: https://www.idatagear.com/gcd/
+- App Store: https://apps.apple.com/us/app/great-cantonese-dictionary/id6799552060
+- Google Play: https://play.google.com/store/apps/details?id=com.idatagear.great_cantonese_dictionary
+- Promo video: https://www.idatagear.com/assets/video/gcd/gcd-promo.mp4
+- Privacy: https://www.idatagear.com/gcd/gcd_privacy.html
 
 ---
 
-## Where can I download iDataGear and McLearn apps?
+## Chinese Xie Zi (写字板 / 中文寫字板)
 
-**Apple App Store** — iPhone and iPad. Developer page: https://apps.apple.com/us/developer/zhijiang-zhang/id6797105975
+Learn to write Chinese characters, not just recognise them.
 
-- Great Cantonese Dictionary (71,000+ entries, offline): https://apps.apple.com/us/app/great-cantonese-dictionary/id6799552060
-- McCantonese — Learn Cantonese: https://apps.apple.com/us/app/mccantonese-learn-cantonese/id6797105973
-- QuickOne Scanner: PDF & OCR (on-device scanning): https://apps.apple.com/us/app/quickone-scanner-pdf-ocr/id6801050269
-- Chinese Xie Zi 中文寫字板 (handwriting, stroke order): https://apps.apple.com/us/app/chinese-xie-zi-%E4%B8%AD%E6%96%87%E5%AF%AB%E5%AD%97%E6%9D%BF/id6806851205
+- Trace any character with real-time stroke feedback: correct strokes are accepted, wrong ones rejected
+- Animated stroke order from authentic stroke data
+- 9,500+ characters and radicals, each with pinyin and an English meaning
+- Decomposition into radicals and components; Simplified and Traditional counterparts side by side
+- Grouped by HSK 1–6, HSK 7–9 and radicals, with a random-character mode
+- Tap to hear any character read aloud
+- Favourites and practice history on the device; no account or sign-up
+- A character traced once is cached and works with no connection
 
-**Google Play** — Android. Developer page: https://play.google.com/store/apps/developer?id=iDataGear
+Links:
+- Guide and video: https://www.idatagear.com/xiezi/guide/
+- Web app: https://www.idatagear.com/xiezi/
+- App Store: https://apps.apple.com/us/app/chinese-xie-zi-%E4%B8%AD%E6%96%87%E5%AF%AB%E5%AD%97%E6%9D%BF/id6806851205
+- Google Play: https://play.google.com/store/apps/details?id=com.idatagear.xiezi
+- Promo video (Simplified): https://www.idatagear.com/assets/video/xiezi/xiezi-promo-zh-hans.mp4
+- Promo video (Traditional): https://www.idatagear.com/assets/video/xiezi/xiezi-promo-zh-hant.mp4
+- Privacy: https://www.idatagear.com/xiezi/xiezi_privacy.html
 
-- Learn Chinese (Mandarin, HSK): https://play.google.com/store/apps/details?id=com.idatagear.learn_chinese
-- Learn Cantonese: https://play.google.com/store/apps/details?id=com.idatagear.learn_cantonese
-- ALL English (All Level Learner's English, CEFR): https://play.google.com/store/apps/details?id=com.idatagear.learn_english
-- Great Cantonese Dictionary: https://play.google.com/store/apps/details?id=com.idatagear.great_cantonese_dictionary
-- Xie Zi (stroke order): https://play.google.com/store/apps/details?id=com.idatagear.xiezi
-- QuickOne Scanner (PDF & OCR): https://play.google.com/store/apps/details?id=com.idatagear.quickonescanner
-- Eyeball It! (visual estimation game): https://play.google.com/store/apps/details?id=com.idatagear.eyeballit
-- Momera.ME (private offline journal): https://play.google.com/store/apps/details?id=com.idatagear.momera
-- Momera.Hiking (GPS hike tracker): https://play.google.com/store/apps/details?id=com.idatagear.momera.hiking
+---
 
-**Web** — no download required, works in any browser including Safari on iPhone and iPad: https://www.idatagear.com
+## QuickOne Scanner: PDF & OCR
 
-Every app is free to download. Learn Chinese, ALL English and Open Interview have no native iOS app yet; use their web versions on iPhone and iPad.
+A document scanner that runs entirely on the device.
 
-All by iDataGear Inc. McLearn® is a trademark of iDataGear Inc.
+- Automatic page-edge detection, multi-page capture, retake and reorder; photo import through the system picker
+- Crop and Original, Grayscale or Black & white filters; the original is never overwritten
+- On-device text recognition for Latin scripts and for Simplified and Traditional Chinese, with automatic script detection
+- Full-text search across titles and every recognized word; type # to filter by tag
+- 17 built-in tags plus your own, colour-coded folders
+- Sign with a finger in five ink colours, add sticky notes
+- Export as a PDF with a searchable text layer, an images-only PDF, JPEG per page, plain text, or a ZIP of the library
+- Interface in English, French, Spanish, Simplified Chinese and Traditional Chinese
+- Nothing is uploaded: iDataGear runs no server for the app, and there is no account
+- iOS 15.5 or later; Android 7.0 or later
+
+Links:
+- Guide: https://www.idatagear.com/quickonescanner/
+- App Store: https://apps.apple.com/us/app/quickone-scanner-pdf-ocr/id6801050269
+- Google Play: https://play.google.com/store/apps/details?id=com.idatagear.quickonescanner
+- Privacy: https://www.idatagear.com/quickonescanner/quickonescanner_privacy.html
+
+---
+
+## Momera GO (拾光旅行)
+
+From where you go, to memory forever.
+
+- Record a hike with GPS that keeps running with the screen locked and no signal
+- Photos, videos, voice memos and notes, pinned to the spot on the route
+- Replay a hike on the map, with moments appearing as the replay reaches them; export the replay as an MP4 on Android
+- Build a journey from a Google Maps Timeline export or from geotagged photos, with each leg coloured by mode of transport
+- Import and follow GPX trails; Hike Back turns the route walked into a route home
+- Street and outdoor basemaps; areas you have viewed are kept for offline use
+- No account or sign-up; hikes, media and journeys are stored on the phone
+- English, Simplified Chinese and Traditional Chinese
+
+Links:
+- Guide and video: https://www.idatagear.com/momerago/ (also https://www.idatagear.com/momerago/zh-cn.html and https://www.idatagear.com/momerago/zh-tw.html)
+- Web app: https://www.idatagear.com/hiking/
+- App Store: https://apps.apple.com/us/app/momera-go/id6811666343
+- Google Play: https://play.google.com/store/apps/details?id=com.idatagear.momera.hiking
+- Promo video: https://www.idatagear.com/assets/video/momerago/momerago-promo-en.mp4
+- Privacy: https://www.idatagear.com/momerago/momerago_privacy.html
+
+---
+
+## McMuse: Photo to Art
+
+Turns a photo you already have into a new piece of art: the whole frame is re-rendered in the chosen style, not filtered.
+
+- 51 styles: 16 art styles (3D Animation, Digital Painting, Oil Painting, Watercolor, Acrylic Painting, Chinese Ink Wash, Pencil Sketch, Ink Drawing, Anime, Storybook, Fantasy Art, Artistic Portrait, Low Poly, Clay Sculpture, Comic, Cartoon) and 35 more that reimagine the photo (for example Pin Collection, Brick Build, Film Strip, Ukiyo-e Woodblock, Dunhuang Mural)
+- Several art styles from one photo, made four at a time
+- Output at 1K, 2K or 4K (1, 2 or 4 credits per artwork, shown before you start)
+- A gallery kept on the device, with filters by style, date and tag, reusable tags and protected favourites
+- English, Simplified Chinese and Traditional Chinese; light and dark themes
+- Rendering uses Google's Gemini after the user agrees; location and other EXIF data are stripped first; neither the photo nor the artwork is kept on a server
+- No account needed; Google sign-in is optional and only carries credits to a new phone
+
+Links:
+- Guide: https://www.idatagear.com/mcmuse/
+- Google Play: https://play.google.com/store/apps/details?id=com.idatagear.mcmuse
+- Privacy and terms: https://www.idatagear.com/mcmuse/mcmuse_privacy.html
+- Delete account and data: https://www.idatagear.com/mcmuse-delete.html
+
+---
+
+## More apps
+
+- Eyeball It!: a visual-estimation puzzle game with Length & Shapes, Liquid Volume and Color Volume modes. Web https://www.idatagear.com/eyeballit/ · App Store https://apps.apple.com/us/app/eyeball-it/id6811791440 · Google Play https://play.google.com/store/apps/details?id=com.idatagear.eyeballit
+- Momera.ME: a private, offline moments journal by voice, text and photo. Google Play https://play.google.com/store/apps/details?id=com.idatagear.momera
+- Open Interview: AI-powered interview practice. Web https://www.idatagear.com/interview/
+- Tic Tac Toe Toe: tic-tac-toe on a 4×4 board against an AI. Web https://www.idatagear.com/tttt/ · Google Play https://play.google.com/store/apps/details?id=com.idatagear.tictactoetoe
+- Si Ding (四顶): a traditional Chinese strategy board game. Web https://www.idatagear.com/siding/ · Google Play https://play.google.com/store/apps/details?id=com.idatagear.siding
+
+---
+
+## Which store is each app on?
+
+| App | App Store (iPhone, iPad) | Google Play (Android) | Web |
+|---|---|---|---|
+| McChinese | Yes (id6804361040) | Yes | Yes |
+| McCantonese | Yes (id6797105973) | Yes | Yes |
+| McEnglish / ALL English | Yes (id6801781337) | Yes | Yes |
+| Great Cantonese Dictionary | Yes (id6799552060) | Yes | Yes |
+| Chinese Xie Zi | Yes (id6806851205) | Yes | Yes |
+| QuickOne Scanner | Yes (id6801050269) | Yes | No |
+| Momera GO | Yes (id6811666343) | Yes | Yes |
+| McMuse | No | Yes | No |
+| Eyeball It! | Yes (id6811791440) | Yes | Yes |
+
+---
+
+## Which app should I use for…
+
+- Preparing for the HSK exam: McChinese (HSK 1–6 word lists, graded sentences and articles, reading tests).
+- Writing Chinese characters in the right stroke order: Chinese Xie Zi.
+- Speaking Cantonese and learning Jyutping: McCantonese.
+- Looking up a Cantonese word offline, by Jyutping, English or Mandarin: Great Cantonese Dictionary.
+- Learning English by CEFR level or for IELTS, CET-4 or CET-6: McEnglish (ALL English).
+- Scanning paper documents to searchable PDF without uploading them: QuickOne Scanner.
+- Recording a hike with no signal, or replaying a trip on a map: Momera GO.
+- Turning a photo into a watercolour, oil painting, anime or comic image: McMuse.
+
+---
+
+## Business software
+
+iDataGear also builds ETL pipelines, BI dashboards and cross-platform web and mobile apps for businesses. Contact idatagear@gmail.com.

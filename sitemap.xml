@@ -1,251 +1,218 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-  
-  <!-- Main Homepage -->
+        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
   <url>
     <loc>https://www.idatagear.com/</loc>
-    <lastmod>2026-09-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
+    <lastmod>2026-10-31</lastmod>
   </url>
-  
-  <!-- McLearn Products — help & tutorial pages -->
   <url>
     <loc>https://www.idatagear.com/chinese/</loc>
-    <lastmod>2026-08-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <lastmod>2026-10-31</lastmod>
+    <video:video>
+      <video:thumbnail_loc>https://www.idatagear.com/assets/video/chinese/learnchinese-promo.webp</video:thumbnail_loc>
+      <video:title>McChinese — Learn Chinese from your first character to HSK 6</video:title>
+      <video:description>A 30-second tour of McChinese: HSK levels, word cards, stroke order, flashcards and tests.</video:description>
+      <video:content_loc>https://www.idatagear.com/assets/video/chinese/learnchinese-promo.mp4</video:content_loc>
+      <video:duration>30</video:duration>
+      <video:publication_date>2026-10-31</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
   </url>
-
   <url>
     <loc>https://www.idatagear.com/cantonese/</loc>
-    <lastmod>2026-09-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <lastmod>2026-10-31</lastmod>
+    <video:video>
+      <video:thumbnail_loc>https://www.idatagear.com/assets/video/cantonese/mccantonese-promo.webp</video:thumbnail_loc>
+      <video:title>McCantonese — My grandma only speaks Cantonese</video:title>
+      <video:description>A 30-second McCantonese film: learning the six tones to talk to Grandma in Cantonese.</video:description>
+      <video:content_loc>https://www.idatagear.com/assets/video/cantonese/mccantonese-promo.mp4</video:content_loc>
+      <video:duration>30</video:duration>
+      <video:publication_date>2026-10-31</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
   </url>
-
   <url>
     <loc>https://www.idatagear.com/english/</loc>
-    <lastmod>2026-08-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <lastmod>2026-10-31</lastmod>
+    <video:video>
+      <video:thumbnail_loc>https://www.idatagear.com/assets/video/english/allenglish-promo.webp</video:thumbnail_loc>
+      <video:title>McEnglish — every CEFR level from A1 to C2</video:title>
+      <video:description>A 30-second tour of McEnglish (ALL English): CEFR levels, collections, IPA and level tests.</video:description>
+      <video:content_loc>https://www.idatagear.com/assets/video/english/allenglish-promo.mp4</video:content_loc>
+      <video:duration>30</video:duration>
+      <video:publication_date>2026-10-31</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
   </url>
-
   <url>
-    <loc>https://www.idatagear.com/interview/</loc>
-    <lastmod>2025-01-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <loc>https://www.idatagear.com/gcd/guide/</loc>
+    <lastmod>2026-10-31</lastmod>
+    <video:video>
+      <video:thumbnail_loc>https://www.idatagear.com/assets/video/gcd/gcd-promo.webp</video:thumbnail_loc>
+      <video:title>Great Cantonese Dictionary — Do you speak Cantonese?</video:title>
+      <video:description>A 36-second film of real Hong Kong Cantonese, from cha chaan teng code to Gen Z slang, with Jyutping and English captions.</video:description>
+      <video:content_loc>https://www.idatagear.com/assets/video/gcd/gcd-promo.mp4</video:content_loc>
+      <video:duration>36</video:duration>
+      <video:publication_date>2026-10-31</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
   </url>
-  
   <url>
-    <loc>https://www.idatagear.com/xiezi/</loc>
-    <lastmod>2026-09-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <loc>https://www.idatagear.com/xiezi/guide/</loc>
+    <lastmod>2026-10-31</lastmod>
+    <video:video>
+      <video:thumbnail_loc>https://www.idatagear.com/assets/video/xiezi/xiezi-promo-zh-hans.webp</video:thumbnail_loc>
+      <video:title>Xie Zi — 一笔一画，写出爱</video:title>
+      <video:description>A 30-second film of tracing a Chinese character stroke by stroke in Xie Zi.</video:description>
+      <video:content_loc>https://www.idatagear.com/assets/video/xiezi/xiezi-promo-zh-hans.mp4</video:content_loc>
+      <video:duration>30</video:duration>
+      <video:publication_date>2026-10-31</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
   </url>
-  
-  <url>
-    <loc>https://www.idatagear.com/gcd/</loc>
-    <lastmod>2026-09-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.idatagear.com/tttt/</loc>
-    <lastmod>2025-01-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.idatagear.com/siding/</loc>
-    <lastmod>2025-01-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://www.idatagear.com/eyeballit/</loc>
-    <lastmod>2026-07-11</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://www.idatagear.com/hiking/</loc>
-    <lastmod>2026-07-11</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <!-- McLearn Products — per-app contact pages -->
-  <url>
-    <loc>https://www.idatagear.com/chinese/chinese_contactus.html</loc>
-    <lastmod>2026-08-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-
-  <url>
-    <loc>https://www.idatagear.com/cantonese/cantonese_contactus.html</loc>
-    <lastmod>2026-08-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-
-  <url>
-    <loc>https://www.idatagear.com/english/english_contactus.html</loc>
-    <lastmod>2026-08-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-
-  <!-- QuickOne Scanner -->
   <url>
     <loc>https://www.idatagear.com/quickonescanner/</loc>
-    <lastmod>2026-09-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <lastmod>2026-10-31</lastmod>
   </url>
-
-  <!-- Privacy policy and terms of use: one file per language -->
+  <url>
+    <loc>https://www.idatagear.com/momerago/</loc>
+    <lastmod>2026-10-31</lastmod>
+    <video:video>
+      <video:thumbnail_loc>https://www.idatagear.com/assets/video/momerago/momerago-promo-en.webp</video:thumbnail_loc>
+      <video:title>Momera GO — Tap Start. Just go.</video:title>
+      <video:description>Thirty seconds on the trail with Momera GO, from the first step to the replay.</video:description>
+      <video:content_loc>https://www.idatagear.com/assets/video/momerago/momerago-promo-en.mp4</video:content_loc>
+      <video:duration>30</video:duration>
+      <video:publication_date>2026-10-31</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://www.idatagear.com/momerago/zh-cn.html</loc>
+    <lastmod>2026-10-31</lastmod>
+    <video:video>
+      <video:thumbnail_loc>https://www.idatagear.com/assets/video/momerago/momerago-promo-zh-hans.webp</video:thumbnail_loc>
+      <video:title>拾光旅行 — 点一下开始，出发吧</video:title>
+      <video:description>三十秒，从第一步到回放。</video:description>
+      <video:content_loc>https://www.idatagear.com/assets/video/momerago/momerago-promo-zh-hans.mp4</video:content_loc>
+      <video:duration>30</video:duration>
+      <video:publication_date>2026-10-31</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://www.idatagear.com/momerago/zh-tw.html</loc>
+    <lastmod>2026-10-31</lastmod>
+    <video:video>
+      <video:thumbnail_loc>https://www.idatagear.com/assets/video/momerago/momerago-promo-zh-hant.webp</video:thumbnail_loc>
+      <video:title>拾光旅行 — 點一下開始，出發吧</video:title>
+      <video:description>三十秒，從第一步到回放。</video:description>
+      <video:content_loc>https://www.idatagear.com/assets/video/momerago/momerago-promo-zh-hant.mp4</video:content_loc>
+      <video:duration>30</video:duration>
+      <video:publication_date>2026-10-31</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://www.idatagear.com/mcmuse/</loc>
+    <lastmod>2026-10-31</lastmod>
+  </url>
+  <url>
+    <loc>https://www.idatagear.com/contactus.html</loc>
+    <lastmod>2026-10-31</lastmod>
+  </url>
+  <url>
+    <loc>https://www.idatagear.com/interview/</loc>
+  </url>
+  <url>
+    <loc>https://www.idatagear.com/xiezi/</loc>
+  </url>
+  <url>
+    <loc>https://www.idatagear.com/gcd/</loc>
+  </url>
+  <url>
+    <loc>https://www.idatagear.com/tttt/</loc>
+  </url>
+  <url>
+    <loc>https://www.idatagear.com/siding/</loc>
+  </url>
+  <url>
+    <loc>https://www.idatagear.com/eyeballit/</loc>
+  </url>
+  <url>
+    <loc>https://www.idatagear.com/hiking/</loc>
+  </url>
+  <url>
+    <loc>https://www.idatagear.com/chinese/chinese_contactus.html</loc>
+    <lastmod>2026-10-31</lastmod>
+  </url>
+  <url>
+    <loc>https://www.idatagear.com/cantonese/cantonese_contactus.html</loc>
+    <lastmod>2026-10-31</lastmod>
+  </url>
+  <url>
+    <loc>https://www.idatagear.com/english/english_contactus.html</loc>
+    <lastmod>2026-10-31</lastmod>
+  </url>
   <url>
     <loc>https://www.idatagear.com/privacy.html</loc>
-    <lastmod>2026-09-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
-
   <url>
     <loc>https://www.idatagear.com/privacy_zh-Hans.html</loc>
-    <lastmod>2026-09-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
   </url>
-
   <url>
     <loc>https://www.idatagear.com/privacy_zh-Hant.html</loc>
-    <lastmod>2026-09-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
   </url>
-
   <url>
     <loc>https://www.idatagear.com/privacy_es.html</loc>
-    <lastmod>2026-09-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
   </url>
-
   <url>
     <loc>https://www.idatagear.com/privacy_fr.html</loc>
-    <lastmod>2026-09-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
   </url>
-
   <url>
     <loc>https://www.idatagear.com/privacy_ja.html</loc>
-    <lastmod>2026-09-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
   </url>
-
   <url>
     <loc>https://www.idatagear.com/privacy_ko.html</loc>
-    <lastmod>2026-09-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
   </url>
-
   <url>
     <loc>https://www.idatagear.com/privacy_vi.html</loc>
-    <lastmod>2026-09-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
   </url>
-
   <url>
     <loc>https://www.idatagear.com/privacy_ar.html</loc>
-    <lastmod>2026-09-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
   </url>
-
-  <!-- Per-app policies, each in the languages that app ships -->
   <url>
     <loc>https://www.idatagear.com/learncantonese/learncantonese_privacy.html</loc>
-    <lastmod>2026-09-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
   </url>
-
   <url>
     <loc>https://www.idatagear.com/learnchinese/learnchinese_privacy.html</loc>
-    <lastmod>2026-09-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
   </url>
-
   <url>
     <loc>https://www.idatagear.com/gcd/gcd_privacy.html</loc>
-    <lastmod>2026-09-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
   </url>
-
   <url>
     <loc>https://www.idatagear.com/learnenglish/learnenglish_privacy.html</loc>
-    <lastmod>2026-09-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
   </url>
-
   <url>
     <loc>https://www.idatagear.com/xiezi/xiezi_privacy.html</loc>
-    <lastmod>2026-09-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
   </url>
-
   <url>
     <loc>https://www.idatagear.com/momerame/momerame_privacy.html</loc>
-    <lastmod>2026-09-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
   </url>
-
   <url>
     <loc>https://www.idatagear.com/momerago/momerago_privacy.html</loc>
-    <lastmod>2026-09-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
   </url>
-
   <url>
     <loc>https://www.idatagear.com/mcrecorder/mcrecorder_privacy.html</loc>
-    <lastmod>2026-09-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
   </url>
-
   <url>
     <loc>https://www.idatagear.com/quickonescanner/quickonescanner_privacy.html</loc>
-    <lastmod>2026-09-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
   </url>
-
   <url>
     <loc>https://www.idatagear.com/eyeballit/eyeballit_privacy.html</loc>
-    <lastmod>2026-09-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://www.idatagear.com/mcmuse/mcmuse_privacy.html</loc>
+    <lastmod>2026-10-31</lastmod>
   </url>
 </urlset>
-

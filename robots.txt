@@ -1,6 +1,5 @@
 User-agent: *
 Allow: /
-Disallow: /assets/vendor/
 Disallow: /*.json$
 Disallow: /*.bin$
 # Keep PWA manifests crawlable (overrides the .json block; longest-match wins)

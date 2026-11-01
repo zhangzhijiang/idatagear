@@ -1,198 +1,280 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="theme-color" content="#071512" media="(prefers-color-scheme: dark)">
-  <meta name="theme-color" content="#f7f3ea" media="(prefers-color-scheme: light)">
-  <meta name="color-scheme" content="dark light">
-
-  <title>Learn Chinese — Help &amp; Tutorial | McChinese® HSK 1–6 | iDataGear</title>
-  <meta name="description" content="How to use Learn Chinese (McChinese®): a screen-by-screen guide to HSK 1–6 vocabulary, word cards, sentences, graded articles, practice tests, mini-games, pinyin and stroke-order practice, and spaced-repetition review.">
-  <meta name="keywords" content="Learn Chinese help, McChinese tutorial, HSK app guide, how to use Learn Chinese, HSK 1 vocabulary, pinyin practice, Chinese stroke order, Mandarin learning app">
-
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>McChinese — Learn Chinese HSK 1–6: guide, video &amp; tutorial | iDataGear</title>
+  <meta name="description" content="How to use McChinese (Learn Chinese) on iPhone, iPad, Android and the web: HSK 1–6 vocabulary with pinyin and audio, 1,988 sentences, graded articles, tests, mini-games and stroke order.">
   <link rel="canonical" href="https://www.idatagear.com/chinese/">
   <link rel="alternate" hreflang="en" href="https://www.idatagear.com/chinese/">
   <link rel="alternate" hreflang="x-default" href="https://www.idatagear.com/chinese/">
+  <meta name="apple-itunes-app" content="app-id=6804361040">
 
-  <!-- Open Graph / Twitter -->
   <meta property="og:type" content="website">
+  <meta property="og:site_name" content="iDataGear">
   <meta property="og:url" content="https://www.idatagear.com/chinese/">
-  <meta property="og:title" content="Learn Chinese — Help &amp; Tutorial | McChinese®">
-  <meta property="og:description" content="A screen-by-screen guide to Learn Chinese: HSK 1–6 words and sentences, graded articles, practice tests, games, pinyin and stroke order.">
-  <meta property="og:image" content="https://www.idatagear.com/assets/img/learn-chinese-app-icon.png">
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Learn Chinese — Help &amp; Tutorial | McChinese®">
-  <meta name="twitter:description" content="A screen-by-screen guide to Learn Chinese: HSK 1–6 words and sentences, graded articles, practice tests, games, pinyin and stroke order.">
-  <meta name="twitter:image" content="https://www.idatagear.com/assets/img/learn-chinese-app-icon.png">
+  <meta property="og:title" content="McChinese — Learn Chinese from your first character to HSK 6">
+  <meta property="og:description" content="About 7,000 words with pinyin and audio, graded articles, tests, four mini-games and animated stroke order.">
+  <meta property="og:image" content="https://www.idatagear.com/assets/img/og/learn-chinese.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="McChinese — Learn Chinese from your first character to HSK 6">
+  <meta name="twitter:description" content="About 7,000 words with pinyin and audio, graded articles, tests, four mini-games and animated stroke order.">
+  <meta name="twitter:image" content="https://www.idatagear.com/assets/img/og/learn-chinese.jpg">
 
-  <link rel="icon" type="image/png" sizes="32x32" href="../assets/img/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="192x192" href="../assets/img/favicon-192x192.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="../assets/img/apple-touch-icon.png">
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
-  <link href="../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-
-  <!-- Set theme before first paint to avoid a flash of the wrong theme -->
-  <script>
-  (function () {
-    var t = null;
-    try { t = localStorage.getItem('theme'); } catch (e) {}
-    if (t !== 'light' && t !== 'dark') {
-      t = (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches) ? 'light' : 'dark';
-    }
-    document.documentElement.setAttribute('data-theme', t);
-  })();
-  </script>
-  <link rel="stylesheet" href="../assets/css/style.css">
-  <link rel="stylesheet" href="../assets/css/help.css">
+  <!-- partial:head -->
+<meta name="theme-color" content="#fbfaf7" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0f0e17" media="(prefers-color-scheme: dark)">
+<meta name="color-scheme" content="light dark">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/img/brand/favicon-32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/assets/img/brand/favicon-192.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/img/brand/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600..800&amp;family=Inter:wght@400..700&amp;display=swap">
+<link rel="stylesheet" href="/assets/vendor/bootstrap-icons-1.11.3/bootstrap-icons.min.css" media="print" onload="this.media='all'">
+<script>(function(){var d=document.documentElement;d.classList.add('js');var t=null;try{t=localStorage.getItem('theme')}catch(e){}if(t!=='light'&&t!=='dark'){t=window.matchMedia&&matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'}d.setAttribute('data-theme',t)})();</script>
+<link rel="stylesheet" href="/assets/css/site.css?v=20261031">
+<script src="/assets/js/site.js?v=20261031" defer></script>
+<!-- /partial:head -->
 
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "SoftwareApplication",
-    "name": "Learn Chinese",
-    "alternateName": ["McChinese", "AI Chinese", "爱中文"],
-    "applicationCategory": "EducationalApplication",
-    "operatingSystem": "Android, Web",
-    "inLanguage": "en",
-    "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
-    "description": "Mandarin Chinese learning app covering HSK levels 1–6 and elementary-school vocabulary, with word cards, sentences, graded articles, practice tests, mini-games, pinyin practice, stroke-order writing and spaced-repetition review.",
-    "url": "https://www.idatagear.com/chinese/",
-    "image": "https://www.idatagear.com/assets/img/learn-chinese-app-icon.png",
-    "publisher": { "@type": "Organization", "name": "iDataGear Inc", "url": "https://www.idatagear.com" },
-    "installUrl": "https://play.google.com/store/apps/details?id=com.idatagear.learn_chinese",
-    "downloadUrl": "https://play.google.com/store/apps/details?id=com.idatagear.learn_chinese",
-    "featureList": [
-      "HSK 1–6 vocabulary with pinyin, meaning, part of speech and traditional forms",
-      "Elementary-school (Grade 1–6) word lists",
-      "Example sentences and graded reading articles",
-      "Reading and listening practice tests with scoring",
-      "Four mini-games: Tone Trainer, Timed Quiz, Listening Match, Sentence Match",
-      "Pinyin initials, finals and tone drills",
-      "Animated stroke order and handwriting tracing",
-      "Spaced-repetition review with daily goals, streaks and achievements"
-    ]
-  }
-  </script>
-
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-      { "@type": "ListItem", "position": 1, "name": "iDataGear", "item": "https://www.idatagear.com/" },
-      { "@type": "ListItem", "position": 2, "name": "Learn Chinese — Help & Tutorial", "item": "https://www.idatagear.com/chinese/" }
-    ]
-  }
-  </script>
-
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
-      {
-        "@type": "Question",
-        "name": "Is Learn Chinese free?",
-        "acceptedAnswer": { "@type": "Answer", "text": "Yes. Every HSK level, sentence, article, test and game is free and unlocked from the start. The app is funded by ads, and there is one optional in-app purchase — Remove Ads — that hides them permanently. Nothing else is paywalled." }
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "MobileApplication",
+      "name": "McChinese — Learn Chinese (HSK)",
+      "url": "https://www.idatagear.com/chinese/",
+      "description": "Mandarin Chinese from the first character to HSK 6: about 7,000 words with pinyin and audio across HSK 1–6 and Grade 1–6, 1,988 example sentences, 33 graded articles, 309 reading test questions, four mini-games, pinyin drills, animated stroke order and spaced-repetition review.",
+      "applicationCategory": "EducationalApplication",
+      "operatingSystem": "iOS, Android, Web",
+      "image": "https://www.idatagear.com/assets/img/learn-chinese-app-icon.png",
+      "inLanguage": "en",
+      "featureList": [
+        "HSK 1–6 vocabulary: 500, 772, 974, 1,000, 1,071 and 1,149 words",
+        "1,530 Grade 1–6 elementary words",
+        "1,988 example sentences with audio",
+        "33 graded articles",
+        "309 reading test questions",
+        "Tone Trainer, Timed Quiz, Listening Match and Sentence Match",
+        "Animated stroke order",
+        "Spaced-repetition review"
+      ],
+      "screenshot": [
+        "https://www.idatagear.com/assets/img/apps/chinese/01-home.webp",
+        "https://www.idatagear.com/assets/img/apps/chinese/07-word-card.webp",
+        "https://www.idatagear.com/assets/img/apps/chinese/16-tone-trainer.webp"
+      ],
+      "installUrl": "https://apps.apple.com/us/app/mcchinese-hsk-chinese/id6804361040",
+      "sameAs": [
+        "https://apps.apple.com/us/app/mcchinese-hsk-chinese/id6804361040",
+        "https://play.google.com/store/apps/details?id=com.idatagear.learn_chinese"
+      ],
+      "publisher": {
+        "@type": "Organization",
+        "name": "iDataGear Inc",
+        "url": "https://www.idatagear.com/"
       },
-      {
-        "@type": "Question",
-        "name": "Do I need an account to use Learn Chinese?",
-        "acceptedAnswer": { "@type": "Answer", "text": "No. There is no sign-up and no login. Your progress, favorites and settings are stored only on your own device." }
-      },
-      {
-        "@type": "Question",
-        "name": "Does Learn Chinese work offline?",
-        "acceptedAnswer": { "@type": "Answer", "text": "The learning content is stored on your device, so words, sentences, articles, tests and games work without a connection. Text-to-speech and speech recognition rely on your device's own engines, which may need a one-time voice download or a connection depending on your phone." }
-      },
-      {
-        "@type": "Question",
-        "name": "Why can't I hear any Chinese audio?",
-        "acceptedAnswer": { "@type": "Answer", "text": "Your device has no Mandarin text-to-speech voice installed. On Android, install or enable Google Text-to-Speech and add the Chinese voice data — the app offers a shortcut to the device TTS settings in Profile. On iOS, go to Settings › Accessibility › Spoken Content › Voices › Chinese and download a voice." }
-      },
-      {
-        "@type": "Question",
-        "name": "How do I review the words I have saved?",
-        "acceptedAnswer": { "@type": "Answer", "text": "Tap the heart on any word card to add it to My Favorites. Favorites seed the spaced-repetition pool, and the Review button on the Home card starts a session where you rate each card Again, Hard, Good or Easy. The app reschedules each word based on how well you knew it." }
-      },
-      {
-        "@type": "Question",
-        "name": "What is the difference between HSK levels and the Grade 1–6 lists?",
-        "acceptedAnswer": { "@type": "Answer", "text": "HSK 1–6 follows the standard Chinese proficiency test syllabus and is the right track if you are studying for the exam. The Grade 1–6 lists cover vocabulary Chinese children learn in elementary school, which overlaps with HSK but includes everyday words the exam skips." }
-      },
-      {
-        "@type": "Question",
-        "name": "Can I change the language the meanings are shown in?",
-        "acceptedAnswer": { "@type": "Answer", "text": "Yes. Open Profile and tap My Language. Translations are available in English, Spanish, Japanese, Korean and Vietnamese." }
-      },
-      {
-        "@type": "Question",
-        "name": "Will I lose my progress if I reinstall the app?",
-        "acceptedAnswer": { "@type": "Answer", "text": "Yes. Because everything is stored locally and there is no account, uninstalling the app deletes your progress, favorites and settings. There is currently no cloud backup or sync." }
-      },
-      {
-        "@type": "Question",
-        "name": "Is the web version the same as the Android app?",
-        "acceptedAnswer": { "@type": "Answer", "text": "The web version lets you try the app in a browser without installing anything, but the Android app is the full experience: it has reliable text-to-speech voices, microphone practice, offline use and the Remove Ads purchase." }
+      "alternateName": [
+        "Learn Chinese",
+        "McChinese HSK",
+        "McChinese - HSK Chinese"
+      ]
+    },
+    {
+      "@type": "VideoObject",
+      "name": "McChinese — Learn Chinese from your first character to HSK 6",
+      "description": "A 30-second tour of McChinese: HSK levels, word cards, stroke order, flashcards and tests.",
+      "thumbnailUrl": "https://www.idatagear.com/assets/video/chinese/learnchinese-promo.webp",
+      "contentUrl": "https://www.idatagear.com/assets/video/chinese/learnchinese-promo.mp4",
+      "uploadDate": "2026-10-31",
+      "duration": "PT30S",
+      "inLanguage": "en",
+      "publisher": {
+        "@type": "Organization",
+        "name": "iDataGear Inc",
+        "url": "https://www.idatagear.com/"
       }
-    ]
-  }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "iDataGear",
+          "item": "https://www.idatagear.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "McChinese guide",
+          "item": "https://www.idatagear.com/chinese/"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Do I need an account?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. There is no sign-up and no login. Your progress, favorites and settings are stored only on your own device. See the privacy policy for the details."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does it work offline?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The learning content is stored on your device, so words, sentences, articles, tests and games all work without a connection. Text-to-speech and speech recognition use your device's own engines, which may need a voice download first or a connection depending on your phone."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why can't I hear any Chinese audio?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Your device has no Mandarin voice installed. On Android, install Google Text-to-Speech and add its Chinese voice data — Profile has a shortcut to the device settings. On iOS, go to Settings › Accessibility › Spoken Content › Voices › Chinese and download one. Full steps are in Audio & voices above."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I review the words I have saved?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tap the heart on any word card to add it to My Favorites . Favorites seed the spaced-repetition pool, and the Review button on the Home card starts a session where you rate each card Again , Hard , Good or Easy . The app then reschedules each word based on how well you knew it."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the difference between the HSK levels and the Grade 1–6 lists?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "HSK 1–6 follows the standard Chinese proficiency test syllabus — use it if you are studying for the exam. The Grade 1–6 lists cover vocabulary Chinese children learn in elementary school, which overlaps with HSK but includes everyday words the exam skips."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I change the language the meanings are shown in?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes — Profile → My Language . Translations are available in English, Spanish, Japanese, Korean and Vietnamese."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Will I lose my progress if I reinstall?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Because everything is stored locally and there is no account, uninstalling deletes your progress, favorites and settings. There is currently no cloud backup or sync — worth knowing before you switch phones."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "My purchase is missing on a new phone.",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Open Profile and tap Restore Purchases . The app also checks with the store automatically each time it launches, so make sure you are signed in with the same Apple Account or Google account you bought it on. If it still does not restore, get in touch ."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is the web version the same as the iPhone and Android apps?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Same content, fewer capabilities. The web version is there so you can try the app without installing anything; the iPhone, iPad and Android apps add dependable text-to-speech, microphone practice and offline use. See the comparison table above."
+          }
+        }
+      ]
+    }
+  ]
+}
   </script>
 </head>
-<body>
-  <a class="sr-only" href="#main">Skip to content</a>
-
-  <header class="site-header" id="top">
-    <div class="logo"><a href="../index.html">iDataGear</a></div>
-    <nav class="site-nav" id="site-nav">
-      <a href="../index.html">Home</a>
-      <a href="../index.html#products"><span class="mclearn-mark" role="text" aria-label="McLearn registered trademark">McLearn</span></a>
-      <a href="index.html" class="active" aria-current="page">Help</a>
-      <a href="chinese_privacy.html">Privacy</a>
-      <a href="chinese_contactus.html">Contact</a>
-      <div class="nav-product-links">
-        <a class="cta-link" href="learnchinese/">Open the app</a>
-      </div>
+<body data-app="mcchinese">
+  <!-- partial:header -->
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="wrap header-row">
+    <a class="brand" href="/" aria-label="iDataGear home">
+      <img src="/assets/img/brand/logo-96.webp" alt="" width="36" height="36">
+      <span>iDataGear</span>
+    </a>
+    <nav class="site-nav" id="site-nav" aria-label="Main">
+      <a href="/#apps">Apps</a>
+      <a href="/#watch">Watch</a>
+      <a href="/mcmuse/">McMuse<span class="nav-new">New</span></a>
+      <a href="/#about">About</a>
+      <a href="/contactus.html">Contact</a>
     </nav>
-    <button class="theme-toggle" type="button" aria-label="Toggle colour theme">
-      <i class="bi bi-sun"></i><i class="bi bi-moon-stars"></i>
-    </button>
-    <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false"><span></span><span></span><span></span></button>
-  </header>
+    <div class="header-actions">
+      <button class="icon-btn theme-toggle" type="button" aria-label="Switch to dark theme">
+        <svg class="i-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4.5"/><path d="M12 2v2.5M12 19.5V22M4.2 4.2 6 6M18 18l1.8 1.8M2 12h2.5M19.5 12H22M4.2 19.8 6 18M18 6l1.8-1.8"/></svg>
+        <svg class="i-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.5 14.5A8.5 8.5 0 0 1 9.5 3.5a8.5 8.5 0 1 0 11 11Z"/></svg>
+      </button>
+      <button class="icon-btn nav-toggle" type="button" aria-controls="site-nav" aria-expanded="false" aria-label="Open menu">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+<!-- /partial:header -->
 
   <main id="main">
+    <nav class="wrap crumbs" aria-label="Breadcrumb"><a href="/">iDataGear</a><span aria-hidden="true">/</span>McChinese</nav>
 
-    <!-- ============ Hero ============ -->
     <section class="app-hero">
-      <img class="app-hero__icon" src="../assets/img/learn-chinese-app-icon.png" alt="Learn Chinese app icon" width="88" height="88">
-      <div class="app-hero__body">
-        <span class="eyebrow">Help &amp; Tutorial</span>
-        <h1 class="page-title">Learn Chinese <span style="color:var(--muted); font-weight:600;">· McChinese®</span></h1>
-        <p class="page-lede">
-          Mandarin from the first character to HSK 6 — around 7,000 words with pinyin and audio,
-          2,000 example sentences, graded articles, practice tests, four mini-games, pinyin drills
-          and animated stroke order. This page explains every screen in the app and walks you
-          through the things people most often ask about.
-        </p>
-        <div class="app-hero__actions">
-          <a class="btn btn-primary" href="learnchinese/">Open the web app <i class="bi bi-arrow-right"></i></a>
-          <a href="https://play.google.com/store/apps/details?id=com.idatagear.learn_chinese" target="_blank" rel="noopener">
-            <img class="play-badge" src="../assets/img/google-play-badge.svg" alt="Get Learn Chinese on Google Play" width="162" height="48">
-          </a>
+      <div class="wrap app-hero-grid">
+        <div>
+          <img class="app-hero__icon" src="/assets/img/apps/icons/mcchinese.webp" alt="McChinese app icon" width="96" height="96">
+          <span class="eyebrow">McLearn® · Guide &amp; tutorial</span>
+          <h1 class="page-title">McChinese <span class="alt">Learn Chinese · HSK 1–6</span></h1>
+          <p class="page-lede">Mandarin from the first character to HSK 6: around 7,000 words with pinyin and audio, 1,988 example sentences, 33 graded articles, practice tests, four mini-games, pinyin drills and animated stroke order. This page explains every screen and answers the questions people ask us most.</p>
+          <div class="app-hero__actions store-badges">
+            <a class="btn btn-primary" href="/chinese/learnchinese/">Open the web app <i class="bi bi-arrow-right" aria-hidden="true"></i></a>
+            <a href="https://apps.apple.com/us/app/mcchinese-hsk-chinese/id6804361040" rel="noopener"><img src="/assets/img/app-store-badge.svg" alt="Download McChinese on the App Store" width="144" height="48"></a>
+            <a href="https://play.google.com/store/apps/details?id=com.idatagear.learn_chinese" rel="noopener"><img src="/assets/img/google-play-badge.svg" alt="Get McChinese on Google Play" width="162" height="48"></a>
+          </div>
+          <div class="app-hero__meta"><span class="chip">iPhone &amp; iPad</span><span class="chip">Android</span><span class="chip">Web</span><span class="chip">Meanings in 5 languages</span></div>
+        </div>
+        <div class="app-hero-art" aria-hidden="true">
+          <div class="phone"><img src="/assets/img/apps/chinese/01-home.webp" alt="" width="540" height="960" fetchpriority="high"></div>
+          <div class="phone"><img src="/assets/img/apps/chinese/07-word-card.webp" alt="" width="540" height="960"></div>
         </div>
       </div>
     </section>
 
+    <nav class="page-nav" aria-label="On this page">
+      <ul class="wrap"><li><a href="#video">Video</a></li><li><a href="#whats-inside">What's inside</a></li><li><a href="#tour">Tour</a></li><li><a href="#tutorials">Tutorials</a></li><li><a href="#audio">Audio</a></li><li><a href="#web-vs-android">Web vs. apps</a></li><li><a href="#faq">FAQ</a></li></ul>
+    </nav>
+
+    <section class="section section--tight" id="video">
+      <div class="wrap">
+        <div class="section-heading">
+          <span class="eyebrow">Watch</span>
+          <h2>From your first character to HSK 6.</h2>
+          <p>Thirty seconds through levels, word cards, stroke order, flashcards and tests.</p>
+        </div>
+        <div class="promo-frame">
+          <video controls preload="none" playsinline poster="/assets/video/chinese/learnchinese-promo.webp" src="/assets/video/chinese/learnchinese-promo.mp4">
+          </video>
+        </div>
+      </div>
+    </section>
+
+
     <!-- ============ What's inside ============ -->
     <section class="section" id="whats-inside">
+      <div class="wrap">
       <div class="section-heading">
         <span class="eyebrow">What's inside</span>
-        <h2>Everything is included, and everything is free</h2>
-        <p>No level is locked and nothing is drip-fed. These are the actual counts of what ships inside the app.</p>
+        <h2>About 7,000 words, graded from HSK 1 to HSK 6</h2>
+        <p>These are the actual counts of what ships inside the app.</p>
       </div>
 
       <div class="table-scroll">
@@ -221,10 +303,12 @@
         tracks in order. If you just want to speak and read everyday Chinese, mix in the Grade 1–6 list —
         it covers common words the exam syllabus skips.</p>
       </div>
+    </div>
     </section>
 
     <!-- ============ Screen-by-screen tour ============ -->
-    <section class="section" id="tour">
+    <section class="section section--tint" id="tour">
+      <div class="wrap">
       <div class="section-heading">
         <span class="eyebrow">Screen by screen</span>
         <h2>A guided tour of the app</h2>
@@ -235,7 +319,7 @@
 
         <div class="tour-step">
           <figure class="shot">
-            <img src="../assets/img/help/chinese/01-home.png" alt="Learn Chinese home screen showing streak, level, daily goal and a grid of shortcuts" width="270" height="480" loading="lazy">
+            <img src="/assets/img/apps/chinese/01-home.webp" alt="Learn Chinese home screen showing streak, level, daily goal and a grid of shortcuts" width="270" height="480" loading="lazy">
             <figcaption>Home — your daily dashboard.</figcaption>
           </figure>
           <div class="tour-step__body">
@@ -258,7 +342,7 @@
 
         <div class="tour-step">
           <figure class="shot">
-            <img src="../assets/img/help/chinese/02-home-features.png" alt="The lower half of the home screen showing the full grid of practice shortcuts" width="270" height="480" loading="lazy">
+            <img src="/assets/img/apps/chinese/02-home-features.webp" alt="The lower half of the home screen showing the full grid of practice shortcuts" width="270" height="480" loading="lazy">
             <figcaption>Scroll down for the rest of the shortcut grid.</figcaption>
           </figure>
           <div class="tour-step__body">
@@ -276,7 +360,7 @@
 
         <div class="tour-step">
           <figure class="shot">
-            <img src="../assets/img/help/chinese/04-hsk-words.png" alt="Level picker showing HSK 1 to 6, Grade 1 to 6 and My Favorites" width="270" height="480" loading="lazy">
+            <img src="/assets/img/apps/chinese/04-hsk-words.webp" alt="Level picker showing HSK 1 to 6, Grade 1 to 6 and My Favorites" width="270" height="480" loading="lazy">
             <figcaption>Pick a level, or open a collection you built yourself.</figcaption>
           </figure>
           <div class="tour-step__body">
@@ -293,7 +377,7 @@
 
         <div class="tour-step">
           <figure class="shot">
-            <img src="../assets/img/help/chinese/06-word-list.png" alt="A list of Chinese words with pinyin, meaning and a heart icon on each row" width="270" height="480" loading="lazy">
+            <img src="/assets/img/apps/chinese/06-word-list.webp" alt="A list of Chinese words with pinyin, meaning and a heart icon on each row" width="270" height="480" loading="lazy">
             <figcaption>Each row shows the character, pinyin and meaning.</figcaption>
           </figure>
           <div class="tour-step__body">
@@ -309,7 +393,7 @@
 
         <div class="tour-step">
           <figure class="shot">
-            <img src="../assets/img/help/chinese/07-word-card.png" alt="Word card for 中国 showing pinyin Zhōngguó, meaning China, part of speech, traditional form and pronunciation guide" width="270" height="480" loading="lazy">
+            <img src="/assets/img/apps/chinese/07-word-card.webp" alt="Word card for 中国 showing pinyin Zhōngguó, meaning China, part of speech, traditional form and pronunciation guide" width="270" height="480" loading="lazy">
             <figcaption>The word card — the heart of the app.</figcaption>
           </figure>
           <div class="tour-step__body">
@@ -331,7 +415,7 @@
 
         <div class="tour-step">
           <figure class="shot">
-            <img src="../assets/img/help/chinese/08-hsk-sentences.png" alt="Sentence level picker for HSK levels" width="270" height="480" loading="lazy">
+            <img src="/assets/img/apps/chinese/08-hsk-sentences.webp" alt="Sentence level picker for HSK levels" width="270" height="480" loading="lazy">
             <figcaption>Sentences are organised by level, the same way words are.</figcaption>
           </figure>
           <div class="tour-step__body">
@@ -347,7 +431,7 @@
 
         <div class="tour-step">
           <figure class="shot">
-            <img src="../assets/img/help/chinese/11-article-reader.png" alt="A graded Chinese reading article with sentence-by-sentence playback" width="270" height="480" loading="lazy">
+            <img src="/assets/img/apps/chinese/11-article-reader.webp" alt="A graded Chinese reading article with sentence-by-sentence playback" width="270" height="480" loading="lazy">
             <figcaption>Graded articles play back one sentence at a time.</figcaption>
           </figure>
           <div class="tour-step__body">
@@ -363,7 +447,7 @@
 
         <div class="tour-step">
           <figure class="shot">
-            <img src="../assets/img/help/chinese/12-tests.png" alt="Test screen offering reading and listening test types" width="270" height="480" loading="lazy">
+            <img src="/assets/img/apps/chinese/12-tests.webp" alt="Test screen offering reading and listening test types" width="270" height="480" loading="lazy">
             <figcaption>Two test types: reading and listening.</figcaption>
           </figure>
           <div class="tour-step__body">
@@ -380,7 +464,7 @@
 
         <div class="tour-step">
           <figure class="shot">
-            <img src="../assets/img/help/chinese/15-games-hub.png" alt="Games hub listing Tone Trainer, Timed Quiz, Listening Match and Sentence Match" width="270" height="480" loading="lazy">
+            <img src="/assets/img/apps/chinese/15-games-hub.webp" alt="Games hub listing Tone Trainer, Timed Quiz, Listening Match and Sentence Match" width="270" height="480" loading="lazy">
             <figcaption>Four mini-games, each drilling a different skill.</figcaption>
           </figure>
           <div class="tour-step__body">
@@ -398,7 +482,7 @@
 
         <div class="tour-step">
           <figure class="shot">
-            <img src="../assets/img/help/chinese/16-tone-trainer.png" alt="Tone Trainer game asking which tone was spoken" width="270" height="480" loading="lazy">
+            <img src="/assets/img/apps/chinese/16-tone-trainer.webp" alt="Tone Trainer game asking which tone was spoken" width="270" height="480" loading="lazy">
             <figcaption>Tone Trainer — the fastest way to fix tone-deafness.</figcaption>
           </figure>
           <div class="tour-step__body">
@@ -414,7 +498,7 @@
 
         <div class="tour-step">
           <figure class="shot">
-            <img src="../assets/img/help/chinese/18-flash-cards.png" alt="Flash card review screen" width="270" height="480" loading="lazy">
+            <img src="/assets/img/apps/chinese/18-flash-cards.webp" alt="Flash card review screen" width="270" height="480" loading="lazy">
             <figcaption>Flash cards for fast, low-effort revision.</figcaption>
           </figure>
           <div class="tour-step__body">
@@ -430,7 +514,7 @@
 
         <div class="tour-step">
           <figure class="shot">
-            <img src="../assets/img/help/chinese/19-pinyin-practice.png" alt="Pinyin practice screen drilling initials, finals and tones" width="270" height="480" loading="lazy">
+            <img src="/assets/img/apps/chinese/19-pinyin-practice.webp" alt="Pinyin practice screen drilling initials, finals and tones" width="270" height="480" loading="lazy">
             <figcaption>Pinyin, broken into its three moving parts.</figcaption>
           </figure>
           <div class="tour-step__body">
@@ -447,7 +531,7 @@
 
         <div class="tour-step">
           <figure class="shot">
-            <img src="../assets/img/help/chinese/20-achievements.png" alt="Achievements grid showing locked and unlocked badges" width="270" height="480" loading="lazy">
+            <img src="/assets/img/apps/chinese/20-achievements.webp" alt="Achievements grid showing locked and unlocked badges" width="270" height="480" loading="lazy">
             <figcaption>Achievements on a fresh install — everything still to play for.</figcaption>
           </figure>
           <div class="tour-step__body">
@@ -463,7 +547,7 @@
 
         <div class="tour-step">
           <figure class="shot">
-            <img src="../assets/img/help/chinese/21-profile-settings.png" alt="Profile and settings screen" width="270" height="480" loading="lazy">
+            <img src="/assets/img/apps/chinese/21-profile-settings.webp" alt="Profile and settings screen" width="270" height="480" loading="lazy">
             <figcaption>Profile — settings, statistics and progress.</figcaption>
           </figure>
           <div class="tour-step__body">
@@ -474,17 +558,18 @@
               Japanese, Korean or Vietnamese. <strong>My Settings</strong> holds the daily goal and the auto-play
               options. <strong>Voice Play Setting</strong> lets you choose a specific installed voice and set the
               playback speed. Further down you will find <strong>Content Statistics</strong> (how much is in the app),
-              <strong>My Learning Progress</strong> (your test results), the <strong>Remove Ads</strong> purchase, and
-              the app version you will need if you ever email us.
+              <strong>My Learning Progress</strong> (your test results), <strong>Restore Purchases</strong>, and the app version you will need if you ever email us.
             </p>
           </div>
         </div>
 
       </div>
+    </div>
     </section>
 
     <!-- ============ Walkthroughs ============ -->
     <section class="section" id="tutorials">
+      <div class="wrap">
       <div class="section-heading">
         <span class="eyebrow">Tutorials</span>
         <h2>Three things worth setting up on day one</h2>
@@ -529,10 +614,12 @@
         </div>
 
       </div>
+    </div>
     </section>
 
     <!-- ============ Audio ============ -->
-    <section class="section" id="audio">
+    <section class="section section--tint" id="audio">
+      <div class="wrap">
       <div class="section-heading">
         <span class="eyebrow">Audio &amp; voices</span>
         <h2>Getting the pronunciation working</h2>
@@ -562,12 +649,14 @@
         find the default a little fast at first. Pinyin is deliberately read with an English voice, since
         reading it with a Mandarin voice produces nonsense.
       </p>
+    </div>
     </section>
 
     <!-- ============ Web vs Android ============ -->
     <section class="section" id="web-vs-android">
+      <div class="wrap">
       <div class="section-heading">
-        <span class="eyebrow">Web vs. Android</span>
+        <span class="eyebrow">Web vs. the apps</span>
         <h2>Which version should you use?</h2>
         <p>The web build is a genuine copy of the app, but a browser cannot do everything a phone can.</p>
       </div>
@@ -575,7 +664,7 @@
       <div class="table-scroll">
         <table class="spec-table">
           <thead>
-            <tr><th scope="col">Feature</th><th scope="col">Web</th><th scope="col">Android app</th></tr>
+            <tr><th scope="col">Feature</th><th scope="col">Web</th><th scope="col">iPhone, iPad &amp; Android</th></tr>
           </thead>
           <tbody>
             <tr><th scope="row">All HSK levels, sentences, articles, tests, games</th><td class="yes">Yes</td><td class="yes">Yes</td></tr>
@@ -583,19 +672,20 @@
             <tr><th scope="row">Reliable Chinese text-to-speech</th><td class="no">Depends entirely on your browser and OS</td><td class="yes">Yes, using the device voice</td></tr>
             <tr><th scope="row">Microphone / speaking practice</th><td class="no">Unreliable in most browsers</td><td class="yes">Yes</td></tr>
             <tr><th scope="row">Works without a connection</th><td class="no">—</td><td class="yes">Content is stored on the device</td></tr>
-            <tr><th scope="row">Remove Ads purchase</th><td class="no">—</td><td class="yes">Yes, one-off</td></tr>
             <tr><th scope="row">Progress survives between visits</th><td class="no">Kept in your browser only; clearing site data wipes it</td><td class="yes">Kept on the device</td></tr>
           </tbody>
         </table>
       </div>
 
       <p style="color:var(--muted); margin-top:1.5rem;">
-        Short version: <strong>try it on the web, learn on Android.</strong>
+        Short version: <strong>try it on the web, learn in the app.</strong>
       </p>
+    </div>
     </section>
 
     <!-- ============ FAQ ============ -->
-    <section class="section" id="faq">
+    <section class="section section--tint" id="faq">
+      <div class="wrap">
       <div class="section-heading">
         <span class="eyebrow">FAQ</span>
         <h2>Common questions</h2>
@@ -603,16 +693,12 @@
 
       <div class="faq-list">
         <details class="faq-item">
-          <summary>Is Learn Chinese free?</summary>
-          <div class="faq-answer"><p>Yes. Every HSK level, sentence, article, test and game is free and unlocked from the start. The app is funded by ads, and there is one optional in-app purchase — <strong>Remove Ads</strong> — that hides them permanently. Nothing else is paywalled.</p></div>
-        </details>
-        <details class="faq-item">
           <summary>Do I need an account?</summary>
-          <div class="faq-answer"><p>No. There is no sign-up and no login. Your progress, favorites and settings are stored only on your own device. See the <a href="chinese_privacy.html">privacy policy</a> for the details.</p></div>
+          <div class="faq-answer"><p>No. There is no sign-up and no login. Your progress, favorites and settings are stored only on your own device. See the <a href="/chinese/chinese_privacy.html">privacy policy</a> for the details.</p></div>
         </details>
         <details class="faq-item">
           <summary>Does it work offline?</summary>
-          <div class="faq-answer"><p>The learning content is stored on your device, so words, sentences, articles, tests and games all work without a connection. Text-to-speech and speech recognition use your device's own engines, which may need a one-time voice download or a connection depending on your phone.</p></div>
+          <div class="faq-answer"><p>The learning content is stored on your device, so words, sentences, articles, tests and games all work without a connection. Text-to-speech and speech recognition use your device's own engines, which may need a voice download first or a connection depending on your phone.</p></div>
         </details>
         <details class="faq-item">
           <summary>Why can't I hear any Chinese audio?</summary>
@@ -635,50 +721,96 @@
           <div class="faq-answer"><p>Yes. Because everything is stored locally and there is no account, uninstalling deletes your progress, favorites and settings. There is currently no cloud backup or sync — worth knowing before you switch phones.</p></div>
         </details>
         <details class="faq-item">
-          <summary>I bought Remove Ads but the ads came back.</summary>
-          <div class="faq-answer"><p>Open <strong>Profile</strong> and tap <strong>Restore Purchases</strong>. The app also checks with Google Play automatically each time it launches, so make sure you are signed in with the same Google account you bought it on. If it still does not restore, <a href="chinese_contactus.html">get in touch</a>.</p></div>
+          <summary>My purchase is missing on a new phone.</summary>
+          <div class="faq-answer"><p>Open <strong>Profile</strong> and tap <strong>Restore Purchases</strong>. The app also checks with the store automatically each time it launches, so make sure you are signed in with the same Apple Account or Google account you bought it on. If it still does not restore, <a href="/chinese/chinese_contactus.html">get in touch</a>.</p></div>
         </details>
         <details class="faq-item">
-          <summary>Is the web version the same as the Android app?</summary>
-          <div class="faq-answer"><p>Same content, fewer capabilities. The web version is there so you can try the app without installing anything; the Android app adds dependable text-to-speech, microphone practice, offline use and the Remove Ads purchase. See the <a href="#web-vs-android">comparison table</a> above.</p></div>
+          <summary>Is the web version the same as the iPhone and Android apps?</summary>
+          <div class="faq-answer"><p>Same content, fewer capabilities. The web version is there so you can try the app without installing anything; the iPhone, iPad and Android apps add dependable text-to-speech, microphone practice and offline use. See the <a href="#web-vs-android">comparison table</a> above.</p></div>
         </details>
       </div>
+    </div>
     </section>
 
-    <!-- ============ Closing CTA ============ -->
+  
     <section class="section" id="start">
-      <div class="cta-band">
-        <h2>Ready to start?</h2>
-        <p>Open it in your browser right now, or install the Android app for offline study and full audio.</p>
-        <div class="app-hero__actions">
-          <a class="btn btn-primary" href="learnchinese/">Open the web app <i class="bi bi-arrow-right"></i></a>
-          <a href="https://play.google.com/store/apps/details?id=com.idatagear.learn_chinese" target="_blank" rel="noopener">
-            <img class="play-badge" src="../assets/img/google-play-badge.svg" alt="Get Learn Chinese on Google Play" width="162" height="48">
-          </a>
+      <div class="wrap">
+        <div class="cta-band">
+          <h2>Ready to start?</h2>
+          <p>Open it in your browser right now, or install the app on iPhone, iPad or Android for offline study and full audio.</p>
+          <div class="app-hero__actions store-badges">
+            <a class="btn btn-primary" href="/chinese/learnchinese/">Open the web app <i class="bi bi-arrow-right" aria-hidden="true"></i></a>
+            <a href="https://apps.apple.com/us/app/mcchinese-hsk-chinese/id6804361040" rel="noopener"><img src="/assets/img/app-store-badge.svg" alt="Download McChinese on the App Store" width="144" height="48"></a>
+            <a href="https://play.google.com/store/apps/details?id=com.idatagear.learn_chinese" rel="noopener"><img src="/assets/img/google-play-badge.svg" alt="Get McChinese on Google Play" width="162" height="48"></a>
+          </div>
+          <div class="page-links">
+            <a class="btn btn-outline btn-sm" href="/chinese/chinese_privacy.html">Privacy policy</a>
+            <a class="btn btn-outline btn-sm" href="/chinese/chinese_contactus.html">Contact us</a>
+          </div>
         </div>
-        <div class="page-links" style="justify-content:center;">
-          <a class="btn btn-outline" href="chinese_privacy.html">Privacy policy</a>
-          <a class="btn btn-outline" href="chinese_contactus.html">Contact us</a>
-          <a class="btn btn-ghost" href="../index.html">All iDataGear apps</a>
+
+        <h2 style="font-size:1.4rem;margin-top:64px">More apps from iDataGear</h2>
+        <div class="sibling-apps">
+          <a href="/cantonese/"><img src="/assets/img/apps/icons/mccantonese.webp" alt="" width="40" height="40" loading="lazy">McCantonese</a>
+          <a href="/english/"><img src="/assets/img/apps/icons/mcenglish.webp" alt="" width="40" height="40" loading="lazy">McEnglish</a>
+          <a href="/gcd/guide/"><img src="/assets/img/apps/icons/gcd.webp" alt="" width="40" height="40" loading="lazy">Great Cantonese Dictionary</a>
+          <a href="/xiezi/guide/"><img src="/assets/img/apps/icons/xiezi.webp" alt="" width="40" height="40" loading="lazy">Xie Zi</a>
+          <a href="/quickonescanner/"><img src="/assets/img/apps/icons/quickone.webp" alt="" width="40" height="40" loading="lazy">QuickOne Scanner</a>
+          <a href="/momerago/"><img src="/assets/img/apps/icons/momerago.webp" alt="" width="40" height="40" loading="lazy">Momera GO</a>
+          <a href="/mcmuse/"><img src="/assets/img/apps/icons/mcmuse.webp" alt="" width="40" height="40" loading="lazy">McMuse</a>
         </div>
       </div>
     </section>
 
   </main>
 
-  <footer class="site-footer">
-    <div class="footer-simple">
-      <p>© <span id="year">2026</span> iDataGear Inc · <span class="mclearn-mark" role="text" aria-label="McLearn registered trademark">McLearn</span></p>
-      <nav aria-label="Footer">
-        <a href="../index.html">Home</a>
-        <a href="learnchinese/">Learn Chinese app</a>
-        <a href="chinese_privacy.html">Privacy</a>
-        <a href="chinese_contactus.html">Contact</a>
-        <a href="mailto:idatagear@gmail.com">idatagear@gmail.com</a>
-      </nav>
+  <!-- partial:footer -->
+<footer class="site-footer">
+  <div class="wrap footer-grid">
+    <div class="footer-brand">
+      <a class="brand" href="/">
+        <img src="/assets/img/brand/logo-96.webp" alt="" width="36" height="36" loading="lazy">
+        <span>iDataGear</span>
+      </a>
+      <p>iDataGear Inc makes McLearn® language apps and everyday tools for iPhone, iPad, Android and the web, from Toronto and Hong Kong.</p>
+      <div class="footer-stores">
+        <a class="btn btn-outline btn-sm" href="https://apps.apple.com/us/developer/zhijiang-zhang/id6797105975" rel="noopener">All apps on the App Store</a>
+        <a class="btn btn-outline btn-sm" href="https://play.google.com/store/apps/developer?id=iDataGear" rel="noopener">All apps on Google Play</a>
+      </div>
     </div>
-  </footer>
-
-  <script src="../assets/js/main.js" defer></script>
+    <nav aria-label="Apps">
+      <h2>Apps</h2>
+      <a href="/chinese/">McChinese — Learn Chinese</a>
+      <a href="/cantonese/">McCantonese</a>
+      <a href="/english/">McEnglish — ALL English</a>
+      <a href="/gcd/guide/">Great Cantonese Dictionary</a>
+      <a href="/xiezi/guide/">Xie Zi 写字板</a>
+      <a href="/quickonescanner/">QuickOne Scanner</a>
+      <a href="/momerago/">Momera GO</a>
+      <a href="/mcmuse/">McMuse</a>
+    </nav>
+    <nav aria-label="More apps">
+      <h2>More apps</h2>
+      <a href="/eyeballit/">Eyeball It!</a>
+      <a href="https://play.google.com/store/apps/details?id=com.idatagear.momera" rel="noopener">Momera.ME</a>
+      <a href="/interview/">Open Interview</a>
+      <a href="/tttt/">Tic Tac Toe Toe</a>
+      <a href="/siding/">Si Ding 四顶</a>
+    </nav>
+    <nav aria-label="Company">
+      <h2>Company</h2>
+      <a href="/#about">About iDataGear</a>
+      <a href="/#services">Software &amp; data services</a>
+      <a href="/contactus.html">Contact</a>
+      <a href="/privacy.html">Privacy policy</a>
+      <a href="mailto:idatagear@gmail.com">idatagear@gmail.com</a>
+    </nav>
+  </div>
+  <div class="wrap footer-base">
+    <p>© <span data-year>2026</span> iDataGear Inc. McLearn® is a registered trademark of iDataGear Inc.</p>
+    <p>App Store is a service mark of Apple Inc. Google Play is a trademark of Google LLC.</p>
+  </div>
+</footer>
+<!-- /partial:footer -->
 </body>
 </html>
